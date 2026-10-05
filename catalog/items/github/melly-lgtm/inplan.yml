@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__melly-lgtm__inplan__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,13 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: inplan
         extracted_url: https://github.com/melly-lgtm/inplan
-        surrounding_text: >-
-          - **[inplan](https://github.com/melly-lgtm/inplan)** – A Markdown editor for human and coding-agent
-          collaboration on planning, design, and spec documents. Installs as an agent skill for Claude Code, Codex, and
-          Pi: the agent drafts the plan and poses open questions as inline comments, then you review, answer, and edit
-          in a turn-based loop while it revises, until the doc is done. Ships a desktop editor and a CLI, with the
-          agent's proposed edits shown as reviewable diffs. Free and open source (AGPL-3.0). Install: `npm install -g
-          inplan`.
+        surrounding_text: "- **[inplan](https://github.com/melly-lgtm/inplan)** – A Markdown editor for human and coding-agent collaboration on planning, design, and spec documents. Installs as an agent skill for Claude Code, Codex, and Pi: the agent drafts the plan and poses open questions as inline comments, then you review, answer, and edit in a turn-based loop while it revises, until the doc is done. Ships a desktop editor and a CLI, with the agent's proposed edits shown as reviewable diffs. Free and open source (AGPL-3.0). Install: `npm install -g inplan`."
         confidence: high
 metadata:
   github:
@@ -52,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.28 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.28 below gate 0.50; proposed extensions-and-addons / Claude Code & Agent Tools; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - extensions-and-addons
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

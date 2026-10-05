@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carlaiau__read-with-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,22 @@ provenance:
           - Demos & playgrounds
         anchor_text: read-with-jev
         extracted_url: https://github.com/carlaiau/read-with-jev
-        surrounding_text: >-
-          - [read-with-jev](https://github.com/carlaiau/read-with-jev) ([site](https://www.readwithjev.com)) - A Demo of
-          using JEV to classify various attributes of a book, and present that to the reader to augment the reading
-          experience.
+        surrounding_text: "- [read-with-jev](https://github.com/carlaiau/read-with-jev) ([site](https://www.readwithjev.com)) - A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the reading experience."
+        confidence: high
+    - id: discovery__github__carlaiau__readwithjev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Demos & playgrounds
+        anchor_text: site
+        extracted_url: https://readwithjev.com
+        surrounding_text: "- [read-with-jev](https://github.com/carlaiau/read-with-jev) ([site](https://www.readwithjev.com)) - A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the reading experience."
         confidence: high
 metadata:
   github:
@@ -32,11 +44,9 @@ metadata:
     archived: false
     full_name: carlaiau/read-with-jev
     html_url: https://github.com/carlaiau/read-with-jev
-    created_at: '2026-09-18T11:27:33Z'
-    pushed_at: '2026-09-24T03:55:49Z'
-    description: >-
-      A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the
-      reading experience
+    created_at: "2026-09-18T11:27:33Z"
+    pushed_at: "2026-09-24T03:55:49Z"
+    description: A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the reading experience
     homepage: https://www.readwithjev.com
     topics:
       - attribution
@@ -46,14 +56,12 @@ metadata:
       - narratology
       - reader
       - sentiment-analysis
-    last_checked_at: '2026-09-29T13:09:42.386Z'
+    last_checked_at: "2026-09-29T13:09:42.648Z"
     readme:
-      fetched_at: '2026-09-29T13:09:42.386Z'
+      fetched_at: "2026-09-29T13:09:42.648Z"
       bytes: 16647
 insights:
-  summary: >-
-    A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the reading
-    experience
+  summary: A Demo of using JEV to classify various attributes of a book, and present that to the reader to augment the reading experience
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,25 +71,25 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
   evidence:
     - jev-latest choice confidence 0.78
+    - jev-latest choice confidence 0.75
 placement:
   primary_category: decision-models
-  secondary_categories: []
   section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: '2026-09-29T13:09:42.386Z'
-    cause: null
-    next_retry_at: null
   categorize:
     status: pending
     updated_at: null
     cause: null
+  discover:
+    status: done
+    updated_at: "2026-09-29T13:07:10.451Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-29T13:09:42.648Z"
+    cause: null
+    next_retry_at: null

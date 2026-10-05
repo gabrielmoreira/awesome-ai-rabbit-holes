@@ -5,9 +5,8 @@ canonical_url: https://www.microsoft.com/en-us/power-platform/products/power-app
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__www__microsoft__com__en__us__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-12T15:06:19.300Z'
+    - id: discovery__www__microsoft__com__en__us__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Microsoft Power Apps
         extracted_url: https://powerapps.microsoft.com
-        surrounding_text: >-
-          - **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered
-          app generation.
+        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
         confidence: high
 metadata:
   github:
@@ -40,24 +37,20 @@ metadata:
     readme: null
 insights:
   summary: Microsoft's enterprise low-code platform for building business applications with integrated AI assistance.
-  why_it_matters: >-
-    It enables the rapid creation of governed, full-stack business applications through natural language and low-code
-    components.
-  mental_damage: It offers the speed of generative AI, but only within the safe, highly-governed confines of the Microsoft ecosystem.
+  why_it_matters: It enables the rapid creation of internal business tools through natural language and visual interfaces.
+  mental_damage: It is where the 'vibe coding' dream goes to be governed, audited, and billed at an enterprise scale.
   tags:
     - low-code
     - enterprise
-    - microsoft
     - business-apps
+    - microsoft
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a broad enterprise low-code platform where AI is a major integrated feature rather than a developer-centric
-    prompt-to-app tool.
+  reason: It is primarily a traditional enterprise low-code platform where AI is a powerful feature rather than an AI-first developer tool.
   evidence:
-    - Gartner and Forrester categorize it as an Enterprise Low-Code platform
-    - AI capabilities like Copilot are integrated features of a much larger, pre-existing product suite
+    - Scraped content identifies it as a low-code platform for business users and enterprise solutions
+    - The product's primary identity is the Power Platform ecosystem, making AI an augmentation rather than the core product identity
 placement:
   primary_category: null
   secondary_categories: []
@@ -68,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-12T15:06:19.301Z'
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,25 +70,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:17:30.764Z'
+    updated_at: "2026-10-05T04:22:34.795Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c78bdee726868d1be3c64e8589de757017ea20ab22c5bfb9753a9bbb15917762
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5d9af94fa72e60debfec8549c6a9fea2cb7c334f7984321fc2c1310736a65401
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a broad enterprise low-code platform where AI is a major integrated feature rather than a
-        developer-centric prompt-to-app tool.
+      decision_reason: It is primarily a traditional enterprise low-code platform where AI is a powerful feature rather than an AI-first developer tool.
       decision_evidence:
-        - Gartner and Forrester categorize it as an Enterprise Low-Code platform
-        - AI capabilities like Copilot are integrated features of a much larger, pre-existing product suite
+        - Scraped content identifies it as a low-code platform for business users and enterprise solutions
+        - The product's primary identity is the Power Platform ecosystem, making AI an augmentation rather than the core product identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

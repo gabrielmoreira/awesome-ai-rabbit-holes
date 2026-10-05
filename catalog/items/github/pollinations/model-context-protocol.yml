@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pollinations__model-context-protocol__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Pollinations
         extracted_url: https://github.com/pollinations/model-context-protocol
-        surrounding_text: >-
-          - **[Pollinations](https://github.com/pollinations/model-context-protocol)** - Multimodal MCP server for
-          generating images, audio, and text with no authentication required
+        surrounding_text: "- **[Pollinations](https://github.com/pollinations/model-context-protocol)** - Multimodal MCP server for generating images, audio, and text with no authentication required"
         confidence: high
 metadata:
   github:
@@ -46,9 +44,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for pollinations/model-context-protocol
     - ungh.cc (cached GitHub proxy) returned 404 for pollinations/model-context-protocol
@@ -63,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.643Z'
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-07-23T05:09:45.903Z'
+    updated_at: "2026-07-23T05:09:45.903Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for pollinations/model-context-protocol
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

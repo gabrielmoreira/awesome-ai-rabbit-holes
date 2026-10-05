@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pagerduty__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: PagerDuty
         extracted_url: https://pagerduty.com
-        surrounding_text: '- **[PagerDuty](https://www.pagerduty.com/)** – AI-powered incident management and response automation.'
+        surrounding_text: "- **[PagerDuty](https://www.pagerduty.com/)** – AI-powered incident management and response automation."
         confidence: high
     - id: discovery__www__pagerduty__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: PagerDuty
         extracted_url: https://www.pagerduty.com
-        surrounding_text: '- **[PagerDuty](https://www.pagerduty.com/)** – AI-powered incident management and response automation.'
+        surrounding_text: "- **[PagerDuty](https://www.pagerduty.com/)** – AI-powered incident management and response automation."
         confidence: high
 metadata:
   github:
@@ -51,34 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    PagerDuty is an AI-first incident management and operations platform that automates detection, response, and
-    resolution of critical issues across enterprise systems.
-  why_it_matters: >-
-    It reduces mean-time-to-action and automates SRE workflows, letting engineers focus on building rather than
-    firefighting.
-  mental_damage: Another platform promising to 'turn incidents into intelligence' while your on-call pager still screams at 3 a.m.
+  summary: PagerDuty is an AI-first operations platform for incident management, automation, and enterprise reliability.
+  why_it_matters: It helps developers reduce incident response time and toil by automating detection, triage, and resolution with AI agents and 750+ integrations.
+  mental_damage: Another platform promising to 'shift left' on incidents while quietly adding more dashboards, Slack bots, and MCP adapters to your stack.
   tags:
     - incident-management
     - ai-agents
     - devops
     - automation
+    - mcp
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    PagerDuty is an enterprise operations and incident management platform whose AI features support workflow automation
-    and alert triage, not developer-facing coding tasks or code generation.
+  reason: PagerDuty is an enterprise operations and incident management platform whose core value is not developer-facing AI tooling but broader IT reliability, making it outside the catalog's scope despite some developer integrations.
   evidence:
-    - >-
-      Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools, indicating
-      adjacency but not core developer tooling identity.
-    - >-
-      README and site context emphasize incident detection, automated resolution, SRE agents, and enterprise
-      integrations — not code editing, writing, or repo interaction.
-    - >-
-      Core identity is an AI-enhanced operations cloud for mission-critical work, not a coding agent, app builder, or
-      dev tool that acts on codebases.
+    - Scraped site context describes PagerDuty as an 'AI-first Operations Platform' for 'mission-critical work in the modern enterprise' with features like Incident Management, AIOps, and Automation.
+    - Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure' with the pitch 'Turn incidents into intelligence' via AI agents that automate, resolve, and prevent critical issues.
+    - "README excerpt emphasizes enterprise use cases: reducing responder count by 25%, cutting audit time by 90%, and integrating with tools like Slack, Jira, and AWS — not coding workflows or code generation."
 placement:
   primary_category: null
   section: null
@@ -88,39 +77,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:43:45.331Z'
+    updated_at: "2026-10-05T04:49:47.500Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b3318d6912cab3da62b88e6f32026059568ad3b7d5872eb6df84ae3c525a5d41
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8f8d785f71f184036d204e45b6c7d5f5f89c368dea3157e81e742e53c576cfac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        PagerDuty is an enterprise operations and incident management platform whose AI features support workflow
-        automation and alert triage, not developer-facing coding tasks or code generation.
+      decision_reason: PagerDuty is an enterprise operations and incident management platform whose core value is not developer-facing AI tooling but broader IT reliability, making it outside the catalog's scope despite some developer integrations.
       decision_evidence:
-        - >-
-          Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools, indicating
-          adjacency but not core developer tooling identity.
-        - >-
-          README and site context emphasize incident detection, automated resolution, SRE agents, and enterprise
-          integrations — not code editing, writing, or repo interaction.
-        - >-
-          Core identity is an AI-enhanced operations cloud for mission-critical work, not a coding agent, app builder,
-          or dev tool that acts on codebases.
+        - Scraped site context describes PagerDuty as an 'AI-first Operations Platform' for 'mission-critical work in the modern enterprise' with features like Incident Management, AIOps, and Automation.
+        - Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure' with the pitch 'Turn incidents into intelligence' via AI agents that automate, resolve, and prevent critical issues.
+        - "README excerpt emphasizes enterprise use cases: reducing responder count by 25%, cutting audit time by 90%, and integrating with tools like Slack, Jira, and AWS — not coding workflows or code generation."
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__datajuicer__data-juicer__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: data-juicer
         extracted_url: https://github.com/modelscope/data-juicer
-        surrounding_text: >-
-          3. [data-juicer](https://github.com/modelscope/data-juicer): A one-stop data processing system to make data
-          higher-quality, juicier, and more digestible for LLMs!
+        surrounding_text: "3. [data-juicer](https://github.com/modelscope/data-juicer): A one-stop data processing system to make data higher-quality, juicier, and more digestible for LLMs!"
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: datajuicer/data-juicer
     html_url: https://github.com/datajuicer/data-juicer
-    created_at: '2023-08-01T09:16:41Z'
-    pushed_at: '2026-09-09T07:12:13Z'
+    created_at: "2023-08-01T09:16:41Z"
+    pushed_at: "2026-09-09T07:12:13Z"
     description: Data processing for and with foundation models!  🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷
     homepage: https://datajuicer.github.io/data-juicer/
     topics:
@@ -50,20 +48,14 @@ metadata:
       - multi-modal
       - pre-training
       - synthetic-data
-    last_checked_at: '2026-09-14T04:13:34.828Z'
+    last_checked_at: "2026-09-14T04:13:34.828Z"
     readme:
-      fetched_at: '2026-09-14T04:13:34.828Z'
+      fetched_at: "2026-09-14T04:13:34.828Z"
       bytes: 22651
 insights:
-  summary: >-
-    A data processing pipeline toolkit for preparing and managing datasets for foundation models, including instruction
-    tuning and synthetic data generation.
-  why_it_matters: >-
-    It helps developers preprocess, transform, and optimize datasets for training or fine-tuning large language models,
-    addressing a critical bottleneck in AI workflows.
-  mental_damage: >-
-    Because nothing says 'fun' like realizing your model's hallucinations could have been fixed with better data
-    juicing.
+  summary: A data processing pipeline toolkit for preparing and managing datasets for foundation models, including instruction tuning and synthetic data generation.
+  why_it_matters: It helps developers preprocess, transform, and optimize datasets for training or fine-tuning large language models, addressing a critical bottleneck in AI workflows.
+  mental_damage: Because nothing says 'fun' like realizing your model's hallucinations could have been fixed with better data juicing.
   tags:
     - data-processing
     - llm-training
@@ -72,9 +64,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a data processing toolkit for foundation models, not a developer-facing coding assistant, IDE,
-    extension, or workflow tool.
+  reason: The project is a data processing toolkit for foundation models, not a developer-facing coding assistant, IDE, extension, or workflow tool.
   evidence:
     - Repo description focuses on data processing for foundation models
     - Topics include data-pipeline, instruction-tuning, synthetic-data, and pre-training
@@ -88,17 +78,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.610Z'
+    updated_at: "2026-05-06T22:12:15.610Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:34.828Z'
+    updated_at: "2026-09-14T04:13:34.828Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -113,9 +103,7 @@ processing:
       input_hash: sha256:4417c15975438ad086a86cdad80d5d866cd3c39e594f79a22d939671b955e6ca
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a data processing toolkit for foundation models, not a developer-facing coding assistant, IDE,
-        extension, or workflow tool.
+      decision_reason: The project is a data processing toolkit for foundation models, not a developer-facing coding assistant, IDE, extension, or workflow tool.
       decision_evidence:
         - Repo description focuses on data processing for foundation models
         - Topics include data-pipeline, instruction-tuning, synthetic-data, and pre-training

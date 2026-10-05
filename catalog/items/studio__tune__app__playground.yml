@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__studio__tune__app__playground__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - Developer tools
         anchor_text: Tune Studio
         extracted_url: https://studio.tune.app/playground
-        surrounding_text: >-
-          - [Tune Studio](https://studio.tune.app/playground) - Playground for software developers to finetune and
-          deploy large language models.
+        surrounding_text: "- [Tune Studio](https://studio.tune.app/playground) - Playground for software developers to finetune and deploy large language models."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Tune Studio's Playground is a web-based interface for experimenting with and tuning AI models via prompt and
-    parameter adjustments.
-  why_it_matters: >-
-    It lets developers iteratively refine model behavior without writing code, useful for prototyping prompts or testing
-    model outputs.
-  mental_damage: Another click-and-pray UI where you tweak temperature sliders hoping the model finally understands your intent.
+  summary: Playground is a web-based interface for experimenting with Tune Studio's AI models and tools.
+  why_it_matters: Lets developers test and prototype with AI models in a browser before integrating them into code.
+  mental_damage: Another sandbox where you can waste time tweaking prompts that never make it into production.
   tags:
-    - prompt-tuning
-    - model-playground
-    - ai-experimentation
-  confidence: high
+    - ai-playground
+    - model-experimentation
+  confidence: medium
 curation:
   status: excluded
-  reason: >-
-    The Playground is a hosted model tuning interface with no developer-facing tooling identity — it's a feature of a
-    broader SaaS platform, not a standalone developer tool for coding, agents, or workflows.
+  reason: Excluded because it is a generic model experimentation interface with no developer-tooling specificity or workflow integration.
   evidence:
-    - URL is studio.tune.app/playground, indicating a hosted SaaS service
-    - No GitHub repo, stars, or version control signals suggest it's not developer-distributable tooling
-    - Appears in awesome-local-ai only as a peripheral listing under 'Developer tools' with no functional description
+    - Source URL is a hosted playground (studio.tune.app/playground), not a GitHub repo or developer tool
+    - Appears in awesome-local-ai under 'Developer tools' but lacks concrete developer-facing functionality
+    - No evidence of code editing, agent behavior, framework usage, or workflow automation
 placement:
   primary_category: null
   section: null
@@ -68,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,28 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:15.136Z'
+    updated_at: "2026-10-05T04:45:37.248Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:508cccdd542954ea338ea32826f69ad1f6c3fefce9ecd3df2c4e6eec324b98f9
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9b5eabdbf31e1a2b7551ea07720c7a37f804f1c279aabdf8ecbbb4b612ceb250
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The Playground is a hosted model tuning interface with no developer-facing tooling identity — it's a feature of
-        a broader SaaS platform, not a standalone developer tool for coding, agents, or workflows.
+      decision_reason: Excluded because it is a generic model experimentation interface with no developer-tooling specificity or workflow integration.
       decision_evidence:
-        - URL is studio.tune.app/playground, indicating a hosted SaaS service
-        - No GitHub repo, stars, or version control signals suggest it's not developer-distributable tooling
-        - >-
-          Appears in awesome-local-ai only as a peripheral listing under 'Developer tools' with no functional
-          description
+        - Source URL is a hosted playground (studio.tune.app/playground), not a GitHub repo or developer tool
+        - Appears in awesome-local-ai under 'Developer tools' but lacks concrete developer-facing functionality
+        - No evidence of code editing, agent behavior, framework usage, or workflow automation
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__greptimeteam__greptimedb__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Official Servers
         anchor_text: GreptimeDB
         extracted_url: https://github.com/greptimeteam/greptimedb
-        surrounding_text: >-
-          - **[GreptimeDB](https://github.com/GreptimeTeam/greptimedb-mcp-server)** - Provides AI assistants with a
-          secure and structured way to explore and analyze data in
-          [GreptimeDB](https://github.com/GreptimeTeam/greptimedb).
+        surrounding_text: "- **[GreptimeDB](https://github.com/GreptimeTeam/greptimedb-mcp-server)** - Provides AI assistants with a secure and structured way to explore and analyze data in [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)."
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: GreptimeTeam/greptimedb
     html_url: https://github.com/GreptimeTeam/greptimedb
-    created_at: '2022-04-11T03:46:48Z'
-    pushed_at: '2026-09-03T05:09:22Z'
+    created_at: "2022-04-11T03:46:48Z"
+    pushed_at: "2026-09-03T05:09:22Z"
     description: The open-source observability database. One columnar engine for metrics, logs, and traces, on object storage.
     homepage: https://greptime.com/product/db
     topics:
@@ -54,20 +51,14 @@ metadata:
       - self-hosted
       - traces
       - wide-events
-    last_checked_at: '2026-09-03T05:16:54.927Z'
+    last_checked_at: "2026-09-03T05:16:54.927Z"
     readme:
-      fetched_at: '2026-09-03T05:16:54.927Z'
+      fetched_at: "2026-09-03T05:16:54.927Z"
       bytes: 15939
 insights:
-  summary: >-
-    An open-source observability database that unifies metrics, logs, and traces into a single backend, replacing
-    Prometheus, Loki, and Elasticsearch.
-  why_it_matters: >-
-    Developers can consolidate observability pipelines into one database with SQL + PromQL support, reducing operational
-    complexity and costs for high-scale telemetry.
-  mental_damage: >-
-    Finally, a database that treats your logs, metrics, and traces like adults sharing a house instead of feuding
-    roommates.
+  summary: An open-source observability database that unifies metrics, logs, and traces into a single backend, replacing Prometheus, Loki, and Elasticsearch.
+  why_it_matters: Developers can consolidate observability pipelines into one database with SQL + PromQL support, reducing operational complexity and costs for high-scale telemetry.
+  mental_damage: Finally, a database that treats your logs, metrics, and traces like adults sharing a house instead of feuding roommates.
   tags:
     - observability
     - database
@@ -77,9 +68,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    GreptimeDB is an observability database infrastructure product, not a developer-facing AI tool, agent, or workflow
-    for building or coding.
+  reason: GreptimeDB is an observability database infrastructure product, not a developer-facing AI tool, agent, or workflow for building or coding.
   evidence:
     - Repo description explicitly positions it as an observability database replacing Prometheus/Loki/ES
     - README emphasizes unified telemetry backend, SQL/PromQL querying, and cost savings for observability workloads
@@ -93,17 +82,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.617Z'
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:54.927Z'
+    updated_at: "2026-09-03T05:16:54.927Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -118,9 +107,7 @@ processing:
       input_hash: sha256:2388f0ab9efc916b0208f0028bb8b342e13510abf22421f9ec98af9b77562d95
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        GreptimeDB is an observability database infrastructure product, not a developer-facing AI tool, agent, or
-        workflow for building or coding.
+      decision_reason: GreptimeDB is an observability database infrastructure product, not a developer-facing AI tool, agent, or workflow for building or coding.
       decision_evidence:
         - Repo description explicitly positions it as an observability database replacing Prometheus/Loki/ES
         - README emphasizes unified telemetry backend, SQL/PromQL querying, and cost savings for observability workloads

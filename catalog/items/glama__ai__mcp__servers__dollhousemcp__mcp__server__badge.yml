@@ -37,25 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server exposing a badge generation tool via the Model Context Protocol.
-  why_it_matters: Lets AI agents create and serve badge images (like shields.io) through a standardized tool interface.
-  mental_damage: Another MCP server that does one tiny thing, because apparently we needed a protocol just to generate SVG badges.
+  summary: An MCP server providing a badge generation tool for use with AI assistants via the Model Context Protocol.
+  why_it_matters: It gives AI agents a simple way to create visual badges, useful for status indicators or lightweight UI generation in developer workflows.
+  mental_damage: Yet another MCP server turning a trivial CLI tool into a protocol-compliant microservice, just to feel part of the ecosystem.
   tags:
     - mcp
-    - tool
-    - badge
-  confidence: medium
+    - cli-tool
+    - badge-generation
+  confidence: high
 curation:
-  status: included
-  reason: The product's primary identity is an MCP server exposing a badge generation tool, making MCP the core protocol identity rather than a side feature.
+  status: excluded
+  reason: The tool is an MCP server whose identity is the MCP protocol, not a developer-facing agent or tool; MCP compatibility alone is insufficient for inclusion.
   evidence:
-    - "URL path indicates it is an MCP server: /mcp/servers/DollhouseMCP/mcp-server/badge"
-    - The tool exposes a badge generation capability over the Model Context Protocol
-    - No evidence of broader product identity — MCP server is the sole described function
+    - URL indicates it is an MCP server under glama.ai/mcp/servers/
+    - The tool's function is badge generation, a minor utility with no core developer workflow impact
+    - No evidence of standalone agent behavior, framework identity, or orchestration role
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Dev & Code Tools
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -71,27 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-01T04:28:12.275Z"
+    updated_at: "2026-10-05T05:01:38.468Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4b426a44822fd49151a60f171d6818a922a4f7f43851eca0b319b8f2fb944c62
-      proposed_primary_category: mcp
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cf5f87010d44087353b2cdcf8b06e502025a04d4031b91fb853d2b267a64771f
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The product's primary identity is an MCP server exposing a badge generation tool, making MCP the core protocol identity rather than a side feature.
+      decision_reason: The tool is an MCP server whose identity is the MCP protocol, not a developer-facing agent or tool; MCP compatibility alone is insufficient for inclusion.
       decision_evidence:
-        - "URL path indicates it is an MCP server: /mcp/servers/DollhouseMCP/mcp-server/badge"
-        - The tool exposes a badge generation capability over the Model Context Protocol
-        - No evidence of broader product identity — MCP server is the sole described function
-      category_candidates:
-        - mcp
-        - extensions-and-addons
-      contrastive_reason: Choose MCP over extensions-and-addons because the product is an MCP server exposing tools over the protocol, not an extension that augments a coding agent or editor.
+        - URL indicates it is an MCP server under glama.ai/mcp/servers/
+        - The tool's function is badge generation, a minor utility with no core developer workflow impact
+        - No evidence of standalone agent behavior, framework identity, or orchestration role
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

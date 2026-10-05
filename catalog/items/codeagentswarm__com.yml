@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codeagentswarm__com__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,12 +19,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: CodeAgentSwarm
         extracted_url: https://codeagentswarm.com
-        surrounding_text: >-
-          - **[CodeAgentSwarm](https://www.codeagentswarm.com)** — macOS and Windows desktop workspace for running
-          Claude Code, Codex CLI, Antigravity CLI, OpenCode, Kimi Code, and Grok Build side by side in supervised
-          terminals; live per-terminal diffs, cross-agent conversation history, desktop notifications, git worktree
-          workflows, and an MCP-updated kanban board. Closed source, account required; Pro free during the open beta
-          (€6.99/mo after).
+        surrounding_text: "- **[CodeAgentSwarm](https://www.codeagentswarm.com)** — macOS and Windows desktop workspace for running Claude Code, Codex CLI, Antigravity CLI, OpenCode, Kimi Code, and Grok Build side by side in supervised terminals; live per-terminal diffs, cross-agent conversation history, desktop notifications, git worktree workflows, and an MCP-updated kanban board. Closed source, account required; Pro free during the open beta (€6.99/mo after)."
         confidence: high
 metadata:
   github:
@@ -42,31 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CodeAgentSwarm — macOS and Windows desktop workspace for running Claude Code, Codex CLI, Antigravity CLI, OpenCode,
-    Kimi Code, and Grok Build side by side in supervised terminals; live per-terminal diffs, cross-agent conversation
-    history, desktop notifications, git worktree workflows, and an MCP-updated kanban board. Closed source, account
-    required; Pro free during the open beta (€6.99/mo after).
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: codeagentswarm.com is a website promoting AI coding agent orchestration harnesses and session managers.
+  why_it_matters: It serves as a navigation resource for developers seeking terminal-native AI coding agents and their coordination tools.
+  mental_damage: Another curated list promising to simplify agent selection while adding yet another tab to the ever-growing ecosystem of AI workflow directories.
+  tags:
+    - directory
+    - ai-agents
+    - orchestration
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  status: excluded
+  reason: Excluded because it is a curated directory with no standalone product identity, and the catalog already includes awesome-awesomes for such resources.
   evidence:
-    - jev-latest choice confidence 0.80
+    - "Seen in source list: awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'"
+    - No GitHub repo, stars, or activity signals provided — only a website promoting agent harnesses
+    - Primary value is curation and discovery, not delivering a tool, framework, or agent that developers directly use
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:13.111Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0cce5d22cf6385daa654cffac4530450d2a177d873161b865a8ec34dfd5864af
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded because it is a curated directory with no standalone product identity, and the catalog already includes awesome-awesomes for such resources.
+      decision_evidence:
+        - "Seen in source list: awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'"
+        - No GitHub repo, stars, or activity signals provided — only a website promoting agent harnesses
+        - Primary value is curation and discovery, not delivering a tool, framework, or agent that developers directly use
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

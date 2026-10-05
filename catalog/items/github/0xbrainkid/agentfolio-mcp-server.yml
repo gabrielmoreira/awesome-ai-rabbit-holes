@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xbrainkid__agentfolio-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,10 +20,7 @@ provenance:
           - ⚖️ Legal & Compliance
         anchor_text: 0xbrainkid/agentfolio-mcp-server
         extracted_url: https://github.com/0xbrainkid/agentfolio-mcp-server
-        surrounding_text: >-
-          -   **[0xbrainkid/agentfolio-mcp-server](https://github.com/0xbrainkid/agentfolio-mcp-server)** [![GitHub
-          stars](https://img.shields.io/github/stars/0xbrainkid/agentfolio-mcp-server?style=social)](https://github.com/0xbrainkid/agentfolio-mcp-server):
-          AI agent identity verification, trust scores, and marketplace access via Solana Agent Trust Protocol (SATP).
+        surrounding_text: "-   **[0xbrainkid/agentfolio-mcp-server](https://github.com/0xbrainkid/agentfolio-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/0xbrainkid/agentfolio-mcp-server?style=social)](https://github.com/0xbrainkid/agentfolio-mcp-server): AI agent identity verification, trust scores, and marketplace access via Solana Agent Trust Protocol (SATP)."
         confidence: high
 metadata:
   github:
@@ -33,21 +30,17 @@ metadata:
     archived: false
     full_name: 0xbrainkid/agentfolio-mcp-server
     html_url: https://github.com/0xbrainkid/agentfolio-mcp-server
-    created_at: '2026-03-07T23:00:55Z'
-    pushed_at: '2026-03-25T09:09:36Z'
-    description: >-
-      MCP server for AgentFolio — AI agent identity, trust scores, and marketplace for Claude Desktop, Cursor & any MCP
-      client
+    created_at: "2026-03-07T23:00:55Z"
+    pushed_at: "2026-03-25T09:09:36Z"
+    description: MCP server for AgentFolio — AI agent identity, trust scores, and marketplace for Claude Desktop, Cursor & any MCP client
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:13.952Z'
+    last_checked_at: "2026-09-29T13:08:13.952Z"
     readme:
-      fetched_at: '2026-09-29T13:08:13.952Z'
+      fetched_at: "2026-09-29T13:08:13.952Z"
       bytes: 3391
 insights:
-  summary: >-
-    MCP server for AgentFolio — AI agent identity, trust scores, and marketplace for Claude Desktop, Cursor & any MCP
-    client
+  summary: MCP server for AgentFolio — AI agent identity, trust scores, and marketplace for Claude Desktop, Cursor & any MCP client
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,15 +60,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:13.952Z'
+    updated_at: "2026-09-29T13:08:13.952Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:10:07.839Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__0xbrainkid__agentfolio-mcp-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

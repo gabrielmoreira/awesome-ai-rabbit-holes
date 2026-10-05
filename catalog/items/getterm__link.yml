@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getterm__link__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,14 +19,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: TermLink
         extracted_url: https://getterm.link
-        surrounding_text: >-
-          - **[TermLink](https://www.getterm.link)** — Remote access to agent sessions from any browser or phone:
-          register each machine once with `termlink host` and they all appear in one list, each card showing that
-          agent's latest message so you can tell which one is working and which is blocked. The host dials out, so there
-          is no inbound port, SSH key, or VPN. Auto-Yes answers the permission prompts of Claude Code, Codex CLI, and
-          Cursor Agent per session, and pasting a screenshot onto the terminal uploads it to the host and types its path
-          in. macOS, Linux, and Windows hosts. [Relay protocol is open
-          source](https://github.com/bertshim/termlink-relay) (Apache-2.0); hosted service with a free plan.
+        surrounding_text: "- **[TermLink](https://www.getterm.link)** — Remote access to agent sessions from any browser or phone: register each machine once with `termlink host` and they all appear in one list, each card showing that agent's latest message so you can tell which one is working and which is blocked. The host dials out, so there is no inbound port, SSH key, or VPN. Auto-Yes answers the permission prompts of Claude Code, Codex CLI, and Cursor Agent per session, and pasting a screenshot onto the terminal uploads it to the host and types its path in. macOS, Linux, and Windows hosts. [Relay protocol is open source](https://github.com/bertshim/termlink-relay) (Apache-2.0); hosted service with a free plan."
         confidence: high
 metadata:
   github:
@@ -44,17 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TermLink — Remote access to agent sessions from any browser or phone: register each machine once with termlink host
-    and they all appear in one list, each card showing that agent's latest message so you can tell which one is working
-    and which is blocked. The host dials out, so there is no inbound port, SSH key, or VPN. Auto-Yes answers the
-    permission prompts of Claude Code, Codex CLI, and Cursor Agent per session, and pasting a screenshot onto the
-    terminal uploads it to the host and types its path in. macOS, Linux, and Windows hosts. Relay protocol is open
-    source (Apache-2.0); hosted service with a free plan.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TermLink is a session manager that lets developers view and control Claude Code, Codex, and other terminal AI agent sessions from any browser or device without requiring API keys or open ports.
+  why_it_matters: It solves the fragmentation of AI coding agent sessions across devices by providing a unified, portable interface that preserves session state and eliminates setup complexity.
+  mental_damage: Finally, a way to feel productive while your AI agent idles at a usage limit — now you can check on its stalled progress from the toilet.
+  tags:
+    - session-manager
+    - ai-coding-agents
+    - remote-access
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
@@ -64,25 +54,47 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:57.780Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cfce51bff3f4eeead669852749880d56aaafead6d35a4aa8ffc7ce2e3fc774ed
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: TermLink is included as an extension because it augments existing coding agents like Claude Code and Codex with multi-session management and remote access, rather than acting as a primary coding agent itself.
+      decision_evidence:
+        - TermLink manages Claude Code and Codex sessions without replacing them or adding token costs
+        - It enables remote access to existing agent sessions via browser or phone with no API keys or open ports
+        - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because TermLink’s primary function is managing and extending existing agent sessions, not autonomously writing or editing code.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

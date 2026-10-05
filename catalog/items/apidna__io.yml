@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__apidna__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - APIDNA
         anchor_text: APIDNA
         extracted_url: https://apidna.ai
-        surrounding_text: '## [APIDNA](https://apidna.ai/)'
+        surrounding_text: "## [APIDNA](https://apidna.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,25 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An enterprise agent execution platform that automates complex, domain-specific workflows across APIs, databases, and
-    legacy systems.
-  why_it_matters: >-
-    It targets the gap between chat-based AI demos and reliable, auditable production operations by using
-    vertically-trained agents rather than general-purpose prompts.
-  mental_damage: >-
-    Because apparently, 'it worked in my playground' is no longer a valid excuse for why the reconciliation agent just
-    hallucinated an entire financial quarter.
+  summary: APIDNA is a platform that builds and operates vertically-trained AI agents to automate complex enterprise workflows across systems.
+  why_it_matters: It offers developers a way to deploy reliable, auditable agent systems for regulated industries without building custom orchestration or integration layers.
+  mental_damage: Finally, an AI agent that doesn’t just hallucinate your workflow — it executes it, and bills you by the transaction.
   tags:
     - ai-agents
-    - workflow-automation
-    - enterprise-ai
-  confidence: medium
+    - enterprise-automation
+    - workflow-orchestration
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Domain & Enterprise Platforms
+  reason: APIDNA’s core value is coordinating multiple specialized agents to execute cross-system workflows with governance, making it an enterprise agent orchestration platform rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.87
+    - Deploys and coordinates multiple agents (ReconciliationAgent, ComplianceAgent, etc.) working in parallel on interdependent tasks
+    - Platform includes workflow routing, state management, and human escalation paths for multi-agent coordination
+    - Execution layer integrates natively with APIs, databases, ERPs, and legacy systems to enable cross-system agent actions
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:10.509Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for apidna__io: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:24.165Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:017ec20ae86a6f3e22428a3cc062173fc927b5c5794a0099fad0f9d4975636bc
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4d092b8d2146208c67698b9575156d1e927476ce0d123cf60b41029c8a6e67ad
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        APIDNA is an operated execution platform that coordinates multiple specialized agents to perform complex,
-        multi-step business workflows.
+      decision_reason: APIDNA’s core value is coordinating multiple specialized agents to execute cross-system workflows with governance, making it an enterprise agent orchestration platform rather than a coding agent or extension.
       decision_evidence:
-        - APIDNA deploys and coordinates multiple specialized agents (ReconciliationAgent, ComplianceAgent, etc.) working in parallel on interdependent tasks.
-        - The platform includes agent orchestration layer with workflow routing, state management, and human escalation paths.
-        - It executes across APIs, ERPs, databases, and legacy infrastructure in a single coherent workflow as part of multi-agent coordination.
+        - Deploys and coordinates multiple agents (ReconciliationAgent, ComplianceAgent, etc.) working in parallel on interdependent tasks
+        - Platform includes workflow routing, state management, and human escalation paths for multi-agent coordination
+        - Execution layer integrates natively with APIs, databases, ERPs, and legacy systems to enable cross-system agent actions
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is presented as an operated platform and
-        control plane for coordinating agents rather than a library for developers to import.
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because APIDNA is an operated platform for managing agent teams, not a code-first library developers import to build their own agent systems.
       review_reason: null
       review_resume_lifecycle: null

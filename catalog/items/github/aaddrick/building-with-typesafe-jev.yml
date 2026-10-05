@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aaddrick__building-with-typesafe-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -19,14 +19,10 @@ provenance:
           - Added today
         anchor_text: Building with TypeSafe Jev
         extracted_url: https://github.com/aaddrick/building-with-typesafe-jev
-        surrounding_text: >-
-          - **Agent tooling (5):** [jevgrep](https://github.com/dzhng/jevgrep), [Building with TypeSafe
-          Jev](https://github.com/aaddrick/building-with-typesafe-jev),
-          [jevmem](https://github.com/Avinash-jetwani/jevmem),
-          [Quicksilver](https://github.com/UditAkhourii/quicksilver), [XavierJev](https://github.com/liu-x27/XavierJev)
+        surrounding_text: "- **Agent tooling (5):** [jevgrep](https://github.com/dzhng/jevgrep), [Building with TypeSafe Jev](https://github.com/aaddrick/building-with-typesafe-jev), [jevmem](https://github.com/Avinash-jetwani/jevmem), [Quicksilver](https://github.com/UditAkhourii/quicksilver), [XavierJev](https://github.com/liu-x27/XavierJev)"
         confidence: high
     - id: discovery__github__aaddrick__building-with-typesafe-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**building-with-typesafe-jev**'
+        anchor_text: "**building-with-typesafe-jev**"
         extracted_url: https://github.com/aaddrick/building-with-typesafe-jev
-        surrounding_text: >-
-          - [**building-with-typesafe-jev**](https://github.com/aaddrick/building-with-typesafe-jev) — Unofficial skill
-          that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior
-          art from 150+ community projects.
+        surrounding_text: "- [**building-with-typesafe-jev**](https://github.com/aaddrick/building-with-typesafe-jev) — Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior art from 150+ community projects."
         confidence: high
 metadata:
   github:
@@ -51,11 +44,9 @@ metadata:
     archived: false
     full_name: aaddrick/building-with-typesafe-jev
     html_url: https://github.com/aaddrick/building-with-typesafe-jev
-    created_at: '2026-09-26T00:01:19Z'
-    pushed_at: '2026-09-28T02:25:46Z'
-    description: >-
-      Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated
-      confidence, and prior art from 150+ community projects.
+    created_at: "2026-09-26T00:01:19Z"
+    pushed_at: "2026-09-28T02:25:46Z"
+    description: "Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior art from 150+ community projects."
     homepage: https://github.com/aaddrick/building-with-typesafe-jev#readme
     topics:
       - agent-skill
@@ -78,44 +69,72 @@ metadata:
       - system-one
       - typesafe
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:08:20.861Z'
+    last_checked_at: "2026-09-29T13:08:20.861Z"
     readme:
-      fetched_at: '2026-09-29T13:08:20.861Z'
+      fetched_at: "2026-09-29T13:08:20.861Z"
       bytes: 18764
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A reusable skill pack that teaches coding agents to use TypeSafe AI's Jev for typed decisions and calibrated confidence.
+  why_it_matters: It helps developers integrate structured decision-making into their coding agents, improving reliability and confidence in AI-generated code choices.
+  mental_damage: Another skill to install before your agent stops hallucinating confidence scores—because apparently we now need prompt engineering for our prompt engineering.
+  tags:
+    - agent-skill
+    - jev
+    - typesafe
+    - prompt-engineering
+    - claude-code
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: This is a reusable skill pack designed to install into coding agents like Claude Code or Gemini CLI to extend their behavior with Jev-based decision making, fitting the Agent Skills category.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept
-      (unverified)
+    - "Repo description: 'Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev'"
+    - "Topics include: agent-skill, agent-skills, claude-code-skill, claude-code-skills, prompt-engineering"
+    - Listed in awesome-jev under 'Agent tooling' and 'Find by coding agent' sections
 placement:
-  primary_category: null
+  primary_category: skills
   secondary_categories:
     - decision-models
-  section: null
+  section: Skill Packs & Libraries
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:20.861Z'
+    updated_at: "2026-09-29T13:08:20.861Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:31.566Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fc94d42d5ff9521ba615233f0b09243981a4e32fe153eec34f76545ec4ec8e3e
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: This is a reusable skill pack designed to install into coding agents like Claude Code or Gemini CLI to extend their behavior with Jev-based decision making, fitting the Agent Skills category.
+      decision_evidence:
+        - "Repo description: 'Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev'"
+        - "Topics include: agent-skill, agent-skills, claude-code-skill, claude-code-skills, prompt-engineering"
+        - Listed in awesome-jev under 'Agent tooling' and 'Find by coding agent' sections
+      category_candidates:
+        - skills
+        - ai-dev-extensions
+      contrastive_reason: Choose skills over ai-dev-extensions because the primary artifact is an installable content pack (rules/prompts) that changes agent behavior, not a tool or integration layer the agent calls.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

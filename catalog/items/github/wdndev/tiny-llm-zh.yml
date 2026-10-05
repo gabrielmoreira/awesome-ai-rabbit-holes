@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wdndev__tiny-llm-zh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,25 +29,19 @@ metadata:
     archived: false
     full_name: wdndev/tiny-llm-zh
     html_url: https://github.com/wdndev/tiny-llm-zh
-    created_at: '2024-03-03T15:47:59Z'
-    pushed_at: '2024-08-22T15:06:32Z'
+    created_at: "2024-03-03T15:47:59Z"
+    pushed_at: "2024-08-22T15:06:32Z"
     description: 从零实现一个小参数量中文大语言模型。
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-21T15:21:10.529Z'
+    last_checked_at: "2026-07-21T15:21:10.529Z"
     readme:
-      fetched_at: '2026-07-21T15:21:10.529Z'
+      fetched_at: "2026-07-21T15:21:10.529Z"
       bytes: 10576
 insights:
-  summary: >-
-    A minimal Chinese LLM project that implements a full training and deployment pipeline for small parameter models
-    using Transformers and DeepSpeed.
-  why_it_matters: >-
-    Provides an end-to-end educational example for developers to learn how to build, train, and deploy a Chinese
-    language model from scratch.
-  mental_damage: >-
-    Another reminder that 'tiny' models still require PhD-level infrastructure to run, making local experimentation feel
-    like borrowing a supercomputer to toast bread.
+  summary: A minimal Chinese LLM project that implements a full training and deployment pipeline for small parameter models using Transformers and DeepSpeed.
+  why_it_matters: Provides an end-to-end educational example for developers to learn how to build, train, and deploy a Chinese language model from scratch.
+  mental_damage: Another reminder that 'tiny' models still require PhD-level infrastructure to run, making local experimentation feel like borrowing a supercomputer to toast bread.
   tags:
     - llm
     - chinese
@@ -57,17 +51,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a model implementation and educational resource, not a developer-facing AI tool, agent, or workflow
-    that enhances coding or software development processes.
+  reason: The project is a model implementation and educational resource, not a developer-facing AI tool, agent, or workflow that enhances coding or software development processes.
   evidence:
-    - 'Repo description: ''从零实现一个小参数量中文大语言模型'' (implementing a small-parameter Chinese LLM from scratch)'
-    - >-
-      README focuses on model architecture, training pipeline (Tokenizer -> PTM -> SFT -> RLHF/DPO), and deployment,
-      with no mention of coding assistance, code generation, or developer tooling
-    - >-
-      Source-list context appears in 'awesome-LLM-resources' under '技巧 Tips', indicating it is curated as an LLM
-      resource, not a developer tool
+    - "Repo description: '从零实现一个小参数量中文大语言模型' (implementing a small-parameter Chinese LLM from scratch)"
+    - README focuses on model architecture, training pipeline (Tokenizer -> PTM -> SFT -> RLHF/DPO), and deployment, with no mention of coding assistance, code generation, or developer tooling
+    - Source-list context appears in 'awesome-LLM-resources' under '技巧 Tips', indicating it is curated as an LLM resource, not a developer tool
 placement:
   primary_category: null
   section: null
@@ -77,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.655Z'
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:21:10.529Z'
+    updated_at: "2026-07-21T15:21:10.529Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__mcp__clients__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Clients
         anchor_text: glama.ai/mcp/clients
         extracted_url: https://glama.ai/mcp/clients
-        surrounding_text: >-
-          Checkout [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) and
-          [glama.ai/mcp/clients](https://glama.ai/mcp/clients).
+        surrounding_text: Checkout [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) and [glama.ai/mcp/clients](https://glama.ai/mcp/clients).
         confidence: high
 metadata:
   github:
@@ -38,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Clients is a directory page on glama.ai listing MCP client implementations.
-  why_it_matters: It helps developers find MCP-compatible client tools for connecting agents to data sources.
-  mental_damage: Another nested directory in the MCP ecosystem, because one level of indirection was clearly not enough.
+  summary: A directory listing MCP clients from the glama.ai MCP server collection.
+  why_it_matters: Helps developers find compatible client tools to interact with MCP servers for agent-tool communication.
+  mental_damage: Another click-through list pretending curation solves the paradox of choice in MCP tooling.
   tags:
     - mcp
     - directory
-  confidence: medium
+    - clients
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The resource is a curated list of MCP clients, which belongs in the awesome-awesomes category as a directory, not a standalone tool with developer-facing functionality.
   evidence:
-    - jev-latest choice confidence 0.91
+    - Source-list context shows it appears in awesome-mcp-servers under the 'Clients' section as a collection.
+    - The URL points to a static page listing clients without indicating any executable tool, SDK, or runtime functionality.
+    - No repository description, stars, or activity signals suggest it is an active product rather than a reference directory.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:16:24.523Z'
+    updated_at: "2026-10-05T04:32:59.179Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:29e97df37388ee0e1d9b5a0d7755fc5531df284753106c4ae6e431db0cf42658
-      proposed_primary_category: mcp
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5b8482a5e1f7eb6b1ed61c3917f8664f92ea519b99c802d8ba8fcc4cb4b2e538
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The page serves as a curated list of MCP clients, making MCP protocol tooling its primary identity rather than a
-        feature of a broader product.
+      decision_reason: The resource is a curated list of MCP clients, which belongs in the awesome-awesomes category as a directory, not a standalone tool with developer-facing functionality.
       decision_evidence:
-        - 'URL: https://glama.ai/mcp/clients'
-        - 'Seen in source list: awesome-mcp-servers | section: Clients | purpose: A collection of MCP servers.'
-        - MCP must be the product's primary identity for inclusion in the MCP category.
-      category_candidates:
-        - mcp
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because the page's primary identity is MCP protocol tooling (listing clients),
-        not general curation of AI developer resources.
+        - Source-list context shows it appears in awesome-mcp-servers under the 'Clients' section as a collection.
+        - The URL points to a static page listing clients without indicating any executable tool, SDK, or runtime functionality.
+        - No repository description, stars, or activity signals suggest it is an active product rather than a reference directory.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

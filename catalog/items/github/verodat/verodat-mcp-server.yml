@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__verodat__verodat-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,7 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Verodat
         extracted_url: https://github.com/verodat/verodat-mcp-server
-        surrounding_text: '- **[Verodat](https://github.com/Verodat/verodat-mcp-server)** - Interact with Verodat AI Ready Data platform'
+        surrounding_text: "- **[Verodat](https://github.com/Verodat/verodat-mcp-server)** - Interact with Verodat AI Ready Data platform"
         confidence: high
 metadata:
   github:
@@ -44,9 +44,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for verodat/verodat-mcp-server
     - ungh.cc (cached GitHub proxy) returned 404 for verodat/verodat-mcp-server
@@ -61,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.654Z'
+    updated_at: "2026-05-06T22:12:15.654Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-07-21T15:21:04.192Z'
+    updated_at: "2026-07-21T15:21:04.192Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: verodat/verodat-mcp-server'
+      message: "GitHub repository not found: verodat/verodat-mcp-server"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

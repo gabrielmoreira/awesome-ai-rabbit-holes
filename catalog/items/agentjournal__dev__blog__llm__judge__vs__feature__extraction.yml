@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentjournal__dev__blog__llm__judge__vs__feature__extraction__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,15 +18,10 @@ provenance:
           - Articles & threads
         anchor_text: One judge call vs twelve dimension scores
         extracted_url: https://agentjournal.dev/blog/llm-judge-vs-feature-extraction
-        surrounding_text: >-
-          - [One judge call vs twelve dimension scores](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/)
-          ([post](https://x.com/agent_journal/status/2100611808545632758)) - One direct Jev question per row against
-          12–14 Jev-scored dimensions with locally fitted weights on three classification tasks: 5,477 test rows, 25,174
-          Jev calls, $1.43. Decomposition wins on Japanese NLI (0.9076 vs 0.8373) but flags about 25× more hard benign
-          rows as attacks (37.2% vs 1.5%).
+        surrounding_text: "- [One judge call vs twelve dimension scores](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/) ([post](https://x.com/agent_journal/status/2100611808545632758)) - One direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted weights on three classification tasks: 5,477 test rows, 25,174 Jev calls, $1.43. Decomposition wins on Japanese NLI (0.9076 vs 0.8373) but flags about 25× more hard benign rows as attacks (37.2% vs 1.5%)."
         confidence: high
     - id: discovery__agentjournal__dev__blog__llm__judge__vs__feature__extraction__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,11 +34,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Jev judge call vs dimension scores
         extracted_url: https://agentjournal.dev/blog/llm-judge-vs-feature-extraction
-        surrounding_text: >-
-          - [Jev judge call vs dimension scores](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/) - Model
-          evaluation: tests one direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted
-          weights on three classification tasks, reaching 0.9076 against 0.8373 on Japanese NLI but flagging about 25×
-          more hard benign rows as attacks.
+        surrounding_text: "- [Jev judge call vs dimension scores](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/) - Model evaluation: tests one direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted weights on three classification tasks, reaching 0.9076 against 0.8373 on Japanese NLI but flagging about 25× more hard benign rows as attacks."
         confidence: high
 metadata:
   github:
@@ -61,17 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post comparing Jev as a single judge call versus feature extraction with multiple dimensions on classification tasks.
+  why_it_matters: Shows when splitting judgments into dimensions helps or hurts accuracy and cost for LLM-based evaluation in developer workflows.
+  mental_damage: Another reminder that breaking down AI decisions into more pieces often just means paying more for worse results unless you already knew the model was weak.
+  tags:
+    - llm-judge
+    - feature-extraction
+    - benchmarking
+    - jev
+    - evaluation
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a blog post analyzing decision model performance, not a tool, framework, or developer-facing product that fits the catalog's scope.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.28 below gate 0.50; proposed evals / Agent & LLM Benchmarks; no placement kept (unverified)
+    - URL points to agentjournal.dev/blog/llm-judge-vs-feature-extraction, a dated blog post
+    - Content describes an experiment measuring Jev accuracy and cost across tasks, not a reusable tool
+    - Seen in awesome-jev under 'Articles & threads' and 'Evaluation & Benchmarking', indicating it is curated as reading material
 placement:
   primary_category: null
   secondary_categories:
@@ -83,7 +80,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +88,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:57.115Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3c743fa3262cca099d02e7ab4839a34300e48dd08b441ea162b3fc9c791f3c3b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog post analyzing decision model performance, not a tool, framework, or developer-facing product that fits the catalog's scope.
+      decision_evidence:
+        - URL points to agentjournal.dev/blog/llm-judge-vs-feature-extraction, a dated blog post
+        - Content describes an experiment measuring Jev accuracy and cost across tasks, not a reusable tool
+        - Seen in awesome-jev under 'Articles & threads' and 'Evaluation & Benchmarking', indicating it is curated as reading material
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

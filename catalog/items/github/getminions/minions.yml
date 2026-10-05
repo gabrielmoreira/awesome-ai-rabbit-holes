@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getminions__minions__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Frameworks
         anchor_text: minions
         extracted_url: https://github.com/getminions/minions
-        surrounding_text: >-
-          - Scientific workflow automation- [minions](https://github.com/getminions/minions) - Extensible framework for
-          AI
+        surrounding_text: "- Scientific workflow automation- [minions](https://github.com/getminions/minions) - Extensible framework for AI"
         confidence: high
 metadata:
   github:
@@ -46,9 +44,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for getminions/minions
     - ungh.cc (cached GitHub proxy) returned 404 for getminions/minions
@@ -63,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.615Z'
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-03T05:16:48.709Z'
+    updated_at: "2026-09-03T05:16:48.709Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: getminions/minions'
+      message: "GitHub repository not found: getminions/minions"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

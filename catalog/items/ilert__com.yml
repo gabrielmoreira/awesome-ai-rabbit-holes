@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ilert__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: ilert
         extracted_url: https://ilert.com
-        surrounding_text: >-
-          - **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural
-          language.
+        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
         confidence: high
     - id: discovery__www__ilert__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: ilert
         extracted_url: https://ilert.com
-        surrounding_text: >-
-          - **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural
-          language.
+        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
         confidence: high
 metadata:
   github:
@@ -55,32 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ilert is an AI-first incident management platform for alerting, on-call scheduling, and status pages with AI agents
-    that investigate alerts and propose fixes.
-  why_it_matters: >-
-    It reduces mean time to resolution by automating root cause analysis from alerts, logs, and metrics, letting
-    engineers focus on building rather than firefighting.
-  mental_damage: >-
-    Another AI tool promising to eliminate 3am pages while quietly adding yet another dashboard to monitor during those
-    same 3am pages.
+  summary: ilert is an AI-first incident management platform for alerting, on-call scheduling, and postmortem automation in DevOps and SRE workflows.
+  why_it_matters: It reduces mean time to resolution by automating incident investigation and documentation, letting engineers focus on fixes rather than manual tracking.
+  mental_damage: Yet another 'AI SRE' promising to take the 3am pager burden while you still have to approve its root cause guess before it makes things worse.
   tags:
     - incident-management
     - ai-sre
-    - alerting
-    - on-call
-    - status-pages
+    - devops
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    ilert is an incident management and observability platform with AI features, not a developer-facing AI tool for
-    coding, agents, or workflows; its core identity serves IT and DevOps teams, not software developers building or
-    editing code.
+  reason: ilert is an incident management and alerting platform whose core value is operational reliability and compliance tooling, not software development, coding agents, or any developer-facing AI workflow defined in the catalog scope.
   evidence:
-    - ilert provides alerting, on-call management, incident response, and status pages for IT and DevOps teams
-    - Its AI SRE investigates alerts by analyzing logs, metrics, and traces to propose root causes and fixes
-    - Listed in awesome-mcp-servers as an 'AI-first platform for alerting, on-call management, and status pages'
+    - Scraped site context describes ilert as an 'AI-first platform for alerting, on-call management, and status pages' for IT and DevOps teams.
+    - README excerpt emphasizes incident response lifecycle features like AI SRE, ChatOps, and postmortem automation, with no mention of code editing, repo interaction, or development tooling.
+    - Source-list placement is in awesome-mcp-servers under 'Official Servers', but the linked page frames ilert as an incident management platform with AI SRE as a feature, not an MCP server or developer tool.
 placement:
   primary_category: null
   section: null
@@ -90,34 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:52.046Z'
+    updated_at: "2026-10-05T04:48:25.513Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fbe97577bfccce383b0cdb272078d864332c513bbaf6d113d23d0ed95a307ddc
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d0a158b4dcdfbb78793ac36da74b30aea59927355aa003f63f073c5c9b80fb07
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        ilert is an incident management and observability platform with AI features, not a developer-facing AI tool for
-        coding, agents, or workflows; its core identity serves IT and DevOps teams, not software developers building or
-        editing code.
+      decision_reason: ilert is an incident management and alerting platform whose core value is operational reliability and compliance tooling, not software development, coding agents, or any developer-facing AI workflow defined in the catalog scope.
       decision_evidence:
-        - ilert provides alerting, on-call management, incident response, and status pages for IT and DevOps teams
-        - Its AI SRE investigates alerts by analyzing logs, metrics, and traces to propose root causes and fixes
-        - Listed in awesome-mcp-servers as an 'AI-first platform for alerting, on-call management, and status pages'
+        - Scraped site context describes ilert as an 'AI-first platform for alerting, on-call management, and status pages' for IT and DevOps teams.
+        - README excerpt emphasizes incident response lifecycle features like AI SRE, ChatOps, and postmortem automation, with no mention of code editing, repo interaction, or development tooling.
+        - Source-list placement is in awesome-mcp-servers under 'Official Servers', but the linked page frames ilert as an incident management platform with AI SRE as a feature, not an MCP server or developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

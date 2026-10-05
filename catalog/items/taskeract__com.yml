@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__taskeract__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Taskeract
         extracted_url: https://taskeract.com
-        surrounding_text: >-
-          - **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating
-          your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP
-          enabled app.
+        surrounding_text: "- **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP enabled app."
         confidence: high
 metadata:
   github:
@@ -39,21 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Taskeract is a desktop application that runs AI coding agents in isolated terminal sessions with integrated git
-    workflows, issue tracking, and PR review capabilities.
-  why_it_matters: >-
-    It lets developers use multiple AI coding agents side-by-side in sandboxed environments while maintaining full git
-    workflow visibility without context switching.
-  mental_damage: >-
-    The anxiety of juggling Claude Code, OpenAI Codex, and OpenCode in separate windows just to avoid one agent
-    overwriting another’s work.
+  summary: Taskeract is a desktop application that runs AI coding agents in isolated terminal workspaces with built-in Git workflows, PR review, and multi-agent support.
+  why_it_matters: It lets developers run Claude Code, OpenAI Codex, and OpenCode in parallel with isolated environments, reducing context-switching and workflow friction during AI-assisted coding.
+  mental_damage: Finally, a way to feel productive while juggling three AI agents that each think they’re the main character of your repo.
   tags:
-    - ai-coding-agent
     - desktop-app
+    - ai-agents
     - git-workflow
+    - terminal
     - multi-agent
-    - isolated-terminals
   confidence: high
 curation:
   status: included
@@ -63,14 +54,14 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,39 +70,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:54:07.627Z'
+    updated_at: "2026-10-05T05:00:30.710Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b71a343db2dd9019710de239872679af2a7a670fc4d7769e679a77f7a4450013
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:da7d29fc644431b9144dfced2c345984412a43c6254067b1df1f6d1c6377dd38
       proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: >-
-        Taskeract functions as a primary coding agent interface that executes coding tasks via autonomous agents in real
-        terminals, matching the coding-agents category’s focus on agents that directly act on code.
+      disagreement: true
+      decision_reason: Taskeract is a standalone desktop app whose primary function is to run and manage AI coding agents directly in real terminals, performing coding tasks like code generation, PR review, and merging — making it a coding agent itself, not just an extension or orchestrator.
       decision_evidence:
-        - >-
-          Desktop app where AI coding agents run in real terminals to generate code, review pull requests, and merge
-          from one app
-        - >-
-          Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review,
-          and triage
-        - Agents can pull, push, check pipeline status, and resolve merge requests on their own
-        - >-
-          Each session gets its own isolated workspace and timeline, allowing multiple agents to work on the same
-          project simultaneously
+        - Desktop app where AI coding agents run in real terminals. Generate code, review pull requests, and merge - without switching tools.
+        - Works with Claude Code, OpenAI Codex, and OpenCode in workflow-aware workspaces for implementation, review, and triage.
+        - Features include isolated agent sessions, Git workspace isolation, full Git workflow, PR review, issue tracking, and timeline checkpoints.
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because Taskeract’s primary value is enabling individual agents to
-        perform coding tasks in isolated terminals, not managing workflows or routing between multiple agents as a
-        workforce platform.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose coding-agents over agent-orchestration because Taskeract’s primary value is running and managing individual coding agents in isolated terminals to perform coding tasks, not designing workflows or coordinating agent teams as a control plane.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

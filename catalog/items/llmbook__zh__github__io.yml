@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmbook__zh__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,36 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Chinese-language textbook on large language models covering architecture, training, alignment, and applications,
-    hosted as a static GitHub Pages site.
-  why_it_matters: >-
-    Provides a structured, developer-friendly resource for understanding LLM internals and prompt engineering techniques
-    relevant to AI-assisted software development.
-  mental_damage: >-
-    Another PDF-heavy 'comprehensive guide' that pretends to be a tool while you’re just trying to find the MCP server
-    list you saw referenced in a footnote.
+  summary: A comprehensive Chinese-language technical textbook and survey covering the architectures, training, and deployment of large language models.
+  why_it_matters: Offers a systematic theoretical foundation for developers wanting to understand the underlying mechanics of the models they integrate.
+  mental_damage: The more you learn about the training pipeline, the more you realize you're just building on top of a statistical magic trick.
   tags:
-    - llm
-    - education
-    - reference
-    - prompt-engineering
+    - textbook
+    - llm-theory
+    - chinese-resource
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or
-    infrastructure product that actively aids in coding workflows.
+  reason: The project is an educational textbook/survey focused on theoretical and architectural knowledge rather than a functional developer tool, agent, or piece of infrastructure.
   evidence:
-    - >-
-      Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials and
-      citation format provided.
-    - >-
-      Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational
-      artifacts, not operational tools.
-    - >-
-      Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational
-      resource rather than a tool.
+    - The site serves as a Chinese version and expansion of the 'A Survey of Large Language Models' academic paper.
+    - The content is structured as textbook chapters covering pre-training, fine-tuning, and alignment rather than providing a programmable or agentic interface.
 placement:
   primary_category: null
   section: null
@@ -75,12 +59,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -88,32 +70,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:31.385Z'
+    updated_at: "2026-10-05T04:38:38.605Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f78dff0bd458c8604f37870997bf31048fa67e55bb94b50c7b07388bef90044d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9accfcbe1fa6ab23ebab96562fe99837438415f83ccde49eb6abf510fc2019dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational resource and reference book, not a developer-facing AI tool, agent, framework, or
-        infrastructure product that actively aids in coding workflows.
+      decision_reason: The project is an educational textbook/survey focused on theoretical and architectural knowledge rather than a functional developer tool, agent, or piece of infrastructure.
       decision_evidence:
-        - >-
-          Described as a Chinese textbook on LLMs authored by researchers, published via 高等教育出版社, with course materials
-          and citation format provided.
-        - >-
-          Primary content includes textbook chapters, PPT slides, code snippets, and teaching videos — all educational
-          artifacts, not operational tools.
-        - >-
-          Listed in awesome-LLM-resources under the '书籍 Book' section, confirming its identity as a curated educational
-          resource rather than a tool.
+        - The site serves as a Chinese version and expansion of the 'A Survey of Large Language Models' academic paper.
+        - The content is structured as textbook chapters covering pre-training, fine-tuning, and alignment rather than providing a programmable or agentic interface.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

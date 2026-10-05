@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mawfyy__jev-router.nvim__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-router.nvim
         extracted_url: https://github.com/mawfyy/jev-router.nvim
-        surrounding_text: >-
-          - [jev-router.nvim](https://github.com/Mawfyy/jev-router.nvim) - An intent router for Neovim that classifies
-          AI commands with Jev (TypeSafe's System One model) via the OpenRouter Decisions API, then routes execution to
-          the matching handler.
+        surrounding_text: "- [jev-router.nvim](https://github.com/Mawfyy/jev-router.nvim) - An intent router for Neovim that classifies AI commands with Jev (TypeSafe's System One model) via the OpenRouter Decisions API, then routes execution to the matching handler."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-router.nvim - An intent router for Neovim that classifies AI commands with Jev (TypeSafe's System One model) via
-    the OpenRouter Decisions API, then routes execution to the matching handler.
+  summary: jev-router.nvim - An intent router for Neovim that classifies AI commands with Jev (TypeSafe's System One model) via the OpenRouter Decisions API, then routes execution to the matching handler.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__morcoan__jmp__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JMP
         extracted_url: https://github.com/morcoan/jmp
-        surrounding_text: >-
-          - [JMP](https://github.com/morcoan/JMP) - Local coding workspace where TypeSafe Jev selects the next tool
-          action and DeepSeek/Codex/Bonsai supply arguments for OpenHands/MCP execution. [Project
-          guide](community/projects/tools/jmp.md).
+        surrounding_text: "- [JMP](https://github.com/morcoan/JMP) - Local coding workspace where TypeSafe Jev selects the next tool action and DeepSeek/Codex/Bonsai supply arguments for OpenHands/MCP execution. [Project guide](community/projects/tools/jmp.md)."
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.49 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

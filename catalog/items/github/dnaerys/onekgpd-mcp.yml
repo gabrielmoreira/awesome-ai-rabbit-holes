@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dnaerys__onekgpd-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: dnaerys/onekgpd-mcp
         extracted_url: https://github.com/dnaerys/onekgpd-mcp
-        surrounding_text: >-
-          - [dnaerys/onekgpd-mcp](https://github.com/dnaerys/onekgpd-mcp) ☕ ☁️ 🍎 🪟 🐧- real-time access to 1000
-          Genomes Project dataset
+        surrounding_text: "- [dnaerys/onekgpd-mcp](https://github.com/dnaerys/onekgpd-mcp) ☕ ☁️ 🍎 🪟 🐧- real-time access to 1000 Genomes Project dataset"
         confidence: high
 metadata:
   github:
@@ -32,23 +30,19 @@ metadata:
     archived: false
     full_name: dnaerys/onekgpd-mcp
     html_url: https://github.com/dnaerys/onekgpd-mcp
-    created_at: '2026-01-18T12:09:55Z'
-    pushed_at: '2026-08-23T02:41:03Z'
+    created_at: "2026-01-18T12:09:55Z"
+    pushed_at: "2026-08-23T02:41:03Z"
     description: 1000 Genomes Project Dataset MCP Server
     homepage: https://dnaerys.org
     topics: []
-    last_checked_at: '2026-09-14T04:13:41.819Z'
+    last_checked_at: "2026-09-14T04:13:41.819Z"
     readme:
-      fetched_at: '2026-09-14T04:13:41.819Z'
+      fetched_at: "2026-09-14T04:13:41.819Z"
       bytes: 10175
 insights:
   summary: An MCP server providing natural language access to the 1000 Genomes Project dataset hosted on Dnaerys variant store.
-  why_it_matters: >-
-    Enables developers to query and analyze large-scale genomic variant data via MCP, integrating biological datasets
-    into AI workflows.
-  mental_damage: >-
-    Now your AI can debate the electrostatic gradient of the RNA Exosome pore while you still can't get your CI pipeline
-    to pass.
+  why_it_matters: Enables developers to query and analyze large-scale genomic variant data via MCP, integrating biological datasets into AI workflows.
+  mental_damage: Now your AI can debate the electrostatic gradient of the RNA Exosome pore while you still can't get your CI pipeline to pass.
   tags:
     - mcp-server
     - bioinformatics
@@ -71,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.611Z'
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:41.819Z'
+    updated_at: "2026-09-14T04:13:41.819Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -96,9 +90,7 @@ processing:
       input_hash: sha256:5737f59bf70c5a0417048f4563fb5cd5f2ed02ffeefc00f255d466a971e3761c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        This is a domain-specific MCP server whose primary identity is providing MCP-based access to a biological
-        dataset, fitting the MCP Servers & Tooling category.
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing MCP-based access to a biological dataset, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly identifies it as a '1000 Genomes Project Dataset MCP Server'
         - README confirms it is a natural language access layer for a genomic dataset via MCP
@@ -106,8 +98,6 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK
-        or framework.
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK or framework.
       review_reason: null
       review_resume_lifecycle: null

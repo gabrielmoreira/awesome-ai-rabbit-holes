@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skyvern-ai__jevscape__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jevscape
         extracted_url: https://github.com/skyvern-ai/jevscape
-        surrounding_text: >-
-          - [jevscape](https://github.com/Skyvern-AI/jevscape) - RuneBench harness for TypeSafe's Jev: bounded action
-          catalog, tick-mode controller and a live dashboard.
+        surrounding_text: "- [jevscape](https://github.com/Skyvern-AI/jevscape) - RuneBench harness for TypeSafe's Jev: bounded action catalog, tick-mode controller and a live dashboard."
         confidence: high
     - id: discovery__github__skyvern-ai__jevscape__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,14 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**jevscape**'
+        anchor_text: "**jevscape**"
         extracted_url: https://github.com/skyvern-ai/jevscape
-        surrounding_text: >-
-          - [**jevscape**](https://github.com/Skyvern-AI/jevscape) — A RuneBench extension using Jev and a bounded
-          rs-sdk action catalog for RuneScape tasks.
+        surrounding_text: "- [**jevscape**](https://github.com/Skyvern-AI/jevscape) — A RuneBench extension using Jev and a bounded rs-sdk action catalog for RuneScape tasks."
         confidence: high
     - id: discovery__github__skyvern-ai__jevscape__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -53,9 +49,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: JevScape
         extracted_url: https://github.com/skyvern-ai/jevscape
-        surrounding_text: >-
-          - [JevScape](https://github.com/Skyvern-AI/jevscape) - RuneBench-based RuneScape harness that maps Jev choices
-          to a bounded game-action catalog and records tick-level results.
+        surrounding_text: "- [JevScape](https://github.com/Skyvern-AI/jevscape) - RuneBench-based RuneScape harness that maps Jev choices to a bounded game-action catalog and records tick-level results."
         confidence: high
 metadata:
   github:
@@ -82,21 +76,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.404Z'
+    updated_at: "2026-09-29T13:07:10.404Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

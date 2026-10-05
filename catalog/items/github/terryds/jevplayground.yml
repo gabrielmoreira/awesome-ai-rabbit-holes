@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__terryds__jevplayground__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: jevplayground
         extracted_url: https://github.com/terryds/jevplayground
-        surrounding_text: >-
-          - [jevplayground](https://github.com/terryds/jevplayground) ([site](https://jevplayground.terrydjony.com)) -
-          Browser-only playground for Jev (TypeSafe AI's decision model) via Vercel AI Gateway.
+        surrounding_text: "- [jevplayground](https://github.com/terryds/jevplayground) ([site](https://jevplayground.terrydjony.com)) - Browser-only playground for Jev (TypeSafe AI's decision model) via Vercel AI Gateway."
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

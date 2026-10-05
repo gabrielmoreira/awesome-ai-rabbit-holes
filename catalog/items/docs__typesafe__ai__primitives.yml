@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__primitives__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Official
         anchor_text: Primitives
         extracted_url: https://docs.typesafe.ai/primitives
-        surrounding_text: >-
-          - [Primitives](https://docs.typesafe.ai/primitives) - Choice, Score, and Noul: the three question types and
-          what they return.
+        surrounding_text: "- [Primitives](https://docs.typesafe.ai/primitives) - Choice, Score, and Noul: the three question types and what they return."
         confidence: high
     - id: discovery__docs__typesafe__ai__primitives__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,13 +33,10 @@ provenance:
           - What Jev is
         anchor_text: Primitives
         extracted_url: https://docs.typesafe.ai/primitives
-        surrounding_text: >-
-          New to Jev? Start with TypeSafe's official [Introduction](https://docs.typesafe.ai/introduction), then
-          continue with [Primitives](https://docs.typesafe.ai/primitives),
-          [Confidence](https://docs.typesafe.ai/confidence), and [Patterns](https://docs.typesafe.ai/patterns).
+        surrounding_text: New to Jev? Start with TypeSafe's official [Introduction](https://docs.typesafe.ai/introduction), then continue with [Primitives](https://docs.typesafe.ai/primitives), [Confidence](https://docs.typesafe.ai/confidence), and [Patterns](https://docs.typesafe.ai/patterns).
         confidence: high
     - id: discovery__docs__typesafe__ai__primitives__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -53,10 +48,7 @@ provenance:
           - Start here
         anchor_text: primitive reference
         extracted_url: https://docs.typesafe.ai/primitives
-        surrounding_text: >-
-          **Question primitives:** `Choice` selects an option, `Score` evaluates ordered rubric levels, and `Noul`
-          returns a number from 0 to 1 representing the probability of "yes". Review or abstention behavior is defined
-          in application code. See the [primitive reference](https://docs.typesafe.ai/primitives).
+        surrounding_text: "**Question primitives:** `Choice` selects an option, `Score` evaluates ordered rubric levels, and `Noul` returns a number from 0 to 1 representing the probability of \"yes\". Review or abstention behavior is defined in application code. See the [primitive reference](https://docs.typesafe.ai/primitives)."
         confidence: high
 metadata:
   github:
@@ -74,27 +66,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Typed primitives for interacting with TypeSafe AI's System One decision models.
+  why_it_matters: It replaces unpredictable LLM prose with structured, probabilistic, and typed answers that can be directly composed in application logic.
+  mental_damage: A new way to achieve the illusion of certainty by turning model uncertainty into a perfectly typed floating-point number.
+  tags:
+    - decision-models
+    - sdk
+    - structured-output
+    - typesafe-ai
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: These primitives are the specific SDK interface for the System One decision model, making them a core part of the decision-model ecosystem.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Defines specialized question types: Choice, Score, and Noul."
+    - Designed to return constrained, probabilistic values instead of generated text.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -102,6 +99,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:06:46.830Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e81c33d12edfa478c8e1b79b0b0b8a4d46e0fa6bc26a8f55e32298c583ea40fd
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: These primitives are the specific SDK interface for the System One decision model, making them a core part of the decision-model ecosystem.
+      decision_evidence:
+        - "Defines specialized question types: Choice, Score, and Noul."
+        - Designed to return constrained, probabilistic values instead of generated text.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because these primitives are specialized for the System One decision-model paradigm rather than being a general-purpose LLM abstraction.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sahil87__tu__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,9 +20,7 @@ provenance:
           - Agent infrastructure
         anchor_text: tu
         extracted_url: https://github.com/sahil87/tu
-        surrounding_text: >-
-          - **[tu](https://github.com/sahil87/tu)** `⭐ 4` — Cost-tracking CLI for AI coding assistants: token usage and
-          spend across Claude Code, Codex, and OpenCode sessions. TypeScript, MIT.
+        surrounding_text: "- **[tu](https://github.com/sahil87/tu)** `⭐ 4` — Cost-tracking CLI for AI coding assistants: token usage and spend across Claude Code, Codex, and OpenCode sessions. TypeScript, MIT."
         confidence: high
 metadata:
   github:
@@ -40,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    tu — Cost-tracking CLI for AI coding assistants: token usage and spend across Claude Code, Codex, and OpenCode
-    sessions. TypeScript, MIT.
+  summary: "tu — Cost-tracking CLI for AI coding assistants: token usage and spend across Claude Code, Codex, and OpenCode sessions. TypeScript, MIT."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

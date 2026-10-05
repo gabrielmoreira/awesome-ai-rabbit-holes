@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-T
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__mid__training__85m__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__huggingface__co__datasets__mvp__lab__llava__onevision__1__5__mid__training__85m__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,11 +18,7 @@ provenance:
           - 论文 Paper
         anchor_text: 85M-Midtraining Data
         extracted_url: https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M
-        surrounding_text: >-
-          57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal
-          Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining
-          Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct
-          Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)
+        surrounding_text: "57. [LLaVA-OneVision-1.5: Fully Open Framework for Democratized Multimodal Training](https://arxiv.org/abs/2509.23661) [85M-Midtraining Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) [22M Instruct Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)"
         confidence: high
 metadata:
   github:
@@ -41,24 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A massive 46.7 TB multimodal dataset used for training the LLaVA-OneVision-1.5 model framework.
-  why_it_matters: It provides the foundational data required to train high-performance vision-language models.
-  mental_damage: Realizing your entire lifetime of code wouldn't even register as a single bit in this 46TB dataset.
+  summary: A Hugging Face dataset containing multimodal training data used to train LLaVA-OneVision models for vision-language tasks.
+  why_it_matters: Provides training data for developers building or fine-tuning multimodal vision-language models, enabling progress in AI applications that combine image and text understanding.
+  mental_damage: Another dataset in the ever-growing pile of multimodal corpora — because downloading terabytes of image-text pairs is what every developer does on a Tuesday.
   tags:
     - dataset
     - multimodal
-    - llava
+    - vision-language
     - training-data
+    - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a research-oriented multimodal training dataset rather than a practical tool, agent, or framework for
-    software developers.
+  reason: This is a raw dataset for model training, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any interface, SDK, or direct utility for software development tasks beyond model training.
   evidence:
-    - 46.7 TB total file size
-    - Identified as a dataset for the LLaVA-OneVision-1.5 research framework
-    - Primarily intended for ML model training rather than developer workflow integration
+    - Repo description is missing; the project is a Hugging Face dataset, not a tool or application.
+    - README/scraped site context shows it is a data repository (LLaVA-OneVision-1.5-Mid-Training-85M) with model training citations, no developer tooling claims.
+    - Source-list context places it in an awesome LLM resources list under '论文 Paper', indicating academic/resource status, not a practical AI tool for developers.
 placement:
   primary_category: null
   section: null
@@ -68,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,26 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:23:56.509Z'
+    updated_at: "2026-10-05T04:33:52.083Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bcf626896a76f5fb5b8d3d147427ed3f390429cf26c5988f59432d3ac3922f8f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:830ca90c74934dadf1d4678210459836c511315f07747ae25e0195ca7cb4fdf6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a research-oriented multimodal training dataset rather than a practical tool, agent, or framework
-        for software developers.
+      decision_reason: This is a raw dataset for model training, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any interface, SDK, or direct utility for software development tasks beyond model training.
       decision_evidence:
-        - 46.7 TB total file size
-        - Identified as a dataset for the LLaVA-OneVision-1.5 research framework
-        - Primarily intended for ML model training rather than developer workflow integration
+        - Repo description is missing; the project is a Hugging Face dataset, not a tool or application.
+        - README/scraped site context shows it is a data repository (LLaVA-OneVision-1.5-Mid-Training-85M) with model training citations, no developer tooling claims.
+        - Source-list context places it in an awesome LLM resources list under '论文 Paper', indicating academic/resource status, not a practical AI tool for developers.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

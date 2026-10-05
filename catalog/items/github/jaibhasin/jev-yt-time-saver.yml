@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jaibhasin__jev-yt-time-saver__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-yt-time-saver
         extracted_url: https://github.com/jaibhasin/jev-yt-time-saver
-        surrounding_text: >-
-          - [jev-yt-time-saver](https://github.com/jaibhasin/jev-yt-time-saver) - A Chrome extension that covers
-          distracting YouTube videos with Jev. Show anyway whenever you want.
+        surrounding_text: "- [jev-yt-time-saver](https://github.com/jaibhasin/jev-yt-time-saver) - A Chrome extension that covers distracting YouTube videos with Jev. Show anyway whenever you want."
         confidence: high
     - id: discovery__github__jaibhasin__jev-yt-time-saver__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**jev-yt-time-saver**'
+        anchor_text: "**jev-yt-time-saver**"
         extracted_url: https://github.com/jaibhasin/jev-yt-time-saver
-        surrounding_text: >-
-          - [**jev-yt-time-saver**](https://github.com/jaibhasin/jev-yt-time-saver) — This project integrates Jev to
-          provide structured decisions for its workflow. See the repository for implementation details.
+        surrounding_text: "- [**jev-yt-time-saver**](https://github.com/jaibhasin/jev-yt-time-saver) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
 metadata:
   github:
@@ -75,7 +71,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.416Z'
+    updated_at: "2026-09-29T13:07:10.416Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +79,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

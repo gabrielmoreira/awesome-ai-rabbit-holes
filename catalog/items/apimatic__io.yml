@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__apimatic__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,13 +18,10 @@ provenance:
           - Official Servers
         anchor_text: APIMatic
         extracted_url: https://apimatic.io
-        surrounding_text: >-
-          - **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to
-          validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files
-          and returns validation summaries by leveraging APIMatic’s API.
+        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
         confidence: high
     - id: discovery__www__apimatic__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +33,7 @@ provenance:
           - Official Servers
         anchor_text: APIMatic
         extracted_url: https://www.apimatic.io
-        surrounding_text: >-
-          - **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to
-          validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files
-          and returns validation summaries by leveraging APIMatic’s API.
+        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
         confidence: high
 metadata:
   github:
@@ -57,24 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: APIMatic generates SDKs, developer portals, Context Plugins for AI coding tools, and MCP servers from OpenAPI specs.
-  why_it_matters: It lets developers turn API specs into production-ready client code and agent-ready integrations without manual work.
-  mental_damage: Finally, a way to stop pretending your OpenAPI spec is just documentation and start treating it as the single source of truth for both humans and hallucination-prone agents.
+  summary: APIMatic generates SDKs, developer portals, context plugins for AI coding tools, and MCP servers from OpenAPI specifications.
+  why_it_matters: It lets API providers produce deterministic, type-safe client code and AI-ready interfaces from a single spec, reducing integration errors for developers consuming those APIs.
+  mental_damage: Finally, a way to stop guessing what an API does and start trusting the spec—until the next version breaks your generated client.
   tags:
     - sdk-generation
-    - api-tooling
-    - context-plugins
+    - openapi
+    - ai-context
     - mcp
-  confidence: high
+    - developer-portal
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure
-    relevant to AI-assisted software development.
+  status: included
+  reason: APIMatic is a code-first SDK generator and provider abstraction layer that developers import into their applications, making it a framework/SDK rather than an agent, orchestrator, or MCP-first product.
   evidence:
-    - APIMatic's deterministic engine generates production SDKs in 7+ languages, developer portals, Context Plugins, and MCP servers from OpenAPI specs
-    - It is used by developers to generate idiomatic SDKs with type safety, authentication, and resilience built in — core artifacts of an SDK/provider abstraction
-    - Listed in awesome-mcp-servers as an Official Server, but MCP is one output among many; the primary identity is SDK generation and API readiness
+    - Scraped site context states it generates 'production-grade SDKs in 7+ languages' and 'idiomatic SDKs' from OpenAPI specs
+    - Source-list context appears in awesome-mcp-servers as an 'Official Server' but the product identity is SDK generation, not MCP infrastructure
+    - README emphasizes deterministic engine for SDKs, portals, and code samples, with AI tools as newer outputs of the same core
 placement:
   primary_category: ai-frameworks
   section: Provider & Model Abstractions
@@ -83,40 +76,34 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:38:48.510Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for apimatic__io: Invalid AI response format: SyntaxError: Unexpected token
-        'A', ..."_reason": APIMatic's"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:46:03.459Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e088341f66a9ff54f59caf04b475894018f0a68365df0638f53de86b4d4e5324
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5cee982cfb68c6d8f0e61a960c53009fab893352e0f87cfa10096d56a76f1b2f
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: >-
-        APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or
-        infrastructure relevant to AI-assisted software development.
+      decision_reason: APIMatic is a code-first SDK generator and provider abstraction layer that developers import into their applications, making it a framework/SDK rather than an agent, orchestrator, or MCP-first product.
       decision_evidence:
-        - APIMatic's deterministic engine generates production SDKs in 7+ languages, developer portals, Context Plugins, and MCP servers from OpenAPI specs
-        - It is used by developers to generate idiomatic SDKs with type safety, authentication, and resilience built in — core artifacts of an SDK/provider abstraction
-        - Listed in awesome-mcp-servers as an Official Server, but MCP is one output among many; the primary identity is SDK generation and API readiness
+        - Scraped site context states it generates 'production-grade SDKs in 7+ languages' and 'idiomatic SDKs' from OpenAPI specs
+        - Source-list context appears in awesome-mcp-servers as an 'Official Server' but the product identity is SDK generation, not MCP infrastructure
+        - README emphasizes deterministic engine for SDKs, portals, and code samples, with AI tools as newer outputs of the same core
       category_candidates:
         - ai-frameworks
         - mcp
-      contrastive_reason: Choose ai-frameworks over mcp because APIMatic's core identity is generating SDKs and developer portals from OpenAPI specs — MCP is an output, not the product's primary purpose.
+      contrastive_reason: Choose ai-frameworks over mcp because the product's primary identity is SDK generation and provider abstraction, not MCP server/client/tooling as its core purpose.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:

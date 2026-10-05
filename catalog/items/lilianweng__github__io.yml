@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lilianweng__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'Blog: Lil’Log (OponAI)'
+        anchor_text: "Blog: Lil’Log (OponAI)"
         extracted_url: https://lilianweng.github.io
-        surrounding_text: '32. [Blog: Lil’Log (OponAI)](https://lilianweng.github.io/)'
+        surrounding_text: "32. [Blog: Lil’Log (OponAI)](https://lilianweng.github.io/)"
         confidence: high
 metadata:
   github:
@@ -36,33 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Lil'Log is a personal blog documenting Lilian Weng's learning notes on AI topics including LLMs, agents, scaling
-    laws, and test-time compute.
-  why_it_matters: >-
-    It serves as an educational resource for developers seeking to understand foundational and advanced AI concepts
-    through detailed, experience-backed explanations.
-  mental_damage: >-
-    Another deep-dive blog that makes you feel both enlightened and inadequate for not having derived scaling laws from
-    first principles.
+  summary: Lil'Log is a personal blog by Lilian Weng documenting her learning notes on AI topics such as LLMs, agents, scaling laws, and reinforcement learning since 2017.
+  why_it_matters: It serves as an educational resource for developers seeking in-depth explanations of AI concepts relevant to building and understanding AI-powered tools.
+  mental_damage: Another deep-dive blog that makes you feel both enlightened and guilty for not having read it sooner.
   tags:
     - blog
-    - education
-    - ai-research
-    - llm
-    - agents
+    - educational
+    - ai-explained
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Lil'Log is a personal educational blog, not a developer-facing AI tool, agent, framework, or infrastructure; it
-    provides knowledge but does not enable coding workflows, app building, or agent orchestration.
+  reason: Excluded because it is a personal educational blog, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - The site is described as 'Document my learning notes' and is a personal blog by Lilian Weng since 2017.
-    - >-
-      Content includes explanatory posts on scaling laws, test-time compute, reward hacking, and LLM agents — all
-      educational, not tooling.
-    - No evidence of being a deployable tool, SDK, agent, framework, or platform; it is purely a content resource.
+    - "Repo description: (none)"
+    - "Scraped site context: Title: Lil'Log, Description: Document my learning notes."
+    - "Primary page excerpt: Lil'Log is a blog where Lilian documents her learning notes since 2017 on topics like LLMs, agents, scaling laws, and RL."
 placement:
   primary_category: null
   section: null
@@ -72,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:01.704Z'
+    updated_at: "2026-10-05T04:37:06.584Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8e3775b6cccab214b50b29cf2f5db45547edb88bd4aa7263539af1dd359cfe27
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3c61955c4bd3e9da4f71774537ea1151b52f8145446a9b34a1e444934227ed36
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Lil'Log is a personal educational blog, not a developer-facing AI tool, agent, framework, or infrastructure; it
-        provides knowledge but does not enable coding workflows, app building, or agent orchestration.
+      decision_reason: Excluded because it is a personal educational blog, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - The site is described as 'Document my learning notes' and is a personal blog by Lilian Weng since 2017.
-        - >-
-          Content includes explanatory posts on scaling laws, test-time compute, reward hacking, and LLM agents — all
-          educational, not tooling.
-        - No evidence of being a deployable tool, SDK, agent, framework, or platform; it is purely a content resource.
+        - "Repo description: (none)"
+        - "Scraped site context: Title: Lil'Log, Description: Document my learning notes."
+        - "Primary page excerpt: Lil'Log is a blog where Lilian documents her learning notes since 2017 on topics like LLMs, agents, scaling laws, and RL."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bwee__app__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,9 +19,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Bwee
         extracted_url: https://bwee.app
-        surrounding_text: >-
-          - **[Bwee](https://bwee.app)** — Desktop app for CLI coding agents where users build their own views (BYOUI) —
-          custom tools and dashboards that live alongside the terminal. Persistent sessions and task management. macOS.
+        surrounding_text: "- **[Bwee](https://bwee.app)** — Desktop app for CLI coding agents where users build their own views (BYOUI) — custom tools and dashboards that live alongside the terminal. Persistent sessions and task management. macOS."
         confidence: high
 metadata:
   github:
@@ -39,35 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A native macOS GUI wrapper for Claude Code that enables building custom tool interfaces through chat.
-  why_it_matters: >-
-    It provides a persistent, local-first desktop environment for interacting with Claude Code beyond the standard
-    terminal interface.
-  mental_damage: Because typing in a terminal wasn't quite enough of a high-stakes way to watch an agent rewrite your files.
+  summary: Bwee.app is a native macOS GUI that wraps Claude Code to let users build custom UIs via chat.
+  why_it_matters: It gives developers a more flexible, persistent, and locally integrated way to interact with Claude Code for tool-building workflows.
+  mental_damage: Finally, a way to feel guilty about building yet another bespoke GUI layer on top of an AI agent instead of shipping actual features.
   tags:
     - macos
     - claude-code
-    - gui
-    - wrapper
+    - gui-wrapper
+    - local-first
+    - tool-building
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
+  reason: Bwee.app is an extension that enhances Claude Code with a native macOS interface and UI-building capabilities, not a standalone coding agent or app builder.
   evidence:
-    - jev-latest choice confidence 0.90
+    - Wraps Claude Code in a native macOS app per scraped site context and source-list description
+    - Requires Claude Code to function, positioning it as a host-dependent tool
+    - Focuses on building custom UIs via chat rather than autonomous code editing or generation
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
   section: Claude Code & Agent Tools
 lifecycle:
-  status: needs_review
-  reason: >-
-    Categorization review required: placement disagreement: retained 'agent-orchestration', proposed
-    'extensions-and-addons'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.716Z'
+    updated_at: "2026-07-16T05:04:46.716Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,31 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:25:51.007Z'
+    updated_at: "2026-10-05T04:27:10.882Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:505a62967489ea711dfa0eddc1a304276797b6b72af3cb9dca3541645b0d537e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a77101fcfb5114c4c5c79da8bbe7c7ced8eaffe7a104e993e71ecec422e53277
       proposed_primary_category: extensions-and-addons
-      disagreement: true
-      decision_reason: It acts as a companion GUI that wraps and augments Claude Code with persistent state and custom UI capabilities.
+      disagreement: false
+      decision_reason: Bwee.app is an extension that enhances Claude Code with a native macOS interface and UI-building capabilities, not a standalone coding agent or app builder.
       decision_evidence:
-        - Scraped context explicitly states it 'Requires Claude Code'
-        - Primary page excerpt claims it provides a 'native macOS app' with 'persistent state'
-        - Listed as a canonical positive for the extensions-and-addons category
+        - Wraps Claude Code in a native macOS app per scraped site context and source-list description
+        - Requires Claude Code to function, positioning it as a host-dependent tool
+        - Focuses on building custom UIs via chat rather than autonomous code editing or generation
       category_candidates:
         - extensions-and-addons
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose extensions-and-addons over agent-orchestration because its core identity is a GUI wrapper for Claude Code
-        rather than a runtime for coordinating multiple independent agent teams.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'agent-orchestration', proposed
-        'extensions-and-addons'
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Bwee.app primarily augments Claude Code with GUI and workflow features rather than acting as a primary coding assistant that edits codebases autonomously.
+      review_reason: null
       review_resume_lifecycle: null

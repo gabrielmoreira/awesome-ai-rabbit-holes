@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rettfrabonden__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-08T05:39:05.247Z'
+      discovered_at: "2026-06-08T05:39:05.247Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,7 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: rettfrabonden.com
         extracted_url: https://rettfrabonden.com
-        surrounding_text: >-
-          - [slookisen/lokal](https://github.com/slookisen/lokal) [![slookisen/lokal MCP
-          server](https://glama.ai/mcp/servers/slookisen/lokal/badges/score.svg)](https://glama.ai/mcp/servers/slookisen/lokal)
-          📇 ☁️ 🍎 🪟 🐧 - Search and discover 1,400+ verified local food producers in Norway — farms, REKO rings,
-          farmers' markets, and farm shops. Natural-language search (NO/EN), geo-filtered discovery, and A2A protocol
-          support, backed by [rettfrabonden.com](https://rettfrabonden.com). Install via `npx lokal-mcp`.
+        surrounding_text: "- [slookisen/lokal](https://github.com/slookisen/lokal) [![slookisen/lokal MCP server](https://glama.ai/mcp/servers/slookisen/lokal/badges/score.svg)](https://glama.ai/mcp/servers/slookisen/lokal) 📇 ☁️ 🍎 🪟 🐧 - Search and discover 1,400+ verified local food producers in Norway — farms, REKO rings, farmers' markets, and farm shops. Natural-language search (NO/EN), geo-filtered discovery, and A2A protocol support, backed by [rettfrabonden.com](https://rettfrabonden.com). Install via `npx lokal-mcp`."
         confidence: high
 metadata:
   github:
@@ -42,37 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An agent-to-agent (A2A) network that provides an MCP server allowing AI assistants to query a database of 1,400+
-    Norwegian local food producers.
-  why_it_matters: >-
-    It demonstrates a real-world application of the Model Context Protocol by enabling AI agents to act as discovery
-    layers for physical-world commerce through a standardized interface.
-  mental_damage: >-
-    We've reached the era where your LLM isn't just writing your boilerplate, it's also sourcing your organic goat
-    cheese via a standardized protocol.
+  summary: Rett fra Bonden is a Norwegian local food directory enabling users to search for farm-produced groceries, meat, dairy, and other products via map-based filters and sales channels.
+  why_it_matters: It matters to developers as an example of a niche domain exposing real-time data to AI agents via A2A and MCP, demonstrating how vertical databases can become AI-accessible knowledge sources.
+  mental_damage: Another vertical SaaS slapping on 'AI-ready' as a feature while pretending local food discovery needs agent-to-agent protocol mediation.
   tags:
+    - local-food
+    - agent-to-agent
     - mcp
-    - a2a
-    - discovery
-    - local-commerce
+    - norway
+    - database
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
+  status: excluded
+  reason: The core product is a local food producer directory with MCP and A2A as optional integrations, not an AI developer tool; its primary identity serves consumers and producers, not developers building or augmenting AI workflows.
   evidence:
-    - jev-latest choice confidence 0.82
+    - "Site title and description: 'Rett fra Bonden — Finn lokalprodusert mat i Norge' and 'Søk blant 1643 lokale matprodusenter i Norge'"
+    - "Primary user flow: search for food, explore producers, buy directly — no mention of coding, agent building, or developer tooling"
+    - MCP and AI agent features are presented as optional enhancements for producers and consumers, not the core product
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Data & Databases
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-06-08T05:39:05.249Z'
+    updated_at: "2026-06-08T05:39:05.249Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,14 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:34:02.245Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for rettfrabonden__com: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (16/16)
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:26:08.270Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:88a31e6559eb2bd59af83d85368cd83a9370d7a183cb059a8ec5b677a3f28de1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The core product is a local food producer directory with MCP and A2A as optional integrations, not an AI developer tool; its primary identity serves consumers and producers, not developers building or augmenting AI workflows.
+      decision_evidence:
+        - "Site title and description: 'Rett fra Bonden — Finn lokalprodusert mat i Norge' and 'Søk blant 1643 lokale matprodusenter i Norge'"
+        - "Primary user flow: search for food, explore producers, buy directly — no mention of coding, agent building, or developer tooling"
+        - MCP and AI agent features are presented as optional enhancements for producers and consumers, not the core product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

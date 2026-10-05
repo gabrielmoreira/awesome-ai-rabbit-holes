@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bodegaone__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Bodega One Code
         extracted_url: https://bodegaone.ai
-        surrounding_text: >-
-          - **[Bodega One Code](https://bodegaone.ai)** – Free, local-first AI IDE with a built-in coding agent,
-          bring-your-own-LLM, and full offline/air-gap support.
+        surrounding_text: "- **[Bodega One Code](https://bodegaone.ai)** – Free, local-first AI IDE with a built-in coding agent, bring-your-own-LLM, and full offline/air-gap support."
         confidence: high
 metadata:
   github:
@@ -38,13 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Bodega One Code – Free, local-first AI IDE with a built-in coding agent, bring-your-own-LLM, and full
-    offline/air-gap support.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Bodega One Code is a local-first AI coding agent that provides a full IDE with autonomous agents, AI chat, and support for 10+ LLM providers.
+  why_it_matters: It lets developers run AI-assisted coding workflows entirely on their own hardware with full model choice and air-gap privacy.
+  mental_damage: Another IDE that promises ‘your models, your hardware’ while quietly hoping you’ll pay for the Pro tier when it drops.
+  tags:
+    - ai-agent
+    - local-ai
+    - ide
+    - coding-assistant
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
@@ -53,14 +53,14 @@ curation:
 placement:
   primary_category: local-ai
   secondary_categories: []
-  section: Desktop Chat & UIs
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:48.247Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:01ac866cb1ed0dfabce5ae9b923b004d1cc1f514eb4f6836e5ef7f7a2e527bdd
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Bodega One Code is a standalone AI coding agent with IDE-like functionality that performs autonomous coding tasks, making it a primary coding agent rather than an extension or app builder.
+      decision_evidence:
+        - Described as 'a local-first AI coding agent on your machine. Full IDE, AI chat, autonomous agent, 10+ LLM providers.'
+        - Agents plan, build, and ship code in parallel, operate on git worktrees, and run loops for tasks like dependency bumps and test backfills.
+        - Positioned as an alternative to Cursor and GitHub Copilot, emphasizing local execution and BYOLLM (Bring Your Own LLM).
+      category_candidates:
+        - coding-agents
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because Bodega One Code operates on existing codebases via agents that edit, test, and repair code, rather than generating new apps from prompts.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

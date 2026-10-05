@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__backyard__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Inference UI
         anchor_text: faradav
         extracted_url: https://faraday.dev
-        surrounding_text: '- [faradav](https://faraday.dev/) - Chat with AI Characters Offline, Runs locally, Zero-configuration.'
+        surrounding_text: "- [faradav](https://faraday.dev/) - Chat with AI Characters Offline, Runs locally, Zero-configuration."
         confidence: high
 metadata:
   github:
@@ -36,39 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Backyard AI is a desktop application for creating immersive AI-powered characters for roleplay and text-based
-    storytelling.
-  why_it_matters: >-
-    It provides a local interface for running specialized LLM configurations, including custom grammars and lorebooks,
-    for creative storytelling.
-  mental_damage: >-
-    Because why spend time debugging production code when you could be fine-tuning the emotional nuances of a fantasy
-    elf guard?
+  summary: Backyard AI is a platform for creating and chatting with immersive AI-powered fictional characters via text and voice, featuring customizable lore, author notes, and model parameters.
+  why_it_matters: It lets developers experiment with prompt engineering and context enrichment techniques like lorebooks and grammars to shape AI behavior in narrative applications.
+  mental_damage: Another character chat tool that makes you wonder if your AI waifu needs better lore than your actual life.
   tags:
-    - local-ai
+    - chatbots
     - prompt-engineering
     - character-ai
-  confidence: medium
+  confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software
-    engineering workflows.
+  reason: Backyard AI is an end-user character chat platform focused on immersive storytelling, not a developer-facing tool for coding, workflow automation, or AI infrastructure; its core use case is creative roleplay, not software development.
   evidence:
-    - Scraped site context shows desktop and mobile apps (Android/iOS) with local-feeling character chat and customization features like lorebooks and author notes
-    - Source-list context from awesome-local-ai places it in the 'Inference UI' section, indicating recognition as a local AI interface
-    - README excerpt emphasizes immersive, customizable AI character chats with no filters, suggesting a self-contained, user-driven AI experience
+    - "Scraped site context: 'Create Immersive AI-Powered Characters - Fictional Text & Voice Chats With No Filters'"
+    - README excerpt emphasizes lorebooks, author notes, grammars, and model parameters for character customization, not developer tooling
+    - "Source-list context: listed in awesome-local-ai under 'Inference UI' for character chats, not coding agents or developer tools"
 placement:
-  primary_category: local-ai
-  section: Desktop Chat & UIs
+  primary_category: null
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,34 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:44.951Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for backyard__ai: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:55.817Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8bba8d169be06bf93feccee640d59cb738587e72323bdd0f815c94725e69aacc
-      proposed_primary_category: local-ai
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3e6a5b17c0749674fbf5b92238b22d05c270a496d59beb94294e26717a473db8
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for
-        software engineering workflows.
+      decision_reason: Backyard AI is an end-user character chat platform focused on immersive storytelling, not a developer-facing tool for coding, workflow automation, or AI infrastructure; its core use case is creative roleplay, not software development.
       decision_evidence:
-        - Scraped site context shows desktop and mobile apps (Android/iOS) with local-feeling character chat and customization features like lorebooks and author notes
-        - Source-list context from awesome-local-ai places it in the 'Inference UI' section, indicating recognition as a local AI interface
-        - README excerpt emphasizes immersive, customizable AI character chats with no filters, suggesting a self-contained, user-driven AI experience
-      category_candidates:
-        - local-ai
-        - memory-and-context
-      contrastive_reason: Choose local-ai over memory-and-context because Backyard AI's primary identity is a desktop chat UI for local AI character interaction, not a dedicated memory or retrieval system, even though it uses lorebooks for context enrichment.
+        - "Scraped site context: 'Create Immersive AI-Powered Characters - Fictional Text & Voice Chats With No Filters'"
+        - README excerpt emphasizes lorebooks, author notes, grammars, and model parameters for character customization, not developer tooling
+        - "Source-list context: listed in awesome-local-ai under 'Inference UI' for character chats, not coding agents or developer tools"
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

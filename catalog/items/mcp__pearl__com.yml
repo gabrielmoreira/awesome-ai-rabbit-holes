@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__pearl__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Pearl
         extracted_url: https://mcp.pearl.com
-        surrounding_text: >-
-          - **[Pearl](https://mcp.pearl.com)** - Official MCP Server to interact with Pearl API. Connect your AI Agents
-          with 12,000+ certified experts instantly.
+        surrounding_text: "- **[Pearl](https://mcp.pearl.com)** - Official MCP Server to interact with Pearl API. Connect your AI Agents with 12,000+ certified experts instantly."
         confidence: high
 metadata:
   github:
@@ -38,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pearl API MCP Server is a Model Context Protocol server exposing Pearl API capabilities via MCP.
-  why_it_matters: >-
-    It lets AI agents securely access Pearl API functions through a standardized MCP interface, enabling tool use
-    without custom integrations.
-  mental_damage: >-
-    Another MCP server to add to the growing list of protocol adapters that promise seamless AI-tool connectivity while
-    fragmenting the very standardization they aim to achieve.
+  summary: An MCP server exposing tools or capabilities via the Model Context Protocol.
+  why_it_matters: Provides a standardized way for AI agents to access external tools and data sources.
+  mental_damage: Just another protocol wrapper in the endless MCP server gold rush, where every API gets a protocol tax.
   tags:
     - mcp
-    - api
+    - protocol
     - server
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  reason: The product's primary identity is an MCP server, which fits the MCP Ecosystem category as it exposes tools over the Model Context Protocol.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Identified as 'Pearl API MCP Server' in the scraped page excerpt
+    - Listed in awesome-mcp-servers under the 'Official Servers' section
+    - No evidence of being a coding agent, decision model, or extension; MCP is the core identity
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:32:45.139Z'
+    updated_at: "2026-10-05T04:41:45.594Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:45b126870622c94b38cce78754d61a8331efdea5ba5c538e9066b1e449491aad
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fdef577550cf5054f96a3fd96633244fe00705086b46971f8b1d3ab9d2b230af
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's primary identity is an MCP server exposing Pearl API capabilities, fitting the MCP category's
-        focus on protocol-first infrastructure rather than being merely an adapter within a broader product.
+      decision_reason: The product's primary identity is an MCP server, which fits the MCP Ecosystem category as it exposes tools over the Model Context Protocol.
       decision_evidence:
-        - Primary page excerpt identifies it as 'Pearl API MCP Server'
-        - Listed in awesome-mcp-servers under 'Official Servers' section
-        - No evidence of broader product identity beyond MCP server functionality
+        - Identified as 'Pearl API MCP Server' in the scraped page excerpt
+        - Listed in awesome-mcp-servers under the 'Official Servers' section
+        - No evidence of being a coding agent, decision model, or extension; MCP is the core identity
       category_candidates:
         - mcp
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities, not an
-        integration that extends a coding agent or editor with specific workflow features.
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because the product's identity is providing MCP server infrastructure, not performing coding tasks autonomously.
       review_reason: null
       review_resume_lifecycle: null

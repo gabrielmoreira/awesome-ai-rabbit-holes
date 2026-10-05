@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zapier__com__central__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Zapier Central
         anchor_text: Zapier Central
         extracted_url: https://zapier.com/central
-        surrounding_text: '## [Zapier Central](https://zapier.com/central)'
+        surrounding_text: "## [Zapier Central](https://zapier.com/central)"
         confidence: high
 metadata:
   github:
@@ -36,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Zapier Central is an AI platform for building autonomous agents that connect to Zapier's ecosystem of apps and
-    services.
-  why_it_matters: >-
-    It enables developers to create AI agents that automate workflows across thousands of integrated SaaS tools without
-    writing custom code.
-  mental_damage: Finally, a way to feel productive while outsourcing your automation anxiety to a semi-sentient Zapier workflow.
+  summary: Zapier Central is an AI agent platform for building and running no-code workflow automations.
+  why_it_matters: It lets developers create agent-driven automations that connect apps and services without writing code.
+  mental_damage: Another low-code wrapper promising agent superpowers while you still debug Zapier’s hidden limits at 2 a.m.
   tags:
     - ai-agents
     - workflow-automation
-    - zapier
-  confidence: medium
+    - no-code
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: Zapier Central is a no-code workflow automation platform whose primary identity is not developer-facing coding tasks, agent orchestration, or any other catalog scope; it is a general-purpose AI agent builder for business users, not software developers.
   evidence:
-    - jev-latest choice confidence 0.58
+    - "Source-list context: listed in awesome-ai-agents under 'Zapier Central' as an AI autonomous agent"
+    - "Repo description: (none) — no developer-facing coding or tooling signals"
+    - "Scraped site context: positioned as a no-code AI agent builder for connecting apps via Zapier"
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.671Z'
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,32 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:46.349Z'
+    updated_at: "2026-10-05T04:58:27.084Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b9b0669c6322343e432f85641d1b1a6826b746cf9d8aafbbdc37fae9e35da612
-      proposed_primary_category: agent-orchestration
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ecbe631006aacfda27909da04224dddc4ef8b35b687d6d34c51f6e77aea933ae
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Zapier Central is a hosted platform for designing, deploying, and managing AI agents that orchestrate tasks
-        across multiple apps and services, making it a multi-agent workforce builder rather than a coding agent or
-        extension.
+      decision_reason: Zapier Central is a no-code workflow automation platform whose primary identity is not developer-facing coding tasks, agent orchestration, or any other catalog scope; it is a general-purpose AI agent builder for business users, not software developers.
       decision_evidence:
-        - 'Seen in source lists: awesome-ai-agents | purpose: A list of AI autonomous agents | section: Zapier Central'
-        - 'Repo description: (none)'
-        - 'URL: https://zapier.com/central'
-      category_candidates:
-        - agent-orchestration
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-dev-extensions because Zapier Central is a hosted platform for managing
-        multiple AI agents and workflows across apps, not an extension that augments a coding assistant or editor.
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - "Source-list context: listed in awesome-ai-agents under 'Zapier Central' as an AI autonomous agent"
+        - "Repo description: (none) — no developer-facing coding or tooling signals"
+        - "Scraped site context: positioned as a no-code AI agent builder for connecting apps via Zapier"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shogo-nfrealmusic__jev-eval__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jev-eval
         extracted_url: https://github.com/shogo-nfrealmusic/jev-eval
-        surrounding_text: >-
-          - [jev-eval](https://github.com/Shogo-nfrealmusic/jev-eval)
-          ![stars](https://img.shields.io/github/stars/Shogo-nfrealmusic/jev-eval?style=flat-square&label=%E2%98%85) -
-          Third-party check: compares Jev against GPT-4o-mini and Claude Sonnet 4.5 under identical conditions on the
-          same judgment task.
+        surrounding_text: "- [jev-eval](https://github.com/Shogo-nfrealmusic/jev-eval) ![stars](https://img.shields.io/github/stars/Shogo-nfrealmusic/jev-eval?style=flat-square&label=%E2%98%85) - Third-party check: compares Jev against GPT-4o-mini and Claude Sonnet 4.5 under identical conditions on the same judgment task."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-eval - Third-party check: compares Jev against GPT-4o-mini and Claude Sonnet 4.5 under identical conditions on
-    the same judgment task.
+  summary: "jev-eval - Third-party check: compares Jev against GPT-4o-mini and Claude Sonnet 4.5 under identical conditions on the same judgment task."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.477Z'
+    updated_at: "2026-09-29T13:07:10.477Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

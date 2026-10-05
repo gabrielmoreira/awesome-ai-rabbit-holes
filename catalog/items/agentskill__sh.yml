@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentskill__sh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,25 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A marketplace and directory for discovering and installing reusable AI agent skills, rule sets, and instruction
-    packs for tools like Claude Code and Cursor.
-  why_it_matters: >-
-    It provides a centralized way for developers to instantly augment their coding assistants with specialized domain
-    knowledge or complex workflow rules via a single command.
-  mental_damage: Because why write your own system prompts when you can subscribe to a marketplace of someone else's.
+  summary: agentskill.sh is a marketplace and directory for installing AI agent skills across tools like Claude Code, Cursor, and Copilot via a single CLI command.
+  why_it_matters: It centralizes discoverable, reusable skill packs that extend AI coding assistants with role- and platform-specific behaviors.
+  mental_damage: Yet another registry promising to solve skill fragmentation while adding another layer of indirection to your agent setup.
   tags:
-    - marketplace
-    - agent-skills
-    - cursor
-    - claude-code
-    - directory
+    - skills
+    - registry
+    - cli
+    - agent-extensions
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
+  reason: agentskill.sh is a directory and marketplace for reusable skill packs that install into coding agents, making it a clear fit for the skills category as a registry/distribution layer.
   evidence:
-    - jev-latest choice confidence 0.78
+    - Described as 'the largest marketplace for Claude Code, Cursor, Copilot, Codex, Windsurf, Zed, and 20+ tools' with 'one command to install'
+    - Primary artifact is skill content (e.g., 275,000+ skills, skillsets by role/platform) that users install to change agent behavior
+    - Listed in awesome-LLM-resources under the '技能 Skills' section as a place to 'Browse AI agent skills'
 placement:
   primary_category: skills
   secondary_categories: []
@@ -65,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,31 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:32:38.613Z'
+    updated_at: "2026-10-05T04:27:45.219Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:38c24b07068945182b970f2e789a151b8d625080b0c01bf82f10c8859b666464
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:979c382a1853f0ab5bd0b6d45e1a0818909cbf0705c8b3c8ecda6e554ee02fa5
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: >-
-        The product is a registry specifically designed for discovering and distributing installable skill packs and
-        prompt-based content for existing AI agents.
+      decision_reason: agentskill.sh is a directory and marketplace for reusable skill packs that install into coding agents, making it a clear fit for the skills category as a registry/distribution layer.
       decision_evidence:
-        - Scraped text identifies it as an 'AI Agent Skills Directory & Marketplace'
-        - It provides a CLI tool to install skills directly into tools like Claude Code and Cursor
-        - The site explicitly categorizes content as 'Skillsets' and 'Skills by Platform'
+        - Described as 'the largest marketplace for Claude Code, Cursor, Copilot, Codex, Windsurf, Zed, and 20+ tools' with 'one command to install'
+        - Primary artifact is skill content (e.g., 275,000+ skills, skillsets by role/platform) that users install to change agent behavior
+        - Listed in awesome-LLM-resources under the '技能 Skills' section as a place to 'Browse AI agent skills'
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose skills over awesome-awesomes because its core identity is a functional marketplace/registry for
-        installable content rather than a simple curated list of external links.
+      contrastive_reason: Choose skills over awesome-awesomes because the core product is a functional skill registry and installation pipeline, not merely a curated list for discovery.
       review_reason: null
       review_resume_lifecycle: null

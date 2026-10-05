@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browserstack__mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Official Servers
         anchor_text: BrowserStack
         extracted_url: https://github.com/browserstack/mcp-server
-        surrounding_text: >-
-          - **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s
-          [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier
-          for every developer and tester on your team.
+        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
         confidence: high
 metadata:
   github:
@@ -32,10 +29,10 @@ metadata:
     archived: false
     full_name: browserstack/mcp-server
     html_url: https://github.com/browserstack/mcp-server
-    created_at: '2025-04-17T09:14:44Z'
-    pushed_at: '2026-09-23T14:20:08Z'
+    created_at: "2025-04-17T09:14:44Z"
+    pushed_at: "2026-09-23T14:20:08Z"
     description: BrowserStack's Official MCP Server
-    homepage: ''
+    homepage: ""
     topics:
       - accessibility
       - automation
@@ -43,17 +40,13 @@ metadata:
       - mcp-server
       - quality-assurance
       - testing
-    last_checked_at: '2026-09-24T04:13:03.710Z'
+    last_checked_at: "2026-09-24T04:13:03.710Z"
     readme:
-      fetched_at: '2026-09-24T04:13:03.710Z'
+      fetched_at: "2026-09-24T04:13:03.710Z"
       bytes: 30073
 insights:
-  summary: >-
-    BrowserStack's official MCP server exposing test execution, debugging, and accessibility tools over the Model
-    Context Protocol.
-  why_it_matters: >-
-    Lets developers trigger real-device testing, test debugging, and a11y scans from natural language inside MCP-enabled
-    IDEs like Cursor or Claude.
+  summary: BrowserStack's official MCP server exposing test execution, debugging, and accessibility tools over the Model Context Protocol.
+  why_it_matters: Lets developers trigger real-device testing, test debugging, and a11y scans from natural language inside MCP-enabled IDEs like Cursor or Claude.
   mental_damage: Another MCP server promising to eliminate context switching while adding yet another protocol to juggle.
   tags:
     - mcp
@@ -75,18 +68,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:03.710Z'
+    updated_at: "2026-09-24T04:13:03.710Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:58:41.115Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,20 +93,14 @@ processing:
       input_hash: sha256:a4afa156ada0a2d8b7e1792fa78a6d0280538292b315bac9add2b9fddb21fa89
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server providing BrowserStack's testing capabilities over MCP, not a
-        coding agent or extension.
+      decision_reason: The product's core identity is an MCP server providing BrowserStack's testing capabilities over MCP, not a coding agent or extension.
       decision_evidence:
-        - 'Repo description: ''BrowserStack''s Official MCP Server'''
-        - >-
-          README: 'Manage test cases, execute manual or automated tests, debug issues, and even fix code—directly within
-          tools like Cursor, Claude, or any MCP-enabled client'
-        - 'Seen in source list: awesome-mcp-servers under ''Official Servers'''
+        - "Repo description: 'BrowserStack's Official MCP Server'"
+        - "README: 'Manage test cases, execute manual or automated tests, debug issues, and even fix code—directly within tools like Cursor, Claude, or any MCP-enabled client'"
+        - "Seen in source list: awesome-mcp-servers under 'Official Servers'"
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities, not a
-        plugin that augments a host agent with new features.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities, not a plugin that augments a host agent with new features.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jetbrains__com__qodana__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: JetBrains Qodana
         extracted_url: https://jetbrains.com/qodana
-        surrounding_text: '- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality.'
+        surrounding_text: "- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality."
         confidence: high
     - id: discovery__www__jetbrains__com__qodana__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: JetBrains Qodana
         extracted_url: https://www.jetbrains.com/qodana
-        surrounding_text: '- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality.'
+        surrounding_text: "- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality."
         confidence: high
 metadata:
   github:
@@ -51,73 +51,57 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Qodana is a static code analysis tool that brings JetBrains IDE inspections to CI pipelines for code quality
-    improvement.
-  why_it_matters: >-
-    It helps developers catch bugs, vulnerabilities, and code smells early by enforcing consistent code quality
-    standards in automated workflows.
-  mental_damage: >-
-    Another layer of CI noise to ignore when the build fails because someone used 'var' instead of 'let' in a JavaScript
-    file.
+  summary: Qodana is a static code analysis tool by JetBrains that runs IDE inspections in CI pipelines.
+  why_it_matters: It helps developers catch code quality issues early by bringing JetBrains' deep code analysis into automated workflows.
+  mental_damage: Another layer of CI noise to ignore until the PR is already approved.
   tags:
     - static-analysis
     - code-quality
-    - ci-integration
+    - ci-cd
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    Qodana is a traditional static analysis tool without AI-powered features, so it does not meet the catalog's
-    requirement for practical AI tools or agents relevant to software developers.
+  status: included
+  reason: Qodana is a developer-facing tool that adds automated code inspection capabilities to CI workflows, extending JetBrains IDE intelligence rather than acting as a primary coding agent or standalone AI product.
   evidence:
-    - 'Repo description: none (no GitHub repo provided)'
-    - >-
-      Scraped site context: Qodana is a static code analysis engine that helps improve code quality by bringing
-      inspections from JetBrains IDEs to your CI pipeline. Try it now for free!
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under Code Review and Refactoring, but the description
-      mentions only static analysis, not AI
+    - "Scraped site context: 'Qodana is a static code analysis engine that helps improve code quality by bringing inspections from JetBrains IDEs to your CI pipeline'"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring'"
+    - No evidence of autonomous coding, agent behavior, or AI-driven code generation; focuses on static analysis and rule-based inspections
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Testing & Code Quality
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:22.022Z'
+    updated_at: "2026-10-05T04:48:53.230Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1d8dca39ac24a9fd27722cb71e9eda34ef55e018efe4dc940fdf598947208dcd
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f059c7908bb81935b3e28708e179c219dce8a2281f4703e13117bd8b417a9b50
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        Qodana is a traditional static analysis tool without AI-powered features, so it does not meet the catalog's
-        requirement for practical AI tools or agents relevant to software developers.
+      decision_reason: Qodana is a developer-facing tool that adds automated code inspection capabilities to CI workflows, extending JetBrains IDE intelligence rather than acting as a primary coding agent or standalone AI product.
       decision_evidence:
-        - 'Repo description: none (no GitHub repo provided)'
-        - >-
-          Scraped site context: Qodana is a static code analysis engine that helps improve code quality by bringing
-          inspections from JetBrains IDEs to your CI pipeline. Try it now for free!
-        - >-
-          Source-list context: listed in awesome-ai-coding-tools under Code Review and Refactoring, but the description
-          mentions only static analysis, not AI
-      category_candidates: []
-      contrastive_reason: null
+        - "Scraped site context: 'Qodana is a static code analysis engine that helps improve code quality by bringing inspections from JetBrains IDEs to your CI pipeline'"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring'"
+        - No evidence of autonomous coding, agent behavior, or AI-driven code generation; focuses on static analysis and rule-based inspections
+      category_candidates:
+        - extensions-and-addons
+        - evals
+      contrastive_reason: Choose extensions-and-addons over evals because Qodana's primary function is extending developer workflows with code quality checks, not measuring or evaluating AI/model behavior.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

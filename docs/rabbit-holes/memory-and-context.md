@@ -3,15 +3,15 @@
 
 Systems that improve what goes into the model: persistent agent memory, retrieval and RAG pipelines, context compression, and prompt management.
 
-_226 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_235 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 137
-- [Context & Session Management](#context--session-management) — 22
+- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 142
+- [Context & Session Management](#context--session-management) — 23
 - [Compression & Token Optimization](#compression--token-optimization) — 35
-- [Retrieval & Fresh Docs](#retrieval--fresh-docs) — 22
-- [Prompt Engineering & Management](#prompt-engineering--management) — 10
+- [Retrieval & Fresh Docs](#retrieval--fresh-docs) — 24
+- [Prompt Engineering & Management](#prompt-engineering--management) — 11
 
 ## Persistent Memory & Knowledge
 
@@ -200,7 +200,7 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `agent-memory` `context-engineering` `mcp-compatible` `langchain-integration` `procedural-learning`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+107 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+112 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[pi22by7/In-Memoria](https://github.com/pi22by7/in-memoria)** `⭐ 174` `updated ≤1y` An MCP server that indexes codebases to provide persistent memory, pattern recognition, and semantic search across sessions for AI coding assistants.
 - **[Jean Memory](https://github.com/jean-technologies/jean-memory)** `⭐ 172` `updated ≤1y` AI memory infrastructure providing a persistent, intelligent context layer for applications via SDKs and APIs.
@@ -303,10 +303,15 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[jonimartin27/claudescope](https://github.com/jonimartin27/claudescope)** `⭐ 0` claudescope – Local-first CLI (npx claudescope) that indexes your local Claude Code session transcripts (.claude/projects/*.jsonl) into a searchable dashboard with full-text search across your coding-session history. Zero dependencies, zero network calls — fully private and offline. MIT licensed.
 - **[stonianua/neither-mcp](https://github.com/stonianua/neither-mcp)** `⭐ 0` stonianua/neither-mcp : Hosted company-context graph for AI agents — decisions and memory with supersession; MCP server for Cursor and Claude Desktop (npx -y @neitherai/mcp-server@latest).
 - **[techreone/xknow-mcp](https://github.com/techreone/xknow-mcp)** `⭐ 0` techreone/xknow-mcp : Domain knowledge base for AI agents: curated, source-backed SEO, SaaS, and LLM-wiki notes with ranked keyword search, full-note retrieval, knowledge-graph exploration, and citations. Local stdio, no API key. npx -y xknow-mcp.
-- **[Atlan](https://atlan.com)** An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.
-- **[Context by Fulcra](https://fulcradynamics.com)** Fulcra is a user-owned context backend for AI agents that unifies real-world data, files, and agent work into a controllable context lake.
+- **[Atlan](https://atlan.com)** Atlan is an enterprise context layer that unifies data systems, business logic, and governance into a queryable graph for AI agents and analysts.
+- **[cachly.dev](https://cachly.dev)** cachly is a persistent memory layer that gives AI coding assistants a causal brain by learning from git history and providing pre-session briefings, failure prediction, and cross-language recall.
+- **[Context by Fulcra](https://fulcradynamics.com)** Fulcra is a user-owned context backend that aggregates real-world data, files, and agent work into a shared context lake for AI agents.
+- **[Dosu](https://dosu.dev)** Dosu is a knowledge infrastructure service that captures team and agent learnings into a shared, updatable cache to reduce redundant context gathering.
 - **[jevmem](https://npmjs.com/package/jevmem)** jevmem (site) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools.
-- **[Powerdrill AI](https://powerdrill.ai)** Powerdrill.ai is an AI-powered data analysis workspace with memory that allows users to query documents and databases in plain language and get sourced answers.
+- **[Mintlify](https://mintlify.com)** Mintlify is a documentation platform that uses AI to keep documentation up-to-date and optimized for agents and human readers.
+- **[Pieces.app](https://pieces.app)** Pieces is a desktop AI memory layer that captures user activity across apps to create a searchable personal context for AI tools.
+- **[Pinecone](https://pinecone.io)** Pinecone is a managed vector database service for AI applications.
+- **[Powerdrill AI](https://powerdrill.ai/es)** Powerdrill Bloom is an AI-powered data analysis workspace with memory that learns from each analysis to become smarter over time.
 - **[Remio](https://remio.ai)** Remio – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill workflows require the Remio desktop client.
 - **[Vectorize](https://vectorize.io)** Vectorize provides open-source agent memory (Hindsight) that enables AI agents to learn from experience and retain persistent context across sessions.
 
@@ -363,13 +368,21 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[Project Tiny Context Harness](https://github.com/seven128/project-tiny-context-harness)** `⭐ 4` `updated ≤90d` Minimal project memory and validation harness for AI coding agents.
 - **[wang-auspicious/codex-jev-compaction](https://github.com/wang-auspicious/codex-jev-compaction)** `⭐ 4` codex-jev-compaction — Curates Codex handoff context by using Jev to select old tool records while retaining selected text verbatim.
 - **[ILoveMyJay/repocontext](https://github.com/ilovemyjay/repocontext)** `⭐ 3` ILoveMyJay/repocontext - AST-based codebase map, token compression and context packaging for AI coding agents and IDEs.
-- **[Graphlit](https://graphlit.com)** Graphlit provides a managed context layer for AI agents with real-time sync across Slack, GitHub, and Jira, plus built-in semantic search. <details><summary>More about</summary>
+- **[leanctx.com](https://leanctx.com)** LeanCTX is a context gateway that selects, filters, and records what AI systems can see from connected data sources. <details><summary>More about</summary>
 
-  It reduces the operational overhead of keeping agent context fresh and synchronized across developer tools.
+  It gives developers fine-grained control over AI data access, reducing token waste and preventing sensitive information leakage.
 
-  _Finally, a way to outsource the context window anxiety your agents were already giving you._
+  _Another layer of middleware to debug when your AI keeps ignoring the rules you just set._
 
-  `context` `mcp` `agent-tools`
+  `context-control` `ai-gateway` `data-filtering`
+  </details>
+- **[Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown)** Reader-LM is a small language model designed to convert raw HTML into clean markdown for LLM grounding. <details><summary>More about</summary>
+
+  It provides a lightweight, multilingual alternative to heuristic-based HTML-to-Markdown pipelines, improving data preparation for LLM workflows.
+
+  _Another model solving a problem we already patched with regex — now we just need to fine-tune the fine-tuner._
+
+  `html-to-markdown` `small-language-model` `data-preprocessing`
   </details>
 
 ## Compression & Token Optimization
@@ -579,7 +592,7 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `code-search` `knowledge-base` `mcp`
   </details>
 - **[infino-ai/supergrep](https://github.com/infino-ai/supergrep)** `⭐ 31` infino-ai/code-context ️ - Local code search for coding agents: hybrid keyword and semantic search with SQL relevance ranking over a plain-file index.
-- **[aifabrice/jev-rag](https://github.com/aifabrice/jev-rag)** `⭐ 8` `updated ≤30d` Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid retrieval, taxonomy, passage gate, and line search.
+- **[Jev RAG](https://github.com/aifabrice/jev-rag)** `⭐ 8` `updated ≤30d` Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid retrieval, taxonomy, passage gate, and line search.
 - **[HakashiKatake/docorbit](https://github.com/hakashikatake/docorbit)** `⭐ 3` `updated ≤30d` DocOrbit discovers authoritative documentation, resolves it against your project's dependency versions, retrieves task-specific context, and verifies generated code against documentation contracts.
 - **[kyle641320/true-memory-fragments](https://github.com/kyle641320/true-memory-fragments)** `⭐ 2` kyle641320/true-memory-fragments - Checks source-context freshness against a Git working tree and retrieves source-linked code relationships to surface stale knowledge and cross-file impact.
 - **[lintbase](https://github.com/lintbase/lintbase)** `⭐ 2` `updated ≤90d` CLI and SaaS dashboard that scans live NoSQL databases to extract schema, security rules, and architecture into structured context files for AI coding agents. <details><summary>More about</summary>
@@ -592,13 +605,29 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[SylphxAI/repomap](https://github.com/sylphxai/repomap)** `⭐ 2` SylphxAI/repomap : A local code graph for AI agents with hybrid search, callers and callees, call paths, change impact including git diff, and an interactive graph UI.
 - **[SylphxAI/lockdocs](https://github.com/sylphxai/lockdocs)** `⭐ 1` SylphxAI/lockdocs : Local, offline library docs for AI agents from the exact versions in your lockfile (npm, PyPI, crates.io, Go), with pinned-version lookup, cited doc sections and exact API signatures.
-- **[HackMD](https://hackmd.io)** HackMD is a real-time collaborative Markdown editor that provides versioned notes and API access for teams and AI agents to share context. <details><summary>More about</summary>
+- **[Graphlit](https://graphlit.com)** Graphlit is a real-time context synchronization service that provides semantic search and API access to Slack, GitHub, and Jira for AI agents. <details><summary>More about</summary>
 
-  It reduces token overhead for agents by serving Markdown directly and keeps human-AI workflows synchronized through shared, version-controlled documentation.
+  It reduces the operational burden of keeping agent context up-to-date across multiple dev tools via a unified API.
 
-  _Another tool promising to be the 'universal context layer' while adding yet another tab to check when your agent's output diverges from the team's latest Markdown doc._
+  _Yet another 'zero-ops' context layer promising to finally make agents not hallucinate — if only it could sync our team’s actual tribal knowledge._
 
-  `collaborative-editing` `markdown` `ai-context` `developer-tools`
+  `context-engineering` `api` `sync`
+  </details>
+- **[shopgraph.dev](https://shopgraph.dev)** ShopGraph is an extraction API that returns product data with per-field provenance and freshness signals derived from schema.org, LLM, or Playwright extraction methods. <details><summary>More about</summary>
+
+  Developers building automation pipelines can trust extracted product data because each field includes visible source and recency signals for informed decision-making.
+
+  _Now your scrapers need to show their work like a stressed-out intern footnoting every Wikipedia claim in a group presentation._
+
+  `extraction` `provenance` `data-pipeline`
+  </details>
+- **[Tavily](https://tavily.com)** Tavily provides real-time web search and content extraction APIs for AI agents to access fresh, structured web data. <details><summary>More about</summary>
+
+  It lets AI agents ground their responses in current, verified web information to reduce hallucinations and improve reasoning accuracy.
+
+  _Another 'essential' search API that makes you wonder if your agent would work better if you just gave it a browser tab._
+
+  `search` `api` `rag`
   </details>
 
 ## Prompt Engineering & Management
@@ -629,13 +658,13 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 - **[alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev)** `⭐ 5` `updated ≤30d` Convert LLM prompts to Jev prompts.
-- **[16x Prompt](https://prompt.16x.engineer)** 16x Prompt is a desktop application that helps developers compose and manage prompts with source code context for AI coding tasks. <details><summary>More about</summary>
+- **[16x Prompt](https://prompt.16x.engineer)** 16x Prompt is a desktop application that helps developers manage code context and craft optimized prompts for LLMs to generate or edit code. <details><summary>More about</summary>
 
-  It streamlines prompt engineering for coding by organizing context, tracking tokens, and integrating with multiple LLM APIs, reducing manual copy-paste workflows.
+  It streamlines the prompt engineering workflow for AI-assisted coding by reducing manual copy-paste and token management friction.
 
-  _Finally, a tool that lets you spend more time crafting the perfect prompt than actually writing code._
+  _Yet another GUI layer between you and the model, promising to make prompt wrangling less tedious while quietly accepting that we still need to babysit LLMs._
 
-  `prompt-engineering` `context-management` `developer-tool`
+  `prompt-engineering` `context-management` `desktop-app`
   </details>
 - **[Izlo](https://getizlo.com)** Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts. <details><summary>More about</summary>
 
@@ -645,27 +674,35 @@ _226 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `prompt-management` `prompt-ops` `collaboration` `version-control` `testing`
   </details>
-- **[Prompteams](https://prompteams.com)** Prompteams is a prompt management system with versioning, testing, and auto-generated APIs for team collaboration on LLM prompts. <details><summary>More about</summary>
+- **[Pezzo](https://pezzo.ai)** Pezzo is a prompt management platform for AI applications that centralizes version control, testing, and deployment of prompts. <details><summary>More about</summary>
 
-  It gives developers a Git-like workflow for prompt iteration, testing, and deployment, reducing friction in LLM integration.
+  It helps teams treat prompts like code, reducing drift and improving reliability in LLM-powered features.
 
-  _Finally, a way to treat your prompts like code — until you realize you’re now versioning hallucinations._
+  _Finally, a way to argue about prompt wording in pull requests instead of just hoping GPT-4 doesn't hallucinate._
 
-  `prompt-management` `llm-ops` `versioning`
+  `prompt-engineering` `llmops` `version-control`
   </details>
-- **[PromptHub](https://prompthub.us)** PromptHub is a prompt management platform for teams that enables versioning, testing, and deployment of prompts with Git-based workflows and AI-assisted creation tools. <details><summary>More about</summary>
+- **[Prompteams](https://prompteams.com)** Prompteams is a prompt versioning and testing platform that provides Git-like workflows for managing AI prompts across environments and generating real-time APIs. <details><summary>More about</summary>
 
-  It gives developers a structured way to manage prompts as version-controlled artifacts, reducing drift and improving reproducibility in AI-integrated workflows.
+  It lets teams treat LLM prompts as version-controlled code with testing, branching, and live deployment, reducing integration risk when updating prompts in production.
 
-  _Another tool promising to tame the chaos of prompt sprawl, while quietly adding yet another login tab to your overflowing SaaS dashboard._
+  _Finally, a way to feel guilty about your prompt engineering skills while also blaming the tool when the model hallucinates._
 
-  `prompt-management` `versioning` `collaboration` `ai-tooling`
+  `prompt-management` `version-control` `llmops`
   </details>
-- **[PromptLayer](https://promptlayer.com)** A platform for managing prompt versions, running LLM evaluations, and monitoring agent observability in production. <details><summary>More about</summary>
+- **[PromptHub](https://prompthub.us)** PromptHub is a collaborative prompt management platform for teams to test, deploy, version, and share prompts using AI-powered tools and Git-based workflows. <details><summary>More about</summary>
 
-  It decouples prompt iteration from application deployment, allowing domain experts to update model behavior without engineer intervention.
+  It helps developers streamline prompt engineering workflows by providing structured versioning, testing, and deployment of prompts across models and environments.
 
-  _It turns your mission-critical logic into a visual CMS, making 'it worked in staging' a much more complicated question._
+  _Finally, a Jira for your prompts — because nothing says 'innovation' like version-controlling the incantations that make your AI work._
 
-  `prompt-management` `llmops` `observability` `evals` `tracing`
+  `prompt-management` `llmops` `collaboration`
+  </details>
+- **[PromptLayer](https://promptlayer.com)** PromptLayer is a platform for prompt versioning, evaluation, and observability for AI engineering teams. <details><summary>More about</summary>
+
+  It decouples prompt iteration from code deploys, letting domain experts edit prompts without engineer bottlenecks.
+
+  _Finally, a way to feel productive while avoiding the guilt of changing prompts in production like it's 2023._
+
+  `prompt-management` `llm-observability` `evals`
   </details>

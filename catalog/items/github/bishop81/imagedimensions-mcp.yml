@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bishop81__imagedimensions-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Bishop81/imagedimensions-mcp
         extracted_url: https://github.com/bishop81/imagedimensions-mcp
-        surrounding_text: >-
-          - [Bishop81/imagedimensions-mcp](https://github.com/Bishop81/imagedimensions-mcp)
-          [![Bishop81/imagedimensions-mcp MCP
-          server](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp)
-          📇 ☁️ - Audit the images on any web page: natural vs rendered dimensions, oversized-image detection, and
-          format breakdown, so agents can check web-image performance. Calls the hosted imagedimensions.com API, so no
-          local browser is required. `npx -y imagedimensions-mcp`
+        surrounding_text: "- [Bishop81/imagedimensions-mcp](https://github.com/Bishop81/imagedimensions-mcp) [![Bishop81/imagedimensions-mcp MCP server](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Bishop81/imagedimensions-mcp) 📇 ☁️ - Audit the images on any web page: natural vs rendered dimensions, oversized-image detection, and format breakdown, so agents can check web-image performance. Calls the hosted imagedimensions.com API, so no local browser is required. `npx -y imagedimensions-mcp`"
         confidence: high
 metadata:
   github:
@@ -36,25 +30,19 @@ metadata:
     archived: false
     full_name: Bishop81/imagedimensions-mcp
     html_url: https://github.com/Bishop81/imagedimensions-mcp
-    created_at: '2026-06-27T00:04:33Z'
-    pushed_at: '2026-08-14T14:28:26Z'
-    description: >-
-      MCP server that audits images on any web page — natural vs rendered dimensions, oversized-image detection, and
-      format breakdown. Powered by imagedimensions.com.
+    created_at: "2026-06-27T00:04:33Z"
+    pushed_at: "2026-08-14T14:28:26Z"
+    description: MCP server that audits images on any web page — natural vs rendered dimensions, oversized-image detection, and format breakdown. Powered by imagedimensions.com.
     homepage: https://imagedimensions.com
     topics: []
-    last_checked_at: '2026-09-24T04:12:59.563Z'
+    last_checked_at: "2026-09-24T04:12:59.563Z"
     readme:
-      fetched_at: '2026-09-24T04:12:59.563Z'
+      fetched_at: "2026-09-24T04:12:59.563Z"
       bytes: 1812
 insights:
-  summary: >-
-    MCP server that audits images on any web page for natural vs rendered dimensions, oversized detection, and format
-    breakdown.
+  summary: MCP server that audits images on any web page for natural vs rendered dimensions, oversized detection, and format breakdown.
   why_it_matters: Gives AI agents a way to catch image-performance issues during development without needing a local browser.
-  mental_damage: >-
-    Yet another niche MCP server that makes you wonder if we're building tools for agents or just for the sake of having
-    tools.
+  mental_damage: Yet another niche MCP server that makes you wonder if we're building tools for agents or just for the sake of having tools.
   tags:
     - mcp
     - developer-tools
@@ -75,18 +63,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.714Z'
+    updated_at: "2026-07-16T05:04:46.714Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:59.563Z'
+    updated_at: "2026-09-24T04:12:59.563Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:56:26.742Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -98,18 +88,14 @@ processing:
       input_hash: sha256:2d9e30acf1746eb869ca36494251c28f26c95f45068abab4c7fb14a66404bf73
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product is an MCP server exposing image-audit capabilities over the Model Context Protocol, making MCP its
-        primary identity rather than a side feature.
+      decision_reason: The product is an MCP server exposing image-audit capabilities over the Model Context Protocol, making MCP its primary identity rather than a side feature.
       decision_evidence:
-        - 'Repo description: ''MCP server that audits images on any web page'''
-        - 'README: Explicitly positions itself as an MCP server for AI agents like Claude and Cursor'
-        - 'Source-list context: Included in awesome-mcp-servers under Developer Tools'
+        - "Repo description: 'MCP server that audits images on any web page'"
+        - "README: Explicitly positions itself as an MCP server for AI agents like Claude and Cursor"
+        - "Source-list context: Included in awesome-mcp-servers under Developer Tools"
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product's core identity is being an MCP server, not an
-        extension that augments another agent.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's core identity is being an MCP server, not an extension that augments another agent.
       review_reason: null
       review_resume_lifecycle: null

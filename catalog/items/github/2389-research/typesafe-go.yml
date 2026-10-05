@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__2389-research__typesafe-go__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**typesafe-go**'
+        anchor_text: "**typesafe-go**"
         extracted_url: https://github.com/2389-research/typesafe-go
-        surrounding_text: >-
-          - [**typesafe-go**](https://github.com/2389-research/typesafe-go) — A TypeSafe System One client that uses
-          only the Go standard library to send Jev questions and read structured answers.
+        surrounding_text: "- [**typesafe-go**](https://github.com/2389-research/typesafe-go) — A TypeSafe System One client that uses only the Go standard library to send Jev questions and read structured answers."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: 2389-research/typesafe-go
     html_url: https://github.com/2389-research/typesafe-go
-    created_at: '2026-09-17T20:46:39Z'
-    pushed_at: '2026-09-19T03:37:45Z'
-    description: >-
-      A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the
-      standard library.
+    created_at: "2026-09-17T20:46:39Z"
+    pushed_at: "2026-09-19T03:37:45Z"
+    description: A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library.
     homepage: null
     topics:
       - api-client
@@ -43,26 +39,26 @@ metadata:
       - golang
       - llm
       - sdk
-    last_checked_at: '2026-09-29T13:08:16.438Z'
+    last_checked_at: "2026-09-29T13:08:16.438Z"
     readme:
-      fetched_at: '2026-09-29T13:08:16.438Z'
+      fetched_at: "2026-09-29T13:08:16.438Z"
       bytes: 5773
 insights:
-  summary: >-
-    A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the
-    standard library.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Go SDK for the TypeSafe System One API that provides typed judgments and probabilities with zero external dependencies.
+  why_it_matters: Enables Go developers to integrate System One decision models into their applications using a simple, dependency-free client.
+  mental_damage: Finally, a way to outsource your gut feelings to a typed API that returns probabilities instead of vibes.
+  tags:
+    - go
+    - sdk
+    - decision-models
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: This is a client SDK for a decision model (TypeSafe System One), making it a direct integration layer for accessing typed judgments and probabilities, which aligns with the decision-models category's focus on SDKs that call decision models.
   evidence:
-    - jev-latest choice confidence 0.86
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - "Repo description: 'A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library.'"
+    - "Topics include: llm, sdk, go, golang, api-client"
+    - "Source-list context: listed in awesome-jev-projects under 'SDK & Decision Frameworks' section"
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -74,15 +70,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:16.438Z'
+    updated_at: "2026-09-29T13:08:16.438Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:35.182Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a6f5bba5ea320efe5957624a1f95f0b1606f96456fda8c64340d95bd127682b0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: This is a client SDK for a decision model (TypeSafe System One), making it a direct integration layer for accessing typed judgments and probabilities, which aligns with the decision-models category's focus on SDKs that call decision models.
+      decision_evidence:
+        - "Repo description: 'A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library.'"
+        - "Topics include: llm, sdk, go, golang, api-client"
+        - "Source-list context: listed in awesome-jev-projects under 'SDK & Decision Frameworks' section"
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's identity is as a client for a specific decision model (TypeSafe System One), not a general-purpose AI framework or SDK for building applications.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

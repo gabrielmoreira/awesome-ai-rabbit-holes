@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__npmjs__com__package__contextstream__mcp__server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: contextstream/mcp-server
         extracted_url: https://www.npmjs.com/package/@contextstream/mcp-server
-        surrounding_text: >-
-          - [contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 -
-          Universal persistent memory for AI coding tools. Semantic code search, knowledge graphs, impact analysis,
-          decision tracking, and 60+ MCP tools. Works across Cursor, Claude Code, Windsurf, and any MCP client.
+        surrounding_text: "- [contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Universal persistent memory for AI coding tools. Semantic code search, knowledge graphs, impact analysis, decision tracking, and 60+ MCP tools. Works across Cursor, Claude Code, Windsurf, and any MCP client."
         confidence: high
 metadata:
   github:
@@ -40,19 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server package published to npm by @contextstream.
-  why_it_matters: Provides an MCP server that allows AI agents to interact with tools and data via the Model Context Protocol.
-  mental_damage: Another MCP server to spin up, because apparently every AI interaction now needs its own protocol gateway.
+  summary: An npm package named @contextstream/mcp-server that provides MCP server functionality.
+  why_it_matters: Enables developers to expose tools and data to AI agents via the Model Context Protocol.
+  mental_damage: Another MCP server to add to the growing pile of protocol implementations nobody asked for but everyone feels obliged to support.
   tags:
     - mcp
     - server
-    - npm
+    - protocol
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  reason: The product is an MCP server exposing tools over the Model Context Protocol, making MCP its primary identity rather than a compatibility feature.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Package name '@contextstream/mcp-server' indicates MCP server functionality
+    - Hosted on npm as an MCP server package
+    - No evidence of decision model, coding agent, or other primary identity
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -63,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.669Z'
+    updated_at: "2026-05-06T22:12:15.669Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,34 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:50:56.916Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for www__npmjs__com__package__contextstream__mcp__server: Invalid AI response
-        format: SyntaxError: Unexpected token 'T', ..."_reason": The produc"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:58:11.375Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:59e1796ce14b258b9270243a72e677ba3251188e688e4fa58280a5910edd3170
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3fde4a471952ce53b646f403a73ff5807fa5e7901ab5bf7039eb0b61832da091
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product is an MCP server exposing capabilities over the Model Context Protocol, making MCP its primary identity rather than a feature of a broader tool.
+      decision_reason: The product is an MCP server exposing tools over the Model Context Protocol, making MCP its primary identity rather than a compatibility feature.
       decision_evidence:
-        - Package name '@contextstream/mcp-server' indicates it is an MCP server
-        - Published on npm as an MCP server package
-        - No evidence of being a coding agent, extension, or broader platform
+        - Package name '@contextstream/mcp-server' indicates MCP server functionality
+        - Hosted on npm as an MCP server package
+        - No evidence of decision model, coding agent, or other primary identity
       category_candidates:
         - mcp
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose
-        framework or SDK.
+        - decision-models
+      contrastive_reason: Choose mcp over decision-models because there is no indication the server provides typed decision judgments or serves a decision model like Jev.
       review_reason: null
       review_resume_lifecycle: null

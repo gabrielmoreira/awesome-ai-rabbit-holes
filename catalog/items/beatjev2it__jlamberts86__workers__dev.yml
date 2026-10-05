@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__beatjev2it__jlamberts86__workers__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://beatjev2it.jlamberts86.workers.dev
-        surrounding_text: >-
-          - [beatjev](https://github.com/lambertsj/beatjev) ([site](https://beatjev2it.jlamberts86.workers.dev),
-          [post](https://x.com/j_lamberts/status/2100592556081832131)) - Browser game: try to beat Jev at spotting a
-          spam message.
+        surrounding_text: "- [beatjev](https://github.com/lambertsj/beatjev) ([site](https://beatjev2it.jlamberts86.workers.dev), [post](https://x.com/j_lamberts/status/2100592556081832131)) - Browser game: try to beat Jev at spotting a spam message."
         confidence: high
 metadata:
   github:
@@ -39,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: BeatJev is a web-based spam classification game where users race against the Jev decision model to identify spam messages.
+  why_it_matters: It demonstrates real-time interaction with a decision model, giving developers a hands-on feel for typed probabilistic judgments in AI.
+  mental_damage: Another click-to-prove-you're-better-than-an-AI distraction, now with spam and server-side timing.
+  tags:
+    - game
+    - decision-model
+    - browser
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: BeatJev is a decision-model-powered game, not a developer tool; its core purpose is entertainment via spam classification, not coding, agent workflows, or infrastructure.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Scraped site shows a 25-round spam/not-spam tapping game against the Jev AI model
+    - Source-list context places it in 'Games & simulations' under awesome-jev, a directory of Jev-based projects
+    - No evidence of coding assistance, agent behavior, or developer workflow integration in the UI or description
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:36.067Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a826a4b03cea70a7f415bf6fc0b7296f977da2d1c20c01c649ae5f993c5ff59a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: BeatJev is a decision-model-powered game, not a developer tool; its core purpose is entertainment via spam classification, not coding, agent workflows, or infrastructure.
+      decision_evidence:
+        - Scraped site shows a 25-round spam/not-spam tapping game against the Jev AI model
+        - Source-list context places it in 'Games & simulations' under awesome-jev, a directory of Jev-based projects
+        - No evidence of coding assistance, agent behavior, or developer workflow integration in the UI or description
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

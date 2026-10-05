@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__braingrid__ai__mcp__server__installation__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: BrainGrid MCP
         extracted_url: https://docs.braingrid.ai/mcp-server/installation
-        surrounding_text: >-
-          - [BrainGrid MCP](https://docs.braingrid.ai/mcp-server/installation) 🎖️☁️ - [BrainGrid](https://braingrid.ai)
-          MCP is the Product Management Agent that writes your specs, plans your features, and creates engineering-grade
-          tasks your coding tools can build reliably.
+        surrounding_text: "- [BrainGrid MCP](https://docs.braingrid.ai/mcp-server/installation) 🎖️☁️ - [BrainGrid](https://braingrid.ai) MCP is the Product Management Agent that writes your specs, plans your features, and creates engineering-grade tasks your coding tools can build reliably."
         confidence: high
 metadata:
   github:
@@ -40,25 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An MCP server implementation that integrates BrainGrid's capabilities into AI assistants like Claude Code, Cursor,
-    and Windsurf.
-  why_it_matters: >-
-    It provides AI coding assistants with specialized ability to create and manage requirements and tasks via the Model
-    Context Protocol.
-  mental_damage: Another layer of authentication to manage just so your IDE can finally understand your project's requirements.
+  summary: Installation guide for the BrainGrid MCP server, a Model Context Protocol server that exposes requirement and task management capabilities to AI coding assistants.
+  why_it_matters: Shows developers how to connect BrainGrid's requirement and task features to Claude Code, Cursor, Windsurf, Warp, and Codex via MCP.
+  mental_damage: Another MCP server to install just so your AI assistant can create Jira-like tickets without leaving the chat.
   tags:
     - mcp
     - installation
-    - ai-coding-assistant
+    - ai-agent-integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for installing an MCP server, not a standalone product or tool with developer-facing functionality beyond setup instructions.
+  reason: This is documentation for installing an MCP server, not the MCP server itself or a standalone developer tool; it lacks product identity and is purely auxiliary.
   evidence:
-    - "URL is a documentation subpage: https://docs.braingrid.ai/mcp-server/installation"
-    - Content is a step-by-step guide for installing BrainGrid MCP in Claude Code, Cursor, Windsurf, Warp, and Codex
-    - No evidence of a distinct product identity — the page serves only to instruct on configuration and authentication
+    - "URL is a documentation page: https://docs.braingrid.ai/mcp-server/installation"
+    - Content is a step-by-step guide to install BrainGrid MCP in various hosts
+    - No evidence of a standalone product; describes configuration for existing assistants
 placement:
   primary_category: null
   secondary_categories: []
@@ -69,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,36 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:38:09.675Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for docs__braingrid__ai__mcp__server__installation: Upstream error from
-        Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:17.264Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d887b7f8558cd7b71e7163d88806430c89452d41ecf8c2c03b62ad4517a2f2b4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9ec4cf88b2a5ad34da69e4f2017413c61f853a758b51b2cd3e08f31550f2c042
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product identity is specifically an MCP server designed to bridge BrainGrid's task management with existing
-        AI editors.
+      decision_reason: This is documentation for installing an MCP server, not the MCP server itself or a standalone developer tool; it lacks product identity and is purely auxiliary.
       decision_evidence:
-        - Documentation focuses exclusively on installing the BrainGrid MCP server
-        - Provides specific configuration blocks for MCP-enabled hosts like Claude Code, Cursor, and Windsurf
-        - Identified as an MCP server implementation in awesome-mcp-servers
-      category_candidates:
-        - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's identity is defined by its role as an MCP server rather
-        than a general IDE integration.
+        - "URL is a documentation page: https://docs.braingrid.ai/mcp-server/installation"
+        - Content is a step-by-step guide to install BrainGrid MCP in various hosts
+        - No evidence of a standalone product; describes configuration for existing assistants
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

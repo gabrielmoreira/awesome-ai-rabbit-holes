@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Replit
         extracted_url: https://replit.com
-        surrounding_text: >-
-          - **[Replit](https://replit.com/)** – Cloud IDE with AI agent for building complete applications from
-          descriptions.
+        surrounding_text: "- **[Replit](https://replit.com/)** – Cloud IDE with AI agent for building complete applications from descriptions."
         confidence: high
 metadata:
   github:
@@ -38,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Replit is a cloud-based platform for building, deploying, and collaborating on software projects with AI assistance.
-  why_it_matters: >-
-    It enables developers and teams to turn prompts into full-stack apps, sites, or internal tools with built-in
-    infrastructure and parallel agent workflows.
-  mental_damage: >-
-    The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin
-    sketch.
+  summary: Replit is a hosted AI platform for building apps and websites from natural language prompts without coding.
+  why_it_matters: Enables developers and non-developers to quickly prototype and deploy full-stack applications using AI-generated code and managed infrastructure.
+  mental_damage: Lets you skip learning to code while pretending the AI didn't just write your entire app for you.
   tags:
     - app-builder
-    - ai-generated
+    - ai-platform
     - full-stack
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Replit's core identity is generating deployable apps from prompts, matching the app-builder category's focus on turning natural language into working codebases rather than editing existing repos.
   evidence:
-    - jev-latest choice confidence 0.86
+    - "Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Describe what you want. Replit builds it. Get a working app or website in minutes. No coding required.'"
+    - "Scraped site context: primary page emphasizes 'Describe it. Publish it. Make my idea come true' and 'Turn ideas into apps in minutes — no coding needed'."
+    - "README excerpt: highlights 'Agent' feature that 'writes production-ready code, evolves it, and stays out of your way' and 'Full stack infrastructure' with built-in services."
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,42 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:35:49.094Z'
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for replit__com: {
-          "summary": "Replit is an online platform that generates full-stack web applications from natural language prompts using AI agents.",
-          "why_it_matters": "It lets developers and non-developers go from idea to deployed app in minutes without writing code or managing infrastructure.",
-          "mental_damage": "The promise of vibe coding makes you feel like a genius until you realize you’ve outsourced your
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:44:18.213Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:42e0c3185c5a058fc516ec0dc4f8a21a99d15ae45f11109338f1dc841b46af16
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:656a0d5d14099d4b661538844b30ece6bb3e3d306de6d66ff66cdbf5ce1140de
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        Primary identity is a prompt-to-app platform for generating and deploying software, not a coding assistant or
-        IDE.
+      decision_reason: Replit's core identity is generating deployable apps from prompts, matching the app-builder category's focus on turning natural language into working codebases rather than editing existing repos.
       decision_evidence:
-        - >-
-          Site description: 'Build and deploy software collaboratively with the power of AI without spending a second on
-          setup.'
-        - 'Source-list context: listed under ''App Builders'' in awesome-ai-coding-tools.'
-        - >-
-          Core product surface centers on turning prompts into apps/sites/tools (e.g., 'Agent writes production-ready
-          code').
+        - "Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Describe what you want. Replit builds it. Get a working app or website in minutes. No coding required.'"
+        - "Scraped site context: primary page emphasizes 'Describe it. Publish it. Make my idea come true' and 'Turn ideas into apps in minutes — no coding needed'."
+        - "README excerpt: highlights 'Agent' feature that 'writes production-ready code, evolves it, and stays out of your way' and 'Full stack infrastructure' with built-in services."
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose app-builders over agent-orchestration because the main value is prompt-to-app generation, not multi-agent
-        coordination as a standalone platform.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Replit's primary function is generating new apps from prompts rather than acting as an autonomous coding assistant editing existing codebases.
       review_reason: null
       review_resume_lifecycle: null

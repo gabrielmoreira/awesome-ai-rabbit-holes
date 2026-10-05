@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jsk4581__jev-blindspot__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-blindspot
         extracted_url: https://github.com/jsk4581/jev-blindspot
-        surrounding_text: >-
-          - [jev-blindspot](https://github.com/jsk4581/jev-blindspot) - Claude Code / Codex side panel: TypeSafe Jev
-          gates whether a prompt needs a second look, then optional blind-spot cards (issue #400). [Project
-          guide](community/projects/tools/jev-blindspot.md).
+        surrounding_text: "- [jev-blindspot](https://github.com/jsk4581/jev-blindspot) - Claude Code / Codex side panel: TypeSafe Jev gates whether a prompt needs a second look, then optional blind-spot cards (issue #400). [Project guide](community/projects/tools/jev-blindspot.md)."
         confidence: high
     - id: discovery__github__jsk4581__jev-blindspot__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,14 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-blindspot**'
+        anchor_text: "**jev-blindspot**"
         extracted_url: https://github.com/jsk4581/jev-blindspot
-        surrounding_text: >-
-          - [**jev-blindspot**](https://github.com/jsk4581/jev-blindspot) — A side panel for Claude Code and Codex CLI
-          that shows the blind spots of each prompt you submit: what the request would have needed to consider and shows
-          no sign of. Jev decides, in one call per prompt, whether the prompt is worth a second look; only then does the
-          agent's own headless mode read the project and return the items. Nothing blocks the prompt, nothing is added
-          to the session.
+        surrounding_text: "- [**jev-blindspot**](https://github.com/jsk4581/jev-blindspot) — A side panel for Claude Code and Codex CLI that shows the blind spots of each prompt you submit: what the request would have needed to consider and shows no sign of. Jev decides, in one call per prompt, whether the prompt is worth a second look; only then does the agent's own headless mode read the project and return the items. Nothing blocks the prompt, nothing is added to the session."
         confidence: high
 metadata:
   github:
@@ -61,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-blindspot - Claude Code / Codex side panel: TypeSafe Jev gates whether a prompt needs a second look, then
-    optional blind-spot cards (issue #400). Project guide.
+  summary: "jev-blindspot - Claude Code / Codex side panel: TypeSafe Jev gates whether a prompt needs a second look, then optional blind-spot cards (issue #400). Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -83,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.417Z'
+    updated_at: "2026-09-29T13:07:10.417Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

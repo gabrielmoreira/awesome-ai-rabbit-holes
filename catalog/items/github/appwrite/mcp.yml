@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__appwrite__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-23T05:08:37.088Z'
+      discovered_at: "2026-07-23T05:08:37.088Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: appwrite/mcp
         extracted_url: https://github.com/appwrite/mcp
-        surrounding_text: >-
-          - [appwrite/mcp](https://github.com/appwrite/mcp) [![appwrite/mcp MCP
-          server](https://glama.ai/mcp/servers/appwrite/mcp/badges/score.svg)](https://glama.ai/mcp/servers/appwrite/mcp)
-          🎖️ 🐍 ☁️ - Official Appwrite MCP server. Connect via hosted OAuth at `https://mcp.appwrite.io/` (no API keys)
-          or self-host with a project API key to manage databases, auth, users, functions, storage, messaging, and more.
+        surrounding_text: "- [appwrite/mcp](https://github.com/appwrite/mcp) [![appwrite/mcp MCP server](https://glama.ai/mcp/servers/appwrite/mcp/badges/score.svg)](https://glama.ai/mcp/servers/appwrite/mcp) 🎖️ 🐍 ☁️ - Official Appwrite MCP server. Connect via hosted OAuth at `https://mcp.appwrite.io/` (no API keys) or self-host with a project API key to manage databases, auth, users, functions, storage, messaging, and more."
         confidence: high
 metadata:
   github:
@@ -34,19 +30,17 @@ metadata:
     archived: false
     full_name: appwrite/mcp
     html_url: https://github.com/appwrite/mcp
-    created_at: '2025-02-25T18:29:38Z'
-    pushed_at: '2026-09-19T00:29:29Z'
+    created_at: "2025-02-25T18:29:38Z"
+    pushed_at: "2026-09-19T00:29:29Z"
     description: Appwrite’s MCP server. Operating your backend has never been easier.
     homepage: https://appwrite.io/
     topics: []
-    last_checked_at: '2026-09-21T04:13:45.205Z'
+    last_checked_at: "2026-09-21T04:13:45.205Z"
     readme:
-      fetched_at: '2026-09-21T04:13:45.205Z'
+      fetched_at: "2026-09-21T04:13:45.205Z"
       bytes: 8233
 insights:
-  summary: >-
-    Appwrite’s MCP server exposing its backend APIs—databases, users, functions, storage—as Model Context Protocol
-    tools.
+  summary: Appwrite’s MCP server exposing its backend APIs—databases, users, functions, storage—as Model Context Protocol tools.
   why_it_matters: Lets developers connect Appwrite to any MCP client without managing auth tokens or spinning up custom adapters.
   mental_damage: Another backend hoping to become the next MCP dependency you’ll forget to update when the spec changes again.
   tags:
@@ -69,17 +63,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-23T05:08:37.090Z'
+    updated_at: "2026-07-23T05:08:37.090Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:45.205Z'
+    updated_at: "2026-09-21T04:13:45.205Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -90,21 +84,15 @@ processing:
       input_hash: sha256:ef783b75e5f5ece7d5044f0c33019e8e7f19750ee0dfda927636841eb3385271
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project’s core identity is an MCP server that exposes Appwrite’s API as tools, matching the MCP category’s
-        focus on servers as primary product identity.
+      decision_reason: The project’s core identity is an MCP server that exposes Appwrite’s API as tools, matching the MCP category’s focus on servers as primary product identity.
       decision_evidence:
-        - 'Repo description: ''Appwrite’s MCP server. Operating your backend has never been easier.'''
-        - >-
-          README: 'A Model Context Protocol server for Appwrite. It exposes Appwrite's API — databases, users,
-          functions, teams, storage, and more — as tools your MCP client can call.'
+        - "Repo description: 'Appwrite’s MCP server. Operating your backend has never been easier.'"
+        - "README: 'A Model Context Protocol server for Appwrite. It exposes Appwrite's API — databases, users, functions, teams, storage, and more — as tools your MCP client can call.'"
         - Listed in awesome-mcp-servers under Server Implementations > Databases
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments
-        another assistant with host integrations.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with host integrations.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

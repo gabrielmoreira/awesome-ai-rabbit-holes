@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__i2cjak__risc-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: RISC-jeV
         extracted_url: https://github.com/i2cjak/risc-jev
-        surrounding_text: '- [RISC-jeV](https://github.com/i2cjak/RISC-jeV) - I tortured Jev into being a RISC-V CPU.'
+        surrounding_text: "- [RISC-jeV](https://github.com/i2cjak/RISC-jeV) - I tortured Jev into being a RISC-V CPU."
         confidence: high
     - id: discovery__github__i2cjak__risc-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +35,7 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: RISC-jeV
         extracted_url: https://github.com/i2cjak/risc-jev
-        surrounding_text: >-
-          | [RISC-jeV](https://github.com/i2cjak/RISC-jeV) | ★ 1 | Python | 2026-09-19 | I tortured Jev into being a
-          RISC-V CPU. |
+        surrounding_text: "| [RISC-jeV](https://github.com/i2cjak/RISC-jeV) | ★ 1 | Python | 2026-09-19 | I tortured Jev into being a RISC-V CPU. |"
         confidence: high
 metadata:
   github:
@@ -75,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.415Z'
+    updated_at: "2026-09-29T13:07:10.415Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

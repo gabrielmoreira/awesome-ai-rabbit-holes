@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__octomind__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Octomind
         extracted_url: https://www.octomind.dev
-        surrounding_text: >-
-          - [OctoMind-dev/octomind-mcp](https://github.com/OctoMind-dev/octomind-mcp) 📇 ☁️ - lets your preferred AI
-          agent create & run fully managed [Octomind](https://www.octomind.dev/) end-to-end tests from your codebase or
-          other data sources like Jira, Slack or TestRail.
+        surrounding_text: "- [OctoMind-dev/octomind-mcp](https://github.com/OctoMind-dev/octomind-mcp) 📇 ☁️ - lets your preferred AI agent create & run fully managed [Octomind](https://www.octomind.dev/) end-to-end tests from your codebase or other data sources like Jira, Slack or TestRail."
         confidence: high
     - id: discovery__octomind__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,7 +34,7 @@ provenance:
           - Testing and QA
         anchor_text: OctoMind
         extracted_url: https://octomind.dev
-        surrounding_text: '- **[OctoMind](https://octomind.dev)** – AI-powered end-to-end testing automation.'
+        surrounding_text: "- **[OctoMind](https://octomind.dev)** – AI-powered end-to-end testing automation."
         confidence: high
 metadata:
   github:
@@ -55,41 +52,36 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Octomind is an AI-powered QA platform that creates, runs, and auto-fixes end-to-end tests for web apps.
-  why_it_matters: >-
-    It automates test creation, execution, and maintenance, reducing debugging time and flaky tests for engineering
-    teams.
-  mental_damage: Finally, a tool that promises to make QA engineers obsolete—just like AI was supposed to do for developers.
+  summary: Octomind.dev is an AI-powered end-to-end testing platform that creates, runs, and self-heals Playwright-based tests for web applications.
+  why_it_matters: It reduces manual QA effort by generating stable, self-maintaining e2e tests that integrate with CI/CD and debug failures instantly.
+  mental_damage: Finally, a testing tool that doesn’t require you to pretend test maintenance is a virtuous craft rather than Sisyphean toil.
   tags:
     - testing
-    - qa
     - e2e
     - ai
+    - playwright
+    - ci-cd
   confidence: medium
 curation:
   status: included
-  reason: >-
-    Octomind is a testing and QA tool that integrates with workflows, fitting best as an extension/add-on for developer
-    tooling rather than a primary coding agent or standalone platform.
+  reason: Octomind is a testing and QA tool that integrates with workflows, fitting best as an extension/add-on for developer tooling rather than a primary coding agent or standalone platform.
   evidence:
     - Described as 'AI-powered testing that integrates with your workflow, debugs instantly, and heals itself'
     - Listed in awesome-ai-coding-tools under 'Testing and QA'
     - Listed in awesome-mcp-servers under 'Developer Tools' with MCP compatibility noted
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.44 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
     - decision-models
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.597Z'
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,36 +89,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:33:55.350Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for octomind__dev: Invalid AI response format: SyntaxError: Unexpected token
-        'O', ..."_reason": Octomind p"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:42:45.587Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:f8b1019442e8730cabbe1774bd1d4bcb8162c6a2cc2705f74efcdbd245e25443
-      proposed_primary_category: ai-dev-extensions
-      disagreement: false
-      decision_reason: >-
-        Octomind is a testing and QA tool that integrates with workflows, fitting best as an extension/add-on for
-        developer tooling rather than a primary coding agent or standalone platform.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e4c115b19b9bf6e0c26b500295388ac53dab3b0d7e4de740a22406e6027cd4c0
+      proposed_primary_category: evals
+      disagreement: true
+      decision_reason: Octomind.dev is an AI-driven testing platform focused on evaluating, maintaining, and improving test reliability through self-healing and failure analysis, making it a developer-facing tool for measuring and improving agent-like test behavior.
       decision_evidence:
-        - Octomind creates, runs, and auto-fixes end-to-end tests for web apps, integrating directly into CI/CD workflows.
-        - It uses AI to generate test code from user actions, debug failures with visual diffs, and self-heal test selectors to reduce maintenance.
-        - The tool emphasizes workflow integration, fast setup (under 5 minutes), and compatibility with Playwright, Cypress, and CI/CD pipelines.
+        - AI-powered QA platform that creates, runs, and auto-fixes end-to-end tests for your web app
+        - Self-healing reduces false positives by 78%, persistent traces cut debugging time by 50%
+        - Integrates with GitHub, Azure DevOps, TestRail, XRay, and MCP ready
       category_candidates:
-        - ai-dev-extensions
-        - app-builders
-      contrastive_reason: >-
-        Choose ai-dev-extensions over app-builders because Octomind's core value is augmenting existing workflows with
-        AI-powered testing rather than generating new apps from prompts.
-      review_reason: null
-      review_resume_lifecycle: null
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because Octomind’s core function is evaluating and improving test quality through AI-driven analysis and auto-fixing, not extending a coding agent or IDE.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

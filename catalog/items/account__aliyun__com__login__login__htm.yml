@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__account__aliyun__com__login__login__htm__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Yunxiao platform
         extracted_url: https://devops.aliyun.com
-        surrounding_text: >-
-          - **[AlibabaCloud DevOps MCP](https://github.com/aliyun/alibabacloud-devops-mcp-server)** - Yunxiao MCP Server
-          provides AI assistants with the ability to interact with the [Yunxiao platform](https://devops.aliyun.com).
+        surrounding_text: "- **[AlibabaCloud DevOps MCP](https://github.com/aliyun/alibabacloud-devops-mcp-server)** - Yunxiao MCP Server provides AI assistants with the ability to interact with the [Yunxiao platform](https://devops.aliyun.com)."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Login page for Alibaba Cloud (Aliyun).
-  why_it_matters: This is a cloud provider's authentication portal, not a developer tool or AI product.
-  mental_damage: Nothing captures the current state of AI automation like an agent getting stuck at a cloud provider's login screen.
+  summary: Aliyun login page for Alibaba Cloud account authentication.
+  why_it_matters: Provides access to Alibaba Cloud services used by developers for cloud computing, AI, and infrastructure workflows.
+  mental_damage: Another corporate login gate reminding us that even AI tools start with typing credentials into a form we’ll forget by next week.
   tags:
-    - aliyun
+    - cloud
+    - authentication
+    - alibaba
   confidence: high
 curation:
   status: excluded
-  reason: The entry is a login page for a cloud service rather than a standalone AI tool, agent, or MCP server.
+  reason: This is a generic authentication landing page for a cloud provider, not an AI developer tool or infrastructure with a tooling-focused identity.
   evidence:
-    - URL is a login portal for Aliyun
-    - Scraped context identifies the page as a cloud service login
+    - URL is account.aliyun.com/login/login.htm, a standard login endpoint
+    - Scraped site context describes Alibaba Cloud as a general cloud and AI provider, not a developer-facing tool
+    - Listed in awesome-mcp-servers as a linked page, but only as a login portal, not an MCP server or related tooling
 placement:
   primary_category: null
   section: null
@@ -59,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:29:40.779Z'
+    updated_at: "2026-10-05T04:27:26.095Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4eb771f9f4b2e6099cd34a92a980a6d93a6d0989ec2e3c5cf47d889266fca602
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8e997ed9313d2b1c10d3cff679794a7d1f70ea1649581bfded85ebdeec687f64
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry is a login page for a cloud service rather than a standalone AI tool, agent, or MCP server.
+      decision_reason: This is a generic authentication landing page for a cloud provider, not an AI developer tool or infrastructure with a tooling-focused identity.
       decision_evidence:
-        - URL is a login portal for Aliyun
-        - Scraped context identifies the page as a cloud service login
+        - URL is account.aliyun.com/login/login.htm, a standard login endpoint
+        - Scraped site context describes Alibaba Cloud as a general cloud and AI provider, not a developer-facing tool
+        - Listed in awesome-mcp-servers as a linked page, but only as a login portal, not an MCP server or related tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

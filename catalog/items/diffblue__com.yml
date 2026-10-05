@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__diffblue__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Testing and QA
         anchor_text: DiffBlue Cover
         extracted_url: https://diffblue.com
-        surrounding_text: '- **[DiffBlue Cover](https://www.diffblue.com/)** – AI-generated unit tests for Java applications.'
+        surrounding_text: "- **[DiffBlue Cover](https://www.diffblue.com/)** – AI-generated unit tests for Java applications."
         confidence: high
     - id: discovery__www__diffblue__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: DiffBlue Cover
         extracted_url: https://www.diffblue.com
-        surrounding_text: '- **[DiffBlue Cover](https://www.diffblue.com/)** – AI-generated unit tests for Java applications.'
+        surrounding_text: "- **[DiffBlue Cover](https://www.diffblue.com/)** – AI-generated unit tests for Java applications."
         confidence: high
 metadata:
   github:
@@ -51,19 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Diffblue Cover is an AI agent that autonomously generates, verifies, and fixes unit tests for enterprise Java
-    codebases.
-  why_it_matters: >-
-    It reduces developer toil by turning AI-generated code into production-ready tests with minimal human intervention,
-    improving test coverage at scale.
-  mental_damage: Finally, an AI that writes tests so you don’t have to pretend you’re doing QA while scrolling TikTok.
+  summary: Diffblue Cover is an AI-powered testing agent that autonomously generates, verifies, and maintains unit tests for enterprise Java codebases using existing AI coding platforms as engines.
+  why_it_matters: It reduces the manual burden of achieving high test coverage by orchestrating AI-generated tests into production-ready suites with minimal developer intervention.
+  mental_damage: Finally, a way to make AI write tests you don’t have to babysit — until you realize you’re still on the hook for the code those tests are verifying.
   tags:
-    - testing
-    - ai-agent
-    - java
-    - unit-testing
-    - automation
+    - ai-testing
+    - unit-test-generation
+    - developer-productivity
   confidence: high
 curation:
   status: included
@@ -76,46 +70,37 @@ placement:
   section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'coding-agents', proposed 'app-builders'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:00.878Z'
+    updated_at: "2026-10-05T04:47:43.291Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f4656fc4a57fb64876248cdeb27009dc81884fbbe70791015b02ea91d2911853
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c1cc7201235b786f6bc89a45b158d488c32983dca10190f897309babe38f0f26
       proposed_primary_category: app-builders
       disagreement: true
       decision_reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
       decision_evidence:
-        - >-
-          The Diffblue Testing Agent orchestrates AI coding tools to generate, verify, and fix unit tests autonomously
-          across enterprise codebases.
-        - >-
-          It processes entire codebases in batch mode via CLI, including legacy Java 8 and 11, with zero developer
-          intervention after setup.
-        - >-
-          It is positioned as an enterprise-scale AI agent that turns raw AI output into production-ready tests using
-          existing AI coding platforms as engines.
+        - The Diffblue Testing Agent orchestrates AI coding tools to create comprehensive test coverage, including coverage analysis, build system fixes, test plan creation, and PR preparation.
+        - It operates in batch mode across entire codebases or in IDE task mode, processing legacy Java repositories autonomously from 0% to 80%+ line coverage.
+        - Source-list placement in awesome-ai-coding-tools under 'Testing and QA' confirms its developer-facing, code-related automation purpose.
       category_candidates:
         - coding-agents
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose coding-agents over extensions-and-addons because Diffblue Cover acts as a standalone autonomous agent
-        that performs coding tasks (test generation, verification, fixing) rather than merely extending another agent or
-        IDE with auxiliary capabilities.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Diffblue Cover performs the core coding task of test generation and verification autonomously, rather than merely augmenting another agent with integrations like debugger or browser access.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'coding-agents', proposed 'app-builders'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

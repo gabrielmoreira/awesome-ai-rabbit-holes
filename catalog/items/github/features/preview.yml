@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__features__preview__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - GitHub Copilot X
         anchor_text: GitHub Copilot X
         extracted_url: https://github.com/features/preview
-        surrounding_text: '## [GitHub Copilot X](https://github.com/features/preview/copilot-x)'
+        surrounding_text: "## [GitHub Copilot X](https://github.com/features/preview/copilot-x)"
         confidence: high
 metadata:
   github:
@@ -56,19 +56,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.613Z'
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-03T05:16:40.993Z'
+    updated_at: "2026-09-03T05:16:40.993Z"
     cause:
       type: invalid_github_repo
-      message: 'Invalid GitHub repository identity: features/preview'
+      message: "Invalid GitHub repository identity: features/preview"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

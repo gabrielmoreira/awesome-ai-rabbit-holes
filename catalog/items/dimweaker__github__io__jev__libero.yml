@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dimweaker__github__io__jev__libero__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://dimweaker.github.io/jev-libero
-        surrounding_text: >-
-          - [jev-libero](https://github.com/Dimweaker/jev-libero) ([site](https://dimweaker.github.io/jev-libero/)) -
-          Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks.
+        surrounding_text: "- [jev-libero](https://github.com/Dimweaker/jev-libero) ([site](https://dimweaker.github.io/jev-libero/)) - Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks."
         confidence: high
 metadata:
   github:
@@ -38,31 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev × LIBERO is an interactive visualization of a decision model's choices in a robotics simulation, showing how Jev selects actions and their physical outcomes.
+  why_it_matters: It lets developers inspect and understand the inner reasoning of a decision model in a concrete, embodied task.
+  mental_damage: Watching a robot open a microwave while Jev second-guesses itself is the closest we get to debugging AI anxiety in real time.
+  tags:
+    - decision-models
+    - robotics
+    - simulation
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project's core identity is a decision model (Jev) making typed judgments in a control loop, not coding assistance or general tooling, placing it squarely in decision-models.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - The tool visualizes Jev's recorded choices, confidence, and motor outputs in a robotics simulation (LIBERO).
+    - It is listed in the awesome-jev directory under 'Games & simulations' as a project built on Jev.
+    - "The README emphasizes inspecting Jev's decision process: 'See what Jev chose,' 'Which input?', and 'Recorded Choice response'."
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:03.618Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:28b151f72cc81556c620d8a0fd047a8791fedcd5340690f75498fc69104d15f0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project's core identity is a decision model (Jev) making typed judgments in a control loop, not coding assistance or general tooling, placing it squarely in decision-models.
+      decision_evidence:
+        - The tool visualizes Jev's recorded choices, confidence, and motor outputs in a robotics simulation (LIBERO).
+        - It is listed in the awesome-jev directory under 'Games & simulations' as a project built on Jev.
+        - "The README emphasizes inspecting Jev's decision process: 'See what Jev chose,' 'Which input?', and 'Recorded Choice response'."
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's primary value is visualizing and inspecting a decision model's judgments, not performing coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

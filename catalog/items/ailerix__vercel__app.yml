@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ailerix__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://ailerix.vercel.app
-        surrounding_text: >-
-          - [ailerix](https://github.com/tylerjharden/ailerix) ([site](https://ailerix.vercel.app)) - Type-safe model
-          router. Jev (System One) banks each request to a typed catalog route.
+        surrounding_text: "- [ailerix](https://github.com/tylerjharden/ailerix) ([site](https://ailerix.vercel.app)) - Type-safe model router. Jev (System One) banks each request to a typed catalog route."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ailerix (site) - Type-safe model router. Jev (System One) banks each request to a typed catalog route.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ailerix.vercel.app is a project directory listing tools built on the Jev decision model from TypeSafe AI.
+  why_it_matters: It helps developers discover and explore applications of the Jev decision model in practice.
+  mental_damage: Another curated list to scroll through while wondering if any of these will actually ship before the next model release.
+  tags:
+    - jev
+    - decision-models
+    - directory
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The project is a curated directory of tools built on the Jev decision model, which aligns with the decision-models category's focus on agent tooling whose identity is the judgment itself.
   evidence:
-    - jev-latest choice confidence 0.68
+    - "Listed in awesome-jev under section: Agent tooling"
+    - "Description: Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model"
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:03.694Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:580122fb1f77ac18399548b684da4580c0128c0db9403f9ef80aa760b245319b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is a curated directory of tools built on the Jev decision model, which aligns with the decision-models category's focus on agent tooling whose identity is the judgment itself.
+      decision_evidence:
+        - "Listed in awesome-jev under section: Agent tooling"
+        - "Description: Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model"
+      category_candidates:
+        - decision-models
+        - awesome-awesomes
+      contrastive_reason: Choose decision-models over awesome-awesomes because the directory's specific focus on Jev-based tools makes the decision model identity more salient than general curation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

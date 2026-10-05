@@ -5,9 +5,8 @@ canonical_url: https://learn.deeplearning.ai/courses/generative-ai-for-everyone/
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__learn__deeplearning__ai__courses__generative__ai__for__everyone__information__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__learn__deeplearning__ai__courses__generative__ai__for__everyone__information__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '吴恩达: Generative AI for Everyone'
+        anchor_text: "吴恩达: Generative AI for Everyone"
         extracted_url: https://www.deeplearning.ai/courses/generative-ai-for-everyone
-        surrounding_text: '2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)'
+        surrounding_text: "2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)"
         confidence: high
 metadata:
   github:
@@ -37,32 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Generative AI for Everyone is an introductory Coursera course by Andrew Ng that explains generative AI concepts,
-    tools, and real-world applications for non-technical audiences.
-  why_it_matters: >-
-    It provides developers with a foundational understanding of generative AI to better collaborate with non-technical
-    teams and evaluate AI tools in business contexts.
-  mental_damage: >-
-    Watching yet another 'AI for everyone' course makes you wonder if the real skill is learning how to politely nod
-    while your manager talks about transforming synergies.
+  summary: An introductory course covering the mechanics, applications, and strategic implications of generative AI.
+  why_it_matters: Provides a conceptual baseline for understanding how generative AI works and how it can be applied in professional environments.
+  mental_damage: The gateway drug to realizing just how much of the current AI hype you have been swallowing.
   tags:
     - education
+    - course
+    - foundational
     - ai-literacy
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational resource with no developer-facing tooling, agent behavior, or workflow integration — it
-    teaches about AI but does not assist in building, running, or evaluating AI systems.
+  reason: This is an educational course designed for a general audience rather than a practical AI tool, framework, or agent for software developers.
   evidence:
-    - >-
-      The course is designed for anyone interested in generative AI, explicitly stating it does not require coding
-      skills or prior AI knowledge.
-    - >-
-      Learning objectives focus on understanding AI impacts, use cases, and strategy — not coding, agent orchestration,
-      prompt engineering as a tool, or app generation.
-    - No GitHub repo, CLI, SDK, or deployable artifact is associated; it is purely a video-based Coursera offering.
+    - Explicitly states 'It doesn't require any coding skills or prior knowledge of AI'
+    - Target audience is listed as 'business leaders', 'professionals', and 'everyone'
+    - The content is foundational literacy rather than developer-facing tooling or infrastructure
 placement:
   primary_category: null
   section: null
@@ -72,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,30 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:58.893Z'
+    updated_at: "2026-10-05T04:37:31.408Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:61ecd2f2aa1fab941f99e341dd75a1c9b01c4fb180fa21b85a28ae8dec2c41e0
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a2b15dfd9a5e9588c46c3da53e77cad568941ff964ec3f6cf0e2bdbda9be7900
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational resource with no developer-facing tooling, agent behavior, or workflow integration — it
-        teaches about AI but does not assist in building, running, or evaluating AI systems.
+      decision_reason: This is an educational course designed for a general audience rather than a practical AI tool, framework, or agent for software developers.
       decision_evidence:
-        - >-
-          The course is designed for anyone interested in generative AI, explicitly stating it does not require coding
-          skills or prior AI knowledge.
-        - >-
-          Learning objectives focus on understanding AI impacts, use cases, and strategy — not coding, agent
-          orchestration, prompt engineering as a tool, or app generation.
-        - No GitHub repo, CLI, SDK, or deployable artifact is associated; it is purely a video-based Coursera offering.
+        - Explicitly states 'It doesn't require any coding skills or prior knowledge of AI'
+        - Target audience is listed as 'business leaders', 'professionals', and 'everyone'
+        - The content is foundational literacy rather than developer-facing tooling or infrastructure
       category_candidates: []
       contrastive_reason: null
       review_reason: null

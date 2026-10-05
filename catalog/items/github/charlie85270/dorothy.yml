@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__charlie85270__dorothy__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-08-20T04:18:00.401Z'
+      discovered_at: "2026-08-20T04:18:00.401Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: Dorothy
         extracted_url: https://github.com/charlie85270/dorothy
-        surrounding_text: >-
-          | [Dorothy](https://github.com/Charlie85270/Dorothy) | 337 | TypeScript | MIT | 2026-07 | Desktop app to run
-          several CLI agents at once |
+        surrounding_text: "| [Dorothy](https://github.com/Charlie85270/Dorothy) | 337 | TypeScript | MIT | 2026-07 | Desktop app to run several CLI agents at once |"
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: Charlie85270/Dorothy
     html_url: https://github.com/Charlie85270/Dorothy
-    created_at: '2026-01-24T05:08:03Z'
-    pushed_at: '2026-07-07T13:21:25Z'
+    created_at: "2026-01-24T05:08:03Z"
+    pushed_at: "2026-07-07T13:21:25Z"
     description: Dorothy, the wife your AI agents needs.
     homepage: https://dorothyai.app
     topics:
@@ -40,17 +38,13 @@ metadata:
       - ai-agents
       - ai-tools
       - orchestration
-    last_checked_at: '2026-09-07T04:13:43.677Z'
+    last_checked_at: "2026-09-07T04:13:43.677Z"
     readme:
-      fetched_at: '2026-09-07T04:13:43.677Z'
+      fetched_at: "2026-09-07T04:13:43.677Z"
       bytes: 33987
 insights:
-  summary: >-
-    Dorothy is a desktop app that orchestrates multiple AI coding agents (Claude Code, Codex, Gemini, Grok, local) via a
-    unified UI with Kanban task management and scheduling.
-  why_it_matters: >-
-    It lets developers run and coordinate several AI coding assistants in parallel, overcoming the single-agent limit of
-    terminal-based tools.
+  summary: Dorothy is a desktop app that orchestrates multiple AI coding agents (Claude Code, Codex, Gemini, Grok, local) via a unified UI with Kanban task management and scheduling.
+  why_it_matters: It lets developers run and coordinate several AI coding assistants in parallel, overcoming the single-agent limit of terminal-based tools.
   mental_damage: Finally, a GUI for when you want to watch six AIs argue over who gets to fix your bug while you pretend to work.
   tags:
     - agent-orchestration
@@ -72,19 +66,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-08-20T04:18:00.404Z'
+    updated_at: "2026-08-20T04:18:00.404Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-24T04:13:10.423Z'
+    updated_at: "2026-09-24T04:13:10.423Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for charlie85270/dorothy
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,22 +89,15 @@ processing:
       input_hash: sha256:20bcf5ef872d8911d7d51aa601598febe9052a4b9e08e53f4ebca41c0d645e9e
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        Dorothy's core value is coordinating multiple agents via a Super Agent orchestrator with visual task management,
-        making it an agent orchestration platform rather than a coding agent or extension.
+      decision_reason: Dorothy's core value is coordinating multiple agents via a Super Agent orchestrator with visual task management, making it an agent orchestration platform rather than a coding agent or extension.
       decision_evidence:
-        - >-
-          README states: 'Delegate and coordinate — a Super Agent orchestrates other agents via MCP tools' and 'Manage
-          tasks visually — Kanban board with automatic agent assignment'
-        - 'Repo description: ''Dorothy, the wife your AI agents needs.'' implies orchestration role'
+        - "README states: 'Delegate and coordinate — a Super Agent orchestrates other agents via MCP tools' and 'Manage tasks visually — Kanban board with automatic agent assignment'"
+        - "Repo description: 'Dorothy, the wife your AI agents needs.' implies orchestration role"
         - Lists MCP Servers & Tools as a feature, showing agent coordination via MCP
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because Dorothy's main product is a control plane for managing
-        multiple agents (via Super Agent, Kanban, scheduling), not a primary coding assistant that writes or edits code
-        directly.
+      contrastive_reason: Choose agent-orchestration over coding-agents because Dorothy's main product is a control plane for managing multiple agents (via Super Agent, Kanban, scheduling), not a primary coding assistant that writes or edits code directly.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

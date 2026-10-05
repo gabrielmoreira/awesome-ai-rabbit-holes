@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__web__stanford__edu__class__cs25__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '斯坦福 CS25: Transformers United V4'
+        anchor_text: "斯坦福 CS25: Transformers United V4"
         extracted_url: https://web.stanford.edu/class/cs25
-        surrounding_text: '10. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)'
+        surrounding_text: "10. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)"
         confidence: high
 metadata:
   github:
@@ -36,31 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CS25 is a Stanford seminar course on Transformers research featuring lectures from top AI researchers.
-  why_it_matters: Provides developers with access to cutting-edge Transformer research talks that can inform AI engineering work.
-  mental_damage: >-
-    Watching yet another AI lecture series while your PRs rot and your local LLM keeps hallucinating about your
-    codebase.
+  summary: CS25 is a Stanford University course on Transformers research featuring public lectures from leading AI researchers.
+  why_it_matters: Provides free access to cutting-edge Transformer research talks relevant to developers working with LLMs and AI systems.
+  mental_damage: Another firehose of academic AI content that feels useful until you realize you're just doomscrolling through yet another seminar series instead of shipping code.
   tags:
-    - education
-    - research
-    - ai
+    - course
+    - lecture-series
+    - ai-research
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or infrastructure
-    product.
+  reason: CS25 is an academic course and lecture series, not a developer-facing AI tool, agent, framework, or infrastructure product; it lacks any product identity or tooling angle for software developers.
   evidence:
-    - >-
-      Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from
-      researchers like Geoffrey Hinton and Andrej Karpathy
-    - >-
-      Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an educational
-      resource
-    - >-
-      Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of
-      developer tooling, code generation, or AI agent functionality
+    - "Repo description: (none)"
+    - "Scraped site context: Title: CS25: Tranformers United!; Description: CS25 has become one of Stanford's hottest and most seminar courses, featuring top researchers at the forefront of Transformers research"
+    - "Source-list context: Appears in awesome-LLM-resources under section: 课程 Course with purpose: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources."
 placement:
   primary_category: null
   section: null
@@ -70,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,32 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:28.986Z'
+    updated_at: "2026-10-05T04:57:21.345Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2c9eaa1c87d6306a41e8bc31b890278aab07a24ab651d2db6f7d2228e244df93
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a22e2284edb8edca3c20a5fd922b65a2cb540b93f75b214294e7451838285c0f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        CS25 is an educational course and lecture series, not a developer-facing AI tool, agent, workflow, or
-        infrastructure product.
+      decision_reason: CS25 is an academic course and lecture series, not a developer-facing AI tool, agent, framework, or infrastructure product; it lacks any product identity or tooling angle for software developers.
       decision_evidence:
-        - >-
-          Scraped site context describes CS25 as 'one of Stanford's hottest seminar courses' featuring talks from
-          researchers like Geoffrey Hinton and Andrej Karpathy
-        - >-
-          Source-list context shows it appears in 'awesome-LLM-resources' under the '课程 Course' section as an
-          educational resource
-        - >-
-          Primary page excerpt emphasizes weekly attendance to talks/lectures as the only homework, with no mention of
-          developer tooling, code generation, or AI agent functionality
+        - "Repo description: (none)"
+        - "Scraped site context: Title: CS25: Tranformers United!; Description: CS25 has become one of Stanford's hottest and most seminar courses, featuring top researchers at the forefront of Transformers research"
+        - "Source-list context: Appears in awesome-LLM-resources under section: 课程 Course with purpose: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

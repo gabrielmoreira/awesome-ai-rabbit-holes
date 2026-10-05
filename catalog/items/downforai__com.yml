@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__downforai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: DownForAI
         extracted_url: https://downforai.com
-        surrounding_text: >-
-          - **[DownForAI](https://downforai.com/)** – Real-time status monitoring for 800+ AI services including
-          ChatGPT, Claude, Gemini, Midjourney, and Groq. Tracks uptime, latency, and community outage reports.
+        surrounding_text: "- **[DownForAI](https://downforai.com/)** – Real-time status monitoring for 800+ AI services including ChatGPT, Claude, Gemini, Midjourney, and Groq. Tracks uptime, latency, and community outage reports."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    DownForAI – Real-time status monitoring for 800+ AI services including ChatGPT, Claude, Gemini, Midjourney, and
-    Groq. Tracks uptime, latency, and community outage reports.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: downforai.com is a website offering AI-powered coding tools for software developers, listed in the DevOps and Infrastructure section of the awesome-ai-coding-tools directory.
+  why_it_matters: It provides developers with access to AI coding assistants and DevOps-related utilities aimed at improving development workflows and infrastructure automation.
+  mental_damage: Another AI tool aggregator promising to streamline your DevOps pipeline while adding yet another tab to your overflowing bookmark bar.
+  tags:
+    - ai-coding-tools
+    - devops
+  confidence: medium
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  status: excluded
+  reason: The site lacks a clear primary product identity and appears to be a directory or landing page rather than a standalone developer tool, making it unsuitable for inclusion as a primary AI tool in the catalog.
   evidence:
-    - jev-latest choice confidence 0.41
-    - jev winnow:e4b 0.39 below gate 0.50; proposed out of scope; placement kept at evals (unverified)
+    - Listed in awesome-ai-coding-tools under DevOps and Infrastructure section
+    - No repo description, stars, or activity data provided
+    - URL points to a homepage with no evident product or tooling described in inputs
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories: []
-  section: Observability & Tracing
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:08:59.552Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b029255bdf7a560e689d6c2744ad4229620f3c20978feebe72098bb955bd0389
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site lacks a clear primary product identity and appears to be a directory or landing page rather than a standalone developer tool, making it unsuitable for inclusion as a primary AI tool in the catalog.
+      decision_evidence:
+        - Listed in awesome-ai-coding-tools under DevOps and Infrastructure section
+        - No repo description, stars, or activity data provided
+        - URL points to a homepage with no evident product or tooling described in inputs
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

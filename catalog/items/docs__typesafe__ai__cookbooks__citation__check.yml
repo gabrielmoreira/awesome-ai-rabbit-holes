@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__citation__check__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Retrieval and verification
         anchor_text: Double-checking citations
         extracted_url: https://docs.typesafe.ai/cookbooks/citation_check
-        surrounding_text: >-
-          - [Double-checking citations](https://docs.typesafe.ai/cookbooks/citation_check) - Judge whether a supplied
-          source supports a claim and flag uncertain decisions for review.
+        surrounding_text: "- [Double-checking citations](https://docs.typesafe.ai/cookbooks/citation_check) - Judge whether a supplied source supports a claim and flag uncertain decisions for review."
         confidence: high
     - id: discovery__docs__typesafe__ai__cookbooks__citation__check__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,9 +34,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Double-checking citations
         extracted_url: https://docs.typesafe.ai/cookbooks/citation_check
-        surrounding_text: >-
-          - [Double-checking citations](https://docs.typesafe.ai/cookbooks/citation_check) - Official example of
-          checking whether source context supports a claim.
+        surrounding_text: "- [Double-checking citations](https://docs.typesafe.ai/cookbooks/citation_check) - Official example of checking whether source context supports a claim."
         confidence: high
 metadata:
   github:
@@ -56,17 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A cookbook demonstrating how to verify LLM-generated citations against source documents using automated checks and human review.
+  why_it_matters: It provides a practical pattern for reducing hallucinated citations in RAG or LLM responses by combining string matching with decision-model-based context verification.
+  mental_damage: Another tool to audit the hallucinations we willingly ignore until compliance or credibility forces us to care.
+  tags:
+    - verification
+    - rag
+    - citation-checking
+    - typesafe
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is documentation for a verification pattern, not a standalone tool or developer-facing product, and its core function is better classified as a decision-model judgment rather than a coding workflow enhancement.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.34 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The material is a TypeSafe AI cookbook page, not a GitHub repo or distributable tool.
+    - The core logic relies on TypeSafe's Jev decision model to assess whether a source supports a claim via a Choice question.
+    - It appears in awesome-jev under 'Patterns and cookbooks > Retrieval and verification', indicating it is an example use of Jev, not a primary developer tool.
 placement:
   primary_category: null
   secondary_categories: []
@@ -77,7 +79,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +87,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:37.417Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e950ff2073f73810d9a084fe4c29bdb94da070768f27baf04effbd776f1fcc3d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is documentation for a verification pattern, not a standalone tool or developer-facing product, and its core function is better classified as a decision-model judgment rather than a coding workflow enhancement.
+      decision_evidence:
+        - The material is a TypeSafe AI cookbook page, not a GitHub repo or distributable tool.
+        - The core logic relies on TypeSafe's Jev decision model to assess whether a source supports a claim via a Choice question.
+        - It appears in awesome-jev under 'Patterns and cookbooks > Retrieval and verification', indicating it is an example use of Jev, not a primary developer tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

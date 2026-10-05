@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__treeverse__lakefs__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,7 @@ provenance:
           - Data Storage
         anchor_text: LakeFS
         extracted_url: https://github.com/treeverse/lakefs
-        surrounding_text: >-
-          | [LakeFS](https://github.com/treeverse/lakeFS)   | Git-like capabilities for your object
-          storage.                | ![GitHub
-          Badge](https://img.shields.io/github/stars/treeverse/lakeFS.svg?style=flat-square)  |
+        surrounding_text: "| [LakeFS](https://github.com/treeverse/lakeFS)   | Git-like capabilities for your object storage.                | ![GitHub Badge](https://img.shields.io/github/stars/treeverse/lakeFS.svg?style=flat-square)  |"
         confidence: high
 metadata:
   github:
@@ -33,8 +30,8 @@ metadata:
     archived: false
     full_name: treeverse/lakeFS
     html_url: https://github.com/treeverse/lakeFS
-    created_at: '2019-09-12T11:46:28Z'
-    pushed_at: '2026-07-21T12:31:23Z'
+    created_at: "2019-09-12T11:46:28Z"
+    pushed_at: "2026-07-21T12:31:23Z"
     description: lakeFS - Data version control for your data lake | Git for data
     homepage: https://docs.lakefs.io
     topics:
@@ -57,20 +54,14 @@ metadata:
       - hadoop-filesystem
       - lakefs
       - object-storage
-    last_checked_at: '2026-07-21T15:20:55.111Z'
+    last_checked_at: "2026-07-21T15:20:55.111Z"
     readme:
-      fetched_at: '2026-07-21T15:20:55.111Z'
+      fetched_at: "2026-07-21T15:20:55.111Z"
       bytes: 8366
 insights:
-  summary: >-
-    Open-source data version control for object storage that brings Git-like branching, atomicity, and versioning to
-    data lakes on S3, Azure Blob, and GCS.
-  why_it_matters: >-
-    It lets data teams treat large-scale datasets with the same reproducibility and review workflows that developers
-    expect from source control.
-  mental_damage: >-
-    Now your data lake can have the same 'works on my branch' confidence that your microservices deployment has right
-    before it takes down prod.
+  summary: Open-source data version control for object storage that brings Git-like branching, atomicity, and versioning to data lakes on S3, Azure Blob, and GCS.
+  why_it_matters: It lets data teams treat large-scale datasets with the same reproducibility and review workflows that developers expect from source control.
+  mental_damage: Now your data lake can have the same 'works on my branch' confidence that your microservices deployment has right before it takes down prod.
   tags:
     - data-version-control
     - data-lake
@@ -80,13 +71,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is data lake storage infrastructure, not an AI coding assistant, agent, framework, or developer-facing AI tool
-    within our scope.
+  reason: This is data lake storage infrastructure, not an AI coding assistant, agent, framework, or developer-facing AI tool within our scope.
   evidence:
-    - >-
-      Repo description and README identify lakeFS as 'Git for Data' and data version control for object storage, with no
-      AI model, agent, or coding-assistance features.
+    - Repo description and README identify lakeFS as 'Git for Data' and data version control for object storage, with no AI model, agent, or coding-assistance features.
     - Topics and README focus on Spark, Hive, and object storage integration rather than software developer AI tooling.
     - Source list places it in Data Storage, confirming its primary identity is data infrastructure.
 placement:
@@ -98,17 +85,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.653Z'
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:20:55.111Z'
+    updated_at: "2026-07-21T15:20:55.111Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

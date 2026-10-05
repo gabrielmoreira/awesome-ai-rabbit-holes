@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__localhost__3000__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Flipt
         extracted_url: https://flipt.io
-        surrounding_text: >-
-          - [flipt-io/mcp-server-flipt](https://github.com/flipt-io/mcp-server-flipt) 📇 🏠 - Enable AI assistants to
-          interact with your feature flags in [Flipt](https://flipt.io).
+        surrounding_text: "- [flipt-io/mcp-server-flipt](https://github.com/flipt-io/mcp-server-flipt) 📇 🏠 - Enable AI assistants to interact with your feature flags in [Flipt](https://flipt.io)."
         confidence: high
 metadata:
   github:
@@ -39,22 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: localhost:3000 is an unresolvable local development server address with no associated project or tooling.
-  why_it_matters: >-
-    It does not represent any AI developer tool, agent, or infrastructure and provides zero utility in the catalog
-    context.
-  mental_damage: The quiet horror of mistaking a browser error for a breakthrough in agent orchestration.
+  summary: No project information provided.
+  why_it_matters: Cannot determine relevance without project details.
+  mental_damage: Another void in the AI tooling wilderness where meaning goes to die.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input describes a local host port with no GitHub repo, description, README, or identifiable product — it is not
-    a tool but a network endpoint.
+  reason: Insufficient data to evaluate project identity or developer-tooling fit.
   evidence:
-    - 'Repo description: (none)'
-    - 'URL: http://localhost:3000'
-    - No source-list context or awesome list inclusion
+    - No repo description provided
+    - No README excerpt available
+    - No scraped site context given
 placement:
   primary_category: null
   section: null
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,26 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:54.406Z'
+    updated_at: "2026-10-05T04:58:38.317Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ceec0c42669f942d9d37d5db261a98adac0e8aac9e32d84e4297db017f90ac5c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4bc0bce0f56e3651302e709ee0284e81d65b804d2c35a466fea4075a6e8d906f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input describes a local host port with no GitHub repo, description, README, or identifiable product — it is
-        not a tool but a network endpoint.
+      decision_reason: Insufficient data to evaluate project identity or developer-tooling fit.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'URL: http://localhost:3000'
-        - No source-list context or awesome list inclusion
+        - No repo description provided
+        - No README excerpt available
+        - No scraped site context given
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__relevanceai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Relevance AI
         anchor_text: Relevance AI
         extracted_url: https://relevanceai.com
-        surrounding_text: '## [Relevance AI](https://relevanceai.com/)'
+        surrounding_text: "## [Relevance AI](https://relevanceai.com/)"
         confidence: high
 metadata:
   github:
@@ -36,31 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Relevance AI is an enterprise platform for building and running specialist AI agents to automate business tasks in
-    sales, marketing, HR, and operations.
-  why_it_matters: >-
-    It lets non-technical teams deploy AI agents that handle repetitive workflows like CRM enrichment or meeting prep,
-    reducing manual effort in go-to-market functions.
-  mental_damage: >-
-    Another 'AI workforce' platform promising ROI while quietly reinventing the idea that every business process needs
-    its own bespoke agent army.
+  summary: Relevance AI is a platform for building and deploying specialist AI agents for business functions like sales, marketing, and HR.
+  why_it_matters: It enables non-technical teams to create and manage autonomous agent workforces that automate tasks and drive business ROI.
+  mental_damage: Finally, a way to outsource your job to an AI that bills itself as a '24/7 AI solutions engineer' while you pretend to supervise it.
   tags:
     - ai-agents
-    - enterprise-ai
     - workflow-automation
+    - enterprise
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Relevance AI is a business-focused AI agent platform for sales, HR, and operations workflows, not a developer-facing
-    tool for coding, app-building, or agent infrastructure.
+  reason: Relevance AI is a business-focused agent platform for sales, marketing, and HR automation, not a developer-facing AI tool for coding, workflows, or infrastructure.
   evidence:
-    - Marketed as a platform for 'specialist agents for every task' in sales, marketing, HR, and customer success
-    - >-
-      Agents automate business tasks like CRM enrichment, meeting prep, and invoice chasing — not code editing or
-      software development
-    - Positioned as an enterprise workforce platform with SOC 2, GDPR, and audit logs, not a devtool or SDK
+    - Scraped site context positions it as a platform for 'specialist AI agents for every task' in sales, CS, marketing, and HR
+    - Source-list context lists it under 'awesome-ai-agents' with a focus on delivering ROI through optimized specialist agents
+    - README excerpt emphasizes business use cases like 'Send Payments saves 40 hours weekly' and 'Zembl drives 30% more customer conversions'
 placement:
   primary_category: null
   secondary_categories: []
@@ -71,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,28 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:42.838Z'
+    updated_at: "2026-10-05T04:59:29.577Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:06f11c9606d1be32d047866ef7441c8c599d9d6ccda9cff469b76b7eff0ea35e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9ef0a81a56aa5e76b0c1c947fca805139ddcc11b3bca0fbb03915d97a2b39fe8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Relevance AI is a business-focused AI agent platform for sales, HR, and operations workflows, not a
-        developer-facing tool for coding, app-building, or agent infrastructure.
+      decision_reason: Relevance AI is a business-focused agent platform for sales, marketing, and HR automation, not a developer-facing AI tool for coding, workflows, or infrastructure.
       decision_evidence:
-        - Marketed as a platform for 'specialist agents for every task' in sales, marketing, HR, and customer success
-        - >-
-          Agents automate business tasks like CRM enrichment, meeting prep, and invoice chasing — not code editing or
-          software development
-        - Positioned as an enterprise workforce platform with SOC 2, GDPR, and audit logs, not a devtool or SDK
+        - Scraped site context positions it as a platform for 'specialist AI agents for every task' in sales, CS, marketing, and HR
+        - Source-list context lists it under 'awesome-ai-agents' with a focus on delivering ROI through optimized specialist agents
+        - README excerpt emphasizes business use cases like 'Send Payments saves 40 hours weekly' and 'Zembl drives 30% more customer conversions'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

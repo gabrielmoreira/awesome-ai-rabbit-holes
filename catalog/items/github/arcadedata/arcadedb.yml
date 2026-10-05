@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arcadedata__arcadedb__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: ArcadeData/arcadedb
         extracted_url: https://github.com/arcadedata/arcadedb
-        surrounding_text: >-
-          - [ArcadeData/arcadedb](https://github.com/ArcadeData/arcadedb) [![arcade-db-multi-model-dbms MCP
-          server](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms/badges/score.svg)](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms)
-          🎖️ ☕ 🏠 - Built-in MCP server for ArcadeDB, a multi-model database (graph, document, key-value, time-series,
-          vector) with SQL, Cypher, Gremlin, and MongoDB QL support.
+        surrounding_text: "- [ArcadeData/arcadedb](https://github.com/ArcadeData/arcadedb) [![arcade-db-multi-model-dbms MCP server](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms/badges/score.svg)](https://glama.ai/mcp/servers/@ArcadeData/arcade-db-multi-model-dbms) 🎖️ ☕ 🏠 - Built-in MCP server for ArcadeDB, a multi-model database (graph, document, key-value, time-series, vector) with SQL, Cypher, Gremlin, and MongoDB QL support."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: ArcadeData/arcadedb
     html_url: https://github.com/ArcadeData/arcadedb
-    created_at: '2021-08-16T16:01:29Z'
-    pushed_at: '2026-09-20T22:09:12Z'
-    description: >-
-      ArcadeDB Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB
-      is a conceptual fork of OrientDB, the first Multi-Model DBMS. ArcadeDB supports Vector Embeddings.
+    created_at: "2021-08-16T16:01:29Z"
+    pushed_at: "2026-09-20T22:09:12Z"
+    description: ArcadeDB Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB is a conceptual fork of OrientDB, the first Multi-Model DBMS. ArcadeDB supports Vector Embeddings.
     homepage: https://arcadedb.com
     topics:
       - arcadedb
@@ -59,17 +53,13 @@ metadata:
       - time-series
       - vector-database
       - vector-search
-    last_checked_at: '2026-09-21T04:13:45.707Z'
+    last_checked_at: "2026-09-21T04:13:45.707Z"
     readme:
-      fetched_at: '2026-09-21T04:13:45.707Z'
+      fetched_at: "2026-09-21T04:13:45.707Z"
       bytes: 20341
 insights:
-  summary: >-
-    ArcadeDB is a multi-model database supporting SQL, Cypher, Gremlin, HTTP/JSON, MongoDB, Redis, and vector
-    embeddings.
-  why_it_matters: >-
-    It provides a unified database for developers needing graph, document, key-value, and vector search capabilities in
-    a single system.
+  summary: ArcadeDB is a multi-model database supporting SQL, Cypher, Gremlin, HTTP/JSON, MongoDB, Redis, and vector embeddings.
+  why_it_matters: It provides a unified database for developers needing graph, document, key-value, and vector search capabilities in a single system.
   mental_damage: Finally, a database that speaks every query language except the one you actually remember.
   tags:
     - multi-model
@@ -80,9 +70,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    ArcadeDB is a general-purpose multi-model database with vector support, not a developer-tooling product focused on
-    AI workflows, coding assistance, or agent infrastructure.
+  reason: ArcadeDB is a general-purpose multi-model database with vector support, not a developer-tooling product focused on AI workflows, coding assistance, or agent infrastructure.
   evidence:
     - Repo description identifies it as a multi-model DBMS with vector embeddings support
     - README emphasizes database performance and multi-model capabilities, not AI-specific tooling
@@ -96,17 +84,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:45.707Z'
+    updated_at: "2026-09-21T04:13:45.707Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -121,9 +109,7 @@ processing:
       input_hash: sha256:78afc931c88872d2e5a70a09df836b0e63aefdf6b14a1beb7b0d6dd7d415d291
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        ArcadeDB is a general-purpose multi-model database with vector support, not a developer-tooling product focused
-        on AI workflows, coding assistance, or agent infrastructure.
+      decision_reason: ArcadeDB is a general-purpose multi-model database with vector support, not a developer-tooling product focused on AI workflows, coding assistance, or agent infrastructure.
       decision_evidence:
         - Repo description identifies it as a multi-model DBMS with vector embeddings support
         - README emphasizes database performance and multi-model capabilities, not AI-specific tooling

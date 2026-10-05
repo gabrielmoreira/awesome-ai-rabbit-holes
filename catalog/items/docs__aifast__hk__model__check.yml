@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__aifast__hk__model__check__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: AIFast Model Check
         extracted_url: https://docs.aifast.hk/model-check
-        surrounding_text: >-
-          - **[AIFast Model Check](https://docs.aifast.hk/model-check/)** – Free browser-based diagnostics for public
-          HTTPS OpenAI-compatible API endpoints, including metadata, token handling, dynamic responses, SSE streaming,
-          and tool-call checks.
+        surrounding_text: "- **[AIFast Model Check](https://docs.aifast.hk/model-check/)** – Free browser-based diagnostics for public HTTPS OpenAI-compatible API endpoints, including metadata, token handling, dynamic responses, SSE streaming, and tool-call checks."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AIFast Model Check – Free browser-based diagnostics for public HTTPS OpenAI-compatible API endpoints, including
-    metadata, token handling, dynamic responses, SSE streaming, and tool-call checks.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Model Check is a free online service that tests public HTTPS OpenAI-compatible API endpoints for model declaration consistency, token usage, SSE, tool calls, and routing anomalies to detect potential model degradation or misrepresentation.
+  why_it_matters: Developers can quickly verify whether third-party API proxies are delivering the expected model behavior before integrating them into production workflows.
+  mental_damage: Another tool to add to the growing stack of 'is this really GPT-4?' sanity checks that now precede every API key purchase.
+  tags:
+    - api-testing
+    - model-verification
+    - proxy-validation
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
+  status: excluded
+  reason: Model Check is a hosted diagnostic web service for evaluating API compatibility and model behavior, not a developer-facing AI tool, agent, framework, or workflow that assists in coding, app building, or agent orchestration.
   evidence:
-    - jev-latest choice confidence 0.52
+    - The tool is a free online model detection website for testing public HTTPS OpenAI Compatible API中转站 (proxy stations)
+    - It focuses on checking model declarations, metadata, token usage, dynamic questions, SSE, and tool calls to detect routing inconsistencies or capability degradation
+    - It is presented as a documentation page (docs.aifast.hk/model-check) with no indication of being a downloadable, installable, or integrable developer tool
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories: []
-  section: Prompt Regression & Testing
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:09.315Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2f2991ab807f0646b92ca1ed9e9c776a7b0c7a3e424dce0147fb027244d90d83
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Model Check is a hosted diagnostic web service for evaluating API compatibility and model behavior, not a developer-facing AI tool, agent, framework, or workflow that assists in coding, app building, or agent orchestration.
+      decision_evidence:
+        - The tool is a free online model detection website for testing public HTTPS OpenAI Compatible API中转站 (proxy stations)
+        - It focuses on checking model declarations, metadata, token usage, dynamic questions, SSE, and tool calls to detect routing inconsistencies or capability degradation
+        - It is presented as a documentation page (docs.aifast.hk/model-check) with no indication of being a downloadable, installable, or integrable developer tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

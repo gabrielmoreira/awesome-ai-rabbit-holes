@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ilien-dev__svipall__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: ilien-dev/svipall
         extracted_url: https://github.com/ilien-dev/svipall
-        surrounding_text: >-
-          - [ilien-dev/svipall](https://github.com/ilien-dev/svipall) [![ilien-dev/svipall MCP
-          server](https://glama.ai/mcp/servers/ilien-dev/svipall/badges/score.svg)](https://glama.ai/mcp/servers/ilien-dev/svipall)
-          🦀 🏠 🍎 🪟 🐧 - Local-first web reading escalating from HTTP to a real browser when blocked: clean Markdown,
-          site crawls, search, row extraction and local CAPTCHA handling.
+        surrounding_text: "- [ilien-dev/svipall](https://github.com/ilien-dev/svipall) [![ilien-dev/svipall MCP server](https://glama.ai/mcp/servers/ilien-dev/svipall/badges/score.svg)](https://glama.ai/mcp/servers/ilien-dev/svipall) 🦀 🏠 🍎 🪟 🐧 - Local-first web reading escalating from HTTP to a real browser when blocked: clean Markdown, site crawls, search, row extraction and local CAPTCHA handling."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ilien-dev/svipall - Local-first web reading escalating from HTTP to a real browser when blocked: clean Markdown,
-    site crawls, search, row extraction and local CAPTCHA handling.
+  summary: "ilien-dev/svipall - Local-first web reading escalating from HTTP to a real browser when blocked: clean Markdown, site crawls, search, row extraction and local CAPTCHA handling."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
     - jev-latest choice confidence 0.99
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.40 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

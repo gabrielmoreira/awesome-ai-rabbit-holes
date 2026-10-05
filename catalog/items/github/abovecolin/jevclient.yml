@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abovecolin__jevclient__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jevclient
         extracted_url: https://github.com/abovecolin/jevclient
-        surrounding_text: >-
-          - [jevclient](https://github.com/AboveColin/jevclient) ([site](https://pypi.org/project/jevclient/)) - Async
-          Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
+        surrounding_text: "- [jevclient](https://github.com/AboveColin/jevclient) ([site](https://pypi.org/project/jevclient/)) - Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse."
         confidence: high
     - id: discovery__github__abovecolin__jevclient__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: jevclient
         extracted_url: https://github.com/abovecolin/jevclient
-        surrounding_text: >-
-          | [jevclient](https://github.com/AboveColin/jevclient) | ★ 1 | Python | 2026-09-19 | Async Python client for
-          TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse. |
+        surrounding_text: "| [jevclient](https://github.com/AboveColin/jevclient) | ★ 1 | Python | 2026-09-19 | Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse. |"
         confidence: high
     - id: discovery__github__abovecolin__jevclient__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jevclient**'
+        anchor_text: "**jevclient**"
         extracted_url: https://github.com/abovecolin/jevclient
-        surrounding_text: >-
-          - [**jevclient**](https://github.com/AboveColin/jevclient) — An asynchronous Python Jev client that batches
-          typed questions in one request.
+        surrounding_text: "- [**jevclient**](https://github.com/AboveColin/jevclient) — An asynchronous Python Jev client that batches typed questions in one request."
         confidence: high
     - id: discovery__github__abovecolin__jevclient__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -71,9 +65,7 @@ provenance:
           - SDKs and developer tools
         anchor_text: jevclient
         extracted_url: https://github.com/abovecolin/jevclient
-        surrounding_text: >-
-          - [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for typed Jev questions and
-          probabilities.
+        surrounding_text: "- [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for typed Jev questions and probabilities."
         confidence: high
 metadata:
   github:
@@ -83,8 +75,8 @@ metadata:
     archived: false
     full_name: AboveColin/jevclient
     html_url: https://github.com/AboveColin/jevclient
-    created_at: '2026-09-17T11:00:15Z'
-    pushed_at: '2026-09-21T19:30:01Z'
+    created_at: "2026-09-17T11:00:15Z"
+    pushed_at: "2026-09-21T19:30:01Z"
     description: Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
     homepage: https://pypi.org/project/jevclient/
     topics:
@@ -94,24 +86,26 @@ metadata:
       - jev
       - python
       - typesafe
-    last_checked_at: '2026-09-29T13:08:25.779Z'
+    last_checked_at: "2026-09-29T13:08:25.779Z"
     readme:
-      fetched_at: '2026-09-29T13:08:25.779Z'
+      fetched_at: "2026-09-29T13:08:25.779Z"
       bytes: 3563
 insights:
-  summary: Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Async Python client for TypeSafe Jev that sends typed questions and receives probabilities/choices without parsing prose.
+  why_it_matters: Enables type-safe integration of Jev decision models into Python workflows for probabilistic decision-making.
+  mental_damage: Yet another SDK to learn just to avoid the misery of extracting structured data from a model that refuses to output JSON.
+  tags:
+    - jev
+    - decision-model
+    - python-client
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: It is a dedicated client SDK for the Jev decision model, fitting the decision-models category's Client SDKs & CLIs section as its primary purpose is calling a decision model with typed questions.
   evidence:
-    - jev-latest choice confidence 0.81
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - "Repo description: 'Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.'"
+    - Listed in awesome-jev under SDKs and developer tools and SDKs & clients sections.
+    - "Topics include: jev, typesafe, classification, async, python"
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -123,15 +117,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.379Z'
+    updated_at: "2026-09-29T13:07:10.379Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:25.779Z'
+    updated_at: "2026-09-29T13:08:25.779Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:13:59.257Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:978896fa9d56463f43eac7f71af213751dd42b52554c128bb3dd649210bffcb5
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a dedicated client SDK for the Jev decision model, fitting the decision-models category's Client SDKs & CLIs section as its primary purpose is calling a decision model with typed questions.
+      decision_evidence:
+        - "Repo description: 'Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.'"
+        - Listed in awesome-jev under SDKs and developer tools and SDKs & clients sections.
+        - "Topics include: jev, typesafe, classification, async, python"
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's identity is specifically a client for the Jev decision model rather than a general-purpose AI framework SDK.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

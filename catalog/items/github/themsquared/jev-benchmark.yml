@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__themsquared__jev-benchmark__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-benchmark (themsquared)
         extracted_url: https://github.com/themsquared/jev-benchmark
-        surrounding_text: >-
-          - [jev-benchmark (themsquared)](https://github.com/themsquared/jev-benchmark)
-          ([site](https://webofmike.com/jev-benchmark/)) - Reproducible benchmark for TypeSafe AI's Jev on agent
-          tool-call risk classification: accuracy, latency, and whether the confidence score is worth routing on.
+        surrounding_text: "- [jev-benchmark (themsquared)](https://github.com/themsquared/jev-benchmark) ([site](https://webofmike.com/jev-benchmark/)) - Reproducible benchmark for TypeSafe AI's Jev on agent tool-call risk classification: accuracy, latency, and whether the confidence score is worth routing on."
         confidence: high
 metadata:
   github:
@@ -62,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

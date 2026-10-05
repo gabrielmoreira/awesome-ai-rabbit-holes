@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pulumi__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: pulumi/mcp-server
         extracted_url: https://github.com/pulumi/mcp-server
-        surrounding_text: >-
-          - [pulumi/mcp-server](https://github.com/pulumi/mcp-server) 🎖️ 📇 🏠 - MCP server for interacting with Pulumi
-          using the Pulumi Automation API and Pulumi Cloud API. Enables MCP clients to perform Pulumi operations like
-          retrieving package information, previewing changes, deploying updates, and retrieving stack outputs
-          programmatically.
+        surrounding_text: "- [pulumi/mcp-server](https://github.com/pulumi/mcp-server) 🎖️ 📇 🏠 - MCP server for interacting with Pulumi using the Pulumi Automation API and Pulumi Cloud API. Enables MCP clients to perform Pulumi operations like retrieving package information, previewing changes, deploying updates, and retrieving stack outputs programmatically."
         confidence: high
 metadata:
   github:
@@ -42,19 +38,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    pulumi/mcp-server ️ - MCP server for interacting with Pulumi using the Pulumi Automation API and Pulumi Cloud API.
-    Enables MCP clients to perform Pulumi operations like retrieving package information, previewing changes, deploying
-    updates, and retrieving stack outputs programmatically.
+  summary: pulumi/mcp-server ️ - MCP server for interacting with Pulumi using the Pulumi Automation API and Pulumi Cloud API. Enables MCP clients to perform Pulumi operations like retrieving package information, previewing changes, deploying updates, and retrieving stack outputs programmatically.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for pulumi/mcp-server
     - ungh.cc (cached GitHub proxy) returned 404 for pulumi/mcp-server
@@ -69,19 +60,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.643Z'
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-07-23T05:09:46.299Z'
+    updated_at: "2026-07-23T05:09:46.299Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for pulumi/mcp-server
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

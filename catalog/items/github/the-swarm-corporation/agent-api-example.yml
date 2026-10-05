@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the-swarm-corporation__agent-api-example__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,9 +20,7 @@ provenance:
           - Deployment & Infrastructure
         anchor_text: AgentAPIProduction
         extracted_url: https://github.com/the-swarm-corporation/agentapiproduction
-        surrounding_text: >-
-          | [AgentAPIProduction](https://github.com/The-Swarm-Corporation/AgentAPIProduction) | Production-ready agent
-          API system |
+        surrounding_text: "| [AgentAPIProduction](https://github.com/The-Swarm-Corporation/AgentAPIProduction) | Production-ready agent API system |"
         confidence: high
 metadata:
   github:
@@ -58,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +64,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Superagent
         anchor_text: Superagent
         extracted_url: https://superagent.sh
-        surrounding_text: '## [Superagent](https://www.superagent.sh/)</details>'
+        surrounding_text: "## [Superagent](https://www.superagent.sh/)</details>"
         confidence: high
     - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Superagent
         anchor_text: Superagent
         extracted_url: https://www.superagent.sh
-        surrounding_text: '## [Superagent](https://www.superagent.sh/)</details>'
+        surrounding_text: "## [Superagent](https://www.superagent.sh/)</details>"
         confidence: high
 metadata:
   github:
@@ -51,17 +51,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI security team that finds, patches, and discloses vulnerabilities in code and agents, delivering fixes as PRs.
-  why_it_matters: >-
-    It automates vulnerability detection and remediation in developer workflows, reducing the time from discovery to
-    patch deployment.
-  mental_damage: Now your security team can finally sleep, knowing the bots are filing PRs at 3 AM.
+  summary: An autonomous security platform that orchestrates specialized 'security workers' to perform red teaming, dependency management, and runtime guardrails.
+  why_it_matters: It automates the lifecycle of vulnerability discovery and remediation by plugging security agents directly into existing developer workflows and tools like Cursor and Devin.
+  mental_damage: "The security industry's answer to the agent arms race: just more autonomous agents fighting other autonomous agents in your CI/CD pipeline."
   tags:
     - security
-    - autonomous-agents
+    - agent-orchestration
     - devsecops
-    - ai-workers
-  confidence: medium
+    - guardrails
+    - red-teaming
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
@@ -70,50 +69,40 @@ curation:
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: Security & DevSecOps
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''coding-agents'''
+  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:46:24.811Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for superagent__sh: Invalid AI response format: SyntaxError: Unexpected token
-        'S', ..."_reason": Superagent"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:53:43.874Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8a3dbb5b2f09c19640aef405ef04e23fa2469ecbe58343263b1108ce0981b49b
-      proposed_primary_category: extensions-and-addons
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b425bc2baed7f439da0ba9269332a090ceeae662464f08d5b6a2b4fb48b08449
+      proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: >-
-        The product directly acts as an autonomous agent that reads code, identifies vulnerabilities, and proposes fixes
-        via PRs, fitting the definition of a coding agent focused on review and repair.
+      decision_reason: It functions as a specialized control plane that manages a workforce of autonomous security agents rather than acting as a single coding assistant or a simple plugin.
       decision_evidence:
-        - Superagent connects with your integrations — the tools, coding agents, and delivery workflows you already run.
-        - It adds security workers that defend your software around the clock, such as PR security, secure dependency updates, and red teaming.
-        - Use cases show it sends triaged findings to Cursor for remediation and puts Context Guardrails between Resend and your agent.
-        - Appears in awesome-ai-agents under the Superagent section as an autonomous security factory for applications, repos, agents, and infrastructure.
+        - Identifies as an 'autonomous security factory' with 'security workers' that own end-to-end jobs.
+        - Coordinates tasks between different agents and tools, such as triggering Devin or sending findings to Cursor.
+        - Includes a decision model (Security-One 27B) to drive its security triage and orchestration logic.
       category_candidates:
-        - extensions-and-addons
-        - coding-agents
         - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because the core job is direct code analysis and patching rather
-        than coordinating multiple agents or workflows.
-      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''coding-agents'''
+        - extensions-and-addons
+      contrastive_reason: Choose agent-orchestration over extensions-and-addons because its primary identity is a standalone 'factory' and workforce platform for security tasks, even though it offers integrations for Cursor.
+      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

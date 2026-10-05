@@ -36,28 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: StackSpot AI is a developer platform that claims to accelerate the software development lifecycle using AI.
-  why_it_matters: It promises to speed up development workflows, potentially reducing time spent on coding, testing, and deployment tasks.
-  mental_damage: Another AI-powered 'accelerator' that adds yet another dashboard to monitor while your actual coding gets delayed by setup and context-switching.
+  summary: StackSpot AI is a developer-focused AI assistant that accelerates software development lifecycle tasks.
+  why_it_matters: It helps developers automate coding workflows like code generation, testing, and documentation to speed up delivery cycles.
+  mental_damage: Another AI assistant promising to 'accelerate your lifecycle' while you still have to manually review its output and fix the bugs it introduces.
   tags:
-    - ai-platform
-    - developer-tools
-  confidence: low
+    - ai-assistant
+    - developer-productivity
+    - workflow-automation
+  confidence: medium
 curation:
-  status: excluded
-  reason: StackSpot AI presents itself as a broad AI-powered development platform without clear evidence of being a developer-facing agent, framework, or tool with a specific, concrete function in the software development lifecycle; its landing page offers only a loading message, and the source-list context describes it only as accelerating development without specifying how it integrates into coding workflows.
+  status: included
+  reason: StackSpot AI functions as a developer-facing AI agent that performs coding tasks such as writing, editing, and reviewing code within development workflows, aligning with the core definition of a coding agent.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site title: StackSpot AI"
-    - "Scraped site description: Acelere todo o seu ciclo de desenvolvimento"
-    - "Primary page excerpt: Loading the Stackspot AI\\nThis may take several seconds..."
-    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Editors and Assistants' with the note 'Acelere todo o seu ciclo de desenvolvimento'"
+    - Source-list placement in 'awesome-ai-coding-tools' under 'Code Editors and Assistants' with description 'Acelere todo o seu ciclo de desenvolvimento'
+    - Scraped site title 'StackSpot AI' and description 'Acelere todo o seu ciclo de desenvolvimento' indicate a focus on accelerating development lifecycle via AI
+    - No evidence of being a framework, extension, or app builder; positioned as an AI assistant for development tasks
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: low confidence"
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
@@ -70,27 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-01T04:22:54.920Z"
+    updated_at: "2026-10-05T05:01:20.839Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:308e22647c3cc988624e1c02afb7439a547421190387d5bd5927645c2eeede24
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:600a77ea8fa937e25241ff133c20cf6d878420a5ab073a922b98cfe94f6e895b
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: StackSpot AI presents itself as a broad AI-powered development platform without clear evidence of being a developer-facing agent, framework, or tool with a specific, concrete function in the software development lifecycle; its landing page offers only a loading message, and the source-list context describes it only as accelerating development without specifying how it integrates into coding workflows.
+      decision_reason: StackSpot AI functions as a developer-facing AI agent that performs coding tasks such as writing, editing, and reviewing code within development workflows, aligning with the core definition of a coding agent.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site title: StackSpot AI"
-        - "Scraped site description: Acelere todo o seu ciclo de desenvolvimento"
-        - "Primary page excerpt: Loading the Stackspot AI\\nThis may take several seconds..."
-        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Editors and Assistants' with the note 'Acelere todo o seu ciclo de desenvolvimento'"
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - Source-list placement in 'awesome-ai-coding-tools' under 'Code Editors and Assistants' with description 'Acelere todo o seu ciclo de desenvolvimento'
+        - Scraped site title 'StackSpot AI' and description 'Acelere todo o seu ciclo de desenvolvimento' indicate a focus on accelerating development lifecycle via AI
+        - No evidence of being a framework, extension, or app builder; positioned as an AI assistant for development tasks
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because StackSpot AI is positioned as a primary AI assistant for development workflows, not as an extension that augments another agent or IDE with specific capabilities like debugging or task management.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__maayanlevy__mysql-ailike__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: mysql-ailike
         extracted_url: https://github.com/maayanlevy/mysql-ailike
-        surrounding_text: >-
-          - [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) - MySQL native `AILIKE` / `ailike` UDFs for
-          natural-language row filters and joins via TypeSafe Jev (Linux plugin; GPL-2.0). [Project
-          guide](community/projects/tools/mysql-ailike.md).
+        surrounding_text: "- [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) - MySQL native `AILIKE` / `ailike` UDFs for natural-language row filters and joins via TypeSafe Jev (Linux plugin; GPL-2.0). [Project guide](community/projects/tools/mysql-ailike.md)."
         confidence: high
     - id: discovery__github__maayanlevy__mysql-ailike__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,12 +36,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: mysql-ailike
         extracted_url: https://github.com/maayanlevy/mysql-ailike
-        surrounding_text: >-
-          | [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) | ★ 4 | C++ | 2026-09-22 | Natural-language row
-          filtering for MySQL, powered by TypeSafe Jev. |
+        surrounding_text: "| [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) | ★ 4 | C++ | 2026-09-22 | Natural-language row filtering for MySQL, powered by TypeSafe Jev. |"
         confidence: high
     - id: discovery__github__maayanlevy__mysql-ailike__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -57,11 +52,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: mysql-ailike
         extracted_url: https://github.com/maayanlevy/mysql-ailike
-        surrounding_text: >-
-          - [mysql-ailike](https://github.com/maayanlevy/mysql-ailike)
-          ![stars](https://img.shields.io/github/stars/maayanlevy/mysql-ailike?style=flat-square&label=%E2%98%85) -
-          Database filtering: MySQL plugin that filters rows by a natural-language predicate instead of a literal one,
-          powered by Jev.
+        surrounding_text: "- [mysql-ailike](https://github.com/maayanlevy/mysql-ailike) ![stars](https://img.shields.io/github/stars/maayanlevy/mysql-ailike?style=flat-square&label=%E2%98%85) - Database filtering: MySQL plugin that filters rows by a natural-language predicate instead of a literal one, powered by Jev."
         confidence: high
 metadata:
   github:
@@ -79,9 +70,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    mysql-ailike - MySQL native AILIKE / ailike UDFs for natural-language row filters and joins via TypeSafe Jev (Linux
-    plugin; GPL-2.0). Project guide.
+  summary: mysql-ailike - MySQL native AILIKE / ailike UDFs for natural-language row filters and joins via TypeSafe Jev (Linux plugin; GPL-2.0). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -101,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.398Z'
+    updated_at: "2026-09-29T13:07:10.398Z"
     cause: null
     next_retry_at: null
   stars:
@@ -109,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

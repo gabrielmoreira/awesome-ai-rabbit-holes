@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__refuel-ai__autolabel__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: AotoLabel
         extracted_url: https://github.com/refuel-ai/autolabel
-        surrounding_text: '1. [AotoLabel](https://github.com/refuel-ai/autolabel): Label, clean and enrich text datasets with LLMs.'
+        surrounding_text: "1. [AotoLabel](https://github.com/refuel-ai/autolabel): Label, clean and enrich text datasets with LLMs."
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: refuel-ai/autolabel
     html_url: https://github.com/refuel-ai/autolabel
-    created_at: '2023-03-23T00:11:13Z'
-    pushed_at: '2025-03-05T01:15:43Z'
+    created_at: "2023-03-23T00:11:13Z"
+    pushed_at: "2025-03-05T01:15:43Z"
     description: Label, clean and enrich text datasets with LLMs.
     homepage: https://docs.refuel.ai/
     topics:
@@ -45,18 +45,14 @@ metadata:
       - machine-learning
       - openai
       - python
-    last_checked_at: '2026-07-20T16:42:45.078Z'
+    last_checked_at: "2026-07-20T16:42:45.078Z"
     readme:
-      fetched_at: '2026-07-20T16:42:45.078Z'
+      fetched_at: "2026-07-20T16:42:45.078Z"
       bytes: 9394
 insights:
   summary: A Python library that uses LLMs to label, clean, and enrich text datasets for machine learning workflows.
-  why_it_matters: >-
-    It lets developers automate the expensive and tedious process of creating high-quality training data using
-    state-of-the-art models like GPT-4 and Claude.
-  mental_damage: >-
-    Yet another reminder that we are now deploying massive language models not to write code, but to generate the
-    spreadsheets that train the next generation of under-employed models.
+  why_it_matters: It lets developers automate the expensive and tedious process of creating high-quality training data using state-of-the-art models like GPT-4 and Claude.
+  mental_damage: Yet another reminder that we are now deploying massive language models not to write code, but to generate the spreadsheets that train the next generation of under-employed models.
   tags:
     - llm
     - data-labeling
@@ -66,11 +62,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Excluded because the tool is focused on ML data preparation and dataset enrichment rather than developer-facing
-    coding assistance, IDE augmentation, or AI infrastructure.
+  reason: Excluded because the tool is focused on ML data preparation and dataset enrichment rather than developer-facing coding assistance, IDE augmentation, or AI infrastructure.
   evidence:
-    - 'Repo description explicitly states: ''Label, clean and enrich text datasets with LLMs.'''
+    - "Repo description explicitly states: 'Label, clean and enrich text datasets with LLMs.'"
     - README defines Autolabel as 'a Python library to label, clean and enrich text datasets' for machine learning.
     - Source list context places it under '数据 Data' (Data) in an LLM resources list, not developer tooling.
 placement:
@@ -82,21 +76,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.645Z'
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:45.078Z'
+    updated_at: "2026-07-20T16:42:45.078Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

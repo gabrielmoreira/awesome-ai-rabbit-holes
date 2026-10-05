@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__beer-bears__scaffold__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Scaffold
         extracted_url: https://github.com/beer-bears/scaffold
-        surrounding_text: >-
-          - **[Scaffold](https://github.com/Beer-Bears/scaffold)** - Scaffold is a Retrieval-Augmented Generation (RAG)
-          system designed to structural understanding of large codebases. It transforms your source code into a living
-          knowledge graph, allowing for precise, context-aware interactions that go far beyond simple file retrieval.
+        surrounding_text: "- **[Scaffold](https://github.com/Beer-Bears/scaffold)** - Scaffold is a Retrieval-Augmented Generation (RAG) system designed to structural understanding of large codebases. It transforms your source code into a living knowledge graph, allowing for precise, context-aware interactions that go far beyond simple file retrieval."
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: Beer-Bears/scaffold
     html_url: https://github.com/Beer-Bears/scaffold
-    created_at: '2025-06-07T12:02:49Z'
-    pushed_at: '2025-10-29T10:28:03Z'
+    created_at: "2025-06-07T12:02:49Z"
+    pushed_at: "2025-10-29T10:28:03Z"
     description: Structural RAG (Retrieval-Augmented Generation) system for large codebases
     homepage: https://mcp.so/server/scaffold/Beer-Bears
     topics:
@@ -44,9 +41,9 @@ metadata:
       - mcp
       - promting
       - rag
-    last_checked_at: '2026-09-21T04:13:55.897Z'
+    last_checked_at: "2026-09-21T04:13:55.897Z"
     readme:
-      fetched_at: '2026-09-21T04:13:55.897Z'
+      fetched_at: "2026-09-21T04:13:55.897Z"
       bytes: 11078
 insights:
   summary: Structural RAG system that transforms large codebases into a living knowledge graph for AI agent context.
@@ -70,21 +67,21 @@ placement:
   section: Retrieval & Fresh Docs
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.604Z'
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:55.897Z'
+    updated_at: "2026-09-21T04:13:55.897Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -99,18 +96,14 @@ processing:
       input_hash: sha256:4ef348405cae498dba93a54061a9f5219d6ac8a31bc1873cadaf9469cfbd7196
       proposed_primary_category: context-engineering
       disagreement: true
-      decision_reason: >-
-        Core novelty is the structural RAG system for codebases, which is a context engineering solution rather than a
-        coding agent or extension.
+      decision_reason: Core novelty is the structural RAG system for codebases, which is a context engineering solution rather than a coding agent or extension.
       decision_evidence:
-        - 'Repo description: ''Structural RAG system for large codebases'''
-        - 'README: ''transforms your source code into a living knowledge graph stored in a graph database'''
+        - "Repo description: 'Structural RAG system for large codebases'"
+        - "README: 'transforms your source code into a living knowledge graph stored in a graph database'"
         - Topics include 'graph-rag', 'large-codebase', 'llm', 'rag'
       category_candidates:
         - context-engineering
         - mcp
-      contrastive_reason: >-
-        Choose context-engineering over mcp because the primary identity is the RAG system for codebases, not MCP
-        infrastructure (MCP is just one integration).
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
+      contrastive_reason: Choose context-engineering over mcp because the primary identity is the RAG system for codebases, not MCP infrastructure (MCP is just one integration).
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
       review_resume_lifecycle: null

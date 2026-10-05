@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhishekashokvkumar__jev-mcp-dispatcher__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-mcp-dispatcher
         extracted_url: https://github.com/abhishekashokvkumar/jev-mcp-dispatcher
-        surrounding_text: >-
-          | [jev-mcp-dispatcher](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher) | ★ 3 | Python | 2026-09-22
-          | Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers
-          a simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the
-          right tool and extract its arguments straight out of the sentence. No repository-level license file was found
-          during review. |
+        surrounding_text: "| [jev-mcp-dispatcher](https://github.com/abhishekashokvkumar/jev-mcp-dispatcher) | ★ 3 | Python | 2026-09-22 | Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right tool and extract its arguments straight out of the sentence. No repository-level license file was found during review. |"
         confidence: high
 metadata:
   github:
@@ -35,32 +30,31 @@ metadata:
     archived: false
     full_name: abhishekashokvkumar/jev-mcp-dispatcher
     html_url: https://github.com/abhishekashokvkumar/jev-mcp-dispatcher
-    created_at: '2026-09-18T16:19:44Z'
-    pushed_at: '2026-09-18T16:41:08Z'
-    description: >-
-      Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a
-      simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right
-      tool and extract its arguments straight out of the sentence.
+    created_at: "2026-09-18T16:19:44Z"
+    pushed_at: "2026-09-18T16:41:08Z"
+    description: Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a simple MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right tool and extract its arguments straight out of the sentence.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:24.788Z'
+    last_checked_at: "2026-09-29T13:08:24.788Z"
     readme:
-      fetched_at: '2026-09-29T13:08:24.788Z'
+      fetched_at: "2026-09-29T13:08:24.788Z"
       bytes: 15494
 insights:
-  summary: >-
-    Natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev — no general-purpose LLM. Discovers a simple
-    MCP server's tool signatures at runtime and uses Jev's typed primitives (Choice/Noul) to pick the right tool and
-    extract its arguments straight out of the sentence.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A natural-language dispatcher that uses TypeSafe's Jev decision model to select and invoke MCP server tools based on user input.
+  why_it_matters: It lets developers drive MCP servers with natural language using a typed decision model, avoiding hard-coded tool selection logic.
+  mental_damage: Another rung on the ladder where you replace if-statements with a Jev Choice, because deterministic tool selection was too mainstream.
+  tags:
+    - jev
+    - mcp
+    - dispatcher
+    - decision-model
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The product’s core function is a Jev-driven judgment that chooses MCP tools, matching the decision-models category’s focus on tools whose identity is the judgment itself.
   evidence:
-    - jev-latest choice confidence 0.58
+    - Repo description states it is a natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev.
+    - Listed in awesome-jev under Agent tooling, indicating community recognition as a Jev-based agent tool.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -71,15 +65,36 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:24.788Z'
+    updated_at: "2026-09-29T13:08:24.788Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:12:40.966Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:456f1b682aa94878ff6f8a5b92c52ce2f7110b2e0a951ce118b04663b54dc14b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product’s core function is a Jev-driven judgment that chooses MCP tools, matching the decision-models category’s focus on tools whose identity is the judgment itself.
+      decision_evidence:
+        - Repo description states it is a natural-language MCP tool dispatcher powered entirely by TypeSafe's Jev.
+        - Listed in awesome-jev under Agent tooling, indicating community recognition as a Jev-based agent tool.
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product’s primary identity is the Jev-based tool selection logic, not the MCP protocol itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

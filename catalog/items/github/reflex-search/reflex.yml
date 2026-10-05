@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__reflex-search__reflex__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Code Search and Navigation
         anchor_text: Reflex
         extracted_url: https://github.com/reflex-search/reflex
-        surrounding_text: >-
-          - **[Reflex](https://github.com/reflex-search/reflex)** – Local-first full-text code search engine with MCP
-          server and JSON output built for AI coding agents.
+        surrounding_text: "- **[Reflex](https://github.com/reflex-search/reflex)** – Local-first full-text code search engine with MCP server and JSON output built for AI coding agents."
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
     - jev-latest choice confidence 0.52
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context
-      (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

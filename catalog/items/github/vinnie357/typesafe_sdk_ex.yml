@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vinnie357__typesafe_sdk_ex__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: typesafe_sdk_ex
         extracted_url: https://github.com/vinnie357/typesafe_sdk_ex
-        surrounding_text: '- [typesafe_sdk_ex](https://github.com/vinnie357/typesafe_sdk_ex) - Typesafe AI SDK in Elixir using Req.'
+        surrounding_text: "- [typesafe_sdk_ex](https://github.com/vinnie357/typesafe_sdk_ex) - Typesafe AI SDK in Elixir using Req."
         confidence: high
     - id: discovery__github__vinnie357__typesafe_sdk_ex__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +35,7 @@ provenance:
           - SDKs & clients (57)
         anchor_text: typesafe_sdk_ex
         extracted_url: https://github.com/vinnie357/typesafe_sdk_ex
-        surrounding_text: >-
-          | [typesafe_sdk_ex](https://github.com/vinnie357/typesafe_sdk_ex) | ★ 1 | Elixir | 2026-09-19 | Typesafe AI
-          SDK in Elixir using Req. |
+        surrounding_text: "| [typesafe_sdk_ex](https://github.com/vinnie357/typesafe_sdk_ex) | ★ 1 | Elixir | 2026-09-19 | Typesafe AI SDK in Elixir using Req. |"
         confidence: high
 metadata:
   github:
@@ -75,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.428Z'
+    updated_at: "2026-09-29T13:07:10.428Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

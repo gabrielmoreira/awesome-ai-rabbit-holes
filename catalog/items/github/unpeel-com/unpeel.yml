@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unpeel-com__unpeel__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,12 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Unpeel
         extracted_url: https://unpeel.com
-        surrounding_text: >-
-          - **[Unpeel](https://unpeel.com)** — Native macOS app built on the Ghostty terminal engine for running and
-          remote-controlling multiple CLI agent sessions (Claude Code, Codex, Gemini CLI, Amp, OpenCode, Cline, and
-          more): persistent terminals that survive app restarts, git worktree isolation for parallel agents,
-          busy/attention notifications, and iPhone remote control via a self-hosted E2E-encrypted relay. Closed-source;
-          free with paid remote access.
+        surrounding_text: "- **[Unpeel](https://unpeel.com)** — Native macOS app built on the Ghostty terminal engine for running and remote-controlling multiple CLI agent sessions (Claude Code, Codex, Gemini CLI, Amp, OpenCode, Cline, and more): persistent terminals that survive app restarts, git worktree isolation for parallel agents, busy/attention notifications, and iPhone remote control via a self-hosted E2E-encrypted relay. Closed-source; free with paid remote access."
         confidence: high
 metadata:
   github:
@@ -43,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Unpeel — Native macOS app built on the Ghostty terminal engine for running and remote-controlling multiple CLI agent
-    sessions (Claude Code, Codex, Gemini CLI, Amp, OpenCode, Cline, and more): persistent terminals that survive app
-    restarts, git worktree isolation for parallel agents, busy/attention notifications, and iPhone remote control via a
-    self-hosted E2E-encrypted relay. Closed-source; free with paid remote access.
+  summary: "Unpeel — Native macOS app built on the Ghostty terminal engine for running and remote-controlling multiple CLI agent sessions (Claude Code, Codex, Gemini CLI, Amp, OpenCode, Cline, and more): persistent terminals that survive app restarts, git worktree isolation for parallel agents, busy/attention notifications, and iPhone remote control via a self-hosted E2E-encrypted relay. Closed-source; free with paid remote access."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.482Z'
+    updated_at: "2026-09-29T13:07:10.482Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

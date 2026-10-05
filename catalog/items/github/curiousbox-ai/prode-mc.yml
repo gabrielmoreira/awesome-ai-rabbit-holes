@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__curiousbox-ai__prode-mc__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Official Servers
         anchor_text: ProdEAI
         extracted_url: https://github.com/curiousbox-ai/prode-mc
-        surrounding_text: >-
-          - **[ProdEAI](https://github.com/CuriousBox-AI/ProdE-mc)** - Your 24/7 production engineer that preserves
-          context across multiple codebases [Prode.ai](https://prode.ai).
+        surrounding_text: "- **[ProdEAI](https://github.com/CuriousBox-AI/ProdE-mc)** - Your 24/7 production engineer that preserves context across multiple codebases [Prode.ai](https://prode.ai)."
         confidence: high
 metadata:
   github:
@@ -46,9 +44,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for curiousbox-ai/prode-mc
     - ungh.cc (cached GitHub proxy) returned 404 for curiousbox-ai/prode-mc
@@ -63,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.609Z'
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-14T04:13:31.888Z'
+    updated_at: "2026-09-14T04:13:31.888Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: curiousbox-ai/prode-mc'
+      message: "GitHub repository not found: curiousbox-ai/prode-mc"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

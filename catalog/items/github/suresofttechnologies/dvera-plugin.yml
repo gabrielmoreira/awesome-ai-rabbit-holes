@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__suresofttechnologies__dvera-plugin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: SuresoftTechnologies/dvera-plugin
         extracted_url: https://github.com/suresofttechnologies/dvera-plugin
-        surrounding_text: >-
-          - [SuresoftTechnologies/dvera-plugin](https://github.com/SuresoftTechnologies/dvera-plugin)
-          [![SuresoftTechnologies/dvera-plugin MCP
-          server](https://glama.ai/mcp/servers/SuresoftTechnologies/dvera-plugin/badges/score.svg)](https://glama.ai/mcp/servers/SuresoftTechnologies/dvera-plugin)
-          🎖️ 🐍 🏠 🪟 🐧 - Drives Controller Tester (CT) C/C++ verification: project setup, analysis, test generation
-          and execution, statement/branch/MC-DC coverage and report export.
+        surrounding_text: "- [SuresoftTechnologies/dvera-plugin](https://github.com/SuresoftTechnologies/dvera-plugin) [![SuresoftTechnologies/dvera-plugin MCP server](https://glama.ai/mcp/servers/SuresoftTechnologies/dvera-plugin/badges/score.svg)](https://glama.ai/mcp/servers/SuresoftTechnologies/dvera-plugin) 🎖️ 🐍 🏠 🪟 🐧 - Drives Controller Tester (CT) C/C++ verification: project setup, analysis, test generation and execution, statement/branch/MC-DC coverage and report export."
         confidence: high
 metadata:
   github:
@@ -53,9 +48,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.39 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__classifying__rag__passages__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Retrieval and verification
         anchor_text: Classifying RAG passages
         extracted_url: https://docs.typesafe.ai/cookbooks/classifying_rag_passages
-        surrounding_text: >-
-          - [Classifying RAG passages](https://docs.typesafe.ai/cookbooks/classifying_rag_passages) - Evaluate passage
-          properties before selecting context for an answering model.
+        surrounding_text: "- [Classifying RAG passages](https://docs.typesafe.ai/cookbooks/classifying_rag_passages) - Evaluate passage properties before selecting context for an answering model."
         confidence: high
     - id: discovery__docs__typesafe__ai__cookbooks__classifying__rag__passages__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,9 +34,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Classifying RAG passages
         extracted_url: https://docs.typesafe.ai/cookbooks/classifying_rag_passages
-        surrounding_text: >-
-          - [Classifying RAG passages](https://docs.typesafe.ai/cookbooks/classifying_rag_passages) - Official example
-          of judging retrieved passages before passing them to an answering model.
+        surrounding_text: "- [Classifying RAG passages](https://docs.typesafe.ai/cookbooks/classifying_rag_passages) - Official example of judging retrieved passages before passing them to an answering model."
         confidence: high
 metadata:
   github:
@@ -56,16 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe AI cookbook demonstrating a RAG pipeline that scores retrieved passages with four Noul questions to filter evidence and conflicts before generation.
+  why_it_matters: Shows developers how to improve RAG reliability by adding a decision-model-based classification step between retrieval and generation.
+  mental_damage: Another cookbook proving that the real RAG innovation is yet another layer of LLM calls to fix the last layer of LLM calls.
+  tags:
+    - rag
+    - decision-models
+    - prompt-engineering
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: This is a documentation page or cookbook example, not a standalone tool or product developers can install or use as infrastructure.
   evidence:
-    - jev winnow:e4b 0.43 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - URL is a documentation page under docs.typesafe.ai/cookbooks/
+    - Primary page excerpt shows it is a step-by-step guide with setup instructions and code snippets for a specific RAG technique
+    - Appears in awesome-jev as a 'cookbook' under 'Patterns and cookbooks > Retrieval and verification'
 placement:
   primary_category: null
   section: null
@@ -75,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +84,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:32.430Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dddd0c003c2eed6d30e61dbf2257184a25099afc4b050268591078f36ba1ed65
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page or cookbook example, not a standalone tool or product developers can install or use as infrastructure.
+      decision_evidence:
+        - URL is a documentation page under docs.typesafe.ai/cookbooks/
+        - Primary page excerpt shows it is a step-by-step guide with setup instructions and code snippets for a specific RAG technique
+        - Appears in awesome-jev as a 'cookbook' under 'Patterns and cookbooks > Retrieval and verification'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

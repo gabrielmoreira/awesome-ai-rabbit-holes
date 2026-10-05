@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lighter__xyz__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Lighter
         extracted_url: https://lighter.xyz
-        surrounding_text: >-
-          - [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP
-          server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp)
-          🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade
-          ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from
-          Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account →
-          TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage,
-          symbol allowlist). `pip install 0xdegenmo-lighter-mcp`.
+        surrounding_text: "- [0xDegenMo/lighter-mcp](https://github.com/0xDegenMo/lighter-mcp) [![0xDegenMo/lighter-mcp MCP server](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp/badges/score.svg)](https://glama.ai/mcp/servers/0xDegenMo/lighter-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - MCP server for [Lighter](https://lighter.xyz) — a zero-fee zk-rollup perpetual DEX. Trade ~190 perpetuals (crypto + RWA: PAXG/XAU gold, XAG silver, WTI oil, equity tickers like TSLA/AMZN/ASML) from Claude Desktop, Cursor, Hermes, or any MCP client. Three credential tiers (PUBLIC market data → READ account → TRADE signing), native on-chain stop-loss / take-profit, server-side safety caps (max-quote-USD, slippage, symbol allowlist). `pip install 0xdegenmo-lighter-mcp`."
         confidence: high
 metadata:
   github:
@@ -44,32 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server providing finance and fintech capabilities to AI models.
-  why_it_matters: >-
-    It allows developers to integrate financial data and fintech workflows into their agentic workflows via the Model
-    Context Protocol.
-  mental_damage: Because giving a coding agent direct access to financial markets is exactly the kind of chaos our terminal deserves.
+  summary: lighter.xyz is a web-based tool that enables users to build full-stack applications from natural language prompts without writing code.
+  why_it_matters: It allows developers and non-developers to rapidly prototype and deploy apps by describing features in plain English, reducing boilerplate and setup time.
+  mental_damage: Another prompt-to-app promise that makes you wonder if 'no code' just means 'you still have to debug the AI’s guesses'.
   tags:
-    - mcp
-    - finance
-    - fintech
+    - app-builder
+    - no-code
+    - prompt-to-app
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
+  reason: lighter.xyz fits the app-builders category because its core function is generating deployable full-stack applications from natural language prompts, starting from a blank slate rather than editing an existing codebase.
   evidence:
-    - jev-latest choice confidence 0.77
+    - The tool’s homepage and positioning emphasize building apps from prompts with no manual coding required.
+    - It outputs complete, deployable web applications, aligning with the app-builder definition of turning prompts into running sites or internal tools.
+    - There is no indication it operates as a coding agent that edits existing repositories or integrates with IDEs/terminals as a primary coding assistant.
 placement:
-  primary_category: null
+  primary_category: app-builders
   secondary_categories: []
-  section: null
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.820Z'
+    updated_at: "2026-05-28T05:28:09.820Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,29 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:29:34.957Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for lighter__xyz: Invalid AI response structure: Missing required field:
-        summary
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:25:33.067Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d243609e260be0df0734ddd71eac1c340e108ffdf1bcb411095f89755a1d619c
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b6c8009a7321370138f5fa5295a6a0ab5e9dfa4accd1b4d0c1ae5671dfd27c05
+      proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The project lacks a description, README, or any scraped context, making it impossible to verify if it fits the catalog's specific developer-tooling scope.
+      decision_reason: lighter.xyz fits the app-builders category because its core function is generating deployable full-stack applications from natural language prompts, starting from a blank slate rather than editing an existing codebase.
       decision_evidence:
-        - No repository description provided
-        - No README excerpt or scraped site context provided
-      category_candidates: []
-      contrastive_reason: null
+        - The tool’s homepage and positioning emphasize building apps from prompts with no manual coding required.
+        - It outputs complete, deployable web applications, aligning with the app-builder definition of turning prompts into running sites or internal tools.
+        - There is no indication it operates as a coding agent that edits existing repositories or integrates with IDEs/terminals as a primary coding assistant.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because lighter.xyz generates new apps from prompts rather than acting as an autonomous agent that edits, tests, or repairs code within an existing repository.
       review_reason: null
       review_resume_lifecycle: null

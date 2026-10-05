@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yakuphanycl__instinct__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: yakuphanycl/instinct
         extracted_url: https://github.com/yakuphanycl/instinct
-        surrounding_text: >-
-          - [yakuphanycl/instinct](https://github.com/yakuphanycl/instinct) [![yakuphanycl/instinct MCP
-          server](https://glama.ai/mcp/servers/yakuphanycl/instinct/badges/score.svg)](https://glama.ai/mcp/servers/yakuphanycl/instinct)
-          🐍 🏠 🍎 🪟 🐧 - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and
-          recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes
-          without explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code,
-          Cursor, Windsurf, Goose, Codex. Published on PyPI as `instinct-mcp` and registered in the MCP Registry.
+        surrounding_text: "- [yakuphanycl/instinct](https://github.com/yakuphanycl/instinct) [![yakuphanycl/instinct MCP server](https://glama.ai/mcp/servers/yakuphanycl/instinct/badges/score.svg)](https://glama.ai/mcp/servers/yakuphanycl/instinct) 🐍 🏠 🍎 🪟 🐧 - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes without explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code, Cursor, Windsurf, Goose, Codex. Published on PyPI as `instinct-mcp` and registered in the MCP Registry."
         confidence: high
 metadata:
   github:
@@ -44,20 +38,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    yakuphanycl/instinct - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and
-    recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes without
-    explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code, Cursor, Windsurf,
-    Goose, Codex. Published on PyPI as instinct-mcp and registered in the MCP Registry.
+  summary: yakuphanycl/instinct - Self-learning memory for AI coding agents. Observes tool sequences, user preferences, and recurring fixes; confidence-based promotion (hits ≥5 → mature, ≥10 → rule) so agents stop repeating mistakes without explicit instruction. SQLite-backed, project-aware, zero external deps. Works with Claude Code, Cursor, Windsurf, Goose, Codex. Published on PyPI as instinct-mcp and registered in the MCP Registry.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for yakuphanycl/instinct
     - ungh.cc (cached GitHub proxy) returned 404 for yakuphanycl/instinct
@@ -72,19 +60,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.656Z'
+    updated_at: "2026-05-06T22:12:15.656Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-07-21T15:21:19.083Z'
+    updated_at: "2026-07-21T15:21:19.083Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: yakuphanycl/instinct'
+      message: "GitHub repository not found: yakuphanycl/instinct"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

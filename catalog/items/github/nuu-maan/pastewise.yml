@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nuu-maan__pastewise__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Pastewise
         extracted_url: https://github.com/nuu-maan/pastewise
-        surrounding_text: >-
-          - [Pastewise](https://github.com/Nuu-maan/pastewise) - `Source unverified` · `Free` · `BYOK`. One paste box
-          morphs into JSON/JWT/cron/stack/color tools; TypeSafe Jev classifies ambiguous pastes (offline heuristic by
-          default; live demo). [Try app](https://pastewise.vercel.app) · [Project
-          guide](community/projects/apps/pastewise.md).
+        surrounding_text: "- [Pastewise](https://github.com/Nuu-maan/pastewise) - `Source unverified` · `Free` · `BYOK`. One paste box morphs into JSON/JWT/cron/stack/color tools; TypeSafe Jev classifies ambiguous pastes (offline heuristic by default; live demo). [Try app](https://pastewise.vercel.app) · [Project guide](community/projects/apps/pastewise.md)."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Pastewise - Source unverified · Free · BYOK. One paste box morphs into JSON/JWT/cron/stack/color tools; TypeSafe Jev
-    classifies ambiguous pastes (offline heuristic by default; live demo). Try app · Project guide.
+  summary: Pastewise - Source unverified · Free · BYOK. One paste box morphs into JSON/JWT/cron/stack/color tools; TypeSafe Jev classifies ambiguous pastes (offline heuristic by default; live demo). Try app · Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

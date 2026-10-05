@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blogburst__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,11 +19,7 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: BlogBurst
         extracted_url: https://blogburst.ai
-        surrounding_text: >-
-          - [shensi8312/blogburst-mcp-server](https://github.com/shensi8312/blogburst-mcp-server) 📇 ☁️ - AI content
-          generation, repurposing, and multi-platform publishing with [BlogBurst](https://blogburst.ai). Generate blogs,
-          repurpose content for 9+ platforms (Twitter, LinkedIn, Reddit, Bluesky, Threads, Telegram, Discord, TikTok,
-          YouTube), get trending topics, and publish directly.
+        surrounding_text: "- [shensi8312/blogburst-mcp-server](https://github.com/shensi8312/blogburst-mcp-server) 📇 ☁️ - AI content generation, repurposing, and multi-platform publishing with [BlogBurst](https://blogburst.ai). Generate blogs, repurpose content for 9+ platforms (Twitter, LinkedIn, Reddit, Bluesky, Threads, Telegram, Discord, TikTok, YouTube), get trending topics, and publish directly."
         confidence: high
 metadata:
   github:
@@ -41,31 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An AI-powered marketing automation engine designed to find buyer intent and generate evidence-backed content for
-    social and blog channels.
-  why_it_matters: >-
-    It automates the loop of identifying customer questions on platforms like Reddit and X and converting them into
-    attributable marketing content.
-  mental_damage: >-
-    Now you can outsource the guilt of having an unread blog to an autonomous engine that tracks exactly how much
-    revenue it's missing.
+  summary: BlogBurst is an AI-powered sales and marketing engine for founders that generates evidence-backed content from buyer intent and tracks its impact.
+  why_it_matters: It helps developers with products automate buyer-intent-driven content creation and measure its effect on acquisition.
+  mental_damage: Another AI tool promising to replace marketing hustle with a dashboard that shows whether your AI-generated posts actually sold anything.
   tags:
     - marketing
-    - growth
-    - saas
+    - founder-tools
     - ai-content
     - attribution
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or
-    workflow tool.
+  reason: BlogBurst is a marketing growth engine for founders focused on buyer intent, content generation, and attribution — it does not involve coding, code editing, software development workflows, or developer tooling.
   evidence:
-    - "Target audience: founders with something to sell, indie developers, early-stage SaaS founders, and service providers—not developers building or augmenting coding agents or dev tooling"
-    - "Core function: maps buyer intent from Google, ChatGPT, Reddit, X; creates evidence-backed content; ships to blogs/social; adds tracked links; shows diagnostics—no code editing, agent orchestration, or dev workflow integration"
-    - "Positioning: sold as an 'AI sales growth engine' and 'proof-led growth operator' for acquisition, not as a coding assistant, IDE extension, framework, or agent orchestration platform"
+    - README states it is 'Built for founders with something to sell' and targets indie developers only as a user segment, not as a tool for coding tasks
+    - Core functionality centers on finding buyer questions on Google, Reddit, X, creating evidence-backed content, shipping it to blogs/social, and tracking via UTM links — none of which are coding-related activities
+    - No mention of code generation, editing, debugging, IDE integration, terminal use, or any software development lifecycle support
 placement:
   primary_category: null
   section: null
@@ -75,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,31 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:56.382Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for blogburst__ai: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:06.954Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a7068280a970731583bd6832302507ef95757a2ab03cf7c7a894c8d81570f3dc
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:21133bd8024d6bdf15ea7a48b5e28c3e223b80763ce2817e2a93ad7b52d2b799
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra,
-        or workflow tool.
+      decision_reason: BlogBurst is a marketing growth engine for founders focused on buyer intent, content generation, and attribution — it does not involve coding, code editing, software development workflows, or developer tooling.
       decision_evidence:
-        - "Target audience: founders with something to sell, indie developers, early-stage SaaS founders, and service providers—not developers building or augmenting coding agents or dev tooling"
-        - "Core function: maps buyer intent from Google, ChatGPT, Reddit, X; creates evidence-backed content; ships to blogs/social; adds tracked links; shows diagnostics—no code editing, agent orchestration, or dev workflow integration"
-        - "Positioning: sold as an 'AI sales growth engine' and 'proof-led growth operator' for acquisition, not as a coding assistant, IDE extension, framework, or agent orchestration platform"
+        - README states it is 'Built for founders with something to sell' and targets indie developers only as a user segment, not as a tool for coding tasks
+        - Core functionality centers on finding buyer questions on Google, Reddit, X, creating evidence-backed content, shipping it to blogs/social, and tracking via UTM links — none of which are coding-related activities
+        - No mention of code generation, editing, debugging, IDE integration, terminal use, or any software development lifecycle support
       category_candidates: []
       contrastive_reason: null
       review_reason: null

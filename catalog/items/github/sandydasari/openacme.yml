@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sandydasari__openacme__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Multi-Agent Orchestration
         anchor_text: OpenAcme
         extracted_url: https://github.com/sandydasari/openacme
-        surrounding_text: >-
-          | [OpenAcme](https://github.com/sandydasari/openacme) | 87 | TypeScript | MIT | 2026-07 | Role-specialized
-          agents that self-organize |
+        surrounding_text: "| [OpenAcme](https://github.com/sandydasari/openacme) | 87 | TypeScript | MIT | 2026-07 | Role-specialized agents that self-organize |"
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

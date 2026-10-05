@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__krw82__jev-playwright-mcp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-playwright-mcp
         extracted_url: https://github.com/krw82/jev-playwright-mcp
-        surrounding_text: >-
-          - [jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp) - Jev-augmented Playwright MCP proxy —
-          page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in
-          wrapper around @playwright/mcp for any coding agent.
+        surrounding_text: "- [jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp) - Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent."
         confidence: high
     - id: discovery__github__krw82__jev-playwright-mcp__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Browser & computer use (75)
         anchor_text: jev-playwright-mcp
         extracted_url: https://github.com/krw82/jev-playwright-mcp
-        surrounding_text: >-
-          | [jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp) | ★ 0 | TypeScript | 2026-09-19 |
-          Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot
-          pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent. |
+        surrounding_text: "| [jev-playwright-mcp](https://github.com/krw82/jev-playwright-mcp) | ★ 0 | TypeScript | 2026-09-19 | Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent. |"
         confidence: high
     - id: discovery__github__krw82__jev-playwright-mcp__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,12 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-playwright-mcp**'
+        anchor_text: "**jev-playwright-mcp**"
         extracted_url: https://github.com/krw82/jev-playwright-mcp
-        surrounding_text: >-
-          - [**jev-playwright-mcp**](https://github.com/krw82/jev-playwright-mcp) — Jev-augmented Playwright MCP proxy —
-          page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in
-          wrapper around @playwright/mcp for any coding agent.
+        surrounding_text: "- [**jev-playwright-mcp**](https://github.com/krw82/jev-playwright-mcp) — Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent."
         confidence: high
 metadata:
   github:
@@ -77,9 +68,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-playwright-mcp - Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based
-    snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent.
+  summary: jev-playwright-mcp - Jev-augmented Playwright MCP proxy — page-state triage, prompt-injection shielding, goal-based snapshot pruning, risky-action gating. Drop-in wrapper around @playwright/mcp for any coding agent.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -89,9 +78,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
   evidence:
     - jev-latest choice confidence 0.55
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept
-      at mcp (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -103,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -111,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__store__juergenkoller__software__en__apps__distill__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-15T05:51:04.987Z'
+      discovered_at: "2026-06-15T05:51:04.987Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: Distill
         extracted_url: https://store.juergenkoller.software/en/apps/distill
-        surrounding_text: >-
-          - [juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp)
-          [![juergenkoller-software/distill-mcp MCP
-          server](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp)
-          🏠 🍎 - MCP bridge for [Distill](https://store.juergenkoller.software/en/apps/distill) — AI file renamer that
-          analyzes content (PDF/OCR/Office/email/media) and renames files with descriptive names. Five AI providers
-          (Claude, OpenAI, Gemini, Ollama, Apple Intelligence), pay-per-use credits, folder monitoring, 9 MCP tools.
+        surrounding_text: "- [juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp) [![juergenkoller-software/distill-mcp MCP server](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/distill-mcp) 🏠 🍎 - MCP bridge for [Distill](https://store.juergenkoller.software/en/apps/distill) — AI file renamer that analyzes content (PDF/OCR/Office/email/media) and renames files with descriptive names. Five AI providers (Claude, OpenAI, Gemini, Ollama, Apple Intelligence), pay-per-use credits, folder monitoring, 9 MCP tools."
         confidence: high
 metadata:
   github:
@@ -43,33 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered file renaming utility that uses LLMs to analyze file content and apply structured naming rules.
-  why_it_matters: It automates the tedious task of organizing messy local files using semantic content analysis.
-  mental_damage: Another way to spend our finite time on earth is giving an LLM permission to reorganize our local file system.
+  summary: Distill is a macOS app that uses AI to analyze files and automatically rename them according to customizable rules.
+  why_it_matters: It saves developers time by eliminating manual file renaming after downloads, scans, or exports through AI-powered content understanding.
+  mental_damage: Finally, an AI tool that solves the universal developer pain of IMG_0042.JPG instead of another chatbot that writes bad TypeScript.
   tags:
-    - productivity
     - file-management
-    - mcp
-  confidence: high
+    - ai-powered
+    - macos
+    - productivity
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The tool is a general-purpose productivity application for file management rather than a developer-centric tool or
-    infrastructure.
+  status: included
+  reason: Distill is a file-renaming utility with AI analysis and MCP server features, but its core function is enhancing developer workflows via Finder integration and folder watching, making it a workflow add-on rather than a coding agent or MCP-first product.
   evidence:
-    - Primary function is renaming generic files like PDFs, images, and Office documents
-    - MCP and REST API are auxiliary integration features rather than the core product identity
+    - Distill provides a FinderSync extension for right-click renaming in Finder
+    - It watches folders in the background and automatically renames new files
+    - It includes a REST API with Swagger UI and MCP server for integration with Claude and other AI assistants
 placement:
-  primary_category: null
+  primary_category: extensions-and-addons
   secondary_categories: []
-  section: null
+  section: IDE & Editor Add-ons
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-06-15T05:51:04.990Z'
+    updated_at: "2026-06-15T05:51:04.990Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,26 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:14:12.444Z'
+    updated_at: "2026-10-05T04:26:24.285Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:87e108d88c26261b0f60fcd74c73b16bd3645a179fd4f1806181b710d6090d7b
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bf7d8cce30a83dc8c193bd6f580b7b6c4005863f0de4974f6a3f13ea9d8f5724
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        The tool is a general-purpose productivity application for file management rather than a developer-centric tool
-        or infrastructure.
+      decision_reason: Distill is a file-renaming utility with AI analysis and MCP server features, but its core function is enhancing developer workflows via Finder integration and folder watching, making it a workflow add-on rather than a coding agent or MCP-first product.
       decision_evidence:
-        - Primary function is renaming generic files like PDFs, images, and Office documents
-        - MCP and REST API are auxiliary integration features rather than the core product identity
-      category_candidates: []
-      contrastive_reason: null
+        - Distill provides a FinderSync extension for right-click renaming in Finder
+        - It watches folders in the background and automatically renames new files
+        - It includes a REST API with Swagger UI and MCP server for integration with Claude and other AI assistants
+      category_candidates:
+        - extensions-and-addons
+        - mcp
+      contrastive_reason: Choose extensions-and-addons over mcp because Distill's primary identity is a file-renaming workflow tool with host integrations, not an MCP server whose main purpose is exposing tools over the Model Context Protocol.
       review_reason: null
       review_resume_lifecycle: null

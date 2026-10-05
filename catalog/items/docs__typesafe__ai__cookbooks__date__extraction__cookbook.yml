@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__date__extraction__cookbook__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Extraction and structured data
         anchor_text: Date extraction
         extracted_url: https://docs.typesafe.ai/cookbooks/date_extraction_cookbook
-        surrounding_text: >-
-          - [Date extraction](https://docs.typesafe.ai/cookbooks/date_extraction_cookbook) - Select date components,
-          then assemble and validate dates in code.
+        surrounding_text: "- [Date extraction](https://docs.typesafe.ai/cookbooks/date_extraction_cookbook) - Select date components, then assemble and validate dates in code."
         confidence: high
     - id: discovery__docs__typesafe__ai__cookbooks__date__extraction__cookbook__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,9 +34,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Date extraction
         extracted_url: https://docs.typesafe.ai/cookbooks/date_extraction_cookbook
-        surrounding_text: >-
-          - [Date extraction](https://docs.typesafe.ai/cookbooks/date_extraction_cookbook) - Official pattern separating
-          typed extraction from date validation and arithmetic in code.
+        surrounding_text: "- [Date extraction](https://docs.typesafe.ai/cookbooks/date_extraction_cookbook) - Official pattern separating typed extraction from date validation and arithmetic in code."
         confidence: high
 metadata:
   github:
@@ -56,16 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe AI cookbook that extracts absolute and relative dates from documents by querying a decision model for date parts and resolving them in code with confidence-based review.
+  why_it_matters: Provides a reusable pattern for turning ambiguous date mentions in text into validated, confidence-scored dates using structured model queries.
+  mental_damage: Another notebook that makes you feel smart for offloading calendar math to a model while still writing all the glue code yourself.
+  tags:
+    - date-extraction
+    - typesafe
+    - cookbook
+    - decision-models
+    - prompt-engineering
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: This is a documentation page or cookbook example, not a standalone tool or product developers can install or integrate into their workflows.
   evidence:
-    - jev winnow:e4b 0.47 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - URL points to a documentation page on docs.typesafe.ai, not a GitHub repo or installable package
+    - Content is a Jupyter notebook-style cookbook demonstrating date extraction using TypeSafe's decision model
+    - No evidence of a CLI, library, SDK, or deployable artifact; it is educational material showing how to use TypeSafe SDK
 placement:
   primary_category: null
   section: null
@@ -75,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +86,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:41.123Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a5ca22cf1c79a1382a034a5148e1e77093c2626d2fb3a39769493bdc27a808ef
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page or cookbook example, not a standalone tool or product developers can install or integrate into their workflows.
+      decision_evidence:
+        - URL points to a documentation page on docs.typesafe.ai, not a GitHub repo or installable package
+        - Content is a Jupyter notebook-style cookbook demonstrating date extraction using TypeSafe's decision model
+        - No evidence of a CLI, library, SDK, or deployable artifact; it is educational material showing how to use TypeSafe SDK
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

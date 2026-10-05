@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__semantic__find__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Retrieval and verification
         anchor_text: Line-by-line search
         extracted_url: https://docs.typesafe.ai/cookbooks/semantic_find
-        surrounding_text: >-
-          - [Line-by-line search](https://docs.typesafe.ai/cookbooks/semantic_find) - Select relevant source lines and
-          separately check whether the document contains an answer.
+        surrounding_text: "- [Line-by-line search](https://docs.typesafe.ai/cookbooks/semantic_find) - Select relevant source lines and separately check whether the document contains an answer."
         confidence: high
 metadata:
   github:
@@ -39,15 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A cookbook demonstrating how to use TypeSafe's decision-model API to implement line-level semantic search with existence checking via Choice and Noul questions.
+  why_it_matters: Shows developers how to build verifiable semantic search that can detect when a document contains no answer, reducing hallucinations in RAG-style workflows.
+  mental_damage: Another reminder that 'just ask the model' isn't enough when you need to know whether the answer actually exists in your source material.
+  tags:
+    - semantic-search
+    - decision-models
+    - typesafe
+    - rag
+    - verification
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a documentation page or cookbook example, not a standalone tool, product, or developer-facing infrastructure; it demonstrates usage of TypeSafe's decision-model API but does not itself constitute a reusable tool or platform.
+  evidence:
+    - URL is a documentation path under typesafe.ai/cookbooks/
+    - Primary page excerpt shows it is a step-by-step tutorial with code snippets for building semantic search using cooksafe and typesafe_sdk
+    - No indication of a distributable product, CLI, library, or service — only a guided example using TypeSafe's API
 placement:
   primary_category: null
   section: null
@@ -57,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:03.436Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4a0c02ae4ef6789cbdb59947875c11d92a731913f707d4e94f7307220e114d17
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page or cookbook example, not a standalone tool, product, or developer-facing infrastructure; it demonstrates usage of TypeSafe's decision-model API but does not itself constitute a reusable tool or platform.
+      decision_evidence:
+        - URL is a documentation path under typesafe.ai/cookbooks/
+        - Primary page excerpt shows it is a step-by-step tutorial with code snippets for building semantic search using cooksafe and typesafe_sdk
+        - No indication of a distributable product, CLI, library, or service — only a guided example using TypeSafe's API
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

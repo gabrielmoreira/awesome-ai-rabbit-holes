@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__punkpeye__awesome-remote-mcp-servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Remote Servers
         anchor_text: awesome-remote-mcp-servers
         extracted_url: https://github.com/punkpeye/awesome-remote-mcp-servers
-        surrounding_text: >-
-          This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just
-          connect to over a URL? See
-          [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers).
+        surrounding_text: This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just connect to over a URL? See [awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers).
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just
-    connect to over a URL? See awesome-remote-mcp-servers.
+  summary: This list is for servers with a GitHub repo you install and run yourself. Looking for a hosted server you just connect to over a URL? See awesome-remote-mcp-servers.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.473Z'
+    updated_at: "2026-09-29T13:07:10.473Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

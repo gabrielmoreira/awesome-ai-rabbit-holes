@@ -5,9 +5,8 @@ canonical_url: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lu
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__arcturus__labs__com__blog__2026__09__21__will__openai__eat__jevs__lunch__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__arcturus__labs__com__blog__2026__09__21__will__openai__eat__jevs__lunch__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,10 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Will OpenAI eat Jev's lunch?
         extracted_url: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch
-        surrounding_text: >-
-          - [Will OpenAI eat Jev's lunch?](https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/) -
-          Analysis + HN thread (306 points, 215 comments): argues OpenAI is best positioned to fast-follow the
-          typed-decision shape, and the thread debates whether the interface or the model is the moat.
+        surrounding_text: "- [Will OpenAI eat Jev's lunch?](https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/) - Analysis + HN thread (306 points, 215 comments): argues OpenAI is best positioned to fast-follow the typed-decision shape, and the thread debates whether the interface or the model is the moat."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post analyzing whether OpenAI will replicate TypeSafe's Jev decision model technology and integrate it into its own models.
+  why_it_matters: Highlights a emerging AI capability—general classification via token probability calibration—that could influence future LLM design and developer tooling decisions.
+  mental_damage: Another reminder that the most impactful 'AI product' might just be a concept someone blogged about before Big Tech copies it.
+  tags:
+    - ai-product
+    - decision-model
+    - llm
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The input is a blog post analysis, not a developer-facing tool, framework, agent, or product that developers can use or integrate into workflows.
   evidence:
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - Source is a blog post on arcturus-labs.com with no associated GitHub repo, SDK, CLI, or deployable artifact.
+    - Content discusses theoretical OpenAI strategy and Jev's technology but does not offer a tool for developers to use.
+    - No evidence of installation, usage, API, or integration instructions for developer adoption.
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - awesome-awesomes
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:25.583Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5566fc2d01015398d6d7b65a3fc692023aa953ece456eae41921447da5f78fed
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a blog post analysis, not a developer-facing tool, framework, agent, or product that developers can use or integrate into workflows.
+      decision_evidence:
+        - Source is a blog post on arcturus-labs.com with no associated GitHub repo, SDK, CLI, or deployable artifact.
+        - Content discusses theoretical OpenAI strategy and Jev's technology but does not offer a tool for developers to use.
+        - No evidence of installation, usage, API, or integration instructions for developer adoption.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

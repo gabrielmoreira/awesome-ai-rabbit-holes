@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agenticmail__agenticmail__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: agenticmail/agenticmail
         extracted_url: https://github.com/agenticmail/agenticmail
-        surrounding_text: >-
-          - [agenticmail/agenticmail](https://github.com/agenticmail/agenticmail) [![agenticmail/agenticmail MCP
-          server](https://glama.ai/mcp/servers/agenticmail/agenticmail/badges/score.svg)](https://glama.ai/mcp/servers/agenticmail/agenticmail)
-          📇 🏠 🍎 🪟 🐧 - Real email and SMS for AI agents. Run a local mail server with disposable inboxes,
-          send/receive real email, fetch verification codes, and drive a real inbox — all from your machine, no
-          third-party email API. Install with `npx @agenticmail/mcp`.
+        surrounding_text: "- [agenticmail/agenticmail](https://github.com/agenticmail/agenticmail) [![agenticmail/agenticmail MCP server](https://glama.ai/mcp/servers/agenticmail/agenticmail/badges/score.svg)](https://glama.ai/mcp/servers/agenticmail/agenticmail) 📇 🏠 🍎 🪟 🐧 - Real email and SMS for AI agents. Run a local mail server with disposable inboxes, send/receive real email, fetch verification codes, and drive a real inbox — all from your machine, no third-party email API. Install with `npx @agenticmail/mcp`."
         confidence: high
 metadata:
   github:
@@ -35,11 +30,9 @@ metadata:
     archived: false
     full_name: agenticmail/agenticmail
     html_url: https://github.com/agenticmail/agenticmail
-    created_at: '2026-02-14T08:07:52Z'
-    pushed_at: '2026-09-13T06:17:26Z'
-    description: >-
-      Email, SMS & phone-call infrastructure for AI agents — send and receive real email and text messages, and place
-      agent-driven outbound voice calls, all programmatically
+    created_at: "2026-02-14T08:07:52Z"
+    pushed_at: "2026-09-13T06:17:26Z"
+    description: Email, SMS & phone-call infrastructure for AI agents — send and receive real email and text messages, and place agent-driven outbound voice calls, all programmatically
     homepage: https://www.npmjs.com/package/agenticmail
     topics:
       - agent
@@ -62,9 +55,9 @@ metadata:
       - sms
       - smtp
       - typescript
-    last_checked_at: '2026-09-17T04:13:32.612Z'
+    last_checked_at: "2026-09-17T04:13:32.612Z"
     readme:
-      fetched_at: '2026-09-17T04:13:32.612Z'
+      fetched_at: "2026-09-17T04:13:32.612Z"
       bytes: 78339
 insights:
   summary: AgenticMail is an MCP server that provides AI agents with programmable email, SMS, and phone-call capabilities.
@@ -92,18 +85,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.817Z'
+    updated_at: "2026-05-28T05:28:09.817Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:32.612Z'
+    updated_at: "2026-09-17T04:13:32.612Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:26:57.469Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -115,19 +110,15 @@ processing:
       input_hash: sha256:611f9c8c8ac06dd91f6ea5ea125a50af9df7c1f63a56feda4cfa4ad4cec7c2f2
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        AgenticMail’s primary identity is an MCP server exposing communication tools, fitting the MCP ecosystem
-        category.
+      decision_reason: AgenticMail’s primary identity is an MCP server exposing communication tools, fitting the MCP ecosystem category.
       decision_evidence:
-        - 'Repo description: Email, SMS & phone-call infrastructure for AI agents'
-        - 'README: ‘first platform to give AI agents real email addresses and phone numbers’'
+        - "Repo description: Email, SMS & phone-call infrastructure for AI agents"
+        - "README: ‘first platform to give AI agents real email addresses and phone numbers’"
         - Listed in awesome-mcp-servers under Communication section
         - Topics include mcp, mcp-server, model-context-protocol
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because AgenticMail’s core identity is an MCP server exposing
-        communication tools, not a plugin that extends another coding agent.
+      contrastive_reason: Choose mcp over extensions-and-addons because AgenticMail’s core identity is an MCP server exposing communication tools, not a plugin that extends another coding agent.
       review_reason: null
       review_resume_lifecycle: null

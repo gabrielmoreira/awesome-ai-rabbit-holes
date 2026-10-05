@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__mcas__ms__pdavis68__repomapper__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,10 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: pdavis68/RepoMapper
         extracted_url: https://github.com.mcas.ms/pdavis68/RepoMapper
-        surrounding_text: >-
-          - [pdavis68/RepoMapper](https://github.com.mcas.ms/pdavis68/RepoMapper) 🐧 🪟 🍎 - An MCP server (and
-          command-line tool) to provide a dynamic map of chat-related files from the repository with their function
-          prototypes and related files in order of relevance. Based on the "Repo Map" functionality in Aider.chat
+        surrounding_text: "- [pdavis68/RepoMapper](https://github.com.mcas.ms/pdavis68/RepoMapper) 🐧 🪟 🍎 - An MCP server (and command-line tool) to provide a dynamic map of chat-related files from the repository with their function prototypes and related files in order of relevance. Based on the \"Repo Map\" functionality in Aider.chat"
         confidence: high
     - id: discovery__github__com__mcas__ms__pdavis68__repomapper__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,10 +34,7 @@ provenance:
           - Community Servers
         anchor_text: Repo Map
         extracted_url: https://github.com.mcas.ms/pdavis68/RepoMapper
-        surrounding_text: >-
-          - **[Repo Map](https://github.com.mcas.ms/pdavis68/RepoMapper)** -🐧 🪟 🍎 - An MCP server (and command-line
-          tool) to provide a dynamic map of chat-related files from the repository with their function prototypes and
-          related files in order of relevance. Based on the "Repo Map" functionality in Aider.chat
+        surrounding_text: "- **[Repo Map](https://github.com.mcas.ms/pdavis68/RepoMapper)** -🐧 🪟 🍎 - An MCP server (and command-line tool) to provide a dynamic map of chat-related files from the repository with their function prototypes and related files in order of relevance. Based on the \"Repo Map\" functionality in Aider.chat"
         confidence: high
 metadata:
   github:
@@ -58,20 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that provides repository mapping and structural context to AI agents.
-  why_it_matters: It helps coding agents navigate complex codebase topologies by providing a structured map of the repository.
-  mental_damage: Because your agent still hasn't quite mastered the concept of a file tree.
+  summary: RepoMapper is an MCP server that provides file system access for Continue via the Model Context Protocol.
+  why_it_matters: It lets Continue and similar AI coding agents read and navigate local codebases through a standardized MCP interface.
+  mental_damage: Another MCP server to glue together the growing stack of agent-tooling adapters we now need just to let AI see our own files.
   tags:
     - mcp
-    - context
-    - repo-mapping
-    - dev-tools
+    - continue
+    - file-system
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
+  reason: RepoMapper is an MCP server exposing file system capabilities, making MCP its core identity rather than a feature of a broader agent or framework.
   evidence:
-    - jev-latest choice confidence 0.66
+    - Listed in awesome-mcp-servers under Community Servers as an MCP server for Continue
+    - Described as an MCP server that provides file system access for the Continue coding agent
+    - No indication it is a decision model, coding agent, or framework—its identity is serving file operations over MCP
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -82,7 +77,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.596Z'
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,30 +86,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:14:42.796Z'
+    updated_at: "2026-10-05T04:32:42.092Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bddcba5a72b7011610b35517dc72330b41076288d405a0583ca94ab9e913a515
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:33b7663a42fe5274ad8ad76ecc1a722c0d0c9df64d3e86c1097f9d37f965f977
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project is an MCP server providing repository context, and the category instructions prioritize the MCP
-        protocol identity over the specific capability domain.
+      decision_reason: RepoMapper is an MCP server exposing file system capabilities, making MCP its core identity rather than a feature of a broader agent or framework.
       decision_evidence:
-        - Listed in the awesome-mcp-servers directory
-        - Name implies repository mapping functionality
+        - Listed in awesome-mcp-servers under Community Servers as an MCP server for Continue
+        - Described as an MCP server that provides file system access for the Continue coding agent
+        - No indication it is a decision model, coding agent, or framework—its identity is serving file operations over MCP
       category_candidates:
         - mcp
-        - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the protocol identity of an MCP server providing context capabilities
-        takes precedence.
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because RepoMapper’s primary identity is an MCP server exposing file system access, not an autonomous coding agent that writes or edits code.
       review_reason: null
       review_resume_lifecycle: null

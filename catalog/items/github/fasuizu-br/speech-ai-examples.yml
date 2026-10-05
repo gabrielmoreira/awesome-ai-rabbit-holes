@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fasuizu-br__speech-ai-examples__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,11 +19,7 @@ provenance:
           - 🎨 Art & Culture
         anchor_text: fasuizu-br/speech-ai-examples
         extracted_url: https://github.com/fasuizu-br/speech-ai-examples
-        surrounding_text: >-
-          -   **[fasuizu-br/speech-ai-examples](https://github.com/fasuizu-br/speech-ai-examples)** [![GitHub
-          stars](https://img.shields.io/github/stars/fasuizu-br/speech-ai-examples?style=social)](https://github.com/fasuizu-br/speech-ai-examples):
-          Speech AI MCP server with pronunciation assessment (phoneme-level scoring, 17MB model, <300ms),
-          text-to-speech, and speech-to-text. 8 tools for language learning, accessibility, and voice applications.
+        surrounding_text: "-   **[fasuizu-br/speech-ai-examples](https://github.com/fasuizu-br/speech-ai-examples)** [![GitHub stars](https://img.shields.io/github/stars/fasuizu-br/speech-ai-examples?style=social)](https://github.com/fasuizu-br/speech-ai-examples): Speech AI MCP server with pronunciation assessment (phoneme-level scoring, 17MB model, <300ms), text-to-speech, and speech-to-text. 8 tools for language learning, accessibility, and voice applications."
         confidence: high
 metadata:
   github:
@@ -33,8 +29,8 @@ metadata:
     archived: false
     full_name: fasuizu-br/speech-ai-examples
     html_url: https://github.com/fasuizu-br/speech-ai-examples
-    created_at: '2026-02-20T14:26:31Z'
-    pushed_at: '2026-08-03T02:21:17Z'
+    created_at: "2026-02-20T14:26:31Z"
+    pushed_at: "2026-08-03T02:21:17Z"
     description: Legacy Speech AI examples with migration links to the current Brainiall TTS and transcription services.
     homepage: https://github.com/fasuizu-br/brainiall-tts-mcp
     topics:
@@ -50,20 +46,14 @@ metadata:
       - synthetic-testing
       - text-to-speech
       - webvtt
-    last_checked_at: '2026-08-27T09:23:28.630Z'
+    last_checked_at: "2026-08-27T09:23:28.630Z"
     readme:
-      fetched_at: '2026-08-27T09:23:28.630Z'
+      fetched_at: "2026-08-27T09:23:28.630Z"
       bytes: 3159
 insights:
-  summary: >-
-    speech-ai-examples provides production-ready examples for Brainiall Speech AI APIs including Pronunciation
-    Assessment, STT, TTS, and MCP configs in Python, JavaScript, and curl.
-  why_it_matters: >-
-    It gives developers ready-to-run code snippets to integrate Brainiall's speech and language APIs into apps, reducing
-    integration friction.
-  mental_damage: >-
-    Another API wrapper example collection that pretends to be novel while just showing how to POST base64-encoded audio
-    to a REST endpoint.
+  summary: speech-ai-examples provides production-ready examples for Brainiall Speech AI APIs including Pronunciation Assessment, STT, TTS, and MCP configs in Python, JavaScript, and curl.
+  why_it_matters: It gives developers ready-to-run code snippets to integrate Brainiall's speech and language APIs into apps, reducing integration friction.
+  mental_damage: Another API wrapper example collection that pretends to be novel while just showing how to POST base64-encoded audio to a REST endpoint.
   tags:
     - speech-ai
     - api-examples
@@ -71,38 +61,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The repo is primarily a set of MCP configs and API examples for Brainiall's speech and LLM endpoints, making it an
-    MCP-facing domain toolkit rather than a standalone product or generic list.
+  reason: The repo is primarily a set of MCP configs and API examples for Brainiall's speech and LLM endpoints, making it an MCP-facing domain toolkit rather than a standalone product or generic list.
   evidence:
     - Repo description explicitly mentions 'MCP configs' alongside Python, JavaScript, and curl examples.
     - README highlights MCP servers with '20 Tools' and lists MCP as a key integration surface.
     - Appears in awesome-mcp-list under Art & Culture, reinforcing its MCP identity despite low stars.
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  section: null
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.613Z'
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-27T09:23:28.630Z'
+    updated_at: "2026-08-27T09:23:28.630Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -117,24 +103,14 @@ processing:
       input_hash: sha256:65e780b5c3e7b093669cd85fc33ca75a9b156b73f1103c0ec19d09ee25dd603f
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: >-
-        The repository provides code-first SDK examples and quick-start guides for consuming Brainiall's AI APIs,
-        fitting the Frameworks & SDKs category as a provider abstraction layer.
+      decision_reason: The repository provides code-first SDK examples and quick-start guides for consuming Brainiall's AI APIs, fitting the Frameworks & SDKs category as a provider abstraction layer.
       decision_evidence:
-        - >-
-          Repo description: Production-ready examples for Brainiall Speech AI APIs — Pronunciation Assessment, STT, TTS.
-          Python, JavaScript, curl, and MCP configs.
-        - >-
-          README includes multiple language-specific quick starts (Python, Node.js, curl) demonstrating how to call
-          Brainiall's REST endpoints using OpenAI SDK and raw HTTP.
-        - >-
-          Lists MCP server availability but positions it as one of several access methods alongside REST, not the core
-          product identity.
+        - "Repo description: Production-ready examples for Brainiall Speech AI APIs — Pronunciation Assessment, STT, TTS. Python, JavaScript, curl, and MCP configs."
+        - README includes multiple language-specific quick starts (Python, Node.js, curl) demonstrating how to call Brainiall's REST endpoints using OpenAI SDK and raw HTTP.
+        - Lists MCP server availability but positions it as one of several access methods alongside REST, not the core product identity.
       category_candidates:
         - ai-frameworks
         - mcp
-      contrastive_reason: >-
-        Choose ai-frameworks over mcp because the repository's primary value is providing language-specific SDK examples
-        for API consumption, not MCP server/client/tooling infrastructure.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
+      contrastive_reason: Choose ai-frameworks over mcp because the repository's primary value is providing language-specific SDK examples for API consumption, not MCP server/client/tooling infrastructure.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
       review_resume_lifecycle: null

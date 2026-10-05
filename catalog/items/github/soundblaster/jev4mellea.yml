@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__soundblaster__jev4mellea__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Integrations
         anchor_text: Jev4Mellea
         extracted_url: https://github.com/soundblaster/jev4mellea
-        surrounding_text: '- [Jev4Mellea](https://github.com/SoundBlaster/Jev4Mellea) - Jev adapter to Mellea.'
+        surrounding_text: "- [Jev4Mellea](https://github.com/SoundBlaster/Jev4Mellea) - Jev adapter to Mellea."
         confidence: high
     - id: discovery__github__soundblaster__jev4mellea__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,12 +35,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: Jev4Mellea
         extracted_url: https://github.com/soundblaster/jev4mellea
-        surrounding_text: >-
-          | [Jev4Mellea](https://github.com/SoundBlaster/Jev4Mellea) | ★ 0 | Python | 2026-09-19 | Jev adapter to
-          Mellea. |
+        surrounding_text: "| [Jev4Mellea](https://github.com/SoundBlaster/Jev4Mellea) | ★ 0 | Python | 2026-09-19 | Jev adapter to Mellea. |"
         confidence: high
     - id: discovery__github__soundblaster__jev4mellea__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -50,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**Jev4Mellea**'
+        anchor_text: "**Jev4Mellea**"
         extracted_url: https://github.com/soundblaster/jev4mellea
-        surrounding_text: >-
-          - [**Jev4Mellea**](https://github.com/SoundBlaster/Jev4Mellea) — This is an unofficial, synchronous adapter.
-          Jev evaluates text; it does not generate or repair it.
+        surrounding_text: "- [**Jev4Mellea**](https://github.com/SoundBlaster/Jev4Mellea) — This is an unofficial, synchronous adapter. Jev evaluates text; it does not generate or repair it."
         confidence: high
 metadata:
   github:
@@ -82,9 +78,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
   evidence:
     - jev-latest choice confidence 0.92
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -96,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.404Z'
+    updated_at: "2026-09-29T13:07:10.404Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

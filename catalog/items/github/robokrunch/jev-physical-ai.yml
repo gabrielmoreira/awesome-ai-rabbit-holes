@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__robokrunch__jev-physical-ai__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Robotics & Physical
         anchor_text: Jev for Physical AI
         extracted_url: https://github.com/robokrunch/jev-physical-ai
-        surrounding_text: >-
-          - [Jev for Physical AI](https://github.com/robokrunch/jev-physical-ai)
-          ![stars](https://img.shields.io/github/stars/robokrunch/jev-physical-ai?style=flat-square&label=%E2%98%85) -
-          Fleet triage: runs Jev as the decision layer for a 10,000-robot warehouse fleet over 41 bilingual incident
-          templates and publishes 0.527 s p50 latency, $24.57 per million decisions and 91.3% agreement with template
-          labels, alongside a crossover against a self-hosted ModernBERT.
+        surrounding_text: "- [Jev for Physical AI](https://github.com/robokrunch/jev-physical-ai) ![stars](https://img.shields.io/github/stars/robokrunch/jev-physical-ai?style=flat-square&label=%E2%98%85) - Fleet triage: runs Jev as the decision layer for a 10,000-robot warehouse fleet over 41 bilingual incident templates and publishes 0.527 s p50 latency, $24.57 per million decisions and 91.3% agreement with template labels, alongside a crossover against a self-hosted ModernBERT."
         confidence: high
 metadata:
   github:
@@ -43,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev for Physical AI - Fleet triage: runs Jev as the decision layer for a 10,000-robot warehouse fleet over 41
-    bilingual incident templates and publishes 0.527 s p50 latency, $24.57 per million decisions and 91.3% agreement
-    with template labels, alongside a crossover against a self-hosted ModernBERT.
+  summary: "Jev for Physical AI - Fleet triage: runs Jev as the decision layer for a 10,000-robot warehouse fleet over 41 bilingual incident templates and publishes 0.527 s p50 latency, $24.57 per million decisions and 91.3% agreement with template labels, alongside a crossover against a self-hosted ModernBERT."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__axolotl__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,10 +18,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: Axolotl
         extracted_url: https://axolotl-ai-cloud.github.io/axolotl
-        surrounding_text: >-
-          38. [Axolotl](https://axolotl-ai-cloud.github.io/axolotl/): Axolotl is designed to work with YAML config files
-          that contain everything you need to preprocess a dataset, train or fine-tune a model, run model inference or
-          evaluation, and much more.
+        surrounding_text: "38. [Axolotl](https://axolotl-ai-cloud.github.io/axolotl/): Axolotl is designed to work with YAML config files that contain everything you need to preprocess a dataset, train or fine-tune a model, run model inference or evaluation, and much more."
         confidence: high
 metadata:
   github:
@@ -39,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Axolotl is a free and open-source framework for post-training and fine-tuning large language models.
-  why_it_matters: >-
-    It enables developers to customize and optimize LLMs for specific tasks using flexible configuration and advanced
-    training methods.
-  mental_damage: >-
-    The promise of fine-tuning state-of-the-art models in minutes clashes with the reality of GPU requirements, complex
-    YAML configs, and the constant churn of new model support.
+  summary: Axolotl is an open-source framework for fine-tuning and post-training large language models on local or self-hosted infrastructure.
+  why_it_matters: It gives developers a unified, optimized way to fine-tune LLMs for custom behavior without relying on external APIs or proprietary tools.
+  mental_damage: Another day, another YAML config to wrestle with before you can finally make the model stop hallucinating about your codebase.
   tags:
-    - llm
+    - local-ai
     - fine-tuning
-    - open-source
+    - llm-training
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Fine-tuning & Training
+  reason: Axolotl is a self-hosted fine-tuning toolkit that runs on developer-controlled hardware, making it a clear fit for the Local & Self-hosted AI category under fine-tuning and training.
   evidence:
-    - jev-latest choice confidence 0.62
+    - Axolotl is described as a 'free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models' that runs locally via pip, Docker, or cloud jobs.
+    - It is listed in the awesome-LLM-resources directory under the 微调 (Fine-Tuning) section, indicating its recognized use in model adaptation.
+    - The documentation emphasizes local execution with support for Docker, Hugging Face Jobs, Nebius Serverless Jobs, and AMD GPUs on HPC systems, reinforcing its self-hosted identity.
 placement:
   primary_category: local-ai
   secondary_categories: []
@@ -66,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -79,35 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:38:10.839Z'
+    updated_at: "2026-10-05T04:31:15.918Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:26a46e11cd19e057da1a69a1b19a90c4a036a0476d851c148b9ed1204578c3d0
-      proposed_primary_category: ai-frameworks
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a766057b293c5804aad59b61ab388024f7aa2405a5e75cba7578656d174bd963
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: >-
-        Axolotl is a code-first library that developers import and program against to build AI applications, fitting the
-        Frameworks & SDKs category.
+      decision_reason: Axolotl is a self-hosted fine-tuning toolkit that runs on developer-controlled hardware, making it a clear fit for the Local & Self-hosted AI category under fine-tuning and training.
       decision_evidence:
-        - >-
-          README states it is 'a free and open-source tool designed to streamline post-training and fine-tuning' and
-          provides CLI commands like 'axolotl train' for developers to use in code.
-        - >-
-          Source-list context shows it appears in 'awesome-LLM-resources' under Fine-Tuning, indicating its role as a
-          developer tool for model customization.
-        - >-
-          Scraped site context lists extensive installation instructions via pip, Docker, and CLI, confirming its
-          identity as a developer-facing SDK rather than a hosted platform.
+        - Axolotl is described as a 'free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models' that runs locally via pip, Docker, or cloud jobs.
+        - It is listed in the awesome-LLM-resources directory under the 微调 (Fine-Tuning) section, indicating its recognized use in model adaptation.
+        - The documentation emphasizes local execution with support for Docker, Hugging Face Jobs, Nebius Serverless Jobs, and AMD GPUs on HPC systems, reinforcing its self-hosted identity.
       category_candidates:
+        - local-ai
         - ai-frameworks
-        - mcp
-      contrastive_reason: Choose ai-frameworks over mcp because Axolotl's primary identity is a fine-tuning SDK, not MCP infrastructure.
+      contrastive_reason: Choose local-ai over ai-frameworks because Axolotl is primarily a self-hosted fine-tuning toolkit run by developers on their own hardware, not a code-first library imported into applications.
       review_reason: null
       review_resume_lifecycle: null

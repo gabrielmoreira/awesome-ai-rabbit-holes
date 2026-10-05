@@ -5,9 +5,8 @@ canonical_url: https://microsoft.com/nl-nl/power-platform/products/power-apps
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+    - id: discovery__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,13 +18,10 @@ provenance:
           - App Builders
         anchor_text: Microsoft Power Apps
         extracted_url: https://powerapps.microsoft.com
-        surrounding_text: >-
-          - **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered
-          app generation.
+        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
         confidence: high
-    - id: >-
-        discovery__www__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__www__microsoft__com__nl__nl__power__platform__products__power__apps__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,9 +33,7 @@ provenance:
           - App Builders
         anchor_text: Microsoft Power Apps
         extracted_url: https://powerapps.microsoft.com
-        surrounding_text: >-
-          - **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered
-          app generation.
+        surrounding_text: "- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation."
         confidence: high
 metadata:
   github:
@@ -58,20 +52,20 @@ metadata:
     readme: null
 insights:
   summary: Microsoft Power Apps is a low-code platform for building business applications with minimal coding.
-  why_it_matters: >-
-    It enables developers and non-developers to quickly create internal tools and apps using a visual interface and
-    AI-assisted features.
-  mental_damage: Another drag-and-drop promise that still requires you to fight the platform when it inevitably breaks at scale.
+  why_it_matters: Enables developers and non-developers to rapidly create internal tools and workflow apps without deep programming.
+  mental_damage: The dream of shipping apps by dragging boxes while silently knowing IT will still own your soul.
   tags:
     - low-code
-    - app-builder
-    - microsoft
+    - business-apps
+    - power-platform
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Internal Tools & Dashboards
+  reason: Power Apps is primarily a prompt-to-app platform where users describe business needs and receive deployable internal tools, aligning with the app-builders category despite its low-code nature.
   evidence:
-    - jev-latest choice confidence 0.93
+    - Microsoft Power Apps enables users to build business applications with little to no code
+    - The product generates deployable apps from natural language or visual design inputs
+    - It is positioned as part of the Power Platform for creating internal tools and workflow automation
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -82,37 +76,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:59.959Z'
+    updated_at: "2026-10-05T04:49:14.123Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7adefda23f2c2bb2eb59aeb9ecd7cd91259ec198d4a2823d08ec859c5b95c04d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a5b650ea324aae3e5f1bba66d2d5c71a265ef1554c3e65e027ca3f6255f95fd1
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        Power Apps is primarily a prompt- and visual-driven app generator for internal business tools, fitting the
-        app-builder identity despite its enterprise focus.
+      decision_reason: Power Apps is primarily a prompt-to-app platform where users describe business needs and receive deployable internal tools, aligning with the app-builders category despite its low-code nature.
       decision_evidence:
-        - Homepage describes it as a tool to 'build custom business apps with little to no code'
-        - AI features like Copilot assist in generating apps from natural language descriptions
-        - Outputs are deployable business applications, not edits to existing codebases
+        - Microsoft Power Apps enables users to build business applications with little to no code
+        - The product generates deployable apps from natural language or visual design inputs
+        - It is positioned as part of the Power Platform for creating internal tools and workflow automation
       category_candidates:
         - app-builders
-        - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Power Apps generates new apps from prompts and visual inputs
-        rather than editing or assisting within an existing codebase as a coding agent would.
+        - ai-frameworks
+      contrastive_reason: Choose app-builders over ai-frameworks because Power Apps’ core identity is generating deployable apps from prompts, not providing a code library for developers to import and build upon.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

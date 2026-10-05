@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tokenmetrics__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,13 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Token Metrics
         extracted_url: https://tokenmetrics.com
-        surrounding_text: >-
-          - **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/)
-          integration for fetching real-time crypto market data, trading signals, price predictions, and advanced
-          analytics.
+        surrounding_text: "- **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/) integration for fetching real-time crypto market data, trading signals, price predictions, and advanced analytics."
         confidence: high
     - id: discovery__www__tokenmetrics__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +33,7 @@ provenance:
           - Official Servers
         anchor_text: Token Metrics
         extracted_url: https://www.tokenmetrics.com
-        surrounding_text: >-
-          - **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/)
-          integration for fetching real-time crypto market data, trading signals, price predictions, and advanced
-          analytics.
+        surrounding_text: "- **[Token Metrics](https://github.com/token-metrics/mcp)** - [Token Metrics](https://www.tokenmetrics.com/) integration for fetching real-time crypto market data, trading signals, price predictions, and advanced analytics."
         confidence: high
 metadata:
   github:
@@ -57,26 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Token Metrics is a financial data platform providing cryptocurrency analytics and ratings.
-  why_it_matters: >-
-    It offers AI-driven crypto insights that could inform trading or investment decisions for developers involved in
-    fintech or blockchain projects.
-  mental_damage: >-
-    Another dashboard promising alpha through AI, adding to the noise of tools that claim to predict volatile markets
-    while you just want to ship code.
+  summary: Token Metrics is a cryptocurrency analysis platform that uses AI to provide investment ratings, price predictions, and market insights for digital assets.
+  why_it_matters: It matters to developers interested in crypto or fintech who want to integrate AI-driven market analysis into trading tools or research workflows.
+  mental_damage: Another AI-powered crypto dashboard promising alpha while you wonder if the real product is just selling hope wrapped in a token score.
   tags:
-    - finance
     - crypto
-    - analytics
+    - finance
+    - ai-analysis
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Token Metrics is a financial analytics service for cryptocurrency markets, lacking any developer-tooling focus such
-    as code generation, agent orchestration, or workflow automation relevant to software engineering workflows.
+  reason: Token Metrics is a financial analysis platform focused on cryptocurrency markets, not a developer-facing AI tool for coding, agent workflows, or software development infrastructure.
   evidence:
-    - 'Seen in source list: awesome-mcp-servers under ''Official Servers'' section'
-    - Platform description centers on cryptocurrency ratings, analytics, and market insights
+    - The URL tokenmetrics.com describes a crypto analytics service with AI-powered ratings and price predictions
+    - It appears in the awesome-mcp-servers list under 'Official Servers', suggesting MCP compatibility but not MCP identity
+    - No evidence of developer tooling, code generation, agent behavior, or software development workflows in the provided context
 placement:
   primary_category: null
   section: null
@@ -86,32 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:04.432Z'
+    updated_at: "2026-10-05T04:56:33.244Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6ff29b7aa26dee8bedc2e8fd6bee3a63d38df1b6179a2cda6e188efc1e440eab
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1a9a36cc03ce0d05b72dca661aeb8fc6b8f6d74a23b7de122b3025df70160dbd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Token Metrics is a financial analytics service for cryptocurrency markets, lacking any developer-tooling focus
-        such as code generation, agent orchestration, or workflow automation relevant to software engineering workflows.
+      decision_reason: Token Metrics is a financial analysis platform focused on cryptocurrency markets, not a developer-facing AI tool for coding, agent workflows, or software development infrastructure.
       decision_evidence:
-        - 'Seen in source list: awesome-mcp-servers under ''Official Servers'' section'
-        - Platform description centers on cryptocurrency ratings, analytics, and market insights
+        - The URL tokenmetrics.com describes a crypto analytics service with AI-powered ratings and price predictions
+        - It appears in the awesome-mcp-servers list under 'Official Servers', suggesting MCP compatibility but not MCP identity
+        - No evidence of developer tooling, code generation, agent behavior, or software development workflows in the provided context
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

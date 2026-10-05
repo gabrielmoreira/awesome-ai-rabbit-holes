@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__firefly__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Firefly
         extracted_url: https://firefly.ai
-        surrounding_text: >-
-          - [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers,
-          manages, and codifies cloud resources with [Firefly](https://firefly.ai).
+        surrounding_text: "- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai)."
         confidence: high
     - id: discovery__www__firefly__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,9 +35,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Firefly
         extracted_url: https://firefly.ai
-        surrounding_text: >-
-          - [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers,
-          manages, and codifies cloud resources with [Firefly](https://firefly.ai).
+        surrounding_text: "- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai)."
         confidence: high
 metadata:
   github:
@@ -57,33 +53,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Firefly AI is an agent-based platform that automates cloud infrastructure management, drift remediation, and
-    disaster recovery using Infrastructure-as-Code.
-  why_it_matters: >-
-    It helps developers reduce manual cloud operations by using AI agents to enforce IaC standards and recover from
-    outages without runbooks.
-  mental_damage: Finally, an AI that doesn’t write code but still makes you feel guilty for not automating your VPCs yet.
+  summary: Firefly is a cloud resilience platform that uses AI agents to automate Infrastructure-as-Code and recover from outages and cyberattacks.
+  why_it_matters: It helps developers and platform engineers reduce MTTR by automating IaC drift detection, remediation, and full-environment recovery during incidents.
+  mental_damage: Finally, an AI agent that doesn’t write code but instead prevents your infrastructure from becoming a crime scene — because DevOps shouldn’t require a time machine.
   tags:
     - cloud
+    - iac
+    - devops
     - ai-agents
-    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Firefly AI is a cloud operations and resilience platform focused on IaC automation and disaster recovery, not a
-    developer-facing AI tool for coding, app building, or agent workflows.
+  reason: Firefly is a cloud infrastructure and resilience platform focused on IaC automation, drift management, and disaster recovery, not a developer-facing AI tool for coding, agent orchestration, or app building.
   evidence:
-    - >-
-      The product automates cloud infrastructure using AI agents for drift management, compliance, and recovery from
-      outages and cyberattacks.
-    - >-
-      Its core use cases are platform engineering, FinOps, SecOps, and cloud governance — not software development or
-      code manipulation.
-    - >-
-      It positions itself as a cloud resilience platform for CIOs, platform engineers, and security teams, with no
-      mention of coding assistance, IDE integration, or dev workflow enhancement.
+    - Repo description is missing; scraped site context emphasizes cloud asset management, IaC orchestration, and automated recovery from outages and cyberattacks
+    - Primary use cases target Platform Engineering, FinOps, SecOps, and CIO/CTO roles, not software development workflows
+    - Core functionality includes cloud asset codification, policy enforcement, and agent-driven infrastructure recovery — none of which involve code editing, prompt-to-app generation, or agent coordination for development tasks
 placement:
   primary_category: null
   secondary_categories: []
@@ -94,39 +79,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:26.119Z'
+    updated_at: "2026-10-05T04:59:15.760Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a438a874d184ab806f94ba6ad46572a6a8860d57b44e892f08bd0e202e04029a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c445f452ab845709f961707c87b4e2c9707031776fd8ccadee8694021a0924a6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Firefly AI is a cloud operations and resilience platform focused on IaC automation and disaster recovery, not a
-        developer-facing AI tool for coding, app building, or agent workflows.
+      decision_reason: Firefly is a cloud infrastructure and resilience platform focused on IaC automation, drift management, and disaster recovery, not a developer-facing AI tool for coding, agent orchestration, or app building.
       decision_evidence:
-        - >-
-          The product automates cloud infrastructure using AI agents for drift management, compliance, and recovery from
-          outages and cyberattacks.
-        - >-
-          Its core use cases are platform engineering, FinOps, SecOps, and cloud governance — not software development
-          or code manipulation.
-        - >-
-          It positions itself as a cloud resilience platform for CIOs, platform engineers, and security teams, with no
-          mention of coding assistance, IDE integration, or dev workflow enhancement.
+        - Repo description is missing; scraped site context emphasizes cloud asset management, IaC orchestration, and automated recovery from outages and cyberattacks
+        - Primary use cases target Platform Engineering, FinOps, SecOps, and CIO/CTO roles, not software development workflows
+        - Core functionality includes cloud asset codification, policy enforcement, and agent-driven infrastructure recovery — none of which involve code editing, prompt-to-app generation, or agent coordination for development tasks
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

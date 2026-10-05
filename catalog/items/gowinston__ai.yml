@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gowinston__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Winston AI
         extracted_url: https://gowinston.ai
-        surrounding_text: >-
-          - **[Winston AI](https://github.com/gowinston-ai/winston-ai-mcp-server)** - AI detector MCP server with
-          industry leading accuracy rates in detecting use of AI in text and images. The [Winston
-          AI](https://gowinston.ai) MCP server also offers a robust plagiarism checker to help maintain integrity.
+        surrounding_text: "- **[Winston AI](https://github.com/gowinston-ai/winston-ai-mcp-server)** - AI detector MCP server with industry leading accuracy rates in detecting use of AI in text and images. The [Winston AI](https://gowinston.ai) MCP server also offers a robust plagiarism checker to help maintain integrity."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Winston AI is an AI content detection and plagiarism checking service targeting educators, SEO professionals, and
-    writers.
-  why_it_matters: >-
-    It offers a way to verify whether text (including code) was AI‑generated, but it is not positioned as a
-    developer‑focused tool.
-  mental_damage: Another promise of spot‑checking AI output while developers already juggle endless false‑positive alerts.
+  summary: Winston AI is an AI content detection and plagiarism checking service for identifying AI-generated text from models like ChatGPT, Claude, and Gemini.
+  why_it_matters: It helps developers and publishers verify content authenticity and avoid AI-generated spam in SEO, education, and writing workflows.
+  mental_damage: Yet another tool to police the growing flood of synthetic content we’re all generating with the same AI we’re told to trust.
   tags:
     - ai-detection
-    - plagiarism
+    - plagiarism-checker
+    - content-integrity
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Excluded because it is a general‑purpose AI detection service not focused on software development workflows or
-    developer tooling.
+  reason: Winston AI is an AI detection and plagiarism service focused on content integrity, not a developer-facing tool for coding, agents, workflows, or AI-assisted software development.
   evidence:
-    - >-
-      Scraped site describes Winston AI as 'the industry leading AI content detector and plagiarism checker for ChatGPT,
-      Claude, Google Gemini and more'.
-    - >-
-      Source‑list appearance in awesome‑mcp‑servers is a mischaracterization; the tool presents no MCP server or
-      developer‑specific integration.
+    - The product detects AI-generated text and plagiarism for education, SEO, and writers, with no mention of coding assistance or developer tooling.
+    - It appears in 'awesome-mcp-servers' only as a listed service, not as an MCP server itself, and its identity is content detection, not MCP infrastructure.
+    - Core features include AI detection, plagiarism checking, grammar correction, and essay grading — all aimed at content review, not software development workflows.
 placement:
   primary_category: null
   section: null
@@ -71,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,29 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:18:39.140Z'
+    updated_at: "2026-10-05T04:33:13.488Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1b65f5003e340af18bff4cea00507f758c0270b0dbe7f1b8a1538ab9b3cae9df
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0c9224521752e3b14f223dab8ae538a70ae960a43295d13fa7c3c221086baeaf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Excluded because it is a general‑purpose AI detection service not focused on software development workflows or
-        developer tooling.
+      decision_reason: Winston AI is an AI detection and plagiarism service focused on content integrity, not a developer-facing tool for coding, agents, workflows, or AI-assisted software development.
       decision_evidence:
-        - >-
-          Scraped site describes Winston AI as 'the industry leading AI content detector and plagiarism checker for
-          ChatGPT, Claude, Google Gemini and more'.
-        - >-
-          Source‑list appearance in awesome‑mcp‑servers is a mischaracterization; the tool presents no MCP server or
-          developer‑specific integration.
+        - The product detects AI-generated text and plagiarism for education, SEO, and writers, with no mention of coding assistance or developer tooling.
+        - It appears in 'awesome-mcp-servers' only as a listed service, not as an MCP server itself, and its identity is content detection, not MCP infrastructure.
+        - Core features include AI detection, plagiarism checking, grammar correction, and essay grading — all aimed at content review, not software development workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

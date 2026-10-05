@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/collections/osanseviero/model-merging
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__collections__osanseviero__model__merging__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__huggingface__co__collections__osanseviero__model__merging__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 论文 Paper
         anchor_text: Model Merging Paper
         extracted_url: https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66
-        surrounding_text: >-
-          19. [Model Merging
-          Paper](https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66)
+        surrounding_text: 19. [Model Merging Paper](https://huggingface.co/collections/osanseviero/model-merging-65097893623330a3a51ead66)
         confidence: high
 metadata:
   github:
@@ -39,36 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A curated collection of research papers focused on the techniques and evolution of model merging for large language
-    models.
-  why_it_matters: >-
-    It provides a chronological roadmap of the mathematical and algorithmic foundations required to combine model
-    weights without full retraining.
-  mental_damage: >-
-    It is a convenient way to track exactly how many new merging algorithms will make your current implementation
-    obsolete by next Tuesday.
+  summary: A Hugging Face collection curating a chronological list of research papers on model merging techniques for large language models.
+  why_it_matters: Helps ML researchers and developers stay updated on model merging methods that improve LLM performance without retraining.
+  mental_damage: Another paper list to bookmark and never actually read, adding to the guilt of falling behind in LLM techniques.
   tags:
+    - papers
     - model-merging
-    - llm-research
+    - llm
+    - research
     - huggingface
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The resource is a curated list of academic papers without developer-facing tooling, SDKs, or workflow integration, making it a research bibliography rather than a practical AI tool for software developers.
   evidence:
-    - jev-latest choice confidence 0.91
+    - The Hugging Face collection presents a chronological list of research papers on model merging with no indication of code, tools, or developer workflows.
+    - It is listed in an awesome LLM resources list under the '论文 Paper' section, emphasizing its role as a paper summary rather than a tool.
+    - The scraped site context describes it as a paper collection to 'get started with' the topic, confirming its educational, not tooling, purpose.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,30 +72,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:25:27.696Z'
+    updated_at: "2026-10-05T04:33:59.934Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:237011b0a550f648e0b2ba000476f3311712ca28114ebae8c3dab5afc198bb61
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cbca9a4f14f69c148ee151fe61356b1d400d4edc5f4b08e3a626240fc2542df5
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a curated collection of research papers that serves as a foundational discovery resource for developers
-        exploring model merging.
+      decision_reason: The resource is a curated list of academic papers without developer-facing tooling, SDKs, or workflow integration, making it a research bibliography rather than a practical AI tool for software developers.
       decision_evidence:
-        - Hugging Face collection of papers
-        - Chronological list of model merging research
-      category_candidates:
-        - awesome-awesomes
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose awesome-awesomes over ai-frameworks because the resource is a curated list of academic research rather
-        than a functional SDK or library.
+        - The Hugging Face collection presents a chronological list of research papers on model merging with no indication of code, tools, or developer workflows.
+        - It is listed in an awesome LLM resources list under the '论文 Paper' section, emphasizing its role as a paper summary rather than a tool.
+        - The scraped site context describes it as a paper collection to 'get started with' the topic, confirming its educational, not tooling, purpose.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

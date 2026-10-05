@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__coderplan__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: CoderPlan
         extracted_url: https://coderplan.ai
-        surrounding_text: >-
-          - **[CoderPlan](https://coderplan.ai)** – Unified LLM API gateway with OpenAI-compatible API for Claude, GPT,
-          Gemini and 200+ models. Pay-per-use pricing with Alipay/WeChat support, designed for developers using Claude
-          Code and Cursor.
+        surrounding_text: "- **[CoderPlan](https://coderplan.ai)** – Unified LLM API gateway with OpenAI-compatible API for Claude, GPT, Gemini and 200+ models. Pay-per-use pricing with Alipay/WeChat support, designed for developers using Claude Code and Cursor."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CoderPlan – Unified LLM API gateway with OpenAI-compatible API for Claude, GPT, Gemini and 200+ models. Pay-per-use
-    pricing with Alipay/WeChat support, designed for developers using Claude Code and Cursor.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CoderPlan is a pay-per-use API gateway for Claude Code, Cursor, Codex CLI, and Gemini CLI with cached context billing and no expiring credits.
+  why_it_matters: It lets developers use premium coding agents without subscription lock-in or surprise throttling by charging only for actual API usage with transparent per-call token and cost breakdowns.
+  mental_damage: Finally, a billing model that treats your AI coding habit like a utility bill instead of a gym membership you forget to cancel.
+  tags:
+    - api-gateway
+    - usage-based-billing
+    - context-caching
+    - developer-tools
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
   evidence:
     - jev-latest choice confidence 0.90
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; placement kept at
-      ai-frameworks (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
     - decision-models
-  section: Provider & Model Abstractions
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:17.678Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2cac09c34a80a4af32caf476a6831f64595fc27d7a3680a2d35ba944ab39b8e0
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: CoderPlan is an MCP-compatible API gateway that exposes multiple model endpoints (Claude, GPT, Gemini) through a unified interface, making MCP its core identity as a middleware layer for agent tooling.
+      decision_evidence:
+        - "Scraped site states: '双协议兼容 / OpenAI / Anthropic 兼容客户端都能接' and 'Claude、GPT、Gemini 共用一个端点', indicating MCP-style protocol unification."
+        - Source-list context from awesome-ai-coding-tools places it under 'AI Frameworks and SDKs' but describes it as providing 'Claude Code/Codex 中转、Gemini CLI 中转站和第三方 API 接入' — a transit/shim role consistent with MCP middleware.
+        - README emphasizes '把工具指过来' and configuring BASE_URL and API Key for Claude Code, Cursor, etc., positioning it as a proxy layer rather than a coding agent or framework.
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because CoderPlan's primary value is protocol-level middleware unifying access to multiple models via a shared endpoint, not providing a code-level SDK or library for developers to import and build against.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

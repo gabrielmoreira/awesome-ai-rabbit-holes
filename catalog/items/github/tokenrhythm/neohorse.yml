@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tokenrhythm__neohorse__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,13 +20,7 @@ provenance:
           - Calibration & Research
         anchor_text: NeoHorse-Jev
         extracted_url: https://github.com/tokenrhythm/neohorse
-        surrounding_text: >-
-          - [NeoHorse-Jev](https://github.com/TokenRhythm/NeoHorse/tree/main/jev)
-          ![stars](https://img.shields.io/github/stars/TokenRhythm/NeoHorse?style=flat-square&label=%E2%98%85) - Open
-          alternative: Apache-2.0 4B decision model from TokenRhythm that answers `Choice`, `Noul` and `Score` questions
-          via prefill-only inference on NeoHorse-1-4B, deployable with vLLM, SGLang or a native Python/CLI/HTTP runtime,
-          scoring 77.70 across six text benchmark groups (highest among open-weight entries with complete results in its
-          published comparison).
+        surrounding_text: "- [NeoHorse-Jev](https://github.com/TokenRhythm/NeoHorse/tree/main/jev) ![stars](https://img.shields.io/github/stars/TokenRhythm/NeoHorse?style=flat-square&label=%E2%98%85) - Open alternative: Apache-2.0 4B decision model from TokenRhythm that answers `Choice`, `Noul` and `Score` questions via prefill-only inference on NeoHorse-1-4B, deployable with vLLM, SGLang or a native Python/CLI/HTTP runtime, scoring 77.70 across six text benchmark groups (highest among open-weight entries with complete results in its published comparison)."
         confidence: high
 metadata:
   github:
@@ -44,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    NeoHorse-Jev - Open alternative: Apache-2.0 4B decision model from TokenRhythm that answers Choice, Noul and Score
-    questions via prefill-only inference on NeoHorse-1-4B, deployable with vLLM, SGLang or a native Python/CLI/HTTP
-    runtime, scoring 77.70 across six text benchmark groups (highest among open-weight entries with complete results in
-    its published comparison).
+  summary: "NeoHorse-Jev - Open alternative: Apache-2.0 4B decision model from TokenRhythm that answers Choice, Noul and Score questions via prefill-only inference on NeoHorse-1-4B, deployable with vLLM, SGLang or a native Python/CLI/HTTP runtime, scoring 77.70 across six text benchmark groups (highest among open-weight entries with complete results in its published comparison)."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

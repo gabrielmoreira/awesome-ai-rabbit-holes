@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sysdig__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Sysdig
         extracted_url: https://sysdig.com
-        surrounding_text: '- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection.'
+        surrounding_text: "- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection."
         confidence: high
     - id: discovery__www__sysdig__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Sysdig
         extracted_url: https://sysdig.com
-        surrounding_text: '- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection.'
+        surrounding_text: "- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection."
         confidence: high
 metadata:
   github:
@@ -51,12 +51,8 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Sysdig is a cloud security platform that provides real-time visibility into cloud infrastructure, containers, and
-    workloads using runtime intelligence.
-  why_it_matters: >-
-    It helps developers and SecOps teams detect, prioritize, and respond to cloud threats faster by leveraging live
-    system call data for accurate risk assessment.
+  summary: Sysdig is a cloud security platform that provides real-time visibility into cloud infrastructure, containers, and workloads using runtime intelligence.
+  why_it_matters: It helps developers and SecOps teams detect, prioritize, and respond to cloud threats faster by leveraging live system call data for accurate risk assessment.
   mental_damage: Another tool promising runtime depth while your team drowns in yet another dashboard and alert fatigue.
   tags:
     - cloud-security
@@ -65,19 +61,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Sysdig is a cloud security and observability platform focused on runtime threat detection and response, not a
-    developer-facing AI tool for coding, agents, or workflow augmentation.
+  reason: Sysdig is a cloud security and observability platform focused on runtime threat detection and response, not a developer-facing AI tool for coding, agents, or workflow augmentation.
   evidence:
-    - >-
-      From source-list context: 'From runtime to development, gain real-time visibility into your cloud with Sysdig.
-      Prioritize critical risks, detect threats instantly, and respond with confidence.'
-    - >-
-      From scraped site context: Sysdig Secure AI extends security workflows with AI agents for threat investigation,
-      prioritization, and response — not coding tasks.
-    - >-
-      No evidence of code generation, editing, reviewing, or agent-based development workflows; core identity is cloud
-      security posture management (CNAPP), monitoring, and runtime intelligence for SecOps.
+    - "From source-list context: 'From runtime to development, gain real-time visibility into your cloud with Sysdig. Prioritize critical risks, detect threats instantly, and respond with confidence.'"
+    - "From scraped site context: Sysdig Secure AI extends security workflows with AI agents for threat investigation, prioritization, and response — not coding tasks."
+    - No evidence of code generation, editing, reviewing, or agent-based development workflows; core identity is cloud security posture management (CNAPP), monitoring, and runtime intelligence for SecOps.
 placement:
   primary_category: null
   section: null
@@ -86,10 +74,15 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:46:35.208Z'
-    cause: null
-    attempts: 3
+    status: deferred
+    updated_at: "2026-10-05T04:55:44.263Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for sysdig__com: ```json
+        {
+          "summary": "A cloud-native application protection platform (CNAPP) providing runtime visibility and security for
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -100,26 +93,18 @@ processing:
       input_hash: sha256:3c9eb3770cc749d102910b4a43f7cf14be47cdb197ea0ef123036caf67ab8e23
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Sysdig is a cloud security and observability platform focused on runtime threat detection and response, not a
-        developer-facing AI tool for coding, agents, or workflow augmentation.
+      decision_reason: Sysdig is a cloud security and observability platform focused on runtime threat detection and response, not a developer-facing AI tool for coding, agents, or workflow augmentation.
       decision_evidence:
-        - >-
-          From source-list context: 'From runtime to development, gain real-time visibility into your cloud with Sysdig.
-          Prioritize critical risks, detect threats instantly, and respond with confidence.'
-        - >-
-          From scraped site context: Sysdig Secure AI extends security workflows with AI agents for threat
-          investigation, prioritization, and response — not coding tasks.
-        - >-
-          No evidence of code generation, editing, reviewing, or agent-based development workflows; core identity is
-          cloud security posture management (CNAPP), monitoring, and runtime intelligence for SecOps.
+        - "From source-list context: 'From runtime to development, gain real-time visibility into your cloud with Sysdig. Prioritize critical risks, detect threats instantly, and respond with confidence.'"
+        - "From scraped site context: Sysdig Secure AI extends security workflows with AI agents for threat investigation, prioritization, and response — not coding tasks."
+        - No evidence of code generation, editing, reviewing, or agent-based development workflows; core identity is cloud security posture management (CNAPP), monitoring, and runtime intelligence for SecOps.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

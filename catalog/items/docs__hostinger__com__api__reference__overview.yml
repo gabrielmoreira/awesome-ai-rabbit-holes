@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__hostinger__com__api__reference__overview__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Hostinger API
         extracted_url: https://developers.hostinger.com
-        surrounding_text: >-
-          - **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger
-          API](https://developers.hostinger.com/) MCP server for services managment.
+        surrounding_text: "- **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger API](https://developers.hostinger.com/) MCP server for services managment."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Hostinger API documentation overview page showing how to authenticate, make requests, handle rate limits, and automate Hostinger services via CLI, SDKs, and MCP server.
+  why_it_matters: Provides developers with the reference needed to integrate Hostinger's hosting, domain, and email services into applications or automation workflows.
+  mental_damage: Another API reference page that pretends MCP server mentions make it an AI tool, when really it's just hosting API docs with a thin AI veneer.
+  tags:
+    - api
+    - hosting
+    - documentation
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a documentation page for a hosting provider's API, not an AI developer tool; while it mentions MCP server availability, the core identity is API reference documentation, not an MCP server, agent, or developer-facing AI product.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - URL is docs.hostinger.com/api-reference/overview, indicating API documentation
+    - Scraped context describes API authentication, requests, rate limits, and endpoints for hosting, domains, DNS, email, VPS, WordPress, ecommerce, and billing
+    - Source-list context appears in awesome-mcp-servers but only as a linked page about Hostinger API automation, not as an MCP server itself
 placement:
   primary_category: null
   secondary_categories: []
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:14.969Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4bc171f281d97e5ef42d374e9186b743c0eac87fda05722c4aaf5a6a4d071178
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page for a hosting provider's API, not an AI developer tool; while it mentions MCP server availability, the core identity is API reference documentation, not an MCP server, agent, or developer-facing AI product.
+      decision_evidence:
+        - URL is docs.hostinger.com/api-reference/overview, indicating API documentation
+        - Scraped context describes API authentication, requests, rate limits, and endpoints for hosting, domains, DNS, email, VPS, WordPress, ecommerce, and billing
+        - Source-list context appears in awesome-mcp-servers but only as a linked page about Hostinger API automation, not as an MCP server itself
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

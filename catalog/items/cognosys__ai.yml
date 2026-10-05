@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cognosys__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Cognosys
         anchor_text: Cognosys
         extracted_url: https://cognosys.ai
-        surrounding_text: '## [Cognosys](https://cognosys.ai)'
+        surrounding_text: "## [Cognosys](https://cognosys.ai)"
         confidence: high
 metadata:
   github:
@@ -36,36 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cognosys is an autonomous AI agent designed to research, plan, and execute complex tasks across various domains.
-  why_it_matters: >-
-    It attempts to move beyond simple chat interfaces toward autonomous agents that can handle multi-step workflows
-    without constant human intervention.
-  mental_damage: >-
-    Another autonomous agent to delegate your life to, assuming it doesn't decide your codebase is actually a giant
-    hallucination.
+  summary: cognosys.ai is an autonomous AI agent platform for performing general-purpose tasks across web, data, and workflows.
+  why_it_matters: It promises to offload multi-step research and execution tasks from developers by acting as a generalist AI workforce.
+  mental_damage: Another 'autonomous agent' that still needs you to babysit its browser sessions and debug its API keys.
   tags:
-    - agent-orchestration
-    - ai-workflows
-    - multi-agent
+    - ai-agent
+    - automation
+    - workflow
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  reason: cognosys.ai positions itself as a hosted platform for orchestrating autonomous AI agents to perform multi-step tasks like research and workflow automation, which aligns with the agent-orchestration category’s focus on managing multiple agents or agent runtimes.
   evidence:
-    - jev-latest choice confidence 0.63
+    - Listed in awesome-ai-agents under the 'Cognosys' section, indicating recognition as an AI agent platform
+    - The homepage presents cognosys.ai as an autonomous agent for tasks like research, data analysis, and workflow execution
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: Hosted Agent Platforms
 lifecycle:
-  status: needs_review
-  reason: >-
-    Categorization review required: low confidence; placement disagreement: retained 'coding-agents', proposed
-    'agent-orchestration'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,38 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:36:02.343Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for cognosys__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:59.691Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a6d41409337ca4f67786c637ce076202428d5a31570d1270f689ebccd639258b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:244deb567a31b0470f20277299ce9b1c17bdd334cac0b9bc4f684312ac9e337b
       proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: >-
-        It is an operated agent platform focused on task orchestration rather than a library for developers to import
-        into their own code.
+      disagreement: false
+      decision_reason: cognosys.ai positions itself as a hosted platform for orchestrating autonomous AI agents to perform multi-step tasks like research and workflow automation, which aligns with the agent-orchestration category’s focus on managing multiple agents or agent runtimes.
       decision_evidence:
-        - Listed in awesome-ai-agents under the 'Cognosys' section as an AI autonomous agent
-        - Product description emphasizes coordinating multiple agents for research, data analysis, and workflow tasks
-        - No evidence it primarily writes/edit code or generates apps from prompts as its core function
+        - Listed in awesome-ai-agents under the 'Cognosys' section, indicating recognition as an AI agent platform
+        - The homepage presents cognosys.ai as an autonomous agent for tasks like research, data analysis, and workflow execution
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because the product is presented as an autonomous agent platform
-        for general tasks rather than a specialized tool for editing existing codebases.
-      review_reason: >-
-        Categorization review required: low confidence; placement disagreement: retained 'coding-agents', proposed
-        'agent-orchestration'
+      contrastive_reason: Choose agent-orchestration over coding-agents because cognosys.ai markets itself as a general-purpose autonomous agent platform for workflows and research, not as a tool primarily focused on writing, editing, or reviewing code in a codebase.
+      review_reason: null
       review_resume_lifecycle: null

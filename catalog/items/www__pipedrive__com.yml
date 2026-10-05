@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__pipedrive__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-15T05:51:04.987Z'
+      discovered_at: "2026-06-15T05:51:04.987Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: Pipedrive CRM
         extracted_url: https://www.pipedrive.com
-        surrounding_text: >-
-          - [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server)
-          [![ckalima/pipedrive-mcp-server MCP
-          server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server)
-          📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons,
-          organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key
-          auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT.
+        surrounding_text: "- [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server) [![ckalima/pipedrive-mcp-server MCP server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons, organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT."
         confidence: high
 metadata:
   github:
@@ -43,26 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A sales CRM and pipeline management platform designed to automate sales processes and lead management.
-  why_it_matters: >-
-    While it offers an MCP server for data access, the core product is a business-facing CRM rather than a
-    developer-facing tool.
-  mental_damage: Because even your autonomous coding agent needs to know exactly which sales leads are currently in the pipeline.
+  summary: Pipedrive is a sales CRM and pipeline management tool with AI-powered features for lead tracking, deal automation, and sales insights.
+  why_it_matters: It helps sales teams automate follow-ups and gain AI-driven insights, reducing manual work in customer relationship management.
+  mental_damage: Yet another AI-powered CRM promising to 'close deals faster' while you spend more time configuring its 500+ integrations than actually selling.
   tags:
     - crm
     - sales-automation
-    - cdp
+    - ai-features
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature of
-    a broader SaaS platform.
+  reason: Pipedrive is a sales CRM focused on business operations and customer relationship management, not a developer-facing AI tool for coding, agents, or software development workflows.
   evidence:
-    - Scraped site context explicitly defines it as 'Sales CRM & Pipeline Management Software'
-    - >-
-      Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server is
-      an adapter for its core service
+    - "Repo description: (none)"
+    - "Primary page excerpt: 'Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process so you can focus on selling.'"
+    - "Scraped site context: Title is 'Sales CRM & Pipeline Management Software', description emphasizes sales, leads, deals, and business growth."
 placement:
   primary_category: null
   section: null
@@ -72,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-15T05:51:04.990Z'
+    updated_at: "2026-06-15T05:51:04.990Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,27 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:14:44.668Z'
+    updated_at: "2026-10-05T04:26:29.645Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7b8c976e5b5bd75541b54cc272ea6e1481fecd8daa89f8a66c5479a0408ac9e5
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5418355b83d9dd5a280ccea85f14b3ea9e650f5528011d95af2f047e9a8f0205
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The primary product identity is a sales CRM for business users, and its MCP capability is an integration feature
-        of a broader SaaS platform.
+      decision_reason: Pipedrive is a sales CRM focused on business operations and customer relationship management, not a developer-facing AI tool for coding, agents, or software development workflows.
       decision_evidence:
-        - Scraped site context explicitly defines it as 'Sales CRM & Pipeline Management Software'
-        - >-
-          Source-list context categorizes it as a 'Customer Data Platform' within an MCP list, indicating its MCP server
-          is an adapter for its core service
+        - "Repo description: (none)"
+        - "Primary page excerpt: 'Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process so you can focus on selling.'"
+        - "Scraped site context: Title is 'Sales CRM & Pipeline Management Software', description emphasizes sales, leads, deals, and business growth."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

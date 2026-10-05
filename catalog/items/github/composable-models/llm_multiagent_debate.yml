@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__composable-models__llm_multiagent_debate__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Multiagent Debate
         anchor_text: Multiagent Debate
         extracted_url: https://github.com/composable-models/llm_multiagent_debate
-        surrounding_text: '## [Multiagent Debate](https://github.com/composable-models/llm_multiagent_debate)'
+        surrounding_text: "## [Multiagent Debate](https://github.com/composable-models/llm_multiagent_debate)"
         confidence: high
 metadata:
   github:
@@ -29,25 +29,19 @@ metadata:
     archived: false
     full_name: composable-models/llm_multiagent_debate
     html_url: https://github.com/composable-models/llm_multiagent_debate
-    created_at: '2023-05-23T15:48:15Z'
-    pushed_at: '2025-04-24T21:49:03Z'
-    description: 'ICML 2024: Improving Factuality and Reasoning in Language Models through Multiagent Debate'
-    homepage: ''
+    created_at: "2023-05-23T15:48:15Z"
+    pushed_at: "2025-04-24T21:49:03Z"
+    description: "ICML 2024: Improving Factuality and Reasoning in Language Models through Multiagent Debate"
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-14T04:13:28.025Z'
+    last_checked_at: "2026-09-14T04:13:28.025Z"
     readme:
-      fetched_at: '2026-09-14T04:13:28.025Z'
+      fetched_at: "2026-09-14T04:13:28.025Z"
       bytes: 2627
 insights:
-  summary: >-
-    Academic research implementation for the ICML 2024 paper on improving LLM factuality and reasoning through
-    multi-agent debate.
-  why_it_matters: >-
-    It demonstrates that multiple LLM instances debating each other can improve accuracy on math and trivia benchmarks,
-    though it is an experiment reproduction repo rather than a reusable developer tool.
-  mental_damage: >-
-    Giving language models a gavel and quorum to settle math facts by majority vote means your bugs now arrive with
-    parliamentary procedure.
+  summary: Academic research implementation for the ICML 2024 paper on improving LLM factuality and reasoning through multi-agent debate.
+  why_it_matters: It demonstrates that multiple LLM instances debating each other can improve accuracy on math and trivia benchmarks, though it is an experiment reproduction repo rather than a reusable developer tool.
+  mental_damage: Giving language models a gavel and quorum to settle math facts by majority vote means your bugs now arrive with parliamentary procedure.
   tags:
     - multi-agent
     - research
@@ -57,19 +51,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an academic paper reproduction repository for a specific multi-agent debate research method, not a
-    developer-facing tool, framework, or platform for building software.
+  reason: This is an academic paper reproduction repository for a specific multi-agent debate research method, not a developer-facing tool, framework, or platform for building software.
   evidence:
-    - >-
-      Repo description and README frame the project as the ICML 2024 paper implementation for 'Improving Factuality and
-      Reasoning in Language Models through Multiagent Debate'.
-    - >-
-      Content consists of ad-hoc experiment scripts for math, GSM, biography, and MMLU tasks rather than a reusable SDK,
-      control plane, or coding assistant.
-    - >-
-      Catalog scope explicitly excludes general ML research and raw paper implementations with no developer-tooling
-      angle.
+    - Repo description and README frame the project as the ICML 2024 paper implementation for 'Improving Factuality and Reasoning in Language Models through Multiagent Debate'.
+    - Content consists of ad-hoc experiment scripts for math, GSM, biography, and MMLU tasks rather than a reusable SDK, control plane, or coding assistant.
+    - Catalog scope explicitly excludes general ML research and raw paper implementations with no developer-tooling angle.
 placement:
   primary_category: null
   section: null
@@ -79,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.608Z'
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:28.025Z'
+    updated_at: "2026-09-14T04:13:28.025Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -104,19 +90,11 @@ processing:
       input_hash: sha256:9abe1056e974ded3df4f96d4f9901f84652f32ba57ff7e9b7a697ce59d14266e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an academic paper reproduction repository for a specific multi-agent debate research method, not a
-        developer-facing tool, framework, or platform for building software.
+      decision_reason: This is an academic paper reproduction repository for a specific multi-agent debate research method, not a developer-facing tool, framework, or platform for building software.
       decision_evidence:
-        - >-
-          Repo description and README frame the project as the ICML 2024 paper implementation for 'Improving Factuality
-          and Reasoning in Language Models through Multiagent Debate'.
-        - >-
-          Content consists of ad-hoc experiment scripts for math, GSM, biography, and MMLU tasks rather than a reusable
-          SDK, control plane, or coding assistant.
-        - >-
-          Catalog scope explicitly excludes general ML research and raw paper implementations with no developer-tooling
-          angle.
+        - Repo description and README frame the project as the ICML 2024 paper implementation for 'Improving Factuality and Reasoning in Language Models through Multiagent Debate'.
+        - Content consists of ad-hoc experiment scripts for math, GSM, biography, and MMLU tasks rather than a reusable SDK, control plane, or coding assistant.
+        - Catalog scope explicitly excludes general ML research and raw paper implementations with no developer-tooling angle.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

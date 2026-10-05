@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__admica__filescopemcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: admica/FileScopeMCP
         extracted_url: https://github.com/admica/filescopemcp
-        surrounding_text: >-
-          - [admica/FileScopeMCP](https://github.com/admica/FileScopeMCP) 🐍 📇 🦀 - Analyzes your codebase identifying
-          important files based on dependency relationships. Generates diagrams and importance scores, helping AI
-          assistants understand the codebase.
+        surrounding_text: "- [admica/FileScopeMCP](https://github.com/admica/FileScopeMCP) 🐍 📇 🦀 - Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores, helping AI assistants understand the codebase."
         confidence: high
     - id: discovery__github__admica__filescopemcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -38,11 +35,7 @@ provenance:
           - Community Servers
         anchor_text: FileScopeMCP
         extracted_url: https://github.com/admica/filescopemcp
-        surrounding_text: >-
-          - **[FileScopeMCP](https://github.com/admica/FileScopeMCP)** - Analyzes your codebase identifying important
-          files based on dependency relationships. Generates diagrams and importance scores per file, helping AI
-          assistants understand the codebase. Automatically parses popular programming languages, Python, Lua, C, C++,
-          Rust, Zig.
+        surrounding_text: "- **[FileScopeMCP](https://github.com/admica/FileScopeMCP)** - Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages, Python, Lua, C, C++, Rust, Zig."
         confidence: high
 metadata:
   github:
@@ -52,28 +45,19 @@ metadata:
     archived: false
     full_name: admica/FileScopeMCP
     html_url: https://github.com/admica/FileScopeMCP
-    created_at: '2025-03-27T19:35:07Z'
-    pushed_at: '2026-05-10T23:41:16Z'
-    description: >-
-      Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and
-      importance scores per file, helping AI assistants understand the codebase. Automatically parses popular
-      programming languages such as Python, C, C++, Rust, Zig, Lua.
+    created_at: "2025-03-27T19:35:07Z"
+    pushed_at: "2026-05-10T23:41:16Z"
+    description: Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages such as Python, C, C++, Rust, Zig, Lua.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-17T04:13:30.331Z'
+    last_checked_at: "2026-09-17T04:13:30.331Z"
     readme:
-      fetched_at: '2026-09-17T04:13:30.331Z'
+      fetched_at: "2026-09-17T04:13:30.331Z"
       bytes: 10617
 insights:
-  summary: >-
-    FileScopeMCP analyzes codebases to generate dependency maps and file importance scores, enabling AI assistants to
-    understand project context through MCP integration.
-  why_it_matters: >-
-    It solves the critical problem of AI assistants lacking deep understanding of project structure, letting developers
-    delegate context-aware tasks to their tools.
-  mental_damage: >-
-    Another tool that promises to make your AI 'know your code' — because nothing says 'I've been burned by context
-    windows' like watching your assistant hallucinate file relationships.
+  summary: FileScopeMCP analyzes codebases to generate dependency maps and file importance scores, enabling AI assistants to understand project context through MCP integration.
+  why_it_matters: It solves the critical problem of AI assistants lacking deep understanding of project structure, letting developers delegate context-aware tasks to their tools.
+  mental_damage: Another tool that promises to make your AI 'know your code' — because nothing says 'I've been burned by context windows' like watching your assistant hallucinate file relationships.
   tags:
     - mcp
     - code-analysis
@@ -94,24 +78,24 @@ placement:
   section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: >-
-    Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained
-    'mcp', proposed 'coding-agents'
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'mcp', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.581Z'
+    updated_at: "2026-05-06T22:12:15.581Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:30.331Z'
+    updated_at: "2026-09-17T04:13:30.331Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:42:58.183Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -123,25 +107,15 @@ processing:
       input_hash: sha256:df5785b2e9e1e75b9228763286fcea76ca86a4887cdfd7a8548180fff93e6b7e
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        FileScopeMCP is a coding agent that provides essential codebase context through MCP integration, enabling AI
-        assistants to understand project structure during development.
+      decision_reason: FileScopeMCP is a coding agent that provides essential codebase context through MCP integration, enabling AI assistants to understand project structure during development.
       decision_evidence:
-        - >-
-          Repo description states it 'identifies important files based on dependency relationships' and 'helps AI
-          assistants understand the codebase'
-        - >-
-          README explicitly supports Claude Code and other AI assistants via 'LLM broker' and 'Claude mcp add'
-          integration
-        - 'Stars: 302 indicates active ecosystem traction, and ''pushed at: 2026-05-10'' shows recent maintenance'
+        - Repo description states it 'identifies important files based on dependency relationships' and 'helps AI assistants understand the codebase'
+        - README explicitly supports Claude Code and other AI assistants via 'LLM broker' and 'Claude mcp add' integration
+        - "Stars: 302 indicates active ecosystem traction, and 'pushed at: 2026-05-10' shows recent maintenance"
         - Source-list context places it in 'awesome-mcp-servers' under 'Community Servers' as a core MCP tool
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because FileScopeMCP is an autonomous agent that provides core
-        codebase understanding rather than merely augmenting another assistant's capabilities.
-      review_reason: >-
-        Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement:
-        retained 'mcp', proposed 'coding-agents'
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because FileScopeMCP is an autonomous agent that provides core codebase understanding rather than merely augmenting another assistant's capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'mcp', proposed 'coding-agents'"
       review_resume_lifecycle: null

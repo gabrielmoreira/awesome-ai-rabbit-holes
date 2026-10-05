@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentgpt__reworkd__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - AgentGPT
         anchor_text: AgentGPT
         extracted_url: https://agentgpt.reworkd.ai
-        surrounding_text: '## [AgentGPT](https://agentgpt.reworkd.ai/)'
+        surrounding_text: "## [AgentGPT](https://agentgpt.reworkd.ai/)"
         confidence: high
     - id: discovery__agentgpt__reworkd__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -33,9 +33,7 @@ provenance:
           - Agents
         anchor_text: AgentGPT
         extracted_url: https://agentgpt.reworkd.ai
-        surrounding_text: >-
-          - [AgentGPT](https://agentgpt.reworkd.ai/) -Assemble, configure, and deploy autonomous AI Agents in your
-          browser.
+        surrounding_text: "- [AgentGPT](https://agentgpt.reworkd.ai/) -Assemble, configure, and deploy autonomous AI Agents in your browser."
         confidence: high
 metadata:
   github:
@@ -53,32 +51,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based platform for creating and deploying autonomous AI agents for general-purpose tasks.
-  why_it_matters: >-
-    It serves as a consumer-facing agent deployment platform rather than a developer tool for building or managing AI
-    workflows.
-  mental_damage: Watching an agent spend your API budget planning a trip to Hawaii while your production server is on fire.
-  tags: []
-  confidence: high
+  summary: AgentGPT is a browser-based platform for assembling, configuring, and deploying autonomous AI agents.
+  why_it_matters: It enables developers to prototype autonomous agents without coding, lowering the barrier to agent experimentation.
+  mental_damage: Finally, a way to feel productive while your agents wander off to scrape Nike reports instead of doing actual work.
+  tags:
+    - ai-agents
+    - browser-based
+    - no-code
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning, lacking a
-    primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
+  status: included
+  reason: AgentGPT provides a hosted platform for designing, configuring, and deploying autonomous AI agents, aligning with agent orchestration as its primary identity rather than functioning as a coding agent or extension.
   evidence:
-    - "Scraped site description: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
-    - "README/examples show non-coding use cases: ResearchGPT, TravelGPT, StudyGPT — none involve code editing, generation, or developer tooling."
-    - "Source-list context: listed in awesome-ai-agents and awesome-local-ai under generic 'Agents' section, not developer-specific subcategories."
+    - "Scraped site context: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
+    - "Source-list context: Included in awesome-ai-agents under section 'AgentGPT' with the same description."
+    - No evidence of code editing, terminal interaction, or IDE integration; focused on agent configuration and deployment via UI.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.596Z'
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,27 +84,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:32:49.233Z'
+    updated_at: "2026-10-05T04:27:46.678Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:990c62ff1bcfbcb25d6bca2b54a109f49252899ddc02fdf5637f6206a75b81cc
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4b582a82970d9204277916436378246da946c85f607b6e5f9185cd90a3b8fa18
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The product is a general-purpose agent platform aimed at end-user tasks like research and travel planning,
-        lacking a primary identity as a developer-facing tool for coding, infrastructure, or agent orchestration.
+      decision_reason: AgentGPT provides a hosted platform for designing, configuring, and deploying autonomous AI agents, aligning with agent orchestration as its primary identity rather than functioning as a coding agent or extension.
       decision_evidence:
-        - "Scraped site description: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
-        - "README/examples show non-coding use cases: ResearchGPT, TravelGPT, StudyGPT — none involve code editing, generation, or developer tooling."
-        - "Source-list context: listed in awesome-ai-agents and awesome-local-ai under generic 'Agents' section, not developer-specific subcategories."
-      category_candidates: []
-      contrastive_reason: null
+        - "Scraped site context: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
+        - "Source-list context: Included in awesome-ai-agents under section 'AgentGPT' with the same description."
+        - No evidence of code editing, terminal interaction, or IDE integration; focused on agent configuration and deployment via UI.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because AgentGPT’s core function is configuring and deploying autonomous agents via a browser UI, not performing coding tasks like writing, editing, or reviewing code in a repo.
       review_reason: null
       review_resume_lifecycle: null

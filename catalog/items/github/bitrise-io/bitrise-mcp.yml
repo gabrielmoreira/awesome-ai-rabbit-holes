@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bitrise-io__bitrise-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: bitrise-io/bitrise-mcp
         extracted_url: https://github.com/bitrise-io/bitrise-mcp
-        surrounding_text: >-
-          - [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - MCP Server for the
-          [Bitrise](https://bitrise.io) API, enabling app management, build operations, artifact management and more.
+        surrounding_text: "- [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - MCP Server for the [Bitrise](https://bitrise.io) API, enabling app management, build operations, artifact management and more."
         confidence: high
 metadata:
   github:
@@ -32,8 +30,8 @@ metadata:
     archived: false
     full_name: bitrise-io/bitrise-mcp
     html_url: https://github.com/bitrise-io/bitrise-mcp
-    created_at: '2025-04-01T09:54:46Z'
-    pushed_at: '2026-09-22T14:28:12Z'
+    created_at: "2025-04-01T09:54:46Z"
+    pushed_at: "2026-09-22T14:28:12Z"
     description: MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.
     homepage: https://bitrise.io
     topics:
@@ -41,18 +39,14 @@ metadata:
       - mcp
       - mcp-server
       - mcp-servers
-    last_checked_at: '2026-09-24T04:12:59.789Z'
+    last_checked_at: "2026-09-24T04:12:59.789Z"
     readme:
-      fetched_at: '2026-09-24T04:12:59.789Z'
+      fetched_at: "2026-09-24T04:12:59.789Z"
       bytes: 1941
 insights:
   summary: An MCP server that exposes Bitrise API capabilities for app management, build operations, and artifact handling.
-  why_it_matters: >-
-    It lets developers control Bitrise CI/CD workflows via natural language prompts in AI assistants like Claude Code or
-    Cursor.
-  mental_damage: >-
-    Yet another MCP server promising to turn your AI pair programmer into a DevOps intern who still needs you to fix the
-    YAML.
+  why_it_matters: It lets developers control Bitrise CI/CD workflows via natural language prompts in AI assistants like Claude Code or Cursor.
+  mental_damage: Yet another MCP server promising to turn your AI pair programmer into a DevOps intern who still needs you to fix the YAML.
   tags:
     - mcp
     - bitrise
@@ -73,18 +67,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:59.789Z'
+    updated_at: "2026-09-24T04:12:59.789Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:56:38.026Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -96,22 +92,14 @@ processing:
       input_hash: sha256:5b5f4ea0ecfddef6c6097bd26e144b2ba720232251f0e8b4cb807e0c8acb0894
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product is an MCP server whose core identity is exposing Bitrise API functionality over the Model Context
-        Protocol, making MCP its primary purpose rather than a side feature.
+      decision_reason: The product is an MCP server whose core identity is exposing Bitrise API functionality over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
       decision_evidence:
-        - >-
-          Repo description: 'MCP Server for the Bitrise API, enabling app management, build operations, artifact
-          management and more.'
-        - >-
-          README emphasizes MCP Server title and provides installation guides for AI assistants like Claude Code,
-          Cursor, and GitHub Copilot.
+        - "Repo description: 'MCP Server for the Bitrise API, enabling app management, build operations, artifact management and more.'"
+        - README emphasizes MCP Server title and provides installation guides for AI assistants like Claude Code, Cursor, and GitHub Copilot.
         - Listed in awesome-mcp-servers under Server Implementations > Developer Tools as an MCP server.
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product's identity is being an MCP server infrastructure
-        layer, not a plugin that augments a coding agent's capabilities.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is being an MCP server infrastructure layer, not a plugin that augments a coding agent's capabilities.
       review_reason: null
       review_resume_lifecycle: null

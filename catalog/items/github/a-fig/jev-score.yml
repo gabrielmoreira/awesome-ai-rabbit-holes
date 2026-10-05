@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__a-fig__jev-score__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev Score
         extracted_url: https://github.com/a-fig/jev-score
-        surrounding_text: >-
-          - [Jev Score](https://github.com/a-Fig/jev-score) - Local CLI/web scoreboard that grades document revisions
-          against your criteria with TypeSafe Jev via OpenRouter Decisions. [Project
-          guide](community/projects/tools/jev-score.md).
+        surrounding_text: "- [Jev Score](https://github.com/a-Fig/jev-score) - Local CLI/web scoreboard that grades document revisions against your criteria with TypeSafe Jev via OpenRouter Decisions. [Project guide](community/projects/tools/jev-score.md)."
         confidence: high
     - id: discovery__github__a-fig__jev-score__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,9 +36,7 @@ provenance:
           - Applications (129)
         anchor_text: jev-score
         extracted_url: https://github.com/a-fig/jev-score
-        surrounding_text: >-
-          | [jev-score](https://github.com/a-Fig/jev-score) | ★ 1 | JavaScript | 2026-09-22 | Local-first document
-          evaluation workspaces powered by Jev |
+        surrounding_text: "| [jev-score](https://github.com/a-Fig/jev-score) | ★ 1 | JavaScript | 2026-09-22 | Local-first document evaluation workspaces powered by Jev |"
         confidence: high
 metadata:
   github:
@@ -51,8 +46,8 @@ metadata:
     archived: false
     full_name: a-Fig/jev-score
     html_url: https://github.com/a-Fig/jev-score
-    created_at: '2026-09-20T19:57:34Z'
-    pushed_at: '2026-09-24T08:16:02Z'
+    created_at: "2026-09-20T19:57:34Z"
+    pushed_at: "2026-09-24T08:16:02Z"
     description: Local-first document evaluation workspaces powered by Jev
     homepage: null
     topics:
@@ -64,40 +59,69 @@ metadata:
       - openrouter
       - sqlite
       - writing
-    last_checked_at: '2026-09-29T13:08:20.206Z'
+    last_checked_at: "2026-09-29T13:08:20.206Z"
     readme:
-      fetched_at: '2026-09-29T13:08:20.206Z'
+      fetched_at: "2026-09-29T13:08:20.206Z"
       bytes: 14726
 insights:
-  summary: Local-first document evaluation workspaces powered by Jev
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Local-first document evaluation workspaces powered by Jev for scoring and analyzing text with decision-model judgments.
+  why_it_matters: Enables developers to evaluate documents locally using Jev's typed decision models for structured scoring and verification workflows.
+  mental_damage: Yet another way to outsource your writing anxiety to a probability-scoring model that still won't fix your procrastination.
+  tags:
+    - jev
+    - evaluation
+    - local-first
+    - decision-models
+    - document-analysis
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: The tool's core identity is using Jev decision models to evaluate documents, making it a judgment-based evaluation harness rather than a coding agent or general utility.
   evidence:
-    - jev-latest choice confidence 0.64
+    - "Repo description: 'Local-first document evaluation workspaces powered by Jev'"
+    - "Topics include: jev, evaluation, local-first, openrouter"
+    - Listed in awesome-jev under 'Developer projects and integrations' and 'Applications' sections
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:20.206Z'
+    updated_at: "2026-09-29T13:08:20.206Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:22.213Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dfb2ea58b736a80f422bee6894aec3253e4031a5dad109bc1c776b7587232556
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is using Jev decision models to evaluate documents, making it a judgment-based evaluation harness rather than a coding agent or general utility.
+      decision_evidence:
+        - "Repo description: 'Local-first document evaluation workspaces powered by Jev'"
+        - "Topics include: jev, evaluation, local-first, openrouter"
+        - Listed in awesome-jev under 'Developer projects and integrations' and 'Applications' sections
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the tool's core function is applying Jev's typed decision judgments to documents, not measuring arbitrary model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

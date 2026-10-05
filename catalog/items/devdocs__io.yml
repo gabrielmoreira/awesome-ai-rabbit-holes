@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devdocs__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: DevDocs.io
         extracted_url: https://devdocs.io
-        surrounding_text: >-
-          - [madhan-g-p/DevDocs-MCP](https://github.com/madhan-g-p/DevDocs-MCP) 📇 🏠 🍎 🐧 - DevDocs-MCP is a MCP
-          server that provides version-pinned, deterministic documentation sourced from [DevDocs.io](https://devdocs.io)
-          in offline mode
+        surrounding_text: "- [madhan-g-p/DevDocs-MCP](https://github.com/madhan-g-p/DevDocs-MCP) 📇 🏠 🍎 🐧 - DevDocs-MCP is a MCP server that provides version-pinned, deterministic documentation sourced from [DevDocs.io](https://devdocs.io) in offline mode"
         confidence: high
 metadata:
   github:
@@ -40,15 +37,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A fast, offline documentation browser that allows developers to search through over 100 different programming
-    language and web technology documentations in a single web application.
-  why_it_matters: >-
-    It provides a centralized, high-speed way to access critical API references without the friction of multiple open
-    tabs or slow-loading official sites.
-  mental_damage: >-
-    Nothing prepares you for the sudden realization of how many browser tabs you've been hoarding just to keep track of
-    syntax.
+  summary: DevDocs is a fast, offline-capable documentation browser that aggregates over 100 developer documentation sets into a single searchable web app.
+  why_it_matters: It reduces context-switching by letting developers search and reference language, framework, and library docs in one place without leaving the browser.
+  mental_damage: It’s the developer equivalent of hoarding every Wikipedia tab you’ll never close, just in case you need to remember how array.reduce works at 2 a.m.
   tags:
     - documentation
     - reference
@@ -57,13 +48,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or
-    workflow integration.
+  reason: DevDocs is a documentation reference tool, not an AI developer tool; it lacks AI-driven functionality and does not assist with coding, agent behavior, or AI workflows.
   evidence:
     - "Repo description: (none)"
-    - "Scraped site context: 'Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.'"
-    - No AI, agent, LLM, prompt, or automation claims appear in title, description, or excerpt.
+    - "Scraped site description: Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more."
+    - No AI, agent, LLM, prompt, or automation features are mentioned in the inputs.
 placement:
   primary_category: null
   section: null
@@ -73,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,31 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:30.851Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for devdocs__io: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (51/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:58.205Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b89fb69e67606dec168258eae8f23ec3a479e099fd6cc61700aba9e164883311
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:32b1f62f447fcdf0310e997391ee3770380f27787273ad7728d6e85a08d4349e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a standalone utility for documentation browsing rather than a developer-facing AI tool,
-        framework, or workflow integration.
+      decision_reason: DevDocs is a documentation reference tool, not an AI developer tool; it lacks AI-driven functionality and does not assist with coding, agent behavior, or AI workflows.
       decision_evidence:
         - "Repo description: (none)"
-        - "Scraped site context: 'Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.'"
-        - No AI, agent, LLM, prompt, or automation claims appear in title, description, or excerpt.
+        - "Scraped site description: Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more."
+        - No AI, agent, LLM, prompt, or automation features are mentioned in the inputs.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

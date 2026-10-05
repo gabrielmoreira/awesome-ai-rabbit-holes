@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__introduction__quickstart__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Official
         anchor_text: Quick start
         extracted_url: https://docs.typesafe.ai/introduction/quickstart
-        surrounding_text: >-
-          - [Quick start](https://docs.typesafe.ai/introduction/quickstart) - Shortest path from an API key to a typed
-          decision.
+        surrounding_text: "- [Quick start](https://docs.typesafe.ai/introduction/quickstart) - Shortest path from an API key to a typed decision."
         confidence: high
     - id: discovery__docs__typesafe__ai__introduction__quickstart__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -35,9 +33,7 @@ provenance:
           - Start here
         anchor_text: Official quick start
         extracted_url: https://docs.typesafe.ai/introduction/quickstart
-        surrounding_text: >-
-          - [Official quick start](https://docs.typesafe.ai/introduction/quickstart) - Make a first request using Python
-          or HTTP.
+        surrounding_text: "- [Official quick start](https://docs.typesafe.ai/introduction/quickstart) - Make a first request using Python or HTTP."
         confidence: high
 metadata:
   github:
@@ -55,17 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Quick start documentation for TypeSafe AI's Jev decision model system, showing how to use its API and SDK for structured judgments.
+  why_it_matters: Provides developers a clear entry point to integrate TypeSafe AI's Jev System One for typed decision-making with probabilities in their applications.
+  mental_damage: Another 'just dive in' page that assumes you already bought into the Jev hype and have your API key ready to go.
+  tags:
+    - decision-model
+    - documentation
+    - getting-started
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is documentation for a decision model product, not a standalone developer tool; the core identity belongs in decision-models, but as auxiliary docs it does not qualify for inclusion.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.45 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - "URL is a documentation page: https://docs.typesafe.ai/introduction/quickstart"
+    - Scraped context shows it is the 'Quick start' guide for TypeSafe AI's Jev system
+    - Appears in source lists as a 'Get started' link under the Jev project directory
 placement:
   primary_category: null
   secondary_categories: []
@@ -76,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,6 +84,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:07.108Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8cdd4a42c94befc4fcf3280c0abbe109ab72bd1c706a7a78d9afce33d6584c6c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is documentation for a decision model product, not a standalone developer tool; the core identity belongs in decision-models, but as auxiliary docs it does not qualify for inclusion.
+      decision_evidence:
+        - "URL is a documentation page: https://docs.typesafe.ai/introduction/quickstart"
+        - Scraped context shows it is the 'Quick start' guide for TypeSafe AI's Jev system
+        - Appears in source lists as a 'Get started' link under the Jev project directory
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__noperator__siftrank__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: siftrank
         extracted_url: https://github.com/noperator/siftrank
-        surrounding_text: >-
-          | [siftrank](https://github.com/noperator/siftrank) | ★ 210 | Go | 2026-09-23 | Jev compares items against a
-          ranking prompt across repeated batches so SiftRank can produce a converged relevance order. |
+        surrounding_text: "| [siftrank](https://github.com/noperator/siftrank) | ★ 210 | Go | 2026-09-23 | Jev compares items against a ranking prompt across repeated batches so SiftRank can produce a converged relevance order. |"
         confidence: high
 metadata:
   github:
@@ -40,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev compares items against a ranking prompt across repeated batches so SiftRank can produce a converged relevance
-    order.
+  summary: Jev compares items against a ranking prompt across repeated batches so SiftRank can produce a converged relevance order.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ark-forge__mcp-eu-ai-act__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - ⚖️ <a name="legal"></a>Legal
         anchor_text: ark-forge/mcp-eu-ai-act
         extracted_url: https://github.com/ark-forge/mcp-eu-ai-act
-        surrounding_text: >-
-          - [ark-forge/mcp-eu-ai-act](https://github.com/ark-forge/mcp-eu-ai-act) [![mcp-eu-ai-act MCP
-          server](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act/badges/score.svg)](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act)
-          📇 ☁️ - EU AI Act compliance scanner that detects regulatory violations in AI codebases with risk
-          classification and remediation guidance.
+        surrounding_text: "- [ark-forge/mcp-eu-ai-act](https://github.com/ark-forge/mcp-eu-ai-act) [![mcp-eu-ai-act MCP server](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act/badges/score.svg)](https://glama.ai/mcp/servers/@ark-forge/mcp-eu-ai-act) 📇 ☁️ - EU AI Act compliance scanner that detects regulatory violations in AI codebases with risk classification and remediation guidance."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: ark-forge/mcp-eu-ai-act
     html_url: https://github.com/ark-forge/mcp-eu-ai-act
-    created_at: '2026-02-16T20:28:23Z'
-    pushed_at: '2026-09-01T13:40:24Z'
+    created_at: "2026-02-16T20:28:23Z"
+    pushed_at: "2026-09-01T13:40:24Z"
     description: MCP EU AI Act Compliance Scanner - Open source tool to detect EU AI Act violations in codebases
     homepage: https://arkforge.fr/mcp-eu-ai-act.html
     topics:
@@ -53,9 +49,9 @@ metadata:
       - model-context-protocol
       - python
       - regulation
-    last_checked_at: '2026-09-21T04:13:47.184Z'
+    last_checked_at: "2026-09-21T04:13:47.184Z"
     readme:
-      fetched_at: '2026-09-21T04:13:47.184Z'
+      fetched_at: "2026-09-21T04:13:47.184Z"
       bytes: 17997
 insights:
   summary: MCP server and CLI tool that scans codebases for EU AI Act and GDPR compliance violations.
@@ -83,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:47.185Z'
+    updated_at: "2026-09-21T04:13:47.185Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -108,7 +104,7 @@ processing:
       input_hash: sha256:5b491bfa267a5da640927c47bf4d6debe907d34d22a3956bfa3145ab43fd431e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: 'MCP is the product identity here: it is explicitly an MCP server for compliance scanning, not just an adapter.'
+      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for compliance scanning, not just an adapter."
       decision_evidence:
         - Repo description explicitly calls it an MCP server
         - README shows MCP integration as primary interface (Claude Code, Cursor, HTTP mode)
@@ -116,8 +112,6 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product's primary identity is as an MCP server for compliance
-        scanning, not a general SDK or framework.
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is as an MCP server for compliance scanning, not a general SDK or framework.
       review_reason: null
       review_resume_lifecycle: null

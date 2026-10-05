@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv1b5xkzpehx__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,12 +19,10 @@ provenance:
           - Podcast
         anchor_text: 影视飓风TIM×罗永浩！用影像打开世界的梦想家
         extracted_url: https://bilibili.com/video/BV1B5xkzPEhx
-        surrounding_text: >-
-          -
-          [影视飓风TIM×罗永浩！用影像打开世界的梦想家](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
+        surrounding_text: "- [影视飓风TIM×罗永浩！用影像打开世界的梦想家](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)"
         confidence: high
     - id: discovery__www__bilibili__com__video__bv1b5xkzpehx__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,9 +35,7 @@ provenance:
           - Podcast
         anchor_text: 影视飓风TIM×罗永浩！用影像打开世界的梦想家
         extracted_url: https://www.bilibili.com/video/BV1B5xkzPEhx
-        surrounding_text: >-
-          -
-          [影视飓风TIM×罗永浩！用影像打开世界的梦想家](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
+        surrounding_text: "- [影视飓风TIM×罗永浩！用影像打开世界的梦想家](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)"
         confidence: high
 metadata:
   github:
@@ -57,30 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    This is a Bilibili video episode of a podcast series featuring Luo Yonghao interviewing Tim from 'Tech Tornado'
-    about using imaging to explore the world.
-  why_it_matters: It offers no developer-facing tooling, code, or AI workflow relevant to software development.
-  mental_damage: >-
-    Another reminder that not every tech-flavored interview belongs in a developer tooling catalog, no matter how many
-    buzzwords it name-drops.
-  tags: []
+  summary: A Bilibili video interview featuring Tim from 影视飓风 and Luo Yonghao discussing entrepreneurship, technology, and life choices.
+  why_it_matters: It offers insights into creator journeys and tech-adjacent storytelling, though not directly applicable to software development workflows.
+  mental_damage: Watching another celebrity tech chat while your CI pipeline fails is the emotional equivalent of applying a band-aid to a broken build.
+  tags:
+    - interview
+    - bilibili
+    - creator-content
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The content is a podcast/video interview with no AI tooling, agent, framework, or developer workflow; it is general
-    tech media, not a developer-facing product.
+  reason: The content is a general-interest video interview with no developer tooling, AI agent, infrastructure, or workflow relevance to software developers.
   evidence:
-    - >-
-      Scraped site context shows a Bilibili video page titled 【正片】影视飓风TIM×罗永浩！用影像打开世界的梦想家, describing a personal
-      storytelling and adventure narrative.
-    - >-
-      No repository, code, tool, SDK, or AI product is described; the source-list context only notes inclusion in an
-      awesome list as a 'Podcast' under '推荐 Suggestion', not as a developer tool.
-    - >-
-      The README excerpt and repo description are absent; the page focuses on autobiographical storytelling, travel, and
-      entrepreneurship, not coding, agents, or AI development.
+    - Source is a Bilibili video URL (BV1B5xkzPEhx) featuring a discussion between Tim (影视飓风) and Luo Yonghao
+    - Scraped site context describes a personal narrative about filmmaking, entrepreneurship, and adventure, with no mention of code, AI tools, or developer workflows
+    - Appears in awesome-LLM-resources under a 'Podcast' section, but the content is a video interview, not an LLM resource or developer tool
 placement:
   primary_category: null
   section: null
@@ -90,39 +77,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:27.959Z'
+    updated_at: "2026-10-05T04:46:35.271Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:360e703df903db7f47c9832566f4fcecdff1384aeb950b5a4ef31c5cceefa2c7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:09d03c00d8bafcbd6ee2110a5ee30b6431203a6412d6079fbfe7bc65c2cd906e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The content is a podcast/video interview with no AI tooling, agent, framework, or developer workflow; it is
-        general tech media, not a developer-facing product.
+      decision_reason: The content is a general-interest video interview with no developer tooling, AI agent, infrastructure, or workflow relevance to software developers.
       decision_evidence:
-        - >-
-          Scraped site context shows a Bilibili video page titled 【正片】影视飓风TIM×罗永浩！用影像打开世界的梦想家, describing a personal
-          storytelling and adventure narrative.
-        - >-
-          No repository, code, tool, SDK, or AI product is described; the source-list context only notes inclusion in an
-          awesome list as a 'Podcast' under '推荐 Suggestion', not as a developer tool.
-        - >-
-          The README excerpt and repo description are absent; the page focuses on autobiographical storytelling, travel,
-          and entrepreneurship, not coding, agents, or AI development.
+        - Source is a Bilibili video URL (BV1B5xkzPEhx) featuring a discussion between Tim (影视飓风) and Luo Yonghao
+        - Scraped site context describes a personal narrative about filmmaking, entrepreneurship, and adventure, with no mention of code, AI tools, or developer workflows
+        - Appears in awesome-LLM-resources under a 'Podcast' section, but the content is a video interview, not an LLM resource or developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.365Z'
+    updated_at: "2026-07-20T16:42:15.365Z"
     cause: null
     next_retry_at: null
   stars:

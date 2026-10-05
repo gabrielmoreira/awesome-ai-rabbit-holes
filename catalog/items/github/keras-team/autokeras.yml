@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__keras-team__autokeras__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,7 @@ provenance:
           - AutoML
         anchor_text: autokeras
         extracted_url: https://github.com/keras-team/autokeras
-        surrounding_text: >-
-          | [autokeras](https://github.com/keras-team/autokeras)                         | AutoML library for deep
-          learning.                                                                                                                                              
-          | ![GitHub Badge](https://img.shields.io/github/stars/keras-team/autokeras.svg?style=flat-square)            |
+        surrounding_text: "| [autokeras](https://github.com/keras-team/autokeras)                         | AutoML library for deep learning.                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/keras-team/autokeras.svg?style=flat-square)            |"
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: keras-team/autokeras
     html_url: https://github.com/keras-team/autokeras
-    created_at: '2017-11-19T23:18:20Z'
-    pushed_at: '2025-11-25T02:26:35Z'
+    created_at: "2017-11-19T23:18:20Z"
+    pushed_at: "2025-11-25T02:26:35Z"
     description: AutoML library for deep learning
     homepage: http://autokeras.com/
     topics:
@@ -46,18 +43,14 @@ metadata:
       - neural-architecture-search
       - python
       - tensorflow
-    last_checked_at: '2026-07-30T05:05:55.668Z'
+    last_checked_at: "2026-07-30T05:05:55.668Z"
     readme:
-      fetched_at: '2026-07-30T05:05:55.668Z'
+      fetched_at: "2026-07-30T05:05:55.668Z"
       bytes: 4090
 insights:
   summary: AutoML library for deep learning built on Keras and TensorFlow.
-  why_it_matters: >-
-    It automates neural architecture search and hyperparameter tuning, making deep learning more accessible to
-    developers without ML expertise.
-  mental_damage: >-
-    Finally, a way to let the machine figure out the machine learning for you—until you realize you still need to
-    understand the results.
+  why_it_matters: It automates neural architecture search and hyperparameter tuning, making deep learning more accessible to developers without ML expertise.
+  mental_damage: Finally, a way to let the machine figure out the machine learning for you—until you realize you still need to understand the results.
   tags:
     - automl
     - deep-learning
@@ -67,9 +60,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    AutoKeras is a general AutoML library for deep learning, not a developer-tooling product focused on coding agents,
-    workflows, or app-building.
+  reason: AutoKeras is a general AutoML library for deep learning, not a developer-tooling product focused on coding agents, workflows, or app-building.
   evidence:
     - Repo description explicitly states it is an AutoML library for deep learning
     - README emphasizes its role in automating neural architecture search and hyperparameter tuning for ML tasks
@@ -83,17 +74,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.624Z'
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:55.668Z'
+    updated_at: "2026-07-30T05:05:55.668Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -108,9 +99,7 @@ processing:
       input_hash: sha256:aa0b5e9735db33c397c3560a6ba4ea165a2245d0add73d74e41c4cb257589ebb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        AutoKeras is a general AutoML library for deep learning, not a developer-tooling product focused on coding
-        agents, workflows, or app-building.
+      decision_reason: AutoKeras is a general AutoML library for deep learning, not a developer-tooling product focused on coding agents, workflows, or app-building.
       decision_evidence:
         - Repo description explicitly states it is an AutoML library for deep learning
         - README emphasizes its role in automating neural architecture search and hyperparameter tuning for ML tasks

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__findtherightapi__com__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,12 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Find the Right API (Orthogonal × Jev)
         extracted_url: https://findtherightapi.com
-        surrounding_text: >-
-          - [Find the Right API (Orthogonal × Jev)](https://www.findtherightapi.com/) - `Closed source` · `Freemium` ·
-          `Commercial`. Hosted goal→API discovery: product copy says Jev searches ~1,000 Orthogonal endpoints and
-          returns priced matches with Orthogonal run snippets
-          ([launch](https://x.com/chrisspickett/status/2102855582969725198)). [Try
-          app](https://www.findtherightapi.com/) · [Project guide](community/projects/apps/find-the-right-api.md).
+        surrounding_text: "- [Find the Right API (Orthogonal × Jev)](https://www.findtherightapi.com/) - `Closed source` · `Freemium` · `Commercial`. Hosted goal→API discovery: product copy says Jev searches ~1,000 Orthogonal endpoints and returns priced matches with Orthogonal run snippets ([launch](https://x.com/chrisspickett/status/2102855582969725198)). [Try app](https://www.findtherightapi.com/) · [Project guide](community/projects/apps/find-the-right-api.md)."
         confidence: high
 metadata:
   github:
@@ -42,14 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Find the Right API (Orthogonal × Jev) - Closed source · Freemium · Commercial. Hosted goal→API discovery: product
-    copy says Jev searches ~1,000 Orthogonal endpoints and returns priced matches with Orthogonal run snippets (launch).
-    Try app · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A website for discovering Jev-powered apps and developer resources.
+  why_it_matters: Helps developers find practical examples of decision-model usage in real projects.
+  mental_damage: Yet another curated list that pretends discovery is innovation while you’re still debugging your actual code.
+  tags:
+    - curated-list
+    - jev
+    - discovery
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
@@ -58,14 +53,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:31.506Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2dcf5f7959e517e339eb11d52aa227559a4987201bd54393295a9c2602f3fba8
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: The site is a curated directory of Jev-powered apps and resources, fitting the role of a navigation aid for developers exploring niche AI decision-model tools.
+      decision_evidence:
+        - Seen in source list 'awesome-jev' under section 'Community projects > Apps powered by Jev'
+        - URL findtherightapi.com presents itself as a discovery hub for Jev-powered apps and developer resources
+        - No evidence of being a standalone tool, agent, framework, or runtime — its value is in listing and linking to others
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because the site does not host, serve, or build on Jev models — it only lists apps that do, making it a directory, not a decision-model product.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'awesome-awesomes'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

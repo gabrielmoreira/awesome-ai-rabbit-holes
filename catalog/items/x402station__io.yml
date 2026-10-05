@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__x402station__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,18 +19,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: x402station.io
         extracted_url: https://x402station.io
-        surrounding_text: >-
-          - [sF1nX/x402station](https://github.com/sF1nX/x402station-mcp) [![sF1nX/x402station-mcp MCP
-          server](https://glama.ai/mcp/servers/sF1nX/x402station-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp)
-          📇 ☁️ - Preflight by [x402station.io](https://x402station.io) — infrastructure for x402 agentic commerce. Six
-          capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every
-          `PAYMENT-SIGNATURE` to detect decoys, zombie endpoints, dead services, and price traps. Tools: `preflight`
-          ($0.001), `forensics` ($0.001), `catalog_decoys` ($0.005), `alternatives` ($0.005), `whats_new` ($0.001),
-          `buy_credits` ($0.50 = 1000 prepaid), `watch_subscribe` ($0.01) + free
-          `credits_status`/`watch_status`/`watch_unsubscribe`. Plus free anonymous `preflight-trial` for self-test.
-          Probes ~50k endpoints on agentic.market every 10 min. Open dataset:
-          [huggingface.co/datasets/x402station/preflight-dataset-v0_1](https://huggingface.co/datasets/x402station/preflight-dataset-v0_1).
-          `npx -y x402station-mcp`.
+        surrounding_text: "- [sF1nX/x402station](https://github.com/sF1nX/x402station-mcp) [![sF1nX/x402station-mcp MCP server](https://glama.ai/mcp/servers/sF1nX/x402station-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp) 📇 ☁️ - Preflight by [x402station.io](https://x402station.io) — infrastructure for x402 agentic commerce. Six capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every `PAYMENT-SIGNATURE` to detect decoys, zombie endpoints, dead services, and price traps. Tools: `preflight` ($0.001), `forensics` ($0.001), `catalog_decoys` ($0.005), `alternatives` ($0.005), `whats_new` ($0.001), `buy_credits` ($0.50 = 1000 prepaid), `watch_subscribe` ($0.01) + free `credits_status`/`watch_status`/`watch_unsubscribe`. Plus free anonymous `preflight-trial` for self-test. Probes ~50k endpoints on agentic.market every 10 min. Open dataset: [huggingface.co/datasets/x402station/preflight-dataset-v0_1](https://huggingface.co/datasets/x402station/preflight-dataset-v0_1). `npx -y x402station-mcp`."
         confidence: high
 metadata:
   github:
@@ -48,36 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    x402station.io is an independent risk signal layer providing endpoint evidence for x402 agentic commerce before
-    payment authorization.
-  why_it_matters: >-
-    It gives AI agents verifiable, real-time risk signals to make safer autonomous payment decisions in agentic
-    workflows.
-  mental_damage: >-
-    Watching your AI agent hesitate over a payment because the risk layer just flagged a zombie endpoint is the new form
-    of checkout anxiety.
+  summary: x402station.io is an independent risk-signal layer for x402 agentic commerce that provides endpoint evidence (decoy, zombie, price-trap, never-paid) before agent payment authorization.
+  why_it_matters: It helps developers building autonomous commerce agents avoid fraudulent or trapped payments by pre-checking endpoint risk signals in real time.
+  mental_damage: Another layer of vigilance for agents that already need to reason about payments — because trusting the internet with money wasn’t stressful enough.
   tags:
+    - risk-signals
+    - x402
+    - agentic-commerce
     - payments
-    - security
-    - agent-commerce
+    - fraud-prevention
   confidence: medium
 curation:
   status: included
-  reason: >-
-    x402station.io is positioned as an MCP-compatible risk signal server that provides real-time endpoint evidence for
-    agentic commerce, making MCP its core product identity rather than a compatibility layer.
+  reason: The product's core identity is providing MCP-based risk signaling for x402 payments, making MCP the primary protocol identity rather than a feature; it fits the MCP Ecosystem category as a specialized server for finance-agent safety.
   evidence:
-    - >-
-      Listed in awesome-mcp-servers under 'Server Implementations > Aggregators' as an independent risk signal layer for
-      x402 agentic commerce
-    - >-
-      Self-described as 'the independent risk signal layer for x402 agentic commerce: endpoint evidence before agents or
-      policy engines authorize payment'
-    - >-
-      Provides live probe streams, cached snapshots, and public reports on endpoint health, zombies, errors, and price
-      traps for payment authorization decisions
-    - jev winnow:e4b 0.35 below gate 0.50; proposed mcp / Finance, Crypto & DeFi; placement kept at mcp (unverified)
+    - "Description: 'Independent risk-signal layer for x402 agentic commerce — endpoint evidence (decoy / zombie / price-trap / never-paid) before an agent authorizes payment.'"
+    - Excerpt shows MCP agent pre-flight skill preview and SDK middleware default $0.001/check, indicating MCP is central to its operation.
+    - No evidence of being a coding agent, decision model, or app builder; focuses purely on payment risk via MCP protocol.
 placement:
   primary_category: mcp
   secondary_categories:
@@ -89,7 +65,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.821Z'
+    updated_at: "2026-05-28T05:28:09.821Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,32 +73,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:33:01.387Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for x402station__io: Invalid AI response format: SyntaxError: No number after
-        minus sign in JSON at position 1112 (line 12 column 6)
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:25:43.026Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6fff39b10eb8eace62ec019c7a824fddf571a1e8dcfb7256df1113a76ba3d7a4
-      proposed_primary_category: extensions-and-addons
-      disagreement: true
-      decision_reason: The product is an API-based risk signal service that augments coding agents or agent workflows with pre-payment fraud detection, making it an integration layer rather than a standalone agent or framework.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:36b8fb04698d1c1f66f7f2b9fffa64dfc641854157230bccfe9db4d6eb1a5205
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is providing MCP-based risk signaling for x402 payments, making MCP the primary protocol identity rather than a feature; it fits the MCP Ecosystem category as a specialized server for finance-agent safety.
       decision_evidence:
-        - Described as an 'independent risk-signal layer for x402 agentic commerce' with endpoint evidence checks before payment authorization
-        - Offers MCP agent pre-flight skill preview and SDK middleware, indicating integration-focused tooling
-        - Provides guard, watch, and forensics APIs priced per check, positioned as a service for agent decision flows
+        - "Description: 'Independent risk-signal layer for x402 agentic commerce — endpoint evidence (decoy / zombie / price-trap / never-paid) before an agent authorizes payment.'"
+        - Excerpt shows MCP agent pre-flight skill preview and SDK middleware default $0.001/check, indicating MCP is central to its operation.
+        - No evidence of being a coding agent, decision model, or app builder; focuses purely on payment risk via MCP protocol.
       category_candidates:
-        - extensions-and-addons
         - mcp
-      contrastive_reason: Choose extensions-and-addons over mcp because while it offers MCP compatibility, its core identity is a risk-signaling API service for agent commerce, not MCP infrastructure itself.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
+        - decision-models
+      contrastive_reason: Choose mcp over decision-models because the product's identity is MCP-based risk signaling for x402 payments, not a decision model returning typed judgments — MCP is the protocol identity, not a compatibility layer.
+      review_reason: null
       review_resume_lifecycle: null

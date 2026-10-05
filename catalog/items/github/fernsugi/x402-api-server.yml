@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fernsugi__x402-api-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: fernsugi/x402-api-server
         extracted_url: https://github.com/fernsugi/x402-api-server
-        surrounding_text: >-
-          - [fernsugi/x402-api-server](https://github.com/fernsugi/x402-api-server/tree/main/mcp-server) [![x402-api MCP
-          server](https://glama.ai/mcp/servers/fernsugi/x402-api/badges/score.svg)](https://glama.ai/mcp/servers/fernsugi/x402-api)
-          📇 ☁️ - Pay-per-call DeFi data API for AI agents via x402 micropayments (USDC on Base). 8 endpoints: price
-          feeds, gas tracker, DEX quotes, whale tracker, yield scanner, funding rates, token scanner, wallet profiler.
-          No API keys needed.
+        surrounding_text: "- [fernsugi/x402-api-server](https://github.com/fernsugi/x402-api-server/tree/main/mcp-server) [![x402-api MCP server](https://glama.ai/mcp/servers/fernsugi/x402-api/badges/score.svg)](https://glama.ai/mcp/servers/fernsugi/x402-api) 📇 ☁️ - Pay-per-call DeFi data API for AI agents via x402 micropayments (USDC on Base). 8 endpoints: price feeds, gas tracker, DEX quotes, whale tracker, yield scanner, funding rates, token scanner, wallet profiler. No API keys needed."
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: false
     full_name: fernsugi/x402-api-server
     html_url: https://github.com/fernsugi/x402-api-server
-    created_at: '2026-02-21T17:50:42Z'
-    pushed_at: '2026-03-25T02:59:28Z'
+    created_at: "2026-02-21T17:50:42Z"
+    pushed_at: "2026-03-25T02:59:28Z"
     description: x402 protocol API server — pay-per-call DeFi data endpoints using USDC micropayments on Base
     homepage: null
     topics:
@@ -48,15 +43,13 @@ metadata:
       - micropayments
       - usdc
       - x402
-    last_checked_at: '2026-08-27T09:23:29.627Z'
+    last_checked_at: "2026-08-27T09:23:29.627Z"
     readme:
-      fetched_at: '2026-08-27T09:23:29.627Z'
+      fetched_at: "2026-08-27T09:23:29.627Z"
       bytes: 13322
 insights:
   summary: An API server that implements the x402 protocol to enable micro-payments for DeFi data via USDC on Base.
-  why_it_matters: >-
-    It enables autonomous AI agents to pay for high-quality data via HTTP 402 without requiring human-managed API keys
-    or credit cards.
+  why_it_matters: It enables autonomous AI agents to pay for high-quality data via HTTP 402 without requiring human-managed API keys or credit cards.
   mental_damage: Finally, a way for your autonomous agents to bankrupt themselves via micro-transactions in the background.
   tags:
     - mcp
@@ -80,17 +73,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.614Z'
+    updated_at: "2026-05-06T22:12:15.614Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-27T09:23:29.627Z'
+    updated_at: "2026-08-27T09:23:29.627Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -113,8 +106,6 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product is a specialized server providing capabilities to a host via
-        the Model Context Protocol rather than a general-purpose coding SDK.
+      contrastive_reason: Choose mcp over ai-frameworks because the product is a specialized server providing capabilities to a host via the Model Context Protocol rather than a general-purpose coding SDK.
       review_reason: null
       review_resume_lifecycle: null

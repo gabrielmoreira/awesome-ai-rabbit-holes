@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lance-format__lance__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,9 +20,7 @@ provenance:
           - Data Storage
         anchor_text: Lance
         extracted_url: https://github.com/eto-ai/lance
-        surrounding_text: >-
-          | [Lance](https://github.com/eto-ai/lance)        | Modern columnar data format for ML implemented in
-          Rust.       | ![GitHub Badge](https://img.shields.io/github/stars/eto-ai/lance.svg?style=flat-square)      |
+        surrounding_text: "| [Lance](https://github.com/eto-ai/lance)        | Modern columnar data format for ML implemented in Rust.       | ![GitHub Badge](https://img.shields.io/github/stars/eto-ai/lance.svg?style=flat-square)      |"
         confidence: high
 metadata:
   github:
@@ -32,12 +30,9 @@ metadata:
     archived: false
     full_name: lance-format/lance
     html_url: https://github.com/lance-format/lance
-    created_at: '2022-07-07T22:29:29Z'
-    pushed_at: '2026-07-30T03:04:09Z'
-    description: >-
-      Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access,
-      vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more
-      integrations coming..
+    created_at: "2022-07-07T22:29:29Z"
+    pushed_at: "2026-07-30T03:04:09Z"
+    description: Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
     homepage: https://lance.org
     topics:
       - apache-arrow
@@ -56,20 +51,14 @@ metadata:
       - mlops
       - python
       - rust
-    last_checked_at: '2026-07-30T05:06:02.591Z'
+    last_checked_at: "2026-07-30T05:06:02.591Z"
     readme:
-      fetched_at: '2026-07-30T05:06:02.591Z'
+      fetched_at: "2026-07-30T05:06:02.591Z"
       bytes: 9595
 insights:
-  summary: >-
-    Lance is an open lakehouse format for multimodal AI that provides fast random access, vector search, and ACID
-    transactions on object storage.
-  why_it_matters: >-
-    It lets developers build high-performance ML pipelines and feature stores by replacing slower formats like Parquet
-    with a format optimized for AI workloads.
-  mental_damage: >-
-    Yet another data format promising to solve your ML infra headaches while you quietly wonder if you’ll ever stop
-    converting between formats.
+  summary: Lance is an open lakehouse format for multimodal AI that provides fast random access, vector search, and ACID transactions on object storage.
+  why_it_matters: It lets developers build high-performance ML pipelines and feature stores by replacing slower formats like Parquet with a format optimized for AI workloads.
+  mental_damage: Yet another data format promising to solve your ML infra headaches while you quietly wonder if you’ll ever stop converting between formats.
   tags:
     - data-format
     - lakehouse
@@ -79,17 +68,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Lance is a data storage format, not a developer-facing AI tool, agent, workflow, or infrastructure that directly
-    aids in coding, prompt engineering, or AI-assisted development.
+  reason: Lance is a data storage format, not a developer-facing AI tool, agent, workflow, or infrastructure that directly aids in coding, prompt engineering, or AI-assisted development.
   evidence:
-    - 'Repo description: ''Open Lakehouse Format for Multimodal AI'' focused on file/table format and storage performance'
-    - >-
-      README emphasizes use cases like ML training, feature stores, and hybrid search — all data infrastructure, not
-      developer tooling
-    - >-
-      Source-list context: appears in Awesome-LLMOps under Data > Data Storage, confirming its role as storage
-      infrastructure
+    - "Repo description: 'Open Lakehouse Format for Multimodal AI' focused on file/table format and storage performance"
+    - README emphasizes use cases like ML training, feature stores, and hybrid search — all data infrastructure, not developer tooling
+    - "Source-list context: appears in Awesome-LLMOps under Data > Data Storage, confirming its role as storage infrastructure"
 placement:
   primary_category: null
   section: null
@@ -99,17 +82,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.626Z'
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:06:02.591Z'
+    updated_at: "2026-07-30T05:06:02.591Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -124,19 +107,11 @@ processing:
       input_hash: sha256:82588688756206fd8e1fc7550ab3067d9ad2eef5fd64689a29316031e6a8f5e2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Lance is a data storage format, not a developer-facing AI tool, agent, workflow, or infrastructure that directly
-        aids in coding, prompt engineering, or AI-assisted development.
+      decision_reason: Lance is a data storage format, not a developer-facing AI tool, agent, workflow, or infrastructure that directly aids in coding, prompt engineering, or AI-assisted development.
       decision_evidence:
-        - >-
-          Repo description: 'Open Lakehouse Format for Multimodal AI' focused on file/table format and storage
-          performance
-        - >-
-          README emphasizes use cases like ML training, feature stores, and hybrid search — all data infrastructure, not
-          developer tooling
-        - >-
-          Source-list context: appears in Awesome-LLMOps under Data > Data Storage, confirming its role as storage
-          infrastructure
+        - "Repo description: 'Open Lakehouse Format for Multimodal AI' focused on file/table format and storage performance"
+        - README emphasizes use cases like ML training, feature stores, and hybrid search — all data infrastructure, not developer tooling
+        - "Source-list context: appears in Awesome-LLMOps under Data > Data Storage, confirming its role as storage infrastructure"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

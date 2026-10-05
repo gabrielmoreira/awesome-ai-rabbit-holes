@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gby__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'Blog: GbyAI'
+        anchor_text: "Blog: GbyAI"
         extracted_url: https://gby.ai
-        surrounding_text: '29. [Blog: GbyAI](https://gby.ai/)'
+        surrounding_text: "29. [Blog: GbyAI](https://gby.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,37 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    GbyAI is a Chinese-language AIGC content hub featuring articles, series, and guides about agent implementation,
-    prompt engineering, and AI news.
-  why_it_matters: >-
-    It provides developers with curated, practical knowledge on building and applying AI agents and prompts, filling a
-    gap in accessible, real-world AIGC tutorials.
-  mental_damage: >-
-    Another content site promising 'deep agent implementation' while the real work is buried under 10,000 half-finished
-    GPTs.
+  summary: GbyAI is a Chinese-language resource hub aggregating articles, tutorials, and case studies on AIGC, AI agents, and prompt engineering.
+  why_it_matters: It helps developers stay current with applied AI trends through curated Chinese technical content on agent deployment and prompt applications.
+  mental_damage: Another AI news aggregator pretending novelty in a sea of repackaged Hugging Face blogs and arXiv summaries.
   tags:
-    - aigc-tutorials
-    - agent-implementation
-    - prompt-engineering
-    - ai-news
-    - chinese-content
+    - news
+    - tutorials
+    - ai-resources
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is primarily a content publication platform, not a developer-facing tool that changes how code is
-    written or executed.
+  reason: GbyAI is a content directory and educational resource hub, not a developer-facing AI tool, agent, or infrastructure product.
   evidence:
-    - >-
-      Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not a
-      coding tool.
-    - >-
-      Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational
-      content, not a product.
-    - >-
-      Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a
-      learning resource rather than a tool.
+    - Scraped site shows article listings like '医美垂直领域智能客服agent搭建说明书' and 'AIPM技能树', indicating tutorial/blog format
+    - Source-list context places it in 'awesome-LLM-resources' under '教程 Tutorial' as a learning resource
+    - No evidence of agent functionality, code generation, SDK, CLI, or tooling — purely informational content
 placement:
   primary_category: null
   section: null
@@ -76,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,32 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:40:09.830Z'
+    updated_at: "2026-10-05T04:32:27.030Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:841e68a6ef77523bacd778a04e9fa17617f33547a0f698aea2f54e3bdfa345b0
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a3f2839eba28fbd17c2e0f1f5c50ddf363e9b87aec454c7f0698de700ab6adfe
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is primarily a content publication platform, not a developer-facing tool that changes how code is
-        written or executed.
+      decision_reason: GbyAI is a content directory and educational resource hub, not a developer-facing AI tool, agent, or infrastructure product.
       decision_evidence:
-        - >-
-          Homepage excerpt shows it is a content hub with sections for articles, series, and product-hunt listings, not
-          a coding tool.
-        - >-
-          Scraped context describes it as 'exploring AIGC' and 'understanding deep agent implementation' — educational
-          content, not a product.
-        - >-
-          Source-list context places it in 'awesome-LLM-resources' under 'Tutorial' section, confirming its role as a
-          learning resource rather than a tool.
+        - Scraped site shows article listings like '医美垂直领域智能客服agent搭建说明书' and 'AIPM技能树', indicating tutorial/blog format
+        - Source-list context places it in 'awesome-LLM-resources' under '教程 Tutorial' as a learning resource
+        - No evidence of agent functionality, code generation, SDK, CLI, or tooling — purely informational content
       category_candidates: []
       contrastive_reason: null
       review_reason: null

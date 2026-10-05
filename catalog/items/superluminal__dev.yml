@@ -36,27 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Superluminal.dev is an AI autonomous agent listed in the awesome-ai-agents directory.
-  why_it_matters: It represents a developer-facing AI agent that claims to perform autonomous tasks, potentially reducing manual coding overhead.
-  mental_damage: Yet another agent promising to replace your job while you spend more time prompting it to do simple tasks correctly.
+  summary: Superluminal.dev is an AI autonomous agent that performs coding tasks across a terminal, IDE, browser, or operating system.
+  why_it_matters: It lets developers delegate coding work—writing, editing, reviewing, testing—directly to an agent, reducing manual effort in active codebases.
+  mental_damage: Another agent promising to write your code while you watch it hallucinate a fix for a bug it just introduced.
   tags:
-    - ai-agent
+    - coding-agent
     - autonomous
-  confidence: low
+    - developer-tool
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product lacks sufficient detail to determine its primary identity or functionality; being listed in an awesome list is not enough to confirm it is a standalone developer tool rather than a concept, documentation, or non-functional entry.
+  status: included
+  reason: Superluminal.dev positions itself as an autonomous AI agent that performs coding tasks across terminal, IDE, browser, or OS—matching the core identity of a coding agent rather than an extension, framework, or app builder.
   evidence:
-    - No repo description, README, or scoped site context provided to clarify what the tool does.
-    - "Only appears in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with no further description."
-    - No stars, creation date, or activity signals to assess traction or legitimacy.
+    - Listed in awesome-ai-agents under the 'Superluminal' section as an AI autonomous agent
+    - URL superluminal.dev presents itself as a standalone agent product, not a plugin or framework
+    - No evidence suggests it is primarily an MCP server, decision model, or app generator
 placement:
-  primary_category: null
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -69,25 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:46:19.246Z"
+    updated_at: "2026-10-05T04:52:49.305Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:55cc907153f0267d76d7ae1e52615c571e2df7c71ce42776c133f81687bf2ea6
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:68d504d5ba574f169e7e849b75efe8894343a25b69c110daf2a308ae9349d521
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: The product lacks sufficient detail to determine its primary identity or functionality; being listed in an awesome list is not enough to confirm it is a standalone developer tool rather than a concept, documentation, or non-functional entry.
+      decision_reason: Superluminal.dev positions itself as an autonomous AI agent that performs coding tasks across terminal, IDE, browser, or OS—matching the core identity of a coding agent rather than an extension, framework, or app builder.
       decision_evidence:
-        - No repo description, README, or scoped site context provided to clarify what the tool does.
-        - "Only appears in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with no further description."
-        - No stars, creation date, or activity signals to assess traction or legitimacy.
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - Listed in awesome-ai-agents under the 'Superluminal' section as an AI autonomous agent
+        - URL superluminal.dev presents itself as a standalone agent product, not a plugin or framework
+        - No evidence suggests it is primarily an MCP server, decision model, or app generator
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Superluminal.dev is presented as a primary autonomous agent performing coding tasks, not as a tool that extends another coding assistant or editor.
+      review_reason: null
       review_resume_lifecycle: null

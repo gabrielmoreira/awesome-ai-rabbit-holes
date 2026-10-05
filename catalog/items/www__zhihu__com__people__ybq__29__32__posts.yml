@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__zhihu__com__people__ybq__29__32__posts__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: '知乎: ybq'
+        anchor_text: "知乎: ybq"
         extracted_url: https://www.zhihu.com/people/ybq-29-32/posts
-        surrounding_text: '26. [知乎: ybq](https://www.zhihu.com/people/ybq-29-32/posts)'
+        surrounding_text: "26. [知乎: ybq](https://www.zhihu.com/people/ybq-29-32/posts)"
         confidence: high
 metadata:
   github:
@@ -36,26 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Zhihu is a Chinese knowledge-sharing Q&A platform and content community.
-  why_it_matters: It provides developers with a source of technical discussions, problem-solving, and community insights in Chinese.
-  mental_damage: >-
-    Another endless scroll of answers that feels productive until you realize you’ve read 20 threads and written zero
-    code.
-  tags:
-    - knowledge
-    - community
-    - qa
+  summary: A Zhihu user profile page listing posts and answers on the Chinese Q&A platform Zhihu.
+  why_it_matters: It does not provide any developer-facing tool, workflow, or infrastructure relevant to software developers.
+  mental_damage: Another reminder that scraping social profiles for AI tool lists is how we got here.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Zhihu is a general-purpose knowledge platform with no developer tooling, AI agent, or workflow-specific
-    functionality; it does not fit any catalog category as it lacks a product identity relevant to AI-assisted software
-    development.
+  reason: The input is a user profile page on Zhihu, a general Chinese knowledge-sharing platform, with no identifiable AI tool, agent, or developer-facing product.
   evidence:
-    - 'Repo description: (none)'
-    - 'Scraped site title: 知乎 - 有问题，就会有答案'
-    - 'Scraped site description: emphasizes knowledge sharing and creator community, not AI or developer tooling'
+    - "URL points to a Zhihu user profile: https://www.zhihu.com/people/ybq-29-32/posts"
+    - Scraped site title and description describe Zhihu as a general Q&A and content platform, not a developer tool
+    - No repo description, README, or technical details indicating AI tooling or developer workflow relevance
 placement:
   primary_category: null
   section: null
@@ -65,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.670Z'
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,27 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:50:43.143Z'
+    updated_at: "2026-10-05T04:58:05.984Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f87802fc1d2adf8d567bf7a16e2c24ae80f7be97c15c5bf9e48faa69c531042a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1d3d9efbe71eb888d30c143d02a0607ce29eac27228ee32e2486b2203a4725a4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Zhihu is a general-purpose knowledge platform with no developer tooling, AI agent, or workflow-specific
-        functionality; it does not fit any catalog category as it lacks a product identity relevant to AI-assisted
-        software development.
+      decision_reason: The input is a user profile page on Zhihu, a general Chinese knowledge-sharing platform, with no identifiable AI tool, agent, or developer-facing product.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'Scraped site title: 知乎 - 有问题，就会有答案'
-        - 'Scraped site description: emphasizes knowledge sharing and creator community, not AI or developer tooling'
+        - "URL points to a Zhihu user profile: https://www.zhihu.com/people/ybq-29-32/posts"
+        - Scraped site title and description describe Zhihu as a general Q&A and content platform, not a developer tool
+        - No repo description, README, or technical details indicating AI tooling or developer workflow relevance
       category_candidates: []
       contrastive_reason: null
       review_reason: null

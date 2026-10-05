@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ryanwaits__secondlayer__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Applications (129)
         anchor_text: secondlayer
         extracted_url: https://github.com/ryanwaits/secondlayer
-        surrounding_text: >-
-          | [secondlayer](https://github.com/ryanwaits/secondlayer) | ★ 6 | TypeScript | 2026-09-19 | Self-hosted Stacks
-          data service whose Slack gate and fault-triage paths use Jev decisions. |
+        surrounding_text: "| [secondlayer](https://github.com/ryanwaits/secondlayer) | ★ 6 | TypeScript | 2026-09-19 | Self-hosted Stacks data service whose Slack gate and fault-triage paths use Jev decisions. |"
         confidence: high
     - id: discovery__github__ryanwaits__secondlayer__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,10 +36,7 @@ provenance:
           - Classification & Routing
         anchor_text: secondlayer
         extracted_url: https://github.com/ryanwaits/secondlayer
-        surrounding_text: >-
-          - [secondlayer](https://github.com/ryanwaits/secondlayer)
-          ![stars](https://img.shields.io/github/stars/ryanwaits/secondlayer?style=flat-square&label=%E2%98%85) - Fault
-          triage: self-hosted Stacks data service whose Slack gate and fault-triage paths both run on Jev decisions.
+        surrounding_text: "- [secondlayer](https://github.com/ryanwaits/secondlayer) ![stars](https://img.shields.io/github/stars/ryanwaits/secondlayer?style=flat-square&label=%E2%98%85) - Fault triage: self-hosted Stacks data service whose Slack gate and fault-triage paths both run on Jev decisions."
         confidence: high
 metadata:
   github:
@@ -79,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.423Z'
+    updated_at: "2026-09-29T13:07:10.423Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

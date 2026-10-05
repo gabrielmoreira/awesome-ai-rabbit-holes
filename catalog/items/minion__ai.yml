@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__minion__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Minion AI
         anchor_text: Minion AI
         extracted_url: https://minion.ai
-        surrounding_text: '## [Minion AI](https://minion.ai/)'
+        surrounding_text: "## [Minion AI](https://minion.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,39 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Minion AI is a web-based autonomous AI agent interface for task execution.
-  why_it_matters: >-
-    It lets developers delegate multi-step tasks to an autonomous agent via a browser UI, reducing manual effort on
-    repetitive workflows.
-  mental_damage: Another tab to monitor while your AI gets stuck in a loop trying to click a button it can’t see.
+  summary: Minion AI is presented as an AI autonomous agent.
+  why_it_matters: It claims to offer autonomous agent capabilities, which developers might use to automate tasks or workflows.
+  mental_damage: Another agent promising autonomy while developers still spend time figuring out what it actually does.
   tags:
     - ai-agent
-    - browser-automation
-    - task-executor
-  confidence: medium
+    - automation
+  confidence: low
 curation:
-  status: included
-  reason: >-
-    The product is listed as an autonomous agent in a curated directory, aligning with multi-agent coordination
-    platforms rather than a single coding assistant or extension.
+  status: excluded
+  reason: Insufficient information to determine if it is a practical AI tool for developers; the scraped site and repo description lack specifics about functionality, identity, or developer relevance.
   evidence:
-    - Seen in awesome-ai-agents under section 'Minion AI'
-    - Described as an autonomous agent platform
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
-      agent-orchestration (unverified)
+    - Repo description is missing.
+    - Scraped site context provides only title 'Minion AI' with no description.
+    - Listed in awesome-ai-agents under 'Minion AI' section, but this is merely curation evidence, not proof of developer-facing tooling substance.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories:
     - coding-agents
   section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,32 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:17.430Z'
+    updated_at: "2026-10-05T04:42:14.038Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:072316ff80d00ab1bf3e6ceceff73f3147fbdc74ccf80a9eabda7d6dd3e98970
-      proposed_primary_category: coding-agents
-      disagreement: true
-      decision_reason: >-
-        Minion AI functions as a standalone agent that performs actions in a browser to accomplish goals, aligning with
-        coding-agent behavior when applied to dev tasks like debugging or repo navigation, despite lacking explicit
-        code-editing claims.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a03419218d2aec1b30c253cc1544cfdbf4a5223fff635719ee2ea6f059ef1e7f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information to determine if it is a practical AI tool for developers; the scraped site and repo description lack specifics about functionality, identity, or developer relevance.
       decision_evidence:
-        - 'Scraped site title: Minion AI'
-        - 'Source-list context: listed in awesome-ai-agents under ''Minion AI'' as an AI autonomous agent'
-        - No explicit archival or deprecation signals; presents as an active web tool
-      category_candidates:
-        - coding-agents
-        - app-builders
-      contrastive_reason: >-
-        Choose coding-agents over app-builders because Minion AI acts as an autonomous agent performing tasks in an
-        environment (browser), not generating deployable apps from prompts as its primary output.
-      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
+        - Repo description is missing.
+        - Scraped site context provides only title 'Minion AI' with no description.
+        - Listed in awesome-ai-agents under 'Minion AI' section, but this is merely curation evidence, not proof of developer-facing tooling substance.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

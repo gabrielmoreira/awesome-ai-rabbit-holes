@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zihuaevan__gui_jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Agent Decisions
         anchor_text: GUI JEV Harness
         extracted_url: https://github.com/zihuaevan/gui_jev
-        surrounding_text: >-
-          - [GUI JEV Harness](https://github.com/ZihuaEvan/GUI_JEV)
-          ![stars](https://img.shields.io/github/stars/ZihuaEvan/GUI_JEV?style=flat-square&label=%E2%98%85) - Computer
-          use: recursive screenshot grounding where Jev returns a `Choice` over grid-tile candidates at each level, and
-          local probability and margin gates decide whether to descend or refuse, emitting only a raster point and
-          bounding box and never clicking.
+        surrounding_text: "- [GUI JEV Harness](https://github.com/ZihuaEvan/GUI_JEV) ![stars](https://img.shields.io/github/stars/ZihuaEvan/GUI_JEV?style=flat-square&label=%E2%98%85) - Computer use: recursive screenshot grounding where Jev returns a `Choice` over grid-tile candidates at each level, and local probability and margin gates decide whether to descend or refuse, emitting only a raster point and bounding box and never clicking."
         confidence: high
 metadata:
   github:
@@ -43,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    GUI JEV Harness - Computer use: recursive screenshot grounding where Jev returns a Choice over grid-tile candidates
-    at each level, and local probability and margin gates decide whether to descend or refuse, emitting only a raster
-    point and bounding box and never clicking.
+  summary: "GUI JEV Harness - Computer use: recursive screenshot grounding where Jev returns a Choice over grid-tile candidates at each level, and local probability and margin gates decide whether to descend or refuse, emitting only a raster point and bounding box and never clicking."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

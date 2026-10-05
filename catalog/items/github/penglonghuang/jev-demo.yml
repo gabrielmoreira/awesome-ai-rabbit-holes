@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__penglonghuang__jev-demo__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-demo
         extracted_url: https://github.com/penglonghuang/jev-demo
-        surrounding_text: >-
-          - [jev-demo](https://github.com/PenglongHuang/jev-demo) ([site](http://118.196.50.229/jev/)) - TypeSafe
-          Jev（System One 决策模型）零依赖网页体验台：浏览器操作 / 意图识别 / Agent 上下文裁剪三大预设场景，发送状态与类型化问题，拿到带校准概率的结构化答案.
+        surrounding_text: "- [jev-demo](https://github.com/PenglongHuang/jev-demo) ([site](http://118.196.50.229/jev/)) - TypeSafe Jev（System One 决策模型）零依赖网页体验台：浏览器操作 / 意图识别 / Agent 上下文裁剪三大预设场景，发送状态与类型化问题，拿到带校准概率的结构化答案."
         confidence: high
     - id: discovery__github__penglonghuang__jev-demo__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**jev-demo**'
+        anchor_text: "**jev-demo**"
         extracted_url: https://github.com/penglonghuang/jev-demo
-        surrounding_text: >-
-          - [**jev-demo**](https://github.com/PenglongHuang/jev-demo) — A zero-dependency local web demo for TypeSafe's
-          \*\*Jev (System One)\*\* decision model: send a state plus typed questions, get choices, scores and calibrated
-          probabilities back.
+        surrounding_text: "- [**jev-demo**](https://github.com/PenglongHuang/jev-demo) — A zero-dependency local web demo for TypeSafe's \\*\\*Jev (System One)\\*\\* decision model: send a state plus typed questions, get choices, scores and calibrated probabilities back."
         confidence: high
 metadata:
   github:
@@ -77,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.422Z'
+    updated_at: "2026-09-29T13:07:10.422Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +80,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

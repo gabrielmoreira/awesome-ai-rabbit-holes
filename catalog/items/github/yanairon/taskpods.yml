@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yanairon__taskpods__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: taskpods
         extracted_url: https://github.com/yanairon/taskpods
-        surrounding_text: >-
-          - **[taskpods](https://github.com/yanairon/taskpods)** `⭐ 5` — Lightweight, agent-agnostic CLI that runs
-          Claude Code, Codex CLI, Gemini CLI, opencode, aider, or any command in isolated Git worktrees and branches,
-          with list, PR, cleanup, and abort lifecycle commands. Python, MIT.
+        surrounding_text: "- **[taskpods](https://github.com/yanairon/taskpods)** `⭐ 5` — Lightweight, agent-agnostic CLI that runs Claude Code, Codex CLI, Gemini CLI, opencode, aider, or any command in isolated Git worktrees and branches, with list, PR, cleanup, and abort lifecycle commands. Python, MIT."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Lightweight, agent-agnostic CLI that runs Claude Code, Codex CLI, Gemini CLI, opencode, aider, or any command in
-    isolated Git worktrees and branches, with list, PR, cleanup, and abort lifecycle commands. Python, MIT.
+  summary: Lightweight, agent-agnostic CLI that runs Claude Code, Codex CLI, Gemini CLI, opencode, aider, or any command in isolated Git worktrees and branches, with list, PR, cleanup, and abort lifecycle commands. Python, MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

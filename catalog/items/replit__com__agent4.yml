@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__replit__com__agent4__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Replit Agent
         extracted_url: https://replit.com/agent
-        surrounding_text: >-
-          - **[Replit Agent](https://replit.com/agent)** – Builds complete applications from natural language
-          descriptions inside Replit.
+        surrounding_text: "- **[Replit Agent](https://replit.com/agent)** – Builds complete applications from natural language descriptions inside Replit."
         confidence: high
 metadata:
   github:
@@ -38,37 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within
-    the Replit platform.
-  why_it_matters: >-
-    It enables developers and teams to collaborate with an AI agent that can design, build, and coordinate tasks in
-    parallel, accelerating the development of full-stack applications.
-  mental_damage: >-
-    Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs
-    vs. spaces.
+  summary: Replit Agent 4 is an AI-powered development tool that builds apps and websites from natural language prompts while enabling visual design collaboration and parallel task execution.
+  why_it_matters: It accelerates full-stack development by letting developers describe features in plain language and receive working code, reducing context-switching between design and implementation.
+  mental_damage: "The promise of 'vibe coding' at scale introduces new anxiety: trusting an agent to not only write correct code but also sequence team tasks without creating merge conflicts in reality."
   tags:
+    - app-builder
     - ai-agent
     - replit
-    - full-stack
-    - vibe-coding
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Agent 4's core identity is generating complete apps, websites, and dashboards from prompts, which aligns with the app-builders category's focus on prompt-to-deployable-artifact workflows rather than editing existing codebases.
   evidence:
-    - jev-latest choice confidence 0.59
+    - Source-list context identifies it as a 'Coding Agent' in awesome-ai-coding-tools but emphasizes building apps/sites/decks from prompts and visual design collaboration.
+    - README excerpt highlights 'Design Freely', 'Ship Anything', and 'Build Together' pillars, with capabilities like creating Linear tickets, analyzing Excel data, and converting web apps to mobile apps.
+    - Scraped site shows Agent 4 executes multiple tasks in parallel (auth, database, back-end, front-end) and splits single tasks into concurrent forks, indicating autonomous app generation rather than repo editing.
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: null
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,39 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:35:40.512Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for replit__com__agent4: Invalid AI response format: SyntaxError: Unexpected
-        token 'A', ..."_reason": Agent 4’s "... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:44:13.910Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:16f1386c946bcde965d3785ce9ee5f6bed2bbda5a8d66f0ab690bafbf27f60fe
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9473e4ad6b604811f430ec66cc4ee7e5e914c9574642f3708b9450424b6e07e1
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        Agent 4's primary value is turning prompts and collaborative input into full applications, sites, and tools
-        within Replit, fitting the app-builder category better than a generic coding agent.
+      decision_reason: Agent 4's core identity is generating complete apps, websites, and dashboards from prompts, which aligns with the app-builders category's focus on prompt-to-deployable-artifact workflows rather than editing existing codebases.
       decision_evidence:
-        - >-
-          Described as Replit's 'fastest, most versatile Agent to date' with pillars like 'Design Freely', 'Build
-          Together', 'Ship Anything', and 'Move Faster'
-        - >-
-          Explicitly supports building apps, sites, decks, mobile apps, and more from prompts in a shared project
-          context
-        - Source-list context places it in 'Coding Agents', but its core identity is prompt-to-app generation
+        - Source-list context identifies it as a 'Coding Agent' in awesome-ai-coding-tools but emphasizes building apps/sites/decks from prompts and visual design collaboration.
+        - README excerpt highlights 'Design Freely', 'Ship Anything', and 'Build Together' pillars, with capabilities like creating Linear tickets, analyzing Excel data, and converting web apps to mobile apps.
+        - Scraped site shows Agent 4 executes multiple tasks in parallel (auth, database, back-end, front-end) and splits single tasks into concurrent forks, indicating autonomous app generation rather than repo editing.
       category_candidates:
+        - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Agent 4's main surface is creating new apps/sites/tools from
-        prompts rather than editing existing repos.
+      contrastive_reason: Choose app-builders over coding-agents because Agent 4's primary value is generating new deployable apps from prompts rather than acting as a coding assistant that edits existing repositories.
       review_reason: null
       review_resume_lifecycle: null

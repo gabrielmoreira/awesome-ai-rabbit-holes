@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__deeplearning__ai__courses__knowledge__graphs__rag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,9 +20,8 @@ provenance:
         extracted_url: https://deeplearning.ai/short-courses/knowledge-graphs-rag
         surrounding_text: 26. [Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)
         confidence: high
-    - id: >-
-        discovery__www__deeplearning__ai__courses__knowledge__graphs__rag__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-12T15:06:19.300Z'
+    - id: discovery__www__deeplearning__ai__courses__knowledge__graphs__rag__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -52,15 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An educational course from DeepLearning.AI covering the integration of knowledge graphs into Retrieval-Augmented
-    Generation (RAG) workflows.
-  why_it_matters: >-
-    It teaches developers how to move beyond simple vector similarity to use structured relational data for more
-    accurate AI retrieval.
-  mental_damage: >-
-    The realization that your entire RAG stack might just be a glorified semantic search engine until you commit to
-    graph theory.
+  summary: An educational course from DeepLearning.AI focusing on implementing knowledge graphs for Retrieval-Augmented Generation (RAG).
+  why_it_matters: It provides instructional guidance on using structured knowledge to improve the accuracy and reasoning of RAG pipelines.
+  mental_damage: Just one more technical deep-dive to add to the infinite backlog of things you'll never actually finish.
   tags:
     - rag
     - knowledge-graphs
@@ -68,10 +61,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course rather than a standalone software product, framework, or developer tool.
+  reason: This is an educational course rather than a software tool, framework, or developer-facing product.
   evidence:
-    - The URL points to a course landing page on deeplearning.ai
-    - The content is instructional material instead of a functional code-first tool or agent
+    - The URL points to a DeepLearning.AI course page.
+    - The content is instructional material rather than a deployable, importable, or executable technical asset.
 placement:
   primary_category: null
   section: null
@@ -81,30 +74,30 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-21T04:16:39.351Z'
+    updated_at: "2026-10-05T04:22:12.015Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e027e137ddfe1f43ecfb82c0be5fcb6d63ea18c432156549b665980deda08614
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:265da9af7c0761393ee02f8f112cac4a71907686dea4647be7e6325a78998fa3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course rather than a standalone software product, framework, or developer tool.
+      decision_reason: This is an educational course rather than a software tool, framework, or developer-facing product.
       decision_evidence:
-        - The URL points to a course landing page on deeplearning.ai
-        - The content is instructional material instead of a functional code-first tool or agent
+        - The URL points to a DeepLearning.AI course page.
+        - The content is instructional material rather than a deployable, importable, or executable technical asset.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

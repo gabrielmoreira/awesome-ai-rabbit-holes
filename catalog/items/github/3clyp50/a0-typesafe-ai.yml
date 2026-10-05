@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__3clyp50__a0-typesafe-ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: a0-typesafe-ai
         extracted_url: https://github.com/3clyp50/a0-typesafe-ai
-        surrounding_text: >-
-          - [a0-typesafe-ai](https://github.com/3clyp50/a0-typesafe-ai) - TypeSafe AI Jev judgments for Agent Zero, with
-          typed tools and probability cards.
+        surrounding_text: "- [a0-typesafe-ai](https://github.com/3clyp50/a0-typesafe-ai) - TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards."
         confidence: high
     - id: discovery__github__3clyp50__a0-typesafe-ai__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: TypeSafe AI for Agent Zero
         extracted_url: https://github.com/3clyp50/a0-typesafe-ai
-        surrounding_text: >-
-          - [TypeSafe AI for Agent Zero](https://github.com/3clyp50/a0-typesafe-ai) - Agent Zero plugin for typed Jev
-          Choice/Noul/Score judgments with probability cards; bundles the official TypeSafe agent skill. [Project
-          guide](community/projects/tools/a0-typesafe-ai.md).
+        surrounding_text: "- [TypeSafe AI for Agent Zero](https://github.com/3clyp50/a0-typesafe-ai) - Agent Zero plugin for typed Jev Choice/Noul/Score judgments with probability cards; bundles the official TypeSafe agent skill. [Project guide](community/projects/tools/a0-typesafe-ai.md)."
         confidence: high
     - id: discovery__github__3clyp50__a0-typesafe-ai__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,9 +51,7 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: a0-typesafe-ai
         extracted_url: https://github.com/3clyp50/a0-typesafe-ai
-        surrounding_text: >-
-          | [a0-typesafe-ai](https://github.com/3clyp50/a0-typesafe-ai) | ★ 5 | Python | 2026-09-19 | TypeSafe AI Jev
-          judgments for Agent Zero, with typed tools and probability cards. |
+        surrounding_text: "| [a0-typesafe-ai](https://github.com/3clyp50/a0-typesafe-ai) | ★ 5 | Python | 2026-09-19 | TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards. |"
         confidence: high
 metadata:
   github:
@@ -68,45 +61,70 @@ metadata:
     archived: false
     full_name: 3clyp50/a0-typesafe-ai
     html_url: https://github.com/3clyp50/a0-typesafe-ai
-    created_at: '2026-09-17T00:17:50Z'
-    pushed_at: '2026-09-17T00:17:54Z'
+    created_at: "2026-09-17T00:17:50Z"
+    pushed_at: "2026-09-17T00:17:54Z"
     description: TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:17.987Z'
+    last_checked_at: "2026-09-29T13:08:17.987Z"
     readme:
-      fetched_at: '2026-09-29T13:08:17.987Z'
+      fetched_at: "2026-09-29T13:08:17.987Z"
       bytes: 3948
 insights:
-  summary: TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe AI Jev judgments plugin providing typed tools and probability cards for Agent Zero.
+  why_it_matters: It adds structured decision-model outputs (typed questions with probabilities) to Agent Zero, enabling more reliable and verifiable agent behavior in developer workflows.
+  mental_damage: Another Jev-flavored wrapper that turns agent uncertainty into a type system, as if stricter JSON schemas alone will make hallucinations polite.
+  tags:
+    - jev
+    - type-safe
+    - agent-extension
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
+  status: excluded
+  reason: The project is an extension that adds Jev-based typed tooling to Agent Zero, making it an additive capability rather than a standalone coding agent or decision model, and thus does not meet the primary identity threshold for inclusion.
   evidence:
-    - jev-latest choice confidence 0.59
+    - "Repo description: 'TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.'"
+    - Seen in awesome-jev lists under 'Community projects > Developer projects and integrations' and 'Integrations' sections.
+    - Created and pushed on 2026-09-17 with only 5 stars, indicating minimal traction and recent origin.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Framework & SDK Integrations
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.390Z'
+    updated_at: "2026-09-29T13:07:10.390Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:17.987Z'
+    updated_at: "2026-09-29T13:08:17.987Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:42.564Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cdd657a19fffff00275601ad7bc074f48feb5676683301ce3b678f04bcced4d9
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an extension that adds Jev-based typed tooling to Agent Zero, making it an additive capability rather than a standalone coding agent or decision model, and thus does not meet the primary identity threshold for inclusion.
+      decision_evidence:
+        - "Repo description: 'TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.'"
+        - Seen in awesome-jev lists under 'Community projects > Developer projects and integrations' and 'Integrations' sections.
+        - Created and pushed on 2026-09-17 with only 5 stars, indicating minimal traction and recent origin.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

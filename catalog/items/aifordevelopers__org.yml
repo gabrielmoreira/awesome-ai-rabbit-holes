@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aifordevelopers__org__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - README
         anchor_text: AI For Developers
         extracted_url: https://aifordevelopers.org
-        surrounding_text: >-
-          **Reach thousands of developers building with AI by sponsoring this list, our
-          [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/).
-          Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**
+        surrounding_text: "**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**"
         confidence: high
 metadata:
   github:
@@ -39,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of AI coding tools, agents, and developer-focused infrastructure.
-  why_it_matters: It helps developers cut through the noise of the exploding AI ecosystem to find practical, task-specific tooling.
-  mental_damage: >-
-    Nothing cures terminal decision paralysis quite like scrolling through an endless list of tools that all claim to
-    replace your entire workflow.
+  summary: A curated directory of AI coding tools and resources for developers.
+  why_it_matters: Helps developers discover practical AI-powered coding assistants, app builders, and frameworks in one place.
+  mental_damage: Another list to bookmark and never open, adding to the guilt of tool fatigue.
   tags:
     - curated-list
     - developer-resources
-    - ai-tools-directory
-  confidence: medium
+    - ai-tools
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: The site functions as a curated directory of AI development tools with clear categorization and filtering, matching the purpose of awesome lists as a discovery aid rather than a standalone product.
   evidence:
-    - jev-latest choice confidence 0.97
+    - "Seen in source list: awesome-ai-coding-tools as a curated list of AI-powered coding tools"
+    - "Scraped site context: title 'AI for Developers: Top AI Coding Tools for 2026' and description 'Explore a curated list of the best AI coding tools for developers'"
+    - Primary page excerpt shows structured categories like Coding Agents, App Builders, Frameworks with filterable tool listings
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -64,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,34 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:36.643Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for aifordevelopers__org: Invalid AI response structure: Invalid confidence
-        value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:04.820Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c4a0e2715b21cb2ea228e334f8b1e8dbf053f61307253370c36f02255d83dd28
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:65ea79eb517003967d72ed2cfe1ca7c4cc1c27f32ff890f6a215de5b021e1e6b
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The site functions as a curated directory of AI developer tools, matching the awesome-awesomes category's purpose of helping developers discover and navigate the ecosystem.
+      decision_reason: The site functions as a curated directory of AI development tools with clear categorization and filtering, matching the purpose of awesome lists as a discovery aid rather than a standalone product.
       decision_evidence:
-        - "Scraped site description: 'Explore a curated list of the best AI coding tools for developers, featuring GitHub Copilot, Windsurf, Cody, and more.'"
-        - "Source-list context: Listed in 'awesome-ai-coding-tools' with purpose 'A curated list of AI-powered coding tools'."
-        - "Primary page excerpt: 'Curated AI tools and resources. Discover practical AI tools, model updates, and implementation guides built for developers.'"
+        - "Seen in source list: awesome-ai-coding-tools as a curated list of AI-powered coding tools"
+        - "Scraped site context: title 'AI for Developers: Top AI Coding Tools for 2026' and description 'Explore a curated list of the best AI coding tools for developers'"
+        - Primary page excerpt shows structured categories like Coding Agents, App Builders, Frameworks with filterable tool listings
       category_candidates:
         - awesome-awesomes
-        - newsletters-and-feeds
-      contrastive_reason: >-
-        Choose awesome-awesomes over newsletters-and-feeds because the site functions primarily as a categorized
-        index/directory of tools rather than a recurring media publication.
+        - coding-agents
+      contrastive_reason: Choose awesome-awesomes over coding-agents because the site is a curated directory of tools rather than a developer-facing agent that performs coding tasks autonomously.
       review_reason: null
       review_resume_lifecycle: null

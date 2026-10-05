@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nodecodestudio__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Community Servers
         anchor_text: NodeCodeStudio
         extracted_url: https://nodecodestudio.com
-        surrounding_text: >-
-          - **[NodeCodeStudio](https://nodecodestudio.com)** - Activate MCP services (Gmail, Calendar, WordPress, etc.)
-          and run browser automation workflows via a Chrome extension with importable sequences
+        surrounding_text: "- **[NodeCodeStudio](https://nodecodestudio.com)** - Activate MCP services (Gmail, Calendar, WordPress, etc.) and run browser automation workflows via a Chrome extension with importable sequences"
         confidence: high
 metadata:
   github:
@@ -38,31 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    NodeCodeStudio is a Chrome browser automation tool that offers reusable workflows, shared templates, and real
-    browser execution.
-  why_it_matters: >-
-    It lets developers automate repetitive browser tasks without writing custom scripts, saving time on manual
-    interactions.
-  mental_damage: >-
-    Yet another 'no-code' automation promise that still requires you to debug why the click didn't fire on the third
-    try.
+  summary: NodeCodeStudio is a Chrome browser automation tool that enables reusable workflows, shared templates, and real browser execution for automating web tasks.
+  why_it_matters: It lets developers automate repetitive browser-based workflows without writing custom scripts, reducing manual effort in testing, data extraction, or internal tool interactions.
+  mental_damage: Yet another no-code browser automation tool promising to replace your brittle Selenium tests with drag-and-drop workflows that will inevitably break when the UI changes.
   tags:
-    - browser
-    - automation
+    - browser-automation
     - workflows
+    - no-code
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    NodeCodeStudio is a browser automation tool focused on end-user workflows, not developer-facing AI tooling for
-    coding, agents, or workflows that assist software development.
+  reason: NodeCodeStudio is a browser automation tool focused on general web task automation, not coding-specific workflows, and does not act as a coding agent, editor extension, or developer-facing infrastructure.
   evidence:
-    - >-
-      Scraped site context: 'Chrome browser automation with reusable workflows, shared templates, and real browser
-      execution'
-    - 'Source-list context: Listed in awesome-mcp-servers under ''Community Servers'' for Chrome browser automation'
-    - No evidence of AI agent behavior, code editing, prompt-to-app generation, or integration with coding assistants
+    - "Scraped site context: 'Chrome browser automation with reusable workflows, shared templates, and real browser execution'"
+    - "Source-list context: listed in awesome-mcp-servers under 'Community Servers' for 'Chrome browser automation with reusable workflows, shared templates, and real browser execution'"
+    - No evidence of coding-specific functionality such as code editing, repo interaction, debugging, or integration with IDEs or coding agents
 placement:
   primary_category: null
   secondary_categories: []
@@ -73,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,30 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:49.664Z'
+    updated_at: "2026-10-05T04:42:37.531Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8276b7f26c312471e1ccccd96eb312d579b99458f92bc83ba84b04004f906a69
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a6b623f13f254534468acd9c2c7d15958457ca65c2c0e03cad2de357d1474df9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        NodeCodeStudio is a browser automation tool focused on end-user workflows, not developer-facing AI tooling for
-        coding, agents, or workflows that assist software development.
+      decision_reason: NodeCodeStudio is a browser automation tool focused on general web task automation, not coding-specific workflows, and does not act as a coding agent, editor extension, or developer-facing infrastructure.
       decision_evidence:
-        - >-
-          Scraped site context: 'Chrome browser automation with reusable workflows, shared templates, and real browser
-          execution'
-        - 'Source-list context: Listed in awesome-mcp-servers under ''Community Servers'' for Chrome browser automation'
-        - >-
-          No evidence of AI agent behavior, code editing, prompt-to-app generation, or integration with coding
-          assistants
+        - "Scraped site context: 'Chrome browser automation with reusable workflows, shared templates, and real browser execution'"
+        - "Source-list context: listed in awesome-mcp-servers under 'Community Servers' for 'Chrome browser automation with reusable workflows, shared templates, and real browser execution'"
+        - No evidence of coding-specific functionality such as code editing, repo interaction, debugging, or integration with IDEs or coding agents
       category_candidates: []
       contrastive_reason: null
       review_reason: null

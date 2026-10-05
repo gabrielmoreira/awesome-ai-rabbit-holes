@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__autario__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,15 +19,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: npm package
         extracted_url: https://npmjs.com/package/autario-mcp
-        surrounding_text: >-
-          - [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP
-          server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp)
-          ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat,
-          OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm
-          package](https://www.npmjs.com/package/autario-mcp).
+        surrounding_text: "- [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp) ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat, OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm package](https://www.npmjs.com/package/autario-mcp)."
         confidence: high
     - id: discovery__www__npmjs__com__package__autario__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-15T05:51:04.987Z'
+      discovered_at: "2026-06-15T05:51:04.987Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -40,12 +35,7 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: npm package
         extracted_url: https://www.npmjs.com/package/autario-mcp
-        surrounding_text: >-
-          - [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP
-          server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp)
-          ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat,
-          OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm
-          package](https://www.npmjs.com/package/autario-mcp).
+        surrounding_text: "- [Autario/autario-mcp](https://github.com/Autario/autario-mcp) [![Autario/autario-mcp MCP server](https://glama.ai/mcp/servers/Autario/autario-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Autario/autario-mcp) ☁️ - Search, query, and publish charts across 2,300+ verified public datasets (World Bank, IMF, Eurostat, OECD, WHO). 28 MCP tools for data discovery, analysis, and visualization. Remote MCP + [npm package](https://www.npmjs.com/package/autario-mcp)."
         confidence: high
 metadata:
   github:
@@ -63,59 +53,58 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An npm package providing an MCP server for data platform integration.
-  why_it_matters: It allows AI agents to natively interact with data platforms via the Model Context Protocol.
-  mental_damage: It's just one more bridge between your LLM and the data silos you're trying to keep organized.
+  summary: autario-mcp is an MCP server exposing Autario's API capabilities via the Model Context Protocol.
+  why_it_matters: It lets AI agents interact with Autario's tools through a standardized interface, enabling developers to integrate external services into agent workflows.
+  mental_damage: Another MCP wrapper that turns yet another SaaS API into a tool call, adding to the growing pile of protocol-specific adapters developers must now manage.
   tags:
     - mcp
-    - npm
-    - data-platforms
+    - api-integration
+    - autario
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  reason: The product is an MCP server whose primary identity is exposing Autario's API over the Model Context Protocol, making it a clear fit for the MCP Ecosystem category.
   evidence:
-    - jev-latest choice confidence 0.69
+    - The package is named 'autario-mcp' and published on npm as an MCP server
+    - It exposes Autario's API capabilities via the Model Context Protocol
+    - No indication it is a decision model, coding agent, or broader platform — MCP is its core identity
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-24T04:14:39.757Z'
+    updated_at: "2026-10-05T04:26:29.828Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:58b69ff192eb586fcf578b608da1d7e8fa3d733a7712d2fb75e67901dcc8e069
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f28b764e02e4b40af47fba8ae626d872a3e26bd958aa1c34e312699d190e3f25
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The package's primary identity is an MCP server, as evidenced by its name and its inclusion in the
-        awesome-mcp-servers directory.
+      decision_reason: The product is an MCP server whose primary identity is exposing Autario's API over the Model Context Protocol, making it a clear fit for the MCP Ecosystem category.
       decision_evidence:
-        - Listed in awesome-mcp-servers under the Data Platforms section
-        - Distributed as an npm package, typical for MCP server implementations
+        - The package is named 'autario-mcp' and published on npm as an MCP server
+        - It exposes Autario's API capabilities via the Model Context Protocol
+        - No indication it is a decision model, coding agent, or broader platform — MCP is its core identity
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product's primary identity is a protocol-specific server rather than a
-        general-purpose developer SDK.
+      contrastive_reason: Choose mcp over ai-frameworks because autario-mcp's primary identity is as an MCP server exposing a specific API, not as a general-purpose library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:

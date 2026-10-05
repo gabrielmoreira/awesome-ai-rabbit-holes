@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ohmyjiro__jev-judge__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-judge
         extracted_url: https://github.com/ohmyjiro/jev-judge
-        surrounding_text: >-
-          - [jev-judge](https://github.com/ohmyjiro/jev-judge) - Dependency-free CLI and Codex skill that send local
-          state to Jev for batched typed judgments and return answers without echoing the state.
+        surrounding_text: "- [jev-judge](https://github.com/ohmyjiro/jev-judge) - Dependency-free CLI and Codex skill that send local state to Jev for batched typed judgments and return answers without echoing the state."
         confidence: high
 metadata:
   github:
@@ -39,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-judge - Dependency-free CLI and Codex skill that send local state to Jev for batched typed judgments and return
-    answers without echoing the state.
+  summary: jev-judge - Dependency-free CLI and Codex skill that send local state to Jev for batched typed judgments and return answers without echoing the state.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

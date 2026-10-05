@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__meituan__longcat__longcat__video__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A 13.6B parameter foundational video generation model supporting text-to-video, image-to-video, and
-    video-continuation tasks.
-  why_it_matters: N/A (excluded from catalog)
-  mental_damage: N/A (excluded from catalog)
-  tags: []
+  summary: LongCat-Video is a 13.6B parameter open-source text-to-video, image-to-video, and video-continuation model from Meituan.
+  why_it_matters: It provides developers with a state-of-the-art, efficient video generation model under MIT license for integration into creative or multimodal applications.
+  mental_damage: Yet another model card promising minutes-long videos that will likely timeout your Colab notebook before the first frame renders.
+  tags:
+    - video-generation
+    - multimodal
+    - huggingface
+    - open-source
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This project is a foundational machine learning model weight repository, which falls under general ML research
-    rather than the catalog's focus on developer-centric coding tools, agents, and orchestration.
+  reason: LongCat-Video is a foundational video generation model, not a developer-facing AI tool, agent, workflow, or infrastructure product; it is a raw model artifact with no direct utility for coding, app-building, or agent orchestration tasks.
   evidence:
-    - Identified as a 13.6B parameter foundational video generation model
-    - >-
-      Primarily provides model weights and training technical reports rather than a developer-facing coding tool or
-      workflow
+    - The model is hosted on Hugging Face as a weights repo with inference code, not as a developer tool or SDK.
+    - Its primary functionality is generating videos from text, image, or video prompts via Diffusers or Transformers, not assisting with coding workflows.
+    - It appears in source lists under '视频 Video > 模型' as a multimodal generation model, not a developer tooling resource.
 placement:
   primary_category: null
   section: null
@@ -63,12 +62,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -76,27 +73,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:27:16.578Z'
+    updated_at: "2026-10-05T04:34:15.827Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8b5de4d47a769caae33c3ba928c202ca2e85c509f2fec582f077f5b8d62a7497
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2779ab08c2d78eab4fbdfa7840aa8184df383b9407c9f2faeb5eaa3c2bc6a152
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This project is a foundational machine learning model weight repository, which falls under general ML research
-        rather than the catalog's focus on developer-centric coding tools, agents, and orchestration.
+      decision_reason: LongCat-Video is a foundational video generation model, not a developer-facing AI tool, agent, workflow, or infrastructure product; it is a raw model artifact with no direct utility for coding, app-building, or agent orchestration tasks.
       decision_evidence:
-        - Identified as a 13.6B parameter foundational video generation model
-        - >-
-          Primarily provides model weights and training technical reports rather than a developer-facing coding tool or
-          workflow
+        - The model is hosted on Hugging Face as a weights repo with inference code, not as a developer tool or SDK.
+        - Its primary functionality is generating videos from text, image, or video prompts via Diffusers or Transformers, not assisting with coding workflows.
+        - It appears in source lists under '视频 Video > 模型' as a multimodal generation model, not a developer tooling resource.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

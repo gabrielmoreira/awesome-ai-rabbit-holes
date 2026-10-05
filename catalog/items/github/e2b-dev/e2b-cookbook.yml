@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__e2b-dev__e2b-cookbook__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,12 +19,10 @@ provenance:
           - README
         anchor_text: web version of this list
         extracted_url: https://e2b.dev/ai-agents
-        surrounding_text: >-
-          To filter the products by categories and use-cases, see the 🌟 [web version of this
-          list](https://e2b.dev/ai-agents). 🌟
+        surrounding_text: To filter the products by categories and use-cases, see the 🌟 [web version of this list](https://e2b.dev/ai-agents). 🌟
         confidence: high
     - id: discovery__github__e2b-dev__e2b-cookbook__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,9 +34,7 @@ provenance:
           - Official Servers
         anchor_text: E2B
         extracted_url: https://e2b.dev
-        surrounding_text: >-
-          - **[E2B](https://github.com/e2b-dev/mcp-server)** - Run code in secure sandboxes hosted by
-          [E2B](https://e2b.dev)
+        surrounding_text: "- **[E2B](https://github.com/e2b-dev/mcp-server)** - Run code in secure sandboxes hosted by [E2B](https://e2b.dev)"
         confidence: high
 metadata:
   github:
@@ -48,8 +44,8 @@ metadata:
     archived: false
     full_name: e2b-dev/e2b-cookbook
     html_url: https://github.com/e2b-dev/e2b-cookbook
-    created_at: '2023-09-27T11:02:43Z'
-    pushed_at: '2026-09-10T20:55:40Z'
+    created_at: "2023-09-27T11:02:43Z"
+    pushed_at: "2026-09-10T20:55:40Z"
     description: Examples of using E2B
     homepage: https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=e2b-cookbook
     topics:
@@ -72,17 +68,13 @@ metadata:
       - sdk
       - tutorial
       - typescript
-    last_checked_at: '2026-09-14T04:13:45.773Z'
+    last_checked_at: "2026-09-14T04:13:45.773Z"
     readme:
-      fetched_at: '2026-09-14T04:13:45.773Z'
+      fetched_at: "2026-09-14T04:13:45.773Z"
       bytes: 13039
 insights:
-  summary: >-
-    A cookbook of examples and guides for building with the E2B SDK, demonstrating code interpreter and agentic
-    workflows across multiple LLM providers and frameworks.
-  why_it_matters: >-
-    Developers can quickly see how to integrate E2B's sandboxed environments with popular LLMs and agent frameworks for
-    secure code execution and agentic tasks.
+  summary: A cookbook of examples and guides for building with the E2B SDK, demonstrating code interpreter and agentic workflows across multiple LLM providers and frameworks.
+  why_it_matters: Developers can quickly see how to integrate E2B's sandboxed environments with popular LLMs and agent frameworks for secure code execution and agentic tasks.
   mental_damage: Another cookbook to remind you that your agents still can't decide between tabs and spaces.
   tags:
     - sandbox
@@ -93,9 +85,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a documentation/cookbook repository rather than a standalone product, framework, or tool—it exists to
-    support the E2B SDK, not as a primary developer-facing artifact.
+  reason: This is a documentation/cookbook repository rather than a standalone product, framework, or tool—it exists to support the E2B SDK, not as a primary developer-facing artifact.
   evidence:
     - Repo description explicitly states it is 'Examples of using E2B'
     - README positions it as a 'cookbook' with examples and guides for the E2B SDK
@@ -109,17 +99,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.585Z'
+    updated_at: "2026-05-06T22:12:15.585Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:45.773Z'
+    updated_at: "2026-09-14T04:13:45.773Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -134,9 +124,7 @@ processing:
       input_hash: sha256:9708326019d8de3143dfdaba066b664a141ccd77e6b4e06302337c9488e664d9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a documentation/cookbook repository rather than a standalone product, framework, or tool—it exists to
-        support the E2B SDK, not as a primary developer-facing artifact.
+      decision_reason: This is a documentation/cookbook repository rather than a standalone product, framework, or tool—it exists to support the E2B SDK, not as a primary developer-facing artifact.
       decision_evidence:
         - Repo description explicitly states it is 'Examples of using E2B'
         - README positions it as a 'cookbook' with examples and guides for the E2B SDK

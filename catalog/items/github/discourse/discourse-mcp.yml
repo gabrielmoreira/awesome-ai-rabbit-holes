@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__discourse__discourse-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: discourse/discourse-mcp
         extracted_url: https://github.com/discourse/discourse-mcp
-        surrounding_text: >-
-          - [discourse/discourse-mcp](https://github.com/discourse/discourse-mcp) 🎖️ 💎 ☁️ 🏠 💬 🍎 🪟 🐧 - Official
-          Discourse MCP server for forum integration. Search topics, read posts, manage categories and tags, discover
-          users, and interact with Discourse communities.
+        surrounding_text: "- [discourse/discourse-mcp](https://github.com/discourse/discourse-mcp) 🎖️ 💎 ☁️ 🏠 💬 🍎 🪟 🐧 - Official Discourse MCP server for forum integration. Search topics, read posts, manage categories and tags, discover users, and interact with Discourse communities."
         confidence: high
 metadata:
   github:
@@ -33,20 +30,18 @@ metadata:
     archived: false
     full_name: discourse/discourse-mcp
     html_url: https://github.com/discourse/discourse-mcp
-    created_at: '2025-08-18T06:15:05Z'
-    pushed_at: '2026-08-25T07:43:39Z'
+    created_at: "2025-08-18T06:15:05Z"
+    pushed_at: "2026-08-25T07:43:39Z"
     description: MCP client for Discourse sites
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-14T04:13:40.993Z'
+    last_checked_at: "2026-09-14T04:13:40.993Z"
     readme:
-      fetched_at: '2026-09-14T04:13:40.993Z'
+      fetched_at: "2026-09-14T04:13:40.993Z"
       bytes: 61799
 insights:
   summary: An MCP stdio server that exposes Discourse forum capabilities as tools and resources for AI agents.
-  why_it_matters: >-
-    Lets AI agents read, search, and optionally write to Discourse forums as first-class tools, turning community
-    discussions into actionable context.
+  why_it_matters: Lets AI agents read, search, and optionally write to Discourse forums as first-class tools, turning community discussions into actionable context.
   mental_damage: Now your AI can argue with users in your Discourse forum at 1 request per second.
   tags:
     - mcp
@@ -69,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.611Z'
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:40.993Z'
+    updated_at: "2026-09-14T04:13:40.993Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,7 +89,7 @@ processing:
       input_hash: sha256:86de43ecd37422df0e726316f53578516304b75f45021ea81e917df4174f0ffd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: 'MCP is the product identity: this is a dedicated MCP server exposing Discourse-specific tools and resources.'
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Discourse-specific tools and resources."
       decision_evidence:
         - Repo description explicitly states 'MCP client for Discourse sites'
         - README describes it as a 'Model Context Protocol (MCP) stdio server'
@@ -102,8 +97,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the core identity is an MCP server for Discourse, not an extension
-        augmenting another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server for Discourse, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

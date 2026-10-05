@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__com__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,9 +19,7 @@ provenance:
           - Closed Source
         anchor_text: Cursor CLI
         extracted_url: https://cursor.com/cli
-        surrounding_text: >-
-          - **[Cursor CLI](https://cursor.com/cli)** `[Cursor]` — Cursor's official command-line agent (`agent`) with
-          shell mode, headless/CI support, parallel agents, and multi-model access.
+        surrounding_text: "- **[Cursor CLI](https://cursor.com/cli)** `[Cursor]` — Cursor's official command-line agent (`agent`) with shell mode, headless/CI support, parallel agents, and multi-model access."
         confidence: high
 metadata:
   github:
@@ -39,32 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A terminal-based interface that brings Cursor's agentic capabilities to any environment via the command line.
-  why_it_matters: >-
-    It allows developers to run powerful, multi-model agents in CI/CD pipelines, shell scripts, and remote environments
-    where a full IDE isn't available.
-  mental_damage: Now you can watch an agent hallucinate in your terminal instead of just in your IDE.
+  summary: Cursor CLI is a terminal-based interface for running Cursor's coding agent to write, edit, and automate code tasks using natural language.
+  why_it_matters: It lets developers delegate coding work to an AI agent directly from the terminal, enabling scripting and automation without leaving their workflow.
+  mental_damage: Now you can feel guilty about not automating your shell scripts with an AI that costs more than your coffee habit.
   tags:
     - cli
-    - coding-agent
-    - automation
+    - ai-agent
+    - terminal
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  reason: Cursor CLI is a terminal-native coding agent that performs autonomous code tasks, making it a primary coding assistant rather than an extension or orchestration layer.
   evidence:
-    - jev-latest choice confidence 0.93
+    - "The product description states: 'Built to help you ship, right from your terminal. Same commands, any environment.'"
+    - It enables users to 'Plan, search, build anything' and 'Write powerful scripts and automations' via the agent interface.
+    - It is listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Closed Source' as a platform agent for terminal-based coding.
 placement:
   primary_category: coding-agents
   secondary_categories: []
   section: Terminal & CLI Agents
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,34 +70,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:36:50.690Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for cursor__com__cli: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:29.235Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ee283f35ec929c1d0bd0026950c903c24a7c4103d22a480791effc8d0d2892c1
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d518e938f703991937dfa718dd875ff98ba7a89a983306e7e525c636405b2298
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Cursor CLI is a standalone terminal-native AI agent that performs coding tasks autonomously, fitting the coding-agents category as it reads codebases, writes files, runs commands, and operates as a primary coding surface via CLI.
+      decision_reason: Cursor CLI is a terminal-native coding agent that performs autonomous code tasks, making it a primary coding assistant rather than an extension or orchestration layer.
       decision_evidence:
-        - Cursor CLI enables 'Plan, search, build anything' via terminal agent with access to latest models and shell mode
-        - Integrates with GitHub Actions for automated CI/CD workflows and supports headless CLI use in scripts and automations
-        - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source' as a platform agent
+        - "The product description states: 'Built to help you ship, right from your terminal. Same commands, any environment.'"
+        - It enables users to 'Plan, search, build anything' and 'Write powerful scripts and automations' via the agent interface.
+        - It is listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Closed Source' as a platform agent for terminal-based coding.
       category_candidates:
         - coding-agents
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because it functions as a primary autonomous agent capable of
-        executing plans and running shell commands, rather than just an augmentation layer for an existing editor.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Cursor CLI functions as a primary coding agent in the terminal, not as an extension that augments another assistant with debugger, browser, or workflow capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

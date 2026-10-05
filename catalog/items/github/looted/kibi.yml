@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__looted__kibi__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,10 +19,7 @@ provenance:
           - Specification Tools
         anchor_text: Kibi
         extracted_url: https://github.com/looted/kibi
-        surrounding_text: >-
-          - [Kibi](https://github.com/Looted/kibi)
-          ![](https://img.shields.io/github/stars/Looted/kibi.svg?cacheSeconds=86400) - Keeps requirements connected to
-          code and tests, and checks for missing links as AI agents work.
+        surrounding_text: "- [Kibi](https://github.com/Looted/kibi) ![](https://img.shields.io/github/stars/Looted/kibi.svg?cacheSeconds=86400) - Keeps requirements connected to code and tests, and checks for missing links as AI agents work."
         confidence: high
 metadata:
   github:
@@ -49,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.21 below gate 0.50; proposed coding-agents / Spec-First & Plan-Execute; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.21 below gate 0.50; proposed coding-agents / Spec-First & Plan-Execute; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

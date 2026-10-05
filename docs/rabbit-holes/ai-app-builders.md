@@ -3,15 +3,14 @@
 
 Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 
-_83 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_88 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Full App Builders](#full-app-builders) — 32
-- [Site & Landing Page Builders](#site--landing-page-builders) — 13
-- [Internal Tools & Dashboards](#internal-tools--dashboards) — 9
-- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 28
-- [Others](#others) — 1
+- [Site & Landing Page Builders](#site--landing-page-builders) — 15
+- [Internal Tools & Dashboards](#internal-tools--dashboards) — 16
+- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 25
 
 ## Full App Builders
 
@@ -63,88 +62,103 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `no-code` `app-builder` `full-stack` `vibe-coding`
   </details>
-- **[Bolt.new](https://bolt.new)** Bolt.new is an AI-powered app builder that generates full websites and applications from natural language prompts. <details><summary>More about</summary>
+- **[Bolt.new](https://bolt.new)** bolt.new is an AI app builder that generates full websites, web apps, and prototypes from natural language prompts. <details><summary>More about</summary>
 
-  It lets developers and non-developers go from idea to deployable product rapidly without writing code manually.
+  It lets developers and non-developers ship working web applications by describing them in plain English, skipping manual setup and boilerplate.
 
-  _Another tool promising to replace developers while simultaneously flooding the market with AI-generated SaaS clones nobody asked for._
+  _The anxiety of realizing your 'no-code' AI app now needs a custom Figma plugin to fix the CSS it generated._
 
-  `app-builder` `ai-coding` `no-code` `prompt-to-app`
+  `app-builder` `prompt-to-app` `web-dev` `no-code` `ai-agent`
   </details>
-- **[Builder.ai](https://builder.ai)** Builder.ai is a low-code platform that generates apps from natural language prompts. <details><summary>More about</summary>
+- **[BrainGrid](https://braingrid.ai)** BrainGrid is an AI app builder that generates specifications from user descriptions, builds apps using coding agents like Claude Code or Cursor, and verifies acceptance criteria before deployment. <details><summary>More about</summary>
 
-  It lets non-developers and developers create deployable apps without writing code, accelerating internal tool delivery.
+  It reduces rework by ensuring apps are planned and verified before code is written, giving developers confidence in AI-generated output.
 
-  _The quiet dread of realizing your 'no-code' app now needs a team of developers to maintain it._
+  _Finally, an AI tool that makes you write the spec before it ignores it and builds something else anyway._
 
-  `app-builder` `low-code` `prompt-to-app`
+  `app-builder` `spec-driven` `verification`
   </details>
-- **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
-- **[Capacity](https://capacity.so)** An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions. <details><summary>More about</summary>
+- **[Builder.ai](https://builder.ai)** Builder.ai is an AI-powered app development platform that generates full applications from natural language prompts. <details><summary>More about</summary>
 
-  It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
+  It enables developers and non-developers to turn ideas into deployable apps without writing code manually, accelerating prototyping and internal tool creation.
 
-  _It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'._
+  _The promise of 'just describe it' hides the anxiety of debugging AI-generated apps you didn’t write and can’t fully trust._
 
   `app-builder` `no-code` `ai-generated`
   </details>
-- **[Create.xyz](https://create.xyz)** create.xyz is an AI app builder that turns natural language prompts into deployable mobile apps, websites, and tools with code generation and 40+ integrations. <details><summary>More about</summary>
+- **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
+- **[Capacity](https://capacity.so)** Capacity.so is a no-code app builder that turns plain-language ideas into live web apps with accounts, payments, and custom domains using AI. <details><summary>More about</summary>
 
-  It lets developers skip boilerplate and go from idea to working product instantly using AI-generated full-stack code.
+  It lets non-developers and rapid prototypers ship real products from idea to deployment without writing code or managing infrastructure.
 
-  _The quiet horror of realizing your weekend project now has a better CI/CD pipeline than your day job._
+  _The quiet dread that your next weekend project will be outshipped by someone who just described their yoga studio booking app in plain English._
 
-  `app-builder` `ai-agent` `full-stack` `no-code` `prompt-to-app`
+  `no-code` `app-builder` `ai-assisted`
   </details>
-- **[Databerry](https://askli.co)** Askli brings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer support easy and simplifies team workflows.
-- **[FlutterFlow](https://flutterflow.io)** FlutterFlow is a visual low-code platform for building and deploying cross-platform mobile and web apps with Firebase/Supabase integration and code export. <details><summary>More about</summary>
+- **[Create.xyz](https://create.xyz)** Anything is an AI app builder that turns natural language descriptions into deployable mobile apps, websites, and tools. <details><summary>More about</summary>
 
-  It lets developers and product teams rapidly prototype and ship full-stack apps without writing code from scratch, then export or deploy directly to app stores.
+  It lets developers and non-developers generate full-stack applications from prompts, accelerating early-stage product development.
 
-  _You’ll spend more time explaining why your ‘no-code’ app still needs a Flutter engineer than actually building features._
+  _The promise of describing an app into existence ignores the hours spent debugging why the AI-generated auth flow doesn’t work._
 
-  `low-code` `app-builder` `firebase` `flutter` `visual-development`
+  `app-builder` `no-code` `prompt-to-app`
   </details>
-- **[Framer AI](https://framer.com/ai)** Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts. <details><summary>More about</summary>
+- **[Docket AI](https://docketai.net)** DocketAI is a tool built on Replit that generates apps from prompts. <details><summary>More about</summary>
 
-  It enables rapid prototyping and deployment of production-ready web interfaces through natural language, bypassing traditional layout manual labor.
+  It offers a fast way for developers to scaffold and deploy simple applications without writing code manually.
 
-  _It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't break the CMS'._
+  _Another prompt-to-app wrapper that feels like magic until you need to customize anything beyond the demo._
 
-  `app-builder` `ai-generated` `web-design`
+  `app-builder` `replit` `low-code`
   </details>
-- **[Glide](https://glideapps.com)** Glide turns spreadsheets into business applications using AI to infer schema and generate connected web and mobile apps. <details><summary>More about</summary>
+- **[FlutterFlow](https://flutterflow.io)** FlutterFlow is a visual app builder that lets developers create Flutter apps with Firebase and API integrations, exportable code, and deployment to app stores. <details><summary>More about</summary>
 
-  It enables non-developers and developers alike to build internal tools rapidly from existing data sources without writing code.
+  It accelerates frontend and full-stack app development by combining no-code UI building with real Flutter code export, reducing boilerplate for mobile and web apps.
 
-  _Finally, a tool that lets you pretend your Excel sheet is a microservice architecture._
+  _The promise of '10x velocity' makes you wonder if your backlog is just waiting for the right drag-and-drop tool to expose how much you’ve been overcomplicating things._
 
-  `app-builder` `low-code` `spreadsheet`
+  `app-builder` `flutter` `low-code` `firebase`
   </details>
-- **[GPT Engineer](https://gptengineer.app)** Lovable is an AI-powered platform that lets users describe an app or website and generates a deployable prototype from scratch. <details><summary>More about</summary>
+- **[Forge](https://forge-web.rebaselabs.online)** Forge is a web-based AI app builder that generates complete applications from natural language prompts. <details><summary>More about</summary>
 
-  It enables developers and non-developers to quickly turn ideas into live web applications without writing code.
+  It lets developers go from idea to deployable app without writing code, accelerating prototyping and internal tool creation.
 
-  _Hope you enjoy the illusion of no-code while still debugging the AI’s weird layout choices._
+  _The quiet dread of watching your junior engineer’s job description get rewritten as ‘write better prompts for Forge’._
 
-  `app-builder` `ai` `low-code`
+  `app-builder` `prompt-to-app` `no-code`
   </details>
-- **[Hex Magic](https://hex.tech/capability/ai)** An AI-powered analytics platform that uses agents to perform data exploration and build generative data applications and dashboards. <details><summary>More about</summary>
+- **[Framer AI](https://framer.com/ai)** Framer's AI product for generating websites from prompts. <details><summary>More about</summary>
 
-  It allows developers and data teams to rapidly transform natural language queries into interactive, deployable data apps and automated analyses.
+  Enables rapid prototyping of deployable websites through natural language prompts without manual coding.
 
-  _Building a production-ready dashboard in one prompt, only to spend the afternoon debugging the agent's hallucinated SQL joins._
+  _Another 'describe your site and get AI-generated nonsense' tool that forgets developers still need to ship production-grade code._
 
-  `analytics` `data-apps` `agentic-workflows` `dashboards` `sql`
+  `app-builder` `prompt-to-site` `no-code`
+  </details>
+- **[GPT Engineer](https://gptengineer.app)** Lovable is an AI-powered platform that builds apps and websites from natural language prompts, screenshots, or documentation. <details><summary>More about</summary>
+
+  Enables developers and non-developers to generate deployable web applications instantly from high-level descriptions.
+
+  _Promises to eliminate coding while quietly shifting the bottleneck to prompt engineering and AI output whack-a-mole._
+
+  `app-builder` `ai-generated` `no-code`
   </details>
 - **[Kuberns](https://kuberns.com)** Kuberns – Agentic AI deployment platform that auto-detects tech stacks, provisions infrastructure, and deploys applications from GitHub repositories with zero configuration.
-- **[Lovable](https://lovable.dev)** Lovable.dev is an AI-powered platform that builds apps and websites from natural language prompts or uploaded designs. <details><summary>More about</summary>
+- **[Lighter](https://lighter.xyz)** lighter.xyz is a web-based tool that enables users to build full-stack applications from natural language prompts without writing code. <details><summary>More about</summary>
 
-  It lets developers and non-developers turn ideas into working prototypes instantly, skipping manual setup and boilerplate.
+  It allows developers and non-developers to rapidly prototype and deploy apps by describing features in plain English, reducing boilerplate and setup time.
 
-  _Watch your weekend project get built by AI while you question whether you still need to learn CSS._
+  _Another prompt-to-app promise that makes you wonder if 'no code' just means 'you still have to debug the AI’s guesses'._
 
-  `app-builder` `no-code` `ai`
+  `app-builder` `no-code` `prompt-to-app`
+  </details>
+- **[Lovable](https://lovable.dev)** An AI-powered platform for generating and deploying complete applications and websites from natural language descriptions. <details><summary>More about</summary>
+
+  It enables rapid prototyping and deployment of web products by translating chat descriptions and screenshots into functional code.
+
+  _It trades the manual labor of boilerplate setup for the psychological toll of negotiating with an LLM over a flexbox layout._
+
+  `app-builder` `prompt-to-app` `web-development` `no-code`
   </details>
 - **[Mage](https://usemage.ai)** MAGE GPT Web App Generator creates full-stack React, Node.js and Prisma web apps from prompts using the Wasp framework. <details><summary>More about</summary>
 
@@ -154,30 +168,30 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `full-stack` `wasp` `gpt`
   </details>
-- **[Magic Loops](https://magicloops.dev)** Magic Loops is a no-code platform that combines LLMs and code to create simple automations and AI-native apps from prompts. <details><summary>More about</summary>
+- **[MGX](https://atoms.dev)** Atoms is an AI-powered platform that turns natural language prompts into full-stack websites and apps using a team of specialized AI agents. <details><summary>More about</summary>
 
-  It lets developers and non-developers turn natural language into deployable utilities, dashboards, or tools without writing code or managing infrastructure.
+  It lets developers and non-developers build and launch production-ready products without writing code, accelerating idea validation and time-to-market.
 
-  _Another prompt-to-app abstraction layer that promises to replace your job with a slider and a prayer._
+  _The dream of skipping engineering entirely feels less like empowerment and more like outsourcing your judgment to a black-box startup with a credit meter._
 
-  `app-builder` `no-code` `llm`
-  </details>
-- **[MGX](https://atoms.dev)** An AI-powered development platform that uses a multi-agent team to research, plan, build, and deploy full-stack web applications. <details><summary>More about</summary>
-
-  It enables rapid prototyping and deployment by handling the entire lifecycle from idea validation to hosting via autonomous agents like engineers and product managers.
-
-  _The ultimate destination for the 'vibe coding' workflow where you spend more time managing AI employees than actually writing logic._
-
-  `app-builder` `multi-agent` `no-code` `full-stack` `deployment`
+  `app-builder` `no-code` `ai-agents`
   </details>
 - **[RapidNative](https://rapidnative.com)** RapidNative – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.
-- **[Replit](https://replit.com)** Replit is a cloud-based platform for building, deploying, and collaborating on software projects with AI assistance. <details><summary>More about</summary>
+- **[Replit](https://replit.com)** Replit is a hosted AI platform for building apps and websites from natural language prompts without coding. <details><summary>More about</summary>
 
-  It enables developers and teams to turn prompts into full-stack apps, sites, or internal tools with built-in infrastructure and parallel agent workflows.
+  Enables developers and non-developers to quickly prototype and deploy full-stack applications using AI-generated code and managed infrastructure.
 
-  _The promise of 'no coding needed' collides with the reality of debugging Agent 4’s interpretation of your napkin sketch._
+  _Lets you skip learning to code while pretending the AI didn't just write your entire app for you._
 
-  `app-builder` `ai-generated` `full-stack`
+  `app-builder` `ai-platform` `full-stack`
+  </details>
+- **[Replit Agent](https://replit.com/agent4)** Replit Agent 4 is an AI-powered development tool that builds apps and websites from natural language prompts while enabling visual design collaboration and parallel task execution. <details><summary>More about</summary>
+
+  It accelerates full-stack development by letting developers describe features in plain language and receive working code, reducing context-switching between design and implementation.
+
+  _The promise of 'vibe coding' at scale introduces new anxiety: trusting an agent to not only write correct code but also sequence team tasks without creating merge conflicts in reality._
+
+  `app-builder` `ai-agent` `replit`
   </details>
 - **[Rocket.new](https://rocket.new)** Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build. <details><summary>More about</summary>
 
@@ -187,21 +201,13 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `no-code` `prompt-to-app`
   </details>
-- **[Rosebud AI](https://rosebud.ai)** Rosebud AI Game Maker lets users create and deploy playable games from AI prompts or templates without coding. <details><summary>More about</summary>
+- **[Rosebud AI](https://rosebud.ai)** Rosebud AI is a platform that lets users describe games or apps in natural language to generate and deploy playable games, websites, or web apps without coding. <details><summary>More about</summary>
 
-  Enables rapid prototyping of games through natural language, lowering the barrier to entry for game development and interactive experiences.
+  It lowers the barrier to creating interactive software by turning prompts into deployable frontend experiences, useful for rapid prototyping or educational projects.
 
-  _Another promise that describing your dream game in a textbox will magically ship something playable—until you hit the limits of what 'no coding required' actually means._
+  _Lets you feel like a game dev while sidestepping the inconvenience of learning engines, physics, or how collision detection actually works._
 
-  `app-builder` `game-dev` `no-code` `prompt-to-app`
-  </details>
-- **[Softr](https://softr.io)** Softr is an AI app builder for creating business portals and internal tools without code. <details><summary>More about</summary>
-
-  It lets developers and non-developers launch secure, data-connected internal tools quickly by turning prompts into deployable apps.
-
-  _Another ‘no-code AI app builder’ promising to replace spreadsheets while quietly locking you into yet another proprietary platform._
-
-  `app-builder` `no-code` `internal-tools` `ai-agent` `workflow-automation`
+  `app-builder` `no-code` `game-dev` `prompt-to-app`
   </details>
 - **[Taskade Genesis](https://taskade.com/create)** Taskade Genesis – Prompt-to-app builder for live portals, CRMs, and dashboards with agents and automations.
 - **[v0](https://v0.app)** An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts. <details><summary>More about</summary>
@@ -234,13 +240,13 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 - **[kleaphq/cli](https://github.com/kleaphq/cli)** `⭐ 1` kleaphq/cli : AI website builder MCP — create apps, edit files, connect domains, and publish over a remote HTTP endpoint (https://kleap.co/api/mcp).
 - **[shiped-app/shiped-mcp](https://github.com/shiped-app/shiped-mcp)** `⭐ 0` shiped-app/shiped-mcp ☁️ - Deploy AI-generated HTML, CSS and JavaScript to a public HTTPS URL.
 - **[tcgunel/mobius-mcp](https://github.com/tcgunel/mobius-mcp)** `⭐ 0` tcgunel/mobius-mcp - Build WordPress sites on the Sweipe or FlatMobile themes: import demos, build a site from a brief, review it, rewrite page copy and change settings.
-- **[10Web](https://10web.io)** An AI-powered website and WordPress builder that generates, optimizes, and hosts sites from prompts or Figma designs. <details><summary>More about</summary>
+- **[10Web](https://10web.io)** 10Web is an AI-powered platform for building, hosting, and managing WordPress websites and ecommerce stores from natural language prompts. <details><summary>More about</summary>
 
-  It enables rapid scaffolding and deployment of production-ready WordPress and ecommerce sites through natural language and design-to-code workflows.
+  It lets developers and non-developers launch production-ready WordPress sites with AI-generated design, content, and hosting in minutes.
 
-  _The 'vibe coding' promise suggests we're just one prompt away from never having to write a single CSS rule ever again._
+  _Another ‘vibe coding’ promise that skips Git, ignores technical debt, and assumes your WordPress site will never need a real engineer._
 
-  `website-builder` `wordpress` `ai-agents` `ecommerce` `no-code`
+  `ai-website-builder` `wordpress` `no-code` `hosting` `ecommerce`
   </details>
 - **[Builder.io Fusion](https://www.builder.io)** Builder.io is a collaborative platform for teams to build software with AI agents, enabling engineers, designers, PMs, and marketers to work from a single codebase. <details><summary>More about</summary>
 
@@ -250,21 +256,21 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-platform` `collaborative-coding` `visual-editor` `agentic-cms` `multi-role-workflow`
   </details>
-- **[CodeWP](https://telex.automattic.ai)** Telex is an AI-assisted authoring environment for WordPress that transforms ideas into functional WordPress projects. <details><summary>More about</summary>
+- **[CodeWP](https://telex.automattic.ai)** Telex is an AI-assisted authoring environment for WordPress that transforms prompts into fully functional WordPress projects. <details><summary>More about</summary>
 
-  It enables developers to generate complete WordPress sites from prompts, reducing manual setup and theme/plugin configuration time.
+  It lets developers generate complete, deployable WordPress sites from natural language, skipping manual setup and theme configuration.
 
-  _Finally, a way to outsource the joy of debugging why your custom post type isn’t showing up in the REST API._
+  _Finally, a way to outsource the joy of wrestling with wp-config.php to an AI that may or may not understand nonce verification._
 
-  `wordpress` `ai-site-generator` `prompt-to-app`
+  `wordpress` `site-builder` `prompt-to-app`
   </details>
-- **[Deepsite](https://deepsite.hf.co)** An AI-powered web development platform that generates and deploys multi-page websites from text prompts. <details><summary>More about</summary>
+- **[Deepsite](https://deepsite.hf.co)** DeepSite is an AI-powered web development tool that generates and deploys multi-page websites from prompts using open source models and free hosting. <details><summary>More about</summary>
 
-  It accelerates the prototyping and deployment phase by converting natural language descriptions directly into live, hosted web applications.
+  It lets developers and non-developers quickly ship complete websites without writing code or managing infrastructure.
 
-  _The gap between 'prompting a landing page' and 'aintaining a production codebase' is about to get much, much wider._
+  _Another prompt-to-site tool that makes you wonder if 'no code' just means 'no understanding what you deployed'._
 
-  `ai` `web-development` `no-code` `huggingface`
+  `app-builder` `ai` `no-code` `web-dev`
   </details>
 - **[Kombai](https://kombai.com)** Kombai is an AI design engineer that generates production-ready frontend code and designs from prompts while reusing components and patterns from existing codebases. <details><summary>More about</summary>
 
@@ -274,17 +280,33 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-design` `frontend` `code-generation` `vscode-extension` `cursor-extension`
   </details>
+- **[Mixo.io](https://mixo.io)** Mixo.io is an AI website builder that generates complete business websites from natural language descriptions without coding. <details><summary>More about</summary>
+
+  It enables non-technical users and developers to rapidly deploy functional websites via AI, reducing time-to-market for online presence.
+
+  _Another 'no-code AI' tool promising instant websites while quietly reinforcing the myth that business problems vanish with a well-worded prompt._
+
+  `ai-website-builder` `no-code` `prompt-to-site`
+  </details>
 - **[PolicyAI](https://policy-ai-alpha.vercel.app)** PolicyAI – AI-powered legal document generator. Creates GDPR & CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy for developer products in 60 seconds. Free tier available.
 - **[search-function-test.vercel.app](https://search-function-test.vercel.app)** Search-Function-Test (site) - A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to question anything and find related answers/articles.
-- **[TeleportHQ](https://teleporthq.io)** Low-code front-end design and development platform with AI-powered website building and visual editing capabilities. <details><summary>More about</summary>
+- **[TeleportHQ](https://teleporthq.io)** TeleportHQ is a low-code front-end design platform with AI-powered visual builder and headless CMS integration for creating static websites and UI components. <details><summary>More about</summary>
 
-  Enables developers and non-developers to rapidly generate, refine, and deploy static websites and UI components using AI-assisted design-to-code workflows.
+  It lets developers and designers generate production-ready front-end code from prompts and visual edits, reducing manual coding for websites and prototypes.
 
-  _Finally, a tool that lets you build websites by describing them—until you realize you still have to explain to stakeholders why the AI chose Comic Sans._
+  _Another AI website builder that promises to replace frontend work — until you need to override its generated flexbox grid._
 
-  `low-code` `ui-builder` `static-site` `ai-assisted` `frontend`
+  `low-code` `frontend` `ai-builder` `static-site`
   </details>
 - **[ui-generator-instinct-jev.vercel.app](https://ui-generator-instinct-jev.vercel.app)** Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.
+- **[Webflow AI](https://webflow.com/ai)** Webflow AI is a suite of AI-powered features within the Webflow platform for building, managing, and optimizing websites. <details><summary>More about</summary>
+
+  It enables developers and designers to accelerate web creation and optimization using AI directly inside a visual development platform.
+
+  _Another no-code platform claiming AI will finally let you skip learning CSS — until the client asks for something custom._
+
+  `ai` `webflow` `site-builder`
+  </details>
 
 ## Internal Tools & Dashboards
 
@@ -304,6 +326,14 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `csv` `dashboard` `mcp` `data-visualization` `cli`
   </details>
+- **[AskYourDatabase](https://askyourdatabase.com)** AskYourDatabase is a desktop application and embeddable chatbot that converts natural language questions into SQL queries, answers, and charts for supported databases. <details><summary>More about</summary>
+
+  It lets developers and analysts query databases without writing SQL manually, speeding up ad-hoc data exploration and reducing context switching.
+
+  _Trusting an AI to generate correct SQL for your production database while hoping it didn’t hallucinate a JOIN that deletes your user table._
+
+  `sql` `database` `ai-assistant` `data-analysis`
+  </details>
 - **[Avanzai](https://avanz.ai)** Avanz.ai is an AI agent platform that helps generate financial and data analysis code from natural language prompts. <details><summary>More about</summary>
 
   It lets developers automate quantitative workflows by turning analytical requests into executable Python or SQL code.
@@ -312,53 +342,101 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-agent` `data-analysis` `code-generation`
   </details>
-- **[DiagramGPT (Eraser)](https://eraser.io/diagramgpt)** DiagramGPT is an AI diagram generator that creates polished technical diagrams from text prompts in seconds. <details><summary>More about</summary>
+- **[DiagramGPT (Eraser)](https://eraser.io/diagramgpt)** DiagramGPT generates polished diagrams from text prompts in seconds using AI. <details><summary>More about</summary>
 
-  It lets developers quickly produce and iterate on architecture, flow, and system diagrams without manual drawing tools.
+  It lets developers quickly turn textual descriptions into editable architecture, flow, or UML diagrams without manual drawing.
 
-  _Another AI tool promising to replace the whiteboard, while developers still end up manually tweaking the output in Eraser anyway._
+  _Finally, a way to procrastinate on actual coding by making pretty pictures that look like work._
 
-  `diagrams` `ai-generated` `documentation`
+  `diagramming` `ai-tool` `developer-productivity`
   </details>
-- **[Dot](https://getdot.ai)** Dot is an AI data analyst that answers data questions via chat, generates automated reports, and provides context from connected data systems. <details><summary>More about</summary>
+- **[Dot](https://getdot.ai)** Dot is an AI data analyst that answers natural language data questions by generating SQL, creating charts, and producing automated reports. <details><summary>More about</summary>
 
-  It lets developers and data teams get instant insights from databases without writing SQL or building dashboards, accelerating data-driven decisions.
+  It lets developers and data teams get instant insights from their data warehouses without writing queries or building dashboards.
 
-  _Another tool promising to make data 'accessible' while quietly adding another Slack bot to ignore until the quarterly report is due._
+  _Finally, a tool that makes you feel both productive and obsolete when your manager asks Dot for the Q3 report you were supposed to build._
 
-  `ai-analyst` `data-tools` `automated-reports`
+  `ai-analyst` `data-tools` `sql-generation`
   </details>
-- **[MeterCall](https://metercall.ai)** RailCall is a local-first governance tool that lets AI agents draft workflows and data actions, which must be human-approved before execution and produce verifiable cryptographic receipts. <details><summary>More about</summary>
+- **[Glide](https://glideapps.com)** Glide is a no-code AI app builder that turns spreadsheets into internal business apps and agents. <details><summary>More about</summary>
 
-  It lets developers safely run AI agents on sensitive data by enforcing approval gates and auditability without data leaving the machine.
+  Lets developers and non-developers rapidly create production-ready internal tools from data they already own.
 
-  _Finally, a way to feel paranoid about AI agents that also gives you a notarized alibi when they inevitably misbehave._
+  _Finally, a way to build CRUD apps without writing SQL — now the backlog is just waiting for someone to click 'publish'._
 
-  `local-first` `governance` `ai-agents` `audit` `workflows`
+  `app-builder` `no-code` `internal-tools` `ai`
+  </details>
+- **[Magic Loops](https://magicloops.dev)** Magic Loops is a no-code platform that combines LLMs and code to create simple automations and apps from prompts. <details><summary>More about</summary>
+
+  It lets developers turn natural language into deployable automations without writing code, accelerating prototyping of internal tools and utilities.
+
+  _Another promise of 'just describe it' that shifts the burden from coding to prompt engineering, where the real work lives in debugging why the loop didn’t run._
+
+  `app-builder` `no-code` `llm-workflows`
+  </details>
+- **[Magic Patterns](https://magicpatterns.com)** Magic Patterns is an AI design tool that generates production-ready UI from prompts while applying an existing design system for consistency. <details><summary>More about</summary>
+
+  It enables product teams to prototype and iterate on UI features rapidly without engineering overhead, accelerating feedback loops with real stakeholders.
+
+  _Finally, a way to bypass the ‘but is this actually usable?’ meeting by showing stakeholders a clickable prototype before they can say ‘let’s table this for Q3.’._
+
+  `ui-generation` `design-system` `prototyping` `ai-design`
   </details>
 - **[Microsoft Power Apps](https://microsoft.com/nl-nl/power-platform/products/power-apps)** Microsoft Power Apps is a low-code platform for building business applications with minimal coding. <details><summary>More about</summary>
 
-  It enables developers and non-developers to quickly create internal tools and apps using a visual interface and AI-assisted features.
+  Enables developers and non-developers to rapidly create internal tools and workflow apps without deep programming.
 
-  _Another drag-and-drop promise that still requires you to fight the platform when it inevitably breaks at scale._
+  _The dream of shipping apps by dragging boxes while silently knowing IT will still own your soul._
 
-  `low-code` `app-builder` `microsoft`
+  `low-code` `business-apps` `power-platform`
   </details>
-- **[Retool AI](https://retool.com/ai)** Retool AI is a low-code platform for building and deploying production-ready AI apps, workflows, and agents using existing business data and enterprise security. <details><summary>More about</summary>
+- **[SchemaFlow](https://schemaflow.dev)** SchemaFlow is an end-to-end encrypted, real-time collaborative canvas for designing system architecture diagrams with searchable AWS/GCP shapes and AI-assisted diagram generation from codebases. <details><summary>More about</summary>
 
-  It lets developers and technical teams create AI-powered internal tools without writing full-stack code, accelerating delivery of data-driven applications.
+  It helps developers visualize and document system architectures collaboratively while keeping sensitive diagrams private through client-side encryption.
 
-  _Another 'AI app builder' promising to eliminate DevOps — until you realize you're just trading YAML for drag-and-drop and still need to understand your data schema._
+  _Another tool promising to replace tribal knowledge with encrypted diagrams that no one will actually keep updated after the initial sprint._
 
-  `low-code` `ai-app-builder` `enterprise` `workflows`
+  `diagramming` `architecture` `collaboration` `encryption` `aws-gcp`
   </details>
-- **[UnifAI Network](https://unifai.network)** UnifAI Network is a developer platform for building and deploying AI agents focused on DeFi strategy automation using a deterministic runtime and unified tool integration. <details><summary>More about</summary>
+- **[Softr](https://softr.io)** Softr is an AI-powered no-code platform for building secure business portals, internal tools, and dashboards by connecting to data sources and using AI to generate apps from prompts. <details><summary>More about</summary>
 
-  It offers developers a turnkey way to create, test, and run autonomous DeFi agents without managing infrastructure or writing low-level protocol glue code.
+  It lets developers and non-developers quickly build and deploy production-ready internal tools without writing code, reducing reliance on traditional dev cycles for operational apps.
 
-  _Another ‘agent platform’ promising to replace dev work with YAML and hope, while quietly requiring deep DeFi expertise to avoid rug pulls._
+  _Finally, a way to build that internal tool your team begged for — without opening a ticket, waiting six weeks, or learning yet another low-code platform that still requires SQL._
 
-  `defi` `ai-agents` `developer-platform`
+  `app-builder` `no-code` `ai-powered` `internal-tools` `workflow-automation`
+  </details>
+- **[tldraw Make Real](https://makereal.tldraw.com)** makereal.tldraw.com is a web-based tool that converts hand-drawn UI sketches in tldraw into functional React or HTML/CSS code via AI. <details><summary>More about</summary>
+
+  It lets developers go from visual design to deployable frontend code rapidly, reducing the friction between mockups and implementation.
+
+  _Hope you enjoy explaining to your designer why their beautiful Figma file is now a pile of semi-functional divs generated by an AI that only understands boxes._
+
+  `ui-generation` `design-to-code` `frontend` `ai-assistant`
+  </details>
+- **[TreeScale](https://treescale.com)** TreeScale is a no-code SaaS platform that turns LLM prompts and prompt chains into deployable APIs with integrated data storage, debugging, and tool integrations. <details><summary>More about</summary>
+
+  Lets developers ship LLM-powered backends without writing code or managing infrastructure, accelerating prototyping and integration of AI into existing tools.
+
+  _The illusion that you can skip understanding APIs, data flow, and model behavior by just chaining prompts in a GUI._
+
+  `no-code` `llm` `api-builder` `prompt-chaining` `saas`
+  </details>
+- **[UnifAI Network](https://unifai.network)** UnifAI Network is a DeFAI platform offering an AI agent builder for creating and automating liquidity strategies on DeFi protocols like Meteora and Solana. <details><summary>More about</summary>
+
+  It lets developers deploy autonomous financial agents without coding by composing pre-built strategies or using a Developer SDK.
+
+  _Finally, a way to feel productive while your agent loses money in memecoin markets 24/7._
+
+  `defi` `ai-agent-builder` `mcp` `deployment`
+  </details>
+- **[Web3 GPT](https://w3gpt.ai)** Web3GPT is a tool that lets users deploy smart contracts and create AI agents for onchain tasks via a chat interface. <details><summary>More about</summary>
+
+  It merges AI agents with blockchain development, letting developers generate and deploy smart contracts through natural language prompts.
+
+  _Finally, a way to feel productive while pretending your AI understands solidity better than you do._
+
+  `web3` `ai-agents` `smart-contracts`
   </details>
 
 ## Scaffolding & Boilerplate
@@ -474,7 +552,14 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 - **[packkitlabs/create-packkit-js](https://github.com/packkitlabs/create-packkit-js)** `⭐ 1` DanMat/create-packkit - Scaffold modern npm packages, CLIs, services, and full-stack monorepos from your agent. Three tools: inspect the option schema, preview the generated file tree, and write the project to disk — optionally creating the GitHub repo and pushing to it, or merging into an existing clone without overwriting anything. Also available as a CLI and a web configurator. npx -y packkit-mcp.
 - **[ciliyun007/openspec-scaffold](https://github.com/ciliyun007/openspec-scaffold)** `⭐ 0` `updated ≤30d` Generate the four OpenSpec files (proposal / spec / design / tasks) for a change, from one sentence. No AI call, no network.
 - **[PackkitLabs/packkit-mcp](https://github.com/packkitlabs/packkit-mcp)** `⭐ 0` PackkitLabs/packkit-mcp - Scaffold and upgrade multi-language projects with the create-packkit generators, and compose a frontend and backend into one fullstack repo.
-- **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** KI-App-Bauplan – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude Code, or Codex.
+- **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** A free web tool that turns app ideas into focused, copyable MVP plans with risk analysis and implementation steps for coding agents. <details><summary>More about</summary>
+
+  Helps developers quickly scope and plan AI-assisted app builds by converting vague ideas into actionable, agent-ready instructions.
+
+  _Another step in the prompt-engineering ouroboros where we now need AI to plan our AI planning._
+
+  `app-planning` `mvp` `coding-agent`
+  </details>
 - **[Makedraft](https://makedraft.com)** A web-based tool that generates HTML templates from AI prompts. <details><summary>More about</summary>
 
   Developers can quickly scaffold HTML templates without manual coding, accelerating frontend or email template creation.
@@ -483,41 +568,13 @@ _83 entries in 5 sections, ranked by stars. Each section opens with its top 30; 
 
   `prompt-to-html` `frontend-scaffolding` `web-templates`
   </details>
-- **[OpenZeppelin Wizard templates](https://wizard.openzeppelin.com)** An interactive smart contract generator based on OpenZeppelin Contracts. <details><summary>More about</summary>
+- **[OpenZeppelin Wizard templates](https://wizard.openzeppelin.com)** OpenZeppelin Contracts Wizard is an interactive smart contract generator based on OpenZeppelin Contracts. <details><summary>More about</summary>
 
-  It helps developers quickly scaffold secure smart contracts for multiple blockchain ecosystems using OpenZeppelin standards.
+  Helps developers build secure smart contracts faster by generating boilerplate code aligned with audited standards.
 
-  _Because nothing says 'trustless' like an AI-generated contract you still have to audit yourself._
+  _Another ‘AI-powered’ way to avoid learning Solidity, until your contract gets exploited and you realize the wizard didn’t audit your logic._
 
-  `smart-contracts` `blockchain` `code-generation` `solidity` `web3`
+  `smart-contracts` `solidity` `code-generation`
   </details>
 - **[OTF — Open Template Forest](https://otf-kit.dev)** OTF — Open Template Forest – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits.
-- **[Puzzlet AI](https://puzzlet.ai)** Puzzlet AI is a web-based tool that generates code from natural language prompts for software development tasks. <details><summary>More about</summary>
-
-  It lets developers quickly prototype or scaffold code by describing intent in plain language, reducing boilerplate writing.
-
-  _Another prompt-to-code tool that promises to replace thinking with typing, until you realize you still need to read and debug what it spat out._
-
-  `code-generation` `prompt-to-code` `developer-tool`
-  </details>
 - **[ReadMeAI](https://readmeai-six.vercel.app)** ReadMeAI – Generate professional README.md files from any GitHub repo URL with AI. Includes description, installation, usage, and contributing sections. Free, instant.
-- **[tldraw Make Real](https://makereal.tldraw.com)** A web-based tool that lets users draw UI designs in tldraw and converts them into functional, deployable code. <details><summary>More about</summary>
-
-  Turns visual sketches into working frontend code, reducing the gap between design and implementation for developers.
-
-  _Finally, a tool that promises to make your crayon wireframes production-ready — because we all needed more ways to feel guilty about our Figma skills._
-
-  `ui-generation` `design-to-code` `frontend`
-  </details>
-- **[Vellum](https://vellum.ai)** An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.
-
-## Others
-
-- **[Replit Agent](https://replit.com/agent4)** Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform. <details><summary>More about</summary>
-
-  It enables developers and teams to collaborate with an AI agent that can design, build, and coordinate tasks in parallel, accelerating the development of full-stack applications.
-
-  _Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs vs. spaces._
-
-  `ai-agent` `replit` `full-stack` `vibe-coding`
-  </details>

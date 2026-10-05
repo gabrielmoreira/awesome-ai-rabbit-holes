@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blog__r6i__it__typesafe__jev__vs__agentic__loop__html__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Replacing an agentic classification loop with Jev
         extracted_url: https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html
-        surrounding_text: >-
-          - [Replacing an agentic classification loop with Jev](https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html) -
-          Blog: swaps an agent's classification loop for a single Jev call and reports the loop running 7x faster.
+        surrounding_text: "- [Replacing an agentic classification loop with Jev](https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html) - Blog: swaps an agent's classification loop for a single Jev call and reports the loop running 7x faster."
         confidence: high
 metadata:
   github:
@@ -39,30 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A benchmark comparing TypeSafe's Jev (a decision model) against a GPT-based agentic loop for product classification tasks.
+  why_it_matters: It demonstrates trade-offs between structured decision models and agentic loops in latency, cost, and backtracking ability for structured classification workflows.
+  mental_damage: Yet another benchmark proving that sometimes you just want a fast lookup instead of an AI that overthinks your taxonomy.
+  tags:
+    - benchmark
+    - decision-models
+    - classification
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: This is a blog post benchmarking two approaches, not a standalone tool, framework, or developer-facing product; it lacks a deployable artifact, SDK, agent, or integration identity.
   evidence:
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - The source is a blog post (typesafe-jev-vs-agentic-loop.html) with no GitHub repo, CLI, library, or hosted service described.
+    - The content is a comparative analysis of Jev and an agentic loop, not a tool developers can install or use directly.
+    - No evidence of a productized artifact, API, SDK, or downloadable tool that developers would integrate into workflows.
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:43.707Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:742f220f236520f14d1395ab31571784dfdca8f6e67119c0743a8849e3f0e0cd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog post benchmarking two approaches, not a standalone tool, framework, or developer-facing product; it lacks a deployable artifact, SDK, agent, or integration identity.
+      decision_evidence:
+        - The source is a blog post (typesafe-jev-vs-agentic-loop.html) with no GitHub repo, CLI, library, or hosted service described.
+        - The content is a comparative analysis of Jev and an agentic loop, not a tool developers can install or use directly.
+        - No evidence of a productized artifact, API, SDK, or downloadable tool that developers would integrate into workflows.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

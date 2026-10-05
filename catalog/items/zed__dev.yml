@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zed__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Zed
         extracted_url: https://zed.dev
-        surrounding_text: >-
-          - **[Zed](https://zed.dev/)** – High-performance multiplayer code editor built in Rust with integrated AI
-          assistance.
+        surrounding_text: "- **[Zed](https://zed.dev/)** – High-performance multiplayer code editor built in Rust with integrated AI assistance."
         confidence: high
 metadata:
   github:
@@ -38,41 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Zed is a high-performance, collaborative code editor built in Rust with AI-powered features like inline autocomplete
-    and agent mode.
-  why_it_matters: It redefines the editor experience by combining native speed with AI-assisted coding directly in the workflow.
-  mental_damage: Yet another editor promising to be the last one you'll ever need — until the next AI-native fork drops.
+  summary: Zed is a modern, collaborative code editor built for high-performance software development with AI-powered features.
+  why_it_matters: It matters because it reimagines the editor as a real-time collaborative environment with native AI assistance, reducing context-switching and friction in coding workflows.
+  mental_damage: It creates the anxiety of yet another editor to learn, promising seamless AI collaboration while quietly reinforcing the idea that your current setup is inadequate.
   tags:
     - editor
-    - ai-assisted
-    - rust
-    - collaborative
-  confidence: medium
+    - ai-assistant
+    - collaboration
+  confidence: high
 curation:
-  status: excluded
-  reason: >-
-    Zed is primarily a full-featured IDE/editor with AI features integrated, not a standalone coding agent or developer
-    tool that fits the catalog's narrow scope of AI-specific tools, agents, or infrastructure.
+  status: included
+  reason: Zed qualifies as a coding agent because it integrates AI as a core assistant that actively helps write, edit, and understand code within the editor, going beyond passive suggestions to interactive coding support.
   evidence:
-    - Repo description is missing, but the homepage positions Zed as a next-generation code editor
-    - >-
-      Source-list context shows it's categorized under 'Code Editors and Assistants' in awesome-ai-coding-tools,
-      suggesting it's seen as an editor first
-    - >-
-      Its AI features (like autocomplete and agent mode) are presented as enhancements to the editor, not autonomous
-      agents acting on codebases
+    - Zed's README and site emphasize AI pair programming, contextual code understanding, and in-editor agent interactions as central features.
+    - It is listed in 'awesome-ai-coding-tools' under 'Code Editors and Assistants', indicating recognition as an AI-enhanced development environment.
+    - Unlike general IDEs, Zed positions AI not as an add-on but as a foundational layer for real-time collaboration and code manipulation.
 placement:
-  primary_category: null
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.671Z'
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:49.672Z'
+    updated_at: "2026-10-05T04:58:36.187Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8bf021d61918778565559f1078543cfc7e4319cae4e03a0d1fdb22a30e3bfdfb
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f06a701e99b0791404a7b29ed658a28b4a07457df06a397641ae1e9b2f34ff6f
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Zed is primarily a full-featured IDE/editor with AI features integrated, not a standalone coding agent or
-        developer tool that fits the catalog's narrow scope of AI-specific tools, agents, or infrastructure.
+      decision_reason: Zed qualifies as a coding agent because it integrates AI as a core assistant that actively helps write, edit, and understand code within the editor, going beyond passive suggestions to interactive coding support.
       decision_evidence:
-        - Repo description is missing, but the homepage positions Zed as a next-generation code editor
-        - >-
-          Source-list context shows it's categorized under 'Code Editors and Assistants' in awesome-ai-coding-tools,
-          suggesting it's seen as an editor first
-        - >-
-          Its AI features (like autocomplete and agent mode) are presented as enhancements to the editor, not autonomous
-          agents acting on codebases
-      category_candidates: []
-      contrastive_reason: null
+        - Zed's README and site emphasize AI pair programming, contextual code understanding, and in-editor agent interactions as central features.
+        - It is listed in 'awesome-ai-coding-tools' under 'Code Editors and Assistants', indicating recognition as an AI-enhanced development environment.
+        - Unlike general IDEs, Zed positions AI not as an add-on but as a foundational layer for real-time collaboration and code manipulation.
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Zed is a standalone editor with AI deeply integrated into its core identity, not a plugin that extends an existing agent or IDE.
       review_reason: null
       review_resume_lifecycle: null

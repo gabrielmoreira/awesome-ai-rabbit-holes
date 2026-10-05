@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mandu5__jevcompat__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevcompat
         extracted_url: https://github.com/mandu5/jevcompat
-        surrounding_text: >-
-          - [jevcompat](https://github.com/mandu5/jevcompat) - Spec and conformance suite for Jev-compatible TypeSafe
-          System One API servers (proxy, mock, GitHub Action). [Project guide](community/projects/tools/jevcompat.md).
+        surrounding_text: "- [jevcompat](https://github.com/mandu5/jevcompat) - Spec and conformance suite for Jev-compatible TypeSafe System One API servers (proxy, mock, GitHub Action). [Project guide](community/projects/tools/jevcompat.md)."
         confidence: high
     - id: discovery__github__mandu5__jevcompat__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,15 +36,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jevcompat
         extracted_url: https://github.com/mandu5/jevcompat
-        surrounding_text: >-
-          - [jevcompat](https://github.com/mandu5/jevcompat) ![type:
-          cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/mandu5/jevcompat?style=flat-square&label=%E2%98%85) -
-          Interoperability: a 48-requirement spec of the `POST /v1/systemone` wire contract, each rule citing TypeSafe's
-          docs, OpenAPI file or SDKs, and a suite that checks any Jev-compatible server against it (`Choice`
-          probabilities keyed by option and summing to 1, `Score` equal to Σ i·p, 2–255 options, error shapes, answers
-          that stay put when question ids or order change), finding 2 of the 8 most-starred open ports conformant, with
-          a reference mock that breaks each rule on purpose and a proxy that fixes what can be fixed.
+        surrounding_text: "- [jevcompat](https://github.com/mandu5/jevcompat) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/mandu5/jevcompat?style=flat-square&label=%E2%98%85) - Interoperability: a 48-requirement spec of the `POST /v1/systemone` wire contract, each rule citing TypeSafe's docs, OpenAPI file or SDKs, and a suite that checks any Jev-compatible server against it (`Choice` probabilities keyed by option and summing to 1, `Score` equal to Σ i·p, 2–255 options, error shapes, answers that stay put when question ids or order change), finding 2 of the 8 most-starred open ports conformant, with a reference mock that breaks each rule on purpose and a proxy that fixes what can be fixed."
         confidence: high
 metadata:
   github:
@@ -64,9 +54,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevcompat - Spec and conformance suite for Jev-compatible TypeSafe System One API servers (proxy, mock, GitHub
-    Action). Project guide.
+  summary: jevcompat - Spec and conformance suite for Jev-compatible TypeSafe System One API servers (proxy, mock, GitHub Action). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -86,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.419Z'
+    updated_at: "2026-09-29T13:07:10.419Z"
     cause: null
     next_retry_at: null
   stars:
@@ -94,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

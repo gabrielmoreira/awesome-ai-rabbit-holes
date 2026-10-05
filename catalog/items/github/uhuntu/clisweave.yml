@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__uhuntu__clisweave__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: clisweave
         extracted_url: https://github.com/uhuntu/clisweave
-        surrounding_text: >-
-          - **[clisweave](https://github.com/uhuntu/clisweave)** `⭐ 0` — Tiny, dependency-free CLI wrapper unifying
-          Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three tools, plus a cross-tool numbered
-          session list, resume-by-row-number, and an LLM-judged topic search that finds relevant past sessions by
-          content, not just exact keyword match. Single Python package, no daemon. MIT.
+        surrounding_text: "- **[clisweave](https://github.com/uhuntu/clisweave)** `⭐ 0` — Tiny, dependency-free CLI wrapper unifying Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three tools, plus a cross-tool numbered session list, resume-by-row-number, and an LLM-judged topic search that finds relevant past sessions by content, not just exact keyword match. Single Python package, no daemon. MIT."
         confidence: high
 metadata:
   github:
@@ -42,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Tiny, dependency-free CLI wrapper unifying Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three
-    tools, plus a cross-tool numbered session list, resume-by-row-number, and an LLM-judged topic search that finds
-    relevant past sessions by content, not just exact keyword match. Single Python package, no daemon. MIT.
+  summary: "Tiny, dependency-free CLI wrapper unifying Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three tools, plus a cross-tool numbered session list, resume-by-row-number, and an LLM-judged topic search that finds relevant past sessions by content, not just exact keyword match. Single Python package, no daemon. MIT."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -55,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.53
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.40 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -69,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.482Z'
+    updated_at: "2026-09-29T13:07:10.482Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

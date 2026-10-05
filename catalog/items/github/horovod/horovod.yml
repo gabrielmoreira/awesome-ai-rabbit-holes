@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__horovod__horovod__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,12 +20,7 @@ provenance:
           - Frameworks for Training
         anchor_text: Horovod
         extracted_url: https://github.com/horovod/horovod
-        surrounding_text: >-
-          | [Horovod](https://github.com/horovod/horovod)                        | Distributed training framework for
-          TensorFlow, Keras, PyTorch, and Apache
-          MXNet.                                                                                                                           
-          | ![GitHub Badge](https://img.shields.io/github/stars/horovod/horovod.svg?style=flat-square)                  
-          |
+        surrounding_text: "| [Horovod](https://github.com/horovod/horovod)                        | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/horovod/horovod.svg?style=flat-square)                   |"
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: true
     full_name: horovod/horovod
     html_url: https://github.com/horovod/horovod
-    created_at: '2017-08-09T19:39:59Z'
-    pushed_at: '2026-07-29T17:27:00Z'
+    created_at: "2017-08-09T19:39:59Z"
+    pushed_at: "2026-07-29T17:27:00Z"
     description: Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.
     homepage: http://horovod.ai
     topics:
@@ -53,15 +48,13 @@ metadata:
       - spark
       - tensorflow
       - uber
-    last_checked_at: '2026-07-30T05:05:38.561Z'
+    last_checked_at: "2026-07-30T05:05:38.561Z"
     readme:
-      fetched_at: '2026-07-30T05:05:38.561Z'
+      fetched_at: "2026-07-30T05:05:38.561Z"
       bytes: 16520
 insights:
   summary: Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.
-  why_it_matters: >-
-    Enables developers to scale single-GPU training scripts to many GPUs or hosts with minimal code changes and high
-    efficiency.
+  why_it_matters: Enables developers to scale single-GPU training scripts to many GPUs or hosts with minimal code changes and high efficiency.
   mental_damage: Finally, a way to turn your local training script into a distributed nightmare with just a few lines of code.
   tags:
     - distributed-training
@@ -72,9 +65,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Horovod is a distributed deep learning training framework, not a developer-facing AI tool, agent, or workflow
-    product for software developers.
+  reason: Horovod is a distributed deep learning training framework, not a developer-facing AI tool, agent, or workflow product for software developers.
   evidence:
     - Repo description explicitly states it is a distributed training framework for deep learning libraries
     - README emphasizes scaling training scripts across GPUs/hosts, not developer tooling or AI workflows
@@ -88,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.619Z'
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:38.561Z'
+    updated_at: "2026-07-30T05:05:38.561Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -113,9 +104,7 @@ processing:
       input_hash: sha256:9c11e09e626fb1ed80383c00a3991ab133f6343e014601d68463e37332908859
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Horovod is a distributed deep learning training framework, not a developer-facing AI tool, agent, or workflow
-        product for software developers.
+      decision_reason: Horovod is a distributed deep learning training framework, not a developer-facing AI tool, agent, or workflow product for software developers.
       decision_evidence:
         - Repo description explicitly states it is a distributed training framework for deep learning libraries
         - README emphasizes scaling training scripts across GPUs/hosts, not developer tooling or AI workflows

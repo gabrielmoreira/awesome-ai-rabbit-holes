@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__defract__dev__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,10 +19,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: defract
         extracted_url: https://defract.dev
-        surrounding_text: >-
-          - **[defract](https://defract.dev)** — macOS GUI harness for Claude Code. Drives an opinionated lifecycle
-          (story → design → architecture → implementation → review) with a visual design stage and review gates, not
-          just parallel runs. Local-first, bring-your-own-Anthropic, free.
+        surrounding_text: "- **[defract](https://defract.dev)** — macOS GUI harness for Claude Code. Drives an opinionated lifecycle (story → design → architecture → implementation → review) with a visual design stage and review gates, not just parallel runs. Local-first, bring-your-own-Anthropic, free."
         confidence: high
 metadata:
   github:
@@ -40,34 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    defract — macOS GUI harness for Claude Code. Drives an opinionated lifecycle (story → design → architecture →
-    implementation → review) with a visual design stage and review gates, not just parallel runs. Local-first,
-    bring-your-own-Anthropic, free.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Defract is a macOS and Windows desktop application that orchestrates parallel Claude Code agents across isolated git worktrees to manage end-to-end software development workflows from scoping to release.
+  why_it_matters: It reduces cognitive load and prevents agent collisions by letting humans approve high-level decisions while agents execute coding tasks in parallel, isolated environments.
+  mental_damage: Finally, a way to feel like a manager of AI interns without actually having to manage anything.
+  tags:
+    - agent-orchestration
+    - git-worktrees
+    - claude-code
+    - parallel-agents
+    - workflow-automation
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.67
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
     - agent-orchestration
-  section: Claude Code & Agent Tools
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +72,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:48.804Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fb7774c8a89b652bd44a1f0e7f55e84c9570e7c3b935a86657cefb5d8fe60d66
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: Defract coordinates multiple Claude Code agents across isolated git worktrees to manage full software development lifecycles, making it an agent orchestration platform rather than a coding agent itself.
+      decision_evidence:
+        - Runs parallel Claude Code agents in their own git worktrees for story, design, architecture, review, and release
+        - Provides an integrated UI for backlog grooming, scoping, design, implementation, review, and release with human approval gates
+        - Orchestrates agent workflows with autopilot and human-in-the-loop modes across multiple concurrent stories
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Defract manages multiple agents and workflows rather than acting as a primary coding agent itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'agent-orchestration'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

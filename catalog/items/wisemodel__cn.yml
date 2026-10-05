@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wisemodel__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,30 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    wisemodel.cn is a neutral open AI community platform aggregating models, datasets, and code for building agent
-    ecosystems.
-  why_it_matters: >-
-    It offers a centralized, all-in-one hub for developers to discover and access cutting-edge AI resources to
-    accelerate agent-based development.
-  mental_damage: Another 'everything AI' portal promising agent utopia while adding to the infinite scroll of resource overload.
+  summary: wisemodel.cn is a Chinese AI community platform hosting models, datasets, and code for building agent ecosystems.
+  why_it_matters: It provides a centralized hub for discovering and accessing AI resources useful for developer workflows involving agents and models.
+  mental_damage: Another model zoo promising AGI while you just want to stop hallucinating your API keys into production.
   tags:
-    - ai-platform
+    - ai-community
     - model-hub
     - agent-ecosystem
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a general AI resource directory and community platform without a clear developer-tooling product identity; it
-    aggregates content rather than providing a tool, agent, framework, or workflow that developers actively use to
-    build, edit, or orchestrate code or agents.
+  reason: The platform is a general AI resource directory and community hub, not a developer-facing tool, agent, framework, or infrastructure with a clear workflow automation or coding assistance purpose.
   evidence:
-    - Described as a '中立开放的AI开源社区' (neutral open AI open-source community) pooling models, datasets, and code
-    - >-
-      Positioned as an 'all-in-one platform for building future agent ecosystems' — a broad vision, not a specific
-      developer tool
-    - Listed in awesome-LLM-resources under '社区 Community' as a resource summary, not a tool
+    - Described as a neutral open AI open-source community aggregating models, datasets, and code for building agent ecosystems
+    - Listed in awesome-LLM-resources under '社区 Community' as a summary of global LLM resources
+    - No evidence of being a coding agent, framework, app builder, or specific developer tool with autonomous or integrative functionality
 placement:
   primary_category: null
   secondary_categories: []
@@ -70,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,29 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:53.812Z'
+    updated_at: "2026-10-05T04:57:33.209Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a449b1d5aebab84714dfb2a8d92b6a0b2f7922508341a5960eb7ef840167bd2a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e65144f8aee1931b0088996845e9baed8a3aa9b35dd487561b0d2e7d6f714543
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a general AI resource directory and community platform without a clear developer-tooling product identity;
-        it aggregates content rather than providing a tool, agent, framework, or workflow that developers actively use
-        to build, edit, or orchestrate code or agents.
+      decision_reason: The platform is a general AI resource directory and community hub, not a developer-facing tool, agent, framework, or infrastructure with a clear workflow automation or coding assistance purpose.
       decision_evidence:
-        - Described as a '中立开放的AI开源社区' (neutral open AI open-source community) pooling models, datasets, and code
-        - >-
-          Positioned as an 'all-in-one platform for building future agent ecosystems' — a broad vision, not a specific
-          developer tool
-        - Listed in awesome-LLM-resources under '社区 Community' as a resource summary, not a tool
+        - Described as a neutral open AI open-source community aggregating models, datasets, and code for building agent ecosystems
+        - Listed in awesome-LLM-resources under '社区 Community' as a summary of global LLM resources
+        - No evidence of being a coding agent, framework, app builder, or specific developer tool with autonomous or integrative functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

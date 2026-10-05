@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apache__hamilton__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,7 @@ provenance:
           - Workflow
         anchor_text: Hamilton
         extracted_url: https://github.com/dagworks-inc/hamilton
-        surrounding_text: >-
-          | [Hamilton](https://github.com/dagworks-inc/hamilton)         | A lightweight framework to represent
-          ML/language model pipelines as a series of python functions.                 | ![GitHub
-          Badge](https://img.shields.io/github/stars/dagworks-inc/hamilton.svg?style=flat-square)   |
+        surrounding_text: "| [Hamilton](https://github.com/dagworks-inc/hamilton)         | A lightweight framework to represent ML/language model pipelines as a series of python functions.                 | ![GitHub Badge](https://img.shields.io/github/stars/dagworks-inc/hamilton.svg?style=flat-square)   |"
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: apache/hamilton
     html_url: https://github.com/apache/hamilton
-    created_at: '2023-02-23T17:16:48Z'
-    pushed_at: '2026-09-20T19:39:18Z'
-    description: >-
-      Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that
-      encode lineage/tracing and metadata. Runs and scales everywhere python does.
+    created_at: "2023-02-23T17:16:48Z"
+    pushed_at: "2026-09-20T19:39:18Z"
+    description: Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage/tracing and metadata. Runs and scales everywhere python does.
     homepage: https://hamilton.apache.org/
     topics:
       - dag
@@ -59,17 +54,13 @@ metadata:
       - python
       - rag
       - software-engineering
-    last_checked_at: '2026-09-21T04:13:43.593Z'
+    last_checked_at: "2026-09-21T04:13:43.593Z"
     readme:
-      fetched_at: '2026-09-21T04:13:43.593Z'
+      fetched_at: "2026-09-21T04:13:43.593Z"
       bytes: 18993
 insights:
-  summary: >-
-    Apache Hamilton is a lightweight Python library for defining, visualizing, and executing portable DAGs of data
-    transformations for ETL, ML, LLM, and RAG workflows.
-  why_it_matters: >-
-    It helps data teams standardize and scale data pipelines with modular, testable, and self-documenting workflows that
-    run anywhere Python does.
+  summary: Apache Hamilton is a lightweight Python library for defining, visualizing, and executing portable DAGs of data transformations for ETL, ML, LLM, and RAG workflows.
+  why_it_matters: It helps data teams standardize and scale data pipelines with modular, testable, and self-documenting workflows that run anywhere Python does.
   mental_damage: Finally, a way to turn your notebook spaghetti into a DAG without turning your team into a DAG.
   tags:
     - dag
@@ -93,17 +84,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.602Z'
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:43.593Z'
+    updated_at: "2026-09-21T04:13:43.593Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -118,9 +109,7 @@ processing:
       input_hash: sha256:5e8b322cda8c8e858c6e83f845a431a57d37a96a1c39ce2f82f3394574af96cf
       proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: >-
-        The product is a code-first framework for building data transformation DAGs, fitting the developer-tooling scope
-        as a reusable library for workflows.
+      decision_reason: The product is a code-first framework for building data transformation DAGs, fitting the developer-tooling scope as a reusable library for workflows.
       decision_evidence:
         - Repo description explicitly calls it a library for defining testable, modular DAGs
         - README emphasizes it as a Python library for data transformations with portable execution
@@ -128,8 +117,6 @@ processing:
       category_candidates:
         - ai-frameworks
         - agent-orchestration
-      contrastive_reason: >-
-        Choose ai-frameworks over agent-orchestration because the core product is a code-first DAG library, not an
-        operated workbench or multi-agent platform.
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the core product is a code-first DAG library, not an operated workbench or multi-agent platform.
       review_reason: null
       review_resume_lifecycle: null

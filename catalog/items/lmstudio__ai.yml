@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lmstudio__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,10 @@ provenance:
           - Inference UI
         anchor_text: LM Studio
         extracted_url: https://lmstudio.ai
-        surrounding_text: '- [LM Studio](https://lmstudio.ai/) - Discover, download, and run local LLMs.'
+        surrounding_text: "- [LM Studio](https://lmstudio.ai/) - Discover, download, and run local LLMs."
         confidence: high
     - id: discovery__lmstudio__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,12 +33,10 @@ provenance:
           - Local LLM Tools
         anchor_text: LM Studio
         extracted_url: https://lmstudio.ai
-        surrounding_text: >-
-          - **[LM Studio](https://lmstudio.ai/)** – Desktop app for discovering, downloading, and running local LLMs
-          with a built-in chat UI and API server.
+        surrounding_text: "- **[LM Studio](https://lmstudio.ai/)** – Desktop app for discovering, downloading, and running local LLMs with a built-in chat UI and API server."
         confidence: high
     - id: discovery__lmstudio__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -50,7 +48,7 @@ provenance:
           - 推理 Inference
         anchor_text: LM Studio (`🔥`)
         extracted_url: https://lmstudio.ai
-        surrounding_text: '12. [LM Studio (`🔥`)](https://lmstudio.ai/): Discover, download, and run local LLMs.'
+        surrounding_text: "12. [LM Studio (`🔥`)](https://lmstudio.ai/): Discover, download, and run local LLMs."
         confidence: high
 metadata:
   github:
@@ -68,35 +66,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LM Studio Bionic is a local desktop agent for creating documents, slides, PDFs, and software using local or open
-    models.
-  why_it_matters: >-
-    It lets developers build and edit code and content locally with agentic capabilities, reducing reliance on
-    cloud-based tools.
-  mental_damage: Yet another agent promising to replace your editor, terminal, and will to manually type anything ever again.
+  summary: A desktop application and inference runtime for running open-source LLMs locally, featuring the Bionic agent for automated coding and desktop tasks.
+  why_it_matters: It provides a private, offline, and cost-effective way to leverage powerful open-weight models for coding and general productivity on your own hardware.
+  mental_damage: The perfect tool for when you want to use your entire GPU budget to run a local agent that's just as confused by your codebase as you are.
   tags:
-    - local-ai
-    - agent
-    - coding
-    - document-generation
-  confidence: medium
+    - local-llm
+    - inference
+    - coding-agent
+    - desktop-app
+    - privacy
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
+  reason: LM Studio is primarily a local inference runtime and desktop environment for managing open-weight models, with the Bionic agent acting as a feature of that local ecosystem.
   evidence:
-    - jev-latest choice confidence 0.88
+    - The site explicitly emphasizes 'Natively local' execution and being 'Powered by the LM Studio runtime'.
+    - LM Studio is a canonical positive for the local-ai category.
 placement:
   primary_category: local-ai
   secondary_categories: []
   section: Desktop Chat & UIs
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''app-builders'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.580Z'
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,37 +101,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:45.792Z'
+    updated_at: "2026-10-05T04:40:09.115Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e0bdf24adce4b2fb25b8a2754b54170c366c6e6814f8777d62dfbbf745b73fe2
-      proposed_primary_category: app-builders
-      disagreement: true
-      decision_reason: >-
-        LM Studio Bionic positions itself as an agent for creating software and documents from prompts, aligning with
-        app-builder behavior rather than editing existing codebases.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:986b1ba33ca712f5f262479f4807b1f7f1696ec59bc17ece6a03f3d2b4eb5374
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: LM Studio is primarily a local inference runtime and desktop environment for managing open-weight models, with the Bionic agent acting as a feature of that local ecosystem.
       decision_evidence:
-        - >-
-          Scraped site: 'Bionic is LM Studio's agent for work and code. Create documents, slides, PDFs, and software
-          with local or frontier open models.'
-        - >-
-          Source-list context: Listed in awesome-ai-coding-tools under 'Local LLM Tools' with the same phrasing about
-          creating software.
-        - >-
-          README excerpt emphasizes automations, computer control, and coding tasks — but frames output as new artifacts
-          (documents, slides, PDFs, software), not edits to existing repos.
+        - The site explicitly emphasizes 'Natively local' execution and being 'Powered by the LM Studio runtime'.
+        - LM Studio is a canonical positive for the local-ai category.
       category_candidates:
-        - app-builders
+        - local-ai
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Bionic’s primary use case is generating new apps, documents, and
-        slides from prompts, not editing or iteratively improving an existing codebase.
-      review_reason: 'Categorization review required: placement disagreement: retained ''local-ai'', proposed ''app-builders'''
+      contrastive_reason: Choose local-ai over coding-agents because the core product identity is the local model management and inference runtime, with agentic capabilities being an integrated part of the local workflow.
+      review_reason: null
       review_resume_lifecycle: null

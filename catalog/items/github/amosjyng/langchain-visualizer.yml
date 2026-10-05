@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amosjyng__langchain-visualizer__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,10 +20,7 @@ provenance:
           - Services
         anchor_text: Langchain visualizer
         extracted_url: https://github.com/amosjyng/langchain-visualizer
-        surrounding_text: >-
-          - [Langchain visualizer](https://github.com/amosjyng/langchain-visualizer): visualization and debugging tool
-          for LangChain workflows ![GitHub Repo
-          stars](https://img.shields.io/github/stars/amosjyng/langchain-visualizer?style=social)
+        surrounding_text: "- [Langchain visualizer](https://github.com/amosjyng/langchain-visualizer): visualization and debugging tool for LangChain workflows ![GitHub Repo stars](https://img.shields.io/github/stars/amosjyng/langchain-visualizer?style=social)"
         confidence: high
 metadata:
   github:
@@ -33,21 +30,19 @@ metadata:
     archived: false
     full_name: amosjyng/langchain-visualizer
     html_url: https://github.com/amosjyng/langchain-visualizer
-    created_at: '2023-01-23T12:03:50Z'
-    pushed_at: '2024-03-06T02:59:14Z'
+    created_at: "2023-01-23T12:03:50Z"
+    pushed_at: "2024-03-06T02:59:14Z"
     description: Visualization and debugging tool for LangChain workflows
-    homepage: ''
+    homepage: ""
     topics:
       - langchain
-    last_checked_at: '2026-09-17T04:13:43.257Z'
+    last_checked_at: "2026-09-17T04:13:43.257Z"
     readme:
-      fetched_at: '2026-09-17T04:13:43.257Z'
+      fetched_at: "2026-09-17T04:13:43.257Z"
       bytes: 4233
 insights:
   summary: Visualization and debugging tool for LangChain workflows with a UI adapted from Ought's ICE visualizer.
-  why_it_matters: >-
-    Developers can inspect LangChain agent execution flows, prompts, costs, and tool calls in real-time, improving
-    observability for complex LLM workflows.
+  why_it_matters: Developers can inspect LangChain agent execution flows, prompts, costs, and tool calls in real-time, improving observability for complex LLM workflows.
   mental_damage: Finally, a way to see why your LangChain agent spent 3 minutes and $2.47 to answer 'what is 2+2'.
   tags:
     - langchain
@@ -67,21 +62,21 @@ placement:
   section: Observability & Tracing
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''evals'''
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'evals'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.602Z'
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:43.257Z'
+    updated_at: "2026-09-17T04:13:43.257Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -96,18 +91,14 @@ processing:
       input_hash: sha256:b8cb9d18bef55d1c0fd9a36b9a1770e7462108fac828616487d887e0b216bd8d
       proposed_primary_category: evals
       disagreement: true
-      decision_reason: >-
-        Core job is tracing and visualizing LangChain workflows, which aligns with observability/tracing for model/agent
-        behavior.
+      decision_reason: Core job is tracing and visualizing LangChain workflows, which aligns with observability/tracing for model/agent behavior.
       decision_evidence:
-        - 'Repo description: ''Visualization and debugging tool for LangChain workflows'''
-        - 'README: ''See the full prompt text, inspect execution flow, observe tool calls, and see LLM costs'''
+        - "Repo description: 'Visualization and debugging tool for LangChain workflows'"
+        - "README: 'See the full prompt text, inspect execution flow, observe tool calls, and see LLM costs'"
         - Primary value is execution tracing/visualization, not coding assistance or framework building
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: >-
-        Choose evals over ai-frameworks because the product's main job is tracing/visualizing agent behavior rather than
-        serving as a code-first building block.
-      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''evals'''
+      contrastive_reason: Choose evals over ai-frameworks because the product's main job is tracing/visualizing agent behavior rather than serving as a code-first building block.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'evals'"
       review_resume_lifecycle: null

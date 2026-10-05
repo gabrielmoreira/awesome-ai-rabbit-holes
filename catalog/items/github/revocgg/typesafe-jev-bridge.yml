@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__revocgg__typesafe-jev-bridge__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - SDKs & clients
         anchor_text: typesafe-jev-bridge
         extracted_url: https://github.com/revocgg/typesafe-jev-bridge
-        surrounding_text: >-
-          - [typesafe-jev-bridge](https://github.com/RevocGG/typesafe-jev-bridge) - Use the TypeSafe Jev decision model
-          (System One) anywhere: zero-dependency OpenAI-compatible bridge for 9Router, Claude Code, Cursor, Cline & any
-          OpenAI SDK. Typed yes/no, choice & score judgments via CLI or HTTP.
+        surrounding_text: "- [typesafe-jev-bridge](https://github.com/RevocGG/typesafe-jev-bridge) - Use the TypeSafe Jev decision model (System One) anywhere: zero-dependency OpenAI-compatible bridge for 9Router, Claude Code, Cursor, Cline & any OpenAI SDK. Typed yes/no, choice & score judgments via CLI or HTTP."
         confidence: high
 metadata:
   github:
@@ -40,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    typesafe-jev-bridge - Use the TypeSafe Jev decision model (System One) anywhere: zero-dependency OpenAI-compatible
-    bridge for 9Router, Claude Code, Cursor, Cline & any OpenAI SDK. Typed yes/no, choice & score judgments via CLI or
-    HTTP.
+  summary: "typesafe-jev-bridge - Use the TypeSafe Jev decision model (System One) anywhere: zero-dependency OpenAI-compatible bridge for 9Router, Claude Code, Cursor, Cline & any OpenAI SDK. Typed yes/no, choice & score judgments via CLI or HTTP."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

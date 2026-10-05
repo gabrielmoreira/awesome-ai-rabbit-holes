@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automl__auto-pytorch__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - AutoML
         anchor_text: Auto-PyTorch
         extracted_url: https://github.com/automl/auto-pytorch
-        surrounding_text: >-
-          | [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)                       | Automatic architecture search
-          and hyperparameter optimization for
-          PyTorch.                                                                                                     
-          | ![GitHub Badge](https://img.shields.io/github/stars/automl/Auto-PyTorch.svg?style=flat-square)             |
+        surrounding_text: "| [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)                       | Automatic architecture search and hyperparameter optimization for PyTorch.                                                                                                      | ![GitHub Badge](https://img.shields.io/github/stars/automl/Auto-PyTorch.svg?style=flat-square)             |"
         confidence: high
 metadata:
   github:
@@ -33,26 +29,22 @@ metadata:
     archived: false
     full_name: automl/Auto-PyTorch
     html_url: https://github.com/automl/Auto-PyTorch
-    created_at: '2018-11-30T08:18:34Z'
-    pushed_at: '2024-04-09T06:17:08Z'
+    created_at: "2018-11-30T08:18:34Z"
+    pushed_at: "2024-04-09T06:17:08Z"
     description: Automatic architecture search and hyperparameter optimization for PyTorch
-    homepage: ''
+    homepage: ""
     topics:
       - automl
       - deep-learning
       - pytorch
       - tabular-data
-    last_checked_at: '2026-09-21T04:13:51.117Z'
+    last_checked_at: "2026-09-21T04:13:51.117Z"
     readme:
-      fetched_at: '2026-09-21T04:13:51.117Z'
+      fetched_at: "2026-09-21T04:13:51.117Z"
       bytes: 10542
 insights:
-  summary: >-
-    Automatic architecture search and hyperparameter optimization framework for PyTorch, focused on tabular and time
-    series data.
-  why_it_matters: >-
-    Automates the design and tuning of deep learning models for developers working with structured data, reducing manual
-    experimentation.
+  summary: Automatic architecture search and hyperparameter optimization framework for PyTorch, focused on tabular and time series data.
+  why_it_matters: Automates the design and tuning of deep learning models for developers working with structured data, reducing manual experimentation.
   mental_damage: Finally, a way to stop guessing neural network architectures—now you can just argue with the optimizer instead.
   tags:
     - automl
@@ -63,13 +55,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an AutoML framework for PyTorch, not a developer-tooling product in the catalog's scope (coding agents,
-    IDEs, extensions, etc.).
+  reason: This is an AutoML framework for PyTorch, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
   evidence:
-    - >-
-      Repo description explicitly states it is for automatic architecture search and hyperparameter optimization for
-      PyTorch
+    - Repo description explicitly states it is for automatic architecture search and hyperparameter optimization for PyTorch
     - README confirms focus on tabular/time series AutoDL, not developer workflow tooling
     - Source-list context places it under AutoML, not developer tooling
 placement:
@@ -81,17 +69,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:51.117Z'
+    updated_at: "2026-09-21T04:13:51.117Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -106,13 +94,9 @@ processing:
       input_hash: sha256:66e9db92211413d5cd633c77ad888d175d596c0ccd1d6a0ec27d144ec8433c6d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an AutoML framework for PyTorch, not a developer-tooling product in the catalog's scope (coding agents,
-        IDEs, extensions, etc.).
+      decision_reason: This is an AutoML framework for PyTorch, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
       decision_evidence:
-        - >-
-          Repo description explicitly states it is for automatic architecture search and hyperparameter optimization for
-          PyTorch
+        - Repo description explicitly states it is for automatic architecture search and hyperparameter optimization for PyTorch
         - README confirms focus on tabular/time series AutoDL, not developer workflow tooling
         - Source-list context places it under AutoML, not developer tooling
       category_candidates: []

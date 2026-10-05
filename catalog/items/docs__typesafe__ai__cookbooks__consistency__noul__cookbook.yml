@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__consistency__noul__cookbook__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Model behavior and evaluation
         anchor_text: Noul self-consistency
         extracted_url: https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook
-        surrounding_text: >-
-          - [Noul self-consistency](https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook) - Inspect repeated
-          answers and see how a review interval changes automatic-decision coverage.
+        surrounding_text: "- [Noul self-consistency](https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook) - Inspect repeated answers and see how a review interval changes automatic-decision coverage."
         confidence: high
 metadata:
   github:
@@ -38,17 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe AI cookbook demonstrating self-consistency scoring of nouls (probabilistic true/false judgments) for insurance claim triage using repeated LLM sampling.
+  why_it_matters: Shows how to quantify model uncertainty in borderline decisions and route ambiguous cases to human review while preserving underlying probabilities.
+  mental_damage: Another academic-style notebook that proves LLMs are inconsistent, wrapped in just enough code to feel useful before you realize you’ll never run it.
+  tags:
+    - decision-models
+    - evals
+    - noul
+    - typesafe
+    - self-consistency
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a documentation page or educational cookbook, not a standalone developer tool, product, or reusable infrastructure; it demonstrates a concept but does not provide a deployable agent, framework, SDK, or workflow tool for direct use.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.18 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The URL points to a documentation cookbook on typesafe.ai, not a GitHub repo or standalone product.
+    - The content is a Jupyter-notebook-style tutorial with setup instructions, sample code, and explanation of a self-consistency experiment using TypeSafe's noul outputs.
+    - It lacks any indication of being a reusable library, CLI, agent, or platform; it is an illustrative example, not a tool.
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:42.457Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:638f08677baa91490cbb934cd1828f32658a46f71042b84b7fa3e9f8488096a3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page or educational cookbook, not a standalone developer tool, product, or reusable infrastructure; it demonstrates a concept but does not provide a deployable agent, framework, SDK, or workflow tool for direct use.
+      decision_evidence:
+        - The URL points to a documentation cookbook on typesafe.ai, not a GitHub repo or standalone product.
+        - The content is a Jupyter-notebook-style tutorial with setup instructions, sample code, and explanation of a self-consistency experiment using TypeSafe's noul outputs.
+        - It lacks any indication of being a reusable library, CLI, agent, or platform; it is an illustrative example, not a tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

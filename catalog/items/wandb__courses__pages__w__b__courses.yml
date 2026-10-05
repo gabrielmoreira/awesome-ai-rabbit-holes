@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wandb__courses__pages__w__b__courses__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,12 +18,10 @@ provenance:
           - 课程 Course
         anchor_text: Weights & Biases AI Academy
         extracted_url: https://wandb.courses/pages/w-b-courses
-        surrounding_text: >-
-          44. [Weights & Biases AI Academy](https://www.wandb.courses/pages/w-b-courses): Finetuning, building with
-          LLMs, Structured outputs and more LLM courses.
+        surrounding_text: "44. [Weights & Biases AI Academy](https://www.wandb.courses/pages/w-b-courses): Finetuning, building with LLMs, Structured outputs and more LLM courses."
         confidence: high
     - id: discovery__www__wandb__courses__pages__w__b__courses__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,9 +33,7 @@ provenance:
           - 课程 Course
         anchor_text: Weights & Biases AI Academy
         extracted_url: https://www.wandb.courses/pages/w-b-courses
-        surrounding_text: >-
-          44. [Weights & Biases AI Academy](https://www.wandb.courses/pages/w-b-courses): Finetuning, building with
-          LLMs, Structured outputs and more LLM courses.
+        surrounding_text: "44. [Weights & Biases AI Academy](https://www.wandb.courses/pages/w-b-courses): Finetuning, building with LLMs, Structured outputs and more LLM courses."
         confidence: high
 metadata:
   github:
@@ -55,25 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Weights & Biases AI Academy is a free educational platform offering courses on LLMs, agents, AI-assisted
-    programming, and related topics.
-  why_it_matters: It helps developers learn practical AI skills through structured, vendor-backed coursework.
-  mental_damage: >-
-    Another opportunity to feel behind while completing yet another certificate-optional syllabus you’ll never list on
-    your resume.
+  summary: Weights & Biases AI Academy is a course platform offering educational resources on LLMs, agents, and related AI topics.
+  why_it_matters: It provides structured learning for developers seeking to understand and apply AI concepts in software development.
+  mental_damage: Another curated list of AI courses to add to the backlog of things you’ll never finish.
   tags:
     - education
+    - courses
     - llm
-    - agents
-    - courseware
   confidence: high
 curation:
   status: excluded
-  reason: It is an educational resource, not a developer-facing AI tool, agent, or infrastructure product.
+  reason: The AI Academy is an educational resource platform, not a developer-facing AI tool, agent, framework, or infrastructure product; it does not enable coding workflows, automation, or direct AI-assisted development.
   evidence:
-    - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' as a learning resource
-    - URL (wandb.courses) and name indicate it is a course platform, not a runtime, SDK, or agent
+    - Repo description is missing; the source is a course site (wandb.courses) focused on learning materials
+    - Source-list context shows it appears only in an awesome list as a '课程 Course' under LLM resources, indicating educational content
+    - No claims of being a tool, agent, SDK, or platform that developers use to build, automate, or augment software development tasks
 placement:
   primary_category: null
   section: null
@@ -83,30 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:07.626Z'
+    updated_at: "2026-10-05T04:57:06.392Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0a02e90a3733466958e9f6da50c3c1afed73eaa50eadeb340e915b47bf025171
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a862ce923da18247222fafb3b8d60324811a7d50ab20d5e74105266ef120c74c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is an educational resource, not a developer-facing AI tool, agent, or infrastructure product.
+      decision_reason: The AI Academy is an educational resource platform, not a developer-facing AI tool, agent, framework, or infrastructure product; it does not enable coding workflows, automation, or direct AI-assisted development.
       decision_evidence:
-        - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' as a learning resource
-        - URL (wandb.courses) and name indicate it is a course platform, not a runtime, SDK, or agent
+        - Repo description is missing; the source is a course site (wandb.courses) focused on learning materials
+        - Source-list context shows it appears only in an awesome list as a '课程 Course' under LLM resources, indicating educational content
+        - No claims of being a tool, agent, SDK, or platform that developers use to build, automate, or augment software development tasks
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

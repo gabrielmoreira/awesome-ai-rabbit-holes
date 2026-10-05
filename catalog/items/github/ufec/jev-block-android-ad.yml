@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ufec__jev-block-android-ad__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,14 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-block-android-ad
         extracted_url: https://github.com/ufec/jev-block-android-ad
-        surrounding_text: >-
-          - [jev-block-android-ad](https://github.com/ufec/jev-block-android-ad) - JevNoiseGate filters unwanted
-          notifications and SMS on Android. Rather than matching keywords, an LLM decides what's noise — and only what
-          it explicitly flags is blocked. Verification codes are matched on-device and never uploaded; anything
-          uncertain passes through.
+        surrounding_text: "- [jev-block-android-ad](https://github.com/ufec/jev-block-android-ad) - JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched on-device and never uploaded; anything uncertain passes through."
         confidence: high
     - id: discovery__github__ufec__jev-block-android-ad__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**jev-block-android-ad**'
+        anchor_text: "**jev-block-android-ad**"
         extracted_url: https://github.com/ufec/jev-block-android-ad
-        surrounding_text: >-
-          - [**jev-block-android-ad**](https://github.com/ufec/jev-block-android-ad) — An Android notification and SMS
-          filter that applies local OTP rules before asking Jev whether a message is advertising noise.
+        surrounding_text: "- [**jev-block-android-ad**](https://github.com/ufec/jev-block-android-ad) — An Android notification and SMS filter that applies local OTP rules before asking Jev whether a message is advertising noise."
         confidence: high
 metadata:
   github:
@@ -58,10 +52,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-block-android-ad - JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching
-    keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched
-    on-device and never uploaded; anything uncertain passes through.
+  summary: jev-block-android-ad - JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched on-device and never uploaded; anything uncertain passes through.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.427Z'
+    updated_at: "2026-09-29T13:07:10.427Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +80,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

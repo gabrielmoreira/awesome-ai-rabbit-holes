@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentfetch__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: agentfetch.dev
         extracted_url: https://www.agentfetch.dev
-        surrounding_text: >-
-          - [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP
-          server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp)
-          🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader,
-          FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side
-          `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at
-          [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card.
+        surrounding_text: "- [bch1212/agentfetch-mcp](https://github.com/bch1212/agentfetch-mcp) [![bch1212/agentfetch-mcp MCP server](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bch1212/agentfetch-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Token-budgeted web fetch for AI agents. Auto-routes between Trafilatura, Jina Reader, FireCrawl, and pypdf based on URL pattern. `estimate_tokens` before `fetch_url`, 6h Redis cache, server-side `max_tokens` truncation. Open source MCP server (MIT) plus hosted REST API at [agentfetch.dev](https://www.agentfetch.dev) — 500 free fetches/mo, no card."
         confidence: high
 metadata:
   github:
@@ -43,37 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web scraping and intelligence API that converts URLs into clean, token-optimized Markdown for AI agents.
-  why_it_matters: >-
-    It allows developers to give agents real-time web access without blowing context windows on HTML boilerplate or
-    managing complex scraping logic.
-  mental_damage: >-
-    Because apparently, the only way to survive the token-hungry era is to have a dedicated service to prune the
-    internet into something an LLM can digest.
+  summary: AgentFetch is an MCP-native web fetch server that provides token-budgeted, cached Markdown extraction from URLs for AI agents.
+  why_it_matters: It reduces context window waste by converting noisy web pages into LLM-ready Markdown, saving tokens and eliminating per-agent scraper maintenance.
+  mental_damage: Another MCP wrapper for a problem solved by copy-pasting into a tokenizer — now with billing tiers and six-hour cache staleness.
   tags:
-    - web-scraping
     - mcp
-    - context-optimization
-    - agent-tools
+    - web-fetch
+    - token-optimization
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
+  reason: AgentFetch is an MCP server whose primary identity is exposing web-fetching tools over the Model Context Protocol, making MCP its core product identity rather than a compatibility feature.
   evidence:
-    - jev-latest choice confidence 0.64
-    - jev winnow:e4b 0.27 below gate 0.50; proposed mcp / Browser & Web Automation; placement kept at mcp (unverified)
+    - Product markets itself as an 'MCP-native web scraping & fetch API for AI agents' and provides an MCP server install via pip
+    - "Exposes four MCP tools: fetch_url, estimate_tokens, fetch_multiple, and search_and_fetch"
+    - Positioned as a 'managed MCP web fetch server' with caching, token budgeting, and auto-routing
 placement:
   primary_category: mcp
   secondary_categories:
     - memory-and-context
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,31 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:31:23.326Z'
+    updated_at: "2026-10-05T04:27:36.571Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:626526958615c9cffd61f7b6bdc8db0a5975ba35cd3825beb6efc56d4718e77d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d63861e63d04409bb2cb7bdcc4c07a5f59803ee41a255330b8721f089fef0dc1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product identity is centered on being an MCP-native service that provides specialized tools to agents, which
-        triggers the priority rule to prefer the MCP category.
+      decision_reason: AgentFetch is an MCP server whose primary identity is exposing web-fetching tools over the Model Context Protocol, making MCP its core product identity rather than a compatibility feature.
       decision_evidence:
-        - Explicitly describes itself as 'MCP-native web scraping & fetch API for AI agents'
-        - Provides a dedicated MCP server implementation via the `agentfetch-mcp` package
-        - Offers specialized MCP tools like `fetch_url`, `estimate_tokens`, and `search_and_fetch`
+        - Product markets itself as an 'MCP-native web scraping & fetch API for AI agents' and provides an MCP server install via pip
+        - "Exposes four MCP tools: fetch_url, estimate_tokens, fetch_multiple, and search_and_fetch"
+        - Positioned as a 'managed MCP web fetch server' with caching, token budgeting, and auto-routing
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the product identity is centered on being an MCP-native server for
-        agent tool-use rather than a standalone retrieval or context management system.
+      contrastive_reason: Choose mcp over memory-and-context because AgentFetch’s core identity is as an MCP server exposing web-fetching tools, not as a memory or context system — its value is in protocol-native tool exposure, not persistence or retrieval infrastructure.
       review_reason: null
       review_resume_lifecycle: null

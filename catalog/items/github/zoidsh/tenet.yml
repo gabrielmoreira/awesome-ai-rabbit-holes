@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zoidsh__tenet__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: tenet
         extracted_url: https://github.com/zoidsh/tenet
-        surrounding_text: >-
-          | [tenet](https://github.com/zoidsh/tenet) | ★ 4 | Go | 2026-09-20 | Commit-time review gate where Jev judges
-          plain-language rules against agent-written code. |
+        surrounding_text: "| [tenet](https://github.com/zoidsh/tenet) | ★ 4 | Go | 2026-09-20 | Commit-time review gate where Jev judges plain-language rules against agent-written code. |"
         confidence: high
 metadata:
   github:
@@ -47,9 +45,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for zoidsh/tenet
     - ungh.cc (cached GitHub proxy) returned 404 for zoidsh/tenet
@@ -64,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

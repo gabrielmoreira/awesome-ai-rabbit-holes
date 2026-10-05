@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__liaoyuhua__jev-trip__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-trip
         extracted_url: https://github.com/liaoyuhua/jev-trip
-        surrounding_text: >-
-          - [jev-trip](https://github.com/liaoyuhua/jev-trip) ([site](https://jev-trip.vercel.app)) - Two Minds, One
-          Trip. https://jev-trip.vercel.app/.
+        surrounding_text: "- [jev-trip](https://github.com/liaoyuhua/jev-trip) ([site](https://jev-trip.vercel.app)) - Two Minds, One Trip. https://jev-trip.vercel.app/."
         confidence: high
     - id: discovery__github__liaoyuhua__jev-trip__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Trip
         extracted_url: https://github.com/liaoyuhua/jev-trip
-        surrounding_text: >-
-          - [Jev Trip](https://github.com/liaoyuhua/jev-trip) - `Open source` · `Free source build` · `BYOK`. Local
-          day-trip planner: TypeSafe Jev screens candidates and reviews while an LLM drafts; offline replay demo.
-          [Project guide](community/projects/apps/jev-trip.md).
+        surrounding_text: "- [Jev Trip](https://github.com/liaoyuhua/jev-trip) - `Open source` · `Free source build` · `BYOK`. Local day-trip planner: TypeSafe Jev screens candidates and reviews while an LLM drafts; offline replay demo. [Project guide](community/projects/apps/jev-trip.md)."
         confidence: high
     - id: discovery__github__liaoyuhua__jev-trip__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,15 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-trip**'
+        anchor_text: "**jev-trip**"
         extracted_url: https://github.com/liaoyuhua/jev-trip
-        surrounding_text: >-
-          - [**jev-trip**](https://github.com/liaoyuhua/jev-trip) — Jev Trip is an explainable day-trip planner. The LLM
-          plans ahead; Jev chooses and checks. Deterministic code handles route facts, time calculations, validation,
-          and versioning.
+        surrounding_text: "- [**jev-trip**](https://github.com/liaoyuhua/jev-trip) — Jev Trip is an explainable day-trip planner. The LLM plans ahead; Jev chooses and checks. Deterministic code handles route facts, time calculations, validation, and versioning."
         confidence: high
     - id: discovery__github__liaoyuhua__jev-trip__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -73,10 +65,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: jev-trip
         extracted_url: https://github.com/liaoyuhua/jev-trip
-        surrounding_text: >-
-          - [jev-trip](https://github.com/liaoyuhua/jev-trip) - Trip planner where an LLM drafts the itinerary and Jev
-          answers pass, flag, or unknown Choice questions to filter candidate places, check each planning step against
-          the user's stated preferences, and catch unreasonable plans before they propagate.
+        surrounding_text: "- [jev-trip](https://github.com/liaoyuhua/jev-trip) - Trip planner where an LLM drafts the itinerary and Jev answers pass, flag, or unknown Choice questions to filter candidate places, check each planning step against the user's stated preferences, and catch unreasonable plans before they propagate."
         confidence: high
 metadata:
   github:
@@ -114,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.384Z'
+    updated_at: "2026-09-29T13:07:10.384Z"
     cause: null
     next_retry_at: null
   stars:
@@ -122,6 +111,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

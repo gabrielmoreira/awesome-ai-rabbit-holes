@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__powerdrill__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Powerdrill AI
         anchor_text: Powerdrill AI
         extracted_url: https://powerdrill.ai
-        surrounding_text: '## [Powerdrill AI](https://powerdrill.ai/)'
+        surrounding_text: "## [Powerdrill AI](https://powerdrill.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,48 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Powerdrill.ai is an AI-powered data analysis workspace with memory that allows users to query documents and
-    databases in plain language and get sourced answers.
-  why_it_matters: >-
-    It lets developers and analysts explore internal data without writing SQL or moving data, accelerating insight
-    generation from private or on-premise sources.
-  mental_damage: >-
-    Another 'AI workspace' promising memory and learning from every use, as if the real problem was forgetting your last
-    pivot table.
+  summary: Powerdrill.ai is an AI data analysis workspace with memory that lets users query documents and databases in plain language and see cited sources for every answer.
+  why_it_matters: It helps developers and analysts get transparent, traceable insights from mixed data sources without writing SQL or code.
+  mental_damage: Another 'chat with your data' tool that promises memory but makes you wonder if your agents are just overfitting to last quarter's sales report.
   tags:
-    - ai-data-analysis
-    - context-engineering
-    - private-cloud
-  confidence: medium
+    - ai-analytics
+    - data-workspace
+    - context-memory
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    Powerdrill.ai's core novelty is persistent memory and retrieval across sessions for data analysis, making it a
-    context engineering tool rather than a coding agent or app builder.
+  status: excluded
+  reason: Powerdrill.ai is an end-user data analysis platform focused on natural language querying and source attribution, not a developer-facing AI tool for coding, agent building, or workflow automation.
   evidence:
-    - Describes itself as 'AI Data Analysis Workspace with Memory' where 'agents learn from every analysis'
-    - >-
-      Enables users to 'Ask across your documents and databases in plain language' with sourced answers showing 'the
-      page, the row and the figure behind it'
-    - >-
-      Listed in awesome-ai-agents under 'Powerdrill AI' with description 'Your AI Workspace with Memory: smarter with
-      every use'
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
-      at memory-and-context (unverified)
+    - "From scraped site: 'Your AI Workspace with Memory: smarter with every use. Your agents learn from every analysis.'"
+    - "From scraped site: 'Ask across your documents and databases in plain language. Every number comes back with the page, the row and the figure behind it.'"
+    - Appears in awesome-ai-agents under 'Powerdrill AI' as an autonomous agent, but its core function is data analysis, not coding or agent orchestration.
 placement:
-  primary_category: memory-and-context
-  section: Persistent Memory & Knowledge
+  primary_category: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,35 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:34:37.348Z'
+    updated_at: "2026-10-05T04:43:23.556Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f9fab24ca80adc4c2cacff74e4121a26909b07953c6c454b2c1dfa58baacd3e7
-      proposed_primary_category: memory-and-context
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:159efdaea62011a86bad0e42185124251f62e0dd76e82692aabb6a6854bdebeb
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Powerdrill.ai's core novelty is persistent memory and retrieval across sessions for data analysis, making it a
-        context engineering tool rather than a coding agent or app builder.
+      decision_reason: Powerdrill.ai is an end-user data analysis platform focused on natural language querying and source attribution, not a developer-facing AI tool for coding, agent building, or workflow automation.
       decision_evidence:
-        - Describes itself as 'AI Data Analysis Workspace with Memory' where 'agents learn from every analysis'
-        - >-
-          Enables users to 'Ask across your documents and databases in plain language' with sourced answers showing 'the
-          page, the row and the figure behind it'
-        - >-
-          Listed in awesome-ai-agents under 'Powerdrill AI' with description 'Your AI Workspace with Memory: smarter
-          with every use'
-      category_candidates:
-        - memory-and-context
-        - app-builders
-      contrastive_reason: >-
-        Choose memory-and-context over app-builders because Powerdrill.ai focuses on querying and analyzing existing
-        data with memory retrieval, not generating deployable apps from prompts.
+        - "From scraped site: 'Your AI Workspace with Memory: smarter with every use. Your agents learn from every analysis.'"
+        - "From scraped site: 'Ask across your documents and databases in plain language. Every number comes back with the page, the row and the figure behind it.'"
+        - Appears in awesome-ai-agents under 'Powerdrill AI' as an autonomous agent, but its core function is data analysis, not coding or agent orchestration.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

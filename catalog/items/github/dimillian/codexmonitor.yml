@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dimillian__codexmonitor__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,9 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: CodexMonitor
         extracted_url: https://github.com/dimillian/codexmonitor
-        surrounding_text: >-
-          - **[CodexMonitor](https://github.com/Dimillian/CodexMonitor)** `⭐ 3.8k` — Coordinate multiple Codex agents
-          across local workspaces.
+        surrounding_text: "- **[CodexMonitor](https://github.com/Dimillian/CodexMonitor)** `⭐ 3.8k` — Coordinate multiple Codex agents across local workspaces."
         confidence: high
 metadata:
   github:
@@ -32,8 +30,8 @@ metadata:
     archived: false
     full_name: Dimillian/CodexMonitor
     html_url: https://github.com/Dimillian/CodexMonitor
-    created_at: '2026-01-11T07:56:35Z'
-    pushed_at: '2026-03-26T07:01:43Z'
+    created_at: "2026-01-11T07:56:35Z"
+    pushed_at: "2026-03-26T07:01:43Z"
     description: An app to monitor the (Codex) situation
     homepage: https://www.codexmonitor.app
     topics:
@@ -42,17 +40,13 @@ metadata:
       - linux
       - macos
       - tauri-app
-    last_checked_at: '2026-09-14T04:13:40.700Z'
+    last_checked_at: "2026-09-14T04:13:40.700Z"
     readme:
-      fetched_at: '2026-09-14T04:13:40.700Z'
+      fetched_at: "2026-09-14T04:13:40.700Z"
       bytes: 14109
 insights:
-  summary: >-
-    A Tauri desktop app for orchestrating multiple Codex agents across local workspaces with workspace, thread, and git
-    management.
-  why_it_matters: >-
-    Developers can manage multiple Codex sessions, workspaces, and git operations from a unified UI, reducing
-    context-switching between CLI tools and agent threads.
+  summary: A Tauri desktop app for orchestrating multiple Codex agents across local workspaces with workspace, thread, and git management.
+  why_it_matters: Developers can manage multiple Codex sessions, workspaces, and git operations from a unified UI, reducing context-switching between CLI tools and agent threads.
   mental_damage: Now you can watch Codex juggle worktrees while you question your life choices in a resizable sidebar.
   tags:
     - codex
@@ -72,21 +66,21 @@ placement:
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-dev-extensions'', proposed ''agent-orchestration'''
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.611Z'
+    updated_at: "2026-05-06T22:12:15.611Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:40.700Z'
+    updated_at: "2026-09-14T04:13:40.700Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -101,9 +95,7 @@ processing:
       input_hash: sha256:c1a78eac9419fbba0ae21ea3e2ee1c563c117d1157f6941d4bb8c71ab04be211
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: >-
-        The core product is a workbench for coordinating multiple Codex agents, workspaces, and threads, fitting the
-        multi-agent orchestration identity.
+      decision_reason: The core product is a workbench for coordinating multiple Codex agents, workspaces, and threads, fitting the multi-agent orchestration identity.
       decision_evidence:
         - README describes it as a Tauri app for orchestrating multiple Codex agents across local workspaces
         - Features include workspace/thread management, git/GitHub integrations, and multi-agent controls
@@ -111,10 +103,6 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination rather
-        than augmenting another assistant with host integrations.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed
-        'agent-orchestration'
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination rather than augmenting another assistant with host integrations.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
       review_resume_lifecycle: null

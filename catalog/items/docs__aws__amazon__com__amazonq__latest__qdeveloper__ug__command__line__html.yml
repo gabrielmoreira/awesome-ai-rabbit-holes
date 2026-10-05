@@ -5,9 +5,8 @@ canonical_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +18,7 @@ provenance:
           - CLI Tools
         anchor_text: Amazon Q Developer CLI
         extracted_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html
-        surrounding_text: >-
-          - **[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)** –
-          AI CLI for AWS-related coding and scripting.
+        surrounding_text: "- **[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)** – AI CLI for AWS-related coding and scripting."
         confidence: high
 metadata:
   github:
@@ -39,39 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Amazon Q Developer for command line is an AI-powered terminal enhancement providing command autocompletion, natural
-    language chat, and code generation for various CLIs.
-  why_it_matters: >-
-    It integrates generative AI directly into the shell workflow to reduce the mental overhead of remembering complex
-    CLI flags and syntax.
-  mental_damage: >-
-    Another layer of magic between your fingers and the shell, ensuring you'll never have to actually read a man page
-    again.
+  summary: Amazon Q Developer CLI provides AI-powered command autocompletion, natural language chat, and code generation for terminal workflows.
+  why_it_matters: Enhances developer productivity in the terminal by offering AI assistance for command-line tasks across hundreds of CLIs.
+  mental_damage: Yet another AI layer slapped onto the terminal, promising to make typing faster while secretly training on your bash history.
   tags:
     - cli
     - ai-assistant
-    - aws
-  confidence: high
+    - terminal
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone
-    developer tool or product.
+  status: included
+  reason: The Amazon Q Developer CLI functions as a coding agent in the terminal, providing AI-powered code generation and command assistance directly within developer workflows.
   evidence:
-    - URL points to AWS documentation page (docs.aws.amazon.com)
-    - Scraped content is help text and feedback prompts, not product features
-    - Source-list context links to awesome-ai-coding-tools but references the documentation, not a repo
+    - Source-list context identifies it as a CLI tool for AI-powered coding in the awesome-ai-coding-tools list
+    - Scraped site description states it enhances terminal experience with AI-powered features including command autocompletion, natural language chat, and code generation for hundreds of popular CLIs
+    - Primary product identity is performing coding tasks via CLI, matching the coding-agents category's focus on terminal-based coding assistance
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,33 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:57.545Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for
-        docs__aws__amazon__com__amazonq__latest__qdeveloper__ug__command__line__html: Upstream error from Nvidia:
-        ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:07.343Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4f405f26a1cd51095d68f3fa8491022549add1ddfdc9178d25f8a2160fdcd78b
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b6ce88d8764f3feb8b7a0128e6e617fcdc0adf3f815d8f7bf130151235f9eace
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone
-        developer tool or product.
+      decision_reason: The Amazon Q Developer CLI functions as a coding agent in the terminal, providing AI-powered code generation and command assistance directly within developer workflows.
       decision_evidence:
-        - URL points to AWS documentation page (docs.aws.amazon.com)
-        - Scraped content is help text and feedback prompts, not product features
-        - Source-list context links to awesome-ai-coding-tools but references the documentation, not a repo
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+        - Source-list context identifies it as a CLI tool for AI-powered coding in the awesome-ai-coding-tools list
+        - Scraped site description states it enhances terminal experience with AI-powered features including command autocompletion, natural language chat, and code generation for hundreds of popular CLIs
+        - Primary product identity is performing coding tasks via CLI, matching the coding-agents category's focus on terminal-based coding assistance
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool acts as a primary coding assistant in the terminal rather than mainly augmenting another assistant or editor with additional capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

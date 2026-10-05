@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__selcukusta__jev-mailroom__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-mailroom
         extracted_url: https://github.com/selcukusta/jev-mailroom
-        surrounding_text: >-
-          - [jev-mailroom](https://github.com/selcukusta/jev-mailroom) - Email triage PoC: reads a mailbox over IMAP and
-          classifies each message by what it is and what it's about, using TypeSafe System One (Jev) — 11 questions in a
-          single call, decided in Python.
+        surrounding_text: "- [jev-mailroom](https://github.com/selcukusta/jev-mailroom) - Email triage PoC: reads a mailbox over IMAP and classifies each message by what it is and what it's about, using TypeSafe System One (Jev) — 11 questions in a single call, decided in Python."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-mailroom - Email triage PoC: reads a mailbox over IMAP and classifies each message by what it is and what it's
-    about, using TypeSafe System One (Jev) — 11 questions in a single call, decided in Python.
+  summary: "jev-mailroom - Email triage PoC: reads a mailbox over IMAP and classifies each message by what it is and what it's about, using TypeSafe System One (Jev) — 11 questions in a single call, decided in Python."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

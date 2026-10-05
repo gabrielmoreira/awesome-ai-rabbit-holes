@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__paddlepaddle__paddleocr__vl__1__5__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__huggingface__co__paddlepaddle__paddleocr__vl__1__5__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 数据 Data
         anchor_text: PaddleOCR-VL-1.5 (`🔥`)
         extracted_url: https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5
-        surrounding_text: >-
-          47. [PaddleOCR-VL-1.5 (`🔥`)](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5): Towards a Multi-Task 0.9B
-          VLM for Robust In-the-Wild Document Parsing.
+        surrounding_text: "47. [PaddleOCR-VL-1.5 (`🔥`)](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5): Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing."
         confidence: high
 metadata:
   github:
@@ -39,40 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A vision-language model checkpoint specialized for high-accuracy OCR and document layout parsing.
-  why_it_matters: >-
-    It enables developers to build advanced document-understanding pipelines that can extract text, tables, and charts
-    from images.
-  mental_damage: Just one more specialized multi-gigabyte checkpoint to manage in your local model zoo.
+  summary: PaddleOCR-VL-1.5 is a Hugging Face vision-language model for document understanding, combining OCR with layout and table extraction.
+  why_it_matters: It helps developers extract structured data from scanned documents and images for downstream LLM pipelines.
+  mental_damage: Yet another vision model promising to fix your PDF hell, while you secretly just want it to work on receipts.
   tags:
     - ocr
+    - document-ai
     - vision-language
-    - multimodal
-    - document-parsing
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    The project is a raw model weight repository, which is explicitly excluded from the catalog in favor of
-    developer-facing tools, agents, and frameworks.
+  status: included
+  reason: PaddleOCR-VL-1.5 is a vision-language model focused on document understanding tasks like OCR, layout, and table extraction, making it a developer-facing document AI tool rather than a coding agent or framework.
   evidence:
-    - Hugging Face model page for PaddleOCR-VL-1.5
-    - 'Identified as a model checkpoint via the ''pipeline_tag: image-text-to-text'' signal'
+    - "Repo description is missing but Hugging Face page shows it is a vision-language model (pipeline_tag: image-text-to-text) for document parsing"
+    - Eval results show strong performance on ParseBench and Real5-OmniDocBench for text content, layout, table, and chart extraction
+    - Listed in awesome-LLM-resources under 数据 (Data) section as a vision-language model resource
 placement:
-  primary_category: null
-  section: null
+  primary_category: document-ai
+  section: OCR Engines
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -80,26 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:26:17.706Z'
+    updated_at: "2026-10-05T04:34:07.298Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4f4266971fb0bf510f9aa621fbac8178077e63da42f5288166d3792a19a0816e
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b81af5eed57afdc1cb9590116c6020c7b679e235cab0979ddfca7bf6888e30c8
+      proposed_primary_category: document-ai
       disagreement: false
-      decision_reason: >-
-        The project is a raw model weight repository, which is explicitly excluded from the catalog in favor of
-        developer-facing tools, agents, and frameworks.
+      decision_reason: PaddleOCR-VL-1.5 is a vision-language model focused on document understanding tasks like OCR, layout, and table extraction, making it a developer-facing document AI tool rather than a coding agent or framework.
       decision_evidence:
-        - Hugging Face model page for PaddleOCR-VL-1.5
-        - 'Identified as a model checkpoint via the ''pipeline_tag: image-text-to-text'' signal'
-      category_candidates: []
-      contrastive_reason: null
+        - "Repo description is missing but Hugging Face page shows it is a vision-language model (pipeline_tag: image-text-to-text) for document parsing"
+        - Eval results show strong performance on ParseBench and Real5-OmniDocBench for text content, layout, table, and chart extraction
+        - Listed in awesome-LLM-resources under 数据 (Data) section as a vision-language model resource
+      category_candidates:
+        - document-ai
+        - ai-frameworks
+      contrastive_reason: Choose document-ai over ai-frameworks because the product is a pretrained model for document understanding, not a code library or SDK developers import to build applications.
       review_reason: null
       review_resume_lifecycle: null

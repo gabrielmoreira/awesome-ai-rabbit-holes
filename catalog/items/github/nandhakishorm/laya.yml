@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nandhakishorm__laya__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,14 +20,10 @@ provenance:
           - Jev-like models (72)
         anchor_text: laya
         extracted_url: https://github.com/nandhakishorm/laya
-        surrounding_text: >-
-          | [laya](https://github.com/NandhaKishorM/laya) | ★ 17,709 | Python | 2026-09-23 | Multilingual,
-          non-autoregressive System 1 decision engine. Typed decisions over 100+ languages in a single forward pass — 33
-          ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that
-          picks the right checkpoint per request. |
+        surrounding_text: "| [laya](https://github.com/NandhaKishorM/laya) | ★ 17,709 | Python | 2026-09-23 | Multilingual, non-autoregressive System 1 decision engine. Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request. |"
         confidence: high
     - id: discovery__github__nandhakishorm__laya__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -40,11 +36,7 @@ provenance:
           - Calibration & Research
         anchor_text: Laya
         extracted_url: https://github.com/nandhakishorm/laya
-        surrounding_text: >-
-          - [Laya](https://github.com/NandhaKishorM/laya)
-          ![stars](https://img.shields.io/github/stars/NandhaKishorM/laya?style=flat-square&label=%E2%98%85) - Open
-          alternative: non-autoregressive decision model that answers `choice`, `score`, and `noul` questions with
-          RLCD-trained calibrated probabilities in a single ~35 ms forward pass, published on PyPI and Hugging Face.
+        surrounding_text: "- [Laya](https://github.com/NandhaKishorM/laya) ![stars](https://img.shields.io/github/stars/NandhaKishorM/laya?style=flat-square&label=%E2%98%85) - Open alternative: non-autoregressive decision model that answers `choice`, `score`, and `noul` questions with RLCD-trained calibrated probabilities in a single ~35 ms forward pass, published on PyPI and Hugging Face."
         confidence: high
 metadata:
   github:
@@ -62,10 +54,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Multilingual, non-autoregressive System 1 decision engine. Typed decisions over 100+ languages in a single forward
-    pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that
-    picks the right checkpoint per request.
+  summary: Multilingual, non-autoregressive System 1 decision engine. Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -85,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.420Z'
+    updated_at: "2026-09-29T13:07:10.420Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

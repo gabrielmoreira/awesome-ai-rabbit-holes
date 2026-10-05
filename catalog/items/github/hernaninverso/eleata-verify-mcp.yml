@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hernaninverso__eleata-verify-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-13T05:12:52.223Z'
+      discovered_at: "2026-07-13T05:12:52.223Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: hernaninverso/eleata-verify-mcp
         extracted_url: https://github.com/hernaninverso/eleata-verify-mcp
-        surrounding_text: >-
-          - [hernaninverso/eleata-verify-mcp](https://github.com/hernaninverso/eleata-verify-mcp)
-          [![hernaninverso/eleata-verify-mcp MCP
-          server](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp)
-          📇 ☁️ - Grounding / hallucination guard: verify a claim against evidence (Supported/Refuted/Not Enough
-          Evidence) with a confidence + abstain flag, for RAG and agents. `npx -y eleata-verify-mcp`.
+        surrounding_text: "- [hernaninverso/eleata-verify-mcp](https://github.com/hernaninverso/eleata-verify-mcp) [![hernaninverso/eleata-verify-mcp MCP server](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hernaninverso/eleata-verify-mcp) 📇 ☁️ - Grounding / hallucination guard: verify a claim against evidence (Supported/Refuted/Not Enough Evidence) with a confidence + abstain flag, for RAG and agents. `npx -y eleata-verify-mcp`."
         confidence: high
 metadata:
   github:
@@ -35,20 +30,18 @@ metadata:
     archived: false
     full_name: hernaninverso/eleata-verify-mcp
     html_url: https://github.com/hernaninverso/eleata-verify-mcp
-    created_at: '2026-06-30T11:46:46Z'
-    pushed_at: '2026-06-30T15:36:13Z'
-    description: 'MCP server: grounding/hallucination guard — verify a claim against evidence (Supported/Refuted/NEE) for AI agents'
+    created_at: "2026-06-30T11:46:46Z"
+    pushed_at: "2026-06-30T15:36:13Z"
+    description: "MCP server: grounding/hallucination guard — verify a claim against evidence (Supported/Refuted/NEE) for AI agents"
     homepage: null
     topics: []
-    last_checked_at: '2026-07-30T05:05:36.793Z'
+    last_checked_at: "2026-07-30T05:05:36.793Z"
     readme:
-      fetched_at: '2026-07-30T05:05:36.793Z'
+      fetched_at: "2026-07-30T05:05:36.793Z"
       bytes: 1810
 insights:
   summary: An MCP server that provides grounding and hallucination guardrails by verifying claims against provided evidence.
-  why_it_matters: >-
-    It provides a standardized way for AI agents to perform natural language inference to check if their generated
-    claims are actually supported by source documents.
+  why_it_matters: It provides a standardized way for AI agents to perform natural language inference to check if their generated claims are actually supported by source documents.
   mental_damage: Another layer of validation to remind you that your RAG pipeline is likely making things up.
   tags:
     - mcp
@@ -61,7 +54,7 @@ curation:
   status: included
   reason: The product's identity is a specialized MCP server designed to act as a middleware utility for agent grounding.
   evidence:
-    - 'Repo description explicitly defines it as an ''MCP server: grounding/hallucination guard'''
+    - "Repo description explicitly defines it as an 'MCP server: grounding/hallucination guard'"
     - README provides mcpServers configuration block for integration
     - Core functionality is a tool (`verify_claim`) designed for MCP hosts
     - jev winnow:e4b 0.43 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at evals (unverified)
@@ -76,17 +69,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-13T05:12:52.225Z'
+    updated_at: "2026-07-13T05:12:52.225Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:36.793Z'
+    updated_at: "2026-07-30T05:05:36.793Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

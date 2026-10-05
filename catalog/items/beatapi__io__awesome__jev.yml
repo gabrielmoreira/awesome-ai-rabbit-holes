@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__beatapi__io__awesome__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://beatapi.io/awesome-jev
-        surrounding_text: >-
-          - [awesome-jev (BeatAPI)](https://github.com/BeatAPI/awesome-jev) ([site](https://beatapi.io/awesome-jev)) -
-          We only curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models,
-          and experiments. Live gallery: beatapi.io/awesome-jev.
+        surrounding_text: "- [awesome-jev (BeatAPI)](https://github.com/BeatAPI/awesome-jev) ([site](https://beatapi.io/awesome-jev)) - We only curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models, and experiments. Live gallery: beatapi.io/awesome-jev."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    awesome-jev (BeatAPI) (site) - We only curate source-reviewed JEV-related projects with 100+ GitHub stars —
-    integrations, tools, open models, and experiments. Live gallery: beatapi.io/awesome-jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: awesome-jev is a directory of projects built on Jev, TypeSafe AI's System One decision model.
+  why_it_matters: It helps developers discover Jev-based tools for decision-model-driven workflows like routing, scoring, and guardrails.
+  mental_damage: Another curated list promising clarity while adding to the pile of awesome lists you’ll never fully read.
+  tags:
+    - awesome-list
+    - jev
+    - decision-models
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: It is a curated directory focused on a specific AI developer tool (Jev), making it a navigation aid within the AI dev ecosystem.
   evidence:
-    - jev-latest choice confidence 0.91
+    - "Source-list context: listed in awesome-jev with purpose 'Directory of projects built on Jev'"
+    - "README excerpt: positions itself as a directory of Jev-based projects"
+    - "URL: beatapi.io/awesome-jev indicates a hosted awesome list"
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:35.454Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8d2cea93de984ae3d9334b3d84ceff7c1052364ec59fa64e945e5064a01139a6
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory focused on a specific AI developer tool (Jev), making it a navigation aid within the AI dev ecosystem.
+      decision_evidence:
+        - "Source-list context: listed in awesome-jev with purpose 'Directory of projects built on Jev'"
+        - "README excerpt: positions itself as a directory of Jev-based projects"
+        - "URL: beatapi.io/awesome-jev indicates a hosted awesome list"
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because the project is a directory of Jev-based projects, not a decision model, SDK, or tool that exercises judgment.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

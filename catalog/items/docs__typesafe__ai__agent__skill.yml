@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__agent__skill__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Official SDKs and tools
         anchor_text: Agent skill
         extracted_url: https://docs.typesafe.ai/agent-skill
-        surrounding_text: >-
-          - [Agent skill](https://docs.typesafe.ai/agent-skill) - Official docs for giving a coding agent API context
-          and guidance when designing narrow System One / Jev decision questions (Claude Code plugin and skills.sh
-          install paths).
+        surrounding_text: "- [Agent skill](https://docs.typesafe.ai/agent-skill) - Official docs for giving a coding agent API context and guidance when designing narrow System One / Jev decision questions (Claude Code plugin and skills.sh install paths)."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Agent Skill is a reusable skill pack that gives AI coding agents full context on the TypeSafe API for structured evaluation workflows.
+  why_it_matters: It lets developers offload API-specific judgment to their coding agent, reducing boilerplate when working with TypeSafe's evaluation system.
+  mental_damage: Another skill to install, another prompt to remember, and yet another layer of abstraction between you and actually writing code.
+  tags:
+    - agent-skills
+    - typesafe
+    - prompt-context
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Agent Skill is a portable skill pack designed to be installed into coding agents like Claude Code or Codex to extend their behavior with TypeSafe-specific knowledge, fitting the Agent Skills category's definition of installable content that changes agent behavior.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The product is described as a 'Drop-in skill for Claude Code, Codex, and other agent environments' and provides installable skill content via npx skills or Claude plugin marketplace.
+    - The core artifact is a skill pack (SKILL.md and reference files) that users copy into their agent's skills directory to change behavior, not an executable tool or standalone agent.
+    - It appears in the awesome-jev list under 'Official SDKs and tools' as a drop-in skill, reinforcing its identity as installable content rather than a platform or framework.
 placement:
-  primary_category: null
+  primary_category: skills
   secondary_categories: []
-  section: null
+  section: Skill Packs & Libraries
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:25.499Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7b877a30c2c8af1b8a7961d54da46456d6965549638bbc15377e950cc51ef47b
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: Agent Skill is a portable skill pack designed to be installed into coding agents like Claude Code or Codex to extend their behavior with TypeSafe-specific knowledge, fitting the Agent Skills category's definition of installable content that changes agent behavior.
+      decision_evidence:
+        - The product is described as a 'Drop-in skill for Claude Code, Codex, and other agent environments' and provides installable skill content via npx skills or Claude plugin marketplace.
+        - The core artifact is a skill pack (SKILL.md and reference files) that users copy into their agent's skills directory to change behavior, not an executable tool or standalone agent.
+        - It appears in the awesome-jev list under 'Official SDKs and tools' as a drop-in skill, reinforcing its identity as installable content rather than a platform or framework.
+      category_candidates:
+        - skills
+        - ai-dev-extensions
+      contrastive_reason: Choose skills over ai-dev-extensions because the primary artifact is installable skill content that changes agent behavior, not a tool or integration layer that provides executable capabilities like debugger or browser access.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

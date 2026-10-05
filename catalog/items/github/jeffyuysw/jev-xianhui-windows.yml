@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jeffyuysw__jev-xianhui-windows__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: jev-xianhui-windows
         extracted_url: https://github.com/jeffyuysw/jev-xianhui-windows
-        surrounding_text: >-
-          - [jev-xianhui-windows](https://github.com/jeffyuysw/jev-xianhui-windows)
-          ([site](https://xianhui.xzaigf.dpdns.org)) - 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级.
+        surrounding_text: "- [jev-xianhui-windows](https://github.com/jeffyuysw/jev-xianhui-windows) ([site](https://xianhui.xzaigf.dpdns.org)) - 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级."
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__developers__hostinger__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Hostinger API
         extracted_url: https://developers.hostinger.com
-        surrounding_text: >-
-          - **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger
-          API](https://developers.hostinger.com/) MCP server for services managment.
+        surrounding_text: "- **[Hostinger](https://github.com/hostinger/api-mcp-server)** - Official [Hostinger API](https://developers.hostinger.com/) MCP server for services managment."
         confidence: high
 metadata:
   github:
@@ -38,25 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The API documentation for Hostinger's developer services.
-  why_it_matters: >-
-    It provides the technical interface definitions required to programmatically interact with Hostinger's hosting
-    environment.
-  mental_damage: Another layer of abstraction to parse before you can even begin wondering why your deployment failed.
+  summary: Hostinger API documentation for automating Hostinger services via REST, CLI, SDKs, and MCP server.
+  why_it_matters: Enables developers to script infrastructure and domain management tasks through Hostinger's programmatic interfaces.
+  mental_damage: Another provider API docs page pretending to be a developer tool because it mentions MCP in passing.
   tags:
+    - hosting
     - api
-    - documentation
-    - hostinger
-    - mcp
-    - cli
+    - automation
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation for Hostinger's API and related tooling, not a standalone AI developer tool or product with autonomous functionality; it serves as reference material rather than an agent, framework, or automation platform.
+  reason: The content is purely documentation for Hostinger's API and related tooling, not a standalone AI developer tool or product with agentic, coding, or workflow capabilities.
   evidence:
-    - The scraped site context shows API reference documentation for Hostinger services, including endpoints, authentication, and rate limits.
-    - It mentions MCP server as one of several automation options (CLI, SDKs, MCP server), but MCP is not the product's primary identity.
-    - No evidence of AI agent behavior, code generation, orchestration, or developer workflow automation beyond standard API usage.
+    - "Page title: 'API Reference | Hostinger Documentation'"
+    - Primary excerpt describes authentication, rate limits, endpoints, CLI, SDKs, and MCP server as ways to automate Hostinger
+    - No indication of AI agent behavior, code generation, or developer workflow augmentation beyond standard API use
 placement:
   primary_category: null
   section: null
@@ -66,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,29 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:31.044Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for developers__hostinger__com: Invalid AI response structure: Invalid
-        confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:57.131Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5296e44fa3ac223d32a077ed3b9fcc182d4964d348c51ee1e7c5f083d6e2538c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:639cce14d4498c8745d14dea5aeff4d38e327b484166d29968e8988fe6134f5b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is documentation for Hostinger's API and related tooling, not a standalone AI developer tool or product with autonomous functionality; it serves as reference material rather than an agent, framework, or automation platform.
+      decision_reason: The content is purely documentation for Hostinger's API and related tooling, not a standalone AI developer tool or product with agentic, coding, or workflow capabilities.
       decision_evidence:
-        - The scraped site context shows API reference documentation for Hostinger services, including endpoints, authentication, and rate limits.
-        - It mentions MCP server as one of several automation options (CLI, SDKs, MCP server), but MCP is not the product's primary identity.
-        - No evidence of AI agent behavior, code generation, orchestration, or developer workflow automation beyond standard API usage.
+        - "Page title: 'API Reference | Hostinger Documentation'"
+        - Primary excerpt describes authentication, rate limits, endpoints, CLI, SDKs, and MCP server as ways to automate Hostinger
+        - No indication of AI agent behavior, code generation, or developer workflow augmentation beyond standard API use
       category_candidates: []
       contrastive_reason: null
       review_reason: null

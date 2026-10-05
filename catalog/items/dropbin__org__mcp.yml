@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dropbin__org__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Community Servers
         anchor_text: DropBin
         extracted_url: https://dropbin.org/mcp
-        surrounding_text: >-
-          - **[DropBin](https://dropbin.org/mcp)** - Remote SSE MCP server for hosting HTML webpages and sharing content
-          through temporary URLs without authentication
+        surrounding_text: "- **[DropBin](https://dropbin.org/mcp)** - Remote SSE MCP server for hosting HTML webpages and sharing content through temporary URLs without authentication"
         confidence: high
 metadata:
   github:
@@ -38,17 +36,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A collection of community-curated Model Context Protocol (MCP) servers.
-  why_it_matters: >-
-    It provides a directory of reusable tools that allow AI assistants to interact with external data sources and local
-    environments via the MCP standard.
-  mental_damage: >-
-    Prepare to spend your afternoon debugging why your agent can't see your filesystem because a JSON configuration in
-    an MCP server is slightly off.
+  summary: mcp is a standalone MCP toolkit or registry referenced as a community server resource in awesome-mcp-servers.
+  why_it_matters: It contributes to the MCP ecosystem by providing server implementations or tooling that enables agents to access external data and services via a standardized protocol.
+  mental_damage: Another piece of infrastructure glue that lets you feel like you're building something important while just wiring up yet another adapter layer.
   tags:
     - mcp
-    - protocol
-    - ai-integration
+    - infrastructure
+    - registry
   confidence: medium
 curation:
   status: included
@@ -58,14 +52,14 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,37 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:38:58.467Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for dropbin__org__mcp: Invalid AI response structure: Missing required field:
-        mental_damage
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:52.586Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3a8a5dde7cb0172ada1333b641a98a7e5bf1cf98cad7bc67a495c9a1f01d65c9
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:12ea5589f3fc0dd86a3eb0c85f9c17f264b12c5a43010995a46771a8c3576c51
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: >-
-        The project is a directory of MCP servers, which aligns perfectly with the MCP product identity and the
-        Registries & Discovery section.
+      decision_reason: The resource is listed in awesome-mcp-servers under Community Servers, indicating it is an MCP server or related tooling where MCP is the primary identity, fitting the mcp category's focus on protocol infrastructure.
       decision_evidence:
-        - >-
-          Identified in source-list as 'awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP)
-          servers'
-        - The URL and context point specifically to the MCP ecosystem
+        - Listed in awesome-mcp-servers under the Community Servers section
+        - The awesome list is a curated directory of Model Context Protocol (MCP) servers
       category_candidates:
         - mcp
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because the project's specific identity is rooted in the Model Context Protocol
-        rather than being a general ecosystem directory.
-      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the tool's identity is MCP server/registry infrastructure, not a general-purpose agent framework SDK for developers to import and program against.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhishekmamdapure__jev-information-extraction__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-information-extraction
         extracted_url: https://github.com/abhishekmamdapure/jev-information-extraction
-        surrounding_text: >-
-          - [jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction)
-          ([site](https://jev-information-extraction-fibby-prod-telegram.up.railway.app/)) - Parsing the PDF and
-          extracting the relevant information.
+        surrounding_text: "- [jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction) ([site](https://jev-information-extraction-fibby-prod-telegram.up.railway.app/)) - Parsing the PDF and extracting the relevant information."
         confidence: high
     - id: discovery__github__abhishekmamdapure__jev-information-extraction__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**jev-information-extraction**'
+        anchor_text: "**jev-information-extraction**"
         extracted_url: https://github.com/abhishekmamdapure/jev-information-extraction
-        surrounding_text: >-
-          - [**jev-information-extraction**](https://github.com/abhishekmamdapure/jev-information-extraction) — Ask
-          questions about a PDF. Use Jev to rank the source text that answers them. Inspect each match, its probability,
-          and its location on the original page.
+        surrounding_text: "- [**jev-information-extraction**](https://github.com/abhishekmamdapure/jev-information-extraction) — Ask questions about a PDF. Use Jev to rank the source text that answers them. Inspect each match, its probability, and its location on the original page."
         confidence: high
 metadata:
   github:
@@ -50,8 +44,8 @@ metadata:
     archived: false
     full_name: abhishekmamdapure/jev-information-extraction
     html_url: https://github.com/abhishekmamdapure/jev-information-extraction
-    created_at: '2026-09-20T18:03:50Z'
-    pushed_at: '2026-09-21T09:30:42Z'
+    created_at: "2026-09-20T18:03:50Z"
+    pushed_at: "2026-09-21T09:30:42Z"
     description: Parsing the PDF and extracting the relevant information
     homepage: https://abhishekmamdapure.com/jev
     topics:
@@ -59,21 +53,26 @@ metadata:
       - oat
       - pdf-inspector
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:08:24.943Z'
+    last_checked_at: "2026-09-29T13:08:24.943Z"
     readme:
-      fetched_at: '2026-09-29T13:08:24.943Z'
+      fetched_at: "2026-09-29T13:08:24.943Z"
       bytes: 10820
 insights:
-  summary: Parsing the PDF and extracting the relevant information
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A tool for parsing PDFs and extracting relevant information using Jev decision models.
+  why_it_matters: Enables developers to automate structured data extraction from PDFs by leveraging typed decision models for accurate field identification.
+  mental_damage: ": Another PDF extractor promising to end manual copy-pasting, because retyping data from scanned invoices was clearly the highlight of sprint planning."
+  tags:
+    - pdf
+    - information-extraction
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in document-ai / Extraction & Structured Output
+  reason: The project's core function is PDF parsing and information extraction, aligning with document AI tools that convert unstructured documents into structured data, rather than being a decision model or agent-centric tool.
   evidence:
-    - jev-latest choice confidence 0.77
+    - "Repo description: 'Parsing the PDF and extracting the relevant information'"
+    - Topics include jev, oat, pdf-inspector, typesafe-ai indicating Jev-based PDF processing
+    - Listed in awesome-jev-projects under 'Data & Search' section
 placement:
   primary_category: document-ai
   secondary_categories: []
@@ -84,15 +83,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:24.943Z'
+    updated_at: "2026-09-29T13:08:24.943Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:13:00.282Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:45d89f3a3f941979873d08ed38d7293f914e74de2255eaae3465e3a81957f3fb
+      proposed_primary_category: document-ai
+      disagreement: false
+      decision_reason: The project's core function is PDF parsing and information extraction, aligning with document AI tools that convert unstructured documents into structured data, rather than being a decision model or agent-centric tool.
+      decision_evidence:
+        - "Repo description: 'Parsing the PDF and extracting the relevant information'"
+        - Topics include jev, oat, pdf-inspector, typesafe-ai indicating Jev-based PDF processing
+        - Listed in awesome-jev-projects under 'Data & Search' section
+      category_candidates:
+        - document-ai
+        - decision-models
+      contrastive_reason: Choose document-ai over decision-models because the product's primary identity is PDF information extraction (an end-user document task), not serving or exposing decision-model judgments as its core function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

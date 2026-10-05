@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anhmtk__agentshare-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: anhmtk/agentshare-mcp
         extracted_url: https://github.com/anhmtk/agentshare-mcp
-        surrounding_text: >-
-          - [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP
-          server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp)
-          📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX +
-          DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp
+        surrounding_text: "- [anhmtk/agentshare-mcp](https://github.com/anhmtk/agentshare-mcp) [![anhmtk/agentshare-mcp MCP server](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp/badges/score.svg)](https://glama.ai/mcp/servers/anhmtk/agentshare-mcp) 📇 ☁️ - Solana DeFi intelligence MCP (Meteora DLMM `meteora_brief` + `meteora_pool_detail`, Solana DEX + DefiLlama scout). Commerce tools are secondary. Hosted at https://agentshare.dev/mcp"
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: anhmtk/agentshare-mcp
     html_url: https://github.com/anhmtk/agentshare-mcp
-    created_at: '2026-04-13T05:56:31Z'
-    pushed_at: '2026-09-16T12:49:42Z'
-    description: >-
-      Agent-paid API for AI agents — dual-auth (API key or x402), MCP Streamable HTTP, free discovery. Commerce +
-      Solana/Meteora demos secondary. https://agentshare.dev
+    created_at: "2026-04-13T05:56:31Z"
+    pushed_at: "2026-09-16T12:49:42Z"
+    description: Agent-paid API for AI agents — dual-auth (API key or x402), MCP Streamable HTTP, free discovery. Commerce + Solana/Meteora demos secondary. https://agentshare.dev
     homepage: https://agentshare.dev
     topics:
       - agent-discovery
@@ -61,15 +55,13 @@ metadata:
       - solana
       - x402
       - x402protocol
-    last_checked_at: '2026-09-17T04:13:44.475Z'
+    last_checked_at: "2026-09-17T04:13:44.475Z"
     readme:
-      fetched_at: '2026-09-17T04:13:44.475Z'
+      fetched_at: "2026-09-17T04:13:44.475Z"
       bytes: 14680
 insights:
   summary: An MCP-based infrastructure for providing agent-paid API access and discovery through dual-auth protocols.
-  why_it_matters: >-
-    It provides a standardized way for autonomous agents to discover and pay for specialized API tools using MCP and
-    x402 rails.
+  why_it_matters: It provides a standardized way for autonomous agents to discover and pay for specialized API tools using MCP and x402 rails.
   mental_damage: We are officially building the economic infrastructure for a workforce that doesn't have a bank account yet.
   tags:
     - mcp
@@ -93,18 +85,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.714Z'
+    updated_at: "2026-07-16T05:04:46.714Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:44.475Z'
+    updated_at: "2026-09-17T04:13:44.475Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:29:18.812Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -124,8 +118,6 @@ processing:
       category_candidates:
         - mcp
         - agent-orchestration
-      contrastive_reason: >-
-        Choose mcp over agent-orchestration because the product's core novelty is the protocol-based delivery of tools
-        and discovery via MCP, rather than the management of multi-agent workflows.
+      contrastive_reason: Choose mcp over agent-orchestration because the product's core novelty is the protocol-based delivery of tools and discovery via MCP, rather than the management of multi-agent workflows.
       review_reason: null
       review_resume_lifecycle: null

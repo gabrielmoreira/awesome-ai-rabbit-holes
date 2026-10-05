@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__primitives__noul__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -16,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - What Jev is
-        anchor_text: '`Noul`'
+        anchor_text: "`Noul`"
         extracted_url: https://docs.typesafe.ai/primitives/noul
-        surrounding_text: >-
-          | [`Noul`](https://docs.typesafe.ai/primitives/noul) | Estimate whether a statement is true | Probability from
-          0 to 1 |
+        surrounding_text: "| [`Noul`](https://docs.typesafe.ai/primitives/noul) | Estimate whether a statement is true | Probability from 0 to 1 |"
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A decision-making primitive that evaluates yes/no questions and returns the probability of a positive answer.
+  why_it_matters: It enables reliable, threshold-based logic and routing by replacing unpredictable text generation with structured probabilistic outputs.
+  mental_damage: Finally, a way to turn the chaos of LLM reasoning into a single float that you can immediately regret thresholding at 0.7.
+  tags:
+    - decision-models
+    - probability
+    - routing
+    - classification
+    - typesafe-ai
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Noul is a typed-decision primitive that returns probabilities for binary outcomes, aligning with the core identity of decision-models.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Documentation describes it as a primitive for yes/no evaluation with a 0-1 probability output
+    - It is a core component of the TypeSafe System One model ecosystem
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:06:19.399Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:185b83c819372c7846b09546c7f44ed839f1e73f5c24a760deb2def77b60939a
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Noul is a typed-decision primitive that returns probabilities for binary outcomes, aligning with the core identity of decision-models.
+      decision_evidence:
+        - Documentation describes it as a primitive for yes/no evaluation with a 0-1 probability output
+        - It is a core component of the TypeSafe System One model ecosystem
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because its primary identity is the probabilistic judgment output rather than being a general-purpose LLM orchestration library.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

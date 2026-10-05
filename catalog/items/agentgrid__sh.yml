@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentgrid__sh__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: AgentGrid
         extracted_url: https://agentgrid.sh
-        surrounding_text: >-
-          - **[AgentGrid](https://agentgrid.sh)** – Desktop app (macOS/Linux/Windows) with an infinite zoomable canvas
-          for orchestrating multiple AI coding agents in parallel. A master orchestrator pane spawns role-based workers
-          (builder, QA, reviewer) in isolated git worktrees, alongside integrated terminals and Playwright browser
-          panes. Runs Claude Agent SDK and OpenAI Codex SDK. Free tier available.
+        surrounding_text: "- **[AgentGrid](https://agentgrid.sh)** – Desktop app (macOS/Linux/Windows) with an infinite zoomable canvas for orchestrating multiple AI coding agents in parallel. A master orchestrator pane spawns role-based workers (builder, QA, reviewer) in isolated git worktrees, alongside integrated terminals and Playwright browser panes. Runs Claude Agent SDK and OpenAI Codex SDK. Free tier available."
         confidence: high
 metadata:
   github:
@@ -40,31 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AgentGrid – Desktop app (macOS/Linux/Windows) with an infinite zoomable canvas for orchestrating multiple AI coding
-    agents in parallel. A master orchestrator pane spawns role-based workers (builder, QA, reviewer) in isolated git
-    worktrees, alongside integrated terminals and Playwright browser panes. Runs Claude Agent SDK and OpenAI Codex SDK.
-    Free tier available.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: agentgrid.sh is a project listed as a coding agent in the awesome-ai-coding-tools directory.
+  why_it_matters: It is presented as a tool that helps developers delegate coding tasks to an AI agent.
+  mental_damage: Another entry in the endless catalog of agents promising to write your code while you question what 'agent' even means anymore.
+  tags:
+    - coding-agent
+    - ai-tool
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  status: excluded
+  reason: No substantive information about the tool's functionality, identity, or behavior is available beyond its listing in an awesome list; the absence of a README, repo description, or verifiable details prevents any meaningful assessment of its fit as a developer-facing AI tool.
   evidence:
-    - jev-latest choice confidence 0.84
+    - No GitHub repository description is provided.
+    - No README excerpt or site content is available to describe what the tool does.
+    - The only signal is its inclusion in awesome-ai-coding-tools under the Coding Agents section, which is insufficient to establish product identity or functionality.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:52.484Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5b0b74da6ebfc287313153e1f8218eaa8e238378b44b23560871a54a4a308777
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: No substantive information about the tool's functionality, identity, or behavior is available beyond its listing in an awesome list; the absence of a README, repo description, or verifiable details prevents any meaningful assessment of its fit as a developer-facing AI tool.
+      decision_evidence:
+        - No GitHub repository description is provided.
+        - No README excerpt or site content is available to describe what the tool does.
+        - The only signal is its inclusion in awesome-ai-coding-tools under the Coding Agents section, which is insufficient to establish product identity or functionality.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

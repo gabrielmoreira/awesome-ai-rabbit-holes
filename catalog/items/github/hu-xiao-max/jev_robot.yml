@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hu-xiao-max__jev_robot__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Robotics & Physical
         anchor_text: Jev Robot
         extracted_url: https://github.com/hu-xiao-max/jev_robot
-        surrounding_text: >-
-          - [Jev Robot](https://github.com/Hu-xiao-max/jev_robot)
-          ![stars](https://img.shields.io/github/stars/Hu-xiao-max/jev_robot?style=flat-square&label=%E2%98%85) -
-          Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a Jev-style
-          typed-choice interface while the target moves, with deterministic checks allowed to reject a choice but never
-          to substitute another.
+        surrounding_text: "- [Jev Robot](https://github.com/Hu-xiao-max/jev_robot) ![stars](https://img.shields.io/github/stars/Hu-xiao-max/jev_robot?style=flat-square&label=%E2%98%85) - Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a Jev-style typed-choice interface while the target moves, with deterministic checks allowed to reject a choice but never to substitute another."
         confidence: high
 metadata:
   github:
@@ -43,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Robot - Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a
-    Jev-style typed-choice interface while the target moves, with deterministic checks allowed to reject a choice but
-    never to substitute another.
+  summary: "Jev Robot - Robotics control: a local decider-2b model picks the next skill for an AgileX PiPER arm through a Jev-style typed-choice interface while the target moves, with deterministic checks allowed to reject a choice but never to substitute another."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,16 +58,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.460Z'
+    updated_at: "2026-09-29T13:07:10.460Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-29T13:12:13.874Z'
+    updated_at: "2026-09-29T13:12:13.874Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hu-xiao-max/jev_robot
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cognition__ai__blog__introducing__devin__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Devin
         anchor_text: Devin
         extracted_url: https://www.cognition-labs.com/introducing-devin
-        surrounding_text: '## [Devin](https://www.cognition-labs.com/introducing-devin)'
+        surrounding_text: "## [Devin](https://www.cognition-labs.com/introducing-devin)"
         confidence: high
 metadata:
   github:
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Devin is an autonomous AI software engineer capable of planning, executing complex engineering tasks, and using
-    developer tools like shells and browsers.
-  why_it_matters: >-
-    It shifts the developer role from active coder to high-level reviewer by autonomously handling end-to-end tasks like
-    debugging, feature implementation, and deployment.
-  mental_damage: >-
-    The existential dread of watching a sandboxed shell execute itself while you realize your primary job might just be
-    approving its PRs.
+  summary: Devin is an autonomous AI software engineer that performs coding tasks in a sandboxed environment using shell, editor, and browser tools.
+  why_it_matters: It demonstrates an end-to-end autonomous coding agent capable of resolving real-world GitHub issues, pushing the frontier of AI-assisted software development.
+  mental_damage: Another milestone in the relentless march toward AI that can do your job — now with Netlify deployment and sympy bug fixes.
   tags:
-    - ai-agent
-    - software-engineering
-    - autonomous-coding
+    - coding-agent
+    - autonomous-ai
+    - swe-bench
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  reason: Devin is a standalone autonomous agent that performs coding tasks using a shell, editor, and browser in a sandbox, making it a primary coding agent rather than an extension or framework.
   evidence:
-    - jev-latest choice confidence 0.90
+    - Devin can plan and execute complex engineering tasks requiring thousands of decisions
+    - Devin is equipped with common developer tools including the shell, code editor, and browser within a sandboxed compute environment
+    - Devin correctly resolves 13.86% of SWE-bench issues end-to-end, far exceeding prior state-of-the-art
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Browser & Computer-Use Agents
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:55.704Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for cognition__ai__blog__introducing__devin: Invalid AI response structure:
-        Invalid confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:00.795Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:77250189de0b214c3a74154b7af31d57783a206aa84eb85435bceeae81c3a6d3
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bfb784b1d511de217fa2736004b1a5866e92a89167f9c3281853468cdc7d9fa1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding,
-        testing, debugging) rather than just augmenting an existing IDE.
+      decision_reason: Devin is a standalone autonomous agent that performs coding tasks using a shell, editor, and browser in a sandbox, making it a primary coding agent rather than an extension or framework.
       decision_evidence:
-        - Devin can plan and execute complex engineering tasks requiring thousands of decisions using shell, code editor, and browser in a sandboxed environment.
-        - Devin correctly resolves 13.86% of SWE-bench issues end-to-end, significantly exceeding prior state-of-the-art on real-world GitHub bug resolution.
-        - Devin autonomously finds and fixes bugs, builds and deploys apps end to end, and contributes to mature production repositories without human intervention on each step.
+        - Devin can plan and execute complex engineering tasks requiring thousands of decisions
+        - Devin is equipped with common developer tools including the shell, code editor, and browser within a sandboxed compute environment
+        - Devin correctly resolves 13.86% of SWE-bench issues end-to-end, far exceeding prior state-of-the-art
       category_candidates:
         - coding-agents
         - app-builders
-      contrastive_reason: >-
-        Choose coding-agents over app-builders because its primary identity is an autonomous agent designed to manage
-        and edit existing codebases and resolve issues, rather than just scaffolding new applications.
+      contrastive_reason: Choose coding-agents over app-builders because Devin’s core identity is performing coding tasks on existing codebases (e.g., debugging sympy, maintaining open source repos), not generating new apps from prompts as its primary function.
       review_reason: null
       review_resume_lifecycle: null

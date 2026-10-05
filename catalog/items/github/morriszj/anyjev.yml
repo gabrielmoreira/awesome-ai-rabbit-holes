@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__morriszj__anyjev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,12 +19,7 @@ provenance:
           - Open reproductions and research
         anchor_text: AnyJev
         extracted_url: https://github.com/morriszj/anyjev
-        surrounding_text: >-
-          - [AnyJev](https://github.com/MorrisZJ/AnyJev) - Library that turns any open transformers or vLLM model into a
-          Jev-style Choice/Score/Noul decision from one prefill with no training, using cyclic-shift marginalization and
-          a label-free prior estimate to reduce option-order sensitivity; every result is labeled raw, L0 or L1 by the
-          debiasing and calibration it carries, and the committed bench reports order-flip rate, Brier and ECE on its
-          own task set.
+        surrounding_text: "- [AnyJev](https://github.com/MorrisZJ/AnyJev) - Library that turns any open transformers or vLLM model into a Jev-style Choice/Score/Noul decision from one prefill with no training, using cyclic-shift marginalization and a label-free prior estimate to reduce option-order sensitivity; every result is labeled raw, L0 or L1 by the debiasing and calibration it carries, and the committed bench reports order-flip rate, Brier and ECE on its own task set."
         confidence: high
 metadata:
   github:
@@ -42,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AnyJev - Library that turns any open transformers or vLLM model into a Jev-style Choice/Score/Noul decision from one
-    prefill with no training, using cyclic-shift marginalization and a label-free prior estimate to reduce option-order
-    sensitivity; every result is labeled raw, L0 or L1 by the debiasing and calibration it carries, and the committed
-    bench reports order-flip rate, Brier and ECE on its own task set.
+  summary: AnyJev - Library that turns any open transformers or vLLM model into a Jev-style Choice/Score/Noul decision from one prefill with no training, using cyclic-shift marginalization and a label-free prior estimate to reduce option-order sensitivity; every result is labeled raw, L0 or L1 by the debiasing and calibration it carries, and the committed bench reports order-flip rate, Brier and ECE on its own task set.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

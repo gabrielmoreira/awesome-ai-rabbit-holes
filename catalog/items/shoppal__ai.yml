@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__shoppal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - ShopPal
         anchor_text: ShopPal
         extracted_url: https://shoppal.ai
-        surrounding_text: '## [ShopPal](https://shoppal.ai)'
+        surrounding_text: "## [ShopPal](https://shoppal.ai)"
         confidence: high
 metadata:
   github:
@@ -36,25 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ShopPal AI is a U.S.-based AI system integration and go-to-market partner for fashion and apparel brands.
-  why_it_matters: It helps fashion companies deploy AI-powered shopping agents and content without building internal AI teams.
-  mental_damage: >-
-    Another vertical-specific AI consultancy promising to 'transform' an industry while selling PowerPoint-driven
-    integration services.
+  summary: Shoppal AI is a U.S.-based system integration and go-to-market execution partner that helps fashion brands deploy AI solutions like shopping agents and personalized recommendations without building internal AI teams.
+  why_it_matters: It enables fashion enterprises to adopt AI-driven personalization and merchandising at scale by handling integration, operations, and market execution end-to-end.
+  mental_damage: Another AI consultancy promising transformation while you're still trying to get Copilot to stop suggesting const as let.
   tags:
-    - ai-consulting
+    - ai-services
     - fashion-tech
     - system-integration
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    ShopPal AI is a services provider focused on AI integration and go-to-market execution for fashion brands, not a
-    developer-facing tool, agent, framework, or infrastructure product.
+  reason: Shoppal AI is a services company focused on AI implementation and go-to-market execution for fashion brands, not a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - ShopPal AI operates as an AI system integration and execution partner for fashion and apparel brands
-    - Services include AI infrastructure integration, operational enablement, and go-to-market execution
-    - Target clients are mid-to-large fashion brands seeking to deploy AI without large internal teams
+    - "Scraped site context: 'Shoppal AI operates as an AI system integration and execution partner, exclusively focused on the fashion and apparel industry.'"
+    - "Scraped site context: 'We help fashion companies translate emerging AI technologies [...] into deployable, scalable, and revenue-generating business systems, without requiring brands to build large internal AI teams.'"
+    - "Source-list context: Listed in 'awesome-ai-agents' under section 'ShopPal', but this reflects a mischaracterization as an autonomous agent rather than a services provider."
 placement:
   primary_category: null
   section: null
@@ -64,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,26 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:37:13.761Z'
+    updated_at: "2026-10-05T04:45:15.501Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4513b661f519ad498d4a1cd475cd3eaf178385e41862f41d8d3fdbba9d879d1e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f2486af1e4ab7c0c1e628a171e876794de05290825513c5f1c73c3b20c71186c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        ShopPal AI is a services provider focused on AI integration and go-to-market execution for fashion brands, not a
-        developer-facing tool, agent, framework, or infrastructure product.
+      decision_reason: Shoppal AI is a services company focused on AI implementation and go-to-market execution for fashion brands, not a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - ShopPal AI operates as an AI system integration and execution partner for fashion and apparel brands
-        - Services include AI infrastructure integration, operational enablement, and go-to-market execution
-        - Target clients are mid-to-large fashion brands seeking to deploy AI without large internal teams
+        - "Scraped site context: 'Shoppal AI operates as an AI system integration and execution partner, exclusively focused on the fashion and apparel industry.'"
+        - "Scraped site context: 'We help fashion companies translate emerging AI technologies [...] into deployable, scalable, and revenue-generating business systems, without requiring brands to build large internal AI teams.'"
+        - "Source-list context: Listed in 'awesome-ai-agents' under section 'ShopPal', but this reflects a mischaracterization as an autonomous agent rather than a services provider."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

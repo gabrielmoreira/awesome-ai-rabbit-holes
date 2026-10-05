@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meetstream-ai__meetstream-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💬 Communication
         anchor_text: meetstream-ai/meetstream-mcp
         extracted_url: https://github.com/meetstream-ai/meetstream-mcp
-        surrounding_text: >-
-          -   **[meetstream-ai/meetstream-mcp](https://github.com/meetstream-ai/meetstream-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/meetstream-ai/meetstream-mcp?style=social)](https://github.com/meetstream-ai/meetstream-mcp):
-          Sends AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. 19
-          tools covering bot lifecycle, transcripts, per-participant audio, live chat and calendar scheduling.
+        surrounding_text: "-   **[meetstream-ai/meetstream-mcp](https://github.com/meetstream-ai/meetstream-mcp)** [![GitHub stars](https://img.shields.io/github/stars/meetstream-ai/meetstream-mcp?style=social)](https://github.com/meetstream-ai/meetstream-mcp): Sends AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. 19 tools covering bot lifecycle, transcripts, per-participant audio, live chat and calendar scheduling."
         confidence: high
 metadata:
   github:
@@ -42,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    meetstream-ai/meetstream-mcp : Sends AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and
-    summarize meetings. 19 tools covering bot lifecycle, transcripts, per-participant audio, live chat and calendar
-    scheduling.
+  summary: "meetstream-ai/meetstream-mcp : Sends AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. 19 tools covering bot lifecycle, transcripts, per-participant audio, live chat and calendar scheduling."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -55,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.84
-    - >-
-      jev winnow:e4b 0.19 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.19 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -69,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

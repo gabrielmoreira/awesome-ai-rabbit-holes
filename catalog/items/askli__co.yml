@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__askli__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Databerry
         anchor_text: Databerry
         extracted_url: https://databerry.ai
-        surrounding_text: '## [Databerry](https://www.databerry.ai/)'
+        surrounding_text: "## [Databerry](https://www.databerry.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Askli brings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer
-    support easy and simplifies team workflows.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Askli.co is a no-code platform for creating custom AI chatbots trained on user data for customer support, lead generation, and workflow automation.
+  why_it_matters: It enables developers and businesses to deploy AI-powered customer-facing tools without coding or infrastructure setup.
+  mental_damage: Another chatbot builder promising to 'automate support' while quietly adding yet another SaaS login to the enterprise sprawl.
+  tags:
+    - chatbot
+    - no-code
+    - customer-support
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  status: excluded
+  reason: Askli.co is a general-purpose AI chatbot builder for customer support and lead generation, not a developer-facing tool for coding, agent orchestration, or AI workflow engineering.
   evidence:
-    - jev winnow:e4b confidence 0.78
+    - "Scraped site context: 'Askli brings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer support easy and simplifies team workflows.'"
+    - "Source-list context: Listed in awesome-ai-agents under 'Databerry' as a no-code platform for custom AI chatbots."
+    - "Primary page excerpt: Focuses on importing data from Notion, Google Drive, deploying widgets, monitoring conversations, and human handoff — all end-user support features."
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:28.549Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2ab6626c8fff176b13ec95f6c32818d7517586b327c21d4a24843fda6476b9a2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Askli.co is a general-purpose AI chatbot builder for customer support and lead generation, not a developer-facing tool for coding, agent orchestration, or AI workflow engineering.
+      decision_evidence:
+        - "Scraped site context: 'Askli brings a no-code platform to create custom AI chatbots trained on your data. Our solution makes customer support easy and simplifies team workflows.'"
+        - "Source-list context: Listed in awesome-ai-agents under 'Databerry' as a no-code platform for custom AI chatbots."
+        - "Primary page excerpt: Focuses on importing data from Notion, Google Drive, deploying widgets, monitoring conversations, and human handoff — all end-user support features."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

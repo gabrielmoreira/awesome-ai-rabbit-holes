@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__longkou1988__cnki-skills__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: cnki-skills
         extracted_url: https://github.com/longkou1988/cnki-skills
-        surrounding_text: >-
-          | [cnki-skills](https://github.com/longkou1988/cnki-skills) | ★ 18 | Python | 2026-09-23 | The optional
-          cnki-jev package uses Jev for first-pass literature screening and escalates complex cases for model or human
-          review. |
+        surrounding_text: "| [cnki-skills](https://github.com/longkou1988/cnki-skills) | ★ 18 | Python | 2026-09-23 | The optional cnki-jev package uses Jev for first-pass literature screening and escalates complex cases for model or human review. |"
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    The optional cnki-jev package uses Jev for first-pass literature screening and escalates complex cases for model or
-    human review.
+  summary: The optional cnki-jev package uses Jev for first-pass literature screening and escalates complex cases for model or human review.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -53,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.57
-    - >-
-      jev winnow:e4b 0.22 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      skills (unverified)
+    - jev winnow:e4b 0.22 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

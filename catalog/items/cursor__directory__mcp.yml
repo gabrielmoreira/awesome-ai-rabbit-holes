@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__directory__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Cursor MCP Directory
         extracted_url: https://cursor.directory/mcp
-        surrounding_text: '- **[Cursor MCP Directory](https://cursor.directory/mcp)** – MCP servers curated by Cursor.'
+        surrounding_text: "- **[Cursor MCP Directory](https://cursor.directory/mcp)** – MCP servers curated by Cursor."
         confidence: high
 metadata:
   github:
@@ -36,9 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cursor.directory/mcp is a curated list of MCP servers and directories for discovering Model Context Protocol tools.
-  why_it_matters: It helps developers find MCP servers to extend AI agents with tools and data sources.
-  mental_damage: Another directory to bookmark before realizing you’ll never actually browse it.
+  summary: A curated directory of MCP servers for the Model Context Protocol.
+  why_it_matters: Helps developers discover MCP servers to extend AI agents with tool and data access.
+  mental_damage: Another list of lists, because navigating the MCP ecosystem shouldn't require a PhD in protocol fatigue.
   tags:
     - mcp
     - directory
@@ -46,20 +46,22 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: The resource is a curated directory of MCP servers, fitting the awesome-awesomes category as a navigation aid for developers exploring the MCP ecosystem.
   evidence:
-    - jev-latest choice confidence 0.77
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
+    - URL https://cursor.directory/mcp serves as a directory for MCP servers
+    - No evidence of being a standalone MCP server, client, or protocol implementation
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:53:29.235Z'
+    updated_at: "2026-10-05T04:59:58.349Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:566156944769259edb0579b6b2b2b5d1aeb12c054764a109ae87622a787b9eec
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5a06d4b7c439045f0dc9568763bf7f409548fb3c2fe64089da19d68442b437d0
       proposed_primary_category: awesome-awesomes
-      disagreement: true
-      decision_reason: >-
-        Cursor.directory/mcp is a curated directory of MCP servers, fitting the awesome-awesomes category as a discovery
-        resource rather than a tool itself.
+      disagreement: false
+      decision_reason: The resource is a curated directory of MCP servers, fitting the awesome-awesomes category as a navigation aid for developers exploring the MCP ecosystem.
       decision_evidence:
-        - 'Seen in source list: awesome-ai-coding-tools under section ''MCP Servers and Directories'''
-        - URL path '/mcp' and context indicate it is a directory/listing, not a standalone MCP server or client
-        - No repo description, stars, or activity signals suggest it is a product; it is a resource page
+        - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
+        - URL https://cursor.directory/mcp serves as a directory for MCP servers
+        - No evidence of being a standalone MCP server, client, or protocol implementation
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: >-
-        Choose awesome-awesomes over mcp because cursor.directory/mcp is a discovery directory, not an MCP server,
-        client, or infrastructure tool whose primary identity is MCP.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+      contrastive_reason: Choose awesome-awesomes over mcp because the resource is a curated directory listing MCP servers, not an MCP server, client, or infrastructure tool itself.
+      review_reason: null
       review_resume_lifecycle: null

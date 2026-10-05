@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__acl2023__retrieval__lm__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'ACL 2023 Tutorial: Retrieval-based Language Models and Applications'
+        anchor_text: "ACL 2023 Tutorial: Retrieval-based Language Models and Applications"
         extracted_url: https://acl2023-retrieval-lm.github.io
-        surrounding_text: >-
-          4. [ACL 2023 Tutorial: Retrieval-based Language Models and
-          Applications](https://acl2023-retrieval-lm.github.io/)
+        surrounding_text: "4. [ACL 2023 Tutorial: Retrieval-based Language Models and Applications](https://acl2023-retrieval-lm.github.io/)"
         confidence: high
 metadata:
   github:
@@ -38,33 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ACL 2023 tutorial page providing a comprehensive overview of retrieval-based language models, covering
-    architectures, training approaches, and applications.
-  why_it_matters: >-
-    It compiles foundational research on retrieval-augmented generation that informs current RAG implementations, but it
-    is educational material rather than a developer tool.
-  mental_damage: >-
-    Discovering that every RAG startup pitch deck is secretly just these ACL 2023 slides with the university logos
-    swapped for YC hexagons.
+  summary: "ACL 2023 Tutorial: Retrieval-based Language Models and Applications is an academic tutorial website covering advances in retrieval-augmented language models."
+  why_it_matters: Provides educational material on retrieval-augmented language models, relevant for developers exploring RAG or knowledge-intensive NLP techniques.
+  mental_damage: Another PDF-heavy tutorial site reminding us that cutting-edge AI research still prefers academic silos over executable code.
   tags:
     - tutorial
+    - research
     - retrieval-augmented-generation
-    - academic
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure product;
-    it lacks a developer-tooling workflow or standalone product identity.
+  reason: The resource is an academic tutorial website with no developer-facing tool, SDK, agent, or application; it is educational content, not a product for AI-assisted development workflows.
   evidence:
-    - >-
-      Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models, not a
-      tool.
-    - No code repository, API, or developer workflow is provided; identity is purely academic/educational.
-    - >-
-      Source-list categorizes it under 'Course', confirming its role as learning material rather than developer
-      infrastructure.
+    - The resource is a tutorial website from ACL 2023 with slides, schedule, and reading list, not a software tool or platform.
+    - It describes retrieval-based language models as a research topic, with no mention of developer tooling, APIs, libraries, or integrations.
+    - Source-list context shows it appears in an awesome list under '课程 Course', indicating its role as educational material, not developer tooling.
 placement:
   primary_category: null
   section: null
@@ -74,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,35 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:30:08.320Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for acl2023__retrieval__lm__github__io: Invalid AI response structure: Missing
-        required field: why_it_matters
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:27:28.499Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:cefed8d67a411e039cd72386e99605b39ada5f6411b29892be1d3a19c2e9ae2a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4a34dcf0a3f857a181a983a2bfeca6d8f7ac777524a1981b5e929107e15fa600
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure
-        product; it lacks a developer-tooling workflow or standalone product identity.
+      decision_reason: The resource is an academic tutorial website with no developer-facing tool, SDK, agent, or application; it is educational content, not a product for AI-assisted development workflows.
       decision_evidence:
-        - >-
-          Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models,
-          not a tool.
-        - No code repository, API, or developer workflow is provided; identity is purely academic/educational.
-        - >-
-          Source-list categorizes it under 'Course', confirming its role as learning material rather than developer
-          infrastructure.
+        - The resource is a tutorial website from ACL 2023 with slides, schedule, and reading list, not a software tool or platform.
+        - It describes retrieval-based language models as a research topic, with no mention of developer tooling, APIs, libraries, or integrations.
+        - Source-list context shows it appears in an awesome list under '课程 Course', indicating its role as educational material, not developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

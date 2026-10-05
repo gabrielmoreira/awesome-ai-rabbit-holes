@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__unstructured__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Unstructured Platform
         extracted_url: https://unstructured.io
-        surrounding_text: >-
-          - **[Unstructured](https://github.com/Unstructured-IO/UNS-MCP)** - Set up and interact with your unstructured
-          data processing workflows in [Unstructured Platform](https://unstructured.io)
+        surrounding_text: "- **[Unstructured](https://github.com/Unstructured-IO/UNS-MCP)** - Set up and interact with your unstructured data processing workflows in [Unstructured Platform](https://unstructured.io)"
         confidence: high
 metadata:
   github:
@@ -38,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web
-    pages for downstream AI processing.
-  why_it_matters: >-
-    It reduces the friction of turning messy real-world data into model-ready inputs, a critical bottleneck in building
-    reliable AI applications.
-  mental_damage: Yet another preprocessing layer you didn’t know you needed until your LLM started hallucinating from bad OCR.
+  summary: Unstructured.io is a platform that extracts and structures text from documents such as PDFs, images, and office files for use in AI pipelines.
+  why_it_matters: It helps developers turn unstructured documents into clean, usable data for LLMs, RAG, and document-aware applications.
+  mental_damage: Yet another preprocessing layer in the endless stack of 'just extract the text' tools that promise to solve your data problems but add another dependency to manage.
   tags:
-    - data-prep
-    - etl
-    - ai-infrastructure
+    - document-ai
+    - data-preprocessing
+    - rag
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
+  reason: Unstructured.io fits the document-ai category because its core function is extracting and structuring content from documents like PDFs and images — a standalone document understanding tool, not a framework module or agent feature.
   evidence:
-    - jev-latest choice confidence 0.70
+    - "Repo description: (none) — but the homepage unstructured.io positions itself as a document processing platform for AI"
+    - "Seen in source lists: listed under awesome-mcp-servers as an Official Server, indicating it exposes document processing via MCP"
+    - "Product identity: focuses on turning unstructured files into structured output, aligning with document-ai's purpose of reading documents into text, structure, or extracted fields"
 placement:
   primary_category: document-ai
   secondary_categories: []
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,38 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:32.584Z'
+    updated_at: "2026-10-05T04:56:41.267Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:db96bc7002451636c851a3be66073849fbb087afe731c8048c704f8ce41960c0
-      proposed_primary_category: ai-frameworks
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:239f41031c7c5c19aeb7dac3214c0f3abe7328aeeec460eb3028f4b6681e3af5
+      proposed_primary_category: document-ai
       disagreement: false
-      decision_reason: >-
-        unstructured.io is a developer-facing SDK and API for data extraction and transformation, functioning as
-        reusable infrastructure that developers import and program against to prepare inputs for AI systems, aligning
-        with the Frameworks & SDKs category.
+      decision_reason: Unstructured.io fits the document-ai category because its core function is extracting and structuring content from documents like PDFs and images — a standalone document understanding tool, not a framework module or agent feature.
       decision_evidence:
-        - >-
-          Seen in source list: awesome-mcp-servers under 'Official Servers', indicating recognition in curated developer
-          tooling ecosystems.
-        - >-
-          Product focuses on extracting and structuring unstructured data (PDFs, HTML, etc.) for AI workflows, a
-          foundational infrastructure task.
-        - >-
-          No evidence of being a coding agent, app builder, or orchestrator — its core value is in programmable data
-          processing, not autonomous coding or prompt-to-app generation.
+        - "Repo description: (none) — but the homepage unstructured.io positions itself as a document processing platform for AI"
+        - "Seen in source lists: listed under awesome-mcp-servers as an Official Server, indicating it exposes document processing via MCP"
+        - "Product identity: focuses on turning unstructured files into structured output, aligning with document-ai's purpose of reading documents into text, structure, or extracted fields"
       category_candidates:
-        - ai-frameworks
-        - memory-and-context
-      contrastive_reason: >-
-        Choose ai-frameworks over memory-and-context because unstructured.io is primarily an importable SDK for data
-        extraction pipelines, not a persistent memory or context management system for agent sessions.
+        - document-ai
+        - mcp
+      contrastive_reason: Choose document-ai over mcp because while it offers an MCP server, its primary identity is document processing — MCP is an exposure mechanism, not the core product.
       review_reason: null
       review_resume_lifecycle: null

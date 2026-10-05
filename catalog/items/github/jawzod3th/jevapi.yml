@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jawzod3th__jevapi__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JevApi
         extracted_url: https://github.com/jawzod3th/jevapi
-        surrounding_text: >-
-          - [JevApi](https://github.com/JawzoD3TH/JevApi) - .NET 10 TypeSafe Jev client (AOT) plus stdio MCP
-          evaluate/batch tools. [Project guide](community/projects/tools/jevapi.md).
+        surrounding_text: "- [JevApi](https://github.com/JawzoD3TH/JevApi) - .NET 10 TypeSafe Jev client (AOT) plus stdio MCP evaluate/batch tools. [Project guide](community/projects/tools/jevapi.md)."
         confidence: high
 metadata:
   github:
@@ -60,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

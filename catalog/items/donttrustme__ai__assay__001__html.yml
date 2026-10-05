@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__donttrustme__ai__assay__001__html__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: donttrustme.ai
         extracted_url: https://donttrustme.ai/assay-001.html
-        surrounding_text: >-
-          - [ASSAY-001](https://github.com/jourdanlabs/assay-001)
-          ![stars](https://img.shields.io/github/stars/jourdanlabs/assay-001?style=flat-square&label=%E2%98%85) -
-          Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a split
-          verdict and full logs, written up at [donttrustme.ai](https://donttrustme.ai/assay-001.html).
+        surrounding_text: "- [ASSAY-001](https://github.com/jourdanlabs/assay-001) ![stars](https://img.shields.io/github/stars/jourdanlabs/assay-001?style=flat-square&label=%E2%98%85) - Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a split verdict and full logs, written up at [donttrustme.ai](https://donttrustme.ai/assay-001.html)."
         confidence: high
 metadata:
   github:
@@ -41,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ASSAY-001 - Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a
-    split verdict and full logs, written up at donttrustme.ai.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An independent, pre-registered verification report auditing the calibration and type-safety claims of the Jev decision model.
+  why_it_matters: It provides empirical, third-party evidence regarding the reliability and probability accuracy of Jev's outputs.
+  mental_damage: Because nothing says 'productive developer workflow' like reading a specific 2026 field journal to see if a model is overconfident.
+  tags:
+    - decision-models
+    - calibration
+    - audit
+    - jev
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  status: excluded
+  reason: The entry is a single, one-off audit report (an assay) rather than a reusable software tool, framework, or platform.
   evidence:
-    - jev-latest choice confidence 0.51
+    - The content is a specific research/verification report (Assay-001) rather than a functional piece of software.
+    - Per the catalog's decision ladder, auxiliary resource pages and supporting links that are not standalone products should be excluded.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:08:01.536Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fe8e86668211ce96d3ff924a9501efe84e6c8cfd0f24cb3903f482cbf2d8a578
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The entry is a single, one-off audit report (an assay) rather than a reusable software tool, framework, or platform.
+      decision_evidence:
+        - The content is a specific research/verification report (Assay-001) rather than a functional piece of software.
+        - Per the catalog's decision ladder, auxiliary resource pages and supporting links that are not standalone products should be excluded.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__promptengineering__org__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,34 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Prompt Engineering Institute is an educational website offering articles, free lessons, and professional training on
-    prompt engineering, LLMs, AI agents, RAG, and automation.
-  why_it_matters: >-
-    It provides developers with structured learning resources to improve their ability to work effectively with
-    generative AI systems.
-  mental_damage: Yet another site promising AI mastery through endless reading while your terminal waits for actual code to write.
+  summary: PromptEngineering.org is an educational website offering free lessons, articles, and professional training on prompt engineering, LLMs, AI agents, RAG, and automation.
+  why_it_matters: It helps developers learn practical AI skills to improve their interactions with generative models and build better AI-powered workflows.
+  mental_damage: Another AI learning site promising career salvation through prompt mastery, as if typing the right incantation will make the hallucinations stop.
   tags:
     - education
     - prompt-engineering
-    - llm
+    - ai-training
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    PromptEngineering.org is an educational resource and content platform, not a developer-facing AI tool, agent,
-    framework, or infrastructure product; its primary value lies in teaching and curation rather than enabling direct
-    AI-assisted development workflows.
+  reason: It is an educational resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; its primary value is content delivery, not enabling coding or AI engineering tasks.
   evidence:
-    - >-
-      Scraped site context describes it as offering 'practical articles, free lessons, and professional AI training' on
-      topics like prompt engineering and LLMs.
-    - >-
-      Source-list context shows it appears in awesome-LLM-resources under the '课程 Course' section as a learning
-      resource.
-    - >-
-      No evidence of being a deployable tool, SDK, agent, or platform that developers use to build, orchestrate, or
-      augment AI-powered software development.
+    - Scraped site context describes it as offering 'practical articles, free lessons, and professional AI training' on prompt engineering and related topics.
+    - Source-list context places it in 'awesome-LLM-resources' under '课程 Course', indicating it is curated as learning material, not a tool.
+    - No evidence of a deployable product, SDK, agent, or tool that developers can integrate into workflows — only informational content.
 placement:
   primary_category: null
   section: null
@@ -73,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,33 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:45.328Z'
+    updated_at: "2026-10-05T04:59:32.361Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:49d7bd2c28ae7ea89fa52c0f61d3f7b3f0fb0ad9032676a2495ba44ab22df8fa
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:09d5453ecb77a2b82cee7fe67601d029e733020b60d25e5fe1883b5f120d0935
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        PromptEngineering.org is an educational resource and content platform, not a developer-facing AI tool, agent,
-        framework, or infrastructure product; its primary value lies in teaching and curation rather than enabling
-        direct AI-assisted development workflows.
+      decision_reason: It is an educational resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; its primary value is content delivery, not enabling coding or AI engineering tasks.
       decision_evidence:
-        - >-
-          Scraped site context describes it as offering 'practical articles, free lessons, and professional AI training'
-          on topics like prompt engineering and LLMs.
-        - >-
-          Source-list context shows it appears in awesome-LLM-resources under the '课程 Course' section as a learning
-          resource.
-        - >-
-          No evidence of being a deployable tool, SDK, agent, or platform that developers use to build, orchestrate, or
-          augment AI-powered software development.
+        - Scraped site context describes it as offering 'practical articles, free lessons, and professional AI training' on prompt engineering and related topics.
+        - Source-list context places it in 'awesome-LLM-resources' under '课程 Course', indicating it is curated as learning material, not a tool.
+        - No evidence of a deployable product, SDK, agent, or tool that developers can integrate into workflows — only informational content.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

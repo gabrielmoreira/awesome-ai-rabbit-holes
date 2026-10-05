@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesomelangchain__substack__com__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-12T15:06:19.300Z'
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,10 +18,7 @@ provenance:
           - README
         anchor_text: Subscribe to the newsletter
         extracted_url: https://awesomelangchain.substack.com
-        surrounding_text: >-
-          **[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome
-          LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed
-          our attention
+        surrounding_text: "**[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed our attention"
         confidence: high
 metadata:
   github:
@@ -39,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack newsletter providing curated updates and insights regarding the LangChain ecosystem.
-  why_it_matters: It helps developers filter the noise of the rapidly evolving LangChain framework through periodic curation.
-  mental_damage: >-
-    Another specialized feed to help you achieve the illusion of being 'up to date' in an ecosystem that changes every
-    Tuesday.
+  summary: A Substack newsletter providing updates and insights on the LangChain ecosystem.
+  why_it_matters: Helps developers track the rapid evolution of LangChain and its surrounding LLM orchestration tools.
+  mental_damage: Another high-signal newsletter to add to the pile of things you will definitely read 'later'.
   tags:
     - langchain
     - newsletter
-    - curation
-    - ai-ecosystem
+    - llm-orchestration
+    - ai-news
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Publications & Feeds
+  reason: It is a specialized publication focused on the LangChain ecosystem, making it a useful discovery resource for developers.
   evidence:
-    - jev-latest choice confidence 0.96
+    - Substack URL indicates a newsletter/publication format
+    - Source list context associates it with LangChain ecosystem curation
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-12T15:06:19.301Z'
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,30 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:15:29.999Z'
+    updated_at: "2026-10-05T04:20:00.921Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a367fd7086bcff54b85981a610e1efa55907a59305017690b01185b86604179e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:455919bb2c273c38fc27f8fdd24edc1bb20d3315a651b056bd30fd08a8cfc962
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        As a Substack publication, it serves as a curated resource and news feed for a specific niche of the AI
-        development landscape.
+      decision_reason: It is a specialized publication focused on the LangChain ecosystem, making it a useful discovery resource for developers.
       decision_evidence:
-        - URL is a Substack domain indicating a publication identity
-        - Source context links it to the LangChain ecosystem
+        - Substack URL indicates a newsletter/publication format
+        - Source list context associates it with LangChain ecosystem curation
       category_candidates:
         - awesome-awesomes
         - ai-frameworks
-      contrastive_reason: >-
-        Choose awesome-awesomes over ai-frameworks because it is a publication about the framework rather than the
-        code-first SDK itself.
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the product is a publication about the framework rather than the SDK itself.
       review_reason: null
       review_resume_lifecycle: null

@@ -3,17 +3,16 @@
 
 Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
 
-_495 entries in 7 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_484 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [LLM & Agent SDKs](#llm--agent-sdks) — 217
-- [Multi-Agent Systems](#multi-agent-systems) — 60
-- [Provider & Model Abstractions](#provider--model-abstractions) — 108
+- [LLM & Agent SDKs](#llm--agent-sdks) — 213
+- [Multi-Agent Systems](#multi-agent-systems) — 61
+- [Provider & Model Abstractions](#provider--model-abstractions) — 102
 - [Workflow & Graph Engines](#workflow--graph-engines) — 25
-- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 33
+- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 32
 - [Training & Model Infrastructure](#training--model-infrastructure) — 51
-- [Others](#others) — 1
 
 ## LLM & Agent SDKs
 
@@ -230,7 +229,7 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
   `rag` `local-ai` `framework` `enterprise` `small-models`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+187 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+183 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[E2B](https://github.com/e2b-dev/e2b)** `⭐ 14.1k` `updated ≤30d` Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs.
 - **[Eino](https://github.com/cloudwego/eino)** `⭐ 13.2k` `updated ≤30d` Eino is a Go-based LLM application development framework with components, agent toolkits, and workflow orchestration.
@@ -243,7 +242,7 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[Langchain Go](https://github.com/tmc/langchaingo)** `⭐ 9.7k` `updated ≤1y` LangChain for Go is a Go-native library providing composable building blocks for writing LLM-powered applications, including model abstraction, chains, and memory.
 - **[BAML](https://github.com/boundaryml/baml)** `⭐ 9.4k` `updated ≤30d` The programming language for agents.
 - **[KAG](https://github.com/openspg/kag)** `⭐ 9.1k` `updated ≤1y` KAG is a knowledge-augmented generation framework that combines the OpenSPG engine and LLMs to provide logical reasoning and multi-hop Q&A for professional domain knowledge bases, moving beyond traditional vector similarity RAG.
-- **[Rig](https://github.com/0xplaygrounds/rig)** `⭐ 8.8k` `updated ≤30d` ⚙️ Build modular and scalable LLM Applications in Rust.
+- **[Rig](https://github.com/0xplaygrounds/rig)** `⭐ 8.8k` `updated ≤30d` Rig is a Rust library for building modular and scalable LLM applications.
 - **[TypeChat](https://github.com/microsoft/typechat)** `⭐ 8.7k` `updated ≤90d` TypeChat is a library that makes it easy to build natural language interfaces using types.
 - **[R2R](https://github.com/sciphi-ai/r2r)** `⭐ 8k` `updated ≤1y` R2R is a production-ready, RESTful API framework for building agentic retrieval-augmented generation (RAG) systems with multimodal ingestion, hybrid search, and knowledge graph support.
 - **[Upsonic](https://github.com/upsonic/upsonic)** `⭐ 8k` `updated ≤180d` Python framework for building autonomous AI agents with task management, tool integration, and sandboxed execution.
@@ -375,7 +374,7 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[nestjs-a2a](https://github.com/thestupd/nestjs-a2a)** `⭐ 16` `updated >1y` A NestJS library and module for implementing Google's Agent-to-Agent (A2A) protocol to build type-safe, streaming-capable agents with JSON-RPC 2.0 compliant APIs.
 - **[agent-terminal](https://github.com/jasonkneen/agent-terminal)** `⭐ 12` `updated ≤1y` A headless terminal automation library for AI agents that enables interaction with CLI applications via ASCII text capture and keyboard input.
 - **[marzukia/charted](https://github.com/marzukia/charted)** `⭐ 11` `updated ≤90d` A zero-dependency Python library for generating SVG and PNG charts, featuring an integrated MCP server for agentic data visualization.
-- **[bunsdev/typesafe-ui](https://github.com/bunsdev/typesafe-ui)** `⭐ 7` `updated ≤30d` shadcn-style reusable components and blocks for using TypeSafe AI.
+- **[typesafeai/typesafe-ui](https://github.com/typesafeai/typesafe-ui)** `⭐ 7` `updated ≤30d` shadcn-style reusable components and blocks for using TypeSafe AI.
 - **[stumble/jev-go](https://github.com/stumble/jev-go)** `⭐ 6` jev-go - Community Go SDK for TypeSafe AI Jev / System One.
 - **[Agently](https://github.com/maplemx/agently)** `⭐ 5` `updated ≤90d` Agently is a GenAI application development framework for building and managing AI agents with structured output, event-driven workflows, and model-agnostic configuration.
 - **[bensyverson/goodall](https://github.com/bensyverson/goodall)** `⭐ 5` `updated ≤30d` A simple and extensible agent loop for Golang projects.
@@ -408,17 +407,13 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[JEV ADK](https://github.com/abyakod/jev_adk)** `⭐ 0` `updated ≤30d` Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestrator powered by TypeSafe AI's Jev.
 - **[soulware-studio/promethic-mcp](https://github.com/soulware-studio/promethic-mcp)** `⭐ 0` soulware-studio/promethic-mcp ☁️ - Prompt library with versioned prompts and per-version model settings for text, image and JSON; tracks edits and proposes refined versions.
 - **[TypeSafeAI](https://github.com/tryagi/typesafeai)** `⭐ 0` TypeSafeAI (site) - First-class, NativeAOT-ready .NET SDK for TypeSafe AI System One, generated with AutoSDK.
-- **[agent-cost-guardrails](https://npmjs.com/package/agent-cost-guardrails)** agent-cost-guardrails is an npm package that provides cost monitoring and budget controls for AI agents.
-- **[CSV-AI](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/snowflake.html)** LangChain provides a minimal, configurable agent harness for composing agents from model, tools, prompt, and middleware.
-- **[eve.dev](https://eve.dev)** eve (site) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path.
-- **[LangChain](https://langchain.com)** LangChain is a framework and SDK for building applications with language agents, offering abstractions for LLMs, chains, agents, and tools.
-- **[LlamaIndex](https://llamaindex.ai)** LlamaIndex is a data framework for connecting custom data sources to large language models, enabling retrieval-augmented generation and context-aware AI applications.
+- **[AntV](https://github.com/antvis)** AntV is a data visualization team and open-source project that provides charting libraries and AI-powered visualization tools for developers.
+- **[CSV-AI](https://docs.langchain.com/oss/python/langchain/overview)** LangChain is a code-first framework SDK for building LLM-powered agents and applications.
+- **[LangChain](https://langchain.com)** LangChain is a code-first framework for building AI-powered applications and agent systems using abstractions for LLMs, tools, memory, and orchestration.
 - **[Markstream Vue](https://markstream-vue.simonhe.me)** Markstream Vue – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.
-- **[MultiOn](https://theagi.company)** A developer platform and SDK for building autonomous agents that interact with mobile and desktop applications via screen recognition and action.
-- **[Query the YouTube video transcripts](https://colab.research.google.com/drive/1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn)** A Google Colab notebook serving as a tutorial or reference for the LangChain framework.
-- **[ScrapeGraphAI](https://scrapegraphai.com)** ScrapeGraphAI is a web scraping API that extracts structured data from websites using AI without requiring proxies, selectors, or maintenance.
-- **[Vercel AI SDK](https://ai-sdk.dev)** A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.
-- **[Wren](https://getwren.ai)** Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources.
+- **[typesafe_sdk](https://docs.rs/typesafe-sdk-rust/latest/typesafe_sdk)** A Rust SDK providing type-safe access to generative AI APIs with structured output support.
+- **[Vanna.AI](https://vanna.ai)** Vanna AI is an open-source framework for building SQL agents that allow users to query databases using natural language.
+- **[Vercel AI SDK](https://ai-sdk.dev)** AI SDK is a unified TypeScript SDK for building AI apps with streaming, fallbacks, and multi-model support, powered by Vercel.
 
 </details>
 
@@ -651,7 +646,7 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
   `multi-agent` `knowledge-graph` `agent-framework` `sdk` `orchestration`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+30 more in Multi-Agent Systems &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+31 more in Multi-Agent Systems &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[RAI](https://github.com/robotecai/rai)** `⭐ 597` `updated ≤180d` RAI is a vendor-agnostic agentic framework for Physical AI and robotics that integrates LLMs and multimodal models with ROS 2 to perform complex actions, scenarios, and human-robot interactions.
 - **[Swarm](https://github.com/christopherkarani/swarm)** `⭐ 584` `updated ≤90d` A Swift framework for building stateful AI agent workflows natively on Apple and Linux platforms.
@@ -681,8 +676,9 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[ruby-openai-swarm](https://github.com/graysonchen/ruby-openai-swarm)** `⭐ 11` `updated >1y` A Ruby-based framework adapted from OpenAI’s Swarm for lightweight multi-agent orchestration.
 - **[Voltmachines](https://github.com/ssdeanx/voltmachines)** `⭐ 5` `updated >1y` A TypeScript framework for building orchestrated multi-agent systems with persistent memory, tool integration, and a supervisor-based delegation architecture.
 - **[aurumflux20/effectfence](https://github.com/aurumflux20/effectfence)** `⭐ 0` `updated ≤30d` A Rust library and MCP server that provides a causal concurrency fence to prevent duplicate side effects in multi-agent tool calls.
-- **[AutoGen Documentation](https://microsoft.github.io/autogen)** AutoGen is a Microsoft-maintained code-first framework for building multi-agent AI systems.
-- **[CrewAI](https://crewai.io)** An open-source multi-agent orchestration framework for building collaborative AI workflows.
+- **[AutoGen Documentation](https://microsoft.github.io/autogen)** AutoGen is a code-first multi-agent framework for building AI-powered applications and agent systems.
+- **[BondAI](https://bondai.dev)** BondAI is an autonomous AI agent framework for developers.
+- **[CrewAI](https://crewai.io)** CrewAI is a code-first Python framework for building multi-agent AI systems.
 
 </details>
 
@@ -797,7 +793,7 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 
   `kubernetes` `sdk` `mcp` `sql`
   </details>
-- **[Neurolink](https://github.com/juspay/neurolink)** `⭐ 142` `updated ≤90d` A TypeScript SDK and platform that unifies 24+ LLM providers, MCP servers, voice, RAG, and memory under a single interface for production AI integrations. <details><summary>More about</summary>
+- **[NeuroLink](https://github.com/juspay/neurolink)** `⭐ 142` `updated ≤90d` A TypeScript SDK and platform that unifies 24+ LLM providers, MCP servers, voice, RAG, and memory under a single interface for production AI integrations. <details><summary>More about</summary>
 
   Developers can swap LLM providers, integrate MCP servers, and manage AI workflows (voice, RAG, memory) without rewriting core logic, reducing vendor lock-in and operational overhead.
 
@@ -852,7 +848,7 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[sanmai/typesafe-ai-php](https://github.com/sanmai/typesafe-ai-php)** `⭐ 14` SDKs & clients (2): typesafe-ai-php, SystemOneSharp.
 - **[twister915/typesafe-ai](https://github.com/twister915/typesafe-ai)** `⭐ 13` typesafe-ai - Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+78 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+72 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[atharvamhaske/typesafe-sdk-go](https://github.com/atharvamhaske/typesafe-sdk-go)** `⭐ 12` `updated ≤30d` unofficial go sdk for typesafe ai. not affiliated with or endorsed by typesafe ai. a side project built to fill the missing go sdk gap, for the community to use.
 - **[saibimajdi/typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk)** `⭐ 12` typesafe-dotnet-sdk (site) - Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.
@@ -919,19 +915,13 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[typesend/typesafe_ai](https://github.com/typesend/typesafe_ai)** `⭐ 0` typesafe_ai (typesend) (site) - Unofficial Elixir SDK for the TypeSafe AI API.
 - **[valksor/typesafe-sdk-go](https://github.com/valksor/typesafe-sdk-go)** `⭐ 0` typesafe-sdk-go - Unofficial Go SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. Not affiliated with TypeSafe AI.
 - **[valksor/typesafe-sdk-php](https://github.com/valksor/typesafe-sdk-php)** `⭐ 0` typesafe-sdk-php (site) - Unofficial PHP SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. Not affiliated with TypeSafe AI.
-- **[CoderPlan](https://coderplan.ai)** CoderPlan – Unified LLM API gateway with OpenAI-compatible API for Claude, GPT, Gemini and 200+ models. Pay-per-use pricing with Alipay/WeChat support, designed for developers using Claude Code and Cursor.
-- **[Codestral](https://mistral.ai/news/codestral)** Codestral is an open-weight 22B parameter code generation model from Mistral AI trained on 80+ programming languages with a 32k context window.
-- **[FireworksAI](https://app.fireworks.ai/account/home)** Fireworks AI provides fast hosted inference for open-source LLMs and image models, with training and deployment capabilities.
-- **[FuturMix](https://futurmix.ai)** FuturMix – Unified AI API gateway for 22+ models with OpenAI-compatible endpoint. Features automatic failover, 99.99% SLA, and cost optimization across OpenAI, Anthropic, and Google models.
-- **[Langchain Data Analyst](https://docs.langchain.com/oss/python/integrations/providers/overview)** A Python library providing standardized interfaces to integrate with diverse LLM providers, tools, and vector stores.
-- **[Mux](https://mux.com)** Mux is a video API platform that enables developers to stream, encode, analyze, and manipulate video with AI-powered features like transcription, moderation, and summarization.
-- **[OpenRouter](https://openrouter.ai)** OpenRouter is a unified interface for accessing and comparing AI models from multiple providers via a single API.
+- **[APIMatic](https://apimatic.io)** APIMatic generates SDKs, developer portals, context plugins for AI coding tools, and MCP servers from OpenAPI specifications.
+- **[Blackbox AI](https://blackbox.ai)** Blackbox AI is a secure, private inference platform that runs open-weight models or routes 300+ models through a single endpoint with end-to-end encryption and zero data retention.
+- **[FuturMix](https://futurmix.ai)** FuturMix.ai is an API relay that provides unified OpenAI-compatible access to 25+ AI models with competitive rates and auto-failover.
+- **[New Relic](https://newrelic.com)** New Relic is an AI-powered observability platform that correlates telemetry across the stack to isolate root causes and reduce MTTR.
+- **[OpenRouter](https://openrouter.ai)** OpenRouter is a unified API interface providing access to hundreds of AI models across multiple providers with pricing and routing features.
 - **[Respan](https://respan.ai/ai-gateway)** Respan – Full-stack AI engineering platform with a tracing SDK, evals, prompt management, and a gateway to 250+ models.
-- **[SonarQube](https://sonarsource.com)** SonarQube is a multi-layered code verification and governance platform that integrates AI agents for security, quality, and remediation across CI/CD workflows.
 - **[spring-ai-typesafe](https://spring-ai-community.github.io/spring-ai-typesafe)** spring-ai-typesafe (site) - A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations.
-- **[Twelve Data](https://twelvedata.com)** Twelve Data provides financial market data APIs for stocks, forex, crypto, and other assets with SDKs and WebSocket access for developers.
-- **[typesafe_ai_rs](https://docs.rs/typesafe-ai-rs/latest/typesafe_ai_rs)** typesafe-ai-rs (site) - Independent async and blocking Rust SDK for the TypeSafe AI System One API.
-- **[Vercel AI SDK provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai)** Vercel AI SDK provider (post) - @ai-sdk/typesafe-ai plus experimental_evaluate; use jev-latest as an evaluation model.
 
 </details>
 
@@ -1108,13 +1098,13 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 
   `laravel` `php` `agent-orchestration` `workflow-engine` `event-driven`
   </details>
-- **[LangGraph Documentation](https://langchain-ai.github.io/langgraph)** LangGraph is a workflow engine framework for building stateful, multi-agent AI applications using graph-based orchestration. <details><summary>More about</summary>
+- **[LangGraph Documentation](https://langchain-ai.github.io/langgraph)** LangGraph is a workflow engine for building and orchestrating stateful, multi-agent applications using large language models. <details><summary>More about</summary>
 
-  It lets developers structure complex agent interactions with controllable state and branching logic, moving beyond simple linear chains.
+  It enables developers to design complex agent interactions with explicit control over state, branching, and coordination, moving beyond simple prompt chaining.
 
-  _Another YAML-adjacent graph DSL to learn while your agents still hallucinate in the same three places._
+  _Finally, a way to visualize your agent's nervous breakdown as a directed graph with retry loops and conditional edges._
 
-  `workflow` `multi-agent` `stateful` `graph-engine`
+  `agent-framework` `workflow-engine` `multi-agent` `stateful` `llm-orchestration`
   </details>
 
 ## Memory & Retrieval Infrastructure
@@ -1325,10 +1315,9 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
   `semantic-cache` `llmops` `self-hosted` `vector-search` `scaling`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+3 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+2 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
 
-- **[Firecrawl](https://firecrawl.dev)** Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data.
-- **[Ragie](https://www.ragie.ai)** Ragie is a managed RAG-as-a-service platform that provides APIs for document ingestion, chunking, embedding, and retrieval to augment LLMs with private data.
+- **[LlamaIndex](https://llamaindex.ai)** LlamaIndex is a framework SDK for building AI-powered applications with retrieval-augmented generation and document processing capabilities.
 - **[Rivestack](https://rivestack.io)** Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector search and built-in semantic search tools.
 
 </details>
@@ -1584,17 +1573,6 @@ _495 entries in 7 sections, ranked by stars. Each section opens with its top 30;
 - **[Simplifine](https://github.com/simplifine-gamedev/simplifine)** `⭐ 96` `updated >1y` Simplifine is an open-source Python toolkit and cloud service that simplifies LLM fine-tuning with one-line commands, handling infrastructure, cloud storage, and training optimizations like DeepSpeed.
 - **[leap-laboratories/discovery-engine](https://github.com/leap-laboratories/discovery-engine)** `⭐ 7` `updated ≤90d` Discovery Engine is a statistical pattern-finding tool that identifies validated, novel feature interactions in tabular data using ML and literature checks.
 - **[drumst0ck/uploadkit](https://github.com/drumst0ck/uploadkit)** `⭐ 3` `updated ≤90d` Open-source TypeScript SDK and React components for file uploads with managed or BYOS storage, plus an MCP server for AI assistant integration.
-- **[flaml-a-fast-and-lightweight-automl-library](https://microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library)** FLAML is a fast and lightweight AutoML library from Microsoft Research that automates learner and hyperparameter selection with low computational cost.
+- **[flaml-a-fast-and-lightweight-automl-library](https://microsoft.com/en-us/research/publication/flaml-a-fast-and-lightweight-automl-library)** FLAML is a fast and lightweight Python library for automated machine learning that selects learners and hyperparameters with low computational cost.
 
 </details>
-
-## Others
-
-- **[PyPI](https://pypi.org/project/agent-cost-guardrails)** A Python package for managing cost guardrails in AI agent workflows. <details><summary>More about</summary>
-
-  Helps developers control and monitor expenses when running AI agents, preventing unexpected cost overruns.
-
-  _Because nothing says 'developer productivity' like a tool that exists solely to stop your agents from bankrupting you._
-
-  `cost-control` `agent-tooling` `python`
-  </details>

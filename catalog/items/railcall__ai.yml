@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__railcall__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-06T05:29:57.556Z'
+      discovered_at: "2026-07-06T05:29:57.556Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - App Builders
         anchor_text: MeterCall
         extracted_url: https://metercall.ai
-        surrounding_text: >-
-          - **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+
-          models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier,
-          usage-based pricing.
+        surrounding_text: "- **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing."
         confidence: high
 metadata:
   github:
@@ -39,22 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A local-first governance and execution platform for running AI workflows and agents with verifiable
-    human-in-the-loop approval.
-  why_it_matters: >-
-    It allows developers to deploy autonomous agents on sensitive data by providing a secure, auditable airlock for all
-    agentic writes and actions.
-  mental_damage: >-
-    Finally, a way to provide a mathematically verifiable receipt to your manager explaining exactly why the AI decided
-    to refund every customer.
+  summary: RailCall is a local-first governance tool that stages AI agent actions for human approval and mints verifiable receipts for every governed flow.
+  why_it_matters: It lets developers safely use AI agents on sensitive data by ensuring no writes occur without approval and providing cryptographic proof of execution.
+  mental_damage: Finally, a way to feel in control while an AI drafts your invoices—until you realize you still have to read and approve every single one.
   tags:
     - governance
     - local-first
-    - workflows
-    - agents
+    - approval-workflow
+    - receipts
     - mcp
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: RailCall acts as a governed control plane and runtime for designing, executing, and auditing agentic workflows.
@@ -62,21 +53,19 @@ curation:
     - Provides 'RailCall Studio' for building and monitoring workflows
     - Implements a local-first 'airlock' to stage and approve all agent writes
     - Offers both a standalone CLI and an MCP server to integrate with existing agents
-    - >-
-      jev winnow:e4b 0.32 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.32 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
     - decision-models
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-07-06T05:29:57.558Z'
+    updated_at: "2026-07-06T05:29:57.558Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,29 +74,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:22:09.891Z'
+    updated_at: "2026-10-05T04:26:53.905Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:defce0e0dd0eb1a447bb67ee4cc181ccb6819bc7a53d48af593bc9e2f8da72f2
-      proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: RailCall acts as a governed control plane and runtime for designing, executing, and auditing agentic workflows.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ee1db87de487dd5e55d20f8cf67f41000086206f520166a2277133f7d2d18100
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: RailCall functions as a local SDK and CLI that developers import or run to compose governed workflows from audited components, making it a code-first framework for safe agent execution rather than a standalone agent or orchestrator.
       decision_evidence:
-        - Provides 'RailCall Studio' for building and monitoring workflows
-        - Implements a local-first 'airlock' to stage and approve all agent writes
-        - Offers both a standalone CLI and an MCP server to integrate with existing agents
+        - RailCall provides a Python MCP server and CLI with zero dependencies, installable via one-line script, enabling developers to run governed flows locally
+        - Developers compose workflows by describing intent and selecting an LLM; RailCall assembles logic from pre-audited, license-clean components and outputs a local link
+        - The product emphasizes local execution, BYOK, and receipt generation as core features, positioning it as infrastructure developers build against, not an autonomous agent
       category_candidates:
-        - agent-orchestration
+        - ai-frameworks
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose agent-orchestration over extensions-and-addons because its primary identity is a standalone control plane
-        and execution runtime, with MCP serving as one of several integration paths.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose ai-frameworks over extensions-and-addons because RailCall is a standalone SDK and CLI that developers import or run directly to build governed workflows, rather than a plugin that extends an existing coding agent like Claude Code or Cursor.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'ai-frameworks'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

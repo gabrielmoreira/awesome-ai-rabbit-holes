@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tinyhumansai__tinycomputer__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: tinycomputer
         extracted_url: https://github.com/tinyhumansai/tinycomputer
-        surrounding_text: >-
-          - [tinycomputer](https://github.com/tinyhumansai/tinycomputer) - Rust TinyBus module for desktop (a11y) and
-          Chrome automation: primitives, plain-language flows, and tasks that ask TypeSafe Jev many small questions.
-          [Project guide](community/projects/tools/tinyhumansai-tinycomputer.md).
+        surrounding_text: "- [tinycomputer](https://github.com/tinyhumansai/tinycomputer) - Rust TinyBus module for desktop (a11y) and Chrome automation: primitives, plain-language flows, and tasks that ask TypeSafe Jev many small questions. [Project guide](community/projects/tools/tinyhumansai-tinycomputer.md)."
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.32 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.32 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

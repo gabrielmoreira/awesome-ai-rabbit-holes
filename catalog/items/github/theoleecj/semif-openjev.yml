@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__theoleecj__semif-openjev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: SemIf
         extracted_url: https://github.com/theoleecj/semif-openjev
-        surrounding_text: >-
-          - [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) ([site](https://openjev.com),
-          [post](https://x.com/hhkkmon/status/2100443314957038010)) - Semantic ifs from open models, on a 3090 at home.
-          Independent; not affiliated with Jev or TypeSafe.
+        surrounding_text: "- [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) ([site](https://openjev.com), [post](https://x.com/hhkkmon/status/2100443314957038010)) - Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe."
         confidence: high
     - id: discovery__github__theoleecj__semif-openjev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,12 +35,10 @@ provenance:
           - Jev-like models (72)
         anchor_text: SemIf-OpenJev
         extracted_url: https://github.com/theoleecj/semif-openjev
-        surrounding_text: >-
-          | [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | ★ 4,121 | Python | 2026-09-24 | Open-model
-          semantic-if engine for local Jev-style decisions. |
+        surrounding_text: "| [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) | ★ 4,121 | Python | 2026-09-24 | Open-model semantic-if engine for local Jev-style decisions. |"
         confidence: high
     - id: discovery__github__theoleecj__semif-openjev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,11 +51,7 @@ provenance:
           - Calibration & Research
         anchor_text: SemIf
         extracted_url: https://github.com/theoleecj/semif-openjev
-        surrounding_text: >-
-          - [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev)
-          ![stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf-OpenJev?style=flat-square&label=%E2%98%85) -
-          Independent replication: reproduces Jev's typed-decision interface on open models, including an MLX backend on
-          Apple silicon, and measures that typed decisions arrive together while a JSON answer streams token by token.
+        surrounding_text: "- [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) ![stars](https://img.shields.io/github/stars/TheoLeeCJ/SemIf-OpenJev?style=flat-square&label=%E2%98%85) - Independent replication: reproduces Jev's typed-decision interface on open models, including an MLX backend on Apple silicon, and measures that typed decisions arrive together while a JSON answer streams token by token."
         confidence: high
 metadata:
   github:
@@ -78,9 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SemIf (site, post) - Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or
-    TypeSafe.
+  summary: SemIf (site, post) - Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -90,9 +79,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
   evidence:
     - jev-latest choice confidence 0.90
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -104,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
+    updated_at: "2026-09-29T13:07:10.405Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,6 +99,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__suvadadepolo-blip__remove-duplicates__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,12 +20,7 @@ provenance:
           - 🛠️ Utilities
         anchor_text: suvadadepolo-blip/remove-duplicates
         extracted_url: https://github.com/suvadadepolo-blip/remove-duplicates
-        surrounding_text: >-
-          -   **[suvadadepolo-blip/remove-duplicates](https://github.com/suvadadepolo-blip/remove-duplicates)**
-          [![GitHub
-          stars](https://img.shields.io/github/stars/suvadadepolo-blip/remove-duplicates?style=social)](https://github.com/suvadadepolo-blip/remove-duplicates):
-          Remove duplicate lines or CSV/TSV rows (e.g. pasted from Excel or Google Sheets) with one read-only tool; free
-          hosted endpoint `https://removeduplicates.org/mcp`, no API key.
+        surrounding_text: "-   **[suvadadepolo-blip/remove-duplicates](https://github.com/suvadadepolo-blip/remove-duplicates)** [![GitHub stars](https://img.shields.io/github/stars/suvadadepolo-blip/remove-duplicates?style=social)](https://github.com/suvadadepolo-blip/remove-duplicates): Remove duplicate lines or CSV/TSV rows (e.g. pasted from Excel or Google Sheets) with one read-only tool; free hosted endpoint `https://removeduplicates.org/mcp`, no API key."
         confidence: high
 metadata:
   github:
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

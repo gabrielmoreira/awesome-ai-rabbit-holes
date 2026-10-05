@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bugsnag__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-01T05:40:05.293Z'
+      discovered_at: "2026-06-01T05:40:05.293Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Bugsnag
         extracted_url: https://www.bugsnag.com
-        surrounding_text: >-
-          - [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp) 📇 ☁️ - An MCP server for interacting with
-          [Bugsnag](https://www.bugsnag.com/)
+        surrounding_text: "- [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp) 📇 ☁️ - An MCP server for interacting with [Bugsnag](https://www.bugsnag.com/)"
         confidence: high
     - id: discovery__www__bugsnag__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,9 +35,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Bugsnag
         extracted_url: https://www.bugsnag.com
-        surrounding_text: >-
-          - [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp) 📇 ☁️ - An MCP server for interacting with
-          [Bugsnag](https://www.bugsnag.com/)
+        surrounding_text: "- [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp) 📇 ☁️ - An MCP server for interacting with [Bugsnag](https://www.bugsnag.com/)"
         confidence: high
 metadata:
   github:
@@ -57,13 +53,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    BugSnag is an application performance and error monitoring platform for mobile and web apps that provides error
-    tracking, performance monitoring, and distributed tracing.
-  why_it_matters: >-
-    It helps development teams identify, prioritize, and fix production bugs and performance issues faster by surfacing
-    real-time error data and user impact metrics.
-  mental_damage: Another monitoring tool promising to reduce alert fatigue while adding yet another dashboard to your DevOps sprawl.
+  summary: Bugsnag is an error and performance monitoring platform for mobile and web applications.
+  why_it_matters: It helps developers identify, prioritize, and resolve production issues by surfacing crash reports, performance bottlenecks, and distributed traces in real time.
+  mental_damage: Another observability tool promising peace of mind while your inbox fills with duplicate alerts and stale stack traces.
   tags:
     - monitoring
     - error-tracking
@@ -71,19 +63,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    BugSnag is an application monitoring and observability platform focused on error tracking and performance metrics,
-    not an AI tool or developer-facing AI infrastructure that assists with coding, agents, or model interactions.
+  reason: Bugsnag is an observability and monitoring SaaS platform focused on error tracking and performance metrics, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - >-
-      The product description emphasizes error monitoring, performance monitoring, and distributed tracing for mobile
-      and web applications.
-    - >-
-      It positions itself as a stability and observability platform for development teams to monitor app health and user
-      impact.
-    - >-
-      No AI capabilities, agent functionality, or developer tooling for coding, prompts, or model interactions are
-      described in the provided context.
+    - Primary product identity is error monitoring, performance monitoring, and distributed tracing for application stability.
+    - Marketed to engineering teams for debugging and reliability, with no mention of AI-assisted coding, agent behavior, or developer tooling automation.
+    - No evidence of AI agent functionality, code generation, editing, or integration with coding assistants as a core feature.
 placement:
   primary_category: null
   section: null
@@ -93,40 +77,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:17.987Z'
+    updated_at: "2026-10-05T04:59:09.049Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:983ea3b39b5e292e5b0ee2f7af31101340ea766f4185155cc9db5afefc64b4c4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8871e9cabd705dfcf3940e72c9d84cd2ef01bcb253e83701093f77be818e0524
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        BugSnag is an application monitoring and observability platform focused on error tracking and performance
-        metrics, not an AI tool or developer-facing AI infrastructure that assists with coding, agents, or model
-        interactions.
+      decision_reason: Bugsnag is an observability and monitoring SaaS platform focused on error tracking and performance metrics, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - >-
-          The product description emphasizes error monitoring, performance monitoring, and distributed tracing for
-          mobile and web applications.
-        - >-
-          It positions itself as a stability and observability platform for development teams to monitor app health and
-          user impact.
-        - >-
-          No AI capabilities, agent functionality, or developer tooling for coding, prompts, or model interactions are
-          described in the provided context.
+        - Primary product identity is error monitoring, performance monitoring, and distributed tracing for application stability.
+        - Marketed to engineering teams for debugging and reliability, with no mention of AI-assisted coding, agent behavior, or developer tooling automation.
+        - No evidence of AI agent functionality, code generation, editing, or integration with coding assistants as a core feature.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
   discover:
     status: done
-    updated_at: '2026-06-01T05:40:05.294Z'
+    updated_at: "2026-06-01T05:40:05.294Z"
     cause: null
     next_retry_at: null
   stars:

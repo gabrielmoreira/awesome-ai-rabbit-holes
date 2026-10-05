@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1104480426-hash__jev-wingman__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: jev-wingman
         extracted_url: https://github.com/1104480426-hash/jev-wingman
-        surrounding_text: >-
-          - [jev-wingman](https://github.com/1104480426-hash/jev-wingman) - 基于 Jev 的聊天决策辅助，不挑 App（QQ / 微信 / 飞书皆可）· An
-          on-device chat co-pilot that returns typed verdicts instead of prose, built on Jev.
+        surrounding_text: "- [jev-wingman](https://github.com/1104480426-hash/jev-wingman) - 基于 Jev 的聊天决策辅助，不挑 App（QQ / 微信 / 飞书皆可）· An on-device chat co-pilot that returns typed verdicts instead of prose, built on Jev."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: 1104480426-hash/jev-wingman
     html_url: https://github.com/1104480426-hash/jev-wingman
-    created_at: '2026-09-22T02:01:12Z'
-    pushed_at: '2026-09-23T03:55:24Z'
-    description: >-
-      基于 Jev 的聊天决策辅助：读当前聊天窗口，只返回类型化判定与置信度，不生成回复。QQ / 飞书 / 抖音实测可用。· An on-device chat co-pilot built on Jev — typed
-      verdicts instead of prose, no package allowlist.
+    created_at: "2026-09-22T02:01:12Z"
+    pushed_at: "2026-09-23T03:55:24Z"
+    description: 基于 Jev 的聊天决策辅助：读当前聊天窗口，只返回类型化判定与置信度，不生成回复。QQ / 飞书 / 抖音实测可用。· An on-device chat co-pilot built on Jev — typed verdicts instead of prose, no package allowlist.
     homepage: https://github.com/1104480426-hash/jev-wingman/releases/latest
     topics:
       - accessibility-service
@@ -49,14 +45,12 @@ metadata:
       - onnxruntime
       - qq
       - typesafe
-    last_checked_at: '2026-09-29T13:08:14.982Z'
+    last_checked_at: "2026-09-29T13:08:14.982Z"
     readme:
-      fetched_at: '2026-09-29T13:08:14.982Z'
+      fetched_at: "2026-09-29T13:08:14.982Z"
       bytes: 5171
 insights:
-  summary: >-
-    基于 Jev 的聊天决策辅助：读当前聊天窗口，只返回类型化判定与置信度，不生成回复。QQ / 飞书 / 抖音实测可用。· An on-device chat co-pilot built on Jev — typed
-    verdicts instead of prose, no package allowlist.
+  summary: 基于 Jev 的聊天决策辅助：读当前聊天窗口，只返回类型化判定与置信度，不生成回复。QQ / 飞书 / 抖音实测可用。· An on-device chat co-pilot built on Jev — typed verdicts instead of prose, no package allowlist.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -76,15 +70,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:14.982Z'
+    updated_at: "2026-09-29T13:08:14.982Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:10:27.484Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__1104480426-hash__jev-wingman: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

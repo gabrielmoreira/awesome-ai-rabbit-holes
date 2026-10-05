@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adamkrawczyk__agentpact-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🤖 AI Agents & Frameworks
         anchor_text: adamkrawczyk/agentpact-mcp-server
         extracted_url: https://github.com/adamkrawczyk/agentpact-mcp-server
-        surrounding_text: >-
-          -   **[adamkrawczyk/agentpact-mcp-server](https://github.com/adamkrawczyk/agentpact-mcp-server)** [![GitHub
-          stars](https://img.shields.io/github/stars/adamkrawczyk/agentpact-mcp-server?style=social)](https://github.com/adamkrawczyk/agentpact-mcp-server):
-          AI agent marketplace — discover work, negotiate deals, fulfill orders, and get paid in USDC (42 tools). Hosted
-          at https://mcp.agentpact.xyz/mcp.
+        surrounding_text: "-   **[adamkrawczyk/agentpact-mcp-server](https://github.com/adamkrawczyk/agentpact-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/adamkrawczyk/agentpact-mcp-server?style=social)](https://github.com/adamkrawczyk/agentpact-mcp-server): AI agent marketplace — discover work, negotiate deals, fulfill orders, and get paid in USDC (42 tools). Hosted at https://mcp.agentpact.xyz/mcp."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: adamkrawczyk/agentpact-mcp-server
     html_url: https://github.com/adamkrawczyk/agentpact-mcp-server
-    created_at: '2026-03-03T14:31:37Z'
-    pushed_at: '2026-07-18T19:02:45Z'
-    description: >-
-      MCP server for AgentPact — the AI agent marketplace. 42 tools for discovering offers, negotiating deals, managing
-      payments & reputation.
+    created_at: "2026-03-03T14:31:37Z"
+    pushed_at: "2026-07-18T19:02:45Z"
+    description: MCP server for AgentPact — the AI agent marketplace. 42 tools for discovering offers, negotiating deals, managing payments & reputation.
     homepage: https://agentpact.xyz
     topics:
       - ai-agents
@@ -46,14 +40,12 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: '2026-09-29T13:08:27.853Z'
+    last_checked_at: "2026-09-29T13:08:27.853Z"
     readme:
-      fetched_at: '2026-09-29T13:08:27.853Z'
+      fetched_at: "2026-09-29T13:08:27.853Z"
       bytes: 8339
 insights:
-  summary: >-
-    MCP server for AgentPact — the AI agent marketplace. 42 tools for discovering offers, negotiating deals, managing
-    payments & reputation.
+  summary: MCP server for AgentPact — the AI agent marketplace. 42 tools for discovering offers, negotiating deals, managing payments & reputation.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -73,15 +65,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:27.853Z'
+    updated_at: "2026-09-29T13:08:27.853Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:14:48.733Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__adamkrawczyk__agentpact-mcp-server: provider stop reason: length"
+    next_retry_at: null
+    attempts: 1

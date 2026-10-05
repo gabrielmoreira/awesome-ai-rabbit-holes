@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__make__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Make
         extracted_url: https://make.com
-        surrounding_text: >-
-          - **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/)
-          scenarios into callable tools for AI assistants.
+        surrounding_text: "- **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants."
         confidence: high
     - id: discovery__www__make__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: Make
         extracted_url: https://www.make.com
-        surrounding_text: >-
-          - **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/)
-          scenarios into callable tools for AI assistants.
+        surrounding_text: "- **[Make](https://github.com/integromat/make-mcp-server)** - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants."
         confidence: high
 metadata:
   github:
@@ -55,28 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Make is a no-code workflow automation platform that connects apps and services through visual scenarios.
-  why_it_matters: >-
-    It lets developers automate multi-step processes across tools without writing code, reducing manual integration
-    effort.
-  mental_damage: >-
-    Another visual workflow builder promising to eliminate boilerplate, while quietly becoming the new boilerplate
-    itself.
+  summary: Make is a no-code workflow automation platform that connects apps and services to automate tasks without code.
+  why_it_matters: It lets developers automate repetitive tasks like deployments, notifications, or data syncs across tools using a visual builder.
+  mental_damage: Another drag-and-drop savior promising to free you from yaml hell, while quietly becoming the new brittle orchestration layer you now have to debug.
   tags:
     - workflow
     - automation
     - no-code
+    - integration
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Make is a general-purpose workflow automation platform whose primary identity is not AI-specific, developer-facing
-    tooling, nor does it function as a coding agent, app builder, or infrastructure tool relevant to software developers
-    in this catalog.
+  reason: Make is a general-purpose no-code automation platform not specifically designed for developer-facing AI workflows, coding agents, or toolchains relevant to software development in the catalog's scope.
   evidence:
-    - 'Repo description: (none)'
-    - 'Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is not its primary identity'
-    - No evidence of AI-native functionality, developer tooling, or code-centric workflows in provided inputs
+    - Repo description is missing, indicating it's not a GitHub-hosted developer tool project
+    - "Seen in source lists: awesome-mcp-servers under 'Official Servers', suggesting it's listed as an MCP server but not as a developer tool or AI workflow product"
+    - Homepage (make.com) markets it as a visual workflow automation tool for business processes like CRM, marketing, and operations — not developer tooling
 placement:
   primary_category: null
   section: null
@@ -86,34 +76,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:38.501Z'
+    updated_at: "2026-10-05T04:49:04.619Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d7c8782fbe15a07ffaf55892059b44f362afcc738e9d8ebaaff2adc535f33865
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:da7eb0e7a2efce079b3f97f481d17b19fc875ce72c8254729dc0e740e1ed661a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Make is a general-purpose workflow automation platform whose primary identity is not AI-specific,
-        developer-facing tooling, nor does it function as a coding agent, app builder, or infrastructure tool relevant
-        to software developers in this catalog.
+      decision_reason: Make is a general-purpose no-code automation platform not specifically designed for developer-facing AI workflows, coding agents, or toolchains relevant to software development in the catalog's scope.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is not its primary identity'
-        - No evidence of AI-native functionality, developer tooling, or code-centric workflows in provided inputs
+        - Repo description is missing, indicating it's not a GitHub-hosted developer tool project
+        - "Seen in source lists: awesome-mcp-servers under 'Official Servers', suggesting it's listed as an MCP server but not as a developer tool or AI workflow product"
+        - Homepage (make.com) markets it as a visual workflow automation tool for business processes like CRM, marketing, and operations — not developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

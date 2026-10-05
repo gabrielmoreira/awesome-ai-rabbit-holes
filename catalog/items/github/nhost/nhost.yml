@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nhost__nhost__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🗄️ Databases
         anchor_text: nhost/nhost
         extracted_url: https://github.com/nhost/nhost
-        surrounding_text: >-
-          -   **[nhost/nhost](https://github.com/nhost/nhost)** [![GitHub
-          stars](https://img.shields.io/github/stars/nhost/nhost?style=social)](https://github.com/nhost/nhost):
-          Postgres backend with two MCP servers, one for coding agents to inspect the schema, run GraphQL queries and
-          manage migrations, and one that lets your app's users query their own data through AI assistants.
+        surrounding_text: "-   **[nhost/nhost](https://github.com/nhost/nhost)** [![GitHub stars](https://img.shields.io/github/stars/nhost/nhost?style=social)](https://github.com/nhost/nhost): Postgres backend with two MCP servers, one for coding agents to inspect the schema, run GraphQL queries and manage migrations, and one that lets your app's users query their own data through AI assistants."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    nhost/nhost : Postgres backend with two MCP servers, one for coding agents to inspect the schema, run GraphQL
-    queries and manage migrations, and one that lets your app's users query their own data through AI assistants.
+  summary: "nhost/nhost : Postgres backend with two MCP servers, one for coding agents to inspect the schema, run GraphQL queries and manage migrations, and one that lets your app's users query their own data through AI assistants."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

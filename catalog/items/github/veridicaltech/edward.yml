@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__veridicaltech__edward__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,15 +20,10 @@ provenance:
           - Verification & Guardrails
         anchor_text: Edward
         extracted_url: https://github.com/veridicaltech/edward
-        surrounding_text: >-
-          - [Edward](https://github.com/VeridicalTech/Edward)
-          ![stars](https://img.shields.io/github/stars/VeridicalTech/Edward?style=flat-square&label=%E2%98%85) - Agent
-          operations: one batched Jev `Choice` over the cross-turn coding-agent trajectory decides continue, pause, or
-          escalate, with low-confidence verdicts routed to a human while deterministic code keeps dangerous-command
-          blocking, budget caps, and an Ed25519-signed receipt chain.
+        surrounding_text: "- [Edward](https://github.com/VeridicalTech/Edward) ![stars](https://img.shields.io/github/stars/VeridicalTech/Edward?style=flat-square&label=%E2%98%85) - Agent operations: one batched Jev `Choice` over the cross-turn coding-agent trajectory decides continue, pause, or escalate, with low-confidence verdicts routed to a human while deterministic code keeps dangerous-command blocking, budget caps, and an Ed25519-signed receipt chain."
         confidence: high
     - id: discovery__github__veridicaltech__edward__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -40,11 +35,7 @@ provenance:
           - Agents, coding, and guardrails
         anchor_text: Edward
         extracted_url: https://github.com/veridicaltech/edward
-        surrounding_text: >-
-          - [Edward](https://github.com/VeridicalTech/Edward) - External control plane for coding agents: one batched
-          Jev call judges the whole cross-turn trajectory (continue, pause, or escalate, confidence-gated), while
-          deterministic code owns dangerous-command blocking, budget caps, intervention execution, and an Ed25519-signed
-          receipt chain.
+        surrounding_text: "- [Edward](https://github.com/VeridicalTech/Edward) - External control plane for coding agents: one batched Jev call judges the whole cross-turn trajectory (continue, pause, or escalate, confidence-gated), while deterministic code owns dangerous-command blocking, budget caps, intervention execution, and an Ed25519-signed receipt chain."
         confidence: high
 metadata:
   github:
@@ -62,10 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Edward - Agent operations: one batched Jev Choice over the cross-turn coding-agent trajectory decides continue,
-    pause, or escalate, with low-confidence verdicts routed to a human while deterministic code keeps dangerous-command
-    blocking, budget caps, and an Ed25519-signed receipt chain.
+  summary: "Edward - Agent operations: one batched Jev Choice over the cross-turn coding-agent trajectory decides continue, pause, or escalate, with low-confidence verdicts routed to a human while deterministic code keeps dangerous-command blocking, budget caps, and an Ed25519-signed receipt chain."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -85,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.428Z'
+    updated_at: "2026-09-29T13:07:10.428Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

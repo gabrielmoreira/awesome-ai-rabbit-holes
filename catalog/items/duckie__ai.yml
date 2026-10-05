@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__duckie__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Duckie AI
         anchor_text: Duckie AI
         extracted_url: https://duckie.ai
-        surrounding_text: '## [Duckie AI](https://duckie.ai/)'
+        surrounding_text: "## [Duckie AI](https://duckie.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,39 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Duckie is an AI-run support agent platform designed to autonomously resolve complex customer tickets by learning
-    from existing knowledge bases and ticket history.
-  why_it_matters: >-
-    It enables developers to automate high-complexity support workflows and ticket resolutions that typical deflection
-    bots fail to handle.
-  mental_damage: Nothing says 'future of work' quite like a bot that successfully convinces customers they are talking to a human.
+  summary: Duckie.ai is an agentic platform that enables support teams to build AI agents that resolve customer tickets and automate workflows using natural language.
+  why_it_matters: It lets non-engineers create production-ready support agents that integrate with tools like Zendesk and Stripe, reducing reliance on engineering for routine automation.
+  mental_damage: Another 'no-code AI agent' platform promising to replace humans, while quietly requiring you to model your entire support logic in plain English anyway.
   tags:
     - ai-agents
-    - customer-support
-    - workflow-automation
-  confidence: medium
+    - support-automation
+    - agent-builder
+  confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is a vertical SaaS solution for customer support automation rather than a general-purpose developer tool
-    or coding assistant.
+  reason: Duckie.ai is focused on customer support ticket resolution and workflow automation for support teams, not on coding tasks or developer tooling; its core use case is end-user support agent creation, not software development assistance.
   evidence:
-    - Product focus is on resolving customer tickets and automating support operations
-    - >-
-      Targeting customer support workflows (refunds, shipping, account updates) rather than software development
-      workflows
-    - Claims to replace/augment support teams rather than developer workflows
+    - Scraped site describes Duckie as 'The agentic platform for support teams' that helps 'build agents that resolve tickets, investigate issues, and automate any workflow behind support'
+    - "Source-list context places it in awesome-ai-agents under 'Duckie AI' with description: 'AI support agents that resolve tickets end to end. Autonomous customer support that learns from your knowledge base.'"
+    - No evidence in inputs suggests Duckie aids developers in coding, debugging, editing code, or software development workflows; all examples are support/ticket resolution (Stripe, Zendesk, Jira for data discrepancies)
 placement:
-  primary_category: agent-orchestration
-  section: Domain & Enterprise Platforms
+  primary_category: null
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,33 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:09.717Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for duckie__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:56.967Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bae913d4586b0479ca6be9061b2bcb5a11198d65588e4b3ec2312b997eec912f
-      proposed_primary_category: agent-orchestration
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ca8a94bcd87136563f6c4d3f3553a4fac0cb0b7f002db0c59184a7acdb9e6496
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a vertical SaaS solution for customer support automation rather than a general-purpose developer
-        tool or coding assistant.
+      decision_reason: Duckie.ai is focused on customer support ticket resolution and workflow automation for support teams, not on coding tasks or developer tooling; its core use case is end-user support agent creation, not software development assistance.
       decision_evidence:
-        - Product focus is on resolving customer tickets and automating support operations
-        - >-
-          Targeting customer support workflows (refunds, shipping, account updates) rather than software development
-          workflows
-        - Claims to replace/augment support teams rather than developer workflows
+        - Scraped site describes Duckie as 'The agentic platform for support teams' that helps 'build agents that resolve tickets, investigate issues, and automate any workflow behind support'
+        - "Source-list context places it in awesome-ai-agents under 'Duckie AI' with description: 'AI support agents that resolve tickets end to end. Autonomous customer support that learns from your knowledge base.'"
+        - No evidence in inputs suggests Duckie aids developers in coding, debugging, editing code, or software development workflows; all examples are support/ticket resolution (Stripe, Zendesk, Jira for data discrepancies)
       category_candidates: []
       contrastive_reason: null
       review_reason: null

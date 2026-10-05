@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mizzlelover__jev-hub__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Other lists
         anchor_text: jev-hub
         extracted_url: https://github.com/mizzlelover/jev-hub
-        surrounding_text: >-
-          - [jev-hub](https://github.com/mizzlelover/jev-hub) ([site](https://mizzlelover.github.io/jev-hub/)) - JEV HUB
-          · X 上关于 TypeSafe AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品.
+        surrounding_text: "- [jev-hub](https://github.com/mizzlelover/jev-hub) ([site](https://mizzlelover.github.io/jev-hub/)) - JEV HUB · X 上关于 TypeSafe AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品."
         confidence: high
     - id: discovery__github__mizzlelover__jev-hub__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Other lists (41)
         anchor_text: jev-hub
         extracted_url: https://github.com/mizzlelover/jev-hub
-        surrounding_text: >-
-          | [jev-hub](https://github.com/mizzlelover/jev-hub) | ★ 23 | CSS | 2026-09-22 | JEV HUB · X 上关于 TypeSafe
-          AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品 |
+        surrounding_text: "| [jev-hub](https://github.com/mizzlelover/jev-hub) | ★ 23 | CSS | 2026-09-22 | JEV HUB · X 上关于 TypeSafe AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品 |"
         confidence: high
 metadata:
   github:
@@ -77,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.420Z'
+    updated_at: "2026-09-29T13:07:10.420Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bloop__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Bloop
         anchor_text: Bloop
         extracted_url: https://bloop.ai
-        surrounding_text: '## [Bloop](https://bloop.ai/)'
+        surrounding_text: "## [Bloop](https://bloop.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: bloop.ai provides infrastructure to plan, orchestrate, and review the work of autonomous AI agents.
-  why_it_matters: >-
-    It aims to let engineers delegate complex, multi-step development tasks to AI agents, turning them into
-    high-velocity engineering managers.
-  mental_damage: >-
-    Another AI 'manager' that promises to eliminate your toil while you watch autonomous agents debate GitHub issues in
-    a kanban board.
+  summary: bloop is a platform for planning, orchestrating, and reviewing the work of autonomous AI agents, aiming to turn engineers into high-velocity engineering managers.
+  why_it_matters: It provides infrastructure to manage and supervise autonomous AI agents, addressing the emerging need for oversight as AI shifts from instant autocomplete to long-running coding tasks.
+  mental_damage: Finally, a tool that lets you feel like a manager while your AI agents do the work you used to pretend to understand.
   tags:
-    - ai-agents
-    - workflow
-    - orchestration
-    - agent-tools
-    - developer-productivity
+    - agent-orchestration
+    - ai-workforce
+    - engineering-management
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  reason: bloop's core identity is a platform for planning, orchestrating, and reviewing autonomous AI agent work, making it a workforce coordination tool rather than a coding agent itself.
   evidence:
-    - jev-latest choice confidence 0.88
+    - "Scraped site context: 'Building tools to plan, orchestrate and review the work of autonomous AI agents. Turn every engineer into a high-velocity engineering manager.'"
+    - "Source-list context: Listed in awesome-ai-agents under section 'Bloop' with description 'Building tools to plan, orchestrate and review the work of autonomous AI agents.'"
+    - No evidence of direct code editing, terminal interaction, or IDE integration as primary function; focuses on agent supervision and workflow management.
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
   section: Hosted Agent Platforms
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,33 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:35:00.361Z'
+    updated_at: "2026-10-05T04:29:12.530Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:88b1e06d4091c0f734fd8a21f35e5ea91d6773e0f7870a5ddba6e1fafd8fc16d
-      proposed_primary_category: coding-agents
-      disagreement: true
-      decision_reason: >-
-        bloop.ai is a developer-facing platform whose core purpose is enabling autonomous AI agents to plan and execute
-        coding tasks, fitting the Coding Agents category.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7c8b1b868976de1633c8e4e5f2c7377d2ac45d118669a6d7bb21be335e7bcf38
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: bloop's core identity is a platform for planning, orchestrating, and reviewing autonomous AI agent work, making it a workforce coordination tool rather than a coding agent itself.
       decision_evidence:
-        - README states it 'enables you to plan, orchestrate and review the work of autonomous AI agents'
-        - Source-list context places it in 'awesome-ai-agents' under the Bloop section
-        - >-
-          Description emphasizes infrastructure for 'long-running tasks' and 'multiplication of output' via agent
-          workflows
+        - "Scraped site context: 'Building tools to plan, orchestrate and review the work of autonomous AI agents. Turn every engineer into a high-velocity engineering manager.'"
+        - "Source-list context: Listed in awesome-ai-agents under section 'Bloop' with description 'Building tools to plan, orchestrate and review the work of autonomous AI agents.'"
+        - No evidence of direct code editing, terminal interaction, or IDE integration as primary function; focuses on agent supervision and workflow management.
       category_candidates:
-        - coding-agents
         - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because bloop focuses on enabling agents to perform coding tasks
-        rather than managing multiple agent workflows as its primary identity.
-      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''coding-agents'''
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because bloop's primary function is managing and reviewing autonomous AI agent work rather than directly performing coding tasks on codebases.
+      review_reason: null
       review_resume_lifecycle: null

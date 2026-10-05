@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__onlyjq04__jev-agent-hooks__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-agent-hooks
         extracted_url: https://github.com/onlyjq04/jev-agent-hooks
-        surrounding_text: >-
-          - [jev-agent-hooks](https://github.com/onlyjq04/jev-agent-hooks) - TypeSafe Jev hooks for Claude Code, Codex
-          and pi: per-turn skill suggestion and subagent model routing.
+        surrounding_text: "- [jev-agent-hooks](https://github.com/onlyjq04/jev-agent-hooks) - TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model routing."
         confidence: high
     - id: discovery__github__onlyjq04__jev-agent-hooks__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Model Routing
-        anchor_text: '**jev-agent-hooks**'
+        anchor_text: "**jev-agent-hooks**"
         extracted_url: https://github.com/onlyjq04/jev-agent-hooks
-        surrounding_text: >-
-          - [**jev-agent-hooks**](https://github.com/onlyjq04/jev-agent-hooks) — TypeSafe Jev hooks for Claude Code,
-          Codex and pi: per-turn skill suggestion and subagent model routing
+        surrounding_text: "- [**jev-agent-hooks**](https://github.com/onlyjq04/jev-agent-hooks) — TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model routing"
         confidence: high
 metadata:
   github:
@@ -56,9 +52,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-agent-hooks - TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model
-    routing.
+  summary: "jev-agent-hooks - TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model routing."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,9 +62,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.64
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -82,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.422Z'
+    updated_at: "2026-09-29T13:07:10.422Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

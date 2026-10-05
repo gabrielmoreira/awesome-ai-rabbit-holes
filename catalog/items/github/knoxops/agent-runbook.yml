@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__knoxops__agent-runbook__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-07-02T05:22:20.470Z'
+      discovered_at: "2026-07-02T05:22:20.470Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,14 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: agent-runbook
         extracted_url: https://github.com/knoxops/agent-runbook
-        surrounding_text: >-
-          - **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** `⭐ 24` — Python CLI that compiles
-          contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step workflows
-          with loops, branching, parallelism, checkpoints, and file-based state passing between steps. `pip install
-          git+https://github.com/KnoxOps/agent-runbook.git`
+        surrounding_text: "- **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** `⭐ 24` — Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step workflows with loops, branching, parallelism, checkpoints, and file-based state passing between steps. `pip install git+https://github.com/KnoxOps/agent-runbook.git`"
         confidence: high
     - id: discovery__github__knoxops__agent-runbook__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-24T04:12:55.276Z'
+      discovered_at: "2026-09-24T04:12:55.276Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,11 +35,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: agent-runbook
         extracted_url: https://github.com/knoxops/agent-runbook
-        surrounding_text: >-
-          - **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** – Python CLI that compiles contract-based YAML
-          runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step agent workflows with loops,
-          branching, parallelism, and file-based state passing — write the runbook once, generate executable SKILL.md
-          with one command. `pip install git+https://github.com/KnoxOps/agent-runbook.git`
+        surrounding_text: "- **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** – Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step agent workflows with loops, branching, parallelism, and file-based state passing — write the runbook once, generate executable SKILL.md with one command. `pip install git+https://github.com/KnoxOps/agent-runbook.git`"
         confidence: high
 metadata:
   github:
@@ -53,12 +45,10 @@ metadata:
     archived: false
     full_name: KnoxOps/agent-runbook
     html_url: https://github.com/KnoxOps/agent-runbook
-    created_at: '2026-06-12T10:19:20Z'
-    pushed_at: '2026-07-15T08:37:36Z'
-    description: >-
-      Contract-based multi-agent skill framework for Claude Code & Codex — compile YAML runbooks into SKILL.md with
-      loop, parallel, and checkpoint support.
-    homepage: ''
+    created_at: "2026-06-12T10:19:20Z"
+    pushed_at: "2026-07-15T08:37:36Z"
+    description: Contract-based multi-agent skill framework for Claude Code & Codex — compile YAML runbooks into SKILL.md with loop, parallel, and checkpoint support.
+    homepage: ""
     topics:
       - agent
       - claude-code
@@ -66,20 +56,14 @@ metadata:
       - loop-engineering
       - multi-agent
       - skill
-    last_checked_at: '2026-07-30T05:05:57.652Z'
+    last_checked_at: "2026-07-30T05:05:57.652Z"
     readme:
-      fetched_at: '2026-07-30T05:05:57.652Z'
+      fetched_at: "2026-07-30T05:05:57.652Z"
       bytes: 6183
 insights:
-  summary: >-
-    Agent-runbook is a contract-based framework that compiles YAML runbooks into SKILL.md files for Claude Code and
-    Codex, enabling multi-agent workflows with loops, parallelism, branching, and checkpointing.
-  why_it_matters: >-
-    It lets developers structure complex, resilient agent workflows using typed contracts and file-based state instead
-    of brittle LLM context, enabling resumable, debuggable, and parallel multi-agent automation.
-  mental_damage: >-
-    Finally, a way to make your agent loops feel less like yelling into a black hole and more like managing a tiny,
-    unreliable warehouse of interns who only communicate via JSON Schema.
+  summary: Agent-runbook is a contract-based framework that compiles YAML runbooks into SKILL.md files for Claude Code and Codex, enabling multi-agent workflows with loops, parallelism, branching, and checkpointing.
+  why_it_matters: It lets developers structure complex, resilient agent workflows using typed contracts and file-based state instead of brittle LLM context, enabling resumable, debuggable, and parallel multi-agent automation.
+  mental_damage: Finally, a way to make your agent loops feel less like yelling into a black hole and more like managing a tiny, unreliable warehouse of interns who only communicate via JSON Schema.
   tags:
     - multi-agent
     - workflow
@@ -102,17 +86,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-24T04:12:55.277Z'
+    updated_at: "2026-09-24T04:12:55.277Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:57.652Z'
+    updated_at: "2026-07-30T05:05:57.652Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -5,9 +5,8 @@ canonical_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +18,7 @@ provenance:
           - Community Servers
         anchor_text: Career Site Jobs
         extracted_url: https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp
-        surrounding_text: >-
-          - **[Career Site Jobs](https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp)** - A MCP server
-          to retrieve up-to-date jobs from company career sites.
+        surrounding_text: "- **[Career Site Jobs](https://apify.com/fantastic-jobs/career-site-job-listing-api/api/mcp)** - A MCP server to retrieve up-to-date jobs from company career sites."
         confidence: high
 metadata:
   github:
@@ -39,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that provides AI agents access to the Apify Career Site Job Listing API.
-  why_it_matters: >-
-    It enables AI agents to programmatically query real-time job postings across hundreds of company career sites and
-    ATS platforms.
-  mental_damage: >-
-    Now your agent can autonomously hunt for jobs while you're still busy writing the code to fix the job search
-    scraper.
+  summary: An MCP server exposing the Career Site Job Listing API via Apify for AI agent integration.
+  why_it_matters: Lets AI agents fetch structured job postings from career sites using the Model Context Protocol without custom scraping code.
+  mental_damage: Another MCP wrapper for a niche API, reminding us that every job board now needs its own AI tollbooth.
   tags:
     - mcp
-    - api-integration
-    - job-data
-  confidence: medium
+    - jobs
+    - api
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  reason: The product's identity is an MCP server exposing a specific API; MCP is the primary protocol identity, not a side feature.
   evidence:
-    - jev-latest choice confidence 0.81
+    - The scraped site context describes it as a 'Career Site Job Listing API MCP server' with MCP configuration details.
+    - Source-list context shows it listed in 'awesome-mcp-servers' under Community Servers.
+    - The README excerpt focuses on MCP server configuration and integration with MCP clients.
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,34 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:10.004Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for apify__com__fantastic__jobs__career__site__job__listing__api__api__mcp:
-        Invalid AI response structure: Invalid confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:21.705Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:95eac5ca00211912c4cd21ca06edafe2b1ab8e345a69f749c0e598f8654540d4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3ead424fe97054921de3e2df9b0ac965f25914863bb96f255870a51e308e6ab5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server exposing a specific API, making MCP the primary product identity rather than a compatibility feature.
+      decision_reason: The product's identity is an MCP server exposing a specific API; MCP is the primary protocol identity, not a side feature.
       decision_evidence:
-        - Described as 'Career Site Job Listing API MCP server' in Apify documentation
-        - Provides MCP configuration exposing tools like fetch-actor-details and fantastic-jobs/career-site-job-listing-api
-        - Listed in awesome-mcp-servers under Community Servers for MCP server discovery
+        - The scraped site context describes it as a 'Career Site Job Listing API MCP server' with MCP configuration details.
+        - Source-list context shows it listed in 'awesome-mcp-servers' under Community Servers.
+        - The README excerpt focuses on MCP server configuration and integration with MCP clients.
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the tool's primary identity is the implementation of the Model Context
-        Protocol rather than a general workflow extension.
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server, not a code-first SDK or framework developers import.
       review_reason: null
       review_resume_lifecycle: null

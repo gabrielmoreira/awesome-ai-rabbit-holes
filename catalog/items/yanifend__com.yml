@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__yanifend__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,7 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: YaniFend
         extracted_url: https://yanifend.com
-        surrounding_text: >-
-          - [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP
-          server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp)
-          ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your
-          questionary (list / create / update / delete questions and options) and read collected answers via natural
-          language.
+        surrounding_text: "- [skippedaga/yanifend-mcp](https://github.com/skippedaga/yanifend-mcp) [![skippedaga/yanifend-mcp MCP server](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp/badges/score.svg)](https://glama.ai/mcp/servers/skippedaga/yanifend-mcp) ☕ ☁️ - Hosted MCP server for [YaniFend](https://yanifend.com), a WordPress feedback widget — manage your questionary (list / create / update / delete questions and options) and read collected answers via natural language."
         confidence: high
 metadata:
   github:
@@ -42,25 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website feedback widget that uses animated characters to collect visitor responses and route them to Slack, Telegram, or a dashboard.
-  why_it_matters: It offers a low-friction way for site owners to gather user feedback via a simple script tag integration.
-  mental_damage: The inevitable evolution of the web where every single site eventually features a tiny, animated stranger interrogating your users.
+  summary: YaniFend is a website feedback widget with animated characters that collects visitor responses via a script tag and sends them to Telegram, Slack, email, or a dashboard.
+  why_it_matters: It offers a lightweight, no-code way for developers to gather real-time user feedback without building or maintaining a custom feedback system.
+  mental_damage: Another cute widget to embed and forget, contributing to the growing pile of tiny SaaS tools that each solve one sliver of the feedback loop.
   tags:
-    - feedback-widget
-    - user-experience
+    - feedback
+    - widget
     - saas
-    - marketing-tool
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a customer feedback widget for collecting website visitor input and does not provide any functionality
-    relevant to AI development, coding, or agentic workflows.
+  reason: YaniFend is a general-purpose user feedback tool with no specific relevance to software development workflows, AI-assisted coding, or developer tooling — it serves product, design, or support teams equally well.
   evidence:
-    - Scraped site context describes the product as a feedback widget for WordPress and Shopify stores
-    - >-
-      The product identity is centered on customer feedback collection rather than developer-facing AI infrastructure or
-      tooling
+    - The tool collects visitor feedback via animated characters and sends responses to Telegram, Slack, email, or a dashboard.
+    - It requires only a script tag to embed and works on any site, including WordPress or Shopify stores.
+    - Its marketing emphasizes ease of setup and real-time answers landing in chat or dashboard — no mention of coding, debugging, or developer-centric use cases.
 placement:
   primary_category: null
   section: null
@@ -70,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.456Z'
+    updated_at: "2026-06-22T05:53:30.456Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,27 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:19:28.148Z'
+    updated_at: "2026-10-05T04:26:47.573Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a2ad1a18c0c71287660f92b0654813b97d4b32b12ea1cd375aa24941538c61ef
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:39b37f588a960b5e6028fae4050baf2a05ceac880ccb59b6f46e11db0c41a5f7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a customer feedback widget for collecting website visitor input and does not provide any
-        functionality relevant to AI development, coding, or agentic workflows.
+      decision_reason: YaniFend is a general-purpose user feedback tool with no specific relevance to software development workflows, AI-assisted coding, or developer tooling — it serves product, design, or support teams equally well.
       decision_evidence:
-        - Scraped site context describes the product as a feedback widget for WordPress and Shopify stores
-        - >-
-          The product identity is centered on customer feedback collection rather than developer-facing AI
-          infrastructure or tooling
+        - The tool collects visitor feedback via animated characters and sends responses to Telegram, Slack, email, or a dashboard.
+        - It requires only a script tag to embed and works on any site, including WordPress or Shopify stores.
+        - Its marketing emphasizes ease of setup and real-time answers landing in chat or dashboard — no mention of coding, debugging, or developer-centric use cases.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

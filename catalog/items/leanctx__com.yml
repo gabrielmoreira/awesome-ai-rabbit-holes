@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__leanctx__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-21T05:27:57.681Z'
+      discovered_at: "2026-05-21T05:27:57.681Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,11 +18,7 @@ provenance:
           - Optimizations
         anchor_text: Website
         extracted_url: https://leanctx.com
-        surrounding_text: >-
-          | [lean-ctx](https://github.com/yvgude/lean-ctx)                                    | Context runtime and MCP
-          server that reduces AI coding agent token costs via session caching, AST-aware compression, and shell output
-          patterns. [Website](https://leanctx.com) | ![GitHub
-          Badge](https://img.shields.io/github/stars/yvgude/lean-ctx.svg?style=flat-square) |
+        surrounding_text: "| [lean-ctx](https://github.com/yvgude/lean-ctx)                                    | Context runtime and MCP server that reduces AI coding agent token costs via session caching, AST-aware compression, and shell output patterns. [Website](https://leanctx.com) | ![GitHub Badge](https://img.shields.io/github/stars/yvgude/lean-ctx.svg?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -40,31 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Context engineering tool that uses AST analysis and shell patterns to compress context for AI coding agents.
-  why_it_matters: It reduces token usage and improves agent reasoning by stripping noise from file reads and shell outputs.
-  mental_damage: Your agent's intelligence is now entirely dependent on how much noise you can aggressively prune from its vision.
+  summary: LeanCTX is a context gateway that selects, filters, and records what AI systems can see from connected data sources.
+  why_it_matters: It gives developers fine-grained control over AI data access, reducing token waste and preventing sensitive information leakage.
+  mental_damage: Another layer of middleware to debug when your AI keeps ignoring the rules you just set.
   tags:
-    - mcp
-    - context-engineering
-    - token-optimization
-    - coding-agents
+    - context-control
+    - ai-gateway
+    - data-filtering
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
+  reason: LeanCTX's core function is managing what context reaches AI models through retrieval, filtering, and recording—fitting the memory and context infrastructure category rather than acting as a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.88
+    - LeanCTX sits between AI and the systems it reads. It selects relevant context, applies supported controls, and records what the integration can observe.
+    - Features include Sources & Retrieval, Context Control, Memory & Continuity, and Cost & Outcomes measurement.
+    - Listed in Awesome-LLMOps under Optimizations for context selection and control capabilities.
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Compression & Token Optimization
+  section: Context & Session Management
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-21T05:27:57.684Z'
+    updated_at: "2026-05-21T05:27:57.684Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,29 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:24:10.164Z'
+    updated_at: "2026-10-05T04:25:25.688Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2b5f966c055530bbca06e873d3a454732b74521e004bc28dd3f4ffdad4c6c5f3
-      proposed_primary_category: mcp
-      disagreement: true
-      decision_reason: It is an MCP server that provides specialized context-compression and memory capabilities to coding agents.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:091cecc29cb749ac0605d61428d90cef38444e14f9ab2fdd18fef3fb43b17b23
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: LeanCTX's core function is managing what context reaches AI models through retrieval, filtering, and recording—fitting the memory and context infrastructure category rather than acting as a coding agent or extension.
       decision_evidence:
-        - Explicitly states it runs as an MCP server for agents like Cursor and Claude Code
-        - Uses tree-sitter AST analysis for context-aware file reading
-        - Claims a 64.1% reduction in tracked AI-agent context
+        - LeanCTX sits between AI and the systems it reads. It selects relevant context, applies supported controls, and records what the integration can observe.
+        - Features include Sources & Retrieval, Context Control, Memory & Continuity, and Cost & Outcomes measurement.
+        - Listed in Awesome-LLMOps under Optimizations for context selection and control capabilities.
       category_candidates:
-        - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the project's primary identity is an MCP server providing memory and
-        context capabilities.
-      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+        - extensions-and-addons
+      contrastive_reason: Choose memory-and-context over extensions-and-addons because LeanCTX is a standalone context control system, not an integration that augments a specific coding agent or editor.
+      review_reason: null
       review_resume_lifecycle: null

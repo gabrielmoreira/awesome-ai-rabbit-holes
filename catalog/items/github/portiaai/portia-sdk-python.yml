@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__portiaai__portia-sdk-python__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Frameworks
         anchor_text: Portia AI
         extracted_url: https://github.com/portiaai/portia-sdk-python
-        surrounding_text: >-
-          - Execution Toolkit- [Portia AI](https://github.com/portiaAI/portia-sdk-python) - Open source framework for
-          predictable,
+        surrounding_text: "- Execution Toolkit- [Portia AI](https://github.com/portiaAI/portia-sdk-python) - Open source framework for predictable,"
         confidence: high
 metadata:
   github:
@@ -46,9 +44,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for portiaai/portia-sdk-python
     - ungh.cc (cached GitHub proxy) returned 404 for portiaai/portia-sdk-python
@@ -63,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.643Z'
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-07-23T05:09:46.006Z'
+    updated_at: "2026-07-23T05:09:46.006Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for portiaai/portia-sdk-python
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sable-inc__jev-linter-action__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-linter-action
         extracted_url: https://github.com/sable-inc/jev-linter-action
-        surrounding_text: >-
-          - [jev-linter-action](https://github.com/sable-inc/jev-linter-action) - GitHub Action: configurable TypeSafe
-          Jev yes/no suites over repo files with probability thresholds (distinct from jev-ci-selector and jev-lint
-          CLIs). [Project guide](community/projects/tools/jev-linter-action.md).
+        surrounding_text: "- [jev-linter-action](https://github.com/sable-inc/jev-linter-action) - GitHub Action: configurable TypeSafe Jev yes/no suites over repo files with probability thresholds (distinct from jev-ci-selector and jev-lint CLIs). [Project guide](community/projects/tools/jev-linter-action.md)."
         confidence: high
     - id: discovery__github__sable-inc__jev-linter-action__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,12 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Decision Tools
-        anchor_text: '**jev-linter-action**'
+        anchor_text: "**jev-linter-action**"
         extracted_url: https://github.com/sable-inc/jev-linter-action
-        surrounding_text: >-
-          - [**jev-linter-action**](https://github.com/sable-inc/jev-linter-action) — \`glob\` accepts one pattern or a
-          newline-separated list. All matched files are reviewed together by default; \`per-file: true\` reviews each
-          file independently. Missing inputs, malformed questions and ambiguous combinations fail before calls.
+        surrounding_text: "- [**jev-linter-action**](https://github.com/sable-inc/jev-linter-action) — \\`glob\\` accepts one pattern or a newline-separated list. All matched files are reviewed together by default; \\`per-file: true\\` reviews each file independently. Missing inputs, malformed questions and ambiguous combinations fail before calls."
         confidence: high
 metadata:
   github:
@@ -59,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-linter-action - GitHub Action: configurable TypeSafe Jev yes/no suites over repo files with probability
-    thresholds (distinct from jev-ci-selector and jev-lint CLIs). Project guide.
+  summary: "jev-linter-action - GitHub Action: configurable TypeSafe Jev yes/no suites over repo files with probability thresholds (distinct from jev-ci-selector and jev-lint CLIs). Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.423Z'
+    updated_at: "2026-09-29T13:07:10.423Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

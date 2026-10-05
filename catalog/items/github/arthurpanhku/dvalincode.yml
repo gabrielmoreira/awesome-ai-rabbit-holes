@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arthurpanhku__dvalincode__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,14 +20,10 @@ provenance:
           - Open Source
         anchor_text: DvalinCode
         extracted_url: https://github.com/arthurpanhku/dvalincode
-        surrounding_text: >-
-          - **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 9` — Provider-neutral coding agent with
-          three modes (Chat/Cowork/Code), inline diff approval, built-in Web GUI launched from a single binary. Works
-          with any OpenAI-compatible endpoint (DeepSeek, OpenAI, Claude via OpenRouter, Groq, Ollama); macOS shell
-          sandbox via `sandbox-exec`; `.dvalincodeignore` for sensitive files; `AGENTS.md` project memory. MIT.
+        surrounding_text: "- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** `⭐ 9` — Provider-neutral coding agent with three modes (Chat/Cowork/Code), inline diff approval, built-in Web GUI launched from a single binary. Works with any OpenAI-compatible endpoint (DeepSeek, OpenAI, Claude via OpenRouter, Groq, Ollama); macOS shell sandbox via `sandbox-exec`; `.dvalincodeignore` for sensitive files; `AGENTS.md` project memory. MIT."
         confidence: high
     - id: discovery__github__arthurpanhku__dvalincode__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-21T04:13:39.852Z'
+      discovered_at: "2026-09-21T04:13:39.852Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,11 +35,7 @@ provenance:
           - Coding Agents
         anchor_text: DvalinCode
         extracted_url: https://github.com/arthurpanhku/dvalincode
-        surrounding_text: >-
-          - **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** – Provider-neutral, local-first CLI coding
-          agent (Chat/Cowork/Code modes) built for governance: org policy engine, enforced network egress, and a
-          verifiable hash-chained audit trail. Works with any OpenAI-compatible endpoint (DeepSeek, OpenAI, Claude via
-          OpenRouter, Groq, Ollama). Zero runtime deps. MIT.
+        surrounding_text: "- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** – Provider-neutral, local-first CLI coding agent (Chat/Cowork/Code modes) built for governance: org policy engine, enforced network egress, and a verifiable hash-chained audit trail. Works with any OpenAI-compatible endpoint (DeepSeek, OpenAI, Claude via OpenRouter, Groq, Ollama). Zero runtime deps. MIT."
         confidence: high
 metadata:
   github:
@@ -53,12 +45,9 @@ metadata:
     archived: false
     full_name: arthurpanhku/dvalincode
     html_url: https://github.com/arthurpanhku/dvalincode
-    created_at: '2026-05-20T14:48:17Z'
-    pushed_at: '2026-09-21T02:43:36Z'
-    description: >-
-      Independent security verification for code written by humans and AI agents. Scan, repair, then prove it — Dvalin
-      runs your project's own checks and issues a Verified Fix Record anyone can re-derive offline. Local-first,
-      policy-bound, MIT.
+    created_at: "2026-05-20T14:48:17Z"
+    pushed_at: "2026-09-21T02:43:36Z"
+    description: Independent security verification for code written by humans and AI agents. Scan, repair, then prove it — Dvalin runs your project's own checks and issues a Verified Fix Record anyone can re-derive offline. Local-first, policy-bound, MIT.
     homepage: https://dvalincode.dev
     topics:
       - ai-agents
@@ -72,20 +61,14 @@ metadata:
       - sarif
       - sast
       - vulnerability-remediation
-    last_checked_at: '2026-09-21T04:13:48.140Z'
+    last_checked_at: "2026-09-21T04:13:48.140Z"
     readme:
-      fetched_at: '2026-09-21T04:13:48.140Z'
+      fetched_at: "2026-09-21T04:13:48.140Z"
       bytes: 71986
 insights:
-  summary: >-
-    A CLI security runtime that scans, repairs, and verifies code changes by generating independent, offline-verifiable
-    fix records.
-  why_it_matters: >-
-    It provides an objective verification loop to ensure AI-generated security patches actually resolve vulnerabilities
-    without relying on the model's own self-assessment.
-  mental_damage: >-
-    Because we have officially reached the stage of the AI revolution where we need automated systems to police other
-    automated systems just to feel safe again.
+  summary: A CLI security runtime that scans, repairs, and verifies code changes by generating independent, offline-verifiable fix records.
+  why_it_matters: It provides an objective verification loop to ensure AI-generated security patches actually resolve vulnerabilities without relying on the model's own self-assessment.
+  mental_damage: Because we have officially reached the stage of the AI revolution where we need automated systems to police other automated systems just to feel safe again.
   tags:
     - security
     - verification
@@ -98,9 +81,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.59
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.40 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -108,22 +89,24 @@ placement:
   section: Review, Testing & Repair
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''extensions-and-addons'''
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-21T04:13:39.855Z'
+    updated_at: "2026-09-21T04:13:39.855Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:48.140Z'
+    updated_at: "2026-09-21T04:13:48.140Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:17:09.012Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -135,9 +118,7 @@ processing:
       input_hash: sha256:291dc35e3b7d43088d983a046cd5fe241bf58de73774a7537560afc4073a007d
       proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: >-
-        It functions as a specialized security verification layer that plugs into the agentic coding workflow to
-        validate remediation.
+      decision_reason: It functions as a specialized security verification layer that plugs into the agentic coding workflow to validate remediation.
       decision_evidence:
         - README describes it as an 'independent security runtime between code generation and merge'
         - Explicitly states it is not an attempt to compete with general-purpose coding agents
@@ -145,10 +126,6 @@ processing:
       category_candidates:
         - extensions-and-addons
         - coding-agents
-      contrastive_reason: >-
-        Choose extensions-and-addons over coding-agents because it is a specialized security capability designed to
-        augment the agentic workflow rather than serving as a primary, general-purpose coding assistant.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'coding-agents', proposed
-        'extensions-and-addons'
+      contrastive_reason: Choose extensions-and-addons over coding-agents because it is a specialized security capability designed to augment the agentic workflow rather than serving as a primary, general-purpose coding assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null

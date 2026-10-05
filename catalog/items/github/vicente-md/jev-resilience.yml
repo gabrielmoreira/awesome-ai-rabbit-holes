@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vicente-md__jev-resilience__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK Integrations
-        anchor_text: '**jev-resilience**'
+        anchor_text: "**jev-resilience**"
         extracted_url: https://github.com/vicente-md/jev-resilience
-        surrounding_text: >-
-          - [**jev-resilience**](https://github.com/Vicente-MD/jev-resilience) — A Spring WebFlux integration that
-          detects error messages hidden in HTTP 200 response bodies.
+        surrounding_text: "- [**jev-resilience**](https://github.com/Vicente-MD/jev-resilience) — A Spring WebFlux integration that detects error messages hidden in HTTP 200 response bodies."
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.482Z'
+    updated_at: "2026-09-29T13:07:10.482Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

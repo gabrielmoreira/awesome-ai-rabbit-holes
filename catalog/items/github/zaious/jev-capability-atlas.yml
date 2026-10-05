@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zaious__jev-capability-atlas__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-capability-atlas
         extracted_url: https://github.com/zaious/jev-capability-atlas
-        surrounding_text: >-
-          - [jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas) - Independent, evidence-based map of
-          when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語
-          repo。
+        surrounding_text: "- [jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas) - Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語 repo。"
         confidence: high
     - id: discovery__github__zaious__jev-capability-atlas__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-capability-atlas
         extracted_url: https://github.com/zaious/jev-capability-atlas
-        surrounding_text: >-
-          | [jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas) | ★ 24 | Python | 2026-09-23 |
-          Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call
-          receipts, not a leaderboard. 中文为主的双语 repo。. |
+        surrounding_text: "| [jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas) | ★ 24 | Python | 2026-09-23 | Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文为主的双语 repo。. |"
         confidence: high
     - id: discovery__github__zaious__jev-capability-atlas__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,15 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev-capability-atlas**'
+        anchor_text: "**jev-capability-atlas**"
         extracted_url: https://github.com/zaious/jev-capability-atlas
-        surrounding_text: >-
-          - [**jev-capability-atlas**](https://github.com/Zaious/jev-capability-atlas) — This repository collects real
-          Jev API-call receipts, test suites, and bilingual guides to map which narrow-decision tasks suit Jev and how
-          Agents should evaluate and report fit.
+        surrounding_text: "- [**jev-capability-atlas**](https://github.com/Zaious/jev-capability-atlas) — This repository collects real Jev API-call receipts, test suites, and bilingual guides to map which narrow-decision tasks suit Jev and how Agents should evaluate and report fit."
         confidence: high
     - id: discovery__github__zaious__jev-capability-atlas__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -74,10 +65,7 @@ provenance:
           - Evaluation and calibration
         anchor_text: Jev Capability Atlas
         extracted_url: https://github.com/zaious/jev-capability-atlas
-        surrounding_text: >-
-          - [Jev Capability Atlas](https://github.com/Zaious/jev-capability-atlas) - Bilingual evidence map with
-          recorded API runs and reusable suites that separates its own tests, third-party benchmarks, and editorial
-          synthesis.
+        surrounding_text: "- [Jev Capability Atlas](https://github.com/Zaious/jev-capability-atlas) - Bilingual evidence map with recorded API runs and reusable suites that separates its own tests, third-party benchmarks, and editorial synthesis."
         confidence: high
 metadata:
   github:
@@ -95,9 +83,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-capability-atlas - Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down —
-    real API-call receipts, not a leaderboard. 中文為主的雙語 repo。
+  summary: jev-capability-atlas - Independent, evidence-based map of when TypeSafe's Jev actually holds up vs. breaks down — real API-call receipts, not a leaderboard. 中文為主的雙語 repo。
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -107,9 +93,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.97
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.26 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -121,7 +105,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.389Z'
+    updated_at: "2026-09-29T13:07:10.389Z"
     cause: null
     next_retry_at: null
   stars:
@@ -129,6 +113,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__collapseindex__org__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://collapseindex.org
-        surrounding_text: >-
-          - [jev-ultralightspeed](https://github.com/collapseindex/jev-ultralightspeed)
-          ([site](https://www.collapseindex.org/)) - BRRRRRRRRRRRRRRRRRRRRRR.
+        surrounding_text: "- [jev-ultralightspeed](https://github.com/collapseindex/jev-ultralightspeed) ([site](https://www.collapseindex.org/)) - BRRRRRRRRRRRRRRRRRRRRRR."
         confidence: high
 metadata:
   github:
@@ -38,39 +36,63 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: HOBO is a decision model that answers typed questions with probabilities and offers a handoff to users when uncertain.
+  why_it_matters: It provides developers with a transparent, calibrated judgment tool for routing, verification, or guardrails in AI agent workflows.
+  mental_damage: Another layer of model uncertainty wrapped in a progress bar, because trusting AI wasn't anxious enough already.
+  tags:
+    - decision-model
+    - judgment
+    - handoff
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: HOBO's core identity is a decision model that returns constrained answers with probabilities and confidence scores, fitting the decision-models category even though it appears in a Jev-focused awesome list.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.25 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - HOBO is described as 'the honest decision model for apps and agents' that returns a pick, confidence score, or handoff to the user
+    - It is evaluated on BFCL v4 live tool-call requests and KLUE-NLI, demonstrating its use as a typed-question answering system
+    - The project emphasizes truth, alignment, and calibrated uncertainty — core traits of decision models like Jev
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:22.374Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3278023d76c70c2ae24685a056d8e844de2b635f30f952399a4af1ceaa6e0619
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: HOBO's core identity is a decision model that returns constrained answers with probabilities and confidence scores, fitting the decision-models category even though it appears in a Jev-focused awesome list.
+      decision_evidence:
+        - HOBO is described as 'the honest decision model for apps and agents' that returns a pick, confidence score, or handoff to the user
+        - It is evaluated on BFCL v4 live tool-call requests and KLUE-NLI, demonstrating its use as a typed-question answering system
+        - The project emphasizes truth, alignment, and calibrated uncertainty — core traits of decision models like Jev
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because HOBO's identity is the decision model itself, not an integration that adds capability to a host agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

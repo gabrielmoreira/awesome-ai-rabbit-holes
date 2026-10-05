@@ -1,12 +1,12 @@
 id: coursera__org__learn__prompt__engineering
 kind: website
-name: 'Coursera: Chatgpt 应用提示工程'
+name: "Coursera: Chatgpt 应用提示工程"
 canonical_url: https://coursera.org/learn/prompt-engineering
 identity: {}
 provenance:
   discoveries:
     - id: discovery__coursera__org__learn__prompt__engineering__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,12 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'Coursera: Chatgpt 应用提示工程'
+        anchor_text: "Coursera: Chatgpt 应用提示工程"
         extracted_url: https://coursera.org/learn/prompt-engineering
-        surrounding_text: '20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)'
+        surrounding_text: "20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)"
         confidence: high
     - id: discovery__www__coursera__org__learn__prompt__engineering__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -31,9 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'Coursera: Chatgpt 应用提示工程'
+        anchor_text: "Coursera: Chatgpt 应用提示工程"
         extracted_url: https://www.coursera.org/learn/prompt-engineering
-        surrounding_text: '20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)'
+        surrounding_text: "20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)"
         confidence: high
 metadata:
   github:
@@ -51,25 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Coursera course on prompt engineering for ChatGPT offered by Vanderbilt University.
-  why_it_matters: Teaches developers practical prompt patterns to improve productivity with large language models.
-  mental_damage: Another reminder that you’ll need a certificate to prove you can talk to a chatbot effectively.
+  summary: Coursera course on prompt engineering for ChatGPT and large language models.
+  why_it_matters: Teaches developers practical prompt patterns to effectively use LLMs in work, business, and education.
+  mental_damage: Another reminder that writing better English is now the most valuable developer skill.
   tags:
     - prompt-engineering
-    - education
     - llm
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course, not a developer tool, agent, framework, or infrastructure product.
+  reason: An educational course is not a developer-facing AI tool, agent, workflow, or infrastructure product; it is learning content, not something developers deploy or integrate into their workflows.
   evidence:
-    - >-
-      Scraped site context describes it as a Coursera course with modules, videos, assignments, and a shareable
-      certificate.
-    - >-
-      Source-list context places it in 'awesome-LLM-resources' under the '课程 Course' section, confirming its identity as
-      learning material.
-    - No evidence of it being a runnable tool, SDK, agent, or platform that developers integrate into workflows.
+    - "Repo description: (none)"
+    - "Scraped site context: Title is 'Prompt Engineering for ChatGPT', description frames it as a Vanderbilt University course on Coursera"
+    - "Source-list context: Appears in awesome-LLM-resources under section: 课程 Course"
 placement:
   primary_category: null
   section: null
@@ -79,35 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:31.145Z'
+    updated_at: "2026-10-05T04:47:16.197Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:19eefc569c3cdb701b35510534711b13e2cb637531c8a4321df2ee456471bcc7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c1ddf3f3d565a46cfeefebafce4960d49283a21c881139817a74c2645f406184
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational course, not a developer tool, agent, framework, or infrastructure product.
+      decision_reason: An educational course is not a developer-facing AI tool, agent, workflow, or infrastructure product; it is learning content, not something developers deploy or integrate into their workflows.
       decision_evidence:
-        - >-
-          Scraped site context describes it as a Coursera course with modules, videos, assignments, and a shareable
-          certificate.
-        - >-
-          Source-list context places it in 'awesome-LLM-resources' under the '课程 Course' section, confirming its
-          identity as learning material.
-        - No evidence of it being a runnable tool, SDK, agent, or platform that developers integrate into workflows.
+        - "Repo description: (none)"
+        - "Scraped site context: Title is 'Prompt Engineering for ChatGPT', description frames it as a Vanderbilt University course on Coursera"
+        - "Source-list context: Appears in awesome-LLM-resources under section: 课程 Course"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

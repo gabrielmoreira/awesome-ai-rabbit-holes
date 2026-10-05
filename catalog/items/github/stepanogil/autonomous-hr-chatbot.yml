@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stepanogil__autonomous-hr-chatbot__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - Autonomous HR Chatbot
         anchor_text: Autonomous HR Chatbot
         extracted_url: https://github.com/stepanogil/autonomous-hr-chatbot
-        surrounding_text: '## [Autonomous HR Chatbot](https://github.com/stepanogil/autonomous-hr-chatbot)'
+        surrounding_text: "## [Autonomous HR Chatbot](https://github.com/stepanogil/autonomous-hr-chatbot)"
         confidence: high
     - id: discovery__github__stepanogil__autonomous-hr-chatbot__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -35,10 +35,7 @@ provenance:
           - Agents
         anchor_text: Autonomous HR Chatbot
         extracted_url: https://github.com/stepanogil/autonomous-hr-chatbot
-        surrounding_text: >-
-          - [Autonomous HR Chatbot](https://github.com/stepanogil/autonomous-hr-chatbot): An autonomous agent that can
-          answer HR related queries autonomously using the tools it has on hand ![GitHub Repo
-          stars](https://img.shields.io/github/stars/stepanogil/autonomous-hr-chatbot?style=social)
+        surrounding_text: "- [Autonomous HR Chatbot](https://github.com/stepanogil/autonomous-hr-chatbot): An autonomous agent that can answer HR related queries autonomously using the tools it has on hand ![GitHub Repo stars](https://img.shields.io/github/stars/stepanogil/autonomous-hr-chatbot?style=social)"
         confidence: high
 metadata:
   github:
@@ -48,8 +45,8 @@ metadata:
     archived: false
     full_name: stepanogil/autonomous-hr-chatbot
     html_url: https://github.com/stepanogil/autonomous-hr-chatbot
-    created_at: '2023-06-15T09:00:28Z'
-    pushed_at: '2026-04-29T06:34:58Z'
+    created_at: "2023-06-15T09:00:28Z"
+    pushed_at: "2026-04-29T06:34:58Z"
     description: An autonomous HR agent that can answer user queries using tools
     homepage: https://autonomous-hr-chatbot.vercel.app
     topics:
@@ -59,20 +56,14 @@ metadata:
       - langchain
       - openai
       - python
-    last_checked_at: '2026-07-20T16:43:03.555Z'
+    last_checked_at: "2026-07-20T16:43:03.555Z"
     readme:
-      fetched_at: '2026-07-20T16:43:03.555Z'
+      fetched_at: "2026-07-20T16:43:03.555Z"
       bytes: 3819
 insights:
-  summary: >-
-    A prototype HR chatbot built with LangChain and Pinecone that answers employee queries by invoking tools like policy
-    retrieval, dataframes, and a calculator.
-  why_it_matters: >-
-    It serves as a concrete reference implementation for developers learning how to wire LangChain agents to internal
-    enterprise data and vector stores.
-  mental_damage: >-
-    Yet another reminder that while we automate HR tickets with agents, the actual code we write to build those agents
-    is still manually pasted from 2023 Medium articles.
+  summary: A prototype HR chatbot built with LangChain and Pinecone that answers employee queries by invoking tools like policy retrieval, dataframes, and a calculator.
+  why_it_matters: It serves as a concrete reference implementation for developers learning how to wire LangChain agents to internal enterprise data and vector stores.
+  mental_damage: Yet another reminder that while we automate HR tickets with agents, the actual code we write to build those agents is still manually pasted from 2023 Medium articles.
   tags:
     - langchain
     - hr-agent
@@ -82,14 +73,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a domain-specific HR application prototype, not a developer-facing tool, framework, or coding assistant for
-    building software.
+  reason: This is a domain-specific HR application prototype, not a developer-facing tool, framework, or coding assistant for building software.
   evidence:
     - Repo description explicitly states it is 'An autonomous HR agent that can answer user queries'.
-    - >-
-      README describes the tech stack as a 'prototype enterprise application' for HR queries using LangChain, Pinecone,
-      and Streamlit.
+    - README describes the tech stack as a 'prototype enterprise application' for HR queries using LangChain, Pinecone, and Streamlit.
     - Included in awesome-ai-agents and awesome-langchain as a project example, not as a developer tool or framework.
 placement:
   primary_category: null
@@ -100,21 +87,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.594Z'
+    updated_at: "2026-05-06T22:12:15.594Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:43:03.555Z'
+    updated_at: "2026-07-20T16:43:03.555Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

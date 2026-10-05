@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rufflet__mysql-legacy-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Rufflet/mysql-legacy-mcp
         extracted_url: https://github.com/rufflet/mysql-legacy-mcp
-        surrounding_text: >-
-          - [Rufflet/mysql-legacy-mcp](https://github.com/Rufflet/mysql-legacy-mcp) [![Rufflet/mysql-legacy-mcp MCP
-          server](https://glama.ai/mcp/servers/@Rufflet/mysql-legacy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Rufflet/mysql-legacy-mcp)
-          📇 🏠 🍎 🪟 🐧 - Access legacy MySQL 5.0 to 5.6 databases: schema inspection and SELECT by default, with
-          opt-in INSERT, UPDATE, DELETE and DDL.
+        surrounding_text: "- [Rufflet/mysql-legacy-mcp](https://github.com/Rufflet/mysql-legacy-mcp) [![Rufflet/mysql-legacy-mcp MCP server](https://glama.ai/mcp/servers/@Rufflet/mysql-legacy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@Rufflet/mysql-legacy-mcp) 📇 🏠 🍎 🪟 🐧 - Access legacy MySQL 5.0 to 5.6 databases: schema inspection and SELECT by default, with opt-in INSERT, UPDATE, DELETE and DDL."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Rufflet/mysql-legacy-mcp - Access legacy MySQL 5.0 to 5.6 databases: schema inspection and SELECT by default, with
-    opt-in INSERT, UPDATE, DELETE and DDL.
+  summary: "Rufflet/mysql-legacy-mcp - Access legacy MySQL 5.0 to 5.6 databases: schema inspection and SELECT by default, with opt-in INSERT, UPDATE, DELETE and DDL."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

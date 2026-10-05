@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stperic__jev-medhallu-benchmark__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,13 +20,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jev-medhallu-benchmark
         extracted_url: https://github.com/stperic/jev-medhallu-benchmark
-        surrounding_text: >-
-          - [jev-medhallu-benchmark](https://github.com/stperic/jev-medhallu-benchmark)
-          ![stars](https://img.shields.io/github/stars/stperic/jev-medhallu-benchmark?style=flat-square&label=%E2%98%85)
-          - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's MedHallu (1,000 test
-          items), asking one `Noul` on whether an answer misrepresents its PubMed abstract; Jev scored 92.9% against
-          92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle the 37%
-          of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls.
+        surrounding_text: "- [jev-medhallu-benchmark](https://github.com/stperic/jev-medhallu-benchmark) ![stars](https://img.shields.io/github/stars/stperic/jev-medhallu-benchmark?style=flat-square&label=%E2%98%85) - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's MedHallu (1,000 test items), asking one `Noul` on whether an answer misrepresents its PubMed abstract; Jev scored 92.9% against 92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle the 37% of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls."
         confidence: high
 metadata:
   github:
@@ -44,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-medhallu-benchmark - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's
-    MedHallu (1,000 test items), asking one Noul on whether an answer misrepresents its PubMed abstract; Jev scored
-    92.9% against 92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle
-    the 37% of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls.
+  summary: "jev-medhallu-benchmark - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's MedHallu (1,000 test items), asking one Noul on whether an answer misrepresents its PubMed abstract; Jev scored 92.9% against 92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle the 37% of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -58,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.94
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -72,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

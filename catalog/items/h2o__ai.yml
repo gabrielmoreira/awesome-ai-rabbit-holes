@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__h2o__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - Platforms / full solutions
         anchor_text: H2OAI
         extracted_url: https://h2o.ai
-        surrounding_text: >-
-          - [H2OAI](https://h2o.ai/#tabs-320f3fc63d-item-aa19ad7787-tab) - H2OGPT The fastest, most accurate AI Cloud
-          Platform.
+        surrounding_text: "- [H2OAI](https://h2o.ai/#tabs-320f3fc63d-item-aa19ad7787-tab) - H2OGPT The fastest, most accurate AI Cloud Platform."
         confidence: high
 metadata:
   github:
@@ -38,35 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An end-to-end generative and predictive AI platform designed for air-gapped, on-premises, and private cloud
-    environments.
-  why_it_matters: >-
-    It enables developers in highly regulated industries to build and deploy autonomous agents and models while
-    maintaining total data sovereignty.
-  mental_damage: It's 'local AI' for people who have to clear their model weights with a compliance committee first.
+  summary: H2O.ai provides an end-to-end GenAI and predictive AI platform for enterprise use cases with a focus on private, air-gapped, and on-premises deployment.
+  why_it_matters: It offers developers a full-stack AI platform for building, deploying, and monitoring enterprise AI agents and models without data leaving private infrastructure.
+  mental_damage: Another 'end-to-end AI platform' promising sovereignty while quietly locking you into enterprise contracts and JVM-based tooling.
   tags:
     - enterprise-ai
-    - local-ai
-    - mlops
-    - generative-ai
+    - platform
+    - air-gapped
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
+  status: excluded
+  reason: H2O.ai is a broad enterprise AI platform with GenAI and predictive capabilities, but it lacks a clear developer-tooling identity as a coding agent, framework, app builder, or similar tool; it is primarily a vertical AI solution for regulated industries rather than a developer-facing product.
   evidence:
-    - jev-latest choice confidence 0.90
+    - "Source-list context: listed under 'awesome-local-ai' in the 'Platforms / full solutions' section as an end-to-end GenAI platform for air-gapped, on-premises or cloud VPC deployments."
+    - "Scraped site context: emphasizes enterprise use cases (banks, telcos, government) and products like h2oGPTe, H2O Driverless AI, H2O Wave, and H2O GenAI App Store, focusing on business outcomes rather than developer workflows."
+    - No clear indication of being a coding agent, framework, SDK, app builder, or local AI runtime; instead, it markets prebuilt agents, no-code tools, and enterprise apps for domain-specific automation.
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Inference Engines
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,30 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:20:43.348Z'
+    updated_at: "2026-10-05T04:33:29.785Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:686a8a081eb70d77b48269ac90c81ef52164dc8c6e5ca8ad228b208b6e4604c8
-      proposed_primary_category: local-ai
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f62733e92866f49868261aa3d317c79e67c0a7154782da465d318a4cea4155c3
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The platform's primary identity is centered on providing a secure, self-hosted stack for generative and
-        predictive AI in private environments.
+      decision_reason: H2O.ai is a broad enterprise AI platform with GenAI and predictive capabilities, but it lacks a clear developer-tooling identity as a coding agent, framework, app builder, or similar tool; it is primarily a vertical AI solution for regulated industries rather than a developer-facing product.
       decision_evidence:
-        - Maintains a core focus on air-gapped, on-premises, and VPC deployments for sovereign AI
-        - Offers developer-facing tools like H2O LLM Studio for private model fine-tuning
-      category_candidates:
-        - local-ai
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because the product's defining value proposition is its capability for
-        secure, self-hosted, and air-gapped execution rather than just being a programmable library.
+        - "Source-list context: listed under 'awesome-local-ai' in the 'Platforms / full solutions' section as an end-to-end GenAI platform for air-gapped, on-premises or cloud VPC deployments."
+        - "Scraped site context: emphasizes enterprise use cases (banks, telcos, government) and products like h2oGPTe, H2O Driverless AI, H2O Wave, and H2O GenAI App Store, focusing on business outcomes rather than developer workflows."
+        - No clear indication of being a coding agent, framework, SDK, app builder, or local AI runtime; instead, it markets prebuilt agents, no-code tools, and enterprise apps for domain-specific automation.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rafalwilinski__vibecheck__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: vibecheck
         extracted_url: https://github.com/rafalwilinski/vibecheck
-        surrounding_text: >-
-          - [vibecheck](https://github.com/RafalWilinski/vibecheck) - Chrome extension: vibe-check your X posts with
-          TypeSafe's Jev before you hit Post.
+        surrounding_text: "- [vibecheck](https://github.com/RafalWilinski/vibecheck) - Chrome extension: vibe-check your X posts with TypeSafe's Jev before you hit Post."
         confidence: high
     - id: discovery__github__rafalwilinski__vibecheck__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Vibe Check for X
         extracted_url: https://github.com/rafalwilinski/vibecheck
-        surrounding_text: >-
-          - [Vibe Check for X](https://github.com/RafalWilinski/vibecheck) - `Source unverified` · `Pricing unverified`
-          · `BYOK`. Chrome extension that uses Jev to score draft X posts and display a verdict, with optional OpenAI
-          media descriptions. [Project guide](community/projects/apps/vibecheck.md).
+        surrounding_text: "- [Vibe Check for X](https://github.com/RafalWilinski/vibecheck) - `Source unverified` · `Pricing unverified` · `BYOK`. Chrome extension that uses Jev to score draft X posts and display a verdict, with optional OpenAI media descriptions. [Project guide](community/projects/apps/vibecheck.md)."
         confidence: high
     - id: discovery__github__rafalwilinski__vibecheck__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,12 +51,10 @@ provenance:
           - Browser & computer use (75)
         anchor_text: vibecheck
         extracted_url: https://github.com/rafalwilinski/vibecheck
-        surrounding_text: >-
-          | [vibecheck](https://github.com/RafalWilinski/vibecheck) | ★ 42 | JavaScript | 2026-09-19 | Chrome extension:
-          vibe-check your X posts with TypeSafe's Jev before you hit Post. |
+        surrounding_text: "| [vibecheck](https://github.com/RafalWilinski/vibecheck) | ★ 42 | JavaScript | 2026-09-19 | Chrome extension: vibe-check your X posts with TypeSafe's Jev before you hit Post. |"
         confidence: high
     - id: discovery__github__rafalwilinski__vibecheck__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -71,14 +64,12 @@ provenance:
         mode: parsed
         section_path:
           - Creative Tools
-        anchor_text: '**vibecheck**'
+        anchor_text: "**vibecheck**"
         extracted_url: https://github.com/rafalwilinski/vibecheck
-        surrounding_text: >-
-          - [**vibecheck**](https://github.com/RafalWilinski/vibecheck) — Shows a Jev scorecard before posting on X,
-          assessing draft clarity, tone, and possible offensiveness.
+        surrounding_text: "- [**vibecheck**](https://github.com/RafalWilinski/vibecheck) — Shows a Jev scorecard before posting on X, assessing draft clarity, tone, and possible offensiveness."
         confidence: high
     - id: discovery__github__rafalwilinski__vibecheck__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -90,9 +81,7 @@ provenance:
           - Media and creative tools
         anchor_text: Vibe Check for X
         extracted_url: https://github.com/rafalwilinski/vibecheck
-        surrounding_text: >-
-          - [Vibe Check for X](https://github.com/RafalWilinski/vibecheck) - Chrome extension that scores draft posts
-          and reply context before posting; optional media descriptions come from a separate vision model.
+        surrounding_text: "- [Vibe Check for X](https://github.com/RafalWilinski/vibecheck) - Chrome extension that scores draft posts and reply context before posting; optional media descriptions come from a separate vision model."
         confidence: high
 metadata:
   github:
@@ -119,21 +108,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.376Z'
+    updated_at: "2026-09-29T13:07:10.376Z"
     cause: null
     next_retry_at: null
   stars:
@@ -141,6 +128,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

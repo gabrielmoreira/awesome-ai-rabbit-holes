@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magic__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Magic
         extracted_url: https://magic.dev
-        surrounding_text: >-
-          - **[Magic](https://magic.dev/)** – AI software engineer platform that handles complex development tasks
-          autonomously.
+        surrounding_text: "- **[Magic](https://magic.dev/)** – AI software engineer platform that handles complex development tasks autonomously."
         confidence: high
 metadata:
   github:
@@ -38,43 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Magic is an AI research company focused on building safe AGI through frontier code models and automated software
-    engineering.
-  why_it_matters: >-
-    It signals high investment in AI-driven code generation research, which may influence future developer tools even if
-    not yet a direct developer-facing product.
-  mental_damage: >-
-    Another AGI moonshot that reminds developers their next IDE upgrade might come from a lab with more GPUs than
-    product releases.
+  summary: An AI research company building frontier code models designed to automate software engineering and research through ultra-long context and reinforcement learning.
+  why_it_matters: They are developing specialized models from the ground up to handle the complexities of entire codebases and autonomous engineering tasks.
+  mental_damage: A $768 million bet that your entire career can eventually be distilled into a series of reinforcement learning loops.
   tags:
-    - agi-research
     - code-models
-    - ai-investment
-  confidence: high
+    - software-engineering
+    - frontier-ai
+    - long-context
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing tool,
-    agent, framework, or infrastructure that software developers can directly use in their workflow.
+  status: included
+  reason: Magic's primary identity is the development of models specifically intended to automate software engineering tasks, making them a coding agent project rather than a general model provider.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s
-      progress on the world’s most important problems.
-    - >-
-      Primary page excerpt: ...building frontier code models to automate software engineering and research... We believe
-      the most promising path to safe AGI is to automate AI research and code generation...
+    - Claims to build frontier code models to automate software engineering and research
+    - Focuses on ultra-long context and domain-specific reinforcement learning for coding
+    - Recognized in curated coding tool directories
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Autonomous & Multi-Agent Coding
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:53.641Z'
+    updated_at: "2026-10-05T04:40:35.688Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:859ad2bf7d93089653edae0ce581358038c98912b13c0312794ae864a687b3ca
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f60832979d67462656668ad8ed7ef21b546b7e3971aa71135726ed6a17353e9b
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Magic is an AI research lab focused on foundational model development and AGI goals, not a developer-facing
-        tool, agent, framework, or infrastructure that software developers can directly use in their workflow.
+      decision_reason: Magic's primary identity is the development of models specifically intended to automate software engineering tasks, making them a coding agent project rather than a general model provider.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Scraped site context: Magic is an AI company that is working toward building safe AGI to accelerate humanity’s
-          progress on the world’s most important problems.
-        - >-
-          Primary page excerpt: ...building frontier code models to automate software engineering and research... We
-          believe the most promising path to safe AGI is to automate AI research and code generation...
-      category_candidates: []
-      contrastive_reason: null
+        - Claims to build frontier code models to automate software engineering and research
+        - Focuses on ultra-long context and domain-specific reinforcement learning for coding
+        - Recognized in curated coding tool directories
+      category_candidates:
+        - coding-agents
+        - ai-frameworks
+      contrastive_reason: Choose coding-agents over ai-frameworks because the company's goal is the autonomous execution of engineering tasks via specialized models rather than providing a library for developers to build with.
       review_reason: null
       review_resume_lifecycle: null

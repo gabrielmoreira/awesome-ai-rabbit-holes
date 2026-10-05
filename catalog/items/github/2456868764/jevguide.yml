@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__2456868764__jevguide__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: jevguide
         extracted_url: https://github.com/2456868764/jevguide
-        surrounding_text: >-
-          - [jevguide](https://github.com/2456868764/jevguide) ([site](https://jev.guide)) - Curated Jev showcases from
-          X, organized by category with media previews and direct source links.
+        surrounding_text: "- [jevguide](https://github.com/2456868764/jevguide) ([site](https://jev.guide)) - Curated Jev showcases from X, organized by category with media previews and direct source links."
         confidence: high
 metadata:
   github:
@@ -31,48 +29,73 @@ metadata:
     archived: false
     full_name: 2456868764/jevguide
     html_url: https://github.com/2456868764/jevguide
-    created_at: '2026-09-21T00:08:01Z'
-    pushed_at: '2026-09-29T12:46:58Z'
+    created_at: "2026-09-21T00:08:01Z"
+    pushed_at: "2026-09-29T12:46:58Z"
     description: Curated Jev showcases from X, organized by category with media previews and direct source links.
     homepage: https://jev.guide
     topics:
       - jev
       - jev-ai
       - jev-model
-    last_checked_at: '2026-09-29T13:08:16.365Z'
+    last_checked_at: "2026-09-29T13:08:16.365Z"
     readme:
-      fetched_at: '2026-09-29T13:08:16.365Z'
+      fetched_at: "2026-09-29T13:08:16.365Z"
       bytes: 17920
 insights:
   summary: Curated Jev showcases from X, organized by category with media previews and direct source links.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  why_it_matters: Helps developers discover practical Jev-based applications and see real-world use cases for TypeSafe AI's System One decision model.
+  mental_damage: Another curated gallery that turns model capability into content tourism instead of usable tooling.
+  tags:
+    - jev
+    - showcase
+    - curated
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The project is a static directory of Jev demos with no developer-facing tooling, SDK, agent behavior, or workflow integration — it is a content gallery, not a tool.
   evidence:
-    - jev-latest choice confidence 0.84
+    - "Repo description: 'Curated Jev showcases from X, organized by category with media previews and direct source links.'"
+    - "Seen in source list: awesome-jev under section 'Demos & playgrounds'"
+    - No evidence of code, SDK, CLI, agent behavior, or workflow impact in inputs
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:16.365Z'
+    updated_at: "2026-09-29T13:08:16.365Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:37.106Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d13710708844eb4a59187e91e753c965d2db51e2cdee1b79bf1df28ff7ff0425
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a static directory of Jev demos with no developer-facing tooling, SDK, agent behavior, or workflow integration — it is a content gallery, not a tool.
+      decision_evidence:
+        - "Repo description: 'Curated Jev showcases from X, organized by category with media previews and direct source links.'"
+        - "Seen in source list: awesome-jev under section 'Demos & playgrounds'"
+        - No evidence of code, SDK, CLI, agent behavior, or workflow impact in inputs
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

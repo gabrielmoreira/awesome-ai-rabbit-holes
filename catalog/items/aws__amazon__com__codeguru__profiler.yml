@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aws__amazon__com__codeguru__profiler__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Amazon CodeGuru Reviewer
         extracted_url: https://aws.amazon.com/codeguru
-        surrounding_text: >-
-          - **[Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)** – ML-powered code reviews with AWS
-          integration.
+        surrounding_text: "- **[Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)** – ML-powered code reviews with AWS integration."
         confidence: high
 metadata:
   github:
@@ -38,43 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Amazon CodeGuru Profiler is a developer tool that identifies an application's most expensive lines of code to help
-    reduce operational costs by up to 50%.
-  why_it_matters: >-
-    It helps developers optimize performance and reduce costs by pinpointing inefficient code in production
-    applications.
-  mental_damage: Another tool promising to save you money while silently judging your code's performance in production.
+  summary: Amazon CodeGuru Profiler is a machine learning-based developer tool that monitors applications in production to identify expensive lines of code and provide optimization recommendations.
+  why_it_matters: It helps developers reduce operational costs by pinpointing performance bottlenecks and inefficient code paths in live applications.
+  mental_damage: Yet another AWS service promising to fix your slow code while you wrestle with CloudWatch logs and tag sprawl.
   tags:
     - performance
-    - optimization
+    - monitoring
     - aws
     - profiling
-    - cost-savings
   confidence: high
 curation:
-  status: included
-  reason: >-
-    Amazon CodeGuru Profiler is a developer tool that autonomously analyzes code to identify performance bottlenecks,
-    fitting the coding-agents category as it provides direct, autonomous coding task analysis.
+  status: excluded
+  reason: Amazon CodeGuru Profiler is a performance profiling and optimization tool focused on runtime cost analysis, not AI-driven coding tasks, agent behavior, or developer workflow augmentation; it lacks the core identity of an AI coding assistant, extension, or tool that acts on code via prompts or automation.
   evidence:
-    - >-
-      Amazon CodeGuru Profiler helps developers identify an application's most expensive lines of code to remove
-      inefficiencies and optimize performance.
-    - >-
-      The tool continuously monitors applications in production and provides machine learning–based insights and
-      recommendations for improving code quality.
-    - jev winnow:e4b 0.44 below gate 0.50; proposed out of scope; placement kept at coding-agents (unverified)
+    - "Scraped site context: 'Amazon CodeGuru Profiler is a developer tool that identifies an application’s most expensive lines of code and provides machine learning (ML)–based insights and recommendations for improving code quality.'"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring' for helping 'identify an application’s most expensive lines of code to remove inefficiencies and optimize performance.'"
+    - No evidence of AI agents, coding automation, IDE integration, prompt-to-code workflows, or agent orchestration — core function is performance profiling via ML-based runtime analysis.
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,34 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:34:49.366Z'
+    updated_at: "2026-10-05T04:28:59.069Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e5067069d2e26c47bacdf14242f3bb32b34450be2b2cc97765b0ccb073c5bcb9
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:32233a183c7ac33a79397a9ec9a861f3b3b0eca0fd1c63c8112c3665300c1bae
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Amazon CodeGuru Profiler is a developer tool that autonomously analyzes code to identify performance
-        bottlenecks, fitting the coding-agents category as it provides direct, autonomous coding task analysis.
+      decision_reason: Amazon CodeGuru Profiler is a performance profiling and optimization tool focused on runtime cost analysis, not AI-driven coding tasks, agent behavior, or developer workflow augmentation; it lacks the core identity of an AI coding assistant, extension, or tool that acts on code via prompts or automation.
       decision_evidence:
-        - >-
-          Amazon CodeGuru Profiler helps developers identify an application's most expensive lines of code to remove
-          inefficiencies and optimize performance.
-        - >-
-          The tool continuously monitors applications in production and provides machine learning–based insights and
-          recommendations for improving code quality.
-      category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because it autonomously identifies and recommends fixes for code
-        inefficiencies rather than merely augmenting another agent's capabilities.
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - "Scraped site context: 'Amazon CodeGuru Profiler is a developer tool that identifies an application’s most expensive lines of code and provides machine learning (ML)–based insights and recommendations for improving code quality.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring' for helping 'identify an application’s most expensive lines of code to remove inefficiencies and optimize performance.'"
+        - No evidence of AI agents, coding automation, IDE integration, prompt-to-code workflows, or agent orchestration — core function is performance profiling via ML-based runtime analysis.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

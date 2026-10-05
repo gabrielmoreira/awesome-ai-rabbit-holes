@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__flaviocopes__com__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: A deep dive into Jev
         extracted_url: https://flaviocopes.com/jev
-        surrounding_text: >-
-          - [A deep dive into Jev](https://flaviocopes.com/jev/) - Blog: a veteran technical writer's walkthrough of the
-          System One idea, useful as the explanation to hand someone who has only seen LLM marketing.
+        surrounding_text: "- [A deep dive into Jev](https://flaviocopes.com/jev/) - Blog: a veteran technical writer's walkthrough of the System One idea, useful as the explanation to hand someone who has only seen LLM marketing."
         confidence: high
 metadata:
   github:
@@ -39,41 +37,64 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a TypeSafe System One decision model that answers typed questions with probabilities instead of generating text.
+  why_it_matters: It provides deterministic, score-based judgments for routing, guardrails, or verification in AI workflows where text generation is unsuitable.
+  mental_damage: Yet another model to juggle, now with more math and less vibe-based guessing.
+  tags:
+    - decision-model
+    - type-safe
+    - judgment
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: Jev is a canonical decision model (TypeSafe System One) whose core identity is answering typed questions with probabilities, placing it squarely in decision-models rather than coding agents or extensions.
   evidence:
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - Repo description is missing, but the project is explicitly named as Jev (TypeSafe System One) in source-list context and decision-models category definition.
+    - Seen in source list 'awesome-jev' under Related Practices / Discussions, indicating community recognition as a decision-model adjacent tool.
+    - The decision-models category lists Jev (TypeSafe System One) as a canonical positive, confirming its identity as a decision model.
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - awesome-awesomes
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:35.013Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aaf83257332867590eed3e9960b80fba4251c80b4da63d6ff82b905701e52bf0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a canonical decision model (TypeSafe System One) whose core identity is answering typed questions with probabilities, placing it squarely in decision-models rather than coding agents or extensions.
+      decision_evidence:
+        - Repo description is missing, but the project is explicitly named as Jev (TypeSafe System One) in source-list context and decision-models category definition.
+        - Seen in source list 'awesome-jev' under Related Practices / Discussions, indicating community recognition as a decision-model adjacent tool.
+        - The decision-models category lists Jev (TypeSafe System One) as a canonical positive, confirming its identity as a decision model.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's core function is answering typed questions with probabilities, not performing coding tasks like editing, reviewing, or testing code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

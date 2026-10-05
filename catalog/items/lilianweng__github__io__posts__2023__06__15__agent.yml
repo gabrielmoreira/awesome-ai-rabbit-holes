@@ -5,9 +5,8 @@ canonical_url: https://lilianweng.github.io/posts/2023-06-15-agent
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__lilianweng__github__io__posts__2023__06__15__agent__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__lilianweng__github__io__posts__2023__06__15__agent__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,9 +19,7 @@ provenance:
           - Tutorials & Guides
         anchor_text: LLM Powered Autonomous Agents
         extracted_url: https://lilianweng.github.io/posts/2023-06-15-agent
-        surrounding_text: >-
-          - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-15-agent/) - Lilian Weng's
-          comprehensive guide
+        surrounding_text: "- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-15-agent/) - Lilian Weng's comprehensive guide"
         confidence: high
 metadata:
   github:
@@ -40,25 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post by Lilian Weng explaining the components and architecture of AI agents, published in June 2023.
-  why_it_matters: Serves as an educational resource for developers seeking to understand agent design patterns and system components.
-  mental_damage: >-
-    Another link in the endless chain of 'read this post to finally get agents' that subtly pressures developers to keep
-    up with foundational content.
+  summary: A research blog post outlining the architecture and core components of LLM-powered autonomous agents.
+  why_it_matters: It provides a foundational conceptual framework for understanding how agents utilize planning, memory, and tool use.
+  mental_damage: It provides a sense of architectural clarity that will likely be shattered by next week's breakthrough.
   tags:
-    - blog
-    - educational
-    - ai-agents
+    - research
+    - agent-theory
+    - blog-post
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The resource is a standalone educational blog post, not a developer tool, agent, framework, or infrastructure
-    product, and thus falls outside the catalog's scope.
+  reason: This is a single research article rather than a functional tool, framework, or a sustained curation/publication effort.
   evidence:
-    - Source URL is a GitHub Pages blog post (lilianweng.github.io/posts/2023-06-15-agent), not a GitHub repo or tool
-    - Appears in source lists only as a learning resource in awesome-agent-orchestration under Tutorials & Guides
-    - No indication of being a usable product, SDK, framework, or agent that developers can install or operate
+    - URL points to a specific blog post on a personal website
+    - Content is theoretical and educational rather than an executable product or library
 placement:
   primary_category: null
   section: null
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,28 +69,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:51.770Z'
+    updated_at: "2026-10-05T04:35:56.175Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:542ef25b8f5e22a67a7cf3d509a1ecc1ff83bbf8d5782ea4f14d4d82e69ae487
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5a37011a6b68f6d7384082b7292b3055c6155524a98abbac32cfe5f1ef1a2ea8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The resource is a standalone educational blog post, not a developer tool, agent, framework, or infrastructure
-        product, and thus falls outside the catalog's scope.
+      decision_reason: This is a single research article rather than a functional tool, framework, or a sustained curation/publication effort.
       decision_evidence:
-        - >-
-          Source URL is a GitHub Pages blog post (lilianweng.github.io/posts/2023-06-15-agent), not a GitHub repo or
-          tool
-        - Appears in source lists only as a learning resource in awesome-agent-orchestration under Tutorials & Guides
-        - No indication of being a usable product, SDK, framework, or agent that developers can install or operate
+        - URL points to a specific blog post on a personal website
+        - Content is theoretical and educational rather than an executable product or library
       category_candidates: []
       contrastive_reason: null
       review_reason: null

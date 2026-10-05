@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__thetradeagent__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Trade Agent
         extracted_url: https://thetradeagent.ai
-        surrounding_text: >-
-          - **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via
-          [Trade Agent](https://thetradeagent.ai/)
+        surrounding_text: "- **[Trade Agent](https://github.com/Trade-Agent/trade-agent-mcp)** - Execute stock and crypto trades via [Trade Agent](https://thetradeagent.ai/)"
         confidence: high
 metadata:
   github:
@@ -38,48 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Trade It is a trading platform that connects brokerage accounts to AI assistants like Claude, ChatGPT, and Discord
-    via MCP and SDKs for trading stocks, options, and crypto.
-  why_it_matters: >-
-    It enables developers to embed trading capabilities into AI-powered apps using its SDK and MCP server, bridging
-    financial workflows with agent interfaces.
-  mental_damage: >-
-    Lets you feel the existential dread of letting an AI chatbot execute your margin trades while questioning if 'Buy
-    the dip' was a prompt or a cry for help.
+  summary: Trade It is an MCP server that connects brokerage accounts to enable stock, options, and crypto trading via AI assistants like Claude, ChatGPT, and Discord.
+  why_it_matters: It lets developers add brokerage trading capabilities to their AI-integrated applications through a standardized MCP interface.
+  mental_damage: Finally, a way to let your AI agent lose your money with protocol-level precision.
   tags:
-    - trading
     - mcp
-    - sdk
     - finance
-    - ai-integration
+    - trading
   confidence: high
 curation:
   status: included
-  reason: >-
-    Trade It's core product identity is an MCP server that enables AI assistants to access trading tools and brokerage
-    data, making MCP its primary purpose rather than a coding agent or app builder.
+  reason: Trade It is an MCP server whose primary identity is exposing brokerage trading capabilities over the Model Context Protocol, fitting the MCP ecosystem category.
   evidence:
-    - The scraped site context identifies 'MCP server' as a core product under Trading API and Developer hub.
-    - >-
-      The source-list context shows it is listed in 'awesome-mcp-servers' under 'Official Servers' with the purpose of
-      connecting brokerages to Claude, ChatGPT, Discord, and embedded trading surfaces.
-    - >-
-      The primary page emphasizes connecting brokerages to AI assistants via MCP, with trading features exposed as tools
-      through the protocol.
-    - jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at mcp (unverified)
+    - "Scraped site context identifies Trade It as an MCP server: 'Connect with MCP' and 'MCP server' listed under Products"
+    - "Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers' with description: 'Connect your existing brokerage, then trade stocks, options, and crypto from Claude, ChatGPT, Discord, and embedded trading surfaces.'"
+    - "Primary page excerpt emphasizes MCP as a core product: 'Add portfolios and trading to your product. Our SDK handles the brokerage experience' and positions MCP as a key integration path alongside ChatGPT, Claude, Discord, and iOS app"
 placement:
   primary_category: mcp
-  section: Finance, Crypto & DeFi
   secondary_categories:
     - ai-frameworks
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,35 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:54:11.645Z'
+    updated_at: "2026-10-05T05:00:38.808Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7da046e2950b0beefce58fbf1b494f23977e8a6fb2537299067093b54848439b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5bd73f068758983497b82ee8dc907c716c8d21c12d66725b5012b5da43c2355c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        Trade It's core product identity is an MCP server that enables AI assistants to access trading tools and
-        brokerage data, making MCP its primary purpose rather than a coding agent or app builder.
+      decision_reason: Trade It is an MCP server whose primary identity is exposing brokerage trading capabilities over the Model Context Protocol, fitting the MCP ecosystem category.
       decision_evidence:
-        - The scraped site context identifies 'MCP server' as a core product under Trading API and Developer hub.
-        - >-
-          The source-list context shows it is listed in 'awesome-mcp-servers' under 'Official Servers' with the purpose
-          of connecting brokerages to Claude, ChatGPT, Discord, and embedded trading surfaces.
-        - >-
-          The primary page emphasizes connecting brokerages to AI assistants via MCP, with trading features exposed as
-          tools through the protocol.
+        - "Scraped site context identifies Trade It as an MCP server: 'Connect with MCP' and 'MCP server' listed under Products"
+        - "Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers' with description: 'Connect your existing brokerage, then trade stocks, options, and crypto from Claude, ChatGPT, Discord, and embedded trading surfaces.'"
+        - "Primary page excerpt emphasizes MCP as a core product: 'Add portfolios and trading to your product. Our SDK handles the brokerage experience' and positions MCP as a key integration path alongside ChatGPT, Claude, Discord, and iOS app"
       category_candidates:
         - mcp
         - app-builders
-      contrastive_reason: >-
-        Choose mcp over app-builders because Trade It’s main value is exposing trading functionality through the Model
-        Context Protocol for AI assistants, not generating deployable apps from prompts.
+      contrastive_reason: Choose mcp over app-builders because Trade It’s core identity is as an MCP server enabling trading via protocol integration, not generating deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

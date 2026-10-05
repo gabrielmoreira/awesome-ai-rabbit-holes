@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brightdata__brightdata-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Bright Data
         extracted_url: https://github.com/brightdata/brightdata-mcp
-        surrounding_text: >-
-          - **[Bright Data](https://github.com/brightdata/brightdata-mcp)** - Discover, extract, and interact with the
-          web - one interface powering automated access across the public internet.
+        surrounding_text: "- **[Bright Data](https://github.com/brightdata/brightdata-mcp)** - Discover, extract, and interact with the web - one interface powering automated access across the public internet."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: brightdata/brightdata-mcp
     html_url: https://github.com/brightdata/brightdata-mcp
-    created_at: '2025-04-15T10:55:56Z'
-    pushed_at: '2026-09-17T14:51:38Z'
+    created_at: "2025-04-15T10:55:56Z"
+    pushed_at: "2026-09-17T14:51:38Z"
     description: A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.
     homepage: https://brightdata.com/
     topics:
@@ -52,17 +50,13 @@ metadata:
       - web-crawling
       - web-data
       - web-scraping
-    last_checked_at: '2026-09-24T04:13:03.271Z'
+    last_checked_at: "2026-09-24T04:13:03.271Z"
     readme:
-      fetched_at: '2026-09-24T04:13:03.271Z'
+      fetched_at: "2026-09-24T04:13:03.271Z"
       bytes: 37455
 insights:
-  summary: >-
-    Bright Data MCP is a Model Context Protocol server providing web search, page scraping, structured data extraction,
-    and browser automation tools for AI agents.
-  why_it_matters: >-
-    It gives AI agents reliable, real-time access to public web data without requiring developers to handle bot
-    detection, CAPTCHAs, or proxy management.
+  summary: Bright Data MCP is a Model Context Protocol server providing web search, page scraping, structured data extraction, and browser automation tools for AI agents.
+  why_it_matters: It gives AI agents reliable, real-time access to public web data without requiring developers to handle bot detection, CAPTCHAs, or proxy management.
   mental_damage: Now your LLM can scrape TikTok trends while you pretend it's for market research and not doomscrolling.
   tags:
     - mcp
@@ -86,18 +80,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:03.271Z'
+    updated_at: "2026-09-24T04:13:03.271Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:58:25.819Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -109,22 +105,14 @@ processing:
       input_hash: sha256:d6569a6c46e6116587cc667efd6a70a84f47a09bb697e4ad13124949cec859a7
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server exposing web data tools, making MCP its primary protocol identity
-        rather than a coding agent or extension.
+      decision_reason: The product's core identity is an MCP server exposing web data tools, making MCP its primary protocol identity rather than a coding agent or extension.
       decision_evidence:
-        - >-
-          Repo description: 'A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for
-          public web access.'
-        - >-
-          README: 'Bright Data MCP server gives AI agents real-time access to public web data. It exposes 69 tools
-          covering web search, page scraping, structured data extraction, and browser automation.'
+        - "Repo description: 'A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.'"
+        - "README: 'Bright Data MCP server gives AI agents real-time access to public web data. It exposes 69 tools covering web search, page scraping, structured data extraction, and browser automation.'"
         - Listed in awesome-mcp-servers under 'Official Servers' section, confirming its identity as an MCP server.
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because Bright Data MCP is an MCP server whose product identity is
-        providing MCP-accessible web tools, not primarily extending a coding agent or editor.
+      contrastive_reason: Choose mcp over extensions-and-addons because Bright Data MCP is an MCP server whose product identity is providing MCP-accessible web tools, not primarily extending a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

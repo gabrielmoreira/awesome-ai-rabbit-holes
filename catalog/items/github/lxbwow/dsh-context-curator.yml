@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lxbwow__dsh-context-curator__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: dsh-context-curator
         extracted_url: https://github.com/lxbwow/dsh-context-curator
-        surrounding_text: >-
-          - [dsh-context-curator](https://github.com/LXBWOW/dsh-context-curator) - DSH-native context compaction that
-          keeps text verbatim: scores every tool call and result with Jev, drops only the stale ones, and falls back to
-          DSH native summary when unsure.
+        surrounding_text: "- [dsh-context-curator](https://github.com/LXBWOW/dsh-context-curator) - DSH-native context compaction that keeps text verbatim: scores every tool call and result with Jev, drops only the stale ones, and falls back to DSH native summary when unsure."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    dsh-context-curator - DSH-native context compaction that keeps text verbatim: scores every tool call and result with
-    Jev, drops only the stale ones, and falls back to DSH native summary when unsure.
+  summary: "dsh-context-curator - DSH-native context compaction that keeps text verbatim: scores every tool call and result with Jev, drops only the stale ones, and falls back to DSH native summary when unsure."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

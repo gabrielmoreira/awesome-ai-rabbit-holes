@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kitze__skillbox__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Skillbox
         extracted_url: https://github.com/kitze/skillbox
-        surrounding_text: >-
-          - [Skillbox](https://github.com/kitze/skillbox) - Self-hosts a versioned agent skill library with optional Jev
-          recommendations over authorized skills and explicit search fallback. [Project
-          guide](community/projects/tools/skillbox.md).
+        surrounding_text: "- [Skillbox](https://github.com/kitze/skillbox) - Self-hosts a versioned agent skill library with optional Jev recommendations over authorized skills and explicit search fallback. [Project guide](community/projects/tools/skillbox.md)."
         confidence: high
     - id: discovery__github__kitze__skillbox__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,12 +36,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: skillbox
         extracted_url: https://github.com/kitze/skillbox
-        surrounding_text: >-
-          | [skillbox](https://github.com/kitze/skillbox) | ★ 200 | TypeScript | 2026-09-19 | Self-hosted, versioned
-          skills library for AI agents with optional Jev recommendations through TypeSafe or an AI gateway. |
+        surrounding_text: "| [skillbox](https://github.com/kitze/skillbox) | ★ 200 | TypeScript | 2026-09-19 | Self-hosted, versioned skills library for AI agents with optional Jev recommendations through TypeSafe or an AI gateway. |"
         confidence: high
     - id: discovery__github__kitze__skillbox__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,14 +49,12 @@ provenance:
         mode: parsed
         section_path:
           - Model Routing
-        anchor_text: '**skillbox**'
+        anchor_text: "**skillbox**"
         extracted_url: https://github.com/kitze/skillbox
-        surrounding_text: >-
-          - [**skillbox**](https://github.com/kitze/skillbox) — A self-hosted, versioned Agent skills library with
-          optional Jev recommendations.
+        surrounding_text: "- [**skillbox**](https://github.com/kitze/skillbox) — A self-hosted, versioned Agent skills library with optional Jev recommendations."
         confidence: high
     - id: discovery__github__kitze__skillbox__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -74,14 +67,10 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: skillbox
         extracted_url: https://github.com/kitze/skillbox
-        surrounding_text: >-
-          - [skillbox](https://github.com/kitze/skillbox)
-          ![stars](https://img.shields.io/github/stars/kitze/skillbox?style=flat-square&label=%E2%98%85) - Skills
-          infrastructure: self-hosted versioned skills library that adds optional Jev recommendations using your own
-          TypeSafe or Gateway key.
+        surrounding_text: "- [skillbox](https://github.com/kitze/skillbox) ![stars](https://img.shields.io/github/stars/kitze/skillbox?style=flat-square&label=%E2%98%85) - Skills infrastructure: self-hosted versioned skills library that adds optional Jev recommendations using your own TypeSafe or Gateway key."
         confidence: high
     - id: discovery__github__kitze__skillbox__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -93,9 +82,7 @@ provenance:
           - Agents, coding, and guardrails
         anchor_text: skillbox
         extracted_url: https://github.com/kitze/skillbox
-        surrounding_text: >-
-          - [skillbox](https://github.com/kitze/skillbox) - Self-hosted skill library with optional Jev relevance
-          recommendations over an authorized catalog.
+        surrounding_text: "- [skillbox](https://github.com/kitze/skillbox) - Self-hosted skill library with optional Jev relevance recommendations over an authorized catalog."
         confidence: high
 metadata:
   github:
@@ -113,9 +100,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Skillbox - Self-hosts a versioned agent skill library with optional Jev recommendations over authorized skills and
-    explicit search fallback. Project guide.
+  summary: Skillbox - Self-hosts a versioned agent skill library with optional Jev recommendations over authorized skills and explicit search fallback. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -125,9 +110,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.66
-    - >-
-      jev winnow:e4b 0.50 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at skills
-      (unverified)
+    - jev winnow:e4b 0.50 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -139,7 +122,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.375Z'
+    updated_at: "2026-09-29T13:07:10.375Z"
     cause: null
     next_retry_at: null
   stars:
@@ -147,6 +130,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

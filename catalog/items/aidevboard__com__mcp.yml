@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aidevboard__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: AI Dev Jobs MCP
         extracted_url: https://aidevboard.com/mcp
-        surrounding_text: >-
-          - **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** – Search 5,400+ AI developer jobs with salary data via
-          MCP. REST API also available.
+        surrounding_text: "- **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** – Search 5,400+ AI developer jobs with salary data via MCP. REST API also available."
         confidence: high
 metadata:
   github:
@@ -38,32 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and collection of Model Context Protocol (MCP) servers.
-  why_it_matters: >-
-    It helps developers find pre-built connectors to give AI agents access to external data and tools via the MCP
-    standard.
-  mental_damage: Just another layer of abstraction to manage in your quest to give an LLM a keyboard and a browser.
+  summary: Model Context Protocol (MCP) ecosystem page on aidevboard.com listing MCP servers, clients, and related tools.
+  why_it_matters: Serves as a discovery hub for MCP infrastructure, helping developers find standardized ways to connect AI agents to tools and data.
+  mental_damage: Another directory to sift through when you just wanted one thing that actually works.
   tags:
     - mcp
-    - protocol
-    - servers
-  confidence: medium
+    - directory
+    - ai-infrastructure
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The source is a curated directory landing page, not a standalone tool, framework, or agent, so it does not represent a primary developer-facing product identity.
   evidence:
-    - jev-latest choice confidence 0.77
+    - Source URL is aidevboard.com/mcp, a reference directory page
+    - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' as a curated list
+    - No repo description, stars, or activity signals indicate a standalone product
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,34 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:24.270Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for aidevboard__com__mcp: Invalid AI response structure: Missing required
-        field: mental_damage
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:00.649Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ff1fda32a9ff03e25db5833afb7eb93e6304cbc67c568da3ef709a11785945a8
-      proposed_primary_category: mcp
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9c6c02e4648b0475066f2c5a7121e88203bed2ef740e996b2a5c0de1d5a3fb70
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The repository contains MCP server implementations and reference material, making its primary identity MCP infrastructure rather than a coding agent, framework, or extension.
+      decision_reason: The source is a curated directory landing page, not a standalone tool, framework, or agent, so it does not represent a primary developer-facing product identity.
       decision_evidence:
-        - Source-list context shows inclusion in 'awesome-ai-coding-tools' under 'MCP Servers and Directories'
-        - Repo name 'mcp' and URL path '/mcp' indicate focus on Model Context Protocol
-        - No evidence of being a coding agent, app builder, or orchestration platform in the provided inputs
-      category_candidates:
-        - mcp
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because its primary identity is a specialized registry for the MCP protocol
-        rather than a general-purpose AI tooling directory.
-      review_reason: 'Categorization review required: placement disagreement: retained ''awesome-awesomes'', proposed ''mcp'''
+        - Source URL is aidevboard.com/mcp, a reference directory page
+        - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' as a curated list
+        - No repo description, stars, or activity signals indicate a standalone product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

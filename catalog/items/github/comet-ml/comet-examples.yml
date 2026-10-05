@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__comet-ml__comet-examples__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,13 +20,7 @@ provenance:
           - Experiment Tracking
         anchor_text: Comet
         extracted_url: https://github.com/comet-ml/comet-examples
-        surrounding_text: >-
-          | [Comet](https://github.com/comet-ml/comet-examples)    | Comet is an MLOps platform that offers experiment
-          tracking, model production management, a model registry, and full data lineage from training straight through
-          to production. Comet plays nicely with all your favorite tools, so you don't have to change your existing
-          workflow. Comet Opik to confidently evaluate, test, and ship LLM applications with a suite of observability
-          tools to calibrate language model outputs across your dev and production lifecycle! | ![GitHub
-          Badge](https://img.shields.io/github/stars/comet-ml/comet-examples.svg?style=flat-square) |
+        surrounding_text: "| [Comet](https://github.com/comet-ml/comet-examples)    | Comet is an MLOps platform that offers experiment tracking, model production management, a model registry, and full data lineage from training straight through to production. Comet plays nicely with all your favorite tools, so you don't have to change your existing workflow. Comet Opik to confidently evaluate, test, and ship LLM applications with a suite of observability tools to calibrate language model outputs across your dev and production lifecycle! | ![GitHub Badge](https://img.shields.io/github/stars/comet-ml/comet-examples.svg?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -36,10 +30,10 @@ metadata:
     archived: false
     full_name: comet-ml/comet-examples
     html_url: https://github.com/comet-ml/comet-examples
-    created_at: '2018-11-21T18:00:34Z'
-    pushed_at: '2026-08-12T16:26:17Z'
-    description: 'Examples of Machine Learning code using Comet.ml '
-    homepage: ''
+    created_at: "2018-11-21T18:00:34Z"
+    pushed_at: "2026-08-12T16:26:17Z"
+    description: "Examples of Machine Learning code using Comet.ml "
+    homepage: ""
     topics:
       - comet-ml
       - deep-learning
@@ -49,20 +43,14 @@ metadata:
       - machine-learning
       - machine-learning-platform
       - python
-    last_checked_at: '2026-09-07T04:13:50.144Z'
+    last_checked_at: "2026-09-07T04:13:50.144Z"
     readme:
-      fetched_at: '2026-09-07T04:13:50.144Z'
+      fetched_at: "2026-09-07T04:13:50.144Z"
       bytes: 4175
 insights:
-  summary: >-
-    An examples repository demonstrating how to integrate the Comet.ml experiment-tracking SDK with popular
-    machine-learning and deep-learning libraries.
-  why_it_matters: >-
-    Serves as reference documentation for instrumenting training runs, but it is an auxiliary resource rather than a
-    standalone developer tool.
-  mental_damage: >-
-    Claiming to be 'doing for ML what GitHub did for code' while actually being a folder of Keras notebooks is a bold
-    experiment in mission-statement drift.
+  summary: An examples repository demonstrating how to integrate the Comet.ml experiment-tracking SDK with popular machine-learning and deep-learning libraries.
+  why_it_matters: Serves as reference documentation for instrumenting training runs, but it is an auxiliary resource rather than a standalone developer tool.
+  mental_damage: Claiming to be 'doing for ML what GitHub did for code' while actually being a folder of Keras notebooks is a bold experiment in mission-statement drift.
   tags:
     - ml-experiment-tracking
     - examples
@@ -71,14 +59,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an auxiliary examples repo for a traditional ML experiment-tracking SaaS, not a standalone AI
-    developer-tooling product, and it does not cleanly fit any catalog category.
+  reason: This is an auxiliary examples repo for a traditional ML experiment-tracking SaaS, not a standalone AI developer-tooling product, and it does not cleanly fit any catalog category.
   evidence:
     - Repo description states it is 'Examples of Machine Learning code using Comet.ml'.
-    - >-
-      README identifies the repository as containing tutorial integrations for frameworks like Keras, PyTorch, and
-      scikit-learn rather than a distinct product.
+    - README identifies the repository as containing tutorial integrations for frameworks like Keras, PyTorch, and scikit-learn rather than a distinct product.
     - No available category cleanly covers ML-training example repos or generic experiment-tracking SDK wrappers.
 placement:
   primary_category: null
@@ -89,17 +73,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.608Z'
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-07T04:13:50.144Z'
+    updated_at: "2026-09-07T04:13:50.144Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -114,14 +98,10 @@ processing:
       input_hash: sha256:1e1cae76a3efdd5a00efbdcf9edbddf1b7c52d3fe56376372e3bb23ef7f96acc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an auxiliary examples repo for a traditional ML experiment-tracking SaaS, not a standalone AI
-        developer-tooling product, and it does not cleanly fit any catalog category.
+      decision_reason: This is an auxiliary examples repo for a traditional ML experiment-tracking SaaS, not a standalone AI developer-tooling product, and it does not cleanly fit any catalog category.
       decision_evidence:
         - Repo description states it is 'Examples of Machine Learning code using Comet.ml'.
-        - >-
-          README identifies the repository as containing tutorial integrations for frameworks like Keras, PyTorch, and
-          scikit-learn rather than a distinct product.
+        - README identifies the repository as containing tutorial integrations for frameworks like Keras, PyTorch, and scikit-learn rather than a distinct product.
         - No available category cleanly covers ML-training example repos or generic experiment-tracking SDK wrappers.
       category_candidates: []
       contrastive_reason: null

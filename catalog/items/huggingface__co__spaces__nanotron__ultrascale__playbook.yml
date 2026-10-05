@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/spaces/nanotron/ultrascale-playbook
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__spaces__nanotron__ultrascale__playbook__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__huggingface__co__spaces__nanotron__ultrascale__playbook__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 技巧 Tips
-        anchor_text: 'The Ultra-Scale Playbook: Training LLMs on GPU Clusters'
+        anchor_text: "The Ultra-Scale Playbook: Training LLMs on GPU Clusters"
         extracted_url: https://huggingface.co/spaces/nanotron/ultrascale-playbook
-        surrounding_text: >-
-          38. [The Ultra-Scale Playbook: Training LLMs on GPU
-          Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
+        surrounding_text: "38. [The Ultra-Scale Playbook: Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)"
         confidence: high
 metadata:
   github:
@@ -39,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A technical guide for training large language models on large GPU clusters.
-  why_it_matters: >-
-    It provides specialized instructions for managing the infrastructure and complexities of massive-scale distributed
-    training.
-  mental_damage: Because reading about trillion-parameter training will certainly make your local fine-tuning feel more significant.
+  summary: The Ultra-Scale Playbook is a Hugging Face Space guide for training LLMs on large GPU clusters.
+  why_it_matters: Provides developers with practical infrastructure knowledge for scaling LLM training across distributed GPU systems.
+  mental_damage: Another 'ultimate guide' that assumes you have access to a supercluster and the patience to debug NCCL timeouts.
   tags:
     - llm-training
+    - distributed-systems
     - gpu-clusters
-    - infrastructure
-    - playbook
+    - huggingface-spaces
   confidence: high
 curation:
   status: excluded
-  reason: The resource is an educational guide/playbook rather than a standalone developer-facing tool, agent, or framework.
+  reason: Excluded because it is an educational resource about LLM training infrastructure, not a developer-facing AI tool, agent, workflow, or product that writes code, builds apps, or integrates into development workflows.
   evidence:
-    - Scraped site description identifies it as 'The ultimate guide to training LLM on large GPU Clusters'
-    - The product is a documentation resource/guide rather than a functional software product or library
+    - "Scraped site context: Title and description frame it as 'The ultimate guide to training LLM on large GPU Clusters'"
+    - "Source-list context: Listed in awesome-LLM-resources under '技巧 Tips' as a resource summary, not a tool"
+    - No evidence of being a runnable product, SDK, agent, or workflow tool — it is a static educational space
 placement:
   primary_category: null
   section: null
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:27:58.069Z'
+    updated_at: "2026-10-05T04:34:23.450Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:db5b3f0dc451df59eb1095a8089c54428f25903f90ec80d75be94eba9e9346c7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e4d56588ef92472a435d48da72221de8ca994a64d31bb8545f68067a527b2d9f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The resource is an educational guide/playbook rather than a standalone developer-facing tool, agent, or
-        framework.
+      decision_reason: Excluded because it is an educational resource about LLM training infrastructure, not a developer-facing AI tool, agent, workflow, or product that writes code, builds apps, or integrates into development workflows.
       decision_evidence:
-        - Scraped site description identifies it as 'The ultimate guide to training LLM on large GPU Clusters'
-        - The product is a documentation resource/guide rather than a functional software product or library
+        - "Scraped site context: Title and description frame it as 'The ultimate guide to training LLM on large GPU Clusters'"
+        - "Source-list context: Listed in awesome-LLM-resources under '技巧 Tips' as a resource summary, not a tool"
+        - No evidence of being a runnable product, SDK, agent, or workflow tool — it is a static educational space
       category_candidates: []
       contrastive_reason: null
       review_reason: null

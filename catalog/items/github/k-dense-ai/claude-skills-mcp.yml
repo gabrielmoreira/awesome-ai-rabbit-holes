@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__k-dense-ai__claude-skills-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: K-Dense-AI/claude-skills-mcp
         extracted_url: https://github.com/k-dense-ai/claude-skills-mcp
-        surrounding_text: >-
-          - [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 -
-          Intelligent search capabilities to let every model and client use [Claude Agent
-          Skills](https://www.anthropic.com/news/skills) like native.
+        surrounding_text: "- [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Intelligent search capabilities to let every model and client use [Claude Agent Skills](https://www.anthropic.com/news/skills) like native."
         confidence: high
 metadata:
   github:
@@ -33,20 +30,18 @@ metadata:
     archived: false
     full_name: K-Dense-AI/claude-skills-mcp
     html_url: https://github.com/K-Dense-AI/claude-skills-mcp
-    created_at: '2025-10-21T03:53:28Z'
-    pushed_at: '2026-07-20T18:02:06Z'
+    created_at: "2025-10-21T03:53:28Z"
+    pushed_at: "2026-07-20T18:02:06Z"
     description: MCP server for searching and retrieving Scientific Agent Skills using vector search
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-30T05:05:53.764Z'
+    last_checked_at: "2026-07-30T05:05:53.764Z"
     readme:
-      fetched_at: '2026-07-30T05:05:53.764Z'
+      fetched_at: "2026-07-30T05:05:53.764Z"
       bytes: 8483
 insights:
   summary: An MCP server that enables semantic search and retrieval of Claude Agent Skills for MCP-compatible AI applications.
-  why_it_matters: >-
-    It bridges Anthropic's Agent Skills framework to any MCP-compatible assistant, allowing developers to access
-    specialized skills across different coding environments.
+  why_it_matters: It bridges Anthropic's Agent Skills framework to any MCP-compatible assistant, allowing developers to access specialized skills across different coding environments.
   mental_damage: Now you can spend more time configuring skill servers than actually writing code.
   tags:
     - mcp
@@ -56,13 +51,9 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is explicitly marked as no longer maintained and states that Agent Skills are now natively supported by
-    major platforms, making this MCP bridge obsolete.
+  reason: The project is explicitly marked as no longer maintained and states that Agent Skills are now natively supported by major platforms, making this MCP bridge obsolete.
   evidence:
-    - >-
-      README explicitly states: 'This MCP server is no longer hosted or maintained. Agent Skills have been natively
-      adopted by all major AI platforms'
+    - "README explicitly states: 'This MCP server is no longer hosted or maintained. Agent Skills have been natively adopted by all major AI platforms'"
     - Repo description identifies it as an MCP server for Claude Agent Skills, but the project is effectively deprecated
 placement:
   primary_category: null
@@ -73,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.623Z'
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:53.764Z'
+    updated_at: "2026-07-30T05:05:53.764Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -98,16 +89,10 @@ processing:
       input_hash: sha256:87464800d6bb945c6045330bae110cecd9b5c3e4695d6664a42a9f9af26fb790
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is explicitly marked as no longer maintained and states that Agent Skills are now natively supported
-        by major platforms, making this MCP bridge obsolete.
+      decision_reason: The project is explicitly marked as no longer maintained and states that Agent Skills are now natively supported by major platforms, making this MCP bridge obsolete.
       decision_evidence:
-        - >-
-          README explicitly states: 'This MCP server is no longer hosted or maintained. Agent Skills have been natively
-          adopted by all major AI platforms'
-        - >-
-          Repo description identifies it as an MCP server for Claude Agent Skills, but the project is effectively
-          deprecated
+        - "README explicitly states: 'This MCP server is no longer hosted or maintained. Agent Skills have been natively adopted by all major AI platforms'"
+        - Repo description identifies it as an MCP server for Claude Agent Skills, but the project is effectively deprecated
       category_candidates: []
       contrastive_reason: null
       review_reason: null

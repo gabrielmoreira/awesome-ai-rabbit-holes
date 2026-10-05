@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__wandb__ai__guides__prompts__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,12 +18,7 @@ provenance:
           - LLMOps
         anchor_text: Weights & Biases (Prompts)
         extracted_url: https://docs.wandb.ai/guides/prompts
-        surrounding_text: >-
-          | [Weights & Biases (Prompts)](https://docs.wandb.ai/guides/prompts) | A suite of LLMOps tools within the
-          developer-first W&B MLOps platform. Utilize W&B Prompts for visualizing and inspecting LLM execution flow,
-          tracking inputs and outputs, viewing intermediate results, securely managing prompts and LLM chain
-          configurations.                                                                                                                                       
-          |                                                                                                           |
+        surrounding_text: "| [Weights & Biases (Prompts)](https://docs.wandb.ai/guides/prompts) | A suite of LLMOps tools within the developer-first W&B MLOps platform. Utilize W&B Prompts for visualizing and inspecting LLM execution flow, tracking inputs and outputs, viewing intermediate results, securely managing prompts and LLM chain configurations.                                                                                                                                        |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -41,25 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation for Weights & Biases Prompts, a tool for visualizing and evaluating LLM prompt performance.
-  why_it_matters: >-
-    It provides developers with the tracing and observability needed to debug why a prompt is behaving inconsistently in
-    production.
-  mental_damage: >-
-    Nothing says 'I've lost control of my application logic' like needing a dedicated observability platform to figure
-    out why a prompt just hallucinated a whole new backend.
+  summary: The W&B Prompts documentation is currently inaccessible due to an access restriction requiring a code to view.
+  why_it_matters: Without access, developers cannot determine if this resource offers any practical value for AI-assisted development workflows.
+  mental_damage: Yet another 'AI documentation' wall that assumes you already have the secret handshake just to read what the tool does.
   tags:
     - documentation
-    - prompt-engineering
-    - mlops
+    - access-restricted
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page requiring an access code, not a standalone AI tool or developer-facing product with functional utility.
+  reason: The content is inaccessible behind an access code, so there is no verifiable product, tool, or developer-facing functionality to evaluate for inclusion in the catalog.
   evidence:
-    - "URL points to a W&B docs page: https://docs.wandb.ai/guides/prompts"
-    - Primary page excerpt shows 'Access Restricted' prompt requiring an access code
-    - No repo description, stars, or activity signals indicating a deployable tool or platform
+    - Primary page excerpt shows 'Access Restricted' with a prompt to enter an access code
+    - No repo description, README, or scraped site context is available to assess functionality
+    - URL points to documentation that cannot be viewed without credentials
 placement:
   primary_category: null
   secondary_categories: []
@@ -70,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,35 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:38:48.217Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for docs__wandb__ai__guides__prompts: Invalid AI response structure: Invalid
-        confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:47.145Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1176215060144a080d902212027fa40c0caf5c62f8e233ec4dd029af01303f47
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7f440105fa17c96fd625c73982851374b0273a288998fd70f7a512d4f980b15f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is specifically designed for measuring, tracing, and evaluating model/prompt behavior within a
-        development workflow.
+      decision_reason: The content is inaccessible behind an access code, so there is no verifiable product, tool, or developer-facing functionality to evaluate for inclusion in the catalog.
       decision_evidence:
-        - Found in Awesome-LLMOps for LLM development workflows
-        - Product focus is on 'prompts' visualization and performance tracking
-      category_candidates:
-        - evals
-        - context-engineering
-      contrastive_reason: >-
-        Choose evals over context-engineering because the core utility is the measurement and tracing of prompt behavior
-        rather than the management of the context itself.
+        - Primary page excerpt shows 'Access Restricted' with a prompt to enter an access code
+        - No repo description, README, or scraped site context is available to assess functionality
+        - URL points to documentation that cannot be viewed without credentials
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

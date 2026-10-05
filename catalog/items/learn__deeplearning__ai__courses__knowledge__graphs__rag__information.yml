@@ -5,9 +5,8 @@ canonical_url: https://learn.deeplearning.ai/courses/knowledge-graphs-rag/inform
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__learn__deeplearning__ai__courses__knowledge__graphs__rag__information__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__learn__deeplearning__ai__courses__knowledge__graphs__rag__information__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,11 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A short course teaching how to use Neo4j and LangChain to build knowledge graphs for retrieval-augmented generation
-    applications.
-  why_it_matters: Teaches developers how to structure and query knowledge graph data to improve LLM context relevance in RAG systems.
-  mental_damage: Another self-paced AI course that promises better RAG while you wonder if you should just fine-tune instead.
+  summary: A short course teaching how to use Neo4j and LangChain to build knowledge graph-enhanced retrieval augmented generation applications.
+  why_it_matters: Teaches developers a specific technique to improve RAG performance by integrating structured knowledge graphs with LLMs.
+  mental_damage: Another niche AI course promising better LLM outputs while you quietly wonder if your vector search wasn't already good enough.
   tags:
     - rag
     - knowledge-graph
@@ -51,17 +48,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational course, not a developer-facing tool, agent, framework, or infrastructure product; it does not
-    provide runtime functionality, SDKs, or integrations for direct use in software development workflows.
+  reason: Excluded because it is an educational course, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - The resource is a short course hosted on DeepLearning.AI with video lessons, quizzes, and instructor-led content.
-    - >-
-      The primary page excerpt focuses on course enrollment, outline, and learning objectives rather than a deployable
-      product or toolkit.
-    - >-
-      No GitHub repository, CLI, library, or runtime artifact is associated with the resource; it is purely
-      instructional content.
+    - Scraped site shows it is a DeepLearning.AI short course with video lessons and code examples
+    - No GitHub repo, stars, or indications of a reusable tool or product being offered
+    - Primary purpose is teaching concepts, not providing a deployable agent, framework, or integration
 placement:
   primary_category: null
   section: null
@@ -71,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,32 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:52.842Z'
+    updated_at: "2026-10-05T04:37:00.550Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:900394d51127500d93eed9c6fd8efda9c4bf2477507d87623b0924b820027c39
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:31ed45e6c974070b8a5bd31974731a0e08fed66b31f08ca7e77220cc9ee8d303
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational course, not a developer-facing tool, agent, framework, or infrastructure product; it does
-        not provide runtime functionality, SDKs, or integrations for direct use in software development workflows.
+      decision_reason: Excluded because it is an educational course, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - >-
-          The resource is a short course hosted on DeepLearning.AI with video lessons, quizzes, and instructor-led
-          content.
-        - >-
-          The primary page excerpt focuses on course enrollment, outline, and learning objectives rather than a
-          deployable product or toolkit.
-        - >-
-          No GitHub repository, CLI, library, or runtime artifact is associated with the resource; it is purely
-          instructional content.
+        - Scraped site shows it is a DeepLearning.AI short course with video lessons and code examples
+        - No GitHub repo, stars, or indications of a reusable tool or product being offered
+        - Primary purpose is teaching concepts, not providing a deployable agent, framework, or integration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

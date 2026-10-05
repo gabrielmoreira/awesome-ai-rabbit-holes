@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__acunningham-ship-it__veilbrowser__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-10T04:12:32.934Z'
+      discovered_at: "2026-09-10T04:12:32.934Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: acunningham-ship-it/veilbrowser
         extracted_url: https://github.com/acunningham-ship-it/veilbrowser
-        surrounding_text: >-
-          - [acunningham-ship-it/veilbrowser](https://github.com/acunningham-ship-it/veilbrowser)
-          [![acunningham-ship-it/veilbrowser MCP
-          server](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser/badges/score.svg)](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser)
-          📇 🐍 🏠 - Stealth browser automation over raw CDP, driving real unmodified Chrome with no Playwright or
-          Puppeteer in the stack. Returns numbered element refs from the accessibility tree instead of CSS selectors,
-          and can attach to an already-running Chrome to reuse logged-in sessions.
+        surrounding_text: "- [acunningham-ship-it/veilbrowser](https://github.com/acunningham-ship-it/veilbrowser) [![acunningham-ship-it/veilbrowser MCP server](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser/badges/score.svg)](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser) 📇 🐍 🏠 - Stealth browser automation over raw CDP, driving real unmodified Chrome with no Playwright or Puppeteer in the stack. Returns numbered element refs from the accessibility tree instead of CSS selectors, and can attach to an already-running Chrome to reuse logged-in sessions."
         confidence: high
 metadata:
   github:
@@ -36,11 +30,9 @@ metadata:
     archived: false
     full_name: acunningham-ship-it/veilbrowser
     html_url: https://github.com/acunningham-ship-it/veilbrowser
-    created_at: '2026-06-09T12:33:44Z'
-    pushed_at: '2026-08-31T21:47:51Z'
-    description: >-
-      Stealth browser for AI agents — real Chrome over raw CDP, no Playwright/Puppeteer. TypeScript + MCP-native. Passes
-      sannysoft 57/57, bypasses Cloudflare.
+    created_at: "2026-06-09T12:33:44Z"
+    pushed_at: "2026-08-31T21:47:51Z"
+    description: Stealth browser for AI agents — real Chrome over raw CDP, no Playwright/Puppeteer. TypeScript + MCP-native. Passes sannysoft 57/57, bypasses Cloudflare.
     homepage: null
     topics:
       - ai-agents
@@ -53,18 +45,14 @@ metadata:
       - stealth-browser
       - typescript
       - web-scraping
-    last_checked_at: '2026-09-17T04:13:29.792Z'
+    last_checked_at: "2026-09-17T04:13:29.792Z"
     readme:
-      fetched_at: '2026-09-17T04:13:29.792Z'
+      fetched_at: "2026-09-17T04:13:29.792Z"
       bytes: 33764
 insights:
   summary: A TypeScript-native stealth browser driver that uses raw CDP to bypass bot detection for AI agents.
-  why_it_matters: >-
-    It enables AI agents to interact with high-security websites like Google or Cloudflare-protected pages that
-    typically block standard automation tools like Playwright.
-  mental_damage: >-
-    We have officially reached the stage of the AI revolution where the primary development task is outrunning
-    Cloudflare's bot detection.
+  why_it_matters: It enables AI agents to interact with high-security websites like Google or Cloudflare-protected pages that typically block standard automation tools like Playwright.
+  mental_damage: We have officially reached the stage of the AI revolution where the primary development task is outrunning Cloudflare's bot detection.
   tags:
     - browser-automation
     - mcp
@@ -77,9 +65,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.91
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks
-      (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -91,17 +77,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-10T04:12:32.936Z'
+    updated_at: "2026-09-10T04:12:32.936Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:29.792Z'
+    updated_at: "2026-09-17T04:13:29.792Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -112,9 +98,7 @@ processing:
       input_hash: sha256:526f6006196f84026b1184ac5574b73e30298df319e31cc4e4973a4ef5f54909
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: >-
-        It functions as an augmentation layer that provides browser automation capabilities to existing agents and
-        editors, primarily via its MCP server implementation.
+      decision_reason: It functions as an augmentation layer that provides browser automation capabilities to existing agents and editors, primarily via its MCP server implementation.
       decision_evidence:
         - TypeScript-native library and MCP-native server
         - Uses raw CDP to bypass Cloudflare and sannysoft detection
@@ -122,9 +106,7 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - ai-frameworks
-      contrastive_reason: >-
-        Choose ai-dev-extensions over ai-frameworks because the tool's core identity is providing a browser capability
-        to existing agents/hosts rather than acting as a structural orchestration framework.
+      contrastive_reason: Choose ai-dev-extensions over ai-frameworks because the tool's core identity is providing a browser capability to existing agents/hosts rather than acting as a structural orchestration framework.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

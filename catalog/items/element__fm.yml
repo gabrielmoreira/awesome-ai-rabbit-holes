@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__element__fm__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: ELEMENT.FM
         extracted_url: https://element.fm
-        surrounding_text: >-
-          - **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** - Create and publish unlimited podcast shows and episodes
-          with [ELEMENT.FM](https://element.fm)
+        surrounding_text: "- **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** - Create and publish unlimited podcast shows and episodes with [ELEMENT.FM](https://element.fm)"
         confidence: high
 metadata:
   github:
@@ -38,25 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An all-inclusive podcast hosting platform featuring AI-powered show notes and transcription.
-  why_it_matters: >-
-    It provides automated content generation and distribution for creators looking to leverage AI for podcast
-    production.
-  mental_damage: >-
-    Because your podcast was already a full-time job, now it just has automated transcription to document the
-    exhaustion.
+  summary: element.fm is a commercial podcast hosting platform offering unlimited shows, AI-generated transcripts, and Podcasting 2.0 features.
+  why_it_matters: It provides podcast creators with AI-assisted production tools, but does not target software developers' coding, agent, or infrastructure workflows.
+  mental_damage: Another AI-powered content platform that promises to amplify your voice while quietly wondering if developers were ever the intended audience.
   tags:
     - podcasting
-    - ai-transcription
-    - self-hosted
+    - audio
+    - saas
   confidence: high
 curation:
   status: excluded
-  reason: Element.fm is a podcast hosting service with AI features, not a developer-facing AI tool for coding, agents, or software workflows.
+  reason: element.fm is a podcast hosting service with AI features for content creators, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
   evidence:
-    - Scraped site context identifies it as 'the ultimate podcast hosting platform' with AI-powered show notes and transcripts
-    - Source-list context shows it appears only in 'awesome-mcp-servers' as a podcast platform, not as an MCP server or developer tool
-    - No evidence of coding agent, app builder, framework, or infrastructure functionality for software developers
+    - Scraped site context describes it as 'the ultimate podcast hosting platform' with unlimited shows, transcripts, and AI-powered show notes
+    - Source-list context shows it appears only in awesome-mcp-servers as 'ELEMENT.FM - the ultimate podcast hosting platform', suggesting a mischaracterized or incidental MCP link
+    - No evidence of developer tooling, code editing, agent behavior, or infrastructure relevant to software development in the provided inputs
 placement:
   primary_category: null
   section: null
@@ -66,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,29 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:10.267Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for element__fm: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:58.969Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:005e1c414661a5e3190a4a64936da23561127cd6b348acdfaecf029fc19403e9
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2d70b34c4752e2004ff2ee077168ea2b4d2325f0f94143ab61ed29ff34d9fb53
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Element.fm is a podcast hosting service with AI features, not a developer-facing AI tool for coding, agents, or software workflows.
+      decision_reason: element.fm is a podcast hosting service with AI features for content creators, not a developer-facing AI tool for coding, agents, workflows, or infrastructure.
       decision_evidence:
-        - Scraped site context identifies it as 'the ultimate podcast hosting platform' with AI-powered show notes and transcripts
-        - Source-list context shows it appears only in 'awesome-mcp-servers' as a podcast platform, not as an MCP server or developer tool
-        - No evidence of coding agent, app builder, framework, or infrastructure functionality for software developers
+        - Scraped site context describes it as 'the ultimate podcast hosting platform' with unlimited shows, transcripts, and AI-powered show notes
+        - Source-list context shows it appears only in awesome-mcp-servers as 'ELEMENT.FM - the ultimate podcast hosting platform', suggesting a mischaracterized or incidental MCP link
+        - No evidence of developer tooling, code editing, agent behavior, or infrastructure relevant to software development in the provided inputs
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__srctrace__source-trace__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Source Trace
         extracted_url: https://srctrace.com
-        surrounding_text: >-
-          - **[Source Trace](https://srctrace.com)** – AI git blame for every commit: see which lines came from AI and
-          which model wrote them. Compare models by amount of code written pre-commit, committed, and survived in
-          codebase. Teams can use dashboard to track adoption and AI metrics. Zero-config VS Code extension, no git or
-          agent hooks required.
+        surrounding_text: "- **[Source Trace](https://srctrace.com)** – AI git blame for every commit: see which lines came from AI and which model wrote them. Compare models by amount of code written pre-commit, committed, and survived in codebase. Teams can use dashboard to track adoption and AI metrics. Zero-config VS Code extension, no git or agent hooks required."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Source Trace – AI git blame for every commit: see which lines came from AI and which model wrote them. Compare
-    models by amount of code written pre-commit, committed, and survived in codebase. Teams can use dashboard to track
-    adoption and AI metrics. Zero-config VS Code extension, no git or agent hooks required.
+  summary: "Source Trace – AI git blame for every commit: see which lines came from AI and which model wrote them. Compare models by amount of code written pre-commit, committed, and survived in codebase. Teams can use dashboard to track adoption and AI metrics. Zero-config VS Code extension, no git or agent hooks required."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cartshield__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://cartshield.vercel.app
-        surrounding_text: >-
-          - [cartshield](https://github.com/ndolinschi/cartshield) ([site](https://cartshield.vercel.app)) - CartShield
-          — SMB checkout fraud disposition via TypeSafe Jev.
+        surrounding_text: "- [cartshield](https://github.com/ndolinschi/cartshield) ([site](https://cartshield.vercel.app)) - CartShield — SMB checkout fraud disposition via TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CartShield is a demo app that uses Jev decision model to output checkout risk decisions (approve, 3DS, hold, decline) based on order data.
+  why_it_matters: Shows how decision models like Jev can be applied to real-time fraud detection in e-commerce workflows.
+  mental_damage: Another demo proving you can slap a decision model on a checkout form and call it AI risk infrastructure.
+  tags:
+    - decision-model
+    - jevy
+    - fraud-detection
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: CartShield is a demo application showcasing Jev for fraud decisions, not a developer tool or infrastructure; it lacks SDK, API, or integration value for developers to build on.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Scraped site context identifies it as a Jev fraud disposition demo with inputs like order amount, email, and country mismatch
+    - Source-list context places it in 'awesome-jev' under 'Demos & playgrounds', indicating it is an example, not a tool
+    - No evidence of SDK, CLI, API, or reusable infrastructure; it is a frontend demo running on Vercel
 placement:
   primary_category: null
   secondary_categories: []
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:55.818Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:feecc92b86590849aa27228e937675bd160d996dcce2fc4c8da266551c332872
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: CartShield is a demo application showcasing Jev for fraud decisions, not a developer tool or infrastructure; it lacks SDK, API, or integration value for developers to build on.
+      decision_evidence:
+        - Scraped site context identifies it as a Jev fraud disposition demo with inputs like order amount, email, and country mismatch
+        - Source-list context places it in 'awesome-jev' under 'Demos & playgrounds', indicating it is an example, not a tool
+        - No evidence of SDK, CLI, API, or reusable infrastructure; it is a frontend demo running on Vercel
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

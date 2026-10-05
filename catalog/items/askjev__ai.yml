@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__askjev__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://askjev.ai
-        surrounding_text: >-
-          - [ask-jev-ai](https://github.com/waynesutton/ask-jev-ai) ([site](https://www.askjev.ai/)) - A public wall
-          where anyone asks a question in three to fifteen words and Jev, TypeSafe's judgment model, answers yes, no, or
-          it depends in about 100 milliseconds. Every judged ask lands on the wall in realtime, with a running count
-          toward one million, showing cost.
+        surrounding_text: "- [ask-jev-ai](https://github.com/waynesutton/ask-jev-ai) ([site](https://www.askjev.ai/)) - A public wall where anyone asks a question in three to fifteen words and Jev, TypeSafe's judgment model, answers yes, no, or it depends in about 100 milliseconds. Every judged ask lands on the wall in realtime, with a running count toward one million, showing cost."
         confidence: high
 metadata:
   github:
@@ -40,19 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ask-jev-ai (site) - A public wall where anyone asks a question in three to fifteen words and Jev, TypeSafe's
-    judgment model, answers yes, no, or it depends in about 100 milliseconds. Every judged ask lands on the wall in
-    realtime, with a running count toward one million, showing cost.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AskJeV.ai is a public chat interface for Jev, a TypeSafe System One decision model that answers typed questions with probabilistic outputs via a real-time wall.
+  why_it_matters: It lets developers interact with a judgment model for routing, scoring, or guardrail use cases without needing to host or integrate it themselves.
+  mental_damage: Another demo wall where you watch strangers' yes/no/maybe questions accumulate like a gamified validation therapy session for AI uncertainty.
+  tags:
+    - decision-model
+    - chat-interface
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: AskJeV.ai exposes Jev, a TypeSafe System One decision model, through a hosted gateway that returns constrained probabilistic answers—making the judgment layer the product's core identity.
   evidence:
-    - jev-latest choice confidence 0.85
+    - "Scraped site context: 'Jev picks one of four models and a short answer streams through the Convex AI Gateway. Every ask lands on a realtime wall, counting to a million.'"
+    - "Source-list context: Listed in 'awesome-jev' under 'Demos & playgrounds' as a project built on Jev, TypeSafe AI's System One model."
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -63,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:25.397Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3cd7b3e4c538670b5ddc3843bac426597acc2742063c240588b0a7eb4c8c1c13
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: AskJeV.ai exposes Jev, a TypeSafe System One decision model, through a hosted gateway that returns constrained probabilistic answers—making the judgment layer the product's core identity.
+      decision_evidence:
+        - "Scraped site context: 'Jev picks one of four models and a short answer streams through the Convex AI Gateway. Every ask lands on a realtime wall, counting to a million.'"
+        - "Source-list context: Listed in 'awesome-jev' under 'Demos & playgrounds' as a project built on Jev, TypeSafe AI's System One model."
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's identity is the decision model's judgment output, not autonomous code editing, file modification, or terminal interaction.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

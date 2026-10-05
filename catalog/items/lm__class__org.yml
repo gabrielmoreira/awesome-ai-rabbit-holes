@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lm__class__org__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,41 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LM-class is an educational resource featuring lectures, assignments, and a GitHub repository on contemporary
-    language modeling.
-  why_it_matters: >-
-    It provides structured learning material for developers seeking to understand foundational and advanced concepts in
-    language models.
-  mental_damage: Another syllabus to ignore while pretending you'll get around to reading it between prompt engineering deep dives.
+  summary: A structured educational curriculum covering contemporary language modeling from basic neural networks to LLM post-training.
+  why_it_matters: It provides a coherent technical path for developers to move beyond prompt engineering and understand the actual mechanics of transformers and training.
+  mental_damage: The sudden, sharp realization that your 'AI expertise' consists entirely of typing different variations of 'please' into a chat box.
   tags:
     - education
-    - nlp
     - llm
+    - machine-learning
+    - courseware
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    LM-class is an educational resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; it
-    lacks the practical, hands-on developer-tooling angle required for inclusion.
+  status: included
+  reason: It is a structured educational resource and syllabus, which fits the criteria for curated learning aids and resources.
   evidence:
-    - Scraped site context describes it as 'an education resource for contemporary language modeling, broadly construed'
-    - >-
-      Source-list context places it in '课程 Course' (Course section) of awesome-LLM-resources, emphasizing its
-      educational purpose
-    - >-
-      Content consists of lectures, assignments, and a GitHub repository with PowerPoint slides and PDFs — no tool,
-      agent, or deployable artifact is provided
+    - Provides a sequence of lectures and assignments covering topics from word embeddings to RLHF
+    - Includes a GitHub repository for hands-on access to course materials
+    - Identified as a high-quality education resource in existing LLM resource lists
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,33 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:24.812Z'
+    updated_at: "2026-10-05T04:37:48.423Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:30c59a5b2947fdbe66d08135a67d8090d5ba136ad8562b9af234b43128e2247d
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6ea69c993d2e20806dd48b44c475b1d27ee53ac8cfa2d828a52139ad91f16ca5
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        LM-class is an educational resource, not a developer-facing AI tool, agent, workflow, or infrastructure product;
-        it lacks the practical, hands-on developer-tooling angle required for inclusion.
+      decision_reason: It is a structured educational resource and syllabus, which fits the criteria for curated learning aids and resources.
       decision_evidence:
-        - >-
-          Scraped site context describes it as 'an education resource for contemporary language modeling, broadly
-          construed'
-        - >-
-          Source-list context places it in '课程 Course' (Course section) of awesome-LLM-resources, emphasizing its
-          educational purpose
-        - >-
-          Content consists of lectures, assignments, and a GitHub repository with PowerPoint slides and PDFs — no tool,
-          agent, or deployable artifact is provided
-      category_candidates: []
-      contrastive_reason: null
+        - Provides a sequence of lectures and assignments covering topics from word embeddings to RLHF
+        - Includes a GitHub repository for hands-on access to course materials
+        - Identified as a high-quality education resource in existing LLM resource lists
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because it is an educational syllabus and resource collection rather than a code-first library or SDK used to build applications.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__win4r__pi-jev-router__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: pi-jev-router
         extracted_url: https://github.com/win4r/pi-jev-router
-        surrounding_text: >-
-          | [pi-jev-router](https://github.com/win4r/pi-jev-router) | ★ 11 | TypeScript | 2026-09-23 | Task-boundary
-          model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and
-          observable failover. |
+        surrounding_text: "| [pi-jev-router](https://github.com/win4r/pi-jev-router) | ★ 11 | TypeScript | 2026-09-23 | Task-boundary model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and observable failover. |"
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Task-boundary model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and
-    observable failover.
+  summary: Task-boundary model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and observable failover.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fireworks__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - Inference UI
         anchor_text: FireworksAI
         extracted_url: https://app.fireworks.ai
-        surrounding_text: >-
-          - [FireworksAI](https://app.fireworks.ai/) - Experience the world's fastest LLM inference platform deploy your
-          own at no additional cost.
+        surrounding_text: "- [FireworksAI](https://app.fireworks.ai/) - Experience the world's fastest LLM inference platform deploy your own at no additional cost."
         confidence: high
 metadata:
   github:
@@ -38,36 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Fireworks.ai provides fast inference for generative AI models, including open-source LLMs and image models, with
-    optional fine-tuning and deployment capabilities.
-  why_it_matters: >-
-    It enables developers to run high-speed, cost-effective AI inference locally or via API, reducing latency and
-    operational overhead for AI-powered applications.
-  mental_damage: >-
-    The promise of 'blazing fast' inference feels like shouting into a void when your actual bottleneck is just waiting
-    for the API to respond.
+  summary: Fireworks AI provides fast inference for open-source LLMs and image models, with fine-tuning and deployment capabilities.
+  why_it_matters: Offers a high-performance inference API that lets developers run and customize models without managing infrastructure.
+  mental_damage: Yet another 'fastest inference' claim in a market where latency differences are often negligible for actual app usability.
   tags:
     - inference
     - llm
-    - local-ai
-  confidence: medium
+    - api
+    - model-hosting
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Inference Engines
+  status: excluded
+  reason: Fireworks AI is a model inference provider, not a developer-facing tool or agent that operates on code, workflows, or AI system behavior; its primary function is serving models, which falls outside the catalog's scope of practical AI tools for software developers.
   evidence:
-    - jev-latest choice confidence 0.69
+    - "Repo description: (none)"
+    - "Scraped site description: 'Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!'"
+    - No evidence of agent behavior, coding assistance, workflow orchestration, or developer tooling beyond API access
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Inference Engines
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,34 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:39:44.108Z'
+    updated_at: "2026-10-05T04:32:18.746Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7ea598612ad76120bbedb6955dca8bf6e6b85c16ea30929c4f134957d5a0ddc4
-      proposed_primary_category: local-ai
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:85f34b43b134603f878e6940412623d44788ec836ceffa68a49391455fb852db
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Fireworks.ai is a self-hosted inference service that delivers low-latency AI model execution, fitting squarely
-        within the local-ai category's focus on private, on-premise model execution.
+      decision_reason: Fireworks AI is a model inference provider, not a developer-facing tool or agent that operates on code, workflows, or AI system behavior; its primary function is serving models, which falls outside the catalog's scope of practical AI tools for software developers.
       decision_evidence:
-        - >-
-          The scraped site context explicitly states Fireworks.ai offers 'blazing fast speed' for running and deploying
-          generative AI models.
-        - >-
-          The description emphasizes open-source model support and self-deployment without additional cost, aligning
-          with local-ai's core identity of self-hosted execution.
-      category_candidates:
-        - local-ai
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because Fireworks.ai is a runtime service for executing models rather than a
-        developer-programmed library or SDK.
+        - "Repo description: (none)"
+        - "Scraped site description: 'Use state-of-the-art, open-source LLMs and image models at blazing fast speed, or fine-tune and deploy your own at no additional cost with Fireworks AI!'"
+        - No evidence of agent behavior, coding assistance, workflow orchestration, or developer tooling beyond API access
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

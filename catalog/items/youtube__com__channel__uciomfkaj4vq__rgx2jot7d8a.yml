@@ -5,9 +5,8 @@ canonical_url: https://youtube.com/channel/UCIomFkAj4Vq_rGX2Jot7D8A
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__www__youtube__com__channel__uciomfkaj4vq__rgx2jot7d8a__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__www__youtube__com__channel__uciomfkaj4vq__rgx2jot7d8a__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,12 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'YTB: AI超元域'
+        anchor_text: "YTB: AI超元域"
         extracted_url: https://www.youtube.com/@AIsuperdomain
-        surrounding_text: '8. [YTB: AI超元域](https://www.youtube.com/@AIsuperdomain)'
+        surrounding_text: "8. [YTB: AI超元域](https://www.youtube.com/@AIsuperdomain)"
         confidence: high
     - id: discovery__youtube__com__channel__uciomfkaj4vq__rgx2jot7d8a__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -32,9 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'YTB: AI超元域'
+        anchor_text: "YTB: AI超元域"
         extracted_url: https://youtube.com/@AIsuperdomain
-        surrounding_text: '8. [YTB: AI超元域](https://www.youtube.com/@AIsuperdomain)'
+        surrounding_text: "8. [YTB: AI超元域](https://www.youtube.com/@AIsuperdomain)"
         confidence: high
 metadata:
   github:
@@ -52,33 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AI超元域 is a YouTube channel run by an AI practitioner specializing in LLM fine-tuning, RAG, and intelligent agent
-    development.
-  why_it_matters: It provides educational content that may help developers learn advanced LLM techniques and agent-building practices.
-  mental_damage: >-
-    Subscribing to yet another niche AI YouTube channel in hopes it won’t just be surface-level hype with zero
-    reproducible code.
+  summary: AI超元域 is a YouTube channel focused on LLM fine-tuning, RAG, and AI agent development.
+  why_it_matters: It provides educational content for developers building and deploying LLM-based systems.
+  mental_damage: Another AI explainer channel adding to the infinite scroll of 'just one more tutorial' guilt.
   tags:
-    - ai-education
-    - youtube-channel
-    - llm-tutorials
+    - education
+    - llm
+    - ai-agents
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a YouTube channel focused on educational content, not a developer-facing tool, agent, framework, or
-    infrastructure product.
+  reason: A YouTube channel is an educational resource, not a developer-facing AI tool, agent, or infrastructure product.
   evidence:
-    - >-
-      Scraped site context identifies it as a YouTube channel titled 'AI超元域' with a description about the creator's
-      expertise in LLM fine-tuning, RAG, and AI agent development.
-    - >-
-      Primary page excerpt shows standard YouTube boilerplate (About, Press, Copyright, etc.) with no indication of a
-      tool, repo, or product.
-    - >-
-      Source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial' as a resource summary, not as a
-      tool or platform.
+    - "Source: YouTube channel URL and title 'AI超元域'"
+    - "Description: Focus on LLM fine-tuning, RAG, and AI agent development (educational content)"
+    - "Seen in: awesome-LLM-resources under '教程 Tutorial' section as a resource summary"
 placement:
   primary_category: null
   section: null
@@ -88,39 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:44.470Z'
+    updated_at: "2026-10-05T04:58:26.898Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:92ad65372741f96e058e0f31f85de5c282533c8aa3058fe3b479a7c5cefceeaa
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:80e4b926f84256f2fe1fc2f1405e508cbe545b15fc063f9d6e89de43b65168e8
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a YouTube channel focused on educational content, not a developer-facing tool, agent, framework,
-        or infrastructure product.
+      decision_reason: A YouTube channel is an educational resource, not a developer-facing AI tool, agent, or infrastructure product.
       decision_evidence:
-        - >-
-          Scraped site context identifies it as a YouTube channel titled 'AI超元域' with a description about the creator's
-          expertise in LLM fine-tuning, RAG, and AI agent development.
-        - >-
-          Primary page excerpt shows standard YouTube boilerplate (About, Press, Copyright, etc.) with no indication of
-          a tool, repo, or product.
-        - >-
-          Source-list context shows it appears in awesome-LLM-resources under '教程 Tutorial' as a resource summary, not
-          as a tool or platform.
+        - "Source: YouTube channel URL and title 'AI超元域'"
+        - "Description: Focus on LLM fine-tuning, RAG, and AI agent development (educational content)"
+        - "Seen in: awesome-LLM-resources under '教程 Tutorial' section as a resource summary"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.972Z'
+    updated_at: "2026-07-21T15:20:21.972Z"
     cause: null
     next_retry_at: null
   stars:

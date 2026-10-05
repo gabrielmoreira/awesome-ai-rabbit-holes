@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jonimartin27__claudescope__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: claudescope
         extracted_url: https://fervon.dev/claudescope
-        surrounding_text: >-
-          - **[claudescope](https://fervon.dev/claudescope/)** – Local-first CLI (`npx claudescope`) that indexes your
-          local Claude Code session transcripts (`.claude/projects/*.jsonl`) into a searchable dashboard with full-text
-          search across your coding-session history. Zero dependencies, zero network calls — fully private and offline.
-          MIT licensed.
+        surrounding_text: "- **[claudescope](https://fervon.dev/claudescope/)** – Local-first CLI (`npx claudescope`) that indexes your local Claude Code session transcripts (`.claude/projects/*.jsonl`) into a searchable dashboard with full-text search across your coding-session history. Zero dependencies, zero network calls — fully private and offline. MIT licensed."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    claudescope – Local-first CLI (npx claudescope) that indexes your local Claude Code session transcripts
-    (.claude/projects/*.jsonl) into a searchable dashboard with full-text search across your coding-session history.
-    Zero dependencies, zero network calls — fully private and offline. MIT licensed.
+  summary: claudescope – Local-first CLI (npx claudescope) that indexes your local Claude Code session transcripts (.claude/projects/*.jsonl) into a searchable dashboard with full-text search across your coding-session history. Zero dependencies, zero network calls — fully private and offline. MIT licensed.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.463Z'
+    updated_at: "2026-09-29T13:07:10.463Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

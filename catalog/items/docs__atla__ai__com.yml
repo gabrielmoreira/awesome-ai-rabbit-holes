@@ -36,12 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Atla is a documentation platform for AI agents that provides tracing, error detection, and performance insights to help developers improve agent behavior through a feedback loop.
-  why_it_matters: It helps developers debug and optimize AI agents by automatically detecting errors and providing actionable insights for continuous improvement.
-  mental_damage: Another tool promising to turn the chaotic, unpredictable behavior of AI agents into something measurable and fixable — because nothing says 'developer sanity' like tracing agent failures.
+  summary: Atla is an observability and performance monitoring tool for AI agents that helps developers detect errors, track performance, and understand failure modes.
+  why_it_matters: It improves agent reliability by closing the feedback loop between deployment and iteration, reducing guesswork in AI system tuning.
+  mental_damage: Yet another dashboard to stare at while wondering if your agent is broken or just thinking.
   tags:
-    - docs
-    - tracing
+    - monitoring
+    - observability
     - ai-agents
   confidence: medium
 curation:
@@ -54,10 +54,10 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
 processing:
   discover:
     status: done
@@ -70,27 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:38:08.948Z"
+    updated_at: "2026-10-05T04:31:10.583Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1a513499ba7a262b4106f6460050b41109ecf6a5d6e3bdf274dcf51287002568
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: Atla is a developer-facing agent tool focused on improving coding agent performance through tracing and error detection, fitting the coding-agents category as a tool that operates on codebases to enhance agent behavior.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1d3403c498de7e5b0cc4f66519dd583dfa58bcfbb07e5438ecf631980c01d9fb
+      proposed_primary_category: evals
+      disagreement: true
+      decision_reason: Atla focuses on tracing, error detection, and performance insights for AI agents, aligning with evals' core purpose of measuring and improving agent behavior.
       decision_evidence:
-        - README states Atla is designed to clarify the messiness of agent behavior and automatically detect errors to improve agent performance
-        - Scraped site context includes 'Coding agents' in navigation menu, indicating its focus on agent development workflows
-        - Product Walkthrough emphasizes tracing and error detection as core functionality for agent iteration
+        - "README states: 'Automatically detect errors and get insights to continually improve agent performance'"
+        - "Product Walkthrough: 'identify issues, track performance, and understand failure modes - enabling you to iterate faster and build better AI'"
+        - Site structure includes sections on Tracing, Advanced Instrumentation, Custom Metrics, and Experiments
       category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Atla functions as a primary agent development tool rather than an extension to an existing coding agent host.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+        - evals
+        - memory-and-context
+      contrastive_reason: Choose evals over memory-and-context because Atla's core function is monitoring, tracing, and evaluating agent behavior rather than managing memory, retrieval, or context infrastructure.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
       review_resume_lifecycle: null

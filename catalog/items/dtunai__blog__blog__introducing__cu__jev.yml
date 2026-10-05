@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dtunai__blog__blog__introducing__cu__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://dtunai.blog/blog/introducing-cu-jev
-        surrounding_text: >-
-          - [cu-Jev](https://github.com/dtunai/cu-Jev) ([site](https://dtunai.blog/blog/introducing-cu-jev)) - Cuda-Jev
-          — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible
-          benchmarks.
+        surrounding_text: "- [cu-Jev](https://github.com/dtunai/cu-Jev) ([site](https://dtunai.blog/blog/introducing-cu-jev)) - Cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    cu-Jev (site) - Cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and
-    reproducible benchmarks.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CUDA-native inference engine designed to run open models like Qwen3.5 as high-speed, typed decision models using the Jev System One wire format.
+  why_it_matters: It enables extremely low-latency, non-autoregressive decision-making—such as classification, scoring, and routing—by bypassing the standard text-decoding loop.
+  mental_damage: Because why use a general-purpose LLM for reasoning when you can optimize a specialized CUDA kernel to tell you if a customer is angry in 30 milliseconds?
+  tags:
+    - cuda
+    - decision-models
+    - inference-engine
+    - qwen
+    - system-one
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: The project's primary identity is a high-performance engine for executing the Jev decision-model protocol, prioritizing typed outputs over generative text.
   evidence:
-    - jev-latest choice confidence 0.66
+    - Specifically designed for 'System One' workloads (state in, typed answers out)
+    - Implements Jev's wire format (Choice, Score, Noul) to avoid text decoding
+    - Optimized for Qwen3.5 using hand-written CUDA kernels for local GPU execution
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:08:30.167Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b8877ab2e65f4a14d9fb68d0fda05af98cb4e94bb9725a201c1dcfe6821002ec
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project's primary identity is a high-performance engine for executing the Jev decision-model protocol, prioritizing typed outputs over generative text.
+      decision_evidence:
+        - Specifically designed for 'System One' workloads (state in, typed answers out)
+        - Implements Jev's wire format (Choice, Score, Noul) to avoid text decoding
+        - Optimized for Qwen3.5 using hand-written CUDA kernels for local GPU execution
+      category_candidates:
+        - decision-models
+        - local-ai
+      contrastive_reason: Choose decision-models over local-ai because the core novelty and product identity is the specific decision-model protocol and workload rather than just general-purpose local inference.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kitze__pagegrade__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: pagegrade
         extracted_url: https://github.com/kitze/pagegrade
-        surrounding_text: >-
-          - [pagegrade](https://github.com/kitze/pagegrade) - Grade page sections for clarity, writing and on-page SEO.
-          WXT + TypeSafe AI Jev.
+        surrounding_text: "- [pagegrade](https://github.com/kitze/pagegrade) - Grade page sections for clarity, writing and on-page SEO. WXT + TypeSafe AI Jev."
         confidence: high
     - id: discovery__github__kitze__pagegrade__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: PageGrade
         extracted_url: https://github.com/kitze/pagegrade
-        surrounding_text: >-
-          - [PageGrade](https://github.com/kitze/pagegrade) - `Open source` · `Free source build` · `BYOK`. Chrome
-          extension that grades page sections for clarity, writing, and on-page SEO with TypeSafe Jev via Vercel AI
-          Gateway. [Project guide](community/projects/apps/pagegrade.md).
+        surrounding_text: "- [PageGrade](https://github.com/kitze/pagegrade) - `Open source` · `Free source build` · `BYOK`. Chrome extension that grades page sections for clarity, writing, and on-page SEO with TypeSafe Jev via Vercel AI Gateway. [Project guide](community/projects/apps/pagegrade.md)."
         confidence: high
     - id: discovery__github__kitze__pagegrade__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,12 +51,10 @@ provenance:
           - Applications (129)
         anchor_text: pagegrade
         extracted_url: https://github.com/kitze/pagegrade
-        surrounding_text: >-
-          | [pagegrade](https://github.com/kitze/pagegrade) | ★ 1 | TypeScript | 2026-09-19 | Browser extension that
-          grades page sections for clarity, writing quality, and on-page SEO with Jev. |
+        surrounding_text: "| [pagegrade](https://github.com/kitze/pagegrade) | ★ 1 | TypeScript | 2026-09-19 | Browser extension that grades page sections for clarity, writing quality, and on-page SEO with Jev. |"
         confidence: high
     - id: discovery__github__kitze__pagegrade__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -74,10 +67,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: pagegrade
         extracted_url: https://github.com/kitze/pagegrade
-        surrounding_text: >-
-          - [pagegrade](https://github.com/kitze/pagegrade)
-          ![stars](https://img.shields.io/github/stars/kitze/pagegrade?style=flat-square&label=%E2%98%85) - Content
-          quality: grades page sections for clarity, writing, and on-page SEO with Jev and returns per-section scores.
+        surrounding_text: "- [pagegrade](https://github.com/kitze/pagegrade) ![stars](https://img.shields.io/github/stars/kitze/pagegrade?style=flat-square&label=%E2%98%85) - Content quality: grades page sections for clarity, writing, and on-page SEO with Jev and returns per-section scores."
         confidence: high
 metadata:
   github:
@@ -104,21 +94,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.384Z'
+    updated_at: "2026-09-29T13:07:10.384Z"
     cause: null
     next_retry_at: null
   stars:
@@ -126,6 +114,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

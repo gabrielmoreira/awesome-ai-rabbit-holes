@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abeatrix__cline-plugin-jev-browser__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**cline-plugin-jev-browser**'
+        anchor_text: "**cline-plugin-jev-browser**"
         extracted_url: https://github.com/abeatrix/cline-plugin-jev-browser
-        surrounding_text: >-
-          - [**cline-plugin-jev-browser**](https://github.com/abeatrix/cline-plugin-jev-browser) — A Cline plugin using
-          an isolated Playwright browser and Jev decisions through Vercel AI Gateway.
+        surrounding_text: "- [**cline-plugin-jev-browser**](https://github.com/abeatrix/cline-plugin-jev-browser) — A Cline plugin using an isolated Playwright browser and Jev decisions through Vercel AI Gateway."
         confidence: high
 metadata:
   github:
@@ -31,45 +29,74 @@ metadata:
     archived: false
     full_name: abeatrix/cline-plugin-jev-browser
     html_url: https://github.com/abeatrix/cline-plugin-jev-browser
-    created_at: '2026-09-18T06:43:54Z'
-    pushed_at: '2026-09-18T20:00:29Z'
+    created_at: "2026-09-18T06:43:54Z"
+    pushed_at: "2026-09-18T20:00:29Z"
     description: Cline Plugin to add a new computer run tool runs by the typesafe/jev model
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:23.840Z'
+    last_checked_at: "2026-09-29T13:08:23.840Z"
     readme:
-      fetched_at: '2026-09-29T13:08:23.840Z'
+      fetched_at: "2026-09-29T13:08:23.840Z"
       bytes: 13549
 insights:
-  summary: Cline Plugin to add a new computer run tool runs by the typesafe/jev model
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Cline plugin that adds a computer run tool powered by the typesafe/jev model for browser automation.
+  why_it_matters: Enables Cline to perform browser-based actions using Jev's decision-model judgments instead of traditional coding agents.
+  mental_damage: Yet another plugin layer stacking decision models on top of agents on top of IDEs, just to click a button in a browser.
+  tags:
+    - browser-automation
+    - jev
+    - cline-plugin
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: The plugin's identity is defined by its reliance on the Jev decision model for browser automation, making it a decision-model tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.70
+    - "Repo description: 'Cline Plugin to add a new computer run tool runs by the typesafe/jev model'"
+    - "Source-list context: listed in awesome-jev-projects under Browser & OS Action"
+    - "Created and pushed: 2026-09-18, very recent with no stars or activity beyond initial commit"
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: Browser & Computer Use
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.433Z'
+    updated_at: "2026-09-29T13:07:10.433Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:23.840Z'
+    updated_at: "2026-09-29T13:08:23.840Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:12:03.022Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4628f60dafccc5972542d02aeeeffee418f2acda94e748fff577f4156c59a1ab
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The plugin's identity is defined by its reliance on the Jev decision model for browser automation, making it a decision-model tool rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Cline Plugin to add a new computer run tool runs by the typesafe/jev model'"
+        - "Source-list context: listed in awesome-jev-projects under Browser & OS Action"
+        - "Created and pushed: 2026-09-18, very recent with no stars or activity beyond initial commit"
+      category_candidates:
+        - decision-models
+        - ai-dev-extensions
+      contrastive_reason: Choose decision-models over ai-dev-extensions because the plugin's core function is executing Jev-based browser automation judgments, not extending Cline with general-purpose workflow or debugging capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__baozi__bet__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Baozi.bet
         extracted_url: https://baozi.bet
-        surrounding_text: >-
-          - [bolivian-peru/baozi-mcp](https://github.com/bolivian-peru/baozi-mcp) 📇 ☁️ - 68 tools for AI agents to
-          interact with Solana prediction markets on [Baozi.bet](https://baozi.bet) — browse markets, place bets, claim
-          winnings, create markets, and earn affiliate commissions.
+        surrounding_text: "- [bolivian-peru/baozi-mcp](https://github.com/bolivian-peru/baozi-mcp) 📇 ☁️ - 68 tools for AI agents to interact with Solana prediction markets on [Baozi.bet](https://baozi.bet) — browse markets, place bets, claim winnings, create markets, and earn affiliate commissions."
         confidence: high
 metadata:
   github:
@@ -40,24 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A prediction market platform on Solana for trading outcomes on crypto, sports, politics, and culture.
-  why_it_matters: >-
-    It is currently listed in an MCP server directory, though it functions as a consumer fintech application rather than
-    a developer tool.
-  mental_damage: Another way to lose SOL while trying to architect the perfect agentic workflow.
+  summary: Baozi.bet is a Solana-based prediction market platform for trading on crypto, sports, politics, and culture using SOL.
+  why_it_matters: It offers developers a blockchain-based gambling interface, but provides no tooling, SDKs, or infrastructure relevant to software development workflows.
+  mental_damage: Another crypto casino dressed in Web3 fintech, tempting devs to trade SOL on election outcomes instead of shipping code.
   tags:
     - prediction-markets
     - solana
-    - trading
+    - gambling
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure
-    component.
+  reason: Baozi.bet is a prediction market platform with no developer-facing AI tooling, agents, workflows, or infrastructure; it does not assist in coding, app building, or any software development task.
   evidence:
-    - "Title: Baozi - Prediction Markets on Solana"
-    - "Description: Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture."
+    - "Repo description: (none)"
+    - "Scraped site description: Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture."
 placement:
   primary_category: null
   section: null
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,30 +68,24 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:43.896Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for baozi__bet: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:52.702Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9d6a0b78a2b2233dddcfd9b300e20bc9f0d89f3940d7b1c96e7fd3cc91ea5fb7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:40d4a979101fcd7f81579d62752bc0b644a3041d7235d8651f645f252e18d864
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure
-        component.
+      decision_reason: Baozi.bet is a prediction market platform with no developer-facing AI tooling, agents, workflows, or infrastructure; it does not assist in coding, app building, or any software development task.
       decision_evidence:
-        - "Title: Baozi - Prediction Markets on Solana"
-        - "Description: Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture."
+        - "Repo description: (none)"
+        - "Scraped site description: Trade prediction markets on Solana with SOL. Pari-mutuel betting on crypto, sports, politics, culture."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

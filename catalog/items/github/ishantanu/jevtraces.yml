@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ishantanu__jevtraces__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Integrations
         anchor_text: jevtraces
         extracted_url: https://github.com/ishantanu/jevtraces
-        surrounding_text: >-
-          - [jevtraces](https://github.com/ishantanu/jevtraces) - OpenTelemetry Collector processor that uses Jev to
-          assess span operation metadata and annotate spans with diagnostic value, business criticality, and retention
-          probabilities without dropping traces.
+        surrounding_text: "- [jevtraces](https://github.com/ishantanu/jevtraces) - OpenTelemetry Collector processor that uses Jev to assess span operation metadata and annotate spans with diagnostic value, business criticality, and retention probabilities without dropping traces."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevtraces - OpenTelemetry Collector processor that uses Jev to assess span operation metadata and annotate spans
-    with diagnostic value, business criticality, and retention probabilities without dropping traces.
+  summary: jevtraces - OpenTelemetry Collector processor that uses Jev to assess span operation metadata and annotate spans with diagnostic value, business criticality, and retention probabilities without dropping traces.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

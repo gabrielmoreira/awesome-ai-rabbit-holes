@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Tusk
         anchor_text: Tusk
         extracted_url: https://usetusk.ai
-        surrounding_text: '## [Tusk](https://usetusk.ai/)'
+        surrounding_text: "## [Tusk](https://usetusk.ai/)"
         confidence: high
     - id: discovery__www__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Tusk
         anchor_text: Tusk
         extracted_url: https://usetusk.ai
-        surrounding_text: '## [Tusk](https://usetusk.ai/)'
+        surrounding_text: "## [Tusk](https://usetusk.ai/)"
         confidence: high
 metadata:
   github:
@@ -51,30 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Tusk is an AI testing platform that generates and maintains unit, API, and integration tests from live traffic to
-    prevent regressions and boost code coverage.
-  why_it_matters: >-
-    It automates test creation and maintenance using production traffic, reducing manual effort in achieving high test
-    coverage and catching regressions early.
-  mental_damage: Hope you enjoy watching AI write tests for your legacy code while you pretend technical debt is just a feature.
+  summary: Tusk is an AI testing platform that generates and maintains unit, API, and integration tests from live traffic and business context.
+  why_it_matters: It helps developers catch regressions and improve test coverage without manually writing tests, reducing CI feedback loops.
+  mental_damage: Another AI that promises to eliminate test debt while quietly adding a new dependency to your CI pipeline.
   tags:
     - testing
-    - test-generation
     - ai-agent
-  confidence: medium
+    - test-generation
+  confidence: high
 curation:
   status: included
-  reason: >-
-    Tusk functions as an autonomous agent that generates, runs, and self-heals tests in response to code changes,
-    fitting the coding agent profile for testing and repair tasks.
+  reason: Tusk functions as an autonomous coding agent focused on generating and maintaining test code, making it a coding agent in the testing and repair category rather than a general app builder or framework.
   evidence:
-    - Generates test cases from live traffic and business context to catch regressions in PRs
-    - Self-iterates on tests when errors occur and maintains existing suites autonomously
-    - Positioned as an 'AI verification layer for coding agents' that runs via CLI in CI/CD
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed evals / Prompt Regression & Testing; placement kept at coding-agents
-      (unverified)
+    - Tusk generates test cases from live traffic and business context to catch regressions in PRs
+    - It self-iterates on tests when errors are encountered and maintains existing test suites autonomously
+    - It is positioned as an 'AI verification layer for coding agents' and integrates via CLI into developer workflows
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -86,37 +77,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:45.363Z'
+    updated_at: "2026-10-05T04:56:53.211Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c26dafcc846209bd80518da9e8611481421ac1f3fa36bdcb168b990470ad34ca
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7ac610f1f8dd704f8620510253e7e1ec99e9e736ea858be4539c9d072592c0cc
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Tusk functions as an autonomous agent that generates, runs, and self-heals tests in response to code changes,
-        fitting the coding agent profile for testing and repair tasks.
+      decision_reason: Tusk functions as an autonomous coding agent focused on generating and maintaining test code, making it a coding agent in the testing and repair category rather than a general app builder or framework.
       decision_evidence:
-        - Generates test cases from live traffic and business context to catch regressions in PRs
-        - Self-iterates on tests when errors occur and maintains existing suites autonomously
-        - Positioned as an 'AI verification layer for coding agents' that runs via CLI in CI/CD
+        - Tusk generates test cases from live traffic and business context to catch regressions in PRs
+        - It self-iterates on tests when errors are encountered and maintains existing test suites autonomously
+        - It is positioned as an 'AI verification layer for coding agents' and integrates via CLI into developer workflows
       category_candidates:
         - coding-agents
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose coding-agents over extensions-and-addons because Tusk operates as a standalone testing agent via CLI and
-        CI, not as a plugin extending another coding assistant’s capabilities.
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because Tusk operates on existing codebases to generate and maintain tests rather than creating new deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

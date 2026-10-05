@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cloneofsimo__lora__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Foundation Model Fine Tuning
         anchor_text: Lora
         extracted_url: https://github.com/cloneofsimo/lora
-        surrounding_text: >-
-          | [Lora](https://github.com/cloneofsimo/lora)                                | Using Low-rank adaptation to
-          quickly fine-tune diffusion
-          models.                                                                                                                                
-          | ![GitHub Badge](https://img.shields.io/github/stars/cloneofsimo/lora.svg?style=flat-square)                |
+        surrounding_text: "| [Lora](https://github.com/cloneofsimo/lora)                                | Using Low-rank adaptation to quickly fine-tune diffusion models.                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/cloneofsimo/lora.svg?style=flat-square)                |"
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: cloneofsimo/lora
     html_url: https://github.com/cloneofsimo/lora
-    created_at: '2022-12-08T00:09:05Z'
-    pushed_at: '2024-03-22T03:48:10Z'
+    created_at: "2022-12-08T00:09:05Z"
+    pushed_at: "2024-03-22T03:48:10Z"
     description: Using Low-rank adaptation to quickly fine-tune diffusion models.
     homepage: https://arxiv.org/abs/2106.09685
     topics:
@@ -44,18 +40,14 @@ metadata:
       - fine-tuning
       - lora
       - stable-diffusion
-    last_checked_at: '2026-09-07T04:13:47.111Z'
+    last_checked_at: "2026-09-07T04:13:47.111Z"
     readme:
-      fetched_at: '2026-09-07T04:13:47.111Z'
+      fetched_at: "2026-09-07T04:13:47.111Z"
       bytes: 18303
 insights:
   summary: A repository implementing Low-rank Adaptation (LoRA) for fast fine-tuning of Stable Diffusion models.
-  why_it_matters: >-
-    It enables developers to fine-tune diffusion models more efficiently, producing smaller model files (1MB–6MB) while
-    maintaining or improving performance compared to full fine-tuning.
-  mental_damage: >-
-    Because nothing says 'practical developer tooling' like a 7.5k-star repo that turns your GPU into a Disney-style
-    LoRA factory.
+  why_it_matters: It enables developers to fine-tune diffusion models more efficiently, producing smaller model files (1MB–6MB) while maintaining or improving performance compared to full fine-tuning.
+  mental_damage: Because nothing says 'practical developer tooling' like a 7.5k-star repo that turns your GPU into a Disney-style LoRA factory.
   tags:
     - fine-tuning
     - stable-diffusion
@@ -65,15 +57,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a model fine-tuning technique and implementation for diffusion models, not a developer tool, workflow, or
-    infrastructure for software development.
+  reason: This is a model fine-tuning technique and implementation for diffusion models, not a developer tool, workflow, or infrastructure for software development.
   evidence:
     - Repo description focuses on fine-tuning diffusion models (Stable Diffusion) using LoRA
     - README emphasizes image generation, style transfer, and model compression for diffusion models
-    - >-
-      Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list, not developer
-      tooling
+    - Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -83,17 +71,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.608Z'
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-07T04:13:47.111Z'
+    updated_at: "2026-09-07T04:13:47.111Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -108,15 +96,11 @@ processing:
       input_hash: sha256:217b9256e02551468d193abc8ddf8debf2140d495e2ab67b4622ade4e6b771e6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a model fine-tuning technique and implementation for diffusion models, not a developer tool, workflow,
-        or infrastructure for software development.
+      decision_reason: This is a model fine-tuning technique and implementation for diffusion models, not a developer tool, workflow, or infrastructure for software development.
       decision_evidence:
         - Repo description focuses on fine-tuning diffusion models (Stable Diffusion) using LoRA
         - README emphasizes image generation, style transfer, and model compression for diffusion models
-        - >-
-          Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list, not developer
-          tooling
+        - Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list, not developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

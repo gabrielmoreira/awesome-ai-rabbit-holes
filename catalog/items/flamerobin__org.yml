@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__flamerobin__org__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: FlameRobin's
         extracted_url: https://flamerobin.org
-        surrounding_text: >-
-          - [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server)
-          [![Michael2150/flamerobin-mcp-server MCP
-          server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server)
-          #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from
-          [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally
-          registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and
-          missing index analysis.
+        surrounding_text: "- [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server) [![Michael2150/flamerobin-mcp-server MCP server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server) #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and missing index analysis."
         confidence: high
 metadata:
   github:
@@ -44,9 +37,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Flamerobin is a cross-platform GUI client for managing Firebird databases.
-  why_it_matters: It helps developers interact with Firebird databases through a visual interface rather than writing SQL manually.
-  mental_damage: Another desktop GUI tool that reminds us we still can’t escape the 2000s-era database admin workflow.
+  summary: Flamerobin is a free, open-source GUI administration and management tool for the Firebird relational database.
+  why_it_matters: It provides a visual interface for developers and DBAs to design schemas, run queries, and manage Firebird databases without relying on command-line tools.
+  mental_damage: Yet another SQL client in a world where developers just want AI to fix their JOINs instead of pointing and clicking through table definitions.
   tags:
     - database
     - gui
@@ -54,17 +47,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or integration
-    with coding agents, editors, or agent workflows.
+  reason: Flamerobin is a traditional GUI database administration tool with no AI integration, agent behavior, or developer-facing AI workflow — it falls outside the catalog's scope of practical AI tools for software developers.
   evidence:
-    - >-
-      Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird
-      database'.
-    - >-
-      No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available
-      context.
-    - The tool is a standalone desktop app for database management, not an AI-powered developer tool.
+    - Repo description is unavailable, but the site flamerobin.org describes it as a 'GUI administration and management tool for Firebird'.
+    - No mention of AI, LLMs, agents, automation, or developer tooling enhancements in the provided context.
+    - The tool's identity is centered on database schema management and querying via a graphical interface, not AI-augmented development.
 placement:
   primary_category: null
   secondary_categories: []
@@ -75,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,31 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:53:44.292Z'
+    updated_at: "2026-10-05T05:00:08.880Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1cc140f21d93a96e1c1a7a537f8d42cbbecc6f7135c05aee111306d5fc2d4a17
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a5420826f8008d7c4d072e11cbadffbda320c992877fe9bc51a8ba9f8a7dc3c9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Flamerobin is a database administration GUI with no AI capabilities, developer-tooling automation, or
-        integration with coding agents, editors, or agent workflows.
+      decision_reason: Flamerobin is a traditional GUI database administration tool with no AI integration, agent behavior, or developer-facing AI workflow — it falls outside the catalog's scope of practical AI tools for software developers.
       decision_evidence:
-        - >-
-          Repo description is missing; the homepage describes Flamerobin as a 'GUI administration tool for Firebird
-          database'.
-        - >-
-          No mention of AI, agents, code generation, automation, or developer workflow enhancements in the available
-          context.
-        - The tool is a standalone desktop app for database management, not an AI-powered developer tool.
+        - Repo description is unavailable, but the site flamerobin.org describes it as a 'GUI administration and management tool for Firebird'.
+        - No mention of AI, LLMs, agents, automation, or developer tooling enhancements in the provided context.
+        - The tool's identity is centered on database schema management and querying via a graphical interface, not AI-augmented development.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

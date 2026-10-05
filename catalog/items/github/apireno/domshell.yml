@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apireno__domshell__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: apireno/DOMShell
         extracted_url: https://github.com/apireno/domshell
-        surrounding_text: >-
-          - [apireno/DOMShell](https://github.com/apireno/DOMShell) [![domshell MCP
-          server](https://glama.ai/mcp/servers/@apireno/domshell/badges/score.svg)](https://glama.ai/mcp/servers/@apireno/domshell)
-          📇 🏠 - Browse the web using filesystem commands (ls, cd, grep, click). 38 MCP tools map Chrome's
-          Accessibility Tree to a virtual filesystem via a Chrome Extension.
+        surrounding_text: "- [apireno/DOMShell](https://github.com/apireno/DOMShell) [![domshell MCP server](https://glama.ai/mcp/servers/@apireno/domshell/badges/score.svg)](https://glama.ai/mcp/servers/@apireno/domshell) 📇 🏠 - Browse the web using filesystem commands (ls, cd, grep, click). 38 MCP tools map Chrome's Accessibility Tree to a virtual filesystem via a Chrome Extension."
         confidence: high
 metadata:
   github:
@@ -34,25 +30,19 @@ metadata:
     archived: false
     full_name: apireno/DOMShell
     html_url: https://github.com/apireno/DOMShell
-    created_at: '2026-02-07T17:53:14Z'
-    pushed_at: '2026-08-14T21:23:42Z'
+    created_at: "2026-02-07T17:53:14Z"
+    pushed_at: "2026-08-14T21:23:42Z"
     description: AgenticShell
     homepage: null
     topics: []
-    last_checked_at: '2026-09-21T04:13:44.850Z'
+    last_checked_at: "2026-09-21T04:13:44.850Z"
     readme:
-      fetched_at: '2026-09-21T04:13:44.850Z'
+      fetched_at: "2026-09-21T04:13:44.850Z"
       bytes: 57203
 insights:
-  summary: >-
-    A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and
-    humans to navigate and interact with web pages using standard Linux commands.
-  why_it_matters: >-
-    It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for
-    browser interaction, making web automation more reliable for AI agents.
-  mental_damage: >-
-    Now your AI can `cd ~/tabs/123` and `cat submit_btn` instead of guessing which tab is active or where the button
-    moved this week.
+  summary: A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands.
+  why_it_matters: It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for browser interaction, making web automation more reliable for AI agents.
+  mental_damage: Now your AI can `cd ~/tabs/123` and `cat submit_btn` instead of guessing which tab is active or where the button moved this week.
   tags:
     - browser-automation
     - filesystem-abstraction
@@ -74,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:44.850Z'
+    updated_at: "2026-09-21T04:13:44.850Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -99,9 +89,7 @@ processing:
       input_hash: sha256:e34eca550844647f0bc651f4b13411386ef7f7023ad50ecc4edbe1a857afe9be
       proposed_primary_category: ai-dev-extensions
       disagreement: false
-      decision_reason: >-
-        The tool is a host integration (Chrome Extension) that augments AI agents with browser automation capabilities,
-        rather than being a primary coding assistant or standalone platform.
+      decision_reason: The tool is a host integration (Chrome Extension) that augments AI agents with browser automation capabilities, rather than being a primary coding assistant or standalone platform.
       decision_evidence:
         - Repo description identifies it as 'AgenticShell'
         - README explicitly positions it as a Chrome Extension for AI agents to browse the web via Linux commands
@@ -109,8 +97,6 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: >-
-        Choose ai-dev-extensions over mcp because the core product is a Chrome Extension for browser automation, with
-        MCP compatibility being a secondary integration rather than the primary identity.
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core product is a Chrome Extension for browser automation, with MCP compatibility being a secondary integration rather than the primary identity.
       review_reason: null
       review_resume_lifecycle: null

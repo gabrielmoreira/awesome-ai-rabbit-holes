@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__paddlepaddle__paddleocr__vl__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,43 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A vision-language model designed for advanced optical character recognition and document layout understanding.
-  why_it_matters: >-
-    It provides high-accuracy extraction of text, tables, and complex structures from visual documents like PDFs and
-    scans.
-  mental_damage: >-
-    Just one more specialized model weight to occupy your disk space while you debate whether to actually implement it
-    or just pray GPT-4o's vision handles it for free.
+  summary: PaddleOCR-VL is a multimodal vision-language model from PaddlePaddle optimized for document parsing and OCR tasks.
+  why_it_matters: Improves automated extraction of text, tables, and layout from scanned documents, which is useful in developer workflows involving data ingestion or document processing pipelines.
+  mental_damage: Yet another vision model promising to 'understand' your PDFs, while you still manually reformat the output into something usable.
   tags:
-    - vlm
     - ocr
-    - multimodal
-    - paddlepaddle
-  confidence: high
+    - document-ai
+    - vision-language
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a machine learning model checkpoint rather than a developer-facing tool, agent, or framework.
+  status: included
+  reason: PaddleOCR-VL is a specialized vision-language model focused on document understanding and OCR tasks, making it a developer tool for document processing rather than a general AI agent or framework.
   evidence:
-    - Hugging Face pipeline_tag identifies this as an 'image-text-to-text' model
-    - >-
-      The repository contains model weights and evaluation results rather than an executable runtime, SDK, or agent
-      interface
-    - 'Scope exclusion: raw model weight repos without a meaningful SDK or runtime identity are excluded'
+    - Repo description positions it as a Hugging Face model under PaddlePaddle with pipeline_tag 'image-text-to-text'
+    - Scraped site context shows it is a model hosted on Hugging Face with evaluation results on document parsing benchmarks like ParseBench and Real5-OmniDocBench
+    - Source-list context appears in awesome-LLM-resources under the '数据 Data' section, indicating its role in multimodal document processing
 placement:
-  primary_category: null
-  section: null
+  primary_category: document-ai
+  section: OCR Engines
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -80,27 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:26:32.737Z'
+    updated_at: "2026-10-05T04:34:10.719Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c3f4cb5aa6d19a27eca3c950288ccc17c42a58e781f96506bcc59f93d8aaa585
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f83c2722e34fba263e016a0aa12ab105b8f34cf5673341cd529dd424af9bcd11
+      proposed_primary_category: document-ai
       disagreement: false
-      decision_reason: This is a machine learning model checkpoint rather than a developer-facing tool, agent, or framework.
+      decision_reason: PaddleOCR-VL is a specialized vision-language model focused on document understanding and OCR tasks, making it a developer tool for document processing rather than a general AI agent or framework.
       decision_evidence:
-        - Hugging Face pipeline_tag identifies this as an 'image-text-to-text' model
-        - >-
-          The repository contains model weights and evaluation results rather than an executable runtime, SDK, or agent
-          interface
-        - 'Scope exclusion: raw model weight repos without a meaningful SDK or runtime identity are excluded'
-      category_candidates: []
-      contrastive_reason: null
+        - Repo description positions it as a Hugging Face model under PaddlePaddle with pipeline_tag 'image-text-to-text'
+        - Scraped site context shows it is a model hosted on Hugging Face with evaluation results on document parsing benchmarks like ParseBench and Real5-OmniDocBench
+        - Source-list context appears in awesome-LLM-resources under the '数据 Data' section, indicating its role in multimodal document processing
+      category_candidates:
+        - document-ai
+        - ai-frameworks
+      contrastive_reason: Choose document-ai over ai-frameworks because PaddleOCR-VL is a model for document understanding, not a code library or SDK developers import to build applications.
       review_reason: null
       review_resume_lifecycle: null

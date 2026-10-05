@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__veracode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Veracode
         extracted_url: https://veracode.com
-        surrounding_text: '- **[Veracode](https://www.veracode.com/)** – AI-driven application security with static and dynamic analysis.'
+        surrounding_text: "- **[Veracode](https://www.veracode.com/)** – AI-driven application security with static and dynamic analysis."
         confidence: high
     - id: discovery__www__veracode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Veracode
         extracted_url: https://www.veracode.com
-        surrounding_text: '- **[Veracode](https://www.veracode.com/)** – AI-driven application security with static and dynamic analysis.'
+        surrounding_text: "- **[Veracode](https://www.veracode.com/)** – AI-driven application security with static and dynamic analysis."
         confidence: high
 metadata:
   github:
@@ -51,79 +51,59 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Veracode is an application security platform offering AI-powered code remediation and vulnerability scanning across
-    the software development lifecycle.
-  why_it_matters: >-
-    Helps developers identify and fix security flaws in code, including AI-generated code, using automated remediation
-    and integrated testing tools.
-  mental_damage: >-
-    Yet another 'AI-era' security tool promising to fix what we broke, while we keep shipping vulnerabilities faster
-    than they can patch them.
+  summary: Veracode is an application security platform that provides static analysis, dynamic analysis, software composition analysis, container security, and AI-driven code remediation to secure software across the SDLC.
+  why_it_matters: It helps developers catch and fix security flaws early in their workflow with AI-powered remediation guidance inside their existing tools.
+  mental_damage: Another security tool that promises to 'shift left' while adding another tab to your already overflowing IDE sidebar.
   tags:
     - security
     - devsecops
+    - sast
+    - sca
     - ai-remediation
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Veracode is a broad enterprise application security platform with AI as one feature among many; its primary identity
-    is not a developer-facing AI tool for coding workflows but a comprehensive security suite for risk management and
-    compliance.
+  status: included
+  reason: Veracode is primarily a security platform that integrates into developer workflows via IDE plugins, CLI, and API to provide security scanning and AI-driven remediation, making it an extension/addon rather than a standalone coding agent or framework.
   evidence:
-    - >-
-      Scraped site emphasizes unified risk management, SAST, DAST, SCA, container security, and compliance across the
-      SDLC, with AI code remediation as one module.
-    - >-
-      Source-list placement in 'awesome-ai-coding-tools' under 'Code Review and Refactoring' reflects a peripheral AI
-      feature, not core identity.
-    - >-
-      No evidence of Veracode being a standalone coding agent, app builder, or developer tool whose main purpose is
-      writing, editing, or generating code from prompts.
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring' with description 'Adaptive application security for the AI era'"
+    - "Scraped site: Offers 'Fix (AI code remediation)' to automate remediation and save developer time, and provides 'precise, developer-centric guidance within your workflow'"
+    - "Scraped site: Integrates with developer tools via 'Developer Resources', 'Documentation', 'API Reference', and 'Developer Community'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Security & DevSecOps
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:57.551Z'
+    updated_at: "2026-10-05T04:57:02.662Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:35bda9da4785a146ba7bdb740b4c6fec471556ab1cbfbcf55a622517228ebc8c
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bf8a42c887e818731fa4d7fceade97be59ae3cd5bc7eebca42ffbb6cf71f98bd
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        Veracode is a broad enterprise application security platform with AI as one feature among many; its primary
-        identity is not a developer-facing AI tool for coding workflows but a comprehensive security suite for risk
-        management and compliance.
+      decision_reason: Veracode is primarily a security platform that integrates into developer workflows via IDE plugins, CLI, and API to provide security scanning and AI-driven remediation, making it an extension/addon rather than a standalone coding agent or framework.
       decision_evidence:
-        - >-
-          Scraped site emphasizes unified risk management, SAST, DAST, SCA, container security, and compliance across
-          the SDLC, with AI code remediation as one module.
-        - >-
-          Source-list placement in 'awesome-ai-coding-tools' under 'Code Review and Refactoring' reflects a peripheral
-          AI feature, not core identity.
-        - >-
-          No evidence of Veracode being a standalone coding agent, app builder, or developer tool whose main purpose is
-          writing, editing, or generating code from prompts.
-      category_candidates: []
-      contrastive_reason: null
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring' with description 'Adaptive application security for the AI era'"
+        - "Scraped site: Offers 'Fix (AI code remediation)' to automate remediation and save developer time, and provides 'precise, developer-centric guidance within your workflow'"
+        - "Scraped site: Integrates with developer tools via 'Developer Resources', 'Documentation', 'API Reference', and 'Developer Community'"
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Veracode primarily augments existing developer tools with security scanning and remediation rather than acting as a primary coding assistant that writes, edits, or reviews code autonomously.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigcode-project__starcoder2__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Code Models
         anchor_text: StarCoder 2
         extracted_url: https://huggingface.co/bigcode/starcoder2-15b
-        surrounding_text: >-
-          - **[StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b)** – Open-source LLM for code generation by
-          BigCode, supporting 600+ languages.
+        surrounding_text: "- **[StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b)** – Open-source LLM for code generation by BigCode, supporting 600+ languages."
         confidence: high
 metadata:
   github:
@@ -31,25 +29,19 @@ metadata:
     archived: false
     full_name: bigcode-project/starcoder2
     html_url: https://github.com/bigcode-project/starcoder2
-    created_at: '2023-12-08T08:46:25Z'
-    pushed_at: '2024-03-21T11:54:59Z'
+    created_at: "2023-12-08T08:46:25Z"
+    pushed_at: "2024-03-21T11:54:59Z"
     description: Home of StarCoder2!
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-24T04:12:59.021Z'
+    last_checked_at: "2026-09-24T04:12:59.021Z"
     readme:
-      fetched_at: '2026-09-24T04:12:59.021Z'
+      fetched_at: "2026-09-24T04:12:59.021Z"
       bytes: 7444
 insights:
-  summary: >-
-    StarCoder2 is a family of open-weight code generation models trained on 600+ programming languages for code
-    completion tasks.
-  why_it_matters: >-
-    Provides developers with permissively licensed, high-performance code LLMs that can be fine-tuned and deployed
-    locally or via inference endpoints.
-  mental_damage: >-
-    Another reminder that the real bottleneck in AI-assisted coding isn’t the model—it’s resisting the urge to fine-tune
-    yet another 15B parameter checkpoint on your lunch break.
+  summary: StarCoder2 is a family of open-weight code generation models trained on 600+ programming languages for code completion tasks.
+  why_it_matters: Provides developers with permissively licensed, high-performance code LLMs that can be fine-tuned and deployed locally or via inference endpoints.
+  mental_damage: Another reminder that the real bottleneck in AI-assisted coding isn’t the model—it’s resisting the urge to fine-tune yet another 15B parameter checkpoint on your lunch break.
   tags:
     - code-models
     - llm
@@ -58,17 +50,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    StarCoder2 is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tool
-    identity—it is a foundation model, not a tool for developers to use directly in workflows.
+  reason: StarCoder2 is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tool identity—it is a foundation model, not a tool for developers to use directly in workflows.
   evidence:
-    - 'Repo description: ''Home of StarCoder2!'''
-    - >-
-      README focuses on model usage, fine-tuning, and inference via Transformers—no agent behavior, IDE integration, or
-      autonomous coding claims
-    - >-
-      Not listed in any source list under a developer-facing tool section; appears only in 'awesome-ai-coding-tools'
-      under 'Code Models', confirming its identity as a model, not a tool
+    - "Repo description: 'Home of StarCoder2!'"
+    - README focuses on model usage, fine-tuning, and inference via Transformers—no agent behavior, IDE integration, or autonomous coding claims
+    - Not listed in any source list under a developer-facing tool section; appears only in 'awesome-ai-coding-tools' under 'Code Models', confirming its identity as a model, not a tool
 placement:
   primary_category: null
   section: null
@@ -78,18 +64,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:59.021Z'
+    updated_at: "2026-09-24T04:12:59.021Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:56:10.364Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -101,17 +89,11 @@ processing:
       input_hash: sha256:2e481787d99280ba8dca657bc3a56361e45e2a2383f4f949cb9b995322895205
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        StarCoder2 is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tool
-        identity—it is a foundation model, not a tool for developers to use directly in workflows.
+      decision_reason: StarCoder2 is a raw model weight repository without a meaningful SDK, agent interface, or developer-facing tool identity—it is a foundation model, not a tool for developers to use directly in workflows.
       decision_evidence:
-        - 'Repo description: ''Home of StarCoder2!'''
-        - >-
-          README focuses on model usage, fine-tuning, and inference via Transformers—no agent behavior, IDE integration,
-          or autonomous coding claims
-        - >-
-          Not listed in any source list under a developer-facing tool section; appears only in 'awesome-ai-coding-tools'
-          under 'Code Models', confirming its identity as a model, not a tool
+        - "Repo description: 'Home of StarCoder2!'"
+        - README focuses on model usage, fine-tuning, and inference via Transformers—no agent behavior, IDE integration, or autonomous coding claims
+        - Not listed in any source list under a developer-facing tool section; appears only in 'awesome-ai-coding-tools' under 'Code Models', confirming its identity as a model, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

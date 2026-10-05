@@ -51,49 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Blobr is an AI autonomous agent listed in the awesome-ai-agents directory.
-  why_it_matters: It positions itself as an AI agent for developers, potentially automating coding or workflow tasks.
-  mental_damage: Another agent in the list, promising autonomy while likely just wrapping existing APIs with a fresh UI.
+  summary: Blobr is an AI agent platform positioned as an autonomous agent for business and workflow tasks.
+  why_it_matters: It promises to automate complex workflows by acting as an AI agent, potentially reducing manual effort in business processes for developers and teams.
+  mental_damage: Another agent platform that makes you wonder if you're building software or just orchestrating a troupe of overconfident interns who occasionally access your production database.
   tags:
     - ai-agent
-    - autonomous
-  confidence: low
+    - workflow-automation
+    - business-tool
+  confidence: medium
 curation:
   status: excluded
-  reason: Insufficient evidence to determine Blobr's core functionality; being listed in awesome-ai-agents does not confirm it is a developer-facing AI tool that writes, edits, or reviews code, or fits any other developer-tooling category.
+  reason: Blobr is positioned as a general-purpose AI autonomous agent for business workflows, not specifically for software development tasks like coding, debugging, or code editing; its identity lacks a clear developer-tooling focus.
   evidence:
-    - "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents'"
-    - No GitHub repo, README, or detailed description provided to assess what Blobr actually does
+    - "Source-list placement: appears in awesome-ai-agents under the purpose 'A list of AI autonomous agents'"
+    - No GitHub repo, stars, or activity data provided, making traction and developer relevance unclear
+    - Homepage and description emphasize general AI agent capabilities without mentioning code, IDEs, terminals, or developer workflows
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-09-28T04:39:37.211Z"
+    updated_at: "2026-10-05T04:46:38.052Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8b30a3a130ffe8bce7d07208279a8f1560f4454aa264881f67a51408bd6415ed
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9867899bf82b563b214cfc9afa66d0d7022e5d3665c99b243c2cbf456687267d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient evidence to determine Blobr's core functionality; being listed in awesome-ai-agents does not confirm it is a developer-facing AI tool that writes, edits, or reviews code, or fits any other developer-tooling category.
+      decision_reason: Blobr is positioned as a general-purpose AI autonomous agent for business workflows, not specifically for software development tasks like coding, debugging, or code editing; its identity lacks a clear developer-tooling focus.
       decision_evidence:
-        - "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents'"
-        - No GitHub repo, README, or detailed description provided to assess what Blobr actually does
+        - "Source-list placement: appears in awesome-ai-agents under the purpose 'A list of AI autonomous agents'"
+        - No GitHub repo, stars, or activity data provided, making traction and developer relevance unclear
+        - Homepage and description emphasize general AI agent capabilities without mentioning code, IDEs, terminals, or developer workflows
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done

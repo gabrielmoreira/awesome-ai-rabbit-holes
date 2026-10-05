@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hwchase17__notion-qa__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,9 +20,7 @@ provenance:
           - Other / Chatbots
         anchor_text: Notion QA
         extracted_url: https://github.com/hwchase17/notion-qa
-        surrounding_text: >-
-          - [Notion QA](https://github.com/hwchase17/notion-qa): Notion Question-Answering Bot ![GitHub Repo
-          stars](https://img.shields.io/github/stars/hwchase17/notion-qa?style=social)
+        surrounding_text: "- [Notion QA](https://github.com/hwchase17/notion-qa): Notion Question-Answering Bot ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/notion-qa?style=social)"
         confidence: high
 metadata:
   github:
@@ -32,21 +30,19 @@ metadata:
     archived: false
     full_name: hwchase17/notion-qa
     html_url: https://github.com/hwchase17/notion-qa
-    created_at: '2022-11-07T02:39:10Z'
-    pushed_at: '2024-09-06T05:18:06Z'
+    created_at: "2022-11-07T02:39:10Z"
+    pushed_at: "2024-09-06T05:18:06Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-07-30T05:05:40.666Z'
+    last_checked_at: "2026-07-30T05:05:40.666Z"
     readme:
-      fetched_at: '2026-07-30T05:05:40.666Z'
+      fetched_at: "2026-07-30T05:05:40.666Z"
       bytes: 2343
 insights:
   summary: A LangChain-based tool for querying Notion databases in natural language.
   why_it_matters: Lets developers turn Notion content into a Q&A interface without writing retrieval logic from scratch.
-  mental_damage: >-
-    Now you can ask your Notion docs questions instead of remembering where you put them, which is progress until you
-    forget you built this.
+  mental_damage: Now you can ask your Notion docs questions instead of remembering where you put them, which is progress until you forget you built this.
   tags:
     - notion
     - qa
@@ -56,9 +52,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a demo/example project for LangChain rather than a standalone developer tool with its own identity or
-    reusable infrastructure.
+  reason: This is a demo/example project for LangChain rather than a standalone developer tool with its own identity or reusable infrastructure.
   evidence:
     - README describes it as a 'Python script to query Notion with a question' built with LangChain
     - Primary artifact is example code and a StreamLit deployment, not a reusable library or product
@@ -72,17 +66,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.619Z'
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:40.666Z'
+    updated_at: "2026-07-30T05:05:40.666Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -97,9 +91,7 @@ processing:
       input_hash: sha256:3bfee8606157ca39fd65d86f462b78700bd7759fe6418637773c718fc2428bf9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a demo/example project for LangChain rather than a standalone developer tool with its own identity or
-        reusable infrastructure.
+      decision_reason: This is a demo/example project for LangChain rather than a standalone developer tool with its own identity or reusable infrastructure.
       decision_evidence:
         - README describes it as a 'Python script to query Notion with a question' built with LangChain
         - Primary artifact is example code and a StreamLit deployment, not a reusable library or product

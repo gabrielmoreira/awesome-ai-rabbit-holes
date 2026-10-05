@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thestral12__pr-sieve__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**pr-sieve**'
+        anchor_text: "**pr-sieve**"
         extracted_url: https://github.com/thestral12/pr-sieve
-        surrounding_text: >-
-          - [**pr-sieve**](https://github.com/Thestral12/pr-sieve) — A GitHub Action that compiles \`.jev.yml\` rules
-          into Jev questions and fails, comments, or passes from the numbers.
+        surrounding_text: "- [**pr-sieve**](https://github.com/Thestral12/pr-sieve) — A GitHub Action that compiles \\`.jev.yml\\` rules into Jev questions and fails, comments, or passes from the numbers."
         confidence: high
 metadata:
   github:
@@ -39,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    pr-sieve — A GitHub Action that compiles \.jev.yml\ rules into Jev questions and fails, comments, or passes from the
-    numbers.
+  summary: pr-sieve — A GitHub Action that compiles \.jev.yml\ rules into Jev questions and fails, comments, or passes from the numbers.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

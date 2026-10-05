@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gooey__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Developer tools
         anchor_text: Gooey.AI
         extracted_url: https://gooey.ai
-        surrounding_text: '- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows.'
+        surrounding_text: "- [Gooey.AI](https://gooey.ai/) - Create Your Own No Code AI Workflows."
         confidence: high
 metadata:
   github:
@@ -36,36 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A low-code orchestration platform for designing, deploying, and scaling multi-modal AI workflows and agents.
-  why_it_matters: >-
-    It enables developers to move from prompt engineering to production-ready, multi-channel agents (like WhatsApp or
-    web widgets) without managing complex infrastructure.
-  mental_damage: >-
-    It offers the comforting illusion that you can solve all your production agent problems by simply becoming a highly
-    specialized 'workflow orchestrator'.
+  summary: Gooey.AI is a low-code AI orchestration platform for building and deploying collaborative workflows using prompts, knowledge bases, code snippets, and evaluation datasets.
+  why_it_matters: It lets developers and non-technical teams rapidly prototype and measure impact of AI solutions across channels like WhatsApp and web without managing infrastructure.
+  mental_damage: Finally, a way to feel productive while outsourcing your critical thinking to a workflow forked from a nonprofit’s WhatsApp agent.
   tags:
     - low-code
     - orchestration
-    - agents
     - workflows
-    - deployment
-  confidence: high
+    - impact-measurement
+    - multi-channel
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Visual Builders & Workbenches
+  reason: Gooey.AI is a hosted platform for designing, deploying, and managing multi-agent AI workflows with built-in evaluation and collaboration, making it a workforce orchestration tool rather than a coding agent or framework.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Described as a 'low-code orchestration platform' for 'collaborative AI workflows' with 'human-readable, low-code AI Workflows' made of prompts, docs, code, and evaluation datasets
+    - Enables teams to 'fork a workflow', 'build together', and deploy agents to WhatsApp, web, or voice with real-time streaming and FaaS extensions
+    - Positioned as a platform for 'impact-driven AI' used by organizations like UN IOM, Opportunity International, and the Gates Foundation for scalable, measurable solutions
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Visual Builders & Workbenches
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,31 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:18:51.794Z'
+    updated_at: "2026-10-05T04:33:18.630Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d80426ca619e571491d71c8e2b2055b5f5570f190e05181d33fb4bea49ee65d4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:14fba303fbdb7aba4643b0c261a6d57698703aca0d433f3073fb0973f7344c7b
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        Gooey.AI is a hosted, low-code platform specifically designed for the orchestration of AI workflows, combining
-        prompts, documents, and functions into deployable agents.
+      decision_reason: Gooey.AI is a hosted platform for designing, deploying, and managing multi-agent AI workflows with built-in evaluation and collaboration, making it a workforce orchestration tool rather than a coding agent or framework.
       decision_evidence:
-        - Describes itself as a 'low-code, AI orchestration platform'.
-        - Facilitates deployment of AI agents to channels like WhatsApp, voice, and web.
-        - Provides a platform for combining instruction prompts, knowledge bases, and custom Python/JS functions.
+        - Described as a 'low-code orchestration platform' for 'collaborative AI workflows' with 'human-readable, low-code AI Workflows' made of prompts, docs, code, and evaluation datasets
+        - Enables teams to 'fork a workflow', 'build together', and deploy agents to WhatsApp, web, or voice with real-time streaming and FaaS extensions
+        - Positioned as a platform for 'impact-driven AI' used by organizations like UN IOM, Opportunity International, and the Gates Foundation for scalable, measurable solutions
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: >-
-        Choose agent-orchestration over app-builders because the product's primary identity is the design and
-        coordination of agentic workflows rather than the prompt-to-UI generation of complete, standalone applications.
+      contrastive_reason: Choose agent-orchestration over app-builders because Gooey.AI focuses on orchestrating and measuring multi-agent workflows for impact rather than generating standalone apps from prompts.
       review_reason: null
       review_resume_lifecycle: null

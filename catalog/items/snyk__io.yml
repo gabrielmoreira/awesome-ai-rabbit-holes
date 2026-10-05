@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__snyk__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Snyk (DeepCode)
         extracted_url: https://snyk.io
-        surrounding_text: '- **[Snyk (DeepCode)](https://snyk.io/)** – Security-focused code analysis with vulnerability detection.'
+        surrounding_text: "- **[Snyk (DeepCode)](https://snyk.io/)** – Security-focused code analysis with vulnerability detection."
         confidence: high
 metadata:
   github:
@@ -36,45 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Snyk AI Security Platform is a SaaS solution that secures AI-generated code, development agents, and AI-native
-    applications through integrations with IDEs, CI/CD, and coding assistants.
-  why_it_matters: >-
-    It addresses the growing security risks in AI-assisted development by providing automated scanning and governance
-    for code written by AI agents.
-  mental_damage: Now you need a security tool just to trust the code your AI intern wrote while you were in a meeting.
+  summary: Snyk is a security platform that scans AI-generated code, agents, and applications for vulnerabilities and risks.
+  why_it_matters: It helps developers trust AI-assisted workflows by catching security issues in AI-written code before deployment.
+  mental_damage: Finally, a tool that makes you feel guilty for letting AI write your code instead of just ignoring the problem.
   tags:
     - security
-    - ai
+    - ai-generated-code
     - devsecops
-    - sca
-    - sast
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    Snyk is a general application security platform with AI-specific features, not a developer-facing AI tool for
-    coding, building, or orchestrating agents.
+  status: included
+  reason: Snyk is a security scanning tool that integrates into developer workflows (IDEs, CI/CD, AI coding assistants) rather than being a standalone coding agent or framework, making it an extension focused on security.
   evidence:
-    - >-
-      Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' with description focusing on securing
-      AI-generated code and agents
-    - >-
-      Primary product is a SaaS security platform integrating with IDEs, CI/CD, and AI assistants like Claude Code and
-      Cursor
-    - >-
-      Core functionality is vulnerability scanning, dependency checking, and runtime protection—not AI coding, app
-      building, or agent orchestration
+    - Integrates with IDEs, CI/CD pipelines, and AI coding assistants including Claude Code, Cursor, and Codex
+    - Secures the code AI writes, the agents it runs, and the apps it builds
+    - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Security & DevSecOps
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,33 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:37:19.277Z'
+    updated_at: "2026-10-05T04:45:16.937Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0010777f0107354de1154831a61ec324a3219c9c1aa36f1d70acdf87acb7e95e
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:812f641d4e5abbabe91443d689600b1a1bf81267456adb5fc6f0e1001aa5e202
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        Snyk is a general application security platform with AI-specific features, not a developer-facing AI tool for
-        coding, building, or orchestrating agents.
+      decision_reason: Snyk is a security scanning tool that integrates into developer workflows (IDEs, CI/CD, AI coding assistants) rather than being a standalone coding agent or framework, making it an extension focused on security.
       decision_evidence:
-        - >-
-          Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' with description focusing on securing
-          AI-generated code and agents
-        - >-
-          Primary product is a SaaS security platform integrating with IDEs, CI/CD, and AI assistants like Claude Code
-          and Cursor
-        - >-
-          Core functionality is vulnerability scanning, dependency checking, and runtime protection—not AI coding, app
-          building, or agent orchestration
-      category_candidates: []
-      contrastive_reason: null
+        - Integrates with IDEs, CI/CD pipelines, and AI coding assistants including Claude Code, Cursor, and Codex
+        - Secures the code AI writes, the agents it runs, and the apps it builds
+        - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' section
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Snyk does not write or edit code itself but secures code written by AI agents and integrates as a security layer into existing developer tools.
       review_reason: null
       review_resume_lifecycle: null

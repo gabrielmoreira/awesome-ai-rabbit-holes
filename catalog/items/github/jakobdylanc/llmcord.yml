@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jakobdylanc__llmcord__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,9 +19,7 @@ provenance:
           - User Tools
         anchor_text: llmcord.py
         extracted_url: https://github.com/jakobdylanc/discord-llm-chatbot
-        surrounding_text: >-
-          - [llmcord.py](https://github.com/jakobdylanc/discord-llm-chatbot) - Discord LLM Chatbot - Talk to LLMs with
-          your friends!
+        surrounding_text: "- [llmcord.py](https://github.com/jakobdylanc/discord-llm-chatbot) - Discord LLM Chatbot - Talk to LLMs with your friends!"
         confidence: high
 metadata:
   github:
@@ -31,10 +29,10 @@ metadata:
     archived: false
     full_name: jakobdylanc/llmcord
     html_url: https://github.com/jakobdylanc/llmcord
-    created_at: '2023-05-08T23:07:07Z'
-    pushed_at: '2026-07-02T16:36:36Z'
+    created_at: "2023-05-08T23:07:07Z"
+    pushed_at: "2026-07-02T16:36:36Z"
     description: Make Discord your LLM frontend - Supports any OpenAI compatible API (OpenRouter, Ollama and more)
-    homepage: ''
+    homepage: ""
     topics:
       - bot
       - chatbot
@@ -50,15 +48,13 @@ metadata:
       - openai
       - openrouter
       - vllm
-    last_checked_at: '2026-07-30T05:05:46.927Z'
+    last_checked_at: "2026-07-30T05:05:46.927Z"
     readme:
-      fetched_at: '2026-07-30T05:05:46.927Z'
+      fetched_at: "2026-07-30T05:05:46.927Z"
       bytes: 7181
 insights:
   summary: A Discord bot that turns Discord into a collaborative LLM frontend, supporting any OpenAI-compatible API.
-  why_it_matters: >-
-    Developers can deploy a shared LLM chat interface in Discord, enabling team collaboration with models like OpenAI,
-    Mistral, or local Ollama instances.
+  why_it_matters: Developers can deploy a shared LLM chat interface in Discord, enabling team collaboration with models like OpenAI, Mistral, or local Ollama instances.
   mental_damage: Now your team can argue with the LLM in real-time, just like they argue with each other.
   tags:
     - discord-bot
@@ -69,15 +65,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a Discord bot for collaborative LLM chat, not a developer-tooling product focused on coding, building,
-    or workflow augmentation.
+  reason: The tool is a Discord bot for collaborative LLM chat, not a developer-tooling product focused on coding, building, or workflow augmentation.
   evidence:
-    - 'Repo description: ''Make Discord your LLM frontend - Supports any OpenAI compatible API'''
-    - >-
-      README emphasizes Discord chat features (reply chains, threads, model switching) with no coding/IDE/agent workflow
-      integration
-    - 'Source-list context: listed under ''User Tools'' in awesome-local-ai, not developer tooling'
+    - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API'"
+    - README emphasizes Discord chat features (reply chains, threads, model switching) with no coding/IDE/agent workflow integration
+    - "Source-list context: listed under 'User Tools' in awesome-local-ai, not developer tooling"
 placement:
   primary_category: null
   section: null
@@ -87,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.621Z'
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:46.927Z'
+    updated_at: "2026-07-30T05:05:46.927Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -112,15 +104,11 @@ processing:
       input_hash: sha256:3dfd618e25f14cc88a02e6749cb9da7a550bbabaabee345a2957397bcda2d9cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a Discord bot for collaborative LLM chat, not a developer-tooling product focused on coding,
-        building, or workflow augmentation.
+      decision_reason: The tool is a Discord bot for collaborative LLM chat, not a developer-tooling product focused on coding, building, or workflow augmentation.
       decision_evidence:
-        - 'Repo description: ''Make Discord your LLM frontend - Supports any OpenAI compatible API'''
-        - >-
-          README emphasizes Discord chat features (reply chains, threads, model switching) with no coding/IDE/agent
-          workflow integration
-        - 'Source-list context: listed under ''User Tools'' in awesome-local-ai, not developer tooling'
+        - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API'"
+        - README emphasizes Discord chat features (reply chains, threads, model switching) with no coding/IDE/agent workflow integration
+        - "Source-list context: listed under 'User Tools' in awesome-local-ai, not developer tooling"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adtyavrdhn__pydantic-jev-examples__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: pydantic-jev-examples
         extracted_url: https://github.com/adtyavrdhn/pydantic-jev-examples
-        surrounding_text: >-
-          - [pydantic-jev-examples](https://github.com/adtyavrdhn/pydantic-jev-examples) - Pydantic AI capabilities made
-          stronger with Jev: small runnable demos, one file each.
+        surrounding_text: "- [pydantic-jev-examples](https://github.com/adtyavrdhn/pydantic-jev-examples) - Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each."
         confidence: high
     - id: discovery__github__adtyavrdhn__pydantic-jev-examples__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: pydantic-jev-examples
         extracted_url: https://github.com/adtyavrdhn/pydantic-jev-examples
-        surrounding_text: >-
-          | [pydantic-jev-examples](https://github.com/adtyavrdhn/pydantic-jev-examples) | ★ 1 | Python | 2026-09-19 |
-          Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each. |
+        surrounding_text: "| [pydantic-jev-examples](https://github.com/adtyavrdhn/pydantic-jev-examples) | ★ 1 | Python | 2026-09-19 | Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each. |"
         confidence: high
 metadata:
   github:
@@ -49,17 +45,17 @@ metadata:
     archived: false
     full_name: adtyavrdhn/pydantic-jev-examples
     html_url: https://github.com/adtyavrdhn/pydantic-jev-examples
-    created_at: '2026-09-17T08:42:49Z'
-    pushed_at: '2026-09-17T10:59:21Z'
-    description: 'Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each'
+    created_at: "2026-09-17T08:42:49Z"
+    pushed_at: "2026-09-17T10:59:21Z"
+    description: "Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each"
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:29.738Z'
+    last_checked_at: "2026-09-29T13:08:29.738Z"
     readme:
-      fetched_at: '2026-09-29T13:08:29.738Z'
+      fetched_at: "2026-09-29T13:08:29.738Z"
       bytes: 6464
 insights:
-  summary: 'Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each'
+  summary: "Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,15 +76,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:29.738Z'
+    updated_at: "2026-09-29T13:08:29.738Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:15:07.654Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__adtyavrdhn__pydantic-jev-examples: Invalid AI response format: Error: No JSON found in AI response"
+    next_retry_at: null
+    attempts: 1

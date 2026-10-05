@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__futurmix__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: FuturMix
         extracted_url: https://futurmix.ai
-        surrounding_text: >-
-          - **[FuturMix](https://futurmix.ai)** – Unified AI API gateway for 22+ models with OpenAI-compatible endpoint.
-          Features automatic failover, 99.99% SLA, and cost optimization across OpenAI, Anthropic, and Google models.
+        surrounding_text: "- **[FuturMix](https://futurmix.ai)** – Unified AI API gateway for 22+ models with OpenAI-compatible endpoint. Features automatic failover, 99.99% SLA, and cost optimization across OpenAI, Anthropic, and Google models."
         confidence: high
 metadata:
   github:
@@ -38,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    FuturMix – Unified AI API gateway for 22+ models with OpenAI-compatible endpoint. Features automatic failover,
-    99.99% SLA, and cost optimization across OpenAI, Anthropic, and Google models.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: FuturMix.ai is an API relay that provides unified OpenAI-compatible access to 25+ AI models with competitive rates and auto-failover.
+  why_it_matters: It simplifies model switching and reduces vendor lock-in by aggregating multiple providers behind a single compatible endpoint.
+  mental_damage: Just another API wrapper promising 'zero data retention' while you juggle 25 model credentials and pray the failover works.
+  tags:
+    - api
+    - model-router
+    - openai-compatible
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
+  reason: FuturMix.ai is a provider abstraction layer that lets developers call multiple AI models through a unified OpenAI-compatible API, making it a code-first SDK rather than an agent or orchestration platform.
   evidence:
-    - jev-latest choice confidence 0.92
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      ai-frameworks (unverified)
+    - "Source-list context: listed in awesome-ai-coding-tools under 'AI Frameworks and SDKs' for providing access to 25+ models via one OpenAI-compatible API"
+    - "Scraped site context: 'Access 25+ AI models (Claude, GPT, Gemini, DeepSeek, Kimi) through one OpenAI-compatible API'"
+    - No evidence of agent behavior, orchestration, or app generation — purely an API relay/proxy layer
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -64,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:44.866Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0c549a07002590ee21dc53583b8eb01163ec11473a2f6e15d34a25f99ff7f243
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: FuturMix.ai is a provider abstraction layer that lets developers call multiple AI models through a unified OpenAI-compatible API, making it a code-first SDK rather than an agent or orchestration platform.
+      decision_evidence:
+        - "Source-list context: listed in awesome-ai-coding-tools under 'AI Frameworks and SDKs' for providing access to 25+ models via one OpenAI-compatible API"
+        - "Scraped site context: 'Access 25+ AI models (Claude, GPT, Gemini, DeepSeek, Kimi) through one OpenAI-compatible API'"
+        - No evidence of agent behavior, orchestration, or app generation — purely an API relay/proxy layer
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because FuturMix.ai is a provider abstraction SDK for multiple LLMs, not an MCP server, client, or infrastructure toolkit whose primary identity is the Model Context Protocol.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

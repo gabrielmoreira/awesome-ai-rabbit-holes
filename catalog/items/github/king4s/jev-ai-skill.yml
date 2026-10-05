@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__king4s__jev-ai-skill__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**Jev-AI-Skill**'
+        anchor_text: "**Jev-AI-Skill**"
         extracted_url: https://github.com/king4s/jev-ai-skill
-        surrounding_text: >-
-          - [**Jev-AI-Skill**](https://github.com/King4s/Jev-AI-Skill) — One AI skill + MCP server for Claude Code,
-          Codex and Hermes: Jev (TypeSafe) gates large-model turns (event triage, review verdicts, owner questions, tool
-          choice), runs build-and-repair loops with independent review, routes models and skills, and guards Git steps.
-          Script-only watch mode and a shared HTTP server.
+        surrounding_text: "- [**Jev-AI-Skill**](https://github.com/King4s/Jev-AI-Skill) — One AI skill + MCP server for Claude Code, Codex and Hermes: Jev (TypeSafe) gates large-model turns (event triage, review verdicts, owner questions, tool choice), runs build-and-repair loops with independent review, routes models and skills, and guards Git steps. Script-only watch mode and a shared HTTP server."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev-AI-Skill — One AI skill + MCP server for Claude Code, Codex and Hermes: Jev (TypeSafe) gates large-model turns
-    (event triage, review verdicts, owner questions, tool choice), runs build-and-repair loops with independent review,
-    routes models and skills, and guards Git steps. Script-only watch mode and a shared HTTP server.
+  summary: "Jev-AI-Skill — One AI skill + MCP server for Claude Code, Codex and Hermes: Jev (TypeSafe) gates large-model turns (event triage, review verdicts, owner questions, tool choice), runs build-and-repair loops with independent review, routes models and skills, and guards Git steps. Script-only watch mode and a shared HTTP server."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.464Z'
+    updated_at: "2026-09-29T13:07:10.464Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

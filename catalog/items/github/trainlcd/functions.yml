@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trainlcd__functions__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Integrations
         anchor_text: TrainLCD Jev rerank
         extracted_url: https://github.com/trainlcd/functions
-        surrounding_text: >-
-          - [TrainLCD Jev rerank](https://github.com/TrainLCD/Functions/pull/33)
-          ([post](https://x.com/tinykitten8/status/2100618835443453969)) - Pull request adding Jev to station-suggestion
-          reranking in the TrainLCD transit app.
+        surrounding_text: "- [TrainLCD Jev rerank](https://github.com/TrainLCD/Functions/pull/33) ([post](https://x.com/tinykitten8/status/2100618835443453969)) - Pull request adding Jev to station-suggestion reranking in the TrainLCD transit app."
         confidence: high
     - id: discovery__github__trainlcd__functions__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,9 +35,7 @@ provenance:
           - Repository-level code references
         anchor_text: TrainLCD Jev rerank
         extracted_url: https://github.com/trainlcd/functions
-        surrounding_text: >-
-          | [TrainLCD Jev rerank](https://github.com/TrainLCD/Functions/pull/33) | N/A | — | Pull request adding Jev to
-          station-suggestion reranking in the TrainLCD transit app. |
+        surrounding_text: "| [TrainLCD Jev rerank](https://github.com/TrainLCD/Functions/pull/33) | N/A | — | Pull request adding Jev to station-suggestion reranking in the TrainLCD transit app. |"
         confidence: high
 metadata:
   github:
@@ -78,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.426Z'
+    updated_at: "2026-09-29T13:07:10.426Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__malevrigns__agent-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: agent-jev
         extracted_url: https://github.com/malevrigns/agent-jev
-        surrounding_text: >-
-          - [agent-jev](https://github.com/malevrigns/agent-jev) - AgentJev-0.6B - a fast 'System One' decision model
-          for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated
-          probability distributions back in one ~50ms forward pass. Zero output-token decoding.
+        surrounding_text: "- [agent-jev](https://github.com/malevrigns/agent-jev) - AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding."
         confidence: high
     - id: discovery__github__malevrigns__agent-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,11 +35,7 @@ provenance:
           - Jev-like models (72)
         anchor_text: agent-jev
         extracted_url: https://github.com/malevrigns/agent-jev
-        surrounding_text: >-
-          | [agent-jev](https://github.com/malevrigns/agent-jev) | ★ 235 | Python | 2026-09-23 | AgentJev-0.6B - a fast
-          'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured
-          questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token
-          decoding. |
+        surrounding_text: "| [agent-jev](https://github.com/malevrigns/agent-jev) | ★ 235 | Python | 2026-09-23 | AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding. |"
         confidence: high
 metadata:
   github:
@@ -60,10 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    agent-jev - AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs,
-    traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass.
-    Zero output-token decoding.
+  summary: "agent-jev - AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -83,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.419Z'
+    updated_at: "2026-09-29T13:07:10.419Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

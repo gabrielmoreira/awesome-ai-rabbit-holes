@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rebyte__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Rebyte
         anchor_text: Rebyte
         extracted_url: https://rebyte.ai
-        surrounding_text: '## [Rebyte](https://rebyte.ai/)'
+        surrounding_text: "## [Rebyte](https://rebyte.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud
-    computers, identities, and tool access.
-  why_it_matters: >-
-    It lets developers delegate end-to-end software tasks (e.g., code reviews, PR fixes, on-call triage) to specialized
-    agents that work autonomously in Slack or via API.
-  mental_damage: Now you can fire your intern and replace them with a Slack thread that never sleeps, complains, or asks for equity.
+  summary: rebyte.ai is an enterprise cloud platform that executes AI agents with policy enforcement, tool access, and observability for feedback-driven improvement.
+  why_it_matters: It lets developers run and improve agents in production by turning agent runs into observable, annotatable feedback loops without managing execution infrastructure.
+  mental_damage: Finally, a way to feel in control of your agents while they secretly rewrite your permissions every time you blink.
   tags:
-    - agent-orchestration
-    - enterprise
-    - mcp
-  confidence: medium
+    - ai-agents
+    - observability
+    - execution-layer
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  reason: Rebyte provides a control plane for running, governing, and improving enterprise agents across surfaces, making it a hosted platform for coordinating agent lifecycles rather than a coding agent itself.
   evidence:
-    - jev-latest choice confidence 0.90
+    - Seen in awesome-ai-agents under 'Run enterprise Agents in the cloud, control what they can do, and turn every observed run into a feedback loop for improvement.'
+    - Scraped site describes it as an 'Execution layer for enterprise agents' with durable execution, tool access, policy enforcement, and observability across API, CLI, Slack, etc.
+    - Focus is on controlling agent capabilities, observing runs, and feeding production evidence back into agent improvement — not writing or editing code.
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Domain & Enterprise Platforms
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,41 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:35:29.182Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for rebyte__ai: Invalid AI response format: SyntaxError: Unexpected token 'E',
-        ..."_matters":Enables de"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:44:07.497Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3cd2e2b1658263dc283a890c0a1624a4211b71faebce79b49482ddbc6fd1b56b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ec102987b70d2e2a0325359b9e70c63de406f1bf58b8422bcdcea5498daa52e7
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The core product is a workforce platform for coordinating multiple specialized agents (e.g., researchers,
-        engineers, analysts) with shared context, identities, and tool access, not a single coding assistant or
-        extension.
+      decision_reason: Rebyte provides a control plane for running, governing, and improving enterprise agents across surfaces, making it a hosted platform for coordinating agent lifecycles rather than a coding agent itself.
       decision_evidence:
-        - >-
-          Described as 'hire a team of digital employees — agents on real cloud computers that build, ship, and operate
-          software for you'
-        - Agents are scoped, named, and equipped like hires (identities, roles, cloud machines, tools, access control)
-        - >-
-          Multi-agent coordination is the primary workflow (e.g., @claude reviews, @codex implements in the same Slack
-          thread)
+        - Seen in awesome-ai-agents under 'Run enterprise Agents in the cloud, control what they can do, and turn every observed run into a feedback loop for improvement.'
+        - Scraped site describes it as an 'Execution layer for enterprise agents' with durable execution, tool access, policy enforcement, and observability across API, CLI, Slack, etc.
+        - Focus is on controlling agent capabilities, observing runs, and feeding production evidence back into agent improvement — not writing or editing code.
       category_candidates:
         - agent-orchestration
-        - app-builders
-      contrastive_reason: >-
-        Choose agent-orchestration over app-builders because the product centers on managing a team of agents for
-        ongoing tasks rather than turning prompts into deployed apps.
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because rebyte’s primary value is managing agent execution, policy, and observability across runs — not performing coding tasks on a codebase.
       review_reason: null
       review_resume_lifecycle: null

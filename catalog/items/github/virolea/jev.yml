@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__virolea__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jev (virolea)
         extracted_url: https://github.com/virolea/jev
-        surrounding_text: '- [jev (virolea)](https://github.com/virolea/jev) - Ruby client for the typesafe AI Jev model.'
+        surrounding_text: "- [jev (virolea)](https://github.com/virolea/jev) - Ruby client for the typesafe AI Jev model."
         confidence: high
     - id: discovery__github__virolea__jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -32,9 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev**'
+        anchor_text: "**jev**"
         extracted_url: https://github.com/virolea/jev
-        surrounding_text: '- [**jev**](https://github.com/virolea/jev) — Ruby client for the typesafe AI Jev model'
+        surrounding_text: "- [**jev**](https://github.com/virolea/jev) — Ruby client for the typesafe AI Jev model"
         confidence: high
 metadata:
   github:
@@ -62,9 +62,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.93
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -76,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.428Z'
+    updated_at: "2026-09-29T13:07:10.428Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

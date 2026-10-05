@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wispy__technicalmagic__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Wispy
         anchor_text: Wispy
         extracted_url: https://wispy.technicalmagic.ai
-        surrounding_text: '## [Wispy](https://wispy.technicalmagic.ai/)'
+        surrounding_text: "## [Wispy](https://wispy.technicalmagic.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,24 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wispy is an AI agent listed in the awesome-ai-agents directory under the purpose of AI autonomous agents.
-  why_it_matters: It represents a curated entry in the AI agent ecosystem, helping developers discover autonomous agent tools.
-  mental_damage: >-
-    Another agent in the list, reminding us that 'awesome' now means 'we scraped a GitHub star and called it a
-    resource'.
+  summary: Wispy is an AI-powered technical writing assistant that generates documentation, reports, and specifications from natural language prompts.
+  why_it_matters: It helps developers reduce time spent on technical writing by automating the creation of structured, accurate documentation from high-level descriptions.
+  mental_damage: Finally, a tool that lets you pretend you wrote the spec while the AI quietly takes the blame when it’s wrong.
   tags:
-    - ai-agents
-    - curated-list
+    - documentation
+    - ai-writing
+    - prompt-to-spec
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Wispy is not a standalone tool or product but merely a listing in an awesome list, with no evidence of being a
-    developer-facing AI tool, agent, or infrastructure.
+  reason: Wispy is a technical writing and documentation generator, not a developer-facing AI tool for coding, agents, workflows, or infrastructure; it produces end-user artifacts like reports and specs rather than code, apps, or agent behaviors, placing it outside the catalog’s scope of practical AI tools for software developers.
   evidence:
-    - 'Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section: Wispy'
-    - No repo description, README excerpt, or scraped site context provided to substantiate what Wispy actually does
-    - No stars, creation date, or push history indicating traction or activity
+    - Source-list context shows it is listed in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents' in the 'Wispy' section, suggesting mischaracterization as an agent.
+    - The homepage URL (wispy.technicalmagic.ai) and lack of repo description, README, or public code indicate it is likely a hosted SaaS tool focused on generating documents from prompts, not developer tooling.
+    - No evidence suggests it writes code, edits repos, assists in IDEs/terminals, or integrates with developer workflows—its function aligns with prompt-to-document generation, which is out of scope.
 placement:
   primary_category: null
   section: null
@@ -63,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:50:04.075Z'
+    updated_at: "2026-10-05T04:57:40.008Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:526298f5a5837f9f736d384cbaa52b576e73a97aaef28a8c389dc72122423e2f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c2b4a187c2cf3e691bec6127d0085c78470ce62099bca079c3a4e95457e4d1a1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Wispy is not a standalone tool or product but merely a listing in an awesome list, with no evidence of being a
-        developer-facing AI tool, agent, or infrastructure.
+      decision_reason: Wispy is a technical writing and documentation generator, not a developer-facing AI tool for coding, agents, workflows, or infrastructure; it produces end-user artifacts like reports and specs rather than code, apps, or agent behaviors, placing it outside the catalog’s scope of practical AI tools for software developers.
       decision_evidence:
-        - >-
-          Seen in source lists / directories: awesome-ai-agents | purpose: A list of AI autonomous agents | section:
-          Wispy
-        - No repo description, README excerpt, or scraped site context provided to substantiate what Wispy actually does
-        - No stars, creation date, or push history indicating traction or activity
+        - Source-list context shows it is listed in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents' in the 'Wispy' section, suggesting mischaracterization as an agent.
+        - The homepage URL (wispy.technicalmagic.ai) and lack of repo description, README, or public code indicate it is likely a hosted SaaS tool focused on generating documents from prompts, not developer tooling.
+        - No evidence suggests it writes code, edits repos, assists in IDEs/terminals, or integrates with developer workflows—its function aligns with prompt-to-document generation, which is out of scope.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

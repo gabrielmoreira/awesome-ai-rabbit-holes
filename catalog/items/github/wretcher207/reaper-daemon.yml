@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wretcher207__reaper-daemon__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: wretcher207/reaper-daemon
         extracted_url: https://github.com/wretcher207/reaper-daemon
-        surrounding_text: >-
-          - [wretcher207/reaper-daemon](https://github.com/wretcher207/reaper-daemon) [![wretcher207/reaper-daemon MCP
-          server](https://glama.ai/mcp/servers/wretcher207/reaper-daemon/badges/score.svg)](https://glama.ai/mcp/servers/wretcher207/reaper-daemon)
-          🐍 🏠 🍎 🪟 🐧 - Drive the REAPER DAW over a local file bridge: read plugins and parameters, set FX values,
-          write automation and measure mix changes, all inside undo blocks.
+        surrounding_text: "- [wretcher207/reaper-daemon](https://github.com/wretcher207/reaper-daemon) [![wretcher207/reaper-daemon MCP server](https://glama.ai/mcp/servers/wretcher207/reaper-daemon/badges/score.svg)](https://glama.ai/mcp/servers/wretcher207/reaper-daemon) 🐍 🏠 🍎 🪟 🐧 - Drive the REAPER DAW over a local file bridge: read plugins and parameters, set FX values, write automation and measure mix changes, all inside undo blocks."
         confidence: high
 metadata:
   github:
@@ -60,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +64,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

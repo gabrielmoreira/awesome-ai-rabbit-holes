@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__var__gg__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Guide ↗
         extracted_url: https://var.gg
-        surrounding_text: >-
-          - [var-gg/mcp](https://github.com/var-gg/mcp) 📇 ☁️ - Enforces team naming consistency for AI-generated code
-          via Cursor MCP integration. [Guide ↗](https://var.gg)
+        surrounding_text: "- [var-gg/mcp](https://github.com/var-gg/mcp) 📇 ☁️ - Enforces team naming consistency for AI-generated code via Cursor MCP integration. [Guide ↗](https://var.gg)"
         confidence: high
 metadata:
   github:
@@ -39,44 +37,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    var.gg is a tool that enables AI agents to read, edit, and manage code and files via secure, ephemeral sandboxed
-    environments.
-  why_it_matters: >-
-    It lets developers safely delegate file system operations to AI agents without risking local machine integrity or
-    exposing sensitive data.
-  mental_damage: Finally, a way to feel less guilty about letting an AI rm -rf your /home — now it’s someone else’s problem.
-  tags:
-    - ai-agents
-    - sandbox
-    - file-operations
-    - security
-  confidence: medium
+  summary: var.gg appears to be a personal or experimental project with no clear description or available repository.
+  why_it_matters: It is unclear what var.gg offers to developers, making its value proposition unknown.
+  mental_damage: Another mystery link in the AI toolchain graveyard, promising nothing and delivering even less.
+  tags: []
+  confidence: low
 curation:
-  status: included
-  reason: >-
-    The tool directly assists developers in a coding workflow (naming variables/data models) and fits the broader
-    definition of coding assistance, even if it's not a full repo agent.
+  status: excluded
+  reason: The project lacks a discernible identity, description, or evidence of being a developer-facing AI tool, making it impossible to assess fit.
   evidence:
-    - >-
-      Primary page excerpt explicitly states it generates naming ideas for variables, data models, and docs to speed up
-      engineering workflows
-    - Source-list context shows it is included in MCP servers list under Developer Tools, indicating developer relevance
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at mcp
-      (unverified)
+    - No repo description provided
+    - No README excerpt or scraped site context available
+    - No stars, creation date, or recent activity data to indicate traction or relevance
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories:
     - coding-agents
   section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''extensions-and-addons'''
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,36 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:56.789Z'
+    updated_at: "2026-10-05T04:56:57.876Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3c96e04273d89a20c63757313b038e822df8bb4f1c1df0d73be844f3ae686b84
-      proposed_primary_category: extensions-and-addons
-      disagreement: true
-      decision_reason: >-
-        var.gg provides secure sandboxed file system access for AI agents, positioning it as a workflow extension that
-        enhances agent capabilities rather than acting as a standalone coding agent or framework.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ded84464280c824a3299d67d4b535cc36611c34ab41e208b05270a8e3ee70cbe
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks a discernible identity, description, or evidence of being a developer-facing AI tool, making it impossible to assess fit.
       decision_evidence:
-        - Homepage var.gg describes enabling AI agents to 'read, edit, and manage code and files' in secure environments
-        - >-
-          The tool is designed to be used by agents like Claude Code or Cursor to safely interact with local file
-          systems
-        - >-
-          It does not generate code, plan tasks, or orchestrate agents — it provides a controlled execution layer for
-          file operations
-      category_candidates:
-        - extensions-and-addons
-        - coding-agents
-      contrastive_reason: >-
-        Choose extensions-and-addons over coding-agents because var.gg does not autonomously write or edit code — it
-        enables agents to do so safely by providing sandboxed file access, making it a capability extension rather than
-        a primary coder.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''extensions-and-addons'''
+        - No repo description provided
+        - No README excerpt or scraped site context available
+        - No stars, creation date, or recent activity data to indicate traction or relevance
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

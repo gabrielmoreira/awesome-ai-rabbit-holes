@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prompthub__us__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,15 +18,10 @@ provenance:
           - LLMOps
         anchor_text: PromptHub
         extracted_url: https://prompthub.us
-        surrounding_text: >-
-          | [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool
-          designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and
-          monitor, all from one
-          place.                                                                                                                                                                                                                              
-          |                                                                                                           |
+        surrounding_text: "| [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and monitor, all from one place.                                                                                                                                                                                                                               |                                                                                                           |"
         confidence: high
     - id: discovery__www__prompthub__us__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,12 +33,7 @@ provenance:
           - LLMOps
         anchor_text: PromptHub
         extracted_url: https://www.prompthub.us
-        surrounding_text: >-
-          | [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool
-          designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and
-          monitor, all from one
-          place.                                                                                                                                                                                                                              
-          |                                                                                                           |
+        surrounding_text: "| [PromptHub](https://www.prompthub.us)                              | Full stack prompt management tool designed to be usable by technical and non-technical team members. Test, version, collaborate, deploy, and monitor, all from one place.                                                                                                                                                                                                                               |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -61,38 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    PromptHub is a prompt management platform for teams that enables versioning, testing, and deployment of prompts with
-    Git-based workflows and AI-assisted creation tools.
-  why_it_matters: >-
-    It gives developers a structured way to manage prompts as version-controlled artifacts, reducing drift and improving
-    reproducibility in AI-integrated workflows.
-  mental_damage: >-
-    Another tool promising to tame the chaos of prompt sprawl, while quietly adding yet another login tab to your
-    overflowing SaaS dashboard.
+  summary: PromptHub is a collaborative prompt management platform for teams to test, deploy, version, and share prompts using AI-powered tools and Git-based workflows.
+  why_it_matters: It helps developers streamline prompt engineering workflows by providing structured versioning, testing, and deployment of prompts across models and environments.
+  mental_damage: Finally, a Jira for your prompts — because nothing says 'innovation' like version-controlling the incantations that make your AI work.
   tags:
     - prompt-management
-    - versioning
+    - llmops
     - collaboration
-    - ai-tooling
   confidence: medium
 curation:
   status: included
-  reason: >-
-    PromptHub's core function is managing, versioning, testing, and deploying prompts as a collaborative platform,
-    aligning with memory and context engineering focused on prompt asset lifecycle rather than code generation or agent
-    orchestration.
+  reason: PromptHub's core identity is prompt template management, versioning, and deployment — a context-shaping infrastructure that improves what reaches the model, fitting memory-and-context over app builders or orchestration.
   evidence:
-    - 'Scraped site: ''Manage, version, and deploy — Organize your prompts with Git-based versioning and a simple API'''
-    - >-
-      Source-list (Awesome-LLMOps): 'Test, deploy, and manage your prompts with PromptHub, a prompt management tool for
-      teams'
-    - >-
-      README excerpt: Features include prompt chaining, testing, pipelines, forms, and AI tools for writing and
-      enhancing prompts
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed memory-and-context / Prompt Engineering & Management; placement kept
-      at memory-and-context (unverified)
+    - "Scraped site: 'Manage, version, and deploy / Organize your prompts with Git-based versioning and a simple API'"
+    - "Source-list: listed in Awesome-LLMOps under LLMOps as a prompt management tool for teams"
+    - "README: Prompt chaining, testing, pipelines, and forms for deploying prompts as shareable artifacts"
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -104,42 +77,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:44:37.624Z'
+    updated_at: "2026-10-05T04:50:18.022Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b361600d9cd0bac2b81cdd3a465725ae5d319f6959c55671ee066fdaaf725c01
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3b1c5ff14a98992e3da3154e94294b0dce4873dd40c3627010b018efe3bb284d
       proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: >-
-        PromptHub's core function is managing, versioning, testing, and deploying prompts as a collaborative platform,
-        aligning with memory and context engineering focused on prompt asset lifecycle rather than code generation or
-        agent orchestration.
+      decision_reason: PromptHub's core identity is prompt template management, versioning, and deployment — a context-shaping infrastructure that improves what reaches the model, fitting memory-and-context over app builders or orchestration.
       decision_evidence:
-        - 'Scraped site: ''Manage, version, and deploy — Organize your prompts with Git-based versioning and a simple API'''
-        - >-
-          Source-list (Awesome-LLMOps): 'Test, deploy, and manage your prompts with PromptHub, a prompt management tool
-          for teams'
-        - >-
-          README excerpt: Features include prompt chaining, testing, pipelines, forms, and AI tools for writing and
-          enhancing prompts
+        - "Scraped site: 'Manage, version, and deploy / Organize your prompts with Git-based versioning and a simple API'"
+        - "Source-list: listed in Awesome-LLMOps under LLMOps as a prompt management tool for teams"
+        - "README: Prompt chaining, testing, pipelines, and forms for deploying prompts as shareable artifacts"
       category_candidates:
         - memory-and-context
         - evals
-      contrastive_reason: >-
-        Choose memory-and-context over evals because while PromptHub includes evaluation features, its primary identity
-        is prompt lifecycle management and versioning, not systematic measurement or benchmarking of model behavior.
+      contrastive_reason: Choose memory-and-context over evals because while PromptHub includes evaluation features, its primary product identity is prompt versioning, management, and deployment — context engineering, not behavior measurement.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.969Z'
+    updated_at: "2026-07-21T15:20:21.969Z"
     cause: null
     next_retry_at: null
   stars:

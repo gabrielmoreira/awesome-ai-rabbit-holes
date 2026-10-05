@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zachlandes__decision-gate__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,16 +20,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: decision-gate
         extracted_url: https://github.com/zachlandes/decision-gate
-        surrounding_text: >-
-          - [decision-gate](https://github.com/zachlandes/decision-gate) ![type:
-          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/zachlandes/decision-gate?style=flat-square&label=%E2%98%85) -
-          Cost and rate control: npm library that every Jev request in a loop goes through, which waits for room under
-          80% of the account's requests-per-minute and tokens-per-second limits, pauses every caller sharing the
-          account, across processes, for the server's `Retry-After` delay when the service answers 429, refuses any
-          request that would pass a per-key daily spend ceiling (USD 0.20 by default), and keeps an opt-in cache of
-          answer probabilities under caller-chosen keys, so a repeated question over the same state is not paid for
-          twice.
+        surrounding_text: "- [decision-gate](https://github.com/zachlandes/decision-gate) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/zachlandes/decision-gate?style=flat-square&label=%E2%98%85) - Cost and rate control: npm library that every Jev request in a loop goes through, which waits for room under 80% of the account's requests-per-minute and tokens-per-second limits, pauses every caller sharing the account, across processes, for the server's `Retry-After` delay when the service answers 429, refuses any request that would pass a per-key daily spend ceiling (USD 0.20 by default), and keeps an opt-in cache of answer probabilities under caller-chosen keys, so a repeated question over the same state is not paid for twice."
         confidence: high
 metadata:
   github:
@@ -56,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

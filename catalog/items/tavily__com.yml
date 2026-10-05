@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tavily__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-06-04T05:40:27.160Z'
+      discovered_at: "2026-06-04T05:40:27.160Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Tavily
         extracted_url: https://tavily.com
-        surrounding_text: >-
-          - **[Tavily](https://github.com/tavily-ai/tavily-mcp)** - Search engine for AI agents (search + extract)
-          powered by [Tavily](https://tavily.com/)
+        surrounding_text: "- **[Tavily](https://github.com/tavily-ai/tavily-mcp)** - Search engine for AI agents (search + extract) powered by [Tavily](https://tavily.com/)"
         confidence: high
     - id: discovery__www__tavily__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: Tavily
         extracted_url: https://tavily.com
-        surrounding_text: >-
-          - **[Tavily](https://github.com/tavily-ai/tavily-mcp)** - Search engine for AI agents (search + extract)
-          powered by [Tavily](https://tavily.com/)
+        surrounding_text: "- **[Tavily](https://github.com/tavily-ai/tavily-mcp)** - Search engine for AI agents (search + extract) powered by [Tavily](https://tavily.com/)"
         confidence: high
 metadata:
   github:
@@ -55,77 +51,59 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tavily is a real-time search and content extraction API designed to provide AI agents with up-to-date web data.
-  why_it_matters: >-
-    It enables developers to ground AI agents in current, factual web information, reducing hallucinations and improving
-    reasoning over live content.
-  mental_damage: >-
-    Yet another piece of the AI stack you didn’t know you needed until your agent started confidently citing 2018 blog
-    posts as breaking news.
+  summary: Tavily provides real-time web search and content extraction APIs for AI agents to access fresh, structured web data.
+  why_it_matters: It lets AI agents ground their responses in current, verified web information to reduce hallucinations and improve reasoning accuracy.
+  mental_damage: Another 'essential' search API that makes you wonder if your agent would work better if you just gave it a browser tab.
   tags:
     - search
     - api
-    - ai-agents
-    - retrieval
-    - mcp
-  confidence: high
+    - rag
+  confidence: medium
 curation:
   status: included
-  reason: The tool's core novelty is providing retrieval and fresh-doc lookup to improve the context fed into LLMs.
+  reason: Tavily is a retrieval-focused service that supplies structured web content to AI agents, fitting the memory-and-context category as a fresh-doc retrieval tool rather than a decision model or MCP infrastructure.
   evidence:
-    - Scraped description identifies it as a real-time search engine for AI agents and RAG workflows
-    - Primary page excerpt states its purpose is to ground models with fresh web context to prevent hallucination
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed ai-frameworks / Memory & Retrieval Infrastructure; placement kept at
-      memory-and-context (unverified)
+    - "Scraped site context: 'Tavily is the real‑time search engine for AI agents — Fast and secure APIs for web search and content extraction'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' with description 'Tavily is the real‑time search engine for AI agents'"
+    - README excerpt emphasizes 'Ground models with fresh web context' and 'Retrieve live web data, extract relevant content, and return it structured and chunked for models'
 placement:
   primary_category: memory-and-context
   secondary_categories:
     - ai-frameworks
-  section: null
+  section: Retrieval & Fresh Docs
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+  status: curated
+  reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:56.836Z'
+    updated_at: "2026-10-05T04:59:39.283Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e9eb8a22a6a350eb769e3d5e823f800ca4f0f40831b59d1ec18be66104de251a
-      proposed_primary_category: mcp
-      disagreement: true
-      decision_reason: >-
-        Tavily’s primary identity is as an MCP server providing real-time web search and extraction capabilities for AI
-        agents, which aligns with the MCP category’s focus on protocol-native infrastructure.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:954e6ef6e8ba30604090f32d09b1d2491216b9184435dca35539a55c8191ba1c
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: Tavily is a retrieval-focused service that supplies structured web content to AI agents, fitting the memory-and-context category as a fresh-doc retrieval tool rather than a decision model or MCP infrastructure.
       decision_evidence:
-        - >-
-          Listed in awesome-mcp-servers under 'Official Servers' with description: 'Tavily is the real‑time search
-          engine for AI agents — Fast and secure APIs for web search and content extraction.'
-        - >-
-          Scraped site context positions Tavily as 'The web access layer for AI agents' offering search, extract,
-          research, and crawl endpoints.
-        - >-
-          Marketed as infrastructure for agents to 'Ground models with fresh web context' and 'Retrieve live web data,
-          extract relevant content, and return it structured and chunked for models'.
+        - "Scraped site context: 'Tavily is the real‑time search engine for AI agents — Fast and secure APIs for web search and content extraction'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' with description 'Tavily is the real‑time search engine for AI agents'"
+        - README excerpt emphasizes 'Ground models with fresh web context' and 'Retrieve live web data, extract relevant content, and return it structured and chunked for models'
       category_candidates:
-        - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because Tavily’s core identity is providing MCP-native search and extraction
-        servers, not general-purpose memory or context management infrastructure.
-      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+        - mcp
+      contrastive_reason: Choose memory-and-context over mcp because Tavily's core identity is as a retrieval service for web data, not as an MCP server—though it may offer MCP compatibility, its primary product is search and extraction APIs, not MCP infrastructure.
+      review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
   discover:
     status: done
-    updated_at: '2026-06-04T05:40:27.161Z'
+    updated_at: "2026-06-04T05:40:27.161Z"
     cause: null
     next_retry_at: null
   stars:

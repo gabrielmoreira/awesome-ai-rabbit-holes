@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sentry__io__welcome__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Sentry
         extracted_url: https://sentry.io
-        surrounding_text: '- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io).'
+        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
         confidence: high
 metadata:
   github:
@@ -36,30 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Sentry is an application performance monitoring and error tracking platform for developers.
-  why_it_matters: >-
-    It helps developers detect, diagnose, and fix errors and performance issues in production with full context from
-    logs, traces, and commits.
-  mental_damage: >-
-    Another monitoring tool that promises to reduce firefighting, but just adds another dashboard to check during
-    incidents.
+  summary: Application performance monitoring and error tracking software for developers.
+  why_it_matters: Helps developers detect, diagnose, and fix production issues faster with full-stack observability.
+  mental_damage: Another monitoring tool that promises to reduce alert fatigue while adding yet another dashboard to check.
   tags:
     - monitoring
+    - observability
     - error-tracking
-    - apm
-    - devtools
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Sentry is an observability and monitoring platform, not a developer-facing AI tool for coding, agents, or workflows;
-    its AI features (Seer, Autofix) are ancillary to its core monitoring identity.
+  reason: Sentry is a general application monitoring and error tracking platform with AI features as add-ons, not a developer-facing AI tool whose primary identity is coding assistance, agent behavior, or infrastructure for AI workflows.
   evidence:
-    - 'Repo description: (none)'
-    - 'Scraped site title: ''Application Performance Monitoring & Error Tracking Software'''
-    - >-
-      Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is only an integration feature, not
-      the product identity
+    - Primary product is Application Performance Monitoring & Error Tracking Software, not an AI coding agent or developer tool
+    - Appears in awesome-mcp-servers as an 'Official Server' but MCP is only one integration among many, not the product identity
+    - Core functionality centers on error tracking, logging, tracing, and SDKs for general app monitoring, not AI-driven development workflows
 placement:
   primary_category: null
   section: null
@@ -69,12 +60,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -82,28 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:54.786Z'
+    updated_at: "2026-10-05T04:44:59.975Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7ff609437637baed20bedb34bc684c7b3af7fef9fe3c9d2467547318b69b3f4c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:081f82421555d7c79c582e24ef3bcf804edf03d74b1a5ce31f114e8ef6114afb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Sentry is an observability and monitoring platform, not a developer-facing AI tool for coding, agents, or
-        workflows; its AI features (Seer, Autofix) are ancillary to its core monitoring identity.
+      decision_reason: Sentry is a general application monitoring and error tracking platform with AI features as add-ons, not a developer-facing AI tool whose primary identity is coding assistance, agent behavior, or infrastructure for AI workflows.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'Scraped site title: ''Application Performance Monitoring & Error Tracking Software'''
-        - >-
-          Source-list context: listed in awesome-mcp-servers as an MCP server, but MCP is only an integration feature,
-          not the product identity
+        - Primary product is Application Performance Monitoring & Error Tracking Software, not an AI coding agent or developer tool
+        - Appears in awesome-mcp-servers as an 'Official Server' but MCP is only one integration among many, not the product identity
+        - Core functionality centers on error tracking, logging, tracing, and SDKs for general app monitoring, not AI-driven development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

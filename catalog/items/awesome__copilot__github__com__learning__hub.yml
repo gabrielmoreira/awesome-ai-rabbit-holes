@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__learning__hub__awesome-list__github__awesome-copilot
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,10 +18,7 @@ provenance:
           - README
         anchor_text: Learning Hub
         extracted_url: https://awesome-copilot.github.com/learning-hub
-        surrounding_text: >-
-          > The website offers full-text search and filtering across hundreds of resources, plus the
-          [Tools](https://awesome-copilot.github.com/tools) section for MCP servers and developer tooling, and the
-          [Learning Hub](https://awesome-copilot.github.com/learning-hub) for guides and tutorials.
+        surrounding_text: "> The website offers full-text search and filtering across hundreds of resources, plus the [Tools](https://awesome-copilot.github.com/tools) section for MCP servers and developer tooling, and the [Learning Hub](https://awesome-copilot.github.com/learning-hub) for guides and tutorials."
         confidence: high
 metadata:
   github:
@@ -39,46 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    GitHub Copilot Learning Hub is a community-curated collection of guides, tutorials, and reference material for using
-    GitHub Copilot.
-  why_it_matters: >-
-    It helps developers learn to use GitHub Copilot effectively through structured educational content, reducing
-    onboarding friction for AI-assisted development.
-  mental_damage: >-
-    Another 'learning resource' that makes you wonder if the real productivity gain is just reading more docs while your
-    IDE waits for the next tutorial to load.
+  summary: GitHub Copilot Learning Hub is a community-curated collection of guides, tutorials, and reference material for using GitHub Copilot.
+  why_it_matters: It aggregates practical resources to help developers adopt and extend GitHub Copilot in their workflows.
+  mental_damage: Another awesome list promising to make sense of the Copilot ecosystem, adding to the pile of links you’ll bookmark and never read.
   tags:
-    - learning-hub
-    - github-copilot
-    - developer-resources
+    - copilot
+    - docs
+    - community
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    This is a documentation and resource collection, not a standalone developer-tooling product that performs coding
-    tasks, builds apps, or provides infrastructure.
+  status: included
+  reason: It is a curated directory of learning resources for GitHub Copilot, fitting the role of an ecosystem navigation aid rather than a standalone tool or agent.
   evidence:
-    - >-
-      The repo description is empty, and the source-list context identifies it as a 'Community-contributed instructions,
-      agents, skills, and configurations' resource page, not a product.
-    - >-
-      The scraped site context describes it as 'Guides, tutorials, and reference material' and a 'Learning Hub' with no
-      claim of being an autonomous agent or tool.
-    - >-
-      It appears in 'awesome-copilot' as a curated list item, which the catalog defines as 'Awesome Lists & Resources'
-      under 'awesome-awesomes' — a navigation aid, not a developer-facing tool.
+    - Described as 'Guides, tutorials, and reference material for getting the most out of GitHub Copilot — curated by the community'
+    - "Listed in the awesome-copilot source list under purpose: 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot'"
+    - Primary page shows structured sections like Resources, Agents, Instructions, Skills, Plugins, Extensions, Hooks, Workflows, Tools, and Learning Hub
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,33 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:34:40.506Z'
+    updated_at: "2026-10-05T04:28:49.089Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c9786f728b7485199fa850a3730ff8701013a77d45c065686a1af987ebfd6848
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e9ce1e8fcb127899474138e8c880adcb5bdcbc33e665f0cf8bad041a35b1ecdc
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        This is a documentation and resource collection, not a standalone developer-tooling product that performs coding
-        tasks, builds apps, or provides infrastructure.
+      decision_reason: It is a curated directory of learning resources for GitHub Copilot, fitting the role of an ecosystem navigation aid rather than a standalone tool or agent.
       decision_evidence:
-        - >-
-          The repo description is empty, and the source-list context identifies it as a 'Community-contributed
-          instructions, agents, skills, and configurations' resource page, not a product.
-        - >-
-          The scraped site context describes it as 'Guides, tutorials, and reference material' and a 'Learning Hub' with
-          no claim of being an autonomous agent or tool.
-        - >-
-          It appears in 'awesome-copilot' as a curated list item, which the catalog defines as 'Awesome Lists &
-          Resources' under 'awesome-awesomes' — a navigation aid, not a developer-facing tool.
-      category_candidates: []
-      contrastive_reason: null
+        - Described as 'Guides, tutorials, and reference material for getting the most out of GitHub Copilot — curated by the community'
+        - "Listed in the awesome-copilot source list under purpose: 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot'"
+        - Primary page shows structured sections like Resources, Agents, Instructions, Skills, Plugins, Extensions, Hooks, Workflows, Tools, and Learning Hub
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the Learning Hub is a curated directory of guides and tutorials, not a distributable skill pack or rules bundle for installing into agents.
       review_reason: null
       review_resume_lifecycle: null

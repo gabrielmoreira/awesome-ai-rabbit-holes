@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blankinvoicemaker__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-25T05:24:49.456Z'
+      discovered_at: "2026-06-25T05:24:49.456Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Blank Invoice Maker
         extracted_url: https://blankinvoicemaker.com
-        surrounding_text: >-
-          - [InnarM/blank-invoice-maker-mcp](https://github.com/InnarM/blank-invoice-maker-mcp)
-          [![InnarM/blank-invoice-maker-mcp MCP
-          server](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp)
-          📇 🏠 🍎 🪟 🐧 - Create free, no-signup invoices from your AI assistant. Returns a deep link that opens [Blank
-          Invoice Maker](https://blankinvoicemaker.com) pre-filled — review and download a watermark-free PDF. Invoice
-          data stays in the browser. `npx blank-invoice-maker-mcp`
+        surrounding_text: "- [InnarM/blank-invoice-maker-mcp](https://github.com/InnarM/blank-invoice-maker-mcp) [![InnarM/blank-invoice-maker-mcp MCP server](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp/badges/score.svg)](https://glama.ai/mcp/servers/InnarM/blank-invoice-maker-mcp) 📇 🏠 🍎 🪟 🐧 - Create free, no-signup invoices from your AI assistant. Returns a deep link that opens [Blank Invoice Maker](https://blankinvoicemaker.com) pre-filled — review and download a watermark-free PDF. Invoice data stays in the browser. `npx blank-invoice-maker-mcp`"
         confidence: high
 metadata:
   github:
@@ -43,21 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based utility for generating and downloading PDF invoices using local IndexedDB storage.
-  why_it_matters: While useful for freelance administrative tasks, it contains no AI-driven features or developer-centric tooling.
-  mental_damage: >-
-    Managing your own billing remains one of the few manual tasks that hasn't been successfully automated by a coding
-    agent.
-  tags: []
+  summary: Blank Invoice Maker is a free, browser-based tool for creating and downloading invoices as PDFs without requiring an account.
+  why_it_matters: It offers developers and freelancers a privacy-focused, instant way to generate professional invoices locally in the browser, avoiding sign-ups and data leakage.
+  mental_damage: Another useful tool swallowed by the infinite void of 'free local web apps' that somehow never make it into your actual invoicing stack.
+  tags:
+    - invoice
+    - browser
+    - pdf
+    - freelance
+    - privacy
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the
-    software development lifecycle.
+  reason: Blank Invoice Maker is a general productivity tool for invoicing with no AI component, developer-tooling angle, or relevance to software development workflows.
   evidence:
-    - Scraped site context identifies the product as a 'Free Blank Invoice Maker' for small businesses.
-    - The product description and excerpt contain no mention of LLMs, AI, or developer workflows.
+    - The tool creates invoices via browser-based form filling and PDF export with no mention of AI, LLMs, or automation.
+    - It targets freelancers and small businesses for financial documentation, not coding, code generation, or development tasks.
+    - No AI features are present in the description, README, or site context — it is a static client-side invoice generator.
 placement:
   primary_category: null
   section: null
@@ -67,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-25T05:24:49.458Z'
+    updated_at: "2026-06-25T05:24:49.458Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,25 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:19:53.675Z'
+    updated_at: "2026-10-05T04:26:45.283Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b1f8efdf6441c1334d5d5270ecb8f544960a6626e1adc18fda02c8629b60a640
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:76f89dd28d131f87a94203cd93603d43e172e92e9b2e6b382a32c0597577e273
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a general-purpose business utility for invoicing and lacks any connection to AI, LLMs, or the
-        software development lifecycle.
+      decision_reason: Blank Invoice Maker is a general productivity tool for invoicing with no AI component, developer-tooling angle, or relevance to software development workflows.
       decision_evidence:
-        - Scraped site context identifies the product as a 'Free Blank Invoice Maker' for small businesses.
-        - The product description and excerpt contain no mention of LLMs, AI, or developer workflows.
+        - The tool creates invoices via browser-based form filling and PDF export with no mention of AI, LLMs, or automation.
+        - It targets freelancers and small businesses for financial documentation, not coding, code generation, or development tasks.
+        - No AI features are present in the description, README, or site context — it is a static client-side invoice generator.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__testmuai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: LambdaTest
         extracted_url: https://lambdatest.com
-        surrounding_text: '- **[LambdaTest](https://www.lambdatest.com/)** – AI-powered cross-browser testing platform.'
+        surrounding_text: "- **[LambdaTest](https://www.lambdatest.com/)** – AI-powered cross-browser testing platform."
         confidence: high
     - id: discovery__www__testmuai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: LambdaTest
         extracted_url: https://www.lambdatest.com
-        surrounding_text: '- **[LambdaTest](https://www.lambdatest.com/)** – AI-powered cross-browser testing platform.'
+        surrounding_text: "- **[LambdaTest](https://www.lambdatest.com/)** – AI-powered cross-browser testing platform."
         confidence: high
 metadata:
   github:
@@ -51,35 +51,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TestMu AI is an AI-native unified testing platform for automated end-to-end testing across web, mobile, and AI
-    applications, featuring AI agents like KaneAI for test creation, real device cloud, and autonomous test
-    orchestration.
-  why_it_matters: >-
-    Developers gain faster test execution and AI-powered test management that integrates with CI/CD pipelines to catch
-    regressions early and accelerate release cycles.
-  mental_damage: Another 'AI-native' rebrand promising to test your agents while you wonder who tests the testers.
+  summary: TestMu AI (formerly LambdaTest) is an AI-native testing cloud platform for automating end-to-end testing across web, mobile, and AI applications using autonomous agents and orchestration.
+  why_it_matters: It lets developers and QA teams shift testing left by using AI agents to generate, execute, and analyze tests at scale, reducing cycles from hours to minutes.
+  mental_damage: Hope you enjoy waiting for your AI agent to finish testing the AI agent that’s testing your AI agent.
   tags:
     - testing
     - ai-agents
     - devops
     - qa
-    - automation
-  confidence: medium
+    - orchestration
+  confidence: high
 curation:
   status: included
-  reason: >-
-    The platform positions itself as a 'GenAI-Native Testing Agent' and 'Autonomous Agentic Test Planning' tool that
-    directly authors, runs, and repairs tests, fitting the coding-agents testing/review section.
+  reason: The platform positions itself as a 'GenAI-Native Testing Agent' and 'Autonomous Agentic Test Planning' tool that directly authors, runs, and repairs tests, fitting the coding-agents testing/review section.
   evidence:
-    - >-
-      Product claims to be the 'World's first end-to-end software testing agent' with autonomous test planning and
-      authoring.
+    - Product claims to be the 'World's first end-to-end software testing agent' with autonomous test planning and authoring.
     - Includes 'Auto Healing Agent' for overcoming flaky tests and 'Root Cause Analysis Agent' for automated bug fixes.
     - Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure' as an AI-powered testing tool.
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed agent-orchestration / Hosted Agent Platforms; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.47 below gate 0.50; proposed agent-orchestration / Hosted Agent Platforms; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -87,51 +76,37 @@ placement:
   section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''extensions-and-addons'''
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:55.931Z'
+    updated_at: "2026-10-05T04:55:50.575Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3d754fe19dbee0d57b5cf760772a37e4960fb2ff9cc446cee949ef033b09ecea
-      proposed_primary_category: extensions-and-addons
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9458f681aaa91da0372f9ac2b652c5d4a191b12e9eebafd0fa206d2f9b9b8d0c
+      proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: >-
-        TestMu AI is primarily a testing platform that augments developer workflows with AI agents for test creation and
-        execution, making it an extension to coding and CI processes rather than a standalone coding agent or app
-        builder.
+      decision_reason: TestMu AI’s core value lies in coordinating multiple AI agents (Kane AI, HyperExecute, Test Manager, etc.) across testing workflows, making it an agent orchestration platform rather than a single coding agent or framework.
       decision_evidence:
-        - >-
-          Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools as a unified
-          testing platform
-        - >-
-          README emphasizes AI agents for test planning, authoring, and execution (KaneAI, Kane CLI) that integrate with
-          terminal, CI pipelines, and coding agents
-        - >-
-          Product offers MCP Server and integrations with Jenkins, GitHub Actions, JIRA, indicating it extends existing
-          developer toolchains
+        - Platform coordinates Kane AI (test authoring), HyperExecute (AI-native test orchestration), Test Manager (AI test management), and Agent Testing (voice/chat/video agent validation) as specialized agents
+        - Described as a 'unified quality engineering platform' and 'agentic AI testing cloud' that orchestrates end-to-end testing across web, mobile, and AI applications
+        - Source-list placement in awesome-ai-coding-tools under DevOps and Infrastructure aligns with its role as a platform for AI-augmented testing workflows
       category_candidates:
-        - extensions-and-addons
-        - coding-agents
-      contrastive_reason: >-
-        Choose extensions-and-addons over coding-agents because TestMu AI mainly provides AI-powered testing
-        capabilities that integrate into and augment developer workflows (like test generation for existing codebases)
-        rather than acting as a primary autonomous coding agent that writes or edits application code directly.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'coding-agents', proposed
-        'extensions-and-addons'
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because TestMu AI is an operated platform for managing agent teams and workflows, not a code-first library developers import and program against.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

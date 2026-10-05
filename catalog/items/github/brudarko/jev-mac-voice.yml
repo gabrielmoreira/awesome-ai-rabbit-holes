@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brudarko__jev-mac-voice__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: jev-mac-voice
         extracted_url: https://github.com/brudarko/jev-mac-voice
-        surrounding_text: >-
-          | [jev-mac-voice](https://github.com/brudarko/jev-mac-voice) | ★ 20 | JavaScript | 2026-09-23 | English
-          full-duplex voice control for macOS with OpenAI Realtime, native Accessibility, and Jev. |
+        surrounding_text: "| [jev-mac-voice](https://github.com/brudarko/jev-mac-voice) | ★ 20 | JavaScript | 2026-09-23 | English full-duplex voice control for macOS with OpenAI Realtime, native Accessibility, and Jev. |"
         confidence: high
 metadata:
   github:
@@ -47,9 +45,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for brudarko/jev-mac-voice
     - ungh.cc (cached GitHub proxy) returned 404 for brudarko/jev-mac-voice
@@ -64,17 +60,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-29T13:09:37.507Z'
+    updated_at: "2026-09-29T13:09:37.507Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: brudarko/jev-mac-voice'
+      message: "GitHub repository not found: brudarko/jev-mac-voice"
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

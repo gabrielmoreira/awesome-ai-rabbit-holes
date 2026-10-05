@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gloridifice__pi-jev-router__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: pi-jev-router (gloridifice)
         extracted_url: https://github.com/gloridifice/pi-jev-router
-        surrounding_text: >-
-          | [pi-jev-router (gloridifice)](https://github.com/gloridifice/pi-jev-router) | ★ 0 | TypeScript | 2026-09-20
-          | Jev model-routing integration for the Pi coding agent. |
+        surrounding_text: "| [pi-jev-router (gloridifice)](https://github.com/gloridifice/pi-jev-router) | ★ 0 | TypeScript | 2026-09-20 | Jev model-routing integration for the Pi coding agent. |"
         confidence: high
 metadata:
   github:
@@ -47,9 +45,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for gloridifice/pi-jev-router
     - ungh.cc (cached GitHub proxy) returned 404 for gloridifice/pi-jev-router
@@ -64,17 +60,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-29T13:11:44.225Z'
+    updated_at: "2026-09-29T13:11:44.225Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: gloridifice/pi-jev-router'
+      message: "GitHub repository not found: gloridifice/pi-jev-router"
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

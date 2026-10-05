@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sgroy10__speclock__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💻 Developer Tools
         anchor_text: sgroy10/speclock
         extracted_url: https://github.com/sgroy10/speclock
-        surrounding_text: >-
-          -   **[sgroy10/speclock](https://github.com/sgroy10/speclock)** [![GitHub
-          stars](https://img.shields.io/github/stars/sgroy10/speclock?style=social)](https://github.com/sgroy10/speclock):
-          Enforces project constraints from CLAUDE.md/AGENTS.md/.cursorrules as MCP checks before edits, shell commands,
-          and commits (51 tools).
+        surrounding_text: "-   **[sgroy10/speclock](https://github.com/sgroy10/speclock)** [![GitHub stars](https://img.shields.io/github/stars/sgroy10/speclock?style=social)](https://github.com/sgroy10/speclock): Enforces project constraints from CLAUDE.md/AGENTS.md/.cursorrules as MCP checks before edits, shell commands, and commits (51 tools)."
         confidence: high
 metadata:
   github:
@@ -54,16 +50,16 @@ curation:
     - jev winnow:e4b 0.24 below gate 0.50; proposed skills / Skill Packs & Libraries; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - skills
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

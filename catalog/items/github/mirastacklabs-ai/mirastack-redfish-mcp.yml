@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mirastacklabs-ai__mirastack-redfish-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: mirastacklabs-ai/mirastack-redfish-mcp
         extracted_url: https://github.com/mirastacklabs-ai/mirastack-redfish-mcp
-        surrounding_text: >-
-          - [mirastacklabs-ai/mirastack-redfish-mcp](https://github.com/mirastacklabs-ai/mirastack-redfish-mcp)
-          [![mirastacklabs-ai/mirastack-redfish-mcp MCP
-          server](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp)
-          🎖️ 🐍 ☁️ 📟 - Governed access to DMTF Redfish BMCs (iDRAC, iLO, XCC, OpenBMC) for power, thermal, firmware
-          and BIOS management; read-only by default with tiered write modes.
+        surrounding_text: "- [mirastacklabs-ai/mirastack-redfish-mcp](https://github.com/mirastacklabs-ai/mirastack-redfish-mcp) [![mirastacklabs-ai/mirastack-redfish-mcp MCP server](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mirastacklabs-ai/mirastack-redfish-mcp) 🎖️ 🐍 ☁️ 📟 - Governed access to DMTF Redfish BMCs (iDRAC, iLO, XCC, OpenBMC) for power, thermal, firmware and BIOS management; read-only by default with tiered write modes."
         confidence: high
 metadata:
   github:
@@ -43,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    mirastacklabs-ai/mirastack-redfish-mcp ️ ☁️ - Governed access to DMTF Redfish BMCs (iDRAC, iLO, XCC, OpenBMC) for
-    power, thermal, firmware and BIOS management; read-only by default with tiered write modes.
+  summary: mirastacklabs-ai/mirastack-redfish-mcp ️ ☁️ - Governed access to DMTF Redfish BMCs (iDRAC, iLO, XCC, OpenBMC) for power, thermal, firmware and BIOS management; read-only by default with tiered write modes.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__szczyglis-dev__py-gpt__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: PyGPT
         extracted_url: https://github.com/szczyglis-dev/py-gpt
-        surrounding_text: >-
-          | [PyGPT](https://github.com/szczyglis-dev/py-gpt) | ★ 1,941 | Python | 2026-09-25 | Desktop AI assistant with
-          a Jev plugin for typed classification, routing, verification, and scoring. |
+        surrounding_text: "| [PyGPT](https://github.com/szczyglis-dev/py-gpt) | ★ 1,941 | Python | 2026-09-25 | Desktop AI assistant with a Jev plugin for typed classification, routing, verification, and scoring. |"
         confidence: high
 metadata:
   github:
@@ -60,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

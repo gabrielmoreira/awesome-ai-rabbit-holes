@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yeachan-heo__oh-my-claudecode__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,19 +19,7 @@ provenance:
           - Find by coding agent
         anchor_text: oh-my-claudecode
         extracted_url: https://github.com/yeachan-heo/oh-my-claudecode
-        surrounding_text: >-
-          - **Claude Code** (13) — [jev-skill-router](https://github.com/shimo4228/jev-skill-router) ·
-          [spending-effort-with-jev](https://github.com/Yaxin9Luo/spending-effort-with-jev) · [Sniff
-          Test](https://github.com/DanRWilloughby/snifftest) ·
-          [claude-code-templates](https://github.com/davila7/claude-code-templates) ·
-          [jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard) ·
-          [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) ·
-          [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) ·
-          [jev-belay](https://github.com/valentynkit/jev-belay) · [jev-pruner](https://github.com/tamaratran/jev-pruner)
-          · [SkillRanker](https://github.com/Dicklesworthstone/skillranker) ·
-          [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) ·
-          [jev-opus](https://github.com/WXK-AI/jev-opus) ·
-          [jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)
+        surrounding_text: "- **Claude Code** (13) — [jev-skill-router](https://github.com/shimo4228/jev-skill-router) · [spending-effort-with-jev](https://github.com/Yaxin9Luo/spending-effort-with-jev) · [Sniff Test](https://github.com/DanRWilloughby/snifftest) · [claude-code-templates](https://github.com/davila7/claude-code-templates) · [jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard) · [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) · [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) · [jev-belay](https://github.com/valentynkit/jev-belay) · [jev-pruner](https://github.com/tamaratran/jev-pruner) · [SkillRanker](https://github.com/Dicklesworthstone/skillranker) · [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) · [jev-opus](https://github.com/WXK-AI/jev-opus) · [jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)"
         confidence: high
 metadata:
   github:
@@ -58,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.44 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

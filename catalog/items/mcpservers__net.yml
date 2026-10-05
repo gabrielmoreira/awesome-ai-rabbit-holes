@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpservers__net__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCPServers.Net
         extracted_url: https://mcpservers.net
-        surrounding_text: '- **[MCPServers.Net](https://mcpservers.net/)** – Comprehensive MCP navigation with tutorials and resources.'
+        surrounding_text: "- **[MCPServers.Net](https://mcpservers.net/)** – Comprehensive MCP navigation with tutorials and resources."
         confidence: high
 metadata:
   github:
@@ -36,28 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: mcpservers.net is a domain marketplace listing for the sale of the mcpservers.net domain via Spaceship.com.
-  why_it_matters: >-
-    It does not matter to developers as a tool, agent, or infrastructure; it is a domain sale listing with no
-    developer-facing functionality.
-  mental_damage: The anxiety of mistaking a domain parking page for an MCP server registry is the quiet horror of AI tooling fatigue.
+  summary: mcpservers.net is a domain name currently for sale on the Spaceship marketplace.
+  why_it_matters: It does not matter to developers as it offers no tool, service, or code related to AI development.
+  mental_damage: Another premium domain squat hoping someone confuses it for actual MCP infrastructure.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no functionality
-    relevant to AI-assisted development workflows.
+  reason: The site is a domain marketplace listing with no AI developer tooling, product, or functionality; it is purely a domain for sale.
   evidence:
-    - >-
-      The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via
-      Spaceship.com.
-    - >-
-      No README, repo description, or tool functionality is provided; the source-list context only references the domain
-      name in a list title.
-    - >-
-      There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing
-      service.
+    - Scraped site shows 'Domain for sale' with pricing and purchase flow via Spaceship
+    - Source-list context notes it appears in awesome-ai-coding-tools only as a linked page for domain purchase
+    - No README, repo description, or tool claims are provided; the page is solely a domain transaction interface
 placement:
   primary_category: null
   section: null
@@ -67,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,32 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:13.562Z'
+    updated_at: "2026-10-05T04:42:13.259Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6e46c6183467154fd55bf52b5393eb3811dbd64e98a2461e6d4ff9b1151d4747
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:937c1f85290a25c88eb4d4ced4d949a813072a1593654de5989fab04095f2877
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The site is a domain sales page with no MCP server, client, tool, or developer product; it offers no
-        functionality relevant to AI-assisted development workflows.
+      decision_reason: The site is a domain marketplace listing with no AI developer tooling, product, or functionality; it is purely a domain for sale.
       decision_evidence:
-        - >-
-          The scraped page shows a domain listing for sale with pricing, payment methods, and transfer support via
-          Spaceship.com.
-        - >-
-          No README, repo description, or tool functionality is provided; the source-list context only references the
-          domain name in a list title.
-        - >-
-          There is no evidence of MCP server implementation, tool exposure, registry operation, or any developer-facing
-          service.
+        - Scraped site shows 'Domain for sale' with pricing and purchase flow via Spaceship
+        - Source-list context notes it appears in awesome-ai-coding-tools only as a linked page for domain purchase
+        - No README, repo description, or tool claims are provided; the page is solely a domain transaction interface
       category_candidates: []
       contrastive_reason: null
       review_reason: null

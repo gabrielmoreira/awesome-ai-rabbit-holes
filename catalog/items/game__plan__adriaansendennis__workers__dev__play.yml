@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__game__plan__adriaansendennis__workers__dev__play__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: Game Plan
         extracted_url: https://game-plan.adriaansendennis.workers.dev/play
-        surrounding_text: >-
-          - [Game Plan](https://game-plan.adriaansendennis.workers.dev/play)
-          ([post](https://x.com/DennisAdriaans/status/2100616874719347136)) - Small game that tests how Jev handles
-          unknown input.
+        surrounding_text: "- [Game Plan](https://game-plan.adriaansendennis.workers.dev/play) ([post](https://x.com/DennisAdriaans/status/2100616874719347136)) - Small game that tests how Jev handles unknown input."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A game built on the Jev decision model where users interact via prompts.
+  why_it_matters: Demonstrates applying decision models to interactive entertainment, showing their use beyond coding workflows.
+  mental_damage: Another reminder that even Jev needs a hobby to feel useful in a world obsessed with AI coding agents.
+  tags:
+    - game
+    - jev
+    - decision-model
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project is a game whose core mechanic relies on the Jev decision model for typed judgments, placing it firmly in decision-models as an application of the model rather than a coding agent or extension.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Listed in awesome-jev under 'Games & simulations' as a project built on Jev
+    - URL hosts a playable game interface via Workers.dev
+    - No evidence of coding assistance, code editing, or agent behavior
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Browser & Computer Use
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:47.749Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a13e9c350a71190a0d4abc45703c3a1f1667ef9a3d1a62612d4549a2449ac1f5
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is a game whose core mechanic relies on the Jev decision model for typed judgments, placing it firmly in decision-models as an application of the model rather than a coding agent or extension.
+      decision_evidence:
+        - Listed in awesome-jev under 'Games & simulations' as a project built on Jev
+        - URL hosts a playable game interface via Workers.dev
+        - No evidence of coding assistance, code editing, or agent behavior
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product's identity is the Jev model powering gameplay, not generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

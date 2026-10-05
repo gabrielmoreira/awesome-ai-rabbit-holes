@@ -5,9 +5,8 @@ canonical_url: https://youtube.com/channel/UC-zVytOQB62OwMhKRi0TDvg
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__www__youtube__com__channel__uc__zvytoqb62owmhkri0tdvg__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__www__youtube__com__channel__uc__zvytoqb62owmhkri0tdvg__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -22,7 +21,7 @@ provenance:
         surrounding_text: 5. [YTB：AI Anytime](https://www.youtube.com/channel/UC-zVytOQB62OwMhKRi0TDvg)
         confidence: high
     - id: discovery__youtube__com__channel__uc__zvytoqb62owmhkri0tdvg__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -52,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube channel providing educational content on LLMs and AI development topics.
-  why_it_matters: Offers developers a video-based resource for learning about AI tools, techniques, and trends.
-  mental_damage: >-
-    Another tutorial channel promising to save you time while adding to your infinite backlog of 'I should watch that'
-    videos.
+  summary: YouTube channel UC-zVytOQB62OwMhKRi0TDvg, listed as a tutorial resource in an awesome LLM list.
+  why_it_matters: It is referenced as a tutorial source in an awesome LLM resources list, suggesting educational content on LLMs.
+  mental_damage: Another YouTube channel promising LLM mastery while you wait for the algorithm to stop recommending 'build an AI agent in 5 minutes' videos.
   tags:
-    - video
+    - youtube
     - tutorial
-    - education
+    - llm
   confidence: high
 curation:
   status: excluded
-  reason: It is a content publication rather than a developer-facing tool, agent, framework, or infrastructure product.
+  reason: A YouTube channel is not a developer-facing AI tool, agent, workflow, or infrastructure; it is educational content, which falls outside the catalog's scope of practical AI products for software developers.
   evidence:
-    - 'Seen in source list: awesome-LLM-resources under ''教程 Tutorial'' section'
-    - URL is a YouTube channel (UC-zVytOQB62OwMhKRi0TDvg), not a GitHub repo or standalone product
-    - No description, README, or tool-specific context provided — only a video channel identifier
+    - "URL is a YouTube channel: https://youtube.com/channel/UC-zVytOQB62OwMhKRi0TDvg"
+    - Listed in awesome-LLM-resources under '教程 Tutorial' as an educational resource
+    - No repo description, README, or site context indicating it is a tool, agent, SDK, or platform
 placement:
   primary_category: null
   section: null
@@ -78,31 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:33.269Z'
+    updated_at: "2026-10-05T04:58:17.101Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6bbf71ad7329ecbdad4351e3539f5f1579783d3cbaeb51203ec676a454f52550
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2a04d675bce83c15a3cf05c7294fd9e4a8bc9feb944a7539bf35879a1d8bbb70
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a content publication rather than a developer-facing tool, agent, framework, or infrastructure product.
+      decision_reason: A YouTube channel is not a developer-facing AI tool, agent, workflow, or infrastructure; it is educational content, which falls outside the catalog's scope of practical AI products for software developers.
       decision_evidence:
-        - 'Seen in source list: awesome-LLM-resources under ''教程 Tutorial'' section'
-        - URL is a YouTube channel (UC-zVytOQB62OwMhKRi0TDvg), not a GitHub repo or standalone product
-        - No description, README, or tool-specific context provided — only a video channel identifier
+        - "URL is a YouTube channel: https://youtube.com/channel/UC-zVytOQB62OwMhKRi0TDvg"
+        - Listed in awesome-LLM-resources under '教程 Tutorial' as an educational resource
+        - No repo description, README, or site context indicating it is a tool, agent, SDK, or platform
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.972Z'
+    updated_at: "2026-07-21T15:20:21.972Z"
     cause: null
     next_retry_at: null
   stars:

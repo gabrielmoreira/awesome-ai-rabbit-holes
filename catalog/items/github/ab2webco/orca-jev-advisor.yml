@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ab2webco__orca-jev-advisor__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: orca-jev-advisor
         extracted_url: https://github.com/ab2webco/orca-jev-advisor
-        surrounding_text: >-
-          - [orca-jev-advisor](https://github.com/ab2webco/orca-jev-advisor) - Orca Lab decision layer: TypeSafe Jev
-          judges risky agent commands while local rules cover obvious cases (license unspecified at tip). [Project
-          guide](community/projects/tools/orca-jev-advisor.md).
+        surrounding_text: "- [orca-jev-advisor](https://github.com/ab2webco/orca-jev-advisor) - Orca Lab decision layer: TypeSafe Jev judges risky agent commands while local rules cover obvious cases (license unspecified at tip). [Project guide](community/projects/tools/orca-jev-advisor.md)."
         confidence: high
 metadata:
   github:
@@ -33,30 +30,31 @@ metadata:
     archived: false
     full_name: ab2webco/orca-jev-advisor
     html_url: https://github.com/ab2webco/orca-jev-advisor
-    created_at: '2026-09-28T04:47:35Z'
-    pushed_at: '2026-09-29T02:05:04Z'
-    description: >-
-      Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way
-      otherwise.
+    created_at: "2026-09-28T04:47:35Z"
+    pushed_at: "2026-09-29T02:05:04Z"
+    description: "Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way otherwise."
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:22.540Z'
+    last_checked_at: "2026-09-29T13:08:22.540Z"
     readme:
-      fetched_at: '2026-09-29T13:08:22.540Z'
+      fetched_at: "2026-09-29T13:08:22.540Z"
       bytes: 67866
 insights:
-  summary: >-
-    Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way
-    otherwise.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev-backed decision layer for Orca Lab that judges agent actions and stays out of the way otherwise.
+  why_it_matters: Provides automated safety checks for agent workflows by evaluating whether intended actions should proceed using typed decision models.
+  mental_damage: Adds another layer of AI-mediated anxiety where you're not just waiting for code to run, but waiting for an AI to decide if you're allowed to run it.
+  tags:
+    - jev
+    - decision-models
+    - agent-safety
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The product's core identity is a Jev-based decision layer that judges agent actions via typed questions with probabilities, making it a decision model tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.91
+    - "Repo description: 'Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way otherwise.'"
+    - "Source-list context: Listed in awesome-jev under 'Community projects > Developer projects and integrations'."
+    - Created and pushed in September 2026 shows recent activity with no archive flag.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -67,15 +65,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.433Z'
+    updated_at: "2026-09-29T13:07:10.433Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:22.540Z'
+    updated_at: "2026-09-29T13:08:22.540Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:42.318Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:36c5c6be30a4d28325f2f0536f7f3cff52d5bd4091a4047b18663e1c6da9a5df
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a Jev-based decision layer that judges agent actions via typed questions with probabilities, making it a decision model tool rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way otherwise.'"
+        - "Source-list context: Listed in awesome-jev under 'Community projects > Developer projects and integrations'."
+        - Created and pushed in September 2026 shows recent activity with no archive flag.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's primary function is judging agent actions via a decision model (Jev), not performing coding tasks like writing or editing code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

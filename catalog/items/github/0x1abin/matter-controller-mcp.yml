@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0x1abin__matter-controller-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 📟 <a name="embedded-system"></a>Embedded System
         anchor_text: 0x1abin/matter-controller-mcp
         extracted_url: https://github.com/0x1abin/matter-controller-mcp
-        surrounding_text: >-
-          - [0x1abin/matter-controller-mcp](https://github.com/0x1abin/matter-controller-mcp) 📇 📟 - An MCP server for
-          Matter Controller, enabling AI agents to control and interact with Matter devices.
+        surrounding_text: "- [0x1abin/matter-controller-mcp](https://github.com/0x1abin/matter-controller-mcp) 📇 📟 - An MCP server for Matter Controller, enabling AI agents to control and interact with Matter devices."
         confidence: high
 metadata:
   github:
@@ -32,23 +30,19 @@ metadata:
     archived: false
     full_name: 0x1abin/matter-controller-mcp
     html_url: https://github.com/0x1abin/matter-controller-mcp
-    created_at: '2025-07-13T17:31:08Z'
-    pushed_at: '2025-08-05T03:43:06Z'
+    created_at: "2025-07-13T17:31:08Z"
+    pushed_at: "2025-08-05T03:43:06Z"
     description: An MCP server for Matter Controller, enabling AI agents to control and interact with Matter devices.
     homepage: https://github.com/0x1abin/matter-controller-mcp
     topics: []
-    last_checked_at: '2026-09-17T04:13:24.659Z'
+    last_checked_at: "2026-09-17T04:13:24.659Z"
     readme:
-      fetched_at: '2026-09-17T04:13:24.659Z'
+      fetched_at: "2026-09-17T04:13:24.659Z"
       bytes: 8897
 insights:
   summary: An MCP server that enables AI agents to discover, commission, and control Matter-compatible smart home devices.
-  why_it_matters: >-
-    It provides a standardized interface for LLMs to move beyond text and interact with physical IoT hardware via the
-    Model Context Protocol.
-  mental_damage: >-
-    Because once your coding assistant can dim the lights, you'll eventually find yourself debugging a smart bulb's
-    cluster attributes via a terminal agent.
+  why_it_matters: It provides a standardized interface for LLMs to move beyond text and interact with physical IoT hardware via the Model Context Protocol.
+  mental_damage: Because once your coding assistant can dim the lights, you'll eventually find yourself debugging a smart bulb's cluster attributes via a terminal agent.
   tags:
     - mcp
     - iot
@@ -71,19 +65,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.598Z'
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-28T04:13:55.426Z'
+    updated_at: "2026-10-05T04:19:13.481Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 0x1abin/matter-controller-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.817Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -106,8 +100,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an augmentation of
-        an existing coding assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an augmentation of an existing coding assistant.
       review_reason: null
       review_resume_lifecycle: null

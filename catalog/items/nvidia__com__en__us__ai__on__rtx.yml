@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nvidia__com__en__us__ai__on__rtx__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,12 +18,10 @@ provenance:
           - 推理 Inference
         anchor_text: NVIDIA ChatRTX
         extracted_url: https://nvidia.com/en-us/ai-on-rtx/chatrtx
-        surrounding_text: >-
-          11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you
-          personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data.
+        surrounding_text: "11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data."
         confidence: high
     - id: discovery__www__nvidia__com__en__us__ai__on__rtx__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,9 +33,7 @@ provenance:
           - 推理 Inference
         anchor_text: NVIDIA ChatRTX
         extracted_url: https://www.nvidia.com/en-us/ai-on-rtx/chatrtx
-        surrounding_text: >-
-          11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you
-          personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data.
+        surrounding_text: "11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data."
         confidence: high
 metadata:
   github:
@@ -55,68 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    NVIDIA ChatRTX is a desktop AI assistant that runs locally on RTX PCs to answer questions using personal documents
-    and data.
-  why_it_matters: >-
-    It lets developers run private, offline LLM-powered search and Q&A on their own files without relying on cloud APIs
-    or internet access.
-  mental_damage: Another 'AI PC' app that makes you wonder if your GPU is now a full-time therapist for your messy Downloads folder.
+  summary: NVIDIA RTX AI PCs are consumer-grade desktop and laptop systems marketed for AI-enhanced gaming, creativity, and productivity using GeForce RTX GPUs.
+  why_it_matters: These systems provide hardware acceleration for local AI workloads, enabling developers to run LLMs, diffusion models, and AI-assisted creative tools on RTX-equipped machines.
+  mental_damage: Buying a $3000 'AI PC' to run a 7B parameter model locally while waiting for cloud APIs to feel less like gambling.
   tags:
+    - hardware
     - local-ai
-    - desktop-assistant
-    - offline-ai
-  confidence: medium
+    - rtx
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
+  status: excluded
+  reason: NVIDIA ChatRTX is a consumer hardware product line (RTX AI PCs) with no developer-facing tooling, SDK, agent, or workflow — it is marketing for AI-capable GPUs, not a tool for software developers.
   evidence:
-    - jev-latest choice confidence 0.88
+    - "Repo description: (none)"
+    - "Scraped site context: Title 'RTX AI PCs | Next-Level AI Performance', Description 'Unparalleled AI performance in gaming, creativity, and everyday.'"
+    - "Source-list context: Listed under '推理 Inference' in an LLM resource directory, but the linked page is a consumer product landing page with no developer tooling claims."
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Desktop Chat & UIs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:43:29.035Z'
+    updated_at: "2026-10-05T04:49:33.298Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:75de7c8769ce900461d8ace7a0725817864f49fe8e76ed26fed917160c68243b
-      proposed_primary_category: local-ai
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b8a429ece6e79fd613db391649c1c4e3b3b742d73f218c19856c595f76c9f697
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        NVIDIA ChatRTX is a self-hosted desktop application that runs LLMs locally on RTX hardware for private document
-        querying, fitting the local AI runtime category.
+      decision_reason: NVIDIA ChatRTX is a consumer hardware product line (RTX AI PCs) with no developer-facing tooling, SDK, agent, or workflow — it is marketing for AI-capable GPUs, not a tool for software developers.
       decision_evidence:
-        - >-
-          Scraped site context describes it as 'AI PCs for gaming, creating, productivity and development' with local AI
-          capabilities
-        - >-
-          Positioned as an on-device assistant (Project G-Assist) that uses RTX GPUs for private inference without cloud
-          dependency
-        - Appears in awesome-LLM-resources under 'Inference' section as a tool for local model use
-      category_candidates:
-        - local-ai
-        - app-builders
-      contrastive_reason: >-
-        Choose local-ai over app-builders because ChatRTX is a local desktop chat UI for querying personal data, not a
-        tool that generates deployable apps from prompts.
+        - "Repo description: (none)"
+        - "Scraped site context: Title 'RTX AI PCs | Next-Level AI Performance', Description 'Unparalleled AI performance in gaming, creativity, and everyday.'"
+        - "Source-list context: Listed under '推理 Inference' in an LLM resource directory, but the linked page is a consumer product landing page with no developer tooling claims."
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:

@@ -1,13 +1,12 @@
 id: blog__csdn__net__muyao987__article__details__125917234
 kind: website
-name: '125917234'
+name: "125917234"
 canonical_url: https://blog.csdn.net/muyao987/article/details/125917234
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__blog__csdn__net__muyao987__article__details__125917234__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__blog__csdn__net__muyao987__article__details__125917234__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 技巧 Tips
         anchor_text: 基于 transformers 的 generate() 方法实现多样化文本生成：参数含义和算法原理解读
         extracted_url: https://blog.csdn.net/muyao987/article/details/125917234
-        surrounding_text: >-
-          37. [基于 transformers 的 generate()
-          方法实现多样化文本生成：参数含义和算法原理解读](https://blog.csdn.net/muyao987/article/details/125917234)
+        surrounding_text: 37. [基于 transformers 的 generate() 方法实现多样化文本生成：参数含义和算法原理解读](https://blog.csdn.net/muyao987/article/details/125917234)
         confidence: high
 metadata:
   github:
@@ -39,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated collection of LLM resources including multimodal generation, agents, coding assistance, and MCP insights.
-  why_it_matters: >-
-    It provides a high-density starting point for developers navigating the rapidly evolving landscape of LLM
-    capabilities and agentic workflows.
-  mental_damage: >-
-    A single bookmark that promises to keep you updated on everything from o1 models to MCP, ensuring you never feel
-    truly caught up.
+  summary: A CSDN blog post detailing LLM resources and techniques.
+  why_it_matters: Serves as a reference list for developers exploring LLM tools and methodologies.
+  mental_damage: Another link in the chain of never-ending AI resource dumps that promise clarity but deliver tab fatigue.
   tags:
-    - llm-resources
-    - curated-list
-  confidence: medium
+    - llm
+    - resources
+    - blog
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: Excluded because it is a blog article, not a standalone developer tool or product.
   evidence:
-    - jev-latest choice confidence 0.94
+    - URL points to a CSDN article (blog.csdn.net/muyao987/article/details/125917234)
+    - Source-list context shows it appears only as a referenced resource in awesome-LLM-resources under '技巧 Tips'
+    - No repo description, stars, or activity signals indicate a tool or project
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,34 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:50.876Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for blog__csdn__net__muyao987__article__details__125917234: Upstream error
-        from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:01.382Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7dad79e24ad132783f7a51c56127d54ce908053b63fe211a150df00e2a91f7ad
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2be82485be53e076c111ec1b8ca25e4d32f15aad43f2c7a9e4e3da23f0563818
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: The source is a blog post functioning as a curated directory of LLM resources, matching the scope of awesome-awesomes as a publication feed for developers.
+      decision_reason: Excluded because it is a blog article, not a standalone developer tool or product.
       decision_evidence:
-        - "Seen in awesome-LLM-resources with purpose: 'Summary of the world's best LLM resources' under 技巧 Tips"
-        - URL is a CSDN blog article (https://blog.csdn.net/muyao987/article/details/125917234), not a standalone tool or product
-        - No GitHub repo, stars, or activity signals — purely a content resource
-      category_candidates:
-        - awesome-awesomes
-        - skills
-      contrastive_reason: >-
-        Choose awesome-awesomes over skills because the resource is a collection of diverse topics and information
-        rather than a specific, portable pack of reusable agent instructions.
+        - URL points to a CSDN article (blog.csdn.net/muyao987/article/details/125917234)
+        - Source-list context shows it appears only as a referenced resource in awesome-LLM-resources under '技巧 Tips'
+        - No repo description, stars, or activity signals indicate a tool or project
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

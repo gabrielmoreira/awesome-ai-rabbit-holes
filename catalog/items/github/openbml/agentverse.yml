@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openbml__agentverse__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,9 +20,7 @@ provenance:
           - Multi-Agent Orchestration Frameworks
         anchor_text: AgentVerse
         extracted_url: https://github.com/openbml/agentverse
-        surrounding_text: >-
-          | [AgentVerse](https://github.com/OpenBML/AgentVerse) | Platform for running multiple LLM agents in simulated
-          environments | ![Stars](https://img.shields.io/github/stars/OpenBML/AgentVerse) |
+        surrounding_text: "| [AgentVerse](https://github.com/OpenBML/AgentVerse) | Platform for running multiple LLM agents in simulated environments | ![Stars](https://img.shields.io/github/stars/OpenBML/AgentVerse) |"
         confidence: high
 metadata:
   github:
@@ -47,9 +45,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for openbml/agentverse
     - ungh.cc (cached GitHub proxy) returned 404 for openbml/agentverse
@@ -64,19 +60,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.640Z'
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-07-23T05:09:45.282Z'
+    updated_at: "2026-07-23T05:09:45.282Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for openbml/agentverse
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

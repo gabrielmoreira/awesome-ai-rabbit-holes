@@ -5,9 +5,8 @@ canonical_url: https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curat
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__ai__meta__com__blog__how__to__fine__tune__llms__peft__dataset__curation__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__ai__meta__com__blog__how__to__fine__tune__llms__peft__dataset__curation__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 技巧 Tips
-        anchor_text: 'Part 3: How to fine-tune: Focus on effective datasets'
+        anchor_text: "Part 3: How to fine-tune: Focus on effective datasets"
         extracted_url: https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation
-        surrounding_text: >-
-          22. [Part 3: How to fine-tune: Focus on effective
-          datasets](https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation/)
+        surrounding_text: "22. [Part 3: How to fine-tune: Focus on effective datasets](https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation/)"
         confidence: high
 metadata:
   github:
@@ -39,25 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Meta AI research blog post detailing best practices and design variables for fine-tuning LLMs using
-    Parameter-Efficient Fine-Tuning (PEFT).
-  why_it_matters: >-
-    It provides empirical guidance on dataset quality, diversity, and the trade-offs between full fine-tuning and PEFT
-    to help developers optimize model performance under compute constraints.
-  mental_damage: 'Just what you needed: more ''rules of thumb'' to debate while your GPU credits evaporate.'
+  summary: A Meta AI blog post explaining best practices for curating high-quality datasets when fine-tuning LLMs with PEFT techniques.
+  why_it_matters: It provides practical guidance on data quality and diversity strategies that directly impact the success of fine-tuning workflows for developers working with LLMs.
+  mental_damage: Another reminder that your dataset curation habits are probably why your fine-tuned model keeps hallucinating SQL queries about customer satisfaction.
   tags:
-    - llm
-    - fine-tuning
     - dataset-curation
+    - llm-finetuning
+    - peft
+    - data-quality
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational blog post, not a developer-facing tool, product, or infrastructure.
+  reason: This is an educational blog post about dataset curation best practices, not a developer-facing tool, agent, framework, or product that changes workflows.
   evidence:
-    - Source is a Meta AI blog post (ai.meta.com/blog/...)
-    - Content explains rules of thumb for curating training datasets
-    - No tool, SDK, agent, or reusable artifact is offered or described
+    - "Source is a Meta AI blog post titled 'How to fine-tune: Focus on effective datasets'"
+    - Content explains rules of thumb for dataset quality, diversity, and LLM-based data pipelines for fine-tuning
+    - No indication of being a reusable tool, SDK, agent, or infrastructure—purely explanatory documentation
 placement:
   primary_category: null
   section: null
@@ -67,41 +61,35 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:06.474Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for ai__meta__com__blog__how__to__fine__tune__llms__peft__dataset__curation:
-        Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:27:50.677Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:459d8d70afc1f07927570931b66c4a4178af166656c5ae3ab55445b78e9ebfba
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f736332d9526ddab753957ca14224ee28a297dae9096fa2749b408f4cda3bd92
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational blog post, not a developer-facing tool, product, or infrastructure.
+      decision_reason: This is an educational blog post about dataset curation best practices, not a developer-facing tool, agent, framework, or product that changes workflows.
       decision_evidence:
-        - Source is a Meta AI blog post (ai.meta.com/blog/...)
-        - Content explains rules of thumb for curating training datasets
-        - No tool, SDK, agent, or reusable artifact is offered or described
+        - "Source is a Meta AI blog post titled 'How to fine-tune: Focus on effective datasets'"
+        - Content explains rules of thumb for dataset quality, diversity, and LLM-based data pipelines for fine-tuning
+        - No indication of being a reusable tool, SDK, agent, or infrastructure—purely explanatory documentation
       category_candidates: []
       contrastive_reason: null
       review_reason: null

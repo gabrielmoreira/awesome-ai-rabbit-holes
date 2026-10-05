@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__epsilla__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,14 +18,10 @@ provenance:
           - LLMOps
         anchor_text: Epsilla
         extracted_url: https://epsilla.com
-        surrounding_text: >-
-          | [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create
-          vertical AI agents powered by your private data and
-          knowledge.                                                                                                                                                                                                     
-          |               |
+        surrounding_text: "| [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create vertical AI agents powered by your private data and knowledge.                                                                                                                                                                                                      |               |"
         confidence: high
     - id: discovery__www__epsilla__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,11 +33,7 @@ provenance:
           - LLMOps
         anchor_text: Epsilla
         extracted_url: https://epsilla.com
-        surrounding_text: >-
-          | [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create
-          vertical AI agents powered by your private data and
-          knowledge.                                                                                                                                                                                                     
-          |               |
+        surrounding_text: "| [Epsilla](https://epsilla.com)                                     | An all-in-one platform to create vertical AI agents powered by your private data and knowledge.                                                                                                                                                                                                      |               |"
         confidence: high
 metadata:
   github:
@@ -59,22 +51,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Epsilla is a managed Agent-as-a-Service platform for building and deploying vertical AI agents with enterprise
-    features like RAG, multi-tenancy, and no-code agent building.
-  why_it_matters: >-
-    It lets enterprises deploy domain-specific AI agents without managing infrastructure, reducing time-to-value for
-    internal tools and customer-facing applications.
-  mental_damage: >-
-    Another 'no-code AI agent' platform promising to abstract away engineering while quietly locking you into a
-    proprietary harness and data pipeline.
+  summary: Epsilla is an Agent-as-a-Service platform for building and deploying vertical AI agents without infrastructure management.
+  why_it_matters: It lets enterprises create domain-specific AI agents quickly by handling retrieval, model orchestration, and deployment complexity.
+  mental_damage: Another 'no-code AI agent' promise that makes you wonder if your backend team just became obsolete before lunch.
   tags:
-    - ai-agent-platform
-    - enterprise-ai
+    - agent-platform
     - rag-as-a-service
-    - vertical-ai
-    - managed-service
-  confidence: high
+    - enterprise-ai
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
@@ -83,52 +67,42 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:52.631Z'
+    updated_at: "2026-10-05T04:47:38.673Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:640f3a7cb624943efd3cfba1a28c66d68f49d8bcdac68d23fac02796a6fbaba9
-      proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: >-
-        Epsilla is an enterprise control plane for orchestrating and managing vertical AI agents, positioning itself as
-        a hosted platform for deploying agent teams with RAG, multi-tenancy, and API access — not a coding agent or
-        framework.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aa6dc51a6c35d3564e6ed93e24ff1f41db4cb17bef7fccdc9d65a1fc093cf70f
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: Epsilla enables non-technical users to build and deploy domain-specific AI agents via drag-and-drop and APIs, aligning with app-builder behavior where prompts generate deployable internal tools rather than coding assistance.
       decision_evidence:
-        - >-
-          Epsilla describes itself as an 'Agent-as-a-Service platform for enterprises' with tools to 'monitor, analyze
-          and optimize your AI agents' performance'
-        - >-
-          It provides 'no-code AI Agent Builder' and 'RAG as a Service' to deploy agents without infrastructure
-          complexity
-        - >-
-          The platform runs on HarnessRouter, which Epsilla positions as a 'runtime layer' and 'unified interface for
-          agent harnesses' to switch models and agents per feature
+        - Build sophisticated AI agents without writing a single line of code. Drag-and-drop interface makes it simple for anyone on your team.
+        - Create and deploy AI agents with zero infrastructure complexity.
+        - Epsilla runs on HarnessRouter — a unified interface for agent harnesses — turning prompts into functional agents with RAG, UI, and API output.
       category_candidates:
-        - agent-orchestration
         - app-builders
-      contrastive_reason: >-
-        Choose agent-orchestration over app-builders because Epsilla's core identity is managing and deploying AI agents
-        as a service — not generating deployable apps from prompts — with enterprise features like multi-tenancy, agent
-        analytics, and API-driven agent composition.
-      review_reason: null
-      review_resume_lifecycle: null
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because Epsilla’s core value is turning prompts into domain-specific AI agents (apps/tools), not coordinating multiple agents in a workforce or workflow platform.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

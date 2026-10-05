@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__sweeppea__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Sweeppea
         extracted_url: https://www.sweeppea.com
-        surrounding_text: >-
-          - [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info)
-          [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP
-          server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info)
-          📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and
-          Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a
-          [Sweeppea](https://www.sweeppea.com/) subscription.
+        surrounding_text: "- [Sweeppea-Development-Lab/sweeppea-mcp-info](https://github.com/Sweeppea-Development-Lab/sweeppea-mcp-info) [![Sweeppea-Development-Lab/sweeppea-mcp-info MCP server](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info/badges/score.svg)](https://glama.ai/mcp/servers/Sweeppea-Development-Lab/sweeppea-mcp-info) 📇 ☁️ - Sweepstakes management platform with 70 MCP tools for legally compliant promotions in the US and Canada. Manage participants, official rules, winner drawings, entry pages, billing, and more. Requires a [Sweeppea](https://www.sweeppea.com/) subscription."
         confidence: high
 metadata:
   github:
@@ -43,34 +37,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Sweeppea is a web-based AI app builder that generates full applications from text prompts.
-  why_it_matters: >-
-    It lets developers turn ideas into deployable apps without writing code, speeding up prototyping and internal tool
-    creation.
-  mental_damage: >-
-    Another prompt-to-app promise that makes you wonder if 'just describe it' will ever actually ship something
-    maintainable.
-  tags:
-    - app-builder
-    - prompt-to-app
-    - no-code
-  confidence: medium
+  summary: sweeppea.com is a website that appears to be a sweepstakes or giveaway platform with no discernible developer tooling or AI functionality.
+  why_it_matters: It does not meaningfully impact software developer workflows or provide AI-powered coding assistance.
+  mental_damage: Another URL that promises AI leverage but delivers only the quiet despair of misplaced hope in a .com domain.
+  tags: []
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  status: excluded
+  reason: The site offers no AI tooling, agent behavior, or developer-facing utility; it is unrelated to the catalog's scope of practical AI tools for software development.
   evidence:
-    - jev-latest choice confidence 0.94
+    - Repo description is missing, indicating no GitHub source or developer project context
+    - No README excerpt or meaningful technical description was provided to assess functionality
+    - The URL points to a commercial sweepstakes site with no observable connection to AI, code, or developer workflows
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.670Z'
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,31 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:50:34.442Z'
+    updated_at: "2026-10-05T04:58:02.238Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:840b160bbe9ac2facac905e3df4612e0b8dcff083d6ade1c8d0133de56e179b3
-      proposed_primary_category: app-builders
-      disagreement: true
-      decision_reason: >-
-        Sweeppea’s core identity is generating complete apps from prompts, matching the app-builder category’s focus on
-        turning natural language into deployable artifacts rather than editing existing codebases.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5054d245e5b06c7f7bcddd70cdd57ea1a8e046d55e7bff4d9248555e400e17b0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site offers no AI tooling, agent behavior, or developer-facing utility; it is unrelated to the catalog's scope of practical AI tools for software development.
       decision_evidence:
-        - Homepage describes generating full applications from text prompts
-        - Output is a deployable app or site, not code edits
-        - No evidence of acting as a coding agent inside an existing repo
-      category_candidates:
-        - app-builders
-        - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Sweeppea’s main loop is prompt-to-app generation from a blank
-        slate, not editing or assisting within an existing codebase.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''app-builders'''
+        - Repo description is missing, indicating no GitHub source or developer project context
+        - No README excerpt or meaningful technical description was provided to assess functionality
+        - The URL points to a commercial sweepstakes site with no observable connection to AI, code, or developer workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCP Server Finder
         extracted_url: https://mcpserverfinder.com/servers
-        surrounding_text: '- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers.'
+        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
         confidence: high
     - id: discovery__www__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: MCP Server Finder
         extracted_url: https://www.mcpserverfinder.com/servers
-        surrounding_text: '- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers.'
+        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
         confidence: high
 metadata:
   github:
@@ -51,9 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MCP Server Finder is a directory listing and discovery tool for Model Context Protocol servers.
-  why_it_matters: It helps developers find MCP servers to extend AI agent capabilities with tools and data sources.
-  mental_damage: Another directory in the endless MCP gold rush, where the real product is the anxiety of picking the right server.
+  summary: MCP Server Finder is a directory listing MCP servers for discovery via mcpserverfinder.com.
+  why_it_matters: It helps developers locate MCP servers that enable AI agents to access tools and data through a standardized interface.
+  mental_damage: Another directory to scroll through when you're already overwhelmed by the sheer number of MCP servers claiming to be the one you need.
   tags:
     - mcp
     - directory
@@ -67,44 +67,42 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:43:03.543Z'
+    updated_at: "2026-10-05T04:49:17.439Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ad4bd72c10bfb1787552185b942aa2839edb3dc7bacf99e13301491791a78ad2
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:702259f337538ebf8109ec77c8abd437f13bc297bdc412658f19a45fee2cd95a
       proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: >-
-        MCP Server Finder belongs in the MCP Ecosystem category as a discovery service for MCP servers, which aligns
-        with the MCP identity requirement.
+      disagreement: true
+      decision_reason: MCP Server Finder belongs in the MCP category as a discovery service for MCP servers, aligning with the Registries & Discovery section where MCP registries and directories are cataloged.
       decision_evidence:
-        - Source-list context shows it appears in awesome-ai-coding-tools under 'MCP Servers and Directories'
-        - The tool's purpose is to list and find MCP servers at mcpserverfinder.com/servers
-        - No evidence of being a coding agent, app builder, or framework; it is purely a discovery layer
+        - Source-list context shows it is listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+        - The URL mcpserverfinder.com/servers indicates it is a server listing or directory for MCP servers.
+        - The product's identity is as a discovery tool for MCP servers, not as an MCP server itself, but as a registry/directory within the MCP ecosystem.
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because the product's primary identity is MCP server discovery, not general
-        curation of AI tools.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose mcp over awesome-awesomes because MCP Server Finder's primary identity is as an MCP registry/directory for MCP infrastructure, not a general curated list of AI tools.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

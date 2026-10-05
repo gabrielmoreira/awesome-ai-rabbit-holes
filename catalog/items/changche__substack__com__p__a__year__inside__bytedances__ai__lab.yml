@@ -5,9 +5,8 @@ canonical_url: https://changche.substack.com/p/a-year-inside-bytedances-ai-lab
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__changche__substack__com__p__a__year__inside__bytedances__ai__lab__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__changche__substack__com__p__a__year__inside__bytedances__ai__lab__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,9 +17,9 @@ provenance:
         section_path:
           - 推荐 Suggestion
           - Podcast
-        anchor_text: '张驰: A Year Inside ByteDance''s AI Lab'
+        anchor_text: "张驰: A Year Inside ByteDance's AI Lab"
         extracted_url: https://changche.substack.com/p/a-year-inside-bytedances-ai-lab
-        surrounding_text: '- [张驰: A Year Inside ByteDance''s AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)'
+        surrounding_text: "- [张驰: A Year Inside ByteDance's AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)"
         confidence: high
 metadata:
   github:
@@ -38,34 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period.
-  why_it_matters: >-
-    Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in
-    production.
-  mental_damage: >-
-    Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very
-    research described.
+  summary: A Substack article reflecting on a year inside ByteDance's AI lab.
+  why_it_matters: Offers insider perspective on AI research culture at a major tech company, potentially useful for developers navigating AI career paths or industry trends.
+  mental_damage: Another deep-dive essay that feels like productivity while you're actually just doomscrolling through tech nostalgia.
   tags:
-    - article
-    - reflection
-    - ai-research
+    - ai-industry
+    - career
+    - research
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Publications & Feeds
+  status: excluded
+  reason: This is a reflective blog post, not a tool, framework, or developer-facing product; it lacks any practical AI tooling or workflow utility for software developers.
   evidence:
-    - jev-latest choice confidence 0.84
+    - Source is a Substack article (changche.substack.com) with no code, repo, or tool deliverable
+    - Described as a personal reflection on working at ByteDance's AI lab, not a developer tool or infrastructure
+    - Listed in awesome-LLM-resources under 'Podcast' as a suggestion, indicating it's curated as content, not tooling
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Publications & Feeds
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,35 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:01.449Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for changche__substack__com__p__a__year__inside__bytedances__ai__lab: Upstream
-        error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:15.634Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8dada42093a774465d24a343032a6117405d6615d3a18cfabe789bad67b9d044
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:53e005a6bb0ed8efba6ea9d9cf529f1e693eb73604609308b8fc0046d147d0f9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a periodic publication/media resource providing commentary and research insights rather than a functional
-        developer tool.
+      decision_reason: This is a reflective blog post, not a tool, framework, or developer-facing product; it lacks any practical AI tooling or workflow utility for software developers.
       decision_evidence:
-        - Source URL is a Substack publication
-        - Source-list context identifies it as a 'Podcast/Summary' style resource
-      category_candidates:
-        - newsletters-and-feeds
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose newsletters-and-feeds over awesome-awesomes because the primary value is ongoing commentary and research
-        analysis rather than a curated directory of tools.
+        - Source is a Substack article (changche.substack.com) with no code, repo, or tool deliverable
+        - Described as a personal reflection on working at ByteDance's AI lab, not a developer tool or infrastructure
+        - Listed in awesome-LLM-resources under 'Podcast' as a suggestion, indicating it's curated as content, not tooling
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

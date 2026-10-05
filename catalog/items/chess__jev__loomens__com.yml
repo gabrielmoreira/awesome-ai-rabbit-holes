@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chess__jev__loomens__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: chess-jev
         extracted_url: https://chess-jev.loomens.com
-        surrounding_text: >-
-          - [chess-jev](https://chess-jev.loomens.com)
-          ([post](https://x.com/BuildWithKhalil/status/2100364868733812987)) - 3D chess where Jev plays both sides, or
-          you jump in.
+        surrounding_text: "- [chess-jev](https://chess-jev.loomens.com) ([post](https://x.com/BuildWithKhalil/status/2100364868733812987)) - 3D chess where Jev plays both sides, or you jump in."
         confidence: high
 metadata:
   github:
@@ -39,16 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Chess is a live demo site where the Jev decision model plays chess against itself, showing probability distributions for each move.
+  why_it_matters: It demonstrates how a decision model evaluates chess positions in real time, offering insight into probabilistic reasoning for developers exploring TypeSafe AI's System One models.
+  mental_damage: Watching an AI agonize over every knight fork in probabilistic limbo is both enlightening and a sobering reminder of how much compute we spend to mimic human intuition.
+  tags:
+    - demo
+    - decision-model
+    - chess
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: Jev Chess is primarily a demonstration or game built around the Jev decision model, not a developer-facing tool that performs coding tasks, extends workflows, or provides infrastructure for AI-assisted development.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Scraped site context shows Jev Chess as a live autonomous match where Jev plays against itself with move probabilities
+    - Source-list context places it in 'awesome-jev' under 'Games & simulations' as a Jev-built project
+    - No evidence of coding agent functionality, IDE integration, SDK, framework, or developer tooling beyond the demo itself
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:58.987Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a3eef5dd79a10036762ea2c55950164d88bd86cd210874701de3f211edc7650f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Jev Chess is primarily a demonstration or game built around the Jev decision model, not a developer-facing tool that performs coding tasks, extends workflows, or provides infrastructure for AI-assisted development.
+      decision_evidence:
+        - Scraped site context shows Jev Chess as a live autonomous match where Jev plays against itself with move probabilities
+        - Source-list context places it in 'awesome-jev' under 'Games & simulations' as a Jev-built project
+        - No evidence of coding agent functionality, IDE integration, SDK, framework, or developer tooling beyond the demo itself
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

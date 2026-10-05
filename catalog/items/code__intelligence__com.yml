@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Security
         anchor_text: Code Intelligence CI Fuzz
         extracted_url: https://code-intelligence.com
-        surrounding_text: '- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++.'
+        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
         confidence: high
     - id: discovery__www__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Security
         anchor_text: Code Intelligence CI Fuzz
         extracted_url: https://www.code-intelligence.com
-        surrounding_text: '- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++.'
+        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
         confidence: high
 metadata:
   github:
@@ -51,25 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-automated coverage-guided fuzz testing solution for finding bugs and vulnerabilities in code.
-  why_it_matters: >-
-    Automates security testing with minimal developer effort, uncovering hidden bugs and vulnerabilities early in the
-    development process.
-  mental_damage: Finally, a way to find bugs you didn’t even know you had—because the bugs didn’t know they existed either.
+  summary: Code Intelligence CI Fuzz is an AI-automated coverage-guided fuzz testing tool that finds security vulnerabilities and bugs with minimal developer effort.
+  why_it_matters: It helps developers detect critical security flaws early in the development process by autonomously generating test cases and identifying root causes quickly.
+  mental_damage: Another AI-powered security tool promising to save hours while adding yet another dependency to your CI pipeline that you’ll forget to monitor until the next compliance audit.
   tags:
     - security
     - testing
     - fuzzing
+    - ai-automation
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding,
-    workflows, or infrastructure.
+  reason: CI Fuzz is a security testing tool focused on vulnerability detection via AI-enhanced fuzzing, not a developer-facing AI coding assistant, agent, or workflow tool that directly aids in writing, editing, or managing code.
   evidence:
-    - Source-list context places it in 'awesome-ai-coding-tools' under the Security section for finding bugs and vulnerabilities missed by other security tools.
-    - README and site context emphasize AI-automated fuzz testing, bug detection, compliance, and vulnerability remediation—not code generation, editing, or AI-assisted development workflows.
-    - No evidence of coding task automation, IDE/terminal agent behavior, or prompt-to-code/app generation; core identity is security testing infrastructure.
+    - The tool's primary function is AI-automated fuzz testing for security vulnerability detection, as stated in the scraped site context and README excerpt.
+    - It is positioned as a security and compliance solution for industries like automotive and medical devices, not as a coding agent or developer productivity tool.
+    - Source-list context places it in the 'Security' section of awesome-ai-coding-tools, indicating its classification as a security tool rather than a coding assistant.
 placement:
   primary_category: null
   section: null
@@ -78,43 +75,35 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:40:07.698Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for code__intelligence__com: Invalid AI response format: SyntaxError:
-        Unexpected token 'C', ..."_reason": CI Fuzz fu"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:46:58.789Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2a2ff38226597927d10e7638f3dc8509b157492a680da8a1709108635ac02510
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b1f1509bc7ba7579ef1e2a609907a4b7574a4dd872bedb8f167ded23c5fe74d5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding,
-        workflows, or infrastructure.
+      decision_reason: CI Fuzz is a security testing tool focused on vulnerability detection via AI-enhanced fuzzing, not a developer-facing AI coding assistant, agent, or workflow tool that directly aids in writing, editing, or managing code.
       decision_evidence:
-        - Source-list context places it in 'awesome-ai-coding-tools' under the Security section for finding bugs and vulnerabilities missed by other security tools.
-        - README and site context emphasize AI-automated fuzz testing, bug detection, compliance, and vulnerability remediation—not code generation, editing, or AI-assisted development workflows.
-        - No evidence of coding task automation, IDE/terminal agent behavior, or prompt-to-code/app generation; core identity is security testing infrastructure.
+        - The tool's primary function is AI-automated fuzz testing for security vulnerability detection, as stated in the scraped site context and README excerpt.
+        - It is positioned as a security and compliance solution for industries like automotive and medical devices, not as a coding agent or developer productivity tool.
+        - Source-list context places it in the 'Security' section of awesome-ai-coding-tools, indicating its classification as a security tool rather than a coding assistant.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending

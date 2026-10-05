@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gptswarm__org__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-12T15:06:19.300Z'
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GPTSwarm
         anchor_text: GPTSwarm
         extracted_url: https://gptswarm.org
-        surrounding_text: '## [GPTSwarm](https://gptswarm.org/)'
+        surrounding_text: "## [GPTSwarm](https://gptswarm.org/)"
         confidence: high
 metadata:
   github:
@@ -36,35 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform for coordinating multiple AI agents into specialized, autonomous swarms.
-  why_it_matters: >-
-    It enables developers to move beyond single-agent prompting toward complex, multi-step workflows involving
-    specialized agent teams.
-  mental_damage: >-
-    Because if you're going to have an existential crisis about your architecture, you might as well have a whole
-    committee of agents to debate it with.
+  summary: gptswarm.org appears to be a website promoting an AI agent framework or platform, though specific technical details are not provided in the inputs.
+  why_it_matters: It may matter to developers if it offers a novel approach to multi-agent coordination or autonomous coding, but this cannot be confirmed from available information.
+  mental_damage: Another AI agent platform with a slick domain and zero technical transparency — just what the ecosystem needed to increase abstraction layers without adding clarity.
   tags:
-    - multi-agent
-    - orchestration
-    - swarm
-    - agents
-  confidence: medium
+    - ai-agents
+    - framework
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: The project lacks sufficient technical detail in its description, README, or site context to determine its actual function or developer-facing utility, making a confident categorization impossible.
   evidence:
-    - jev-latest choice confidence 0.90
+    - No GitHub repository description is provided.
+    - No README excerpt or detailed site content is available beyond the domain name.
+    - Source-list context shows it is only listed in 'awesome-ai-agents' under a 'GPTSwarm' section with no description of what it does.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-12T15:06:19.301Z'
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,30 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:19:09.816Z'
+    updated_at: "2026-10-05T04:24:05.607Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2ed1d29c138212d222bf04e49595f466781932cbf3a4b042d10b454d189d77b5
-      proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: >-
-        The product's identity centers on managing multi-agent coordination, which is the defining characteristic of
-        agent orchestration.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:94985ab3d774a880677a73e62ecfe16b8fd444ccee77db24d89613b86ef44c0d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient technical detail in its description, README, or site context to determine its actual function or developer-facing utility, making a confident categorization impossible.
       decision_evidence:
-        - Domain name explicitly references 'swarm' coordination
-        - Listed in the 'awesome-ai-agents' directory
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the 'swarm' branding suggests an operated platform or
-        runtime for managing agent relationships rather than just a code-first SDK.
-      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
+        - No GitHub repository description is provided.
+        - No README excerpt or detailed site content is available beyond the domain name.
+        - Source-list context shows it is only listed in 'awesome-ai-agents' under a 'GPTSwarm' section with no description of what it does.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

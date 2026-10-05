@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apache__apisix__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Apache APISIX
         extracted_url: https://github.com/apache/apisix
-        surrounding_text: >-
-          - [api7/apisix-mcp](https://github.com/api7/apisix-mcp) 🎖️ 📇 🏠 MCP Server that support for querying and
-          managing all resource in [Apache APISIX](https://github.com/apache/apisix).
+        surrounding_text: "- [api7/apisix-mcp](https://github.com/api7/apisix-mcp) 🎖️ 📇 🏠 MCP Server that support for querying and managing all resource in [Apache APISIX](https://github.com/apache/apisix)."
         confidence: high
     - id: discovery__github__apache__apisix__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,10 +35,7 @@ provenance:
           - Community Servers
         anchor_text: Apache APISIX
         extracted_url: https://github.com/apache/apisix
-        surrounding_text: >-
-          - **[APISIX-MCP](https://github.com/api7/apisix-mcp)** - APISIX Model Context Protocol (MCP) server is used to
-          bridge large language models (LLMs) with the APISIX Admin API, supporting querying and managing all resources
-          in [Apache APISIX](https://github.com/apache/apisix).
+        surrounding_text: "- **[APISIX-MCP](https://github.com/api7/apisix-mcp)** - APISIX Model Context Protocol (MCP) server is used to bridge large language models (LLMs) with the APISIX Admin API, supporting querying and managing all resources in [Apache APISIX](https://github.com/apache/apisix)."
         confidence: high
 metadata:
   github:
@@ -50,8 +45,8 @@ metadata:
     archived: false
     full_name: apache/apisix
     html_url: https://github.com/apache/apisix
-    created_at: '2019-04-10T02:02:05Z'
-    pushed_at: '2026-09-18T10:16:11Z'
+    created_at: "2019-04-10T02:02:05Z"
+    pushed_at: "2026-09-18T10:16:11Z"
     description: The Cloud-Native API Gateway and AI Gateway
     homepage: https://apisix.apache.org/blog/
     topics:
@@ -74,17 +69,13 @@ metadata:
       - openapi31
       - reverse-proxy
       - serverless
-    last_checked_at: '2026-09-21T04:13:43.322Z'
+    last_checked_at: "2026-09-21T04:13:43.322Z"
     readme:
-      fetched_at: '2026-09-21T04:13:43.322Z'
+      fetched_at: "2026-09-21T04:13:43.322Z"
       bytes: 18906
 insights:
-  summary: >-
-    Apache APISIX is a cloud-native API gateway that also functions as an AI Gateway with plugin support for LLM load
-    balancing, proxying, and MCP server bridging.
-  why_it_matters: >-
-    It provides developers with a scalable, plugin-driven way to manage AI traffic alongside traditional API routing,
-    including MCP server compatibility via its mcp-bridge plugin.
+  summary: Apache APISIX is a cloud-native API gateway that also functions as an AI Gateway with plugin support for LLM load balancing, proxying, and MCP server bridging.
+  why_it_matters: It provides developers with a scalable, plugin-driven way to manage AI traffic alongside traditional API routing, including MCP server compatibility via its mcp-bridge plugin.
   mental_damage: Now your API gateway can also be your AI gateway, because why have one abstraction layer when you can have two.
   tags:
     - api-gateway
@@ -95,14 +86,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    While it includes AI Gateway and MCP bridging capabilities, its primary identity is a cloud-native API gateway, not
-    a developer-facing AI tool or MCP-first infrastructure.
+  reason: While it includes AI Gateway and MCP bridging capabilities, its primary identity is a cloud-native API gateway, not a developer-facing AI tool or MCP-first infrastructure.
   evidence:
     - Repo description identifies it as 'The Cloud-Native API Gateway and AI Gateway'
-    - >-
-      README emphasizes API gateway features (load balancing, upstream management) as core, with AI Gateway as a
-      secondary use case
+    - README emphasizes API gateway features (load balancing, upstream management) as core, with AI Gateway as a secondary use case
     - MCP support is via a plugin (mcp-bridge) rather than being the product's primary identity
 placement:
   primary_category: null
@@ -113,17 +100,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.582Z'
+    updated_at: "2026-05-06T22:12:15.582Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:43.322Z'
+    updated_at: "2026-09-21T04:13:43.322Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -138,14 +125,10 @@ processing:
       input_hash: sha256:b5d5d2be247ca99719334eabf5e74324b9852d68dd9fc270ef9296c294be7443
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        While it includes AI Gateway and MCP bridging capabilities, its primary identity is a cloud-native API gateway,
-        not a developer-facing AI tool or MCP-first infrastructure.
+      decision_reason: While it includes AI Gateway and MCP bridging capabilities, its primary identity is a cloud-native API gateway, not a developer-facing AI tool or MCP-first infrastructure.
       decision_evidence:
         - Repo description identifies it as 'The Cloud-Native API Gateway and AI Gateway'
-        - >-
-          README emphasizes API gateway features (load balancing, upstream management) as core, with AI Gateway as a
-          secondary use case
+        - README emphasizes API gateway features (load balancing, upstream management) as core, with AI Gateway as a secondary use case
         - MCP support is via a plugin (mcp-bridge) rather than being the product's primary identity
       category_candidates: []
       contrastive_reason: null

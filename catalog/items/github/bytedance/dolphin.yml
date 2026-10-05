@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytedance__dolphin__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: Dolphin
         extracted_url: https://github.com/bytedance/dolphin
-        surrounding_text: >-
-          35. [Dolphin](https://github.com/bytedance/Dolphin): Document Image Parsing via Heterogeneous Anchor
-          Prompting.
+        surrounding_text: "35. [Dolphin](https://github.com/bytedance/Dolphin): Document Image Parsing via Heterogeneous Anchor Prompting."
         confidence: high
 metadata:
   github:
@@ -31,10 +29,10 @@ metadata:
     archived: false
     full_name: bytedance/Dolphin
     html_url: https://github.com/bytedance/Dolphin
-    created_at: '2025-05-13T09:20:19Z'
-    pushed_at: '2026-03-25T06:34:12Z'
-    description: 'The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.'
-    homepage: ''
+    created_at: "2025-05-13T09:20:19Z"
+    pushed_at: "2026-03-25T06:34:12Z"
+    description: "The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025."
+    homepage: ""
     topics:
       - document-analysis
       - layout-analysis
@@ -45,17 +43,13 @@ metadata:
       - pdf-parser
       - python
       - vlm-ocr
-    last_checked_at: '2026-09-24T04:13:05.269Z'
+    last_checked_at: "2026-09-24T04:13:05.269Z"
     readme:
-      fetched_at: '2026-09-24T04:13:05.269Z'
+      fetched_at: "2026-09-24T04:13:05.269Z"
       bytes: 9509
 insights:
-  summary: >-
-    Dolphin is a document image parsing model using heterogeneous anchor prompting, released by ByteDance with versions
-    up to 3B parameters.
-  why_it_matters: >-
-    It improves document parsing (text, tables, formulas, code blocks) for both digital and photographed documents,
-    which can be useful for developers needing OCR or structured document extraction.
+  summary: Dolphin is a document image parsing model using heterogeneous anchor prompting, released by ByteDance with versions up to 3B parameters.
+  why_it_matters: It improves document parsing (text, tables, formulas, code blocks) for both digital and photographed documents, which can be useful for developers needing OCR or structured document extraction.
   mental_damage: Another model that turns your PDFs into structured data, because apparently typing is still too hard.
   tags:
     - ocr
@@ -66,9 +60,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a research-focused document parsing model (VLM/OCR) with no direct developer-tooling workflow integration,
-    coding assistance, or app-building capability.
+  reason: This is a research-focused document parsing model (VLM/OCR) with no direct developer-tooling workflow integration, coding assistance, or app-building capability.
   evidence:
     - Repo description identifies it as a document image parsing model for ACL 2025
     - README focuses on model architecture, benchmarks, and inference deployment (TensorRT-LLM, vLLM)
@@ -82,22 +74,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:05.269Z'
+    updated_at: "2026-09-24T04:13:05.269Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:59:33.311Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for github__bytedance__dolphin: Upstream error from Nvidia: ResourceExhausted:
-        Worker local total request limit reached (16/16)
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -109,9 +99,7 @@ processing:
       input_hash: sha256:83075509b6c8ff5654635adc7188ec6e85936a55e246bd9e231b456831b2553b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a research-focused document parsing model (VLM/OCR) with no direct developer-tooling workflow
-        integration, coding assistance, or app-building capability.
+      decision_reason: This is a research-focused document parsing model (VLM/OCR) with no direct developer-tooling workflow integration, coding assistance, or app-building capability.
       decision_evidence:
         - Repo description identifies it as a document image parsing model for ACL 2025
         - README focuses on model architecture, benchmarks, and inference deployment (TensorRT-LLM, vLLM)

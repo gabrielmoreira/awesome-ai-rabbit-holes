@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__genmo__mochi__1__preview__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,26 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An open-source, 10B parameter text-to-video diffusion model featuring an asymmetric diffusion transformer
-    architecture.
-  why_it_matters: >-
-    It provides high-fidelity, open-weights video generation capabilities for developers building generative media
-    applications.
-  mental_damage: Another reason to spend your weekend troubleshooting VRAM requirements instead of actually shipping code.
+  summary: Mochi 1 preview is a 10-billion-parameter open video generation model that creates high-fidelity videos from text prompts using asymmetric diffusion transformers.
+  why_it_matters: Provides developers with a state-of-the-art open video generation model that can be integrated into apps and workflows via Diffusers or custom pipelines, closing the gap with proprietary systems.
+  mental_damage: Another powerful video model that requires 60GB VRAM to run locally, reminding us that 'open source' often still means 'only if you have a data center in your basement'.
   tags:
-    - text-to-video
-    - open-weights
+    - video-generation
     - diffusion-model
+    - multimodal-ai
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a foundational video generation model rather than a tool designed to assist with coding, agent
-    orchestration, or developer workflows.
+  reason: Mochi 1 preview is a foundational multimodal generative model focused on video synthesis, not a developer-facing tool, agent, framework, or infrastructure that directly aids software development workflows.
   evidence:
-    - The project's identity is a text-to-video diffusion model (Mochi 1).
-    - The documentation describes model architecture and weights rather than a developer-facing utility or runtime.
+    - The model generates videos from text prompts using a 10B parameter AsymmDiT architecture, with no mention of coding assistance, agent behavior, or development tooling.
+    - Primary use cases described are video generation via Diffusers, CLI, or Gradio UI for creative content like 'astronaut in a jungle' or 'chameleon's eye', not code-related tasks.
+    - While it provides APIs and pipelines for developers to call, its identity is a generative AI model, not a tool whose primary purpose is to enhance software development, agent behavior, or coding workflows.
 placement:
   primary_category: null
   section: null
@@ -66,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -79,25 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:26:24.448Z'
+    updated_at: "2026-10-05T04:34:07.560Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:491abb0d7b4acb272ede51e0251af5b7570aea2c9221de413d5e757d50999c46
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f301d455f8c610559e1338ee32fa33ba9cc1ba092bf84d95b4f45c86efd1ec8c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a foundational video generation model rather than a tool designed to assist with coding, agent
-        orchestration, or developer workflows.
+      decision_reason: Mochi 1 preview is a foundational multimodal generative model focused on video synthesis, not a developer-facing tool, agent, framework, or infrastructure that directly aids software development workflows.
       decision_evidence:
-        - The project's identity is a text-to-video diffusion model (Mochi 1).
-        - The documentation describes model architecture and weights rather than a developer-facing utility or runtime.
+        - The model generates videos from text prompts using a 10B parameter AsymmDiT architecture, with no mention of coding assistance, agent behavior, or development tooling.
+        - Primary use cases described are video generation via Diffusers, CLI, or Gradio UI for creative content like 'astronaut in a jungle' or 'chameleon's eye', not code-related tasks.
+        - While it provides APIs and pipelines for developers to call, its identity is a generative AI model, not a tool whose primary purpose is to enhance software development, agent behavior, or coding workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

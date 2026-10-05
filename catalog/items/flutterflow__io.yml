@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__flutterflow__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - App Builders
         anchor_text: FlutterFlow
         extracted_url: https://flutterflow.io
-        surrounding_text: '- **[FlutterFlow](https://flutterflow.io/)** – Visual app builder for Flutter with AI assistance.'
+        surrounding_text: "- **[FlutterFlow](https://flutterflow.io/)** – Visual app builder for Flutter with AI assistance."
         confidence: high
     - id: discovery__www__flutterflow__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - App Builders
         anchor_text: FlutterFlow
         extracted_url: https://flutterflow.io
-        surrounding_text: '- **[FlutterFlow](https://flutterflow.io/)** – Visual app builder for Flutter with AI assistance.'
+        surrounding_text: "- **[FlutterFlow](https://flutterflow.io/)** – Visual app builder for Flutter with AI assistance."
         confidence: high
 metadata:
   github:
@@ -51,27 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    FlutterFlow is a visual low-code platform for building and deploying cross-platform mobile and web apps with
-    Firebase/Supabase integration and code export.
-  why_it_matters: >-
-    It lets developers and product teams rapidly prototype and ship full-stack apps without writing code from scratch,
-    then export or deploy directly to app stores.
-  mental_damage: >-
-    You’ll spend more time explaining why your ‘no-code’ app still needs a Flutter engineer than actually building
-    features.
+  summary: FlutterFlow is a visual app builder that lets developers create Flutter apps with Firebase and API integrations, exportable code, and deployment to app stores.
+  why_it_matters: It accelerates frontend and full-stack app development by combining no-code UI building with real Flutter code export, reducing boilerplate for mobile and web apps.
+  mental_damage: The promise of '10x velocity' makes you wonder if your backlog is just waiting for the right drag-and-drop tool to expose how much you’ve been overcomplicating things.
   tags:
-    - low-code
     - app-builder
-    - firebase
     - flutter
-    - visual-development
+    - low-code
+    - firebase
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: FlutterFlow generates complete, deployable apps from visual development and prompt-assisted logic, fitting the app-builder identity rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.96
+    - "Source-list context places it in 'App Builders' section of awesome-ai-coding-tools with description: 'Build high quality cross-platform apps incredibly fast'"
+    - README emphasizes building UI visually, adding logic via Action Flow Editor, exporting code, and deploying to app stores
+    - Primary output is a working Flutter app — a deployable artifact — not edits to an existing codebase
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -82,44 +77,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:10.110Z'
+    updated_at: "2026-10-05T04:47:50.554Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:dfa510c33cb928b5c037d6eb4b1008e7fa120c0c8ced9c2af46f0cb5269f01d4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:235babffdb8d0de7f8a510cef9e78c9fb179d4400a70d57dcc459f993667414e
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        FlutterFlow’s core identity is generating complete, deployable apps from visual prompts and logic, fitting the
-        app-builder pattern rather than acting as a coding agent or IDE extension.
+      decision_reason: FlutterFlow generates complete, deployable apps from visual development and prompt-assisted logic, fitting the app-builder identity rather than a coding agent or extension.
       decision_evidence:
-        - >-
-          Source-list context: listed in awesome-ai-coding-tools under App Builders with the description 'lets you build
-          high quality cross-platform apps incredibly fast' and 'export your code or even easier deploy directly to the
-          app stores'
-        - >-
-          Scraped site context: emphasizes building UI/logic visually, connecting to Firebase/Supabase/APIs, testing in
-          Test Mode, collaborating via branching/comments, and exporting code or deploying to app stores
-        - >-
-          README excerpt: highlights visual Action Flow Editor, custom widgets/actions, design system import from Figma,
-          and seamless deployment to App Store, Play Store & Web
+        - "Source-list context places it in 'App Builders' section of awesome-ai-coding-tools with description: 'Build high quality cross-platform apps incredibly fast'"
+        - README emphasizes building UI visually, adding logic via Action Flow Editor, exporting code, and deploying to app stores
+        - Primary output is a working Flutter app — a deployable artifact — not edits to an existing codebase
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because FlutterFlow’s primary workflow is prompt/visual-to-deployable-app
-        generation from a blank slate, not editing or assisting within an existing codebase as a coding agent would.
+      contrastive_reason: Choose app-builders over coding-agents because FlutterFlow’s core identity is generating new apps from scratch via visual development, not editing existing codebases as a coding agent would.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

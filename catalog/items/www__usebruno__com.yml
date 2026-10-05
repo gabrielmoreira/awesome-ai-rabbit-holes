@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__usebruno__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Bruno API Client
         extracted_url: https://www.usebruno.com
-        surrounding_text: >-
-          - [hungthai1401/bruno-mcp](https://github.com/hungthai1401/bruno-mcp) 📇 🏠 - A MCP server for interacting
-          with [Bruno API Client](https://www.usebruno.com/).
+        surrounding_text: "- [hungthai1401/bruno-mcp](https://github.com/hungthai1401/bruno-mcp) 📇 🏠 - A MCP server for interacting with [Bruno API Client](https://www.usebruno.com/)."
         confidence: high
 metadata:
   github:
@@ -39,12 +37,8 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Bruno is a Git-native, local-first API client for REST, GraphQL, gRPC, and WebSocket that stores collections as
-    plain-text files in your repository.
-  why_it_matters: >-
-    Developers can version-control, diff, and collaborate on API collections using Git, eliminating cloud lock-in and
-    enabling seamless integration with IDEs and agents.
+  summary: Bruno is a Git-native, local-first API client for REST, GraphQL, gRPC, and WebSocket that stores collections as plain-text files in your repository.
+  why_it_matters: Developers can version-control, diff, and collaborate on API collections using Git, eliminating cloud lock-in and enabling seamless integration with IDEs and agents.
   mental_damage: Finally, an API client that treats your workflow like a first-class citizen instead of a subscription feature.
   tags:
     - api-client
@@ -55,9 +49,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows,
-    agents, or adjacent developer-facing AI infrastructure.
+  reason: Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent developer-facing AI infrastructure.
   evidence:
     - Bruno is described as a 'Git-native API client' and 'open-source, local, and built for developers' with no AI agent or LLM core functionality
     - Testimonials highlight Git integration, local storage, and offline use — not AI-assisted coding, prompting, or agent behavior
@@ -71,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.670Z'
+    updated_at: "2026-05-06T22:12:15.670Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,13 +72,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: '2026-09-28T04:50:36.107Z'
+    updated_at: "2026-10-05T04:58:03.518Z"
     cause:
       type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for www__usebruno__com: Invalid AI response format: SyntaxError: Unexpected
-        token 'B', ..."_reason": Bruno is i"... is not valid JSON
-    attempts: 3
+      message: "Catalog LLM categorization failed for www__usebruno__com: Invalid AI response format: SyntaxError: No number after minus sign in JSON at position 1094 (line 12 column 6)"
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -97,9 +87,7 @@ processing:
       input_hash: sha256:04e6fe67687b39aa9c06bb4a5f40d656224a1466ad499ccebd300f39ba76bfb4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI
-        workflows, agents, or adjacent developer-facing AI infrastructure.
+      decision_reason: Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent developer-facing AI infrastructure.
       decision_evidence:
         - Bruno is described as a 'Git-native API client' and 'open-source, local, and built for developers' with no AI agent or LLM core functionality
         - Testimonials highlight Git integration, local storage, and offline use — not AI-assisted coding, prompting, or agent behavior

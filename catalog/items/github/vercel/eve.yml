@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vercel__eve__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: eve
         extracted_url: https://github.com/vercel/eve
-        surrounding_text: >-
-          - [eve](https://github.com/vercel/eve) ([site](https://eve.dev)) - Vercel's open agent framework, which ships
-          Jev as the default evaluation model in its experimental evaluate path.
+        surrounding_text: "- [eve](https://github.com/vercel/eve) ([site](https://eve.dev)) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path."
         confidence: high
     - id: discovery__github__vercel__eve__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: eve
         extracted_url: https://github.com/vercel/eve
-        surrounding_text: >-
-          | [eve](https://github.com/vercel/eve) | ★ 5,274 | TypeScript | 2026-09-19 | Vercel's open agent framework,
-          which ships Jev as the default evaluation model in its experimental evaluate path. |
+        surrounding_text: "| [eve](https://github.com/vercel/eve) | ★ 5,274 | TypeScript | 2026-09-19 | Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path. |"
         confidence: high
     - id: discovery__github__vercel__eve__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -55,11 +51,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: eve
         extracted_url: https://github.com/vercel/eve
-        surrounding_text: >-
-          - [eve](https://github.com/vercel/eve)
-          ![stars](https://img.shields.io/github/stars/vercel/eve?style=flat-square&label=%E2%98%85) - Agent frameworks:
-          Vercel's eve engine ships Jev as the default evaluation model (`typesafe-ai/jev`) in its experimental evaluate
-          path.
+        surrounding_text: "- [eve](https://github.com/vercel/eve) ![stars](https://img.shields.io/github/stars/vercel/eve?style=flat-square&label=%E2%98%85) - Agent frameworks: Vercel's eve engine ships Jev as the default evaluation model (`typesafe-ai/jev`) in its experimental evaluate path."
         confidence: high
 metadata:
   github:
@@ -77,9 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    eve (site) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental
-    evaluate path.
+  summary: eve (site) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -99,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
+    updated_at: "2026-09-29T13:07:10.405Z"
     cause: null
     next_retry_at: null
   stars:
@@ -107,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

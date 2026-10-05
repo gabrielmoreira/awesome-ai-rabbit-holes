@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smklog__parcel-shipping-rates-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: smklog/parcel-shipping-rates-mcp
         extracted_url: https://github.com/smklog/parcel-shipping-rates-mcp
-        surrounding_text: >-
-          - [smklog/parcel-shipping-rates-mcp](https://github.com/smklog/parcel-shipping-rates-mcp)
-          [![smklog/parcel-shipping-rates-mcp MCP
-          server](https://glama.ai/mcp/servers/smklog/parcel-shipping-rates-mcp/badges/score.svg)](https://glama.ai/mcp/servers/smklog/parcel-shipping-rates-mcp)
-          🎖️ ☁️ - Live USPS, UPS, FedEx and DHL rates for parcels shipped from the US, from a plain item description,
-          plus checkout links, checkout status and tracking.
+        surrounding_text: "- [smklog/parcel-shipping-rates-mcp](https://github.com/smklog/parcel-shipping-rates-mcp) [![smklog/parcel-shipping-rates-mcp MCP server](https://glama.ai/mcp/servers/smklog/parcel-shipping-rates-mcp/badges/score.svg)](https://glama.ai/mcp/servers/smklog/parcel-shipping-rates-mcp) 🎖️ ☁️ - Live USPS, UPS, FedEx and DHL rates for parcels shipped from the US, from a plain item description, plus checkout links, checkout status and tracking."
         confidence: high
 metadata:
   github:
@@ -43,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    smklog/parcel-shipping-rates-mcp ️ ☁️ - Live USPS, UPS, FedEx and DHL rates for parcels shipped from the US, from a
-    plain item description, plus checkout links, checkout status and tracking.
+  summary: smklog/parcel-shipping-rates-mcp ️ ☁️ - Live USPS, UPS, FedEx and DHL rates for parcels shipped from the US, from a plain item description, plus checkout links, checkout status and tracking.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.477Z'
+    updated_at: "2026-09-29T13:07:10.477Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

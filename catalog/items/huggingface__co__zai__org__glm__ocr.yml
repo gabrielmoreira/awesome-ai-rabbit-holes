@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__zai__org__glm__ocr__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,9 +18,7 @@ provenance:
           - 数据 Data
         anchor_text: GLM-OCR
         extracted_url: https://huggingface.co/zai-org/GLM-OCR
-        surrounding_text: >-
-          48. [GLM-OCR](https://huggingface.co/zai-org/GLM-OCR): a multimodal OCR model for complex document
-          understanding, built on the GLM-V encoder–decoder architecture.
+        surrounding_text: "48. [GLM-OCR](https://huggingface.co/zai-org/GLM-OCR): a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture."
         confidence: high
 metadata:
   github:
@@ -38,52 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    GLM-OCR is a Hugging Face-hosted vision-language model for optical character recognition that extracts text from
-    images.
-  why_it_matters: >-
-    Provides developers a ready-to-use OCR model via API or local inference for extracting text from documents, scans,
-    or UI screenshots in automation pipelines.
-  mental_damage: >-
-    Another model card in the endless Hugging Face scroll, promising productivity while adding to the pile of 'I'll
-    integrate this someday' tabs.
+  summary: GLM-OCR is a vision-language model specialized in optical character recognition and document understanding tasks.
+  why_it_matters: Enables developers to integrate high-accuracy OCR and document parsing into applications via Hugging Face model access.
+  mental_damage: Another model card that makes you wonder if 'open source' just means you get to debug someone else's research checkpoint.
   tags:
     - ocr
-    - vision-model
-    - huggingface
-    - image-to-text
-  confidence: high
+    - vision
+    - document-ai
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    GLM-OCR is a general-purpose OCR model without a developer-tooling-specific interface, workflow integration, or
-    agent identity; it serves as raw ML infrastructure rather than a tool for coding, app building, or AI-assisted
-    development.
+  status: included
+  reason: GLM-OCR is a dedicated OCR and document understanding model, fitting the Document AI & OCR category as its primary function is turning images and PDFs into structured text.
   evidence:
-    - >-
-      Repo description is missing; Hugging Face page shows it as a vision-language model for OCR with no mention of
-      developer workflows, coding agents, or tooling integrations.
-    - >-
-      Evaluated on general OCR benchmarks (OLMOCR, ParseBench, MDPBench) with no developer-facing API, SDK, or extension
-      described.
-    - >-
-      Source-list appearance is in a general LLM resources list under '数据 Data', indicating broad ML resource curation,
-      not developer tooling.
+    - Model pipeline tag is 'image-to-text' with OCR evaluation benchmarks
+    - Hosted on Hugging Face as zai-org/GLM-OCR with document parsing capabilities
+    - Evaluated on OCR-focused benchmarks like ParseBench and olmOCR-bench
 placement:
-  primary_category: null
-  section: null
+  primary_category: document-ai
+  section: OCR Engines
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -91,34 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:17.796Z'
+    updated_at: "2026-10-05T04:34:31.207Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d9d06adcd016e9524a1864b82025fb69254bc242b6036df4859adb2fd5e4062a
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bba331ae826c18436f37c4ee8d8bf0cc5d3ecd7fd47a253e8107132dd9039719
+      proposed_primary_category: document-ai
       disagreement: false
-      decision_reason: >-
-        GLM-OCR is a general-purpose OCR model without a developer-tooling-specific interface, workflow integration, or
-        agent identity; it serves as raw ML infrastructure rather than a tool for coding, app building, or AI-assisted
-        development.
+      decision_reason: GLM-OCR is a dedicated OCR and document understanding model, fitting the Document AI & OCR category as its primary function is turning images and PDFs into structured text.
       decision_evidence:
-        - >-
-          Repo description is missing; Hugging Face page shows it as a vision-language model for OCR with no mention of
-          developer workflows, coding agents, or tooling integrations.
-        - >-
-          Evaluated on general OCR benchmarks (OLMOCR, ParseBench, MDPBench) with no developer-facing API, SDK, or
-          extension described.
-        - >-
-          Source-list appearance is in a general LLM resources list under '数据 Data', indicating broad ML resource
-          curation, not developer tooling.
-      category_candidates: []
-      contrastive_reason: null
+        - Model pipeline tag is 'image-to-text' with OCR evaluation benchmarks
+        - Hosted on Hugging Face as zai-org/GLM-OCR with document parsing capabilities
+        - Evaluated on OCR-focused benchmarks like ParseBench and olmOCR-bench
+      category_candidates:
+        - document-ai
+        - ai-frameworks
+      contrastive_reason: Choose document-ai over ai-frameworks because GLM-OCR is a specialized model for OCR tasks, not a code library or SDK developers import to build applications.
       review_reason: null
       review_resume_lifecycle: null

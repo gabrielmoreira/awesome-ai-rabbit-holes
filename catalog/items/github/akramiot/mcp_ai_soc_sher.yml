@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__akramiot__mcp_ai_soc_sher__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: akramIOT/MCP_AI_SOC_Sher
         extracted_url: https://github.com/akramiot/mcp_ai_soc_sher
-        surrounding_text: >-
-          - [akramIOT/MCP_AI_SOC_Sher](https://github.com/akramIOT/MCP_AI_SOC_Sher)  🐍 ☁️ 📇 - MCP Server to do dynamic
-          AI SOC Security Threat analysis for a  Text2SQL  AI Agent.
+        surrounding_text: "- [akramIOT/MCP_AI_SOC_Sher](https://github.com/akramIOT/MCP_AI_SOC_Sher)  🐍 ☁️ 📇 - MCP Server to do dynamic AI SOC Security Threat analysis for a  Text2SQL  AI Agent."
         confidence: high
 metadata:
   github:
@@ -32,28 +30,22 @@ metadata:
     archived: false
     full_name: akramIOT/MCP_AI_SOC_Sher
     html_url: https://github.com/akramIOT/MCP_AI_SOC_Sher
-    created_at: '2025-04-30T02:18:12Z'
-    pushed_at: '2025-04-30T02:31:09Z'
-    description: 'AI SOC  Security Threat analysis using  MCP Server '
-    homepage: ''
+    created_at: "2025-04-30T02:18:12Z"
+    pushed_at: "2025-04-30T02:31:09Z"
+    description: "AI SOC  Security Threat analysis using  MCP Server "
+    homepage: ""
     topics:
       - ai-soc
       - mcp-security
       - mcp-server
-    last_checked_at: '2026-09-17T04:13:37.518Z'
+    last_checked_at: "2026-09-17T04:13:37.518Z"
     readme:
-      fetched_at: '2026-09-17T04:13:37.518Z'
+      fetched_at: "2026-09-17T04:13:37.518Z"
       bytes: 2538
 insights:
-  summary: >-
-    An MCP server that converts natural language prompts into optimized SQL queries with integrated security threat
-    analysis for SQLite and Snowflake.
-  why_it_matters: >-
-    It enables LLMs to interact safely with databases by adding a security layer that detects SQL injection and monitors
-    sensitive table access during Text2SQL translation.
-  mental_damage: >-
-    Another layer of abstraction to convince you that your natural language is safe enough to execute directly against
-    production databases.
+  summary: An MCP server that converts natural language prompts into optimized SQL queries with integrated security threat analysis for SQLite and Snowflake.
+  why_it_matters: It enables LLMs to interact safely with databases by adding a security layer that detects SQL injection and monitors sensitive table access during Text2SQL translation.
+  mental_damage: Another layer of abstraction to convince you that your natural language is safe enough to execute directly against production databases.
   tags:
     - mcp-server
     - text2sql
@@ -76,17 +68,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.601Z'
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:37.518Z'
+    updated_at: "2026-09-17T04:13:37.518Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -101,9 +93,7 @@ processing:
       input_hash: sha256:5a4b5cf0f0d736daee745589670af5a033fc100fc66f87b431cfbdd9a359aac5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project's primary identity is an MCP server providing specific database interaction capabilities to host
-        models.
+      decision_reason: The project's primary identity is an MCP server providing specific database interaction capabilities to host models.
       decision_evidence:
         - Repo description explicitly defines it as an 'MCP Server'
         - README details implementation via STDIO, SSE, and REST API for MCP usage
@@ -111,8 +101,6 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product is designed as a protocol-compliant server to extend host
-        capabilities rather than a library for developers to import into their own application code.
+      contrastive_reason: Choose mcp over ai-frameworks because the product is designed as a protocol-compliant server to extend host capabilities rather than a library for developers to import into their own application code.
       review_reason: null
       review_resume_lifecycle: null

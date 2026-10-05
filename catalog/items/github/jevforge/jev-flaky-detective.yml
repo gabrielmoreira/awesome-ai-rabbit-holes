@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jevforge__jev-flaky-detective__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JEV Flaky Detective
         extracted_url: https://github.com/jevforge/jev-flaky-detective
-        surrounding_text: >-
-          - [JEV Flaky Detective](https://github.com/JevForge/jev-flaky-detective) - GitHub Action: TypeSafe Jev
-          classifies failing tests as regression/flaky/environment/unknown (never auto-reruns). [Project
-          guide](community/projects/tools/jev-flaky-detective.md).
+        surrounding_text: "- [JEV Flaky Detective](https://github.com/JevForge/jev-flaky-detective) - GitHub Action: TypeSafe Jev classifies failing tests as regression/flaky/environment/unknown (never auto-reruns). [Project guide](community/projects/tools/jev-flaky-detective.md)."
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.22 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.22 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

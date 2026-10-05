@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__eve__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://eve.dev
-        surrounding_text: >-
-          - [eve](https://github.com/vercel/eve) ([site](https://eve.dev)) - Vercel's open agent framework, which ships
-          Jev as the default evaluation model in its experimental evaluate path.
+        surrounding_text: "- [eve](https://github.com/vercel/eve) ([site](https://eve.dev)) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    eve (site) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental
-    evaluate path.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: eve.dev is a marketplace for TypeSafe AI's Jev decision-model-powered browser automation and workflow tools.
+  why_it_matters: It aggregates domain-specific Jev applications, giving developers a discoverable path to typed-decision automation beyond pure LLMs.
+  mental_damage: Another curated gallery of niche AI wrappers where you hope one of these Jev-powered demos actually solves your real work.
+  tags:
+    - decision-models
+    - browser-automation
+    - marketplace
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.74
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      ai-frameworks (unverified)
+    - jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
     - decision-models
-  section: LLM & Agent SDKs
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:18.801Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cc5aaa85b28538c9fa2cd8a525cf167435f95718331d4b672d3c6d6e638259e1
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: The site markets itself as a directory of projects built on TypeSafe AI's Jev (System One) model, making the decision-model identity the core product rather than a generic tool directory.
+      decision_evidence:
+        - "Listed in awesome-jev with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+        - Domain eve.dev positions itself as a hub for Jev-powered tools, implying the judgment layer is the central identity.
+        - No evidence of being a coding agent, app builder, or orchestrator; the framing is strictly around Jev as the decision engine.
+      category_candidates:
+        - decision-models
+        - awesome-awesomes
+      contrastive_reason: Choose decision-models over awesome-awesomes because the site's identity is explicitly tied to Jev as a decision model, not general tool curation.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

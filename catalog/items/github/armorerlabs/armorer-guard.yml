@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__armorerlabs__armorer-guard__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-07-02T05:22:20.470Z'
+      discovered_at: "2026-07-02T05:22:20.470Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,7 @@ provenance:
           - Agent infrastructure
         anchor_text: Armorer Guard
         extracted_url: https://github.com/armorerlabs/armorer-guard
-        surrounding_text: >-
-          - **[Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard)** `⭐ 40` — Local Rust scanner and MCP proxy
-          for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments before
-          execution. MIT.
+        surrounding_text: "- **[Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard)** `⭐ 40` — Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments before execution. MIT."
         confidence: high
 metadata:
   github:
@@ -33,8 +30,8 @@ metadata:
     archived: false
     full_name: ArmorerLabs/Armorer-Guard
     html_url: https://github.com/ArmorerLabs/Armorer-Guard
-    created_at: '2026-04-12T20:34:12Z'
-    pushed_at: '2026-09-03T16:20:30Z'
+    created_at: "2026-04-12T20:34:12Z"
+    pushed_at: "2026-09-03T16:20:30Z"
     description: Public SDKs and integration contracts for Armorer Guard.
     homepage: https://armorerlabs.com
     topics:
@@ -47,18 +44,14 @@ metadata:
       - python
       - sdk
       - typescript
-    last_checked_at: '2026-09-21T04:13:47.419Z'
+    last_checked_at: "2026-09-21T04:13:47.419Z"
     readme:
-      fetched_at: '2026-09-21T04:13:47.419Z'
+      fetched_at: "2026-09-21T04:13:47.419Z"
       bytes: 5315
 insights:
   summary: Public Python and TypeScript SDKs for integrating Armorer Guard security guardrails into AI agent workflows.
-  why_it_matters: >-
-    It enables developers to enforce security boundaries and authorize agentic tool calls through a dedicated runtime
-    instead of relying on prompt engineering alone.
-  mental_damage: >-
-    Because trusting a system prompt to prevent your agent from nuking your production database was always a high-stakes
-    gamble.
+  why_it_matters: It enables developers to enforce security boundaries and authorize agentic tool calls through a dedicated runtime instead of relying on prompt engineering alone.
+  mental_damage: Because trusting a system prompt to prevent your agent from nuking your production database was always a high-stakes gamble.
   tags:
     - agent-security
     - guardrails
@@ -77,22 +70,24 @@ placement:
   section: LLM & Agent SDKs
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-07-02T05:22:20.471Z'
+    updated_at: "2026-07-02T05:22:20.471Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:47.419Z'
+    updated_at: "2026-09-21T04:13:47.419Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:20:52.704Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -104,9 +99,7 @@ processing:
       input_hash: sha256:b3ca346662d6d6b9ad7422cb1755faa35c5ccd3febf30a80b35efa78e694d69e
       proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: >-
-        It is a code-first SDK that developers import and use within their own application logic to build secure agentic
-        systems.
+      decision_reason: It is a code-first SDK that developers import and use within their own application logic to build secure agentic systems.
       decision_evidence:
         - Provides dependency-light Python and Node/TypeScript client libraries
         - Includes framework middleware to wrap model traffic and tool calls
@@ -114,9 +107,6 @@ processing:
       category_candidates:
         - ai-frameworks
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose ai-frameworks over extensions-and-addons because it is a library meant to be imported into a developer's
-        own agentic application rather than a plugin designed to augment a specific host tool like Cursor or Claude
-        Code.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-frameworks'''
+      contrastive_reason: Choose ai-frameworks over extensions-and-addons because it is a library meant to be imported into a developer's own agentic application rather than a plugin designed to augment a specific host tool like Cursor or Claude Code.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
       review_resume_lifecycle: null

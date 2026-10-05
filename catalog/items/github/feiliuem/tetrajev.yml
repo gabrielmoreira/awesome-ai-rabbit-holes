@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__feiliuem__tetrajev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,11 +20,54 @@ provenance:
           - Developer projects and integrations
         anchor_text: TetraJev
         extracted_url: https://github.com/feiliuem/tetrajev
-        surrounding_text: >-
-          - [TetraJev](https://github.com/FeiLiuEM/tetrajev) - Zero-training local decision layer: two frozen readers ×
-          four readings per item, fit-free fusion and agreement routing, with published coverage–accuracy across eight
-          suites and a RAG reranking pass; independent of hosted Jev. [Project
-          guide](community/projects/tools/tetrajev.md).
+        surrounding_text: "- [TetraJev](https://github.com/FeiLiuEM/tetrajev) - Zero-training local decision layer: two frozen readers × four readings per item, fit-free fusion and agreement routing, with published coverage–accuracy across eight suites and a RAG reranking pass; independent of hosted Jev. [Project guide](community/projects/tools/tetrajev.md)."
+        confidence: high
+    - id: discovery__github__feiliuem__tetrajev__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Jev-like models (83)
+        anchor_text: TetraJev
+        extracted_url: https://github.com/feiliuem/tetrajev
+        surrounding_text: "| [TetraJev](https://github.com/FeiLiuEM/tetrajev) | ★ 1 | Python | 2026-09-30 | Local decision stack that fuses four readings from two frozen open models, then uses agreement and calibration gates to answer or abstain. |"
+        confidence: high
+    - id: discovery__github__feiliuem__tetrajev__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Classification & Routing
+        anchor_text: TetraJev
+        extracted_url: https://github.com/feiliuem/tetrajev
+        surrounding_text: "- [TetraJev](https://github.com/FeiLiuEM/tetrajev) ![stars](https://img.shields.io/github/stars/FeiLiuEM/tetrajev?style=flat-square&label=%E2%98%85) - General decisions: locally-deployed decision layer for complex decision problems — four readings from two frozen open-weight readers, fused fit-free and routed by agreement with calibrated release gates; benchmarked across eight decision suites plus the RAG reranking pass, including DecisionBench's 35 real-world task categories. No training; does not call the TypeSafe API."
+        confidence: high
+    - id: discovery__github__feiliuem__tetrajev__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Open reproductions and research
+        anchor_text: TetraJev
+        extracted_url: https://github.com/feiliuem/tetrajev
+        surrounding_text: "- [TetraJev](https://github.com/FeiLiuEM/tetrajev) - Decides complex bounded decisions (a state plus 2–20 options): two frozen open-weight readers contribute four readings (letter + per-candidate yes/no), fused fit-free and routed by agreement between auto-release and human review; eight decision suites and the RAG reranking pass evaluated with coverage–accuracy curves. Open reproduction; does not call the TypeSafe API."
         confidence: high
 metadata:
   github:
@@ -34,12 +77,10 @@ metadata:
     archived: false
     full_name: FeiLiuEM/tetrajev
     html_url: https://github.com/FeiLiuEM/tetrajev
-    created_at: '2026-09-28T06:11:30Z'
-    pushed_at: '2026-09-29T04:28:56Z'
-    description: >-
-      High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed
-      decision, zero training.
-    homepage: ''
+    created_at: "2026-09-28T06:11:30Z"
+    pushed_at: "2026-09-29T04:28:56Z"
+    description: High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed decision, zero training.
+    homepage: ""
     topics:
       - decision-routing
       - jev
@@ -47,14 +88,12 @@ metadata:
       - local-inference
       - open-weights
       - zero-training
-    last_checked_at: '2026-09-29T13:11:14.606Z'
+    last_checked_at: "2026-09-29T13:11:14.606Z"
     readme:
-      fetched_at: '2026-09-29T13:11:14.606Z'
+      fetched_at: "2026-09-29T13:11:14.606Z"
       bytes: 8570
 insights:
-  summary: >-
-    High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed
-    decision, zero training.
+  summary: High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed decision, zero training.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -74,12 +113,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-10-05T04:19:11.932Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:14.606Z'
+    updated_at: "2026-09-29T13:11:14.606Z"
     cause: null
     next_retry_at: null
   categorize:

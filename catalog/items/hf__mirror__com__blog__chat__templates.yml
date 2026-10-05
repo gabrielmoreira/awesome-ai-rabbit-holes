@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hf__mirror__com__blog__chat__templates__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,25 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face blog post explaining the implementation and importance of chat templates for LLM prompting.
-  why_it_matters: >-
-    Properly applying chat templates is essential for ensuring prompts are formatted correctly for a model's specific
-    training distribution.
-  mental_damage: >-
-    Because nothing says 'I'm a professional AI engineer' quite like debugging why your model thinks the user's input is
-    actually part of the system prompt.
+  summary: A redirect page from Hugging Face mirror to the main Hugging Face site for IP regions outside mainland China.
+  why_it_matters: Ensures users outside China access the canonical Hugging Face model hub for downloading models and datasets used in development.
+  mental_damage: Another geo-restriction workaround in the global AI toolchain, reminding developers that even open platforms have regional friction.
   tags:
+    - redirect
     - huggingface
-    - prompting
-    - chat-templates
-    - documentation
+    - access
   confidence: high
 curation:
   status: excluded
-  reason: The resource is a single blog post/documentation article rather than a standalone tool, framework, or product.
+  reason: This is a passive redirect page with no developer-facing functionality, tooling, or product identity — it serves only to route traffic and does not enable coding, agent behavior, or AI workflows.
   evidence:
-    - The source URL leads to a technical blog post on Hugging Face.
-    - The content is educational documentation explaining a concept rather than a functional developer tool or library.
+    - "The page content is a simple redirect notice: '正在前往 Hugging Face 原站' with a 5-second timeout and manual button."
+    - No repository, codebase, or executable tool is associated with this URL — it is a blog subpath on a mirror site.
+    - It appears in source lists only as a linked page under '技巧 Tips' in an awesome list, not as a curated tool or resource.
 placement:
   primary_category: null
   section: null
@@ -64,12 +60,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -77,25 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:21:06.783Z'
+    updated_at: "2026-10-05T04:33:32.863Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:52b1c7035bc5ba9963661cd3b5753a8e4533dc56a84a32d4bb50e19f866004ac
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f0e7353cf921afe48291cfd42b3083a02aa7d49df6be1d2760251d99c6066095
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is a single blog post/documentation article rather than a standalone tool, framework, or product.
+      decision_reason: This is a passive redirect page with no developer-facing functionality, tooling, or product identity — it serves only to route traffic and does not enable coding, agent behavior, or AI workflows.
       decision_evidence:
-        - The source URL leads to a technical blog post on Hugging Face.
-        - >-
-          The content is educational documentation explaining a concept rather than a functional developer tool or
-          library.
+        - "The page content is a simple redirect notice: '正在前往 Hugging Face 原站' with a 5-second timeout and manual button."
+        - No repository, codebase, or executable tool is associated with this URL — it is a blog subpath on a mirror site.
+        - It appears in source lists only as a linked page under '技巧 Tips' in an awesome list, not as a curated tool or resource.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

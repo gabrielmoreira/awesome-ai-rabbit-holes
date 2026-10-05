@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__datanika-io__datanika-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-23T05:08:37.088Z'
+      discovered_at: "2026-07-23T05:08:37.088Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: datanika-io/datanika-core
         extracted_url: https://github.com/datanika-io/datanika-core
-        surrounding_text: >-
-          - [datanika-io/datanika-core](https://github.com/datanika-io/datanika-core/tree/master/datanika-mcp)
-          [![datanika-core MCP
-          server](https://glama.ai/mcp/servers/datanika-io/datanika-core/badges/score.svg)](https://glama.ai/mcp/servers/datanika-io/datanika-core)
-          🎖️ 🐍 ☁️ 🏠 - Read-only-by-default MCP server for [Datanika](https://datanika.io), the open-source ELT + dbt
-          platform: browse connections, preview data, run and compile dbt transforms, monitor runs, and manage
-          pipelines. 25 tools; opt-in `--allow-write` enables create/trigger.
+        surrounding_text: "- [datanika-io/datanika-core](https://github.com/datanika-io/datanika-core/tree/master/datanika-mcp) [![datanika-core MCP server](https://glama.ai/mcp/servers/datanika-io/datanika-core/badges/score.svg)](https://glama.ai/mcp/servers/datanika-io/datanika-core) 🎖️ 🐍 ☁️ 🏠 - Read-only-by-default MCP server for [Datanika](https://datanika.io), the open-source ELT + dbt platform: browse connections, preview data, run and compile dbt transforms, monitor runs, and manage pipelines. 25 tools; opt-in `--allow-write` enables create/trigger."
         confidence: high
 metadata:
   github:
@@ -36,8 +30,8 @@ metadata:
     archived: false
     full_name: datanika-io/datanika-core
     html_url: https://github.com/datanika-io/datanika-core
-    created_at: '2026-02-16T18:35:17Z'
-    pushed_at: '2026-09-12T13:14:32Z'
+    created_at: "2026-02-16T18:35:17Z"
+    pushed_at: "2026-09-12T13:14:32Z"
     description: Your entire data pipeline. One platform
     homepage: https://datanika.io
     topics:
@@ -58,20 +52,14 @@ metadata:
       - postgresql
       - python
       - self-hosted
-    last_checked_at: '2026-09-14T04:13:35.113Z'
+    last_checked_at: "2026-09-14T04:13:35.113Z"
     readme:
-      fetched_at: '2026-09-14T04:13:35.113Z'
+      fetched_at: "2026-09-14T04:13:35.113Z"
       bytes: 10060
 insights:
-  summary: >-
-    Datanika is a self-hosted data pipeline platform that combines dlt for ELT, dbt-core for transformations, and a
-    visual DAG builder with scheduling and monitoring.
-  why_it_matters: >-
-    It gives developers a unified, open-source alternative to Airbyte + dbt Cloud + Airflow for building and managing
-    data pipelines without Kubernetes.
-  mental_damage: >-
-    Finally, a way to feel like you're doing modern data engineering while still arguing over dbt model naming
-    conventions at 2 a.m.
+  summary: Datanika is a self-hosted data pipeline platform that combines dlt for ELT, dbt-core for transformations, and a visual DAG builder with scheduling and monitoring.
+  why_it_matters: It gives developers a unified, open-source alternative to Airbyte + dbt Cloud + Airflow for building and managing data pipelines without Kubernetes.
+  mental_damage: Finally, a way to feel like you're doing modern data engineering while still arguing over dbt model naming conventions at 2 a.m.
   tags:
     - data-pipeline
     - elt
@@ -81,17 +69,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Datanika is a data engineering platform focused on ELT/ETL workflows, not AI-assisted software development, coding
-    agents, or developer tooling for code generation, editing, or debugging.
+  reason: Datanika is a data engineering platform focused on ELT/ETL workflows, not AI-assisted software development, coding agents, or developer tooling for code generation, editing, or debugging.
   evidence:
-    - 'Repo description: ''Your entire data pipeline. One platform'''
-    - >-
-      README: Combines dlt (extract + load) with dbt-core (transform) for visual pipeline management, scheduling, and
-      monitoring
-    - >-
-      Features: 36 connectors, dbt transformations, visual DAG builder, scheduling, monitoring — all oriented around
-      data integration, not code development
+    - "Repo description: 'Your entire data pipeline. One platform'"
+    - "README: Combines dlt (extract + load) with dbt-core (transform) for visual pipeline management, scheduling, and monitoring"
+    - "Features: 36 connectors, dbt transformations, visual DAG builder, scheduling, monitoring — all oriented around data integration, not code development"
 placement:
   primary_category: null
   section: null
@@ -101,17 +83,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-23T05:08:37.090Z'
+    updated_at: "2026-07-23T05:08:37.090Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:35.113Z'
+    updated_at: "2026-09-14T04:13:35.113Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -123,17 +105,11 @@ processing:
       input_hash: sha256:0ccd1ef1d270d8180c0daaf45225f15e6d93d20f8228a2befce012454a85d397
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Datanika is a data engineering platform focused on ELT/ETL workflows, not AI-assisted software development,
-        coding agents, or developer tooling for code generation, editing, or debugging.
+      decision_reason: Datanika is a data engineering platform focused on ELT/ETL workflows, not AI-assisted software development, coding agents, or developer tooling for code generation, editing, or debugging.
       decision_evidence:
-        - 'Repo description: ''Your entire data pipeline. One platform'''
-        - >-
-          README: Combines dlt (extract + load) with dbt-core (transform) for visual pipeline management, scheduling,
-          and monitoring
-        - >-
-          Features: 36 connectors, dbt transformations, visual DAG builder, scheduling, monitoring — all oriented around
-          data integration, not code development
+        - "Repo description: 'Your entire data pipeline. One platform'"
+        - "README: Combines dlt (extract + load) with dbt-core (transform) for visual pipeline management, scheduling, and monitoring"
+        - "Features: 36 connectors, dbt transformations, visual DAG builder, scheduling, monitoring — all oriented around data integration, not code development"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

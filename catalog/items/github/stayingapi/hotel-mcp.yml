@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stayingapi__hotel-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🗺️ Location Services
         anchor_text: stayingapi/hotel-mcp
         extracted_url: https://github.com/stayingapi/hotel-mcp
-        surrounding_text: >-
-          -   **[stayingapi/hotel-mcp](https://github.com/stayingapi/hotel-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/stayingapi/hotel-mcp?style=social)](https://github.com/stayingapi/hotel-mcp):
-          Hosted remote MCP server for live accommodation data across Airbnb, Booking.com, Vrbo, and Google Hotels
-          (search, availability, prices, price comparison, reviews, listings).
+        surrounding_text: "-   **[stayingapi/hotel-mcp](https://github.com/stayingapi/hotel-mcp)** [![GitHub stars](https://img.shields.io/github/stars/stayingapi/hotel-mcp?style=social)](https://github.com/stayingapi/hotel-mcp): Hosted remote MCP server for live accommodation data across Airbnb, Booking.com, Vrbo, and Google Hotels (search, availability, prices, price comparison, reviews, listings)."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    stayingapi/hotel-mcp : Hosted remote MCP server for live accommodation data across Airbnb, Booking.com, Vrbo, and
-    Google Hotels (search, availability, prices, price comparison, reviews, listings).
+  summary: "stayingapi/hotel-mcp : Hosted remote MCP server for live accommodation data across Airbnb, Booking.com, Vrbo, and Google Hotels (search, availability, prices, price comparison, reviews, listings)."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

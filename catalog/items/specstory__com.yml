@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__specstory__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: SpecStory
         extracted_url: https://specstory.com
-        surrounding_text: >-
-          - **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing
-          AI chat context.
+        surrounding_text: "- **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing AI chat context."
         confidence: high
 metadata:
   github:
@@ -38,17 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SpecStory is a platform that saves and syncs coding agent conversation history and runs software tests to send
-    reproducible failures back to agents.
-  why_it_matters: >-
-    It helps developers retain context across AI coding sessions and close the feedback loop between test failures and
-    agent-driven fixes.
-  mental_damage: Another layer of metadata to manage while waiting for your AI to stop hallucinating edge cases.
+  summary: SpecStory saves coding agent conversation histories and RunStory tests software changes, sending defects back to the agent.
+  why_it_matters: It helps developers preserve and reuse agent session context while closing the loop between testing and agent-driven fixes.
+  mental_damage: Another tool to manage the growing pile of agent chat logs you swore you’d review but never will.
   tags:
-    - developer-productivity
-    - ai-agents
-    - testing
+    - agent-history
+    - testing-feedback
   confidence: high
 curation:
   status: included
@@ -58,16 +51,14 @@ curation:
 placement:
   primary_category: memory-and-context
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
   status: needs_review
-  reason: >-
-    Categorization review required: placement disagreement: retained 'memory-and-context', proposed
-    'extensions-and-addons'
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,35 +67,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:37:55.636Z'
+    updated_at: "2026-10-05T04:45:29.824Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c9815b2bd429300a531056c9379b3137e81080e0a386bd85eb6365b72d23ac09
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ae0d43c1e585f8b590c71f3469c4a549e887fd14e26d3542f2b6d1b81c7ba6f0
       proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: >-
-        SpecStory primarily functions as an extension that augments coding agents with conversation persistence and test
-        feedback, rather than acting as a standalone coding agent or app builder.
+      decision_reason: SpecStory is an extension that augments coding agents by saving conversation history and integrating test feedback, making it a host-integrated tool rather than a standalone agent or framework.
       decision_evidence:
-        - Source-list context describes it as saving conversations behind code and sending defects back to coding agents
-        - README emphasizes keeping prompts and decisions from coding agent sessions and syncing them for reuse
-        - >-
-          Product positioning centers on extending agent workflows via extensions, CLI, and cloud — not autonomous code
-          editing
+        - "Source-list context: appears in awesome-ai-coding-tools under Developer Productivity Tools with description 'Save the conversations behind your code with SpecStory. RunStory tests your software and sends defects back to your coding agent.'"
+        - "README excerpt: 'Keep the prompts and decisions from your coding agent sessions. Reuse them when the next task begins.' and 'RunStory tests your software against the change. Send reproducible failures back to your coding agent.'"
+        - "Scraped site context: positions itself as a 'FREE EXTENSIONS, CLI & CLOUD' tool that works with Cursor and other coding agents to save chat histories and enable @ referencing of past conversations."
       category_candidates:
         - extensions-and-addons
         - coding-agents
-      contrastive_reason: >-
-        Choose extensions-and-addons over coding-agents because SpecStory's primary role is augmenting existing agents
-        with memory and test feedback, not autonomously planning or executing coding tasks.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'memory-and-context', proposed
-        'extensions-and-addons'
+      contrastive_reason: Choose extensions-and-addons over coding-agents because SpecStory’s primary value is augmenting existing coding agents (like Cursor) with history persistence and test feedback, rather than acting as an autonomous coding agent that writes or edits code directly.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aiven__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Aiven projects
         extracted_url: https://go.aiven.io/mcp-server
-        surrounding_text: >-
-          - [Aiven-Open/mcp-aiven](https://github.com/Aiven-Open/mcp-aiven) - 🐍 ☁️ 🎖️ -  Navigate your [Aiven
-          projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and
-          OpenSearch® services
+        surrounding_text: "- [Aiven-Open/mcp-aiven](https://github.com/Aiven-Open/mcp-aiven) - 🐍 ☁️ 🎖️ -  Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
         confidence: high
     - id: discovery__aiven__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,10 +34,7 @@ provenance:
           - Official Servers
         anchor_text: Aiven projects
         extracted_url: https://go.aiven.io/mcp-server
-        surrounding_text: >-
-          - **[Aiven](https://github.com/Aiven-Open/mcp-aiven)** - Navigate your [Aiven
-          projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and
-          OpenSearch® services
+        surrounding_text: "- **[Aiven](https://github.com/Aiven-Open/mcp-aiven)** - Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services"
         confidence: high
 metadata:
   github:
@@ -58,30 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Managed open-source data platform providing services like Kafka, PostgreSQL, and OpenSearch for AI and data
-    workloads.
-  why_it_matters: >-
-    It provides the reliable, managed streaming and storage infrastructure required to power RAG and real-time AI data
-    pipelines.
-  mental_damage: It's essentially a managed database provider wearing a very trendy 'AI-ready' hat.
+  summary: Aiven is a managed open-source data platform providing databases, streaming, and analytics services designed for AI workloads.
+  why_it_matters: It provides the production-grade data infrastructure—including PostgreSQL, Kafka, and OpenSearch—required to power RAG and autonomous agent workflows.
+  mental_damage: Another cloud provider rebranding traditional managed services as 'agent-ready' to stay relevant in the LLM hype cycle.
   tags:
     - managed-data
     - infrastructure
     - postgresql
     - kafka
-    - mcp
+    - rag
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a general managed data infrastructure provider whose 'AI-ready' features are integrations of its core database
-    services rather than a specialized AI developer tool.
+  reason: Aiven's primary identity is a managed data infrastructure provider, making its AI-specific features incidental to its core service of hosting databases and streaming pipelines.
   evidence:
-    - >-
-      The product's primary identity is an 'open source data platform' offering managed Kafka, PostgreSQL, and
-      ClickHouse.
-    - The MCP support is a feature of the broader platform rather than an MCP-first product identity.
+    - The product is primarily a provider of managed open-source services like PostgreSQL, MySQL, and Apache Kafka.
+    - MCP and 'agent-ready' capabilities are presented as connectors or runtimes for existing data services, not as the product's primary identity.
+    - It fits the definition of a data infrastructure product which is explicitly excluded from the Memory & Context category.
 placement:
   primary_category: null
   section: null
@@ -91,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.596Z'
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -100,27 +87,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:14:39.388Z'
+    updated_at: "2026-10-05T04:19:44.256Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7a7c868430d593b15416823f4a8c6fa614f73678aa788c0234ae8d2fbff5cef1
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:18b2cd5a7c0dd771f37dfbda8e90f76cd0c66d81ede391a3b15b67af2d7c90ec
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a general managed data infrastructure provider whose 'AI-ready' features are integrations of its core
-        database services rather than a specialized AI developer tool.
+      decision_reason: Aiven's primary identity is a managed data infrastructure provider, making its AI-specific features incidental to its core service of hosting databases and streaming pipelines.
       decision_evidence:
-        - >-
-          The product's primary identity is an 'open source data platform' offering managed Kafka, PostgreSQL, and
-          ClickHouse.
-        - The MCP support is a feature of the broader platform rather than an MCP-first product identity.
+        - The product is primarily a provider of managed open-source services like PostgreSQL, MySQL, and Apache Kafka.
+        - MCP and 'agent-ready' capabilities are presented as connectors or runtimes for existing data services, not as the product's primary identity.
+        - It fits the definition of a data infrastructure product which is explicitly excluded from the Memory & Context category.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

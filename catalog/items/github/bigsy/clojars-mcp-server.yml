@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bigsy__clojars-mcp-server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Clojars
         extracted_url: https://github.com/bigsy/clojars-mcp-server
-        surrounding_text: >-
-          - **[Clojars](https://github.com/Bigsy/Clojars-MCP-Server)** - Obtains latest dependency details for Clojure
-          libraries.
+        surrounding_text: "- **[Clojars](https://github.com/Bigsy/Clojars-MCP-Server)** - Obtains latest dependency details for Clojure libraries."
         confidence: high
 metadata:
   github:
@@ -31,25 +29,19 @@ metadata:
     archived: false
     full_name: Bigsy/Clojars-MCP-Server
     html_url: https://github.com/Bigsy/Clojars-MCP-Server
-    created_at: '2024-12-14T20:21:55Z'
-    pushed_at: '2025-06-25T16:21:52Z'
-    description: >-
-      A Model Context Protocol (MCP) server that provides tools for fetching dependency information from Clojars, the
-      Clojure community's artifact repository.
+    created_at: "2024-12-14T20:21:55Z"
+    pushed_at: "2025-06-25T16:21:52Z"
+    description: A Model Context Protocol (MCP) server that provides tools for fetching dependency information from Clojars, the Clojure community's artifact repository.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-24T04:12:59.450Z'
+    last_checked_at: "2026-09-24T04:12:59.450Z"
     readme:
-      fetched_at: '2026-09-24T04:12:59.450Z'
+      fetched_at: "2026-09-24T04:12:59.450Z"
       bytes: 4880
 insights:
-  summary: >-
-    A Model Context Protocol (MCP) server that provides tools for fetching dependency information from the Clojars
-    artifact repository.
+  summary: A Model Context Protocol (MCP) server that provides tools for fetching dependency information from the Clojars artifact repository.
   why_it_matters: It lets AI agents like Claude query Clojure dependency versions directly, reducing manual lookup during development.
-  mental_damage: >-
-    Yet another MCP server for a niche registry, adding to the growing pile of protocol-specific adapters developers
-    must configure.
+  mental_damage: Yet another MCP server for a niche registry, adding to the growing pile of protocol-specific adapters developers must configure.
   tags:
     - mcp
     - clojure
@@ -70,18 +62,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:59.450Z'
+    updated_at: "2026-09-24T04:12:59.450Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:56:22.190Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -93,20 +87,14 @@ processing:
       input_hash: sha256:53c91b79970ff6f8e730b02e84af25c62031fc6aa5ec309e906619791af65f2a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's primary identity is an MCP server exposing Clojars dependency tools, fitting the MCP category
-        where protocol identity is the core product.
+      decision_reason: The product's primary identity is an MCP server exposing Clojars dependency tools, fitting the MCP category where protocol identity is the core product.
       decision_evidence:
-        - >-
-          Repo description: 'A Model Context Protocol (MCP) server that provides tools for fetching dependency
-          information from Clojars'
+        - "Repo description: 'A Model Context Protocol (MCP) server that provides tools for fetching dependency information from Clojars'"
         - README emphasizes MCP server functionality and integration with Claude via MCP settings
         - Listed in awesome-mcp-servers under Community Servers section
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server whose identity is the MCP protocol
-        itself, not merely an extension that adds capabilities to a host agent.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is the MCP protocol itself, not merely an extension that adds capabilities to a host agent.
       review_reason: null
       review_resume_lifecycle: null

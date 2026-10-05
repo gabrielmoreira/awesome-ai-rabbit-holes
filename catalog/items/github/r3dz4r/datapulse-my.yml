@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__r3dz4r__datapulse-my__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: r3dz4r/datapulse-my
         extracted_url: https://github.com/r3dz4r/datapulse-my
-        surrounding_text: >-
-          - [r3dz4r/datapulse-my](https://github.com/r3dz4r/datapulse-my) [![r3dz4r/datapulse-my MCP
-          server](https://glama.ai/mcp/servers/r3dz4r/datapulse-my/badges/score.svg)](https://glama.ai/mcp/servers/r3dz4r/datapulse-my)
-          🐍 ☁️ - Trust checks for Malaysian public datasets: freshness, licence, provenance and drift, with signed
-          evidence and an offline-verifiable attestation chain.
+        surrounding_text: "- [r3dz4r/datapulse-my](https://github.com/r3dz4r/datapulse-my) [![r3dz4r/datapulse-my MCP server](https://glama.ai/mcp/servers/r3dz4r/datapulse-my/badges/score.svg)](https://glama.ai/mcp/servers/r3dz4r/datapulse-my) 🐍 ☁️ - Trust checks for Malaysian public datasets: freshness, licence, provenance and drift, with signed evidence and an offline-verifiable attestation chain."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    r3dz4r/datapulse-my ☁️ - Trust checks for Malaysian public datasets: freshness, licence, provenance and drift, with
-    signed evidence and an offline-verifiable attestation chain.
+  summary: "r3dz4r/datapulse-my ☁️ - Trust checks for Malaysian public datasets: freshness, licence, provenance and drift, with signed evidence and an offline-verifiable attestation chain."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
   evidence:
     - jev-latest choice confidence 0.68
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
-      at mcp (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.473Z'
+    updated_at: "2026-09-29T13:07:10.473Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

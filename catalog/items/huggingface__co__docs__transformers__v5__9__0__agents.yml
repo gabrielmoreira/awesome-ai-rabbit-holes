@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__docs__transformers__v5__9__0__agents__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-25T05:35:31.720Z'
+      discovered_at: "2026-05-25T05:35:31.720Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,9 +18,7 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Transformers Agents
         extracted_url: https://huggingface.co/docs/transformers/transformers_agents
-        surrounding_text: >-
-          - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural
-          language API on top of transformers
+        surrounding_text: "- [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural language API on top of transformers"
         confidence: high
 metadata:
   github:
@@ -38,20 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation for agent functionality within the Hugging Face Transformers library.
-  why_it_matters: Guides developers on how to implement agentic patterns using the Transformers framework.
-  mental_damage: There is a special kind of hell reserved for version-specific documentation that only exists on the main branch.
-  tags:
-    - huggingface
-    - transformers
-    - documentation
+  summary: The Hugging Face Transformers documentation page for 'agents' does not exist in version 5.9.0 and redirects to the main version.
+  why_it_matters: It does not matter to developers as it is not a tool, product, or resource but a broken documentation link.
+  mental_damage: Another reminder that even documentation can feel like an AI rabbit hole when the page you’re looking for vanished into the void.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a piece of documentation rather than a standalone product or tool.
+  reason: This is a documentation redirect notice for a missing page, not a standalone AI tool, agent, or developer-facing product.
   evidence:
-    - Scraped site context identifies the target as a documentation page.
-    - The content explicitly states the documentation page does not exist for the requested version (v5.9.0).
+    - "Repo description: (none)"
+    - "Primary page excerpt: 'The documentation page AGENTS doesn't exist in v5.9.0, but exists on the main version. Click here to redirect to the main version of the documentation.'"
 placement:
   primary_category: null
   section: null
@@ -61,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-25T05:35:31.721Z'
+    updated_at: "2026-05-25T05:35:31.721Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,23 +65,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:23:59.092Z'
+    updated_at: "2026-10-05T04:25:23.859Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:47f057003dbac742999d27b995210b390decaf90420b736a548df3c19d85c62e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d1cb72be8da628e0db60b244082e73a26710ea9ae357daebbbe6645cec13ff69
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a piece of documentation rather than a standalone product or tool.
+      decision_reason: This is a documentation redirect notice for a missing page, not a standalone AI tool, agent, or developer-facing product.
       decision_evidence:
-        - Scraped site context identifies the target as a documentation page.
-        - The content explicitly states the documentation page does not exist for the requested version (v5.9.0).
+        - "Repo description: (none)"
+        - "Primary page excerpt: 'The documentation page AGENTS doesn't exist in v5.9.0, but exists on the main version. Click here to redirect to the main version of the documentation.'"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

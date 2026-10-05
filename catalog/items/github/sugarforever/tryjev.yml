@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sugarforever__tryjev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Added today
         anchor_text: tryjev
         extracted_url: https://github.com/sugarforever/tryjev
-        surrounding_text: '- **Demos & playgrounds (1):** [tryjev](https://github.com/sugarforever/tryjev)'
+        surrounding_text: "- **Demos & playgrounds (1):** [tryjev](https://github.com/sugarforever/tryjev)"
         confidence: high
     - id: discovery__github__sugarforever__tryjev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -32,14 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**tryjev**'
+        anchor_text: "**tryjev**"
         extracted_url: https://github.com/sugarforever/tryjev
-        surrounding_text: >-
-          - [**tryjev**](https://github.com/sugarforever/tryjev) — A playground for Jev, TypeSafe AI's fast decision
-          model: preset scenarios on the left, an editable state plus typed questions in the middle, typed answers with
-          probabilities on the right. Bring your own key and pick a provider: OpenRouter (\`typesafe/jev-1.13\`,
-          \`alpha.decisions\`), Vercel AI Gateway (\`typesafe-ai/jev\`, AI SDK \`experimental\_evaluate\`) or TypeSafe's
-          own API (\`jev-latest\`, \`POST /v1/systemone\`).
+        surrounding_text: "- [**tryjev**](https://github.com/sugarforever/tryjev) — A playground for Jev, TypeSafe AI's fast decision model: preset scenarios on the left, an editable state plus typed questions in the middle, typed answers with probabilities on the right. Bring your own key and pick a provider: OpenRouter (\\`typesafe/jev-1.13\\`, \\`alpha.decisions\\`), Vercel AI Gateway (\\`typesafe-ai/jev\\`, AI SDK \\`experimental\\_evaluate\\`) or TypeSafe's own API (\\`jev-latest\\`, \\`POST /v1/systemone\\`)."
         confidence: high
 metadata:
   github:
@@ -57,7 +52,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'Demos & playgrounds (1): tryjev'
+  summary: "Demos & playgrounds (1): tryjev"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,9 +62,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
   evidence:
     - jev-latest choice confidence 0.45
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Open & Local Decision Models; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Open & Local Decision Models; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -81,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.425Z'
+    updated_at: "2026-09-29T13:07:10.425Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

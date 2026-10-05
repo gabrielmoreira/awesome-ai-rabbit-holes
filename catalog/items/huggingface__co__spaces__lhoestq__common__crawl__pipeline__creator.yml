@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creat
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__spaces__lhoestq__common__crawl__pipeline__creator__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__huggingface__co__spaces__lhoestq__common__crawl__pipeline__creator__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 数据 Data
         anchor_text: Common-Crawl-Pipeline-Creator
         extracted_url: https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator
-        surrounding_text: >-
-          15. [Common-Crawl-Pipeline-Creator](https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator): The
-          Common Crawl Pipeline Creator.
+        surrounding_text: "15. [Common-Crawl-Pipeline-Creator](https://huggingface.co/spaces/lhoestq/Common-Crawl-Pipeline-Creator): The Common Crawl Pipeline Creator."
         confidence: high
 metadata:
   github:
@@ -39,28 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based interface for creating and customizing data processing pipelines for Common Crawl datasets.
-  why_it_matters: >-
-    It simplifies the complex task of filtering and extracting high-quality text from massive web crawls, which is a
-    prerequisite for effective LLM training.
-  mental_damage: >-
-    Nothing cures developer optimism faster than the realization that your model's intelligence is entirely dependent on
-    how many hours you spend fighting web-scale text cleaning pipelines.
+  summary: A Hugging Face Space that lets users create and customize data processing pipelines for Common Crawl data.
+  why_it_matters: It simplifies the setup of large-scale web data extraction pipelines for developers needing curated Common Crawl subsets.
+  mental_damage: Another clicky demo that pretends data engineering is just toggling checkboxes until your cluster bill arrives.
   tags:
-    - data-engineering
-    - llm-training
-    - common-crawl
     - data-pipeline
+    - common-crawl
+    - huggingface-spaces
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a specialized data engineering utility for LLM preprocessing, which falls outside the catalog's specific
-    focus on coding agents, IDE extensions, and agentic developer workflows.
+  reason: The tool is a data pipeline builder for Common Crawl, not a developer-facing AI coding agent, framework, or workflow tool; it lacks any AI-driven code generation, editing, or agent behavior.
   evidence:
-    - Hosted on Hugging Face Spaces as a GUI-based pipeline creator
-    - Primary function is filtering and extracting data from Common Crawl
-    - Categorized under 'Data' in existing source lists
+    - "Repo description: (none)"
+    - "Scraped site context: Create and customize a data processing pipeline for Common Crawl data. Users can enable/disable various filtering and extraction steps, adjust parameters, and view the output and excluded data."
+    - "Source-list context: Listed under '数据 Data' in awesome-LLM-resources as a pipeline creator, not an AI coding or agent tool"
 placement:
   primary_category: null
   section: null
@@ -70,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,26 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:11.614Z'
+    updated_at: "2026-10-05T04:34:28.816Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:25579891f685c149a5a6450e9e84ec05a81c3efbada898e5befb899ce9a1b69d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:00065ae6622611d7eaea5a55b72312455e0c365c396b213e16f68a26de9caf24
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a specialized data engineering utility for LLM preprocessing, which falls outside the catalog's
-        specific focus on coding agents, IDE extensions, and agentic developer workflows.
+      decision_reason: The tool is a data pipeline builder for Common Crawl, not a developer-facing AI coding agent, framework, or workflow tool; it lacks any AI-driven code generation, editing, or agent behavior.
       decision_evidence:
-        - Hosted on Hugging Face Spaces as a GUI-based pipeline creator
-        - Primary function is filtering and extracting data from Common Crawl
-        - Categorized under 'Data' in existing source lists
+        - "Repo description: (none)"
+        - "Scraped site context: Create and customize a data processing pipeline for Common Crawl data. Users can enable/disable various filtering and extraction steps, adjust parameters, and view the output and excluded data."
+        - "Source-list context: Listed under '数据 Data' in awesome-LLM-resources as a pipeline creator, not an AI coding or agent tool"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

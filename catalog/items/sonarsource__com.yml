@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sonarsource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,13 +18,10 @@ provenance:
           - Official Servers
         anchor_text: SonarQube
         extracted_url: https://sonarsource.com
-        surrounding_text: >-
-          - **[SonarQube](https://github.com/SonarSource/sonarqube-mcp-server)** - Provides seamless integration with
-          [SonarQube](https://www.sonarsource.com/) Server or Cloud, and enables analysis of code snippets directly
-          within the agent context
+        surrounding_text: "- **[SonarQube](https://github.com/SonarSource/sonarqube-mcp-server)** - Provides seamless integration with [SonarQube](https://www.sonarsource.com/) Server or Cloud, and enables analysis of code snippets directly within the agent context"
         confidence: high
     - id: discovery__www__sonarsource__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +33,7 @@ provenance:
           - Official Servers
         anchor_text: SonarQube
         extracted_url: https://www.sonarsource.com
-        surrounding_text: >-
-          - **[SonarQube](https://github.com/SonarSource/sonarqube-mcp-server)** - Provides seamless integration with
-          [SonarQube](https://www.sonarsource.com/) Server or Cloud, and enables analysis of code snippets directly
-          within the agent context
+        surrounding_text: "- **[SonarQube](https://github.com/SonarSource/sonarqube-mcp-server)** - Provides seamless integration with [SonarQube](https://www.sonarsource.com/) Server or Cloud, and enables analysis of code snippets directly within the agent context"
         confidence: high
 metadata:
   github:
@@ -57,77 +51,59 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SonarQube is a multi-layered code verification and governance platform that integrates AI agents for security,
-    quality, and remediation across CI/CD workflows.
-  why_it_matters: >-
-    It provides independent, auditable code verification that lets developers safely use AI coding agents by catching
-    issues before they reach production.
-  mental_damage: Finally, a way to feel guilty about AI-generated code at scale, with enterprise-grade audit trails.
+  summary: SonarQube is a code verification and governance platform that provides AI-powered security, quality, and compliance checks for code in CI/CD workflows.
+  why_it_matters: It helps developers catch bugs, security flaws, and technical debt early by integrating automated code review into their development pipeline.
+  mental_damage: Another layer of 'shift-left' tooling that promises faster delivery while silently adding yet another gate to your CI that you’ll blame when your PR sits idle.
   tags:
     - code-quality
     - security
-    - ai-verification
-    - devsecops
-    - mcp
-  confidence: medium
+    - devops
+    - ci-cd
+    - static-analysis
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    SonarQube is primarily a code verification and governance platform that provides APIs, CLI, and SDKs for developers
-    to integrate security and quality checks into their workflows, aligning with the Frameworks & SDKs category as a
-    provider abstraction layer rather than a standalone coding agent or orchestrator.
+  status: excluded
+  reason: SonarQube is a developer-facing tool, but it is a code quality and security platform, not an AI coding agent, extension, or developer tool that fits the catalog’s focus on AI-native workflows like coding agents, app builders, or agent orchestration.
   evidence:
-    - Offers SonarQube CLI, IDE extensions, and MCP server for integrating code quality into developer workflows
-    - Marketed as an 'independent AI code verification platform' providing multi-layered review of all code
-    - Provides SDKs and plugins for major AI coding agents (Claude Code, Cursor, Copilot) to verify AI-generated code
-    - jev winnow:e4b 0.32 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at ai-frameworks (unverified)
+    - SonarQube provides AI code verification, security scanning, and governance for CI/CD workflows
+    - It offers products like Sonar Vortex, Remediation Agent, and Hunter Agent that act as AI agents for code review and remediation, but these are features of a broader verification platform
+    - It is listed in awesome-mcp-servers under 'Official Servers' as a provider of MCP server functionality for code quality
 placement:
-  primary_category: ai-frameworks
-  section: Provider & Model Abstractions
+  primary_category: null
   secondary_categories:
     - mcp
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:45:54.589Z'
+    updated_at: "2026-10-05T04:50:50.404Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bc35a043029b00aee6365d37af79290ed0a8b55eb8cab2a05d135828492fca21
-      proposed_primary_category: ai-frameworks
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c75e0b65a8506d809ec842c5322195452933ebbd7f9ff15de8e9b47dbb8d255f
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        SonarQube is primarily a code verification and governance platform that provides APIs, CLI, and SDKs for
-        developers to integrate security and quality checks into their workflows, aligning with the Frameworks & SDKs
-        category as a provider abstraction layer rather than a standalone coding agent or orchestrator.
+      decision_reason: SonarQube is a developer-facing tool, but it is a code quality and security platform, not an AI coding agent, extension, or developer tool that fits the catalog’s focus on AI-native workflows like coding agents, app builders, or agent orchestration.
       decision_evidence:
-        - Offers SonarQube CLI, IDE extensions, and MCP server for integrating code quality into developer workflows
-        - Marketed as an 'independent AI code verification platform' providing multi-layered review of all code
-        - >-
-          Provides SDKs and plugins for major AI coding agents (Claude Code, Cursor, Copilot) to verify AI-generated
-          code
-      category_candidates:
-        - ai-frameworks
-        - mcp
-      contrastive_reason: >-
-        Choose ai-frameworks over mcp because while SonarQube offers an MCP server, its core identity is as a code
-        verification platform providing SDKs, CLI, and abstractions for developers to build secure AI-assisted
-        workflows, not as MCP-first infrastructure.
+        - SonarQube provides AI code verification, security scanning, and governance for CI/CD workflows
+        - It offers products like Sonar Vortex, Remediation Agent, and Hunter Agent that act as AI agents for code review and remediation, but these are features of a broader verification platform
+        - It is listed in awesome-mcp-servers under 'Official Servers' as a provider of MCP server functionality for code quality
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

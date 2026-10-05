@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__applitools__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Applitools
         extracted_url: https://applitools.com
-        surrounding_text: '- **[Applitools](https://applitools.com/)** – Visual AI testing platform with cross-browser support.'
+        surrounding_text: "- **[Applitools](https://applitools.com/)** – Visual AI testing platform with cross-browser support."
         confidence: high
 metadata:
   github:
@@ -36,44 +36,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Applitools is an intelligent testing platform that uses visual AI to automate visual, functional, and accessibility
-    testing across web and mobile applications.
-  why_it_matters: >-
-    It replaces fragile, pixel-based regression testing with deterministic Visual AI, making automated UI validation
-    more reliable during agentic SDLC workflows.
-  mental_damage: >-
-    Because nothing says 'trust the automation' quite like relying on computer vision to ensure your UI hasn't drifted
-    into a chaotic, unclickable mess.
+  summary: Applitools is an AI-powered end-to-end testing platform that uses Visual AI and deterministic language models to validate UI correctness and reduce test maintenance.
+  why_it_matters: It helps developers catch UI regressions and hallucinations in AI-generated code by providing deterministic visual validation grounded in actual rendered output.
+  mental_damage: Finally, a tool that treats your AI's overconfident UI guesses like a fender bender — and actually calls the insurance.
   tags:
     - testing
     - visual-ai
     - qa
+    - deterministic-testing
   confidence: high
 curation:
   status: included
-  reason: >-
-    Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting as a
-    primary coding assistant.
+  reason: Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting as a primary coding assistant.
   evidence:
     - Provides 'Intelligent Testing Platform' for visual and functional validation
     - Integrates with CI/CD and existing testing frameworks like Playwright
     - Offers 'Autonomous' features for automated test creation and analysis
-    - >-
-      jev winnow:e4b 0.32 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at coding-agents
-      (unverified)
+    - jev winnow:e4b 0.32 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
     - evals
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,36 +72,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:11.544Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for applitools__com: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:27.728Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b32c504e91202054c4e94a8364944aa0f15dfb39b5384c45b6e3742c27754b64
-      proposed_primary_category: null
-      disagreement: false
-      decision_reason: >-
-        Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting
-        as a primary coding assistant.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:02ef74b9e84411d9aecdbcab3134ad67369a29d7f9d222c6940ab975772b2ed7
+      proposed_primary_category: evals
+      disagreement: true
+      decision_reason: Applitools belongs in evals because its core function is measuring and validating UI correctness via deterministic visual and functional testing, which aligns with evaluation and regression testing of agent-generated code.
       decision_evidence:
-        - Provides 'Intelligent Testing Platform' for visual and functional validation
-        - Integrates with CI/CD and existing testing frameworks like Playwright
-        - Offers 'Autonomous' features for automated test creation and analysis
+        - Applitools provides deterministic visual ground truth to catch UI hallucinations, broken layouts, and WCAG violations before code hits production.
+        - It pairs a Deterministic Language Model (DLM) with Visual AI to act as an objective governance guardrail for AI-generated code in development pipelines.
+        - Listed in awesome-ai-coding-tools under Testing and QA as an AI-powered end-to-end testing platform.
       category_candidates:
-        - ai-dev-extensions
-        - coding-agents
-      contrastive_reason: >-
-        Choose ai-dev-extensions over coding-agents because it functions as a specialized QA augmentation for the
-        development workflow rather than a primary code-writing assistant.
-      review_reason: null
-      review_resume_lifecycle: null
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because Applitools is not primarily an add-on for a coding agent or editor — it is a standalone testing platform whose core job is evaluation and validation of visual and functional correctness.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

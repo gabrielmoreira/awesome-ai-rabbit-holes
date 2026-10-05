@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__gair__davinci__magihuman__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,29 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A 15B-parameter single-stream Transformer foundation model for synchronized audio-video generation.
-  why_it_matters: >-
-    It provides high-fidelity, low-latency generation of expressive human facial and body motion paired with
-    synchronized audio.
-  mental_damage: >-
-    A model that can perfectly synchronize lip movements, yet we still can't get our coding agents to stop hallucinating
-    library versions.
+  summary: daVinci-MagiHuman is a single-stream Transformer model for generating audio-video from text and image inputs.
+  why_it_matters: It enables developers to build fast, high-quality multimodal generative applications with efficient inference on consumer GPUs.
+  mental_damage: Another video model that makes you wonder if your next side project should just be generating fake celebrity deepfakes instead of actual code.
   tags:
     - video-generation
-    - foundation-model
-    - audio-video
     - multimodal
+    - inference
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a foundation model for generative media rather than a tool or framework specifically designed to
-    assist in software development workflows, coding agents, or developer infrastructure.
+  reason: daVinci-MagiHuman is a foundational multimodal generative model, not a developer-facing tool, agent, framework, or workflow product; it provides model weights for audio-video synthesis but does not assist with coding, app building, or AI development workflows.
   evidence:
-    - The repository primarily provides model weights and architecture for audio-video generation.
-    - >-
-      The product identity is a generative media model, which falls under general ML research rather than the
-      developer-tooling scope of the catalog.
+    - The model generates audio-video from text and image inputs using a single-stream Transformer architecture.
+    - It is hosted on Hugging Face as a model checkpoint with inference code and Docker/Conda setup instructions for running generation.
+    - The scraped page and README focus on model architecture, performance benchmarks, and usage for video/audio generation, not developer tooling or coding assistance.
 placement:
   primary_category: null
   section: null
@@ -69,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -82,27 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:25:54.326Z'
+    updated_at: "2026-10-05T04:34:03.142Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:58682ea9984ec3d739d5b1d020b875d726461b2131cac77480ce61b1c697ab34
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:60af94fc941cb976d693f17aebc7058500d0480fc320bdb393bdc018b56b8afd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a foundation model for generative media rather than a tool or framework specifically designed to
-        assist in software development workflows, coding agents, or developer infrastructure.
+      decision_reason: daVinci-MagiHuman is a foundational multimodal generative model, not a developer-facing tool, agent, framework, or workflow product; it provides model weights for audio-video synthesis but does not assist with coding, app building, or AI development workflows.
       decision_evidence:
-        - The repository primarily provides model weights and architecture for audio-video generation.
-        - >-
-          The product identity is a generative media model, which falls under general ML research rather than the
-          developer-tooling scope of the catalog.
+        - The model generates audio-video from text and image inputs using a single-stream Transformer architecture.
+        - It is hosted on Hugging Face as a model checkpoint with inference code and Docker/Conda setup instructions for running generation.
+        - The scraped page and README focus on model architecture, performance benchmarks, and usage for video/audio generation, not developer tooling or coding assistance.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

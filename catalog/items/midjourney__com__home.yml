@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__midjourney__com__home__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,15 +19,10 @@ provenance:
           - CV Foundation Model
         anchor_text: midjourney
         extracted_url: https://midjourney.com/home
-        surrounding_text: >-
-          | [midjourney](https://www.midjourney.com/home/)                                 | Midjourney is an
-          independent research lab exploring new mediums of thought and expanding the imaginative powers of the human
-          species.           
-          |                                                                                                             
-          |
+        surrounding_text: "| [midjourney](https://www.midjourney.com/home/)                                 | Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.            |                                                                                                              |"
         confidence: high
     - id: discovery__www__midjourney__com__home__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,12 +35,7 @@ provenance:
           - CV Foundation Model
         anchor_text: midjourney
         extracted_url: https://www.midjourney.com/home
-        surrounding_text: >-
-          | [midjourney](https://www.midjourney.com/home/)                                 | Midjourney is an
-          independent research lab exploring new mediums of thought and expanding the imaginative powers of the human
-          species.           
-          |                                                                                                             
-          |
+        surrounding_text: "| [midjourney](https://www.midjourney.com/home/)                                 | Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.            |                                                                                                              |"
         confidence: high
 metadata:
   github:
@@ -63,34 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Midjourney is a commercial image generation service that creates images from text prompts using proprietary AI
-    models.
-  why_it_matters: >-
-    It enables rapid visual concept generation for UI/UX design, prototyping, and creative exploration in developer
-    workflows involving design handoffs or asset creation.
-  mental_damage: >-
-    You’ll spend more time refining prompts than designing, chasing the uncanny valley of ‘almost usable’ AI-generated
-    assets that still need human redrawing.
+  summary: Midjourney is a text-to-image generation service for creating visual art from natural language prompts.
+  why_it_matters: It enables developers to quickly prototype UI concepts, generate assets, or explore design ideas without manual graphic design work.
+  mental_damage: Another tool promising to replace designers while flooding Discord with surreal anime cats that somehow become your team's new brand direction.
   tags:
     - image-generation
-    - ai-creative-tools
-    - design-assist
+    - creative-ai
+    - design-tool
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Midjourney is a creative image generation tool with no developer-facing tooling identity; it does not assist with
-    coding, code editing, agent workflows, infrastructure, or any software development task beyond optional asset
-    generation.
+  reason: Midjourney is a general-purpose creative AI tool for image generation, not a developer-focused coding agent, framework, or workflow tool that directly aids software development tasks.
   evidence:
-    - Repo description is missing; the project is not a GitHub repo but a commercial web service at midjourney.com
-    - >-
-      README excerpt and scraped site context describe it as an AI image generator for art, design, and creativity — not
-      developer tooling
-    - >-
-      Appears in Awesome-LLMOps only under 'Model > CV Foundation Model', indicating it is treated as a generative
-      model, not a developer tool
+    - "Repo description: (none)"
+    - "Seen in source lists / directories: Awesome-LLMOps | purpose: An awesome & curated list of best LLMOps tools for developers | section: Model > CV Foundation Model"
+    - "URL: https://midjourney.com/home (a commercial AI art service, not a developer tool)"
 placement:
   primary_category: null
   section: null
@@ -100,38 +77,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:43:06.886Z'
+    updated_at: "2026-10-05T04:49:20.447Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c1f3e37f4c7cfc52085ac36cfaf9767f6349dfdb4ab0733052b283d0fb620966
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:808ade6a09e5bcc81e05903767be394dfc3c3036e1723c23ea0b9b269cf1ff9b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Midjourney is a creative image generation tool with no developer-facing tooling identity; it does not assist
-        with coding, code editing, agent workflows, infrastructure, or any software development task beyond optional
-        asset generation.
+      decision_reason: Midjourney is a general-purpose creative AI tool for image generation, not a developer-focused coding agent, framework, or workflow tool that directly aids software development tasks.
       decision_evidence:
-        - Repo description is missing; the project is not a GitHub repo but a commercial web service at midjourney.com
-        - >-
-          README excerpt and scraped site context describe it as an AI image generator for art, design, and creativity —
-          not developer tooling
-        - >-
-          Appears in Awesome-LLMOps only under 'Model > CV Foundation Model', indicating it is treated as a generative
-          model, not a developer tool
+        - "Repo description: (none)"
+        - "Seen in source lists / directories: Awesome-LLMOps | purpose: An awesome & curated list of best LLMOps tools for developers | section: Model > CV Foundation Model"
+        - "URL: https://midjourney.com/home (a commercial AI art service, not a developer tool)"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

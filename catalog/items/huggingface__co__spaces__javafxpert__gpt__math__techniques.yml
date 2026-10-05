@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__spaces__javafxpert__gpt__math__techniques__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,9 +19,7 @@ provenance:
           - Other / Chatbots
         anchor_text: Chat Math Techniques
         extracted_url: https://huggingface.co/spaces/JavaFXpert/gpt-math-techniques
-        surrounding_text: >-
-          - [Chat Math Techniques](https://huggingface.co/spaces/JavaFXpert/gpt-math-techniques): langchain chat with
-          math techniques on Huggingface
+        surrounding_text: "- [Chat Math Techniques](https://huggingface.co/spaces/JavaFXpert/gpt-math-techniques): langchain chat with math techniques on Huggingface"
         confidence: high
 metadata:
   github:
@@ -39,27 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space demonstrating specific mathematical reasoning techniques for GPT models.
-  why_it_matters: >-
-    It serves as a research playground for exploring how specific prompting or reasoning patterns can improve LLM
-    performance on mathematical tasks.
-  mental_damage: Another specialized research demo that promises to solve math once and for all, right before it hits a token limit.
+  summary: A Hugging Face Space demonstrating GPT-based math techniques, currently showing a build error.
+  why_it_matters: It offers a glimpse into experimental AI applications for mathematical reasoning, though it is not functional.
+  mental_damage: Another AI demo that fails to build, reminding us that hype often outpaces working code.
   tags:
-    - huggingface
-    - llm-reasoning
+    - demo
     - math
+    - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a specialized research demonstration/playground on Hugging Face rather than a practical developer
-    tool, framework, or coding agent.
+  reason: The project is a non-functional Hugging Face Space demo with no clear developer tooling purpose or workflow integration.
   evidence:
-    - Hosted as a Hugging Face Space
-    - >-
-      Title and context indicate a focus on demonstrating mathematical reasoning techniques rather than providing a
-      developer utility
-    - Lacks the infrastructure or integration identity required for the catalog scope
+    - Scraped site shows a build error with failed metadata fetch from HF Docker repository
+    - No repo description, README, or usable functionality is provided
+    - Listed in awesome-langchain only as an 'Open Source Project > Other / Chatbots' without substantive tooling claims
 placement:
   primary_category: null
   section: null
@@ -69,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,28 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:27:42.154Z'
+    updated_at: "2026-10-05T04:34:20.595Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:831df4e52c6f2b214acd0b2212c3d1874342e415db336658c5a781b2d37bad92
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f431ef5c11f0bfdad2d5e0bc64460f6dd6f81e742473dd038e867ca13c45f056
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a specialized research demonstration/playground on Hugging Face rather than a practical developer
-        tool, framework, or coding agent.
+      decision_reason: The project is a non-functional Hugging Face Space demo with no clear developer tooling purpose or workflow integration.
       decision_evidence:
-        - Hosted as a Hugging Face Space
-        - >-
-          Title and context indicate a focus on demonstrating mathematical reasoning techniques rather than providing a
-          developer utility
-        - Lacks the infrastructure or integration identity required for the catalog scope
+        - Scraped site shows a build error with failed metadata fetch from HF Docker repository
+        - No repo description, README, or usable functionality is provided
+        - Listed in awesome-langchain only as an 'Open Source Project > Other / Chatbots' without substantive tooling claims
       category_candidates: []
       contrastive_reason: null
       review_reason: null

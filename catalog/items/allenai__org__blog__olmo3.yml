@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__allenai__org__blog__olmo3__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,9 +18,7 @@ provenance:
           - 论文 Paper
         anchor_text: Website
         extracted_url: https://allenai.org/blog/olmo3
-        surrounding_text: >-
-          58. [Olmo3](https://www.datocms-assets.com/64837/1763646865-olmo_3_technical_report-1.pdf): Charting a path
-          through the model flow to lead open-source AI. [Website](https://allenai.org/blog/olmo3)
+        surrounding_text: "58. [Olmo3](https://www.datocms-assets.com/64837/1763646865-olmo_3_technical_report-1.pdf): Charting a path through the model flow to lead open-source AI. [Website](https://allenai.org/blog/olmo3)"
         confidence: high
 metadata:
   github:
@@ -38,42 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Olmo3 is a multimodal large language model developed by AllenAI that supports text, image, and code generation with
-    a focus on reasoning and agent capabilities.
-  why_it_matters: >-
-    It provides developers with a powerful, open model for building AI applications that require visual understanding
-    and complex reasoning beyond text-only generation.
-  mental_damage: >-
-    Another model release that promises 'the world's best' without clear differentiation from existing offerings, adding
-    to the already overwhelming choice of LLMs.
+  summary: OLMo3 is Allen AI's open language model release discussed in a blog post, not a developer tool or product.
+  why_it_matters: As a research model announcement, it does not provide developers with usable tooling, workflows, or infrastructure for coding or AI development.
+  mental_damage: Another model drop that promises progress but delivers nothing you can install, import, or integrate into your dev environment today.
   tags:
-    - multimodal
     - llm
-    - reasoning
-    - agent
-    - allenai
-  confidence: medium
+    - research
+    - announcement
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
+  status: excluded
+  reason: OLMo3 is a language model research release, not a developer-facing tool, agent, framework, or infrastructure product; it lacks any identity as usable developer tooling.
   evidence:
-    - jev-latest choice confidence 0.50
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      ai-frameworks (unverified)
+    - "Repo description: (none)"
+    - "Source-list context: included in awesome-LLM-resources under '论文 Paper' section, indicating it is treated as a research paper/resource, not a tool"
+    - No GitHub repo, stars, or activity signals provided; the URL points to a blog post, not a deployable product
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   secondary_categories:
     - decision-models
-  section: LLM & Agent SDKs
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,30 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:33:40.395Z'
+    updated_at: "2026-10-05T04:28:07.728Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b31b250b77e854cbe4b9c0de39b18578e05f17e616dbb6d9e4c7cc4ddea8523a
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ca0308278736e5217a0b4b18668c46d9857669fc89a4c8234c80cbe0fd98dfdd
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Olmo3 is positioned as a coding agent with multimodal reasoning capabilities, fitting the primary identity of
-        performing autonomous coding tasks across environments.
+      decision_reason: OLMo3 is a language model research release, not a developer-facing tool, agent, framework, or infrastructure product; it lacks any identity as usable developer tooling.
       decision_evidence:
-        - The blog post title and context indicate Olmo3 is a multimodal LLM with agent-focused capabilities
-        - It is included in the 'awesome-LLM-resources' list under 'Agent' and 'coding' related categories
-      category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because Olmo3 is primarily an autonomous model for coding tasks
-        rather than an extension to another host tool.
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - "Repo description: (none)"
+        - "Source-list context: included in awesome-LLM-resources under '论文 Paper' section, indicating it is treated as a research paper/resource, not a tool"
+        - No GitHub repo, stars, or activity signals provided; the URL points to a blog post, not a deployable product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

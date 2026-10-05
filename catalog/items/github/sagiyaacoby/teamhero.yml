@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sagiyaacoby__teamhero__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: TeamHero
         extracted_url: https://github.com/sagiyaacoby/teamhero
-        surrounding_text: >-
-          | [TeamHero](https://github.com/sagiyaacoby/TeamHero) | 37 | JavaScript | MIT | 2026-04 | Manage agents like a
-          team, with structured roles |
+        surrounding_text: "| [TeamHero](https://github.com/sagiyaacoby/TeamHero) | 37 | JavaScript | MIT | 2026-04 | Manage agents like a team, with structured roles |"
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.62
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

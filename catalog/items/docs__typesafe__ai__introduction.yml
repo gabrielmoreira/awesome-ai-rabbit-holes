@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__introduction__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,14 +18,10 @@ provenance:
           - README
         anchor_text: docs.typesafe.ai
         extracted_url: https://docs.typesafe.ai
-        surrounding_text: >-
-          Jev takes a state plus a set of typed questions (Choice, Score, Noul) and returns typed answers with
-          calibrated probabilities in one request, no text generation. Model id `jev-latest`, endpoint `POST
-          https://api.typesafe.ai/v1/systemone`, early access since 2026-09-15. Docs:
-          [docs.typesafe.ai](https://docs.typesafe.ai).
+        surrounding_text: "Jev takes a state plus a set of typed questions (Choice, Score, Noul) and returns typed answers with calibrated probabilities in one request, no text generation. Model id `jev-latest`, endpoint `POST https://api.typesafe.ai/v1/systemone`, early access since 2026-09-15. Docs: [docs.typesafe.ai](https://docs.typesafe.ai)."
         confidence: high
     - id: discovery__docs__typesafe__ai__introduction__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,14 +33,10 @@ provenance:
           - README
         anchor_text: Jev
         extracted_url: https://docs.typesafe.ai/introduction
-        surrounding_text: >-
-          [Jev](https://docs.typesafe.ai/introduction) is TypeSafe AI's System One model: give it state and typed
-          questions, then use the returned choices, scores, and probabilities in your code. This independent community
-          directory collects applications that use Jev, resources for developers, and small, inspectable workflows to
-          learn from.
+        surrounding_text: "[Jev](https://docs.typesafe.ai/introduction) is TypeSafe AI's System One model: give it state and typed questions, then use the returned choices, scores, and probabilities in your code. This independent community directory collects applications that use Jev, resources for developers, and small, inspectable workflows to learn from."
         confidence: high
     - id: discovery__docs__typesafe__ai__introduction__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,13 +48,10 @@ provenance:
           - What Jev is
         anchor_text: Introduction
         extracted_url: https://docs.typesafe.ai/introduction
-        surrounding_text: >-
-          New to Jev? Start with TypeSafe's official [Introduction](https://docs.typesafe.ai/introduction), then
-          continue with [Primitives](https://docs.typesafe.ai/primitives),
-          [Confidence](https://docs.typesafe.ai/confidence), and [Patterns](https://docs.typesafe.ai/patterns).
+        surrounding_text: New to Jev? Start with TypeSafe's official [Introduction](https://docs.typesafe.ai/introduction), then continue with [Primitives](https://docs.typesafe.ai/primitives), [Confidence](https://docs.typesafe.ai/confidence), and [Patterns](https://docs.typesafe.ai/patterns).
         confidence: high
     - id: discovery__docs__typesafe__ai__introduction__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -74,7 +63,7 @@ provenance:
           - Official resources
         anchor_text: Documentation
         extracted_url: https://docs.typesafe.ai
-        surrounding_text: '- [Documentation](https://docs.typesafe.ai/) - Concepts, primitives, API, patterns, and SDK guides.'
+        surrounding_text: "- [Documentation](https://docs.typesafe.ai/) - Concepts, primitives, API, patterns, and SDK guides."
         confidence: high
 metadata:
   github:
@@ -92,19 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev takes a state plus a set of typed questions (Choice, Score, Noul) and returns typed answers with calibrated
-    probabilities in one request, no text generation. Model id jev-latest, endpoint POST
-    https://api.typesafe.ai/v1/systemone, early access since 2026-09-15. Docs: docs.typesafe.ai.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI provides Jev, a System One decision model that returns structured answers (Choice, Score, Noul) with probabilities instead of generating text for direct code consumption.
+  why_it_matters: Developers can use typed questions and state to get reliable, machine-readable decisions for routing, scoring, and verification without parsing LLM output.
+  mental_damage: Another model promising to eliminate prompt engineering, while quietly reintroducing it as state decomposition and coefficient tuning.
+  tags:
+    - decision-model
+    - structured-output
+    - typed-questions
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  reason: The product's core identity is a decision model (Jev) that answers typed questions with probabilities, placing it firmly in decision-models per its official documentation and source-list context.
   evidence:
-    - jev-latest choice confidence 0.86
+    - "Scraped site: 'Jev is TypeSafe’s flagship model and the first System One model. Send state and typed questions; get structured answers your code can use directly.'"
+    - "Source-list: Multiple entries in awesome-jev describe Jev as TypeSafe's flagship System One model for structured, code-usable answers."
+    - "README excerpt: Jev returns 'typed values and probability distributions that your code can branch on, sort by, and route with' and defines primitives (Choice, Score, Noul) for direct code consumption."
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -115,7 +106,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.390Z'
+    updated_at: "2026-09-29T13:07:10.390Z"
     cause: null
     next_retry_at: null
   stars:
@@ -123,6 +114,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:07.724Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9a99bffcb8f456f7d341407f372aa95293ad411112ce4f3a98c708ee2488326f
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model (Jev) that answers typed questions with probabilities, placing it firmly in decision-models per its official documentation and source-list context.
+      decision_evidence:
+        - "Scraped site: 'Jev is TypeSafe’s flagship model and the first System One model. Send state and typed questions; get structured answers your code can use directly.'"
+        - "Source-list: Multiple entries in awesome-jev describe Jev as TypeSafe's flagship System One model for structured, code-usable answers."
+        - "README excerpt: Jev returns 'typed values and probability distributions that your code can branch on, sort by, and route with' and defines primitives (Choice, Score, Noul) for direct code consumption."
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev’s identity is as a decision model returning structured judgments, not as an agent that writes, edits, or reviews code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

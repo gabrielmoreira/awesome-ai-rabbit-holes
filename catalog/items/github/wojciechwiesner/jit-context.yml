@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wojciechwiesner__jit-context__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Agent Decisions
         anchor_text: Hermes JIT Context OS
         extracted_url: https://github.com/wojciechwiesner/jit-context
-        surrounding_text: >-
-          - [Hermes JIT Context OS](https://github.com/wojciechwiesner/jit-context)
-          ![stars](https://img.shields.io/github/stars/wojciechwiesner/jit-context?style=flat-square&label=%E2%98%85) -
-          Coding agents: uses Jev as a sub-millisecond System 1 Epistemic Gate and Domain Router to score AST relevance,
-          test proofs, and tool targets, cutting autonomous agent turns by 31.3% and blind file exploration by 52.6% on
-          SWE-bench with fail-open circuit-breaker resilience.
+        surrounding_text: "- [Hermes JIT Context OS](https://github.com/wojciechwiesner/jit-context) ![stars](https://img.shields.io/github/stars/wojciechwiesner/jit-context?style=flat-square&label=%E2%98%85) - Coding agents: uses Jev as a sub-millisecond System 1 Epistemic Gate and Domain Router to score AST relevance, test proofs, and tool targets, cutting autonomous agent turns by 31.3% and blind file exploration by 52.6% on SWE-bench with fail-open circuit-breaker resilience."
         confidence: high
 metadata:
   github:
@@ -43,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Hermes JIT Context OS - Coding agents: uses Jev as a sub-millisecond System 1 Epistemic Gate and Domain Router to
-    score AST relevance, test proofs, and tool targets, cutting autonomous agent turns by 31.3% and blind file
-    exploration by 52.6% on SWE-bench with fail-open circuit-breaker resilience.
+  summary: "Hermes JIT Context OS - Coding agents: uses Jev as a sub-millisecond System 1 Epistemic Gate and Domain Router to score AST relevance, test proofs, and tool targets, cutting autonomous agent turns by 31.3% and blind file exploration by 52.6% on SWE-bench with fail-open circuit-breaker resilience."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

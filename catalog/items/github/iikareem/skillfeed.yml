@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__iikareem__skillfeed__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: skillfeed
         extracted_url: https://github.com/iikareem/skillfeed
-        surrounding_text: >-
-          - [skillfeed](https://github.com/iikareem/skillfeed) ([site](https://skillfeed-xi.vercel.app)) - A tech
-          reading feed ranked to your skills — powered by TypeSafe Jev.
+        surrounding_text: "- [skillfeed](https://github.com/iikareem/skillfeed) ([site](https://skillfeed-xi.vercel.app)) - A tech reading feed ranked to your skills — powered by TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -48,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed app-builders / Site & Landing Page Builders; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed app-builders / Site & Landing Page Builders; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - app-builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.460Z'
+    updated_at: "2026-09-29T13:07:10.460Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

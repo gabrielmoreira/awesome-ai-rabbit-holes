@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__primitives__choice__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -16,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - What Jev is
-        anchor_text: '`Choice`'
+        anchor_text: "`Choice`"
         extracted_url: https://docs.typesafe.ai/primitives/choice
-        surrounding_text: >-
-          | [`Choice`](https://docs.typesafe.ai/primitives/choice) | Select one option from a known set | Selected
-          option, probabilities, confidence |
+        surrounding_text: "| [`Choice`](https://docs.typesafe.ai/primitives/choice) | Select one option from a known set | Selected option, probabilities, confidence |"
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A structured question type for decision models that returns a selected option from a defined set along with probabilities and a confidence score.
+  why_it_matters: It enables developers to replace unpredictable free-text classification with reliable, probabilistic routing and triage logic.
+  mental_damage: Now you can finally quantify exactly how much you don't trust your model's classification choices.
+  tags:
+    - decision-models
+    - structured-output
+    - probabilistic-classification
+    - typesafe-ai
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: It is a fundamental primitive of the TypeSafe AI decision-model ecosystem, focusing on constrained, probabilistic judgments.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The documentation defines Choice as a 'System One question type' that returns probabilities and confidence.
+    - The product identity is centered on answering typed questions (Choice, Score, Noul) rather than generating text.
+    - It provides a dedicated Python SDK for interacting with these decision primitives.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:30.386Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ce0a0d58cd7a3bcaa5be7bda630aace83ec7be2fcceb33403ff5b8e6af89fdc1
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a fundamental primitive of the TypeSafe AI decision-model ecosystem, focusing on constrained, probabilistic judgments.
+      decision_evidence:
+        - The documentation defines Choice as a 'System One question type' that returns probabilities and confidence.
+        - The product identity is centered on answering typed questions (Choice, Score, Noul) rather than generating text.
+        - It provides a dedicated Python SDK for interacting with these decision primitives.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the core identity is a specific type of probabilistic, constrained judgment rather than a general-purpose LLM abstraction library.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

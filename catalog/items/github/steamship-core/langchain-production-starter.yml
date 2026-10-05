@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__steamship-core__langchain-production-starter__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,11 +20,7 @@ provenance:
           - Agents
         anchor_text: Multi-Modal LangChain agents in Production
         extracted_url: https://github.com/steamship-packages/langchain-agent-production-starter
-        surrounding_text: >-
-          - [Multi-Modal LangChain agents in
-          Production](https://github.com/steamship-packages/langchain-agent-production-starter): Deploy LangChain Agents
-          and connect them to Telegram ![GitHub Repo
-          stars](https://img.shields.io/github/stars/steamship-packages/langchain-agent-production-starter?style=social)
+        surrounding_text: "- [Multi-Modal LangChain agents in Production](https://github.com/steamship-packages/langchain-agent-production-starter): Deploy LangChain Agents and connect them to Telegram ![GitHub Repo stars](https://img.shields.io/github/stars/steamship-packages/langchain-agent-production-starter?style=social)"
         confidence: high
 metadata:
   github:
@@ -34,10 +30,10 @@ metadata:
     archived: false
     full_name: steamship-core/langchain-production-starter
     html_url: https://github.com/steamship-core/langchain-production-starter
-    created_at: '2023-04-13T17:04:29Z'
-    pushed_at: '2023-07-27T15:01:48Z'
+    created_at: "2023-04-13T17:04:29Z"
+    pushed_at: "2023-07-27T15:01:48Z"
     description: Deploy LangChain Agents and connect them to Telegram
-    homepage: ''
+    homepage: ""
     topics:
       - chatbot
       - gpt4
@@ -45,20 +41,14 @@ metadata:
       - langchain-python
       - python
       - telegram-bot
-    last_checked_at: '2026-07-20T16:43:03.404Z'
+    last_checked_at: "2026-07-20T16:43:03.404Z"
     readme:
-      fetched_at: '2026-07-20T16:43:03.404Z'
+      fetched_at: "2026-07-20T16:43:03.404Z"
       bytes: 2973
 insights:
-  summary: >-
-    A scaffold project for deploying LangChain agents with memory and connecting them to Telegram using the Steamship
-    platform.
-  why_it_matters: >-
-    It provides a quick-start template for developers looking to take LLM agents from a notebook to a deployed,
-    user-facing chat interface with minimal configuration.
-  mental_damage: >-
-    Yet another reminder that in 2023, the pinnacle of 'production' for an AI agent was wiring it up to a Telegram bot
-    and praying the Steamship credits didn't run out.
+  summary: A scaffold project for deploying LangChain agents with memory and connecting them to Telegram using the Steamship platform.
+  why_it_matters: It provides a quick-start template for developers looking to take LLM agents from a notebook to a deployed, user-facing chat interface with minimal configuration.
+  mental_damage: Yet another reminder that in 2023, the pinnacle of 'production' for an AI agent was wiring it up to a Telegram bot and praying the Steamship credits didn't run out.
   tags:
     - langchain
     - telegram
@@ -68,17 +58,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an outdated starter template for a specific hosting platform (Steamship) rather than an active tool,
-    framework, or agent that fits the current catalog scope.
+  reason: This is an outdated starter template for a specific hosting platform (Steamship) rather than an active tool, framework, or agent that fits the current catalog scope.
   evidence:
     - Last push was July 2023, suggesting the project is effectively stale.
-    - >-
-      Project is a 'starter project' scaffold using the 'ship deploy' CLI for the Steamship platform, not a reusable
-      tool or framework.
-    - >-
-      Appears in awesome-langchain as a project example, but the code is a specific app implementation rather than a
-      developer tool.
+    - Project is a 'starter project' scaffold using the 'ship deploy' CLI for the Steamship platform, not a reusable tool or framework.
+    - Appears in awesome-langchain as a project example, but the code is a specific app implementation rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -88,21 +72,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.649Z'
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:43:03.404Z'
+    updated_at: "2026-07-20T16:43:03.404Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

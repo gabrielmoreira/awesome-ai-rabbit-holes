@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pipedrive__com__nl__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
         anchor_text: Pipedrive CRM
         extracted_url: https://pipedrive.com
-        surrounding_text: >-
-          - [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server)
-          [![ckalima/pipedrive-mcp-server MCP
-          server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server)
-          📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons,
-          organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key
-          auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT.
+        surrounding_text: "- [ckalima/pipedrive-mcp-server](https://github.com/ckalima/pipedrive-mcp-server) [![ckalima/pipedrive-mcp-server MCP server](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/ckalima/pipedrive-mcp-server) 📇 ☁️ - MCP server for [Pipedrive CRM](https://www.pipedrive.com). 155 tools covering deals, persons, organizations, activities, products, projects, tasks, leads, notes, mail, and fields. stdio transport, API-key auth, delete tools gated behind an env flag. Published on npm as `@ckalima/pipedrive-mcp-server`. MIT."
         confidence: high
 metadata:
   github:
@@ -43,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: nl is a Pipedrive-hosted URL with no GitHub repository, README, or discernible developer tooling identity.
-  why_it_matters: >-
-    It does not matter to developers as it provides no coding agent, framework, extension, or infrastructure relevant to
-    software development workflows.
-  mental_damage: Another link in the graveyard of AI tooling where curiosity goes to die after one click.
-  tags: []
-  confidence: low
+  summary: nl is a Pipedrive sales CRM pipeline product, not a developer-focused AI tool.
+  why_it_matters: It does not address software development workflows, coding agents, or any AI-tooling use case relevant to developers.
+  mental_damage: Another reminder that 'AI' in a URL doesn't mean it's for engineers — sometimes it's just sales software wearing a tech costume.
+  tags:
+    - crm
+    - sales
+    - not-ai-for-devs
+  confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input provides no evidence of a developer-facing AI tool, agent, or infrastructure — only a hosted URL with no
-    repo, description, README, or activity signals.
+  reason: The product is a sales pipeline CRM with no connection to AI development tools, coding agents, or developer infrastructure.
   evidence:
-    - Repo description is missing
-    - README excerpt is not provided
-    - Scraped site context is unavailable
-    - Source-list context shows no curation
+    - "Repo description: (none)"
+    - "URL: https://pipedrive.com/nl (Pipedrive CRM domain)"
+    - No README, stars, or technical context provided
 placement:
   primary_category: null
   section: null
@@ -69,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,28 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:54:04.745Z'
+    updated_at: "2026-10-05T05:00:25.434Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b4b4027927a09c28b6f0d3ef9084ed1c8519a34db0793685203b817f92a75bb8
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aadd9edcb65db7357b73ad83d515013994e36c4eadc5c110e1c480a3868011b1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input provides no evidence of a developer-facing AI tool, agent, or infrastructure — only a hosted URL with
-        no repo, description, README, or activity signals.
+      decision_reason: The product is a sales pipeline CRM with no connection to AI development tools, coding agents, or developer infrastructure.
       decision_evidence:
-        - Repo description is missing
-        - README excerpt is not provided
-        - Scraped site context is unavailable
-        - Source-list context shows no curation
+        - "Repo description: (none)"
+        - "URL: https://pipedrive.com/nl (Pipedrive CRM domain)"
+        - No README, stars, or technical context provided
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

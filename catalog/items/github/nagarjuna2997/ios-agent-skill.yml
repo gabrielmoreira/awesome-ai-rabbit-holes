@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nagarjuna2997__ios-agent-skill__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Nagarjuna2997/ios-agent-skill
         extracted_url: https://github.com/nagarjuna2997/ios-agent-skill
-        surrounding_text: >-
-          - [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill)
-          [![Nagarjuna2997/ios-agent-skill MCP
-          server](https://glama.ai/mcp/servers/Nagarjuna2997/ios-agent-skill/badges/score.svg)](https://glama.ai/mcp/servers/Nagarjuna2997/ios-agent-skill)
-          📇 🏠 🍎 🪟 🐧 - Swift code reviews, local Apple references and app scaffolding, plus simulator tools on macOS
-          with Xcode.
+        surrounding_text: "- [Nagarjuna2997/ios-agent-skill](https://github.com/Nagarjuna2997/ios-agent-skill) [![Nagarjuna2997/ios-agent-skill MCP server](https://glama.ai/mcp/servers/Nagarjuna2997/ios-agent-skill/badges/score.svg)](https://glama.ai/mcp/servers/Nagarjuna2997/ios-agent-skill) 📇 🏠 🍎 🪟 🐧 - Swift code reviews, local Apple references and app scaffolding, plus simulator tools on macOS with Xcode."
         confidence: high
 metadata:
   github:
@@ -53,9 +48,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

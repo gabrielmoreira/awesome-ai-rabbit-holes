@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shakespearelabs__open-agent-relay__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - CLI Tools
         anchor_text: OpenAgentRelay
         extracted_url: https://github.com/shakespearelabs/open-agent-relay
-        surrounding_text: >-
-          - **[OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay)** – Open-source CLI that exposes a
-          restricted local Claude Code, Codex, or automation as a keyed trusted-LAN capability, with JSON output and
-          meaningful exit codes for agent workflows.
+        surrounding_text: "- **[OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay)** – Open-source CLI that exposes a restricted local Claude Code, Codex, or automation as a keyed trusted-LAN capability, with JSON output and meaningful exit codes for agent workflows."
         confidence: high
 metadata:
   github:
@@ -52,16 +49,16 @@ curation:
     - jev winnow:e4b 0.43 below gate 0.50; proposed mcp / Clients & Inspector Tools; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - mcp
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

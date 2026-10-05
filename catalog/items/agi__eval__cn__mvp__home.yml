@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agi__eval__cn__mvp__home__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A benchmarking platform for measuring AI and AGI model performance.
-  why_it_matters: >-
-    It provides developers with a structured way to quantify model capabilities and track performance against specific
-    intelligence metrics.
-  mental_damage: Another leaderboard to obsess over while waiting for the next model to render current benchmarks obsolete.
+  summary: AGI-Eval is an evaluation platform for assessing large language models across multiple capabilities including multimodal generation, AI-assisted programming, and data processing.
+  why_it_matters: It provides developers with a comprehensive benchmark to evaluate and compare LLMs for real-world developer tasks like code assistance and agent behavior.
+  mental_damage: Yet another leaderboard that promises to tell you which model won’t hallucinate your production outage—until next week’s benchmark drops.
   tags:
     - evals
-    - benchmarking
-    - agi
-    - llm
+    - llm-benchmark
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  reason: AGI-Eval is an evaluation suite focused on measuring LLM performance across coding, reasoning, and multimodal tasks, making it a developer-facing benchmarking tool rather than a coding agent or framework.
   evidence:
-    - jev-latest choice confidence 0.84
+    - Listed in awesome-LLM-resources under the '评估 Evaluation' section for AGI-Eval
+    - Scraped site title is 'AGI-Eval' with no description, but source-list context positions it as an LLM evaluation resource
+    - Source-list summary includes 'AI-assisted programming', 'data processing', 'model training', and 'o1 model' as evaluation domains
 placement:
   primary_category: evals
   secondary_categories: []
@@ -62,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,28 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:32:54.317Z'
+    updated_at: "2026-10-05T04:27:47.981Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ec8cca2b0d8021730fd2585c8ba8b948857ac3305aa0481e0bf212c3758dc7c5
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3a7d1a7cecba516e3b8be61dc3c22329104fe8106a0b53efd5ea41ef50cc5e7f
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: The project is explicitly focused on the evaluation and benchmarking of AI models.
+      decision_reason: AGI-Eval is an evaluation suite focused on measuring LLM performance across coding, reasoning, and multimodal tasks, making it a developer-facing benchmarking tool rather than a coding agent or framework.
       decision_evidence:
-        - Project name is AGI-Eval
-        - Listed in the 'Evaluation' section of the awesome-LLM-resources directory
+        - Listed in awesome-LLM-resources under the '评估 Evaluation' section for AGI-Eval
+        - Scraped site title is 'AGI-Eval' with no description, but source-list context positions it as an LLM evaluation resource
+        - Source-list summary includes 'AI-assisted programming', 'data processing', 'model training', and 'o1 model' as evaluation domains
       category_candidates:
         - evals
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose evals over ai-frameworks because its core identity is measuring model behavior rather than being a
-        library used to construct applications.
+        - decision-models
+      contrastive_reason: Choose evals over decision-models because AGI-Eval measures broad LLM behavior including coding and reasoning, not constrained typed judgments with probabilities as its core output.
       review_reason: null
       review_resume_lifecycle: null

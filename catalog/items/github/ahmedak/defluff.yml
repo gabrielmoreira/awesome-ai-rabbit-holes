@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahmedak__defluff__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: ahmedak/defluff
         extracted_url: https://github.com/ahmedak/defluff
-        surrounding_text: >-
-          - [ahmedak/defluff](https://github.com/ahmedak/defluff) [![ahmedak/defluff MCP
-          server](https://glama.ai/mcp/servers/ahmedak/defluff/badges/score.svg)](https://glama.ai/mcp/servers/ahmedak/defluff)
-          🐍 🏠 🍎 🪟 🐧 - Deterministic slop detector for AI-generated prose. Flags filler phrases and clichés with
-          zero false positives by design (curated phrase list, not a model), returns exact spans plus a pinnable 0-1
-          score, and runs offline with no API key. CLI + CI exit code + MCP server for agents to self-check their own
-          output before it lands in a PR or doc. `pip install defluff`
+        surrounding_text: "- [ahmedak/defluff](https://github.com/ahmedak/defluff) [![ahmedak/defluff MCP server](https://glama.ai/mcp/servers/ahmedak/defluff/badges/score.svg)](https://glama.ai/mcp/servers/ahmedak/defluff) 🐍 🏠 🍎 🪟 🐧 - Deterministic slop detector for AI-generated prose. Flags filler phrases and clichés with zero false positives by design (curated phrase list, not a model), returns exact spans plus a pinnable 0-1 score, and runs offline with no API key. CLI + CI exit code + MCP server for agents to self-check their own output before it lands in a PR or doc. `pip install defluff`"
         confidence: high
 metadata:
   github:
@@ -36,10 +30,10 @@ metadata:
     archived: false
     full_name: ahmedak/defluff
     html_url: https://github.com/ahmedak/defluff
-    created_at: '2026-06-20T22:21:22Z'
-    pushed_at: '2026-07-25T07:22:27Z'
+    created_at: "2026-06-20T22:21:22Z"
+    pushed_at: "2026-07-25T07:22:27Z"
     description: Deterministic slop detector for AI-generated prose. No model, no API key.
-    homepage: ''
+    homepage: ""
     topics:
       - ai-detection
       - anti-slop
@@ -51,20 +45,14 @@ metadata:
       - python
       - slop
       - text-quality
-    last_checked_at: '2026-09-17T04:13:34.595Z'
+    last_checked_at: "2026-09-17T04:13:34.595Z"
     readme:
-      fetched_at: '2026-09-17T04:13:34.595Z'
+      fetched_at: "2026-09-17T04:13:34.595Z"
       bytes: 17617
 insights:
-  summary: >-
-    A deterministic CLI and MCP server for detecting filler phrases and 'slop' in AI-generated text without requiring an
-    LLM or API key.
-  why_it_matters: >-
-    It allows developers to implement CI gates and agent self-correction loops to prevent low-quality, cliché-ridden AI
-    prose from entering production environments.
-  mental_damage: >-
-    Because we have officially reached the point in the AI cycle where we need specialized linting tools to ensure our
-    agents don't sound like they're stuck in a 2023 LinkedIn thought-leadership post.
+  summary: A deterministic CLI and MCP server for detecting filler phrases and 'slop' in AI-generated text without requiring an LLM or API key.
+  why_it_matters: It allows developers to implement CI gates and agent self-correction loops to prevent low-quality, cliché-ridden AI prose from entering production environments.
+  mental_damage: Because we have officially reached the point in the AI cycle where we need specialized linting tools to ensure our agents don't sound like they're stuck in a 2023 LinkedIn thought-leadership post.
   tags:
     - slop-detection
     - cli
@@ -87,18 +75,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.714Z'
+    updated_at: "2026-07-16T05:04:46.714Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:34.595Z'
+    updated_at: "2026-09-17T04:13:34.595Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:26:50.520Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -110,9 +100,7 @@ processing:
       input_hash: sha256:67dfbc171ab15235c06c2aeca2233356cd0e2504e79231336871239ff98e62c1
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: >-
-        The tool's primary identity is a quality-measurement utility that scores and detects specific patterns (slop) in
-        AI outputs, making it a specialized evaluation tool.
+      decision_reason: The tool's primary identity is a quality-measurement utility that scores and detects specific patterns (slop) in AI outputs, making it a specialized evaluation tool.
       decision_evidence:
         - Provides a deterministic score and exit codes for CI/CD integration
         - Functions as an MCP server to allow agents to self-evaluate their own prose
@@ -120,8 +108,6 @@ processing:
       category_candidates:
         - evals
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose evals over extensions-and-addons because its core identity is the measurement and scoring of AI output
-        quality rather than being a general-purpose integration layer for an editor.
+      contrastive_reason: Choose evals over extensions-and-addons because its core identity is the measurement and scoring of AI output quality rather than being a general-purpose integration layer for an editor.
       review_reason: null
       review_resume_lifecycle: null

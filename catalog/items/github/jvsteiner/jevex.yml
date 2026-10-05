@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jvsteiner__jevex__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jevex
         extracted_url: https://github.com/jvsteiner/jevex
-        surrounding_text: >-
-          - [jevex](https://github.com/jvsteiner/jevex) - Minimal agent loop where Jev directs control flow and a
-          LangChain chat model writes argument values and the final response.
+        surrounding_text: "- [jevex](https://github.com/jvsteiner/jevex) - Minimal agent loop where Jev directs control flow and a LangChain chat model writes argument values and the final response."
         confidence: high
     - id: discovery__github__jvsteiner__jevex__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: jevex
         extracted_url: https://github.com/jvsteiner/jevex
-        surrounding_text: >-
-          | [jevex](https://github.com/jvsteiner/jevex) | ★ 3 | Python | 2026-09-19 | Minimal agent loop where Jev
-          directs control flow and a LangChain chat model writes argument values and the final response. |
+        surrounding_text: "| [jevex](https://github.com/jvsteiner/jevex) | ★ 3 | Python | 2026-09-19 | Minimal agent loop where Jev directs control flow and a LangChain chat model writes argument values and the final response. |"
         confidence: high
     - id: discovery__github__jvsteiner__jevex__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jevex**'
+        anchor_text: "**jevex**"
         extracted_url: https://github.com/jvsteiner/jevex
-        surrounding_text: >-
-          - [**jevex**](https://github.com/jvsteiner/jevex) — An Agent experiment where Jev directs a tool loop, a chat
-          model fills arguments and prose, and MCP tools execute.
+        surrounding_text: "- [**jevex**](https://github.com/jvsteiner/jevex) — An Agent experiment where Jev directs a tool loop, a chat model fills arguments and prose, and MCP tools execute."
         confidence: high
 metadata:
   github:
@@ -74,9 +68,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevex - Minimal agent loop where Jev directs control flow and a LangChain chat model writes argument values and the
-    final response.
+  summary: jevex - Minimal agent loop where Jev directs control flow and a LangChain chat model writes argument values and the final response.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -86,9 +78,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.45
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      ai-frameworks (unverified)
+    - jev winnow:e4b 0.49 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -100,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -108,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

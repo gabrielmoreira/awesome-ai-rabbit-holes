@@ -3,12 +3,12 @@
 
 Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
 
-_170 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_163 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 89
-- [Observability & Tracing](#observability--tracing) — 56
+- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 87
+- [Observability & Tracing](#observability--tracing) — 51
 - [Prompt Regression & Testing](#prompt-regression--testing) — 15
 - [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 10
 
@@ -227,10 +227,10 @@ _170 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `evals` `cli` `docker` `agent-skills` `openrouter`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+59 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+57 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[tool-definition-quality-score](https://github.com/glama-ai/tool-definition-quality-score)** `⭐ 38` `updated ≤30d` An open framework and rubric for scoring the quality of Model Context Protocol (MCP) tool definitions to ensure they are clearly communicable to AI agents.
-- **[bunsdev/typesafe-ai-playground](https://github.com/bunsdev/typesafe-ai-playground)** `⭐ 21` `updated ≤30d` Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
+- **[typesafeai/typesafe-playground](https://github.com/typesafeai/typesafe-playground)** `⭐ 21` `updated ≤30d` Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
 - **[erendikmenn/jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark)** `⭐ 15` `updated ≤30d` Reproducible benchmark for measuring Jev reranking quality, latency, and cost in RAG.
 - **[Typed Evals](https://github.com/trustifai/typed_evals)** `⭐ 14` Typed Evals - Evaluate LLM/RAG/agent outputs with TypeSafe Jev judges, optional calibration, and tool guards. Project guide.
 - **[PDF Race](https://github.com/goodrahstar/pdf-race)** `⭐ 13` `updated ≤30d` Docling → Jev vs Docling → Gemini 3.8 Flash vs Gemini reading the PDF: same documents, one clock, scored against arXiv's own metadata.
@@ -273,21 +273,19 @@ _170 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[redhatpanda/jev-regress-bench](https://github.com/redhatpanda/jev-regress-bench)** `⭐ 0` jev-regress-bench - Agent regression testing: after a config edit, one Choice (same / fact_differs / action_differs / specificity_differs) decides which of an agent's approved answers changed meaning rather than wording, and on 109 before/after pairs whose ground truth is derived from what each config rule does to the answer, Jev catches all 19 real changes with 13 false alarms against 33 for a markers-then-embeddings-then-LLM stack and 19 for the LLM judge alone.
 - **[shogo-nfrealmusic/jev-eval](https://github.com/shogo-nfrealmusic/jev-eval)** `⭐ 0` jev-eval - Third-party check: compares Jev against GPT-4o-mini and Claude Sonnet 4.5 under identical conditions on the same judgment task.
 - **[zavocc/ground-zero](https://github.com/zavocc/ground-zero)** `⭐ 0` Evaluation framework for detecting AI hallucinations and instruction-following failures with Jev.
-- **[AGI-Eval](https://agi-eval.cn/mvp/home)** A benchmarking platform for measuring AI and AGI model performance.
-- **[BenchGen](https://benchgen.com)** BenchGen – AI agent benchmarking and evaluation platform. Score agent runs across tool-call accuracy, goal completion, and skill coverage, then export filtered trajectories for fine-tuning.
-- **[Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmarena-ai/arena-leaderboard)** Arena Leaderboard is a Hugging Face Space that displays the current LMArena leaderboard showing how language models rank against each other.
-- **[ContextQA](https://contextqa.com)** An AI-native testing platform that automates end-to-end QA for enterprise applications and AI agents through self-healing tests and MCP integration.
+- **[AGI-Eval](https://agi-eval.cn/mvp/home)** AGI-Eval is an evaluation platform for assessing large language models across multiple capabilities including multimodal generation, AI-assisted programming, and data processing.
+- **[BenchGen](https://benchgen.com)** BenchGen is a benchmarking infrastructure that evaluates AI agents in simulated operational environments, capturing decision trajectories and converting results into training data.
+- **[Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmarena-ai/arena-leaderboard)** Arena Leaderboard is a Hugging Face Space that displays the live LMArena leaderboard ranking language models by human preference.
+- **[gev beats jev and takes images as input too](https://anyeval.com/eval/jevbench/versus)** A head-to-head model comparison tool for JevBench problems showing paired accuracy and answer speed.
 - **[Jev in Search: Three Practical Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html)** Jev in Search: Three Practical Evaluations - Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration.
-- **[LM Arena](https://arena.ai)** An interactive platform for chatting with, comparing, and voting on various AI models.
-- **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** A Hugging Face Space that tracks, ranks, and evaluates the performance of open-source large language models.
-- **[per-answer explorer](https://convex-evals.netlify.app)** Convex Decision Evals - Model evaluation: asks Jev a Choice on 108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer, probability and raw request/response in a public explorer and the runner in get-convex/convex-evals.
+- **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** Open LLM Leaderboard is a Hugging Face Space that tracks, ranks, and evaluates open LLMs and chatbots.
+- **[Root Signals](https://scorable.ai)** Scorable is an LLM evaluation platform for building and calibrating custom LLM-as-a-judge evaluators to monitor AI apps in production.
 - **[sidegrade](https://npmjs.com/package/sidegrade)** sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
-- **[swebench.com](https://swebench.com)** SWE-Bench.com is a public leaderboard for evaluating coding agents on software engineering tasks using the SWE-bench benchmark.
+- **[swebench.com](https://swebench.com)** An evaluation benchmark used to measure the ability of AI agents to resolve real-world software engineering issues.
+- **[Testsigma](https://testsigma.com)** Testsigma is a unified agentic test automation platform that generates, runs, heals, and diagnoses tests from requirements, commits, and AI coding agents to score release confidence.
 - **[typesafe-vs-deepseek.vercel.app](https://typesafe-vs-deepseek.vercel.app)** typesafe-vs-deepseek (site) - TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison across invoice extraction, email classification, and reranking.
-- **[Vals AI](https://vals.ai)** A benchmarking platform providing independent evaluations of AI models across specialized domains such as finance, law, and software engineering.
-- **[Weave](https://docs.wandb.ai/weave/guides/core-types/evaluations)** 5. Weave: A lightweight toolkit for tracking and evaluating LLM applications.
-- **[Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations)** Weave's evaluation framework for measuring LLM application performance against curated test cases and scoring functions.
-- **[Workflow evals](https://evals.typesafe.ai)** Workflow evals - Published eval methodology and per-model results for System One workflows.
+- **[Vals AI](https://vals.ai)** Vals AI provides independent, domain-specific benchmarks for AI models in finance, law, software, and healthcare.
+- **[Workflow evals](https://evals.typesafe.ai)** Workflow evals is a benchmark suite that measures model accuracy, cost, and speed on structured automation tasks using decision-model primitives.
 
 </details>
 
@@ -492,7 +490,7 @@ _170 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[iyashjayesh/tokenchit](https://github.com/iyashjayesh/tokenchit)** `⭐ 15` iyashjayesh/tokenchit - Reads local Claude Code, Codex and OpenCode usage logs: token totals, daily and hourly activity, per-agent and per-model breakdowns and a year-in-review recap.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+26 more in Observability & Tracing &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+21 more in Observability & Tracing &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[mishanefedov/agentwatch](https://github.com/mishanefedov/agentwatch)** `⭐ 15` agentwatch – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT.
 - **[RagTune](https://github.com/metawake/ragtune)** `⭐ 13` `updated ≤1y` RagTune is a CLI tool for debugging, benchmarking, and evaluating RAG retrieval layers across vector stores.
@@ -508,18 +506,13 @@ _170 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[bricelancasterwcp-sudo/sensorium](https://github.com/bricelancasterwcp-sudo/sensorium)** `⭐ 0` `updated ≤30d` Record what a program actually did and ask it questions afterward — Python, Rust and TypeScript recorders writing one trace format, read by one LLM-native query CLI that refuses rather than guesses.
 - **[serennity007/agent-trace](https://github.com/serennity007/agent-trace)** `⭐ 0` agent-trace – Post-session analysis for AI coding agents. Track costs, tokens, tool health, and every conversation. Supports Kimi Code, Claude Code, Codex, OpenCode.
 - **[Source Trace](https://github.com/srctrace/source-trace)** `⭐ 0` Source Trace – AI git blame for every commit: see which lines came from AI and which model wrote them. Compare models by amount of code written pre-commit, committed, and survived in codebase. Teams can use dashboard to track adoption and AI metrics. Zero-config VS Code extension, no git or agent hooks required.
-- **[Atla API](https://docs.atla-ai.com/overview)** Atla is an observability platform designed to monitor, trace, and debug the behavior of AI agents.
-- **[CloudByte PMS](https://getpms.cloudbyte.ai)** CloudByte PMS – Team analytics for AI coding assistants: tracks Claude Code, GitHub Copilot, and Cursor sessions, prompts, and commits to surface adoption, ROI, ghost seats, and prompt governance in one dashboard with role-based access.
-- **[CostGoat](https://costgoat.com)** CostGoat – Privacy-first menubar app tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai), LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS subscriptions in real-time.
-- **[Dash0](https://dash0.com)** Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents and applications in production.
-- **[DownForAI](https://downforai.com)** DownForAI – Real-time status monitoring for 800+ AI services including ChatGPT, Claude, Gemini, Midjourney, and Groq. Tracks uptime, latency, and community outage reports.
-- **[Fiddler AI](https://fiddler.ai/llmops)** Fiddler AI provides LLM observability and monitoring tools to track, analyze, and safeguard large language model applications in production.
-- **[Keywords AI](https://respan.ai)** An LLM engineering platform that unifies observability, evaluations, and model gateway routing.
-- **[Literal AI](https://literalai.com)** Literal AI is an LLMOps platform for logging, tracing, and evaluating LLM applications in development and production.
-- **[LLM Evaluation: A Complete Course](https://comet.com/site/llm-course)** A free self-paced course on LLM evaluation techniques using Opik and open source tools, aimed at AI developers and data scientists.
-- **[Parea AI](https://parea.ai)** Parea AI is an experimentation and human annotation platform for evaluating, testing, and observing LLM applications in development and production.
-- **[Vibe Coding Profiler](https://bolokonon.vercel.app)** Vibe Coding Profiler – Profiles git history to show how a developer's coding rhythm, commit habits, and craftsmanship patterns carry over or change when working with AI coding agents.
-- **[Weco Observe](https://weco.ai)** An autonomous agentic platform that iteratively optimizes code and machine learning pipelines by testing candidate solutions against specific performance metrics.
+- **[Atla API](https://docs.atla-ai.com/overview)** Observability platform for tracing and debugging AI agent behavior and performance.
+- **[Dash0](https://dash0.com)** Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents and software systems in production.
+- **[Fiddler AI](https://fiddler.ai/llmops)** Fiddler AI provides LLM observability and security tools for monitoring, analyzing, and safeguarding large language model applications in production.
+- **[Keywords AI](https://respan.ai)** An AI gateway and observability platform for routing model requests, tracing agent workflows, and running automated evaluations.
+- **[Literal AI](https://literalai.com)** Literal AI is an observability and experimentation platform for evaluating, tracing, and improving LLM-based applications.
+- **[Parea AI](https://parea.ai)** Parea AI is an experimentation and human annotation platform for AI teams to test, evaluate, and monitor LLM applications in production.
+- **[per-answer explorer](https://convex-evals.netlify.app)** Convex Evaluation Visualizer is a web interface for browsing experiments, models, and recent runs from Convex Evals.
 
 </details>
 
@@ -578,23 +571,30 @@ _170 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[SDKProof](https://github.com/kalpitrathore/sdkproof)** `⭐ 5` SDKProof – Type-checks how well AI writes your SDK's current API by compiling model output against the real installed package (no LLM judge).
 - **[CodeVetter](https://github.com/codevetter/codevetter)** `⭐ 1` `updated ≤30d` Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent changes via a macOS app, CLI, and MCP server.
 - **[sean-sunagaku/promptlint-mcp](https://github.com/sean-sunagaku/promptlint-mcp)** `⭐ 1` sean-sunagaku/promptlint-mcp : Static linter for AI prompts. Catches contradictions, redundancy, ambiguity, long examples, and politeness fluff in system prompts and agent instructions. CLI + MCP server. Zero network, MIT.
-- **[AIFast Model Check](https://docs.aifast.hk/model-check)** AIFast Model Check – Free browser-based diagnostics for public HTTPS OpenAI-compatible API endpoints, including metadata, token handling, dynamic responses, SSE streaming, and tool-call checks.
 - **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** Prompt Evaluator – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and workflow quality.
-- **[Root Signals](https://scorable.ai)** Scorable is an LLM evaluation platform for building and monitoring custom LLM-as-a-judge evaluators. <details><summary>More about</summary>
+- **[PromptFoundry](https://promptfoundry.ai)** PromptFoundry is a web application for testing, comparing, and refining AI prompts across multiple models. <details><summary>More about</summary>
 
-  It gives developers independent, verifiable scoring of AI outputs to catch regressions and ensure compliance before deployment.
+  It helps developers iterate on prompt engineering by providing a side-by-side evaluation environment for LLM outputs.
 
-  _Finally, a way to outsource the guilt of shipping vibe-coded AI to a third-party auditor with a SOC 2 badge._
+  _Another prompt playground that pretends solving AI unreliability is just a UI problem away._
 
-  `evals` `llm-judging` `ai-monitoring`
+  `prompt-engineering` `llm-testing` `developer-tool`
   </details>
-- **[Testsigma](https://testsigma.com)** Testsigma is a SaaS platform that uses AI agents to generate, run, self-heal, and diagnose automated tests for web, mobile, API, and Salesforce applications, providing release confidence scoring. <details><summary>More about</summary>
+- **[Rainforest QA](https://rainforestqa.com)** Rainforest QA is an AI-powered no-code test automation platform for end-to-end UI testing and maintenance. <details><summary>More about</summary>
 
-  It reduces manual test maintenance and gives developers and QA teams an evidence-based confidence score before deployment, integrating with CI/CD and AI coding tools.
+  It reduces QA maintenance overhead by using AI to auto-generate, self-heal, and manage tests without requiring code or deep specialization.
 
-  _Finally, a tool that tells you not just if your tests pass, but whether you’re allowed to feel safe about shipping — because passing tests and actual confidence were never the same thing._
+  _Finally, a testing tool that promises to make you feel less guilty for ignoring flaky CSS selectors._
 
-  `testing` `qa` `ai-agents` `cicd` `release-confidence`
+  `testing` `qa` `ai` `no-code` `automation`
+  </details>
+- **[Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations)** Weave's evaluation framework for measuring LLM application performance using test datasets and scoring functions. <details><summary>More about</summary>
+
+  Provides developers a structured workflow to replace ad-hoc testing with repeatable, measurable evaluations for LLM applications.
+
+  _Finally, a way to quantify how often your LLM confidently hallucinates the capital of France as 'Berlin'._
+
+  `evaluation` `llm-testing` `observability`
   </details>
 
 ## Safety, Fairness & Red-teaming

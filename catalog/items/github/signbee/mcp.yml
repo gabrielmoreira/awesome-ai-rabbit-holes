@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__signbee__mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🛠️ Utilities
         anchor_text: signbee/mcp
         extracted_url: https://github.com/signbee/mcp
-        surrounding_text: >-
-          -   **[signbee/mcp](https://github.com/signbee/mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/signbee/mcp?style=social)](https://github.com/signbee/mcp):
-          Document signing for AI agents — send markdown or PDF contracts for two-party e-signing with certified
-          delivery.
+        surrounding_text: "-   **[signbee/mcp](https://github.com/signbee/mcp)** [![GitHub stars](https://img.shields.io/github/stars/signbee/mcp?style=social)](https://github.com/signbee/mcp): Document signing for AI agents — send markdown or PDF contracts for two-party e-signing with certified delivery."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    signbee/mcp : Document signing for AI agents — send markdown or PDF contracts for two-party e-signing with certified
-    delivery.
+  summary: "signbee/mcp : Document signing for AI agents — send markdown or PDF contracts for two-party e-signing with certified delivery."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.66
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.34 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.477Z'
+    updated_at: "2026-09-29T13:07:10.477Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rube__app__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Rube
         extracted_url: https://rube.composio.dev
-        surrounding_text: >-
-          - **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI
-          tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate
-          once with your apps, and start asking your AI to perform real actions like "Send an email" or "Create a task."
+        surrounding_text: "- **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like \"Send an email\" or \"Create a task.\""
         confidence: high
 metadata:
   github:
@@ -39,27 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Rube was an AI agent platform that has been discontinued as of May 16, 2026, with all services shut down and refunds
-    processed.
-  why_it_matters: It does not matter anymore — the product is fully discontinued and no longer usable for any developer workflow.
-  mental_damage: >-
-    The existential dread of investing time in an AI agent that gets sunsetted before you finish reading its goodbye
-    note.
+  summary: Rube by Composio was an AI agent platform that let users automate workflows across apps like email and calendar, now discontinued.
+  why_it_matters: It exemplified the trend of AI agents acting as universal connectors between personal productivity tools and LLMs.
+  mental_damage: Another shiny agent platform bites the dust, reminding us that workflow automation is harder than demo videos make it look.
   tags:
-    - discontinued
     - ai-agent
-    - sunset
+    - workflow-automation
+    - discontinued
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's scope
-    of practical, usable developer tooling.
+  reason: The project is discontinued and no longer functional, so it does not represent a usable tool for developers despite its past relevance to AI agent workflows.
   evidence:
-    - Rube has been discontinued as of May 16, 2026, with all payments refunded and services shut down.
-    - 'The site states: ''Rube was discontinued on May 16, 2026. All payments have been refunded.'''
-    - No active repository, stars, or recent activity is provided, confirming abandonment.
+    - Rube was discontinued on May 16, 2026, with all payments refunded and signups stopped earlier in April.
+    - The site explicitly states 'Rube has been discontinued' and directs users to 'Composio For You' as a replacement.
+    - No active repository, stars, or recent activity signals are provided, indicating the project is inactive.
 placement:
   primary_category: null
   secondary_categories: []
@@ -70,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,26 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:42.487Z'
+    updated_at: "2026-10-05T04:44:50.025Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e153dce5d2b4d1bbb2c316a4dcf12402a4afeeaa8dc588da19415dae2035307a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c9b7ea6dcd5132047201661ee020d07c0a42c737bf2ab0fb7089573421d4ecad
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is explicitly discontinued with no remaining functionality, making it irrelevant to the catalog's
-        scope of practical, usable developer tooling.
+      decision_reason: The project is discontinued and no longer functional, so it does not represent a usable tool for developers despite its past relevance to AI agent workflows.
       decision_evidence:
-        - Rube has been discontinued as of May 16, 2026, with all payments refunded and services shut down.
-        - 'The site states: ''Rube was discontinued on May 16, 2026. All payments have been refunded.'''
-        - No active repository, stars, or recent activity is provided, confirming abandonment.
+        - Rube was discontinued on May 16, 2026, with all payments refunded and signups stopped earlier in April.
+        - The site explicitly states 'Rube has been discontinued' and directs users to 'Composio For You' as a replacement.
+        - No active repository, stars, or recent activity signals are provided, indicating the project is inactive.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

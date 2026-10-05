@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gitautoreview__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Git AutoReview
         extracted_url: https://gitautoreview.com
-        surrounding_text: >-
-          - **[Git AutoReview](https://gitautoreview.com)** – VS Code extension for pull request review on GitHub,
-          GitLab, and Bitbucket, including self-hosted Server and Data Center. You pick Claude, Gemini, or GPT, then
-          approve each suggestion before it posts. Runs on your own API key, so code goes straight to the provider.
+        surrounding_text: "- **[Git AutoReview](https://gitautoreview.com)** – VS Code extension for pull request review on GitHub, GitLab, and Bitbucket, including self-hosted Server and Data Center. You pick Claude, Gemini, or GPT, then approve each suggestion before it posts. Runs on your own API key, so code goes straight to the provider."
         confidence: high
 metadata:
   github:
@@ -39,14 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Git AutoReview – VS Code extension for pull request review on GitHub, GitLab, and Bitbucket, including self-hosted
-    Server and Data Center. You pick Claude, Gemini, or GPT, then approve each suggestion before it posts. Runs on your
-    own API key, so code goes straight to the provider.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Git AutoReview is a VS Code extension that runs Claude, Gemini, and GPT in parallel to review pull requests and surfaces draft comments for human approval before publishing.
+  why_it_matters: It lets developers catch more issues in PRs faster by using multiple AI models while retaining full control over what gets published.
+  mental_damage: Finally, a tool that understands your fear of AI auto-committing embarrassing typos to your PR thread.
+  tags:
+    - ai-code-review
+    - vscode-extension
+    - human-in-the-loop
+    - multi-model
+    - byok
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
@@ -55,14 +54,14 @@ curation:
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: IDE & Editor Add-ons
+  section: Testing & Code Quality
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:03.599Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c07f9e241b544190b330692cb5e8a5d202e53210010042f7cf6c7559e23035d4
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Git AutoReview is an extension that adds AI-powered PR review capabilities to existing editors like VS Code and Cursor, making it an extension rather than a standalone coding agent.
+      decision_evidence:
+        - Appears in awesome-ai-coding-tools under 'Code Review and Refactoring' as a VS Code extension
+        - README emphasizes installation in VS Code & Cursor and frames itself as augmenting existing editors
+        - Core value is reviewing diffs and surfacing draft comments for approval, not autonomously editing code
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool primarily augments VS Code and Cursor with PR review features rather than acting as a primary coding assistant that writes or edits code autonomously.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

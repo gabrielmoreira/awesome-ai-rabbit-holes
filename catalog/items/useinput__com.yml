@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Input
         anchor_text: Input
         extracted_url: https://useinput.com
-        surrounding_text: '## [Input](https://useinput.com/)'
+        surrounding_text: "## [Input](https://useinput.com/)"
         confidence: high
     - id: discovery__www__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Input
         anchor_text: Input
         extracted_url: https://useinput.com
-        surrounding_text: '## [Input](https://useinput.com/)'
+        surrounding_text: "## [Input](https://useinput.com/)"
         confidence: high
 metadata:
   github:
@@ -51,28 +51,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    The SunCity Group website is a Chinese corporate site for a diversified business group offering entertainment,
-    education, and research services, not a developer-facing AI tool.
-  why_it_matters: It has no relevance to software developers or AI development workflows.
-  mental_damage: >-
-    Another reminder that not every flashy URL with 'AI' in the scraped text is actually for developers—sometimes it's
-    just a university's extracurricular page.
+  summary: 太阳成集团tyc122ccvip is a Chinese university-affiliated enterprise website promoting online gaming, academic activities, and institutional news.
+  why_it_matters: It does not provide any developer-facing AI tooling, workflow, or infrastructure relevant to software developers.
+  mental_damage: Another reminder that not every .com with AI-sounding text is actually for developers, and yet here we are checking.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a corporate website for SunCity Group with no claims or functionality related to AI tooling for
-    developers; it appears in an awesome list under a misleading or spammy entry.
+  reason: The site is a corporate portal for a Chinese educational enterprise group focused on gaming, academics, and internal operations, with no connection to AI developer tooling, agents, or workflows.
   evidence:
-    - >-
-      Scraped site context shows a Chinese corporate site for SunCity Group with pages about history, leadership,
-      academic exchange, and employee activities
-    - >-
-      Source-list context shows it was listed in awesome-ai-agents under a section labeled 'Input' with linked page text
-      containing casino and gambling promotions in Chinese
-    - No repo description, stars, or activity signals indicate it is a software project, AI tool, or developer resource
+    - Scraped site title and description describe it as '太阳成集团tyc(122ccvip)官网-SunCity Group' promoting online gaming and institutional news
+    - Primary page excerpt shows content about academic workshops, staff directories, and campus events, not AI or software development
+    - Listed in awesome-ai-agents under a nonsensical section link that appears to be spam or auto-generated text
 placement:
   primary_category: null
   section: null
@@ -82,39 +72,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:38.671Z'
+    updated_at: "2026-10-05T04:56:44.552Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1bcdfcf06ce936eee8ab6794a506235d09e50db32ee93dd58488699cf1a87905
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a9bda6e9fc11c0bbd8cd97034848eaa40a3168588241a3d7809ea2dfc1246dc9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a corporate website for SunCity Group with no claims or functionality related to AI tooling for
-        developers; it appears in an awesome list under a misleading or spammy entry.
+      decision_reason: The site is a corporate portal for a Chinese educational enterprise group focused on gaming, academics, and internal operations, with no connection to AI developer tooling, agents, or workflows.
       decision_evidence:
-        - >-
-          Scraped site context shows a Chinese corporate site for SunCity Group with pages about history, leadership,
-          academic exchange, and employee activities
-        - >-
-          Source-list context shows it was listed in awesome-ai-agents under a section labeled 'Input' with linked page
-          text containing casino and gambling promotions in Chinese
-        - >-
-          No repo description, stars, or activity signals indicate it is a software project, AI tool, or developer
-          resource
+        - Scraped site title and description describe it as '太阳成集团tyc(122ccvip)官网-SunCity Group' promoting online gaming and institutional news
+        - Primary page excerpt shows content about academic workshops, staff directories, and campus events, not AI or software development
+        - Listed in awesome-ai-agents under a nonsensical section link that appears to be spam or auto-generated text
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

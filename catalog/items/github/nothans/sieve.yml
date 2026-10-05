@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nothans__sieve__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**sieve**'
+        anchor_text: "**sieve**"
         extracted_url: https://github.com/nothans/sieve
-        surrounding_text: >-
-          - [**sieve**](https://github.com/nothans/sieve) — Sieve checks a folder of Markdown notes against itself.
-          Crosscheck compares every note with every other, from both sides, and lists the pairs that contradict each
-          other, the pairs that make the same point twice, and the notes that have gone stale. It also ranks the whole
-          folder by any plain-English question, and lints notes against plain-English rules in CI. No index, no
-          embeddings, no generated text. Node, no dependencies.
+        surrounding_text: "- [**sieve**](https://github.com/nothans/sieve) — Sieve checks a folder of Markdown notes against itself. Crosscheck compares every note with every other, from both sides, and lists the pairs that contradict each other, the pairs that make the same point twice, and the notes that have gone stale. It also ranks the whole folder by any plain-English question, and lints notes against plain-English rules in CI. No index, no embeddings, no generated text. Node, no dependencies."
         confidence: high
 metadata:
   github:
@@ -51,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; no placement
-      kept (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

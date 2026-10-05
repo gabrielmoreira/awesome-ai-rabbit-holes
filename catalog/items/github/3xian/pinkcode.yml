@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__3xian__pinkcode__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: PinkCode
         extracted_url: https://github.com/3xian/pinkcode
-        surrounding_text: >-
-          - **[PinkCode](https://github.com/3xian/PinkCode)** – Open-source desktop GUI for Grok Build with parallel
-          agent sessions, live activity timelines, usage visualizations, file-change review, and permission controls
-          over ACP.
+        surrounding_text: "- **[PinkCode](https://github.com/3xian/PinkCode)** – Open-source desktop GUI for Grok Build with parallel agent sessions, live activity timelines, usage visualizations, file-change review, and permission controls over ACP."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: 3xian/PinkCode
     html_url: https://github.com/3xian/PinkCode
-    created_at: '2026-07-14T11:39:51Z'
-    pushed_at: '2026-09-25T10:46:24Z'
-    description: >-
-      Desktop GUI for Grok Build: multi-session task board, live timeline, workspace browser, permission management, and
-      usage dashboard.
+    created_at: "2026-07-14T11:39:51Z"
+    pushed_at: "2026-09-25T10:46:24Z"
+    description: "Desktop GUI for Grok Build: multi-session task board, live timeline, workspace browser, permission management, and usage dashboard."
     homepage: https://3xian.github.io/PinkCode/
     topics:
       - acp-client
@@ -53,18 +48,19 @@ metadata:
       - grok-gui
       - rust
       - tauri
-    last_checked_at: '2026-09-29T13:08:17.477Z'
+    last_checked_at: "2026-09-29T13:08:17.477Z"
     readme:
-      fetched_at: '2026-09-29T13:08:17.477Z'
+      fetched_at: "2026-09-29T13:08:17.477Z"
       bytes: 6741
 insights:
-  summary: >-
-    Desktop GUI for Grok Build: multi-session task board, live timeline, workspace browser, permission management, and
-    usage dashboard.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Rust/Tauri desktop GUI for Grok Build that provides a multi-session task board, live timeline, workspace browser, permission management, and usage dashboard.
+  why_it_matters: It gives developers a visual interface to manage and monitor Grok Build AI coding sessions, reducing reliance on terminal-only workflows.
+  mental_damage: Another Electron-adjacent GUI wrapper that trades terminal minimalism for a window you’ll forget is running until it slows your laptop.
+  tags:
+    - desktop
+    - ai-agent
+    - grok
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
@@ -74,22 +70,46 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:17.477Z'
+    updated_at: "2026-09-29T13:08:17.477Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:48.477Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b763103439826b6cb508d06602971b89aad25ce8c0d1bf8680d5ee1bdd440dde
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Pinkcode is a desktop GUI for Grok Build, which is an AI coding agent that writes, edits, and manages code across sessions; the tool’s primary value is enabling interaction with a coding agent, making it a coding-agent extension rather than a standalone agent or general infrastructure.
+      decision_evidence:
+        - "Repo description: 'Desktop GUI for Grok Build: multi-session task board, live timeline, workspace browser, permission management, and usage dashboard.'"
+        - "Topics include: 'grok-build-desktop', 'grok-build-gui', 'grok-desktop-app', indicating it is a GUI layer for the Grok Build coding agent."
+        - "Seen in source list: awesome-ai-coding-tools under 'Developer Productivity Tools', suggesting it is viewed as a coding-tool adjunct."
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Pinkcode’s primary purpose is to serve as a graphical interface for the Grok Build coding agent, not to extend another coding assistant or editor with auxiliary capabilities like debugging or task management.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

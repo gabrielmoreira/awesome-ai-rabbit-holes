@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__souvikr__jev-test__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jev-test
         extracted_url: https://github.com/souvikr/jev-test
-        surrounding_text: >-
-          - [jev-test](https://github.com/souvikr/jev-test)
-          ![stars](https://img.shields.io/github/stars/souvikr/jev-test?style=flat-square&label=%E2%98%85) - Model
-          benchmarking: reproducible test harness evaluating TypeSafe Jev Noul, Choice, and Score decisions via
-          OpenRouter's Decisions API, comparing latency and accuracy against LLM prompt-and-parse baselines.
+        surrounding_text: "- [jev-test](https://github.com/souvikr/jev-test) ![stars](https://img.shields.io/github/stars/souvikr/jev-test?style=flat-square&label=%E2%98%85) - Model benchmarking: reproducible test harness evaluating TypeSafe Jev Noul, Choice, and Score decisions via OpenRouter's Decisions API, comparing latency and accuracy against LLM prompt-and-parse baselines."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-test - Model benchmarking: reproducible test harness evaluating TypeSafe Jev Noul, Choice, and Score decisions
-    via OpenRouter's Decisions API, comparing latency and accuracy against LLM prompt-and-parse baselines.
+  summary: "jev-test - Model benchmarking: reproducible test harness evaluating TypeSafe Jev Noul, Choice, and Score decisions via OpenRouter's Decisions API, comparing latency and accuracy against LLM prompt-and-parse baselines."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.97
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

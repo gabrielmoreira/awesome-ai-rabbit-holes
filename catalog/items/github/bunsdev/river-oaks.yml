@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bunsdev__river-oaks__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: river-oaks
         extracted_url: https://github.com/bunsdev/river-oaks
-        surrounding_text: >-
-          | [river-oaks](https://github.com/BunsDev/river-oaks) | ★ 0 | — | 2026-09-19 | NPCs of River Oaks Houston,
-          Texas using Jev to power NPCs. |
+        surrounding_text: "| [river-oaks](https://github.com/BunsDev/river-oaks) | ★ 0 | — | 2026-09-19 | NPCs of River Oaks Houston, Texas using Jev to power NPCs. |"
         confidence: high
 metadata:
   github:
@@ -60,17 +58,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-29T13:09:38.810Z'
+    updated_at: "2026-09-29T13:09:38.810Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: bunsdev/river-oaks'
+      message: "GitHub repository not found: bunsdev/river-oaks"
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

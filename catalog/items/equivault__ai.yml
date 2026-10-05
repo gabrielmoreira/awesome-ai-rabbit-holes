@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__equivault__ai__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: EquiVault
         extracted_url: https://equivault.ai
-        surrounding_text: >-
-          - [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP
-          server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp)
-          🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools
-          covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer
-          comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions,
-          earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with
-          graceful upgrade prompts. Install via `npx equivault-mcp`.
+        surrounding_text: "- [equivault/equivault-mcp](https://github.com/equivault/equivault-mcp) [![equivault/equivault-mcp MCP server](https://glama.ai/mcp/servers/equivault/equivault-mcp/badges/score.svg)](https://glama.ai/mcp/servers/equivault/equivault-mcp) 🎖️ 📇 ☁️ - Official [EquiVault](https://equivault.ai) MCP — AI-powered equity research for Claude. 38 tools covering company fundamentals, financial statements, ratios & metrics, stock quotes, screening, peer comparison, investment narrative, guidance tracking, segments, capital allocation, insider transactions, earnings quality, signals intelligence, alerts, briefs, portfolio analytics, and more. Tier-aware with graceful upgrade prompts. Install via `npx equivault-mcp`."
         confidence: high
 metadata:
   github:
@@ -44,25 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An AI-powered equity research platform that parses financial filings and earnings transcripts to extract and explain
-    financial metrics.
-  why_it_matters: >-
-    It automates the extraction of structured financial data and causal reasoning from dense SEC filings and
-    transcripts.
-  mental_damage: Now you can spend 20 minutes instead of 8 hours feeling guilty about not being a quantitative analyst.
+  summary: EquiVault is an AI equity research platform that reads SEC filings, earnings transcripts, and insider trades to answer natural language questions about public companies with source-cited explanations.
+  why_it_matters: It reduces the time required to generate defensible investment theses from hours to minutes by automating financial document analysis with traceable AI reasoning.
+  mental_damage: Finally, a way to feel productive while avoiding the soul-crushing labor of reading 10-Ks — until you realize you now need to monitor 16,500 companies for insider trades.
   tags:
     - finance
     - research
-    - ai-agent
+    - ai
   confidence: high
 curation:
   status: excluded
-  reason: EquiVault.ai is an AI-powered financial research tool for equity analysis, not a developer-facing AI tool for coding, workflow automation, or software creation; its core function is financial analysis, not developer-tooling.
+  reason: EquiVault is an AI-powered financial research tool for equity analysis, not a developer-facing AI tool for coding, workflows, or software development tasks.
   evidence:
-    - Platform answers questions about AAPL, MSFT, NVDA using 10-Ks, earnings transcripts, and insider trades with cited sources
-    - Marketed to analysts, advisors, and teams for financial research, not software development or code-related tasks
-    - No mention of code generation, IDE integration, agent workflows, or any developer tooling functionality in the provided context
+    - The platform reads SEC filings, earnings transcripts, and insider trades to explain stock movements and generate investment theses.
+    - It targets analysts, advisors, and investors, with use cases like analyzing Apple’s gross margin shift or NVIDIA’s earnings beat.
+    - No mention of code generation, IDE integration, agent orchestration, or any developer tooling functionality in the README or site context.
 placement:
   primary_category: null
   section: null
@@ -72,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:19.010Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for equivault__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:02.512Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d1a80b40eedf59c78756fc53c11699a48b7f513fa2a9bf43e44e28294b7ee1e4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4ad7005e47a361a157e911d27107178093df108dde329fe74a5d21c8715b2561
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or
-        infrastructure.
+      decision_reason: EquiVault is an AI-powered financial research tool for equity analysis, not a developer-facing AI tool for coding, workflows, or software development tasks.
       decision_evidence:
-        - Platform answers questions about AAPL, MSFT, NVDA using 10-Ks, earnings transcripts, and insider trades with cited sources
-        - Marketed to analysts, advisors, and teams for financial research, not software development or code-related tasks
-        - No mention of code generation, IDE integration, agent workflows, or any developer tooling functionality in the provided context
+        - The platform reads SEC filings, earnings transcripts, and insider trades to explain stock movements and generate investment theses.
+        - It targets analysts, advisors, and investors, with use cases like analyzing Apple’s gross margin shift or NVIDIA’s earnings beat.
+        - No mention of code generation, IDE integration, agent orchestration, or any developer tooling functionality in the README or site context.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

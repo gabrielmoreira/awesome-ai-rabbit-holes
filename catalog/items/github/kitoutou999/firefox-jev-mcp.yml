@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kitoutou999__firefox-jev-mcp__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: firefox-jev-mcp
         extracted_url: https://github.com/kitoutou999/firefox-jev-mcp
-        surrounding_text: >-
-          - [firefox-jev-mcp](https://github.com/kitoutou999/firefox-jev-mcp) - Claude plans; TypeSafe Jev picks Firefox
-          clicks via MCP + WebExtension bridge. [Project guide](community/projects/tools/firefox-jev-mcp.md).
+        surrounding_text: "- [firefox-jev-mcp](https://github.com/kitoutou999/firefox-jev-mcp) - Claude plans; TypeSafe Jev picks Firefox clicks via MCP + WebExtension bridge. [Project guide](community/projects/tools/firefox-jev-mcp.md)."
         confidence: high
 metadata:
   github:
@@ -60,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.464Z'
+    updated_at: "2026-09-29T13:07:10.464Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

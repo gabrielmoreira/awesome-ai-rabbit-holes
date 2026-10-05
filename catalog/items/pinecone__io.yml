@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pinecone__io__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,10 +18,10 @@ provenance:
           - Developer tools
         anchor_text: Pinecone
         extracted_url: https://pinecone.io
-        surrounding_text: '- [Pinecone](https://www.pinecone.io) - Long-Term Memory for AI.'
+        surrounding_text: "- [Pinecone](https://www.pinecone.io) - Long-Term Memory for AI."
         confidence: high
     - id: discovery__pinecone__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -34,15 +34,10 @@ provenance:
           - Vector search
         anchor_text: Pinecone
         extracted_url: https://pinecone.io
-        surrounding_text: >-
-          | [Pinecone](https://www.pinecone.io/)                      | The Pinecone vector database makes it easy to
-          build high-performance vector search applications. Developer-friendly, fully managed, and easily scalable
-          without infrastructure
-          hassles.                                                                                                      
-          |                                                                                                       |
+        surrounding_text: "| [Pinecone](https://www.pinecone.io/)                      | The Pinecone vector database makes it easy to build high-performance vector search applications. Developer-friendly, fully managed, and easily scalable without infrastructure hassles.                                                                                                       |                                                                                                       |"
         confidence: high
     - id: discovery__www__pinecone__io__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -54,10 +49,10 @@ provenance:
           - Developer tools
         anchor_text: Pinecone
         extracted_url: https://www.pinecone.io
-        surrounding_text: '- [Pinecone](https://www.pinecone.io) - Long-Term Memory for AI.'
+        surrounding_text: "- [Pinecone](https://www.pinecone.io) - Long-Term Memory for AI."
         confidence: high
     - id: discovery__www__pinecone__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -70,12 +65,7 @@ provenance:
           - Vector search
         anchor_text: Pinecone
         extracted_url: https://www.pinecone.io
-        surrounding_text: >-
-          | [Pinecone](https://www.pinecone.io/)                      | The Pinecone vector database makes it easy to
-          build high-performance vector search applications. Developer-friendly, fully managed, and easily scalable
-          without infrastructure
-          hassles.                                                                                                      
-          |                                                                                                       |
+        surrounding_text: "| [Pinecone](https://www.pinecone.io/)                      | The Pinecone vector database makes it easy to build high-performance vector search applications. Developer-friendly, fully managed, and easily scalable without infrastructure hassles.                                                                                                       |                                                                                                       |"
         confidence: high
 metadata:
   github:
@@ -93,74 +83,59 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Pinecone is a fully managed vector database platform for AI applications, offering vector search, knowledge
-    retrieval, and enterprise RAG capabilities.
-  why_it_matters: >-
-    It enables developers to build scalable, low-latency AI systems with accurate retrieval without managing vector
-    infrastructure at scale.
-  mental_damage: >-
-    Yet another vector DB promising to solve your RAG token costs, as if the real problem wasn’t just glue code and
-    evals all along.
+  summary: Pinecone is a managed vector database service for AI applications.
+  why_it_matters: It provides scalable, low-latency vector search that developers use to build RAG and semantic search features without managing infrastructure.
+  mental_damage: Another piece of the AI stack you now have to monitor, pay for, and explain to your team when the latency spikes at 3 a.m.
   tags:
-    - vector-database
+    - vector-db
+    - search
     - rag
-    - ai-infrastructure
+    - infrastructure
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    Pinecone is infrastructure (vector database) rather than a developer-facing AI tool, agent, workflow, or app
-    builder; it lacks primary identity in any catalog category despite being used by developers.
+  status: included
+  reason: Pinecone is a vector database that serves as external memory for AI agents, enabling persistent knowledge storage and retrieval — a core function of memory and context systems, not a coding agent, framework, or orchestration platform.
   evidence:
-    - 'Product identity: fully managed vector database built for AI, with automatic indexing and scalable queries'
-    - >-
-      Source-list context: listed under 'Developer tools' and 'Search > Vector search' in awesome lists as
-      infrastructure, not a developer tool
-    - >-
-      Core offering: Database, Nexus, and Marketplace platform components focused on storage, retrieval, and knowledge
-      serving
+    - Pinecone is a fully managed vector database built for AI. Writes are instantly searchable, indexing is automatic, and queries stay fast at any scale.
+    - "It enables agents to access knowledge via API: 'Install the plugin in your agent, or call the API directly. Search, upsert, and rerank from the same index.'"
+    - Seen in Awesome-LLMOps under 'Search > Vector search' and awesome-local-ai under 'Developer tools' as a knowledge platform for AI.
 placement:
-  primary_category: null
+  primary_category: memory-and-context
   secondary_categories: []
-  section: null
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:44:15.866Z'
+    updated_at: "2026-10-05T04:50:07.388Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ba5ccdc725502693e7e60850a01c851d21f9cfaa7e757721e936b312381e0254
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:411161bcdaf8e7bec489a5f795d29fd0c4e07e2b691e98cc3aa79b7bcb0d5c93
+      proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: >-
-        Pinecone is infrastructure (vector database) rather than a developer-facing AI tool, agent, workflow, or app
-        builder; it lacks primary identity in any catalog category despite being used by developers.
+      decision_reason: Pinecone is a vector database that serves as external memory for AI agents, enabling persistent knowledge storage and retrieval — a core function of memory and context systems, not a coding agent, framework, or orchestration platform.
       decision_evidence:
-        - 'Product identity: fully managed vector database built for AI, with automatic indexing and scalable queries'
-        - >-
-          Source-list context: listed under 'Developer tools' and 'Search > Vector search' in awesome lists as
-          infrastructure, not a developer tool
-        - >-
-          Core offering: Database, Nexus, and Marketplace platform components focused on storage, retrieval, and
-          knowledge serving
-      category_candidates: []
-      contrastive_reason: null
+        - Pinecone is a fully managed vector database built for AI. Writes are instantly searchable, indexing is automatic, and queries stay fast at any scale.
+        - "It enables agents to access knowledge via API: 'Install the plugin in your agent, or call the API directly. Search, upsert, and rerank from the same index.'"
+        - Seen in Awesome-LLMOps under 'Search > Vector search' and awesome-local-ai under 'Developer tools' as a knowledge platform for AI.
+      category_candidates:
+        - memory-and-context
+        - ai-frameworks
+      contrastive_reason: Choose memory-and-context over ai-frameworks because Pinecone is a managed service for vector storage and retrieval, not a code-first library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.687Z'
+    updated_at: "2026-07-20T15:10:47.687Z"
     cause: null
     next_retry_at: null
   stars:

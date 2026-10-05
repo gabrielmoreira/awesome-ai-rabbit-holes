@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__teamsincetoday__podcast-commerce-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,12 +20,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: teamsincetoday/podcast-commerce-mcp
         extracted_url: https://github.com/teamsincetoday/podcast-commerce-mcp
-        surrounding_text: >-
-          -   **[teamsincetoday/podcast-commerce-mcp](https://github.com/teamsincetoday/podcast-commerce-mcp)**
-          [![GitHub
-          stars](https://img.shields.io/github/stars/teamsincetoday/podcast-commerce-mcp?style=social)](https://github.com/teamsincetoday/podcast-commerce-mcp):
-          Extracts affiliate products, sponsors, and commerce intelligence from podcast transcripts. Cloudflare Workers,
-          free tier (200 calls/day), $0.01/call paid tier.
+        surrounding_text: "-   **[teamsincetoday/podcast-commerce-mcp](https://github.com/teamsincetoday/podcast-commerce-mcp)** [![GitHub stars](https://img.shields.io/github/stars/teamsincetoday/podcast-commerce-mcp?style=social)](https://github.com/teamsincetoday/podcast-commerce-mcp): Extracts affiliate products, sponsors, and commerce intelligence from podcast transcripts. Cloudflare Workers, free tier (200 calls/day), $0.01/call paid tier."
         confidence: high
 metadata:
   github:
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

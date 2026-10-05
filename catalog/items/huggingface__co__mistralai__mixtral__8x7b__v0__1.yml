@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__mistralai__mixtral__8x7b__v0__1__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - Large Language Model
         anchor_text: Mixtral-8x7B-v0.1
         extracted_url: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1
-        surrounding_text: >-
-          | [Mixtral-8x7B-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) | The Mixtral-8x7B Large Language
-          Model (LLM) is a pretrained generative Sparse Mixture of
-          Experts.                                                                                         
-          |                                                                                                           |
+        surrounding_text: "| [Mixtral-8x7B-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) | The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.                                                                                          |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -41,46 +37,36 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mixtral-8x7B-v0.1 is a pretrained sparse Mixture of Experts large language model from Mistral AI.
-  why_it_matters: >-
-    It provides a high-performance open-weight LLM that developers can fine-tune, serve locally, or use as a foundation
-    for AI-powered applications.
-  mental_damage: Another week, another 'state-of-the-art' model that makes your fine-tuning pipeline feel perpetually outdated.
+  summary: Mixtral-8x7B-v0.1 is a pretrained sparse mixture-of-experts large language model hosted on Hugging Face.
+  why_it_matters: Developers can use this model as a foundation for building AI-powered applications, fine-tuning, or local inference with tools like vLLM or transformers.
+  mental_damage: Another week, another 47B-parameter Mixture of Experts model that somehow still can’t count the letters in 'strawberry' reliably.
   tags:
     - llm
     - moe
-    - mistral
     - huggingface
     - vllm
-  confidence: high
+    - transformers
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity; it
-    serves as infrastructure for others to build upon, not a developer tool itself.
+  status: included
+  reason: While Mixtral-8x7B-v0.1 is a model weight repository, its primary developer-facing value lies in enabling local or self-hosted inference via compatible runtimes like vLLM and Hugging Face Transformers, fitting the local-ai category's focus on hardware-controlled execution.
   evidence:
-    - Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference examples.
-    - >-
-      It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model asset,
-      not a developer tool.
-    - >-
-      The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement — only
-      model weights for consumption.
+    - Model card highlights compatibility with vLLM and Hugging Face Transformers for inference
+    - Tags include 'vllm', 'safetensors', and 'deploy:sagemaker', indicating deployment and serving intent
+    - Source-list context appears in Awesome-LLMOps under Model > Large Language Model, indicating relevance to LLM infrastructure
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -88,33 +74,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:32.186Z'
+    updated_at: "2026-10-05T04:34:39.405Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:90e627c87ffbdc291332248f96792c18818b86a684ab7bb6207f52a0d3e6d0cc
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:305b71f5fe7ccd7e09eaf741b49177ed27c54f4462633bee2549e664a5a128cd
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: >-
-        It is a raw model weight repository without a meaningful SDK, API surface, or developer-facing tooling identity;
-        it serves as infrastructure for others to build upon, not a developer tool itself.
+      decision_reason: While Mixtral-8x7B-v0.1 is a model weight repository, its primary developer-facing value lies in enabling local or self-hosted inference via compatible runtimes like vLLM and Hugging Face Transformers, fitting the local-ai category's focus on hardware-controlled execution.
       decision_evidence:
-        - >-
-          Repo description is absent; the Hugging Face page shows only model card, weights, and basic inference
-          examples.
-        - >-
-          It is listed in Awesome-LLMOps under 'Model > Large Language Model', indicating it is treated as a model
-          asset, not a developer tool.
-        - >-
-          The product provides no autonomous coding behavior, app generation, orchestration, or workflow enhancement —
-          only model weights for consumption.
-      category_candidates: []
-      contrastive_reason: null
+        - Model card highlights compatibility with vLLM and Hugging Face Transformers for inference
+        - Tags include 'vllm', 'safetensors', and 'deploy:sagemaker', indicating deployment and serving intent
+        - Source-list context appears in Awesome-LLMOps under Model > Large Language Model, indicating relevance to LLM infrastructure
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because Mixtral-8x7B-v0.1 is a model weight artifact used with inference engines, not a code-first library or SDK developers import to build applications.
       review_reason: null
       review_resume_lifecycle: null

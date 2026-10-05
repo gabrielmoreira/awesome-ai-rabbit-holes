@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mpaepper__llm_agents__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - LLM Agents
         anchor_text: LLM Agents
         extracted_url: https://github.com/mpaepper/llm_agents
-        surrounding_text: '## [LLM Agents](https://github.com/mpaepper/llm_agents)'
+        surrounding_text: "## [LLM Agents](https://github.com/mpaepper/llm_agents)"
         confidence: high
     - id: discovery__github__mpaepper__llm_agents__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -34,9 +34,7 @@ provenance:
           - Other LLM Frameworks
         anchor_text: LLM Agents
         extracted_url: https://github.com/mpaepper/llm_agents
-        surrounding_text: >-
-          - [LLM Agents](https://github.com/mpaepper/llm_agents): Build agents which are controlled by LLMs ![GitHub
-          Repo stars](https://img.shields.io/github/stars/mpaepper/llm_agents?style=social)
+        surrounding_text: "- [LLM Agents](https://github.com/mpaepper/llm_agents): Build agents which are controlled by LLMs ![GitHub Repo stars](https://img.shields.io/github/stars/mpaepper/llm_agents?style=social)"
         confidence: high
 metadata:
   github:
@@ -46,8 +44,8 @@ metadata:
     archived: false
     full_name: mpaepper/llm_agents
     html_url: https://github.com/mpaepper/llm_agents
-    created_at: '2023-04-04T21:25:35Z'
-    pushed_at: '2025-06-23T14:01:18Z'
+    created_at: "2023-04-04T21:25:35Z"
+    pushed_at: "2025-06-23T14:01:18Z"
     description: Build agents which are controlled by LLMs
     homepage: https://www.paepper.com/blog/posts/intelligent-agents-guided-by-llms/
     topics:
@@ -55,20 +53,14 @@ metadata:
       - langchain
       - llms
       - machine-learning
-    last_checked_at: '2026-08-03T05:17:07.826Z'
+    last_checked_at: "2026-08-03T05:17:07.826Z"
     readme:
-      fetched_at: '2026-08-03T05:17:07.826Z'
+      fetched_at: "2026-08-03T05:17:07.826Z"
       bytes: 2750
 insights:
-  summary: >-
-    A minimal Python library for building LLM-controlled agents with custom tools like Python REPL, Google Search, and
-    Hacker News search, inspired by LangChain.
-  why_it_matters: >-
-    It strips agent architecture down to a readable loop of Thought, Action, and Observation, making it a useful
-    learning reference or lightweight base for developers building custom LLM agents.
-  mental_damage: >-
-    Yet another reminder that in 2023 we collectively decided building a LangChain clone in a weekend was the best way
-    to understand how agents work.
+  summary: A minimal Python library for building LLM-controlled agents with custom tools like Python REPL, Google Search, and Hacker News search, inspired by LangChain.
+  why_it_matters: It strips agent architecture down to a readable loop of Thought, Action, and Observation, making it a useful learning reference or lightweight base for developers building custom LLM agents.
+  mental_damage: Yet another reminder that in 2023 we collectively decided building a LangChain clone in a weekend was the best way to understand how agents work.
   tags:
     - agents
     - langchain
@@ -91,21 +83,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.591Z'
+    updated_at: "2026-05-06T22:12:15.591Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-03T05:17:07.826Z'
+    updated_at: "2026-08-03T05:17:07.826Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.822Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

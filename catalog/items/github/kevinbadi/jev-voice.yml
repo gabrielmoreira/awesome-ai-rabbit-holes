@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kevinbadi__jev-voice__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-voice
         extracted_url: https://github.com/kevinbadi/jev-voice
-        surrounding_text: >-
-          - [jev-voice](https://github.com/kevinbadi/jev-voice) - Talk to your Mac. Local whisper.cpp + one Jev
-          (TypeSafe) call per command + macOS automation.
+        surrounding_text: "- [jev-voice](https://github.com/kevinbadi/jev-voice) - Talk to your Mac. Local whisper.cpp + one Jev (TypeSafe) call per command + macOS automation."
         confidence: high
     - id: discovery__github__kevinbadi__jev-voice__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Voice
         extracted_url: https://github.com/kevinbadi/jev-voice
-        surrounding_text: >-
-          - [Jev Voice](https://github.com/kevinbadi/jev-voice) - `Open source` · `Free source build` · `BYOK`.
-          Hands-free macOS voice assistant: local whisper.cpp plus one Jev call per command to select typed actions and
-          arguments. [Project guide](community/projects/apps/jev-voice.md).
+        surrounding_text: "- [Jev Voice](https://github.com/kevinbadi/jev-voice) - `Open source` · `Free source build` · `BYOK`. Hands-free macOS voice assistant: local whisper.cpp plus one Jev call per command to select typed actions and arguments. [Project guide](community/projects/apps/jev-voice.md)."
         confidence: high
     - id: discovery__github__kevinbadi__jev-voice__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,12 +51,10 @@ provenance:
           - Applications (129)
         anchor_text: jev-voice
         extracted_url: https://github.com/kevinbadi/jev-voice
-        surrounding_text: >-
-          | [jev-voice](https://github.com/kevinbadi/jev-voice) | ★ 80 | Python | 2026-09-23 | Talk to your Mac. Local
-          whisper.cpp + one Jev (TypeSafe) call per command + macOS automation. |
+        surrounding_text: "| [jev-voice](https://github.com/kevinbadi/jev-voice) | ★ 80 | Python | 2026-09-23 | Talk to your Mac. Local whisper.cpp + one Jev (TypeSafe) call per command + macOS automation. |"
         confidence: high
     - id: discovery__github__kevinbadi__jev-voice__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -71,11 +64,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**jev-voice**'
+        anchor_text: "**jev-voice**"
         extracted_url: https://github.com/kevinbadi/jev-voice
-        surrounding_text: >-
-          - [**jev-voice**](https://github.com/kevinbadi/jev-voice) — Talk to your Mac. Local whisper.cpp + one Jev
-          (TypeSafe) call per command + macOS automation.
+        surrounding_text: "- [**jev-voice**](https://github.com/kevinbadi/jev-voice) — Talk to your Mac. Local whisper.cpp + one Jev (TypeSafe) call per command + macOS automation."
         confidence: high
 metadata:
   github:
@@ -113,7 +104,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.383Z'
+    updated_at: "2026-09-29T13:07:10.383Z"
     cause: null
     next_retry_at: null
   stars:
@@ -121,6 +112,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

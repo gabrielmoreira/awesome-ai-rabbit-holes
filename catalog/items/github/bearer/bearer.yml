@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bearer__bearer__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Security
         anchor_text: Bearer CLI
         extracted_url: https://github.com/bearer/bearer
-        surrounding_text: >-
-          - **[Bearer CLI](https://github.com/Bearer/bearer)** – Open-source static security analysis for sensitive data
-          exposure and GDPR/PCI compliance.
+        surrounding_text: "- **[Bearer CLI](https://github.com/Bearer/bearer)** – Open-source static security analysis for sensitive data exposure and GDPR/PCI compliance."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: Bearer/bearer
     html_url: https://github.com/Bearer/bearer
-    created_at: '2022-09-27T17:02:45Z'
-    pushed_at: '2026-09-21T02:33:07Z'
+    created_at: "2022-09-27T17:02:45Z"
+    pushed_at: "2026-09-21T02:33:07Z"
     description: Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.
     homepage: https://docs.bearer.com
     topics:
@@ -55,18 +53,14 @@ metadata:
       - static-code-analysis
       - vulnerabilities
       - vulnerability
-    last_checked_at: '2026-09-21T04:13:55.809Z'
+    last_checked_at: "2026-09-21T04:13:55.809Z"
     readme:
-      fetched_at: '2026-09-21T04:13:55.809Z'
+      fetched_at: "2026-09-21T04:13:55.809Z"
       bytes: 16005
 insights:
   summary: Static application security testing (SAST) tool that scans source code for security and privacy risks.
-  why_it_matters: >-
-    Developers can identify and prioritize OWASP Top 10 and CWE Top 25 vulnerabilities, as well as sensitive data flows,
-    directly in their codebase.
-  mental_damage: >-
-    Finally, a tool that will tell you all the ways your code is a privacy dumpster fire before the compliance team
-    does.
+  why_it_matters: Developers can identify and prioritize OWASP Top 10 and CWE Top 25 vulnerabilities, as well as sensitive data flows, directly in their codebase.
+  mental_damage: Finally, a tool that will tell you all the ways your code is a privacy dumpster fire before the compliance team does.
   tags:
     - sast
     - security-scanning
@@ -76,9 +70,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Bearer is a security-focused SAST tool, not an AI-powered developer tool, and thus falls outside the catalog's scope
-    of AI rabbit holes for software developers.
+  reason: Bearer is a security-focused SAST tool, not an AI-powered developer tool, and thus falls outside the catalog's scope of AI rabbit holes for software developers.
   evidence:
     - Repo description explicitly identifies it as a 'Code security scanning tool (SAST)'
     - README emphasizes static analysis for security/privacy risks with no AI/assistant functionality
@@ -92,17 +84,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.604Z'
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:55.809Z'
+    updated_at: "2026-09-21T04:13:55.809Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -117,9 +109,7 @@ processing:
       input_hash: sha256:e76790e78b5eae25467e451678746af41d4cef285c770721e553d64bf134bdf9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Bearer is a security-focused SAST tool, not an AI-powered developer tool, and thus falls outside the catalog's
-        scope of AI rabbit holes for software developers.
+      decision_reason: Bearer is a security-focused SAST tool, not an AI-powered developer tool, and thus falls outside the catalog's scope of AI rabbit holes for software developers.
       decision_evidence:
         - Repo description explicitly identifies it as a 'Code security scanning tool (SAST)'
         - README emphasizes static analysis for security/privacy risks with no AI/assistant functionality

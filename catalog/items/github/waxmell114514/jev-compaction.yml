@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__waxmell114514__jev-compaction__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-compaction
         extracted_url: https://github.com/waxmell114514/jev-compaction
-        surrounding_text: >-
-          - [jev-compaction](https://github.com/Waxmell114514/jev-compaction)
-          ([site](https://waxmell114514.github.io/jev-compaction/)) - A context compactor that can only score, never
-          write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline.
+        surrounding_text: "- [jev-compaction](https://github.com/Waxmell114514/jev-compaction) ([site](https://waxmell114514.github.io/jev-compaction/)) - A context compactor that can only score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline."
         confidence: high
     - id: discovery__github__waxmell114514__jev-compaction__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-compaction (Waxmell114514)
         extracted_url: https://github.com/waxmell114514/jev-compaction
-        surrounding_text: >-
-          - [jev-compaction (Waxmell114514)](https://github.com/Waxmell114514/jev-compaction) - Context compactor that
-          can only score, never write—so agent memory cannot invent transcript facts (offline demo; distinct from
-          fast-jev-compaction). [Project guide](community/projects/tools/waxmell114514-jev-compaction.md).
+        surrounding_text: "- [jev-compaction (Waxmell114514)](https://github.com/Waxmell114514/jev-compaction) - Context compactor that can only score, never write—so agent memory cannot invent transcript facts (offline demo; distinct from fast-jev-compaction). [Project guide](community/projects/tools/waxmell114514-jev-compaction.md)."
         confidence: high
     - id: discovery__github__waxmell114514__jev-compaction__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,15 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - Context GC
-        anchor_text: '**jev-compaction**'
+        anchor_text: "**jev-compaction**"
         extracted_url: https://github.com/waxmell114514/jev-compaction
-        surrounding_text: >-
-          - [**jev-compaction**](https://github.com/Waxmell114514/jev-compaction) — A context compactor that can only
-          score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs
-          offline.
+        surrounding_text: "- [**jev-compaction**](https://github.com/Waxmell114514/jev-compaction) — A context compactor that can only score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline."
         confidence: high
     - id: discovery__github__waxmell114514__jev-compaction__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -75,12 +66,7 @@ provenance:
           - Agent Decisions
         anchor_text: jev-compaction
         extracted_url: https://github.com/waxmell114514/jev-compaction
-        surrounding_text: >-
-          - [jev-compaction](https://github.com/Waxmell114514/jev-compaction)
-          ![stars](https://img.shields.io/github/stars/Waxmell114514/jev-compaction?style=flat-square&label=%E2%98%85) -
-          Context management: standalone agent context compactor where Jev only scores transcript segments — kept lines
-          stay verbatim, low scorers move to a store behind an expand() pointer instead of being deleted, and the
-          append-only frozen prefix keeps the prompt cache valid; runnable offline demo, no API key needed.
+        surrounding_text: "- [jev-compaction](https://github.com/Waxmell114514/jev-compaction) ![stars](https://img.shields.io/github/stars/Waxmell114514/jev-compaction?style=flat-square&label=%E2%98%85) - Context management: standalone agent context compactor where Jev only scores transcript segments — kept lines stay verbatim, low scorers move to a store behind an expand() pointer instead of being deleted, and the append-only frozen prefix keeps the prompt cache valid; runnable offline demo, no API key needed."
         confidence: high
 metadata:
   github:
@@ -98,9 +84,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-compaction (site) - A context compactor that can only score, never write — so an agent's memory can't hold a
-    fact the transcript never contained. Working demo, runs offline.
+  summary: jev-compaction (site) - A context compactor that can only score, never write — so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -110,9 +94,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
   evidence:
     - jev-latest choice confidence 0.82
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed memory-and-context / Compression & Token Optimization; placement
-      kept at decision-models (unverified)
+    - jev winnow:e4b 0.38 below gate 0.50; proposed memory-and-context / Compression & Token Optimization; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -124,7 +106,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.388Z'
+    updated_at: "2026-09-29T13:07:10.388Z"
     cause: null
     next_retry_at: null
   stars:
@@ -132,6 +114,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

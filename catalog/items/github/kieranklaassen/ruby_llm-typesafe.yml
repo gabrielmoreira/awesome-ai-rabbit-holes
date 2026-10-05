@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kieranklaassen__ruby_llm-typesafe__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: ruby_llm-typesafe
         extracted_url: https://github.com/kieranklaassen/ruby_llm-typesafe
-        surrounding_text: >-
-          - [ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) - TypeSafe structured-output
-          provider for RubyLLM 2.
+        surrounding_text: "- [ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) - TypeSafe structured-output provider for RubyLLM 2."
         confidence: high
     - id: discovery__github__kieranklaassen__ruby_llm-typesafe__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: ruby_llm-typesafe
         extracted_url: https://github.com/kieranklaassen/ruby_llm-typesafe
-        surrounding_text: >-
-          | [ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) | ★ 15 | Ruby | 2026-09-19 |
-          TypeSafe structured-output provider for RubyLLM 2. |
+        surrounding_text: "| [ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) | ★ 15 | Ruby | 2026-09-19 | TypeSafe structured-output provider for RubyLLM 2. |"
         confidence: high
     - id: discovery__github__kieranklaassen__ruby_llm-typesafe__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,25 @@ provenance:
         mode: parsed
         section_path:
           - SDK Integrations
-        anchor_text: '**ruby\_llm-typesafe**'
+        anchor_text: "**ruby\\_llm-typesafe**"
         extracted_url: https://github.com/kieranklaassen/ruby_llm-typesafe
-        surrounding_text: >-
-          - [**ruby\_llm-typesafe**](https://github.com/kieranklaassen/ruby_llm-typesafe) — A TypeSafe provider for
-          RubyLLM 2 that exposes Jev’s three judgment types through structured output.
+        surrounding_text: "- [**ruby\\_llm-typesafe**](https://github.com/kieranklaassen/ruby_llm-typesafe) — A TypeSafe provider for RubyLLM 2 that exposes Jev’s three judgment types through structured output."
+        confidence: high
+    - id: discovery__github__kieranklaassen__ruby_llm-typesafe__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: ruby_llm-typesafe
+        extracted_url: https://github.com/kieranklaassen/ruby_llm-typesafe
+        surrounding_text: "- [ruby_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) - RubyLLM 2 provider for TypeSafe System One / Jev structured judgments (Choice/Noul/Score). [Project guide](community/projects/tools/ruby-llm-typesafe.md)."
         confidence: high
 metadata:
   github:
@@ -94,7 +104,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-10-05T04:19:11.932Z"
     cause: null
     next_retry_at: null
   stars:
@@ -102,6 +112,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

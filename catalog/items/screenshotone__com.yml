@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__screenshotone__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: ScreenshotOne
         extracted_url: https://screenshotone.com
-        surrounding_text: >-
-          - **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with
-          [ScreenshotOne](https://screenshotone.com/)
+        surrounding_text: "- **[ScreenshotOne](https://github.com/screenshotone/mcp/)** - Render website screenshots with [ScreenshotOne](https://screenshotone.com/)"
         confidence: high
 metadata:
   github:
@@ -38,52 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ScreenshotOne is a developer API for capturing website screenshots, PDFs, and scrolling videos with built-in ad and
-    banner blocking.
-  why_it_matters: >-
-    It lets developers automate visual testing, documentation, or AI agent workflows without managing browser
-    infrastructure or handling edge cases like lazy loading or consent popups.
-  mental_damage: >-
-    Another API to wrap in retry logic when the screenshot service randomly fails on Fridays because of a new cookie
-    banner heuristic.
+  summary: ScreenshotOne is a developer API for programmatically capturing website screenshots, PDFs, and scrolling videos.
+  why_it_matters: It lets developers automate visual testing, documentation, or monitoring without managing headless browsers or rendering edge cases.
+  mental_damage: Yet another API to key into your CI pipeline, because visual regressions weren't already painful enough to automate.
   tags:
-    - screenshot
     - api
-    - automation
-    - testing
-    - ai-agents
+    - screenshot
+    - developer-tools
   confidence: medium
 curation:
   status: included
-  reason: >-
-    ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers and
-    AI agents, not a coding agent, framework, or orchestration platform itself.
+  reason: ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers and AI agents, not a coding agent, framework, or orchestration platform itself.
   evidence:
-    - >-
-      Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable
-      website screenshots, PDFs, and scrolling videos with one developer-friendly API.'
-    - >-
-      Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via HTTP
-      API calls.
-    - >-
-      Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom JS/CSS,
-      and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at
-      extensions-and-addons (unverified)
+    - "Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API.'"
+    - Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via HTTP API calls.
+    - Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom JS/CSS, and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
+    - jev winnow:e4b 0.36 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
-  section: API & Service Integrations
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,37 +72,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:51.035Z'
+    updated_at: "2026-10-05T04:44:54.280Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e767eb2a45358613dbf06337113cd47e551796219263a7273e2be0fa17b971d1
-      proposed_primary_category: extensions-and-addons
-      disagreement: false
-      decision_reason: >-
-        ScreenshotOne is a standalone API service that provides screenshot capabilities as an integration for developers
-        and AI agents, not a coding agent, framework, or orchestration platform itself.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a626b650b64e7fd23ca52b107bdf366ab9b75661214dd290773912c12e7383ae
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: ScreenshotOne is a provider SDK for a visual rendering service that developers import and program against, fitting the Frameworks & SDKs category as a code-first abstraction layer rather than an agent, orchestrator, or end-user tool.
       decision_evidence:
-        - >-
-          Listed in awesome-mcp-servers as an MCP server under 'Official Servers' with description: 'Capture reliable
-          website screenshots, PDFs, and scrolling videos with one developer-friendly API.'
-        - >-
-          Provides SDKs for multiple languages (Java, Go, Node.js, Python, Ruby, C#, PHP) to generate screenshots via
-          HTTP API calls.
-        - >-
-          Marketed as 'The screenshot API for developers' with features like ad/banner blocking, dark mode, custom
-          JS/CSS, and full-page rendering for AI agents to 'give your AI agents eyes for the web'.
+        - Provides native SDKs for Java, Go, Node.js, Python, Ruby, C#, and PHP to generate screenshots via simple HTTP requests
+        - Core product is an API service with developer-focused documentation and language-specific client libraries
+        - Listed in awesome-mcp-servers as an 'Official Server' for capturing website screenshots, PDFs, and scrolling videos
       category_candidates:
-        - extensions-and-addons
+        - ai-frameworks
         - mcp
-      contrastive_reason: >-
-        Choose extensions-and-addons over mcp because while ScreenshotOne appears in MCP server lists, its primary
-        identity is a screenshot API service — MCP compatibility is a feature, not its core product purpose.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose ai-frameworks over mcp because while ScreenshotOne appears in an MCP servers list, its primary identity is a visual rendering API with SDKs, not MCP infrastructure as its core purpose.
+      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'ai-frameworks'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

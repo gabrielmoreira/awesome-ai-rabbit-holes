@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aomni__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Aomni
         anchor_text: Aomni
         extracted_url: https://aomni.com
-        surrounding_text: '## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)'
+        surrounding_text: "## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)"
         confidence: high
     - id: discovery__www__aomni__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Aomni
         anchor_text: Aomni
         extracted_url: https://www.aomni.com
-        surrounding_text: '## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)'
+        surrounding_text: "## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)"
         confidence: high
 metadata:
   github:
@@ -51,19 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Duet is a hosted workspace platform that allows consultants and agencies to build, deploy, and manage AI agents with
-    persistent memory, skill files, and real computer access for client-specific workflows.
-  why_it_matters: >-
-    It lets developers package their agent-building expertise into reusable, client-isolated workspaces that persist
-    state and run continuously without infrastructure overhead.
-  mental_damage: >-
-    Finally, a way to sell the same agent to ten clients while pretending each one is a bespoke miracle — and not have
-    to explain why it keeps logging into their Slack as 'Acme Corp'.
+  summary: Duet is a hosted platform that turns consultants' expertise into shareable AI agents with dedicated workspaces, persistent memory, and tool access for client and team use.
+  why_it_matters: It lets knowledge workers package their know-how into reusable AI agents that stay in sync across clients without managing infrastructure.
+  mental_damage: Finally, a way to scale your consulting gig without cloning yourself—just hope clients don’t ask the agent for a raise.
   tags:
-    - agent-hosting
-    - client-workspaces
-    - persistent-memory
+    - ai-agents
+    - knowledge-sharing
+    - hosted-platform
   confidence: medium
 curation:
   status: included
@@ -73,49 +67,42 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:45.515Z'
+    updated_at: "2026-10-05T04:45:59.027Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b9668d5960737b2873c8508ce8e1bf39d3ab8b047649a741cf4965485a02dec2
-      proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: >-
-        Duet is a hosted control plane for managing multiple agent instances across client workspaces, with built-in
-        scheduling, file sharing, and multi-agent collaboration — making it a platform for operating agent teams rather
-        than a single coding agent.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fbe59c3ab50c0227a42160aa9b7d9dbe3319fe692fb3c04049e14b3b664a208b
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: Duet enables users to build and share AI agents that perform real work using files, tools, and browsers—creating deployable internal tools from expertise rather than editing codebases, fitting the app-builder pattern.
       decision_evidence:
-        - >-
-          Duet gives each client a workspace that holds your agents, their memory and skill files, the apps they build,
-          and an always-on machine to run them.
-        - You look after the agent. Duet looks after everything under it.
-        - >-
-          One workspace, everyone in it: Files and shared memory every agent reads and writes, with teammates in the
-          same sessions.
+        - Duet lets users 'teach an agent how you work' using checklists, templates, and rules, then share it with clients in isolated workspaces.
+        - Agents built in Duet can install software, browse the web, act on tools like Slack and Gmail, and ship real apps at live URLs.
+        - Each client gets a dedicated workspace with the agent, their data stays isolated, and improvements sync across all copies.
       category_candidates:
+        - app-builders
         - agent-orchestration
-        - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because Duet’s primary value is managing multiple agent
-        workspaces, scheduling, shared memory, and client isolation — not autonomous coding tasks on a codebase.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose app-builders over agent-orchestration because Duet’s core function is turning expertise into shareable, task-performing agents that generate apps and tools, not coordinating multi-agent workflows.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:

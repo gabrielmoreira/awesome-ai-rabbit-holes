@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ai__sdk__dev__providers__ai__sdk__providers__typesafe__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Integrations
         anchor_text: Vercel AI SDK provider
         extracted_url: https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai
-        surrounding_text: >-
-          - [Vercel AI SDK provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai)
-          ([post](https://x.com/vercel_dev/status/2100378959653507175)) - @ai-sdk/typesafe-ai plus
-          experimental_evaluate; use jev-latest as an evaluation model.
+        surrounding_text: "- [Vercel AI SDK provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai) ([post](https://x.com/vercel_dev/status/2100378959653507175)) - @ai-sdk/typesafe-ai plus experimental_evaluate; use jev-latest as an evaluation model."
         confidence: high
 metadata:
   github:
@@ -39,13 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vercel AI SDK provider (post) - @ai-sdk/typesafe-ai plus experimental_evaluate; use jev-latest as an evaluation
-    model.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI provides a provider for the AI SDK to use its Jev decision model for typed evaluations with Choice, Score, and Boolean answers.
+  why_it_matters: Enables developers to integrate deterministic, probability-backed judgments into AI workflows via the AI SDK.
+  mental_damage: Yet another provider wrapper adding fragmentation to an already splintered ecosystem of model adapters.
+  tags:
+    - ai-sdk
+    - decision-model
+    - typed-evaluation
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
@@ -54,14 +52,14 @@ curation:
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Provider & Model Abstractions
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +67,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:02.911Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d7d2fe8c0fa8c6fb62d0f08beb1ff7aa4912050abc509ac9d3c4fde728e04863
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: The product's core identity is exposing the Jev decision model via a provider SDK for the AI SDK, making it a decision-model integration rather than a coding agent or MCP tool.
+      decision_evidence:
+        - The scraped excerpt shows the provider supports experimental evaluation API with Choice, Score, and Boolean answers from Jev.
+        - It is listed in the 'awesome-jev' directory under 'Integrations' for using TypeSafe System One models for typed evaluations.
+        - The README-style content focuses on importing and using the provider to call jev-latest for structured evaluation outputs.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product is a provider SDK for a decision model (Jev), not a general-purpose AI framework developers build applications upon.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

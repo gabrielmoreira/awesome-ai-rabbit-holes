@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kylekreuter__jev2048__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: jev2048
         extracted_url: https://github.com/kylekreuter/jev2048
-        surrounding_text: '- [jev2048](https://github.com/KyleKreuter/jev2048) - Let Jev (TypeSafeAI) solve 2048.'
+        surrounding_text: "- [jev2048](https://github.com/KyleKreuter/jev2048) - Let Jev (TypeSafeAI) solve 2048."
         confidence: high
     - id: discovery__github__kylekreuter__jev2048__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +35,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: jev2048
         extracted_url: https://github.com/kylekreuter/jev2048
-        surrounding_text: >-
-          | [jev2048](https://github.com/KyleKreuter/jev2048) | ★ 1 | TypeScript | 2026-09-19 | Let Jev (TypeSafeAI)
-          solve 2048. |
+        surrounding_text: "| [jev2048](https://github.com/KyleKreuter/jev2048) | ★ 1 | TypeScript | 2026-09-19 | Let Jev (TypeSafeAI) solve 2048. |"
         confidence: high
 metadata:
   github:
@@ -75,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.418Z'
+    updated_at: "2026-09-29T13:07:10.418Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

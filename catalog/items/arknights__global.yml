@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__arknights__global__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: Arknights
         extracted_url: https://www.arknights.global
-        surrounding_text: >-
-          - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP
-          server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp)
-          🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS
-          Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data.
-          Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP)
-          implementations.
+        surrounding_text: "- [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations."
         confidence: high
 metadata:
   github:
@@ -43,14 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Arknights.global is the official website for the Arknights mobile game, a strategic RPG with fantasy themes.
-  why_it_matters: It does not provide any developer tooling, AI infrastructure, or coding-related functionality relevant to software developers.
-  mental_damage: Another reminder that not everything with a '.global' domain is secretly an AI agent framework for your terminal.
-  tags: []
+  summary: Arknights.global is the official website for Arknights, a fantasy-themed strategic RPG mobile game.
+  why_it_matters: It does not relate to software development tooling, AI agents, or developer workflows.
+  mental_damage: Another reminder that not everything with a '.global' domain is an AI dev tool — sometimes it’s just a gacha game trying to sound futuristic.
+  tags:
+    - gaming
+    - mobile
+    - rpg
   confidence: high
 curation:
   status: excluded
-  reason: The site is a game landing page with no developer-facing AI tools, agents, workflows, or infrastructure; it lacks any connection to the catalog's scope of practical AI tooling for software development.
+  reason: Excluded because it is a mobile game website with no connection to AI tools, coding agents, or developer infrastructure.
   evidence:
     - "Repo description: (none)"
     - "Scraped site context: Title: Arknights, Description: Welcome to the official website of Arknights. Arknights is a strategic RPG mobile game with a fantasy theme."
@@ -63,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,25 +68,21 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:11.058Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for arknights__global: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (350/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:23.929Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:eb23b4c9d83225fe67e2f28b1c2a4a8a8a00ceb492b241f1ad512d8b6971d367
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:92781213d9c4c6b178709d8c1c38f714a277a02be101a6974b62a080e6c83d67
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a game landing page with no developer-facing AI tools, agents, workflows, or infrastructure; it lacks any connection to the catalog's scope of practical AI tooling for software development.
+      decision_reason: Excluded because it is a mobile game website with no connection to AI tools, coding agents, or developer infrastructure.
       decision_evidence:
         - "Repo description: (none)"
         - "Scraped site context: Title: Arknights, Description: Welcome to the official website of Arknights. Arknights is a strategic RPG mobile game with a fantasy theme."

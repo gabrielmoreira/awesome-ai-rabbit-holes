@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sumant1122__jevci__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,13 +20,7 @@ provenance:
           - Verification & Guardrails
         anchor_text: jevci
         extracted_url: https://github.com/sumant1122/jevci
-        surrounding_text: >-
-          - [jevci](https://github.com/sumant1122/jevci) ![type:
-          cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/sumant1122/jevci?style=flat-square&label=%E2%98%85) - Quality
-          gate: asks four typed questions about each change — three `Score` lenses and one `Noul` — and blocks a diff,
-          commit message or doc set that falls below the resulting quality score, from the terminal, a pre-commit hook
-          or a GitHub Action.
+        surrounding_text: "- [jevci](https://github.com/sumant1122/jevci) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/sumant1122/jevci?style=flat-square&label=%E2%98%85) - Quality gate: asks four typed questions about each change — three `Score` lenses and one `Noul` — and blocks a diff, commit message or doc set that falls below the resulting quality score, from the terminal, a pre-commit hook or a GitHub Action."
         confidence: high
 metadata:
   github:
@@ -44,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevci - Quality gate: asks four typed questions about each change — three Score lenses and one Noul — and blocks a
-    diff, commit message or doc set that falls below the resulting quality score, from the terminal, a pre-commit hook
-    or a GitHub Action.
+  summary: "jevci - Quality gate: asks four typed questions about each change — three Score lenses and one Noul — and blocks a diff, commit message or doc set that falls below the resulting quality score, from the terminal, a pre-commit hook or a GitHub Action."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

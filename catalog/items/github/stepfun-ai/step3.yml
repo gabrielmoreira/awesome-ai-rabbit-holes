@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stepfun-ai__step3__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,22 +29,18 @@ metadata:
     archived: false
     full_name: stepfun-ai/Step3
     html_url: https://github.com/stepfun-ai/Step3
-    created_at: '2025-07-25T03:11:20Z'
-    pushed_at: '2025-08-10T15:26:18Z'
+    created_at: "2025-07-25T03:11:20Z"
+    pushed_at: "2025-08-10T15:26:18Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-07-20T16:43:03.642Z'
+    last_checked_at: "2026-07-20T16:43:03.642Z"
     readme:
-      fetched_at: '2026-07-20T16:43:03.642Z'
+      fetched_at: "2026-07-20T16:43:03.642Z"
       bytes: 4245
 insights:
-  summary: >-
-    Step3 is a 321B parameter multimodal mixture-of-experts model with vision–language reasoning capabilities and
-    OpenAI/Anthropic-compatible APIs.
-  why_it_matters: >-
-    Developers can deploy or call a large multimodal model through familiar APIs and common inference engines like vLLM
-    and SGLang.
+  summary: Step3 is a 321B parameter multimodal mixture-of-experts model with vision–language reasoning capabilities and OpenAI/Anthropic-compatible APIs.
+  why_it_matters: Developers can deploy or call a large multimodal model through familiar APIs and common inference engines like vLLM and SGLang.
   mental_damage: Now you can spend $40 in API credits just to argue with a model about whether your screenshot contains a bug.
   tags:
     - multimodal
@@ -55,17 +51,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a foundational model release and research artifact rather than a developer-facing tool, agent, IDE,
-    framework, or product within catalog scope.
+  reason: This is a foundational model release and research artifact rather than a developer-facing tool, agent, IDE, framework, or product within catalog scope.
   evidence:
-    - >-
-      README centers on model architecture, parameters, benchmarks, and deployment via vLLM/SGLang rather than a
-      developer tool.
+    - README centers on model architecture, parameters, benchmarks, and deployment via vLLM/SGLang rather than a developer tool.
     - It is listed in awesome-LLM-resources under a '论文 Paper' (paper) section, not as a developer product.
-    - >-
-      Provides OpenAI/Anthropic-compatible APIs, but the repo itself is a model release, not a usable coding assistant
-      or toolkit.
+    - Provides OpenAI/Anthropic-compatible APIs, but the repo itself is a model release, not a usable coding assistant or toolkit.
 placement:
   primary_category: null
   section: null
@@ -75,21 +65,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.649Z'
+    updated_at: "2026-05-06T22:12:15.649Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:43:03.642Z'
+    updated_at: "2026-07-20T16:43:03.642Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

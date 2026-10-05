@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openbiolink__thoughtsource__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,9 +20,7 @@ provenance:
           - Other / Chatbots
         anchor_text: ThoughtSource⚡
         extracted_url: https://github.com/openbiolink/thoughtsource
-        surrounding_text: >-
-          - [ThoughtSource⚡](https://github.com/OpenBioLink/ThoughtSource): A framework for the science of machine
-          thinking ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBioLink/ThoughtSource?style=social)
+        surrounding_text: "- [ThoughtSource⚡](https://github.com/OpenBioLink/ThoughtSource): A framework for the science of machine thinking ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBioLink/ThoughtSource?style=social)"
         confidence: high
 metadata:
   github:
@@ -32,32 +30,24 @@ metadata:
     archived: false
     full_name: OpenBioLink/ThoughtSource
     html_url: https://github.com/OpenBioLink/ThoughtSource
-    created_at: '2022-05-20T13:09:13Z'
-    pushed_at: '2024-12-16T15:41:40Z'
-    description: >-
-      A central, open resource for data and tools related to chain-of-thought reasoning in large language models.
-      Developed @ Samwald research group: https://samwald.info/
-    homepage: ''
+    created_at: "2022-05-20T13:09:13Z"
+    pushed_at: "2024-12-16T15:41:40Z"
+    description: "A central, open resource for data and tools related to chain-of-thought reasoning in large language models. Developed @ Samwald research group: https://samwald.info/"
+    homepage: ""
     topics:
       - dataset
       - machine-learning
       - natural-language-processing
       - question-answering
       - reasoning
-    last_checked_at: '2026-07-20T16:42:25.589Z'
+    last_checked_at: "2026-07-20T16:42:25.589Z"
     readme:
-      fetched_at: '2026-07-20T16:42:25.589Z'
+      fetched_at: "2026-07-20T16:42:25.589Z"
       bytes: 13675
 insights:
-  summary: >-
-    ThoughtSource is an open research framework providing standardized chain-of-thought reasoning datasets and
-    dataloaders for Hugging Face datasets.
-  why_it_matters: >-
-    It offers developers a centralized hub to access and benchmark how models reason through problems, rather than just
-    what answers they produce.
-  mental_damage: >-
-    Studying the anatomy of a thought process in such granular detail that you start to wonder if your own code reviews
-    are just poorly-formed reasoning chains.
+  summary: ThoughtSource is an open research framework providing standardized chain-of-thought reasoning datasets and dataloaders for Hugging Face datasets.
+  why_it_matters: It offers developers a centralized hub to access and benchmark how models reason through problems, rather than just what answers they produce.
+  mental_damage: Studying the anatomy of a thought process in such granular detail that you start to wonder if your own code reviews are just poorly-formed reasoning chains.
   tags:
     - chain-of-thought
     - reasoning
@@ -67,19 +57,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a research dataset and scientific toolkit for NLP/ML reasoning, lacking the developer-facing tooling
-    angle required for this catalog.
+  reason: The project is a research dataset and scientific toolkit for NLP/ML reasoning, lacking the developer-facing tooling angle required for this catalog.
   evidence:
-    - >-
-      Repo description identifies it as a 'central, open resource for data and tools related to chain-of-thought
-      reasoning', not a coding tool.
-    - >-
-      Topics include 'machine-learning' and 'natural-language-processing', anchoring it in ML research rather than
-      software engineering infrastructure.
-    - >-
-      README emphasizes 'science of machine thinking' and 'dataloaders' for Hugging Face, targeting researchers rather
-      than developers building apps.
+    - Repo description identifies it as a 'central, open resource for data and tools related to chain-of-thought reasoning', not a coding tool.
+    - Topics include 'machine-learning' and 'natural-language-processing', anchoring it in ML research rather than software engineering infrastructure.
+    - README emphasizes 'science of machine thinking' and 'dataloaders' for Hugging Face, targeting researchers rather than developers building apps.
 placement:
   primary_category: null
   section: null
@@ -89,21 +71,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.640Z'
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:25.589Z'
+    updated_at: "2026-07-20T16:42:25.589Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aiops-tools__k8s-aiops__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-14T04:13:20.171Z'
+      discovered_at: "2026-09-14T04:13:20.171Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: AIops-tools/K8s-AIops
         extracted_url: https://github.com/aiops-tools/k8s-aiops
-        surrounding_text: >-
-          - [AIops-tools/K8s-AIops](https://github.com/AIops-tools/K8s-AIops) [![AIops-tools/K8s-AIops MCP
-          server](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops)
-          🐍 🏠 - Governed Kubernetes operations (k3s/EKS/GKE/AKS) — workloads, batch jobs, config, storage, networking,
-          and rollout management (55 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, dry-run,
-          and undo/rollback.
+        surrounding_text: "- [AIops-tools/K8s-AIops](https://github.com/AIops-tools/K8s-AIops) [![AIops-tools/K8s-AIops MCP server](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops) 🐍 🏠 - Governed Kubernetes operations (k3s/EKS/GKE/AKS) — workloads, batch jobs, config, storage, networking, and rollout management (55 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, dry-run, and undo/rollback."
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: false
     full_name: AIops-tools/K8s-AIops
     html_url: https://github.com/AIops-tools/K8s-AIops
-    created_at: '2026-06-22T06:49:53Z'
-    pushed_at: '2026-09-16T12:53:38Z'
+    created_at: "2026-06-22T06:49:53Z"
+    pushed_at: "2026-09-16T12:53:38Z"
     description: Standalone governed Kubernetes ops — 15 MCP tools with built-in audit/budget/undo/risk-tier harness
     homepage: null
     topics:
@@ -46,20 +41,14 @@ metadata:
       - k3s
       - kubernetes
       - mcp
-    last_checked_at: '2026-09-21T04:13:41.875Z'
+    last_checked_at: "2026-09-21T04:13:41.875Z"
     readme:
-      fetched_at: '2026-09-21T04:13:41.875Z'
+      fetched_at: "2026-09-21T04:13:41.875Z"
       bytes: 7661
 insights:
-  summary: >-
-    A suite of MCP tools for governed Kubernetes operations, featuring built-in auditing, risk-tiering, and runaway
-    budget protections.
-  why_it_matters: >-
-    It allows AI agents to manage Kubernetes clusters with a safety layer of auditing and 'undo' capabilities to
-    mitigate the risks of autonomous infrastructure changes.
-  mental_damage: >-
-    Because nothing says 'stable production environment' like giving an LLM a direct line to your kubeconfig and a 'hope
-    I can undo that' button.
+  summary: A suite of MCP tools for governed Kubernetes operations, featuring built-in auditing, risk-tiering, and runaway budget protections.
+  why_it_matters: It allows AI agents to manage Kubernetes clusters with a safety layer of auditing and 'undo' capabilities to mitigate the risks of autonomous infrastructure changes.
+  mental_damage: Because nothing says 'stable production environment' like giving an LLM a direct line to your kubeconfig and a 'hope I can undo that' button.
   tags:
     - kubernetes
     - mcp
@@ -82,17 +71,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-14T04:13:20.172Z'
+    updated_at: "2026-09-14T04:13:20.172Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:41.875Z'
+    updated_at: "2026-09-21T04:13:41.875Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -103,9 +92,7 @@ processing:
       input_hash: sha256:85b25670dcd705b769190ad903330739b2c6dfcd82d67c89944f6d2b7f8f30cb
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The tool acts as a domain-specific MCP server that provides agents with functional, governed capabilities for
-        Kubernetes cluster management.
+      decision_reason: The tool acts as a domain-specific MCP server that provides agents with functional, governed capabilities for Kubernetes cluster management.
       decision_evidence:
         - Provides a suite of MCP tools wrapped in a '@governed_tool' harness for auditing and risk management
         - Designed to be used as a standalone MCP server with clients like Claude Code or OpenClaw
@@ -113,9 +100,7 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: >-
-        Choose mcp over skills because the project's primary identity is a specialized MCP server providing functional
-        infrastructure capabilities rather than just a pack of text-based rules or prompts.
+      contrastive_reason: Choose mcp over skills because the project's primary identity is a specialized MCP server providing functional infrastructure capabilities rather than just a pack of text-based rules or prompts.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

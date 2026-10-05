@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__a596480606__monitor_token__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Monitor Token
         extracted_url: https://github.com/a596480606/monitor_token
-        surrounding_text: >-
-          - **[Monitor Token](https://github.com/a596480606/monitor_token)** – Open-source Windows/macOS desktop widget
-          for local Codex token usage, daily/weekly/monthly breakdowns, and weekly quota reset tracking.
+        surrounding_text: "- **[Monitor Token](https://github.com/a596480606/monitor_token)** – Open-source Windows/macOS desktop widget for local Codex token usage, daily/weekly/monthly breakdowns, and weekly quota reset tracking."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: a596480606/monitor_token
     html_url: https://github.com/a596480606/monitor_token
-    created_at: '2026-08-11T04:38:17Z'
-    pushed_at: '2026-08-11T08:49:16Z'
-    description: >-
-      Lightweight Codex token monitor for Windows and macOS: local usage stats, weekly quota, reset time, and compact
-      desktop widgets.
+    created_at: "2026-08-11T04:38:17Z"
+    pushed_at: "2026-08-11T08:49:16Z"
+    description: "Lightweight Codex token monitor for Windows and macOS: local usage stats, weekly quota, reset time, and compact desktop widgets."
     homepage: https://github.com/a596480606/monitor_token/releases/latest
     topics:
       - codex
@@ -48,14 +44,12 @@ metadata:
       - token-monitor
       - usage-monitor
       - windows
-    last_checked_at: '2026-09-29T13:08:20.552Z'
+    last_checked_at: "2026-09-29T13:08:20.552Z"
     readme:
-      fetched_at: '2026-09-29T13:08:20.552Z'
+      fetched_at: "2026-09-29T13:08:20.552Z"
       bytes: 4985
 insights:
-  summary: >-
-    Lightweight Codex token monitor for Windows and macOS: local usage stats, weekly quota, reset time, and compact
-    desktop widgets.
+  summary: "Lightweight Codex token monitor for Windows and macOS: local usage stats, weekly quota, reset time, and compact desktop widgets."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -76,15 +70,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:20.552Z'
+    updated_at: "2026-09-29T13:08:20.552Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:11:25.855Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__a596480606__monitor_token: Invalid AI response structure: Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates"
+    next_retry_at: null
+    attempts: 1

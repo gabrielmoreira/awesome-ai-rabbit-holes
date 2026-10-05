@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jdf-prog__llm-engines__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,10 +19,7 @@ provenance:
           - 推理 Inference
         anchor_text: LLM-Engines
         extracted_url: https://github.com/jdf-prog/llm-engines
-        surrounding_text: >-
-          34. [LLM-Engines](https://github.com/jdf-prog/LLM-Engines): A unified inference engine for large language
-          models (LLMs) including open-source models (VLLM, SGLang, Together) and commercial models (OpenAI, Mistral,
-          Claude).
+        surrounding_text: "34. [LLM-Engines](https://github.com/jdf-prog/LLM-Engines): A unified inference engine for large language models (LLMs) including open-source models (VLLM, SGLang, Together) and commercial models (OpenAI, Mistral, Claude)."
         confidence: high
 metadata:
   github:
@@ -32,21 +29,19 @@ metadata:
     archived: false
     full_name: jdf-prog/LLM-Engines
     html_url: https://github.com/jdf-prog/LLM-Engines
-    created_at: '2024-07-09T06:36:20Z'
-    pushed_at: '2025-06-07T03:11:52Z'
+    created_at: "2024-07-09T06:36:20Z"
+    pushed_at: "2025-06-07T03:11:52Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-07-30T05:05:49.359Z'
+    last_checked_at: "2026-07-30T05:05:49.359Z"
     readme:
-      fetched_at: '2026-07-30T05:05:49.359Z'
+      fetched_at: "2026-07-30T05:05:49.359Z"
       bytes: 18751
 insights:
   summary: A repository for running and managing large language model inference engines locally.
   why_it_matters: It provides developers with a way to self-host and control LLM inference workflows on their own hardware.
-  mental_damage: >-
-    Because nothing says 'local control' like spending a weekend tuning your own inference stack instead of shipping
-    features.
+  mental_damage: Because nothing says 'local control' like spending a weekend tuning your own inference stack instead of shipping features.
   tags:
     - local-ai
     - inference
@@ -64,21 +59,21 @@ placement:
   section: Inference Engines
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''local-ai'''
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'local-ai'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.622Z'
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:49.359Z'
+    updated_at: "2026-07-30T05:05:49.359Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,18 +88,14 @@ processing:
       input_hash: sha256:22a785c56a3f20ebdcb5544d4d5ef594ce65b3e2cc77903e0e1f73b6c225c966
       proposed_primary_category: local-ai
       disagreement: true
-      decision_reason: >-
-        The project's core identity is enabling local LLM inference, which aligns with the Local AI category's focus on
-        self-hosted execution.
+      decision_reason: The project's core identity is enabling local LLM inference, which aligns with the Local AI category's focus on self-hosted execution.
       decision_evidence:
-        - 'Repo is actively maintained (pushed_at: 2025-06-07)'
+        - "Repo is actively maintained (pushed_at: 2025-06-07)"
         - Source-list context places it under 'Inference' in a curated LLM resources list
         - No archived flag, MIT license, and 50 stars indicate traction
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because the primary value is local execution rather than a code-first SDK or
-        library.
-      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''local-ai'''
+      contrastive_reason: Choose local-ai over ai-frameworks because the primary value is local execution rather than a code-first SDK or library.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'local-ai'"
       review_resume_lifecycle: null

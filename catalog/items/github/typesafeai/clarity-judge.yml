@@ -6,8 +6,24 @@ identity:
   github_repo: typesafeai/clarity-judge
 provenance:
   discoveries:
+    - id: discovery__github__bunsdev__clarity-judge__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Demos & playgrounds (65)
+        anchor_text: clarity-judge
+        extracted_url: https://github.com/bunsdev/clarity-judge
+        surrounding_text: "| [clarity-judge](https://github.com/BunsDev/clarity-judge) | ★ 2 | TypeScript | 2026-09-19 | Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence. |"
+        confidence: high
     - id: discovery__github__typesafeai__clarity-judge__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,57 +35,62 @@ provenance:
           - Demos & playgrounds
         anchor_text: clarity-judge
         extracted_url: https://github.com/typesafeai/clarity-judge
-        surrounding_text: >-
-          - [clarity-judge](https://github.com/TypeSafeAI/clarity-judge) ([site](https://judge.jev.works)) - Multi-axis
-          writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict
-          and confidence.
+        surrounding_text: "- [clarity-judge](https://github.com/TypeSafeAI/clarity-judge) ([site](https://judge.jev.works)) - Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence."
         confidence: high
 metadata:
   github:
     stars: 2
-    forks: null
+    forks: 1
     license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    full_name: TypeSafeAI/clarity-judge
+    html_url: https://github.com/TypeSafeAI/clarity-judge
+    created_at: "2026-09-16T23:47:41Z"
+    pushed_at: "2026-09-26T18:40:54Z"
+    description: Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence.
+    homepage: https://judge.jev.works
+    topics:
+      - jev
+      - nextjs
+      - typesafe
+      - typescript
+      - writing
+    last_checked_at: "2026-09-29T13:09:38.850Z"
+    readme:
+      fetched_at: "2026-09-29T13:09:38.850Z"
+      bytes: 18187
 insights:
-  summary: >-
-    clarity-judge (site) - Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks,
-    each with its own verdict and confidence.
+  summary: Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
+    - jev-latest choice confidence 0.83
+    - "included: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety"
     - jev-latest choice confidence 0.71
+    - "included: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers"
 placement:
-  primary_category: decision-models
-  secondary_categories: []
-  section: Cloud Gateways & Providers
+  primary_category: null
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
-    cause: null
-    next_retry_at: null
-  stars:
-    status: pending
-    updated_at: null
-    cause: null
   categorize:
     status: pending
     updated_at: null
     cause: null
+  discover:
+    status: done
+    updated_at: "2026-09-29T13:07:10.481Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-29T13:09:38.850Z"
+    cause: null
+    next_retry_at: null

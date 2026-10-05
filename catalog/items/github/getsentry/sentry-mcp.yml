@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getsentry__sentry-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,10 @@ provenance:
           - Official Servers
         anchor_text: Sentry
         extracted_url: https://github.com/getsentry/sentry-mcp
-        surrounding_text: '- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io).'
+        surrounding_text: "- **[Sentry](https://github.com/getsentry/sentry-mcp)** - Official MCP server for [Sentry](https://sentry.io)."
         confidence: high
     - id: discovery__github__getsentry__sentry-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-28T04:13:54.113Z'
+      discovered_at: "2026-09-28T04:13:54.113Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,10 +35,7 @@ provenance:
           - 📊 Monitoring
         anchor_text: getsentry/sentry-mcp
         extracted_url: https://github.com/getsentry/sentry-mcp
-        surrounding_text: >-
-          -   **[getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/getsentry/sentry-mcp?style=social)](https://github.com/getsentry/sentry-mcp):
-          Official Sentry MCP server for querying issues, errors, and projects in Sentry.
+        surrounding_text: "-   **[getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp)** [![GitHub stars](https://img.shields.io/github/stars/getsentry/sentry-mcp?style=social)](https://github.com/getsentry/sentry-mcp): Official Sentry MCP server for querying issues, errors, and projects in Sentry."
         confidence: high
 metadata:
   github:
@@ -48,27 +45,21 @@ metadata:
     archived: false
     full_name: getsentry/sentry-mcp
     html_url: https://github.com/getsentry/sentry-mcp
-    created_at: '2025-03-29T22:23:13Z'
-    pushed_at: '2026-09-02T22:41:28Z'
+    created_at: "2025-03-29T22:23:13Z"
+    pushed_at: "2026-09-02T22:41:28Z"
     description: An MCP server for interacting with Sentry via LLMs.
     homepage: https://mcp.sentry.dev
     topics:
       - mcp-server
       - tag-production
-    last_checked_at: '2026-09-03T05:16:49.242Z'
+    last_checked_at: "2026-09-03T05:16:49.242Z"
     readme:
-      fetched_at: '2026-09-03T05:16:49.242Z'
+      fetched_at: "2026-09-03T05:16:49.242Z"
       bytes: 10052
 insights:
-  summary: >-
-    An MCP server that provides Sentry debugging and observability tools to coding assistants via the Model Context
-    Protocol.
-  why_it_matters: >-
-    It lets AI coding agents query Sentry errors, traces, and performance data using natural language, reducing
-    context-switching during debugging workflows.
-  mental_damage: >-
-    Another tool promising to eliminate the need to open Sentry manually, while adding yet another dependency chain
-    between your agent and your error logs.
+  summary: An MCP server that provides Sentry debugging and observability tools to coding assistants via the Model Context Protocol.
+  why_it_matters: It lets AI coding agents query Sentry errors, traces, and performance data using natural language, reducing context-switching during debugging workflows.
+  mental_damage: Another tool promising to eliminate the need to open Sentry manually, while adding yet another dependency chain between your agent and your error logs.
   tags:
     - mcp
     - sentry
@@ -89,17 +80,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-28T04:13:54.115Z'
+    updated_at: "2026-09-28T04:13:54.115Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:49.242Z'
+    updated_at: "2026-09-03T05:16:49.242Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -114,20 +105,14 @@ processing:
       input_hash: sha256:f4dfc1227bdc9231700c1e031854fb4e82747d63f37f9649a03ed52988ca88af
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product is an MCP server whose core identity is providing Sentry-specific tooling through the Model Context
-        Protocol, making it a domain-specific MCP server rather than a coding assistant or extension.
+      decision_reason: The product is an MCP server whose core identity is providing Sentry-specific tooling through the Model Context Protocol, making it a domain-specific MCP server rather than a coding assistant or extension.
       decision_evidence:
-        - 'Repo description: ''An MCP server for interacting with Sentry via LLMs.'''
-        - >-
-          README: 'This remote MCP server acts as middleware to the upstream Sentry API, optimized for coding assistants
-          like Cursor, Claude Code, and similar development tools.'
-        - 'Source-list context: Listed in ''awesome-mcp-servers'' under ''Official Servers'' section.'
+        - "Repo description: 'An MCP server for interacting with Sentry via LLMs.'"
+        - "README: 'This remote MCP server acts as middleware to the upstream Sentry API, optimized for coding assistants like Cursor, Claude Code, and similar development tools.'"
+        - "Source-list context: Listed in 'awesome-mcp-servers' under 'Official Servers' section."
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product is an MCP server providing protocol-native tooling, not
-        primarily an integration layer augmenting another assistant with host capabilities.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing protocol-native tooling, not primarily an integration layer augmenting another assistant with host capabilities.
       review_reason: null
       review_resume_lifecycle: null

@@ -5,9 +5,8 @@ canonical_url: https://visualstudio.microsoft.com/services/intellicode
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__visualstudio__microsoft__com__services__intellicode__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__visualstudio__microsoft__com__services__intellicode__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +18,7 @@ provenance:
           - Code Completion
         anchor_text: Visual Studio IntelliCode
         extracted_url: https://visualstudio.microsoft.com/services/intellicode
-        surrounding_text: >-
-          - **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** – Microsoft's AI
-          code completion for Visual Studio.
+        surrounding_text: "- **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** – Microsoft's AI code completion for Visual Studio."
         confidence: high
 metadata:
   github:
@@ -39,21 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Visual Studio IntelliCode provides AI-assisted code completion and automation features for developers using Visual
-    Studio and Visual Studio Code.
-  why_it_matters: >-
-    It reduces repetitive coding tasks by offering context-aware suggestions that improve accuracy and save time during
-    development.
-  mental_damage: >-
-    It creates workflow anxiety by promising whole-line completions that may misinterpret context, forcing developers to
-    constantly validate AI suggestions against their intent.
+  summary: Visual Studio IntelliCode is an AI-powered code completion tool for Visual Studio and Visual Studio Code that suggests whole-line completions and refactoring actions.
+  why_it_matters: It reduces repetitive typing and helps maintain code consistency by suggesting context-aware completions based on open-source patterns.
+  mental_damage: Another reminder that even your IDE now has opinions on your variable names, and you’ll start questioning if you wrote that line or the AI did.
   tags:
-    - ai-dev-extensions
     - code-completion
+    - ai-assisted
     - visual-studio
-    - visual-studio-code
-  confidence: medium
+    - vs-code
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
@@ -65,13 +56,11 @@ placement:
   section: IDE & Editor Add-ons
 lifecycle:
   status: needs_review
-  reason: >-
-    Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained
-    'extensions-and-addons', proposed 'coding-agents'
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,36 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:05.465Z'
+    updated_at: "2026-10-05T04:57:05.576Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:494ac717f7c5122098be09ac11729ea72f81ba1e84fc36e08c5d02ba31d50cf6
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2f4d9200a7c46fef13590c4c33b207fa393ef296d5db1abfebc78dd60c78cc4a
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        IntelliCode operates as an autonomous coding agent that directly assists in writing and editing code within
-        IDEs, fitting the coding-agents category rather than being a mere extension.
+      decision_reason: IntelliCode is an extension that enhances IDEs with AI-assisted code completion and refactoring, not a standalone coding agent or app builder.
       decision_evidence:
-        - >-
-          Visual Studio IntelliCode is described as 'an experimental set of AI-assisted development capabilities for
-          next-generation developer productivity'
-        - >-
-          It provides whole-line autocompletions and refactoring assistance directly within Visual Studio and Visual
-          Studio Code environments
+        - "Repo description: Visual Studio IntelliCode is an experimental set of AI-assisted development capabilities for next-generation developer productivity."
+        - "Scraped site context: Provides whole-line autocompletions, repetitive edit detection, and quick actions like Generate Constructor within Visual Studio and VS Code."
+        - "Source-list context: Listed in awesome-ai-coding-tools under Code Completion section as an AI-assisted development capability."
       category_candidates:
-        - coding-agents
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because IntelliCode acts as the primary coding assistant within the
-        IDE rather than merely augmenting another tool's workflow.
-      review_reason: >-
-        Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement:
-        retained 'extensions-and-addons', proposed 'coding-agents'
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because IntelliCode augments existing IDEs with completion and refactoring features rather than acting as an autonomous coding agent that edits files or runs commands independently.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
       review_resume_lifecycle: null

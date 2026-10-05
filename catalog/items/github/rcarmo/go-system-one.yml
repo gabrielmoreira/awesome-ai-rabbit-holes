@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rcarmo__go-system-one__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,7 +19,7 @@ provenance:
           - Applications
         anchor_text: go-system-one
         extracted_url: https://github.com/rcarmo/go-system-one
-        surrounding_text: '- [go-system-one](https://github.com/rcarmo/go-system-one) - When a gopher met Jev.'
+        surrounding_text: "- [go-system-one](https://github.com/rcarmo/go-system-one) - When a gopher met Jev."
         confidence: high
 metadata:
   github:
@@ -58,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

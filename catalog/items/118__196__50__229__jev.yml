@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__118__196__50__229__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://118.196.50.229/jev
-        surrounding_text: >-
-          - [jev-demo](https://github.com/PenglongHuang/jev-demo) ([site](http://118.196.50.229/jev/)) - TypeSafe
-          Jev（System One 决策模型）零依赖网页体验台：浏览器操作 / 意图识别 / Agent 上下文裁剪三大预设场景，发送状态与类型化问题，拿到带校准概率的结构化答案.
+        surrounding_text: "- [jev-demo](https://github.com/PenglongHuang/jev-demo) ([site](http://118.196.50.229/jev/)) - TypeSafe Jev（System One 决策模型）零依赖网页体验台：浏览器操作 / 意图识别 / Agent 上下文裁剪三大预设场景，发送状态与类型化问题，拿到带校准概率的结构化答案."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-demo (site) - TypeSafe Jev（System One 决策模型）零依赖网页体验台：浏览器操作 / 意图识别 / Agent 上下文裁剪三大预设场景，发送状态与类型化问题，拿到带校准概率的结构化答案.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a decision model from TypeSafe AI's System One that answers typed questions with probabilities.
+  why_it_matters: It provides a typed-decision surface for routing, scoring, and guardrails in AI workflows where probabilistic judgments are needed over free-text generation.
+  mental_damage: Another model to add to the stack, just when you were starting to trust the one you already picked.
+  tags:
+    - decision-model
+    - typed-questions
+    - ai-judgment
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: Jev is the canonical decision model (TypeSafe System One) that returns probabilistic answers to typed questions, fitting the decision-models category's core identity.
   evidence:
-    - jev-latest choice confidence 0.87
+    - Seen in source lists as the foundation of the 'awesome-jev' directory under Demos & playgrounds
+    - Repo URL points to a TypeSafe AI host serving Jev as a System One model
+    - Decision models category lists Jev (TypeSafe System One) as a canonical positive
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:46.588Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1fbbef2075b816082566f13d15d941782a0e2563785b51a1e740b8b1012d0dd5
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is the canonical decision model (TypeSafe System One) that returns probabilistic answers to typed questions, fitting the decision-models category's core identity.
+      decision_evidence:
+        - Seen in source lists as the foundation of the 'awesome-jev' directory under Demos & playgrounds
+        - Repo URL points to a TypeSafe AI host serving Jev as a System One model
+        - Decision models category lists Jev (TypeSafe System One) as a canonical positive
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's identity is a typed-decision model returning probabilities, not an agent that writes or edits code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

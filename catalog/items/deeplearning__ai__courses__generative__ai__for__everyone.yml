@@ -1,13 +1,12 @@
 id: deeplearning__ai__courses__generative__ai__for__everyone
 kind: website
-name: '吴恩达: Generative AI for Everyone'
+name: "吴恩达: Generative AI for Everyone"
 canonical_url: https://deeplearning.ai/courses/generative-ai-for-everyone
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__deeplearning__ai__courses__generative__ai__for__everyone__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+    - id: discovery__deeplearning__ai__courses__generative__ai__for__everyone__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,13 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '吴恩达: Generative AI for Everyone'
+        anchor_text: "吴恩达: Generative AI for Everyone"
         extracted_url: https://deeplearning.ai/courses/generative-ai-for-everyone
-        surrounding_text: '2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)'
+        surrounding_text: "2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)"
         confidence: high
-    - id: >-
-        discovery__www__deeplearning__ai__courses__generative__ai__for__everyone__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-12T15:06:19.300Z'
+    - id: discovery__www__deeplearning__ai__courses__generative__ai__for__everyone__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -33,9 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '吴恩达: Generative AI for Everyone'
+        anchor_text: "吴恩达: Generative AI for Everyone"
         extracted_url: https://www.deeplearning.ai/courses/generative-ai-for-everyone
-        surrounding_text: '2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)'
+        surrounding_text: "2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)"
         confidence: high
 metadata:
   github:
@@ -53,24 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An introductory educational course on generative AI fundamentals taught by Andrew Ng.
-  why_it_matters: >-
-    It provides a conceptual baseline for developers to understand the capabilities and limitations of generative AI
-    technologies.
-  mental_damage: The quiet panic of realizing you've been prompting blindly while missing the foundational theory.
+  summary: An educational course by Andrew Ng covering the fundamentals of generative AI.
+  why_it_matters: It provides a high-level conceptual foundation for understanding how generative AI works and its impact on various industries.
+  mental_damage: The crushing realization that you might need to actually learn the theory before you can start prompt engineering your way out of a technical debt crisis.
   tags:
-    - education
     - course
-    - foundations
+    - education
+    - generative-ai
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The entry is a specific educational course rather than a functional developer tool, agent, framework, or a curated
-    directory of resources.
+  reason: This is an educational course rather than a practical AI tool, agent, framework, or piece of developer infrastructure.
   evidence:
-    - The URL identifies the resource as a course hosted on the DeepLearning.AI platform.
-    - The name and source-list context classify it as a single instructional offering (课程) rather than a tool or list.
+    - The URL and context identify this as a deeplearning.ai course
+    - The product provides knowledge rather than a functional developer-facing tool or runtime
 placement:
   primary_category: null
   section: null
@@ -80,34 +74,30 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-21T04:16:16.275Z'
+    updated_at: "2026-10-05T04:21:30.078Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:34eb1dcc01c58616e85534afe5efa583247dd1271b750d7c9ff03f787e4c77fc
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:78b7c259ab710f38f14ad9c2435889549c63f304b4cc47c3467e3d3c7cf534f7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The entry is a specific educational course rather than a functional developer tool, agent, framework, or a
-        curated directory of resources.
+      decision_reason: This is an educational course rather than a practical AI tool, agent, framework, or piece of developer infrastructure.
       decision_evidence:
-        - The URL identifies the resource as a course hosted on the DeepLearning.AI platform.
-        - >-
-          The name and source-list context classify it as a single instructional offering (课程) rather than a tool or
-          list.
+        - The URL and context identify this as a deeplearning.ai course
+        - The product provides knowledge rather than a functional developer-facing tool or runtime
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

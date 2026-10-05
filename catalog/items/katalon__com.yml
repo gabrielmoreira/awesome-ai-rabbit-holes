@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__katalon__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Katalon Studio
         extracted_url: https://katalon.com
-        surrounding_text: '- **[Katalon Studio](https://katalon.com/)** – Comprehensive test automation with AI features.'
+        surrounding_text: "- **[Katalon Studio](https://katalon.com/)** – Comprehensive test automation with AI features."
         confidence: high
 metadata:
   github:
@@ -36,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Katalon True Platform is an AI-powered software quality platform for planning, authoring, executing, and analyzing
-    tests across web, mobile, API, and desktop applications.
-  why_it_matters: >-
-    It automates and scales test creation, execution, and analysis for QA teams, reducing manual effort and accelerating
-    release cycles.
-  mental_damage: >-
-    Finally, a platform that lets you offload the soul-crushing monotony of test case generation to AI agents—until you
-    realize you still have to review their work.
+  summary: Katalon True Platform is an AI-powered end-to-end testing platform for QA teams that supports test creation, execution, management, and production insights across web, mobile, API, and desktop applications.
+  why_it_matters: It reduces testing workload by using AI to generate test cases from requirements, self-heal locators, and analyze failures, helping QA teams keep pace with AI-accelerated development.
+  mental_damage: Another AI testing platform promising to close the gap between code velocity and test coverage — until the next model update breaks your healed locators again.
   tags:
     - testing
-    - ai-agents
-    - mcp
-    - qac
+    - qa
+    - ai-assisted
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The platform's core identity is a suite of specialized AI agents (Requirement Analyzer, Test Generation Agent, Bug
-    Reporter, Root Cause Analyzer) that autonomously handle the coding-adjacent workflow of testing and repair.
+  reason: "Katalon AI functions as a coding agent for test automation: it generates, edits, and repairs test code from natural language inputs, operates across IDE and CLI workflows, and integrates with MCP-enabled coding agents to drive testing tasks autonomously."
   evidence:
-    - Site describes 'a team of AI agents ready to work for you' including Test Generation and Root Cause Analyzer.
-    - Listed in awesome-ai-coding-tools under 'Testing and QA' section.
-    - Features an 'Autonomous Test Runner' that executes natural-language test cases without automation scripts.
-    - jev winnow:e4b 0.33 below gate 0.50; proposed out of scope; placement kept at coding-agents (unverified)
+    - Katalon AI generates test cases from requirements, Jira tickets, or prompts and explains failures in plain language
+    - AI self-healing automatically fixes broken locators when the application changes and invites user review
+    - "Bring your own coding agent: Katalon MCP lets tools like Copilot, Claude, Cursor, and Codex drive Katalon Studio directly via commands like katalon.run_suite()"
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: Review, Testing & Repair
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,40 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:30:46.530Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for katalon__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:35:25.944Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d3438e0cdcf38d18cca23cb16b1a79a65ef30c2b17d9f2d7be75504924baf039
-      proposed_primary_category: extensions-and-addons
-      disagreement: true
-      decision_reason: >-
-        The product is primarily a testing and QA platform that integrates AI agents into the workflow, augmenting
-        rather than replacing the primary development assistant.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2e1969792ee7dd9075f7e36dc9b25cf603fad2b5bb9965136213535fa2a9695f
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: "Katalon AI functions as a coding agent for test automation: it generates, edits, and repairs test code from natural language inputs, operates across IDE and CLI workflows, and integrates with MCP-enabled coding agents to drive testing tasks autonomously."
       decision_evidence:
-        - >-
-          Described as an AI platform for software quality, focusing on test planning, authoring, execution, and
-          analysis
-        - Source-list context places it under 'Testing and QA' in awesome-ai-coding-tools
-        - >-
-          Core functionality revolves around AI agents for testing tasks (e.g., requirement analysis, test case
-          generation, bug reporting)
+        - Katalon AI generates test cases from requirements, Jira tickets, or prompts and explains failures in plain language
+        - AI self-healing automatically fixes broken locators when the application changes and invites user review
+        - "Bring your own coding agent: Katalon MCP lets tools like Copilot, Claude, Cursor, and Codex drive Katalon Studio directly via commands like katalon.run_suite()"
       category_candidates:
-        - ai-dev-extensions
-        - app-builders
-      contrastive_reason: >-
-        Choose ai-dev-extensions over app-builders because the product's primary identity is a testing/QA platform with
-        AI agents, not a prompt-to-app builder.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Katalon AI’s core identity is performing coding tasks (test script generation, editing, healing) autonomously via natural language and MCP, not merely extending another agent’s capabilities.
+      review_reason: null
       review_resume_lifecycle: null

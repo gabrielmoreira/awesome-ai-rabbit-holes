@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesomeagents__substack__com__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,10 +18,7 @@ provenance:
           - README
         anchor_text: Subscribe to the newsletter
         extracted_url: https://awesomelangchain.substack.com
-        surrounding_text: >-
-          **[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome
-          LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed
-          our attention
+        surrounding_text: "**[Subscribe to the newsletter](https://awesomelangchain.substack.com/)** to stay informed about the Awesome LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed our attention"
         confidence: high
 metadata:
   github:
@@ -39,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack newsletter dedicated to tracking and analyzing the emerging landscape of AI agents.
-  why_it_matters: >-
-    It provides a curated feed of updates and insights to help developers navigate the rapidly shifting agentic
-    ecosystem.
-  mental_damage: Another subscription to manage in a world where the agentic frontier moves faster than your ability to unread it.
+  summary: awesomeagents.substack.com is a Substack newsletter that curates and publishes content about AI agents for developers.
+  why_it_matters: It helps developers stay informed about emerging AI agent tools, patterns, and ecosystem shifts through regular written updates.
+  mental_damage: Subscribing means adding another AI agent newsletter to your inbox, promising clarity while contributing to the very overload it claims to solve.
   tags:
     - newsletter
-    - curated
     - ai-agents
+    - curated
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Publications & Feeds
+  reason: The Substack functions as a curated publication focused on AI agents, matching the awesome-awesomes category's purpose of helping developers discover and stay current with AI development via newsletters and feeds.
   evidence:
-    - jev-latest choice confidence 0.95
+    - The source is a Substack newsletter (awesomeagents.substack.com) focused on AI agents
+    - Its primary job is helping developers discover, navigate, or assess the AI ecosystem through recurring publication
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -64,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,33 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:42.877Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for awesomeagents__substack__com: Invalid AI response structure: Included
-        responses must rank primary_category first in category_candidates
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:50.609Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:359b5984d58248f8dd641f8e065d61bdd04bae983e8ca14759445adaca8dd5a4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:75329c85eb31b7a0d42e151b3a3db7dc66815a9e913aa18fe85a91f896c0c5ee
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The Substack functions as a curated publication focused on AI agents and developer tools, aligning with the catalog's inclusion of newsletters and feeds as discovery resources.
+      decision_reason: The Substack functions as a curated publication focused on AI agents, matching the awesome-awesomes category's purpose of helping developers discover and stay current with AI development via newsletters and feeds.
       decision_evidence:
-        - The source is a Substack newsletter (awesomeagents.substack.com) dedicated to AI agents.
-        - Newsletters and recurring publications covering AI development topics are explicitly included in the awesome-awesomes category under Publications & Feeds.
-        - It serves as a discovery tool for developers navigating the AI agent ecosystem, not as a standalone tool or framework.
+        - The source is a Substack newsletter (awesomeagents.substack.com) focused on AI agents
+        - Its primary job is helping developers discover, navigate, or assess the AI ecosystem through recurring publication
       category_candidates:
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose newsletters-and-feeds over awesome-awesomes because the primary value is recurring commentary and updates
-        via a newsletter rather than a static directory or map.
+        - coding-agents
+      contrastive_reason: Choose awesome-awesomes over coding-agents because the project is a curated newsletter/publication, not a tool that performs coding tasks autonomously or interactively.
       review_reason: null
       review_resume_lifecycle: null

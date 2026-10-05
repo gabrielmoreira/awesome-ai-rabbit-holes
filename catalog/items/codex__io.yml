@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codex__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,10 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Codex API
         extracted_url: https://codex.io
-        surrounding_text: >-
-          - [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex
-          API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks
+        surrounding_text: "- [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks"
         confidence: high
     - id: discovery__www__codex__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -37,9 +35,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Codex API
         extracted_url: https://www.codex.io
-        surrounding_text: >-
-          - [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex
-          API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks
+        surrounding_text: "- [codex-data/codex-mcp](https://github.com/Codex-Data/codex-mcp) 🎖️ 📇 ☁️ - [Codex API](https://www.codex.io) integration for real-time enriched blockchain and market data on 60+ networks"
         confidence: high
 metadata:
   github:
@@ -57,30 +53,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codex API provides real-time blockchain data and analytics for tokens and prediction markets across 80+ networks.
-  why_it_matters: >-
-    It saves developers time by offering enriched, ready-to-use on-chain data instead of requiring them to maintain
-    custom indexing infrastructure.
-  mental_damage: >-
-    Yet another specialized API promising to be the 'single source of truth' while developers juggle five different
-    providers just to get basic token prices.
+  summary: Codex API provides real-time enriched blockchain token and prediction market data across 80+ networks for developers to integrate into applications.
+  why_it_matters: It saves developers from building and maintaining complex blockchain data pipelines by offering a single API for token prices, charts, holders, and prediction markets.
+  mental_damage: Yet another 'fastest and most reliable' blockchain API promising to save you time while adding yet another vendor dependency to your stack.
   tags:
     - blockchain
-    - data-api
+    - api
+    - data
+    - crypto
     - defi
-    - token-analytics
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Codex API is a blockchain data infrastructure service with no AI agent, tooling, or developer workflow augmentation
-    features relevant to the catalog's scope.
+  reason: Codex API is a blockchain data infrastructure service with no AI agent, framework, or developer tooling identity; it serves traders and analysts, not software developers building AI-powered applications.
   evidence:
-    - >-
-      Scraped site context describes real-time token pricing, charts, holders, and prediction market data for 70M+
-      tokens across 80+ networks
-    - No mention of AI agents, coding assistance, model integration, or developer tooling beyond general API usage
-    - Primary identity is blockchain data indexing and enrichment, not AI-powered software development infrastructure
+    - "Scraped site context: 'The Codex API offers real-time, enriched blockchain data for 70 million+ tokens on 80+ networks' and 'Powering data for the top apps' with use cases like TradingView, Sudoswap, and DEX trading."
+    - No evidence of AI agent behavior, coding assistance, prompt-to-app generation, memory systems, or developer workflow enhancement in the provided inputs.
+    - Product identity is blockchain data API, not an AI tool for developers; it lacks any mention of LLMs, agents, prompts, or AI-enhanced development features.
 placement:
   primary_category: null
   section: null
@@ -90,37 +79,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:17.844Z'
+    updated_at: "2026-10-05T04:47:09.357Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:26dde58b12b546bc3a8fa0f38998ef9e7b245520525fd04270809d79307d7531
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3f774dc67dbc1df8c0b1951dbc0713bdbcc7dc65f404746c68222b5e9e3a7c1f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Codex API is a blockchain data infrastructure service with no AI agent, tooling, or developer workflow
-        augmentation features relevant to the catalog's scope.
+      decision_reason: Codex API is a blockchain data infrastructure service with no AI agent, framework, or developer tooling identity; it serves traders and analysts, not software developers building AI-powered applications.
       decision_evidence:
-        - >-
-          Scraped site context describes real-time token pricing, charts, holders, and prediction market data for 70M+
-          tokens across 80+ networks
-        - No mention of AI agents, coding assistance, model integration, or developer tooling beyond general API usage
-        - >-
-          Primary identity is blockchain data indexing and enrichment, not AI-powered software development
-          infrastructure
+        - "Scraped site context: 'The Codex API offers real-time, enriched blockchain data for 70 million+ tokens on 80+ networks' and 'Powering data for the top apps' with use cases like TradingView, Sudoswap, and DEX trading."
+        - No evidence of AI agent behavior, coding assistance, prompt-to-app generation, memory systems, or developer workflow enhancement in the provided inputs.
+        - Product identity is blockchain data API, not an AI tool for developers; it lacks any mention of LLMs, agents, prompts, or AI-enhanced development features.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

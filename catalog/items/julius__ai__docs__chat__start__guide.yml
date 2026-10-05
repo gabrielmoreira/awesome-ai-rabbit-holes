@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__julius__ai__docs__chat__start__guide__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Description
         anchor_text: Docs
         extracted_url: https://julius.ai/docs/chat-start-guide
-        surrounding_text: '- [Docs](https://julius.ai/docs/chat-start-guide)'
+        surrounding_text: "- [Docs](https://julius.ai/docs/chat-start-guide)"
         confidence: high
 metadata:
   github:
@@ -37,22 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation page describing how to start chatting with Julius AI's data analysis assistant.
-  why_it_matters: Helps developers understand how to initiate conversations with Julius AI for data-related tasks.
-  mental_damage: Another 'getting started' guide that treats basic chat as a revolutionary workflow requiring its own documentation.
+  summary: Julius AI's chat-start-guide documentation page for initiating conversations with their AI data analysis tool.
+  why_it_matters: Provides onboarding guidance for developers using Julius AI's natural language data analysis workflow.
+  mental_damage: Yet another 'getting started' page in an ecosystem where documentation is the only thing growing faster than the tools themselves.
   tags:
     - documentation
-    - getting-started
+    - ai-data-analysis
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is documentation for an AI chat service, not a developer tool or product that performs coding tasks, builds
-    apps, or provides AI infrastructure.
+  reason: This is a documentation page for a commercial AI tool, not a standalone developer-facing AI product or tool itself.
   evidence:
-    - 'URL is a documentation page: https://julius.ai/docs/chat-start-guide'
-    - Repo description is missing, indicating this is not a standalone tool repository
-    - Source-list context shows it appears only as a description section in awesome-ai-agents, not as a tool itself
+    - URL points to julius.ai/docs/chat-start-guide, indicating documentation rather than a tool repository
+    - Seen in source list as 'Julius > Description' within awesome-ai-agents, suggesting it's being referenced as descriptive content
+    - No repository metrics (stars, creation date, etc.) available, confirming this is not a GitHub-hosted tool project
 placement:
   primary_category: null
   section: null
@@ -62,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,26 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:27.500Z'
+    updated_at: "2026-10-05T04:35:05.787Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:315c3d5dfc73417f4fda5ee12aaaa817c6b46731ceee566a6ce8a1de0bfd1fdb
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d86a77ba35989300536b100ac6943b1a35bbc9f8530ca05c05b52e7f010013d1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is documentation for an AI chat service, not a developer tool or product that performs coding tasks, builds
-        apps, or provides AI infrastructure.
+      decision_reason: This is a documentation page for a commercial AI tool, not a standalone developer-facing AI product or tool itself.
       decision_evidence:
-        - 'URL is a documentation page: https://julius.ai/docs/chat-start-guide'
-        - Repo description is missing, indicating this is not a standalone tool repository
-        - Source-list context shows it appears only as a description section in awesome-ai-agents, not as a tool itself
+        - URL points to julius.ai/docs/chat-start-guide, indicating documentation rather than a tool repository
+        - Seen in source list as 'Julius > Description' within awesome-ai-agents, suggesting it's being referenced as descriptive content
+        - No repository metrics (stars, creation date, etc.) available, confirming this is not a GitHub-hosted tool project
       category_candidates: []
       contrastive_reason: null
       review_reason: null

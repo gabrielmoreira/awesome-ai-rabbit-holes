@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__stanford__cs324__github__io__winter2022__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '斯坦福 CS324: Large Language Models'
+        anchor_text: "斯坦福 CS324: Large Language Models"
         extracted_url: https://stanford-cs324.github.io/winter2022
-        surrounding_text: '11. [斯坦福 CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)'
+        surrounding_text: "11. [斯坦福 CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)"
         confidence: high
 metadata:
   github:
@@ -36,25 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Stanford CS324 is a graduate-level course on large language models covering modeling, training, scaling, ethics, and
-    hands-on projects.
-  why_it_matters: >-
-    It provides structured, in-depth education on LLMs with practical projects, helping developers build foundational
-    knowledge beyond surface-level tool usage.
-  mental_damage: Another reminder that understanding AI requires more than copying prompt engineering tutorials from Twitter.
+  summary: A Stanford course website teaching fundamentals of large language models, including modeling, theory, ethics, and hands-on projects.
+  why_it_matters: Provides structured, academic-level education on LLMs for developers seeking foundational knowledge beyond tutorials.
+  mental_damage: Another reminder that you’ll never catch up, even when the syllabus is public and the projects are doable in a weekend.
   tags:
-    - education
     - llm
     - course
+    - education
+    - stanford
+    - nlp
   confidence: high
 curation:
   status: excluded
-  reason: It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+  reason: This is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; it does not provide runtime, SDK, app generation, or coding assistance.
   evidence:
-    - 'Repo description: Understanding and developing large language models.'
-    - 'Scraped site context: Title ''Home'', description ''Understanding and developing large language models.'''
-    - 'Source-list context: Included in awesome-LLM-resources under section ''课程 Course'' (Course)'
+    - "Repo description: (none)"
+    - "Scraped site context: Title 'Home', Description 'Understanding and developing large language models' — clearly a course syllabus and lecture site"
+    - "Source-list context: Listed in 'awesome-LLM-resources' under section '课程 Course' as a educational resource, not a tool"
 placement:
   primary_category: null
   section: null
@@ -64,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,26 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:12.218Z'
+    updated_at: "2026-10-05T04:45:35.813Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:35663219f8e3f192ae5a099ca066361052a4d6c5d374cb085374c9f07f084145
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d3267df0dec5ddeaca570d9da86b68ec3d6341b5302b2211661ce40d836e8a75
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure
-        product.
+      decision_reason: This is an educational course resource, not a developer-facing AI tool, agent, workflow, or infrastructure product; it does not provide runtime, SDK, app generation, or coding assistance.
       decision_evidence:
-        - 'Repo description: Understanding and developing large language models.'
-        - 'Scraped site context: Title ''Home'', description ''Understanding and developing large language models.'''
-        - 'Source-list context: Included in awesome-LLM-resources under section ''课程 Course'' (Course)'
+        - "Repo description: (none)"
+        - "Scraped site context: Title 'Home', Description 'Understanding and developing large language models' — clearly a course syllabus and lecture site"
+        - "Source-list context: Listed in 'awesome-LLM-resources' under section '课程 Course' as a educational resource, not a tool"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

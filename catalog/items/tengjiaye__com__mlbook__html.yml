@@ -1,12 +1,12 @@
 id: tengjiaye__com__mlbook__html
 kind: website
-name: 'Theoretical Machine Learning: A Handbook for Everyone'
+name: "Theoretical Machine Learning: A Handbook for Everyone"
 canonical_url: https://tengjiaye.com/mlbook.html
 identity: {}
 provenance:
   discoveries:
     - id: discovery__tengjiaye__com__mlbook__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,12 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'Theoretical Machine Learning: A Handbook for Everyone'
+        anchor_text: "Theoretical Machine Learning: A Handbook for Everyone"
         extracted_url: https://tengjiaye.com/mlbook.html
-        surrounding_text: '37. [Theoretical Machine Learning: A Handbook for Everyone](https://www.tengjiaye.com/mlbook.html)'
+        surrounding_text: "37. [Theoretical Machine Learning: A Handbook for Everyone](https://www.tengjiaye.com/mlbook.html)"
         confidence: high
     - id: discovery__www__tengjiaye__com__mlbook__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -31,9 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'Theoretical Machine Learning: A Handbook for Everyone'
+        anchor_text: "Theoretical Machine Learning: A Handbook for Everyone"
         extracted_url: https://www.tengjiaye.com/mlbook.html
-        surrounding_text: '37. [Theoretical Machine Learning: A Handbook for Everyone](https://www.tengjiaye.com/mlbook.html)'
+        surrounding_text: "37. [Theoretical Machine Learning: A Handbook for Everyone](https://www.tengjiaye.com/mlbook.html)"
         confidence: high
 metadata:
   github:
@@ -51,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free online handbook covering theoretical machine learning topics.
-  why_it_matters: Provides educational material on ML theory for developers seeking foundational knowledge.
-  mental_damage: Another PDF in the infinite scroll of 'free resources' you'll download and never open.
+  summary: "Theoretical Machine Learning: A Handbook for Everyone is a free educational handbook on machine learning theory by Jiaye Teng."
+  why_it_matters: Provides developers with accessible foundational knowledge to understand and apply machine learning concepts in their work.
+  mental_damage: Another PDF promising to make you an ML expert while you struggle to remember how backprop actually works.
   tags:
     - education
     - machine-learning
-    - theory
+    - handbook
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource, not a developer-facing AI tool, agent, or infrastructure product.
+  reason: The resource is an educational handbook, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any product identity related to coding assistance, automation, or AI tooling for software development.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Scraped site context: Title: Jiaye Teng 滕佳烨, Description: (none), Primary page excerpt: '机器学习理论简明手册' (Theoretical
-      Machine Learning: A Handbook for Everyone)
-    - 'Source-list context: Seen in awesome-LLM-resources under section: 教程 Tutorial'
+    - Repo description is nonexistent; the project is a standalone handbook hosted at tengjiaye.com/mlbook.html
+    - "Scraped site context describes it as '机器学习理论简明手册' (Theoretical Machine Learning: A Handbook for Everyone) with downloadable PDF and video course in development"
+    - Source-list context shows it appears in 'awesome-LLM-resources' under '教程 Tutorial' as a learning resource, not a tool
 placement:
   primary_category: null
   section: null
@@ -77,33 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:37.895Z'
+    updated_at: "2026-10-05T04:55:26.909Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:882de64727fbb6226e454552a7415b34d5e014f1514bab49c9c21137d31c6303
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bf9a0d0c246b99a9d054dcd0bc1effb324cd012a8b3ef05e85e62b8afbe25a5b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is an educational resource, not a developer-facing AI tool, agent, or infrastructure product.
+      decision_reason: The resource is an educational handbook, not a developer-facing AI tool, agent, workflow, or infrastructure product; it lacks any product identity related to coding assistance, automation, or AI tooling for software development.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Scraped site context: Title: Jiaye Teng 滕佳烨, Description: (none), Primary page excerpt: '机器学习理论简明手册'
-          (Theoretical Machine Learning: A Handbook for Everyone)
-        - 'Source-list context: Seen in awesome-LLM-resources under section: 教程 Tutorial'
+        - Repo description is nonexistent; the project is a standalone handbook hosted at tengjiaye.com/mlbook.html
+        - "Scraped site context describes it as '机器学习理论简明手册' (Theoretical Machine Learning: A Handbook for Everyone) with downloadable PDF and video course in development"
+        - Source-list context shows it appears in 'awesome-LLM-resources' under '教程 Tutorial' as a learning resource, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__orbi-build__orbi__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,12 +20,7 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: Orbi
         extracted_url: https://github.com/orbi-build/orbi
-        surrounding_text: >-
-          - **[Orbi](https://github.com/orbi-build/orbi)** `⭐ 194` — Unattended loop from a labeled GitHub Issue to a
-          tagged release: claims the Issue, implements in an isolated worktree, then runs a second session with a fresh
-          context that reviews the frozen diff and can block the merge. The merge gate is bound to the reviewed commit,
-          so a later push cannot pass on an earlier verdict. Claude Code, Codex, and other CLI harnesses are
-          interchangeable engines. Docker or systemd. Fair-code.
+        surrounding_text: "- **[Orbi](https://github.com/orbi-build/orbi)** `⭐ 194` — Unattended loop from a labeled GitHub Issue to a tagged release: claims the Issue, implements in an isolated worktree, then runs a second session with a fresh context that reviews the frozen diff and can block the merge. The merge gate is bound to the reviewed commit, so a later push cannot pass on an earlier verdict. Claude Code, Codex, and other CLI harnesses are interchangeable engines. Docker or systemd. Fair-code."
         confidence: high
 metadata:
   github:
@@ -43,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Unattended loop from a labeled GitHub Issue to a tagged release: claims the Issue, implements in an isolated
-    worktree, then runs a second session with a fresh context that reviews the frozen diff and can block the merge. The
-    merge gate is bound to the reviewed commit, so a later push cannot pass on an earlier verdict. Claude Code, Codex,
-    and other CLI harnesses are interchangeable engines. Docker or systemd. Fair-code.
+  summary: "Unattended loop from a labeled GitHub Issue to a tagged release: claims the Issue, implements in an isolated worktree, then runs a second session with a fresh context that reviews the frozen diff and can block the merge. The merge gate is bound to the reviewed commit, so a later push cannot pass on an earlier verdict. Claude Code, Codex, and other CLI harnesses are interchangeable engines. Docker or systemd. Fair-code."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.471Z'
+    updated_at: "2026-09-29T13:07:10.471Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

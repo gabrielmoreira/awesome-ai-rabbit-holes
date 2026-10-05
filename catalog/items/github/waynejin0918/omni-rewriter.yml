@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__waynejin0918__omni-rewriter__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Domain-Specific Agents
         anchor_text: Omni-Rewriter
         extracted_url: https://github.com/waynejin0918/omni-rewriter
-        surrounding_text: >-
-          | [Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) | 89 | Python | Apache-2.0 | 2026-08 | Prompt
-          expansion for image and video generation |
+        surrounding_text: "| [Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) | 89 | Python | Apache-2.0 | 2026-08 | Prompt expansion for image and video generation |"
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Prompt Engineering & Management
   evidence:
     - jev-latest choice confidence 0.63
-    - >-
-      jev winnow:e4b 0.32 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at
-      memory-and-context (unverified)
+    - jev winnow:e4b 0.32 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.483Z'
+    updated_at: "2026-09-29T13:07:10.483Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

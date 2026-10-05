@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__iunera__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,13 +18,10 @@ provenance:
           - Community Servers
         anchor_text: iunera
         extracted_url: https://iunera.com
-        surrounding_text: >-
-          - **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid
-          by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and
-          analyzing Druid clusters.
+        surrounding_text: "- **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
         confidence: high
     - id: discovery__www__iunera__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +33,7 @@ provenance:
           - Community Servers
         anchor_text: iunera
         extracted_url: https://www.iunera.com
-        surrounding_text: >-
-          - **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid
-          by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and
-          analyzing Druid clusters.
+        surrounding_text: "- **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** - STDIO/SEE MCP Server for Apache Druid by [iunera](https://www.iunera.com) that provides extensive tools, resources, and prompts for managing and analyzing Druid clusters."
         confidence: high
 metadata:
   github:
@@ -57,11 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    iunera is a community-curated collection of Model Context Protocol (MCP) servers listed in the awesome-mcp-servers
-    directory.
-  why_it_matters: It helps developers discover MCP servers that enable AI agents to interact with external tools and data sources.
-  mental_damage: Another directory to scroll through while waiting for the perfect MCP server to materialize from the void.
+  summary: iunera is a website that aggregates and serves MCP servers, presented as a community resource within the awesome-mcp-servers list.
+  why_it_matters: It helps developers discover MCP servers that extend AI agent capabilities with tools and data sources.
+  mental_damage: Another directory to bookmark before realizing you still have to vet each server for reliability and security.
   tags:
     - mcp
     - directory
@@ -75,44 +67,40 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:00.676Z'
+    updated_at: "2026-10-05T04:48:33.041Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c3e3c4afeb25de99196fa9f8b6d36c2ec55483fafcda1622b2574d0cd056eb64
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dd0d0676d4a785c81ab3045b63546a8bb935d53e27d03de8ad9689160016d101
+      proposed_primary_category: mcp
       disagreement: true
-      decision_reason: >-
-        iunera is a curated directory of MCP servers, making it a navigation aid for developers exploring the MCP
-        ecosystem rather than a standalone tool or infrastructure.
+      decision_reason: iunera functions as an MCP server registry and discovery tool, with its primary identity tied to MCP infrastructure rather than being a coding agent, framework, or extension, and it is explicitly listed in awesome-mcp-servers under Community Servers.
       decision_evidence:
-        - Listed in awesome-mcp-servers under 'Community Servers' section
-        - URL iunera.com presents as a directory or list of MCP servers
-        - No indication of being a standalone product, agent, or framework
+        - Listed in awesome-mcp-servers under the 'Community Servers' section
+        - URL iunera.com presents itself as an MCP server aggregation point
+        - No evidence of being a coding agent, framework, or standalone tool beyond MCP server discovery
       category_candidates:
-        - awesome-awesomes
         - mcp
-      contrastive_reason: >-
-        Choose awesome-awesomes over mcp because iunera is a curated list/directory of MCP servers, not an MCP server,
-        client, registry, or infrastructure tool itself.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because iunera's core identity is serving as an MCP server registry and discovery tool, not a general curated list or directory of AI tools.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

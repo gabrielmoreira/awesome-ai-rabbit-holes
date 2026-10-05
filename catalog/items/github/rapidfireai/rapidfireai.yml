@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rapidfireai__rapidfireai__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Safety, Security & Evaluation
         anchor_text: RapidFire AI
         extracted_url: https://github.com/rapidfireai/rapidfireai
-        surrounding_text: >-
-          | [RapidFire AI](https://github.com/RapidFireAI/rapidfireai) | 170 | JavaScript | Apache-2.0 | 2026-09 |
-          Experiment harness for RAG and fine-tuning runs |
+        surrounding_text: "| [RapidFire AI](https://github.com/RapidFireAI/rapidfireai) | 170 | JavaScript | Apache-2.0 | 2026-09 | Experiment harness for RAG and fine-tuning runs |"
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
     - jev-latest choice confidence 0.50
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
-      evals (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at evals (unverified)
 placement:
   primary_category: evals
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

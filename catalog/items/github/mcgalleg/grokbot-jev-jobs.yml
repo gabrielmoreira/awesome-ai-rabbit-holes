@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcgalleg__grokbot-jev-jobs__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: grokbot-jev-jobs
         extracted_url: https://github.com/mcgalleg/grokbot-jev-jobs
-        surrounding_text: >-
-          - [grokbot-jev-jobs](https://github.com/mcgalleg/grokbot-jev-jobs)
-          ![stars](https://img.shields.io/github/stars/mcgalleg/grokbot-jev-jobs?style=flat-square&label=%E2%98%85) -
-          Job search: a daily Vercel cron that scores public job postings against one resume with Jev through the Vercel
-          AI Gateway, so only the plausible matches surface.
+        surrounding_text: "- [grokbot-jev-jobs](https://github.com/mcgalleg/grokbot-jev-jobs) ![stars](https://img.shields.io/github/stars/mcgalleg/grokbot-jev-jobs?style=flat-square&label=%E2%98%85) - Job search: a daily Vercel cron that scores public job postings against one resume with Jev through the Vercel AI Gateway, so only the plausible matches surface."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    grokbot-jev-jobs - Job search: a daily Vercel cron that scores public job postings against one resume with Jev
-    through the Vercel AI Gateway, so only the plausible matches surface.
+  summary: "grokbot-jev-jobs - Job search: a daily Vercel cron that scores public job postings against one resume with Jev through the Vercel AI Gateway, so only the plausible matches surface."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

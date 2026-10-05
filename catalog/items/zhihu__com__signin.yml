@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zhihu__com__signin__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: '知乎: 原石人类'
+        anchor_text: "知乎: 原石人类"
         extracted_url: https://zhihu.com/people/zhang-shi-tou-88-98/posts
-        surrounding_text: '13. [知乎: 原石人类](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)'
+        surrounding_text: "13. [知乎: 原石人类](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)"
         confidence: high
 metadata:
   github:
@@ -36,29 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 知乎 (Zhihu) is a Chinese knowledge-sharing Q&A platform and creator community.
-  why_it_matters: It provides technical and professional knowledge relevant to developers, but is not itself a developer tool.
-  mental_damage: Another reminder that even the best knowledge platforms don’t write your code for you.
+  summary: 知乎 is a Chinese question-and-answer platform where users share knowledge and experiences.
+  why_it_matters: It serves as a general knowledge resource but does not provide developer-specific AI tooling or workflows.
+  mental_damage: Yet another AI-adjacent content site pretending relevance because it mentions 'AI' in a curated list somewhere.
   tags:
-    - knowledge-platform
-    - community
-    - qa
+    - knowledge-sharing
+    - qa-platform
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool,
-    agent, or infrastructure.
+  reason: 知乎 is a general knowledge-sharing platform with no developer-facing AI tooling, agent behavior, or workflow integration; its inclusion in an awesome list is contextual curation, not evidence of AI developer utility.
   evidence:
-    - >-
-      Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform' with
-      no mention of AI-assisted development.
-    - >-
-      Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and culture,
-      not as a tool for coding, agents, or workflows.
-    - >-
-      Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing AI
-      functionality.
+    - Scraped site context describes 知乎 as a '知识分享社区和创作者聚集的原创内容平台' focused on sharing knowledge and experiences across topics like tech, business, and culture
+    - The URL and content are solely for user authentication (signin page), not a tool, agent, or infrastructure for developers
+    - Source-list context shows it appears in an awesome LLM resources list under '教程 Tutorial', but the description emphasizes general knowledge sharing, not AI development workflows
 placement:
   primary_category: null
   section: null
@@ -68,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.972Z'
+    updated_at: "2026-07-21T15:20:21.972Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,33 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:54:11.224Z'
+    updated_at: "2026-10-05T05:00:30.897Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a34f8fde41bb240554ede253c2943de44f1027191f6951ab15aaa7a882848a84
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:85d688f2b9197bd2e706073461fa282a8af5a6e002ff691a18b9725d50bd60b7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Zhihu is a general-purpose knowledge-sharing platform without a primary identity as a developer-facing AI tool,
-        agent, or infrastructure.
+      decision_reason: 知乎 is a general knowledge-sharing platform with no developer-facing AI tooling, agent behavior, or workflow integration; its inclusion in an awesome list is contextual curation, not evidence of AI developer utility.
       decision_evidence:
-        - >-
-          Repo description is empty; the platform is described as a 'knowledge-sharing community and creator platform'
-          with no mention of AI-assisted development.
-        - >-
-          Scraped site context frames Zhihu as a broad Q&A and content platform for topics like tech, business, and
-          culture, not as a tool for coding, agents, or workflows.
-        - >-
-          Appears in awesome-LLM-resources only as a tutorial resource, not as a tool or product with developer-facing
-          AI functionality.
+        - Scraped site context describes 知乎 as a '知识分享社区和创作者聚集的原创内容平台' focused on sharing knowledge and experiences across topics like tech, business, and culture
+        - The URL and content are solely for user authentication (signin page), not a tool, agent, or infrastructure for developers
+        - Source-list context shows it appears in an awesome LLM resources list under '教程 Tutorial', but the description emphasizes general knowledge sharing, not AI development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

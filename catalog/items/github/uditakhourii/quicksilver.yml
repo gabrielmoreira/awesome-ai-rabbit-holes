@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__uditakhourii__quicksilver__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Quicksilver
         extracted_url: https://github.com/uditakhourii/quicksilver
-        surrounding_text: >-
-          - [Quicksilver](https://github.com/UditAkhourii/quicksilver) - Claude Code skill that hands bulk
-          judgment/shortlist work to TypeSafe Jev so Claude spends tokens on harder reasoning. [Project
-          guide](community/projects/tools/quicksilver.md).
+        surrounding_text: "- [Quicksilver](https://github.com/UditAkhourii/quicksilver) - Claude Code skill that hands bulk judgment/shortlist work to TypeSafe Jev so Claude spends tokens on harder reasoning. [Project guide](community/projects/tools/quicksilver.md)."
         confidence: high
     - id: discovery__github__uditakhourii__quicksilver__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,11 +35,7 @@ provenance:
           - Added today
         anchor_text: Quicksilver
         extracted_url: https://github.com/uditakhourii/quicksilver
-        surrounding_text: >-
-          - **Agent tooling (5):** [jevgrep](https://github.com/dzhng/jevgrep), [Building with TypeSafe
-          Jev](https://github.com/aaddrick/building-with-typesafe-jev),
-          [jevmem](https://github.com/Avinash-jetwani/jevmem),
-          [Quicksilver](https://github.com/UditAkhourii/quicksilver), [XavierJev](https://github.com/liu-x27/XavierJev)
+        surrounding_text: "- **Agent tooling (5):** [jevgrep](https://github.com/dzhng/jevgrep), [Building with TypeSafe Jev](https://github.com/aaddrick/building-with-typesafe-jev), [jevmem](https://github.com/Avinash-jetwani/jevmem), [Quicksilver](https://github.com/UditAkhourii/quicksilver), [XavierJev](https://github.com/liu-x27/XavierJev)"
         confidence: high
 metadata:
   github:
@@ -69,21 +62,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.427Z'
+    updated_at: "2026-09-29T13:07:10.427Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

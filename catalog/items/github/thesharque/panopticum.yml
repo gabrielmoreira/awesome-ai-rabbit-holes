@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thesharque__panopticum__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,10 +20,7 @@ provenance:
           - 🗄️ Databases
         anchor_text: theSharque/panopticum
         extracted_url: https://github.com/thesharque/panopticum
-        surrounding_text: >-
-          -   **[theSharque/panopticum](https://github.com/theSharque/panopticum)** [![GitHub
-          stars](https://img.shields.io/github/stars/theSharque/panopticum?style=social)](https://github.com/theSharque/panopticum):
-          Control system for managing databases (MongoDB, Redis, ClickHouse, PostgreSQL) in Kubernetes via MCP.
+        surrounding_text: "-   **[theSharque/panopticum](https://github.com/theSharque/panopticum)** [![GitHub stars](https://img.shields.io/github/stars/theSharque/panopticum?style=social)](https://github.com/theSharque/panopticum): Control system for managing databases (MongoDB, Redis, ClickHouse, PostgreSQL) in Kubernetes via MCP."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    theSharque/panopticum : Control system for managing databases (MongoDB, Redis, ClickHouse, PostgreSQL) in Kubernetes
-    via MCP.
+  summary: "theSharque/panopticum : Control system for managing databases (MongoDB, Redis, ClickHouse, PostgreSQL) in Kubernetes via MCP."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

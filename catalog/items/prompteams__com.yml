@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prompteams__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,15 +18,10 @@ provenance:
           - LLMOps
         anchor_text: Prompteams
         extracted_url: https://prompteams.com
-        surrounding_text: >-
-          | [Prompteams](https://www.prompteams.com)                           | Prompt management system. Version,
-          test, collaborate, and retrieve prompts through real-time APIs. Have GitHub style with repos, branches, and
-          commits (and commit
-          history).                                                                                                                                                                                                                           
-          |                                                                                                           |
+        surrounding_text: "| [Prompteams](https://www.prompteams.com)                           | Prompt management system. Version, test, collaborate, and retrieve prompts through real-time APIs. Have GitHub style with repos, branches, and commits (and commit history).                                                                                                                                                                                                                            |                                                                                                           |"
         confidence: high
     - id: discovery__www__prompteams__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -38,12 +33,7 @@ provenance:
           - LLMOps
         anchor_text: Prompteams
         extracted_url: https://www.prompteams.com
-        surrounding_text: >-
-          | [Prompteams](https://www.prompteams.com)                           | Prompt management system. Version,
-          test, collaborate, and retrieve prompts through real-time APIs. Have GitHub style with repos, branches, and
-          commits (and commit
-          history).                                                                                                                                                                                                                           
-          |                                                                                                           |
+        surrounding_text: "| [Prompteams](https://www.prompteams.com)                           | Prompt management system. Version, test, collaborate, and retrieve prompts through real-time APIs. Have GitHub style with repos, branches, and commits (and commit history).                                                                                                                                                                                                                            |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -61,36 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Prompteams is a prompt management system with versioning, testing, and auto-generated APIs for team collaboration on
-    LLM prompts.
-  why_it_matters: >-
-    It gives developers a Git-like workflow for prompt iteration, testing, and deployment, reducing friction in LLM
-    integration.
-  mental_damage: Finally, a way to treat your prompts like code — until you realize you’re now versioning hallucinations.
+  summary: Prompteams is a prompt versioning and testing platform that provides Git-like workflows for managing AI prompts across environments and generating real-time APIs.
+  why_it_matters: It lets teams treat LLM prompts as version-controlled code with testing, branching, and live deployment, reducing integration risk when updating prompts in production.
+  mental_damage: Finally, a way to feel guilty about your prompt engineering skills while also blaming the tool when the model hallucinates.
   tags:
     - prompt-management
-    - llm-ops
-    - versioning
-  confidence: medium
+    - version-control
+    - llmops
+  confidence: high
 curation:
   status: included
-  reason: >-
-    Prompteams fits best in memory-and-context because its core identity is prompt versioning, testing, and management —
-    improving what goes into the model — not acting as a coding agent or app builder.
+  reason: Prompteams core identity is prompt versioning, testing, and API generation — a prompt management system that improves what goes into the model, fitting memory-and-context over coding agents or app builders.
   evidence:
-    - >-
-      Scraped site context describes 'Manage your AI Prompts, playground, testing LLM, version control, and
-      auto-generated APIs'
-    - >-
-      README emphasizes 'Prompt Versioning', 'Build your CI/CD pipeline for AI Prompts', and 'Use Git like features to
-      manage your prompts'
-    - >-
-      Source-list context lists it in Awesome-LLMOps under 'Manage your AI Prompts, playground, testing LLM, version
-      control'
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed memory-and-context / Prompt Engineering & Management; placement kept
-      at memory-and-context (unverified)
+    - "Scraped site context: 'Manage your AI Prompts, playground, testing LLM, version control, and auto-generated APIs for smooth integration with working in teams'"
+    - "README excerpt: 'Develop and version control your prompts. Auto generated API to retrieve prompts. Automatically run end-to-end LLM testing before making updates to your prompts on production.'"
+    - "Source-list context: Listed in Awesome-LLMOps under LLMOps section for managing AI prompts, playground, testing, version control, and auto-generated APIs"
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -102,43 +77,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:44:44.676Z'
+    updated_at: "2026-10-05T04:50:23.513Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:610ebf91bee1d1ef507490e10bf6df2ee423c54b5caff6b592dcaa7e232045ac
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e61ed31d505081d452ad89d951a996fb69c9e44f8b6150208c11311d0770bcf9
       proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: >-
-        Prompteams fits best in memory-and-context because its core identity is prompt versioning, testing, and
-        management — improving what goes into the model — not acting as a coding agent or app builder.
+      decision_reason: Prompteams core identity is prompt versioning, testing, and API generation — a prompt management system that improves what goes into the model, fitting memory-and-context over coding agents or app builders.
       decision_evidence:
-        - >-
-          Scraped site context describes 'Manage your AI Prompts, playground, testing LLM, version control, and
-          auto-generated APIs'
-        - >-
-          README emphasizes 'Prompt Versioning', 'Build your CI/CD pipeline for AI Prompts', and 'Use Git like features
-          to manage your prompts'
-        - >-
-          Source-list context lists it in Awesome-LLMOps under 'Manage your AI Prompts, playground, testing LLM, version
-          control'
+        - "Scraped site context: 'Manage your AI Prompts, playground, testing LLM, version control, and auto-generated APIs for smooth integration with working in teams'"
+        - "README excerpt: 'Develop and version control your prompts. Auto generated API to retrieve prompts. Automatically run end-to-end LLM testing before making updates to your prompts on production.'"
+        - "Source-list context: Listed in Awesome-LLMOps under LLMOps section for managing AI prompts, playground, testing, version control, and auto-generated APIs"
       category_candidates:
         - memory-and-context
         - evals
-      contrastive_reason: >-
-        Choose memory-and-context over evals because the product’s main job is managing and versioning prompts as
-        reusable assets, not measuring or scoring model/prompt behavior.
+      contrastive_reason: Choose memory-and-context over evals because Prompteams primary function is prompt versioning, testing, and API generation — improving context going into the model — rather than measuring or scoring model/prompt/agent behavior.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.969Z'
+    updated_at: "2026-07-21T15:20:21.969Z"
     cause: null
     next_retry_at: null
   stars:

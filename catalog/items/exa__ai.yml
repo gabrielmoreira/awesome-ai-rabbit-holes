@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__exa__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Exa
         extracted_url: https://exa.ai
-        surrounding_text: '- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)'
+        surrounding_text: "- **[Exa](https://github.com/exa-labs/exa-mcp-server)** - Search Engine made for AIs by [Exa](https://exa.ai)"
         confidence: high
 metadata:
   github:
@@ -36,38 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Exa is a web search API that provides realtime, token-efficient search results for AI agents.
-  why_it_matters: >-
-    It gives AI coding agents up-to-date web context with structured outputs and citations, reducing hallucinations and
-    improving code generation accuracy.
-  mental_damage: >-
-    Yet another API to wire into your agent stack, promising perfect search while you still spend hours debugging why it
-    returned the wrong GitHub issue.
+  summary: Exa is a web search API that provides realtime, token-efficient search and structured data retrieval for AI agents.
+  why_it_matters: It gives AI coding agents grounded, low-latency access to current web information without bloating context windows.
+  mental_damage: Yet another search API promising to be the 'perfect' data layer for agents, as if context window anxiety wasn't already enough.
   tags:
-    - search-api
-    - ai-context
+    - search
+    - api
     - mcp
-  confidence: high
+    - context-engineering
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
   evidence:
     - jev-latest choice confidence 0.49
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed memory-and-context / Retrieval & Fresh Docs; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed memory-and-context / Retrieval & Fresh Docs; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
     - memory-and-context
-  section: AI & Model Services
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,35 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:55:19.632Z'
+    updated_at: "2026-10-05T05:01:13.120Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b79bb4861f9c629609f2aecb7d72fd1f3438a0ae9f7b70dca936fea0d6bebb4b
-      proposed_primary_category: mcp
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f2bfe1d3fe01eea6c80bb4e3d0f6fce685f704820da47b743a557c51af346f69
+      proposed_primary_category: memory-and-context
       disagreement: true
-      decision_reason: >-
-        Exa's primary identity is as an MCP server providing web search capabilities to AI agents, matching the MCP
-        ecosystem's purpose of enabling agent-tool communication.
+      decision_reason: Exa's core identity is a retrieval-focused search API that supplies fresh, structured web data to AI agents, aligning with memory and context engineering rather than being a standalone agent or MCP-first product.
       decision_evidence:
-        - >-
-          Listed in awesome-mcp-servers under 'Official Servers' with description 'The Exa Web search API retrieves the
-          best, realtime data from the web for your AI'
-        - Scraped site shows Exa offers an MCP Server product alongside Search, Contents, Agent, and Monitors APIs
-        - >-
-          Core product is a search API that enables agents to access web data, positioning it as tool infrastructure
-          rather than a coding agent or app builder
+        - The Exa Web search API retrieves the best, realtime data from the web for your AI
+        - Powers their coding agents with smart token-efficient search across docs and repos
+        - Listed in awesome-mcp-servers under Official Servers for providing web search via MCP
       category_candidates:
+        - memory-and-context
         - mcp
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because Exa's MCP server is its primary product identity, not an add-on
-        that extends another coding agent's capabilities.
-      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+      contrastive_reason: Choose memory-and-context over mcp because Exa's primary identity is as a retrieval and context-providing search API, with MCP being a compatibility feature rather than its core product identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
       review_resume_lifecycle: null

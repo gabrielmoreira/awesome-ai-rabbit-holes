@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__checksum__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Checksum AI
         extracted_url: https://checksum.ai
-        surrounding_text: '- **[Checksum AI](https://checksum.ai)** – AI automated software testing and validation.'
+        surrounding_text: "- **[Checksum AI](https://checksum.ai)** – AI automated software testing and validation."
         confidence: high
 metadata:
   github:
@@ -36,26 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An AI-powered testing platform that automatically generates, executes, and self-heals Playwright end-to-end and API
-    tests.
-  why_it_matters: >-
-    It aims to eliminate the manual toil of writing and maintaining brittle E2E test suites by using agents to fix
-    broken tests autonomously.
-  mental_damage: >-
-    Now you don't have to spend your weekends fixing flaky selectors; you can spend them reviewing the PRs where the AI
-    fixed them.
+  summary: Checksum generates, runs, and maintains end-to-end tests automatically using AI agents.
+  why_it_matters: It reduces manual test maintenance by autonomously creating, executing, and healing Playwright and API tests in CI.
+  mental_damage: Finally, a testing tool that promises to eliminate the chore of updating selectors — until you realize you now have to trust an AI to not break your test suite in novel ways.
   tags:
     - testing
-    - ai-agents
     - qa
-    - test-automation
+    - ai-agent
+    - end-to-end
+    - test-maintenance
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  reason: Checksum functions as an autonomous coding agent focused on test generation, execution, and self-healing, making it a coding agent whose primary output is test code rather than a general-purpose assistant or extension.
   evidence:
-    - jev-latest choice confidence 0.60
+    - Checksum generates, runs, and maintains end-to-end tests automatically using specialized AI agents.
+    - It operates continuously in the background, detecting failures and opening PRs with auto-healed test fixes without human prompting.
+    - The product positions itself as an 'AI-Generated Playwright & API Tests' platform where agents create production-ready test code that evolves with the application.
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -66,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,36 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:08.978Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for checksum__ai: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:23.362Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d1b56a06ad78500a8a7b54129860688512059e2cf17deb0506165dec5a5937cb
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9c92b97210148b1032f6aa8136b50123d171c6d89b882185c953d97a61d72a1c
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the
-        'Repair Agents' definition.
+      decision_reason: Checksum functions as an autonomous coding agent focused on test generation, execution, and self-healing, making it a coding agent whose primary output is test code rather than a general-purpose assistant or extension.
       decision_evidence:
-        - Checksum generates, runs, and maintains end-to-end tests automatically using AI agents that heal broken tests with minimal human intervention
-        - It operates as a background agent that creates Playwright and API tests, detects failures from UI or selector changes, and opens PRs with fixes — acting as a coding agent focused on test code
-        - Listed in 'awesome-ai-coding-tools' under Testing and QA, confirming its recognition as an AI-powered coding tool in the developer tooling ecosystem
+        - Checksum generates, runs, and maintains end-to-end tests automatically using specialized AI agents.
+        - It operates continuously in the background, detecting failures and opening PRs with auto-healed test fixes without human prompting.
+        - The product positions itself as an 'AI-Generated Playwright & API Tests' platform where agents create production-ready test code that evolves with the application.
       category_candidates:
         - coding-agents
-        - evals
-      contrastive_reason: >-
-        Choose coding-agents over evals because the tool's primary function is the active repair and generation of test
-        code rather than just the scoring or measurement of it.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Checksum operates as a primary autonomous agent that generates and maintains test code independently, rather than augmenting another agent or editor with additional capabilities.
       review_reason: null
       review_resume_lifecycle: null

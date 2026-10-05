@@ -1,12 +1,12 @@
 id: prts__wiki__w__e9__a6__96__e9__a1__b5
 kind: website
-name: '%E9%A6%96%E9%A1%B5'
+name: "%E9%A6%96%E9%A1%B5"
 canonical_url: https://prts.wiki/w/%E9%A6%96%E9%A1%B5
 identity: {}
 provenance:
   discoveries:
     - id: discovery__prts__wiki__w__e9__a6__96__e9__a1__b5__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: PRTS Wiki
         extracted_url: https://prts.wiki
-        surrounding_text: >-
-          - [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP
-          server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp)
-          🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS
-          Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data.
-          Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP)
-          implementations.
+        surrounding_text: "- [3aKHP/prts-mcp](https://github.com/3aKHP/prts-mcp) [![3aKHP/prts-mcp MCP server](https://glama.ai/mcp/servers/3aKHP/prts-mcp/badges/score.svg)](https://glama.ai/mcp/servers/3aKHP/prts-mcp) 🐍 📇 ☁️ 🏠 - MCP Server for [Arknights](https://www.arknights.global/), querying the [PRTS Wiki](https://prts.wiki) API and serving auto-synced operator archives and voice lines from game data. Designed for fan-creation (同人創作) AI agents. Python (stdio/Docker) and TypeScript (Streamable HTTP) implementations."
         confidence: high
 metadata:
   github:
@@ -43,29 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Chinese-language MediaWiki wiki for the mobile game Arknights, maintained by fans and hosting game data, guides,
-    and community resources.
-  why_it_matters: >-
-    It serves as a reference for developers building fan tools, mods, or analytics related to Arknights by providing
-    structured, community-maintained game data.
-  mental_damage: >-
-    Another reminder that even the most niche fandoms now run on the same wiki engine that powers half of AI
-    documentation.
+  summary: 首页 - PRTS is a fan-made Chinese wiki for the game Arknights (明日方舟), built on MediaWiki to document operators, enemies, items, events, and gameplay mechanics.
+  why_it_matters: It serves as a community reference for Arknights players, offering structured game data that developers might scrape or integrate into fan tools, guides, or Discord bots.
+  mental_damage: Another wiki where the real AI innovation is pretending that compiling drop rates counts as 'context engineering' for your next LLM-powered Arknights meta-guide.
   tags:
-    - wiki
     - gaming
-    - reference
+    - wiki
+    - community
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its purpose
-    is game documentation, not AI-assisted development.
+  reason: PRTS is a game-focused wiki with no AI tooling, agent behavior, or developer-facing infrastructure; it is a static knowledge base for players, not a tool for software developers building AI applications.
   evidence:
-    - The site is a MediaWiki-based wiki for the game Arknights, with no mention of AI, agents, or developer tooling
-    - Content focuses on operator stats, maps, events, and game mechanics, not code, prompts, or AI workflows
-    - No repository, stars, or activity signals indicate it is a software tool or AI product
+    - "Repo description: (none)"
+    - "Scraped site title: 首页 - PRTS - 玩家共同构筑的明日方舟中文Wiki"
+    - "Scraped site description: PRTS是一个非营利性质的明日方舟资料Wiki网站"
 placement:
   primary_category: null
   section: null
@@ -75,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,26 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:35:01.822Z'
+    updated_at: "2026-10-05T04:43:51.159Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:60009bf00f55b8ae80ff5685e0604d6df7ea08ba79da290df0488d57c7702f72
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:71122411700e8ccf930ba9745a44a6a9fa121c0842cac13cc932d339c98d4c9c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a fan-maintained game wiki with no AI tooling, agent behavior, or developer workflow integration; its
-        purpose is game documentation, not AI-assisted development.
+      decision_reason: PRTS is a game-focused wiki with no AI tooling, agent behavior, or developer-facing infrastructure; it is a static knowledge base for players, not a tool for software developers building AI applications.
       decision_evidence:
-        - The site is a MediaWiki-based wiki for the game Arknights, with no mention of AI, agents, or developer tooling
-        - Content focuses on operator stats, maps, events, and game mechanics, not code, prompts, or AI workflows
-        - No repository, stars, or activity signals indicate it is a software tool or AI product
+        - "Repo description: (none)"
+        - "Scraped site title: 首页 - PRTS - 玩家共同构筑的明日方舟中文Wiki"
+        - "Scraped site description: PRTS是一个非营利性质的明日方舟资料Wiki网站"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

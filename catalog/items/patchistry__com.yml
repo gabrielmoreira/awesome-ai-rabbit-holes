@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__patchistry__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,15 +19,7 @@ provenance:
           - 🛒 <a name="e-commerce"></a>E-Commerce
         anchor_text: Patchistry
         extracted_url: https://patchistry.com
-        surrounding_text: >-
-          - [patchistry/patchistry-mcp-server](https://github.com/patchistry/patchistry-mcp-server)
-          [![patchistry/patchistry-mcp-server MCP
-          server](https://glama.ai/mcp/servers/patchistry/patchistry-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/patchistry/patchistry-mcp-server)
-          📇 ☁️ 🍎 🪟 🐧 - Official MCP server for [Patchistry](https://patchistry.com), the first DTC fashion brand
-          listed in the official MCP Registry. AI agent commerce tools for the velcro-patch hat system: `list_canvases`,
-          `list_patches`, `recommend_build`, `get_shipping`, and `contact`. Helps ChatGPT, Claude, Cursor, and
-          Perplexity recommend complete hat + patch builds when shoppers ask about custom hats, bachelorette gifts, dad
-          gifts, or 4th of July drops. Install via `npx -y patchistry-mcp-server`.
+        surrounding_text: "- [patchistry/patchistry-mcp-server](https://github.com/patchistry/patchistry-mcp-server) [![patchistry/patchistry-mcp-server MCP server](https://glama.ai/mcp/servers/patchistry/patchistry-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/patchistry/patchistry-mcp-server) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for [Patchistry](https://patchistry.com), the first DTC fashion brand listed in the official MCP Registry. AI agent commerce tools for the velcro-patch hat system: `list_canvases`, `list_patches`, `recommend_build`, `get_shipping`, and `contact`. Helps ChatGPT, Claude, Cursor, and Perplexity recommend complete hat + patch builds when shoppers ask about custom hats, bachelorette gifts, dad gifts, or 4th of July drops. Install via `npx -y patchistry-mcp-server`."
         confidence: high
 metadata:
   github:
@@ -45,24 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A consumer e-commerce brand selling customizable snapback hats with interchangeable hook-and-loop patches.
-  why_it_matters: This product offers physical apparel rather than software development utilities or AI infrastructure.
-  mental_damage: >-
-    Finally, a way to achieve the same level of modularity in your wardrobe as you have in your containerized
-    microservices.
+  summary: Patchistry.com is a fashion brand selling customizable snapback hats with interchangeable patches.
+  why_it_matters: It has no relevance to software development, AI tooling, or developer workflows.
+  mental_damage: Another reminder that the AI hype cycle will slap a '.com' on anything and call it infrastructure.
   tags:
     - fashion
-    - retail
-    - e-commerce
+    - ecommerce
+    - not-ai
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is a retail brand for physical headwear and is entirely outside the scope of software development
-    tooling.
+  reason: Patchistry is a consumer apparel product with no connection to AI, coding, or developer tools; its core offering is physical hats and patches.
   evidence:
-    - Scraped site context describes 'interchangeable patches' and 'expressionwear'
-    - Product description focuses on physical snapback hats and 'Patchistry Fiber'
+    - "Site title: 'Patchistry™ | Interchangeable Patches. Customized Hat. Expressionwear'"
+    - Primary excerpt describes 'black snapback hat with interchangeable patches' and 'Build Yours' hat customization
+    - No mention of code, AI, software development, or developer-facing functionality anywhere in the provided context
 placement:
   primary_category: null
   section: null
@@ -72,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.456Z'
+    updated_at: "2026-06-22T05:53:30.456Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:19:08.875Z'
+    updated_at: "2026-10-05T04:26:40.515Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c2c2e8be5b055c824a3e3a65f475f5a746558732405194dc75a148a9b6ed12c4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c9cd317fe1d4a370bd32926b7d5c38547d38ca5ed2b58dc6889a33bb05412697
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a retail brand for physical headwear and is entirely outside the scope of software development
-        tooling.
+      decision_reason: Patchistry is a consumer apparel product with no connection to AI, coding, or developer tools; its core offering is physical hats and patches.
       decision_evidence:
-        - Scraped site context describes 'interchangeable patches' and 'expressionwear'
-        - Product description focuses on physical snapback hats and 'Patchistry Fiber'
+        - "Site title: 'Patchistry™ | Interchangeable Patches. Customized Hat. Expressionwear'"
+        - Primary excerpt describes 'black snapback hat with interchangeable patches' and 'Build Yours' hat customization
+        - No mention of code, AI, software development, or developer-facing functionality anywhere in the provided context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gpt__nexus__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - NexusGPT
         anchor_text: NexusGPT
         extracted_url: https://gpt.nexus
-        surrounding_text: '## [NexusGPT](https://gpt.nexus/)'
+        surrounding_text: "## [NexusGPT](https://gpt.nexus/)"
         confidence: high
 metadata:
   github:
@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: No descriptive metadata or documentation provided to identify the product's purpose.
-  why_it_matters: N/A
-  mental_damage: The void of a missing README is the ultimate developer experience.
-  tags: []
+  summary: gpt.nexus is a website or service offering access to AI agents, including NexusGPT, as listed in the awesome-ai-agents directory under the NexusGPT section.
+  why_it_matters: It serves as a discovery point for AI agent tools, potentially helping developers find assistants for coding or workflow automation.
+  mental_damage: Yet another AI aggregator promising agentic miracles while adding another tab to the endless zoo of LLM wrappers.
+  tags:
+    - ai-agents
+    - directory
+    - discovery
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its
-    presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
+  reason: The project is a directory listing or promotional site for AI agents (notably NexusGPT) rather than a developer-facing AI tool, agent, framework, or infrastructure product itself.
   evidence:
-    - Repo description is missing
-    - No README or scraped site context provided
-    - Source-list context is too vague to establish product identity
+    - "Listed in awesome-ai-agents under the NexusGPT section as a purpose: 'A list of AI autonomous agents'"
+    - No GitHub repo, stars, or technical description provided — only a URL (https://gpt.nexus) with no indication of being a developer tool or open-source project
+    - No README, features, or usage details shared; appears to be a landing page or directory, not a usable agent or SDK
 placement:
   primary_category: null
   secondary_categories: []
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.456Z'
+    updated_at: "2026-06-22T05:53:30.456Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,26 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:19:08.786Z'
+    updated_at: "2026-10-05T04:26:38.046Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e3f36e1e1fc3725d7ebd167465f5045d8507246127db07b4af7690090e0c7b1e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f062616ce3168a26d5702a19c3b2ed4209a1cb85e0c3ea4d0051813aec0ea5f2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project lacks sufficient descriptive substance to determine if it is a functional developer tool, and its
-        presence in source lists suggests it may be a sub-curation or landing page rather than a standalone product.
+      decision_reason: The project is a directory listing or promotional site for AI agents (notably NexusGPT) rather than a developer-facing AI tool, agent, framework, or infrastructure product itself.
       decision_evidence:
-        - Repo description is missing
-        - No README or scraped site context provided
-        - Source-list context is too vague to establish product identity
+        - "Listed in awesome-ai-agents under the NexusGPT section as a purpose: 'A list of AI autonomous agents'"
+        - No GitHub repo, stars, or technical description provided — only a URL (https://gpt.nexus) with no indication of being a developer tool or open-source project
+        - No README, features, or usage details shared; appears to be a landing page or directory, not a usable agent or SDK
       category_candidates: []
       contrastive_reason: null
       review_reason: null

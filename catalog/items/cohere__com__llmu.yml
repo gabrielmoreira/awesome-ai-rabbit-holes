@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cohere__com__llmu__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A learning hub by Cohere providing courses and technical resources for mastering enterprise AI technologies.
-  why_it_matters: >-
-    It provides structured educational paths for developers to learn how to integrate enterprise-grade models like
-    Command and Embed into production workflows.
-  mental_damage: >-
-    Because even if you master these courses, the API documentation will likely change before you finish the final
-    module.
+  summary: LLM University is a learning hub offering courses, resources, and guides for developers to master Enterprise AI technologies.
+  why_it_matters: It helps developers gain practical AI skills through structured learning paths focused on real-world enterprise use cases.
+  mental_damage: Another curated knowledge portal promising career advancement while quietly adding to the infinite backlog of 'I should really get around to this' tabs.
   tags:
-    - education
-    - enterprise-ai
     - learning
-  confidence: high
+    - resources
+    - education
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: LLM University is an educational resource hub that curates AI learning materials for developers, fitting the curated lists and resources category as a publication/feed rather than a tool.
   evidence:
-    - jev-latest choice confidence 0.68
+    - Described as 'your premier learning destination for mastering Enterprise AI technologies' offering 'comprehensive resources, expert-led courses, and step-by-step guides'
+    - Listed in awesome-LLM-resources under the '课程 Course' section as a learning resource
+    - Positioned as a hub for developers and technical professionals to 'start building quickly and stay ahead in the rapidly evolving AI landscape'
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: Publications & Feeds
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): publications-and-feeds'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,35 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:36:02.907Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for cohere__com__llmu: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:02.467Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6b5b3ac2650c2fb64cf023617c11a3df94acecad5325bc6bac8aea5315abaf30
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:70cb3c6cab12ef6c184467f7c61d49d043e0fa0689d0d8448b5800fb1e50b8aa
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        It is an educational resource/tutorial hub rather than a standalone developer tool, making it a useful
-        navigation aid for the ecosystem.
+      decision_reason: LLM University is an educational resource hub that curates AI learning materials for developers, fitting the curated lists and resources category as a publication/feed rather than a tool.
       decision_evidence:
-        - README/Scraped content identifies it as 'LLM University' for learning and mastering AI technologies
-        - Offers courses, step-by-step guides, and technical resources rather than a software utility
+        - Described as 'your premier learning destination for mastering Enterprise AI technologies' offering 'comprehensive resources, expert-led courses, and step-by-step guides'
+        - Listed in awesome-LLM-resources under the '课程 Course' section as a learning resource
+        - Positioned as a hub for developers and technical professionals to 'start building quickly and stay ahead in the rapidly evolving AI landscape'
       category_candidates:
         - awesome-awesomes
-        - publications-and-feeds
-      contrastive_reason: >-
-        Choose awesome-awesomes over publications-and-feeds because the primary value is acting as a curated directory
-        of learning modules rather than a recurring news feed or periodical publication.
-      review_reason: 'Categorization review required: unknown category candidate(s): publications-and-feeds'
+        - memory-and-context
+      contrastive_reason: Choose awesome-awesomes over memory-and-context because LLM University is an educational publication and resource hub, not a persistent memory or context system for AI agents.
+      review_reason: null
       review_resume_lifecycle: null

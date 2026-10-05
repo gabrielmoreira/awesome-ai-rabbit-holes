@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__afloat16__jev-mcp__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-mcp (Afloat16)
         extracted_url: https://github.com/afloat16/jev-mcp
-        surrounding_text: >-
-          - [jev-mcp (Afloat16)](https://github.com/Afloat16/jev-mcp) - Unofficial conservative MCP server for TypeSafe
-          AI Jev (stdio) so agents can ask typed System One questions. [Project
-          guide](community/projects/tools/afloat16-jev-mcp.md).
+        surrounding_text: "- [jev-mcp (Afloat16)](https://github.com/Afloat16/jev-mcp) - Unofficial conservative MCP server for TypeSafe AI Jev (stdio) so agents can ask typed System One questions. [Project guide](community/projects/tools/afloat16-jev-mcp.md)."
         confidence: high
     - id: discovery__github__afloat16__jev-mcp__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-mcp**'
+        anchor_text: "**jev-mcp**"
         extracted_url: https://github.com/afloat16/jev-mcp
-        surrounding_text: >-
-          - [**jev-mcp**](https://github.com/Afloat16/jev-mcp) — \`jev-mcp\` exposes TypeSafe AI's Jev decision model as
-          four conservative, read-only MCP tools for \*\*bounded probabilistic decisions\*\*.
+        surrounding_text: "- [**jev-mcp**](https://github.com/Afloat16/jev-mcp) — \\`jev-mcp\\` exposes TypeSafe AI's Jev decision model as four conservative, read-only MCP tools for \\*\\*bounded probabilistic decisions\\*\\*."
         confidence: high
 metadata:
   github:
@@ -50,10 +45,10 @@ metadata:
     archived: false
     full_name: Afloat16/jev-mcp
     html_url: https://github.com/Afloat16/jev-mcp
-    created_at: '2026-09-28T09:41:45Z'
-    pushed_at: '2026-09-28T14:16:57Z'
+    created_at: "2026-09-28T09:41:45Z"
+    pushed_at: "2026-09-28T14:16:57Z"
     description: Unofficial conservative MCP server for TypeSafe AI Jev
-    homepage: ''
+    homepage: ""
     topics:
       - codex
       - jev
@@ -62,9 +57,9 @@ metadata:
       - model-context-protocol
       - typesafe-ai
       - typescript
-    last_checked_at: '2026-09-29T13:08:30.713Z'
+    last_checked_at: "2026-09-29T13:08:30.713Z"
     readme:
-      fetched_at: '2026-09-29T13:08:30.713Z'
+      fetched_at: "2026-09-29T13:08:30.713Z"
       bytes: 10273
 insights:
   summary: Unofficial conservative MCP server for TypeSafe AI Jev
@@ -87,15 +82,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:30.713Z'
+    updated_at: "2026-09-29T13:08:30.713Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:15:15.744Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__afloat16__jev-mcp: provider stop reason: length"
+    next_retry_at: null
+    attempts: 1

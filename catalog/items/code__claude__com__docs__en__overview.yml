@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__claude__com__docs__en__overview__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Claude Code
         extracted_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
-        surrounding_text: >-
-          - **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's
-          agentic coding tool for the terminal with deep codebase understanding.
+        surrounding_text: "- **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's agentic coding tool for the terminal with deep codebase understanding."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Claude Code – Anthropic's agentic coding tool for the terminal with deep codebase understanding.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Claude Code is an agentic coding tool that reads codebases, edits files, runs commands, and integrates with development tools across terminal, IDE, desktop app, and browser.
+  why_it_matters: It gives developers an autonomous coding assistant that works directly in their preferred environments to write, test, and refactor code without leaving their workflow.
+  mental_damage: Finally, an AI that can fix your lint errors—now you just have to explain why it broke the build in three different ways.
+  tags:
+    - coding-agent
+    - cli
+    - ide-integration
+    - mcp
+    - agent-sdk
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  reason: Claude Code is a standalone coding agent whose primary identity is performing coding tasks autonomously across multiple surfaces, not an extension or framework.
   evidence:
-    - jev-latest choice confidence 0.92
+    - Repo description and scraped site context describe it as an 'agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools'
+    - Source-list context from awesome-ai-coding-tools places it in the 'Coding Agents' section with the same description
+    - "README emphasizes core coding workflows: writing tests, fixing bugs, creating commits, and automating development tasks via CLI and IDE integrations"
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -58,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:09.353Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:06f21e4d540b85c5eeb5d7053a46c39b8764fa6400f0910283389671d4bbe3fc
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Claude Code is a standalone coding agent whose primary identity is performing coding tasks autonomously across multiple surfaces, not an extension or framework.
+      decision_evidence:
+        - Repo description and scraped site context describe it as an 'agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools'
+        - Source-list context from awesome-ai-coding-tools places it in the 'Coding Agents' section with the same description
+        - "README emphasizes core coding workflows: writing tests, fixing bugs, creating commits, and automating development tasks via CLI and IDE integrations"
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Claude Code is the primary coding assistant itself, not a plugin that augments another agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

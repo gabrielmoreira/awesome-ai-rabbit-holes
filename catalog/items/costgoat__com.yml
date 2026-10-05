@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__costgoat__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: CostGoat
         extracted_url: https://costgoat.com
-        surrounding_text: >-
-          - **[CostGoat](https://costgoat.com)** – Privacy-first menubar app tracking AI agent quotas (Claude Code,
-          Codex, Kimi, Z.ai), LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS
-          subscriptions in real-time.
+        surrounding_text: "- **[CostGoat](https://costgoat.com)** – Privacy-first menubar app tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai), LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS subscriptions in real-time."
         confidence: high
 metadata:
   github:
@@ -39,13 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CostGoat – Privacy-first menubar app tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai), LLM API costs
-    (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS subscriptions in real-time.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CostGoat is a privacy-first desktop app that tracks real-time AI agent, cloud, API, and subscription costs with local storage and cross-platform support.
+  why_it_matters: Helps developers avoid surprise bills and manage AI/cloud spending by centralizing cost monitoring in a desktop menubar app with proactive alerts.
+  mental_damage: Another layer of tooling to watch your tooling spend—because even your cost tracker needs a subscription now.
+  tags:
+    - cost-tracking
+    - developer-productivity
+    - desktop-app
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
@@ -55,14 +53,14 @@ curation:
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Observability & Tracing
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:36.114Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cf0a70285053b4d45eb5849a5fa3c2f712a965ce904c9f77d96c7e6a85409c3f
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: CostGoat integrates with AI agents and cloud services to monitor usage and costs, functioning as a workflow add-on rather than a standalone coding agent or core AI infrastructure.
+      decision_evidence:
+        - Tracks AI agent quotas (Claude Code, Codex) and cloud/API costs in real-time via OS-native encryption
+        - Lists integrations with Cursor, OpenAI, GitHub, and other developer tools as a privacy-first desktop app
+        - Positioned in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' for cost monitoring
+      category_candidates:
+        - extensions-and-addons
+        - mcp
+      contrastive_reason: Choose extensions-and-addons over mcp because CostGoat's identity is cost monitoring integration, not MCP protocol infrastructure, despite using MCP-like connections.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

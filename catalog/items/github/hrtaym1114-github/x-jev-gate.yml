@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hrtaym1114-github__x-jev-gate__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://wh000wh000.github.io/awesome-jev-live
-        surrounding_text: >-
-          - [awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live)
-          ([site](https://wh000wh000.github.io/awesome-jev-live/)) - Awesome Jev — evidence-graded index of TypeSafe
-          System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+        surrounding_text: "- [awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live) ([site](https://wh000wh000.github.io/awesome-jev-live/)) - Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours."
         confidence: high
 metadata:
   github:
@@ -60,16 +57,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.460Z'
+    updated_at: "2026-09-29T13:07:10.460Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-29T13:12:13.827Z'
+    updated_at: "2026-09-29T13:12:13.827Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for hrtaym1114-github/x-jev-gate
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

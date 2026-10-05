@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sgaabdu4__capture__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Capture (sgaabdu4)
         extracted_url: https://github.com/sgaabdu4/capture
-        surrounding_text: >-
-          - [Capture (sgaabdu4)](https://github.com/sgaabdu4/capture) - `Open source` · `Free source build` · `BYOK`.
-          Private Mac voice diary: local Parakeet transcription, TypeSafe Jev sorting, Notion after approval. [Project
-          guide](community/projects/apps/capture.md).
+        surrounding_text: "- [Capture (sgaabdu4)](https://github.com/sgaabdu4/capture) - `Open source` · `Free source build` · `BYOK`. Private Mac voice diary: local Parakeet transcription, TypeSafe Jev sorting, Notion after approval. [Project guide](community/projects/apps/capture.md)."
         confidence: high
 metadata:
   github:
@@ -53,16 +50,16 @@ curation:
     - jev winnow:e4b 0.41 below gate 0.50; proposed local-ai / Desktop Chat & UIs; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - local-ai
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

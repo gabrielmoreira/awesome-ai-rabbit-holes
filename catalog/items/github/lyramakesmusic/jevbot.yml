@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lyramakesmusic__jevbot__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: jevbot
         extracted_url: https://github.com/lyramakesmusic/jevbot
-        surrounding_text: >-
-          | [jevbot](https://github.com/lyramakesmusic/jevbot) | ★ 13 | Python | 2026-09-24 | Discord bot demo that lets
-          users converse with Jev-backed typed behavior. |
+        surrounding_text: "| [jevbot](https://github.com/lyramakesmusic/jevbot) | ★ 13 | Python | 2026-09-24 | Discord bot demo that lets users converse with Jev-backed typed behavior. |"
         confidence: high
 metadata:
   github:
@@ -60,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

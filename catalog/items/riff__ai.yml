@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__riff__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Databutton
         extracted_url: https://databutton.com
-        surrounding_text: '- **[Databutton](https://databutton.com/)** – AI-powered app development platform.'
+        surrounding_text: "- **[Databutton](https://databutton.com/)** – AI-powered app development platform."
         confidence: high
 metadata:
   github:
@@ -36,36 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Riff.ai is a platform for building and deploying AI agents that understand business operations, act across
-    enterprise systems, and work alongside human teams.
-  why_it_matters: >-
-    It enables developers to create domain-specific AI agents that integrate with ERP and other core systems to automate
-    operational workflows.
-  mental_damage: >-
-    Another 'AI workforce' platform promising to replace judgment with agents that take the volume while humans take the
-    blame.
+  summary: Riff is a platform for building and deploying AI agents in industrial operations, focused on order handling, procurement, logistics, production planning, and aftermarket service.
+  why_it_matters: It enables developers to operationalize AI agents in complex, real-world industrial workflows with measurable business outcomes.
+  mental_damage: Another 'AI for industry' platform that promises agents will finally understand your ERP — until you realize they still need humans to fix the exceptions.
   tags:
+    - industrial-ai
     - ai-agents
-    - enterprise-ai
-    - workflow-automation
+    - enterprise-platform
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Riff.ai is an enterprise AI agent platform focused on business process automation, not a developer-facing coding
-    tool, agent builder, or infrastructure relevant to software development workflows.
+  reason: Riff is an enterprise platform for deploying AI agents in industrial operations, not a developer-facing tool for coding, workflow orchestration, or app building; its primary users are business and operations teams, not software developers building or extending AI systems.
   evidence:
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under App Builders, but the platform description emphasizes
-      ERP integration, order handling, procurement, and industrial operations, not code generation or developer tooling
-    - >-
-      Scraped site context: positions Riff as a platform for AI agents that 'understand your operations, act across your
-      systems and work alongside your people' — targeting business users and enterprise IT, not developers writing or
-      editing code
-    - >-
-      No evidence of coding agent behavior, app generation from prompts, framework/SDK distribution, or any
-      developer-tooling identity in the provided materials
+    - Riff positions itself as a platform for AI agents that 'understand your operations, act across your systems and work alongside your people' in industrial settings like order handling, procurement, and production planning.
+    - It emphasizes business outcomes, domain expertise, and forward-deployed engineering rather than developer tools, SDKs, or coding workflows.
+    - It appears in the awesome-ai-coding-tools list under 'App Builders', but its core identity is an enterprise AI platform, not a tool that turns prompts into deployable apps or scaffolds for developers.
 placement:
   primary_category: null
   section: null
@@ -75,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,34 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:13.989Z'
+    updated_at: "2026-10-05T04:44:31.123Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:99af4ef6f09721208f4867b6dda3a9256028e833749b1a0e8554aa8a16f48f9b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:12b091be9228dc803339dba361adb7a0aad0d8845e17888e75c1c0d85339f3e9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Riff.ai is an enterprise AI agent platform focused on business process automation, not a developer-facing coding
-        tool, agent builder, or infrastructure relevant to software development workflows.
+      decision_reason: Riff is an enterprise platform for deploying AI agents in industrial operations, not a developer-facing tool for coding, workflow orchestration, or app building; its primary users are business and operations teams, not software developers building or extending AI systems.
       decision_evidence:
-        - >-
-          Source-list context: listed in awesome-ai-coding-tools under App Builders, but the platform description
-          emphasizes ERP integration, order handling, procurement, and industrial operations, not code generation or
-          developer tooling
-        - >-
-          Scraped site context: positions Riff as a platform for AI agents that 'understand your operations, act across
-          your systems and work alongside your people' — targeting business users and enterprise IT, not developers
-          writing or editing code
-        - >-
-          No evidence of coding agent behavior, app generation from prompts, framework/SDK distribution, or any
-          developer-tooling identity in the provided materials
+        - Riff positions itself as a platform for AI agents that 'understand your operations, act across your systems and work alongside your people' in industrial settings like order handling, procurement, and production planning.
+        - It emphasizes business outcomes, domain expertise, and forward-deployed engineering rather than developer tools, SDKs, or coding workflows.
+        - It appears in the awesome-ai-coding-tools list under 'App Builders', but its core identity is an enterprise AI platform, not a tool that turns prompts into deployable apps or scaffolds for developers.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

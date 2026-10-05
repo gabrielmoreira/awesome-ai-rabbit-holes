@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentprobe__fly__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Security
         anchor_text: Agentprobe
         extracted_url: https://agentprobe.fly.dev
-        surrounding_text: >-
-          - **[Agentprobe](https://agentprobe.fly.dev/)** – Free agentic commerce readiness scorer. Probes any URL
-          across 13 signals (llms.txt, OpenAPI spec, MCP endpoint, catalog API, quote API, checkout, payment rails,
-          fulfillment proof) and returns a 0–110 score with a CERTIFIED badge. MCP server available at /mcp.
+        surrounding_text: "- **[Agentprobe](https://agentprobe.fly.dev/)** – Free agentic commerce readiness scorer. Probes any URL across 13 signals (llms.txt, OpenAPI spec, MCP endpoint, catalog API, quote API, checkout, payment rails, fulfillment proof) and returns a 0–110 score with a CERTIFIED badge. MCP server available at /mcp."
         confidence: high
 metadata:
   github:
@@ -39,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Agentprobe – Free agentic commerce readiness scorer. Probes any URL across 13 signals (llms.txt, OpenAPI spec, MCP
-    endpoint, catalog API, quote API, checkout, payment rails, fulfillment proof) and returns a 0–110 score with a
-    CERTIFIED badge. MCP server available at /mcp.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Agentprobe tests whether seller URLs support agentic commerce by probing for llms.txt, OpenAPI, ai-plugin.json, MCP, and commerce APIs.
+  why_it_matters: Helps developers verify if their e-commerce sites are accessible to AI agents for autonomous purchasing workflows.
+  mental_damage: Another litmus test for the growing anxiety that your store might be invisible to the very agents you're trying to serve.
+  tags:
+    - agentic-commerce
+    - readiness-testing
+    - mcp
+    - ai-plugin
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  status: excluded
+  reason: Agentprobe is a diagnostic tool for evaluating website agent-readiness, not a developer-facing AI coding agent, framework, app builder, or infrastructure tool.
   evidence:
-    - jev-latest choice confidence 0.52
+    - Scraped site context shows it runs 'probes' to test if AI agents can discover, quote, and complete purchases on seller URLs
+    - Primary functionality is assessing agentic commerce readiness via llms.txt, OpenAPI, ai-plugin.json, MCP, and commerce API checks
+    - Source-list placement in awesome-ai-coding-tools under 'Security' section describes it as 'Agentic Commerce Readiness'
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:57.708Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3945edb193967ba93a8f5cc4be3a1993fb48c61944ecf06b91f09129cb7de87c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Agentprobe is a diagnostic tool for evaluating website agent-readiness, not a developer-facing AI coding agent, framework, app builder, or infrastructure tool.
+      decision_evidence:
+        - Scraped site context shows it runs 'probes' to test if AI agents can discover, quote, and complete purchases on seller URLs
+        - Primary functionality is assessing agentic commerce readiness via llms.txt, OpenAPI, ai-plugin.json, MCP, and commerce API checks
+        - Source-list placement in awesome-ai-coding-tools under 'Security' section describes it as 'Agentic Commerce Readiness'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

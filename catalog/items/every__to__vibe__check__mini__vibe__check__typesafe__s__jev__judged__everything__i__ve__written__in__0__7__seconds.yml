@@ -5,9 +5,8 @@ canonical_url: https://every.to/vibe-check/mini-vibe-check-typesafe-s-jev-judged
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__every__to__vibe__check__mini__vibe__check__typesafe__s__jev__judged__everything__i__ve__written__in__0__7__seconds__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__every__to__vibe__check__mini__vibe__check__typesafe__s__jev__judged__everything__i__ve__written__in__0__7__seconds__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -17,13 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - Articles & threads
-        anchor_text: 'Mini-Vibe Check: Jev judged everything I have written in 0.7 seconds'
-        extracted_url: >-
-          https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds
-        surrounding_text: >-
-          - [Mini-Vibe Check: Jev judged everything I have written in 0.7
-          seconds](https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds)
-          - Every's Mike Taylor runs his whole archive through Jev.
+        anchor_text: "Mini-Vibe Check: Jev judged everything I have written in 0.7 seconds"
+        extracted_url: https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds
+        surrounding_text: "- [Mini-Vibe Check: Jev judged everything I have written in 0.7 seconds](https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds) - Every's Mike Taylor runs his whole archive through Jev."
         confidence: high
 metadata:
   github:
@@ -41,15 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Mini-Vibe Check is a newsletter article describing TypeSafe's Jev model, a System One decision model that outputs probabilities for fuzzy questions to enable AI workflow automation.
+  why_it_matters: Highlights a new class of low-latency, low-cost decision models useful for developers building automated judgments into AI agents and workflows.
+  mental_damage: Yet another AI lab promising structured outputs while developers still spend hours coaxing LLMs to not hallucinate JSON.
+  tags:
+    - decision-model
+    - typesafe
+    - jev
+    - ai-workflows
+    - evals
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The input is a newsletter article about a model, not a standalone developer tool, product, or open-source project with usable artifacts.
+  evidence:
+    - Source is an Every.to newsletter article by Mike Taylor, not a GitHub repo or downloadable tool
+    - No repository, installation instructions, CLI, SDK, or API access is described for developers to use
+    - The content describes Jev model capabilities and use cases but does not distribute or expose the model as a developer-facing product
 placement:
   primary_category: null
   section: null
@@ -59,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:24.790Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bd8ad18b3135a60f4e6e9fea10dd4b9dee1b50f68e4df51d820d2a79ce5a44d4
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a newsletter article about a model, not a standalone developer tool, product, or open-source project with usable artifacts.
+      decision_evidence:
+        - Source is an Every.to newsletter article by Mike Taylor, not a GitHub repo or downloadable tool
+        - No repository, installation instructions, CLI, SDK, or API access is described for developers to use
+        - The content describes Jev model capabilities and use cases but does not distribute or expose the model as a developer-facing product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

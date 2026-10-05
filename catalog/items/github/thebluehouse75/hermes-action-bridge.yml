@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thebluehouse75__hermes-action-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: TheBlueHouse75/hermes-action-bridge
         extracted_url: https://github.com/thebluehouse75/hermes-action-bridge
-        surrounding_text: >-
-          - [TheBlueHouse75/hermes-action-bridge](https://github.com/TheBlueHouse75/hermes-action-bridge)
-          [![TheBlueHouse75/hermes-action-bridge MCP
-          server](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge/badges/score.svg)](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge)
-          📇 🏠 🍎 🪟 🐧 - Delegate real-world actions to Hermes Agent: research, browser workflows, messaging,
-          scheduling and skills, with risky actions requiring approval.
+        surrounding_text: "- [TheBlueHouse75/hermes-action-bridge](https://github.com/TheBlueHouse75/hermes-action-bridge) [![TheBlueHouse75/hermes-action-bridge MCP server](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge/badges/score.svg)](https://glama.ai/mcp/servers/TheBlueHouse75/hermes-action-bridge) 📇 🏠 🍎 🪟 🐧 - Delegate real-world actions to Hermes Agent: research, browser workflows, messaging, scheduling and skills, with risky actions requiring approval."
         confidence: high
 metadata:
   github:
@@ -43,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TheBlueHouse75/hermes-action-bridge - Delegate real-world actions to Hermes Agent: research, browser workflows,
-    messaging, scheduling and skills, with risky actions requiring approval.
+  summary: "TheBlueHouse75/hermes-action-bridge - Delegate real-world actions to Hermes Agent: research, browser workflows, messaging, scheduling and skills, with risky actions requiring approval."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -55,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
     - jev-latest choice confidence 0.48
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      mcp (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -69,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

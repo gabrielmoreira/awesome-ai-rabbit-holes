@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__calcom__cal.diy__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -20,7 +20,7 @@ provenance:
           - Description
         anchor_text: GitHub
         extracted_url: https://github.com/calcom/cal.com
-        surrounding_text: '- [GitHub](https://github.com/calcom/cal.com/tree/main/apps/ai)'
+        surrounding_text: "- [GitHub](https://github.com/calcom/cal.com/tree/main/apps/ai)"
         confidence: high
 metadata:
   github:
@@ -30,8 +30,8 @@ metadata:
     archived: false
     full_name: calcom/cal.diy
     html_url: https://github.com/calcom/cal.diy
-    created_at: '2021-03-22T13:47:42Z'
-    pushed_at: '2026-09-20T08:42:15Z'
+    created_at: "2021-03-22T13:47:42Z"
+    pushed_at: "2026-09-20T08:42:15Z"
     description: Scheduling infrastructure for absolutely everyone.
     homepage: https://cal.diy
     topics:
@@ -46,18 +46,14 @@ metadata:
       - turborepo
       - typescript
       - zod
-    last_checked_at: '2026-09-24T04:13:06.140Z'
+    last_checked_at: "2026-09-24T04:13:06.140Z"
     readme:
-      fetched_at: '2026-09-24T04:13:06.140Z'
+      fetched_at: "2026-09-24T04:13:06.140Z"
       bytes: 36824
 insights:
   summary: Cal.diy is the open-source, self-hosted community edition of Cal.com, a scheduling infrastructure platform.
-  why_it_matters: >-
-    It provides developers with a fully open-source, MIT-licensed alternative to hosted scheduling solutions, enabling
-    self-hosting for full control over infrastructure.
-  mental_damage: >-
-    Because nothing says 'developer productivity' like spending a weekend debugging PostgreSQL instead of just using
-    Calendly.
+  why_it_matters: It provides developers with a fully open-source, MIT-licensed alternative to hosted scheduling solutions, enabling self-hosting for full control over infrastructure.
+  mental_damage: Because nothing says 'developer productivity' like spending a weekend debugging PostgreSQL instead of just using Calendly.
   tags:
     - scheduling
     - self-hosted
@@ -67,12 +63,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a scheduling platform (SaaS/self-hosted infrastructure) with no AI, coding assistant, or developer-tooling
-    angle beyond being a web app built with common dev tools.
+  reason: This is a scheduling platform (SaaS/self-hosted infrastructure) with no AI, coding assistant, or developer-tooling angle beyond being a web app built with common dev tools.
   evidence:
-    - 'Repo description: ''Scheduling infrastructure for absolutely everyone'''
-    - 'README: ''Cal.diy is the community-driven, fully open-source scheduling platform'''
+    - "Repo description: 'Scheduling infrastructure for absolutely everyone'"
+    - "README: 'Cal.diy is the community-driven, fully open-source scheduling platform'"
     - No AI, coding, or developer-tooling functionality mentioned
 placement:
   primary_category: null
@@ -83,22 +77,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:06.140Z'
+    updated_at: "2026-09-24T04:13:06.140Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T05:00:09.829Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for github__calcom__cal.diy: Invalid AI response structure: Invalid confidence
-        value: undefined
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -110,12 +102,10 @@ processing:
       input_hash: sha256:579c173dd190f94358a80e23af5ece51395c9061ab6df7c85cd227211bdb8e54
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a scheduling platform (SaaS/self-hosted infrastructure) with no AI, coding assistant, or
-        developer-tooling angle beyond being a web app built with common dev tools.
+      decision_reason: This is a scheduling platform (SaaS/self-hosted infrastructure) with no AI, coding assistant, or developer-tooling angle beyond being a web app built with common dev tools.
       decision_evidence:
-        - 'Repo description: ''Scheduling infrastructure for absolutely everyone'''
-        - 'README: ''Cal.diy is the community-driven, fully open-source scheduling platform'''
+        - "Repo description: 'Scheduling infrastructure for absolutely everyone'"
+        - "README: 'Cal.diy is the community-driven, fully open-source scheduling platform'"
         - No AI, coding, or developer-tooling functionality mentioned
       category_candidates: []
       contrastive_reason: null

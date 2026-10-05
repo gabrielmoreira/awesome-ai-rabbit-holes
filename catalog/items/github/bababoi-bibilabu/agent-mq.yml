@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bababoi-bibilabu__agent-mq__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: bababoi-bibilabu/agent-mq
         extracted_url: https://github.com/bababoi-bibilabu/agent-mq
-        surrounding_text: >-
-          - [bababoi-bibilabu/agent-mq](https://github.com/bababoi-bibilabu/agent-mq) [![agent-mq MCP
-          server](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq/badges/score.svg)](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq)
-          📇 ☁️ 🏠 - Message queue for AI coding assistants. Let AI agents (Claude Code, Cursor, Codex) send messages to
-          each other across sessions and machines. UUID-based auth, self-hostable.
+        surrounding_text: "- [bababoi-bibilabu/agent-mq](https://github.com/bababoi-bibilabu/agent-mq) [![agent-mq MCP server](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq/badges/score.svg)](https://glama.ai/mcp/servers/bababoi-bibilabu/agent-mq) 📇 ☁️ 🏠 - Message queue for AI coding assistants. Let AI agents (Claude Code, Cursor, Codex) send messages to each other across sessions and machines. UUID-based auth, self-hostable."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: bababoi-bibilabu/agent-mq
     html_url: https://github.com/bababoi-bibilabu/agent-mq
-    created_at: '2026-03-13T17:10:17Z'
-    pushed_at: '2026-03-17T03:11:49Z'
+    created_at: "2026-03-13T17:10:17Z"
+    pushed_at: "2026-03-17T03:11:49Z"
     description: Message queue for AI coding assistants. Let your AI agents talk to each other.
     homepage: https://agent-mq.com
     topics:
@@ -47,15 +43,13 @@ metadata:
       - mcp
       - message-queue
       - multi-agent
-    last_checked_at: '2026-09-21T04:13:53.981Z'
+    last_checked_at: "2026-09-21T04:13:53.981Z"
     readme:
-      fetched_at: '2026-09-21T04:13:53.981Z'
+      fetched_at: "2026-09-21T04:13:53.981Z"
       bytes: 1680
 insights:
   summary: Message queue for AI coding assistants enabling inter-agent communication.
-  why_it_matters: >-
-    Allows AI coding agents to coordinate and communicate asynchronously, which can improve multi-agent workflows in
-    development environments.
+  why_it_matters: Allows AI coding agents to coordinate and communicate asynchronously, which can improve multi-agent workflows in development environments.
   mental_damage: Now your agents can argue about tabs vs. spaces in real-time.
   tags:
     - multi-agent
@@ -74,21 +68,21 @@ placement:
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''agent-orchestration'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.604Z'
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:53.981Z'
+    updated_at: "2026-09-21T04:13:53.981Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -103,18 +97,14 @@ processing:
       input_hash: sha256:c5c45f6aaf5b3e00226767b7bfa65b7f378ded666e41c5e340ac1ad51da65888
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: >-
-        The core value is coordinating multiple agents via a message queue, fitting the multi-agent runtime platform
-        identity.
+      decision_reason: The core value is coordinating multiple agents via a message queue, fitting the multi-agent runtime platform identity.
       decision_evidence:
-        - 'Repo description: ''Message queue for AI coding assistants. Let your AI agents talk to each other.'''
+        - "Repo description: 'Message queue for AI coding assistants. Let your AI agents talk to each other.'"
         - README describes server API for agent management and message passing
         - Listed in awesome-mcp-servers under Communication
       category_candidates:
         - agent-orchestration
         - mcp
-      contrastive_reason: >-
-        Choose agent-orchestration over mcp because the primary identity is multi-agent coordination rather than MCP
-        infrastructure.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''agent-orchestration'''
+      contrastive_reason: Choose agent-orchestration over mcp because the primary identity is multi-agent coordination rather than MCP infrastructure.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
       review_resume_lifecycle: null

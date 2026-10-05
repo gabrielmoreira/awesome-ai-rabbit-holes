@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__haoyifan__silicon-pantheon__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: haoyifan/Silicon-Pantheon
         extracted_url: https://github.com/haoyifan/silicon-pantheon
-        surrounding_text: >-
-          - [haoyifan/Silicon-Pantheon](https://github.com/haoyifan/Silicon-Pantheon) [![haoyifan/Silicon-Pantheon MCP
-          server](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon/badges/score.svg)](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon)
-          🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn-based strategy game where AI agents (Claude, GPT, Grok) are the players and humans
-          coach from the sideline. Agents command armies on tactical grids, write post-match reflections, and learn
-          across games. MCP-native client-server architecture with a hosted lobby and self-host option.
+        surrounding_text: "- [haoyifan/Silicon-Pantheon](https://github.com/haoyifan/Silicon-Pantheon) [![haoyifan/Silicon-Pantheon MCP server](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon/badges/score.svg)](https://glama.ai/mcp/servers/haoyifan/Silicon-Pantheon) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Turn-based strategy game where AI agents (Claude, GPT, Grok) are the players and humans coach from the sideline. Agents command armies on tactical grids, write post-match reflections, and learn across games. MCP-native client-server architecture with a hosted lobby and self-host option."
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: false
     full_name: haoyifan/Silicon-Pantheon
     html_url: https://github.com/haoyifan/Silicon-Pantheon
-    created_at: '2026-04-13T15:53:33Z'
-    pushed_at: '2026-05-04T20:02:28Z'
+    created_at: "2026-04-13T15:53:33Z"
+    pushed_at: "2026-05-04T20:02:28Z"
     description: Silicon Pantheon - Tactics game played by AI agents coached by human
     homepage: https://siliconpantheon.com
     topics:
@@ -49,20 +44,14 @@ metadata:
       - mcp
       - strategy-game
       - turn-based
-    last_checked_at: '2026-07-30T05:05:35.085Z'
+    last_checked_at: "2026-07-30T05:05:35.085Z"
     readme:
-      fetched_at: '2026-07-30T05:05:35.085Z'
+      fetched_at: "2026-07-30T05:05:35.085Z"
       bytes: 12782
 insights:
-  summary: >-
-    A turn-based strategy game where AI agents (e.g., Claude, GPT-5) compete as players, coached by humans via playbooks
-    and real-time instructions.
-  why_it_matters: >-
-    It offers a novel way to observe, refine, and benchmark AI agent behavior in a structured, competitive environment
-    with human guidance.
-  mental_damage: >-
-    Finally, a way to watch AI agents reenact Thermopylae while you scream advice from the sidelines like a backseat
-    general.
+  summary: A turn-based strategy game where AI agents (e.g., Claude, GPT-5) compete as players, coached by humans via playbooks and real-time instructions.
+  why_it_matters: It offers a novel way to observe, refine, and benchmark AI agent behavior in a structured, competitive environment with human guidance.
+  mental_damage: Finally, a way to watch AI agents reenact Thermopylae while you scream advice from the sidelines like a backseat general.
   tags:
     - ai-agents
     - benchmark
@@ -72,12 +61,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a game/benchmark for AI agents, not a developer tool for building, integrating, or deploying AI workflows or
-    code.
+  reason: This is a game/benchmark for AI agents, not a developer tool for building, integrating, or deploying AI workflows or code.
   evidence:
-    - 'Repo description: ''Tactics game played by AI agents coached by human'''
-    - 'README: ''The first turn-based strategy game where AI agents are the first-class players, not NPCs.'''
+    - "Repo description: 'Tactics game played by AI agents coached by human'"
+    - "README: 'The first turn-based strategy game where AI agents are the first-class players, not NPCs.'"
     - Topics include 'agent-benchmark' and 'strategy-game', not developer tooling
 placement:
   primary_category: null
@@ -88,19 +75,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.618Z'
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-03T05:16:58.173Z'
+    updated_at: "2026-09-03T05:16:58.173Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for haoyifan/silicon-pantheon
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -115,12 +102,10 @@ processing:
       input_hash: sha256:e947e35a11609e140e7ba0c7a9ee9961c1e62c05ae0b7b7956cbd38c2c54e21c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a game/benchmark for AI agents, not a developer tool for building, integrating, or deploying AI
-        workflows or code.
+      decision_reason: This is a game/benchmark for AI agents, not a developer tool for building, integrating, or deploying AI workflows or code.
       decision_evidence:
-        - 'Repo description: ''Tactics game played by AI agents coached by human'''
-        - 'README: ''The first turn-based strategy game where AI agents are the first-class players, not NPCs.'''
+        - "Repo description: 'Tactics game played by AI agents coached by human'"
+        - "README: 'The first turn-based strategy game where AI agents are the first-class players, not NPCs.'"
         - Topics include 'agent-benchmark' and 'strategy-game', not developer tooling
       category_candidates: []
       contrastive_reason: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nisaka520__jevguide__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: JevGuide
         extracted_url: https://github.com/nisaka520/jevguide
-        surrounding_text: >-
-          - [JevGuide](https://github.com/Nisaka520/JevGuide) ([site](https://nisaka520.github.io/JevGuide/)) - 弦外之音 ——
-          微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。
+        surrounding_text: "- [JevGuide](https://github.com/Nisaka520/JevGuide) ([site](https://nisaka520.github.io/JevGuide/)) - 弦外之音 —— 微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。"
         confidence: high
     - id: discovery__github__nisaka520__jevguide__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,11 +35,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: JevGuide
         extracted_url: https://github.com/nisaka520/jevguide
-        surrounding_text: >-
-          - [JevGuide](https://github.com/Nisaka520/JevGuide) - `Open source` · `Free source build` · `BYOK`. Android
-          WeChat relationship assistant: TypeSafe Jev judges affinity/intent; chat model drafts three overlay replies
-          (never auto-sends). [Product page](https://nisaka520.github.io/JevGuide/) · [Project
-          guide](community/projects/apps/jevguide-nisaka520.md).
+        surrounding_text: "- [JevGuide](https://github.com/Nisaka520/JevGuide) - `Open source` · `Free source build` · `BYOK`. Android WeChat relationship assistant: TypeSafe Jev judges affinity/intent; chat model drafts three overlay replies (never auto-sends). [Product page](https://nisaka520.github.io/JevGuide/) · [Project guide](community/projects/apps/jevguide-nisaka520.md)."
         confidence: high
 metadata:
   github:
@@ -79,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.421Z'
+    updated_at: "2026-09-29T13:07:10.421Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

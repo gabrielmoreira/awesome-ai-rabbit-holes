@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mishanefedov__agentwatch__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,12 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: agentwatch
         extracted_url: https://github.com/mishanefedov/agentwatch
-        surrounding_text: >-
-          - **[agentwatch](https://github.com/mishanefedov/agentwatch)** – Local-only TUI + web dashboard observing
-          every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one
-          unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection,
-          context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud,
-          no telemetry. Free and MIT.
+        surrounding_text: "- **[agentwatch](https://github.com/mishanefedov/agentwatch)** – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT."
         confidence: high
 metadata:
   github:
@@ -42,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    agentwatch – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex,
-    Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit
-    weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode,
-    and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT.
+  summary: agentwatch – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

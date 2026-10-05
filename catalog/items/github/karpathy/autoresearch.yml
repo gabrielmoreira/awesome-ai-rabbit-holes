@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__karpathy__autoresearch__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -18,13 +18,9 @@ provenance:
         section_path:
           - Full list
           - Classification & Routing
-        anchor_text: 'Auto-optimizing Jev: half the errors, 1/7 the cost'
+        anchor_text: "Auto-optimizing Jev: half the errors, 1/7 the cost"
         extracted_url: https://kiln.tech/blog/auto_optimizing_jev_with_autoresearch
-        surrounding_text: >-
-          - [Auto-optimizing Jev: half the errors, 1/7 the
-          cost](https://kiln.tech/blog/auto_optimizing_jev_with_autoresearch) - Text classification: asks Jev a `Choice`
-          over the readings of a Chinese polyphonic character while the model stays fixed and only the harness around it
-          is optimised, ending at half the errors for a seventh of the cost.
+        surrounding_text: "- [Auto-optimizing Jev: half the errors, 1/7 the cost](https://kiln.tech/blog/auto_optimizing_jev_with_autoresearch) - Text classification: asks Jev a `Choice` over the readings of a Chinese polyphonic character while the model stays fixed and only the harness around it is optimised, ending at half the errors for a seventh of the cost."
         confidence: high
 metadata:
   github:
@@ -42,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Auto-optimizing Jev: half the errors, 1/7 the cost - Text classification: asks Jev a Choice over the readings of a
-    Chinese polyphonic character while the model stays fixed and only the harness around it is optimised, ending at half
-    the errors for a seventh of the cost.
+  summary: "Auto-optimizing Jev: half the errors, 1/7 the cost - Text classification: asks Jev a Choice over the readings of a Chinese polyphonic character while the model stays fixed and only the harness around it is optimised, ending at half the errors for a seventh of the cost."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.463Z'
+    updated_at: "2026-09-29T13:07:10.463Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

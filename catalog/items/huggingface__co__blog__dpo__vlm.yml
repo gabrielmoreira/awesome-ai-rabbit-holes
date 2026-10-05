@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__blog__dpo__vlm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,9 +18,7 @@ provenance:
           - 技巧 Tips
         anchor_text: Preference Optimization for Vision Language Models with TRL
         extracted_url: https://huggingface.co/blog/dpo_vlm
-        surrounding_text: >-
-          27. [Preference Optimization for Vision Language Models with TRL](https://huggingface.co/blog/dpo_vlm)
-          【[support model](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForVision2Seq)】
+        surrounding_text: 27. [Preference Optimization for Vision Language Models with TRL](https://huggingface.co/blog/dpo_vlm) 【[support model](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForVision2Seq)】
         confidence: high
 metadata:
   github:
@@ -38,28 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A technical tutorial on applying Direct Preference Optimization (DPO) to Vision Language Models using the TRL
-    library.
-  why_it_matters: >-
-    It provides a specific, actionable workflow for reducing hallucinations in multimodal models through
-    preference-based fine-tuning.
-  mental_damage: Another hyper-specific fine-tuning recipe to add to the 'I will definitely use this once I have an H100' pile.
+  summary: A Hugging Face blog post explaining how to apply Direct Preference Optimization (DPO) to vision language models using the TRL library.
+  why_it_matters: It provides developers with a practical guide to fine-tune VLMs for better alignment with human preferences, reducing hallucinations in multimodal tasks.
+  mental_damage: Another reminder that even vision models now need human preference labels to stop confidently guessing wrong answers.
   tags:
-    - vlm
-    - dpo
-    - finetuning
+    - vision-language-models
+    - preference-optimization
     - trl
-    - huggingface
+    - peft
+    - lora
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input is a one-off blog post and tutorial rather than a standalone developer tool, framework, or sustained
-    curation resource.
+  reason: The content is an educational blog post about a machine learning technique, not a developer-facing tool, agent, framework, or product that can be used in a workflow.
   evidence:
-    - The URL leads to a Hugging Face blog post, not a repository or tool product
-    - The content is an educational guide for the TRL library rather than the library itself
+    - The URL points to a Hugging Face blog post, not a GitHub repo or standalone tool.
+    - The content explains how to use TRL and PEFT for DPO on VLMs but does not release or define a new tool, SDK, or agent.
+    - It lacks a primary product identity — it is documentation, not a reusable developer tool.
 placement:
   primary_category: null
   section: null
@@ -69,12 +62,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -82,25 +73,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:22:52.946Z'
+    updated_at: "2026-10-05T04:33:43.078Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:384d7781f598dc7deec5f396e185632aa95d897a726d2995bbeeeff11a794782
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2f8ec6d0291491df4aadba142c7c9cb52ef46f081c93264b9788e2b065c80c73
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input is a one-off blog post and tutorial rather than a standalone developer tool, framework, or sustained
-        curation resource.
+      decision_reason: The content is an educational blog post about a machine learning technique, not a developer-facing tool, agent, framework, or product that can be used in a workflow.
       decision_evidence:
-        - The URL leads to a Hugging Face blog post, not a repository or tool product
-        - The content is an educational guide for the TRL library rather than the library itself
+        - The URL points to a Hugging Face blog post, not a GitHub repo or standalone tool.
+        - The content explains how to use TRL and PEFT for DPO on VLMs but does not release or define a new tool, SDK, or agent.
+        - It lacks a primary product identity — it is documentation, not a reusable developer tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

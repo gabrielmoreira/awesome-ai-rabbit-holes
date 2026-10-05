@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__copilot__tencent__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 腾讯云代码助手CodeBuddy，是一款辅助编码工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。为你生成优质代码，帮你解决技术难题，提升编码效率。
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: 腾讯云代码助手 CodeBuddy is a coding assistant based on Tencent's Hunyuan code model, offering code completion, technical dialogue, and optimization.
+  why_it_matters: It provides AI-powered code assistance within Tencent Cloud, helping developers write and debug code more efficiently in Chinese-language environments.
+  mental_damage: Another cloud vendor slapping 'AI' on their IDE plugin while developers wonder if it's just Copilot with a different logo and regional lock-in.
+  tags:
+    - coding-assistant
+    - tencent-cloud
+    - chinese-ide
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
+  reason: CodeBuddy is positioned as a standalone coding assistant with code completion, chat, and optimization capabilities, fitting the coding-agent profile rather than being a mere extension or framework.
   evidence:
-    - jev winnow:e4b confidence 0.76
+    - "Scraped site: '腾讯云代码助手CodeBuddy，是一款辅助编码工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。'"
+    - "Source-list: described as '辅助编码工具' providing '技术对话、代码补全、代码诊断和优化等能力' in the 代码 Coding section."
+    - No evidence it is primarily an extension, framework, or app generator — it acts as the coding assistant itself.
 placement:
   primary_category: coding-agents
   secondary_categories: []
   section: IDE-Native & Editor Agents
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -64,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:33.383Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d33bba2fdf87c2c937350e419c2e1ad1c9fb36859ebb11cb04d571026c2d26db
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: CodeBuddy is positioned as a standalone coding assistant with code completion, chat, and optimization capabilities, fitting the coding-agent profile rather than being a mere extension or framework.
+      decision_evidence:
+        - "Scraped site: '腾讯云代码助手CodeBuddy，是一款辅助编码工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。'"
+        - "Source-list: described as '辅助编码工具' providing '技术对话、代码补全、代码诊断和优化等能力' in the 代码 Coding section."
+        - No evidence it is primarily an extension, framework, or app generator — it acts as the coding assistant itself.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because CodeBuddy presents itself as a primary coding assistant with autonomous code completion and chat, not as a tool that mainly augments another agent or editor.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,9 +6,8 @@ identity:
   github_repo: issue-orchestrator/issue-orchestrator
 provenance:
   discoveries:
-    - id: >-
-        discovery__github__issue-orchestrator__issue-orchestrator__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__github__issue-orchestrator__issue-orchestrator__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -20,11 +19,7 @@ provenance:
           - Coding Agents
         anchor_text: issue-orchestrator
         extracted_url: https://github.com/brucebgordon/issue-orchestrator
-        surrounding_text: >-
-          - **[issue-orchestrator](https://github.com/BruceBGordon/issue-orchestrator)** – Open-source orchestrator that
-          runs Claude, Codex, and Gemini agents on GitHub issues in isolated worktrees, treating agent output as a
-          claim, not authority: nothing advances until validation and a reviewer agent pass, with crash recovery and
-          human merge authority.
+        surrounding_text: "- **[issue-orchestrator](https://github.com/BruceBGordon/issue-orchestrator)** – Open-source orchestrator that runs Claude, Codex, and Gemini agents on GitHub issues in isolated worktrees, treating agent output as a claim, not authority: nothing advances until validation and a reviewer agent pass, with crash recovery and human merge authority."
         confidence: high
 metadata:
   github:
@@ -42,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    issue-orchestrator – Open-source orchestrator that runs Claude, Codex, and Gemini agents on GitHub issues in
-    isolated worktrees, treating agent output as a claim, not authority: nothing advances until validation and a
-    reviewer agent pass, with crash recovery and human merge authority.
+  summary: "issue-orchestrator – Open-source orchestrator that runs Claude, Codex, and Gemini agents on GitHub issues in isolated worktrees, treating agent output as a claim, not authority: nothing advances until validation and a reviewer agent pass, with crash recovery and human merge authority."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

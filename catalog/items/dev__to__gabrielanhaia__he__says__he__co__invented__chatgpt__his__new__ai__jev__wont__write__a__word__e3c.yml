@@ -5,9 +5,8 @@ canonical_url: https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-n
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__dev__to__gabrielanhaia__he__says__he__co__invented__chatgpt__his__new__ai__jev__wont__write__a__word__e3c__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__dev__to__gabrielanhaia__he__says__he__co__invented__chatgpt__his__new__ai__jev__wont__write__a__word__e3c__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Articles & threads
         anchor_text: He says he co-invented ChatGPT. His new AI will not write a word
         extracted_url: https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-new-ai-jev-wont-write-a-word-e3c
-        surrounding_text: >-
-          - [He says he co-invented ChatGPT. His new AI will not write a
-          word](https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-new-ai-jev-wont-write-a-word-e3c) -
-          Dev.to walkthrough of the Vercel AI SDK evaluate integration.
+        surrounding_text: "- [He says he co-invented ChatGPT. His new AI will not write a word](https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-new-ai-jev-wont-write-a-word-e3c) - Dev.to walkthrough of the Vercel AI SDK evaluate integration."
         confidence: high
 metadata:
   github:
@@ -40,26 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a decision model that returns typed judgments with calibrated probabilities instead of generating text.
+  why_it_matters: It lets developers replace brittle LLM text parsing with structured, probabilistic outputs for routing, classification, and triage in code.
+  mental_damage: Another promise of 'zero hallucinations' that shifts the burden of correctness from the model to your threshold tuning.
+  tags:
+    - decision-model
+    - typed-output
+    - probabilistic-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: Jev is a decision model that returns typed answers with probabilities, matching the core identity of the decision-models category, not a coding agent or extension.
   evidence:
-    - jev winnow:e4b 0.32 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Jev answers with typed decisions and probabilities, never text.
+    - It returns Choice, Score, and Noul/Boolean outputs with calibrated probabilities for use in code branching.
+    - The product is presented as a System One model optimized for automation via structured judgments.
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:59.611Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7b07631bb65dfa6eabcd13d364f4bec3dbdbc64b3f4d38e3e62b99750c7453af
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that returns typed answers with probabilities, matching the core identity of the decision-models category, not a coding agent or extension.
+      decision_evidence:
+        - Jev answers with typed decisions and probabilities, never text.
+        - It returns Choice, Score, and Noul/Boolean outputs with calibrated probabilities for use in code branching.
+        - The product is presented as a System One model optimized for automation via structured judgments.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's core identity is returning typed judgments with probabilities, not writing or editing code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

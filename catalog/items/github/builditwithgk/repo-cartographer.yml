@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__builditwithgk__repo-cartographer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-10T04:12:32.934Z'
+      discovered_at: "2026-09-10T04:12:32.934Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,14 +20,7 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: builditwithgk/repo-cartographer
         extracted_url: https://github.com/builditwithgk/repo-cartographer
-        surrounding_text: >-
-          - [builditwithgk/repo-cartographer](https://github.com/builditwithgk/repo-cartographer)
-          [![builditwithgk/repo-cartographer MCP
-          server](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer/badges/score.svg)](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer)
-          📇 🏠 🍎 🪟 🐧 - Turn any repo into an architecture diagram: deterministic extraction (file tree, JS/TS +
-          Python import graph, frameworks, entry points) that the connected model refines into Mermaid or Graphviz DOT.
-          Doubles as a CLI + GitHub Action enforcing architecture rules (forbidden imports, dependency cycles) with
-          baselines in CI. Install via NPM: `npx -y repo-cartographer`
+        surrounding_text: "- [builditwithgk/repo-cartographer](https://github.com/builditwithgk/repo-cartographer) [![builditwithgk/repo-cartographer MCP server](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer/badges/score.svg)](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer) 📇 🏠 🍎 🪟 🐧 - Turn any repo into an architecture diagram: deterministic extraction (file tree, JS/TS + Python import graph, frameworks, entry points) that the connected model refines into Mermaid or Graphviz DOT. Doubles as a CLI + GitHub Action enforcing architecture rules (forbidden imports, dependency cycles) with baselines in CI. Install via NPM: `npx -y repo-cartographer`"
         confidence: high
 metadata:
   github:
@@ -37,13 +30,10 @@ metadata:
     archived: false
     full_name: builditwithgk/repo-cartographer
     html_url: https://github.com/builditwithgk/repo-cartographer
-    created_at: '2026-07-31T14:15:30Z'
-    pushed_at: '2026-08-05T15:32:46Z'
-    description: >-
-      Understand any codebase in 60 seconds - an MCP server, CLI and GitHub Action that turns any repo into an
-      architecture diagram (Mermaid/Graphviz) and enforces architecture rules in CI. Works with Claude, Cursor, ChatGPT
-      and any MCP client.
-    homepage: ''
+    created_at: "2026-07-31T14:15:30Z"
+    pushed_at: "2026-08-05T15:32:46Z"
+    description: Understand any codebase in 60 seconds - an MCP server, CLI and GitHub Action that turns any repo into an architecture diagram (Mermaid/Graphviz) and enforces architecture rules in CI. Works with Claude, Cursor, ChatGPT and any MCP client.
+    homepage: ""
     topics:
       - architecture
       - architecture-diagram
@@ -59,20 +49,14 @@ metadata:
       - model-context-protocol
       - software-architecture
       - typescript
-    last_checked_at: '2026-09-24T04:13:04.620Z'
+    last_checked_at: "2026-09-24T04:13:04.620Z"
     readme:
-      fetched_at: '2026-09-24T04:13:04.620Z'
+      fetched_at: "2026-09-24T04:13:04.620Z"
       bytes: 9297
 insights:
-  summary: >-
-    Repo-cartographer is an MCP server, CLI, and GitHub Action that generates Mermaid or Graphviz architecture diagrams
-    from any repository and enforces architecture rules via CI.
-  why_it_matters: >-
-    It gives developers an automated, model-agnostic way to visualize and govern codebase structure directly in their
-    workflow without hallucination.
-  mental_damage: >-
-    Finally, a tool that promises to make architecture diagrams actually accurate—until you realize you now have to
-    maintain yet another YAML file to keep it happy.
+  summary: Repo-cartographer is an MCP server, CLI, and GitHub Action that generates Mermaid or Graphviz architecture diagrams from any repository and enforces architecture rules via CI.
+  why_it_matters: It gives developers an automated, model-agnostic way to visualize and govern codebase structure directly in their workflow without hallucination.
+  mental_damage: Finally, a tool that promises to make architecture diagrams actually accurate—until you realize you now have to maintain yet another YAML file to keep it happy.
   tags:
     - mcp
     - architecture
@@ -95,18 +79,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-10T04:12:32.936Z'
+    updated_at: "2026-09-10T04:12:32.936Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:04.620Z'
+    updated_at: "2026-09-24T04:13:04.620Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:59:07.655Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
@@ -114,9 +100,7 @@ processing:
       input_hash: sha256:52bdc25adee0c78ab457b4aa6c9f0e936fe27fda7b674f419fe24fbfea02bb04
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server that exposes architecture analysis and diagram generation as tools
-        over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
+      decision_reason: The product's core identity is an MCP server that exposes architecture analysis and diagram generation as tools over the Model Context Protocol, making MCP its primary purpose rather than a side feature.
       decision_evidence:
         - Repo description explicitly states it is an MCP server, CLI, and GitHub Action
         - README emphasizes it speaks MCP over stdio and works with any MCP client like Claude Code or Cursor
@@ -124,9 +108,7 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product's main identity is providing MCP infrastructure (a
-        server exposing architecture tools), not extending a host agent with new capabilities.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's main identity is providing MCP infrastructure (a server exposing architecture tools), not extending a host agent with new capabilities.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 2

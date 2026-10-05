@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bharathvaj-ganesan__whois-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Whois MCP
         extracted_url: https://github.com/bharathvaj-ganesan/whois-mcp
-        surrounding_text: >-
-          - **[Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)** - MCP server that performs whois lookup
-          against domain, IP, ASN and TLD.
+        surrounding_text: "- **[Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)** - MCP server that performs whois lookup against domain, IP, ASN and TLD."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: bharathvaj-ganesan/whois-mcp
     html_url: https://github.com/bharathvaj-ganesan/whois-mcp
-    created_at: '2025-03-05T18:20:19Z'
-    pushed_at: '2025-03-15T10:21:52Z'
+    created_at: "2025-03-05T18:20:19Z"
+    pushed_at: "2025-03-15T10:21:52Z"
     description: MCP Server for whois lookups.
     homepage: https://www.npmjs.com/package/@bharathvaj/whois-mcp
     topics:
@@ -41,9 +39,9 @@ metadata:
       - mcp
       - mcp-server
       - whois-lookup
-    last_checked_at: '2026-09-24T04:12:58.521Z'
+    last_checked_at: "2026-09-24T04:12:58.521Z"
     readme:
-      fetched_at: '2026-09-24T04:12:58.521Z'
+      fetched_at: "2026-09-24T04:12:58.521Z"
       bytes: 4018
 insights:
   summary: MCP Server for whois lookups.
@@ -69,18 +67,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:58.521Z'
+    updated_at: "2026-09-24T04:12:58.521Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:55:56.262Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -92,20 +92,14 @@ processing:
       input_hash: sha256:7620b8ed573395900e05b9ac76d13dd338a7e523a741151684b6bf2318bece3f
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product’s core identity is an MCP server exposing whois lookup capabilities, matching the MCP category’s
-        requirement that MCP be the product’s primary identity.
+      decision_reason: The product’s core identity is an MCP server exposing whois lookup capabilities, matching the MCP category’s requirement that MCP be the product’s primary identity.
       decision_evidence:
-        - 'Repo description: ''MCP Server for whois lookups.'''
-        - >-
-          README: 'This MCP server allows AI agents like Claude Desktop, Cursor, Windsurf,.. etc to perform WHOIS
-          lookups and retrieve domain details.'
+        - "Repo description: 'MCP Server for whois lookups.'"
+        - "README: 'This MCP server allows AI agents like Claude Desktop, Cursor, Windsurf,.. etc to perform WHOIS lookups and retrieve domain details.'"
         - Listed in awesome-mcp-servers under Community Servers
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing domain
-        lookup tools over MCP, not merely extending a coding agent’s functionality.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is providing domain lookup tools over MCP, not merely extending a coding agent’s functionality.
       review_reason: null
       review_resume_lifecycle: null

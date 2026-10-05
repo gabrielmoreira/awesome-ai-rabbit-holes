@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tylerjharden__harden-jev-decides__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: harden-jev-decides
         extracted_url: https://github.com/tylerjharden/harden-jev-decides
-        surrounding_text: >-
-          - [harden-jev-decides](https://github.com/tylerjharden/harden-jev-decides) - JEV picks which stream idea
-          becomes the live MVP. TypeSafe System One decision board.
+        surrounding_text: "- [harden-jev-decides](https://github.com/tylerjharden/harden-jev-decides) - JEV picks which stream idea becomes the live MVP. TypeSafe System One decision board."
         confidence: high
     - id: discovery__github__tylerjharden__harden-jev-decides__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: harden-jev-decides
         extracted_url: https://github.com/tylerjharden/harden-jev-decides
-        surrounding_text: >-
-          | [harden-jev-decides](https://github.com/tylerjharden/harden-jev-decides) | ★ 1 | TypeScript | 2026-09-19 |
-          JEV picks which stream idea becomes the live MVP. TypeSafe System One decision board. |
+        surrounding_text: "| [harden-jev-decides](https://github.com/tylerjharden/harden-jev-decides) | ★ 1 | TypeScript | 2026-09-19 | JEV picks which stream idea becomes the live MVP. TypeSafe System One decision board. |"
         confidence: high
 metadata:
   github:
@@ -77,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.427Z'
+    updated_at: "2026-09-29T13:07:10.427Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

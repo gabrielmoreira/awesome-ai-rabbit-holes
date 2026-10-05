@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__redhold__diagrams-mcp-app-core__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: RedHold/diagrams-mcp-app-core
         extracted_url: https://github.com/redhold/diagrams-mcp-app-core
-        surrounding_text: >-
-          - [RedHold/diagrams-mcp-app-core](https://github.com/RedHold/diagrams-mcp-app-core)
-          [![RedHold/diagrams-mcp-app-core MCP
-          server](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core/badges/score.svg)](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core)
-          🎖️ 📇 ☁️ 🍎 🪟 🐧 - Generate and edit draw.io cloud architecture diagrams from prompts, Terraform or
-          Kubernetes manifests, fix Well-Architected warnings and export to SVG.
+        surrounding_text: "- [RedHold/diagrams-mcp-app-core](https://github.com/RedHold/diagrams-mcp-app-core) [![RedHold/diagrams-mcp-app-core MCP server](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core/badges/score.svg)](https://glama.ai/mcp/servers/RedHold/diagrams-mcp-app-core) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Generate and edit draw.io cloud architecture diagrams from prompts, Terraform or Kubernetes manifests, fix Well-Architected warnings and export to SVG."
         confidence: high
 metadata:
   github:
@@ -52,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.22 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.22 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - app-builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

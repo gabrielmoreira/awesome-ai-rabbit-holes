@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__epistasislab__tpot__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - AutoML
         anchor_text: TPOT
         extracted_url: http://automl.info/tpot
-        surrounding_text: >-
-          | [TPOT](http://automl.info/tpot/)                                             | one of the very first AutoML
-          methods and open-source software
-          packages.                                                                                                        
-          | ![GitHub Badge](https://img.shields.io/github/stars/EpistasisLab/tpot.svg?style=flat-square)               |
+        surrounding_text: "| [TPOT](http://automl.info/tpot/)                                             | one of the very first AutoML methods and open-source software packages.                                                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/EpistasisLab/tpot.svg?style=flat-square)               |"
         confidence: high
 metadata:
   github:
@@ -33,8 +29,8 @@ metadata:
     archived: false
     full_name: EpistasisLab/tpot
     html_url: https://github.com/EpistasisLab/tpot
-    created_at: '2015-11-03T21:08:40Z'
-    pushed_at: '2025-09-11T21:32:19Z'
+    created_at: "2015-11-03T21:08:40Z"
+    pushed_at: "2025-09-11T21:32:19Z"
     description: A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
     homepage: http://epistasislab.github.io/tpot/
     topics:
@@ -58,18 +54,14 @@ metadata:
       - random-forest
       - scikit-learn
       - u01ag066833
-    last_checked_at: '2026-08-27T09:23:24.299Z'
+    last_checked_at: "2026-08-27T09:23:24.299Z"
     readme:
-      fetched_at: '2026-08-27T09:23:24.299Z'
+      fetched_at: "2026-08-27T09:23:24.299Z"
       bytes: 12949
 insights:
   summary: A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
-  why_it_matters: >-
-    It automates the construction and tuning of ML pipelines, reducing manual effort for data scientists and developers
-    working on predictive modeling.
-  mental_damage: >-
-    Finally, a way to let evolution do your hyperparameter tuning so you can spend more time explaining to stakeholders
-    why your model still isn’t perfect.
+  why_it_matters: It automates the construction and tuning of ML pipelines, reducing manual effort for data scientists and developers working on predictive modeling.
+  mental_damage: Finally, a way to let evolution do your hyperparameter tuning so you can spend more time explaining to stakeholders why your model still isn’t perfect.
   tags:
     - automl
     - python
@@ -79,9 +71,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    TPOT is a data science/ML pipeline automation tool, not a developer-tooling product for software development
-    workflows (coding, IDEs, agents, etc.).
+  reason: TPOT is a data science/ML pipeline automation tool, not a developer-tooling product for software development workflows (coding, IDEs, agents, etc.).
   evidence:
     - Repo description explicitly states it is a Python Automated Machine Learning tool for optimizing ML pipelines
     - README positions it as a 'Data Science Assistant' for pipeline automation, not code editing or repo workflows
@@ -95,17 +85,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.613Z'
+    updated_at: "2026-05-06T22:12:15.613Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-27T09:23:24.299Z'
+    updated_at: "2026-08-27T09:23:24.299Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -120,9 +110,7 @@ processing:
       input_hash: sha256:13570eeb8a59a6ff8c94e24e8117ececffaa972010a9472caded1c4b1eda2028
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        TPOT is a data science/ML pipeline automation tool, not a developer-tooling product for software development
-        workflows (coding, IDEs, agents, etc.).
+      decision_reason: TPOT is a data science/ML pipeline automation tool, not a developer-tooling product for software development workflows (coding, IDEs, agents, etc.).
       decision_evidence:
         - Repo description explicitly states it is a Python Automated Machine Learning tool for optimizing ML pipelines
         - README positions it as a 'Data Science Assistant' for pipeline automation, not code editing or repo workflows

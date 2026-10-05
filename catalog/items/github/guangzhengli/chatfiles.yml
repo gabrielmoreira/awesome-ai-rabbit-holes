@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__guangzhengli__chatfiles__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,10 +20,7 @@ provenance:
           - Knowledge Management
         anchor_text: ChatFiles
         extracted_url: https://github.com/guangzhengli/chatfiles
-        surrounding_text: >-
-          - [ChatFiles](https://github.com/guangzhengli/ChatFiles): Upload your document and then chat with it. Powered
-          by GPT / Embedding / TS / NextJS. ![GitHub Repo
-          stars](https://img.shields.io/github/stars/guangzhengli/ChatFiles?style=social)
+        surrounding_text: "- [ChatFiles](https://github.com/guangzhengli/ChatFiles): Upload your document and then chat with it. Powered by GPT / Embedding / TS / NextJS. ![GitHub Repo stars](https://img.shields.io/github/stars/guangzhengli/ChatFiles?style=social)"
         confidence: high
 metadata:
   github:
@@ -33,25 +30,23 @@ metadata:
     archived: false
     full_name: guangzhengli/ChatFiles
     html_url: https://github.com/guangzhengli/ChatFiles
-    created_at: '2023-03-28T11:20:09Z'
-    pushed_at: '2024-12-17T10:26:50Z'
+    created_at: "2023-03-28T11:20:09Z"
+    pushed_at: "2024-12-17T10:26:50Z"
     description: Document Chatbot — multiple files. Powered by GPT / Embedding.
-    homepage: ''
+    homepage: ""
     topics:
       - chatbot
       - chatfile
       - chatgpt
       - chatgpt-api
       - chatpdf
-    last_checked_at: '2026-09-03T05:16:55.687Z'
+    last_checked_at: "2026-09-03T05:16:55.687Z"
     readme:
-      fetched_at: '2026-09-03T05:16:55.687Z'
+      fetched_at: "2026-09-03T05:16:55.687Z"
       bytes: 3183
 insights:
   summary: A web app for chatting with multiple files using GPT and embeddings, built with LangChainJS and Supabase vector DB.
-  why_it_matters: >-
-    Lets developers upload documents and query them conversationally, useful for exploring codebases or documentation
-    without manual searching.
+  why_it_matters: Lets developers upload documents and query them conversationally, useful for exploring codebases or documentation without manual searching.
   mental_damage: Because nothing says 'I trust this code' like asking an LLM to explain the PDF you just uploaded.
   tags:
     - document-chat
@@ -62,13 +57,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a general-purpose document chatbot rather than a developer-tooling product; its primary use case is not
-    developer workflow augmentation.
+  reason: This is a general-purpose document chatbot rather than a developer-tooling product; its primary use case is not developer workflow augmentation.
   evidence:
-    - 'Repo description: ''Document Chatbot — multiple files. Powered by GPT / Embedding.'''
-    - 'README: ''Upload your file and have a conversation with it.'''
-    - 'Source-list context: listed under ''Knowledge Management'' in awesome-langchain'
+    - "Repo description: 'Document Chatbot — multiple files. Powered by GPT / Embedding.'"
+    - "README: 'Upload your file and have a conversation with it.'"
+    - "Source-list context: listed under 'Knowledge Management' in awesome-langchain"
 placement:
   primary_category: null
   section: null
@@ -78,17 +71,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.617Z'
+    updated_at: "2026-05-06T22:12:15.617Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:55.687Z'
+    updated_at: "2026-09-03T05:16:55.687Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -103,13 +96,11 @@ processing:
       input_hash: sha256:6b1a7d7584a724e7cb6a138a03b6c7a42b4e627a649752abc0398cf6a2aaf047
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a general-purpose document chatbot rather than a developer-tooling product; its primary use case is not
-        developer workflow augmentation.
+      decision_reason: This is a general-purpose document chatbot rather than a developer-tooling product; its primary use case is not developer workflow augmentation.
       decision_evidence:
-        - 'Repo description: ''Document Chatbot — multiple files. Powered by GPT / Embedding.'''
-        - 'README: ''Upload your file and have a conversation with it.'''
-        - 'Source-list context: listed under ''Knowledge Management'' in awesome-langchain'
+        - "Repo description: 'Document Chatbot — multiple files. Powered by GPT / Embedding.'"
+        - "README: 'Upload your file and have a conversation with it.'"
+        - "Source-list context: listed under 'Knowledge Management' in awesome-langchain"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

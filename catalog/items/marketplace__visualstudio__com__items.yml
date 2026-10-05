@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__marketplace__visualstudio__com__items__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,10 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: GistPad VS Code extension
         extracted_url: https://aka.ms/gistpad
-        surrounding_text: >-
-          - [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access
-          your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev
-          and the [GistPad VS Code extension](https://aka.ms/gistpad).
+        surrounding_text: "- [GistPad-MCP](https://github.com/lostintangent/gistpad-mcp) 📇 🏠 - Use GitHub Gists to manage and access your personal knowledge, daily notes, and reusable prompts. This acts as a companion to https://gistpad.dev and the [GistPad VS Code extension](https://aka.ms/gistpad)."
         confidence: high
     - id: discovery__marketplace__visualstudio__com__items__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -38,9 +35,7 @@ provenance:
           - Method Two
         anchor_text: vscode-cursor-rules
         extracted_url: https://marketplace.visualstudio.com/items
-        surrounding_text: >-
-          2. Install [vscode-cursor-rules](https://marketplace.visualstudio.com/items?itemName=BeilunYang.cursor-rules)
-          extension.
+        surrounding_text: 2. Install [vscode-cursor-rules](https://marketplace.visualstudio.com/items?itemName=BeilunYang.cursor-rules) extension.
         confidence: high
 metadata:
   github:
@@ -58,34 +53,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor.
-  why_it_matters: >-
-    Developers can edit, create, and organize code snippets, notes, and repositories without local cloning or manual Git
-    operations.
-  mental_damage: >-
-    Finally, a way to turn your GitHub Gists into a personal knowledge base without pretending you’ll ever organize
-    them.
+  summary: GistPad is a Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor.
+  why_it_matters: It lets developers edit, fork, and version code snippets and notes without leaving VS Code, streamlining personal knowledge and snippet management.
+  mental_damage: Another VS Code extension promising to be your 'second brain' while you still can't find that one utils file from three weeks ago.
   tags:
     - vscode-extension
-    - gist-manager
-    - developer-productivity
+    - github-gists
+    - snippet-manager
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
+  status: excluded
+  reason: GistPad is a developer productivity tool for managing code snippets and notes, not an AI-powered coding agent or tool; it lacks any AI functionality in its core identity.
   evidence:
-    - jev-latest choice confidence 0.81
+    - README describes managing GitHub Gists and repositories with no mention of AI, LLMs, or intelligent features
+    - Source-list context labels it as a 'Developer Productivity Tools' entry for snippet and note management
+    - Core functionality includes gist editing, repo management, daily notes, and wikis — all manual, non-AI workflows
 placement:
-  primary_category: extensions-and-addons
+  primary_category: null
   secondary_categories: []
-  section: IDE & Editor Add-ons
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.597Z'
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,36 +86,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:32:13.341Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for marketplace__visualstudio__com__items: Invalid AI response format:
-        SyntaxError: Unexpected token 'G', ..."_reason": GistPad is"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:41:20.417Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fffe170428874fe303aa867bada290de2369b20b21d14a553fa4ee152c4e2dd8
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:93efc6a0c7496ffd473cb6c85fc43f985d8f449a8d58db57ff140d6453b2cd1d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        GistPad is a VS Code extension that augments the editor with GitHub Gist and repository management, fitting the
-        Extensions & Integrations category as a host integration layer.
+      decision_reason: GistPad is a developer productivity tool for managing code snippets and notes, not an AI-powered coding agent or tool; it lacks any AI functionality in its core identity.
       decision_evidence:
-        - Described as a VS Code extension for managing GitHub Gists and repositories
-        - Provides direct editing of Gists/repos from VS Code without local Git operations
-        - Includes MCP server integration for Copilot chat but core identity is the VS Code extension
-      category_candidates:
-        - ai-dev-extensions
-        - mcp
-      contrastive_reason: >-
-        Choose ai-dev-extensions over mcp because the primary product identity is a VS Code extension for GitHub
-        integration, with MCP as a secondary compatibility feature.
+        - README describes managing GitHub Gists and repositories with no mention of AI, LLMs, or intelligent features
+        - Source-list context labels it as a 'Developer Productivity Tools' entry for snippet and note management
+        - Core functionality includes gist editing, repo management, daily notes, and wikis — all manual, non-AI workflows
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

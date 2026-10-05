@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/collections/robbyant/lingbot-video
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__collections__robbyant__lingbot__video__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-09T05:28:44.887Z'
+    - id: discovery__huggingface__co__collections__robbyant__lingbot__video__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-09T05:28:44.887Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -38,25 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LingBot-Video is a Hugging Face collection of video-related AI models curated by robbyant.
-  why_it_matters: It helps developers discover video-generation and video-understanding models in one place.
-  mental_damage: >-
-    Another model zoo to bookmark and never actually use, because fine-tuning video models requires a datacenter and a
-    grant.
+  summary: A Hugging Face collection of models focused on video-related tasks under the LingBot-Video series by robbyant.
+  why_it_matters: Provides developers with a curated set of video-capable models for experimentation and integration into AI workflows.
+  mental_damage: Another model collection that pretends to be a tool, just so we can feel like we’re building something while actually just downloading weights.
   tags:
     - video
-    - multimodal
+    - models
     - huggingface-collection
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    LingBot-Video is a curated model collection without developer tooling, workflow integration, or code-level utility,
-    making it a resource directory rather than a developer-facing AI tool.
+  reason: This is a model collection on Hugging Face, not a developer-facing tool, agent, or infrastructure that performs an active role in software development workflows.
   evidence:
-    - The URL points to a Hugging Face collection of models (robbyant/lingbot-video)
-    - The scraped page shows it contains model repos like lingbot-video-dense-1.3b and lingbot-video-moe-30b-a3b
-    - No evidence of tooling, SDKs, agents, or workflows — only model checkpoints and LoRA adapters
+    - The URL points to a Hugging Face collection (https://huggingface.co/collections/robbyant/lingbot-video), not a GitHub repo or standalone product
+    - The content consists of model listings like 'lingbot-video-rewriter-lora' and 'lingbot-video-moe-30b-a3b', indicating it is a repository of model weights
+    - No evidence of tooling, agent behavior, code interaction, or developer workflow integration — it is purely a curated list of models
 placement:
   primary_category: null
   section: null
@@ -66,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-09T05:28:44.888Z'
+    updated_at: "2026-07-09T05:28:44.888Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,29 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:23:35.890Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for huggingface__co__collections__robbyant__lingbot__video: Invalid AI
-        response structure: Missing required field: why_it_matters
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:27:00.261Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b6e23f05f4c5e03700371f571fe7d320afa82b516df08bad099293a5fc2a45ce
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ce538aee3bfdfbfae72540f16df8ee294046bb6f405d0c9996b071a1ed941b7e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: It is a model collection, not a developer-facing tool, agent, framework, or infrastructure that changes how developers build or ship software.
+      decision_reason: This is a model collection on Hugging Face, not a developer-facing tool, agent, or infrastructure that performs an active role in software development workflows.
       decision_evidence:
-        - The URL points to a Hugging Face collection of models (robbyant/lingbot-video)
-        - The scraped page shows it contains model repos like lingbot-video-dense-1.3b and lingbot-video-moe-30b-a3b
-        - No evidence of tooling, SDKs, agents, or workflows — only model checkpoints and LoRA adapters
+        - The URL points to a Hugging Face collection (https://huggingface.co/collections/robbyant/lingbot-video), not a GitHub repo or standalone product
+        - The content consists of model listings like 'lingbot-video-rewriter-lora' and 'lingbot-video-moe-30b-a3b', indicating it is a repository of model weights
+        - No evidence of tooling, agent behavior, code interaction, or developer workflow integration — it is purely a curated list of models
       category_candidates: []
       contrastive_reason: null
       review_reason: null

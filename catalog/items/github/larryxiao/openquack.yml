@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__larryxiao__openquack__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: OpenQuack
         extracted_url: https://github.com/larryxiao/openquack
-        surrounding_text: >-
-          - **[OpenQuack](https://github.com/larryxiao/openquack)** – Local voice dictation menu bar app for macOS that
-          pairs with Cursor, Claude Code, Codex, and Aider; long contextual prompts via WhisperKit on Apple Silicon,
-          pastes at the cursor, all on-device.
+        surrounding_text: "- **[OpenQuack](https://github.com/larryxiao/openquack)** – Local voice dictation menu bar app for macOS that pairs with Cursor, Claude Code, Codex, and Aider; long contextual prompts via WhisperKit on Apple Silicon, pastes at the cursor, all on-device."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    OpenQuack – Local voice dictation menu bar app for macOS that pairs with Cursor, Claude Code, Codex, and Aider; long
-    contextual prompts via WhisperKit on Apple Silicon, pastes at the cursor, all on-device.
+  summary: OpenQuack – Local voice dictation menu bar app for macOS that pairs with Cursor, Claude Code, Codex, and Aider; long contextual prompts via WhisperKit on Apple Silicon, pastes at the cursor, all on-device.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.465Z'
+    updated_at: "2026-09-29T13:07:10.465Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

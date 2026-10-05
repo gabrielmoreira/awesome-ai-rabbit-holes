@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__touraround__lystbot__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,10 +20,7 @@ provenance:
           - 💬 Communication
         anchor_text: TourAround/LystBot
         extracted_url: https://github.com/touraround/lystbot
-        surrounding_text: >-
-          -   **[TourAround/LystBot](https://github.com/TourAround/LystBot)** [![GitHub
-          stars](https://img.shields.io/github/stars/TourAround/LystBot?style=social)](https://github.com/TourAround/LystBot):
-          AI-powered list management for grocery lists, to-dos, and shared packing lists.
+        surrounding_text: "-   **[TourAround/LystBot](https://github.com/TourAround/LystBot)** [![GitHub stars](https://img.shields.io/github/stars/TourAround/LystBot?style=social)](https://github.com/TourAround/LystBot): AI-powered list management for grocery lists, to-dos, and shared packing lists."
         confidence: high
 metadata:
   github:
@@ -59,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +64,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

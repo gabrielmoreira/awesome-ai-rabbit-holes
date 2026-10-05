@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tura-ai__tura__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,7 @@ provenance:
           - Open Source
         anchor_text: Tura
         extracted_url: https://github.com/tura-ai/tura
-        surrounding_text: >-
-          - **[Tura](https://github.com/Tura-AI/tura)** `⭐ 646` — Rust agent runtime that compiles a task into a single
-          runtime-managed command graph instead of a model round trip per tool call, with backward planning and
-          task-scoped compaction. Vendor-published DeepSWE comparison claims 77.5% fewer tokens than Codex CLI. TUI plus
-          a Tauri GUI; npm `tura-ai`. AGPL-3.0.
+        surrounding_text: "- **[Tura](https://github.com/Tura-AI/tura)** `⭐ 646` — Rust agent runtime that compiles a task into a single runtime-managed command graph instead of a model round trip per tool call, with backward planning and task-scoped compaction. Vendor-published DeepSWE comparison claims 77.5% fewer tokens than Codex CLI. TUI plus a Tauri GUI; npm `tura-ai`. AGPL-3.0."
         confidence: high
 metadata:
   github:
@@ -42,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Rust agent runtime that compiles a task into a single runtime-managed command graph instead of a model round trip
-    per tool call, with backward planning and task-scoped compaction. Vendor-published DeepSWE comparison claims 77.5%
-    fewer tokens than Codex CLI. TUI plus a Tauri GUI; npm tura-ai. AGPL-3.0.
+  summary: Rust agent runtime that compiles a task into a single runtime-managed command graph instead of a model round trip per tool call, with backward planning and task-scoped compaction. Vendor-published DeepSWE comparison claims 77.5% fewer tokens than Codex CLI. TUI plus a Tauri GUI; npm tura-ai. AGPL-3.0.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

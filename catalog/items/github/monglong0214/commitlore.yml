@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__monglong0214__commitlore__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - CLI Tools
         anchor_text: CommitLore
         extracted_url: https://github.com/monglong0214/commitlore
-        surrounding_text: >-
-          - **[CommitLore](https://github.com/MongLong0214/commitlore)** – Git-native decision memory that stores
-          constraints and ruled-out alternatives as git trailers and notes, giving coding agents only the guidance still
-          in force for the file being edited.
+        surrounding_text: "- **[CommitLore](https://github.com/MongLong0214/commitlore)** – Git-native decision memory that stores constraints and ruled-out alternatives as git trailers and notes, giving coding agents only the guidance still in force for the file being edited."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CommitLore – Git-native decision memory that stores constraints and ruled-out alternatives as git trailers and
-    notes, giving coding agents only the guidance still in force for the file being edited.
+  summary: CommitLore – Git-native decision memory that stores constraints and ruled-out alternatives as git trailers and notes, giving coding agents only the guidance still in force for the file being edited.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

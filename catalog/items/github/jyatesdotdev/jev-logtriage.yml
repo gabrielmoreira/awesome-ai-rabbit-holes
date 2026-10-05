@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jyatesdotdev__jev-logtriage__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-logtriage
         extracted_url: https://github.com/jyatesdotdev/jev-logtriage
-        surrounding_text: >-
-          - [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)
-          ([site](https://pypi.org/project/jev-logtriage/)) - Jev scores collapsed log batches; code maps answers to
-          suppress, watch, review, notify, or page. Nothing is executed.
+        surrounding_text: "- [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) ([site](https://pypi.org/project/jev-logtriage/)) - Jev scores collapsed log batches; code maps answers to suppress, watch, review, notify, or page. Nothing is executed."
         confidence: high
     - id: discovery__github__jyatesdotdev__jev-logtriage__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,15 +35,10 @@ provenance:
           - Classification & Routing
         anchor_text: jev-logtriage
         extracted_url: https://github.com/jyatesdotdev/jev-logtriage
-        surrounding_text: >-
-          - [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)
-          ![stars](https://img.shields.io/github/stars/jyatesdotdev/jev-logtriage?style=flat-square&label=%E2%98%85) -
-          On-call operations: batches collapsed Loki logs into one Jev call of Noul, Score, and Choice questions, then
-          maps answers in code to suppress, watch, review, notify, or page, with low confidence going to review and
-          nothing executed.
+        surrounding_text: "- [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) ![stars](https://img.shields.io/github/stars/jyatesdotdev/jev-logtriage?style=flat-square&label=%E2%98%85) - On-call operations: batches collapsed Loki logs into one Jev call of Noul, Score, and Choice questions, then maps answers in code to suppress, watch, review, notify, or page, with low confidence going to review and nothing executed."
         confidence: high
     - id: discovery__github__jyatesdotdev__jev-logtriage__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -58,10 +50,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: jev-logtriage
         extracted_url: https://github.com/jyatesdotdev/jev-logtriage
-        surrounding_text: >-
-          - [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) - Jev scores collapsed log batches for noise,
-          severity, and whether an operator should act. Code maps the answers to suppress, watch, review, notify, or
-          page. Nothing is executed.
+        surrounding_text: "- [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) - Jev scores collapsed log batches for noise, severity, and whether an operator should act. Code maps the answers to suppress, watch, review, notify, or page. Nothing is executed."
         confidence: high
 metadata:
   github:
@@ -79,9 +68,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-logtriage (site) - Jev scores collapsed log batches; code maps answers to suppress, watch, review, notify, or
-    page. Nothing is executed.
+  summary: jev-logtriage (site) - Jev scores collapsed log batches; code maps answers to suppress, watch, review, notify, or page. Nothing is executed.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -101,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -109,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

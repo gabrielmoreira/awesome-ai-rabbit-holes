@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__proofpane__releases__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-08-06T05:06:55.627Z'
+      discovered_at: "2026-08-06T05:06:55.627Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: Proofpane/releases
         extracted_url: https://github.com/proofpane/releases
-        surrounding_text: >-
-          - [Proofpane/releases](https://github.com/Proofpane/releases) [![Proofpane/releases MCP
-          server](https://glama.ai/mcp/servers/Proofpane/releases/badges/score.svg)](https://glama.ai/mcp/servers/Proofpane/releases)
-          🎖️ 🏠 🍎 🪟 🐧 - Governance proxy for MCP: pair once and route your MCP servers through policy gates (allow /
-          deny / human-in-the-loop approval), DLP redaction before the model, and cost caps, with every tool call
-          recorded to a hash-chained audit log exportable as an Ed25519-signed, offline-verifiable evidence pack.
-          Single-file binary daemon (macOS / Linux / Windows); downloads and install docs in the linked repo.
+        surrounding_text: "- [Proofpane/releases](https://github.com/Proofpane/releases) [![Proofpane/releases MCP server](https://glama.ai/mcp/servers/Proofpane/releases/badges/score.svg)](https://glama.ai/mcp/servers/Proofpane/releases) 🎖️ 🏠 🍎 🪟 🐧 - Governance proxy for MCP: pair once and route your MCP servers through policy gates (allow / deny / human-in-the-loop approval), DLP redaction before the model, and cost caps, with every tool call recorded to a hash-chained audit log exportable as an Ed25519-signed, offline-verifiable evidence pack. Single-file binary daemon (macOS / Linux / Windows); downloads and install docs in the linked repo."
         confidence: high
 metadata:
   github:
@@ -53,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Local Serving & Gateways; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Local Serving & Gateways; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-08-06T05:06:55.630Z'
+    updated_at: "2026-08-06T05:06:55.630Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,7 +68,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -5,9 +5,8 @@ canonical_url: https://aitestcasegenerator-six.vercel.app/ai-test-case-generator
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__aitestcasegenerator__six__vercel__app__ai__test__case__generator__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__aitestcasegenerator__six__vercel__app__ai__test__case__generator__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: AI Test Case Generator
         extracted_url: https://aitestcasegenerator-six.vercel.app
-        surrounding_text: >-
-          - **[AI Test Case Generator](https://aitestcasegenerator-six.vercel.app/)** – AI-powered test case generator
-          that turns plain-language requirements into structured QA test cases for web and software testing workflows.
+        surrounding_text: "- **[AI Test Case Generator](https://aitestcasegenerator-six.vercel.app/)** – AI-powered test case generator that turns plain-language requirements into structured QA test cases for web and software testing workflows."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AI Test Case Generator – AI-powered test case generator that turns plain-language requirements into structured QA
-    test cases for web and software testing workflows.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI tool that generates test cases from requirements, user stories, and acceptance criteria, exporting them in CSV, Gherkin, and automation-ready formats.
+  why_it_matters: Accelerates early QA by turning requirements into structured test coverage, reducing manual effort in test case creation for developers and QA teams.
+  mental_damage: Finally, a way to feel productive writing tests while secretly hoping the AI didn’t miss the one edge case that burns production down at 3 a.m.
+  tags:
+    - testing
+    - qa
+    - test-generation
+    - ai
+    - requirements
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.66
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
     - app-builders
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +71,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:10.885Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3f88876e09f893245908635540e916cd1e81905cb2bd48edc2f90f81573692d6
+      proposed_primary_category: evals
+      disagreement: true
+      decision_reason: The tool’s core function is generating and validating test cases from requirements, which aligns with evaluating agent or model behavior through test output—fitting the evals category’s focus on measuring, tracing, and comparing AI-assisted workflows, even if the output is used in QA.
+      decision_evidence:
+        - Generates test cases from requirements, user stories, and acceptance criteria with positive, negative, boundary, and error-handling coverage
+        - Exports to CSV, Gherkin, Jira, and automation formats for test management and validation
+        - Listed in 'awesome-ai-coding-tools' under the 'Testing and QA' section for generating QA test cases from requirements with AI
+      category_candidates:
+        - evals
+        - extensions-and-addons
+      contrastive_reason: Choose evals over extensions-and-addons because the tool’s primary identity is generating test artifacts for validation and coverage assessment—not extending a coding agent or editor with debugging, browser, or workflow capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'evals'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

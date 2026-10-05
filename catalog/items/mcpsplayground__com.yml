@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpsplayground__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Clients
         anchor_text: mcps-playground
         extracted_url: https://mcpsplayground.com/chat
-        surrounding_text: '- **[mcps-playground](https://mcpsplayground.com/chat)** a playground for Remote MCP servers'
+        surrounding_text: "- **[mcps-playground](https://mcpsplayground.com/chat)** a playground for Remote MCP servers"
         confidence: high
 metadata:
   github:
@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Interactive web playground for testing and inspecting remote Model Context Protocol (MCP) servers with AI agents.
-  why_it_matters: >-
-    Developers can validate, connect, and test MCP servers in a browser-based environment before integrating them into
-    their workflows.
-  mental_damage: Because nothing says 'modern development' like debugging a protocol server through a chat interface.
+  summary: MCP Playground is a web interface for testing and interacting with remote Model Context Protocol servers via AI agents.
+  why_it_matters: Lets developers quickly validate MCP server integrations and tool discovery without writing code or setting up local clients.
+  mental_damage: Another click-to-test MCP wrapper that feels useful until you realize you still have to debug the actual server.
   tags:
     - mcp
-    - developer-tools
     - testing
+    - developer-tool
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
+  reason: The product's core identity is an MCP client/inspector tool for testing MCP servers, making MCP the primary protocol identity rather than a feature of another product.
   evidence:
-    - jev-latest choice confidence 0.76
+    - "Scraped site title: 'MCP Playground — Test Your Remote MCP Servers'"
+    - "Description: 'Interactive playground for testing Model Context Protocol (MCP) servers with AI agents'"
+    - "Source-list context: listed in awesome-mcp-servers under 'Clients' as an interactive playground for testing MCP servers"
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:33:01.618Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for mcpsplayground__com: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (292/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:42:00.597Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b4e298897f564a5be77c9cc6d32377da39d6ad638f0df31bc627901208b8cec1
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3b6b4a6d018a961d43c37e474a83e24baf658c7c7eba792739578d224d6a63ff
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP client/inspector tool for testing MCP servers, making MCP the primary protocol identity rather than a secondary feature.
+      decision_reason: The product's core identity is an MCP client/inspector tool for testing MCP servers, making MCP the primary protocol identity rather than a feature of another product.
       decision_evidence:
-        - Source-list context lists it under 'Clients' in awesome-mcp-servers
-        - >-
-          Scraped site context describes it as an 'Interactive playground for testing Model Context Protocol (MCP)
-          servers with AI agents'
-        - Primary page excerpt details a workflow for connecting, inspecting, and testing MCP servers
+        - "Scraped site title: 'MCP Playground — Test Your Remote MCP Servers'"
+        - "Description: 'Interactive playground for testing Model Context Protocol (MCP) servers with AI agents'"
+        - "Source-list context: listed in awesome-mcp-servers under 'Clients' as an interactive playground for testing MCP servers"
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's primary identity is MCP infrastructure (a
-        client/inspector) rather than an extension for another assistant.
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because the tool is an MCP client/inspector for testing servers, not a coding agent that writes or edits code.
       review_reason: null
       review_resume_lifecycle: null

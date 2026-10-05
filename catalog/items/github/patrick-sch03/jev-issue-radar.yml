@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__patrick-sch03__jev-issue-radar__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-issue-radar
         extracted_url: https://github.com/patrick-sch03/jev-issue-radar
-        surrounding_text: >-
-          - [jev-issue-radar](https://github.com/Patrick-SCH03/jev-issue-radar) - Local read-only dashboard: TypeSafe
-          Jev (OpenRouter) classifies GitHub issue duplicates with evidence passages for maintainer review. [Project
-          guide](community/projects/tools/jev-issue-radar.md).
+        surrounding_text: "- [jev-issue-radar](https://github.com/Patrick-SCH03/jev-issue-radar) - Local read-only dashboard: TypeSafe Jev (OpenRouter) classifies GitHub issue duplicates with evidence passages for maintainer review. [Project guide](community/projects/tools/jev-issue-radar.md)."
         confidence: high
     - id: discovery__github__patrick-sch03__jev-issue-radar__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,13 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-issue-radar**'
+        anchor_text: "**jev-issue-radar**"
         extracted_url: https://github.com/patrick-sch03/jev-issue-radar
-        surrounding_text: >-
-          - [**jev-issue-radar**](https://github.com/Patrick-SCH03/jev-issue-radar) — Jev Issue Radar is a read-only
-          dashboard for GitHub duplicate-issue triage. It retrieves likely candidates, asks Jev whether each pair is
-          duplicate, related, distinct, or insufficiently documented, and shows selected passages from both original
-          reports for a maintainer to review.
+        surrounding_text: "- [**jev-issue-radar**](https://github.com/Patrick-SCH03/jev-issue-radar) — Jev Issue Radar is a read-only dashboard for GitHub duplicate-issue triage. It retrieves likely candidates, asks Jev whether each pair is duplicate, related, distinct, or insufficiently documented, and shows selected passages from both original reports for a maintainer to review."
         confidence: high
 metadata:
   github:
@@ -60,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-issue-radar - Local read-only dashboard: TypeSafe Jev (OpenRouter) classifies GitHub issue duplicates with
-    evidence passages for maintainer review. Project guide.
+  summary: "jev-issue-radar - Local read-only dashboard: TypeSafe Jev (OpenRouter) classifies GitHub issue duplicates with evidence passages for maintainer review. Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -82,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.422Z'
+    updated_at: "2026-09-29T13:07:10.422Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

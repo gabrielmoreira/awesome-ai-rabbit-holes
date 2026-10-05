@@ -36,29 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post discussing when to fine-tune large language models versus using alternative adaptation techniques.
-  why_it_matters: Helps developers decide whether to invest in fine-tuning or explore more efficient adaptation methods like RAG.
-  mental_damage: Wastes your time debating whether to fine-tune while you could be using RAG or ICL instead.
+  summary: A Meta AI blog post discussing when to fine-tune LLMs versus using other techniques like RAG or prompt engineering.
+  why_it_matters: Helps developers make informed decisions about LLM adaptation strategies based on data availability, cost, and task requirements.
+  mental_damage: Another reminder that choosing between fine-tuning and RAG feels like picking a retirement plan—important, stressful, and nobody agrees on the right answer.
   tags:
-    - blog
     - llm
     - fine-tuning
-    - mcp
-    - ai-resources
-  confidence: low
+    - rag
+    - prompt-engineering
+  confidence: high
 curation:
   status: excluded
-  reason: The input describes a blog post about fine-tuning decisions, not a developer-facing tool or product.
+  reason: Excluded because it is an informational blog post, not a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - "Repo description: (none) – no product or tool identity"
-    - "Scraped site context: title and excerpt describe a blog post about fine-tuning decisions, not a tool"
-    - "Source-list context: listed in 'awesome-LLM-resources' under 'Tips' section as a resource summary, not a tool"
+    - Source is a Meta AI blog post (ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques)
+    - Content explains fine-tuning trade-offs but does not provide a tool, SDK, or platform for developers to use
+    - Listed in awesome-LLM-resources under '技巧 Tips' as educational material, not a functional tool
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -71,25 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:33:08.903Z"
+    updated_at: "2026-10-05T04:27:53.445Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:acec7f8802ed7e421de29aeeb2b4fd63df7fbcafefc6411ccfcb44a4241b066c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c895f5e38be9b38785300c0c27fbb4d7dc47000f5faa0aec0e341bef20adc111
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input describes a blog post about fine-tuning decisions, not a developer-facing tool or product.
+      decision_reason: Excluded because it is an informational blog post, not a developer-facing tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - "Repo description: (none) – no product or tool identity"
-        - "Scraped site context: title and excerpt describe a blog post about fine-tuning decisions, not a tool"
-        - "Source-list context: listed in 'awesome-LLM-resources' under 'Tips' section as a resource summary, not a tool"
+        - Source is a Meta AI blog post (ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques)
+        - Content explains fine-tuning trade-offs but does not provide a tool, SDK, or platform for developers to use
+        - Listed in awesome-LLM-resources under '技巧 Tips' as educational material, not a functional tool
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

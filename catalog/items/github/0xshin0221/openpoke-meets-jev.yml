@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xshin0221__openpoke-meets-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: openpoke-meets-jev
         extracted_url: https://github.com/0xshin0221/openpoke-meets-jev
-        surrounding_text: >-
-          - [openpoke-meets-jev](https://github.com/0xShin0221/openpoke-meets-jev) - Fork of OpenPoke where the yes/no
-          decisions go to Jev instead of Claude Sonnet, with a same-inputs A/B against the replaced LLM decision and a
-          43,776-request adversarial run on the injection gate.
+        surrounding_text: "- [openpoke-meets-jev](https://github.com/0xShin0221/openpoke-meets-jev) - Fork of OpenPoke where the yes/no decisions go to Jev instead of Claude Sonnet, with a same-inputs A/B against the replaced LLM decision and a 43,776-request adversarial run on the injection gate."
         confidence: high
 metadata:
   github:
@@ -32,45 +29,70 @@ metadata:
     archived: false
     full_name: 0xShin0221/openpoke-meets-jev
     html_url: https://github.com/0xShin0221/openpoke-meets-jev
-    created_at: '2026-09-18T14:19:12Z'
-    pushed_at: '2026-09-20T08:24:06Z'
-    description: 'Open source implementation of Poke '
+    created_at: "2026-09-18T14:19:12Z"
+    pushed_at: "2026-09-20T08:24:06Z"
+    description: "Open source implementation of Poke "
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:14.343Z'
+    last_checked_at: "2026-09-29T13:08:14.343Z"
     readme:
-      fetched_at: '2026-09-29T13:08:14.343Z'
+      fetched_at: "2026-09-29T13:08:14.343Z"
       bytes: 19650
 insights:
-  summary: Open source implementation of Poke
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source implementation of Poke built with TypeSafe AI's Jev decision model.
+  why_it_matters: Demonstrates how Jev can be used to build game-like agents, showing decision-model-driven behavior in a minimal, educational context.
+  mental_damage: Another 'look what Jev can do' toy project that hints at agent potential while delivering barely more than a proof-of-concept.
+  tags:
+    - jev
+    - decision-model
+    - demo
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: The project is a Jev-powered demo of a game agent with no clear developer-tooling purpose; it does not assist in coding, workflow automation, or AI-assisted development tasks.
   evidence:
-    - jev-latest choice confidence 0.56
+    - "Repo description: 'Open source implementation of Poke'"
+    - "Seen in source list: awesome-jev under 'Benchmarks & research' section"
+    - Created and pushed in September 2026 with only 1 star, indicating minimal traction
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:14.343Z'
+    updated_at: "2026-09-29T13:08:14.343Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:20.022Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e3163b5c2586623e29e3c3c6c9f4597d0bac530bda442f7b05921c180e4ebede
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a Jev-powered demo of a game agent with no clear developer-tooling purpose; it does not assist in coding, workflow automation, or AI-assisted development tasks.
+      decision_evidence:
+        - "Repo description: 'Open source implementation of Poke'"
+        - "Seen in source list: awesome-jev under 'Benchmarks & research' section"
+        - Created and pushed in September 2026 with only 1 star, indicating minimal traction
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

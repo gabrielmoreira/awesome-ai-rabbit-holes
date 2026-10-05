@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bhavnicksm__chonkie__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 知识库 RAG
         anchor_text: Chonkie
         extracted_url: https://github.com/bhavnicksm/chonkie
-        surrounding_text: >-
-          28. [Chonkie](https://github.com/bhavnicksm/chonkie): The no-nonsense RAG chunking library that's lightweight,
-          lightning-fast, and ready to CHONK your texts.
+        surrounding_text: "28. [Chonkie](https://github.com/bhavnicksm/chonkie): The no-nonsense RAG chunking library that's lightweight, lightning-fast, and ready to CHONK your texts."
         confidence: high
 metadata:
   github:
@@ -39,16 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: '28. Chonkie: The no-nonsense RAG chunking library that''s lightweight, lightning-fast, and ready to CHONK your texts.'
+  summary: "28. Chonkie: The no-nonsense RAG chunking library that's lightweight, lightning-fast, and ready to CHONK your texts."
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for bhavnicksm/chonkie
     - ungh.cc (cached GitHub proxy) returned 404 for bhavnicksm/chonkie
@@ -63,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-24T04:12:58.867Z'
+    updated_at: "2026-09-24T04:12:58.867Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: bhavnicksm/chonkie'
+      message: "GitHub repository not found: bhavnicksm/chonkie"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

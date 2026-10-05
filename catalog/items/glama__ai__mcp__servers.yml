@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__glama__ai__mcp__servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,10 +18,10 @@ provenance:
           - README
         anchor_text: Awesome MCP Servers
         extracted_url: https://glama.ai/mcp/servers
-        surrounding_text: '> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.'
+        surrounding_text: "> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory."
         confidence: high
     - id: discovery__glama__ai__mcp__servers__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,18 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A searchable registry and directory of Model Context Protocol (MCP) servers, clients, and tools.
-  why_it_matters: >-
-    It provides a centralized discovery layer for the rapidly expanding ecosystem of MCP-compatible capabilities, making
-    it easier to find tools for AI agents.
-  mental_damage: >-
-    Attempting to navigate a registry of 93,000 servers is the final boss of decision paralysis for the agent-obsessed
-    developer.
+  summary: Glama MCP Servers is a registry of Model Context Protocol servers with 96,303 entries searchable by language, category, and usage metrics.
+  why_it_matters: It gives developers a single place to discover and evaluate MCP servers for extending AI agent capabilities with tools like databases, browsers, or domain-specific APIs.
+  mental_damage: Another MCP directory promising to solve tool discovery while adding yet another list to scroll through before picking a server.
   tags:
     - mcp
     - registry
     - discovery
-    - infrastructure
   confidence: high
 curation:
   status: included
@@ -72,14 +67,14 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.597Z'
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,31 +83,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:17:10.925Z'
+    updated_at: "2026-10-05T04:33:07.184Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c781976d01c7796b8c6fa144d64cc5c51cec20ee8602fb8d510e93811b9e9a89
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b28dab7580dfcd12b6646c85115f24b59a315d6c7c1c5e2abd6d68bca4a23fa5
       proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: >-
-        The product serves as an operational registry and discovery service for the MCP ecosystem, which is a core
-        identity within the MCP category.
+      disagreement: true
+      decision_reason: The product's primary identity is an MCP registry and discovery service for MCP servers, clients, and tools, which aligns with the MCP category's focus on protocol infrastructure.
       decision_evidence:
-        - Lists over 93,000 MCP servers with real-time usage and star data
-        - Provides a directory API for programmatic access
-        - Includes tools like an MCP Inspector and connectivity verification
+        - Scraped site context describes it as 'Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.'
+        - Listed in awesome-mcp-servers under 'Server Implementations' and awesome-LLM-resources under the MCP section as a comprehensive registry.
+        - The interface provides search and filtering of 96,303 MCP servers by attributes like language, category, and download metrics.
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because it is an operational discovery platform with an API and real-time
-        metrics rather than a static curated list.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational MCP registry and discovery service, not a curated list or directory for navigation.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

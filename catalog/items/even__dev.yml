@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__even__dev__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,11 +19,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Even
         extracted_url: https://even.dev
-        surrounding_text: >-
-          - **[Even](https://even.dev)** — Agent-native desktop workspace: a native terminal (real shell per pane), a
-          real in-app browser, one-click self-hosted services, and local models in one window. Runs multiple
-          coding-agent CLIs (Claude Code, Codex, and others) side by side in the same panes you work in, each under a
-          deny-by-default policy with a tamper-evident audit trail.
+        surrounding_text: "- **[Even](https://even.dev)** — Agent-native desktop workspace: a native terminal (real shell per pane), a real in-app browser, one-click self-hosted services, and local models in one window. Runs multiple coding-agent CLIs (Claude Code, Codex, and others) side by side in the same panes you work in, each under a deny-by-default policy with a tamper-evident audit trail."
         confidence: high
 metadata:
   github:
@@ -41,15 +37,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Even — Agent-native desktop workspace: a native terminal (real shell per pane), a real in-app browser, one-click
-    self-hosted services, and local models in one window. Runs multiple coding-agent CLIs (Claude Code, Codex, and
-    others) side by side in the same panes you work in, each under a deny-by-default policy with a tamper-evident audit
-    trail.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Even is a native terminal and browser workspace where developers and AI agents operate side by side on shared surfaces.
+  why_it_matters: It lets developers delegate coding tasks to agents without context switching, keeping terminal, browser, and services in one auditable window.
+  mental_damage: Finally, a way to feel productive while watching an agent do your job in real time, right beside you.
+  tags:
+    - ai-workspace
+    - terminal
+    - browser
+    - mcp
+    - agent-native
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
@@ -58,14 +55,14 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:21.900Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:42138f8c2e8ab323f956aa99b7bed86fbb6758bd0e6710427075393fba41e25f
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Even is a coding agent because its primary identity is performing coding tasks via terminal and browser automation under agent control, not merely extending another assistant.
+      decision_evidence:
+        - Even exposes terminal and browser panes as tools agents can call to navigate, click, type, and read pages without leaving the workspace
+        - Agents run commands in the same panes as the developer, with output landing exactly where the user is working
+        - It is positioned as 'the agent-native workspace' where 'you and your agents operate the same surfaces side by side'
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Even is a standalone workspace where agents perform coding tasks natively, not a plugin that augments another agent or editor.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

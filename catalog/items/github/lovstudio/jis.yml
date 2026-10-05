@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lovstudio__jis__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JIS · PARALLELIZE
         extracted_url: https://github.com/lovstudio/jis
-        surrounding_text: >-
-          - [JIS · PARALLELIZE](https://github.com/lovstudio/jis) - Agent swarm where rules do zero-token coordination
-          and TypeSafe Jev judges verify/adopt/dispute when rules cannot. [Project
-          guide](community/projects/tools/jis-parallelize.md).
+        surrounding_text: "- [JIS · PARALLELIZE](https://github.com/lovstudio/jis) - Agent swarm where rules do zero-token coordination and TypeSafe Jev judges verify/adopt/dispute when rules cannot. [Project guide](community/projects/tools/jis-parallelize.md)."
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.40 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - agent-orchestration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

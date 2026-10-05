@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhaybhargav__juardrails__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Juardrails
         extracted_url: https://github.com/abhaybhargav/juardrails
-        surrounding_text: >-
-          - [Juardrails](https://github.com/abhaybhargav/juardrails) - Go guardrails service for TypeSafe Jev policies
-          (YAML/UI, namespaces, audit, REST/CLI); repository license unspecified at review. [Project
-          guide](community/projects/tools/juardrails.md).
+        surrounding_text: "- [Juardrails](https://github.com/abhaybhargav/juardrails) - Go guardrails service for TypeSafe Jev policies (YAML/UI, namespaces, audit, REST/CLI); repository license unspecified at review. [Project guide](community/projects/tools/juardrails.md)."
         confidence: high
 metadata:
   github:
@@ -33,26 +30,31 @@ metadata:
     archived: false
     full_name: abhaybhargav/juardrails
     html_url: https://github.com/abhaybhargav/juardrails
-    created_at: '2026-09-23T01:16:09Z'
-    pushed_at: '2026-09-27T12:52:00Z'
+    created_at: "2026-09-23T01:16:09Z"
+    pushed_at: "2026-09-27T12:52:00Z"
     description: Go guardrail management for Jev with YAML policies, namespaces, access control, audit logging, and a REST API
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:24.119Z'
+    last_checked_at: "2026-09-29T13:08:24.119Z"
     readme:
-      fetched_at: '2026-09-29T13:08:24.119Z'
+      fetched_at: "2026-09-29T13:08:24.119Z"
       bytes: 29013
 insights:
-  summary: Go guardrail management for Jev with YAML policies, namespaces, access control, audit logging, and a REST API
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Go guardrail management for Jev with YAML policies, namespaces, access control, audit logging, and a REST API.
+  why_it_matters: Provides structured safety controls for Jev-based decision systems, enabling policy-driven guardrails in developer workflows.
+  mental_damage: Yet another YAML file to maintain so your AI doesn't accidentally approve a loan to a sentient toaster.
+  tags:
+    - jev
+    - guardrails
+    - policy-engine
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: The tool's core function is implementing guardrails and policy enforcement for Jev decision models, making it a decision-model-centric agent gate rather than a general-purpose coding assistant or extension.
   evidence:
-    - jev-latest choice confidence 0.66
+    - "Repo description: 'Go guardrail management for Jev with YAML policies, namespaces, access control, audit logging, and a REST API'"
+    - "Seen in source list: awesome-jev under 'Community projects > Developer projects and integrations'"
+    - Focus on policies, access control, and audit logging aligns with decision-model verification and safety tooling
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -63,15 +65,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.433Z'
+    updated_at: "2026-09-29T13:07:10.433Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:24.119Z'
+    updated_at: "2026-09-29T13:08:24.119Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:12:08.280Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e2eacf4fbc3dab2d010080eba99743e27a62bc38c43980b31d63291e0134331b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core function is implementing guardrails and policy enforcement for Jev decision models, making it a decision-model-centric agent gate rather than a general-purpose coding assistant or extension.
+      decision_evidence:
+        - "Repo description: 'Go guardrail management for Jev with YAML policies, namespaces, access control, audit logging, and a REST API'"
+        - "Seen in source list: awesome-jev under 'Community projects > Developer projects and integrations'"
+        - Focus on policies, access control, and audit logging aligns with decision-model verification and safety tooling
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product's identity is implementing guardrails for Jev judgments, not extending a coding agent or editor with workflow features.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

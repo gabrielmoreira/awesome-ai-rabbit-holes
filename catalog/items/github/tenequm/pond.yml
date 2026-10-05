@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tenequm__pond__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,12 +20,7 @@ provenance:
           - Agent infrastructure
         anchor_text: pond
         extracted_url: https://github.com/tenequm/pond
-        surrounding_text: >-
-          - **[pond](https://github.com/tenequm/pond)** `⭐ 73` — Lossless session archive for coding agents: ingests
-          what twelve harnesses already write (Claude Code, Codex, opencode, pi, OpenClaw, Hermes, letta-code,
-          grok-build and more) into Lance on a local directory or your own S3 bucket, then serves recall back over CLI,
-          MCP, HTTP, and read-only SQL. Sessions outlive harness retention windows and restore into any supported
-          client. Rust, Apache-2.0.
+        surrounding_text: "- **[pond](https://github.com/tenequm/pond)** `⭐ 73` — Lossless session archive for coding agents: ingests what twelve harnesses already write (Claude Code, Codex, opencode, pi, OpenClaw, Hermes, letta-code, grok-build and more) into Lance on a local directory or your own S3 bucket, then serves recall back over CLI, MCP, HTTP, and read-only SQL. Sessions outlive harness retention windows and restore into any supported client. Rust, Apache-2.0."
         confidence: high
 metadata:
   github:
@@ -43,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Lossless session archive for coding agents: ingests what twelve harnesses already write (Claude Code, Codex,
-    opencode, pi, OpenClaw, Hermes, letta-code, grok-build and more) into Lance on a local directory or your own S3
-    bucket, then serves recall back over CLI, MCP, HTTP, and read-only SQL. Sessions outlive harness retention windows
-    and restore into any supported client. Rust, Apache-2.0.
+  summary: "Lossless session archive for coding agents: ingests what twelve harnesses already write (Claude Code, Codex, opencode, pi, OpenClaw, Hermes, letta-code, grok-build and more) into Lance on a local directory or your own S3 bucket, then serves recall back over CLI, MCP, HTTP, and read-only SQL. Sessions outlive harness retention windows and restore into any supported client. Rust, Apache-2.0."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

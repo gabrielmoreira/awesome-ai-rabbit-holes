@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__noahbclarkson__typesafe-api-rs__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: typesafe-api (Rust)
         extracted_url: https://github.com/noahbclarkson/typesafe-api-rs
-        surrounding_text: >-
-          - [typesafe-api (Rust)](https://github.com/noahbclarkson/typesafe-api-rs) - Ergonomic Rust client for TypeSafe
-          System One typed questions and answers (`typesafe-api` 0.1.0). [Project
-          guide](community/projects/tools/typesafe-api-rs.md).
+        surrounding_text: "- [typesafe-api (Rust)](https://github.com/noahbclarkson/typesafe-api-rs) - Ergonomic Rust client for TypeSafe System One typed questions and answers (`typesafe-api` 0.1.0). [Project guide](community/projects/tools/typesafe-api-rs.md)."
         confidence: high
 metadata:
   github:
@@ -63,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

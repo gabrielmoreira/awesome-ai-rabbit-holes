@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__currents-dev__currents-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: currents-dev/currents-mcp
         extracted_url: https://github.com/currents-dev/currents-mcp
-        surrounding_text: >-
-          - [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) 🎖️ 📇 ☁️ Enable AI Agents to fix
-          Playwright test failures reported to [Currents](https://currents.dev).
+        surrounding_text: "- [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp) 🎖️ 📇 ☁️ Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
         confidence: high
     - id: discovery__github__currents-dev__currents-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,9 +35,7 @@ provenance:
           - Official Servers
         anchor_text: Currents
         extracted_url: https://github.com/currents-dev/currents-mcp
-        surrounding_text: >-
-          - **[Currents](https://github.com/currents-dev/currents-mcp)** - Enable AI Agents to fix Playwright test
-          failures reported to [Currents](https://currents.dev).
+        surrounding_text: "- **[Currents](https://github.com/currents-dev/currents-mcp)** - Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev)."
         confidence: high
 metadata:
   github:
@@ -49,8 +45,8 @@ metadata:
     archived: false
     full_name: currents-dev/currents-mcp
     html_url: https://github.com/currents-dev/currents-mcp
-    created_at: '2025-04-02T18:56:01Z'
-    pushed_at: '2026-09-11T22:20:39Z'
+    created_at: "2025-04-02T18:56:01Z"
+    pushed_at: "2026-09-11T22:20:39Z"
     description: Currents MCP Server
     homepage: https://currents.dev
     topics:
@@ -58,15 +54,13 @@ metadata:
       - currents
       - mcp
       - playwright
-    last_checked_at: '2026-09-14T04:13:31.949Z'
+    last_checked_at: "2026-09-14T04:13:31.949Z"
     readme:
-      fetched_at: '2026-09-14T04:13:31.949Z'
+      fetched_at: "2026-09-14T04:13:31.949Z"
       bytes: 12498
 insights:
   summary: An MCP server that connects AI agents to Currents for retrieving test results and CI insights.
-  why_it_matters: >-
-    Lets AI assistants query and act on test failures, performance metrics, and CI runs from Currents to debug or
-    optimize code.
+  why_it_matters: Lets AI assistants query and act on test failures, performance metrics, and CI runs from Currents to debug or optimize code.
   mental_damage: Now your AI can blame the tests for failing instead of you.
   tags:
     - mcp
@@ -90,17 +84,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.584Z'
+    updated_at: "2026-05-06T22:12:15.584Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:31.949Z'
+    updated_at: "2026-09-14T04:13:31.949Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -115,7 +109,7 @@ processing:
       input_hash: sha256:3192b5f2941849a104d8ecb352cd9a180c380fc22bfaf3b8c03449eb034c01fc
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: 'MCP is the product identity here: a dedicated server exposing Currents test/CI data as tools for AI agents.'
+      decision_reason: "MCP is the product identity here: a dedicated server exposing Currents test/CI data as tools for AI agents."
       decision_evidence:
         - Repo description explicitly calls it a 'Currents MCP Server'
         - README lists 20+ Currents-specific MCP tools for test/CI data
@@ -123,8 +117,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not
-        an extension augmenting another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

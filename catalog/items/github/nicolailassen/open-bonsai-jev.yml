@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nicolailassen__open-bonsai-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,15 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**open-bonsai-jev**'
+        anchor_text: "**open-bonsai-jev**"
         extracted_url: https://github.com/nicolailassen/open-bonsai-jev
-        surrounding_text: >-
-          - [**open-bonsai-jev**](https://github.com/NicolaiLassen/open-bonsai-jev) — openjev's mechanism, Bonsai's
-          weights: typed decisions read straight from one forward pass of a 1.75-bit 27B model. Credit to TheoLeeCJ
-          (SemIf/OpenJev) and PrismML.
+        surrounding_text: "- [**open-bonsai-jev**](https://github.com/NicolaiLassen/open-bonsai-jev) — openjev's mechanism, Bonsai's weights: typed decisions read straight from one forward pass of a 1.75-bit 27B model. Credit to TheoLeeCJ (SemIf/OpenJev) and PrismML."
         confidence: high
     - id: discovery__github__nicolailassen__open-bonsai-jev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -37,10 +34,7 @@ provenance:
           - Open reproductions and research
         anchor_text: open-bonsai-jev
         extracted_url: https://github.com/nicolailassen/open-bonsai-jev
-        surrounding_text: >-
-          - [open-bonsai-jev](https://github.com/NicolaiLassen/open-bonsai-jev) - Applies the SemIf/OpenJev
-          logit-reading method to PrismML's 1.75-bit Ternary Bonsai 27B GGUF under llama.cpp, returning typed choice
-          probabilities from one forward pass on CPU, Metal, CUDA, or Vulkan; reports 74.6% on a 256-item WANLI sample.
+        surrounding_text: "- [open-bonsai-jev](https://github.com/NicolaiLassen/open-bonsai-jev) - Applies the SemIf/OpenJev logit-reading method to PrismML's 1.75-bit Ternary Bonsai 27B GGUF under llama.cpp, returning typed choice probabilities from one forward pass on CPU, Metal, CUDA, or Vulkan; reports 74.6% on a 256-item WANLI sample."
         confidence: high
 metadata:
   github:
@@ -58,9 +52,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    open-bonsai-jev — openjev's mechanism, Bonsai's weights: typed decisions read straight from one forward pass of a
-    1.75-bit 27B model. Credit to TheoLeeCJ (SemIf/OpenJev) and PrismML.
+  summary: "open-bonsai-jev — openjev's mechanism, Bonsai's weights: typed decisions read straight from one forward pass of a 1.75-bit 27B model. Credit to TheoLeeCJ (SemIf/OpenJev) and PrismML."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.421Z'
+    updated_at: "2026-09-29T13:07:10.421Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +80,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

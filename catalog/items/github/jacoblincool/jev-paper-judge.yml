@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jacoblincool__jev-paper-judge__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-paper-judge
         extracted_url: https://github.com/jacoblincool/jev-paper-judge
-        surrounding_text: >-
-          - [jev-paper-judge](https://github.com/JacobLinCool/jev-paper-judge)
-          ([site](https://jev-paper-judge.jacob.workers.dev)) - Feedback on your paper in seconds.
+        surrounding_text: "- [jev-paper-judge](https://github.com/JacobLinCool/jev-paper-judge) ([site](https://jev-paper-judge.jacob.workers.dev)) - Feedback on your paper in seconds."
         confidence: high
     - id: discovery__github__jacoblincool__jev-paper-judge__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: jev-paper-judge
         extracted_url: https://github.com/jacoblincool/jev-paper-judge
-        surrounding_text: >-
-          | [jev-paper-judge](https://github.com/JacobLinCool/jev-paper-judge) | ★ 0 | TypeScript | 2026-09-19 |
-          Feedback on your paper in seconds. |
+        surrounding_text: "| [jev-paper-judge](https://github.com/JacobLinCool/jev-paper-judge) | ★ 0 | TypeScript | 2026-09-19 | Feedback on your paper in seconds. |"
         confidence: high
 metadata:
   github:
@@ -77,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.416Z'
+    updated_at: "2026-09-29T13:07:10.416Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

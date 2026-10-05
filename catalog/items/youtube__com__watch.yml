@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__youtube__com__watch__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -18,7 +18,7 @@ provenance:
           - Tutorials
         anchor_text: Setup Claude Desktop App to Use a SQLite Database
         extracted_url: https://youtu.be/wxCCzo9dGj0
-        surrounding_text: '* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)'
+        surrounding_text: "* [Setup Claude Desktop App to Use a SQLite Database](https://youtu.be/wxCCzo9dGj0)"
         confidence: high
 metadata:
   github:
@@ -36,13 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: YouTube is a video-sharing platform for uploading, watching, and distributing videos and music.
-  why_it_matters: >-
-    Developers use YouTube for tutorials, conference talks, and learning new tools, but it does not directly assist with
-    coding tasks or software development workflows.
-  mental_damage: >-
-    Another reminder that half your open-source education comes from algorithmically recommended 10-minute videos with
-    suspiciously loud intros.
+  summary: YouTube is a video platform for watching, uploading, and sharing videos and music.
+  why_it_matters: It matters to developers as a source of tutorials, conference talks, and open-source project demos, but it is not a developer tool itself.
+  mental_damage: Another reminder that half your productivity loss comes from 'just one quick tutorial' that turns into a 47-minute rabbit hole.
   tags:
     - video
     - platform
@@ -50,14 +46,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any workflow
-    relevant to the catalog's scope.
+  reason: YouTube is a general-purpose video platform with no developer-facing tooling, AI agent, workflow, or infrastructure angle; it does not perform coding tasks, extend agents, manage context, or build apps from prompts.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original content,
-      and share it all with friends, family, and the world on YouTube.
+    - "Repo description: (none)"
+    - "Scraped site description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+    - No GitHub repo, stars, or activity signals indicating developer tooling.
 placement:
   primary_category: null
   section: null
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.972Z'
+    updated_at: "2026-07-21T15:20:21.972Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,28 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:55:01.744Z'
+    updated_at: "2026-10-05T05:01:01.723Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0a90b8cad513e9dfcd1fab96d8cdbb23d450cc034e4b7ff168bd4d8acc17072f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c3329a2c3db83ca234394a66e00c5d36d6903a3f04165320f54bdcf738f8aecf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        YouTube is a general-purpose media platform not focused on developer tooling, AI-assisted coding, or any
-        workflow relevant to the catalog's scope.
+      decision_reason: YouTube is a general-purpose video platform with no developer-facing tooling, AI agent, workflow, or infrastructure angle; it does not perform coding tasks, extend agents, manage context, or build apps from prompts.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Scraped site context: Title: YouTube, Description: Enjoy the videos and music you love, upload original
-          content, and share it all with friends, family, and the world on YouTube.
+        - "Repo description: (none)"
+        - "Scraped site description: Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+        - No GitHub repo, stars, or activity signals indicating developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__z761293629__pi-jev-helm__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: pi-jev-helm
         extracted_url: https://github.com/z761293629/pi-jev-helm
-        surrounding_text: >-
-          | [pi-jev-helm](https://github.com/Z761293629/pi-jev-helm) | ★ 1 | TypeScript | 2026-09-20 | Pi extension that
-          classifies tasks with Jev and routes each run to an explicitly configured model. |
+        surrounding_text: "| [pi-jev-helm](https://github.com/Z761293629/pi-jev-helm) | ★ 1 | TypeScript | 2026-09-20 | Pi extension that classifies tasks with Jev and routes each run to an explicitly configured model. |"
         confidence: high
 metadata:
   github:
@@ -60,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

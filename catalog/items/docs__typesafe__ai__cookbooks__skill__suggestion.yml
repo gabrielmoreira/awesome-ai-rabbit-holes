@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__skill__suggestion__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Routing and classification
         anchor_text: Skill suggestion
         extracted_url: https://docs.typesafe.ai/cookbooks/skill_suggestion
-        surrounding_text: >-
-          - [Skill suggestion](https://docs.typesafe.ai/cookbooks/skill_suggestion) - Shortlist agent skills and
-          separately decide whether any of them is appropriate.
+        surrounding_text: "- [Skill suggestion](https://docs.typesafe.ai/cookbooks/skill_suggestion) - Shortlist agent skills and separately decide whether any of them is appropriate."
         confidence: high
     - id: discovery__docs__typesafe__ai__cookbooks__skill__suggestion__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,9 +34,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Skill suggestion
         extracted_url: https://docs.typesafe.ai/cookbooks/skill_suggestion
-        surrounding_text: >-
-          - [Skill suggestion](https://docs.typesafe.ai/cookbooks/skill_suggestion) - Official two-stage workflow that
-          selects a skill and can reject the shortlist.
+        surrounding_text: "- [Skill suggestion](https://docs.typesafe.ai/cookbooks/skill_suggestion) - Official two-stage workflow that selects a skill and can reject the shortlist."
         confidence: high
 metadata:
   github:
@@ -77,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +81,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:04:59.968Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for docs__typesafe__ai__cookbooks__skill__suggestion: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The core n\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bldbl__dev__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: bldbl.dev
         extracted_url: https://bldbl.dev
-        surrounding_text: >-
-          - [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for
-          Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage
-          tasks, track progress, get project context, and collaborate with humans on software projects.
+        surrounding_text: "- [Chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp) 📇 ☁️ 🍎 🪟 🐧 - Official MCP server for Buildable AI-powered development platform [bldbl.dev](https://bldbl.dev). Enables AI assistants to manage tasks, track progress, get project context, and collaborate with humans on software projects."
         confidence: high
 metadata:
   github:
@@ -40,40 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the
-    Model Context Protocol (MCP).
-  why_it_matters: >-
-    It automates the transition from high-level idea to actionable Git tasks by connecting project management directly
-    to an AI assistant via MCP.
-  mental_damage: >-
-    Finally, an AI that can turn your vague architectural dreams into a Jira-style backlog before you have a chance to
-    realize you don't actually want to build it.
+  summary: Buildable is a commercial SaaS platform that generates AI-powered project plans, scaffolds private repositories, and streams MCP tasks to any AI assistant for SaaS development.
+  why_it_matters: It automates early-stage SaaS project setup by converting ideas into actionable development plans and executable MCP-driven tasks, reducing manual planning and scaffolding effort.
+  mental_damage: Another promise of 'just bring the idea' that shifts the bottleneck from coding to convincing an AI to generate a backlog you’ll still have to triage.
   tags:
-    - app-builder
-    - mcp
     - saas
+    - mcp
+    - project-planning
+    - ai-assistant
   confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
   evidence:
     - jev-latest choice confidence 0.60
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.36 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
     - app-builders
-  section: Dev & Code Tools
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,36 +71,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:55.733Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for bldbl__dev: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:04.279Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8f9a704acfa45c65f5ad8765905bbd2011109600a2a02c441ae7f44e325f6738
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8a2aa4969582470b3b5520831e3aceae6d888530d5bbe16d10c018b18824b7aa
       proposed_primary_category: app-builders
-      disagreement: false
-      decision_reason: >-
-        The product's core value is the end-to-end generation of project plans and repository scaffolding rather than
-        acting as a general-purpose coding assistant.
+      disagreement: true
+      decision_reason: Buildable fits app-builders because its core identity is generating new deployable projects from prompts via AI planning and MCP task streaming, not editing existing codebases.
       decision_evidence:
-        - Buildable plans the backlog, scaffolds a private repo, then streams MCP tasks to any AI assistant.
-        - "The output is a deployable artifact: a GitHub repo under the user’s account with CI/CD and repository structure ready to go."
-        - It positions itself as different from Copilot because it ‘decides what to build, where it lives and how to test it’ rather than writing code directly.
+        - Bring the idea. Buildable plans the backlog, scaffolds a private repo, then streams MCP tasks to any AI assistant.
+        - The AI breaks down the idea into an actionable development plan, from high-level architecture to specific implementation tasks.
+        - Buildable scaffolds your entire repository structure, sets up CI/CD pipelines, and creates a foundation that matches your project requirements.
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose app-builders over agent-orchestration because the primary user workflow is turning a prompt into a full
-        project scaffold and repository structure.
-      review_reason: null
-      review_resume_lifecycle: null
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Buildable’s primary function is generating new projects from prompts rather than acting as a coding assistant that edits or extends existing codebases.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

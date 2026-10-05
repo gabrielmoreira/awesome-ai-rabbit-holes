@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tumf__jev-cli__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-cli (tumf)
         extracted_url: https://github.com/tumf/jev-cli
-        surrounding_text: >-
-          - [jev-cli (tumf)](https://github.com/tumf/jev-cli) ([site](https://docs.typesafe.ai/introduction)) - Small
-          dependency-free CLI for TypeSafe Jev.
+        surrounding_text: "- [jev-cli (tumf)](https://github.com/tumf/jev-cli) ([site](https://docs.typesafe.ai/introduction)) - Small dependency-free CLI for TypeSafe Jev."
         confidence: high
     - id: discovery__github__tumf__jev-cli__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-cli (tumf)
         extracted_url: https://github.com/tumf/jev-cli
-        surrounding_text: >-
-          - [jev-cli (tumf)](https://github.com/tumf/jev-cli) - Unofficial PyPI CLI + stdio MCP for TypeSafe Jev
-          noul/choice/score (distinct from okooo5km/jev, typesafe-cli, typesafeai-cli). [Project
-          guide](community/projects/tools/tumf-jev-cli.md).
+        surrounding_text: "- [jev-cli (tumf)](https://github.com/tumf/jev-cli) - Unofficial PyPI CLI + stdio MCP for TypeSafe Jev noul/choice/score (distinct from okooo5km/jev, typesafe-cli, typesafeai-cli). [Project guide](community/projects/tools/tumf-jev-cli.md)."
         confidence: high
     - id: discovery__github__tumf__jev-cli__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,12 +51,10 @@ provenance:
           - Applications (129)
         anchor_text: jev-cli (tumf)
         extracted_url: https://github.com/tumf/jev-cli
-        surrounding_text: >-
-          | [jev-cli (tumf)](https://github.com/tumf/jev-cli) | ★ 6 | Python | 2026-09-19 | Small dependency-free CLI
-          for TypeSafe Jev. |
+        surrounding_text: "| [jev-cli (tumf)](https://github.com/tumf/jev-cli) | ★ 6 | Python | 2026-09-19 | Small dependency-free CLI for TypeSafe Jev. |"
         confidence: high
     - id: discovery__github__tumf__jev-cli__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -71,14 +64,12 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-cli**'
+        anchor_text: "**jev-cli**"
         extracted_url: https://github.com/tumf/jev-cli
-        surrounding_text: >-
-          - [**jev-cli**](https://github.com/tumf/jev-cli) — A CLI and stdio MCP server for typed Jev judgments over
-          text or JSON.
+        surrounding_text: "- [**jev-cli**](https://github.com/tumf/jev-cli) — A CLI and stdio MCP server for typed Jev judgments over text or JSON."
         confidence: high
     - id: discovery__github__tumf__jev-cli__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -91,10 +82,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jev-cli
         extracted_url: https://github.com/tumf/jev-cli
-        surrounding_text: >-
-          - [jev-cli](https://github.com/tumf/jev-cli)
-          ![stars](https://img.shields.io/github/stars/tumf/jev-cli?style=flat-square&label=%E2%98%85) - Developer
-          tooling: small dependency-free CLI for Jev.
+        surrounding_text: "- [jev-cli](https://github.com/tumf/jev-cli) ![stars](https://img.shields.io/github/stars/tumf/jev-cli?style=flat-square&label=%E2%98%85) - Developer tooling: small dependency-free CLI for Jev."
         confidence: high
 metadata:
   github:
@@ -122,9 +110,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -136,7 +122,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.377Z'
+    updated_at: "2026-09-29T13:07:10.377Z"
     cause: null
     next_retry_at: null
   stars:
@@ -144,6 +130,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

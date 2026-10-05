@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xzee__jev-stock-decision-maker__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-stock-decision-maker**'
+        anchor_text: "**jev-stock-decision-maker**"
         extracted_url: https://github.com/0xzee/jev-stock-decision-maker
-        surrounding_text: >-
-          - [**jev-stock-decision-maker**](https://github.com/0xZee/jev-stock-decision-maker) — JEV Decision is a live
-          demo that turns market data into structured decisions. It pulls real-time prices, valuation ratios and sector
-          context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction, financial health and
-          risk
+        surrounding_text: "- [**jev-stock-decision-maker**](https://github.com/0xZee/jev-stock-decision-maker) — JEV Decision is a live demo that turns market data into structured decisions. It pulls real-time prices, valuation ratios and sector context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction, financial health and risk"
         confidence: high
 metadata:
   github:
@@ -33,13 +29,10 @@ metadata:
     archived: false
     full_name: 0xZee/jev-stock-decision-maker
     html_url: https://github.com/0xZee/jev-stock-decision-maker
-    created_at: '2026-09-21T11:55:08Z'
-    pushed_at: '2026-09-21T12:21:44Z'
-    description: >-
-      JEV Decision is a live demo that turns market data into structured decisions. It pulls real-time prices, valuation
-      ratios and sector context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction,
-      financial health and risk
-    homepage: ''
+    created_at: "2026-09-21T11:55:08Z"
+    pushed_at: "2026-09-21T12:21:44Z"
+    description: JEV Decision is a live demo that turns market data into structured decisions. It pulls real-time prices, valuation ratios and sector context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction, financial health and risk
+    homepage: ""
     topics:
       - decision-making
       - decision-model
@@ -48,15 +41,12 @@ metadata:
       - typesafe-ai
       - typesafe-sdk
       - yfinance
-    last_checked_at: '2026-09-29T13:08:14.941Z'
+    last_checked_at: "2026-09-29T13:08:14.941Z"
     readme:
-      fetched_at: '2026-09-29T13:08:14.941Z'
+      fetched_at: "2026-09-29T13:08:14.941Z"
       bytes: 2666
 insights:
-  summary: >-
-    JEV Decision is a live demo that turns market data into structured decisions. It pulls real-time prices, valuation
-    ratios and sector context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction,
-    financial health and risk
+  summary: JEV Decision is a live demo that turns market data into structured decisions. It pulls real-time prices, valuation ratios and sector context, then runs a 20-question against TypeSafe Jev model to score buy/sell conviction, financial health and risk
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -76,15 +66,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:14.941Z'
+    updated_at: "2026-09-29T13:08:14.941Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:10:26.236Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__0xzee__jev-stock-decision-maker: Invalid AI response format: SyntaxError: Unexpected token 'J', ...\"summary\": JEV Decisi\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

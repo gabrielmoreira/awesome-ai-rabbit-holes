@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__llm-swarm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: llm-swarm
         extracted_url: https://github.com/huggingface/llm-swarm
-        surrounding_text: >-
-          13. [llm-swarm](https://github.com/huggingface/llm-swarm/tree/main/examples/textbooks): Generate large
-          synthetic datasets like [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia).
+        surrounding_text: "13. [llm-swarm](https://github.com/huggingface/llm-swarm/tree/main/examples/textbooks): Generate large synthetic datasets like [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia)."
         confidence: high
 metadata:
   github:
@@ -31,20 +29,18 @@ metadata:
     archived: false
     full_name: huggingface/llm-swarm
     html_url: https://github.com/huggingface/llm-swarm
-    created_at: '2023-10-31T21:05:11Z'
-    pushed_at: '2024-07-11T16:39:23Z'
+    created_at: "2023-10-31T21:05:11Z"
+    pushed_at: "2024-07-11T16:39:23Z"
     description: Manage scalable open LLM inference endpoints in Slurm clusters
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-30T05:05:39.600Z'
+    last_checked_at: "2026-07-30T05:05:39.600Z"
     readme:
-      fetched_at: '2026-07-30T05:05:39.600Z'
+      fetched_at: "2026-07-30T05:05:39.600Z"
       bytes: 19459
 insights:
   summary: A tool for managing scalable open LLM inference endpoints in Slurm clusters.
-  why_it_matters: >-
-    Enables developers to deploy and scale LLM inference workloads on HPC infrastructure they may already have access
-    to.
+  why_it_matters: Enables developers to deploy and scale LLM inference workloads on HPC infrastructure they may already have access to.
   mental_damage: Because nothing says 'modern development' like wrangling Slurm jobs to serve your own LLMs.
   tags:
     - llm-inference
@@ -54,9 +50,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is infrastructure for serving LLMs in HPC environments, not a developer-facing coding assistant, workflow,
-    or app-building product.
+  reason: The tool is infrastructure for serving LLMs in HPC environments, not a developer-facing coding assistant, workflow, or app-building product.
   evidence:
     - Repo description explicitly states it manages LLM inference endpoints in Slurm clusters
     - No evidence of developer-tooling workflows (coding, IDE, agents, etc.) in the description or README
@@ -70,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.619Z'
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:39.600Z'
+    updated_at: "2026-07-30T05:05:39.600Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,9 +89,7 @@ processing:
       input_hash: sha256:abc2022807c6aa90dc5a64f710db09857ef014d6afb464b09af5f91a59a1542a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is infrastructure for serving LLMs in HPC environments, not a developer-facing coding assistant,
-        workflow, or app-building product.
+      decision_reason: The tool is infrastructure for serving LLMs in HPC environments, not a developer-facing coding assistant, workflow, or app-building product.
       decision_evidence:
         - Repo description explicitly states it manages LLM inference endpoints in Slurm clusters
         - No evidence of developer-tooling workflows (coding, IDE, agents, etc.) in the description or README

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__models__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Model behavior and evaluation
         anchor_text: Current models
         extracted_url: https://docs.typesafe.ai/models
-        surrounding_text: >-
-          - [Current models](https://docs.typesafe.ai/models) - Find model versions, moving aliases, supported inputs,
-          pricing, and current limits.
+        surrounding_text: "- [Current models](https://docs.typesafe.ai/models) - Find model versions, moving aliases, supported inputs, pricing, and current limits."
         confidence: high
     - id: discovery__docs__typesafe__ai__models__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,10 +33,10 @@ provenance:
           - Official resources
         anchor_text: Models
         extracted_url: https://docs.typesafe.ai/models
-        surrounding_text: '| [Models](https://docs.typesafe.ai/models) | Current aliases, versions, pricing, and limits. |'
+        surrounding_text: "| [Models](https://docs.typesafe.ai/models) | Current aliases, versions, pricing, and limits. |"
         confidence: high
     - id: discovery__docs__typesafe__ai__models__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -50,9 +48,7 @@ provenance:
           - Official resources
         anchor_text: Models and aliases
         extracted_url: https://docs.typesafe.ai/models
-        surrounding_text: >-
-          - [Models and aliases](https://docs.typesafe.ai/models) - Version IDs, current limits, pricing, and the
-          distinction between stable and preview aliases.
+        surrounding_text: "- [Models and aliases](https://docs.typesafe.ai/models) - Version IDs, current limits, pricing, and the distinction between stable and preview aliases."
         confidence: high
 metadata:
   github:
@@ -70,25 +66,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI's documentation for its Jev decision model and associated APIs, SDKs, and model serving details.
+  why_it_matters: Provides developer access to a calibrated decision model via typed questions with probabilities, enabling deterministic scoring and routing in agent workflows.
+  mental_damage: Yet another model API to wrap your head around, just when you thought you'd escaped the tokenizer tax.
+  tags:
+    - decision-model
+    - api
+    - sdk
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The documentation describes Jev, a System One decision model that answers typed questions with probabilities, which is the core identity of the decision-models category.
+  evidence:
+    - Jev is TypeSafe’s flagship model and the first System One model
+    - "The core job is answering typed questions with probabilities: classification, routing, triage, scoring, ranking, verification, or guardrails"
+    - Appears in awesome-jev under 'Model behavior and evaluation' and 'Official resources' sections
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -96,6 +98,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:10.699Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e8e153c0b94cc48976209a06664c582465f9344dce83d4960efda5ea6e998547
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The documentation describes Jev, a System One decision model that answers typed questions with probabilities, which is the core identity of the decision-models category.
+      decision_evidence:
+        - Jev is TypeSafe’s flagship model and the first System One model
+        - "The core job is answering typed questions with probabilities: classification, routing, triage, scoring, ranking, verification, or guardrails"
+        - Appears in awesome-jev under 'Model behavior and evaluation' and 'Official resources' sections
+      category_candidates:
+        - decision-models
+        - agent-orchestration
+      contrastive_reason: Choose decision-models over agent-orchestration because the product's identity is the decision model itself (Jev), not a platform for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

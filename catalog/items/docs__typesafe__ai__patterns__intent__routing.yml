@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__patterns__intent__routing__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Routing and classification
         anchor_text: Intent routing
         extracted_url: https://docs.typesafe.ai/patterns/intent-routing
-        surrounding_text: >-
-          - [Intent routing](https://docs.typesafe.ai/patterns/intent-routing) - Select a handler for a request while
-          keeping routing rules in application code.
+        surrounding_text: "- [Intent routing](https://docs.typesafe.ai/patterns/intent-routing) - Select a handler for a request while keeping routing rules in application code."
         confidence: high
 metadata:
   github:
@@ -39,16 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Intent routing is a pattern for classifying incoming requests and routing them to deterministic logic, specialist LLMs, or human handlers.
+  why_it_matters: It helps developers reduce LLM costs by routing simple requests to cheaper handlers and reserving expensive models for complex cases.
+  mental_damage: Yet another pattern to memorize before you can decide whether your chatbot needs a Jev or just a thesaurus.
+  tags:
+    - routing
+    - classification
+    - llm-costs
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: Intent routing is a design pattern documented in TypeSafe AI's docs, not a standalone tool, agent, or developer-facing product with runtime or installable identity.
   evidence:
-    - jev winnow:e4b 0.34 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Source is a documentation page on typesafe.ai, not a GitHub repo or executable tool
+    - Content describes a conceptual pattern for request classification and routing, not a specific implementation
+    - Appears in awesome-jev as a 'Pattern and cookbook' entry, indicating it is educational content
 placement:
   primary_category: null
   section: null
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:20.577Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:afe541acfe19fd5022118e18ed4be8838249885518d3f79976c140ae3ade1a66
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Intent routing is a design pattern documented in TypeSafe AI's docs, not a standalone tool, agent, or developer-facing product with runtime or installable identity.
+      decision_evidence:
+        - Source is a documentation page on typesafe.ai, not a GitHub repo or executable tool
+        - Content describes a conceptual pattern for request classification and routing, not a specific implementation
+        - Appears in awesome-jev as a 'Pattern and cookbook' entry, indicating it is educational content
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

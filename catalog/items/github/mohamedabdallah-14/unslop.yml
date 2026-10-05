@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mohamedabdallah-14__unslop__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: unslop
         extracted_url: https://github.com/mohamedabdallah-14/unslop
-        surrounding_text: >-
-          - **[unslop](https://github.com/MohamedAbdallah-14/unslop)** – CLI and MCP server (Claude Code plugin) that
-          removes named AI writing patterns from text. Targets tricolons, em-dash overuse, hedging stacks, sycophancy
-          openers, and overused vocabulary. Lint-only audit mode and five intensity levels. Useful for cleaning commit
-          messages, PR descriptions, and documentation drafts.
+        surrounding_text: "- **[unslop](https://github.com/MohamedAbdallah-14/unslop)** – CLI and MCP server (Claude Code plugin) that removes named AI writing patterns from text. Targets tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused vocabulary. Lint-only audit mode and five intensity levels. Useful for cleaning commit messages, PR descriptions, and documentation drafts."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    unslop – CLI and MCP server (Claude Code plugin) that removes named AI writing patterns from text. Targets
-    tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused vocabulary. Lint-only audit mode and
-    five intensity levels. Useful for cleaning commit messages, PR descriptions, and documentation drafts.
+  summary: unslop – CLI and MCP server (Claude Code plugin) that removes named AI writing patterns from text. Targets tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused vocabulary. Lint-only audit mode and five intensity levels. Useful for cleaning commit messages, PR descriptions, and documentation drafts.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.58
-    - >-
-      jev winnow:e4b 0.14 below gate 0.50; proposed extensions-and-addons / Testing & Code Quality; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.14 below gate 0.50; proposed extensions-and-addons / Testing & Code Quality; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -68,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

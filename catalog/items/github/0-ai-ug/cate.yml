@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0-ai-ug__cate__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,13 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Cate
         extracted_url: https://github.com/0-ai-ug/cate
-        surrounding_text: >-
-          - **[Cate](https://github.com/0-AI-UG/cate)** `⭐ 1.6k` — Desktop app that runs terminals, Claude Code agent
-          panels, editors, and browsers on an infinite zoomable canvas; multiple agent sessions sit side by side and
-          panels can dock into tabs or detach into separate windows. Built with Electron and node-pty. MIT.
+        surrounding_text: "- **[Cate](https://github.com/0-AI-UG/cate)** `⭐ 1.6k` — Desktop app that runs terminals, Claude Code agent panels, editors, and browsers on an infinite zoomable canvas; multiple agent sessions sit side by side and panels can dock into tabs or detach into separate windows. Built with Electron and node-pty. MIT."
         confidence: high
     - id: discovery__github__0-ai-ug__cate__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-21T04:13:39.852Z'
+      discovered_at: "2026-09-21T04:13:39.852Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -38,9 +35,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Cate
         extracted_url: https://github.com/0-ai-ug/cate
-        surrounding_text: >-
-          - **[Cate](https://github.com/0-AI-UG/cate)** – Infinite zoomable canvas IDE where editor, terminal, browser,
-          and Claude Code agent panels float spatially, like Figma or Miro but for coding.
+        surrounding_text: "- **[Cate](https://github.com/0-AI-UG/cate)** – Infinite zoomable canvas IDE where editor, terminal, browser, and Claude Code agent panels float spatially, like Figma or Miro but for coding."
         confidence: high
 metadata:
   github:
@@ -50,23 +45,19 @@ metadata:
     archived: false
     full_name: 0-AI-UG/cate
     html_url: https://github.com/0-AI-UG/cate
-    created_at: '2026-03-29T14:49:51Z'
-    pushed_at: '2026-09-27T14:16:33Z'
+    created_at: "2026-03-29T14:49:51Z"
+    pushed_at: "2026-09-27T14:16:33Z"
     description: An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.
     homepage: https://cate.cero-ai.com
     topics: []
-    last_checked_at: '2026-09-28T04:13:55.270Z'
+    last_checked_at: "2026-09-28T04:13:55.270Z"
     readme:
-      fetched_at: '2026-09-28T04:13:55.270Z'
+      fetched_at: "2026-09-28T04:13:55.270Z"
       bytes: 3960
 insights:
   summary: A spatial IDE that uses an infinite canvas to manage and visualize multiple concurrent coding agent sessions.
-  why_it_matters: >-
-    It allows developers to coordinate several agents working on different git branches or tasks simultaneously within a
-    single, agent-aware workspace.
-  mental_damage: >-
-    Provides the spatial complexity needed to match the overwhelming number of AI agents you'll eventually try to run at
-    once.
+  why_it_matters: It allows developers to coordinate several agents working on different git branches or tasks simultaneously within a single, agent-aware workspace.
+  mental_damage: Provides the spatial complexity needed to match the overwhelming number of AI agents you'll eventually try to run at once.
   tags:
     - spatial-ide
     - multi-agent
@@ -89,18 +80,22 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-21T04:13:39.854Z'
+    updated_at: "2026-09-21T04:13:39.854Z"
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: '2026-09-28T04:13:55.270Z'
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T04:19:13.498Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 0-ai-ug/cate
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:15:27.351Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.817Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -112,9 +107,7 @@ processing:
       input_hash: sha256:cf300c654b5be5a4e1b8f3de71282ce1b043f85aef259cab4a427008120d67b1
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        It functions as an orchestration platform because its core purpose is managing the execution, visibility, and
-        lifecycle of multiple concurrent agent processes.
+      decision_reason: It functions as an orchestration platform because its core purpose is managing the execution, visibility, and lifecycle of multiple concurrent agent processes.
       decision_evidence:
         - README explicitly describes it as an 'infinite canvas IDE for parallel coding agents'
         - Features agent-aware terminals that monitor turn status and permission prompts for multiple CLIs
@@ -122,8 +115,6 @@ processing:
       category_candidates:
         - agent-orchestration
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose agent-orchestration over extensions-and-addons because its primary identity is the management of multiple
-        concurrent agent sessions and worktrees rather than just adding a single capability to an existing editor.
+      contrastive_reason: Choose agent-orchestration over extensions-and-addons because its primary identity is the management of multiple concurrent agent sessions and worktrees rather than just adding a single capability to an existing editor.
       review_reason: null
       review_resume_lifecycle: null

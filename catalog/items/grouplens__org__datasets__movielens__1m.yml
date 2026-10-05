@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__grouplens__org__datasets__movielens__1m__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,9 +19,7 @@ provenance:
           - Description
         anchor_text: MovieLens-1M
         extracted_url: https://grouplens.org/datasets/movielens/1m
-        surrounding_text: >-
-          - These agents are initialized from the [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) dataset,
-          embodying varied social traits and preferences.
+        surrounding_text: "- These agents are initialized from the [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) dataset, embodying varied social traits and preferences."
         confidence: high
 metadata:
   github:
@@ -39,19 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A benchmark dataset consisting of 1 million movie ratings from 6,000 users across 4,000 movies.
-  why_it_matters: It provides a foundational dataset for training and evaluating recommendation system algorithms.
-  mental_damage: The unsettling realization that modern AI agents are often still being benchmarked against data from 2003.
+  summary: MovieLens 1M is a stable benchmark dataset of 1 million movie ratings from 6000 users on 4000 movies, released in 2003.
+  why_it_matters: Provides a standard dataset for evaluating and training recommendation algorithms in research and development.
+  mental_damage: Another dataset to download, preprocess, and realize you still need to build the actual model that makes it useful.
   tags:
     - dataset
-    - recommendation-systems
+    - benchmark
+    - recommendation
   confidence: high
 curation:
   status: excluded
-  reason: This is a static research dataset rather than a developer-facing tool, agent, framework, or infrastructure product.
+  reason: MovieLens 1M is a static benchmark dataset with no agentic, workflow, or tooling component; it does not assist developers in coding, building, or orchestrating AI systems.
   evidence:
-    - The project is a collection of movie ratings, not executable software or an SDK
-    - It is categorized as a benchmark dataset for ML research rather than developer tooling
+    - "Repo description: (none)"
+    - "Scraped site context: MovieLens 1M movie ratings. Stable benchmark dataset. 1 million ratings from 6000 users on 4000 movies. Released 2/2003."
+    - "Source-list context: listed in awesome-ai-agents under Agent4Rec as a description, not as an agent or tool."
 placement:
   primary_category: null
   section: null
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:19:37.672Z'
+    updated_at: "2026-10-05T04:33:22.143Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:90e88510a8ce7cc74673a016c69449d89f370492033b7d9c67bbcfa908d57fb0
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c0736ed142516b57449eacf52bac3d339e583dd907b5e4fb74827e7477686c2d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a static research dataset rather than a developer-facing tool, agent, framework, or infrastructure
-        product.
+      decision_reason: MovieLens 1M is a static benchmark dataset with no agentic, workflow, or tooling component; it does not assist developers in coding, building, or orchestrating AI systems.
       decision_evidence:
-        - The project is a collection of movie ratings, not executable software or an SDK
-        - It is categorized as a benchmark dataset for ML research rather than developer tooling
+        - "Repo description: (none)"
+        - "Scraped site context: MovieLens 1M movie ratings. Stable benchmark dataset. 1 million ratings from 6000 users on 4000 movies. Released 2/2003."
+        - "Source-list context: listed in awesome-ai-agents under Agent4Rec as a description, not as an agent or tool."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

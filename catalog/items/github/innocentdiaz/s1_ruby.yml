@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__innocentdiaz__s1_ruby__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: s1_ruby
         extracted_url: https://github.com/innocentdiaz/s1_ruby
-        surrounding_text: >-
-          - [s1_ruby](https://github.com/innocentdiaz/s1_ruby)
-          ![stars](https://img.shields.io/github/stars/innocentdiaz/s1_ruby?style=flat-square&label=%E2%98%85) - Ruby
-          ecosystem: makes System One measurement, and the collapse that follows it, a Ruby primitive, with a TypeSafe
-          provider behind its own spec suite.
+        surrounding_text: "- [s1_ruby](https://github.com/innocentdiaz/s1_ruby) ![stars](https://img.shields.io/github/stars/innocentdiaz/s1_ruby?style=flat-square&label=%E2%98%85) - Ruby ecosystem: makes System One measurement, and the collapse that follows it, a Ruby primitive, with a TypeSafe provider behind its own spec suite."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    s1_ruby - Ruby ecosystem: makes System One measurement, and the collapse that follows it, a Ruby primitive, with a
-    TypeSafe provider behind its own spec suite.
+  summary: "s1_ruby - Ruby ecosystem: makes System One measurement, and the collapse that follows it, a Ruby primitive, with a TypeSafe provider behind its own spec suite."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

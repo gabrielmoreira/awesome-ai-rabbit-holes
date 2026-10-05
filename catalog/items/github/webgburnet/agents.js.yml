@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__webgburnet__agents.js__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,7 +19,7 @@ provenance:
           - Frameworks
         anchor_text: Agents.js
         extracted_url: https://github.com/webgburnet/agents.js
-        surrounding_text: '- [Agents.js](https://github.com/Webgburnet/Agents.js) - JavaScript framework for'
+        surrounding_text: "- [Agents.js](https://github.com/Webgburnet/Agents.js) - JavaScript framework for"
         confidence: high
 metadata:
   github:
@@ -44,9 +44,7 @@ insights:
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for webgburnet/agents.js
     - ungh.cc (cached GitHub proxy) returned 404 for webgburnet/agents.js
@@ -61,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.655Z'
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-07-21T15:21:11.177Z'
+    updated_at: "2026-07-21T15:21:11.177Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: webgburnet/agents.js'
+      message: "GitHub repository not found: webgburnet/agents.js"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__razaanstha__ulka__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: ulka
         extracted_url: https://github.com/razaanstha/ulka
-        surrounding_text: >-
-          | [ulka](https://github.com/razaanstha/ulka) | ★ 23 | TypeScript | 2026-09-23 | Experimental browser agent
-          powered by FX, Jev, and Vercel AI Gateway. Bring your own API key to read pages and automate browser tasks. |
+        surrounding_text: "| [ulka](https://github.com/razaanstha/ulka) | ★ 23 | TypeScript | 2026-09-23 | Experimental browser agent powered by FX, Jev, and Vercel AI Gateway. Bring your own API key to read pages and automate browser tasks. |"
         confidence: high
 metadata:
   github:
@@ -40,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Experimental browser agent powered by FX, Jev, and Vercel AI Gateway. Bring your own API key to read pages and
-    automate browser tasks.
+  summary: Experimental browser agent powered by FX, Jev, and Vercel AI Gateway. Bring your own API key to read pages and automate browser tasks.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -52,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
     - jev-latest choice confidence 0.87
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -66,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

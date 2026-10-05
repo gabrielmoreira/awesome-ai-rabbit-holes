@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__datadoghq__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Datadog
         extracted_url: https://datadoghq.com
-        surrounding_text: '- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights.'
+        surrounding_text: "- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights."
         confidence: high
     - id: discovery__www__datadoghq__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Datadog
         extracted_url: https://www.datadoghq.com
-        surrounding_text: '- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights.'
+        surrounding_text: "- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights."
         confidence: high
 metadata:
   github:
@@ -51,36 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Datadog is a cloud monitoring and observability platform for infrastructure, applications, logs, security, and AI
-    model performance.
-  why_it_matters: >-
-    It provides developers with unified visibility into system health, performance, and AI model behavior to debug,
-    optimize, and ensure reliability.
-  mental_damage: >-
-    Watching your AI costs spike in real time while your monitoring tool bills you for the privilege of seeing the
-    disaster unfold.
+  summary: Datadog is a cloud monitoring and observability platform offering infrastructure, application performance, log, security, and AI model monitoring as a service.
+  why_it_matters: It helps developers monitor system health, detect anomalies, and correlate metrics across services to improve reliability and debugging.
+  mental_damage: Yet another dashboard to watch while hoping your alert thresholds don’t wake you at 3 a.m.
   tags:
-    - monitoring
     - observability
+    - monitoring
     - devops
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Datadog is a general observability and monitoring SaaS platform not specifically focused on AI developer tooling
-    like coding agents, app builders, or agent orchestration; its AI features are ancillary to its core infrastructure
-    monitoring product.
+  reason: Datadog is a general DevOps observability and monitoring platform without a primary focus on AI-assisted software development workflows; its AI features are ancillary to core infrastructure monitoring.
   evidence:
-    - >-
-      Seen in source list under 'DevOps and Infrastructure' section with description: 'See metrics from all of your
-      apps, tools & services in one place with Datadog’s cloud monitoring as a service solution.'
-    - >-
-      Scraped site context emphasizes infrastructure monitoring, application performance, logs, security, and digital
-      experience as primary products, with AI listed as one capability among many.
-    - >-
-      No evidence that Datadog's primary identity is as a developer-facing AI tool for coding, agent orchestration,
-      prompt engineering, or similar developer workflows.
+    - Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools
+    - Scraped site context emphasizes cloud monitoring, infrastructure, APM, logs, and security as core products
+    - README excerpt and product description focus on end-to-end observability, not AI coding agents or developer tooling
 placement:
   primary_category: null
   section: null
@@ -90,40 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:32.991Z'
+    updated_at: "2026-10-05T04:47:18.765Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7155cd3532dccc2f5e38c481776c9fd6f104601dec4fa423a2fdf4bc1fceb15e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:109c0ed7b54b4e68d812019a1b574aa68e36e9b9b8630d70f276cac20ab54b65
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Datadog is a general observability and monitoring SaaS platform not specifically focused on AI developer tooling
-        like coding agents, app builders, or agent orchestration; its AI features are ancillary to its core
-        infrastructure monitoring product.
+      decision_reason: Datadog is a general DevOps observability and monitoring platform without a primary focus on AI-assisted software development workflows; its AI features are ancillary to core infrastructure monitoring.
       decision_evidence:
-        - >-
-          Seen in source list under 'DevOps and Infrastructure' section with description: 'See metrics from all of your
-          apps, tools & services in one place with Datadog’s cloud monitoring as a service solution.'
-        - >-
-          Scraped site context emphasizes infrastructure monitoring, application performance, logs, security, and
-          digital experience as primary products, with AI listed as one capability among many.
-        - >-
-          No evidence that Datadog's primary identity is as a developer-facing AI tool for coding, agent orchestration,
-          prompt engineering, or similar developer workflows.
+        - Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools
+        - Scraped site context emphasizes cloud monitoring, infrastructure, APM, logs, and security as core products
+        - README excerpt and product description focus on end-to-end observability, not AI coding agents or developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jiawei686__jev-review-mcp__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-review-mcp**'
+        anchor_text: "**jev-review-mcp**"
         extracted_url: https://github.com/jiawei686/jev-review-mcp
-        surrounding_text: >-
-          - [**jev-review-mcp**](https://github.com/jiawei686/jev-review-mcp) — Single-purpose MCP server (one tool, one
-          job): a code-review gate powered by TypeSafe Jev (System One decision model).
+        surrounding_text: "- [**jev-review-mcp**](https://github.com/jiawei686/jev-review-mcp) — Single-purpose MCP server (one tool, one job): a code-review gate powered by TypeSafe Jev (System One decision model)."
         confidence: high
 metadata:
   github:
@@ -39,18 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-review-mcp — Single-purpose MCP server (one tool, one job): a code-review gate powered by TypeSafe Jev (System
-    One decision model).
+  summary: "jev-review-mcp — Single-purpose MCP server (one tool, one job): a code-review gate powered by TypeSafe Jev (System One decision model)."
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for jiawei686/jev-review-mcp
     - ungh.cc (cached GitHub proxy) returned 404 for jiawei686/jev-review-mcp
@@ -65,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

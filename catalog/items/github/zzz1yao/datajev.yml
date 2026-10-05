@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zzz1yao__datajev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: DataJev
         extracted_url: https://github.com/zzz1yao/datajev
-        surrounding_text: >-
-          - [DataJev](https://github.com/zzz1YAO/DataJev) - Data-analysis agent loop where an LLM analyzes, Python
-          executes, and TypeSafe Jev chooses CONTINUE/SWITCH/VERIFY/STOP (heuristic offline path). [Project
-          guide](community/projects/tools/datajev.md).
+        surrounding_text: "- [DataJev](https://github.com/zzz1YAO/DataJev) - Data-analysis agent loop where an LLM analyzes, Python executes, and TypeSafe Jev chooses CONTINUE/SWITCH/VERIFY/STOP (heuristic offline path). [Project guide](community/projects/tools/datajev.md)."
         confidence: high
     - id: discovery__github__zzz1yao__datajev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,14 +33,12 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**DataJev**'
+        anchor_text: "**DataJev**"
         extracted_url: https://github.com/zzz1yao/datajev
-        surrounding_text: >-
-          - [**DataJev**](https://github.com/zzz1YAO/DataJev) — ⚡ DataJev LLM → Analyze Jev → Continue / Switch / Verify
-          / Stop System-1 control for System-2 data agents
+        surrounding_text: "- [**DataJev**](https://github.com/zzz1YAO/DataJev) — ⚡ DataJev LLM → Analyze Jev → Continue / Switch / Verify / Stop System-1 control for System-2 data agents"
         confidence: high
     - id: discovery__github__zzz1yao__datajev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,12 +51,7 @@ provenance:
           - Agent Decisions
         anchor_text: DataJev
         extracted_url: https://github.com/zzz1yao/datajev
-        surrounding_text: >-
-          - [DataJev](https://github.com/zzz1YAO/DataJev)
-          ![stars](https://img.shields.io/github/stars/zzz1YAO/DataJev?style=flat-square&label=%E2%98%85) - Data
-          analysis agents: an LLM performs Python-based analysis while Jev reads the compressed analytical state and
-          decides whether the agent should continue the current direction, switch to another one, verify a finding, or
-          stop and synthesize the answer.
+        surrounding_text: "- [DataJev](https://github.com/zzz1YAO/DataJev) ![stars](https://img.shields.io/github/stars/zzz1YAO/DataJev?style=flat-square&label=%E2%98%85) - Data analysis agents: an LLM performs Python-based analysis while Jev reads the compressed analytical state and decides whether the agent should continue the current direction, switch to another one, verify a finding, or stop and synthesize the answer."
         confidence: high
 metadata:
   github:
@@ -79,18 +69,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    DataJev - Data-analysis agent loop where an LLM analyzes, Python executes, and TypeSafe Jev chooses
-    CONTINUE/SWITCH/VERIFY/STOP (heuristic offline path). Project guide.
+  summary: DataJev - Data-analysis agent loop where an LLM analyzes, Python executes, and TypeSafe Jev chooses CONTINUE/SWITCH/VERIFY/STOP (heuristic offline path). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for zzz1yao/datajev
     - ungh.cc (cached GitHub proxy) returned 404 for zzz1yao/datajev
@@ -105,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -113,6 +99,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

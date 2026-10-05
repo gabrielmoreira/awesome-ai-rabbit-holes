@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sudeshkar__jev-corrective-rag__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-corrective-rag
         extracted_url: https://github.com/sudeshkar/jev-corrective-rag
-        surrounding_text: >-
-          - [jev-corrective-rag](https://github.com/sudeshkar/jev-corrective-rag) - Corrective RAG demo: TypeSafe Jev
-          typed gates for triage/grading/verify; generative LLM only writes answers. [Project
-          guide](community/projects/tools/jev-corrective-rag.md).
+        surrounding_text: "- [jev-corrective-rag](https://github.com/sudeshkar/jev-corrective-rag) - Corrective RAG demo: TypeSafe Jev typed gates for triage/grading/verify; generative LLM only writes answers. [Project guide](community/projects/tools/jev-corrective-rag.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-corrective-rag - Corrective RAG demo: TypeSafe Jev typed gates for triage/grading/verify; generative LLM only
-    writes answers. Project guide.
+  summary: "jev-corrective-rag - Corrective RAG demo: TypeSafe Jev typed gates for triage/grading/verify; generative LLM only writes answers. Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

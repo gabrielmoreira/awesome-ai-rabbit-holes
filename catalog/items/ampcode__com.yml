@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ampcode__com__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,12 +19,10 @@ provenance:
           - Closed Source
         anchor_text: Amp
         extracted_url: https://sourcegraph.com/amp
-        surrounding_text: >-
-          - **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for
-          implementing tasks across real codebases.
+        surrounding_text: "- **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for implementing tasks across real codebases."
         confidence: high
     - id: discovery__ampcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -36,9 +34,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Amp (Sourcegraph)
         extracted_url: https://ampcode.com
-        surrounding_text: >-
-          - **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search
-          infrastructure with deep codebase graph and unconstrained token usage.
+        surrounding_text: "- **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search infrastructure with deep codebase graph and unconstrained token usage."
         confidence: high
 metadata:
   github:
@@ -56,26 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A frontier coding agent that provides remote execution environments and multi-device access to AI-driven development
-    workflows.
-  why_it_matters: >-
-    It enables long-running, unsupervised agent tasks via remote 'orbs' that continue executing even after the user
-    disconnects.
-  mental_damage: >-
-    Finally, you can walk away from your laptop and trust that an autonomous agent is making even more decisions for you
-    while you grab coffee.
+  summary: Amp is a frontier coding agent that operates in the terminal, web, and mobile to perform coding tasks using leading AI models.
+  why_it_matters: It lets developers delegate coding work to an agent that persists across devices and continues running even when the local machine is off.
+  mental_damage: Yet another agent promising to make you obsolete while you still have to pay for the subscription to feel productive.
   tags:
     - coding-agent
-    - ai-agent
     - terminal
-    - cross-platform
-  confidence: medium
+    - ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  reason: Amp is positioned as a primary coding agent that performs autonomous coding tasks across terminal, web, and mobile environments, fitting the coding-agents category rather than being an extension or orchestration layer.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Scraped site describes Amp as 'a frontier coding agent that lets you wield the full power of leading models' and emphasizes agents that run in terminals, on the web, and on phones.
+    - Source-list inclusion in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+    - README highlights agent persistence via 'orbs' (remote machines), multi-agent spawning, scheduling, and cross-device continuity — core behaviors of a coding agent, not a host extension.
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -86,7 +77,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.596Z'
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -94,36 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:08.085Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for ampcode__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:21.351Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:95290ad0cbe59c1072b6d97f8780d37fc104d74944ca1fd1cdd748ec901461a7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1096c5767178157caad6111e16deded8d2aa2b5040871b933938b653643fdfd4
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The product is a standalone coding assistant that directly plans and executes tasks across a codebase, rather
-        than just augmenting an existing editor.
+      decision_reason: Amp is positioned as a primary coding agent that performs autonomous coding tasks across terminal, web, and mobile environments, fitting the coding-agents category rather than being an extension or orchestration layer.
       decision_evidence:
-        - Source-list placement in 'awesome-ai-coding-tools' under 'Code Editors and Assistants' and 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Closed Source'
-        - Scraped site describes Amp as 'a frontier coding agent that lets you wield the full power of leading models' and emphasizes use 'on the web, in your terminal, and on your phone'
-        - Features like multi-agent spawning, scheduling, and Slack integration position it as an autonomous agent rather than a plugin or scaffold generator
+        - Scraped site describes Amp as 'a frontier coding agent that lets you wield the full power of leading models' and emphasizes agents that run in terminals, on the web, and on phones.
+        - Source-list inclusion in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+        - README highlights agent persistence via 'orbs' (remote machines), multi-agent spawning, scheduling, and cross-device continuity — core behaviors of a coding agent, not a host extension.
       category_candidates:
         - coding-agents
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because the primary value proposition is acting as the direct
-        coding assistant that edits files and runs commands, despite its advanced remote runtime capabilities.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Amp is a standalone agent that developers interact with directly, not a plugin that augments another coding assistant like Claude Code or Cursor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__murongg__jevrepotriage__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JevRepoTriage
         extracted_url: https://github.com/murongg/jevrepotriage
-        surrounding_text: >-
-          - [JevRepoTriage](https://github.com/murongg/JevRepoTriage) - Self-hosted GitHub issue/PR triage assistant
-          powered by TypeSafe Jev (web UI + workers). [Project guide](community/projects/tools/jevrepo-triage.md).
+        surrounding_text: "- [JevRepoTriage](https://github.com/murongg/JevRepoTriage) - Self-hosted GitHub issue/PR triage assistant powered by TypeSafe Jev (web UI + workers). [Project guide](community/projects/tools/jevrepo-triage.md)."
         confidence: high
 metadata:
   github:
@@ -40,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    JevRepoTriage - Self-hosted GitHub issue/PR triage assistant powered by TypeSafe Jev (web UI + workers). Project
-    guide.
+  summary: JevRepoTriage - Self-hosted GitHub issue/PR triage assistant powered by TypeSafe Jev (web UI + workers). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

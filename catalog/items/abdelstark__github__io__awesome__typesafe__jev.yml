@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__abdelstark__github__io__awesome__typesafe__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://abdelstark.github.io/awesome-typesafe
-        surrounding_text: >-
-          - [awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe-jev)
-          ([site](https://abdelstark.github.io/awesome-typesafe/)) - Curated list of official resources and community
-          projects for TypeSafe, System One models, and Jev, with a GitHub Pages site.
+        surrounding_text: "- [awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe-jev) ([site](https://abdelstark.github.io/awesome-typesafe/)) - Curated list of official resources and community projects for TypeSafe, System One models, and Jev, with a GitHub Pages site."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    awesome-typesafe (site) - Curated list of official resources and community projects for TypeSafe, System One models,
-    and Jev, with a GitHub Pages site.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A curated directory of projects built on Jev, TypeSafe AI's System One model.
+  why_it_matters: Helps developers discover real-world applications of Jev decision models in practice.
+  mental_damage: Yet another 'awesome' list promising clarity while adding to the infinite scroll of AI tooling directories.
+  tags:
+    - awesome-list
+    - jev
+    - decision-models
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: This is a curated directory of Jev-based projects, fitting the awesome-awesomes category as a discovery resource rather than a standalone tool.
   evidence:
-    - jev-latest choice confidence 0.88
+    - Described as 'Directory of projects built on [Jev](https://typesafe.ai)' in source-list context
+    - "Appears in source list 'awesome-jev' with purpose: 'Directory of projects built on Jev'"
+    - Scraped page confirms it has moved but retains its identity as an awesome list for Jev projects
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:49.646Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8b71498bb4de9cd198655c79910ad29569daeaf9be7cd498881501cc9af16828
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of Jev-based projects, fitting the awesome-awesomes category as a discovery resource rather than a standalone tool.
+      decision_evidence:
+        - Described as 'Directory of projects built on [Jev](https://typesafe.ai)' in source-list context
+        - "Appears in source list 'awesome-jev' with purpose: 'Directory of projects built on Jev'"
+        - Scraped page confirms it has moved but retains its identity as an awesome list for Jev projects
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because this is a curated directory for discovery, not a decision model, SDK, or tool that performs judgments.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

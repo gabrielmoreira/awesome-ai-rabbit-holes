@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__arena__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An interactive platform for chatting with, comparing, and voting on various AI models.
-  why_it_matters: >-
-    It provides real-world comparative data to help developers decide which models are actually effective for specific
-    tasks like coding or image generation.
-  mental_damage: >-
-    Nothing fuels the existential dread of an architecture review quite like watching a community vote on which model's
-    hallucination is the most aesthetically pleasing.
+  summary: Arena AI is a community-driven platform for chatting with, comparing, and voting on AI models to shape a public leaderboard for LLMs, image, and code models.
+  why_it_matters: It gives developers a real-world benchmarking arena to evaluate model performance beyond synthetic tests, helping inform model selection.
+  mental_damage: Another leaderboard where you vote on vibes instead of benchmarks, because nothing says 'rigorous evaluation' like crowd-sourced Elo scores.
   tags:
     - leaderboard
-    - evals
-    - model-comparison
-  confidence: medium
+    - model-evaluation
+    - community
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  status: excluded
+  reason: Arena AI is a model ranking and community voting platform, not a developer-facing AI tool for coding, agent orchestration, or infrastructure; it serves end-users comparing models, not developers building with AI.
   evidence:
-    - jev-latest choice confidence 0.86
+    - "Scraped site context: 'Chat, compare, vote for the world's best AI models. Join the community shaping the public leaderboard for LLMs, image, and code models through real-world evaluation.'"
+    - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' (Experience/Usage) as a chat and comparison tool."
+    - No evidence of coding agent behavior, app building, framework, or developer tooling — primary identity is model comparison and community voting.
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,34 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:19.901Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for arena__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:29.103Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d72113f20e697774d6d3122714720d85097f7c82d18c4948424cbacb38234dba
-      proposed_primary_category: evals
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4da0d18d755208510dd1bb303dad30acf7c51b72639e5be88fbf2130c1deccd7
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: Arena AI fits the evals category as its core function is measuring and comparing model behavior through community voting and real-world task performance, not building or orchestrating AI systems.
+      decision_reason: Arena AI is a model ranking and community voting platform, not a developer-facing AI tool for coding, agent orchestration, or infrastructure; it serves end-users comparing models, not developers building with AI.
       decision_evidence:
-        - Scraped site describes it as 'Chat, compare, vote for the world's best AI models' and 'Join the community shaping the public leaderboard for LLMs, image, and code models through real-world evaluation.'
-        - Listed in awesome-LLM-resources under '体验 Usage' (Experience/Usage) with a focus on chatting, comparing, and voting on models.
-        - Primary interface involves prompting models and comparing outputs via battle mode, aligning with human-in-the-loop evaluation.
-      category_candidates:
-        - evals
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose evals over awesome-awesomes because the product is a functional evaluation platform rather than just a
-        static directory of links.
+        - "Scraped site context: 'Chat, compare, vote for the world's best AI models. Join the community shaping the public leaderboard for LLMs, image, and code models through real-world evaluation.'"
+        - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' (Experience/Usage) as a chat and comparison tool."
+        - No evidence of coding agent behavior, app building, framework, or developer tooling — primary identity is model comparison and community voting.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

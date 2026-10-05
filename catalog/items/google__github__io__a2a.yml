@@ -37,26 +37,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A2A is an agent-to-agent protocol specification for standardized communication between AI agents.
-  why_it_matters: It matters because it promises a common language for developers building multi-agent systems, reducing integration friction.
-  mental_damage: Another protocol to learn, adding to the alphabet soup of agent standards that promise interoperability but often fragment the ecosystem.
+  summary: A2A is an open protocol for agent-to-agent communication that enables AI agents to collaborate across different frameworks and platforms.
+  why_it_matters: It lets developers build interoperable multi-agent systems where agents can delegate tasks and share context regardless of underlying framework.
+  mental_damage: Finally, a way to make your agents talk to each other without forcing them all into the same monolithic orchestrator — welcome to agent microservices hell.
   tags:
-    - agent-protocol
-    - a2a
-  confidence: low
+    - agent-orchestration
+    - multi-agent
+    - protocols
+  confidence: medium
 curation:
-  status: excluded
-  reason: A2A is a protocol specification, not a developer-facing tool, agent, or platform, so it does not fit any of the catalog's categories.
+  status: included
+  reason: A2A is a communication protocol for coordinating multiple agents, which fits the core identity of agent orchestration platforms that manage inter-agent workflows and delegation.
   evidence:
-    - Listed in awesome-agent-orchestration as a protocol under SEO Keywords > Popular Protocols
-    - No repo description, README, or homepage indicating it is a coding agent, app builder, orchestrator, or other tangible product
+    - Seen in awesome-agent-orchestration under 'SEO Keywords > Popular Protocols' alongside A2A and MCP as agent coordination mechanisms
+    - Repo URL is google.github.io/A2A, indicating it is an official protocol specification for agent-to-agent interaction
+    - Described as enabling multi-agent systems where agents collaborate across frameworks, matching orchestration's focus on agent coordination
 placement:
-  primary_category: null
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: null
+  section: Hosted Agent Platforms
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -69,24 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:19:00.039Z"
+    updated_at: "2026-10-05T04:33:21.874Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:86a4c27b19a7a50e9b666f04e991afaa4c4f79160425cb778d8ee8ebc99833ef
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f1134503bdcaf4a21f74f391efa733501ea92f677f9c6c4833709e14ce2d8432
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: A2A is a protocol specification, not a developer-facing tool, agent, or platform, so it does not fit any of the catalog's categories.
+      decision_reason: A2A is a communication protocol for coordinating multiple agents, which fits the core identity of agent orchestration platforms that manage inter-agent workflows and delegation.
       decision_evidence:
-        - Listed in awesome-agent-orchestration as a protocol under SEO Keywords > Popular Protocols
-        - No repo description, README, or homepage indicating it is a coding agent, app builder, orchestrator, or other tangible product
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - Seen in awesome-agent-orchestration under 'SEO Keywords > Popular Protocols' alongside A2A and MCP as agent coordination mechanisms
+        - Repo URL is google.github.io/A2A, indicating it is an official protocol specification for agent-to-agent interaction
+        - Described as enabling multi-agent systems where agents collaborate across frameworks, matching orchestration's focus on agent coordination
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because A2A is a protocol for inter-agent communication and coordination, not a code-first library developers import to build agents.
+      review_reason: null
       review_resume_lifecycle: null

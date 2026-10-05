@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__koala73__worldmonitor__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,15 +20,10 @@ provenance:
           - Scoring & Ranking
         anchor_text: WorldMonitor
         extracted_url: https://github.com/koala73/worldmonitor
-        surrounding_text: >-
-          - [WorldMonitor](https://github.com/koala73/worldmonitor)
-          ![stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=flat-square&label=%E2%98%85) -
-          Geopolitical intelligence: real-time global intelligence dashboard using TypeSafe Jev questions to score news
-          headline severity into 5 threat levels and categorize events across 14 conflict, cyber, and infrastructure
-          domains.
+        surrounding_text: "- [WorldMonitor](https://github.com/koala73/worldmonitor) ![stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=flat-square&label=%E2%98%85) - Geopolitical intelligence: real-time global intelligence dashboard using TypeSafe Jev questions to score news headline severity into 5 threat levels and categorize events across 14 conflict, cyber, and infrastructure domains."
         confidence: high
     - id: discovery__github__koala73__worldmonitor__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -40,9 +35,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: World Monitor
         extracted_url: https://github.com/koala73/worldmonitor
-        surrounding_text: >-
-          - [World Monitor](https://github.com/koala73/worldmonitor) - Geopolitical dashboard that batches Jev 1.13.0
-          headline-severity and topic classifications, validates the answers, and falls back when classification fails.
+        surrounding_text: "- [World Monitor](https://github.com/koala73/worldmonitor) - Geopolitical dashboard that batches Jev 1.13.0 headline-severity and topic classifications, validates the answers, and falls back when classification fails."
         confidence: high
 metadata:
   github:
@@ -60,10 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    WorldMonitor - Geopolitical intelligence: real-time global intelligence dashboard using TypeSafe Jev questions to
-    score news headline severity into 5 threat levels and categorize events across 14 conflict, cyber, and
-    infrastructure domains.
+  summary: "WorldMonitor - Geopolitical intelligence: real-time global intelligence dashboard using TypeSafe Jev questions to score news headline severity into 5 threat levels and categorize events across 14 conflict, cyber, and infrastructure domains."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -83,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.418Z'
+    updated_at: "2026-09-29T13:07:10.418Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

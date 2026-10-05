@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__any4ai__anycrawl__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-08-06T05:06:55.627Z'
+      discovered_at: "2026-08-06T05:06:55.627Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Official Servers
         anchor_text: AnyCrawl
         extracted_url: https://anycrawl.dev
-        surrounding_text: >-
-          - **[AnyCrawl](https://github.com/any4ai/anycrawl-mcp-server)** - [AnyCrawl](https://anycrawl.dev) MCP Server,
-          Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol
-          (MCP).
+        surrounding_text: "- **[AnyCrawl](https://github.com/any4ai/anycrawl-mcp-server)** - [AnyCrawl](https://anycrawl.dev) MCP Server, Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol (MCP)."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: any4ai/AnyCrawl
     html_url: https://github.com/any4ai/AnyCrawl
-    created_at: '2025-03-31T04:28:11Z'
-    pushed_at: '2026-09-19T18:40:34Z'
-    description: >-
-      AnyCrawl 🚀: A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP
-      results from Google/Bing/Baidu/etc. Native multi-threading for bulk processing.
+    created_at: "2025-03-31T04:28:11Z"
+    pushed_at: "2026-09-19T18:40:34Z"
+    description: "AnyCrawl 🚀: A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results from Google/Bing/Baidu/etc. Native multi-threading for bulk processing."
     homepage: https://anycrawl.dev
     topics:
       - ai-scraping
@@ -49,20 +44,14 @@ metadata:
       - scraping
       - serp
       - webscraper
-    last_checked_at: '2026-09-21T04:13:42.781Z'
+    last_checked_at: "2026-09-21T04:13:42.781Z"
     readme:
-      fetched_at: '2026-09-21T04:13:42.780Z'
+      fetched_at: "2026-09-21T04:13:42.780Z"
       bytes: 16241
 insights:
-  summary: >-
-    AnyCrawl is a Node.js/TypeScript web crawler that extracts LLM-ready data from websites and SERPs using
-    multi-threading and batch processing.
-  why_it_matters: >-
-    It lets developers turn web content into structured, AI-friendly inputs for RAG, agents, or automation without
-    building scraping pipelines from scratch.
-  mental_damage: >-
-    Finally, a way to outsource the soul-crushing tedium of parsing HTML to a tool that still needs proxies to avoid
-    getting banned.
+  summary: AnyCrawl is a Node.js/TypeScript web crawler that extracts LLM-ready data from websites and SERPs using multi-threading and batch processing.
+  why_it_matters: It lets developers turn web content into structured, AI-friendly inputs for RAG, agents, or automation without building scraping pipelines from scratch.
+  mental_damage: Finally, a way to outsource the soul-crushing tedium of parsing HTML to a tool that still needs proxies to avoid getting banned.
   tags:
     - web-scraping
     - data-extraction
@@ -72,19 +61,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    AnyCrawl is a general-purpose web scraping tool focused on data extraction and SERP crawling, not a developer-facing
-    AI coding agent, workflow tool, or infrastructure with a clear AI-tooling purpose beyond feeding data to models.
+  reason: AnyCrawl is a general-purpose web scraping tool focused on data extraction and SERP crawling, not a developer-facing AI coding agent, workflow tool, or infrastructure with a clear AI-tooling purpose beyond feeding data to models.
   evidence:
-    - >-
-      Repo description: 'A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured
-      SERP results'
-    - >-
-      README: 'LLM‑friendly. Easy to integrate and use.' with features like SERP crawling, web scraping, site crawling,
-      and AI extraction
-    - >-
-      Source-list context: Listed in awesome-mcp-servers as a tool that 'Transform[s] any website into structured, clean
-      data optimized for AI and large language models'
+    - "Repo description: 'A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results'"
+    - "README: 'LLM‑friendly. Easy to integrate and use.' with features like SERP crawling, web scraping, site crawling, and AI extraction"
+    - "Source-list context: Listed in awesome-mcp-servers as a tool that 'Transform[s] any website into structured, clean data optimized for AI and large language models'"
 placement:
   primary_category: null
   section: null
@@ -94,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-08-06T05:06:55.628Z'
+    updated_at: "2026-08-06T05:06:55.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:42.781Z'
+    updated_at: "2026-09-21T04:13:42.781Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -115,20 +96,11 @@ processing:
       input_hash: sha256:5a794cc5f244b794e7c9b8275481379d58be04df502748cca095cf72c3344046
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        AnyCrawl is a general-purpose web scraping tool focused on data extraction and SERP crawling, not a
-        developer-facing AI coding agent, workflow tool, or infrastructure with a clear AI-tooling purpose beyond
-        feeding data to models.
+      decision_reason: AnyCrawl is a general-purpose web scraping tool focused on data extraction and SERP crawling, not a developer-facing AI coding agent, workflow tool, or infrastructure with a clear AI-tooling purpose beyond feeding data to models.
       decision_evidence:
-        - >-
-          Repo description: 'A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts
-          structured SERP results'
-        - >-
-          README: 'LLM‑friendly. Easy to integrate and use.' with features like SERP crawling, web scraping, site
-          crawling, and AI extraction
-        - >-
-          Source-list context: Listed in awesome-mcp-servers as a tool that 'Transform[s] any website into structured,
-          clean data optimized for AI and large language models'
+        - "Repo description: 'A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results'"
+        - "README: 'LLM‑friendly. Easy to integrate and use.' with features like SERP crawling, web scraping, site crawling, and AI extraction"
+        - "Source-list context: Listed in awesome-mcp-servers as a tool that 'Transform[s] any website into structured, clean data optimized for AI and large language models'"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

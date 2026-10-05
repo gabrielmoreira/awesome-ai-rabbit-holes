@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aden-hive__hive__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-21T05:27:57.681Z'
+      discovered_at: "2026-05-21T05:27:57.681Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,14 +19,10 @@ provenance:
           - LLMOps
         anchor_text: Hive
         extracted_url: https://github.com/aden-hive/hive
-        surrounding_text: >-
-          | [Hive](https://github.com/aden-hive/hive)                          | Open-source AI agent framework for
-          building goal-driven, self-improving autonomous agents with auto-generated graphs, evolution loops, and MCP
-          integration.                                                                                                                                                                                                                                            
-          | ![GitHub Badge](https://img.shields.io/github/stars/aden-hive/hive.svg?style=flat-square)                 |
+        surrounding_text: "| [Hive](https://github.com/aden-hive/hive)                          | Open-source AI agent framework for building goal-driven, self-improving autonomous agents with auto-generated graphs, evolution loops, and MCP integration.                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/aden-hive/hive.svg?style=flat-square)                 |"
         confidence: high
     - id: discovery__github__aden-hive__hive__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-08-17T04:19:08.737Z'
+      discovered_at: "2026-08-17T04:19:08.737Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -38,9 +34,7 @@ provenance:
           - Core Frameworks
         anchor_text: Hive
         extracted_url: https://github.com/aden-hive/hive
-        surrounding_text: >-
-          | [Hive](https://github.com/aden-hive/hive) | 10,914 | Python | Apache-2.0 | 2026-08 | Multi-agent harness
-          aimed at production |
+        surrounding_text: "| [Hive](https://github.com/aden-hive/hive) | 10,914 | Python | Apache-2.0 | 2026-08 | Multi-agent harness aimed at production |"
         confidence: high
 metadata:
   github:
@@ -50,10 +44,10 @@ metadata:
     archived: false
     full_name: aden-hive/hive
     html_url: https://github.com/aden-hive/hive
-    created_at: '2026-01-12T00:04:22Z'
-    pushed_at: '2026-09-14T00:10:08Z'
+    created_at: "2026-01-12T00:04:22Z"
+    pushed_at: "2026-09-14T00:10:08Z"
     description: Multi-Agent Harness for Production AI
-    homepage: ''
+    homepage: ""
     topics:
       - agent
       - agent-framework
@@ -69,20 +63,14 @@ metadata:
       - python
       - self-hosted
       - self-improving
-    last_checked_at: '2026-09-17T04:13:30.087Z'
+    last_checked_at: "2026-09-17T04:13:30.087Z"
     readme:
-      fetched_at: '2026-09-17T04:13:30.087Z'
+      fetched_at: "2026-09-17T04:13:30.087Z"
       bytes: 19318
 insights:
-  summary: >-
-    A multi-agent runtime designed to manage state, recovery, and coordination for colonies of autonomous agents in
-    production workloads.
-  why_it_matters: >-
-    It provides the necessary infrastructure—state management, human-in-the-loop, and error recovery—to move agentic
-    workflows from fragile prototypes to reliable production systems.
-  mental_damage: >-
-    Another layer of abstraction to manage the chaos of agents that are themselves trying to manage the chaos of your
-    business logic.
+  summary: A multi-agent runtime designed to manage state, recovery, and coordination for colonies of autonomous agents in production workloads.
+  why_it_matters: It provides the necessary infrastructure—state management, human-in-the-loop, and error recovery—to move agentic workflows from fragile prototypes to reliable production systems.
+  mental_damage: Another layer of abstraction to manage the chaos of agents that are themselves trying to manage the chaos of your business logic.
   tags:
     - multi-agent
     - agent-harness
@@ -105,18 +93,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-08-17T04:19:08.740Z'
+    updated_at: "2026-08-17T04:19:08.740Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:30.087Z'
+    updated_at: "2026-09-17T04:13:30.087Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:21:46.361Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -128,9 +118,7 @@ processing:
       input_hash: sha256:bda1c278b514f07edf53cb822c67b1d54bc8491d8a8ffd14edfde0aedc1b3c88
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        It functions as a runtime layer and harness for coordinating multiple specialized agents (colonies) rather than
-        being a single agent or a simple code-first library.
+      decision_reason: It functions as a runtime layer and harness for coordinating multiple specialized agents (colonies) rather than being a single agent or a simple code-first library.
       decision_evidence:
         - README identifies it as a 'Multi-Agent Harness' and 'runtime layer' for production workloads.
         - Specifically manages 'colonies of agents' through a shared ledger and persistent task planning.
@@ -138,8 +126,6 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product's primary identity is a runtime harness that
-        manages the lifecycle and coordination of agent colonies rather than just being a library for building them.
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product's primary identity is a runtime harness that manages the lifecycle and coordination of agent colonies rather than just being a library for building them.
       review_reason: null
       review_resume_lifecycle: null

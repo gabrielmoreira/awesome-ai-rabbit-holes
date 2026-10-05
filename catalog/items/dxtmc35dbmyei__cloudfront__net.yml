@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dxtmc35dbmyei__cloudfront__net__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://dxtmc35dbmyei.cloudfront.net
-        surrounding_text: >-
-          - [jev-cloud-quiz](https://github.com/minorun365/jev-cloud-quiz)
-          ([site](https://dxtmc35dbmyei.cloudfront.net/)) - 三大クラウドの機能名を、TypeSafe AI の System One モデル Jev が確率つきで判定するデモ.
+        surrounding_text: "- [jev-cloud-quiz](https://github.com/minorun365/jev-cloud-quiz) ([site](https://dxtmc35dbmyei.cloudfront.net/)) - 三大クラウドの機能名を、TypeSafe AI の System One モデル Jev が確率つきで判定するデモ."
         confidence: high
 metadata:
   github:
@@ -58,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:09:10.030Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for dxtmc35dbmyei__cloudfront__net: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool's\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

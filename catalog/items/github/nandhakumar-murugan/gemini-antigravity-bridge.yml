@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nandhakumar-murugan__gemini-antigravity-bridge__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: nandhakumar-murugan/gemini-antigravity-bridge
         extracted_url: https://github.com/nandhakumar-murugan/gemini-antigravity-bridge
-        surrounding_text: >-
-          -
-          [nandhakumar-murugan/gemini-antigravity-bridge](https://github.com/nandhakumar-murugan/gemini-antigravity-bridge)
-          [![gemini-antigravity-bridge MCP
-          server](https://glama.ai/mcp/servers/nandhakumar-murugan/gemini-antigravity-bridge/badges/score.svg)](https://glama.ai/mcp/servers/nandhakumar-murugan/gemini-antigravity-bridge)
-          🐍 ☁️ 🏠 🍎 🪟 🐧 - Bidirectional bridge between Gemini Spark and the Antigravity IDE: coding subagent
-          dispatch, shared memory, local file operations and Spark app orchestration.
+        surrounding_text: "- [nandhakumar-murugan/gemini-antigravity-bridge](https://github.com/nandhakumar-murugan/gemini-antigravity-bridge) [![gemini-antigravity-bridge MCP server](https://glama.ai/mcp/servers/nandhakumar-murugan/gemini-antigravity-bridge/badges/score.svg)](https://glama.ai/mcp/servers/nandhakumar-murugan/gemini-antigravity-bridge) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Bidirectional bridge between Gemini Spark and the Antigravity IDE: coding subagent dispatch, shared memory, local file operations and Spark app orchestration."
         confidence: high
 metadata:
   github:
@@ -53,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - agent-orchestration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

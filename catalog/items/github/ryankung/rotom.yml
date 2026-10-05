@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ryankung__rotom__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: rotom
         extracted_url: https://github.com/ryankung/rotom
-        surrounding_text: >-
-          - [rotom](https://github.com/RyanKung/rotom)
-          ![stars](https://img.shields.io/github/stars/RyanKung/rotom?style=flat-square&label=%E2%98%85) - Local
-          gateways: OpenAI- and Anthropic-compatible API gateway that carries Jev through its model catalog and
-          evaluation path.
+        surrounding_text: "- [rotom](https://github.com/RyanKung/rotom) ![stars](https://img.shields.io/github/stars/RyanKung/rotom?style=flat-square&label=%E2%98%85) - Local gateways: OpenAI- and Anthropic-compatible API gateway that carries Jev through its model catalog and evaluation path."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    rotom - Local gateways: OpenAI- and Anthropic-compatible API gateway that carries Jev through its model catalog and
-    evaluation path.
+  summary: "rotom - Local gateways: OpenAI- and Anthropic-compatible API gateway that carries Jev through its model catalog and evaluation path."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

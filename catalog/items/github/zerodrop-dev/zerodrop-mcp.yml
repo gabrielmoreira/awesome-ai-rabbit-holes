@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zerodrop-dev__zerodrop-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: zerodrop-dev/zerodrop-mcp
         extracted_url: https://github.com/zerodrop-dev/zerodrop-mcp
-        surrounding_text: >-
-          - [zerodrop-dev/zerodrop-mcp](https://github.com/zerodrop-dev/zerodrop-mcp) [![zerodrop-dev/zerodrop-mcp MCP
-          server](https://glama.ai/mcp/servers/zerodrop-dev/zerodrop-mcp/badges/score.svg)](https://glama.ai/mcp/servers/zerodrop-dev/zerodrop-mcp)
-          📇 ☁️ - Disposable email inboxes for AI agents with automatic OTP and magic-link extraction, for testing
-          signups and auth flows.
+        surrounding_text: "- [zerodrop-dev/zerodrop-mcp](https://github.com/zerodrop-dev/zerodrop-mcp) [![zerodrop-dev/zerodrop-mcp MCP server](https://glama.ai/mcp/servers/zerodrop-dev/zerodrop-mcp/badges/score.svg)](https://glama.ai/mcp/servers/zerodrop-dev/zerodrop-mcp) 📇 ☁️ - Disposable email inboxes for AI agents with automatic OTP and magic-link extraction, for testing signups and auth flows."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    zerodrop-dev/zerodrop-mcp ☁️ - Disposable email inboxes for AI agents with automatic OTP and magic-link extraction,
-    for testing signups and auth flows.
+  summary: zerodrop-dev/zerodrop-mcp ☁️ - Disposable email inboxes for AI agents with automatic OTP and magic-link extraction, for testing signups and auth flows.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.46 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

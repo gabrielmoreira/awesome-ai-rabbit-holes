@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hope1026__weppy-roblox-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: hope1026/weppy-roblox-mcp
         extracted_url: https://github.com/hope1026/weppy-roblox-mcp
-        surrounding_text: >-
-          - [hope1026/weppy-roblox-mcp](https://github.com/hope1026/weppy-roblox-mcp) [![roblox-mcp MCP
-          server](https://glama.ai/mcp/servers/hope1026/roblox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hope1026/roblox-mcp)
-          📇 🏠 🍎 🪟 - MCP server and plugin that lets AI agents (Claude Code, Cursor, Codex, Gemini) directly control
-          a live Roblox Studio session — create scripts, instances, terrain, lighting, and assets via natural language.
-          21 tools, 140+ actions, bidirectional sync, and automated playtest.
+        surrounding_text: "- [hope1026/weppy-roblox-mcp](https://github.com/hope1026/weppy-roblox-mcp) [![roblox-mcp MCP server](https://glama.ai/mcp/servers/hope1026/roblox-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hope1026/roblox-mcp) 📇 🏠 🍎 🪟 - MCP server and plugin that lets AI agents (Claude Code, Cursor, Codex, Gemini) directly control a live Roblox Studio session — create scripts, instances, terrain, lighting, and assets via natural language. 21 tools, 140+ actions, bidirectional sync, and automated playtest."
         confidence: high
 metadata:
   github:
@@ -35,11 +30,9 @@ metadata:
     archived: false
     full_name: hope1026/weppy-roblox-mcp
     html_url: https://github.com/hope1026/weppy-roblox-mcp
-    created_at: '2026-01-26T10:55:38Z'
-    pushed_at: '2026-07-29T11:38:04Z'
-    description: >-
-      Roblox Studio MCP server & plugin for Claude Code, Cursor, Codex, and Gemini. AI-powered scripts, terrain, assets,
-      lighting, and bidirectional project sync.
+    created_at: "2026-01-26T10:55:38Z"
+    pushed_at: "2026-07-29T11:38:04Z"
+    description: Roblox Studio MCP server & plugin for Claude Code, Cursor, Codex, and Gemini. AI-powered scripts, terrain, assets, lighting, and bidirectional project sync.
     homepage: https://weppyai.com
     topics:
       - ai
@@ -61,15 +54,13 @@ metadata:
       - roblox-studio
       - typescript
       - weppy-roblox-mcp
-    last_checked_at: '2026-07-30T05:05:38.383Z'
+    last_checked_at: "2026-07-30T05:05:38.383Z"
     readme:
-      fetched_at: '2026-07-30T05:05:38.383Z'
+      fetched_at: "2026-07-30T05:05:38.383Z"
       bytes: 17339
 insights:
   summary: MCP server and Roblox Studio plugin enabling AI coding agents to directly control and modify Roblox Studio projects.
-  why_it_matters: >-
-    Lets developers use AI assistants like Claude or Cursor to edit scripts, terrain, assets, and UI in Roblox Studio
-    without manual copy-pasting.
+  why_it_matters: Lets developers use AI assistants like Claude or Cursor to edit scripts, terrain, assets, and UI in Roblox Studio without manual copy-pasting.
   mental_damage: Finally, a way to make AI build your Roblox game while you watch it silently judge your terrain skills.
   tags:
     - mcp
@@ -89,21 +80,21 @@ placement:
   section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.619Z'
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:38.383Z'
+    updated_at: "2026-07-30T05:05:38.383Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -118,9 +109,7 @@ processing:
       input_hash: sha256:14afa7869eb2a33523afbc62019685a277934ddf8f0445699974b1120032723b
       proposed_primary_category: ai-dev-extensions
       disagreement: true
-      decision_reason: >-
-        This is an MCP-based integration layer that extends AI coding agents (Claude, Cursor, etc.) with Roblox Studio
-        capabilities, not a standalone coding assistant.
+      decision_reason: This is an MCP-based integration layer that extends AI coding agents (Claude, Cursor, etc.) with Roblox Studio capabilities, not a standalone coding assistant.
       decision_evidence:
         - Repo description explicitly calls it an MCP server & plugin for Claude Code, Cursor, Codex, and Gemini
         - README emphasizes bridging AI agents and Roblox Studio via MCP tools
@@ -128,8 +117,6 @@ processing:
       category_candidates:
         - ai-dev-extensions
         - mcp
-      contrastive_reason: >-
-        Choose ai-dev-extensions over mcp because the core value is the Roblox Studio integration for AI agents, not MCP
-        infrastructure itself.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''ai-dev-extensions'''
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core value is the Roblox Studio integration for AI agents, not MCP infrastructure itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
       review_resume_lifecycle: null

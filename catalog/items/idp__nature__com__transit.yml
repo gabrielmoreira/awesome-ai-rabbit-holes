@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__idp__nature__com__transit__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -17,9 +17,9 @@ provenance:
         section_path:
           - data-to-paper
           - Description
-        anchor_text: 'see also: [living guidelines'
+        anchor_text: "see also: [living guidelines"
         extracted_url: https://www.nature.com/articles/d41586-023-03266-1
-        surrounding_text: '[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)].'
+        surrounding_text: "[see also: [living guidelines](https://www.nature.com/articles/d41586-023-03266-1)]."
         confidence: high
 metadata:
   github:
@@ -37,22 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ''
-  why_it_matters: ''
-  mental_damage: ''
-  tags: []
+  summary: transit is a Nature IDP login page that failed to load its client challenge content.
+  why_it_matters: It does not matter to developers as it provides no AI tooling, agent functionality, or developer-facing features.
+  mental_damage: Another day, another broken SSO page pretending to be the next frontier of AI-driven identity orchestration.
+  tags:
+    - broken-link
+    - identity-provider
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a
-    standalone developer tool, repository, or curated resource.
+  reason: The page is a non-functional identity provider login interstitial with no discernible AI tooling, agent behavior, or developer utility; it fails to load core content and offers no functionality relevant to software developers.
   evidence:
-    - The URL is a non-repo landing page on nature.com
-    - >-
-      Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer
-      utility
-    - The scraped site content is inaccessible/empty, providing no evidence of a functional tool
+    - "Scraped excerpt shows: 'A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings.'"
+    - No repo description, README, or meaningful content was provided to assess AI or developer tooling claims.
+    - Listed in awesome-ai-agents only as a 'Client Challenge' link under data-to-paper, indicating it is not an agent but a broken access page.
 placement:
   primary_category: null
   section: null
@@ -62,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.456Z'
+    updated_at: "2026-06-22T05:53:30.456Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:19:28.570Z'
+    updated_at: "2026-10-05T04:26:42.758Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:96a436713c3d6d6def109c75f1556def789ef1c8ea13ef973056f100def42c19
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:01a52838bb9c6b6c8891d3142891d15bb2cbd7888d23fe2be2408fba9e5461ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The link points to a specific 'Client Challenge' landing page on a scientific publishing platform rather than a
-        standalone developer tool, repository, or curated resource.
+      decision_reason: The page is a non-functional identity provider login interstitial with no discernible AI tooling, agent behavior, or developer utility; it fails to load core content and offers no functionality relevant to software developers.
       decision_evidence:
-        - The URL is a non-repo landing page on nature.com
-        - >-
-          Source context indicates it is a specific research-themed 'Client Challenge' rather than a general developer
-          utility
-        - The scraped site content is inaccessible/empty, providing no evidence of a functional tool
+        - "Scraped excerpt shows: 'A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings.'"
+        - No repo description, README, or meaningful content was provided to assess AI or developer tooling claims.
+        - Listed in awesome-ai-agents only as a 'Client Challenge' link under data-to-paper, indicating it is not an agent but a broken access page.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__entity__alignment__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Extraction and structured data
         anchor_text: Knowledge graph entity alignment
         extracted_url: https://docs.typesafe.ai/cookbooks/entity_alignment
-        surrounding_text: >-
-          - [Knowledge graph entity alignment](https://docs.typesafe.ai/cookbooks/entity_alignment) - Map candidate
-          record pairs to merge, separate, or curator-review outcomes.
+        surrounding_text: "- [Knowledge graph entity alignment](https://docs.typesafe.ai/cookbooks/entity_alignment) - Map candidate record pairs to merge, separate, or curator-review outcomes."
         confidence: high
 metadata:
   github:
@@ -39,25 +37,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe AI cookbook demonstrating knowledge graph entity alignment using Score and Noul questions to resolve duplicate entity pairs from beer catalogs.
+  why_it_matters: Shows how decision models can automate data deduplication workflows by providing structured judgments and field-level insights for human review.
+  mental_damage: Another reminder that even matching two beer names requires a PhD in prompt engineering and a thread pool just to keep the curator from quitting.
+  tags:
+    - decision-models
+    - knowledge-graph
+    - entity-resolution
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core identity is a decision model (Jev) producing Score and Noul judgments for entity alignment, fitting the decision-models category where the product's reason to exist is typed question answering with probabilities.
+  evidence:
+    - Uses TypeSafe's Jev model to output Score questions with three levels and Noul questions for field matching
+    - The cookbook's purpose is demonstrating a judgment call on entity pairs via decision model outputs, not coding or app generation
+    - Listed in awesome-jev under 'Patterns and cookbooks > Extraction and structured data' as a Jev-powered decision example
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:47.157Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:899979e4ddb9bc8402454885948ccd16e89e673097c70309dec00d8ecedbef7f
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The core identity is a decision model (Jev) producing Score and Noul judgments for entity alignment, fitting the decision-models category where the product's reason to exist is typed question answering with probabilities.
+      decision_evidence:
+        - Uses TypeSafe's Jev model to output Score questions with three levels and Noul questions for field matching
+        - The cookbook's purpose is demonstrating a judgment call on entity pairs via decision model outputs, not coding or app generation
+        - Listed in awesome-jev under 'Patterns and cookbooks > Extraction and structured data' as a Jev-powered decision example
+      category_candidates:
+        - decision-models
+        - agent-orchestration
+      contrastive_reason: Choose decision-models over agent-orchestration because the product's identity is the Jev model's judgment output, not coordination of multiple agents or workflows between them.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

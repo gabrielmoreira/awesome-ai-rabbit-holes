@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__prantikmedhi__anchorlint__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: AnchorLint
         extracted_url: https://github.com/prantikmedhi/anchorlint
-        surrounding_text: >-
-          - [AnchorLint](https://github.com/prantikmedhi/anchorlint) - Audits internal links in built HTML sites with
-          deterministic checks plus optional TypeSafe Jev promise/relevance judgments. [Project
-          guide](community/projects/tools/anchorlint.md).
+        surrounding_text: "- [AnchorLint](https://github.com/prantikmedhi/anchorlint) - Audits internal links in built HTML sites with deterministic checks plus optional TypeSafe Jev promise/relevance judgments. [Project guide](community/projects/tools/anchorlint.md)."
         confidence: high
 metadata:
   github:
@@ -60,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.473Z'
+    updated_at: "2026-09-29T13:07:10.473Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

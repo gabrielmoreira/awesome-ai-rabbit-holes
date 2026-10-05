@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bespokelabsai__curator__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: Bespoke Curator
         extracted_url: https://github.com/bespokelabsai/curator
-        surrounding_text: >-
-          29. [Bespoke Curator](https://github.com/bespokelabsai/curator): Data Curation for Post-Training & Structured
-          Data Extraction.
+        surrounding_text: "29. [Bespoke Curator](https://github.com/bespokelabsai/curator): Data Curation for Post-Training & Structured Data Extraction."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: bespokelabsai/curator
     html_url: https://github.com/bespokelabsai/curator
-    created_at: '2024-10-28T01:11:41Z'
-    pushed_at: '2026-09-19T02:19:38Z'
+    created_at: "2024-10-28T01:11:41Z"
+    pushed_at: "2026-09-19T02:19:38Z"
     description: Synthetic data curation for post-training and structured data extraction
     homepage: https://docs.bespokelabs.ai/bespoke-curator
     topics:
@@ -47,18 +45,14 @@ metadata:
       - python
       - synthetic-data
       - synthetic-dataset-generation
-    last_checked_at: '2026-09-24T04:12:58.013Z'
+    last_checked_at: "2026-09-24T04:12:58.013Z"
     readme:
-      fetched_at: '2026-09-24T04:12:58.013Z'
+      fetched_at: "2026-09-24T04:12:58.013Z"
       bytes: 25258
 insights:
   summary: A Python library for synthetic data curation, post-training, and structured data extraction using LLMs.
-  why_it_matters: >-
-    Developers can generate and refine synthetic datasets for fine-tuning or structured extraction tasks without
-    building the pipeline from scratch.
-  mental_damage: >-
-    Now you can spend less time wrangling data and more time explaining to your PM why synthetic data is *totally* as
-    good as real data.
+  why_it_matters: Developers can generate and refine synthetic datasets for fine-tuning or structured extraction tasks without building the pipeline from scratch.
+  mental_damage: Now you can spend less time wrangling data and more time explaining to your PM why synthetic data is *totally* as good as real data.
   tags:
     - synthetic-data
     - fine-tuning
@@ -68,9 +62,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is focused on synthetic data curation and structured extraction, which is a data/ML workflow tool rather
-    than a developer-tooling product for building, editing, or orchestrating code.
+  reason: The project is focused on synthetic data curation and structured extraction, which is a data/ML workflow tool rather than a developer-tooling product for building, editing, or orchestrating code.
   evidence:
     - Repo description explicitly states 'Synthetic data curation for post-training and structured data extraction'
     - Topics include 'synthetic-data', 'synthetic-dataset-generation', and 'fine-tuning' with no developer-tooling angle
@@ -84,22 +76,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:58.013Z'
+    updated_at: "2026-09-24T04:12:58.013Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:55:43.772Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for github__bespokelabsai__curator: Invalid AI response format: SyntaxError:
-        Unexpected token 'C', ..."_reason": Curator is"... is not valid JSON
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
@@ -111,14 +101,10 @@ processing:
       input_hash: sha256:d68a742c4e05a54c40107dd073c4ac033130df967b73f40900767abd47cb9e11
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is focused on synthetic data curation and structured extraction, which is a data/ML workflow tool
-        rather than a developer-tooling product for building, editing, or orchestrating code.
+      decision_reason: The project is focused on synthetic data curation and structured extraction, which is a data/ML workflow tool rather than a developer-tooling product for building, editing, or orchestrating code.
       decision_evidence:
         - Repo description explicitly states 'Synthetic data curation for post-training and structured data extraction'
-        - >-
-          Topics include 'synthetic-data', 'synthetic-dataset-generation', and 'fine-tuning' with no developer-tooling
-          angle
+        - Topics include 'synthetic-data', 'synthetic-dataset-generation', and 'fine-tuning' with no developer-tooling angle
         - Source-list context places it under '数据 Data' (Data) in a general LLM resources list
       category_candidates: []
       contrastive_reason: null

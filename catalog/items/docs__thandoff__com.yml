@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__thandoff__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: TaskHandoff
         extracted_url: https://docs.thandoff.com
-        surrounding_text: >-
-          - **[TaskHandoff](https://docs.thandoff.com/)** – Self-hosted control plane for running Docker-based Codex
-          workspaces on local and remote machines, with per-task workspace isolation, a diff review gate before changes
-          land in your repository, and multi-agent handoff to a human reviewer.
+        surrounding_text: "- **[TaskHandoff](https://docs.thandoff.com/)** – Self-hosted control plane for running Docker-based Codex workspaces on local and remote machines, with per-task workspace isolation, a diff review gate before changes land in your repository, and multi-agent handoff to a human reviewer."
         confidence: high
 metadata:
   github:
@@ -39,34 +36,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TaskHandoff – Self-hosted control plane for running Docker-based Codex workspaces on local and remote machines, with
-    per-task workspace isolation, a diff review gate before changes land in your repository, and multi-agent handoff to
-    a human reviewer.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TaskHandoff is a self-hosted AI development workbench that unifies Codex and OpenCode sessions, workspaces, and automation in a single control plane.
+  why_it_matters: It reduces context-switching by letting developers manage multiple AI coding sessions and environments from one interface, streamlining local and remote AI-assisted development.
+  mental_damage: Finally, a way to feel productive while juggling three AI agents, two Docker runtimes, and the guilt of not using any of them effectively.
+  tags:
+    - ai-workbench
+    - self-hosted
+    - codex
+    - opencode
+    - automation
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  reason: TaskHandoff is a control plane for managing multiple AI coding agents (Codex, OpenCode), workspaces, and sessions — making it an agent orchestration platform rather than a coding agent itself.
   evidence:
-    - jev-latest choice confidence 0.92
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      agent-orchestration (unverified)
+    - Described as a 'self-hosted AI workspace control plane' and 'one place to bring it all together'
+    - Manages local and remote workspaces, AI sessions, and automation from task delegation to code review
+    - Listed in awesome-ai-coding-tools under Coding Agents, but its primary identity is coordination, not direct coding
 placement:
   primary_category: agent-orchestration
   secondary_categories:
     - coding-agents
-  section: Agent Runtimes & Harnesses
+  section: Visual Builders & Workbenches
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:22.418Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0f06a6ea9bf0b3a550c183960f439398ad44f6e8559cd3104c9c9cefaa9a28a5
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: TaskHandoff is a control plane for managing multiple AI coding agents (Codex, OpenCode), workspaces, and sessions — making it an agent orchestration platform rather than a coding agent itself.
+      decision_evidence:
+        - Described as a 'self-hosted AI workspace control plane' and 'one place to bring it all together'
+        - Manages local and remote workspaces, AI sessions, and automation from task delegation to code review
+        - Listed in awesome-ai-coding-tools under Coding Agents, but its primary identity is coordination, not direct coding
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because TaskHandoff’s core function is managing multiple AI agent sessions and workspaces, not performing coding tasks directly.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

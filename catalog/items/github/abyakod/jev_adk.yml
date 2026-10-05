@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abyakod__jev_adk__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JEV ADK
         extracted_url: https://github.com/abyakod/jev_adk
-        surrounding_text: >-
-          - [JEV ADK](https://github.com/abyakod/JEV_ADK) - Agent Development Kit patterns for TypeSafe Jev: guardrails,
-          dual-brain routing, and PR triage blueprints (System One decisions in code). [Project
-          guide](community/projects/tools/jev-adk.md).
+        surrounding_text: "- [JEV ADK](https://github.com/abyakod/JEV_ADK) - Agent Development Kit patterns for TypeSafe Jev: guardrails, dual-brain routing, and PR triage blueprints (System One decisions in code). [Project guide](community/projects/tools/jev-adk.md)."
         confidence: high
 metadata:
   github:
@@ -33,21 +30,17 @@ metadata:
     archived: false
     full_name: abyakod/JEV_ADK
     html_url: https://github.com/abyakod/JEV_ADK
-    created_at: '2026-09-26T00:32:40Z'
-    pushed_at: '2026-09-26T01:09:01Z'
-    description: >-
-      Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and
-      dual-brain agent orchestrator powered by TypeSafe AI's Jev
+    created_at: "2026-09-26T00:32:40Z"
+    pushed_at: "2026-09-26T01:09:01Z"
+    description: "Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestrator powered by TypeSafe AI's Jev"
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:26.052Z'
+    last_checked_at: "2026-09-29T13:08:26.052Z"
     readme:
-      fetched_at: '2026-09-29T13:08:26.052Z'
+      fetched_at: "2026-09-29T13:08:26.052Z"
       bytes: 6843
 insights:
-  summary: >-
-    Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain
-    agent orchestrator powered by TypeSafe AI's Jev
+  summary: "Agent Development Kit for System-One AI: Sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestrator powered by TypeSafe AI's Jev"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -57,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.54
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks
-      (unverified)
+    - jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -71,15 +62,24 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:26.052Z'
+    updated_at: "2026-09-29T13:08:26.052Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:14:59.439Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__abyakod__jev_adk: {
+          "summary": "Agent Development Kit for System-One AI that provides sub-100ms non-autoregressive decision pipelines, guardrails, and dual-brain agent orchestration using TypeSafe AI's Jev decision model.",
+          "why_it_matters": "Enables developers to build ultra-low-latency, guardrailed AI agents with deterministic decision-making, addressing the speed and reliability gaps of traditional autoregressive models for real-time agent workflows.",
+          "mental_damage": "Yet another kit promising sub-100ms AI decisions that makes you question if your coffee break is now longer than your agent's thinking time.",
+          "tags": ["jev", "decision-model", "agent-kit", "guardrails", "orchestration
+    next_retry_at: null
+    attempts: 1

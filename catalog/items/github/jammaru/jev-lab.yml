@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jammaru__jev-lab__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: hundred
         extracted_url: https://github.com/jammaru/jev-lab
-        surrounding_text: >-
-          - [hundred](https://github.com/jammaru/jev-lab) - 100 AI NPCs live in a tiny town. Jev chooses the next
-          action; the world writes the story.
+        surrounding_text: "- [hundred](https://github.com/jammaru/jev-lab) - 100 AI NPCs live in a tiny town. Jev chooses the next action; the world writes the story."
         confidence: high
     - id: discovery__github__jammaru__jev-lab__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev Lab
         extracted_url: https://github.com/jammaru/jev-lab
-        surrounding_text: >-
-          - [Jev Lab](https://github.com/jammaru/jev-lab) - Local Hundred NPC-town and Jev Shogi labs where TypeSafe Jev
-          chooses the next legal action (Rules mode without a key). [Project
-          guide](community/projects/tools/jev-lab.md).
+        surrounding_text: "- [Jev Lab](https://github.com/jammaru/jev-lab) - Local Hundred NPC-town and Jev Shogi labs where TypeSafe Jev chooses the next legal action (Rules mode without a key). [Project guide](community/projects/tools/jev-lab.md)."
         confidence: high
     - id: discovery__github__jammaru__jev-lab__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,9 +51,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: hundred
         extracted_url: https://github.com/jammaru/jev-lab
-        surrounding_text: >-
-          | [hundred](https://github.com/jammaru/jev-lab) | ★ 2 | TypeScript | 2026-09-19 | 100 AI NPCs live in a tiny
-          town. Jev chooses the next action; the world writes the story. |
+        surrounding_text: "| [hundred](https://github.com/jammaru/jev-lab) | ★ 2 | TypeScript | 2026-09-19 | 100 AI NPCs live in a tiny town. Jev chooses the next action; the world writes the story. |"
         confidence: high
 metadata:
   github:
@@ -96,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

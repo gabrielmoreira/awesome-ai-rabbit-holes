@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blazingcdn__blazingcdn-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-01T14:31:13.862Z'
+      discovered_at: "2026-09-01T14:31:13.862Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: BlazingCDN/BlazingCDN-MCP
         extracted_url: https://github.com/blazingcdn/blazingcdn-mcp
-        surrounding_text: >-
-          - [BlazingCDN/BlazingCDN-MCP](https://github.com/BlazingCDN/BlazingCDN-MCP) [![BlazingCDN/BlazingCDN-MCP MCP
-          server](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP/badges/score.svg)](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP)
-          🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Official BlazingCDN server: manage CDN zones (TTLs, compression, on-the-fly image
-          resizing, HLS/DASH), purge and warm up cache, traffic metrics, custom domains, cloud storage and Video CDN. 52
-          tools, read-only by default with opt-in write/delete. Install: `npx -y @blazingcdn/mcp`.
+        surrounding_text: "- [BlazingCDN/BlazingCDN-MCP](https://github.com/BlazingCDN/BlazingCDN-MCP) [![BlazingCDN/BlazingCDN-MCP MCP server](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP/badges/score.svg)](https://glama.ai/mcp/servers/BlazingCDN/BlazingCDN-MCP) 🎖️ 📇 ☁️ 🏠 🍎 🪟 🐧 - Official BlazingCDN server: manage CDN zones (TTLs, compression, on-the-fly image resizing, HLS/DASH), purge and warm up cache, traffic metrics, custom domains, cloud storage and Video CDN. 52 tools, read-only by default with opt-in write/delete. Install: `npx -y @blazingcdn/mcp`."
         confidence: high
 metadata:
   github:
@@ -35,11 +30,9 @@ metadata:
     archived: false
     full_name: BlazingCDN/BlazingCDN-MCP
     html_url: https://github.com/BlazingCDN/BlazingCDN-MCP
-    created_at: '2026-08-07T09:55:57Z'
-    pushed_at: '2026-09-14T18:11:26Z'
-    description: >-
-      Official MCP server for BlazingCDN - AI agents (Claude, Cursor, Windsurf) manage CDN resources, purge cache, query
-      metrics, domains, Cloud Storage and Video CDN
+    created_at: "2026-08-07T09:55:57Z"
+    pushed_at: "2026-09-14T18:11:26Z"
+    description: Official MCP server for BlazingCDN - AI agents (Claude, Cursor, Windsurf) manage CDN resources, purge cache, query metrics, domains, Cloud Storage and Video CDN
     homepage: https://blazingcdn.com
     topics:
       - ai-agents
@@ -62,18 +55,14 @@ metadata:
       - video-generation
       - video-processing
       - video-streaming
-    last_checked_at: '2026-09-24T04:13:00.822Z'
+    last_checked_at: "2026-09-24T04:13:00.822Z"
     readme:
-      fetched_at: '2026-09-24T04:13:00.822Z'
+      fetched_at: "2026-09-24T04:13:00.822Z"
       bytes: 9623
 insights:
   summary: An MCP server that exposes BlazingCDN management capabilities to AI agents via the Model Context Protocol.
-  why_it_matters: >-
-    It lets developers control CDN resources, cache, and metrics through natural language in AI agents like Claude or
-    Cursor.
-  mental_damage: >-
-    Another day, another MCP server turning your infrastructure into a promptable toy for AI agents who might
-    accidentally purge your production cache.
+  why_it_matters: It lets developers control CDN resources, cache, and metrics through natural language in AI agents like Claude or Cursor.
+  mental_damage: Another day, another MCP server turning your infrastructure into a promptable toy for AI agents who might accidentally purge your production cache.
   tags:
     - mcp
     - cdn
@@ -94,18 +83,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-01T14:31:13.864Z'
+    updated_at: "2026-09-01T14:31:13.864Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:00.822Z'
+    updated_at: "2026-09-24T04:13:00.822Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:57:05.850Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -114,21 +105,15 @@ processing:
       input_hash: sha256:8bda8d380a1b2cfd62ab7804e7ba6aebc5c6b02e1d60943323a9fa06cb069dca
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server exposing CDN management tools, making MCP its primary purpose
-        rather than a side feature.
+      decision_reason: The product's core identity is an MCP server exposing CDN management tools, making MCP its primary purpose rather than a side feature.
       decision_evidence:
-        - >-
-          Repo description: 'Official MCP server for BlazingCDN - AI agents (Claude, Cursor, Windsurf) manage CDN
-          resources'
-        - 'README: ''Official Model Context Protocol server for BlazingCDN. Lets AI agents manage your CDN'''
-        - 'Source-list context: Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms'
+        - "Repo description: 'Official MCP server for BlazingCDN - AI agents (Claude, Cursor, Windsurf) manage CDN resources'"
+        - "README: 'Official Model Context Protocol server for BlazingCDN. Lets AI agents manage your CDN'"
+        - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms"
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server as its primary identity, not an
-        extension that augments another agent.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server as its primary identity, not an extension that augments another agent.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 2

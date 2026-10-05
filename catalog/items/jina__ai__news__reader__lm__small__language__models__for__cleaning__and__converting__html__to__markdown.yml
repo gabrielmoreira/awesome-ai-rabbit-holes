@@ -5,9 +5,8 @@ canonical_url: https://jina.ai/news/reader-lm-small-language-models-for-cleaning
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__jina__ai__news__reader__lm__small__language__models__for__cleaning__and__converting__html__to__markdown__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__jina__ai__news__reader__lm__small__language__models__for__cleaning__and__converting__html__to__markdown__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -17,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 技巧 Tips
-        anchor_text: 'Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown'
+        anchor_text: "Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown"
         extracted_url: https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown
-        surrounding_text: >-
-          23. [Reader-LM: Small Language Models for Cleaning and Converting HTML to
-          Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/?nocache=1)
+        surrounding_text: "23. [Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/?nocache=1)"
         confidence: high
 metadata:
   github:
@@ -39,48 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Reader-LM is a pair of small language models (0.5B and 1.5B parameters) designed to convert raw, noisy HTML into
-    clean markdown using a 256K context window.
-  why_it_matters: >-
-    It provides developers a lightweight, cost-efficient way to preprocess web content for LLMs without relying on
-    fragile heuristic pipelines.
-  mental_damage: >-
-    Yet another model claiming to solve HTML-to-markdown 'better' — as if developers weren’t already drowning in parsing
-    libraries and regex band-aids.
+  summary: Reader-LM is a small language model designed to convert raw HTML into clean markdown for LLM grounding.
+  why_it_matters: It provides a lightweight, multilingual alternative to heuristic-based HTML-to-Markdown pipelines, improving data preparation for LLM workflows.
+  mental_damage: Another model solving a problem we already patched with regex — now we just need to fine-tune the fine-tuner.
   tags:
-    - html-processing
+    - html-to-markdown
     - small-language-model
-    - markdown-generation
-  confidence: high
+    - data-preprocessing
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Reader-LM is a model for data transformation, not a developer-facing tool, agent, framework, or infrastructure that
-    changes how software is built or maintained.
+  status: included
+  reason: Reader-LM fits as a context engineering tool because its core function is cleaning and shaping input data (HTML) into a structured format (markdown) for better LLM consumption, aligning with context optimization goals.
   evidence:
-    - The project releases two SLMs (reader-lm-0.5b and reader-lm-1.5b) on Hugging Face for converting HTML to markdown.
-    - >-
-      It is positioned as a replacement for heuristic-based pipelines like Jina Reader, focusing on model performance
-      and training efficiency.
-    - >-
-      No evidence of CLI, SDK, IDE integration, agent behavior, or workflow automation for developers — it is a model
-      artifact, not a tool.
+    - Designed to convert raw, noisy HTML from the open web into clean markdown
+    - Trained to perform selective-copy from HTML to markdown with minimal generation
+    - Positioned as an end-to-end replacement for heuristic pipelines like Readability + Turndown
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  section: Context & Session Management
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -88,33 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:03.335Z'
+    updated_at: "2026-10-05T04:35:00.693Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4d76a22d1ac0da0710858377643655406dd8389e5581fbd5837197555716077d
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0b7d71843f4d8cfc365c436418939025e3a4ce0c7f1b71efb382d13a57916a8b
+      proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: >-
-        Reader-LM is a model for data transformation, not a developer-facing tool, agent, framework, or infrastructure
-        that changes how software is built or maintained.
+      decision_reason: Reader-LM fits as a context engineering tool because its core function is cleaning and shaping input data (HTML) into a structured format (markdown) for better LLM consumption, aligning with context optimization goals.
       decision_evidence:
-        - >-
-          The project releases two SLMs (reader-lm-0.5b and reader-lm-1.5b) on Hugging Face for converting HTML to
-          markdown.
-        - >-
-          It is positioned as a replacement for heuristic-based pipelines like Jina Reader, focusing on model
-          performance and training efficiency.
-        - >-
-          No evidence of CLI, SDK, IDE integration, agent behavior, or workflow automation for developers — it is a
-          model artifact, not a tool.
-      category_candidates: []
-      contrastive_reason: null
+        - Designed to convert raw, noisy HTML from the open web into clean markdown
+        - Trained to perform selective-copy from HTML to markdown with minimal generation
+        - Positioned as an end-to-end replacement for heuristic pipelines like Readability + Turndown
+      category_candidates:
+        - memory-and-context
+        - evals
+      contrastive_reason: Choose memory-and-context over evals because Reader-LM is a model that processes and prepares input context, not a tool for measuring or evaluating model behavior.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__us__jev-local__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Jev-like models (72)
         anchor_text: jev-local
         extracted_url: https://github.com/us/jev-local
-        surrounding_text: >-
-          | [jev-local](https://github.com/us/jev-local) | ★ 3 | Python | 2026-09-22 | Local Jev-compatible evaluation
-          server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist No repository-level license
-          file was found during review. |
+        surrounding_text: "| [jev-local](https://github.com/us/jev-local) | ★ 3 | Python | 2026-09-22 | Local Jev-compatible evaluation server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist No repository-level license file was found during review. |"
         confidence: high
     - id: discovery__github__us__jev-local__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,12 +36,7 @@ provenance:
           - Calibration & Research
         anchor_text: jev-local
         extracted_url: https://github.com/us/jev-local
-        surrounding_text: >-
-          - [jev-local](https://github.com/us/jev-local)
-          ![stars](https://img.shields.io/github/stars/us/jev-local?style=flat-square&label=%E2%98%85) - Local
-          reproduction: Jev-compatible `POST /v1/systemone` server answering typed `Choice`/`Score`/`Noul` questions
-          with confidence from open weights, verified as an official-SDK drop-in with temperature-fit calibration (set3
-          n=1316, 0.83 overall).
+        surrounding_text: "- [jev-local](https://github.com/us/jev-local) ![stars](https://img.shields.io/github/stars/us/jev-local?style=flat-square&label=%E2%98%85) - Local reproduction: Jev-compatible `POST /v1/systemone` server answering typed `Choice`/`Score`/`Noul` questions with confidence from open weights, verified as an official-SDK drop-in with temperature-fit calibration (set3 n=1316, 0.83 overall)."
         confidence: high
 metadata:
   github:
@@ -62,9 +54,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Local Jev-compatible evaluation server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist
-    No repository-level license file was found during review.
+  summary: "Local Jev-compatible evaluation server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist No repository-level license file was found during review."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -84,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.427Z'
+    updated_at: "2026-09-29T13:07:10.427Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

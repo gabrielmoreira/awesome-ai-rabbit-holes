@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__helixgenomics__genomic-agent-discovery__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: HelixGenomics/Genomic-Agent-Discovery
         extracted_url: https://github.com/helixgenomics/genomic-agent-discovery
-        surrounding_text: >-
-          - [HelixGenomics/Genomic-Agent-Discovery](https://github.com/HelixGenomics/Genomic-Agent-Discovery)
-          [![Genomic-Agent-Discovery MCP
-          server](https://glama.ai/mcp/servers/HelixGenomics/Genomic-Agent-Discovery/badges/score.svg)](https://glama.ai/mcp/servers/HelixGenomics/Genomic-Agent-Discovery)
-          📇 🏠 - Multi-agent MCP server for genomic analysis — specialized AI agents analyze raw DNA files across 16
-          databases (ClinVar, GWAS, gnomAD, CPIC, AlphaMissense, and more) and coordinate findings through shared MCP
-          tools. Privacy-first, runs locally.
+        surrounding_text: "- [HelixGenomics/Genomic-Agent-Discovery](https://github.com/HelixGenomics/Genomic-Agent-Discovery) [![Genomic-Agent-Discovery MCP server](https://glama.ai/mcp/servers/HelixGenomics/Genomic-Agent-Discovery/badges/score.svg)](https://glama.ai/mcp/servers/HelixGenomics/Genomic-Agent-Discovery) 📇 🏠 - Multi-agent MCP server for genomic analysis — specialized AI agents analyze raw DNA files across 16 databases (ClinVar, GWAS, gnomAD, CPIC, AlphaMissense, and more) and coordinate findings through shared MCP tools. Privacy-first, runs locally."
         confidence: high
 metadata:
   github:
@@ -53,33 +47,31 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.50 below gate 0.50; proposed agent-orchestration / Domain & Enterprise Platforms; no placement
-      kept (unverified)
+    - jev winnow:e4b 0.50 below gate 0.50; proposed agent-orchestration / Domain & Enterprise Platforms; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - agent-orchestration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.618Z'
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-08-03T05:16:51.078Z'
+    updated_at: "2026-08-03T05:16:51.078Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: helixgenomics/genomic-agent-discovery'
+      message: "GitHub repository not found: helixgenomics/genomic-agent-discovery"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mossyfield__st-jeved__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: ST-jeved
         extracted_url: https://github.com/mossyfield/st-jeved
-        surrounding_text: >-
-          | [ST-jeved](https://github.com/mossyfield/ST-jeved) | ★ 22 | JavaScript | 2026-09-22 | SillyTavern extension
-          where Jev scores replies against configured narration rules before adding guidance. |
+        surrounding_text: "| [ST-jeved](https://github.com/mossyfield/ST-jeved) | ★ 22 | JavaScript | 2026-09-22 | SillyTavern extension where Jev scores replies against configured narration rules before adding guidance. |"
         confidence: high
 metadata:
   github:
@@ -49,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; no placement
-      kept (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - extensions-and-addons
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

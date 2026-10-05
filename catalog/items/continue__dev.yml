@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__continue__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Continue
         anchor_text: Continue
         extracted_url: https://continue.dev
-        surrounding_text: '## [Continue](https://continue.dev/)'
+        surrounding_text: "## [Continue](https://continue.dev/)"
         confidence: high
     - id: discovery__continue__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,9 +33,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Continue
         extracted_url: https://continue.dev
-        surrounding_text: >-
-          - **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS
-          Code and JetBrains.
+        surrounding_text: "- **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS Code and JetBrains."
         confidence: high
 metadata:
   github:
@@ -53,36 +51,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source coding agent that integrates AI assistance directly into VS Code and JetBrains IDEs.
-  why_it_matters: >-
-    It allows developers to leverage custom LLMs and deep codebase context within their existing, preferred editor
-    environments.
-  mental_damage: >-
-    Watching your favorite open-source agent get acquired by its most successful proprietary competitor is the
-    inevitable end-game of the AI tooling arms race.
+  summary: Continue was an open-source coding agent that has been acquired by Cursor and is no longer actively maintained as an independent project.
+  why_it_matters: It was a notable open-source alternative to proprietary coding agents, offering developers a self-hosted, IDE-integrated AI pair programmer before its acquisition.
+  mental_damage: Watching your favorite open-source coding agent get absorbed into a closed-source IDE feels like seeing your DIY project get bought by the very corporation you were trying to avoid.
   tags:
-    - open-source
     - coding-agent
-    - vscode
-    - jetbrains
-    - ide-extension
+    - acquired
+    - open-source
+    - ide-integration
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
+  status: excluded
+  reason: Continue is no longer an active, independent product; it has been acquired by Cursor and exists only as a historical artifact, so it does not represent a current developer tool worth including in a curated catalog of practical AI tools.
   evidence:
-    - jev-latest choice confidence 0.67
+    - "Scraped site context states: 'Continue has been acquired by Cursor' and 'Thank you to each and every one of you who helped us create a pioneering open-source coding agent.'"
+    - "Source-list context from awesome-ai-coding-tools and awesome-ai-agents both note: 'Continue has been acquired by Cursor.'"
+    - No indication of active development, maintenance, or ongoing usability as a standalone product; the project presents itself as concluded.
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.065Z'
+    updated_at: "2026-06-18T05:40:04.065Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,30 +86,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:15:12.637Z'
+    updated_at: "2026-10-05T04:26:32.586Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:81a4f3e52f46a64ff30c49d3f61bccd5d362293a9cbbb68358f8e04748b94255
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5e58c48d7ee5b8f668d51ae581249f6c7a9570f281742cab6bd12b8b600f8db0
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Continue functions as a primary AI coding assistant within the IDE rather than a tool that augments an existing
-        assistant.
+      decision_reason: Continue is no longer an active, independent product; it has been acquired by Cursor and exists only as a historical artifact, so it does not represent a current developer tool worth including in a curated catalog of practical AI tools.
       decision_evidence:
-        - Scraped site text confirms it is an open-source coding agent.
-        - The project provides the primary interface for AI-driven code editing and context within an IDE.
-      category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because it acts as the primary assistant/agent within the IDE rather
-        than a secondary capability plugin for another assistant.
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - "Scraped site context states: 'Continue has been acquired by Cursor' and 'Thank you to each and every one of you who helped us create a pioneering open-source coding agent.'"
+        - "Source-list context from awesome-ai-coding-tools and awesome-ai-agents both note: 'Continue has been acquired by Cursor.'"
+        - No indication of active development, maintenance, or ongoing usability as a standalone product; the project presents itself as concluded.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

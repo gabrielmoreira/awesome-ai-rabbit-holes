@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__taiizor__agents-md-cookbook__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,12 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: agents-md-cookbook
         extracted_url: https://github.com/taiizor/agents-md-cookbook
-        surrounding_text: >-
-          - **[agents-md-cookbook](https://github.com/Taiizor/agents-md-cookbook)** – Tool-agnostic AGENTS.md authoring
-          kit (MIT) with 15 stack-specific templates, a tool compatibility matrix, an npm CLI + GitHub Action linter
-          (`agents-md-lint`), and a migrator (`agents-md-migrate`) that converts `.cursorrules`, `CLAUDE.md`, Copilot,
-          Windsurf, Cline, and Aider configs to AGENTS.md. Works across Cursor, Claude Code, Copilot, and 30+ AI coding
-          tools. Free and open source.
+        surrounding_text: "- **[agents-md-cookbook](https://github.com/Taiizor/agents-md-cookbook)** – Tool-agnostic AGENTS.md authoring kit (MIT) with 15 stack-specific templates, a tool compatibility matrix, an npm CLI + GitHub Action linter (`agents-md-lint`), and a migrator (`agents-md-migrate`) that converts `.cursorrules`, `CLAUDE.md`, Copilot, Windsurf, Cline, and Aider configs to AGENTS.md. Works across Cursor, Claude Code, Copilot, and 30+ AI coding tools. Free and open source."
         confidence: high
 metadata:
   github:
@@ -42,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    agents-md-cookbook – Tool-agnostic AGENTS.md authoring kit (MIT) with 15 stack-specific templates, a tool
-    compatibility matrix, an npm CLI + GitHub Action linter (agents-md-lint), and a migrator (agents-md-migrate) that
-    converts .cursorrules, CLAUDE.md, Copilot, Windsurf, Cline, and Aider configs to AGENTS.md. Works across Cursor,
-    Claude Code, Copilot, and 30+ AI coding tools. Free and open source.
+  summary: agents-md-cookbook – Tool-agnostic AGENTS.md authoring kit (MIT) with 15 stack-specific templates, a tool compatibility matrix, an npm CLI + GitHub Action linter (agents-md-lint), and a migrator (agents-md-migrate) that converts .cursorrules, CLAUDE.md, Copilot, Windsurf, Cline, and Aider configs to AGENTS.md. Works across Cursor, Claude Code, Copilot, and 30+ AI coding tools. Free and open source.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -56,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.65
-    - >-
-      jev winnow:e4b 0.32 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills
-      (unverified)
+    - jev winnow:e4b 0.32 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -70,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

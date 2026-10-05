@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aywengo__kafka-schema-reg-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: aywengo/kafka-schema-reg-mcp
         extracted_url: https://github.com/aywengo/kafka-schema-reg-mcp
-        surrounding_text: >-
-          - [aywengo/kafka-schema-reg-mcp](https://github.com/aywengo/kafka-schema-reg-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 -
-          Comprehensive Kafka Schema Registry MCP server with 48 tools for multi-registry management, schema migration,
-          and enterprise features.
+        surrounding_text: "- [aywengo/kafka-schema-reg-mcp](https://github.com/aywengo/kafka-schema-reg-mcp) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Comprehensive Kafka Schema Registry MCP server with 48 tools for multi-registry management, schema migration, and enterprise features."
         confidence: high
 metadata:
   github:
@@ -33,10 +30,10 @@ metadata:
     archived: false
     full_name: aywengo/kafka-schema-reg-mcp
     html_url: https://github.com/aywengo/kafka-schema-reg-mcp
-    created_at: '2025-05-24T16:43:24Z'
-    pushed_at: '2026-09-07T06:07:20Z'
+    created_at: "2025-05-24T16:43:24Z"
+    pushed_at: "2026-09-07T06:07:20Z"
     description: A comprehensive Message Control Protocol (MCP) server for Kafka Schema Registry.
-    homepage: ''
+    homepage: ""
     topics:
       - apache-kafka
       - claude-desktop
@@ -48,15 +45,13 @@ metadata:
       - mcp-server
       - schema-registry
       - vscode
-    last_checked_at: '2026-09-21T04:13:53.618Z'
+    last_checked_at: "2026-09-21T04:13:53.618Z"
     readme:
-      fetched_at: '2026-09-21T04:13:53.618Z'
+      fetched_at: "2026-09-21T04:13:53.618Z"
       bytes: 27314
 insights:
   summary: An MCP server that exposes Kafka Schema Registry operations to MCP clients like Claude Desktop.
-  why_it_matters: >-
-    Lets developers manage Kafka schemas, contexts, and migrations directly through natural language prompts in their AI
-    coding environment.
+  why_it_matters: Lets developers manage Kafka schemas, contexts, and migrations directly through natural language prompts in their AI coding environment.
   mental_damage: Now your AI assistant can argue with you about Avro schemas instead of just your code.
   tags:
     - mcp-server
@@ -79,17 +74,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.604Z'
+    updated_at: "2026-05-06T22:12:15.604Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:53.618Z'
+    updated_at: "2026-09-21T04:13:53.618Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -104,20 +99,14 @@ processing:
       input_hash: sha256:b062cce03a944698a6e769107bd6a026d4deabcf9e930eac826e69fab4d6a764
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MCP is the product identity here: it is a dedicated MCP server for Kafka Schema Registry, not a compatibility
-        footnote or adapter.
+      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for Kafka Schema Registry, not a compatibility footnote or adapter."
       decision_evidence:
-        - >-
-          Repo description explicitly states it is a 'comprehensive Message Control Protocol (MCP) server for Kafka
-          Schema Registry'
+        - Repo description explicitly states it is a 'comprehensive Message Control Protocol (MCP) server for Kafka Schema Registry'
         - README highlights full MCP 2025-06-18 specification compliance and integration with Claude Desktop
         - Already listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension that augments
-        another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension that augments another assistant.
       review_reason: null
       review_resume_lifecycle: null

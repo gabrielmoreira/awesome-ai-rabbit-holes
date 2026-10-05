@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mintlify__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - Documentation
         anchor_text: Mintlify
         extracted_url: https://mintlify.com
-        surrounding_text: >-
-          - **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains
-          docs from code.
+        surrounding_text: "- **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains docs from code."
         confidence: high
     - id: discovery__www__mintlify__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,9 +33,7 @@ provenance:
           - Documentation
         anchor_text: Mintlify
         extracted_url: https://mintlify.com
-        surrounding_text: >-
-          - **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains
-          docs from code.
+        surrounding_text: "- **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains docs from code."
         confidence: high
 metadata:
   github:
@@ -55,69 +51,57 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mintlify is a self-updating documentation platform designed for AI agents and developer teams.
-  why_it_matters: >-
-    It reduces documentation maintenance overhead by automatically syncing content with code changes and agent
-    interactions.
-  mental_damage: Another tool promising to solve docs rot, adding to the pile of knowledge infrastructure we’ll inevitably neglect.
+  summary: Mintlify is a documentation platform that uses AI to keep documentation up-to-date and optimized for agents and human readers.
+  why_it_matters: Developers benefit from self-updating docs that reduce maintenance overhead and improve agent and human usability.
+  mental_damage: Finally, a tool that promises to solve the eternal guilt of outdated documentation—until you realize it just shifts the guilt to trusting an AI not to hallucinate your API.
   tags:
     - documentation
-    - knowledge-platform
-    - ai-agents
-  confidence: high
+    - ai-native
+    - developer-experience
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Mintlify is primarily a documentation platform for human and agent consumption, not a developer-facing AI tool that
-    writes code, orchestrates agents, or enhances coding workflows.
+  status: included
+  reason: Mintlify fits as a knowledge system that persists and updates context (documentation) for agents and humans, aligning with memory and context infrastructure rather than coding agents or app builders.
   evidence:
-    - Self-updating documentation for startups, enterprises, and agents.
-    - >-
-      Listed in awesome-ai-coding-tools under the Documentation section, indicating its role as a resource rather than a
-      coding tool.
-    - >-
-      Core value proposition centers on content updates, API requests, and page reads — metrics of documentation usage,
-      not code generation or agent coordination.
+    - Self-updating documentation for startups, enterprises, and agents
+    - Agent-native platform with self-updating knowledge
+    - Seen in awesome-ai-coding-tools under Documentation section
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  section: Persistent Memory & Knowledge
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:56.979Z'
+    updated_at: "2026-10-05T04:49:13.418Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:345b35418529473fe7b6716ab55b12a77d63553283bd08812b37d79493fe61bd
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6acbe2921c995cc277143e307060c60f7df5ba348a056ec64b8771638c2239c5
+      proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: >-
-        Mintlify is primarily a documentation platform for human and agent consumption, not a developer-facing AI tool
-        that writes code, orchestrates agents, or enhances coding workflows.
+      decision_reason: Mintlify fits as a knowledge system that persists and updates context (documentation) for agents and humans, aligning with memory and context infrastructure rather than coding agents or app builders.
       decision_evidence:
-        - Self-updating documentation for startups, enterprises, and agents.
-        - >-
-          Listed in awesome-ai-coding-tools under the Documentation section, indicating its role as a resource rather
-          than a coding tool.
-        - >-
-          Core value proposition centers on content updates, API requests, and page reads — metrics of documentation
-          usage, not code generation or agent coordination.
-      category_candidates: []
-      contrastive_reason: null
+        - Self-updating documentation for startups, enterprises, and agents
+        - Agent-native platform with self-updating knowledge
+        - Seen in awesome-ai-coding-tools under Documentation section
+      category_candidates:
+        - memory-and-context
+        - app-builders
+      contrastive_reason: Choose memory-and-context over app-builders because Mintlify's core is maintaining and updating existing knowledge (documentation), not generating new deployable apps from prompts.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

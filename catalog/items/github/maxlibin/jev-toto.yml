@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__maxlibin__jev-toto__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-toto**'
+        anchor_text: "**jev-toto**"
         extracted_url: https://github.com/maxlibin/jev-toto
-        surrounding_text: >-
-          - [**jev-toto**](https://github.com/maxlibin/jev-toto) — Counting and comparison happen in Rust, because Jev
-          is documented as unreliable at arithmetic. Jev receives per-number facts plus plain-English labels and answers
-          two questions per number in one request: a yes/no probability for "drawn in the next draw" and a five-level
-          cold-to-hot score with confidence. Module layout and commands are in \`CLAUDE.md\`.
+        surrounding_text: "- [**jev-toto**](https://github.com/maxlibin/jev-toto) — Counting and comparison happen in Rust, because Jev is documented as unreliable at arithmetic. Jev receives per-number facts plus plain-English labels and answers two questions per number in one request: a yes/no probability for \"drawn in the next draw\" and a five-level cold-to-hot score with confidence. Module layout and commands are in \\`CLAUDE.md\\`."
         confidence: high
 metadata:
   github:
@@ -41,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-toto — Counting and comparison happen in Rust, because Jev is documented as unreliable at arithmetic. Jev
-    receives per-number facts plus plain-English labels and answers two questions per number in one request: a yes/no
-    probability for "drawn in the next draw" and a five-level cold-to-hot score with confidence. Module layout and
-    commands are in \CLAUDE.md\.
+  summary: "jev-toto — Counting and comparison happen in Rust, because Jev is documented as unreliable at arithmetic. Jev receives per-number facts plus plain-English labels and answers two questions per number in one request: a yes/no probability for \"drawn in the next draw\" and a five-level cold-to-hot score with confidence. Module layout and commands are in \\CLAUDE.md\\."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mentat__ai__docs__cli__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,9 +19,7 @@ provenance:
           - Closed Source
         anchor_text: Mentat CLI
         extracted_url: https://mentat.ai/docs/cli
-        surrounding_text: >-
-          - **[Mentat CLI](https://mentat.ai/docs/cli)** `[Mentat]` — Cloud-native coding agent CLI for managing remote
-          Mentat agents from your terminal; auto-detects repo/branch context.
+        surrounding_text: "- **[Mentat CLI](https://mentat.ai/docs/cli)** `[Mentat]` — Cloud-native coding agent CLI for managing remote Mentat agents from your terminal; auto-detects repo/branch context."
         confidence: high
 metadata:
   github:
@@ -39,13 +37,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A CLI tool from Mentat that provides terminal-native AI coding assistance.
-  why_it_matters: >-
-    Developers can delegate repo work directly from the terminal, streamlining coding workflows without switching
-    contexts.
-  mental_damage: >-
-    Another CLI agent to add to your already crowded terminal tabs, because typing `git commit -m` was clearly the
-    bottleneck.
+  summary: Mentat CLI is a terminal-native AI coding agent for planning, writing, editing, and reviewing code in repositories.
+  why_it_matters: It lets developers delegate coding tasks directly from the terminal, reducing context-switching and accelerating code iteration.
+  mental_damage: Another terminal-based agent promising to outcode you while you're still figuring out how to invoke it without reading the docs.
   tags:
     - cli
     - coding-agent
@@ -53,9 +47,11 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  reason: Mentat CLI is positioned as a terminal-native AI coding agent that performs autonomous coding tasks, matching the core identity of coding-agents rather than being an extension or framework.
   evidence:
-    - jev-latest choice confidence 0.83
+    - "Source-list context: included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Closed Source'"
+    - URL path (/docs/cli) and name ('cli') indicate a command-line interface for agent interaction
+    - Repo description missing but source-list framing confirms it is a coding agent harness
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -66,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,36 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:33:10.763Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for mentat__ai__docs__cli: Invalid AI response format: SyntaxError: Unexpected
-        token 'M', ..."_reason": Mentat CLI"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:42:07.540Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5d9206833a4b215c55e8de46968fef327aa3d2755f5718b0e3fa69a0ddeb1383
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bcda37e9613c57c43b0609359498cdab6f18a77aa8e019ca6377c60db6a3a700
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core
-        definition of Coding Agents.
+      decision_reason: Mentat CLI is positioned as a terminal-native AI coding agent that performs autonomous coding tasks, matching the core identity of coding-agents rather than being an extension or framework.
       decision_evidence:
-        - Seen in source list 'awesome-cli-coding-agents' under section 'Terminal-native coding agents > Closed Source', indicating recognition as a terminal-native AI coding agent.
-        - URL path '/docs/cli' and name 'cli' suggest a command-line interface focused on direct coding agent functionality.
-        - No evidence of app generation, MCP serving, or framework characteristics; identity centers on being a coding agent in the terminal.
+        - "Source-list context: included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Closed Source'"
+        - URL path (/docs/cli) and name ('cli') indicate a command-line interface for agent interaction
+        - Repo description missing but source-list framing confirms it is a coding agent harness
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent rather than an
-        extension for another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Mentat CLI is positioned as a standalone terminal-native coding agent, not as an add-on that extends another assistant like Claude Code or Cursor.
       review_reason: null
       review_resume_lifecycle: null

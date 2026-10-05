@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__whitead__paper-qa__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,9 +20,7 @@ provenance:
           - Other / Chatbots
         anchor_text: Paper QA
         extracted_url: https://github.com/whitead/paper-qa
-        surrounding_text: >-
-          - [Paper QA](https://github.com/whitead/paper-qa): LLM Chain for answering questions from documents with
-          citations ![GitHub Repo stars](https://img.shields.io/github/stars/whitead/paper-qa?style=social)
+        surrounding_text: "- [Paper QA](https://github.com/whitead/paper-qa): LLM Chain for answering questions from documents with citations ![GitHub Repo stars](https://img.shields.io/github/stars/whitead/paper-qa?style=social)"
         confidence: high
 metadata:
   github:
@@ -52,28 +50,28 @@ curation:
     - jev winnow:e4b 0.39 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.655Z'
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-07-21T15:21:12.874Z'
+    updated_at: "2026-07-21T15:21:12.874Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: whitead/paper-qa'
+      message: "GitHub repository not found: whitead/paper-qa"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

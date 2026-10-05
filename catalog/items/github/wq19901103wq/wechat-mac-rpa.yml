@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wq19901103wq__wechat-mac-rpa__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Domain-Specific Agents
         anchor_text: wechat-mac-rpa
         extracted_url: https://github.com/wq19901103wq/wechat-mac-rpa
-        surrounding_text: >-
-          | [wechat-mac-rpa](https://github.com/wq19901103wq/wechat-mac-rpa) | 110 | Python | MIT | 2026-09 | Visual
-          agent automating WeChat on macOS |
+        surrounding_text: "| [wechat-mac-rpa](https://github.com/wq19901103wq/wechat-mac-rpa) | 110 | Python | MIT | 2026-09 | Visual agent automating WeChat on macOS |"
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
     - jev-latest choice confidence 0.41
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.49 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

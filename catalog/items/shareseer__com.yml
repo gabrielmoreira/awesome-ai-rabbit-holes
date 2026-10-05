@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__shareseer__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: ShareSeer
         extracted_url: https://shareseer.com
-        surrounding_text: >-
-          - [shareseer/shareseer-mcp-server](https://github.com/shareseer/shareseer-mcp-server) 🏎️ ☁️ - MCP to Access
-          SEC filings, financials & insider trading data in real time using [ShareSeer](https://shareseer.com)
+        surrounding_text: "- [shareseer/shareseer-mcp-server](https://github.com/shareseer/shareseer-mcp-server) 🏎️ ☁️ - MCP to Access SEC filings, financials & insider trading data in real time using [ShareSeer](https://shareseer.com)"
         confidence: high
 metadata:
   github:
@@ -39,36 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ShareSEER is a financial research platform that provides real-time insider trading alerts, SEC filings, and cluster
-    detection for stock trading.
-  why_it_matters: >-
-    It gives developers and traders immediate access to insider transaction data to inform investment decisions through
-    automated alerts and dashboards.
-  mental_damage: >-
-    Another tool promising to turn SEC filings into alpha, feeding the illusion that real-time insider tracking replaces
-    actual due diligence.
+  summary: ShareSEER is a financial research tool that tracks insider stock transactions and provides real-time alerts, SEC filing search, and AI-powered investment insights.
+  why_it_matters: It gives developers who invest real-time visibility into insider trading patterns, potentially informing personal investment decisions related to tech stocks they follow.
+  mental_damage: Another tool that turns your financial anxiety into a dashboard, because watching executives trade your favorite tech stocks wasn’t stressful enough already.
   tags:
     - finance
     - insider-trading
-    - sec-data
-    - real-time-alerts
+    - sec-filings
+    - ai-insights
+    - developer-investing
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    ShareSEER is a financial data and alerting platform for investment research, lacking any developer-tooling, AI
-    coding agent, workflow automation, or software development angle required for inclusion in this catalog.
+  reason: ShareSEER is a financial research and investment tool focused on insider trading data and AI-generated market insights, with no connection to software development workflows, coding, AI agents, or developer tooling.
   evidence:
-    - >-
-      The platform focuses on tracking insider stock trades, SEC filings (10-K, 10-Q, 8-K), and providing real-time
-      alerts for investment decisions.
-    - >-
-      Core features include insider cluster detection, wealth tracking, live dashboards, and a Chrome extension for
-      viewing insider data on financial sites—none of which relate to coding, AI agents, or developer workflows.
-    - >-
-      The site promotes AI-powered investment insights via a Substack newsletter, but the product itself is not an AI
-      tool for developers; it is a financial research SaaS with optional AI-generated commentary.
+    - The site describes tracking insider transactions, real-time SEC filings, and generating investment ideas by following insiders
+    - Core features include insider alerts, live dashboards, wealth tracking, and AI-powered Substack newsletter for market insights
+    - No mention of code, software development, APIs for developers, IDE integrations, or any developer-facing functionality
 placement:
   primary_category: null
   section: null
@@ -78,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,32 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:59.229Z'
+    updated_at: "2026-10-05T04:45:03.076Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f2c6c364150600d7bc587840a30fad4106c71dee663995b47de1853abecf782b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:15632fb1d59ec5e9c24acfb12ed2439aa69f6d70e8855ca4ae18ea8a44bdcc0a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        ShareSEER is a financial data and alerting platform for investment research, lacking any developer-tooling, AI
-        coding agent, workflow automation, or software development angle required for inclusion in this catalog.
+      decision_reason: ShareSEER is a financial research and investment tool focused on insider trading data and AI-generated market insights, with no connection to software development workflows, coding, AI agents, or developer tooling.
       decision_evidence:
-        - >-
-          The platform focuses on tracking insider stock trades, SEC filings (10-K, 10-Q, 8-K), and providing real-time
-          alerts for investment decisions.
-        - >-
-          Core features include insider cluster detection, wealth tracking, live dashboards, and a Chrome extension for
-          viewing insider data on financial sites—none of which relate to coding, AI agents, or developer workflows.
-        - >-
-          The site promotes AI-powered investment insights via a Substack newsletter, but the product itself is not an
-          AI tool for developers; it is a financial research SaaS with optional AI-generated commentary.
+        - The site describes tracking insider transactions, real-time SEC filings, and generating investment ideas by following insiders
+        - Core features include insider alerts, live dashboards, wealth tracking, and AI-powered Substack newsletter for market insights
+        - No mention of code, software development, APIs for developers, IDE integrations, or any developer-facing functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__liao96312__jev-arena-nanojev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: jev-arena-nanojev
         extracted_url: https://github.com/liao96312/jev-arena-nanojev
-        surrounding_text: >-
-          - [jev-arena-nanojev](https://github.com/liao96312/jev-arena-nanojev) - 完全本地的 NanoJev 网格决策游戏实验场，支持中文
-          Pygame、多关卡与 GTX 1660S 训练.
+        surrounding_text: "- [jev-arena-nanojev](https://github.com/liao96312/jev-arena-nanojev) - 完全本地的 NanoJev 网格决策游戏实验场，支持中文 Pygame、多关卡与 GTX 1660S 训练."
         confidence: high
     - id: discovery__github__liao96312__jev-arena-nanojev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**jev-arena-nanojev**'
+        anchor_text: "**jev-arena-nanojev**"
         extracted_url: https://github.com/liao96312/jev-arena-nanojev
-        surrounding_text: >-
-          - [**jev-arena-nanojev**](https://github.com/liao96312/jev-arena-nanojev) — Jev Arena is a fully local grid
-          tactical game arena where NanoJev, rule agents and search algorithms make per-step move, attack, shoot, heal,
-          dash and environment-interaction decisions across multiple levels with a Chinese Pygame interface.
+        surrounding_text: "- [**jev-arena-nanojev**](https://github.com/liao96312/jev-arena-nanojev) — Jev Arena is a fully local grid tactical game arena where NanoJev, rule agents and search algorithms make per-step move, attack, shoot, heal, dash and environment-interaction decisions across multiple levels with a Chinese Pygame interface."
         confidence: high
 metadata:
   github:
@@ -77,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.419Z'
+    updated_at: "2026-09-29T13:07:10.419Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +80,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

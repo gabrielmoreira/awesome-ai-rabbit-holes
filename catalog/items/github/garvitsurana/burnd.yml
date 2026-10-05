@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__garvitsurana__burnd__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Burnd
         extracted_url: https://github.com/garvitsurana/burnd
-        surrounding_text: >-
-          - **[Burnd](https://github.com/garvitsurana/burnd)** – Local-first CLI (`npx getburnd`) that parses your
-          `.claude/projects/*.jsonl` session files to find cost leaks in Claude Code usage — retry storms, tool overuse,
-          repeated reads, long bash output, tired-coding hours. Runs entirely offline. Free core + optional Pro
-          detectors.
+        surrounding_text: "- **[Burnd](https://github.com/garvitsurana/burnd)** – Local-first CLI (`npx getburnd`) that parses your `.claude/projects/*.jsonl` session files to find cost leaks in Claude Code usage — retry storms, tool overuse, repeated reads, long bash output, tired-coding hours. Runs entirely offline. Free core + optional Pro detectors."
         confidence: high
 metadata:
   github:
@@ -53,28 +49,28 @@ curation:
     - jev winnow:e4b 0.40 below gate 0.50; proposed evals / Observability & Tracing; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - evals
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.615Z'
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-03T05:16:46.110Z'
+    updated_at: "2026-09-03T05:16:46.110Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: garvitsurana/burnd'
+      message: "GitHub repository not found: garvitsurana/burnd"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

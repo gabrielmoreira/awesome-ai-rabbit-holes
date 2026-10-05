@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ickma2311__jev-baselines-eval__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**jev-baselines-eval**'
+        anchor_text: "**jev-baselines-eval**"
         extracted_url: https://github.com/ickma2311/jev-baselines-eval
-        surrounding_text: >-
-          - [**jev-baselines-eval**](https://github.com/ickma2311/jev-baselines-eval) — Every latency number here is
-          \*\*wall-clock duration of one API call\*\* measured in the client: a timestamp before the request, another
-          after the full response body is read (\[\`code/run\_b1.py:32\`\](code/run\_b1.py),
-          \[\`code/common.py:50\`\](code/common.py)). Non-streaming on both sides, so these are completion times, not
-          time-to-first-token.
+        surrounding_text: "- [**jev-baselines-eval**](https://github.com/ickma2311/jev-baselines-eval) — Every latency number here is \\*\\*wall-clock duration of one API call\\*\\* measured in the client: a timestamp before the request, another after the full response body is read (\\[\\`code/run\\_b1.py:32\\`\\](code/run\\_b1.py), \\[\\`code/common.py:50\\`\\](code/common.py)). Non-streaming on both sides, so these are completion times, not time-to-first-token."
         confidence: high
 metadata:
   github:
@@ -42,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-baselines-eval — Every latency number here is \*\*wall-clock duration of one API call\*\* measured in the
-    client: a timestamp before the request, another after the full response body is read (\\code/run\_b1.py:32\\,
-    \\code/common.py:50\\). Non-streaming on both sides, so these are completion times, not time-to-first-token.
+  summary: "jev-baselines-eval — Every latency number here is \\*\\*wall-clock duration of one API call\\*\\* measured in the client: a timestamp before the request, another after the full response body is read (\\\\code/run\\_b1.py:32\\\\, \\\\code/common.py:50\\\\). Non-streaming on both sides, so these are completion times, not time-to-first-token."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.460Z'
+    updated_at: "2026-09-29T13:07:10.460Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__microsoft__mm-react__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,7 +20,7 @@ provenance:
           - Other / Chatbots
         anchor_text: MM ReAct
         extracted_url: https://github.com/microsoft/mm-react
-        surrounding_text: '- [MM ReAct](https://github.com/microsoft/MM-REACT): Multi Modal ReAct Design'
+        surrounding_text: "- [MM ReAct](https://github.com/microsoft/MM-REACT): Multi Modal ReAct Design"
         confidence: high
 metadata:
   github:
@@ -30,25 +30,19 @@ metadata:
     archived: false
     full_name: microsoft/MM-REACT
     html_url: https://github.com/microsoft/MM-REACT
-    created_at: '2023-03-15T06:56:13Z'
-    pushed_at: '2024-01-31T21:37:28Z'
+    created_at: "2023-03-15T06:56:13Z"
+    pushed_at: "2024-01-31T21:37:28Z"
     description: Official repo for MM-REACT
     homepage: https://multimodal-react.github.io/
     topics: []
-    last_checked_at: '2026-08-03T05:17:02.110Z'
+    last_checked_at: "2026-08-03T05:17:02.110Z"
     readme:
-      fetched_at: '2026-08-03T05:17:02.110Z'
+      fetched_at: "2026-08-03T05:17:02.110Z"
       bytes: 6618
 insights:
-  summary: >-
-    MM-REACT is a prompting paradigm that integrates ChatGPT with vision expert models to enable multimodal reasoning
-    and action on images.
-  why_it_matters: >-
-    It demonstrates how combining LLMs with specialized vision APIs can solve complex visual understanding tasks through
-    iterative prompting and tool use.
-  mental_damage: >-
-    Another research prototype showing how to duct-tape GPT to Azure Cognitive Services, now you get to maintain seven
-    environment variables just to describe a photo.
+  summary: MM-REACT is a prompting paradigm that integrates ChatGPT with vision expert models to enable multimodal reasoning and action on images.
+  why_it_matters: It demonstrates how combining LLMs with specialized vision APIs can solve complex visual understanding tasks through iterative prompting and tool use.
+  mental_damage: Another research prototype showing how to duct-tape GPT to Azure Cognitive Services, now you get to maintain seven environment variables just to describe a photo.
   tags:
     - multimodal
     - prompting
@@ -57,13 +51,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    MM-REACT is a research prototype demonstrating a prompting technique rather than a reusable developer tool or
-    product, making it out of scope for the catalog.
+  reason: MM-REACT is a research prototype demonstrating a prompting technique rather than a reusable developer tool or product, making it out of scope for the catalog.
   evidence:
-    - 'Repo description: ''Official repo for MM-REACT'''
-    - 'README: ''We build MM-REACT, a system paradigm that integrates ChatGPT with a pool of vision experts'''
-    - 'README: ''MM-REACT code is based on langchain'' with setup requiring multiple Azure service configurations'
+    - "Repo description: 'Official repo for MM-REACT'"
+    - "README: 'We build MM-REACT, a system paradigm that integrates ChatGPT with a pool of vision experts'"
+    - "README: 'MM-REACT code is based on langchain' with setup requiring multiple Azure service configurations"
 placement:
   primary_category: null
   section: null
@@ -73,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.629Z'
+    updated_at: "2026-05-06T22:12:15.629Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-03T05:17:02.110Z'
+    updated_at: "2026-08-03T05:17:02.110Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.822Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -98,13 +90,11 @@ processing:
       input_hash: sha256:7890f94974821ed697dd01d40a0e4e034e0dce0baca6de73b834cbe73e22bf5f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        MM-REACT is a research prototype demonstrating a prompting technique rather than a reusable developer tool or
-        product, making it out of scope for the catalog.
+      decision_reason: MM-REACT is a research prototype demonstrating a prompting technique rather than a reusable developer tool or product, making it out of scope for the catalog.
       decision_evidence:
-        - 'Repo description: ''Official repo for MM-REACT'''
-        - 'README: ''We build MM-REACT, a system paradigm that integrates ChatGPT with a pool of vision experts'''
-        - 'README: ''MM-REACT code is based on langchain'' with setup requiring multiple Azure service configurations'
+        - "Repo description: 'Official repo for MM-REACT'"
+        - "README: 'We build MM-REACT, a system paradigm that integrates ChatGPT with a pool of vision experts'"
+        - "README: 'MM-REACT code is based on langchain' with setup requiring multiple Azure service configurations"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

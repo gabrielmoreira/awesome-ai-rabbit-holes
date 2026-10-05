@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gptengineer__app__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - GPT Engineer
         anchor_text: GPT Engineer
         extracted_url: https://gptengineer.app
-        surrounding_text: '## [GPT Engineer](https://gptengineer.app/)'
+        surrounding_text: "## [GPT Engineer](https://gptengineer.app/)"
         confidence: high
 metadata:
   github:
@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Lovable is an AI-powered platform that lets users describe an app or website and generates a deployable prototype
-    from scratch.
-  why_it_matters: It enables developers and non-developers to quickly turn ideas into live web applications without writing code.
-  mental_damage: Hope you enjoy the illusion of no-code while still debugging the AI’s weird layout choices.
+  summary: Lovable is an AI-powered platform that builds apps and websites from natural language prompts, screenshots, or documentation.
+  why_it_matters: Enables developers and non-developers to generate deployable web applications instantly from high-level descriptions.
+  mental_damage: Promises to eliminate coding while quietly shifting the bottleneck to prompt engineering and AI output whack-a-mole.
   tags:
     - app-builder
-    - ai
-    - low-code
+    - ai-generated
+    - no-code
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Lovable’s core identity is generating complete, deployable apps from prompts without requiring work in an existing codebase, fitting the App Builders category.
   evidence:
-    - jev-latest choice confidence 0.95
+    - "Primary page excerpt states: 'Create apps and websites by chatting with AI' and 'See your vision transform into a working prototype in real-time as AI builds it for you'"
+    - "Scraped site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+    - Features include deploying creations 'to the world with one click' and building from screenshots, docs, or templates.
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,35 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:18:45.106Z'
+    updated_at: "2026-10-05T04:33:14.968Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6165922b5d4bb2e1feebffaa1c713cd3f9d18f8f192e296c02c5165f2fb5de4b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5639e3440b08aa3dbb6a08afe2b9aaf21c17ddbc2e9c39ce68ab6d7933b41650
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The product’s core identity is generating complete apps from prompts, matching the app-builder category rather
-        than a coding agent.
+      decision_reason: Lovable’s core identity is generating complete, deployable apps from prompts without requiring work in an existing codebase, fitting the App Builders category.
       decision_evidence:
-        - 'Title: "AI App Builder | Vibe Code Apps & Websites with AI, Fast"'
-        - >-
-          Description: "Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep
-          coding skills required."
-        - >-
-          Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct
-          code collaboration.
+        - "Primary page excerpt states: 'Create apps and websites by chatting with AI' and 'See your vision transform into a working prototype in real-time as AI builds it for you'"
+        - "Scraped site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+        - Features include deploying creations 'to the world with one click' and building from screenshots, docs, or templates.
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because the tool’s primary workflow is prompt-to-deployable app creation,
-        not editing or extending an existing codebase.
+      contrastive_reason: Choose app-builders over coding-agents because Lovable’s main surface turns prompts into deployed apps rather than assisting developers in editing an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__moonrunnerkc__swarm-orchestrator__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: Swarm Orchestrator
         extracted_url: https://github.com/moonrunnerkc/swarm-orchestrator
-        surrounding_text: >-
-          - **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** – Audits AI-generated pull
-          requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames). Advisory by default,
-          opt-in merge gate.
+        surrounding_text: "- **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** – Audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames). Advisory by default, opt-in merge gate."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Swarm Orchestrator – Audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors,
-    fake renames). Advisory by default, opt-in merge gate.
+  summary: Swarm Orchestrator – Audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames). Advisory by default, opt-in merge gate.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -52,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.53
-    - >-
-      jev winnow:e4b 0.23 below gate 0.50; proposed evals / Safety, Fairness & Red-teaming; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.23 below gate 0.50; proposed evals / Safety, Fairness & Red-teaming; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -66,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

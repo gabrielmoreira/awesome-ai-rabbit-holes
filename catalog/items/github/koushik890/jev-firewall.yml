@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__koushik890__jev-firewall__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-firewall
         extracted_url: https://github.com/koushik890/jev-firewall
-        surrounding_text: >-
-          - [jev-firewall](https://github.com/Koushik890/jev-firewall)
-          ([site](https://www.npmjs.com/package/jev-firewall)) - Real-time firewall for AI coding agents: a PreToolUse
-          hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go
-          to Jev for a calibrated allow/ask/block that fails closed.
+        surrounding_text: "- [jev-firewall](https://github.com/Koushik890/jev-firewall) ([site](https://www.npmjs.com/package/jev-firewall)) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block that fails closed."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-firewall (site) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex
-    tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block
-    that fails closed.
+  summary: "jev-firewall (site) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block that fails closed."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.464Z'
+    updated_at: "2026-09-29T13:07:10.464Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

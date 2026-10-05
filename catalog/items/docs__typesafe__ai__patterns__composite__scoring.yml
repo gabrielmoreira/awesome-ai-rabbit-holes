@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__patterns__composite__scoring__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Extraction and structured data
         anchor_text: Composite scoring
         extracted_url: https://docs.typesafe.ai/patterns/composite-scoring
-        surrounding_text: >-
-          - [Composite scoring](https://docs.typesafe.ai/patterns/composite-scoring) - Combine separate rubric judgments
-          with application-defined weights.
+        surrounding_text: "- [Composite scoring](https://docs.typesafe.ai/patterns/composite-scoring) - Combine separate rubric judgments with application-defined weights."
         confidence: high
 metadata:
   github:
@@ -58,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:05:15.842Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for docs__typesafe__ai__patterns__composite__scoring: Invalid AI response structure: Missing required field: why_it_matters"
+    next_retry_at: null
+    attempts: 1

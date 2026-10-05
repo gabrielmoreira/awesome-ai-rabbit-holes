@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mmornati__system-one-router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: system-one-router
         extracted_url: https://github.com/mmornati/system-one-router
-        surrounding_text: >-
-          - [system-one-router](https://github.com/mmornati/system-one-router)
-          ([site](https://mmornati.github.io/system-one-router/)) - A fast System One decision model (Jev or local Laya)
-          picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark.
+        surrounding_text: "- [system-one-router](https://github.com/mmornati/system-one-router) ([site](https://mmornati.github.io/system-one-router/)) - A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    system-one-router (site) - A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt:
-    OpenAI-compatible Go gateway + decision benchmark.
+  summary: "system-one-router (site) - A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kiborgik__blabla__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,13 +20,7 @@ provenance:
           - Agent infrastructure
         anchor_text: BlaBla
         extracted_url: https://github.com/kiborgik/blabla
-        surrounding_text: >-
-          - **[BlaBla](https://github.com/Kiborgik/blabla)** `⭐ 2` — Rust CLI that keeps project intent as executable
-          contracts a coding agent queries instead of re-reading chat history: behavior rules checked by a
-          coverage-guided campaign that shrinks a failure to a minimized counterexample, structure rules (modules,
-          symbols, dependencies, literal collection membership) evaluated statically by a Python `ast` provider in an
-          isolated interpreter that never imports project code, and `blabla finish` as a completion gate that exits 0
-          only when every active layer is GREEN. v0.7.0-alpha, Python-only structure provider. MIT.
+        surrounding_text: "- **[BlaBla](https://github.com/Kiborgik/blabla)** `⭐ 2` — Rust CLI that keeps project intent as executable contracts a coding agent queries instead of re-reading chat history: behavior rules checked by a coverage-guided campaign that shrinks a failure to a minimized counterexample, structure rules (modules, symbols, dependencies, literal collection membership) evaluated statically by a Python `ast` provider in an isolated interpreter that never imports project code, and `blabla finish` as a completion gate that exits 0 only when every active layer is GREEN. v0.7.0-alpha, Python-only structure provider. MIT."
         confidence: high
 metadata:
   github:
@@ -53,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.464Z'
+    updated_at: "2026-09-29T13:07:10.464Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

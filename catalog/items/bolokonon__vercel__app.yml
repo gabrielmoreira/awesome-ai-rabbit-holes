@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bolokonon__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Vibe Coding Profiler
         extracted_url: https://bolokonon.vercel.app
-        surrounding_text: >-
-          - **[Vibe Coding Profiler](https://bolokonon.vercel.app)** – Profiles git history to show how a developer's
-          coding rhythm, commit habits, and craftsmanship patterns carry over or change when working with AI coding
-          agents.
+        surrounding_text: "- **[Vibe Coding Profiler](https://bolokonon.vercel.app)** – Profiles git history to show how a developer's coding rhythm, commit habits, and craftsmanship patterns carry over or change when working with AI coding agents."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vibe Coding Profiler – Profiles git history to show how a developer's coding rhythm, commit habits, and
-    craftsmanship patterns carry over or change when working with AI coding agents.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Vibe Coding Profiler analyzes Git commit metadata to generate a shareable AI-assisted engineering persona based on coding patterns.
+  why_it_matters: Helps developers reflect on their evolving AI-assisted workflows and share insights about their coding style with others.
+  mental_damage: Turns your git history into a personality quiz, because nothing says 'engineering rigor' like a vibe-based archetype derived from commit timing.
+  tags:
+    - developer-productivity
+    - self-reflection
+    - git-analytics
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  status: excluded
+  reason: The tool is a reflective analytics dashboard based on commit metadata, not a developer-facing AI tool that assists with coding, building, or workflow automation.
   evidence:
-    - jev-latest choice confidence 0.95
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed evals / Observability & Tracing; placement kept at evals
-      (unverified)
+    - Analyzes commit metadata (timestamps, file sizes, paths) to generate a Vibe Coding Profile (VCP)
+    - Does not write, edit, review, or test code; operates as a post-hoc analytics service
+    - Described as a 'playful side project' focused on sharing persona cards, not enabling AI-assisted development
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories:
     - coding-agents
-  section: Observability & Tracing
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:48.433Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ebc32e68f695e71926f1bc8b9cd30cb1e7c2afdbdd8c46eacec3e854ea974a39
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a reflective analytics dashboard based on commit metadata, not a developer-facing AI tool that assists with coding, building, or workflow automation.
+      decision_evidence:
+        - Analyzes commit metadata (timestamps, file sizes, paths) to generate a Vibe Coding Profile (VCP)
+        - Does not write, edit, review, or test code; operates as a post-hoc analytics service
+        - Described as a 'playful side project' focused on sharing persona cards, not enabling AI-assisted development
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

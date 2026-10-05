@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dmx__to__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Applications
         anchor_text: dmx.to
         extracted_url: https://dmx.to
-        surrounding_text: >-
-          - [dmx.to](https://dmx.to) ([post](https://x.com/thekitze/status/2100570975175877106)) - X client with Jev
-          smart rules that filter the timeline by usefulness, type, and topic.
+        surrounding_text: "- [dmx.to](https://dmx.to) ([post](https://x.com/thekitze/status/2100570975175877106)) - X client with Jev smart rules that filter the timeline by usefulness, type, and topic."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: dmx.to (post) - X client with Jev smart rules that filter the timeline by usefulness, type, and topic.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DMX is a macOS app that restricts X (Twitter) timeline browsing to 5 minutes per hour while providing unrestricted access to DMs and notifications.
+  why_it_matters: It offers developers a way to use X intentionally without doomscrolling, reclaiming time for deep work and reducing distraction.
+  mental_damage: Another productivity tool that treats addiction as a UX problem to be solved with timers and guilt, not self-awareness.
+  tags:
+    - productivity
+    - focus
+    - macos
+    - social-media
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  status: excluded
+  reason: DMX is a social media usage tool with no developer-facing AI, coding, workflow, or tooling angle; it does not assist in software development, agent building, or any technical workflow.
   evidence:
-    - jev-latest choice confidence 0.77
+    - Scraped site context describes DMX as a macOS app for X with unrestricted DMs, notifications, and 5-minute timeline limits per hour.
+    - README excerpt and promotional copy focus on reclaiming attention, reducing doomscrolling, and intentional use of X — no mention of coding, AI, APIs, or developer workflows.
+    - Source-list context (awesome-jev) lists it under 'Applications' as a macOS app for X, not as a tool built on Jev for developer use.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:06.759Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f4e2cfa6de0bc2995cb95cc091661dd3b63f8d3ee44df1d68379e57c330a84ba
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: DMX is a social media usage tool with no developer-facing AI, coding, workflow, or tooling angle; it does not assist in software development, agent building, or any technical workflow.
+      decision_evidence:
+        - Scraped site context describes DMX as a macOS app for X with unrestricted DMs, notifications, and 5-minute timeline limits per hour.
+        - README excerpt and promotional copy focus on reclaiming attention, reducing doomscrolling, and intentional use of X — no mention of coding, AI, APIs, or developer workflows.
+        - Source-list context (awesome-jev) lists it under 'Applications' as a macOS app for X, not as a tool built on Jev for developer use.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

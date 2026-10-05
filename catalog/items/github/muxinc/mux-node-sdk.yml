@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__muxinc__mux-node-sdk__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,11 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Mux
         extracted_url: https://github.com/muxinc/mux-node-sdk
-        surrounding_text: >-
-          - **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** -
-          [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos,
-          create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data,
-          monitor video performance, and more.
+        surrounding_text: "- **[Mux](https://github.com/muxinc/mux-node-sdk/tree/master/packages/mcp-server)** - [Mux](https://www.mux.com) is a video API for developers. With Mux's official MCP you can upload videos, create live streams, generate thumbnails, add captions, manage playback policies, dig through engagement data, monitor video performance, and more."
         confidence: high
 metadata:
   github:
@@ -33,8 +29,8 @@ metadata:
     archived: false
     full_name: muxinc/mux-node-sdk
     html_url: https://github.com/muxinc/mux-node-sdk
-    created_at: '2018-03-26T21:09:50Z'
-    pushed_at: '2026-06-30T01:14:57Z'
+    created_at: "2018-03-26T21:09:50Z"
+    pushed_at: "2026-06-30T01:14:57Z"
     description: Official Mux API wrapper for Node projects, supporting both Mux Data and Mux Video.
     homepage: https://mux.com/for/node
     topics:
@@ -44,17 +40,13 @@ metadata:
       - video-analytics
       - video-processing
       - video-streaming
-    last_checked_at: '2026-07-20T15:11:58.049Z'
+    last_checked_at: "2026-07-20T15:11:58.049Z"
     readme:
-      fetched_at: '2026-07-20T15:11:58.049Z'
+      fetched_at: "2026-07-20T15:11:58.049Z"
       bytes: 22852
 insights:
-  summary: >-
-    Official Node.js/TypeScript SDK and bundled MCP server for the Mux video platform, providing REST API access and AI
-    assistant integrations for video streaming and analytics.
-  why_it_matters: >-
-    It lets developers automate video asset management and live streaming workflows directly from code or through AI
-    assistants via the included MCP server.
+  summary: Official Node.js/TypeScript SDK and bundled MCP server for the Mux video platform, providing REST API access and AI assistant integrations for video streaming and analytics.
+  why_it_matters: It lets developers automate video asset management and live streaming workflows directly from code or through AI assistants via the included MCP server.
   mental_damage: Now your AI agent can debug your video transcoding pipeline and ask for more quota in the same breath.
   tags:
     - mux
@@ -78,23 +70,23 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.632Z'
+    updated_at: "2026-05-06T22:12:15.632Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-08-03T05:17:09.382Z'
+    updated_at: "2026-08-03T05:17:09.382Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for muxinc/mux-node-sdk
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

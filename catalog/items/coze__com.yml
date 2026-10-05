@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__coze__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 3. [Coze](https://www.coze.com/)
         confidence: high
     - id: discovery__www__coze__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,34 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Coze is an AI Agent-based intelligent office platform offering productivity tools like AI writing, PPT generation,
-    web development, and AI design.
-  why_it_matters: >-
-    It matters to developers seeking no-code AI-powered internal tools or workflow automation via agent orchestration,
-    though it is not developer-facing in its core identity.
-  mental_damage: >-
-    Another 'AI office' platform promising to replace your job with agents that generate slides you’ll still have to
-    explain in meetings.
+  summary: Coze is an AI Agent-based intelligent office platform offering AI writing, PPT generation, web development, and AI design tools for productivity.
+  why_it_matters: It targets enterprise users with a no-code AI office suite, but offers little direct value to software developers building or maintaining code.
+  mental_damage: Another 'AI office' platform promising to replace work with chatbots, while developers still debug real systems in terminals.
   tags:
-    - agent-orchestration
-    - internal-tools
+    - ai-agents
+    - productivity
     - no-code
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Coze is positioned as an end-user intelligent office platform for general productivity (writing, design, PPTs), not
-    a developer-facing tool for coding, agent building, or workflow engineering, so it falls outside the catalog's
-    scope.
+  reason: Coze is positioned as a general-purpose AI office platform for enterprise productivity, not a developer-facing tool for coding, agents, or infrastructure; its described features (AI writing, PPT generation, web development via AI) are end-user applications, not devtooling workflows.
   evidence:
-    - >-
-      Source-list description: 'Coze is an AI Agent-based intelligent office platform that offers an integrated suite of
-      productivity tools including AI writing,PPT generation,web development,and AI design'
-    - >-
-      Scraped site title and description emphasize 'intelligent office platform' and 'productive office experience' for
-      users and enterprises, not developer tooling
-    - No GitHub repo, stars, or technical documentation provided; presented as a SaaS platform for office productivity
+    - Scraped site context describes Coze as an 'AI Agent-based intelligent office platform' with tools for 'AI writing, PPT generation, web development, and AI design' aimed at 'users and enterprises' for 'intelligent office experience'.
+    - Source-list context places it in '智能体 Agents' section of an LLM resource directory, but the description emphasizes office productivity, not developer tooling, coding, or agent orchestration relevant to software engineering workflows.
+    - No evidence of code editing, repo interaction, CLI/SDK usage, agent orchestration, or infrastructure for developers; the product identity is end-user productivity, not devtooling.
 placement:
   primary_category: null
   section: null
@@ -88,40 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:14.957Z'
+    updated_at: "2026-10-05T04:59:06.638Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:04b4f9d76652fbfebc442d32835bdc496c650e9446649be7428fe82e89e90c6a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4128f2e00e422830488f9d3efbcd67b949af6c3985081ee01b4af8d5fb3f1384
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Coze is positioned as an end-user intelligent office platform for general productivity (writing, design, PPTs),
-        not a developer-facing tool for coding, agent building, or workflow engineering, so it falls outside the
-        catalog's scope.
+      decision_reason: Coze is positioned as a general-purpose AI office platform for enterprise productivity, not a developer-facing tool for coding, agents, or infrastructure; its described features (AI writing, PPT generation, web development via AI) are end-user applications, not devtooling workflows.
       decision_evidence:
-        - >-
-          Source-list description: 'Coze is an AI Agent-based intelligent office platform that offers an integrated
-          suite of productivity tools including AI writing,PPT generation,web development,and AI design'
-        - >-
-          Scraped site title and description emphasize 'intelligent office platform' and 'productive office experience'
-          for users and enterprises, not developer tooling
-        - >-
-          No GitHub repo, stars, or technical documentation provided; presented as a SaaS platform for office
-          productivity
+        - Scraped site context describes Coze as an 'AI Agent-based intelligent office platform' with tools for 'AI writing, PPT generation, web development, and AI design' aimed at 'users and enterprises' for 'intelligent office experience'.
+        - Source-list context places it in '智能体 Agents' section of an LLM resource directory, but the description emphasizes office productivity, not developer tooling, coding, or agent orchestration relevant to software engineering workflows.
+        - No evidence of code editing, repo interaction, CLI/SDK usage, agent orchestration, or infrastructure for developers; the product identity is end-user productivity, not devtooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

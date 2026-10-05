@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__api__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,10 @@ provenance:
           - Official
         anchor_text: HTTP API reference
         extracted_url: https://docs.typesafe.ai/api
-        surrounding_text: '- [HTTP API reference](https://docs.typesafe.ai/api) - Request and response contract for POST /v1/systemone.'
+        surrounding_text: "- [HTTP API reference](https://docs.typesafe.ai/api) - Request and response contract for POST /v1/systemone."
         confidence: high
     - id: discovery__docs__typesafe__ai__api__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -33,12 +33,10 @@ provenance:
           - Start here
         anchor_text: HTTP API reference
         extracted_url: https://docs.typesafe.ai/api
-        surrounding_text: >-
-          - [HTTP API reference](https://docs.typesafe.ai/api) - Check the wire format, authentication, answer fields,
-          and error responses.
+        surrounding_text: "- [HTTP API reference](https://docs.typesafe.ai/api) - Check the wire format, authentication, answer fields, and error responses."
         confidence: high
     - id: discovery__docs__typesafe__ai__api__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -50,7 +48,7 @@ provenance:
           - Official resources
         anchor_text: API reference
         extracted_url: https://docs.typesafe.ai/api
-        surrounding_text: '| [API reference](https://docs.typesafe.ai/api) | Current request and response contract. |'
+        surrounding_text: "| [API reference](https://docs.typesafe.ai/api) | Current request and response contract. |"
         confidence: high
 metadata:
   github:
@@ -68,28 +66,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI's HTTP API endpoint for evaluating application state against typed questions using the Jev decision model to return structured probabilistic answers.
+  why_it_matters: Enables developers to integrate structured, probabilistic decision-making into applications via a simple API for tasks like urgency detection, routing, or scoring.
+  mental_damage: Another API wrapper that turns model judgment into yet another microservice you have to monitor, version, and pay for per token.
+  tags:
+    - api
+    - decision-model
+    - typesafe
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The product is a hosted gateway exposing the Jev decision model via a typed-question API, making the decision model itself the core identity rather than a coding agent, framework, or MCP adapter.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.42 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The API evaluates state using typed questions (Noul, Choice, Score) and returns structured probabilistic answers via the Jev model.
+    - Source lists categorize it under 'Official' and 'Start here' sections of awesome-jev as the 'Full HTTP API reference for the TypeSafe evaluation endpoint'.
+    - The documentation centers on the evaluation endpoint POST https://api.typesafe.ai/v1/systemone with model 'jev-latest' and typed question schemas.
+    - No evidence suggests it is primarily a coding agent, app builder, or MCP server; its value is in exposing decision-model judgments.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Cloud Gateways & Providers
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,6 +100,29 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:25.688Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1876fffb73c80756d467b27d7995a0afc01db56c6611c5ed6a6a23bdf2a543a1
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product is a hosted gateway exposing the Jev decision model via a typed-question API, making the decision model itself the core identity rather than a coding agent, framework, or MCP adapter.
+      decision_evidence:
+        - The API evaluates state using typed questions (Noul, Choice, Score) and returns structured probabilistic answers via the Jev model.
+        - Source lists categorize it under 'Official' and 'Start here' sections of awesome-jev as the 'Full HTTP API reference for the TypeSafe evaluation endpoint'.
+        - The documentation centers on the evaluation endpoint POST https://api.typesafe.ai/v1/systemone with model 'jev-latest' and typed question schemas.
+        - No evidence suggests it is primarily a coding agent, app builder, or MCP server; its value is in exposing decision-model judgments.
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product's identity is the Jev decision model and its typed-question API, not MCP protocol infrastructure, even if it could be accessed via MCP.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

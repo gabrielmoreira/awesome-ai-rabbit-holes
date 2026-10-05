@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__blink__review__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Verification & Guardrails
         anchor_text: Blink
         extracted_url: https://blink.review
-        surrounding_text: >-
-          - [Blink](https://blink.review) - Code review: CLI that coding agents run after every change, with Jev
-          checking the diff near-instantly in place of an LLM reviewer.
+        surrounding_text: "- [Blink](https://blink.review) - Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in place of an LLM reviewer."
         confidence: high
 metadata:
   github:
@@ -39,13 +37,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Blink - Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in
-    place of an LLM reviewer.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Blink.review is a CLI tool that enforces team style guides by reviewing edits made by coding agents like Claude Code and Codex and notifying the agent of violations.
+  why_it_matters: It catches style-guide violations early in the agent feedback loop, reducing noisy PR reviews and keeping agent-generated code consistent with team standards.
+  mental_damage: Finally, a tool that lets your AI intern get scolded by a linter before you have to.
+  tags:
+    - code-review
+    - ai-agents
+    - cli
+    - style-guide
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
@@ -54,14 +54,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,31 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:42.422Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:54f1f19c4077403d422828c6f8bc69d2a9aca7d64f7c3c6c5daa8bfa78f427e2
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: Blink.review is an extension that augments coding agents with style-guide enforcement, not a standalone coding agent or decision model, fitting the extensions-and-addons category.
+      decision_evidence:
+        - Blink enforces your team style guide by checking every file edit made by Claude Code and Codex.
+        - Blink is a CLI tool and can be used by any agent. It's fast and cheap, and designed to be used after every code change an agent makes.
+        - Seen in awesome-jev under 'Verification & Guardrails' as a tool that makes coding agents behave.
+        - Blink runs after each of its turns and hands findings back to the agent in under half a second.
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Blink.review does not write or edit code itself—it reviews and feeds back findings to existing agents like Claude Code and Codex, making it an add-on rather than a primary coding agent.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

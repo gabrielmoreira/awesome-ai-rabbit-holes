@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__grovs__io__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,7 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: Grovs
         extracted_url: https://grovs.io
-        surrounding_text: >-
-          - [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP
-          server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp)
-          📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with
-          [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for
-          creating links, tracking installs and revenue, and configuring app settings.
+        surrounding_text: "- [grovs-io/mcp](https://github.com/grovs-io/mcp) [![grovs-io/mcp MCP server](https://glama.ai/mcp/servers/grovs-io/mcp/badges/score.svg)](https://glama.ai/mcp/servers/grovs-io/mcp) 📇 ☁️ - Deep linking, attribution, analytics, and campaign management for mobile apps with [Grovs](https://grovs.io) — an open-source, privacy-first alternative to Branch and AppsFlyer. 16 tools for creating links, tracking installs and revenue, and configuring app settings."
         confidence: high
 metadata:
   github:
@@ -42,33 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Grovs is an open-source, EU-hosted first-party attribution and deep linking platform for apps.
-  why_it_matters: >-
-    It gives developers privacy-compliant, deterministic attribution without third-party data sharing or black-box
-    tracking.
-  mental_damage: Finally, an attribution tool that doesn’t make you feel like you’re selling your users’ souls to ad networks.
+  summary: Grovs is an open-source, EU-hosted first-party attribution and deep linking platform for mobile apps that tracks installs, revenue, and campaign performance without data leakage.
+  why_it_matters: It gives developers privacy-compliant, transparent attribution infrastructure they can audit and self-host, reducing reliance on opaque third-party MMPs.
+  mental_damage: Another SDK to integrate just to stop wondering if your ad spend is being laundered through probabilistic fingerprints and data brokers.
   tags:
     - attribution
     - deep-linking
+    - analytics
     - privacy
-    - open-source
-    - eu-hosted
+    - sdk
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue
-    tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
+  reason: Grovs is a mobile attribution and deep linking platform focused on marketing analytics and revenue tracking, not software development workflows, AI-assisted coding, or developer tooling.
   evidence:
-    - >-
-      The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention of
-      AI-assisted coding, app generation, or developer workflow enhancement.
-    - >-
-      Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on assisting
-      software developers with coding, agents, or AI tooling.
-    - >-
-      While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an AI-powered
-      developer tool.
+    - The platform provides first-party attribution, deep linking, and revenue analytics for mobile apps, with SDKs for iOS and Android.
+    - Its core value prop is deterministic, privacy-first marketing measurement — not coding, agents, IDEs, or AI-assisted development.
+    - No mention of AI, code generation, agent behavior, prompt engineering, or any developer-facing automation in the product description or features.
 placement:
   primary_category: null
   section: null
@@ -78,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.668Z'
+    updated_at: "2026-05-06T22:12:15.668Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,32 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:50:40.328Z'
+    updated_at: "2026-10-05T04:58:04.799Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c5e3458c53e1ad552bc336406fc57c737e2774727a0624f995d66b273e12cea0
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fc7e97e5123e34a8a9b59470509edc3bb36a8912897d62c1e45c13e345c4c3cd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Grovs is a marketing and analytics infrastructure tool focused on attribution, deep linking, and revenue
-        tracking—not a developer-facing AI coding agent, app builder, framework, or related AI tooling product.
+      decision_reason: Grovs is a mobile attribution and deep linking platform focused on marketing analytics and revenue tracking, not software development workflows, AI-assisted coding, or developer tooling.
       decision_evidence:
-        - >-
-          The platform provides first-party attribution, deep linking, and revenue analytics for apps, with no mention
-          of AI-assisted coding, app generation, or developer workflow enhancement.
-        - >-
-          Its core value proposition centers on marketing, compliance, and cost savings for growth teams—not on
-          assisting software developers with coding, agents, or AI tooling.
-        - >-
-          While open source and offering an SDK, the product’s identity is as a growth/attribution engine, not an
-          AI-powered developer tool.
+        - The platform provides first-party attribution, deep linking, and revenue analytics for mobile apps, with SDKs for iOS and Android.
+        - Its core value prop is deterministic, privacy-first marketing measurement — not coding, agents, IDEs, or AI-assisted development.
+        - No mention of AI, code generation, agent behavior, prompt engineering, or any developer-facing automation in the product description or features.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

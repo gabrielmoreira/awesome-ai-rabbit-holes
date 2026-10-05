@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stablyai__orca__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,15 +20,10 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Orca (Stably)
         extracted_url: https://github.com/stablyai/orca
-        surrounding_text: >-
-          - **[Orca (Stably)](https://github.com/stablyai/orca)** `⭐ 80.5k` — Agentic development environment for a
-          fleet of parallel agents: Codex, Claude Code, OpenCode, and Pi run side by side, each in its own git worktree,
-          in Ghostty-class terminal splits with scrollback that survives restarts. Scriptable from an `orca` CLI
-          (`worktree create`, `snapshot`, `click`, `fill`), with remote sessions and a click-to-prompt Chromium
-          inspector. MIT.
+        surrounding_text: "- **[Orca (Stably)](https://github.com/stablyai/orca)** `⭐ 80.5k` — Agentic development environment for a fleet of parallel agents: Codex, Claude Code, OpenCode, and Pi run side by side, each in its own git worktree, in Ghostty-class terminal splits with scrollback that survives restarts. Scriptable from an `orca` CLI (`worktree create`, `snapshot`, `click`, `fill`), with remote sessions and a click-to-prompt Chromium inspector. MIT."
         confidence: high
     - id: discovery__github__stablyai__orca__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -40,9 +35,7 @@ provenance:
           - Coding Agents
         anchor_text: Orca
         extracted_url: https://onorca.dev
-        surrounding_text: >-
-          - **[Orca](https://onorca.dev)** – An open-source IDE for orchestrating multiple AI coding agents — Claude
-          Code, Codex, Cursor, Gemini, OpenCode and more — side-by-side, each in its own isolated git worktree.
+        surrounding_text: "- **[Orca](https://onorca.dev)** – An open-source IDE for orchestrating multiple AI coding agents — Claude Code, Codex, Cursor, Gemini, OpenCode and more — side-by-side, each in its own isolated git worktree."
         confidence: high
 metadata:
   github:
@@ -60,11 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    (Stably) — Agentic development environment for a fleet of parallel agents: Codex, Claude Code, OpenCode, and Pi run
-    side by side, each in its own git worktree, in Ghostty-class terminal splits with scrollback that survives restarts.
-    Scriptable from an orca CLI (worktree create, snapshot, click, fill), with remote sessions and a click-to-prompt
-    Chromium inspector. MIT.
+  summary: "(Stably) — Agentic development environment for a fleet of parallel agents: Codex, Claude Code, OpenCode, and Pi run side by side, each in its own git worktree, in Ghostty-class terminal splits with scrollback that survives restarts. Scriptable from an orca CLI (worktree create, snapshot, click, fill), with remote sessions and a click-to-prompt Chromium inspector. MIT."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -84,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.425Z'
+    updated_at: "2026-09-29T13:07:10.425Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

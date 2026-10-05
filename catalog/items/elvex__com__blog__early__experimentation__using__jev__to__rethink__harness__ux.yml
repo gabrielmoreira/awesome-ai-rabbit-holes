@@ -5,9 +5,8 @@ canonical_url: https://elvex.com/blog/early-experimentation-using-jev-to-rethink
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__elvex__com__blog__early__experimentation__using__jev__to__rethink__harness__ux__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__elvex__com__blog__early__experimentation__using__jev__to__rethink__harness__ux__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +19,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: Early experimentation using Jev to rethink harness UX
         extracted_url: https://elvex.com/blog/early-experimentation-using-jev-to-rethink-harness-ux
-        surrounding_text: >-
-          - [Early experimentation using Jev to rethink harness
-          UX](https://www.elvex.com/blog/early-experimentation-using-jev-to-rethink-harness-ux) - Harness integration:
-          an agent platform wires Jev into its LLM harness as a callable tool for search, approvals and context,
-          reporting 2,000 expense reports categorized in 20 seconds for five cents.
+        surrounding_text: "- [Early experimentation using Jev to rethink harness UX](https://www.elvex.com/blog/early-experimentation-using-jev-to-rethink-harness-ux) - Harness integration: an agent platform wires Jev into its LLM harness as a callable tool for search, approvals and context, reporting 2,000 expense reports categorized in 20 seconds for five cents."
         confidence: high
 metadata:
   github:
@@ -42,30 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Early experimentation using Jev to rethink harness UX - Harness integration: an agent platform wires Jev into its
-    LLM harness as a callable tool for search, approvals and context, reporting 2,000 expense reports categorized in 20
-    seconds for five cents.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post describing an internal prototype that uses the Jev decision model to power real-time UX features like intent classification, context extraction, and dynamic interface suggestions within the elvex harness.
+  why_it_matters: Shows how cheap, fast classification enables new developer-facing UX patterns that were previously too expensive or slow to implement.
+  mental_damage: Another reminder that the future of AI UX is not more chat, but silent classifiers deciding when to bother you.
+  tags:
+    - decision-models
+    - ux
+    - prototype
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
+  status: excluded
+  reason: The input is a blog post documenting an internal experiment, not a standalone developer tool or product; it lacks the concrete identity of a reusable SDK, agent, or infrastructure.
   evidence:
-    - jev-latest choice confidence 0.54
+    - The URL is a blog post on elvex.com titled 'Early experimentation using Jev to rethink harness UX'.
+    - The content describes an internal prototype, not a released product, and states 'None of this is in production yet, it’s just alpha work.'
+    - No repo, CLI, SDK, or deployable artifact is described; the focus is on a writeup of exploratory work.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Framework & SDK Integrations
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:13.056Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:63d22f52f4d71a0fd9517647c38199c576b10b6aac8a495574fcb9c6a2760fcd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a blog post documenting an internal experiment, not a standalone developer tool or product; it lacks the concrete identity of a reusable SDK, agent, or infrastructure.
+      decision_evidence:
+        - The URL is a blog post on elvex.com titled 'Early experimentation using Jev to rethink harness UX'.
+        - The content describes an internal prototype, not a released product, and states 'None of this is in production yet, it’s just alpha work.'
+        - No repo, CLI, SDK, or deployable artifact is described; the focus is on a writeup of exploratory work.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

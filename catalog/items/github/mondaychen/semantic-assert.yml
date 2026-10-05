@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mondaychen__semantic-assert__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: semantic-assert
         extracted_url: https://github.com/mondaychen/semantic-assert
-        surrounding_text: >-
-          - [semantic-assert](https://github.com/mondaychen/semantic-assert) - Assert plain-English claims about
-          captured UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). [Project
-          guide](community/projects/tools/semantic-assert.md).
+        surrounding_text: "- [semantic-assert](https://github.com/mondaychen/semantic-assert) - Assert plain-English claims about captured UI/text state with TypeSafe Jev (Playwright helpers; thresholds in code). [Project guide](community/projects/tools/semantic-assert.md)."
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

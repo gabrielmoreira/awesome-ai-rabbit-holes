@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__twister915__typesafe-ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: typesafe-ai
         extracted_url: https://github.com/twister915/typesafe-ai
-        surrounding_text: >-
-          - [typesafe-ai](https://github.com/Twister915/typesafe-ai) - Typed TypeSafe AI clients for Rust, with async
-          and blocking backends and observable retries.
+        surrounding_text: "- [typesafe-ai](https://github.com/Twister915/typesafe-ai) - Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries."
         confidence: high
     - id: discovery__github__twister915__typesafe-ai__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: typesafe-ai
         extracted_url: https://github.com/twister915/typesafe-ai
-        surrounding_text: >-
-          | [typesafe-ai](https://github.com/Twister915/typesafe-ai) | ★ 10 | Rust | 2026-09-19 | Typed TypeSafe AI
-          clients for Rust, with async and blocking backends and observable retries. |
+        surrounding_text: "| [typesafe-ai](https://github.com/Twister915/typesafe-ai) | ★ 10 | Rust | 2026-09-19 | Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries. |"
         confidence: high
     - id: discovery__github__twister915__typesafe-ai__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**typesafe-ai**'
+        anchor_text: "**typesafe-ai**"
         extracted_url: https://github.com/twister915/typesafe-ai
-        surrounding_text: >-
-          - [**typesafe-ai**](https://github.com/Twister915/typesafe-ai) — A Rust TypeSafe client with asynchronous
-          reqwest or blocking ureq backends and observable retries.
+        surrounding_text: "- [**typesafe-ai**](https://github.com/Twister915/typesafe-ai) — A Rust TypeSafe client with asynchronous reqwest or blocking ureq backends and observable retries."
         confidence: high
     - id: discovery__github__twister915__typesafe-ai__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -72,12 +66,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: typesafe-ai (Rust)
         extracted_url: https://github.com/twister915/typesafe-ai
-        surrounding_text: >-
-          - [typesafe-ai (Rust)](https://github.com/Twister915/typesafe-ai) ![type:
-          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/Twister915/typesafe-ai?style=flat-square&label=%E2%98%85) - Rust
-          ecosystem: typed TypeSafe AI client with async (reqwest) and blocking (ureq) backends, deserializing Noul,
-          Choice, and Score responses into Rust enums with observable retry streams.
+        surrounding_text: "- [typesafe-ai (Rust)](https://github.com/Twister915/typesafe-ai) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Twister915/typesafe-ai?style=flat-square&label=%E2%98%85) - Rust ecosystem: typed TypeSafe AI client with async (reqwest) and blocking (ureq) backends, deserializing Noul, Choice, and Score responses into Rust enums with observable retry streams."
         confidence: high
 metadata:
   github:
@@ -115,7 +104,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.388Z'
+    updated_at: "2026-09-29T13:07:10.388Z"
     cause: null
     next_retry_at: null
   stars:
@@ -123,6 +112,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

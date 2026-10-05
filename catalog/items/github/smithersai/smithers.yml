@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smithersai__smithers__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: smithers
         extracted_url: https://github.com/smithersai/smithers
-        surrounding_text: >-
-          | [smithers](https://github.com/smithersai/smithers) | ★ 417 | TypeScript | 2026-09-19 | Agentic TypeScript
-          workflow framework with a Jev session checker wired into its workflows. |
+        surrounding_text: "| [smithers](https://github.com/smithersai/smithers) | ★ 417 | TypeScript | 2026-09-19 | Agentic TypeScript workflow framework with a Jev session checker wired into its workflows. |"
         confidence: high
     - id: discovery__github__smithersai__smithers__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,10 +36,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: Smithers
         extracted_url: https://github.com/smithersai/smithers
-        surrounding_text: >-
-          - [Smithers](https://github.com/smithersai/smithers)
-          ![stars](https://img.shields.io/github/stars/smithersai/smithers?style=flat-square&label=%E2%98%85) - Agent
-          frameworks: TypeScript workflow framework with a Jev session checker wired into its workflows.
+        surrounding_text: "- [Smithers](https://github.com/smithersai/smithers) ![stars](https://img.shields.io/github/stars/smithersai/smithers?style=flat-square&label=%E2%98%85) - Agent frameworks: TypeScript workflow framework with a Jev session checker wired into its workflows."
         confidence: high
 metadata:
   github:
@@ -79,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.425Z'
+    updated_at: "2026-09-29T13:07:10.425Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

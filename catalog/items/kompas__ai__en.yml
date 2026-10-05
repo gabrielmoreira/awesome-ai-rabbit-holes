@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kompas__ai__en__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Kompas AI
         anchor_text: Kompas AI
         extracted_url: https://kompas.ai
-        surrounding_text: '## [Kompas AI](https://kompas.ai/)'
+        surrounding_text: "## [Kompas AI](https://kompas.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,35 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Kompas is a desktop app for capturing, connecting, and developing personal ideas into structured writing using AI as
-    a thinking partner.
-  why_it_matters: >-
-    It helps developers turn fragmented thoughts, notes, and conversations into coherent output by surfacing relevant
-    past work during writing sessions.
-  mental_damage: >-
-    Another tool promising to finally make your scattered ideas useful — until you realize you now have to manage yet
-    another knowledge graph.
+  summary: Kompas is a desktop application that captures, connects, and retrieves user notes and AI sessions into a personal knowledge graph to support thinking and writing.
+  why_it_matters: It helps developers retain and compound insights across sessions, reducing repetitive thinking and improving personal knowledge synthesis.
+  mental_damage: Another tool promising to make your fleeting AI chats stick around — until you realize it's just another place to hoard half-formed ideas you never actually use.
   tags:
-    - knowledge-management
-    - writing-assistant
-    - ai-augmentation
+    - knowledge-graph
+    - personal-ai
+    - note-taking
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Kompas is a personal knowledge and writing tool focused on idea development and reflection, not on software
-    development workflows, coding tasks, or developer-facing tooling.
+  reason: Kompas is a personal knowledge and thinking tool focused on idea retention and retrieval, not a developer-facing AI agent, framework, or workflow tool that acts on code, models, or agent behavior.
   evidence:
-    - >-
-      Marketed for essayists, researchers, founders, and Obsidian/Logseq users to grow ideas and reveal connections
-      between concepts
-    - >-
-      Core workflow centers on capturing sessions, connecting past notes, and writing from personal thought graphs — not
-      code editing, generation, or agent-assisted development
-    - >-
-      Describes itself as 'a place where your ideas grow' and 'a compass for thought', with no mention of coding,
-      software development, or developer tooling
+    - "Scraped site: 'Your ideas, grown into something you can use.' and 'Kompas doesn't write for you. It writes with you — by remembering what you already wrote'"
+    - "README: Targets essayists, researchers, founders, and Obsidian/Logseq users — not developers coding or building software"
+    - "Source-list context: Included in awesome-ai-agents under 'Kompas AI' as a thinking companion, not a coding agent"
 placement:
   primary_category: null
   section: null
@@ -74,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,33 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:53:56.066Z'
+    updated_at: "2026-10-05T05:00:18.992Z"
     cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a2ab815aa4252e91708e671b6d1c53a7a76e0c9f9a865db603a032f949791b44
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bfc2b5561cc180ae0cd30c3abf22e3752d00f26bbe733d6c072f50c42b3fbd7a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Kompas is a personal knowledge and writing tool focused on idea development and reflection, not on software
-        development workflows, coding tasks, or developer-facing tooling.
+      decision_reason: Kompas is a personal knowledge and thinking tool focused on idea retention and retrieval, not a developer-facing AI agent, framework, or workflow tool that acts on code, models, or agent behavior.
       decision_evidence:
-        - >-
-          Marketed for essayists, researchers, founders, and Obsidian/Logseq users to grow ideas and reveal connections
-          between concepts
-        - >-
-          Core workflow centers on capturing sessions, connecting past notes, and writing from personal thought graphs —
-          not code editing, generation, or agent-assisted development
-        - >-
-          Describes itself as 'a place where your ideas grow' and 'a compass for thought', with no mention of coding,
-          software development, or developer tooling
+        - "Scraped site: 'Your ideas, grown into something you can use.' and 'Kompas doesn't write for you. It writes with you — by remembering what you already wrote'"
+        - "README: Targets essayists, researchers, founders, and Obsidian/Logseq users — not developers coding or building software"
+        - "Source-list context: Included in awesome-ai-agents under 'Kompas AI' as a thinking companion, not a coding agent"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

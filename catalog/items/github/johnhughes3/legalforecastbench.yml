@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__johnhughes3__legalforecastbench__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: LegalForecastBench
         extracted_url: https://github.com/johnhughes3/legalforecastbench
-        surrounding_text: >-
-          - [LegalForecastBench](https://github.com/johnhughes3/LegalForecastBench) - LegalForecast-MTD benchmark alpha
-          and official evaluation workflows.
+        surrounding_text: "- [LegalForecastBench](https://github.com/johnhughes3/LegalForecastBench) - LegalForecast-MTD benchmark alpha and official evaluation workflows."
         confidence: high
     - id: discovery__github__johnhughes3__legalforecastbench__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: LegalForecastBench
         extracted_url: https://github.com/johnhughes3/legalforecastbench
-        surrounding_text: >-
-          | [LegalForecastBench](https://github.com/johnhughes3/LegalForecastBench) | ★ 5 | Python | 2026-09-19 |
-          LegalForecast-MTD benchmark alpha and official evaluation workflows. |
+        surrounding_text: "| [LegalForecastBench](https://github.com/johnhughes3/LegalForecastBench) | ★ 5 | Python | 2026-09-19 | LegalForecast-MTD benchmark alpha and official evaluation workflows. |"
         confidence: high
     - id: discovery__github__johnhughes3__legalforecastbench__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -55,11 +51,7 @@ provenance:
           - Compliance & Legal
         anchor_text: LegalForecast-MTD
         extracted_url: https://github.com/johnhughes3/legalforecastbench
-        surrounding_text: >-
-          - [LegalForecast-MTD](https://github.com/johnhughes3/LegalForecastBench)
-          ![stars](https://img.shields.io/github/stars/johnhughes3/LegalForecastBench?style=flat-square&label=%E2%98%85)
-          - Legal forecasting: benchmark that asks Jev to predict federal motion-to-dismiss rulings from the judge's
-          written record and scores the calibrated probabilities with claim-defendant micro-Brier metrics.
+        surrounding_text: "- [LegalForecast-MTD](https://github.com/johnhughes3/LegalForecastBench) ![stars](https://img.shields.io/github/stars/johnhughes3/LegalForecastBench?style=flat-square&label=%E2%98%85) - Legal forecasting: benchmark that asks Jev to predict federal motion-to-dismiss rulings from the judge's written record and scores the calibrated probabilities with claim-defendant micro-Brier metrics."
         confidence: high
 metadata:
   github:
@@ -97,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

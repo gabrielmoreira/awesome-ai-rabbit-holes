@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zju-real__cua-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: CUA-JEV
         extracted_url: https://github.com/zju-real/cua-jev
-        surrounding_text: >-
-          - [CUA-JEV](https://github.com/ZJU-REAL/CUA-JEV) ([site](https://zjureal.com/CUA-JEV/)) - Jev for Computer
-          Use.
+        surrounding_text: "- [CUA-JEV](https://github.com/ZJU-REAL/CUA-JEV) ([site](https://zjureal.com/CUA-JEV/)) - Jev for Computer Use."
         confidence: high
     - id: discovery__github__zju-real__cua-jev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: CUA-JEV (ZJU-REAL)
         extracted_url: https://github.com/zju-real/cua-jev
-        surrounding_text: >-
-          - [CUA-JEV (ZJU-REAL)](https://github.com/ZJU-REAL/CUA-JEV) - Jev-powered computer-use framework: adapters
-          propose legal actions; Jev chooses action and channel; code guards and verifies. [Project
-          guide](community/projects/tools/cua-jev-zju.md).
+        surrounding_text: "- [CUA-JEV (ZJU-REAL)](https://github.com/ZJU-REAL/CUA-JEV) - Jev-powered computer-use framework: adapters propose legal actions; Jev chooses action and channel; code guards and verifies. [Project guide](community/projects/tools/cua-jev-zju.md)."
         confidence: high
     - id: discovery__github__zju-real__cua-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,14 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**CUA-JEV**'
+        anchor_text: "**CUA-JEV**"
         extracted_url: https://github.com/zju-real/cua-jev
-        surrounding_text: >-
-          - [**CUA-JEV**](https://github.com/ZJU-REAL/CUA-JEV) — The \[experimental open-task
-          paths\](docs/OPEN\_TASKS.md) separate model planning from Jev's typed action selection. They discover browser
-          DOM elements or Windows UI Automation controls dynamically and offer grounded structured-tool / physical-GUI
-          alternatives without a site- or app-specific click sequence. A twelve-action browser-to-VS-Code research case
-          now runs end to end with a model and Jev, but \*\*arbitrary-task generalization is not claimed\*\*.
+        surrounding_text: "- [**CUA-JEV**](https://github.com/ZJU-REAL/CUA-JEV) — The \\[experimental open-task paths\\](docs/OPEN\\_TASKS.md) separate model planning from Jev's typed action selection. They discover browser DOM elements or Windows UI Automation controls dynamically and offer grounded structured-tool / physical-GUI alternatives without a site- or app-specific click sequence. A twelve-action browser-to-VS-Code research case now runs end to end with a model and Jev, but \\*\\*arbitrary-task generalization is not claimed\\*\\*."
         confidence: high
 metadata:
   github:
@@ -98,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -106,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

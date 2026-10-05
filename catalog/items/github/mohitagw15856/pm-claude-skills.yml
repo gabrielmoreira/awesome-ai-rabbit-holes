@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mohitagw15856__pm-claude-skills__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: PM Skills
         extracted_url: https://github.com/mohitagw15856/pm-claude-skills
-        surrounding_text: >-
-          - **[PM Skills](https://github.com/mohitagw15856/pm-claude-skills)** – Open-source (MIT) library of 1,153
-          Agent Skills as plain-markdown `SKILL.md` files, covering PRDs, incident postmortems, code review checklists,
-          RFCs, and 35 professions. Installs into Claude Code, Cursor, Windsurf, Zed and 10 more tools with one command,
-          ships an MCP server, and runs free in a browser playground. Install: `npx pm-claude-skills add`.
+        surrounding_text: "- **[PM Skills](https://github.com/mohitagw15856/pm-claude-skills)** – Open-source (MIT) library of 1,153 Agent Skills as plain-markdown `SKILL.md` files, covering PRDs, incident postmortems, code review checklists, RFCs, and 35 professions. Installs into Claude Code, Cursor, Windsurf, Zed and 10 more tools with one command, ships an MCP server, and runs free in a browser playground. Install: `npx pm-claude-skills add`."
         confidence: high
 metadata:
   github:
@@ -41,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    PM Skills – Open-source (MIT) library of 1,153 Agent Skills as plain-markdown SKILL.md files, covering PRDs,
-    incident postmortems, code review checklists, RFCs, and 35 professions. Installs into Claude Code, Cursor, Windsurf,
-    Zed and 10 more tools with one command, ships an MCP server, and runs free in a browser playground. Install: npx
-    pm-claude-skills add.
+  summary: "PM Skills – Open-source (MIT) library of 1,153 Agent Skills as plain-markdown SKILL.md files, covering PRDs, incident postmortems, code review checklists, RFCs, and 35 professions. Installs into Claude Code, Cursor, Windsurf, Zed and 10 more tools with one command, ships an MCP server, and runs free in a browser playground. Install: npx pm-claude-skills add."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__thinkchain__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - ThinkChain AI
         anchor_text: ThinkChain AI
         extracted_url: https://www.thinkchain.ai
-        surrounding_text: '## [ThinkChain AI](https://www.thinkchain.ai/)'
+        surrounding_text: "## [ThinkChain AI](https://www.thinkchain.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,42 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ThinkChain.ai is a commercial AI agent platform offering AgentInterviews for qualitative research and MCP bundles
-    for connecting AI assistants to tools.
-  why_it_matters: >-
-    It provides turnkey AI agent solutions for non-coding domains like market research, reducing setup for qualitative
-    interviews and MCP-based tool integration.
-  mental_damage: >-
-    Another AI startup selling 'bridging the gap' while adding another siloed agent product to the pile we’re supposed
-    to orchestrate.
+  summary: ThinkChain.ai builds AI agents for conducting professional qualitative interviews and surveys, and offers MCP server bundles for connecting AI assistants to tools.
+  why_it_matters: It enables developers to deploy AI-powered research workflows or integrate MCP infrastructure with minimal setup.
+  mental_damage: Finally, a way to automate the awkward small talk of user interviews while still pretending you care about human potential.
   tags:
     - ai-agents
     - mcp
     - research-tools
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    ThinkChain.ai is a hosted SaaS platform for AI-powered interviews and MCP bundles, not a developer-facing tool for
-    coding workflows, and lacks identity as an agent, framework, or infrastructure product for software developers.
+  status: included
+  reason: ThinkChain.ai's MCP Bundles are a core product offering—cloud-hosted MCP server infrastructure with .mcpb files and MCP URLs for universal AI client compatibility—making MCP the primary identity, not just a compatibility feature.
   evidence:
-    - >-
-      Primary products are AgentInterviews (AI-powered research platform) and MCP Bundles (cloud-hosted MCP server
-      infrastructure)
-    - Target users are market researchers and academic professionals, not software developers
-    - No evidence of coding agent behavior, code editing, repo interaction, or developer tooling
+    - "Scraped site context: 'Cloud-hosted MCP server bundles that connect AI assistants like ChatGPT and Claude to your tools. Download .mcpb files for one-click installation in Claude Desktop, or use MCP URLs for universal AI client compatibility.'"
+    - "Source-list context: listed in awesome-ai-agents under the section 'ThinkChain AI' with description linking to AgentInterviews.com and MCP Bundles."
+    - "Primary page excerpt emphasizes MCP Bundles as a distinct product: 'Your tools, bundled for AI' with multi-provider tool aggregation and no local server setup."
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Middleware & Generic
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,30 +70,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:47:30.151Z'
+    updated_at: "2026-10-05T04:56:19.428Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f0c90b24213f68e27cfc71607dacd81fa2e97f62548a472cd33bcc658ccd8979
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:44177304f4817521f35f2342ca4d91087253cb62a39bbdc8133509ee803f0cab
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        ThinkChain.ai is a hosted SaaS platform for AI-powered interviews and MCP bundles, not a developer-facing tool
-        for coding workflows, and lacks identity as an agent, framework, or infrastructure product for software
-        developers.
+      decision_reason: ThinkChain.ai's MCP Bundles are a core product offering—cloud-hosted MCP server infrastructure with .mcpb files and MCP URLs for universal AI client compatibility—making MCP the primary identity, not just a compatibility feature.
       decision_evidence:
-        - >-
-          Primary products are AgentInterviews (AI-powered research platform) and MCP Bundles (cloud-hosted MCP server
-          infrastructure)
-        - Target users are market researchers and academic professionals, not software developers
-        - No evidence of coding agent behavior, code editing, repo interaction, or developer tooling
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+        - "Scraped site context: 'Cloud-hosted MCP server bundles that connect AI assistants like ChatGPT and Claude to your tools. Download .mcpb files for one-click installation in Claude Desktop, or use MCP URLs for universal AI client compatibility.'"
+        - "Source-list context: listed in awesome-ai-agents under the section 'ThinkChain AI' with description linking to AgentInterviews.com and MCP Bundles."
+        - "Primary page excerpt emphasizes MCP Bundles as a distinct product: 'Your tools, bundled for AI' with multi-provider tool aggregation and no local server setup."
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is MCP server infrastructure and client compatibility, not extending a specific coding agent or editor with workflow capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__windsurf__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Windsurf
         extracted_url: https://windsurf.com
-        surrounding_text: >-
-          - **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that
-          goes beyond autocompletion.
+        surrounding_text: "- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion."
         confidence: high
 metadata:
   github:
@@ -38,40 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Devin Desktop is a desktop application that provides a unified command center for managing local and cloud coding
-    agents alongside a full IDE experience.
-  why_it_matters: >-
-    It lets developers coordinate multiple AI agents from one interface while retaining access to a full-featured IDE
-    for code review and debugging.
-  mental_damage: Finally, a way to feel overwhelmed by your fleet of agents without constantly context-switching between tools.
+  summary: Devin Desktop is a desktop application for managing fleets of local and cloud coding agents from a unified interface within an IDE.
+  why_it_matters: It lets developers oversee, delegate to, and review multiple coding agents without leaving their editor, reducing context-switching during agent-assisted development.
+  mental_damage: Now you can feel the anxiety of managing a distributed team of interns who all write code but none of them listen to standups.
   tags:
-    - ai-agents
-    - ide
-    - desktop
+    - agent-management
+    - ide-integration
+    - multi-agent
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating multiple
-    agents and providing an IDE environment, not in performing autonomous coding tasks itself.
+  status: included
+  reason: Devin Desktop's core identity is managing multiple agents via Spaces, Kanban views, and shared context, making it a control plane for agent teams rather than a single coding agent.
   evidence:
-    - >-
-      Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your
-      agents in one place'
-    - It includes a full IDE with syntax highlighting, autocomplete, and debugging tools
-    - It enables multi-agent workflows with shared context via Spaces and Kanban views
+    - Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.
+    - Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write the code, chase the edge cases, and test every detail.
+    - Use Spaces to share context and Git worktrees across all your agents.
 placement:
-  primary_category: null
+  primary_category: agent-orchestration
   secondary_categories: []
-  section: null
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,29 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:41.235Z'
+    updated_at: "2026-10-05T04:57:29.278Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a114339d92fb5e88d402750fc9fc56a693d3c8b3b551d0516d45a9f7cdc26a85
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ccf7bbe7d68a128d501e80a09695aee876bb0afe2082f527c84e25cc80b88767
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The product is primarily a desktop IDE and agent management platform whose core value lies in orchestrating
-        multiple agents and providing an IDE environment, not in performing autonomous coding tasks itself.
+      decision_reason: Devin Desktop's core identity is managing multiple agents via Spaces, Kanban views, and shared context, making it a control plane for agent teams rather than a single coding agent.
       decision_evidence:
-        - >-
-          Devin Desktop is described as 'the home for every agent you run' and a 'command center for managing all your
-          agents in one place'
-        - It includes a full IDE with syntax highlighting, autocomplete, and debugging tools
-        - It enables multi-agent workflows with shared context via Spaces and Kanban views
-      category_candidates: []
-      contrastive_reason: null
+        - Manage fleets of local and cloud agents from one surface. Plan, delegate, review, and ship without leaving your editor.
+        - Devin Desktop is the home for coding agents to do your best work. You decide what to build, then your agents write the code, chase the edge cases, and test every detail.
+        - Use Spaces to share context and Git worktrees across all your agents.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Devin Desktop primarily coordinates multiple agents and provides a shared workspace for agent teams, rather than acting as a primary coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

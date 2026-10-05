@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deed-lang__deed__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-14T04:13:20.171Z'
+      discovered_at: "2026-09-14T04:13:20.171Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: deed-lang/deed
         extracted_url: https://github.com/deed-lang/deed
-        surrounding_text: >-
-          - [deed-lang/deed](https://github.com/deed-lang/deed) [![deed-lang/deed MCP
-          server](https://glama.ai/mcp/servers/deed-lang/deed/badges/score.svg)](https://glama.ai/mcp/servers/deed-lang/deed)
-          🦀 🏠 🍎 🪟 🐧 - Contract-first programming language and local MCP server for checking types, effects,
-          capabilities, and contracts in agent-written modules. Its review tool compares before and after source sets
-          and returns machine-readable receipts for new authority, weaker promise tiers, and new Guarded runtime
-          obligations. Install: `cargo install deed-lang`; run `deed mcp`.
+        surrounding_text: "- [deed-lang/deed](https://github.com/deed-lang/deed) [![deed-lang/deed MCP server](https://glama.ai/mcp/servers/deed-lang/deed/badges/score.svg)](https://glama.ai/mcp/servers/deed-lang/deed) 🦀 🏠 🍎 🪟 🐧 - Contract-first programming language and local MCP server for checking types, effects, capabilities, and contracts in agent-written modules. Its review tool compares before and after source sets and returns machine-readable receipts for new authority, weaker promise tiers, and new Guarded runtime obligations. Install: `cargo install deed-lang`; run `deed mcp`."
         confidence: high
 metadata:
   github:
@@ -36,8 +30,8 @@ metadata:
     archived: false
     full_name: deed-lang/deed
     html_url: https://github.com/deed-lang/deed
-    created_at: '2026-07-25T10:20:30Z'
-    pushed_at: '2026-08-14T23:05:09Z'
+    created_at: "2026-07-25T10:20:30Z"
+    pushed_at: "2026-08-14T23:05:09Z"
     description: The Deed programming language. Built for code that agents write and humans review.
     homepage: https://deed-lang.github.io
     topics:
@@ -53,18 +47,14 @@ metadata:
       - refinement-types
       - rust
       - type-checker
-    last_checked_at: '2026-09-14T04:13:37.861Z'
+    last_checked_at: "2026-09-14T04:13:37.861Z"
     readme:
-      fetched_at: '2026-09-14T04:13:37.861Z'
+      fetched_at: "2026-09-14T04:13:37.861Z"
       bytes: 65367
 insights:
   summary: A contract-first programming language designed to facilitate code written by agents and reviewed by humans.
-  why_it_matters: >-
-    It uses formal contracts and capability-based security to create a verifiable bridge between agentic code generation
-    and human oversight.
-  mental_damage: >-
-    Preparing you for a future where your primary engineering task is just performing code reviews on a
-    compiler-verified hallucination.
+  why_it_matters: It uses formal contracts and capability-based security to create a verifiable bridge between agentic code generation and human oversight.
+  mental_damage: Preparing you for a future where your primary engineering task is just performing code reviews on a compiler-verified hallucination.
   tags:
     - programming-language
     - contract-first
@@ -73,38 +63,34 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The project is a programming language where the core value proposition is the use of formal contracts and
-    specifications to guide and validate agentic code generation.
+  reason: The project is a programming language where the core value proposition is the use of formal contracts and specifications to guide and validate agentic code generation.
   evidence:
     - Repo description explicitly states it is 'Built for code that agents write and humans review.'
     - README describes it as a 'contract-first language where a function signature is a promise the compiler checks.'
     - The toolchain focuses on validating contracts, types, and effect rows.
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
-  section: Spec-First & Plan-Execute
   secondary_categories:
     - decision-models
+  section: Spec-First & Plan-Execute
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-14T04:13:20.173Z'
+    updated_at: "2026-09-14T04:13:20.173Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:37.861Z'
+    updated_at: "2026-09-14T04:13:37.861Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -115,21 +101,15 @@ processing:
       input_hash: sha256:9909e66dd67281417d9aff8b2eb9bd8a8a67fe31c3db099e3bc8256acd74444e
       proposed_primary_category: spec-driven-development
       disagreement: false
-      decision_reason: >-
-        The project is a programming language where the core value proposition is the use of formal contracts and
-        specifications to guide and validate agentic code generation.
+      decision_reason: The project is a programming language where the core value proposition is the use of formal contracts and specifications to guide and validate agentic code generation.
       decision_evidence:
         - Repo description explicitly states it is 'Built for code that agents write and humans review.'
-        - >-
-          README describes it as a 'contract-first language where a function signature is a promise the compiler
-          checks.'
+        - README describes it as a 'contract-first language where a function signature is a promise the compiler checks.'
         - The toolchain focuses on validating contracts, types, and effect rows.
       category_candidates:
         - spec-driven-development
         - ai-frameworks
-      contrastive_reason: >-
-        Choose spec-driven-development over ai-frameworks because the tool's core identity is a language built around
-        formal specifications and contracts rather than a library used to build AI workflows.
+      contrastive_reason: Choose spec-driven-development over ai-frameworks because the tool's core identity is a language built around formal specifications and contracts rather than a library used to build AI workflows.
       review_reason: null
       review_resume_lifecycle: null
     attempts: 1

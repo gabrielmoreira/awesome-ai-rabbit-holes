@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__7hemas7er__jev-hooks__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-hooks
         extracted_url: https://github.com/7hemas7er/jev-hooks
-        surrounding_text: >-
-          - [jev-hooks](https://github.com/7hemas7er/jev-hooks) - Claude Code commit-reviewer plugins driven by typed
-          `/v1/systemone` decisions (self-hosted rizzo-flow or TypeSafe Jev) with a measured question bench. [Project
-          guide](community/projects/tools/jev-hooks.md).
+        surrounding_text: "- [jev-hooks](https://github.com/7hemas7er/jev-hooks) - Claude Code commit-reviewer plugins driven by typed `/v1/systemone` decisions (self-hosted rizzo-flow or TypeSafe Jev) with a measured question bench. [Project guide](community/projects/tools/jev-hooks.md)."
         confidence: high
 metadata:
   github:
@@ -33,49 +30,73 @@ metadata:
     archived: false
     full_name: 7hemas7er/jev-hooks
     html_url: https://github.com/7hemas7er/jev-hooks
-    created_at: '2026-09-27T09:32:47Z'
-    pushed_at: '2026-09-29T06:13:03Z'
-    description: >-
-      Claude Code commit reviewer driven by Jev-style typed decisions, with a measured question bench (self-hosted
-      rizzo-flow or TypeSafe Jev)
+    created_at: "2026-09-27T09:32:47Z"
+    pushed_at: "2026-09-29T06:13:03Z"
+    description: Claude Code commit reviewer driven by Jev-style typed decisions, with a measured question bench (self-hosted rizzo-flow or TypeSafe Jev)
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:19.333Z'
+    last_checked_at: "2026-09-29T13:08:19.333Z"
     readme:
-      fetched_at: '2026-09-29T13:08:19.333Z'
+      fetched_at: "2026-09-29T13:08:19.333Z"
       bytes: 10121
 insights:
-  summary: >-
-    Claude Code commit reviewer driven by Jev-style typed decisions, with a measured question bench (self-hosted
-    rizzo-flow or TypeSafe Jev)
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted Jev-powered commit reviewer for Claude Code that evaluates changes using typed decision benchmarks.
+  why_it_matters: Enables developers to automate code review with formal, probability-based judgments instead of vague LLM feedback.
+  mental_damage: Finally, a way to outsource your imposter syndrome to a decision model that scores your commits with cold, statistical precision.
+  tags:
+    - jev
+    - code-review
+    - claude-code
+    - decision-model
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: The tool's core identity is a Jev-based decision model that evaluates code changes via typed judgments, making it a decision-model agent gate rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.73
+    - "Repo description: 'Claude Code commit reviewer driven by Jev-style typed decisions, with a measured question bench'"
+    - "Source-list context: listed in awesome-jev under 'Community projects > Developer projects and integrations'"
+    - Created and pushed recently (2026-09-27 to 2026-09-29), indicating active development
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Verification, Guardrails & Safety
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:19.333Z'
+    updated_at: "2026-09-29T13:08:19.333Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:19.377Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:00e41bcd403b98acbb2547fa80c5682533ae7dc13f29dd9e8ab7a66d485a923b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is a Jev-based decision model that evaluates code changes via typed judgments, making it a decision-model agent gate rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Claude Code commit reviewer driven by Jev-style typed decisions, with a measured question bench'"
+        - "Source-list context: listed in awesome-jev under 'Community projects > Developer projects and integrations'"
+        - Created and pushed recently (2026-09-27 to 2026-09-29), indicating active development
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool's primary function is executing typed Jev judgments on code changes, not autonomously writing, editing, or planning code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

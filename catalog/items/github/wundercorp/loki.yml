@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wundercorp__loki__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Integrations
         anchor_text: Loki
         extracted_url: https://github.com/wundercorp/loki
-        surrounding_text: >-
-          - [Loki](https://github.com/wundercorp/loki) ([site](https://loki.computer),
-          [post](https://x.com/wundercorp/status/2100619500966056196)) - Self-improving agent harness with an optional
-          TypeSafe Jev companion for typed Choice, Score, and Noul judgments.
+        surrounding_text: "- [Loki](https://github.com/wundercorp/loki) ([site](https://loki.computer), [post](https://x.com/wundercorp/status/2100619500966056196)) - Self-improving agent harness with an optional TypeSafe Jev companion for typed Choice, Score, and Noul judgments."
         confidence: high
     - id: discovery__github__wundercorp__loki__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,12 +35,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: Loki
         extracted_url: https://github.com/wundercorp/loki
-        surrounding_text: >-
-          | [Loki](https://github.com/wundercorp/loki) | ★ 26 | Python | 2026-09-19 | Self-improving agent harness with
-          an optional TypeSafe Jev companion for typed Choice, Score, and Noul judgments. |
+        surrounding_text: "| [Loki](https://github.com/wundercorp/loki) | ★ 26 | Python | 2026-09-19 | Self-improving agent harness with an optional TypeSafe Jev companion for typed Choice, Score, and Noul judgments. |"
         confidence: high
     - id: discovery__github__wundercorp__loki__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - Model Routing
-        anchor_text: '**loki**'
+        anchor_text: "**loki**"
         extracted_url: https://github.com/wundercorp/loki
-        surrounding_text: >-
-          - [**loki**](https://github.com/wundercorp/loki) — Loki optionally adds Jev typed-judgment tools and routes a
-          new session to a model within the selected gateway.
+        surrounding_text: "- [**loki**](https://github.com/wundercorp/loki) — Loki optionally adds Jev typed-judgment tools and routes a new session to a model within the selected gateway."
         confidence: high
 metadata:
   github:
@@ -75,9 +68,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Loki (site, post) - Self-improving agent harness with an optional TypeSafe Jev companion for typed Choice, Score,
-    and Noul judgments.
+  summary: Loki (site, post) - Self-improving agent harness with an optional TypeSafe Jev companion for typed Choice, Score, and Noul judgments.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -87,9 +78,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.81
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -101,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.406Z'
+    updated_at: "2026-09-29T13:07:10.406Z"
     cause: null
     next_retry_at: null
   stars:
@@ -109,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

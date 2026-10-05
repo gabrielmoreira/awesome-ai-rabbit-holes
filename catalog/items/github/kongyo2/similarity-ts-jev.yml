@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kongyo2__similarity-ts-jev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: similarity-ts-jev
         extracted_url: https://github.com/kongyo2/similarity-ts-jev
-        surrounding_text: >-
-          - [similarity-ts-jev](https://github.com/kongyo2/similarity-ts-jev) - Runs similarity-ts and fallow on
-          TypeScript, then keeps only the pairs TypeSafe Jev judges worth merging, each with the change to make (copy,
-          derive, or extract), plus tools to calibrate the cutoff. [Project
-          guide](community/projects/tools/similarity-ts-jev.md).
+        surrounding_text: "- [similarity-ts-jev](https://github.com/kongyo2/similarity-ts-jev) - Runs similarity-ts and fallow on TypeScript, then keeps only the pairs TypeSafe Jev judges worth merging, each with the change to make (copy, derive, or extract), plus tools to calibrate the cutoff. [Project guide](community/projects/tools/similarity-ts-jev.md)."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    similarity-ts-jev - Runs similarity-ts and fallow on TypeScript, then keeps only the pairs TypeSafe Jev judges worth
-    merging, each with the change to make (copy, derive, or extract), plus tools to calibrate the cutoff. Project guide.
+  summary: similarity-ts-jev - Runs similarity-ts and fallow on TypeScript, then keeps only the pairs TypeSafe Jev judges worth merging, each with the change to make (copy, derive, or extract), plus tools to calibrate the cutoff. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.464Z'
+    updated_at: "2026-09-29T13:07:10.464Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

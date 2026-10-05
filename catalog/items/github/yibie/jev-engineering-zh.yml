@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yibie__jev-engineering-zh__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-engineering-zh
         extracted_url: https://github.com/yibie/jev-engineering-zh
-        surrounding_text: >-
-          - [jev-engineering-zh](https://github.com/yibie/jev-engineering-zh) - 《Jev 工程学：为 coding agent 而作》完整中文翻译 —
-          保留原结构与 7 张插图.
+        surrounding_text: "- [jev-engineering-zh](https://github.com/yibie/jev-engineering-zh) - 《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图."
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

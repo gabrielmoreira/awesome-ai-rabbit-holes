@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clearml__clearml__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Experiment Tracking
         anchor_text: ClearML
         extracted_url: https://github.com/allegroai/clearml
-        surrounding_text: >-
-          | [ClearML](https://github.com/allegroai/clearml)        | Auto-Magical CI/CD to streamline your ML workflow.
-          Experiment Manager, MLOps and
-          Data-Management                                                                                                                                                                                                                                                                                                                                                                         
-          | ![GitHub Badge](https://img.shields.io/github/stars/allegroai/clearml.svg?style=flat-square)       |
+        surrounding_text: "| [ClearML](https://github.com/allegroai/clearml)        | Auto-Magical CI/CD to streamline your ML workflow. Experiment Manager, MLOps and Data-Management                                                                                                                                                                                                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/allegroai/clearml.svg?style=flat-square)       |"
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: clearml/clearml
     html_url: https://github.com/clearml/clearml
-    created_at: '2019-06-10T08:18:32Z'
-    pushed_at: '2026-09-06T20:45:07Z'
-    description: >-
-      ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline,
-      Orchestration, Scheduling & Serving in one MLOps/LLMOps solution
+    created_at: "2019-06-10T08:18:32Z"
+    pushed_at: "2026-09-06T20:45:07Z"
+    description: ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution
     homepage: https://clear.ml/docs
     topics:
       - ai
@@ -56,17 +50,13 @@ metadata:
       - mlops
       - version
       - version-control
-    last_checked_at: '2026-09-07T04:13:46.839Z'
+    last_checked_at: "2026-09-07T04:13:46.839Z"
     readme:
-      fetched_at: '2026-09-07T04:13:46.839Z'
+      fetched_at: "2026-09-07T04:13:46.839Z"
       bytes: 15033
 insights:
-  summary: >-
-    ClearML is an open-source MLOps/LLMOps suite offering experiment management, data management, pipeline
-    orchestration, scheduling, and model serving for AI workloads.
-  why_it_matters: >-
-    It provides an end-to-end workflow for developers to track, automate, and deploy AI/ML models, reducing friction in
-    CI/CD and productionization.
+  summary: ClearML is an open-source MLOps/LLMOps suite offering experiment management, data management, pipeline orchestration, scheduling, and model serving for AI workloads.
+  why_it_matters: It provides an end-to-end workflow for developers to track, automate, and deploy AI/ML models, reducing friction in CI/CD and productionization.
   mental_damage: Because nothing says 'streamlined' like needing five modules to manage what used to be a single script.
   tags:
     - mlops
@@ -77,17 +67,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    ClearML is primarily an MLOps/LLMOps platform for AI/ML workflows, not a developer-tooling product focused on coding
-    agents, IDEs, or adjacent developer-facing infrastructure.
+  reason: ClearML is primarily an MLOps/LLMOps platform for AI/ML workflows, not a developer-tooling product focused on coding agents, IDEs, or adjacent developer-facing infrastructure.
   evidence:
     - Repo description explicitly frames it as an MLOps/LLMOps solution for AI workloads
-    - >-
-      README highlights modules like experiment management, orchestration, and model serving, not developer-tooling
-      integrations
-    - >-
-      Source-list context places it under 'Training > Experiment Tracking' in an LLMOps directory, not a
-      developer-tooling catalog
+    - README highlights modules like experiment management, orchestration, and model serving, not developer-tooling integrations
+    - Source-list context places it under 'Training > Experiment Tracking' in an LLMOps directory, not a developer-tooling catalog
 placement:
   primary_category: null
   section: null
@@ -97,17 +81,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.608Z'
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-07T04:13:46.839Z'
+    updated_at: "2026-09-07T04:13:46.839Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -122,17 +106,11 @@ processing:
       input_hash: sha256:683b782de34923b7ce03b77737a889a90865a6af2bda017d0187056f86c7bf5c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        ClearML is primarily an MLOps/LLMOps platform for AI/ML workflows, not a developer-tooling product focused on
-        coding agents, IDEs, or adjacent developer-facing infrastructure.
+      decision_reason: ClearML is primarily an MLOps/LLMOps platform for AI/ML workflows, not a developer-tooling product focused on coding agents, IDEs, or adjacent developer-facing infrastructure.
       decision_evidence:
         - Repo description explicitly frames it as an MLOps/LLMOps solution for AI workloads
-        - >-
-          README highlights modules like experiment management, orchestration, and model serving, not developer-tooling
-          integrations
-        - >-
-          Source-list context places it under 'Training > Experiment Tracking' in an LLMOps directory, not a
-          developer-tooling catalog
+        - README highlights modules like experiment management, orchestration, and model serving, not developer-tooling integrations
+        - Source-list context places it under 'Training > Experiment Tracking' in an LLMOps directory, not a developer-tooling catalog
       category_candidates: []
       contrastive_reason: null
       review_reason: null

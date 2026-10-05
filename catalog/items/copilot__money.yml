@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__copilot__money__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Copilot Money
         extracted_url: https://copilot.money
-        surrounding_text: >-
-          - [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp)
-          [![ignaciohermosillacornejo/copilot-money-mcp MCP
-          server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp)
-          📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for
-          transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the
-          Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API.
+        surrounding_text: "- [ignaciohermosillacornejo/copilot-money-mcp](https://github.com/ignaciohermosillacornejo/copilot-money-mcp) [![ignaciohermosillacornejo/copilot-money-mcp MCP server](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ignaciohermosillacornejo/copilot-money-mcp) 📇 🏠 ☁️ 🍎 - Read and manage [Copilot Money](https://copilot.money) personal finance data — 30 tools for transactions, budgets, accounts, recurring charges, investments, and goals. Reads are 100% local from the Firestore cache; opt-in writes (`--write`) go directly to Copilot's GraphQL API."
         confidence: high
 metadata:
   github:
@@ -43,28 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: copilot.money is a finance-focused website offering AI-powered personal finance tools and insights.
-  why_it_matters: >-
-    It matters to developers seeking AI applications in fintech, though it does not provide developer tooling or
-    code-related functionality.
-  mental_damage: >-
-    Another AI site promising to ‘optimize your money’ while you wonder if it actually writes budgeting scripts or just
-    scrapes your Mint data.
+  summary: copilot.money is a personal finance tracker and budgeting app with no apparent AI functionality or developer tooling focus.
+  why_it_matters: It does not assist with software development tasks such as coding, debugging, or workflow automation.
+  mental_damage: Another finance app pretending relevance in an AI developer catalog — because everything must be 'AI-powered' now, even your monthly coffee budget.
   tags:
     - finance
-    - ai
+    - budgeting
+    - personal
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    copilot.money is a consumer-facing personal finance site with no developer-facing tooling, SDKs, agents, or
-    infrastructure relevant to software development workflows.
+  reason: The tool is a personal finance application with no AI agent, coding assistance, or developer infrastructure functionality, placing it outside the catalog's scope.
   evidence:
-    - The site describes itself as offering 'AI-powered personal finance insights' and budgeting tools.
-    - No repository, code, API, or developer documentation is referenced in the provided inputs.
-    - >-
-      The product’s core function is financial advice and tracking, not coding assistance, app generation, or AI tooling
-      for developers.
+    - "Repo description: (none)"
+    - README excerpt and scraped site context indicate it is a personal finance tracker and budgeting app
+    - No evidence of AI, code generation, agent behavior, or developer tooling in provided inputs
 placement:
   primary_category: null
   section: null
@@ -74,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,28 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:53:28.325Z'
+    updated_at: "2026-10-05T04:59:55.915Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a1645c9ddb2e2ef32816126337667fea4766e29f272f0c9b26643cfd67593219
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:279e4627eb0396388678bd36879ac23a5885d491bb16099631863fa966248554
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        copilot.money is a consumer-facing personal finance site with no developer-facing tooling, SDKs, agents, or
-        infrastructure relevant to software development workflows.
+      decision_reason: The tool is a personal finance application with no AI agent, coding assistance, or developer infrastructure functionality, placing it outside the catalog's scope.
       decision_evidence:
-        - The site describes itself as offering 'AI-powered personal finance insights' and budgeting tools.
-        - No repository, code, API, or developer documentation is referenced in the provided inputs.
-        - >-
-          The product’s core function is financial advice and tracking, not coding assistance, app generation, or AI
-          tooling for developers.
+        - "Repo description: (none)"
+        - README excerpt and scraped site context indicate it is a personal finance tracker and budgeting app
+        - No evidence of AI, code generation, agent behavior, or developer tooling in provided inputs
       category_candidates: []
       contrastive_reason: null
       review_reason: null

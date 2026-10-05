@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__duct__tape2__github__io__ai__money__stack__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: AI Money Stack
         extracted_url: https://duct-tape2.github.io/ai-money-stack
-        surrounding_text: >-
-          - **[AI Money Stack](https://duct-tape2.github.io/ai-money-stack/)** – Local-first AI workflow toolkit for PR
-          review checklists, launch planning, and revenue idea scanning.
+        surrounding_text: "- **[AI Money Stack](https://duct-tape2.github.io/ai-money-stack/)** – Local-first AI workflow toolkit for PR review checklists, launch planning, and revenue idea scanning."
         confidence: high
 metadata:
   github:
@@ -38,39 +36,64 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A collection of local-first Python and PWA tools for indie builders to scout Obsidian vaults, review PRs, and build buyer-ready product pages without API keys or cloud uploads.
+  why_it_matters: It gives solo developers practical, offline utilities to turn personal notes and code into monetizable assets using only local files and deterministic scripts.
+  mental_damage: Another indie hacker's attempt to monetize their Obsidian vault by treating every note like a startup idea, complete with a $99 upsell.
+  tags:
+    - local-tools
+    - obsidian
+    - pr-review
+    - idea-scouting
+    - static-site
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The project is a loose bundle of personal productivity scripts and a paid service offer, not a cohesive developer tool with a clear primary identity in any catalog category.
   evidence:
-    - jev winnow:e4b 0.41 below gate 0.50; proposed local-ai / Desktop Chat & UIs; no placement kept (unverified)
+    - Describes itself as 'free local-first tools and sample outputs' for revenue scouting, PR review, and product-page checks
+    - Includes a $99 paid service to turn a public GitHub repo into a buyer-ready product page
+    - Tools are presented as individual utilities (Obsidian CLI, PWA, PR Review Agent Lite) without unified agent or framework behavior
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - local-ai
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:33.911Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9ac52058c927c090a1223e706310b902d8a169b7dca7a92df2b28da260f79b35
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a loose bundle of personal productivity scripts and a paid service offer, not a cohesive developer tool with a clear primary identity in any catalog category.
+      decision_evidence:
+        - Describes itself as 'free local-first tools and sample outputs' for revenue scouting, PR review, and product-page checks
+        - Includes a $99 paid service to turn a public GitHub repo into a buyer-ready product page
+        - Tools are presented as individual utilities (Obsidian CLI, PWA, PR Review Agent Lite) without unified agent or framework behavior
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

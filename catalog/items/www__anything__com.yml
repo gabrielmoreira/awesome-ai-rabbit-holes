@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__anything__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Create.xyz
         extracted_url: https://create.xyz
-        surrounding_text: '- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language.'
+        surrounding_text: "- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language."
         confidence: high
 metadata:
   github:
@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: www.anything.com is a website with no discernible product, tool, or developer-facing functionality described in the inputs.
-  why_it_matters: It does not matter to developers as there is no evidence it provides any AI-related tooling, workflow, or infrastructure.
-  mental_damage: Another domain parked in the AI graveyard, reminding us that not every .com deserves a README.
+  summary: www.anything.com is a generic placeholder domain with no discernible product, tool, or developer-facing functionality.
+  why_it_matters: It does not matter to developers as it offers no tooling, code, documentation, or AI-related utility.
+  mental_damage: Another AI rabbit hole that leads nowhere — just like the last three tabs you opened hoping for a tool but found only parked domain regret.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks any identifiable product, tool, or developer-facing AI functionality; it appears to be a placeholder or inactive domain with no claims, code, or utility relevant to software developers.
+  reason: Excluded because the domain provides no identifiable product, tool, README, or developer-facing content — it is a parked domain with no utility for software developers.
   evidence:
-    - Repo description is missing
-    - No README excerpt or scraped site context provided
-    - URL resolves to a parked or inactive domain with no discernible tooling
+    - "Repo description: (none)"
+    - "README excerpt: (not provided, implied missing)"
+    - "Source-list context: no direct awesome list source"
 placement:
   primary_category: null
   section: null
@@ -57,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,26 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:05.491Z'
+    updated_at: "2026-10-05T04:58:58.201Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d637d809e87510ebb68f7f577fe7adafa4fad31a9972359b8e03f77386fc02bd
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:88c41076954bdaef0a239bc9b81747f9220f9aea6d39bea022af6630f94e9b97
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The domain resolves to no identifiable product, tool, or resource, and offers no developer-facing AI
-        functionality.
+      decision_reason: Excluded because the domain provides no identifiable product, tool, README, or developer-facing content — it is a parked domain with no utility for software developers.
       decision_evidence:
-        - Repo description is missing
-        - No README excerpt or scraped site context provided
-        - URL resolves to a parked or inactive domain with no discernible tooling
+        - "Repo description: (none)"
+        - "README excerpt: (not provided, implied missing)"
+        - "Source-list context: no direct awesome list source"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

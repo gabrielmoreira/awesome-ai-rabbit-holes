@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__designarena__ai__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,27 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A crowdsourced benchmarking platform for evaluating AI-generated design outputs side-by-side.
-  why_it_matters: >-
-    It provides human-centric preference data to help determine which models possess 'taste' in creative tasks like UI,
-    web, and 3D design.
-  mental_damage: >-
-    Nothing says 'the future of creative engineering' quite like having to crowdsource aesthetic consensus via manual
-    voting.
+  summary: Design Arena is a global crowdsourced benchmark for AI-generated design where users compare model outputs across creative tasks like websites, images, and 3D assets.
+  why_it_matters: It helps developers evaluate and select the best generative models for visual and UI-related outputs through community voting and leaderboards.
+  mental_damage: Another leaderboard where the real prize is realizing your prompt engineering still loses to a random stranger’s ‘make it pop’ request.
   tags:
     - benchmark
-    - ai-evaluation
     - design
+    - model-evaluation
+    - crowdsourced
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or
-    software engineering workflows.
+  reason: Design Arena is a model benchmark focused on creative design outputs, not a developer-facing AI tool for coding, workflow automation, or app building.
   evidence:
     - "Scraped site context: 'Design Arena is the largest global crowdsourced benchmark for design. Challenge, Vote, Crown your Winner.'"
-    - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' as a benchmark, not a developer tool."
-    - "README excerpt: Focuses on generating websites, slides, images, games, etc., from prompts and comparing model outputs — no coding assistance, editing, or agent behavior."
+    - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' as a design benchmark, not a coding or developer tool."
+    - "Primary page excerpt: Focuses on generating websites, slides, images, 3D assets, etc., with no mention of code editing, agent behavior, or developer workflow integration."
 placement:
   primary_category: null
   section: null
@@ -66,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,31 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:26.097Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for designarena__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:54.409Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e5682fed22ac53335118a8ccd99bfa626b9a0212ee4a9d9dfc684f06e5d661ca
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b168f7c09a37843e8d041a1210beddf3ac94da99bf88a1dd047332ed456d66cc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure,
-        or software engineering workflows.
+      decision_reason: Design Arena is a model benchmark focused on creative design outputs, not a developer-facing AI tool for coding, workflow automation, or app building.
       decision_evidence:
         - "Scraped site context: 'Design Arena is the largest global crowdsourced benchmark for design. Challenge, Vote, Crown your Winner.'"
-        - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' as a benchmark, not a developer tool."
-        - "README excerpt: Focuses on generating websites, slides, images, games, etc., from prompts and comparing model outputs — no coding assistance, editing, or agent behavior."
+        - "Source-list context: Listed in awesome-LLM-resources under '体验 Usage' as a design benchmark, not a coding or developer tool."
+        - "Primary page excerpt: Focuses on generating websites, slides, images, 3D assets, etc., with no mention of code editing, agent behavior, or developer workflow integration."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

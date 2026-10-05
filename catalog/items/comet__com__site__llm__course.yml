@@ -1,12 +1,12 @@
 id: comet__com__site__llm__course
 kind: website
-name: 'LLM Evaluation: A Complete Course'
+name: "LLM Evaluation: A Complete Course"
 canonical_url: https://comet.com/site/llm-course
 identity: {}
 provenance:
   discoveries:
     - id: discovery__comet__com__site__llm__course__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,12 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'LLM Evaluation: A Complete Course'
+        anchor_text: "LLM Evaluation: A Complete Course"
         extracted_url: https://comet.com/site/llm-course
-        surrounding_text: '47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)'
+        surrounding_text: "47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)"
         confidence: high
     - id: discovery__www__comet__com__site__llm__course__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -31,9 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'LLM Evaluation: A Complete Course'
+        anchor_text: "LLM Evaluation: A Complete Course"
         extracted_url: https://www.comet.com/site/llm-course
-        surrounding_text: '47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)'
+        surrounding_text: "47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)"
         confidence: high
 metadata:
   github:
@@ -51,75 +51,58 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A free self-paced course on LLM evaluation techniques using Opik and open source tools, aimed at AI developers and
-    data scientists.
-  why_it_matters: >-
-    Teaches practical evaluation skills like LLM-as-a-judge metrics and monitoring that help developers ship reliable
-    LLM applications.
-  mental_damage: >-
-    Another free course that promises to fix your evals while you quietly wonder if your models still hallucinate in
-    production.
+  summary: "LLM Evaluation: A Complete Course is a free self-paced course on evaluating LLM applications using tools like Opik, covering evaluation pipelines, heuristics, LLM-as-a-judge metrics, and monitoring."
+  why_it_matters: Teaches developers practical, applied techniques to test and monitor LLM-based systems in production using open-source tools.
+  mental_damage: Yet another free course that promises to fix your LLM evals while you quietly wonder if your team will ever ship anything without hallucinating.
   tags:
+    - evals
     - llm
-    - evaluation
+    - monitoring
     - course
     - opik
-    - ai-developer
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  status: excluded
+  reason: The resource is an educational course, not a developer-facing tool, framework, or workflow product; it does not provide executable infrastructure or measurable integration into development pipelines.
   evidence:
-    - jev-latest choice confidence 0.72
+    - Described as a 'FREE COURSE' with lessons, syllabus, and project-based learning
+    - Taught by instructors, self-paced, with registration and completion framing
+    - Focused on learning evaluation concepts and using Opik, not on providing a tool or platform for developers to use in their workflow
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories: []
-  section: Observability & Tracing
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:22.420Z'
+    updated_at: "2026-10-05T04:47:09.643Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5261bcc804487c042965ff49b2f9b109c722260ca2e929e24a5643c12a13211f
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:28b157e6c82f1b9912c53cb54b20af360cc43e09cc0e75b8eb80f032dafe7141
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The resource is an educational course listed in an awesome list under '课程 Course', making it a curated learning
-        resource rather than a tool, SDK, or platform, which fits the curated lists and resources category.
+      decision_reason: The resource is an educational course, not a developer-facing tool, framework, or workflow product; it does not provide executable infrastructure or measurable integration into development pipelines.
       decision_evidence:
-        - >-
-          Listed in awesome-LLM-resources under section: 课程 Course with summary 'Register for this course and learn to
-          build modern software with LLMs'
-        - >-
-          Scraped site describes it as a 'FREE COURSE' titled 'LLM Evaluation with Opik' focused on applied LLM
-          evaluation techniques
-        - >-
-          Course content includes lessons on evaluation pipelines, heuristic and LLM-based metrics, testing, and
-          monitoring using Opik and open source tools
-      category_candidates:
-        - awesome-awesomes
-        - evals
-      contrastive_reason: >-
-        Choose awesome-awesomes over evals because the resource is an educational course, not an evaluation framework,
-        platform, or toolkit for measuring AI behavior — its primary value is as a learning resource, not as an
-        operational eval tool.
+        - Described as a 'FREE COURSE' with lessons, syllabus, and project-based learning
+        - Taught by instructors, self-paced, with registration and completion framing
+        - Focused on learning evaluation concepts and using Opik, not on providing a tool or platform for developers to use in their workflow
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

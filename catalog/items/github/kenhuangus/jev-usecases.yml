@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kenhuangus__jev-usecases__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-usecases
         extracted_url: https://github.com/kenhuangus/jev-usecases
-        surrounding_text: >-
-          - [jev-usecases](https://github.com/kenhuangus/jev-usecases) - Production TypeSafe Jev (System One) use-case
-          harnesses with confidence-gated decision logic.
+        surrounding_text: "- [jev-usecases](https://github.com/kenhuangus/jev-usecases) - Production TypeSafe Jev (System One) use-case harnesses with confidence-gated decision logic."
         confidence: high
     - id: discovery__github__kenhuangus__jev-usecases__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,14 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-usecases**'
+        anchor_text: "**jev-usecases**"
         extracted_url: https://github.com/kenhuangus/jev-usecases
-        surrounding_text: >-
-          - [**jev-usecases**](https://github.com/kenhuangus/jev-usecases) — Production TypeSafe Jev (System One)
-          use-case harnesses with confidence-gated decision logic
+        surrounding_text: "- [**jev-usecases**](https://github.com/kenhuangus/jev-usecases) — Production TypeSafe Jev (System One) use-case harnesses with confidence-gated decision logic"
         confidence: high
     - id: discovery__github__kenhuangus__jev-usecases__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -54,11 +50,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jev-usecases
         extracted_url: https://github.com/kenhuangus/jev-usecases
-        surrounding_text: >-
-          - [jev-usecases](https://github.com/kenhuangus/jev-usecases)
-          ![stars](https://img.shields.io/github/stars/kenhuangus/jev-usecases?style=flat-square&label=%E2%98%85) -
-          Reference harnesses: a set of production-shaped use-case harnesses built around confidence-gated decision
-          logic.
+        surrounding_text: "- [jev-usecases](https://github.com/kenhuangus/jev-usecases) ![stars](https://img.shields.io/github/stars/kenhuangus/jev-usecases?style=flat-square&label=%E2%98%85) - Reference harnesses: a set of production-shaped use-case harnesses built around confidence-gated decision logic."
         confidence: high
 metadata:
   github:
@@ -96,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

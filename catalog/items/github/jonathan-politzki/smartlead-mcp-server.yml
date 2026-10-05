@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jonathan-politzki__smartlead-mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,12 +19,7 @@ provenance:
           - 💬 Communication
         anchor_text: jean-technologies/smartlead-mcp-server-local
         extracted_url: https://github.com/jean-technologies/smartlead-mcp-server-local
-        surrounding_text: >-
-          -  
-          **[jean-technologies/smartlead-mcp-server-local](https://github.com/jean-technologies/smartlead-mcp-server-local)**
-          [![GitHub
-          stars](https://img.shields.io/github/stars/jean-technologies/gtasks-mcp?style=social)](https://github.com/jean-technologies/smartlead-mcp-server-local):
-          MCP server for Smartlead. Also works with n8n and workflow automation platforms.
+        surrounding_text: "-   **[jean-technologies/smartlead-mcp-server-local](https://github.com/jean-technologies/smartlead-mcp-server-local)** [![GitHub stars](https://img.shields.io/github/stars/jean-technologies/gtasks-mcp?style=social)](https://github.com/jean-technologies/smartlead-mcp-server-local): MCP server for Smartlead. Also works with n8n and workflow automation platforms."
         confidence: high
 metadata:
   github:
@@ -34,22 +29,18 @@ metadata:
     archived: false
     full_name: jonathan-politzki/smartlead-mcp-server
     html_url: https://github.com/jonathan-politzki/smartlead-mcp-server
-    created_at: '2025-04-16T18:16:37Z'
-    pushed_at: '2025-07-23T21:09:02Z'
+    created_at: "2025-04-16T18:16:37Z"
+    pushed_at: "2025-07-23T21:09:02Z"
     description: Local version of Smartlead MCP for quick download and deployment to MCP compatible clients or n8n.
     homepage: null
     topics: []
-    last_checked_at: '2026-07-30T05:05:51.718Z'
+    last_checked_at: "2026-07-30T05:05:51.718Z"
     readme:
-      fetched_at: '2026-07-30T05:05:51.718Z'
+      fetched_at: "2026-07-30T05:05:51.718Z"
       bytes: 3405
 insights:
-  summary: >-
-    An MCP server providing a simplified interface to the Smartlead email marketing API for AI assistants and automation
-    tools.
-  why_it_matters: >-
-    Allows developers to integrate Smartlead's campaign, lead, and analytics features directly into MCP-compatible
-    clients like Claude or n8n.
+  summary: An MCP server providing a simplified interface to the Smartlead email marketing API for AI assistants and automation tools.
+  why_it_matters: Allows developers to integrate Smartlead's campaign, lead, and analytics features directly into MCP-compatible clients like Claude or n8n.
   mental_damage: Now your AI assistant can spam your users with even more precision.
   tags:
     - mcp-server
@@ -72,17 +63,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.623Z'
+    updated_at: "2026-05-06T22:12:15.623Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:51.718Z'
+    updated_at: "2026-07-30T05:05:51.718Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -97,9 +88,7 @@ processing:
       input_hash: sha256:7ac7c45cb6d19e874eeac86e1d7b84f5ada2b32c04fda5379b4de295c302f697
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        This is an MCP-first server whose primary identity is exposing Smartlead's API via MCP, fitting the MCP Servers
-        & Tooling category.
+      decision_reason: This is an MCP-first server whose primary identity is exposing Smartlead's API via MCP, fitting the MCP Servers & Tooling category.
       decision_evidence:
         - Repo description explicitly states it is a 'Local version of Smartlead MCP'
         - README details MCP server setup for Claude and n8n
@@ -107,8 +96,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an
-        extension for another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
       review_reason: null
       review_resume_lifecycle: null

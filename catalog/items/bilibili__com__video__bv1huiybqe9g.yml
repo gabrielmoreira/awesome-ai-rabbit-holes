@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv1huiybqe9g__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 1. [Agent Skills (Claude Skills) 详细攻略，一期视频精通](https://www.bilibili.com/video/BV1HuiyBQE9G)
         confidence: high
     - id: discovery__www__bilibili__com__video__bv1huiybqe9g__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,33 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Bilibili video tutorial teaching Agent Skills (Claude Skills) as an installable content format for AI coding
-    agents like Claude Code and Cursor.
-  why_it_matters: >-
-    It educates developers on a portable, reusable skill standard that enhances agent behavior across multiple AI coding
-    tools.
-  mental_damage: >-
-    Another day, another AI tutorial promising 99% less yak-shaving while the ecosystem fragments faster than you can
-    say 'standard'.
+  summary: A Bilibili video tutorial teaching Agent Skills (Claude Skills) for AI coding assistants like Claude Code, Cursor, and OpenCode.
+  why_it_matters: It helps developers learn a emerging skill-pack standard to extend AI coding assistants with reusable behaviors.
+  mental_damage: Watching a 40-minute video to learn how to install a skill pack feels like the new hello world of AI tooling fatigue.
   tags:
     - tutorial
     - agent-skills
-    - ai-education
+    - bilibili
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Excluded because it is an educational video resource, not a standalone developer tool or installable skill pack
-    itself.
+  reason: The item is an educational video, not a tool, framework, or developer-facing product; it teaches about Agent Skills but does not provide installable skill packs, code, or infrastructure.
   evidence:
-    - >-
-      Source is a Bilibili video (URL: bilibili.com/video/BV1HuiyBQE9G) with no associated GitHub repo or executable
-      product.
-    - >-
-      The video teaches Agent Skills but does not distribute or host skill content; it references external repos like
-      github.com/tech-shrimp/agent-skills-examples.
-    - Appears in awesome-LLM-resources under '技能 Skills' as a learning resource, not as a tool or skill registry.
+    - Source is a Bilibili video URL (bilibili.com/video/BV1HuiyBQE9G)
+    - Scraped context describes it as a tutorial video with chapters, source code links, and external references
+    - No repository, CLI, SDK, or deployable artifact is presented as the primary identity
 placement:
   primary_category: null
   section: null
@@ -87,37 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:21.184Z'
+    updated_at: "2026-10-05T04:46:29.880Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:168ee3c815bde6a0946edcf1d96409ffad7b0feff4f5c25a0b25a3f2b5f485c2
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0de2056c179b21b30d2a9c33f6c1d7440174810b164344374adc64bf453d0397
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Excluded because it is an educational video resource, not a standalone developer tool or installable skill pack
-        itself.
+      decision_reason: The item is an educational video, not a tool, framework, or developer-facing product; it teaches about Agent Skills but does not provide installable skill packs, code, or infrastructure.
       decision_evidence:
-        - >-
-          Source is a Bilibili video (URL: bilibili.com/video/BV1HuiyBQE9G) with no associated GitHub repo or executable
-          product.
-        - >-
-          The video teaches Agent Skills but does not distribute or host skill content; it references external repos
-          like github.com/tech-shrimp/agent-skills-examples.
-        - Appears in awesome-LLM-resources under '技能 Skills' as a learning resource, not as a tool or skill registry.
+        - Source is a Bilibili video URL (bilibili.com/video/BV1HuiyBQE9G)
+        - Scraped context describes it as a tutorial video with chapters, source code links, and external references
+        - No repository, CLI, SDK, or deployable artifact is presented as the primary identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.365Z'
+    updated_at: "2026-07-20T16:42:15.365Z"
     cause: null
     next_retry_at: null
   stars:

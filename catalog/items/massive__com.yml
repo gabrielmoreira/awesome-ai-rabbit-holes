@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__massive__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Polygon.io
         extracted_url: https://polygon.io
-        surrounding_text: >-
-          - [polygon-io/mcp_polygon)](https://github.com/polygon-io/mcp_polygon)) 🐍 ☁️ -  An MCP server that provides
-          access to [Polygon.io](https://polygon.io/) financial market data APIs for stocks, indices, forex, options,
-          and more.
+        surrounding_text: "- [polygon-io/mcp_polygon)](https://github.com/polygon-io/mcp_polygon)) 🐍 ☁️ -  An MCP server that provides access to [Polygon.io](https://polygon.io/) financial market data APIs for stocks, indices, forex, options, and more."
         confidence: high
 metadata:
   github:
@@ -40,13 +37,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Massive provides real-time and historical stock market data via REST and WebSocket APIs.
-  why_it_matters: >-
-    Developers can integrate live financial data into applications, dashboards, or trading tools without managing data
-    pipelines.
-  mental_damage: >-
-    Another reminder that 'AI-powered' often just means slapping a thin wrapper around a public API and calling it
-    innovation.
+  summary: Massive provides a stock market API with real-time and historical tick data via REST or WebSockets.
+  why_it_matters: Developers building trading bots, financial dashboards, or market analytics tools can access standardized market data without managing data pipelines.
+  mental_damage: Yet another API wrapper promising 'unlimited usage' while developers wrestle with rate limits disguised as 'fair use' policies.
   tags:
     - finance
     - api
@@ -54,15 +47,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Massive is a financial data API with no AI agent, coding tool, or developer workflow enhancement; it lacks any
-    connection to AI-driven software development.
+  reason: Massive is a financial data API service, not a developer-facing AI tool, agent, workflow, or infrastructure product relevant to software development workflows.
   evidence:
-    - 'Scraped site context: ''Stock Market API | Massive'' with real-time and historical tick data via REST or WebSockets'
-    - >-
-      No repo description, README, or source-list context indicates AI, coding agents, or developer tooling
-      functionality
-    - Product identity is purely financial data delivery, not AI-assisted development, automation, or infrastructure
+    - Scraped site context describes it as a 'Stock Market API' offering real-time and historical tick data via REST or WebSockets
+    - No indication of AI integration, agent capabilities, coding assistance, or developer tooling beyond generic data access
+    - Core product identity is financial market data delivery, not AI-enhanced development workflows
 placement:
   primary_category: null
   section: null
@@ -72,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,30 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:32:06.221Z'
+    updated_at: "2026-10-05T04:41:10.524Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:92a546b7be8e46446fd8da23bd7408ce962984e9270dd0d48faa7807c21c44aa
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2b1707e720ac6e27a07f951a630e03811bc49bcb8053cd2e4c66af650ab3d819
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Massive is a financial data API with no AI agent, coding tool, or developer workflow enhancement; it lacks any
-        connection to AI-driven software development.
+      decision_reason: Massive is a financial data API service, not a developer-facing AI tool, agent, workflow, or infrastructure product relevant to software development workflows.
       decision_evidence:
-        - >-
-          Scraped site context: 'Stock Market API | Massive' with real-time and historical tick data via REST or
-          WebSockets
-        - >-
-          No repo description, README, or source-list context indicates AI, coding agents, or developer tooling
-          functionality
-        - Product identity is purely financial data delivery, not AI-assisted development, automation, or infrastructure
+        - Scraped site context describes it as a 'Stock Market API' offering real-time and historical tick data via REST or WebSockets
+        - No indication of AI integration, agent capabilities, coding assistance, or developer tooling beyond generic data access
+        - Core product identity is financial market data delivery, not AI-enhanced development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

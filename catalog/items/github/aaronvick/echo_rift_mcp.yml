@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aaronvick__echo_rift_mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: AaronVick/ECHO_RIFT_MCP
         extracted_url: https://github.com/aaronvick/echo_rift_mcp
-        surrounding_text: >-
-          - [AaronVick/ECHO_RIFT_MCP](https://github.com/AaronVick/ECHO_RIFT_MCP) 📇 ☁️ - MCP server for EchoRift
-          infrastructure primitives (BlockWire, CronSynth, Switchboard, Arbiter). Makes EchoRift's agent infrastructure
-          callable as MCP tools so any MCP client can treat EchoRift like a native capability layer.
+        surrounding_text: "- [AaronVick/ECHO_RIFT_MCP](https://github.com/AaronVick/ECHO_RIFT_MCP) 📇 ☁️ - MCP server for EchoRift infrastructure primitives (BlockWire, CronSynth, Switchboard, Arbiter). Makes EchoRift's agent infrastructure callable as MCP tools so any MCP client can treat EchoRift like a native capability layer."
         confidence: high
 metadata:
   github:
@@ -41,19 +38,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AaronVick/ECHO_RIFT_MCP ☁️ - MCP server for EchoRift infrastructure primitives (BlockWire, CronSynth, Switchboard,
-    Arbiter). Makes EchoRift's agent infrastructure callable as MCP tools so any MCP client can treat EchoRift like a
-    native capability layer.
+  summary: AaronVick/ECHO_RIFT_MCP ☁️ - MCP server for EchoRift infrastructure primitives (BlockWire, CronSynth, Switchboard, Arbiter). Makes EchoRift's agent infrastructure callable as MCP tools so any MCP client can treat EchoRift like a native capability layer.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for aaronvick/echo_rift_mcp
     - ungh.cc (cached GitHub proxy) returned 404 for aaronvick/echo_rift_mcp
@@ -68,19 +60,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.598Z'
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-24T04:12:56.357Z'
+    updated_at: "2026-09-24T04:12:56.357Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: aaronvick/echo_rift_mcp'
+      message: "GitHub repository not found: aaronvick/echo_rift_mcp"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.817Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

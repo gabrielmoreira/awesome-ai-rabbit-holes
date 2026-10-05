@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__terraform__io__cloud__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Terraform Cloud
         extracted_url: https://terraform.io/cloud
-        surrounding_text: '- **[Terraform Cloud](https://www.terraform.io/cloud)** – IaC platform with AI-powered policy suggestions.'
+        surrounding_text: "- **[Terraform Cloud](https://www.terraform.io/cloud)** – IaC platform with AI-powered policy suggestions."
         confidence: high
     - id: discovery__www__terraform__io__cloud__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Terraform Cloud
         extracted_url: https://www.terraform.io/cloud
-        surrounding_text: '- **[Terraform Cloud](https://www.terraform.io/cloud)** – IaC platform with AI-powered policy suggestions.'
+        surrounding_text: "- **[Terraform Cloud](https://www.terraform.io/cloud)** – IaC platform with AI-powered policy suggestions."
         confidence: high
 metadata:
   github:
@@ -51,27 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Terraform Cloud is a hosted platform for managing Terraform infrastructure workflows, state, and team collaboration.
-  why_it_matters: >-
-    It centralizes infrastructure-as-code operations for teams, enabling consistent, auditable, and scalable cloud
-    provisioning.
-  mental_damage: Another layer of YAML and HCL to juggle while pretending infrastructure is code and not a shared hallucination.
+  summary: Terraform Cloud is a hosted platform for managing Terraform infrastructure as code workflows, including remote state, runs, and team collaboration.
+  why_it_matters: It lets developers safely automate and scale infrastructure provisioning without managing their own Terraform backend or CI/CD glue.
+  mental_damage: Another reason to hope your pull request doesn’t get stuck in a pending apply while the team argues over who approved what.
   tags:
-    - infrastructure
+    - iac
     - devops
-    - terraform
+    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Terraform Cloud is an infrastructure management platform with no AI agent, coding assistant, or developer tooling
-    identity; its inclusion in an AI coding tools list is based on provenance, not relevance.
+  reason: Terraform Cloud is an infrastructure-as-code platform, not an AI tool, agent, or developer-facing AI workflow enhancer; it lacks any AI-driven functionality in its core identity.
   evidence:
-    - >-
-      Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools |
-      section: DevOps and Infrastructure
-    - 'Repo description: (none)'
-    - 'URL: https://terraform.io/cloud'
+    - "Repo description: (none)"
+    - "Source-list context: listed under 'DevOps and Infrastructure' in awesome-ai-coding-tools, but this placement appears to be a mistake or overly broad inclusion"
+    - No AI-related claims or features are present in the provided inputs (description, README, or site context)
 placement:
   primary_category: null
   section: null
@@ -81,35 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:41.958Z'
+    updated_at: "2026-10-05T04:55:32.165Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:51f46f239df4b6920dfd05cde26b570e1749f776bbdc809636ce141d351f1270
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:48844de699f520ad67c22b5e349b585d4044427a9efbb3be0e79f6a7b57a6e08
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Terraform Cloud is an infrastructure management platform with no AI agent, coding assistant, or developer
-        tooling identity; its inclusion in an AI coding tools list is based on provenance, not relevance.
+      decision_reason: Terraform Cloud is an infrastructure-as-code platform, not an AI tool, agent, or developer-facing AI workflow enhancer; it lacks any AI-driven functionality in its core identity.
       decision_evidence:
-        - >-
-          Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding
-          tools | section: DevOps and Infrastructure
-        - 'Repo description: (none)'
-        - 'URL: https://terraform.io/cloud'
+        - "Repo description: (none)"
+        - "Source-list context: listed under 'DevOps and Infrastructure' in awesome-ai-coding-tools, but this placement appears to be a mistake or overly broad inclusion"
+        - No AI-related claims or features are present in the provided inputs (description, README, or site context)
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

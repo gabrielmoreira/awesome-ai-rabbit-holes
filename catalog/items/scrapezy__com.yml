@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__scrapezy__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Scrapezy
         extracted_url: https://scrapezy.com
-        surrounding_text: >-
-          - **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with
-          [Scrapezy](https://scrapezy.com)
+        surrounding_text: "- **[Scrapezy](https://github.com/scrapezy/mcp)** - Turn websites into datasets with [Scrapezy](https://scrapezy.com)"
         confidence: high
 metadata:
   github:
@@ -38,48 +36,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered web scraping service that converts websites into structured JSON, CSV, or Markdown for AI pipelines.
-  why_it_matters: >-
-    It allows developers to ingest web data into RAG systems and LLM workflows using natural language descriptions
-    instead of brittle CSS selectors.
-  mental_damage: >-
-    Because nothing says productivity like replacing a robust Playwright script with a single natural language prompt
-    and a token-based bill.
+  summary: Scrapezy is an AI-powered web scraping service that extracts structured data from websites using natural language prompts.
+  why_it_matters: It lets developers turn any public webpage into ready-to-use data for AI pipelines, analysis, or automation without writing selectors or managing infrastructure.
+  mental_damage: Another tool promising 'just describe what you want' while silently hoping you don’t ask it to scrape LinkedIn or dodge CAPTCHAs at scale.
   tags:
     - web-scraping
-    - ai-powered
+    - ai-tools
+    - api
     - data-extraction
-    - api-first
     - mcp
   confidence: medium
 curation:
   status: included
-  reason: >-
-    The product's primary developer-facing identity is an MCP server for web data extraction, explicitly listed under
-    'Official Servers' in the awesome-mcp-servers directory.
+  reason: Scrapezy’s core identity is its MCP server that exposes web scraping as a tool, making MCP the primary product identity rather than a generic scraping SaaS or AI agent.
   evidence:
-    - >-
-      Listed as an official server in the awesome-mcp-servers list with the purpose: 'Transform any website into
-      structured data'.
-    - >-
-      Scraped site context highlights 'MCP integration for Claude, direct API access for custom AI workflows' as a core
-      feature.
-    - >-
-      The product is an API-first tool for extracting structured data via natural language, explicitly targeting AI
-      pipelines and developers.
-    - jev winnow:e4b 0.45 below gate 0.50; proposed mcp / Browser & Web Automation; placement kept at mcp (unverified)
+    - "Listed in awesome-mcp-servers under Official Servers with the description: 'Transform any website into structured data with Scrapezy'"
+    - "Scraped site context highlights: 'MCP integration for Claude, direct API access for custom AI workflows' and 'Built for your workflow: API-first design means your data flows seamlessly into any tool'"
+    - The product emphasizes MCP as a first-class integration point for AI agents like Claude and Cursor, positioning it as a tool server in the MCP ecosystem
 placement:
   primary_category: mcp
   secondary_categories:
     - skills
-  section: Browser & Web Automation
+  section: Dev & Code Tools
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,35 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:52:55.737Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for scrapezy__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
+    status: done
+    updated_at: "2026-10-05T04:59:35.641Z"
+    cause: null
     next_retry_at: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5c6a570fb45ddcf095e23b9b0069d4c36502da56593eb8fa629731d84921e016
-      proposed_primary_category: context-engineering
-      disagreement: true
-      decision_reason: >-
-        The core novelty is providing fresh, structured web data for LLM context, which fits the retrieval and
-        context-shaping definition.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:69d7d32475dfda5bd8fb5a8f27c23b67acba3448cead8d74427cd64e112e255f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: Scrapezy’s core identity is its MCP server that exposes web scraping as a tool, making MCP the primary product identity rather than a generic scraping SaaS or AI agent.
       decision_evidence:
-        - "Listed in awesome-mcp-servers under 'Official Servers' with the description: 'Transform any website into structured data with Scrapezy'"
-        - "Scraped site context highlights: 'MCP integration for Claude, direct API access for custom AI workflows' and 'Markdown-formatted documents optimized for LLM consumption and RAG systems'"
-        - "Product emphasizes: 'Built for your workflow' and 'API-first design means your data flows seamlessly into any tool. Connect with Claude, Cursor, or build custom automations'"
+        - "Listed in awesome-mcp-servers under Official Servers with the description: 'Transform any website into structured data with Scrapezy'"
+        - "Scraped site context highlights: 'MCP integration for Claude, direct API access for custom AI workflows' and 'Built for your workflow: API-first design means your data flows seamlessly into any tool'"
+        - The product emphasizes MCP as a first-class integration point for AI agents like Claude and Cursor, positioning it as a tool server in the MCP ecosystem
       category_candidates:
         - mcp
-      contrastive_reason: >-
-        Choose context-engineering over mcp because the product is a scraping service with MCP compatibility rather than
-        an MCP-first infrastructure tool.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''context-engineering'''
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Scrapezy’s primary identity is providing an MCP server that exposes web scraping capabilities, not augmenting a specific coding agent or editor as a plugin.
+      review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mariuz__flamerobin__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,14 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: FlameRobin's
         extracted_url: http://www.flamerobin.org
-        surrounding_text: >-
-          - [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server)
-          [![Michael2150/flamerobin-mcp-server MCP
-          server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server)
-          #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from
-          [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally
-          registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and
-          missing index analysis.
+        surrounding_text: "- [Michael2150/flamerobin-mcp-server](https://github.com/Michael2150/flamerobin-mcp-server) [![Michael2150/flamerobin-mcp-server MCP server](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/Michael2150/flamerobin-mcp-server) #️⃣ 🏠 🪟 - Firebird database MCP server that reads connection details from [FlameRobin's](http://www.flamerobin.org/) config — no credential setup required. Access all locally registered databases in one session with full schema introspection, DDL/DML execution, execution plans, and missing index analysis."
         confidence: high
 metadata:
   github:
@@ -37,12 +30,9 @@ metadata:
     archived: false
     full_name: mariuz/flamerobin
     html_url: https://github.com/mariuz/flamerobin
-    created_at: '2015-11-18T13:28:05Z'
-    pushed_at: '2026-07-27T20:40:14Z'
-    description: >-
-      FlameRobin is a database administration tool for Firebird RDBMS. Our goal is to build a tool that is:  lightweight
-      (small footprint, fast execution) cross-platform (Linux, Windows, Mac OS, FreeBSD) dependent only on other Open
-      Source software
+    created_at: "2015-11-18T13:28:05Z"
+    pushed_at: "2026-07-27T20:40:14Z"
+    description: "FlameRobin is a database administration tool for Firebird RDBMS. Our goal is to build a tool that is:  lightweight (small footprint, fast execution) cross-platform (Linux, Windows, Mac OS, FreeBSD) dependent only on other Open Source software"
     homepage: http://flamerobin.org
     topics:
       - cplusplus
@@ -51,9 +41,9 @@ metadata:
       - firebirdsql
       - sql
       - wxwidgets
-    last_checked_at: '2026-08-03T05:16:56.244Z'
+    last_checked_at: "2026-08-03T05:16:56.244Z"
     readme:
-      fetched_at: '2026-08-03T05:16:56.244Z'
+      fetched_at: "2026-08-03T05:16:56.244Z"
       bytes: 9560
 insights:
   summary: FlameRobin is a lightweight, cross-platform database administration tool for Firebird RDBMS.
@@ -66,14 +56,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    FlameRobin is a database administration tool with no AI, agent, or developer-tooling integration; it is out of scope
-    for an AI developer tooling catalog.
+  reason: FlameRobin is a database administration tool with no AI, agent, or developer-tooling integration; it is out of scope for an AI developer tooling catalog.
   evidence:
-    - 'Repo description: ''FlameRobin is a database administration tool for Firebird RDBMS.'''
-    - >-
-      README excerpt focuses on build, packaging, and database administration features, with no mention of AI, agents,
-      or developer workflows.
+    - "Repo description: 'FlameRobin is a database administration tool for Firebird RDBMS.'"
+    - README excerpt focuses on build, packaging, and database administration features, with no mention of AI, agents, or developer workflows.
     - No AI-related topics, features, or integrations are present in the provided inputs.
 placement:
   primary_category: null
@@ -84,17 +70,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.628Z'
+    updated_at: "2026-05-06T22:12:15.628Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-03T05:16:56.244Z'
+    updated_at: "2026-08-03T05:16:56.244Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.822Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -109,14 +95,10 @@ processing:
       input_hash: sha256:46c1df6aedfc393584b5474e1043e43cfe6613895fe529b2b9d47c967ea4b638
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        FlameRobin is a database administration tool with no AI, agent, or developer-tooling integration; it is out of
-        scope for an AI developer tooling catalog.
+      decision_reason: FlameRobin is a database administration tool with no AI, agent, or developer-tooling integration; it is out of scope for an AI developer tooling catalog.
       decision_evidence:
-        - 'Repo description: ''FlameRobin is a database administration tool for Firebird RDBMS.'''
-        - >-
-          README excerpt focuses on build, packaging, and database administration features, with no mention of AI,
-          agents, or developer workflows.
+        - "Repo description: 'FlameRobin is a database administration tool for Firebird RDBMS.'"
+        - README excerpt focuses on build, packaging, and database administration features, with no mention of AI, agents, or developer workflows.
         - No AI-related topics, features, or integrations are present in the provided inputs.
       category_candidates: []
       contrastive_reason: null

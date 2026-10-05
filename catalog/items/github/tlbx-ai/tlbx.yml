@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tlbx-ai__tlbx__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,12 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: tlbx
         extracted_url: https://github.com/tlbx-ai/tlbx
-        surrounding_text: >-
-          - **[tlbx](https://github.com/tlbx-ai/tlbx)** `⭐ 112` — Self-hosted browser control station for remote coding
-          agents (formerly MidTerm): runs Codex, Claude Code, Gemini CLI, Grok Build, OpenCode, Copilot CLI, and any PTY
-          app on the machines that hold your repos and credentials, supervised from any desktop, tablet, or phone
-          browser. Sessions survive disconnects; `mt` CLI helpers expose history, multi-session dispatch, and the
-          control plane as JSON so agents can drive it. AGPL-3.0.
+        surrounding_text: "- **[tlbx](https://github.com/tlbx-ai/tlbx)** `⭐ 112` — Self-hosted browser control station for remote coding agents (formerly MidTerm): runs Codex, Claude Code, Gemini CLI, Grok Build, OpenCode, Copilot CLI, and any PTY app on the machines that hold your repos and credentials, supervised from any desktop, tablet, or phone browser. Sessions survive disconnects; `mt` CLI helpers expose history, multi-session dispatch, and the control plane as JSON so agents can drive it. AGPL-3.0."
         confidence: high
 metadata:
   github:
@@ -43,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Self-hosted browser control station for remote coding agents (formerly MidTerm): runs Codex, Claude Code, Gemini
-    CLI, Grok Build, OpenCode, Copilot CLI, and any PTY app on the machines that hold your repos and credentials,
-    supervised from any desktop, tablet, or phone browser. Sessions survive disconnects; mt CLI helpers expose history,
-    multi-session dispatch, and the control plane as JSON so agents can drive it. AGPL-3.0.
+  summary: "Self-hosted browser control station for remote coding agents (formerly MidTerm): runs Codex, Claude Code, Gemini CLI, Grok Build, OpenCode, Copilot CLI, and any PTY app on the machines that hold your repos and credentials, supervised from any desktop, tablet, or phone browser. Sessions survive disconnects; mt CLI helpers expose history, multi-session dispatch, and the control plane as JSON so agents can drive it. AGPL-3.0."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

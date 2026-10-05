@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__formatho__com__tools__jev__playground__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: Formatho Jev Playground
         extracted_url: https://formatho.com/tools/jev-playground
-        surrounding_text: >-
-          - [Formatho Jev Playground](https://www.formatho.com/tools/jev-playground) - Browser-based request builder for
-          the System One API: compose state plus typed Noul, Choice, and Score questions. Mock mode runs locally without
-          an API key; Live mode requires your TypeSafe key and calls api.typesafe.ai directly. Generates typesafe_sdk
-          Python. Includes companion Jev Suitability Test.
+        surrounding_text: "- [Formatho Jev Playground](https://www.formatho.com/tools/jev-playground) - Browser-based request builder for the System One API: compose state plus typed Noul, Choice, and Score questions. Mock mode runs locally without an API key; Live mode requires your TypeSafe key and calls api.typesafe.ai directly. Generates typesafe_sdk Python. Includes companion Jev Suitability Test."
         confidence: high
 metadata:
   github:
@@ -40,19 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Formatho Jev Playground - Browser-based request builder for the System One API: compose state plus typed Noul,
-    Choice, and Score questions. Mock mode runs locally without an API key; Live mode requires your TypeSafe key and
-    calls api.typesafe.ai directly. Generates typesafe_sdk Python. Includes companion Jev Suitability Test.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-playground is a TypeSafe AI playground for experimenting with Jev (System One) decision models in the browser.
+  why_it_matters: It lets developers prototype decision-model judgments—like routing, scoring, or verification—without setting up local infrastructure.
+  mental_damage: Another sandbox that makes you feel productive while avoiding the hard work of actually integrating judgment into your agents.
+  tags:
+    - decision-models
+    - playground
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  reason: The tool is a browser-based playground for Jev decision models, whose core identity is serving typed questions with probabilities, placing it squarely in decision-models rather than coding agents or app builders.
   evidence:
-    - jev-latest choice confidence 0.84
+    - "Source-list context: listed in 'awesome-jev' under 'Demos & playgrounds' for projects built on Jev (TypeSafe AI's System One model)"
+    - "URL: formatho.com/tools/jev-playground hosts an interactive tool for Jev experimentation"
+    - No GitHub repo or codebase is provided, indicating it is a hosted demo focused on model interaction rather than coding workflows
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -63,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:39.015Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:eae6c79ff20d2662cd2fbcde3ced022899e79c7ac008917b88508eca5fc6663c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool is a browser-based playground for Jev decision models, whose core identity is serving typed questions with probabilities, placing it squarely in decision-models rather than coding agents or app builders.
+      decision_evidence:
+        - "Source-list context: listed in 'awesome-jev' under 'Demos & playgrounds' for projects built on Jev (TypeSafe AI's System One model)"
+        - "URL: formatho.com/tools/jev-playground hosts an interactive tool for Jev experimentation"
+        - No GitHub repo or codebase is provided, indicating it is a hosted demo focused on model interaction rather than coding workflows
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool's purpose is experimenting with Jev's typed-decision judgments, not performing autonomous coding tasks like editing files or running commands.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

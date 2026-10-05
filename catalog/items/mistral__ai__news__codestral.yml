@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mistral__ai__news__codestral__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Models
         anchor_text: Codestral
         extracted_url: https://mistral.ai/news/codestral
-        surrounding_text: >-
-          - **[Codestral](https://mistral.ai/news/codestral)** – Mistral's open-weight model designed for code
-          generation.
+        surrounding_text: "- **[Codestral](https://mistral.ai/news/codestral)** – Mistral's open-weight model designed for code generation."
         confidence: high
 metadata:
   github:
@@ -38,48 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Codestral is an open-weight 22B parameter code generation model from Mistral AI trained on 80+ programming languages
-    with a 32k context window.
-  why_it_matters: >-
-    Provides developers with a high-performance, permissively licensed foundation model for code completion, test
-    generation, and AI-assisted development workflows.
-  mental_damage: >-
-    Another model release that briefly makes you consider fine-tuning your own LLM instead of coping with autocomplete
-    latency.
+  summary: Codestral is Mistral's 22B open-weight code generation model trained on 80+ programming languages with a 32k context window.
+  why_it_matters: It provides developers a high-performance, multilingual foundation for code completion, generation, and infilling tasks across IDEs and agents.
+  mental_damage: Another code model promising to replace your autocomplete while you silently wonder if it actually understands your legacy Fortran.
   tags:
     - code-model
-    - foundation-model
-    - mistral
-    - code-generation
-    - open-weights
+    - llm
+    - multilingual
   confidence: high
 curation:
-  status: included
-  reason: >-
-    Codestral is a developer-facing foundation model SDK/API offering, not a coding agent or app builder — it provides
-    the underlying model that developers import or call via API to build their own AI-powered coding tools.
+  status: excluded
+  reason: Codestral is a foundation model, not a developer-facing tool or agent; it serves as infrastructure for others to build coding agents upon, lacking direct user interaction or autonomy.
   evidence:
-    - >-
-      Described as an 'open-weight generative AI model explicitly designed for code generation tasks' with a dedicated
-      API endpoint
-    - Integrated into developer tools like Continue.dev, Tabnine, LlamaIndex, and LangChain as a model backend
-    - Listed in awesome-ai-coding-tools under 'Code Models' section as a model platform for enterprises
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
-      ai-frameworks (unverified)
+    - Codestral is described as an 'open-weight generative AI model explicitly designed for code generation tasks'
+    - It is accessed via API endpoints or integrated into tools like Continue.dev, Tabnine, and LlamaIndex
+    - The model itself does not plan, edit, or act on codebases autonomously
 placement:
-  primary_category: ai-frameworks
-  section: Provider & Model Abstractions
+  primary_category: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,33 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:22.024Z'
+    updated_at: "2026-10-05T04:42:15.966Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7da52062f37d086a999e62787dccb4d7c7a3eac12f76cda448caae161c2be0ec
-      proposed_primary_category: ai-frameworks
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:afde1c692a1711295ba79c30b023d0133f84f30abe4897807d6c6179e892ad3e
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Codestral is a developer-facing foundation model SDK/API offering, not a coding agent or app builder — it
-        provides the underlying model that developers import or call via API to build their own AI-powered coding tools.
+      decision_reason: Codestral is a foundation model, not a developer-facing tool or agent; it serves as infrastructure for others to build coding agents upon, lacking direct user interaction or autonomy.
       decision_evidence:
-        - >-
-          Described as an 'open-weight generative AI model explicitly designed for code generation tasks' with a
-          dedicated API endpoint
-        - Integrated into developer tools like Continue.dev, Tabnine, LlamaIndex, and LangChain as a model backend
-        - Listed in awesome-ai-coding-tools under 'Code Models' section as a model platform for enterprises
-      category_candidates:
-        - ai-frameworks
-        - coding-agents
-      contrastive_reason: >-
-        Choose ai-frameworks over coding-agents because Codestral is a foundation model and API provider that developers
-        import or call, not an autonomous agent that performs coding tasks directly.
+        - Codestral is described as an 'open-weight generative AI model explicitly designed for code generation tasks'
+        - It is accessed via API endpoints or integrated into tools like Continue.dev, Tabnine, and LlamaIndex
+        - The model itself does not plan, edit, or act on codebases autonomously
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

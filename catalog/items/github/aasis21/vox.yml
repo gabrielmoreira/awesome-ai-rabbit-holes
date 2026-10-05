@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aasis21__vox__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Vox
         extracted_url: https://github.com/aasis21/vox
-        surrounding_text: >-
-          - **[Vox](https://github.com/aasis21/vox)** – Hands-free voice extension for the GitHub Copilot CLI; speak
-          your turn and hear the reply streamed aloud. Pure JS, no build, one-line install; also runs in the Copilot
-          app. Open source (MIT).
+        surrounding_text: "- **[Vox](https://github.com/aasis21/vox)** – Hands-free voice extension for the GitHub Copilot CLI; speak your turn and hear the reply streamed aloud. Pure JS, no build, one-line install; also runs in the Copilot app. Open source (MIT)."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: aasis21/vox
     html_url: https://github.com/aasis21/vox
-    created_at: '2026-06-29T05:27:53Z'
-    pushed_at: '2026-07-05T07:54:23Z'
-    description: >-
-      A hands-free voice panel for GitHub Copilot — speak your turn, hear the reply. Works in the Copilot CLI and the
-      Copilot app. Pure JS, no build, one-line install. MIT.
+    created_at: "2026-06-29T05:27:53Z"
+    pushed_at: "2026-07-05T07:54:23Z"
+    description: A hands-free voice panel for GitHub Copilot — speak your turn, hear the reply. Works in the Copilot CLI and the Copilot app. Pure JS, no build, one-line install. MIT.
     homepage: https://aasis21.github.io/vox/
     topics:
       - accessibility
@@ -53,14 +48,12 @@ metadata:
       - voice-assistant
       - voice-control
       - web-speech-api
-    last_checked_at: '2026-09-29T13:08:22.511Z'
+    last_checked_at: "2026-09-29T13:08:22.511Z"
     readme:
-      fetched_at: '2026-09-29T13:08:22.511Z'
+      fetched_at: "2026-09-29T13:08:22.511Z"
       bytes: 6585
 insights:
-  summary: >-
-    A hands-free voice panel for GitHub Copilot — speak your turn, hear the reply. Works in the Copilot CLI and the
-    Copilot app. Pure JS, no build, one-line install. MIT.
+  summary: A hands-free voice panel for GitHub Copilot — speak your turn, hear the reply. Works in the Copilot CLI and the Copilot app. Pure JS, no build, one-line install. MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,15 +73,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.433Z'
+    updated_at: "2026-09-29T13:07:10.433Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:22.511Z'
+    updated_at: "2026-09-29T13:08:22.511Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:11:38.435Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__aasis21__vox: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an e\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

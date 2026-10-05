@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__openai__com__blog__openai__codex__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: OpenAI Codex CLI
         extracted_url: https://openai.com/blog/openai-codex
-        surrounding_text: >-
-          - **[OpenAI Codex CLI](https://openai.com/blog/openai-codex/)** – OpenAI's CLI coding agent with cloud
-          sandboxed execution.
+        surrounding_text: "- **[OpenAI Codex CLI](https://openai.com/blog/openai-codex/)** – OpenAI's CLI coding agent with cloud sandboxed execution."
         confidence: high
 metadata:
   github:
@@ -38,11 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI Codex is an AI model that translates natural language into code and is accessible via the OpenAI API.
-  why_it_matters: >-
-    It enables developers to generate, explain, or refactor code using plain English prompts, reducing boilerplate and
-    accelerating prototyping.
-  mental_damage: Another reminder that 'just describe it' still means debugging the AI's interpretation of your vague request.
+  summary: OpenAI Codex is an AI model that translates natural language into code, primarily accessed via GitHub Copilot and the OpenAI API.
+  why_it_matters: It enables developers to generate, explain, and refactor code using plain English prompts, reducing boilerplate and accelerating development workflows.
+  mental_damage: Another promise of 'just describe it and the AI will code it' that still requires you to debug, test, and maintain the output like a senior engineer reviewing a junior’s first PR.
   tags:
     - ai-model
     - code-generation
@@ -50,17 +46,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    OpenAI Codex is a foundational AI model, not a developer-facing tool, agent, or product; it is accessed via API and
-    does not provide autonomous coding behavior, IDE integration, or workflow automation as a standalone product.
+  reason: OpenAI Codex is a foundational AI model, not a developer-facing tool, agent, or product that developers directly use to perform coding tasks; it serves as a backend for other products like GitHub Copilot.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Source-list context: listed in awesome-ai-coding-tools under Coding Agents, but this reflects the model's use in
-      agents, not the model itself being an agent
-    - >-
-      No evidence of CLI, IDE agent, or autonomous coding interface — only described as a model for code generation via
-      API
+    - Repo description is missing, indicating no standalone GitHub repository for direct developer interaction
+    - Source-list context shows it is only referenced in 'awesome-ai-coding-tools' under 'Coding Agents' as a secondary reference, not as a primary tool
+    - The product's identity is an AI model (per OpenAI's blog and API), not an autonomous coding agent or developer tool
 placement:
   primary_category: null
   secondary_categories: []
@@ -71,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:57.915Z'
+    updated_at: "2026-10-05T04:42:51.540Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:39331b4516da70c9197cade32f004f9e55bdbdee18c9b67fca300a5b7b0b3d8b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:227562cbae25581beb88baa9a756ff226354d26c2a1d134a816f1f3229125140
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        OpenAI Codex is a foundational AI model, not a developer-facing tool, agent, or product; it is accessed via API
-        and does not provide autonomous coding behavior, IDE integration, or workflow automation as a standalone
-        product.
+      decision_reason: OpenAI Codex is a foundational AI model, not a developer-facing tool, agent, or product that developers directly use to perform coding tasks; it serves as a backend for other products like GitHub Copilot.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Source-list context: listed in awesome-ai-coding-tools under Coding Agents, but this reflects the model's use
-          in agents, not the model itself being an agent
-        - >-
-          No evidence of CLI, IDE agent, or autonomous coding interface — only described as a model for code generation
-          via API
+        - Repo description is missing, indicating no standalone GitHub repository for direct developer interaction
+        - Source-list context shows it is only referenced in 'awesome-ai-coding-tools' under 'Coding Agents' as a secondary reference, not as a primary tool
+        - The product's identity is an AI model (per OpenAI's blog and API), not an autonomous coding agent or developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

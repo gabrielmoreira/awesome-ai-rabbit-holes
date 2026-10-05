@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__reachjalil__jevlogs__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jevlogs
         extracted_url: https://github.com/reachjalil/jevlogs
-        surrounding_text: >-
-          - [jevlogs](https://github.com/reachjalil/jevlogs) - Open-source Jev log triage for OpenTelemetry. Score the
-          signal before expensive LLM analysis.
+        surrounding_text: "- [jevlogs](https://github.com/reachjalil/jevlogs) - Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis."
         confidence: high
     - id: discovery__github__reachjalil__jevlogs__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev Logs
         extracted_url: https://github.com/reachjalil/jevlogs
-        surrounding_text: >-
-          - [Jev Logs](https://github.com/reachjalil/jevlogs) - Scores OpenTelemetry logs for a separate analysis
-          branch, with mock mode and conservative error handling. [Project guide](community/projects/tools/jevlogs.md).
+        surrounding_text: "- [Jev Logs](https://github.com/reachjalil/jevlogs) - Scores OpenTelemetry logs for a separate analysis branch, with mock mode and conservative error handling. [Project guide](community/projects/tools/jevlogs.md)."
         confidence: high
     - id: discovery__github__reachjalil__jevlogs__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -55,12 +51,10 @@ provenance:
           - Applications (129)
         anchor_text: jevlogs
         extracted_url: https://github.com/reachjalil/jevlogs
-        surrounding_text: >-
-          | [jevlogs](https://github.com/reachjalil/jevlogs) | ★ 8 | TypeScript | 2026-09-19 | Open-source Jev log
-          triage for OpenTelemetry. Score the signal before expensive LLM analysis. |
+        surrounding_text: "| [jevlogs](https://github.com/reachjalil/jevlogs) | ★ 8 | TypeScript | 2026-09-19 | Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis. |"
         confidence: high
     - id: discovery__github__reachjalil__jevlogs__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -70,14 +64,12 @@ provenance:
         mode: parsed
         section_path:
           - Context GC
-        anchor_text: '**jevlogs**'
+        anchor_text: "**jevlogs**"
         extracted_url: https://github.com/reachjalil/jevlogs
-        surrounding_text: >-
-          - [**jevlogs**](https://github.com/reachjalil/jevlogs) — Adds Jev diagnostic-value, priority and routing
-          signals to OpenTelemetry logs before deeper analysis.
+        surrounding_text: "- [**jevlogs**](https://github.com/reachjalil/jevlogs) — Adds Jev diagnostic-value, priority and routing signals to OpenTelemetry logs before deeper analysis."
         confidence: high
     - id: discovery__github__reachjalil__jevlogs__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -89,7 +81,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: jevlogs
         extracted_url: https://github.com/reachjalil/jevlogs
-        surrounding_text: '- [jevlogs](https://github.com/reachjalil/jevlogs) - OpenTelemetry log triage before more expensive analysis.'
+        surrounding_text: "- [jevlogs](https://github.com/reachjalil/jevlogs) - OpenTelemetry log triage before more expensive analysis."
         confidence: high
 metadata:
   github:
@@ -127,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.376Z'
+    updated_at: "2026-09-29T13:07:10.376Z"
     cause: null
     next_retry_at: null
   stars:
@@ -135,6 +127,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

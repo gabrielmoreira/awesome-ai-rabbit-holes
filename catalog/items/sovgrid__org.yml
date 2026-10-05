@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sovgrid__org__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: Sovereign AI Blog
         extracted_url: https://sovgrid.org
-        surrounding_text: >-
-          - [cipherfoxie/sovereign-mcp](https://github.com/cipherfoxie/sovereign-mcp) [![cipherfoxie/sovereign-mcp MCP
-          server](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp)
-          🐍 ☁️ 🐧 - MCP for the [Sovereign AI Blog](https://sovgrid.org), a hands-on engineering log of self-hosted AI
-          on NVIDIA DGX Spark (GB10/SM121A). 44+ articles covering SGLang, Mistral, Voxtral, OpenClaw. Three tools:
-          full-text search, article retrieval, and SGLang config validator for GB10 hardware. Free, no auth, no
-          client-side tracking. `https://mcp.sovgrid.org/self-hosted-ai?ref=awesome-mcp`
+        surrounding_text: "- [cipherfoxie/sovereign-mcp](https://github.com/cipherfoxie/sovereign-mcp) [![cipherfoxie/sovereign-mcp MCP server](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp/badges/score.svg)](https://glama.ai/mcp/servers/cipherfoxie/sovereign-mcp) 🐍 ☁️ 🐧 - MCP for the [Sovereign AI Blog](https://sovgrid.org), a hands-on engineering log of self-hosted AI on NVIDIA DGX Spark (GB10/SM121A). 44+ articles covering SGLang, Mistral, Voxtral, OpenClaw. Three tools: full-text search, article retrieval, and SGLang config validator for GB10 hardware. Free, no auth, no client-side tracking. `https://mcp.sovgrid.org/self-hosted-ai?ref=awesome-mcp`"
         confidence: high
 metadata:
   github:
@@ -43,35 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Sovereign AI Blog is a self-hosted AI engineering log documenting fixes, setups, and architecture notes for running
-    LLMs on personal hardware like DGX Spark.
-  why_it_matters: >-
-    It provides practical, battle-tested guidance for developers attempting self-hosted AI stacks without relying on
-    cloud services.
-  mental_damage: >-
-    Another blog reminding you that running AI at home means becoming a sysadmin, electrician, and therapist all at
-    once.
+  summary: Sovereign AI Blog is a self-hosted AI engineering log documenting real-world setups, fixes, and architecture for running LLMs on consumer and prosumer hardware like DGX Spark and multi-3090 rigs.
+  why_it_matters: It provides developers with honest, experience-driven guidance for building and maintaining private AI stacks without relying on cloud services.
+  mental_damage: Another reminder that your Docker setup is probably leaking data while someone else successfully ran a 70B model on a gaming laptop.
   tags:
     - self-hosted
     - local-ai
-    - engineering-log
+    - blog
+    - documentation
+    - ai-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The Sovereign AI Blog is a documentation and commentary resource, not a developer-facing tool, agent, framework, or
-    infrastructure product that directly aids in coding, app building, or AI workflow execution.
+  reason: The Sovereign AI Blog is a documentation and experiential resource, not a tool, framework, or agent that developers can install, integrate, or program against; it lacks executable product identity despite its technical depth.
   evidence:
-    - >-
-      The site describes itself as an 'engineering log' and 'reference engineering log for sovereign AI' focused on
-      documenting real system fixes and setups.
-    - >-
-      Content consists of blog posts about hardware setup, error troubleshooting, and personal anecdotes from
-      self-hosted AI experimentation.
-    - >-
-      No evidence of a deployable tool, SDK, agent, framework, or service that developers can install or use in their
-      workflow.
+    - The site describes itself as an 'engineering log' and 'reference engineering log for sovereign AI on DGX Spark and adjacent hardware'
+    - Content consists of blog posts about real setups, errors, and fixes from a self-hosted AI stack, with no mention of deployable tools, SDKs, or agents
+    - No repository, releases, or installable artifacts are referenced; the project is presented as a personal blog by 'cipherfox'
 placement:
   primary_category: null
   section: null
@@ -81,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,32 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:37:45.178Z'
+    updated_at: "2026-10-05T04:45:27.469Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:dafa9af1d329a59e57a2ba98044fe3c3ebb7cc0e25793e57153a25a7dbe6ea31
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1e32b9ad22d605633ebfd397b916b03bb711f8b1366344d27f0b0a27b2ad0b44
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The Sovereign AI Blog is a documentation and commentary resource, not a developer-facing tool, agent, framework,
-        or infrastructure product that directly aids in coding, app building, or AI workflow execution.
+      decision_reason: The Sovereign AI Blog is a documentation and experiential resource, not a tool, framework, or agent that developers can install, integrate, or program against; it lacks executable product identity despite its technical depth.
       decision_evidence:
-        - >-
-          The site describes itself as an 'engineering log' and 'reference engineering log for sovereign AI' focused on
-          documenting real system fixes and setups.
-        - >-
-          Content consists of blog posts about hardware setup, error troubleshooting, and personal anecdotes from
-          self-hosted AI experimentation.
-        - >-
-          No evidence of a deployable tool, SDK, agent, framework, or service that developers can install or use in
-          their workflow.
+        - The site describes itself as an 'engineering log' and 'reference engineering log for sovereign AI on DGX Spark and adjacent hardware'
+        - Content consists of blog posts about real setups, errors, and fixes from a self-hosted AI stack, with no mention of deployable tools, SDKs, or agents
+        - No repository, releases, or installable artifacts are referenced; the project is presented as a personal blog by 'cipherfox'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__poplarml__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,12 +18,10 @@ provenance:
           - Developer tools
         anchor_text: PoplarML
         extracted_url: https://poplarml.com
-        surrounding_text: >-
-          - [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML
-          systems with minimal engineering effort.
+        surrounding_text: "- [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML systems with minimal engineering effort."
         confidence: high
     - id: discovery__www__poplarml__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -35,9 +33,7 @@ provenance:
           - Developer tools
         anchor_text: PoplarML
         extracted_url: https://www.poplarml.com
-        surrounding_text: >-
-          - [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML
-          systems with minimal engineering effort.
+        surrounding_text: "- [PoplarML](https://www.poplarml.com) - PoplarML enables the deployment of production-ready, scalable ML systems with minimal engineering effort."
         confidence: high
 metadata:
   github:
@@ -55,75 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PoplarML is a platform for deploying and serving machine learning models with GPU auto-scaling and API endpoints.
-  why_it_matters: >-
-    It simplifies model deployment for developers by handling infrastructure so they can focus on integrating ML into
-    applications.
-  mental_damage: >-
-    Yet another ‘just deploy your model’ service that makes you wonder if you’ll ever need to touch a Kubernetes YAML
-    again.
+  summary: PoplarML is a local AI tool listed in an awesome-local-ai directory under the Developer tools section.
+  why_it_matters: It represents a local AI solution that developers might use for private inference or self-hosted model serving.
+  mental_damage: Another local AI tool promising freedom from vendor lock-in while adding yet another dependency to your already-too-complex AI stack.
   tags:
-    - ml-deployment
-    - model-serving
-    - infrastructure
-  confidence: high
+    - local-ai
+    - developer-tools
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool for
-    coding, agents, workflows, or app building as defined in the catalog scope.
+  status: included
+  reason: PoplarML is included in an awesome-local-ai list under Developer tools, indicating it is a local or self-hosted AI solution relevant to developers, which fits the local-ai category's focus on runtimes and serving stacks for private model execution.
   evidence:
-    - >-
-      Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of
-      AI-assisted development functionality
-    - >-
-      No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling angle
-      such as code generation, agent orchestration, or prompt engineering
-    - >-
-      The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus on
-      practical AI tools for software development workflows
+    - Listed in awesome-local-ai under the Developer tools section
+    - No archived status or shutdown indicators present in inputs
+    - No specific product details provided, but source-list context implies local AI relevance
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local API Servers
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:44:12.300Z'
+    updated_at: "2026-10-05T04:50:04.055Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5467bc04a8708d564855d0aa0435252aa6dc41f0b94e8965cff663da9819e1e5
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2c2c36273dced1488c5fabd6341e9badb9729d74a3e685197af9c365838a30f4
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: >-
-        PoplarML is an ML model deployment platform focused on serving infrastructure, not a developer-facing AI tool
-        for coding, agents, workflows, or app building as defined in the catalog scope.
+      decision_reason: PoplarML is included in an awesome-local-ai list under Developer tools, indicating it is a local or self-hosted AI solution relevant to developers, which fits the local-ai category's focus on runtimes and serving stacks for private model execution.
       decision_evidence:
-        - >-
-          Source-list context shows it appears only in awesome-local-ai under 'Developer tools' with no indication of
-          AI-assisted development functionality
-        - >-
-          No repo description, README excerpt, or scraped site context provided to substantiate any developer-tooling
-          angle such as code generation, agent orchestration, or prompt engineering
-        - >-
-          The product’s identity is model serving and deployment infrastructure, which falls outside the catalog’s focus
-          on practical AI tools for software development workflows
-      category_candidates: []
-      contrastive_reason: null
+        - Listed in awesome-local-ai under the Developer tools section
+        - No archived status or shutdown indicators present in inputs
+        - No specific product details provided, but source-list context implies local AI relevance
+      category_candidates:
+        - local-ai
+        - awesome-awesomes
+      contrastive_reason: Choose local-ai over awesome-awesomes because PoplarML is presented as a tool (listed in a local AI awesome list) rather than a curated list or directory itself.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:

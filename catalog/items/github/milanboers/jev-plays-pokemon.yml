@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__milanboers__jev-plays-pokemon__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Games & simulations (73)
         anchor_text: jev-plays-pokemon
         extracted_url: https://github.com/milanboers/jev-plays-pokemon
-        surrounding_text: >-
-          | [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) | ★ 3 | Python | 2026-09-19 | Pokémon
-          Red agent that turns structured game state into Jev decisions and validated moves. |
+        surrounding_text: "| [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) | ★ 3 | Python | 2026-09-19 | Pokémon Red agent that turns structured game state into Jev decisions and validated moves. |"
         confidence: high
     - id: discovery__github__milanboers__jev-plays-pokemon__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,11 +36,7 @@ provenance:
           - Game & Simulation
         anchor_text: jev-plays-pokemon
         extracted_url: https://github.com/milanboers/jev-plays-pokemon
-        surrounding_text: >-
-          - [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon)
-          ![stars](https://img.shields.io/github/stars/milanboers/jev-plays-pokemon?style=flat-square&label=%E2%98%85) -
-          Gaming: reads Pokémon Red game state as text, answers typed questions each turn, and lets deterministic code
-          turn the answers into moves.
+        surrounding_text: "- [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) ![stars](https://img.shields.io/github/stars/milanboers/jev-plays-pokemon?style=flat-square&label=%E2%98%85) - Gaming: reads Pokémon Red game state as text, answers typed questions each turn, and lets deterministic code turn the answers into moves."
         confidence: high
 metadata:
   github:
@@ -80,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.420Z'
+    updated_at: "2026-09-29T13:07:10.420Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

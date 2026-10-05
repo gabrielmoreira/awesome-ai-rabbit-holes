@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hackerone__com__product__code__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - Security
         anchor_text: HackerOne Code
         extracted_url: https://hackerone.com/product/code
-        surrounding_text: >-
-          - **[HackerOne Code](https://www.hackerone.com/product/code)** – AI + human expertise for context-aware
-          vulnerability detection.
+        surrounding_text: "- **[HackerOne Code](https://www.hackerone.com/product/code)** – AI + human expertise for context-aware vulnerability detection."
         confidence: high
     - id: discovery__www__hackerone__com__product__code__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,9 +33,7 @@ provenance:
           - Security
         anchor_text: HackerOne Code
         extracted_url: https://www.hackerone.com/product/code
-        surrounding_text: >-
-          - **[HackerOne Code](https://www.hackerone.com/product/code)** – AI + human expertise for context-aware
-          vulnerability detection.
+        surrounding_text: "- **[HackerOne Code](https://www.hackerone.com/product/code)** – AI + human expertise for context-aware vulnerability detection."
         confidence: high
 metadata:
   github:
@@ -55,13 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HackerOne Code is a product that integrates AI-powered security scanning and vulnerability detection into the software development lifecycle.
-  why_it_matters: It helps developers catch security flaws early by providing automated code analysis and remediation guidance within their existing workflows.
-  mental_damage: Yet another tool promising to shift security left, while developers still spend half their day waiting for scan results to finish.
+  summary: HackerOne Code is a security-focused product that integrates AI-powered vulnerability detection and code analysis into development workflows.
+  why_it_matters: It helps developers catch security issues earlier by applying AI to code review and vulnerability scanning within the HackerOne platform.
+  mental_damage: Another layer of AI surveillance in your PRs, because trusting humans to spot bugs was clearly too much to ask.
   tags:
     - security
-    - devsecops
     - ai-powered
+    - developer-tool
   confidence: medium
 curation:
   status: included
@@ -73,47 +69,40 @@ placement:
   secondary_categories: []
   section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:41:34.830Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for hackerone__com__product__code: Invalid AI response format: SyntaxError:
-        Unexpected token 'I', ..."_reason": It is an A"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:48:09.257Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0f9e0b9cb163c7636f30a24c4621132d94c00cbc5a672dab53216eda8df9c88b
-      proposed_primary_category: coding-agents
-      disagreement: false
-      decision_reason: >-
-        It is a developer-facing coding assistant specialized in security review and vulnerability remediation, fitting
-        the Review, Testing & Repair Agents section.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:13242ab352d48dcebd7cc006bd093dfc6fb5c54d2c200b995b336d7c902d6338
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: HackerOne Code functions as a security scanning extension that integrates with development workflows to provide AI-powered vulnerability detection, making it an add-on rather than a standalone coding agent or platform.
       decision_evidence:
         - Listed in awesome-ai-coding-tools under the Security section
-        - Product URL points to hackerone.com/product/code, indicating a security product offering
-        - No evidence of autonomous coding, app generation, or framework-like behavior in provided inputs
+        - Product URL points to hackerone.com/product/code, indicating it is a feature of the HackerOne platform
+        - No evidence of autonomous coding, file editing, or terminal/IDE-based agent behavior
       category_candidates:
         - extensions-and-addons
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because its primary role is as a standalone security-focused coding
-        assistant rather than an extension for another tool.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose extensions-and-addons over coding-agents because HackerOne Code primarily adds security scanning capabilities to existing workflows rather than acting as a primary agent that writes, edits, or autonomously manages code.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__letta__letta__awesome-list__vivy-yi__awesome-agent-orchestration
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: vivy-yi/awesome-agent-orchestration
@@ -20,7 +20,7 @@ provenance:
           - Memory & Knowledge
         anchor_text: Letta
         extracted_url: https://github.com/letta/letta
-        surrounding_text: '| [Letta](https://github.com/letta/letta) | Memory layer for AI agents |'
+        surrounding_text: "| [Letta](https://github.com/letta/letta) | Memory layer for AI agents |"
         confidence: high
 metadata:
   github:
@@ -56,19 +56,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.626Z'
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-08-03T05:16:52.983Z'
+    updated_at: "2026-08-03T05:16:52.983Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: letta/letta'
+      message: "GitHub repository not found: letta/letta"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.822Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

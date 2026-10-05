@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__opencsg__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,36 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    OpenCSG is a hybrid Hugging Face–style platform offering CSGHub for enterprise open-source model hosting and CSGShip
-    for AgenticOps intelligent agent construction.
-  why_it_matters: >-
-    It provides infrastructure for developers to self-host model ecosystems and build agent workflows without relying on
-    proprietary cloud platforms.
-  mental_damage: >-
-    Another ‘open alternative’ to Hugging Face that forces you to evaluate whether yet another platform lock-in is worth
-    avoiding the original lock-in.
+  summary: OpenCSG is a hybrid Hugging Face + large model ecosystem platform offering enterprise-grade open-source alternatives and AgenticOps for AI agent construction.
+  why_it_matters: Provides developers with self-hosted model hosting and agent-building tools to deploy and operationalize LLMs in enterprise settings.
+  mental_damage: Another ‘open alternative’ promising enterprise AI salvation while quietly hoping you don’t notice the vendor lock-in in the fine print.
   tags:
-    - agent-ops
-    - model-hosting
+    - platform
+    - agenticops
+    - self-hosted
+    - llm-ecosystem
     - enterprise-ai
   confidence: medium
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Local API Servers
+  status: excluded
+  reason: OpenCSG is a broad enterprise platform for model hosting and agent operations, not a developer-facing AI tool, agent, or infrastructure component with a clear identity in coding workflows.
   evidence:
-    - jev-latest choice confidence 0.60
+    - Scraped site context describes OpenCSG as a 'Hybrid Huggingface+ 大模型生态平台' offering CSGHub (enterprise Hugging Face alternative) and CSGShip (AgenticOps for agent construction)
+    - Source-list context from awesome-LLM-resources places it in the '社区 Community' section as a general LLM resource summary, not a developer tool
+    - No evidence of coding agent behavior, app generation, framework/SDK identity, or direct developer tooling integration in the provided inputs
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Local API Servers
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,34 +72,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:34:06.104Z'
+    updated_at: "2026-10-05T04:43:01.494Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e53a6e8db0e50350626538c6e6e781daf12a56d5a853169529730192218182e9
-      proposed_primary_category: agent-orchestration
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:da16bcd443fea166c8001f9f700d0a4bd01545974543bee84d2db51a69f9698e
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        OpenCSG’s core identity is as an enterprise platform for building and operating agent teams via CSGShip, fitting
-        agent orchestration more than a coding agent or framework.
+      decision_reason: OpenCSG is a broad enterprise platform for model hosting and agent operations, not a developer-facing AI tool, agent, or infrastructure component with a clear identity in coding workflows.
       decision_evidence:
-        - 'Source-list description: ''CSGShip助力AgenticOps智能体构建'' (CSGShip aids AgenticOps intelligent agent construction)'
-        - 'Scraped site context: OpenCSG打造''Hybrid Huggingface+ 大模型生态平台'' and ''助力大模型落地应用'' (empowers large model deployment)'
-        - >-
-          No evidence of code editing, CLI agent behavior, or SDK/library distribution; focuses on platform-level agent
-          workflow enablement
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because OpenCSG positions itself as an operated enterprise
-        platform (via CSGShip) for constructing agent teams, not a code-first library developers import and program
-        against.
+        - Scraped site context describes OpenCSG as a 'Hybrid Huggingface+ 大模型生态平台' offering CSGHub (enterprise Hugging Face alternative) and CSGShip (AgenticOps for agent construction)
+        - Source-list context from awesome-LLM-resources places it in the '社区 Community' section as a general LLM resource summary, not a developer tool
+        - No evidence of coding agent behavior, app generation, framework/SDK identity, or direct developer tooling integration in the provided inputs
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

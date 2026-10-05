@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__telex__automattic__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - CodeWP
         anchor_text: CodeWP
         extracted_url: https://codewp.ai
-        surrounding_text: '## [CodeWP](https://codewp.ai/)'
+        surrounding_text: "## [CodeWP](https://codewp.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Telex is an AI-assisted authoring environment for WordPress that transforms ideas into functional WordPress
-    projects.
-  why_it_matters: >-
-    It enables developers to generate complete WordPress sites from prompts, reducing manual setup and theme/plugin
-    configuration time.
-  mental_damage: Finally, a way to outsource the joy of debugging why your custom post type isn’t showing up in the REST API.
+  summary: Telex is an AI-assisted authoring environment for WordPress that transforms prompts into fully functional WordPress projects.
+  why_it_matters: It lets developers generate complete, deployable WordPress sites from natural language, skipping manual setup and theme configuration.
+  mental_damage: Finally, a way to outsource the joy of wrestling with wp-config.php to an AI that may or may not understand nonce verification.
   tags:
     - wordpress
-    - ai-site-generator
+    - site-builder
     - prompt-to-app
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
+  reason: Telex generates full WordPress sites from prompts, making it a prompt-to-app tool rather than a coding agent that edits existing codebases.
   evidence:
-    - jev-latest choice confidence 0.94
+    - "Scraped site title: 'Telex — AI-Assisted Authoring Environment for WordPress'"
+    - "Scraped site description: 'Transform ideas into fully functional WordPress projects with Telex'"
+    - "Source-list context: listed in awesome-ai-agents under CodeWP with the pitch 'Transform ideas into fully functional WordPress projects with Telex'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -63,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,33 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:52.376Z'
+    updated_at: "2026-10-05T04:55:46.562Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:86676ee3cdaa9dff00b8dabb5ebfa537f727a6d7cf238878179097d7535bef9a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:98094addfdccd5d9cc6a9cf77d268a70d61c2f4122a644ba72ae213e818e2c3a
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        Telex fits as an app builder because its core identity is generating complete, deployable WordPress projects
-        from prompts, not editing existing codebases or acting as a coding agent.
+      decision_reason: Telex generates full WordPress sites from prompts, making it a prompt-to-app tool rather than a coding agent that edits existing codebases.
       decision_evidence:
-        - 'Scraped site title: ''Telex — AI-Assisted Authoring Environment for WordPress'''
-        - 'Scraped site description: ''Transform ideas into fully functional WordPress projects with Telex'''
-        - >-
-          Source-list context: listed in awesome-ai-agents under CodeWP with the purpose 'Transform ideas into fully
-          functional WordPress projects with Telex'
+        - "Scraped site title: 'Telex — AI-Assisted Authoring Environment for WordPress'"
+        - "Scraped site description: 'Transform ideas into fully functional WordPress projects with Telex'"
+        - "Source-list context: listed in awesome-ai-agents under CodeWP with the pitch 'Transform ideas into fully functional WordPress projects with Telex'"
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Telex generates new WordPress sites from prompts rather than
-        editing or assisting within an existing codebase.
+      contrastive_reason: Choose app-builders over coding-agents because Telex creates new WordPress sites from prompts rather than editing or assisting within an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

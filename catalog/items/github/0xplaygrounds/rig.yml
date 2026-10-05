@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xplaygrounds__rig__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**rig-typesafeai**'
+        anchor_text: "**rig-typesafeai**"
         extracted_url: https://github.com/0xplaygrounds/rig
-        surrounding_text: >-
-          - [**rig-typesafeai**](https://github.com/0xPlaygrounds/rig) — An experimental TypeSafe crate in Rig for
-          expressing Jev questions and answers with Rust types.
+        surrounding_text: "- [**rig-typesafeai**](https://github.com/0xPlaygrounds/rig) — An experimental TypeSafe crate in Rig for expressing Jev questions and answers with Rust types."
         confidence: high
     - id: discovery__github__0xplaygrounds__rig__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,9 +34,7 @@ provenance:
           - Framework integrations
         anchor_text: Rig
         extracted_url: https://github.com/0xplaygrounds/rig
-        surrounding_text: >-
-          - [Rig](https://github.com/0xPlaygrounds/rig) - Rust `rig-typesafeai` crate with typed Choice, Score, and Noul
-          queries, response validation, examples, and fixtures.
+        surrounding_text: "- [Rig](https://github.com/0xPlaygrounds/rig) - Rust `rig-typesafeai` crate with typed Choice, Score, and Noul queries, response validation, examples, and fixtures."
         confidence: high
 metadata:
   github:
@@ -48,8 +44,8 @@ metadata:
     archived: false
     full_name: 0xPlaygrounds/rig
     html_url: https://github.com/0xPlaygrounds/rig
-    created_at: '2024-06-05T13:42:28Z'
-    pushed_at: '2026-09-29T12:26:43Z'
+    created_at: "2024-06-05T13:42:28Z"
+    pushed_at: "2026-09-29T12:26:43Z"
     description: ⚙️🦀 Build modular and scalable LLM Applications in Rust
     homepage: https://rig.rs
     topics:
@@ -63,21 +59,26 @@ metadata:
       - llmops
       - rust
       - scalable-ai
-    last_checked_at: '2026-09-29T13:08:14.051Z'
+    last_checked_at: "2026-09-29T13:08:14.051Z"
     readme:
-      fetched_at: '2026-09-29T13:08:14.051Z'
+      fetched_at: "2026-09-29T13:08:14.051Z"
       bytes: 13389
 insights:
-  summary: ⚙️ Build modular and scalable LLM Applications in Rust
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Rig is a Rust library for building modular and scalable LLM applications.
+  why_it_matters: It gives Rust developers a code-first framework to compose LLMs, tools, and agents into scalable applications.
+  mental_damage: Another Rust AI framework promising type safety while you wrestle with async lifetimes and macro ergonomics.
+  tags:
+    - rust
+    - framework
+    - llm
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
+  reason: Rig is a Rust SDK developers import to build LLM applications, not a standalone agent or orchestration platform, making it a code-first framework.
   evidence:
-    - jev-latest choice confidence 0.59
+    - "Repo description: 'Build modular and scalable LLM Applications in Rust'"
+    - "Stars: 8794, pushed 2026-09-29, active maintenance"
+    - Homepage rig.rs positions it as a library for Rust developers
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
@@ -88,15 +89,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:14.051Z'
+    updated_at: "2026-09-29T13:08:14.051Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:18.405Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8f7d5afff8a049b04da56af7408595df95dc8e42b7d2d738d177282065031389
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Rig is a Rust SDK developers import to build LLM applications, not a standalone agent or orchestration platform, making it a code-first framework.
+      decision_evidence:
+        - "Repo description: 'Build modular and scalable LLM Applications in Rust'"
+        - "Stars: 8794, pushed 2026-09-29, active maintenance"
+        - Homepage rig.rs positions it as a library for Rust developers
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Rig is a library developers import and program against, not an operated platform for managing agent teams.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

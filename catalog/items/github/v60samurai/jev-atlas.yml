@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__v60samurai__jev-atlas__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev Atlas
         extracted_url: https://github.com/v60samurai/jev-atlas
-        surrounding_text: >-
-          - [Jev Atlas](https://github.com/v60samurai/jev-atlas) - Claude Code/Codex skill that maps where a codebase
-          should (and should not) use TypeSafe Jev, then validates/implements survivors. [Project
-          guide](community/projects/tools/jev-atlas.md).
+        surrounding_text: "- [Jev Atlas](https://github.com/v60samurai/jev-atlas) - Claude Code/Codex skill that maps where a codebase should (and should not) use TypeSafe Jev, then validates/implements survivors. [Project guide](community/projects/tools/jev-atlas.md)."
         confidence: high
     - id: discovery__github__v60samurai__jev-atlas__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,10 +36,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-atlas
         extracted_url: https://github.com/v60samurai/jev-atlas
-        surrounding_text: >-
-          | [jev-atlas](https://github.com/v60samurai/jev-atlas) | ★ 0 | Python | 2026-09-22 | Map where Jev and System
-          One models actually belong in your project, test the strongest ideas, then implement them. A skill for Claude
-          Code and Codex. |
+        surrounding_text: "| [jev-atlas](https://github.com/v60samurai/jev-atlas) | ★ 0 | Python | 2026-09-22 | Map where Jev and System One models actually belong in your project, test the strongest ideas, then implement them. A skill for Claude Code and Codex. |"
         confidence: high
 metadata:
   github:
@@ -69,21 +63,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.427Z'
+    updated_at: "2026-09-29T13:07:10.427Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +83,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

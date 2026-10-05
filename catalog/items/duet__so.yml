@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__duet__so__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Aomni
         anchor_text: Aomni
         extracted_url: https://aomni.com
-        surrounding_text: '## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)'
+        surrounding_text: "## [Aomni](https://www.aomni.com/?utm_source=awesome-ai-agents)"
         confidence: high
 metadata:
   github:
@@ -36,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    For consultants and agencies who build agents for their clients. Duet gives each client a workspace that holds your
-    agents, their memory and skill files, the apps they build, and an always-on machine to run them. You look after the
-    agent. Duet looks after everything under it.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Duet is a platform for building and sharing AI agents that encapsulate a user's expertise, tools, and workflows for clients and teams to interact with via chat.
+  why_it_matters: It lets domain experts turn their know-how into reusable, updatable AI agents without requiring clients to learn agent-building or manage infrastructure.
+  mental_damage: Finally, a way to monetize your expertise by offloading repetitive client questions to an agent that still needs your constant updates to stay useful.
+  tags:
+    - ai-agents
+    - agent-sharing
+    - knowledge-transfer
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: Duet is a general-purpose AI agent platform for non-developer experts and clients, not a developer-facing tool for coding, workflow automation, or agent development; its core use case is sharing expertise via chat agents, not building or improving software.
   evidence:
-    - jev winnow:e4b confidence 0.56
+    - Built for consultants and anyone with know-how to turn expertise into AI agents for clients and teams
+    - Agents are taught via checklists, templates, and rules like briefing a new hire, not through coding or repo interaction
+    - Primary value is sharing agents with clients who 'just talk to it' — no developer workflow, code editing, or tooling integration is central
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:04.633Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d913aaf1c48c18b8468d721ca875c1434a440ee69343b0160ba0a182cb46bc15
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Duet is a general-purpose AI agent platform for non-developer experts and clients, not a developer-facing tool for coding, workflow automation, or agent development; its core use case is sharing expertise via chat agents, not building or improving software.
+      decision_evidence:
+        - Built for consultants and anyone with know-how to turn expertise into AI agents for clients and teams
+        - Agents are taught via checklists, templates, and rules like briefing a new hire, not through coding or repo interaction
+        - Primary value is sharing agents with clients who 'just talk to it' — no developer workflow, code editing, or tooling integration is central
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

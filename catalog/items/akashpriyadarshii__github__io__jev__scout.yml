@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__akashpriyadarshii__github__io__jev__scout__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://akashpriyadarshii.github.io/jev-scout
-        surrounding_text: >-
-          - [jev-scout](https://github.com/AkashPriyadarshii/jev-scout)
-          ([site](https://akashpriyadarshii.github.io/jev-scout/)) - Zero-hallucination open-source repo and crate scout
-          powered by TypeSafe AI Jev System One scoring.
+        surrounding_text: "- [jev-scout](https://github.com/AkashPriyadarshii/jev-scout) ([site](https://akashpriyadarshii.github.io/jev-scout/)) - Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring."
         confidence: high
 metadata:
   github:
@@ -39,9 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-scout (site) - Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One
-    scoring.
+  summary: jev-scout (site) - Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,18 +56,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:02:12.973Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for akashpriyadarshii__github__io__jev__scout: Invalid AI response format: SyntaxError: Unexpected token 'j', ...\"_reason\": jev-scout'\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

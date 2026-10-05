@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__crates__io__crates__jev__curate__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://crates.io/crates/jev-curate
-        surrounding_text: >-
-          - [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) ([site](https://crates.io/crates/jev-curate))
-          - High-throughput synthetic & pretraining dataset sifter powered by TypeSafe AI Jev (api.typesafe.ai). Stream,
-          filter, and score Parquet & JSONL datasets at 1,500+ rows/sec using System One typed decisions (Choice, Score,
-          Noul).
+        surrounding_text: "- [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) ([site](https://crates.io/crates/jev-curate)) - High-throughput synthetic & pretraining dataset sifter powered by TypeSafe AI Jev (api.typesafe.ai). Stream, filter, and score Parquet & JSONL datasets at 1,500+ rows/sec using System One typed decisions (Choice, Score, Noul)."
         confidence: high
 metadata:
   github:
@@ -40,34 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-curate (site) - High-throughput synthetic & pretraining dataset sifter powered by TypeSafe AI Jev
-    (api.typesafe.ai). Stream, filter, and score Parquet & JSONL datasets at 1,500+ rows/sec using System One typed
-    decisions (Choice, Score, Noul).
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Rust crate for curating content within the Jev (TypeSafe System One) decision model ecosystem.
+  why_it_matters: Provides a focused way to organize and discover tools built around decision-model judgments, which are core to specialized AI workflows.
+  mental_damage: Another niche crate in the ever-fracturing Jev universe, where choosing the right curation tool feels like picking a flavor of existential dread.
+  tags:
+    - jev
+    - curate
+    - decision-models
+    - rust
+    - crate
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  reason: jev-curate is a utility for the Jev decision model ecosystem, fitting decision-models as it supports the discovery and organization of tools built on Jev judgments rather than being a coding agent or general infrastructure.
   evidence:
-    - jev-latest choice confidence 0.78
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Search, Retrieval & Data; placement kept at
-      decision-models (unverified)
+    - Listed in awesome-jev under 'Benchmarks & research', indicating it is part of the Jev (TypeSafe System One) ecosystem.
+    - The crate name 'jev-curate' suggests a tool for curating content related to Jev, a decision model, not a coding agent or app builder.
 placement:
   primary_category: decision-models
   secondary_categories:
     - app-builders
-  section: Search, Retrieval & Data
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +71,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:36.398Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a804bf3b672cbef447bdfaea406eb8e61207e0a90bdb013bfa9f59b6686dd26b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-curate is a utility for the Jev decision model ecosystem, fitting decision-models as it supports the discovery and organization of tools built on Jev judgments rather than being a coding agent or general infrastructure.
+      decision_evidence:
+        - Listed in awesome-jev under 'Benchmarks & research', indicating it is part of the Jev (TypeSafe System One) ecosystem.
+        - The crate name 'jev-curate' suggests a tool for curating content related to Jev, a decision model, not a coding agent or app builder.
+      category_candidates:
+        - decision-models
+        - skills
+      contrastive_reason: Choose decision-models over skills because jev-curate is a curation utility for the Jev ecosystem, not a reusable skill pack or rules bundle installed into an agent.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

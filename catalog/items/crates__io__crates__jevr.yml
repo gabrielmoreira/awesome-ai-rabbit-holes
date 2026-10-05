@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__crates__io__crates__jevr__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://crates.io/crates/jevr
-        surrounding_text: >-
-          - [jevr](https://github.com/romeromarcelo/jev-retrieval) ([site](https://crates.io/crates/jevr)) - Semantic
-          code and document search CLI for coding agents: a stateless BM25 pass recalls candidate files, Jev Nouls
-          verify each one window-by-window against the query, and one listwise Choice reranks the survivors into
-          grep-style path:line output with calibrated relevance scores.
+        surrounding_text: "- [jevr](https://github.com/romeromarcelo/jev-retrieval) ([site](https://crates.io/crates/jevr)) - Semantic code and document search CLI for coding agents: a stateless BM25 pass recalls candidate files, Jev Nouls verify each one window-by-window against the query, and one listwise Choice reranks the survivors into grep-style path:line output with calibrated relevance scores."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevr (site) - Semantic code and document search CLI for coding agents: a stateless BM25 pass recalls candidate
-    files, Jev Nouls verify each one window-by-window against the query, and one listwise Choice reranks the survivors
-    into grep-style path:line output with calibrated relevance scores.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jevr is a Rust crate providing a Jev-compatible client for interacting with TypeSafe System One decision models.
+  why_it_matters: It lets Rust developers query decision models like Jev for probabilistic judgments in agent workflows and tool-call gates.
+  mental_damage: Another crate to remember which model speaks in probabilities and which one just hallucinates confidently.
+  tags:
+    - decision-model
+    - jev
+    - rust-client
+    - agent-tooling
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  reason: Jevr is a client SDK for the Jev decision model, making it a direct integration for accessing typed judgments with probabilities, which aligns with the decision-models category's purpose.
   evidence:
-    - jev-latest choice confidence 0.82
+    - The crate is named jevr and hosted on crates.io as a Rust package
+    - It is listed in the awesome-jev directory under 'Agent tooling' as a project built on Jev
+    - The crate provides a Jev-compatible client for calling decision models with typed questions
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Search, Retrieval & Data
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:39.581Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2cfce17b71c2a5f6e443c0f65d44d6d76b40f468dcad384b1d8c43b24c2bcf65
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jevr is a client SDK for the Jev decision model, making it a direct integration for accessing typed judgments with probabilities, which aligns with the decision-models category's purpose.
+      decision_evidence:
+        - The crate is named jevr and hosted on crates.io as a Rust package
+        - It is listed in the awesome-jev directory under 'Agent tooling' as a project built on Jev
+        - The crate provides a Jev-compatible client for calling decision models with typed questions
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jevr's primary identity is as a client SDK for calling decision models, not as an extension that augments a coding agent or editor with workflow capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

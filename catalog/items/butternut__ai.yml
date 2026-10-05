@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__butternut__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Butternut AI
         anchor_text: Butternut AI
         extracted_url: https://butternut.ai
-        surrounding_text: '## [Butternut AI](https://butternut.ai/)'
+        surrounding_text: "## [Butternut AI](https://butternut.ai/)"
         confidence: high
     - id: discovery__www__butternut__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Butternut AI
         anchor_text: Butternut AI
         extracted_url: https://butternut.ai
-        surrounding_text: '## [Butternut AI](https://butternut.ai/)'
+        surrounding_text: "## [Butternut AI](https://butternut.ai/)"
         confidence: high
 metadata:
   github:
@@ -51,13 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Butternut AI is a no-code website builder that uses AI to generate complete business websites from simple text
-    descriptions.
-  why_it_matters: It lets non-technical users create and deploy business sites instantly without coding, design, or hiring developers.
-  mental_damage: >-
-    The promise of instant websites from a sentence highlights how far we’ve come in automating the trivial — while
-    still struggling to automate the meaningful.
+  summary: Butternut AI is an AI-powered website builder that generates full business sites from a text description in seconds.
+  why_it_matters: It lets non-developers launch live websites instantly, reducing the need for manual site building or hiring freelancers.
+  mental_damage: Another no-code tool promising magic, now with AI, so you can skip learning HTML and still feel like a developer.
   tags:
     - website-builder
     - no-code
@@ -65,15 +61,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Butternut AI is a general-purpose AI website builder for end-users and small businesses, not a developer-facing tool
-    for coding, AI workflows, or software engineering tasks.
+  reason: Butternut AI is an end-user site generator, not a developer-facing tool for coding, workflows, or infrastructure; it creates deployable websites but does not assist developers in editing code, managing agents, or building internal tooling.
   evidence:
-    - Marketed as '#1 free & easy website builder for small business' with AI-generated sites in 20 seconds
-    - Target audience includes freelancers, consultants, dentists, plumbers — not developers or dev teams
-    - >-
-      Output is deployable websites, not code edits, AI agents, or developer tooling; no repo, SDK, or technical
-      integration surface
+    - "Scraped site: 'Build your website in 20 seconds with AI' and 'No coding or design experience is required'"
+    - "Source-list context: listed in awesome-ai-agents under 'Butternut AI' with description '#1 free & easy website builder for small business'"
+    - "Primary output: live websites, blogs, chatbots — not code edits, scaffolding, or developer tooling"
 placement:
   primary_category: null
   section: null
@@ -83,35 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:39.131Z'
+    updated_at: "2026-10-05T04:46:41.031Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7e92e2390ee85018acc0bf893ffd808ee88331ed6b85cdb5c5a6be6c1eef5928
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3a1197f62ecb43d2dc4c95d65632eebe297a9a0e9a6670b008399e842d8d6426
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Butternut AI is a general-purpose AI website builder for end-users and small businesses, not a developer-facing
-        tool for coding, AI workflows, or software engineering tasks.
+      decision_reason: Butternut AI is an end-user site generator, not a developer-facing tool for coding, workflows, or infrastructure; it creates deployable websites but does not assist developers in editing code, managing agents, or building internal tooling.
       decision_evidence:
-        - Marketed as '#1 free & easy website builder for small business' with AI-generated sites in 20 seconds
-        - Target audience includes freelancers, consultants, dentists, plumbers — not developers or dev teams
-        - >-
-          Output is deployable websites, not code edits, AI agents, or developer tooling; no repo, SDK, or technical
-          integration surface
+        - "Scraped site: 'Build your website in 20 seconds with AI' and 'No coding or design experience is required'"
+        - "Source-list context: listed in awesome-ai-agents under 'Butternut AI' with description '#1 free & easy website builder for small business'"
+        - "Primary output: live websites, blogs, chatbots — not code edits, scaffolding, or developer tooling"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.963Z'
+    updated_at: "2026-07-21T15:20:21.963Z"
     cause: null
     next_retry_at: null
   stars:

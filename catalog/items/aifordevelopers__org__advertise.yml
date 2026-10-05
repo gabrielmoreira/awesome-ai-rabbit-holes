@@ -36,26 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: advertise is a service for promoting DevTools, AI tools, or courses to a developer-first audience of 50k+ AI developers.
-  why_it_matters: It helps developers discover tools by connecting creators with an engaged audience actively seeking AI development resources.
-  mental_damage: Another entity asking for money to be seen by developers who are already drowning in AI tool ads.
+  summary: Advertising page for AI for Developers, a platform offering newsletter features and ad spots to reach developers interested in AI tools and coding workflows.
+  why_it_matters: Provides targeted exposure for AI developer tools and courses to an audience actively seeking practical AI development resources.
+  mental_damage: Yet another channel shouting at developers who already can't keep up with the AI tooling firehose.
   tags:
     - advertising
-    - developer-outreach
-  confidence: low
+    - newsletter
+    - developer-audience
+  confidence: high
 curation:
   status: excluded
-  reason: advertise is a marketing service, not a developer-facing AI tool, agent, framework, or infrastructure product.
+  reason: This is an advertising sales page, not a developer-facing AI tool, agent, workflow, or infrastructure product; it exists to sell ad inventory, not to assist with coding or AI development tasks.
   evidence:
-    - Homepage states it is 'Reach a developer-first audience actively looking for AI tools, coding workflows, and technical recommendations.'
-    - Primary excerpt says 'Promote your DevTools, AI tools, or courses' and 'Just send an email to get started.'
-    - Seen in source lists as part of 'awesome-ai-coding-tools' for audience reach, not as a tool itself.
+    - Scraped site context shows it is an advertising offering for 'AI for Developers' with newsletter features, homepage ads, and sponsored placements.
+    - Primary page excerpt focuses on ad formats, targeting AI developers, and campaigns — no mention of coding assistance, AI agents, or developer tooling functionality.
+    - Source-list context indicates it appears in 'awesome-ai-coding-tools' only as an advertising opportunity, not as a curated AI coding tool itself.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -68,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-24T04:33:24.106Z"
+    updated_at: "2026-10-05T04:27:58.804Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:14cd024d4c0cfcc316b121e4a10054dc944dade5146ff577d6f2388d62c502bf
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e33e77ce7ee43119fbef8ef2d6137a54b7c98dfca7d38a4dc2076a43c5e8f42a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: advertise is a marketing service, not a developer-facing AI tool, agent, framework, or infrastructure product.
+      decision_reason: This is an advertising sales page, not a developer-facing AI tool, agent, workflow, or infrastructure product; it exists to sell ad inventory, not to assist with coding or AI development tasks.
       decision_evidence:
-        - Homepage states it is 'Reach a developer-first audience actively looking for AI tools, coding workflows, and technical recommendations.'
-        - Primary excerpt says 'Promote your DevTools, AI tools, or courses' and 'Just send an email to get started.'
-        - Seen in source lists as part of 'awesome-ai-coding-tools' for audience reach, not as a tool itself.
+        - Scraped site context shows it is an advertising offering for 'AI for Developers' with newsletter features, homepage ads, and sponsored placements.
+        - Primary page excerpt focuses on ad formats, targeting AI developers, and campaigns — no mention of coding assistance, AI agents, or developer tooling functionality.
+        - Source-list context indicates it appears in 'awesome-ai-coding-tools' only as an advertising opportunity, not as a curated AI coding tool itself.
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

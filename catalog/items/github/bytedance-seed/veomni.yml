@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytedance-seed__veomni__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: VeOmni
         extracted_url: https://github.com/bytedance-seed/veomni
-        surrounding_text: >-
-          52. [VeOmni](https://github.com/ByteDance-Seed/VeOmni): Scaling Any Modality Model Training with Model-Centric
-          Distributed Recipe Zoo.
+        surrounding_text: "52. [VeOmni](https://github.com/ByteDance-Seed/VeOmni): Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo."
         confidence: high
 metadata:
   github:
@@ -31,22 +29,18 @@ metadata:
     archived: false
     full_name: ByteDance-Seed/VeOmni
     html_url: https://github.com/ByteDance-Seed/VeOmni
-    created_at: '2025-03-28T03:42:42Z'
-    pushed_at: '2026-09-24T04:11:38Z'
-    description: 'VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo'
-    homepage: ''
+    created_at: "2025-03-28T03:42:42Z"
+    pushed_at: "2026-09-24T04:11:38Z"
+    description: "VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo"
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-24T04:13:05.492Z'
+    last_checked_at: "2026-09-24T04:13:05.492Z"
     readme:
-      fetched_at: '2026-09-24T04:13:05.492Z'
+      fetched_at: "2026-09-24T04:13:05.492Z"
       bytes: 10271
 insights:
-  summary: >-
-    A modular framework for scaling single- and multi-modal model pre-training and post-training across various
-    accelerators.
-  why_it_matters: >-
-    It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater
-    transparency and control during large-scale model training.
+  summary: A modular framework for scaling single- and multi-modal model pre-training and post-training across various accelerators.
+  why_it_matters: It provides a 'trainer-free' architecture that allows developers to use linear training scripts for greater transparency and control during large-scale model training.
   mental_damage: A new way to spend your compute budget watching a distributed training loop fail for reasons no one can explain.
   tags:
     - multi-modal
@@ -70,22 +64,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.818Z'
+    updated_at: "2026-05-28T05:28:09.818Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:05.492Z'
+    updated_at: "2026-09-24T04:13:05.492Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:59:39.027Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for github__bytedance-seed__veomni: Upstream error from Nvidia:
-        ResourceExhausted: Worker local total request limit reached (16/16)
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

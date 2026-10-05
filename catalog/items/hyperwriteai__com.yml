@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hyperwriteai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Otherside's AI Assistant - Hyperwrite
         anchor_text: Otherside's AI Assistant - Hyperwrite
         extracted_url: https://hyperwriteai.com
-        surrounding_text: '## [Otherside''s AI Assistant - Hyperwrite](https://www.hyperwriteai.com/)'
+        surrounding_text: "## [Otherside's AI Assistant - Hyperwrite](https://www.hyperwriteai.com/)"
         confidence: high
     - id: discovery__hyperwriteai__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -33,10 +33,10 @@ provenance:
           - Agents
         anchor_text: HyperWrite
         extracted_url: https://hyperwriteai.com
-        surrounding_text: '- [HyperWrite](https://www.hyperwriteai.com/) - HyperWrite helps you work smarter, faster, and with ease.'
+        surrounding_text: "- [HyperWrite](https://www.hyperwriteai.com/) - HyperWrite helps you work smarter, faster, and with ease."
         confidence: high
     - id: discovery__www__hyperwriteai__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +48,10 @@ provenance:
           - Otherside's AI Assistant - Hyperwrite
         anchor_text: Otherside's AI Assistant - Hyperwrite
         extracted_url: https://www.hyperwriteai.com
-        surrounding_text: '## [Otherside''s AI Assistant - Hyperwrite](https://www.hyperwriteai.com/)'
+        surrounding_text: "## [Otherside's AI Assistant - Hyperwrite](https://www.hyperwriteai.com/)"
         confidence: high
     - id: discovery__www__hyperwriteai__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -63,7 +63,7 @@ provenance:
           - Agents
         anchor_text: HyperWrite
         extracted_url: https://www.hyperwriteai.com
-        surrounding_text: '- [HyperWrite](https://www.hyperwriteai.com/) - HyperWrite helps you work smarter, faster, and with ease.'
+        surrounding_text: "- [HyperWrite](https://www.hyperwriteai.com/) - HyperWrite helps you work smarter, faster, and with ease."
         confidence: high
 metadata:
   github:
@@ -81,35 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    HyperWrite is an AI-powered writing assistant with autocomplete, web search, citation, and custom tool creation
-    features accessed via a Chrome extension and document editor.
-  why_it_matters: >-
-    It helps developers write documentation, emails, and research content faster by integrating AI suggestions directly
-    into browser-based workflows.
-  mental_damage: >-
-    Another AI writing tool promising to eliminate writer’s block while adding yet another tab to your
-    already-overloaded browser.
+  summary: HyperWrite is an AI-powered writing assistant with a Chrome extension and document editor for content generation, research, and rewriting.
+  why_it_matters: It helps developers write emails, docs, and communications faster using AI-driven autocomplete, research, and tone adjustment.
+  mental_damage: Another AI tool promising to fix your writing while you silently judge its suggestions mid-sentence.
   tags:
     - writing
-    - browser-extension
     - ai-assistant
+    - chrome-extension
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    HyperWrite is a general-purpose AI writing assistant focused on content generation, emails, and research — not
-    developer-specific tasks like coding, debugging, or codebase editing.
+  reason: HyperWrite is a general-purpose AI writing tool focused on content generation and communication, not software development workflows or coding tasks.
   evidence:
-    - >-
-      Scraped site context emphasizes 'AI writing assistant', 'content generation', 'research', 'speeches', and 'email
-      responder' with no mention of code or development workflows.
-    - >-
-      Appears in awesome-ai-agents and awesome-local-ai under generic agent sections, but its described functionality
-      aligns with writing productivity, not software development tooling.
-    - >-
-      Primary features include AutoWrite, TypeAhead, Email Response, HyperChat, and Scholar AI — all targeting broad
-      writing and communication tasks, not developer-facing agent behavior.
+    - Marketed as an AI writer for content generation, research, speeches, rewriting, and email responses
+    - Features include AI document editor, Chrome extension, AutoWrite, TypeAhead, Email Responder, and HyperChat
+    - Appears in awesome-local-ai under Agents section, but its identity is writing assistance, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -119,39 +105,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:01.857Z'
+    updated_at: "2026-10-05T04:48:35.384Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e4ffe7fbf2886e25e39d1b9636012c420bd29664eae81ec5ee5cc847c8e104f6
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:54629534366610345d502a805844b61e8d66d8019d5cc280de0a76685c722557
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        HyperWrite is a general-purpose AI writing assistant focused on content generation, emails, and research — not
-        developer-specific tasks like coding, debugging, or codebase editing.
+      decision_reason: HyperWrite is a general-purpose AI writing tool focused on content generation and communication, not software development workflows or coding tasks.
       decision_evidence:
-        - >-
-          Scraped site context emphasizes 'AI writing assistant', 'content generation', 'research', 'speeches', and
-          'email responder' with no mention of code or development workflows.
-        - >-
-          Appears in awesome-ai-agents and awesome-local-ai under generic agent sections, but its described
-          functionality aligns with writing productivity, not software development tooling.
-        - >-
-          Primary features include AutoWrite, TypeAhead, Email Response, HyperChat, and Scholar AI — all targeting broad
-          writing and communication tasks, not developer-facing agent behavior.
+        - Marketed as an AI writer for content generation, research, speeches, rewriting, and email responses
+        - Features include AI document editor, Chrome extension, AutoWrite, TypeAhead, Email Responder, and HyperChat
+        - Appears in awesome-local-ai under Agents section, but its identity is writing assistance, not developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.687Z'
+    updated_at: "2026-07-20T15:10:47.687Z"
     cause: null
     next_retry_at: null
   stars:

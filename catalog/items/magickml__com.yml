@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magickml__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Magick
         anchor_text: Magick
         extracted_url: https://magickml.com
-        surrounding_text: '## [Magick](https://www.magickml.com/)'
+        surrounding_text: "## [Magick](https://www.magickml.com/)"
         confidence: high
     - id: discovery__www__magickml__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Magick
         anchor_text: Magick
         extracted_url: https://www.magickml.com
-        surrounding_text: '## [Magick](https://www.magickml.com/)'
+        surrounding_text: "## [Magick](https://www.magickml.com/)"
         confidence: high
 metadata:
   github:
@@ -51,15 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magick is an AI agent platform for building autonomous agents with customizable skills and workflows.
-  why_it_matters: >-
-    It helps developers create and manage AI agents that can perform tasks across tools and data sources, reducing
-    manual effort in agent development.
-  mental_damage: Yet another agent builder promising 'autonomy' while you spend more time configuring skills than actually coding.
+  summary: Magick is an autonomous AI agent framework for developers to build and deploy AI agents that can perform coding and workflow tasks.
+  why_it_matters: It lets developers create custom AI agents for coding workflows without starting from scratch, accelerating agent-based development.
+  mental_damage: Another AI agent framework promising autonomy while you still spend most of your time debugging why it won’t read your .env file.
   tags:
     - ai-agents
-    - workflow
-    - automation
+    - framework
+    - autonomous
   confidence: medium
 curation:
   status: included
@@ -69,45 +67,42 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'ai-frameworks'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:50.681Z'
+    updated_at: "2026-10-05T04:49:10.908Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:585d50744d664db87f91066f800d02fc636c694059487010e9051492f9b68954
-      proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: >-
-        Magick is included as an agent orchestration platform because it focuses on coordinating multiple agents and
-        managing workflows, which aligns with the agent-orchestration category's core purpose of managing relationships
-        between agents.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b6dd9a81b61fdfbf08df98b281e54d67621dd60c8cb3aa654386208d3fcbe8fc
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: Magick is positioned as a framework for building autonomous AI agents, fitting the ai-frameworks category as a code-first SDK developers import to construct agent systems rather than being a standalone coding agent itself.
       decision_evidence:
-        - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'
-        - Described as a platform for building autonomous agents with customizable skills and workflows
-        - No evidence of being a coding agent that writes or edits code directly
+        - "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents'"
+        - URL magickml.com presents it as a platform for building AI agents
+        - No evidence it functions as a direct coding agent like Claude Code or Aider
       category_candidates:
+        - ai-frameworks
         - agent-orchestration
-        - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because Magick's primary identity is managing agent workflows and
-        coordination rather than directly performing coding tasks like writing or editing code.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Magick is primarily imported and programmed against as a library to build agents, not operated as a hosted platform or control plane for managing agent teams.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'ai-frameworks'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

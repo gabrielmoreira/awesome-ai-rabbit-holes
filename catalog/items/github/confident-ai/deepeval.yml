@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__confident-ai__deepeval__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 评估 Evaluation
         anchor_text: DeepEval
         extracted_url: https://github.com/confident-ai/deepeval
-        surrounding_text: >-
-          12. [DeepEval](https://github.com/confident-ai/deepeval): a simple-to-use, open-source LLM evaluation
-          framework, for evaluating and testing large-language model systems.
+        surrounding_text: "12. [DeepEval](https://github.com/confident-ai/deepeval): a simple-to-use, open-source LLM evaluation framework, for evaluating and testing large-language model systems."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: confident-ai/deepeval
     html_url: https://github.com/confident-ai/deepeval
-    created_at: '2023-08-10T05:35:04Z'
-    pushed_at: '2026-09-13T09:24:30Z'
+    created_at: "2023-08-10T05:35:04Z"
+    pushed_at: "2026-09-13T09:24:30Z"
     description: The LLM Evaluation Framework
     homepage: https://deepeval.com
     topics:
@@ -42,15 +40,13 @@ metadata:
       - llm-evaluation-framework
       - llm-evaluation-metrics
       - python
-    last_checked_at: '2026-09-14T04:13:28.465Z'
+    last_checked_at: "2026-09-14T04:13:28.465Z"
     readme:
-      fetched_at: '2026-09-14T04:13:28.465Z'
+      fetched_at: "2026-09-14T04:13:28.465Z"
       bytes: 28859
 insights:
   summary: An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots.
-  why_it_matters: >-
-    It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with
-    research-backed metrics like G-Eval and task completion.
+  why_it_matters: It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
   mental_damage: Finally, a way to prove your LLM app is bad before your users do.
   tags:
     - evaluation
@@ -74,17 +70,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.608Z'
+    updated_at: "2026-05-06T22:12:15.608Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:28.465Z'
+    updated_at: "2026-09-14T04:13:28.465Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -99,20 +95,14 @@ processing:
       input_hash: sha256:ff655d60c70066c140850f9aa1983c35c93cec61b5b3d6451a92a7ff35859f2c
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: >-
-        The core product is a framework for measuring, scoring, and regression-testing LLM behavior, which aligns
-        perfectly with the Evals & Benchmarks category.
+      decision_reason: The core product is a framework for measuring, scoring, and regression-testing LLM behavior, which aligns perfectly with the Evals & Benchmarks category.
       decision_evidence:
-        - 'Repo description: ''The LLM Evaluation Framework'''
-        - >-
-          README: 'DeepEval is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language
-          model systems'
-        - 'Source-list context: Listed under ''评估 Evaluation'' in awesome-LLM-resources'
+        - "Repo description: 'The LLM Evaluation Framework'"
+        - "README: 'DeepEval is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems'"
+        - "Source-list context: Listed under '评估 Evaluation' in awesome-LLM-resources"
       category_candidates:
         - evals
         - ai-frameworks
-      contrastive_reason: >-
-        Choose evals over ai-frameworks because the primary job is evaluation and benchmarking rather than being a
-        general-purpose SDK or library for building AI workflows.
+      contrastive_reason: Choose evals over ai-frameworks because the primary job is evaluation and benchmarking rather than being a general-purpose SDK or library for building AI workflows.
       review_reason: null
       review_resume_lifecycle: null

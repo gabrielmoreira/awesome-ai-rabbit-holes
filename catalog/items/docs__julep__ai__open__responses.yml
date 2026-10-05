@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__julep__ai__open__responses__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,7 @@ provenance:
           - Frameworks/Servers for Serving
         anchor_text: Open Responses
         extracted_url: https://docs.julep.ai/open-responses
-        surrounding_text: >-
-          | [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building
-          long-running LLM agents with tool use. | ![GitHub
-          Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |
+        surrounding_text: "| [Open Responses](https://docs.julep.ai/open-responses) | Serverless open-source platform for building long-running LLM agents with tool use. | ![GitHub Badge](https://img.shields.io/github/stars/julep-ai/julep.svg?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -40,29 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    open-responses is a Julep.ai documentation page describing a feature for handling streaming or asynchronous
-    responses in AI agent workflows.
-  why_it_matters: >-
-    It helps developers manage real-time or deferred AI responses in agent systems, improving UX in interactive
-    applications.
-  mental_damage: Another doc page promising seamless async UX while you debug why your agent keeps hanging on the third turn.
-  tags:
-    - ai-agents
-    - workflow
-    - documentation
+  summary: Open-responses is a documentation page for Julep AI's open-response feature, not a standalone developer tool.
+  why_it_matters: It does not provide any developer-facing functionality, SDK, agent, or infrastructure that software developers can use or integrate.
+  mental_damage: Another documentation page mistaken for a tool, contributing to the noise of AI resources that promise utility but deliver only explanations.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the
-    identity of a functional tool to be cataloged.
+  reason: The input is a documentation page, not a product, tool, or developer-facing utility; it lacks any executable agent, framework, SDK, or workflow functionality.
   evidence:
-    - URL points to docs.julep.ai/open-responses, a documentation subsection
-    - No repo, stars, or product signals provided; only a doc page is referenced
-    - >-
-      Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to the
-      parent project, not this doc page
+    - URL points to docs.julep.ai/open-responses, indicating it is documentation
+    - No repo description, stars, topics, or activity signals provided — no evidence of a standalone tool
+    - Listed in Awesome-LLMOps under Serving > Frameworks/Servers, but this is likely a misplacement or indirect reference
 placement:
   primary_category: null
   secondary_categories: []
@@ -73,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,28 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:38:31.259Z'
+    updated_at: "2026-10-05T04:31:36.461Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a9123d6d3ac983e474db8a5e402d8c4b5e7a5062bb638b97e941e9356a3934ca
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fde4276fe3c8d6879b168d38232d0e02b5926e07510a11f717d32fd702ebb43b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input is a documentation page, not a standalone product, tool, or developer-facing runtime; it lacks the
-        identity of a functional tool to be cataloged.
+      decision_reason: The input is a documentation page, not a product, tool, or developer-facing utility; it lacks any executable agent, framework, SDK, or workflow functionality.
       decision_evidence:
-        - URL points to docs.julep.ai/open-responses, a documentation subsection
-        - No repo, stars, or product signals provided; only a doc page is referenced
-        - >-
-          Source-list context shows inclusion in Awesome-LLMOps under Serving > Frameworks/Servers, but this refers to
-          the parent project, not this doc page
+        - URL points to docs.julep.ai/open-responses, indicating it is documentation
+        - No repo description, stars, topics, or activity signals provided — no evidence of a standalone tool
+        - Listed in Awesome-LLMOps under Serving > Frameworks/Servers, but this is likely a misplacement or indirect reference
       category_candidates: []
       contrastive_reason: null
       review_reason: null

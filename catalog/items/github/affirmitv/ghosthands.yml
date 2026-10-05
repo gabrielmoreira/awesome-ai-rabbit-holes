@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__affirmitv__ghosthands__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: ghosthands
         extracted_url: https://github.com/affirmitv/ghosthands
-        surrounding_text: >-
-          | [ghosthands](https://github.com/affirmitv/ghosthands) | ★ 51 | Python | 2026-09-23 | Give an agent real
-          hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for hands, a vision
-          grounding model for eyes, any LLM for a brain. |
+        surrounding_text: "| [ghosthands](https://github.com/affirmitv/ghosthands) | ★ 51 | Python | 2026-09-23 | Give an agent real hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for hands, a vision grounding model for eyes, any LLM for a brain. |"
         confidence: high
 metadata:
   github:
@@ -33,21 +30,17 @@ metadata:
     archived: false
     full_name: affirmitv/ghosthands
     html_url: https://github.com/affirmitv/ghosthands
-    created_at: '2026-08-27T20:33:15Z'
-    pushed_at: '2026-09-25T04:11:13Z'
-    description: >-
-      Give an agent real hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for
-      hands, a vision grounding model for eyes, any LLM for a brain.
+    created_at: "2026-08-27T20:33:15Z"
+    pushed_at: "2026-09-25T04:11:13Z"
+    description: "Give an agent real hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for hands, a vision grounding model for eyes, any LLM for a brain."
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:30.509Z'
+    last_checked_at: "2026-09-29T13:08:30.509Z"
     readme:
-      fetched_at: '2026-09-29T13:08:30.509Z'
+      fetched_at: "2026-09-29T13:08:30.509Z"
       bytes: 19816
 insights:
-  summary: >-
-    Give an agent real hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for
-    hands, a vision grounding model for eyes, any LLM for a brain.
+  summary: "Give an agent real hands and eyes: undetectable, DOM-independent GUI automation. A $4 USB-HID microcontroller for hands, a vision grounding model for eyes, any LLM for a brain."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -57,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
     - jev-latest choice confidence 0.88
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed decision-models / Browser & Computer Use; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed decision-models / Browser & Computer Use; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -71,15 +62,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:30.509Z'
+    updated_at: "2026-09-29T13:08:30.509Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:15:13.187Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__affirmitv__ghosthands: provider stop reason: length"
+    next_retry_at: null
+    attempts: 1

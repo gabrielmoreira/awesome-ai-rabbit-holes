@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nlp__book__swufenlp__group__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,31 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A curated list of NLP and LLM resources including books and course materials focused on large language model theory
-    and applications.
-  why_it_matters: >-
-    Provides developers with structured educational resources to learn LLM fundamentals and applications, supporting
-    self-directed learning in AI development.
-  mental_damage: Another link farm promising enlightenment while you drown in unread PDFs and outdated course slides.
+  summary: A Chinese textbook series on NLP and large language models covering theory, applications, and AI agent products, published by Mechanical Industry Press.
+  why_it_matters: Provides structured educational material for developers seeking to understand LLM fundamentals and applied AI agent development.
+  mental_damage: Another PDF-heavy resource dump pretending to be a tool, adding to the stack of unread materials developers collect but never actually use.
   tags:
-    - resources
     - books
     - llm
     - nlp
-    - education
+    - ai-education
+    - chinese-language
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational resource list, not a developer tool, agent, framework, or infrastructure product that changes
-    software development workflows.
+  reason: The resource is an educational book series and accompanying promotional site, not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - Described as a book list and resource summary for LLM materials including course PPTs and WeChat public accounts
-    - >-
-      Primary content consists of book citations and downloadable educational resources, not executable tools or
-      platforms
-    - Appears in awesome-LLM-resources under the 'Book' section as a curated list of publications
+    - Described as a trilogy of books on NLP, large model applications, and AI agent products from Mechanical Industry Press
+    - Primary content includes book citations, publisher details, ISBNs, and promotional WeChat channels for course materials
+    - No indication of being a deployable tool, library, agent, or infrastructure; serves as educational/resource directory
 placement:
   primary_category: null
   section: null
@@ -70,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,30 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:42.598Z'
+    updated_at: "2026-10-05T04:42:34.912Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3ffdbd945484fe234fdd33b2d0663016027c3a9ad7a2719b11be963b51482faa
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:87cef93a5b9e228599f589ef30bdeed5d6e1deb33f253612e39d49e8abe49f50
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational resource list, not a developer tool, agent, framework, or infrastructure product that
-        changes software development workflows.
+      decision_reason: The resource is an educational book series and accompanying promotional site, not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - >-
-          Described as a book list and resource summary for LLM materials including course PPTs and WeChat public
-          accounts
-        - >-
-          Primary content consists of book citations and downloadable educational resources, not executable tools or
-          platforms
-        - Appears in awesome-LLM-resources under the 'Book' section as a curated list of publications
+        - Described as a trilogy of books on NLP, large model applications, and AI agent products from Mechanical Industry Press
+        - Primary content includes book citations, publisher details, ISBNs, and promotional WeChat channels for course materials
+        - No indication of being a deployable tool, library, agent, or infrastructure; serves as educational/resource directory
       category_candidates: []
       contrastive_reason: null
       review_reason: null

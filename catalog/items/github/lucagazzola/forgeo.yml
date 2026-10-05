@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lucagazzola__forgeo__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Forgeo
         extracted_url: https://github.com/lucagazzola/forgeo
-        surrounding_text: >-
-          - **[Forgeo](https://github.com/lucaGazzola/forgeo)** – Scheduled, agent-driven software factory that works a
-          JSON backlog with your coding agent (Claude Code, Codex, opencode), committing each result to the default
-          branch and running a refactoring pass when the backlog is empty.
+        surrounding_text: "- **[Forgeo](https://github.com/lucaGazzola/forgeo)** – Scheduled, agent-driven software factory that works a JSON backlog with your coding agent (Claude Code, Codex, opencode), committing each result to the default branch and running a refactoring pass when the backlog is empty."
         confidence: high
 metadata:
   github:
@@ -40,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Forgeo – Scheduled, agent-driven software factory that works a JSON backlog with your coding agent (Claude Code,
-    Codex, opencode), committing each result to the default branch and running a refactoring pass when the backlog is
-    empty.
+  summary: Forgeo – Scheduled, agent-driven software factory that works a JSON backlog with your coding agent (Claude Code, Codex, opencode), committing each result to the default branch and running a refactoring pass when the backlog is empty.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

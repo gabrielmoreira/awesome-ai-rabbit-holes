@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__forge__web__rebaselabs__online__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - App Builders
         anchor_text: Forge
         extracted_url: https://forge-web.rebaselabs.online
-        surrounding_text: >-
-          - **[Forge](https://forge-web.rebaselabs.online)** – BYOK full-stack app creator — use your own API key
-          (Anthropic, OpenAI, Google) with no markup. Multi-stage pipeline generates production-ready Next.js apps from
-          natural language.
+        surrounding_text: "- **[Forge](https://forge-web.rebaselabs.online)** – BYOK full-stack app creator — use your own API key (Anthropic, OpenAI, Google) with no markup. Multi-stage pipeline generates production-ready Next.js apps from natural language."
         confidence: high
 metadata:
   github:
@@ -39,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered application builder for generating web-based applications from prompts.
-  why_it_matters: >-
-    It accelerates the path from idea to functional web scaffold by automating the initial generation and deployment of
-    site structures.
-  mental_damage: >-
-    Another way to generate a functional frontend in thirty seconds, ensuring you spend the rest of your afternoon
-    debugging the logic the AI hallucinated.
+  summary: Forge is a web-based AI app builder that generates complete applications from natural language prompts.
+  why_it_matters: It lets developers go from idea to deployable app without writing code, accelerating prototyping and internal tool creation.
+  mental_damage: The quiet dread of watching your junior engineer’s job description get rewritten as ‘write better prompts for Forge’.
   tags:
     - app-builder
-    - low-code
     - prompt-to-app
+    - no-code
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Forge matches the App Builders category by generating deployable apps from prompts, as evidenced by its listing in the awesome-ai-coding-tools App Builders section and its self-described function as a prompt-to-application tool.
   evidence:
-    - jev-latest choice confidence 0.95
+    - Listed in awesome-ai-coding-tools under the App Builders section
+    - URL forge-web.rebaselabs.online suggests a web interface for AI-generated applications
+    - No indication of editing existing codebases; aligns with prompt-to-app workflow
 placement:
   primary_category: app-builders
   secondary_categories: []
   section: Full App Builders
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: low confidence'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:57.330Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for forge__web__rebaselabs__online: Invalid AI response structure: Missing
-        required field: mental_damage
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:21.205Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:590e1cdd3ed488b57b904a32bde494c7b7242746d1758be9196b7bc83b5c6b70
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0e5fd7b92c6b0e419be4d1a7e32a97db9ccb425773cee9b440bbed6ba43b9966
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform
-        for turning prompts into deployed web apps.
+      decision_reason: Forge matches the App Builders category by generating deployable apps from prompts, as evidenced by its listing in the awesome-ai-coding-tools App Builders section and its self-described function as a prompt-to-application tool.
       decision_evidence:
         - Listed in awesome-ai-coding-tools under the App Builders section
-        - URL suggests a hosted web interface for application generation
-        - No evidence of coding agent behavior like editing existing repos or terminal-based code manipulation
+        - URL forge-web.rebaselabs.online suggests a web interface for AI-generated applications
+        - No indication of editing existing codebases; aligns with prompt-to-app workflow
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because the tool is categorized as a platform for creating new apps from
-        prompts rather than an assistant for editing existing codebases.
-      review_reason: 'Categorization review required: low confidence'
+      contrastive_reason: Choose app-builders over coding-agents because Forge generates new apps from prompts rather than editing or assisting within an existing codebase, which is the defining behavior of coding agents.
+      review_reason: null
       review_resume_lifecycle: null

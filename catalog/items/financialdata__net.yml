@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__financialdata__net__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,11 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: FinancialData.Net
         extracted_url: https://financialdata.net
-        surrounding_text: >-
-          - [financialdatanet/mcp-server](https://github.com/financialdatanet/mcp-server) 🐍 🏠 🪟 🐧 -
-          [FinancialData.Net](https://financialdata.net/) MCP server allows you to retrieve end-of-day and intraday
-          stock market data, company financial statements, insider and institutional trading data, sustainability data,
-          earnings releases, and much more.
+        surrounding_text: "- [financialdatanet/mcp-server](https://github.com/financialdatanet/mcp-server) 🐍 🏠 🪟 🐧 - [FinancialData.Net](https://financialdata.net/) MCP server allows you to retrieve end-of-day and intraday stock market data, company financial statements, insider and institutional trading data, sustainability data, earnings releases, and much more."
         confidence: high
 metadata:
   github:
@@ -41,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A REST API providing real-time and historical financial market data, including stocks, ETFs, and crypto.
-  why_it_matters: Provides a structured data source for developers building fintech applications or trading bots.
-  mental_damage: >-
-    Because nothing says 'developer productivity' like debugging a complex candlestick charting component for three
-    hours.
+  summary: FinancialData.Net provides a REST API for real-time and historical stock market data, financial statements, and alternative data for global equities, ETFs, indices, derivatives, OTC, and crypto.
+  why_it_matters: Developers building financial applications, trading systems, or AI-driven investment tools can integrate reliable, institutional-grade market data via a simple API without managing data pipelines.
+  mental_damage: Another financial data API promising 'alternative insights' while quietly hoping your LLM will hallucinate alpha from insider-trading feeds.
   tags:
     - financial-data
-    - api
-    - stock-market
+    - market-data
+    - stock-api
+    - rest-api
+    - investment
   confidence: high
 curation:
   status: excluded
-  reason: FinancialData.Net is a financial data API provider with no developer-facing AI tooling, agent, framework, or workflow component; it serves as general infrastructure unrelated to AI-assisted software development.
+  reason: FinancialData.Net is a generic financial data API with no developer-facing AI tooling, agent integration, or workflow-specific features; it serves as infrastructure for finance apps, not AI-assisted software development.
   evidence:
-    - Scraped site context describes the product as delivering real-time and historical stock data, financial statements, and trading data via REST API
-    - No mention of AI agents, coding assistance, model integration, or developer tooling in the product's own pitch or documentation
-    - Product identity is financial data delivery, not AI tooling for developers
+    - The site promotes real-time/historical stock data, financial statements, and alternative data for investment decisions via REST API
+    - No mention of AI agents, coding assistance, prompt engineering, MCP integration, or developer tooling in the README or site context
+    - Positioned as a data source for professionals and institutions, not as a tool that enhances AI development workflows
 placement:
   primary_category: null
   section: null
@@ -67,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,29 +71,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:28.134Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for financialdata__net: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (576/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:11.914Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:73be9c7d1fc30ef10792e6acc84554815b01f17e2ac4c32cc643d396920f4d7e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e02372fb4d7062d68d8ea76f0d1b5c54b604fcd9770b1185a208c0d3f651fa8a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: FinancialData.Net is a financial data API provider with no developer-facing AI tooling, agent, framework, or workflow component; it serves as general infrastructure unrelated to AI-assisted software development.
+      decision_reason: FinancialData.Net is a generic financial data API with no developer-facing AI tooling, agent integration, or workflow-specific features; it serves as infrastructure for finance apps, not AI-assisted software development.
       decision_evidence:
-        - Scraped site context describes the product as delivering real-time and historical stock data, financial statements, and trading data via REST API
-        - No mention of AI agents, coding assistance, model integration, or developer tooling in the product's own pitch or documentation
-        - Product identity is financial data delivery, not AI tooling for developers
+        - The site promotes real-time/historical stock data, financial statements, and alternative data for investment decisions via REST API
+        - No mention of AI agents, coding assistance, prompt engineering, MCP integration, or developer tooling in the README or site context
+        - Positioned as a data source for professionals and institutions, not as a tool that enhances AI development workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

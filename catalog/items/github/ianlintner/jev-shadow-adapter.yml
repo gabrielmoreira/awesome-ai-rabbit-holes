@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ianlintner__jev-shadow-adapter__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-shadow-adapter
         extracted_url: https://github.com/ianlintner/jev-shadow-adapter
-        surrounding_text: >-
-          - [jev-shadow-adapter](https://github.com/ianlintner/jev-shadow-adapter) - Shadow-mode observational adapter
-          harness for TypeSafe Jev routing decisions, with an MkDocs GitHub Pages site. [Project
-          guide](community/projects/tools/ianlintner-jev-shadow-adapter.md).
+        surrounding_text: "- [jev-shadow-adapter](https://github.com/ianlintner/jev-shadow-adapter) - Shadow-mode observational adapter harness for TypeSafe Jev routing decisions, with an MkDocs GitHub Pages site. [Project guide](community/projects/tools/ianlintner-jev-shadow-adapter.md)."
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.460Z'
+    updated_at: "2026-09-29T13:07:10.460Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

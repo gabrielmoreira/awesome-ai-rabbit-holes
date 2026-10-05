@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aabbaass1__jev-router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-router (AABBAASS1)
         extracted_url: https://github.com/aabbaass1/jev-router
-        surrounding_text: >-
-          - [jev-router (AABBAASS1)](https://github.com/AABBAASS1/jev-router) - Route any task to the right AI agent in
-          under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor, and Antigravity with
-          auto-launch on macOS, Windows, and Linux.
+        surrounding_text: "- [jev-router (AABBAASS1)](https://github.com/AABBAASS1/jev-router) - Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor, and Antigravity with auto-launch on macOS, Windows, and Linux."
         confidence: high
     - id: discovery__github__aabbaass1__jev-router__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-router**'
+        anchor_text: "**jev-router**"
         extracted_url: https://github.com/aabbaass1/jev-router
-        surrounding_text: >-
-          - [**jev-router**](https://github.com/AABBAASS1/jev-router) — Route any task to the right AI agent in under 1
-          second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor, and Antigravity with auto-launch on
-          macOS, Windows, and Linux.
+        surrounding_text: "- [**jev-router**](https://github.com/AABBAASS1/jev-router) — Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor, and Antigravity with auto-launch on macOS, Windows, and Linux."
         confidence: high
 metadata:
   github:
@@ -50,30 +44,31 @@ metadata:
     archived: false
     full_name: AABBAASS1/jev-router
     html_url: https://github.com/AABBAASS1/jev-router
-    created_at: '2026-09-21T14:14:49Z'
-    pushed_at: '2026-09-21T14:16:44Z'
-    description: >-
-      Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT,
-      Cursor, and Antigravity with auto-launch on macOS, Windows, and Linux.
+    created_at: "2026-09-21T14:14:49Z"
+    pushed_at: "2026-09-21T14:16:44Z"
+    description: Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT, Cursor, and Antigravity with auto-launch on macOS, Windows, and Linux.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:20.577Z'
+    last_checked_at: "2026-09-29T13:08:20.577Z"
     readme:
-      fetched_at: '2026-09-29T13:08:20.577Z'
+      fetched_at: "2026-09-29T13:08:20.577Z"
       bytes: 1077
 insights:
-  summary: >-
-    Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One). Supports Claude, ChatGPT,
-    Cursor, and Antigravity with auto-launch on macOS, Windows, and Linux.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Jev-based task router that directs any task to the appropriate AI agent in under one second with cross-platform auto-launch support.
+  why_it_matters: It reduces context-switching friction by automatically routing developer tasks to specialized AI agents without manual intervention.
+  mental_damage: Yet another layer in the agent-industrial complex promising seamless routing while adding yet another YAML file to your mental load.
+  tags:
+    - jev
+    - task-routing
+    - ai-agents
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The tool's core identity is routing tasks via Jev decision-model judgments, making it a decision-model agent gate rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.80
+    - "Repo description: 'Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One)'"
+    - Seen in source list 'awesome-jev' under section 'Agent tooling'
+    - Created and pushed within 2 minutes on 2026-09-21, indicating recent activity
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -84,15 +79,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:20.577Z'
+    updated_at: "2026-09-29T13:08:20.577Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:28.037Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b21df3423cd5ec82ef1692fa13ba6cc7508090efd11c9d4bd013994e2b020c04
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is routing tasks via Jev decision-model judgments, making it a decision-model agent gate rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Route any task to the right AI agent in under 1 second using Jev (TypeSafe System One)'"
+        - Seen in source list 'awesome-jev' under section 'Agent tooling'
+        - Created and pushed within 2 minutes on 2026-09-21, indicating recent activity
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's primary function is routing via Jev judgments, not performing coding tasks autonomously.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

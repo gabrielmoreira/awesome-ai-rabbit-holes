@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__24601__rh-guard__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: rh-guard
         extracted_url: https://github.com/24601/rh-guard
-        surrounding_text: >-
-          - [rh-guard](https://github.com/24601/rh-guard) ([site](https://24601.github.io/rh-guard/)) - Reward-hack
-          radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks.
+        surrounding_text: "- [rh-guard](https://github.com/24601/rh-guard) ([site](https://24601.github.io/rh-guard/)) - Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: 24601/rh-guard
     html_url: https://github.com/24601/rh-guard
-    created_at: '2026-09-17T22:28:26Z'
-    pushed_at: '2026-09-28T16:11:41Z'
-    description: >-
-      Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor
-      hooks
+    created_at: "2026-09-17T22:28:26Z"
+    pushed_at: "2026-09-28T16:11:41Z"
+    description: "Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks"
     homepage: https://24601.github.io/rh-guard/
     topics:
       - agent-hooks
@@ -54,14 +50,12 @@ metadata:
       - reward-hacking
       - system-one
       - typesafe
-    last_checked_at: '2026-09-29T13:08:16.813Z'
+    last_checked_at: "2026-09-29T13:08:16.813Z"
     readme:
-      fetched_at: '2026-09-29T13:08:16.813Z'
+      fetched_at: "2026-09-29T13:08:16.813Z"
       bytes: 512000
 insights:
-  summary: >-
-    Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor
-    hooks
+  summary: "Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -71,9 +65,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
     - jev-latest choice confidence 0.86
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -85,15 +77,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:16.813Z'
+    updated_at: "2026-09-29T13:08:16.813Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:10:39.829Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__24601__rh-guard: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

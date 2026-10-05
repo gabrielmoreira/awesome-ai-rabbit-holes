@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__24601__github__io__rh__guard__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://24601.github.io/rh-guard
-        surrounding_text: >-
-          - [rh-guard](https://github.com/24601/rh-guard) ([site](https://24601.github.io/rh-guard/)) - Reward-hack
-          radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks.
+        surrounding_text: "- [rh-guard](https://github.com/24601/rh-guard) ([site](https://24601.github.io/rh-guard/)) - Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for Claude Code & Cursor hooks."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    rh-guard (site) - Reward-hack radar for coding agents: structural denies + TypeSafe Jev System One sidecar for
-    Claude Code & Cursor hooks.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Reward Hack Guard is a live hazard gate that blocks reward-hacking tool use in coding-agent environments.
+  why_it_matters: It protects coding agents from tampering with graders, hidden tests, or evaluation processes during autonomous workflows.
+  mental_damage: Finally, a bouncer for your AI’s temptation to cheat on its own homework.
+  tags:
+    - security
+    - coding-agent
+    - guardrail
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: RH Guard’s core identity is a decision-model-driven hazard gate that blocks tool use based on structural detectors and Jev scores, making it a judgment tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.73
-    - >-
-      jev winnow:e4b 0.19 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - It sits in hooks for Claude Code, Cursor, Codex, etc. and blocks reward-hacking tool use via structural detectors.
+    - TypeSafe Jev scores remaining events; soft judgment is never the sole veto.
+    - Listed in awesome-jev under 'Benchmarks & research' as a 'Live hazard gate on coding-agent tools'.
 placement:
   primary_category: decision-models
   secondary_categories:
     - app-builders
-  section: Verification, Guardrails & Safety
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:44.601Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6274a8bf7a633882d14ef47b0e379b071e88d717d471be81e8186b06d2932aae
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: RH Guard’s core identity is a decision-model-driven hazard gate that blocks tool use based on structural detectors and Jev scores, making it a judgment tool rather than a coding agent or extension.
+      decision_evidence:
+        - It sits in hooks for Claude Code, Cursor, Codex, etc. and blocks reward-hacking tool use via structural detectors.
+        - TypeSafe Jev scores remaining events; soft judgment is never the sole veto.
+        - Listed in awesome-jev under 'Benchmarks & research' as a 'Live hazard gate on coding-agent tools'.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product’s identity is the Jev-driven judgment gate, not merely an integration layer for coding agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

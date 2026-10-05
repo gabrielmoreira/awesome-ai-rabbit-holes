@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jev-chat__jev-chat-jarvis-ios__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Applications
         anchor_text: jev-chat-jarvis-ios
         extracted_url: https://github.com/jev-chat/jev-chat-jarvis-ios
-        surrounding_text: >-
-          - [jev-chat-jarvis-ios](https://github.com/jev-chat/jev-chat-jarvis-ios) - IPhone 键盘版：一个自定义键盘打通所有聊天
-          App——长按复制对方消息，键盘上出意图、风险与候选回复，点一下进输入框。只读剪贴板，源码形式（需自行用 Xcode 编译安装）。
+        surrounding_text: "- [jev-chat-jarvis-ios](https://github.com/jev-chat/jev-chat-jarvis-ios) - IPhone 键盘版：一个自定义键盘打通所有聊天 App——长按复制对方消息，键盘上出意图、风险与候选回复，点一下进输入框。只读剪贴板，源码形式（需自行用 Xcode 编译安装）。"
         confidence: high
 metadata:
   github:
@@ -48,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv1pf4m1v7fb__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,12 +18,10 @@ provenance:
           - 技巧 Tips
         anchor_text: 轻松入门大语言模型（LLM）
         extracted_url: https://bilibili.com/video/BV1pF4m1V7FB
-        surrounding_text: >-
-          4.
-          [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
+        surrounding_text: 4. [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
     - id: discovery__www__bilibili__com__video__bv1pf4m1v7fb__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,9 +33,7 @@ provenance:
           - 技巧 Tips
         anchor_text: 轻松入门大语言模型（LLM）
         extracted_url: https://www.bilibili.com/video/BV1pF4m1V7FB
-        surrounding_text: >-
-          4.
-          [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
+        surrounding_text: 4. [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
 metadata:
   github:
@@ -55,36 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    This is a Bilibili video tutorial introducing LLM text generation technology, covering its history, pre-training,
-    fine-tuning, usage, and evaluation for beginners.
-  why_it_matters: >-
-    It serves as an educational resource for developers seeking foundational knowledge about LLMs and their practical
-    application in text generation.
-  mental_damage: >-
-    Yet another video tutorial promising to 'easily introduce' LLMs, adding to the endless backlog of content developers
-    feel guilty for not watching.
+  summary: A Bilibili video tutorial series introducing text generation with large language models, covering their history, pretraining, adaptation, usage, and evaluation.
+  why_it_matters: Provides an educational resource for developers new to LLMs who want foundational knowledge before using AI coding tools.
+  mental_damage: Another reminder that you’ll spend more time watching tutorials than writing code, all while the field moves faster than your playlist.
   tags:
     - llm
     - tutorial
     - education
-    - nlp
-    - ai
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational video resource, not a developer-facing AI tool, agent, workflow, or infrastructure product;
-    it lacks any executable tooling, SDK, agent behavior, or workflow integration relevant to software development
-    practices.
+  reason: Excluded because it is an educational video resource with no developer-facing tool, workflow integration, or product identity relevant to AI-assisted software development.
   evidence:
-    - 'The source is a Bilibili video (BV1pF4m1V7FB) titled ''轻松入门大语言模型（LLM）: 总篇集'' with no associated GitHub repo or tool.'
-    - >-
-      The README/scraped context describes it as a tutorial covering LLM history, pre-training, fine-tuning, usage, and
-      evaluation — purely educational content.
-    - >-
-      It appears in 'awesome-LLM-resources' under the '技巧 Tips' section as a learning resource, not as a tool or
-      framework for developers to use in workflows.
+    - Scraped site context identifies it as a Bilibili video tutorial titled '轻松入门大语言模型（LLM）' with slides and lecture content
+    - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as part of a general LLM resource summary
+    - No GitHub repo, stars, code, CLI, SDK, agent, or tooling is associated with the entry — only a video lecture series
 placement:
   primary_category: null
   section: null
@@ -94,40 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:18.104Z'
+    updated_at: "2026-10-05T04:46:28.436Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:14501debc40cc18501407401f2e5d980cdfc1763b7c022d022615cd63b4c60a6
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9896078e37fc4050a42f13d3516d073ca09d7559f478704802a33d91708813e1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational video resource, not a developer-facing AI tool, agent, workflow, or infrastructure
-        product; it lacks any executable tooling, SDK, agent behavior, or workflow integration relevant to software
-        development practices.
+      decision_reason: Excluded because it is an educational video resource with no developer-facing tool, workflow integration, or product identity relevant to AI-assisted software development.
       decision_evidence:
-        - >-
-          The source is a Bilibili video (BV1pF4m1V7FB) titled '轻松入门大语言模型（LLM）: 总篇集' with no associated GitHub repo or
-          tool.
-        - >-
-          The README/scraped context describes it as a tutorial covering LLM history, pre-training, fine-tuning, usage,
-          and evaluation — purely educational content.
-        - >-
-          It appears in 'awesome-LLM-resources' under the '技巧 Tips' section as a learning resource, not as a tool or
-          framework for developers to use in workflows.
+        - Scraped site context identifies it as a Bilibili video tutorial titled '轻松入门大语言模型（LLM）' with slides and lecture content
+        - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as part of a general LLM resource summary
+        - No GitHub repo, stars, code, CLI, SDK, agent, or tooling is associated with the entry — only a video lecture series
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.365Z'
+    updated_at: "2026-07-20T16:42:15.365Z"
     cause: null
     next_retry_at: null
   stars:

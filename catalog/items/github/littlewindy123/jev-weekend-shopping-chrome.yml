@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__littlewindy123__jev-weekend-shopping-chrome__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: jev-weekend-shopping-chrome
         extracted_url: https://github.com/littlewindy123/jev-weekend-shopping-chrome
-        surrounding_text: >-
-          - [jev-weekend-shopping-chrome](https://github.com/littlewindy123/jev-weekend-shopping-chrome) -
-          把对双休的支持，带进每一次购物。逛淘宝、京东时，JEV 实时猜测商品背后的工作制，疑似非双休直接盖上 PASS。原页生效，边逛边选。
+        surrounding_text: "- [jev-weekend-shopping-chrome](https://github.com/littlewindy123/jev-weekend-shopping-chrome) - 把对双休的支持，带进每一次购物。逛淘宝、京东时，JEV 实时猜测商品背后的工作制，疑似非双休直接盖上 PASS。原页生效，边逛边选。"
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.465Z'
+    updated_at: "2026-09-29T13:07:10.465Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

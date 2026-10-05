@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__irfndi__prism-liquidity-agent__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Applications (129)
         anchor_text: prism-liquidity-agent
         extracted_url: https://github.com/irfndi/prism-liquidity-agent
-        surrounding_text: >-
-          | [prism-liquidity-agent](https://github.com/irfndi/prism-liquidity-agent) | ★ 69 | TypeScript | 2026-09-22 |
-          Solana liquidity agent with optional Jev shadow judgments for deposit choice, toxic flow, and market-regime
-          stress. |
+        surrounding_text: "| [prism-liquidity-agent](https://github.com/irfndi/prism-liquidity-agent) | ★ 69 | TypeScript | 2026-09-22 | Solana liquidity agent with optional Jev shadow judgments for deposit choice, toxic flow, and market-regime stress. |"
         confidence: high
     - id: discovery__github__irfndi__prism-liquidity-agent__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**Prism**'
+        anchor_text: "**Prism**"
         extracted_url: https://github.com/irfndi/prism-liquidity-agent
-        surrounding_text: >-
-          - [**Prism**](https://github.com/irfndi/prism-liquidity-agent) — A Solana liquidity Agent with Jev shadow
-          judgments compared against rule-based decisions.
+        surrounding_text: "- [**Prism**](https://github.com/irfndi/prism-liquidity-agent) — A Solana liquidity Agent with Jev shadow judgments compared against rule-based decisions."
         confidence: high
 metadata:
   github:
@@ -78,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.416Z'
+    updated_at: "2026-09-29T13:07:10.416Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

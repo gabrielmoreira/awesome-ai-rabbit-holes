@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__revsmoke__promptrejectormcp__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Prompt Rejector
         extracted_url: https://github.com/revsmoke/promptrejectormcp
-        surrounding_text: >-
-          - [Prompt Rejector](https://github.com/revsmoke/promptrejectormcp) - MCP/HTTPS screening for prompts, skills,
-          and tool descriptions with TypeSafe Jev plus deterministic checks. [Project
-          guide](community/projects/tools/prompt-rejector.md).
+        surrounding_text: "- [Prompt Rejector](https://github.com/revsmoke/promptrejectormcp) - MCP/HTTPS screening for prompts, skills, and tool descriptions with TypeSafe Jev plus deterministic checks. [Project guide](community/projects/tools/prompt-rejector.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Prompt Rejector - MCP/HTTPS screening for prompts, skills, and tool descriptions with TypeSafe Jev plus
-    deterministic checks. Project guide.
+  summary: Prompt Rejector - MCP/HTTPS screening for prompts, skills, and tool descriptions with TypeSafe Jev plus deterministic checks. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -53,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
     - jev-latest choice confidence 0.93
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
-      at decision-models (unverified)
+    - jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

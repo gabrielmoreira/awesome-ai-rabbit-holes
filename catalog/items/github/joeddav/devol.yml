@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joeddav__devol__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - AutoML
         anchor_text: DEvol (DeepEvolution)
         extracted_url: https://github.com/joeddav/devol
-        surrounding_text: >-
-          | [DEvol (DeepEvolution)](https://github.com/joeddav/devol)                    | a basic proof of concept for
-          genetic architecture search in
-          Keras.                                                                                                             
-          | ![GitHub Badge](https://img.shields.io/github/stars/joeddav/devol.svg?style=flat-square)                   |
+        surrounding_text: "| [DEvol (DeepEvolution)](https://github.com/joeddav/devol)                    | a basic proof of concept for genetic architecture search in Keras.                                                                                                              | ![GitHub Badge](https://img.shields.io/github/stars/joeddav/devol.svg?style=flat-square)                   |"
         confidence: high
 metadata:
   github:
@@ -33,10 +29,10 @@ metadata:
     archived: false
     full_name: joeddav/devol
     html_url: https://github.com/joeddav/devol
-    created_at: '2017-02-10T03:07:54Z'
-    pushed_at: '2023-05-25T14:45:47Z'
+    created_at: "2017-02-10T03:07:54Z"
+    pushed_at: "2023-05-25T14:45:47Z"
     description: Early POC of genetic neural architecture search
-    homepage: ''
+    homepage: ""
     topics:
       - automl
       - computer-vision
@@ -45,15 +41,13 @@ metadata:
       - keras
       - machine-learning
       - neural-architecture-search
-    last_checked_at: '2026-07-30T05:05:51.270Z'
+    last_checked_at: "2026-07-30T05:05:51.270Z"
     readme:
-      fetched_at: '2026-07-30T05:05:51.270Z'
+      fetched_at: "2026-07-30T05:05:51.270Z"
       bytes: 6329
 insights:
   summary: Early proof of concept for genetic neural architecture search in Keras for classification problems.
-  why_it_matters: >-
-    Demonstrates automated model architecture optimization via evolutionary algorithms, potentially saving manual tuning
-    effort for deep learning practitioners.
+  why_it_matters: Demonstrates automated model architecture optimization via evolutionary algorithms, potentially saving manual tuning effort for deep learning practitioners.
   mental_damage: Finally, a way to let Darwinism design your neural networks while you question your own existence.
   tags:
     - automl
@@ -64,9 +58,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a research-oriented AutoML/NAS project for neural network architecture optimization, not a developer-tooling
-    product in the catalog's scope (coding agents, IDEs, workflows, etc.).
+  reason: This is a research-oriented AutoML/NAS project for neural network architecture optimization, not a developer-tooling product in the catalog's scope (coding agents, IDEs, workflows, etc.).
   evidence:
     - Repo description explicitly calls it a 'genetic neural architecture search' POC
     - README focuses on Keras-based model evolution for classification, not developer workflows
@@ -80,17 +72,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.622Z'
+    updated_at: "2026-05-06T22:12:15.622Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:51.270Z'
+    updated_at: "2026-07-30T05:05:51.270Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -105,9 +97,7 @@ processing:
       input_hash: sha256:b66d63b73caf5eaa1583d330baed0b43fa424480cb732c9ad953496a552da562
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a research-oriented AutoML/NAS project for neural network architecture optimization, not a
-        developer-tooling product in the catalog's scope (coding agents, IDEs, workflows, etc.).
+      decision_reason: This is a research-oriented AutoML/NAS project for neural network architecture optimization, not a developer-tooling product in the catalog's scope (coding agents, IDEs, workflows, etc.).
       decision_evidence:
         - Repo description explicitly calls it a 'genetic neural architecture search' POC
         - README focuses on Keras-based model evolution for classification, not developer workflows

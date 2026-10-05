@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hips__spearmint__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - AutoML
         anchor_text: Spearmint
         extracted_url: https://github.com/hips/spearmint
-        surrounding_text: >-
-          | [Spearmint](https://github.com/HIPS/Spearmint)                               | a software package to perform
-          Bayesian
-          optimization.                                                                                                                           
-          | ![GitHub Badge](https://img.shields.io/github/stars/HIPS/Spearmint.svg?style=flat-square)                  |
+        surrounding_text: "| [Spearmint](https://github.com/HIPS/Spearmint)                               | a software package to perform Bayesian optimization.                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/HIPS/Spearmint.svg?style=flat-square)                  |"
         confidence: high
 metadata:
   github:
@@ -33,14 +29,14 @@ metadata:
     archived: false
     full_name: HIPS/Spearmint
     html_url: https://github.com/HIPS/Spearmint
-    created_at: '2014-08-05T18:13:16Z'
-    pushed_at: '2019-12-27T21:30:17Z'
+    created_at: "2014-08-05T18:13:16Z"
+    pushed_at: "2019-12-27T21:30:17Z"
     description: Spearmint Bayesian optimization codebase
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-30T05:05:37.561Z'
+    last_checked_at: "2026-07-30T05:05:37.561Z"
     readme:
-      fetched_at: '2026-07-30T05:05:37.561Z'
+      fetched_at: "2026-07-30T05:05:37.561Z"
       bytes: 3381
 insights:
   summary: Spearmint is a Bayesian optimization software package for automatically tuning machine learning model parameters.
@@ -53,9 +49,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a research-oriented AutoML tool for Bayesian optimization, not a developer-tooling product in the catalog's
-    scope.
+  reason: This is a research-oriented AutoML tool for Bayesian optimization, not a developer-tooling product in the catalog's scope.
   evidence:
     - Repo description identifies it as Bayesian optimization codebase
     - README emphasizes academic/non-commercial license and research publications
@@ -69,17 +63,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.618Z'
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:37.561Z'
+    updated_at: "2026-07-30T05:05:37.561Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -94,9 +88,7 @@ processing:
       input_hash: sha256:19da9c5e86d1737aec14009fff41886d1ee9b5783b318dfb586dd6a167495167
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a research-oriented AutoML tool for Bayesian optimization, not a developer-tooling product in the
-        catalog's scope.
+      decision_reason: This is a research-oriented AutoML tool for Bayesian optimization, not a developer-tooling product in the catalog's scope.
       decision_evidence:
         - Repo description identifies it as Bayesian optimization codebase
         - README emphasizes academic/non-commercial license and research publications

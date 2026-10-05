@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__razorback16__openjev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: openjev
         extracted_url: https://github.com/razorback16/openjev
-        surrounding_text: >-
-          - [openjev](https://github.com/razorback16/openjev) ([site](https://codiv.ai)) - Open, Jev-compatible System
-          One decision server on DiffusionGemma.
+        surrounding_text: "- [openjev](https://github.com/razorback16/openjev) ([site](https://codiv.ai)) - Open, Jev-compatible System One decision server on DiffusionGemma."
         confidence: high
     - id: discovery__github__razorback16__openjev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Jev-like models (72)
         anchor_text: openjev
         extracted_url: https://github.com/razorback16/openjev
-        surrounding_text: >-
-          | [openjev](https://github.com/razorback16/openjev) | ★ 142 | Python | 2026-09-19 | Open, Jev-compatible
-          System One decision server on DiffusionGemma. |
+        surrounding_text: "| [openjev](https://github.com/razorback16/openjev) | ★ 142 | Python | 2026-09-19 | Open, Jev-compatible System One decision server on DiffusionGemma. |"
         confidence: high
     - id: discovery__github__razorback16__openjev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**openjev**'
+        anchor_text: "**openjev**"
         extracted_url: https://github.com/razorback16/openjev
-        surrounding_text: >-
-          - [**openjev**](https://github.com/razorback16/openjev) — An independent System One decision server compatible
-          with Jev’s API, running an open DiffusionGemma model.
+        surrounding_text: "- [**openjev**](https://github.com/razorback16/openjev) — An independent System One decision server compatible with Jev’s API, running an open DiffusionGemma model."
         confidence: high
     - id: discovery__github__razorback16__openjev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -71,9 +65,7 @@ provenance:
           - Open reproductions and research
         anchor_text: OpenJev (DiffusionGemma)
         extracted_url: https://github.com/razorback16/openjev
-        surrounding_text: >-
-          - [OpenJev (DiffusionGemma)](https://github.com/razorback16/openjev) - Independent Jev-compatible server over
-          DiffusionGemma/vLLM; the documented setup requires custom vLLM patches.
+        surrounding_text: "- [OpenJev (DiffusionGemma)](https://github.com/razorback16/openjev) - Independent Jev-compatible server over DiffusionGemma/vLLM; the documented setup requires custom vLLM patches."
         confidence: high
 metadata:
   github:
@@ -111,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.386Z'
+    updated_at: "2026-09-29T13:07:10.386Z"
     cause: null
     next_retry_at: null
   stars:
@@ -119,6 +111,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

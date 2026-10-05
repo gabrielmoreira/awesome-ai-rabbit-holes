@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__reflag__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,12 +19,10 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Reflag
         extracted_url: https://reflag.com
-        surrounding_text: >-
-          - [reflagcom/mcp](https://github.com/reflagcom/javascript/tree/main/packages/cli#model-context-protocol) 🎖️
-          📇 ☁️ - Flag features directly from chat in your IDE with [Reflag](https://reflag.com).
+        surrounding_text: "- [reflagcom/mcp](https://github.com/reflagcom/javascript/tree/main/packages/cli#model-context-protocol) 🎖️ 📇 ☁️ - Flag features directly from chat in your IDE with [Reflag](https://reflag.com)."
         confidence: high
     - id: discovery__reflag__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +34,7 @@ provenance:
           - Official Servers
         anchor_text: Bucket
         extracted_url: https://bucket.co
-        surrounding_text: >-
-          -
-          **[Bucket](https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol)**
-          - Flag features, manage company data, and control feature access using [Bucket](https://bucket.co)
+        surrounding_text: "- **[Bucket](https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol)** - Flag features, manage company data, and control feature access using [Bucket](https://bucket.co)"
         confidence: high
 metadata:
   github:
@@ -57,25 +52,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Reflag is a TypeScript feature flag service with SDKs and CLI for managing feature flags.
-  why_it_matters: It helps developers automate flag lifecycle and integrate with Linear and Slack for smoother rollouts.
-  mental_damage: Another feature flag tool promising to ‘get you back to building’ while adding yet another dashboard to monitor.
+  summary: Reflag is a TypeScript feature flag service with SDKs for React, Vue, Next.js, and Node, designed to automate flag lifecycle and integrate with Linear and Slack.
+  why_it_matters: It reduces the operational overhead of feature flags by automating cleanup and enabling agent-driven workflows, letting developers ship faster without manual flag hygiene.
+  mental_damage: Another 'AI-ready' wrapper around a solved problem that makes you wonder if we're just renaming LaunchDarkly to feel like we're doing something novel.
   tags:
     - feature-flags
-    - typescript
     - saas
+    - typescript
+    - mcp
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Reflag is a feature flag SaaS platform, not a developer-facing AI tool, agent, or infrastructure relevant to
-    AI-assisted software development workflows.
+  reason: Reflag is a feature flag SaaS platform with MCP compatibility, but its core identity is developer-facing feature management, not MCP infrastructure, coding agents, or any catalog-specific tooling layer.
   evidence:
-    - 'Repo description: (none)'
-    - 'Scraped site context: ''TypeScript feature management that gets you back to building, faster.'''
-    - >-
-      Source-list context: listed in awesome-mcp-servers under 'Official Servers' with description 'TypeScript feature
-      management that gets you back to building, faster.'
+    - Source-list context shows it appears in awesome-mcp-servers as an 'Official Server' for TypeScript feature management
+    - README emphasizes SDKs for React/Vue/Next/Node, Linear/Slack integration, self-cleaning flags, and agent-created code flagging via MCP
+    - No evidence of MCP being the product identity — it is used as a compatibility feature for agents to interact with flags, not as the core offering
 placement:
   primary_category: null
   section: null
@@ -85,7 +77,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.597Z'
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
@@ -94,28 +86,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:35:51.698Z'
+    updated_at: "2026-10-05T04:44:20.842Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5edcd856a2662ed3b3d0b03aade594ee2f94be78fac31d56b374796acc7466c1
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4c11395879ee0a39ecfea02bc62e58e62e4633dee6d4303295b5d1e0d594f90b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Reflag is a feature flag SaaS platform, not a developer-facing AI tool, agent, or infrastructure relevant to
-        AI-assisted software development workflows.
+      decision_reason: Reflag is a feature flag SaaS platform with MCP compatibility, but its core identity is developer-facing feature management, not MCP infrastructure, coding agents, or any catalog-specific tooling layer.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'Scraped site context: ''TypeScript feature management that gets you back to building, faster.'''
-        - >-
-          Source-list context: listed in awesome-mcp-servers under 'Official Servers' with description 'TypeScript
-          feature management that gets you back to building, faster.'
+        - Source-list context shows it appears in awesome-mcp-servers as an 'Official Server' for TypeScript feature management
+        - README emphasizes SDKs for React/Vue/Next/Node, Linear/Slack integration, self-cleaning flags, and agent-created code flagging via MCP
+        - No evidence of MCP being the product identity — it is used as a compatibility feature for agents to interact with flags, not as the core offering
       category_candidates: []
       contrastive_reason: null
       review_reason: null

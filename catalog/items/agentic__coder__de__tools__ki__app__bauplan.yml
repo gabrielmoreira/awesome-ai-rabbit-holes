@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentic__coder__de__tools__ki__app__bauplan__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - App Builders
         anchor_text: KI-App-Bauplan
         extracted_url: https://agentic-coder.de/tools/ki-app-bauplan
-        surrounding_text: >-
-          - **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** – Free guided planner that turns an app
-          idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude
-          Code, or Codex.
+        surrounding_text: "- **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude Code, or Codex."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    KI-App-Bauplan – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build
-    plan, and a starter prompt for Cursor, Claude Code, or Codex.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A free web tool that turns app ideas into focused, copyable MVP plans with risk analysis and implementation steps for coding agents.
+  why_it_matters: Helps developers quickly scope and plan AI-assisted app builds by converting vague ideas into actionable, agent-ready instructions.
+  mental_damage: Another step in the prompt-engineering ouroboros where we now need AI to plan our AI planning.
+  tags:
+    - app-planning
+    - mvp
+    - coding-agent
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
+  reason: The tool generates deployable app scaffolds and implementation plans from natural language ideas, fitting the app-builder pattern of prompt-to-artifact workflows rather than coding agents that edit existing code.
   evidence:
-    - jev-latest choice confidence 0.85
+    - "Scraped site states: 'Aus deiner App-Idee wird ein fokussierter, direkt kopierbarer MVP-Plan' and 'Du bekommst ein realistisches MVP, die drei größten Risiken, sieben prüfbare Bauabschnitte und einen Startauftrag für deinen Coding-Agenten.'"
+    - "Source-list context shows inclusion in awesome-ai-coding-tools under the App Builders section with the description: 'Aus deiner App-Idee wird ein fokussierter, direkt kopierbarer MVP-Plan.'"
+    - The tool produces copyable plans, risk analysis, and build sections for coding agents to execute, positioning its output as a starting point for development rather than acting as the coding agent itself.
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:54.232Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c6e6a2b8d50c17b50d9dd8adf4bb98ee2ccf33c9844e810eb434239d753c21d3
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The tool generates deployable app scaffolds and implementation plans from natural language ideas, fitting the app-builder pattern of prompt-to-artifact workflows rather than coding agents that edit existing code.
+      decision_evidence:
+        - "Scraped site states: 'Aus deiner App-Idee wird ein fokussierter, direkt kopierbarer MVP-Plan' and 'Du bekommst ein realistisches MVP, die drei größten Risiken, sieben prüfbare Bauabschnitte und einen Startauftrag für deinen Coding-Agenten.'"
+        - "Source-list context shows inclusion in awesome-ai-coding-tools under the App Builders section with the description: 'Aus deiner App-Idee wird ein fokussierter, direkt kopierbarer MVP-Plan.'"
+        - The tool produces copyable plans, risk analysis, and build sections for coding agents to execute, positioning its output as a starting point for development rather than acting as the coding agent itself.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the tool’s core output is a prompt-generated app plan and scaffold for external agents to execute, not autonomous code editing or task execution within a codebase.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

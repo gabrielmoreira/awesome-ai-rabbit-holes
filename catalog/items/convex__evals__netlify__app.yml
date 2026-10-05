@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__convex__evals__netlify__app__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,16 +19,10 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: explorer
         extracted_url: https://convex-evals.netlify.app
-        surrounding_text: >-
-          - [Convex Decision Evals](https://www.convex.dev/evals/decision) - Model evaluation: asks Jev a `Choice` on
-          108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each
-          asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a
-          199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer,
-          probability and raw request/response in a public [explorer](https://convex-evals.netlify.app) and the runner
-          in [get-convex/convex-evals](https://github.com/get-convex/convex-evals).
+        surrounding_text: "- [Convex Decision Evals](https://www.convex.dev/evals/decision) - Model evaluation: asks Jev a `Choice` on 108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer, probability and raw request/response in a public [explorer](https://convex-evals.netlify.app) and the runner in [get-convex/convex-evals](https://github.com/get-convex/convex-evals)."
         confidence: high
     - id: discovery__convex__evals__netlify__app__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -40,14 +34,7 @@ provenance:
           - Evaluation and calibration
         anchor_text: per-answer explorer
         extracted_url: https://convex-evals.netlify.app
-        surrounding_text: >-
-          - [Convex Decision Evals](https://github.com/get-convex/convex-evals/tree/main/runner/decisions) - Leaderboard
-          that asks Jev (native Choice questions through OpenRouter's decisions endpoint) and 14 other models
-          (structured output limited to A-D, no tools, low reasoning effort) 108 verified four-option questions about
-          the Convex backend platform, each asked 3 times per run with shuffled options (random guessing is 25%); in the
-          23 Sept 2026 benchmark jev-1.13 scored 84.6% ±0.7 (13th of 15) at a 199 ms median per question and $0.0088 per
-          full run, against 98.0% at 2.12 s and $1.59 per run for the top model, GPT-6 Astra.
-          [Leaderboard](https://www.convex.dev/evals/decision), [per-answer explorer](https://convex-evals.netlify.app).
+        surrounding_text: "- [Convex Decision Evals](https://github.com/get-convex/convex-evals/tree/main/runner/decisions) - Leaderboard that asks Jev (native Choice questions through OpenRouter's decisions endpoint) and 14 other models (structured output limited to A-D, no tools, low reasoning effort) 108 verified four-option questions about the Convex backend platform, each asked 3 times per run with shuffled options (random guessing is 25%); in the 23 Sept 2026 benchmark jev-1.13 scored 84.6% ±0.7 (13th of 15) at a 199 ms median per question and $0.0088 per full run, against 98.0% at 2.12 s and $1.59 per run for the top model, GPT-6 Astra. [Leaderboard](https://www.convex.dev/evals/decision), [per-answer explorer](https://convex-evals.netlify.app)."
         confidence: high
 metadata:
   github:
@@ -65,34 +52,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Convex Decision Evals - Model evaluation: asks Jev a Choice on 108 verified four-option questions about the Convex
-    backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%)
-    alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s
-    and $1.59 for the top model, with every answer, probability and raw request/response in a public explorer and the
-    runner in get-convex/convex-evals.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Convex Evaluation Visualizer is a web interface for browsing experiments, models, and recent runs from Convex Evals.
+  why_it_matters: It helps developers visualize and compare evaluation results for AI models and decision-making systems.
+  mental_damage: Another dashboard for staring at numbers while wondering if your evals actually mean anything.
+  tags:
+    - evals
+    - visualization
+    - decision-models
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  reason: The tool's core function is visualizing evaluation runs and model performance, making it an observability platform for AI behavior rather than a decision model itself.
   evidence:
-    - jev-latest choice confidence 0.52
-    - jev winnow:e4b 0.29 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at evals (unverified)
+    - Scraped site shows 'Convex Evals Experiments' and 'Browse experiments, models, and recent runs'
+    - Listed in awesome-jev under 'Evaluation and calibration' and 'Full list > Evaluation & Benchmarking' sections
+    - Primary interface focuses on browsing experiments, models, and recent runs
 placement:
   primary_category: evals
   secondary_categories:
     - decision-models
-  section: Agent & LLM Benchmarks
+  section: Observability & Tracing
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -100,6 +86,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:28.443Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f78b285ac0aae42a7e8ee439981bc629ce61bd6736d0d430a7f0f2b4367c0a05
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core function is visualizing evaluation runs and model performance, making it an observability platform for AI behavior rather than a decision model itself.
+      decision_evidence:
+        - Scraped site shows 'Convex Evals Experiments' and 'Browse experiments, models, and recent runs'
+        - Listed in awesome-jev under 'Evaluation and calibration' and 'Full list > Evaluation & Benchmarking' sections
+        - Primary interface focuses on browsing experiments, models, and recent runs
+      category_candidates:
+        - evals
+        - decision-models
+      contrastive_reason: Choose evals over decision-models because the tool visualizes evaluation results rather than serving as a decision model or judgment system.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

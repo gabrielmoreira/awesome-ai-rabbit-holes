@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__skillsmp__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,38 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SkillsMP is a searchable marketplace for 1.7M+ agent skills in SKILL.md format compatible with Claude Code, Codex
-    CLI, and ChatGPT.
-  why_it_matters: >-
-    It gives developers a centralized registry to discover, evaluate, and install reusable agent behaviors without
-    writing custom prompts or skills from scratch.
-  mental_damage: >-
-    Another directory where you spend more time browsing skills than actually using them, hoping one finally understands
-    your weird repo.
+  summary: SkillsMP is a marketplace and directory for open-source AI agent skills in SKILL.md format for assistants like Claude Code, Codex, and ChatGPT.
+  why_it_matters: It helps developers discover and evaluate reusable agent skills across occupations and creators to extend AI coding assistants.
+  mental_damage: Browsing 1.7M agent skills to find the one that doesn’t break your assistant is the new dependency hell.
   tags:
     - agent-skills
-    - registry
+    - marketplace
     - skill-packs
   confidence: high
 curation:
   status: included
-  reason: >-
-    SkillsMP is a registry and directory for discovering and distributing SKILL.md skill packs, which is the core
-    product identity of the skills category.
+  reason: SkillsMP is a directory and registry for SKILL.md skill packs, making it a clear fit for the Agent Skills category as a discovery and distribution platform for installable agent behavior content.
   evidence:
-    - >-
-      Scraped site context: 'Discover open-source agent skills for Claude Code, Codex, ChatGPT, and any tool that uses
-      SKILL.md.'
-    - >-
-      Source-list context: listed in awesome-LLM-resources under '技能 Skills' with description 'Browse 1.7M+ agent skills
-      compatible with Claude Code, Codex CLI and ChatGPT. The open standard SKILL.md format for AI coding assistants.'
-    - >-
-      README excerpt emphasizes browsing, searching, and installing skills via API or GitHub sources, not building or
-      running agents itself.
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
-      skills (unverified)
+    - The site describes itself as a marketplace for discovering open-source agent skills for Claude Code, Codex, and ChatGPT using the SKILL.md format.
+    - It indexes 1.7M+ public SKILL.md files from GitHub and provides search, API, and occupation/creator-based browsing.
+    - It is listed in awesome-LLM-resources under the '技能 Skills' section as a browse for agent skills compatible with major AI coding assistants.
 placement:
   primary_category: skills
   secondary_categories:
@@ -79,12 +62,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -92,38 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:37:25.635Z'
+    updated_at: "2026-10-05T04:45:20.346Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c486b83c3ec9ec146f0ae5eee8e65fa75a26bae11988c3ece0e62e496b896e1d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:72fc28656302cbeddb41bd0a8f815c41c29c849fe479381bfc3b3fb031fa2677
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: >-
-        SkillsMP is a registry and directory for discovering and distributing SKILL.md skill packs, which is the core
-        product identity of the skills category.
+      decision_reason: SkillsMP is a directory and registry for SKILL.md skill packs, making it a clear fit for the Agent Skills category as a discovery and distribution platform for installable agent behavior content.
       decision_evidence:
-        - >-
-          Scraped site context: 'Discover open-source agent skills for Claude Code, Codex, ChatGPT, and any tool that
-          uses SKILL.md.'
-        - >-
-          Source-list context: listed in awesome-LLM-resources under '技能 Skills' with description 'Browse 1.7M+ agent
-          skills compatible with Claude Code, Codex CLI and ChatGPT. The open standard SKILL.md format for AI coding
-          assistants.'
-        - >-
-          README excerpt emphasizes browsing, searching, and installing skills via API or GitHub sources, not building
-          or running agents itself.
+        - The site describes itself as a marketplace for discovering open-source agent skills for Claude Code, Codex, and ChatGPT using the SKILL.md format.
+        - It indexes 1.7M+ public SKILL.md files from GitHub and provides search, API, and occupation/creator-based browsing.
+        - It is listed in awesome-LLM-resources under the '技能 Skills' section as a browse for agent skills compatible with major AI coding assistants.
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose skills over awesome-awesomes because SkillsMP is a functional registry for installing agent skills, not
-        merely a curated list or directory for discovery.
+      contrastive_reason: Choose skills over awesome-awesomes because SkillsMP is a specialized registry and directory for installable agent skill packs (SKILL.md), not a general awesome list or curated resource.
       review_reason: null
       review_resume_lifecycle: null

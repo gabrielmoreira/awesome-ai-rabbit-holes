@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tomyangod__architecture_viewer__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 📐 <a name="architecture-and-design"></a>Architecture & Design
         anchor_text: tomyangod/architecture_viewer
         extracted_url: https://github.com/tomyangod/architecture_viewer
-        surrounding_text: >-
-          - [tomyangod/architecture_viewer](https://github.com/tomyangod/architecture_viewer)
-          [![tomyangod/architecture_viewer MCP
-          server](https://glama.ai/mcp/servers/tomyangod/architecture_viewer/badges/score.svg)](https://glama.ai/mcp/servers/tomyangod/architecture_viewer)
-          📇 🏠 🍎 🪟 🐧 - Local architecture gate and CLI that diffs AI edits against git HEAD to detect new
-          cross-layer dependencies and structural changes.
+        surrounding_text: "- [tomyangod/architecture_viewer](https://github.com/tomyangod/architecture_viewer) [![tomyangod/architecture_viewer MCP server](https://glama.ai/mcp/servers/tomyangod/architecture_viewer/badges/score.svg)](https://glama.ai/mcp/servers/tomyangod/architecture_viewer) 📇 🏠 🍎 🪟 🐧 - Local architecture gate and CLI that diffs AI edits against git HEAD to detect new cross-layer dependencies and structural changes."
         confidence: high
 metadata:
   github:
@@ -52,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.33 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.33 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

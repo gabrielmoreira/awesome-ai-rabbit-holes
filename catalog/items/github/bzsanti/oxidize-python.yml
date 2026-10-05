@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bzsanti__oxidize-python__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-25T05:24:49.456Z'
+      discovered_at: "2026-06-25T05:24:49.456Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: bzsanti/oxidize-python
         extracted_url: https://github.com/bzsanti/oxidize-python
-        surrounding_text: >-
-          - [bzsanti/oxidize-python](https://github.com/bzsanti/oxidize-python) [![bzsanti/oxidize-python MCP
-          server](https://glama.ai/mcp/servers/bzsanti/oxidize-python/badges/score.svg)](https://glama.ai/mcp/servers/bzsanti/oxidize-python)
-          🐍 🏠 🍎 🪟 🐧 - Rust-powered PDF toolkit: create, read, and analyze PDFs; extract text and entities for RAG;
-          convert to Markdown; split, merge, rotate, and reorder pages; add content, annotations, and form fields; and
-          encrypt documents. Ships in the `oxidize-pdf` PyPI package — run locally with `uvx oxidize-mcp`.
+        surrounding_text: "- [bzsanti/oxidize-python](https://github.com/bzsanti/oxidize-python) [![bzsanti/oxidize-python MCP server](https://glama.ai/mcp/servers/bzsanti/oxidize-python/badges/score.svg)](https://glama.ai/mcp/servers/bzsanti/oxidize-python) 🐍 🏠 🍎 🪟 🐧 - Rust-powered PDF toolkit: create, read, and analyze PDFs; extract text and entities for RAG; convert to Markdown; split, merge, rotate, and reorder pages; add content, annotations, and form fields; and encrypt documents. Ships in the `oxidize-pdf` PyPI package — run locally with `uvx oxidize-mcp`."
         confidence: high
 metadata:
   github:
@@ -35,11 +30,9 @@ metadata:
     archived: false
     full_name: bzsanti/oxidize-python
     html_url: https://github.com/bzsanti/oxidize-python
-    created_at: '2026-03-09T10:51:51Z'
-    pushed_at: '2026-09-23T13:03:32Z'
-    description: >-
-      Python bindings for oxidize-pdf — generate, parse, split, merge & manipulate PDFs with native Rust performance. No
-      C deps, no Java, no subprocesses.
+    created_at: "2026-03-09T10:51:51Z"
+    pushed_at: "2026-09-23T13:03:32Z"
+    description: Python bindings for oxidize-pdf — generate, parse, split, merge & manipulate PDFs with native Rust performance. No C deps, no Java, no subprocesses.
     homepage: https://pypi.org/project/oxidize-pdf/
     topics:
       - maturin
@@ -52,18 +45,14 @@ metadata:
       - pyo3
       - python
       - rust
-    last_checked_at: '2026-09-24T04:13:05.552Z'
+    last_checked_at: "2026-09-24T04:13:05.552Z"
     readme:
-      fetched_at: '2026-09-24T04:13:05.552Z'
+      fetched_at: "2026-09-24T04:13:05.552Z"
       bytes: 11348
 insights:
   summary: A Rust-powered Python library for PDF generation, parsing, and manipulation that includes a built-in MCP server.
-  why_it_matters: >-
-    It allows AI agents to perform complex PDF operations like text extraction, conversion to RAG-optimized formats, and
-    form filling without requiring heavy C or Java dependencies.
-  mental_damage: >-
-    We've reached the peak of developer efficiency where we write Rust wrappers for Python to give an LLM the ability to
-    read a PDF that we could have just opened in a browser.
+  why_it_matters: It allows AI agents to perform complex PDF operations like text extraction, conversion to RAG-optimized formats, and form filling without requiring heavy C or Java dependencies.
+  mental_damage: We've reached the peak of developer efficiency where we write Rust wrappers for Python to give an LLM the ability to read a PDF that we could have just opened in a browser.
   tags:
     - python
     - rust
@@ -76,9 +65,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
   evidence:
     - jev-latest choice confidence 0.41
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Memory & Retrieval Infrastructure; placement kept at
-      document-ai (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Memory & Retrieval Infrastructure; placement kept at document-ai (unverified)
 placement:
   primary_category: document-ai
   secondary_categories:
@@ -90,22 +77,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-25T05:24:49.457Z'
+    updated_at: "2026-06-25T05:24:49.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:05.552Z'
+    updated_at: "2026-09-24T04:13:05.552Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:59:45.745Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for github__bzsanti__oxidize-python: Invalid AI response structure: Missing
-        required field: mental_damage
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

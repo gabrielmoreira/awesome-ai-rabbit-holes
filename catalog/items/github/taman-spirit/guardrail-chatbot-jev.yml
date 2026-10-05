@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__taman-spirit__guardrail-chatbot-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**guardrail-chatbot-jev**'
+        anchor_text: "**guardrail-chatbot-jev**"
         extracted_url: https://github.com/taman-spirit/guardrail-chatbot-jev
-        surrounding_text: >-
-          - [**guardrail-chatbot-jev**](https://github.com/taman-spirit/guardrail-chatbot-jev) — It is a library, not a
-          service. You call it, you get a verdict, and your code decides what to do. It runs in \*\*Python and
-          TypeScript\*\*, both reading the same policy file, so the two sides of your stack cannot drift apart. Neither
-          package has a third-party dependency.
+        surrounding_text: "- [**guardrail-chatbot-jev**](https://github.com/taman-spirit/guardrail-chatbot-jev) — It is a library, not a service. You call it, you get a verdict, and your code decides what to do. It runs in \\*\\*Python and TypeScript\\*\\*, both reading the same policy file, so the two sides of your stack cannot drift apart. Neither package has a third-party dependency."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    guardrail-chatbot-jev — It is a library, not a service. You call it, you get a verdict, and your code decides what
-    to do. It runs in \*\*Python and TypeScript\*\*, both reading the same policy file, so the two sides of your stack
-    cannot drift apart. Neither package has a third-party dependency.
+  summary: guardrail-chatbot-jev — It is a library, not a service. You call it, you get a verdict, and your code decides what to do. It runs in \*\*Python and TypeScript\*\*, both reading the same policy file, so the two sides of your stack cannot drift apart. Neither package has a third-party dependency.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
     - jev-latest choice confidence 0.71
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -68,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

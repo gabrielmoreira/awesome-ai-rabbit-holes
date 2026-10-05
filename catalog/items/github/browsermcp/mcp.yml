@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browsermcp__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: browsermcp/mcp
         extracted_url: https://github.com/browsermcp/mcp
-        surrounding_text: '- [browsermcp/mcp](https://github.com/browsermcp/mcp) 📇 🏠 - Automate your local Chrome browser'
+        surrounding_text: "- [browsermcp/mcp](https://github.com/browsermcp/mcp) 📇 🏠 - Automate your local Chrome browser"
         confidence: high
     - id: discovery__github__browsermcp__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,7 +35,7 @@ provenance:
           - Community Servers
         anchor_text: Browser MCP
         extracted_url: https://github.com/browsermcp/mcp
-        surrounding_text: '- **[Browser MCP](https://github.com/browsermcp/mcp)** - Automate your local browser'
+        surrounding_text: "- **[Browser MCP](https://github.com/browsermcp/mcp)** - Automate your local browser"
         confidence: high
 metadata:
   github:
@@ -45,8 +45,8 @@ metadata:
     archived: false
     full_name: BrowserMCP/mcp
     html_url: https://github.com/BrowserMCP/mcp
-    created_at: '2025-03-28T02:01:22Z'
-    pushed_at: '2025-04-24T21:49:44Z'
+    created_at: "2025-03-28T02:01:22Z"
+    pushed_at: "2025-04-24T21:49:44Z"
     description: Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser
     homepage: https://browsermcp.io
     topics:
@@ -56,17 +56,13 @@ metadata:
       - cursor
       - mcp
       - mcp-server
-    last_checked_at: '2026-09-24T04:13:03.642Z'
+    last_checked_at: "2026-09-24T04:13:03.642Z"
     readme:
-      fetched_at: '2026-09-24T04:13:03.642Z'
+      fetched_at: "2026-09-24T04:13:03.642Z"
       bytes: 1518
 insights:
-  summary: >-
-    Browser MCP is an MCP server and Chrome extension that enables AI applications to control and automate the user's
-    existing browser.
-  why_it_matters: >-
-    It lets developers use AI to perform browser-based tasks while preserving logged-in sessions and avoiding bot
-    detection by leveraging the user's real browser profile.
+  summary: Browser MCP is an MCP server and Chrome extension that enables AI applications to control and automate the user's existing browser.
+  why_it_matters: It lets developers use AI to perform browser-based tasks while preserving logged-in sessions and avoiding bot detection by leveraging the user's real browser profile.
   mental_damage: Finally, an AI that can fill out your timesheet — just don’t let it near your banking tab.
   tags:
     - browser-automation
@@ -88,18 +84,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.583Z'
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:03.642Z'
+    updated_at: "2026-09-24T04:13:03.642Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:58:34.859Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -111,22 +109,14 @@ processing:
       input_hash: sha256:e95d654fede41b06ce5af06ab6a494f5daa68bfba647ba77c042055b312fa5cd
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        Browser MCP's primary identity is as an MCP server enabling browser automation via the Model Context Protocol,
-        making MCP its core purpose rather than a side feature.
+      decision_reason: Browser MCP's primary identity is as an MCP server enabling browser automation via the Model Context Protocol, making MCP its core purpose rather than a side feature.
       decision_evidence:
-        - >-
-          Repo description: 'Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control
-          your browser'
-        - >-
-          README: 'Browser MCP is an MCP server + Chrome extension that allows you to automate your browser using AI
-          applications'
+        - "Repo description: 'Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser'"
+        - "README: 'Browser MCP is an MCP server + Chrome extension that allows you to automate your browser using AI applications'"
         - Listed in awesome-mcp-servers under Browser Automation and Community Servers sections
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because Browser MCP's identity is defined by being an MCP server first,
-        not by its integration as a browser extension for AI agents.
+      contrastive_reason: Choose mcp over extensions-and-addons because Browser MCP's identity is defined by being an MCP server first, not by its integration as a browser extension for AI agents.
       review_reason: null
       review_resume_lifecycle: null

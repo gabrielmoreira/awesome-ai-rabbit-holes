@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__blog__mlabonne__abliteration__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,34 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Hugging Face blog post describing a technique called 'abliteration' that removes the refusal mechanism from LLMs
-    to make them uncensorable.
-  why_it_matters: >-
-    Developers seeking to bypass LLM safety filters can apply this technique to make models respond to any prompt,
-    though at the cost of degraded performance.
-  mental_damage: >-
-    The existential dread of realizing your carefully aligned model is now a wildcard that will happily explain how to
-    build a bomb if you ask nicely.
+  summary: A technique to uncensor LLMs by removing their refusal direction via weight orthogonalization or inference-time intervention.
+  why_it_matters: It lets developers modify safety-aligned models to respond to restricted prompts without full retraining, using mechanistic interpretability methods.
+  mental_damage: The unsettling promise that a few lines of PyTorch can undo a model's ethical guardrails, turning alignment into a togglable hyperparameter.
   tags:
     - llm
-    - safety
-    - jailbreak
     - mechanistic-interpretability
+    - model-editing
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational blog post about a model modification technique, not a developer-facing tool, product, or
-    infrastructure that fits any catalog category.
+  reason: abliteration is a research technique for model surgery, not a developer-facing tool, agent, framework, or workflow product; it lacks a reusable SDK, CLI, or integratable surface for software development tasks.
   evidence:
-    - The source is a Hugging Face blog post by Maxime Labonne, not a GitHub repo or standalone product
-    - >-
-      The content describes a research technique for uncensoring LLMs via weight orthogonalization, with no tool, SDK,
-      or service being offered
-    - >-
-      Appears in an awesome list as a resource under '技巧 Tips', indicating it is curated as educational content, not a
-      developer tool
+    - Described as a blog post and Colab notebook on Hugging Face, not a standalone product or library
+    - Focuses on identifying and ablating refusal directions in LLMs via activation engineering, with no indication of being packaged for developer use
+    - Source-list context places it in 'awesome-LLM-resources' under '技巧 Tips', indicating it is a tutorial or trick, not a tool
 placement:
   primary_category: null
   section: null
@@ -73,12 +60,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -86,30 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:39.239Z'
+    updated_at: "2026-10-05T04:59:23.794Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f4e1bb70604a8d6be9b10f315896d280f074acab870ed6d96dd881d1f28955c1
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6464a63bf4d4ac21cf2d080822911ba5fce5242d938edabccad6b3c5b6319108
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational blog post about a model modification technique, not a developer-facing tool, product, or
-        infrastructure that fits any catalog category.
+      decision_reason: abliteration is a research technique for model surgery, not a developer-facing tool, agent, framework, or workflow product; it lacks a reusable SDK, CLI, or integratable surface for software development tasks.
       decision_evidence:
-        - The source is a Hugging Face blog post by Maxime Labonne, not a GitHub repo or standalone product
-        - >-
-          The content describes a research technique for uncensoring LLMs via weight orthogonalization, with no tool,
-          SDK, or service being offered
-        - >-
-          Appears in an awesome list as a resource under '技巧 Tips', indicating it is curated as educational content, not
-          a developer tool
+        - Described as a blog post and Colab notebook on Hugging Face, not a standalone product or library
+        - Focuses on identifying and ablating refusal directions in LLMs via activation engineering, with no indication of being packaged for developer use
+        - Source-list context places it in 'awesome-LLM-resources' under '技巧 Tips', indicating it is a tutorial or trick, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

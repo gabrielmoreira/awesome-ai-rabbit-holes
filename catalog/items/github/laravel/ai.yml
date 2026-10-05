@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__laravel__ai__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Laravel AI
         extracted_url: https://github.com/laravel/ai
-        surrounding_text: >-
-          - [Laravel AI](https://github.com/laravel/ai) - Provides typed classification and a TypeSafe provider for
-          Laravel applications, with fake responses for application testing. [Project
-          guide](community/projects/tools/laravel-ai.md).
+        surrounding_text: "- [Laravel AI](https://github.com/laravel/ai) - Provides typed classification and a TypeSafe provider for Laravel applications, with fake responses for application testing. [Project guide](community/projects/tools/laravel-ai.md)."
         confidence: high
     - id: discovery__github__laravel__ai__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,9 +36,7 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: ai
         extracted_url: https://github.com/laravel/ai
-        surrounding_text: >-
-          | [ai](https://github.com/laravel/ai) | ★ 1,183 | PHP | 2026-09-22 | Laravel AI SDK with a TypeSafe provider
-          for Jev Choice, Score, and Noul classification requests. |
+        surrounding_text: "| [ai](https://github.com/laravel/ai) | ★ 1,183 | PHP | 2026-09-22 | Laravel AI SDK with a TypeSafe provider for Jev Choice, Score, and Noul classification requests. |"
         confidence: high
 metadata:
   github:
@@ -59,9 +54,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Laravel AI - Provides typed classification and a TypeSafe provider for Laravel applications, with fake responses for
-    application testing. Project guide.
+  summary: Laravel AI - Provides typed classification and a TypeSafe provider for Laravel applications, with fake responses for application testing. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.418Z'
+    updated_at: "2026-09-29T13:07:10.418Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

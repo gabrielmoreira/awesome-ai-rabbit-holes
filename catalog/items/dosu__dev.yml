@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__dosu__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Dosu
         anchor_text: Dosu
         extracted_url: https://dosu.dev
-        surrounding_text: '## [Dosu](https://dosu.dev/)'
+        surrounding_text: "## [Dosu](https://dosu.dev/)"
         confidence: high
 metadata:
   github:
@@ -36,27 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token
-    usage and improve agent performance.
-  why_it_matters: >-
-    It aims to solve the problem of stale context by automatically maintaining project documentation (like AGENTS.md)
-    through real-time observation of agent sessions and communication tools.
-  mental_damage: >-
-    Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual,
-    up-to-date project truth.
+  summary: Dosu is a knowledge infrastructure service that captures team and agent learnings into a shared, updatable cache to reduce redundant context gathering.
+  why_it_matters: It cuts token usage and speeds up agent workflows by preventing repeated re-learning of the same information across sessions.
+  mental_damage: Finally, a way to stop feeling like your AI agents are goldfish with internet access.
   tags:
-    - knowledge-sharing
-    - agent-context
-    - token-efficiency
+    - knowledge-management
+    - agent-tooling
+    - token-optimization
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  reason: Dosu's core identity is a shared knowledge cache that persists and reuses agent learnings, making it a memory and context system rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.83
+    - Dosu automatically captures what your team and agents learn, making every agent faster, more accurate, and more token-efficient
+    - It updates existing sources instead of creating conflicting copies, keeping humans and agents aligned around the same truth
+    - Knowledge in Dosu is human-readable, markdown-based, Open Knowledge Format (OKF) compatible, and syncable to GitHub, Confluence, Notion, and more
 placement:
-  primary_category: null
+  primary_category: memory-and-context
   secondary_categories: []
   section: Persistent Memory & Knowledge
 lifecycle:
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:06.417Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for dosu__dev: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:56.145Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b0ca11f6580105ddc6efe42d49de17edf6dccdb90209b9e184057e6ea28147a5
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f9638dd4449ebc3fbd870b3aa438f857c4f7b10fb11fd363ed03f49dd879b81d
+      proposed_primary_category: memory-and-context
       disagreement: false
-      decision_reason: >-
-        The core value proposition is providing automated, fresh context and memory to agents via an MCP server to
-        optimize token usage.
+      decision_reason: Dosu's core identity is a shared knowledge cache that persists and reuses agent learnings, making it a memory and context system rather than a coding agent or extension.
       decision_evidence:
-        - Claims to reduce token costs by 50% via optimized context
-        - Uses an MCP server to provide consistent, token-efficient context to agents
-        - Automatically maintains documentation like AGENTS.md and CLAUDE.md
+        - Dosu automatically captures what your team and agents learn, making every agent faster, more accurate, and more token-efficient
+        - It updates existing sources instead of creating conflicting copies, keeping humans and agents aligned around the same truth
+        - Knowledge in Dosu is human-readable, markdown-based, Open Knowledge Format (OKF) compatible, and syncable to GitHub, Confluence, Notion, and more
       category_candidates:
-        - context-engineering
-        - mcp
-      contrastive_reason: >-
-        Choose context-engineering over mcp because while it uses MCP as a delivery mechanism, its primary identity is
-        the automated generation and management of high-quality context/memory.
+        - memory-and-context
+        - coding-agents
+      contrastive_reason: Choose memory-and-context over coding-agents because Dosu does not write or edit code itself—it manages persistent knowledge to improve agent efficiency, which is a context-layer function.
       review_reason: null
       review_resume_lifecycle: null

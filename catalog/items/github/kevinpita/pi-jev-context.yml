@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kevinpita__pi-jev-context__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: pi-jev-context
         extracted_url: https://github.com/kevinpita/pi-jev-context
-        surrounding_text: >-
-          - [pi-jev-context](https://github.com/kevinpita/pi-jev-context) - Reversible context pruning for Pi, powered
-          by TypeSafe Jev. Keep useful context without deleting session history.
+        surrounding_text: "- [pi-jev-context](https://github.com/kevinpita/pi-jev-context) - Reversible context pruning for Pi, powered by TypeSafe Jev. Keep useful context without deleting session history."
         confidence: high
     - id: discovery__github__kevinpita__pi-jev-context__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,14 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - Context GC
-        anchor_text: '**pi-jev-context**'
+        anchor_text: "**pi-jev-context**"
         extracted_url: https://github.com/kevinpita/pi-jev-context
-        surrounding_text: >-
-          - [**pi-jev-context**](https://github.com/kevinpita/pi-jev-context) — A reversible Pi context filter using Jev
-          to judge whether older messages remain useful.
+        surrounding_text: "- [**pi-jev-context**](https://github.com/kevinpita/pi-jev-context) — A reversible Pi context filter using Jev to judge whether older messages remain useful."
         confidence: high
     - id: discovery__github__kevinpita__pi-jev-context__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -53,9 +49,7 @@ provenance:
           - Context and compaction
         anchor_text: pi-jev-context
         extracted_url: https://github.com/kevinpita/pi-jev-context
-        surrounding_text: >-
-          - [pi-jev-context](https://github.com/kevinpita/pi-jev-context) - Opt-in Pi extension that filters older
-          messages from model requests while preserving the original session history.
+        surrounding_text: "- [pi-jev-context](https://github.com/kevinpita/pi-jev-context) - Opt-in Pi extension that filters older messages from model requests while preserving the original session history."
         confidence: high
 metadata:
   github:
@@ -73,9 +67,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    pi-jev-context - Reversible context pruning for Pi, powered by TypeSafe Jev. Keep useful context without deleting
-    session history.
+  summary: pi-jev-context - Reversible context pruning for Pi, powered by TypeSafe Jev. Keep useful context without deleting session history.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -95,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -103,6 +95,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

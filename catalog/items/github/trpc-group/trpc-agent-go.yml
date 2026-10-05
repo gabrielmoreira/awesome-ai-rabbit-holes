@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trpc-group__trpc-agent-go__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Core Frameworks
         anchor_text: trpc-agent-go
         extracted_url: https://github.com/trpc-group/trpc-agent-go
-        surrounding_text: >-
-          | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | 1,825 | Go | Apache-2.0 | 2026-09 | Go
-          framework for agents with graph workflows |
+        surrounding_text: "| [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | 1,825 | Go | Apache-2.0 | 2026-09 | Go framework for agents with graph workflows |"
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

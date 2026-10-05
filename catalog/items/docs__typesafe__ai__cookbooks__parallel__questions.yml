@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__parallel__questions__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Official
         anchor_text: Cookbooks
         extracted_url: https://docs.typesafe.ai/cookbooks/parallel_questions
-        surrounding_text: >-
-          - [Cookbooks](https://docs.typesafe.ai/cookbooks/parallel_questions) - Reproducible recipes: parallel
-          questions, reranking, guardrails, citation checks, extraction, hierarchical classification.
+        surrounding_text: "- [Cookbooks](https://docs.typesafe.ai/cookbooks/parallel_questions) - Reproducible recipes: parallel questions, reranking, guardrails, citation checks, extraction, hierarchical classification."
         confidence: high
     - id: discovery__docs__typesafe__ai__cookbooks__parallel__questions__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -35,9 +33,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Parallel questions
         extracted_url: https://docs.typesafe.ai/cookbooks/parallel_questions
-        surrounding_text: >-
-          - [Parallel questions](https://docs.typesafe.ai/cookbooks/parallel_questions) - Official worked example of
-          evaluating many questions over shared state in one request.
+        surrounding_text: "- [Parallel questions](https://docs.typesafe.ai/cookbooks/parallel_questions) - Official worked example of evaluating many questions over shared state in one request."
         confidence: high
 metadata:
   github:
@@ -55,26 +51,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe AI cookbook demonstrating batching 13 regulatory questions into a single API call for cost and latency savings without changing answers.
+  why_it_matters: Shows developers how to reduce LLM inference costs and latency by batching independent questions over the same document using TypeSafe's decision model.
+  mental_damage: Realizes you've been paying 12x too much for asking the same document 13 separate questions like a Neanderthal.
+  tags:
+    - llm-optimization
+    - batching
+    - typesafe
+    - decision-models
+    - cookbook
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: The cookbook demonstrates TypeSafe's Jev decision model (System One) for batched probabilistic questioning, making the decision model identity primary over generic tooling or app generation.
   evidence:
-    - jev winnow:e4b 0.32 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Scraped site shows batching 13 questions over GDPR Wikipedia article using TypeSafe's jev-1.12 model with Noull, Choice, and Score answer types
+    - Source-list context appears in awesome-jev under 'Guides and cookbooks' and 'Official' sections for projects built on Jev
+    - README excerpt and code focus on calling TypeSafeClient.system_one() with typed questions returning constrained probabilities, not text generation
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,6 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:49.772Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dd1c3e4786ab7f3692827798d0be8eb23c66fafd45c3a9e98bdc231ce00f511d
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The cookbook demonstrates TypeSafe's Jev decision model (System One) for batched probabilistic questioning, making the decision model identity primary over generic tooling or app generation.
+      decision_evidence:
+        - Scraped site shows batching 13 questions over GDPR Wikipedia article using TypeSafe's jev-1.12 model with Noull, Choice, and Score answer types
+        - Source-list context appears in awesome-jev under 'Guides and cookbooks' and 'Official' sections for projects built on Jev
+        - README excerpt and code focus on calling TypeSafeClient.system_one() with typed questions returning constrained probabilities, not text generation
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the cookbook demonstrates a decision model's judgment API for batching questions, not generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

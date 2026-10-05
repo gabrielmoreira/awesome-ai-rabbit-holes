@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kelaocai__tweet-radar__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: tweet-radar
         extracted_url: https://github.com/kelaocai/tweet-radar
-        surrounding_text: >-
-          - [tweet-radar](https://github.com/kelaocai/tweet-radar) ([site](https://kelaocai.github.io/tweet-radar/)) -
-          Jev / TypeSafe AI 驱动的 X 信息筛选：按你的规则发现值得读的帖子。开源判断规则库 + 免费 Chrome 扩展。Filter X with your own criteria.
+        surrounding_text: "- [tweet-radar](https://github.com/kelaocai/tweet-radar) ([site](https://kelaocai.github.io/tweet-radar/)) - Jev / TypeSafe AI 驱动的 X 信息筛选：按你的规则发现值得读的帖子。开源判断规则库 + 免费 Chrome 扩展。Filter X with your own criteria."
         confidence: high
     - id: discovery__github__kelaocai__tweet-radar__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,11 +35,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: Tweet Radar
         extracted_url: https://github.com/kelaocai/tweet-radar
-        surrounding_text: >-
-          - [Tweet Radar](https://github.com/kelaocai/tweet-radar)
-          ![stars](https://img.shields.io/github/stars/kelaocai/tweet-radar?style=flat-square&label=%E2%98%85) - Social
-          reading: uses Jev `Noul` to score already-loaded X posts against a reader's goal and profile, then pairwise
-          `Choice` judgments to rank eligible matches and surface up to three for review.
+        surrounding_text: "- [Tweet Radar](https://github.com/kelaocai/tweet-radar) ![stars](https://img.shields.io/github/stars/kelaocai/tweet-radar?style=flat-square&label=%E2%98%85) - Social reading: uses Jev `Noul` to score already-loaded X posts against a reader's goal and profile, then pairwise `Choice` judgments to rank eligible matches and surface up to three for review."
         confidence: high
 metadata:
   github:
@@ -59,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    tweet-radar (site) - Jev / TypeSafe AI 驱动的 X 信息筛选：按你的规则发现值得读的帖子。开源判断规则库 + 免费 Chrome 扩展。Filter X with your own
-    criteria.
+  summary: tweet-radar (site) - Jev / TypeSafe AI 驱动的 X 信息筛选：按你的规则发现值得读的帖子。开源判断规则库 + 免费 Chrome 扩展。Filter X with your own criteria.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.417Z'
+    updated_at: "2026-09-29T13:07:10.417Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jerryjliu__docjev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: DocJev
         extracted_url: https://github.com/jerryjliu/docjev
-        surrounding_text: >-
-          - [DocJev](https://github.com/jerryjliu/docjev) - Document classification and splitting with TypeSafe Jev over
-          LiteParse (optional LlamaParse) page text. [Project guide](community/projects/tools/docjev.md).
+        surrounding_text: "- [DocJev](https://github.com/jerryjliu/docjev) - Document classification and splitting with TypeSafe Jev over LiteParse (optional LlamaParse) page text. [Project guide](community/projects/tools/docjev.md)."
         confidence: high
     - id: discovery__github__jerryjliu__docjev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,12 +36,10 @@ provenance:
           - Applications (129)
         anchor_text: docjev
         extracted_url: https://github.com/jerryjliu/docjev
-        surrounding_text: >-
-          | [docjev](https://github.com/jerryjliu/docjev) | ★ 307 | Python | 2026-09-23 | A very fast document
-          classifier/splitter using Jev. |
+        surrounding_text: "| [docjev](https://github.com/jerryjliu/docjev) | ★ 307 | Python | 2026-09-23 | A very fast document classifier/splitter using Jev. |"
         confidence: high
     - id: discovery__github__jerryjliu__docjev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,13 +52,7 @@ provenance:
           - Classification & Routing
         anchor_text: DocJev
         extracted_url: https://github.com/jerryjliu/docjev
-        surrounding_text: >-
-          - [DocJev](https://github.com/jerryjliu/docjev)
-          ![stars](https://img.shields.io/github/stars/jerryjliu/docjev?style=flat-square&label=%E2%98%85) - Document
-          pipelines: LlamaIndex's open-source library that classifies a document against natural-language category rules
-          or finds the boundaries between sub-documents, with swappable OCR backends (liteparse or LlamaParse) and a
-          benchmark harness whose 40-document pilot classified 40/40 originals correctly at about 182 ms Jev decision
-          p50.
+        surrounding_text: "- [DocJev](https://github.com/jerryjliu/docjev) ![stars](https://img.shields.io/github/stars/jerryjliu/docjev?style=flat-square&label=%E2%98%85) - Document pipelines: LlamaIndex's open-source library that classifies a document against natural-language category rules or finds the boundaries between sub-documents, with swappable OCR backends (liteparse or LlamaParse) and a benchmark harness whose 40-document pilot classified 40/40 originals correctly at about 182 ms Jev decision p50."
         confidence: high
 metadata:
   github:
@@ -80,9 +70,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    DocJev - Document classification and splitting with TypeSafe Jev over LiteParse (optional LlamaParse) page text.
-    Project guide.
+  summary: DocJev - Document classification and splitting with TypeSafe Jev over LiteParse (optional LlamaParse) page text. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -102,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
@@ -110,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

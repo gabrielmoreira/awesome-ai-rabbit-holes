@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mizchi__jev-test-filter__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-test-filter
         extracted_url: https://github.com/mizchi/jev-test-filter
-        surrounding_text: >-
-          - [jev-test-filter](https://github.com/mizchi/jev-test-filter) - Score every test against a git diff with Jev,
-          and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand.
+        surrounding_text: "- [jev-test-filter](https://github.com/mizchi/jev-test-filter) - Score every test against a git diff with Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand."
         confidence: high
     - id: discovery__github__mizchi__jev-test-filter__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-test-filter
         extracted_url: https://github.com/mizchi/jev-test-filter
-        surrounding_text: >-
-          - [jev-test-filter](https://github.com/mizchi/jev-test-filter) - Scores each test against a git diff with
-          TypeSafe Jev and emits filter args for vitest, Jest, node:test, Playwright, cargo, and go test. [Project
-          guide](community/projects/tools/jev-test-filter.md).
+        surrounding_text: "- [jev-test-filter](https://github.com/mizchi/jev-test-filter) - Scores each test against a git diff with TypeSafe Jev and emits filter args for vitest, Jest, node:test, Playwright, cargo, and go test. [Project guide](community/projects/tools/jev-test-filter.md)."
         confidence: high
     - id: discovery__github__mizchi__jev-test-filter__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,13 +51,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-test-filter
         extracted_url: https://github.com/mizchi/jev-test-filter
-        surrounding_text: >-
-          | [jev-test-filter](https://github.com/mizchi/jev-test-filter) | ★ 15 | TypeScript | 2026-09-23 | Score every
-          test against a git diff with Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and
-          go test already understand. |
+        surrounding_text: "| [jev-test-filter](https://github.com/mizchi/jev-test-filter) | ★ 15 | TypeScript | 2026-09-23 | Score every test against a git diff with Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand. |"
         confidence: high
     - id: discovery__github__mizchi__jev-test-filter__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -72,11 +64,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-test-filter**'
+        anchor_text: "**jev-test-filter**"
         extracted_url: https://github.com/mizchi/jev-test-filter
-        surrounding_text: >-
-          - [**jev-test-filter**](https://github.com/mizchi/jev-test-filter) — Score every test against a git diff with
-          Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand
+        surrounding_text: "- [**jev-test-filter**](https://github.com/mizchi/jev-test-filter) — Score every test against a git diff with Jev, and emit the filter arguments vitest, node:test, Playwright, cargo test and go test already understand"
         confidence: high
 metadata:
   github:
@@ -103,21 +93,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Search, Retrieval & Data; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Search, Retrieval & Data; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.385Z'
+    updated_at: "2026-09-29T13:07:10.385Z"
     cause: null
     next_retry_at: null
   stars:
@@ -125,6 +113,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

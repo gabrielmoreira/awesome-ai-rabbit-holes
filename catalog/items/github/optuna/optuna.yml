@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__optuna__optuna__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,7 @@ provenance:
           - AutoML
         anchor_text: Optuna
         extracted_url: https://github.com/optuna/optuna
-        surrounding_text: >-
-          | [Optuna](https://github.com/optuna/optuna)                                   | A hyperparameter optimization
-          framework.                                                                                                                                       
-          | ![GitHub Badge](https://img.shields.io/github/stars/optuna/optuna.svg?style=flat-square)                   |
+        surrounding_text: "| [Optuna](https://github.com/optuna/optuna)                                   | A hyperparameter optimization framework.                                                                                                                                        | ![GitHub Badge](https://img.shields.io/github/stars/optuna/optuna.svg?style=flat-square)                   |"
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: optuna/optuna
     html_url: https://github.com/optuna/optuna
-    created_at: '2018-02-21T06:12:56Z'
-    pushed_at: '2026-07-17T09:27:44Z'
+    created_at: "2018-02-21T06:12:56Z"
+    pushed_at: "2026-07-17T09:27:44Z"
     description: A hyperparameter optimization framework
     homepage: https://optuna.org
     topics:
@@ -42,18 +39,14 @@ metadata:
       - machine-learning
       - parallel
       - python
-    last_checked_at: '2026-07-20T16:42:28.206Z'
+    last_checked_at: "2026-07-20T16:42:28.206Z"
     readme:
-      fetched_at: '2026-07-20T16:42:28.206Z'
+      fetched_at: "2026-07-20T16:42:28.206Z"
       bytes: 12165
 insights:
   summary: Optuna is an open-source Python framework for automatic hyperparameter optimization in machine learning workflows.
-  why_it_matters: >-
-    It provides a lightweight, define-by-run API that lets developers dynamically construct search spaces and scale
-    optimization studies across distributed workers with minimal code changes.
-  mental_damage: >-
-    Yet another sophisticated tool to perfectly tune the hyperparameters of a model that will still fail silently in
-    production because the training data was garbage.
+  why_it_matters: It provides a lightweight, define-by-run API that lets developers dynamically construct search spaces and scale optimization studies across distributed workers with minimal code changes.
+  mental_damage: Yet another sophisticated tool to perfectly tune the hyperparameters of a model that will still fail silently in production because the training data was garbage.
   tags:
     - hyperparameter-optimization
     - machine-learning
@@ -62,17 +55,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Excluded because it is a general machine learning optimization library with no AI developer tooling, coding agent,
-    or prompt/context engineering angle.
+  reason: Excluded because it is a general machine learning optimization library with no AI developer tooling, coding agent, or prompt/context engineering angle.
   evidence:
     - Repo description explicitly states 'A hyperparameter optimization framework' for machine learning.
-    - >-
-      README emphasizes ML features like samplers, pruners, and visualization for training models, not coding
-      assistants.
-    - >-
-      Source list context places it under 'AutoML' in an LLMOps list, which is an operational category rather than a
-      developer tooling fit.
+    - README emphasizes ML features like samplers, pruners, and visualization for training models, not coding assistants.
+    - Source list context places it under 'AutoML' in an LLMOps list, which is an operational category rather than a developer tooling fit.
 placement:
   primary_category: null
   section: null
@@ -82,21 +69,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.640Z'
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:28.207Z'
+    updated_at: "2026-07-20T16:42:28.207Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

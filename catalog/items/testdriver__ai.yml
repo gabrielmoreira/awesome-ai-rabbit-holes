@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__testdriver__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Test Driver
         anchor_text: Test Driver
         extracted_url: https://testdriver.ai
-        surrounding_text: '## [Test Driver](https://testdriver.ai/)'
+        surrounding_text: "## [Test Driver](https://testdriver.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,27 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TestDriver is an AI-powered end-to-end testing agent that automatically generates and runs UI tests from pull
-    requests in real desktop sandboxes to catch regressions before merge.
-  why_it_matters: >-
-    It eliminates manual UI test writing by using AI vision to validate PRs and contribute passing tests back as code,
-    reducing regression risk in CI.
-  mental_damage: >-
-    Finally, an AI that doesn’t just review code but actually clicks ‘Sign Up’ for you—now your guilt over skipped E2E
-    tests is automated away.
+  summary: TestDriver is an AI-powered QA agent that writes and runs UI tests from pull requests in real desktop sandboxes to catch regressions before merge.
+  why_it_matters: It automates end-to-end testing by generating and executing tests from PRs, reducing manual QA and preventing visual/runtime bugs in CI.
+  mental_damage: Finally, an AI that doesn’t just review code but actually uses your app like a confused intern who somehow catches your CSS regressions.
   tags:
     - testing
-    - ai-agent
     - qa
-    - e2e
+    - ai-agent
+    - end-to-end-testing
     - ci-cd
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  reason: TestDriver acts as an autonomous agent that reviews PRs, generates tests, and runs them in real environments—performing coding-adjacent testing and repair tasks as its core function, fitting the coding-agents category despite its testing focus.
   evidence:
-    - jev-latest choice confidence 0.75
+    - TestDriver automatically runs every pull request in a real desktop sandbox, finds bugs, and builds regression tests.
+    - It validates PRs with AI Vision, generates end-to-end tests from PR content, and contributes them back as new PRs.
+    - Scraped site positions it as an 'AI Code Review' and 'AI QA Engineer for Every Pull Request' that runs the actual app.
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -67,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,36 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:47:05.579Z'
+    updated_at: "2026-10-05T04:55:54.060Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f3e6e2e73057dc7d660c5d7f317bef9589aa2166833f785da925bbae7568d49e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8678423e0d406922769bffd078d291b2e2a127d55f6a804358a82e77a53d673a
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        TestDriver functions as an autonomous coding agent focused on testing: it reads PRs, generates test code, runs
-        apps in sandboxes, and contributes test files—making its primary identity a developer-facing agent that performs
-        coding tasks (test authoring and execution) on behalf of the user.
+      decision_reason: TestDriver acts as an autonomous agent that reviews PRs, generates tests, and runs them in real environments—performing coding-adjacent testing and repair tasks as its core function, fitting the coding-agents category despite its testing focus.
       decision_evidence:
-        - TestDriver writes UI tests and catches regressions before they merge (source-list context)
-        - >-
-          TestDriver automatically runs every pull request in a real desktop sandbox, finds bugs, and builds regression
-          tests (README excerpt)
-        - >-
-          Once the agent has a passing test, it opens a fresh pull request with the generated test code committed for
-          you (README excerpt)
+        - TestDriver automatically runs every pull request in a real desktop sandbox, finds bugs, and builds regression tests.
+        - It validates PRs with AI Vision, generates end-to-end tests from PR content, and contributes them back as new PRs.
+        - Scraped site positions it as an 'AI Code Review' and 'AI QA Engineer for Every Pull Request' that runs the actual app.
       category_candidates:
         - coding-agents
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose coding-agents over extensions-and-addons because TestDriver operates as a standalone AI agent that
-        generates and runs tests independently, rather than primarily extending another coding assistant or editor.
+      contrastive_reason: Choose coding-agents over extensions-and-addons because TestDriver operates as a standalone PR-reviewing agent that generates and runs tests autonomously, rather than extending a host like Claude Code or VS Code.
       review_reason: null
       review_resume_lifecycle: null

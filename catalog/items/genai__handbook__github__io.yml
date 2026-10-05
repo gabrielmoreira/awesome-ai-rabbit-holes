@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__genai__handbook__github__io__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 书籍 Book
-        anchor_text: '《Generative AI Handbook: A Roadmap for Learning Resources》'
+        anchor_text: "《Generative AI Handbook: A Roadmap for Learning Resources》"
         extracted_url: https://genai-handbook.github.io
-        surrounding_text: '7. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)'
+        surrounding_text: "7. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)"
         confidence: high
 metadata:
   github:
@@ -36,51 +36,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    GenAI Handbook is a curated, living document that serves as a textbook-style roadmap for learning foundational AI
-    concepts, including LLMs, multimodal models, and agent systems.
-  why_it_matters: >-
-    It helps developers navigate the rapidly evolving AI landscape by organizing essential learning resources into a
-    structured, up-to-date guide.
-  mental_damage: >-
-    The handbook promises to solve the chaos of AI tooling by offering a single, coherent learning path — despite the
-    fact that the field changes faster than any textbook can keep up.
+  summary: GenAI Handbook is a community-updated roadmap organizing free AI learning resources into textbook-style sections for technical learners.
+  why_it_matters: It helps developers navigate the overwhelming volume of scattered AI educational content by providing a structured learning path.
+  mental_damage: Yet another curated list pretending to solve information overload while adding to the pile of resources you’ll never finish.
   tags:
+    - curated-list
     - learning-resources
-    - ai-handbook
-    - developer-education
-  confidence: high
+    - ai-education
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The GenAI Handbook is a documentation and curation resource, not a developer-facing tool or product that changes
-    coding workflows, so it does not fit the catalog's scope of practical AI tools, agents, or infrastructure.
+  status: included
+  reason: It is a curated directory of AI learning resources matching the awesome-awesomes category’s purpose of helping developers discover and assess educational content in the AI ecosystem.
   evidence:
-    - >-
-      The repo description is empty, and the README explicitly states it is a 'handbook' for learning AI concepts, not a
-      tool for coding or development.
-    - >-
-      It is listed in 'awesome-LLM-resources' under the 'Book' section, indicating it is a curated reference rather than
-      a standalone developer tool.
-    - >-
-      The scraped site context describes it as a 'living document' and 'roadmap' for learning, with no claim of
-      providing coding agents, app builders, or other executable developer tooling.
+    - Appears in awesome-LLM-resources under the '书籍 Book' section as a summarized LLM resource
+    - Describes itself as a 'living document' organizing blog posts, videos, papers into a textbook-style roadmap for AI learning
+    - Targets technical learners with coding background seeking to fill prerequisites for AI-related goals
 placement:
-  primary_category: null
+  primary_category: awesome-awesomes
   secondary_categories: []
-  section: null
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -88,33 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:40:06.389Z'
+    updated_at: "2026-10-05T04:32:28.205Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:559a28314b24a33f94f7bee699433c885f0bf214c8d050c0d87f6f7b9ae36bc9
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c34fd824ddb80cf243574abee2adb245b6844f9b99de4d2e4024c62f0897a227
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        The GenAI Handbook is a documentation and curation resource, not a developer-facing tool or product that changes
-        coding workflows, so it does not fit the catalog's scope of practical AI tools, agents, or infrastructure.
+      decision_reason: It is a curated directory of AI learning resources matching the awesome-awesomes category’s purpose of helping developers discover and assess educational content in the AI ecosystem.
       decision_evidence:
-        - >-
-          The repo description is empty, and the README explicitly states it is a 'handbook' for learning AI concepts,
-          not a tool for coding or development.
-        - >-
-          It is listed in 'awesome-LLM-resources' under the 'Book' section, indicating it is a curated reference rather
-          than a standalone developer tool.
-        - >-
-          The scraped site context describes it as a 'living document' and 'roadmap' for learning, with no claim of
-          providing coding agents, app builders, or other executable developer tooling.
-      category_candidates: []
-      contrastive_reason: null
+        - Appears in awesome-LLM-resources under the '书籍 Book' section as a summarized LLM resource
+        - Describes itself as a 'living document' organizing blog posts, videos, papers into a textbook-style roadmap for AI learning
+        - Targets technical learners with coding background seeking to fill prerequisites for AI-related goals
+      category_candidates:
+        - awesome-awesomes
+        - memory-and-context
+      contrastive_reason: Choose awesome-awesomes over memory-and-context because the handbook is a curated resource directory, not a working system for persistent memory, retrieval, or context compression.
       review_reason: null
       review_resume_lifecycle: null

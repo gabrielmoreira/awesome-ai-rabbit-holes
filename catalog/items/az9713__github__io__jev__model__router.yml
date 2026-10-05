@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__az9713__github__io__jev__model__router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://az9713.github.io/jev-model-router
-        surrounding_text: >-
-          - [jev-model-router](https://github.com/az9713/jev-model-router)
-          ([site](https://az9713.github.io/jev-model-router/)) - Jev (TypeSafe) model router on the Vercel AI Gateway.
+        surrounding_text: "- [jev-model-router](https://github.com/az9713/jev-model-router) ([site](https://az9713.github.io/jev-model-router/)) - Jev (TypeSafe) model router on the Vercel AI Gateway."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-model-router (site) - Jev (TypeSafe) model router on the Vercel AI Gateway.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Model Router is a JavaScript HTTP server and frontend that routes user messages to different AI model tiers via the TypeSafe Jev decision model based on cost and capability.
+  why_it_matters: It demonstrates how developers can build cost-aware model routing layers using decision models to optimize AI usage and spending.
+  mental_damage: Another reminder that every AI app now needs a PhD in model economics just to say 'hello' without bankrupting the free tier.
+  tags:
+    - model-routing
+    - decision-models
+    - jev
+    - ai-gateway
+    - cost-optimization
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The project's core function is using the Jev decision model to route messages to appropriate model tiers, making judgment its primary identity rather than coding assistance or app generation.
   evidence:
-    - jev-latest choice confidence 0.59
+    - The router sends Choice questions to Jev to select model tiers based on rubrics like 'cheapest that can answer well'
+    - Jev returns tier selections with probabilities and confidence, which the router uses to pick reply models like gpt-5-nano or claude-sonnet-5
+    - Listed in awesome-jev under 'Agent tooling' section as a project built on Jev
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:29.313Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7a362688c45422f41addbf2849e4c178b82e68a4401a9f96507e4478c678212a
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project's core function is using the Jev decision model to route messages to appropriate model tiers, making judgment its primary identity rather than coding assistance or app generation.
+      decision_evidence:
+        - The router sends Choice questions to Jev to select model tiers based on rubrics like 'cheapest that can answer well'
+        - Jev returns tier selections with probabilities and confidence, which the router uses to pick reply models like gpt-5-nano or claude-sonnet-5
+        - Listed in awesome-jev under 'Agent tooling' section as a project built on Jev
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product's identity is the Jev-driven routing judgment, not augmentation of a host coding agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

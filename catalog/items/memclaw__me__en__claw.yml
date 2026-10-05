@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__memclaw__me__en__claw__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: MemClaw
         extracted_url: https://memclaw.me
-        surrounding_text: >-
-          - **[MemClaw](https://memclaw.me)** – Persistent project memory for AI coding agents (MCP-compatible). Creates
-          isolated memory workspaces per project with a web dashboard to review and manage context. Free and open
-          source.
+        surrounding_text: "- **[MemClaw](https://memclaw.me)** – Persistent project memory for AI coding agents (MCP-compatible). Creates isolated memory workspaces per project with a web dashboard to review and manage context. Free and open source."
         confidence: high
 metadata:
   github:
@@ -39,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MemClaw provides persistent project memory for OpenClaw, enabling isolated workspaces and team collaboration.
-  why_it_matters: It solves the critical pain of context loss across multiple projects in conversational AI development.
-  mental_damage: >-
-    You'll spend hours untangling which project's context is bleeding into which chat thread, then discover a tool that
-    makes memory permanent.
+  summary: MemClaw is a memory skill for OpenClaw that adds isolated project memory, visible memory storage, and team collaboration features.
+  why_it_matters: It helps developers working with OpenClaw avoid context loss across projects and clients by preserving structured, isolated memories.
+  mental_damage: Now you need a memory for your memory assistant just to remember which client you lied to last Tuesday.
   tags:
     - memory
     - context
-    - collaboration
-    - openclaw
-    - ai-developer-tools
+    - extension
   confidence: medium
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  status: excluded
+  reason: MemClaw is a skill pack that extends OpenClaw with memory features, not a standalone developer tool, and lacks clear identity as a coding agent, framework, or orchestration platform.
   evidence:
-    - jev-latest choice confidence 0.91
+    - Described as a skill to install into OpenClaw via GitHub repository
+    - Primary function is adding persistent, isolated memory to OpenClaw conversations
+    - Positioned as an extension that augments OpenClaw with project-scoped memory and team sharing
 placement:
-  primary_category: memory-and-context
+  primary_category: null
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,35 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:11.091Z'
+    updated_at: "2026-10-05T04:42:10.437Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1cccee1aedd01eccf8d26b5d00f12c06b1d765bcc7cbf6bf9d5e58fc996bcdfd
-      proposed_primary_category: memory-and-context
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9a2ff40b915d658fd82c3645f2c0aa93bfd7ae5bd35470a7725aba9009d0e941
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a memory and context system that improves what goes into AI models, not a coding agent or extension.
+      decision_reason: MemClaw is a skill pack that extends OpenClaw with memory features, not a standalone developer tool, and lacks clear identity as a coding agent, framework, or orchestration platform.
       decision_evidence:
-        - >-
-          README states MemClaw 'turns OpenClaw into persistent project memory with isolated workspaces, visible memory,
-          and team collaboration'
-        - >-
-          Scraped site context explicitly describes solving 'conversations start blending across projects' and 'long
-          conversations still get forgotten'
-        - >-
-          Source-list context places it in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' as a memory
-          solution for OpenClaw
-      category_candidates:
-        - memory-and-context
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose memory-and-context over ai-dev-extensions because MemClaw's core novelty is persistent memory
-        infrastructure rather than host integration layer.
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - Described as a skill to install into OpenClaw via GitHub repository
+        - Primary function is adding persistent, isolated memory to OpenClaw conversations
+        - Positioned as an extension that augments OpenClaw with project-scoped memory and team sharing
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

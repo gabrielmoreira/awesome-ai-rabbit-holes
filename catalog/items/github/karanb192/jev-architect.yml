@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__karanb192__jev-architect__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-architect
         extracted_url: https://github.com/karanb192/jev-architect
-        surrounding_text: >-
-          - [jev-architect](https://github.com/karanb192/jev-architect) ([site](https://jev-architect.karanbansal.in/))
-          - Find, design, and evaluate TypeSafe Jev decision loops.
+        surrounding_text: "- [jev-architect](https://github.com/karanb192/jev-architect) ([site](https://jev-architect.karanbansal.in/)) - Find, design, and evaluate TypeSafe Jev decision loops."
         confidence: high
     - id: discovery__github__karanb192__jev-architect__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-architect
         extracted_url: https://github.com/karanb192/jev-architect
-        surrounding_text: >-
-          | [jev-architect](https://github.com/karanb192/jev-architect) | ★ 6 | HTML | 2026-09-21 | Agent skill for
-          finding, designing, and validating useful Jev decision loops before committing them to an application. |
+        surrounding_text: "| [jev-architect](https://github.com/karanb192/jev-architect) | ★ 6 | HTML | 2026-09-21 | Agent skill for finding, designing, and validating useful Jev decision loops before committing them to an application. |"
         confidence: high
     - id: discovery__github__karanb192__jev-architect__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -55,11 +51,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jev-architect
         extracted_url: https://github.com/karanb192/jev-architect
-        surrounding_text: >-
-          - [jev-architect](https://github.com/karanb192/jev-architect)
-          ![stars](https://img.shields.io/github/stars/karanb192/jev-architect?style=flat-square&label=%E2%98%85) -
-          Design skill: finds, designs, and evaluates Jev decision loops, packaged as a skill with references on
-          decision design and delivery.
+        surrounding_text: "- [jev-architect](https://github.com/karanb192/jev-architect) ![stars](https://img.shields.io/github/stars/karanb192/jev-architect?style=flat-square&label=%E2%98%85) - Design skill: finds, designs, and evaluates Jev decision loops, packaged as a skill with references on decision design and delivery."
         confidence: high
 metadata:
   github:
@@ -97,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jev-chat__jev-chat-windows__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Chat Windows
         extracted_url: https://github.com/jev-chat/jev-chat-windows
-        surrounding_text: >-
-          - [Jev Chat Windows](https://github.com/jev-chat/jev-chat-windows) - `Open source` · `Free source build` ·
-          `BYOK`. Windows WeChat side panel: local OCR + TypeSafe Jev (OpenRouter) ranks fill-only reply candidates;
-          send stays manual. [Project guide](community/projects/apps/jev-chat-windows.md).
+        surrounding_text: "- [Jev Chat Windows](https://github.com/jev-chat/jev-chat-windows) - `Open source` · `Free source build` · `BYOK`. Windows WeChat side panel: local OCR + TypeSafe Jev (OpenRouter) ranks fill-only reply candidates; send stays manual. [Project guide](community/projects/apps/jev-chat-windows.md)."
         confidence: high
     - id: discovery__github__jev-chat__jev-chat-windows__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,13 +36,10 @@ provenance:
           - Applications (129)
         anchor_text: jev-chat-windows
         extracted_url: https://github.com/jev-chat/jev-chat-windows
-        surrounding_text: >-
-          | [jev-chat-windows](https://github.com/jev-chat/jev-chat-windows) | ★ 467 | Python | 2026-09-24 | Windows
-          WeChat reply assistant that uses local OCR and Jev to classify intent before presenting three manual-send
-          replies. |
+        surrounding_text: "| [jev-chat-windows](https://github.com/jev-chat/jev-chat-windows) | ★ 467 | Python | 2026-09-24 | Windows WeChat reply assistant that uses local OCR and Jev to classify intent before presenting three manual-send replies. |"
         confidence: high
     - id: discovery__github__jev-chat__jev-chat-windows__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -55,12 +49,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-chat-windows**'
+        anchor_text: "**jev-chat-windows**"
         extracted_url: https://github.com/jev-chat/jev-chat-windows
-        surrounding_text: >-
-          - [**jev-chat-windows**](https://github.com/jev-chat/jev-chat-windows) — A Windows companion reply assistant
-          that captures WeChat Windows 4.x windows with local offline OCR, uses Jev to judge intent and generate three
-          candidate replies, and fills the chosen text into the WeChat input box without auto-sending.
+        surrounding_text: "- [**jev-chat-windows**](https://github.com/jev-chat/jev-chat-windows) — A Windows companion reply assistant that captures WeChat Windows 4.x windows with local offline OCR, uses Jev to judge intent and generate three candidate replies, and fills the chosen text into the WeChat input box without auto-sending."
         confidence: high
 metadata:
   github:
@@ -87,21 +78,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
@@ -109,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

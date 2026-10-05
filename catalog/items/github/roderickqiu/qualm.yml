@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__roderickqiu__qualm__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,14 +20,7 @@ provenance:
           - Classification & Routing
         anchor_text: Qualm
         extracted_url: https://github.com/roderickqiu/qualm
-        surrounding_text: >-
-          - [Qualm](https://github.com/RoderickQiu/qualm)
-          ![stars](https://img.shields.io/github/stars/RoderickQiu/qualm?style=flat-square&label=%E2%98%85) - Digital
-          wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks Jev (or
-          Kev, its local open-source counterpart) one `Choice` per user rule plus a `Noul` on whether the page is a
-          payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its
-          threshold and never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and
-          video rules had precision 1.00.
+        surrounding_text: "- [Qualm](https://github.com/RoderickQiu/qualm) ![stars](https://img.shields.io/github/stars/RoderickQiu/qualm?style=flat-square&label=%E2%98%85) - Digital wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks Jev (or Kev, its local open-source counterpart) one `Choice` per user rule plus a `Noul` on whether the page is a payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its threshold and never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and video rules had precision 1.00."
         confidence: high
 metadata:
   github:
@@ -45,12 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Qualm - Digital wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks
-    Jev (or Kev, its local open-source counterpart) one Choice per user rule plus a Noul on whether the page is a
-    payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its threshold and
-    never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and video rules had
-    precision 1.00.
+  summary: "Qualm - Digital wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks Jev (or Kev, its local open-source counterpart) one Choice per user rule plus a Noul on whether the page is a payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its threshold and never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and video rules had precision 1.00."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -70,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ibrahemid__git-jev-stage__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: git-jev-stage
         extracted_url: https://github.com/ibrahemid/git-jev-stage
-        surrounding_text: >-
-          - [git-jev-stage](https://github.com/ibrahemid/git-jev-stage) - Select Git changes for staging with a
-          plain-language description.
+        surrounding_text: "- [git-jev-stage](https://github.com/ibrahemid/git-jev-stage) - Select Git changes for staging with a plain-language description."
         confidence: high
     - id: discovery__github__ibrahemid__git-jev-stage__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: git-jev-stage
         extracted_url: https://github.com/ibrahemid/git-jev-stage
-        surrounding_text: >-
-          - [git-jev-stage](https://github.com/ibrahemid/git-jev-stage) - Classifies Git hunks against a one-sentence
-          staging intent with TypeSafe Jev, then stages confirmed blocks. [Project
-          guide](community/projects/tools/git-jev-stage.md).
+        surrounding_text: "- [git-jev-stage](https://github.com/ibrahemid/git-jev-stage) - Classifies Git hunks against a one-sentence staging intent with TypeSafe Jev, then stages confirmed blocks. [Project guide](community/projects/tools/git-jev-stage.md)."
         confidence: high
 metadata:
   github:
@@ -70,16 +65,16 @@ curation:
     - jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Client SDKs & CLIs; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.415Z'
+    updated_at: "2026-09-29T13:07:10.415Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

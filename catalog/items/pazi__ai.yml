@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pazi__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Pythagora
         extracted_url: https://pythagora.ai
-        surrounding_text: '- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction.'
+        surrounding_text: "- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction."
         confidence: high
 metadata:
   github:
@@ -36,37 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An agent orchestration platform that coordinates specialized AI teams to execute business workflows and strategic
-    planning.
-  why_it_matters: >-
-    It allows founders and developers to shift from manual task execution to high-level oversight of an autonomous
-    multi-agent workforce.
-  mental_damage: >-
-    One more dashboard to monitor to ensure your 'autonomous' AI team hasn't reached a consensus to pivot your startup
-    into a lemonade stand.
+  summary: Pazi.ai is an AI agent platform that builds and runs business operations from user-described ideas via a coordinated team of specialized agents.
+  why_it_matters: It lets non-technical founders and developers delegate end-to-end business execution — from landing pages to user acquisition — to AI agents managed through a single dashboard.
+  mental_damage: Finally, a way to feel productive while outsourcing your entire company to a swarm of AI interns who never sleep, unionize, or ask for equity.
   tags:
-    - agent-orchestration
-    - multi-agent
+    - ai-agents
     - business-automation
-    - saas-builder
-  confidence: medium
+    - dashboard
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: Pazi.ai is positioned as a general business automation platform using AI agents to build and run entire ventures, not a developer-focused tool for coding, debugging, or software workflows.
   evidence:
-    - jev-latest choice confidence 0.92
+    - "Source-list context: listed under 'Coding Agents' in awesome-ai-coding-tools with the pitch 'Turn your idea into a real business with Pazi. Build an AI team that plans, executes, and keeps work moving while you stay in charge from one dashboard.'"
+    - "Scraped site context: emphasizes building businesses — e-commerce, SaaS, services — and managing opportunities like landing pages, waitlists, and Product Hunt launches, not coding tasks."
+    - No evidence of code editing, repo interaction, terminal/IDE use, or developer-specific workflows in the provided inputs.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.066Z'
+    updated_at: "2026-06-18T05:40:04.066Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:17:55.793Z'
+    updated_at: "2026-10-05T04:26:39.231Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9fc23163b38ef088e267b903969d6b70dd8f44bbdd7274b955f07a2c5c8b1bfb
-      proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: >-
-        Pazi functions as a hosted control plane for managing specialized agent teams rather than a single coding
-        assistant or a simple prompt-to-app generator.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c472d73fdb97c8e6b6e00e13b0908bf4c6b3d05b75c88631bc153ba5e9f67e7b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Pazi.ai is positioned as a general business automation platform using AI agents to build and run entire ventures, not a developer-focused tool for coding, debugging, or software workflows.
       decision_evidence:
-        - Claims to build an 'AI team' of specialized agents that coordinate within a workflow
-        - Provides a centralized 'Business Pulse' dashboard to manage agent tasks and opportunities
-        - Focuses on long-running business operations and task management rather than just code generation
-      category_candidates:
-        - agent-orchestration
-        - app-builders
-      contrastive_reason: >-
-        Choose agent-orchestration over app-builders because the core identity is the ongoing coordination and
-        management of a multi-agent workforce rather than the one-shot generation of a deployable code artifact.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
+        - "Source-list context: listed under 'Coding Agents' in awesome-ai-coding-tools with the pitch 'Turn your idea into a real business with Pazi. Build an AI team that plans, executes, and keeps work moving while you stay in charge from one dashboard.'"
+        - "Scraped site context: emphasizes building businesses — e-commerce, SaaS, services — and managing opportunities like landing pages, waitlists, and Product Hunt launches, not coding tasks."
+        - No evidence of code editing, repo interaction, terminal/IDE use, or developer-specific workflows in the provided inputs.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

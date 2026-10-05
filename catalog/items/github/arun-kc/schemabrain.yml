@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arun-kc__schemabrain__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Arun-kc/schemabrain
         extracted_url: https://github.com/arun-kc/schemabrain
-        surrounding_text: >-
-          - [Arun-kc/schemabrain](https://github.com/Arun-kc/schemabrain) [![schemabrain MCP
-          server](https://glama.ai/mcp/servers/Arun-kc/schemabrain/badges/score.svg)](https://glama.ai/mcp/servers/Arun-kc/schemabrain)
-          🐍 🏠 🍎 🪟 🐧 - Read-only trust layer for Postgres: the agent never writes SQL — twelve tools compile it from
-          definitions you control, PII and secret categories are refused before the query runs, and every call lands in
-          a tamper-evident SHA-256 audit chain.
+        surrounding_text: "- [Arun-kc/schemabrain](https://github.com/Arun-kc/schemabrain) [![schemabrain MCP server](https://glama.ai/mcp/servers/Arun-kc/schemabrain/badges/score.svg)](https://glama.ai/mcp/servers/Arun-kc/schemabrain) 🐍 🏠 🍎 🪟 🐧 - Read-only trust layer for Postgres: the agent never writes SQL — twelve tools compile it from definitions you control, PII and secret categories are refused before the query runs, and every call lands in a tamper-evident SHA-256 audit chain."
         confidence: high
 metadata:
   github:
@@ -35,11 +30,9 @@ metadata:
     archived: false
     full_name: Arun-kc/schemabrain
     html_url: https://github.com/Arun-kc/schemabrain
-    created_at: '2026-05-10T16:44:00Z'
-    pushed_at: '2026-08-24T00:36:30Z'
-    description: >-
-      The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic
-      knowledge graph + audit log, MCP-native.
+    created_at: "2026-05-10T16:44:00Z"
+    pushed_at: "2026-08-24T00:36:30Z"
+    description: The trust and intelligence layer between AI agents and your database. Read-only by architecture, semantic knowledge graph + audit log, MCP-native.
     homepage: https://www.schemabrain.dev
     topics:
       - agent-tools
@@ -61,15 +54,13 @@ metadata:
       - schema-intelligence
       - semantic-firewall
       - semantic-layer
-    last_checked_at: '2026-09-21T04:13:48.333Z'
+    last_checked_at: "2026-09-21T04:13:48.333Z"
     readme:
-      fetched_at: '2026-09-21T04:13:48.333Z'
+      fetched_at: "2026-09-21T04:13:48.333Z"
       bytes: 40154
 insights:
   summary: A read-only MCP server that acts as a semantic and security layer between AI agents and databases.
-  why_it_matters: >-
-    It enables developers to safely grant AI agents access to databases by enforcing read-only constraints, preventing
-    PII leaks, and maintaining tamper-evident audit logs.
+  why_it_matters: It enables developers to safely grant AI agents access to databases by enforcing read-only constraints, preventing PII leaks, and maintaining tamper-evident audit logs.
   mental_damage: Because the only thing scarier than an agent hallucinating a join is an agent hallucinating a 'DROP TABLE' command.
   tags:
     - mcp
@@ -93,18 +84,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.066Z'
+    updated_at: "2026-06-18T05:40:04.066Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:48.333Z'
+    updated_at: "2026-09-21T04:13:48.333Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:17:23.680Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -116,9 +109,7 @@ processing:
       input_hash: sha256:6e97e29fccfdc2434dea6f0f4cca7af7af1ba223309b4c27623af1afc469e47c
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The tool is built as an MCP-native server that exposes database capabilities to agents, fitting the core
-        definition of an MCP server.
+      decision_reason: The tool is built as an MCP-native server that exposes database capabilities to agents, fitting the core definition of an MCP server.
       decision_evidence:
         - Description explicitly identifies as 'MCP-native'
         - Works with Claude Desktop, Cursor, and other MCP hosts
@@ -126,8 +117,6 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the product's primary identity is an MCP server providing database
-        tools, and the instructions state that MCP identity wins over the capability domain.
+      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is an MCP server providing database tools, and the instructions state that MCP identity wins over the capability domain.
       review_reason: null
       review_resume_lifecycle: null

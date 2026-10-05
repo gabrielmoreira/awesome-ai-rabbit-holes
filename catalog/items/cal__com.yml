@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cal__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Community Servers
         anchor_text: Calcom
         extracted_url: https://cal.com
-        surrounding_text: >-
-          - **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for
-          [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings,
-          and access Cal.com scheduling data through LLMs.
+        surrounding_text: "- **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
         confidence: high
 metadata:
   github:
@@ -39,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cal.com is an open-source scheduling infrastructure and API designed to handle complex booking workflows.
-  why_it_matters: >-
-    It provides a developer-centric, extensible framework for integrating scheduling into apps, making it a likely
-    target for MCP server implementation.
-  mental_damage: >-
-    Another API to integrate, ensuring you'll spend more time handling webhook edge cases than actually scheduling your
-    lunch.
+  summary: cal.com is a scheduling platform for booking meetings and managing calendar availability.
+  why_it_matters: It streamlines meeting coordination by allowing developers and teams to share availability and book time without back-and-forth emails.
+  mental_damage: Another tool promising to save time that just adds another tab to your already overflowing workflow of productivity apps.
   tags:
+    - productivity
     - scheduling
-    - api
-    - infrastructure
+    - calendar
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
+  status: excluded
+  reason: cal.com is a general-purpose scheduling tool with no developer-specific AI functionality, coding assistance, or integration into software development workflows beyond basic calendar use.
   evidence:
-    - jev-latest choice confidence 0.58
+    - Repo description is missing; the site positions cal.com as a meeting scheduling platform for individuals and teams.
+    - Listed in awesome-mcp-servers under 'Community Servers', suggesting only a potential MCP server integration, not core developer tooling functionality.
+    - No evidence of AI agents, code editing, app building, or developer workflow automation in the provided context.
 placement:
   primary_category: null
   secondary_categories: []
@@ -66,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,35 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:00.959Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for cal__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:13.854Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:290d6f186d1624fd612d7cbfaf066ef70578fcd4d0a443ab0627738700b08763
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b2bb51bc4bf3a2e41b13f818787b7be7cb2d78e31e9403959d1310fdff169507
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary
-        relevant identity within this catalog.
+      decision_reason: cal.com is a general-purpose scheduling tool with no developer-specific AI functionality, coding assistance, or integration into software development workflows beyond basic calendar use.
       decision_evidence:
-        - Found in awesome-mcp-servers directory
-        - Purpose is to provide MCP server functionality for scheduling
-      category_candidates:
-        - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the tool is explicitly curated as an MCP server for model access
-        rather than a general workflow integration for a specific editor.
+        - Repo description is missing; the site positions cal.com as a meeting scheduling platform for individuals and teams.
+        - Listed in awesome-mcp-servers under 'Community Servers', suggesting only a potential MCP server integration, not core developer tooling functionality.
+        - No evidence of AI agents, code editing, app building, or developer workflow automation in the provided context.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

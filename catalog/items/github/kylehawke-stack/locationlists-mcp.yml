@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kylehawke-stack__locationlists-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🗺️ Location Services
         anchor_text: kylehawke-stack/locationlists-mcp
         extracted_url: https://github.com/kylehawke-stack/locationlists-mcp
-        surrounding_text: >-
-          -   **[kylehawke-stack/locationlists-mcp](https://github.com/kylehawke-stack/locationlists-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/kylehawke-stack/locationlists-mcp?style=social)](https://github.com/kylehawke-stack/locationlists-mcp):
-          Search, sample, count and buy US business location datasets (dealers, chains, contractors). Card checkout or
-          x402 USDC. Remote at https://locationlists.com/mcp, no auth.
+        surrounding_text: "-   **[kylehawke-stack/locationlists-mcp](https://github.com/kylehawke-stack/locationlists-mcp)** [![GitHub stars](https://img.shields.io/github/stars/kylehawke-stack/locationlists-mcp?style=social)](https://github.com/kylehawke-stack/locationlists-mcp): Search, sample, count and buy US business location datasets (dealers, chains, contractors). Card checkout or x402 USDC. Remote at https://locationlists.com/mcp, no auth."
         confidence: high
 metadata:
   github:
@@ -54,16 +50,16 @@ curation:
     - jev winnow:e4b 0.45 below gate 0.50; proposed mcp / Data & Databases; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - mcp
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.465Z'
+    updated_at: "2026-09-29T13:07:10.465Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__jiangshu__ai__awesome__jev__zh__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://code.jiangshu.ai/awesome-jev-zh
-        surrounding_text: >-
-          - [awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh) ([site](https://code.jiangshu.ai/awesome-jev-zh/))
-          - Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。
+        surrounding_text: "- [awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh) ([site](https://code.jiangshu.ai/awesome-jev-zh/)) - Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。"
         confidence: high
 metadata:
   github:
@@ -38,18 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    awesome-jev-zh (site) - Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub
-    热门项目。
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: awesome-jev-zh is a curated directory of projects built on Jev (TypeSafe System One), a decision model that returns typed answers with probabilities instead of generating text.
+  why_it_matters: It helps developers discover tools that leverage Jev for deterministic, low-latency judgment tasks like routing, scoring, and guardrails without text generation overhead.
+  mental_damage: Another awesome list promising to save you from LLM chaos — as long as you’re okay with your AI only answering multiple-choice questions.
+  tags:
+    - awesome-list
+    - decision-models
+    - jev
+    - typesafe
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: awesome-jev-zh is a curated directory of Jev-based projects, making it a navigation aid for developers exploring decision-model tooling, which fits the awesome-awesomes scope as a discovery resource.
   evidence:
-    - jev-latest choice confidence 0.91
+    - "Seen in source list: awesome-jev with purpose 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+    - The scraped site and README focus on Jev as a decision model that returns typed values (Choice, Score, Noul) without generating text, used for routing, scoring, and guardrails.
+    - The project is hosted at code.jiangshu.ai/awesome-jev-zh and links to GitHub.com/YZFLY/AWESOME-JEV-ZH, indicating it is a maintained awesome list.
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -60,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:14.061Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:74723438af3744117fc7cb2bea86693b243e1f4a4a7fc366e933533265cb8367
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: awesome-jev-zh is a curated directory of Jev-based projects, making it a navigation aid for developers exploring decision-model tooling, which fits the awesome-awesomes scope as a discovery resource.
+      decision_evidence:
+        - "Seen in source list: awesome-jev with purpose 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+        - The scraped site and README focus on Jev as a decision model that returns typed values (Choice, Score, Noul) without generating text, used for routing, scoring, and guardrails.
+        - The project is hosted at code.jiangshu.ai/awesome-jev-zh and links to GitHub.com/YZFLY/AWESOME-JEV-ZH, indicating it is a maintained awesome list.
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because awesome-jev-zh is a curated directory of projects, not a decision model, SDK, or tool that performs judgments itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

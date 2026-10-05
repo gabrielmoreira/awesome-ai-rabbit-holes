@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__benchgen__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: BenchGen
         extracted_url: https://benchgen.com
-        surrounding_text: >-
-          - **[BenchGen](https://benchgen.com)** – AI agent benchmarking and evaluation platform. Score agent runs
-          across tool-call accuracy, goal completion, and skill coverage, then export filtered trajectories for
-          fine-tuning.
+        surrounding_text: "- **[BenchGen](https://benchgen.com)** – AI agent benchmarking and evaluation platform. Score agent runs across tool-call accuracy, goal completion, and skill coverage, then export filtered trajectories for fine-tuning."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    BenchGen – AI agent benchmarking and evaluation platform. Score agent runs across tool-call accuracy, goal
-    completion, and skill coverage, then export filtered trajectories for fine-tuning.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: BenchGen is a benchmarking infrastructure that evaluates AI agents in simulated operational environments, capturing decision trajectories and converting results into training data.
+  why_it_matters: It helps developers validate agent reliability and close the demo-to-production gap by providing auditable, end-to-end evaluations of agent behavior in realistic workflows.
+  mental_damage: Finally, a way to feel guilty not just when your agent fails in prod, but when you realize you never tested it in anything resembling real work.
+  tags:
+    - evals
+    - agent-benchmarking
+    - simulation
+    - trajectory-data
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  reason: BenchGen's core function is evaluating AI agent behavior through structured, trajectory-based benchmarking in simulated environments, making it an evaluation platform rather than a coding agent or orchestration tool.
   evidence:
-    - jev-latest choice confidence 0.85
+    - BenchGen evaluates real-world AI capability by testing agents inside interactive environments — capturing full decision trajectories, verifying outcomes, and turning every benchmark run into training data.
+    - It is described as 'Benchmarking Infrastructure for AI Agents' and focuses on measuring agent reliability across multi-step workflows, not generating code or coordinating agents.
+    - Listed in awesome-ai-coding-tools under 'Testing and QA' for its role in benchmarking agent performance in operational simulations.
 placement:
   primary_category: evals
   secondary_categories: []
@@ -61,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:40.444Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5c7ae1ec867eb16aa33e3e3874a4482289cf958aff5239c10e617615b7bfc57c
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: BenchGen's core function is evaluating AI agent behavior through structured, trajectory-based benchmarking in simulated environments, making it an evaluation platform rather than a coding agent or orchestration tool.
+      decision_evidence:
+        - BenchGen evaluates real-world AI capability by testing agents inside interactive environments — capturing full decision trajectories, verifying outcomes, and turning every benchmark run into training data.
+        - It is described as 'Benchmarking Infrastructure for AI Agents' and focuses on measuring agent reliability across multi-step workflows, not generating code or coordinating agents.
+        - Listed in awesome-ai-coding-tools under 'Testing and QA' for its role in benchmarking agent performance in operational simulations.
+      category_candidates:
+        - evals
+        - agent-orchestration
+      contrastive_reason: Choose evals over agent-orchestration because BenchGen's primary job is measuring and improving agent behavior through benchmarking and trajectory capture, not coordinating multiple agents or managing agent workflows.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

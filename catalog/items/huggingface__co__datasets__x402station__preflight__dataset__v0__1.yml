@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/datasets/x402station/preflight-dataset-v0_
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__datasets__x402station__preflight__dataset__v0__1__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+    - id: discovery__huggingface__co__datasets__x402station__preflight__dataset__v0__1__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,18 +19,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: huggingface.co/datasets/x402station/preflight-dataset-v0_1
         extracted_url: https://huggingface.co/datasets/x402station/preflight-dataset-v0_1
-        surrounding_text: >-
-          - [sF1nX/x402station](https://github.com/sF1nX/x402station-mcp) [![sF1nX/x402station-mcp MCP
-          server](https://glama.ai/mcp/servers/sF1nX/x402station-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp)
-          📇 ☁️ - Preflight by [x402station.io](https://x402station.io) — infrastructure for x402 agentic commerce. Six
-          capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every
-          `PAYMENT-SIGNATURE` to detect decoys, zombie endpoints, dead services, and price traps. Tools: `preflight`
-          ($0.001), `forensics` ($0.001), `catalog_decoys` ($0.005), `alternatives` ($0.005), `whats_new` ($0.001),
-          `buy_credits` ($0.50 = 1000 prepaid), `watch_subscribe` ($0.01) + free
-          `credits_status`/`watch_status`/`watch_unsubscribe`. Plus free anonymous `preflight-trial` for self-test.
-          Probes ~50k endpoints on agentic.market every 10 min. Open dataset:
-          [huggingface.co/datasets/x402station/preflight-dataset-v0_1](https://huggingface.co/datasets/x402station/preflight-dataset-v0_1).
-          `npx -y x402station-mcp`.
+        surrounding_text: "- [sF1nX/x402station](https://github.com/sF1nX/x402station-mcp) [![sF1nX/x402station-mcp MCP server](https://glama.ai/mcp/servers/sF1nX/x402station-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@sF1nX/x402station-mcp) 📇 ☁️ - Preflight by [x402station.io](https://x402station.io) — infrastructure for x402 agentic commerce. Six capability directions (Discover/Evaluate/Pay/Monitor/Recover/Analyze). Agents call it before every `PAYMENT-SIGNATURE` to detect decoys, zombie endpoints, dead services, and price traps. Tools: `preflight` ($0.001), `forensics` ($0.001), `catalog_decoys` ($0.005), `alternatives` ($0.005), `whats_new` ($0.001), `buy_credits` ($0.50 = 1000 prepaid), `watch_subscribe` ($0.01) + free `credits_status`/`watch_status`/`watch_unsubscribe`. Plus free anonymous `preflight-trial` for self-test. Probes ~50k endpoints on agentic.market every 10 min. Open dataset: [huggingface.co/datasets/x402station/preflight-dataset-v0_1](https://huggingface.co/datasets/x402station/preflight-dataset-v0_1). `npx -y x402station-mcp`."
         confidence: high
 metadata:
   github:
@@ -49,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A dataset hosted on HuggingFace titled 'preflight-dataset-v0_1'.
-  why_it_matters: Datasets can be used to benchmark or fine-tune models, but this is raw data rather than a functional tool.
-  mental_damage: >-
-    The tooling sprawl is reaching a point where we are starting to treat raw data distributions as standalone software
-    products.
+  summary: A Hugging Face dataset named preflight-dataset-v0_1 hosted by user x402station.
+  why_it_matters: Provides a data artifact that could be used for testing or training in AI workflows, though its purpose is not documented.
+  mental_damage: Another mysterious dataset dropped into the wild with zero context, forcing developers to reverse-engineer its intent like it's a Cold War cipher.
   tags:
     - dataset
     - huggingface
+    - preflight
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a static dataset hosted on HuggingFace, not a functional developer tool, agent, framework, or MCP
-    implementation.
+  reason: The input describes only a Hugging Face dataset with no indication it is a developer-facing AI tool, agent, framework, or infrastructure relevant to software development workflows.
   evidence:
-    - URL points to a HuggingFace dataset repository
-    - Project lacks a functional runtime, SDK, or agent identity
+    - "Repo description: (none)"
+    - "URL: https://huggingface.co/datasets/x402station/preflight-dataset-v0_1"
+    - No README excerpt, source-list context, or scraped site context provided to suggest tooling identity
 placement:
   primary_category: null
   section: null
@@ -75,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.820Z'
+    updated_at: "2026-05-28T05:28:09.820Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:29:30.262Z'
+    updated_at: "2026-10-05T04:25:29.141Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d14ce96083bb1e00b4be0db07ea1d3c4012b395d0fb92ddb07568a30c37b37af
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:62af313fc5f9a5eedd35aac31da4ac312ec9c741ae66c363fba58fad0fe09b6d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a static dataset hosted on HuggingFace, not a functional developer tool, agent, framework, or MCP
-        implementation.
+      decision_reason: The input describes only a Hugging Face dataset with no indication it is a developer-facing AI tool, agent, framework, or infrastructure relevant to software development workflows.
       decision_evidence:
-        - URL points to a HuggingFace dataset repository
-        - Project lacks a functional runtime, SDK, or agent identity
+        - "Repo description: (none)"
+        - "URL: https://huggingface.co/datasets/x402station/preflight-dataset-v0_1"
+        - No README excerpt, source-list context, or scraped site context provided to suggest tooling identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

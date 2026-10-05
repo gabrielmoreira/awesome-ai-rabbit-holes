@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ultravox__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Fixie
         anchor_text: Fixie
         extracted_url: https://fixie.ai
-        surrounding_text: '## [Fixie](https://www.fixie.ai/)'
+        surrounding_text: "## [Fixie](https://www.fixie.ai/)"
         confidence: high
     - id: discovery__www__ultravox__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Fixie
         anchor_text: Fixie
         extracted_url: https://www.fixie.ai
-        surrounding_text: '## [Fixie](https://www.fixie.ai/)'
+        surrounding_text: "## [Fixie](https://www.fixie.ai/)"
         confidence: high
 metadata:
   github:
@@ -51,37 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Ultravox is a real-time voice AI infrastructure layer with speech-native models and managed inference stack for
-    building low-latency voice agents.
-  why_it_matters: >-
-    It enables developers to build voice agents that preserve paralinguistic cues and avoid transcription latency,
-    critical for natural conversational AI.
-  mental_damage: >-
-    Yet another voice API promising human-like chat while developers silently resurrect their old Twilio scripts for the
-    tenth time.
+  summary: Ultravox is a real-time voice AI infrastructure layer for building voice agents with speech-native models and low-latency audio processing.
+  why_it_matters: Provides developers with speech-native APIs and SDKs to build voice agents that preserve paralinguistic cues and avoid transcription latency.
+  mental_damage: Finally, a voice AI that doesn’t make you feel like you’re yelling at a confused call center robot from 2007.
   tags:
     - voice-ai
-    - real-time
     - speech-native
-    - ai-infrastructure
-    - agent-tools
+    - realtime-audio
+    - voice-agents
+    - developer-apis
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Ultravox is a voice AI infrastructure provider focused on speech-to-speech models and real-time agent pipelines, not
-    a developer-facing AI tool for coding, app building, or agent orchestration as defined in the catalog scope.
+  reason: Ultravox is a voice AI infrastructure provider, not a developer-facing AI tool for coding, agents, or workflows; its value is in voice agent performance, not software development assistance.
   evidence:
-    - >-
-      Scraped site context describes Ultravox as a 'real-time voice AI infrastructure layer' that trains speech-native
-      models and manages end-to-end inference for voice agents.
-    - >-
-      Source-list context places it in awesome-ai-agents under 'Fixie' with the note: 'Ultravox is a real-time voice AI
-      infrastructure layer that powers fast, natural, and scalable voice agents.'
-    - >-
-      No evidence of coding agent behavior, app generation from prompts, framework/SDK for developers to import, or
-      agent orchestration capabilities — core identity is voice model hosting and API delivery.
+    - Ultravox is described as a 'real-time voice AI infrastructure layer that powers fast, natural, and scalable voice agents'
+    - It offers developer-friendly APIs, SDKs, and tooling for building voice agents, but the core product is voice AI performance, not coding or agent workflows
+    - Appears in awesome-ai-agents under 'Fixie' as a voice agent infrastructure, not a coding agent or developer tool
 placement:
   primary_category: null
   section: null
@@ -91,39 +77,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:35.756Z'
+    updated_at: "2026-10-05T04:56:41.686Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fa7ba9416e1fb45ded0da479212fcea9e65d500563e2d21aeaabca869dbdb14a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fbd4f58070c84f37de7479af7c025980fc4542f3546dceba75ccd20488a47c9e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Ultravox is a voice AI infrastructure provider focused on speech-to-speech models and real-time agent pipelines,
-        not a developer-facing AI tool for coding, app building, or agent orchestration as defined in the catalog scope.
+      decision_reason: Ultravox is a voice AI infrastructure provider, not a developer-facing AI tool for coding, agents, or workflows; its value is in voice agent performance, not software development assistance.
       decision_evidence:
-        - >-
-          Scraped site context describes Ultravox as a 'real-time voice AI infrastructure layer' that trains
-          speech-native models and manages end-to-end inference for voice agents.
-        - >-
-          Source-list context places it in awesome-ai-agents under 'Fixie' with the note: 'Ultravox is a real-time voice
-          AI infrastructure layer that powers fast, natural, and scalable voice agents.'
-        - >-
-          No evidence of coding agent behavior, app generation from prompts, framework/SDK for developers to import, or
-          agent orchestration capabilities — core identity is voice model hosting and API delivery.
+        - Ultravox is described as a 'real-time voice AI infrastructure layer that powers fast, natural, and scalable voice agents'
+        - It offers developer-friendly APIs, SDKs, and tooling for building voice agents, but the core product is voice AI performance, not coding or agent workflows
+        - Appears in awesome-ai-agents under 'Fixie' as a voice agent infrastructure, not a coding agent or developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

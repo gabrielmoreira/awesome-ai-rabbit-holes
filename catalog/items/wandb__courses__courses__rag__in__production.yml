@@ -1,12 +1,12 @@
 id: wandb__courses__courses__rag__in__production
 kind: website
-name: 'RAG++ : From POC to production'
+name: "RAG++ : From POC to production"
 canonical_url: https://wandb.courses/courses/rag-in-production
 identity: {}
 provenance:
   discoveries:
     - id: discovery__wandb__courses__courses__rag__in__production__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,14 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'RAG++ : From POC to production'
+        anchor_text: "RAG++ : From POC to production"
         extracted_url: https://wandb.courses/courses/rag-in-production
-        surrounding_text: >-
-          43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG
-          course.
+        surrounding_text: "43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG course."
         confidence: high
     - id: discovery__www__wandb__courses__courses__rag__in__production__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -33,11 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: 'RAG++ : From POC to production'
+        anchor_text: "RAG++ : From POC to production"
         extracted_url: https://www.wandb.courses/courses/rag-in-production
-        surrounding_text: >-
-          43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG
-          course.
+        surrounding_text: "43. [RAG++ : From POC to production](https://www.wandb.courses/courses/rag-in-production): Advanced RAG course."
         confidence: high
 metadata:
   github:
@@ -55,29 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RAG++ is an online course teaching how to transition RAG systems from proof-of-concept to production deployment.
-  why_it_matters: >-
-    It helps developers bridge the gap between RAG prototypes and scalable, maintainable systems in real-world
-    applications.
-  mental_damage: >-
-    Another reminder that your 'working' RAG demo will collapse under real traffic, and now there's a course to tell you
-    why.
+  summary: A Weights & Biases course on moving RAG prototypes to production systems.
+  why_it_matters: Teaches developers practical patterns for deploying RAG in real applications, bridging the gap between experimentation and production.
+  mental_damage: Another reminder that your 'weekend RAG demo' will need six more months of work to survive contact with actual users.
   tags:
+    - course
     - rag
     - production
-    - course
-    - llm
-    - ai-engineering
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it
-    teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
+  reason: This is an educational course resource, not a developer-facing AI tool, agent, or infrastructure product; it belongs in curated lists rather than as a standalone tool.
   evidence:
-    - 'Repo description: (none)'
-    - 'Source-list context: included in awesome-LLM-resources under ''课程 Course'' (Course section)'
-    - URL points to wandb.courses, indicating it is a hosted educational offering, not open-source software
+    - "Repo description: (none)"
+    - "Seen in source lists / directories: awesome-LLM-resources | purpose: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. | section: 课程 Course"
 placement:
   primary_category: null
   section: null
@@ -87,33 +74,30 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:10.745Z'
+    updated_at: "2026-10-05T04:57:09.311Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:775f4ea04a60ad36bc2ebc4ffa426791a52b721f61834679d036e9bd6c8fe479
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f9faadbd4d722c8cc754f352929ac00ff0e8b7a47b5a46ac20028c68a616241c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        RAG++ is an educational course, not a developer-facing AI tool, agent, framework, or infrastructure product; it
-        teaches concepts but does not provide runnable tooling or code that developers directly use in their workflows.
+      decision_reason: This is an educational course resource, not a developer-facing AI tool, agent, or infrastructure product; it belongs in curated lists rather than as a standalone tool.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'Source-list context: included in awesome-LLM-resources under ''课程 Course'' (Course section)'
-        - URL points to wandb.courses, indicating it is a hosted educational offering, not open-source software
+        - "Repo description: (none)"
+        - "Seen in source lists / directories: awesome-LLM-resources | purpose: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. | section: 课程 Course"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

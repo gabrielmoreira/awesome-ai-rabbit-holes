@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dstack-tee__dstack__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-21T05:27:57.681Z'
+      discovered_at: "2026-05-21T05:27:57.681Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Frameworks for LLM security
         anchor_text: dstack
         extracted_url: https://github.com/dstack-tee/dstack
-        surrounding_text: >-
-          | [dstack](https://github.com/Dstack-TEE/dstack)          | Open-source confidential AI framework for secure
-          LLM deployment with data privacy, providing hardware-enforced isolation using Intel TDX and NVIDIA
-          Confidential Computing. | ![GitHub
-          Badge](https://img.shields.io/github/stars/Dstack-TEE/dstack?style=flat-square) |
+        surrounding_text: "| [dstack](https://github.com/Dstack-TEE/dstack)          | Open-source confidential AI framework for secure LLM deployment with data privacy, providing hardware-enforced isolation using Intel TDX and NVIDIA Confidential Computing. | ![GitHub Badge](https://img.shields.io/github/stars/Dstack-TEE/dstack?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: Dstack-TEE/dstack
     html_url: https://github.com/Dstack-TEE/dstack
-    created_at: '2024-09-13T03:25:07Z'
-    pushed_at: '2026-09-14T03:59:41Z'
+    created_at: "2024-09-13T03:25:07Z"
+    pushed_at: "2026-09-14T03:59:41Z"
     description: Open framework for confidential AI
     homepage: https://dstack.org
     topics:
@@ -47,21 +43,14 @@ metadata:
       - secure-ai
       - tee
       - trusted-execution-environment
-    last_checked_at: '2026-09-14T04:13:44.721Z'
+    last_checked_at: "2026-09-14T04:13:44.721Z"
     readme:
-      fetched_at: '2026-09-14T04:13:44.721Z'
+      fetched_at: "2026-09-14T04:13:44.721Z"
       bytes: 13786
 insights:
-  summary: >-
-    Open framework for deploying AI applications in confidential VMs using Intel TDX and NVIDIA confidential computing
-    to provide cryptographic privacy guarantees.
-  why_it_matters: >-
-    It lets developers run inference, agents, and training workloads inside hardware-isolated containers with
-    cryptographic attestation, aiming to eliminate the need to trust cloud operators with sensitive data or model
-    weights.
-  mental_damage: >-
-    Because the natural evolution of 'it works on my machine' is 'it works in my cryptographically attested Intel TDX
-    confidential VM with reproducible OS hashes.'
+  summary: Open framework for deploying AI applications in confidential VMs using Intel TDX and NVIDIA confidential computing to provide cryptographic privacy guarantees.
+  why_it_matters: It lets developers run inference, agents, and training workloads inside hardware-isolated containers with cryptographic attestation, aiming to eliminate the need to trust cloud operators with sensitive data or model weights.
+  mental_damage: Because the natural evolution of 'it works on my machine' is 'it works in my cryptographically attested Intel TDX confidential VM with reproducible OS hashes.'
   tags:
     - confidential-computing
     - trusted-execution-environment
@@ -71,19 +60,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is primarily a confidential-computing deployment platform and runtime infrastructure (VMM, KMS, Gateway, CVM
-    orchestration) rather than a code-first framework, local inference runtime, or any other defined category shape.
+  reason: It is primarily a confidential-computing deployment platform and runtime infrastructure (VMM, KMS, Gateway, CVM orchestration) rather than a code-first framework, local inference runtime, or any other defined category shape.
   evidence:
-    - >-
-      Repo and README identify it as a framework for deploying AI in TEEs, emphasizing infrastructure components like
-      VMM, Gateway, and over-the-socket SDKs.
-    - >-
-      The project's main workflow is Docker Compose native deployment onto bare-metal TDX hosts, not importing
-      code-first building blocks or operating as a coding assistant.
-    - >-
-      No available category cleanly captures confidential-computing runtime infrastructure; it sits awkwardly between
-      ai-frameworks and local-ai without fitting either primary identity.
+    - Repo and README identify it as a framework for deploying AI in TEEs, emphasizing infrastructure components like VMM, Gateway, and over-the-socket SDKs.
+    - The project's main workflow is Docker Compose native deployment onto bare-metal TDX hosts, not importing code-first building blocks or operating as a coding assistant.
+    - No available category cleanly captures confidential-computing runtime infrastructure; it sits awkwardly between ai-frameworks and local-ai without fitting either primary identity.
 placement:
   primary_category: null
   section: null
@@ -93,17 +74,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-21T05:27:57.683Z'
+    updated_at: "2026-05-21T05:27:57.683Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:44.721Z'
+    updated_at: "2026-09-14T04:13:44.721Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

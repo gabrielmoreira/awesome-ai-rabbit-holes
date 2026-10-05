@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hustvl__robomamba__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-21T05:27:57.681Z'
+      discovered_at: "2026-05-21T05:27:57.681Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Robotics Foundation Model
         anchor_text: RoboMamba
         extracted_url: https://github.com/hustvl/robomamba
-        surrounding_text: >-
-          | [RoboMamba](https://github.com/hustvl/RoboMamba)          | An efficient VLA model leveraging State Space
-          Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient,
-          recurrent robotic reasoning.                          | ![GitHub
-          Badge](https://img.shields.io/github/stars/hustvl/RoboMamba.svg?style=flat-square)            |
+        surrounding_text: "| [RoboMamba](https://github.com/hustvl/RoboMamba)          | An efficient VLA model leveraging State Space Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient, recurrent robotic reasoning.                          | ![GitHub Badge](https://img.shields.io/github/stars/hustvl/RoboMamba.svg?style=flat-square)            |"
         confidence: high
 metadata:
   github:
@@ -42,18 +38,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An efficient VLA model leveraging State Space Models (Mamba) instead of standard self-attention, offering linear
-    inference complexity for efficient, recurrent robotic reasoning.
+  summary: An efficient VLA model leveraging State Space Models (Mamba) instead of standard self-attention, offering linear inference complexity for efficient, recurrent robotic reasoning.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for hustvl/robomamba
     - ungh.cc (cached GitHub proxy) returned 404 for hustvl/robomamba
@@ -68,19 +60,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-21T05:27:57.683Z'
+    updated_at: "2026-05-21T05:27:57.683Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-08-03T05:16:51.507Z'
+    updated_at: "2026-08-03T05:16:51.507Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: hustvl/robomamba'
+      message: "GitHub repository not found: hustvl/robomamba"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

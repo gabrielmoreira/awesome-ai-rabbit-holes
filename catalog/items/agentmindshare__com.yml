@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentmindshare__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Agent Mindshare
         extracted_url: https://agentmindshare.com
-        surrounding_text: >-
-          - **[Agent Mindshare](https://agentmindshare.com)** - Track and monitor AI agent mindshare across platforms -
-          measure brand visibility in AI conversations with [Agent Mindshare](https://agentmindshare.com).
+        surrounding_text: "- **[Agent Mindshare](https://agentmindshare.com)** - Track and monitor AI agent mindshare across platforms - measure brand visibility in AI conversations with [Agent Mindshare](https://agentmindshare.com)."
         confidence: high
 metadata:
   github:
@@ -38,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A brand monitoring platform that tracks how LLMs and AI agents perceive a company's brand and sentiment.
-  why_it_matters: It allows brands to measure their 'mindshare' and sentiment across different AI models and search services.
-  mental_damage: Because now we need SEO specialists to optimize for an LLM's vibe check.
+  summary: Agent Mindshare is a brand monitoring platform that tracks how AI agents like ChatGPT, Claude, Gemini, and Perplexity mention a company in their responses.
+  why_it_matters: It helps developers and marketers monitor AI-generated brand visibility, a growing concern as LLMs influence public perception and discovery.
+  mental_damage: Finally, a way to feel anxious about what the robots are saying about you before your boss does.
   tags:
-    - brand-monitoring
-    - mcp
-    - marketing
-    - seo
+    - ai-monitoring
+    - brand-tracking
+    - llm-visibility
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a
-    developer-facing tool for building or managing AI software.
+  reason: Agent Mindshare is a marketing and brand analytics tool focused on AI-generated content monitoring, not a developer-facing AI tool for coding, workflows, or infrastructure.
   evidence:
-    - Primary product identity is an AI visibility platform for brands and agencies
-    - MCP support is an auxiliary feature to enable research via agents rather than the product's core identity
+    - Scraped site context describes it as a platform to 'monitor and track how your brand appears across AI agents and LLMs' with features like sentiment analysis, geographic targeting, and BigQuery export.
+    - Source-list context shows it appears in 'awesome-mcp-servers' under 'Official Servers' but the tool itself is not an MCP server — it only mentions MCP integration as a compatibility feature.
+    - The product has merged into cogny.com and no longer accepts new sign-ups, indicating it is sunsetted and not actively maintained as a standalone tool.
 placement:
   primary_category: null
   section: null
@@ -64,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,25 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:31:53.873Z'
+    updated_at: "2026-10-05T04:27:39.514Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f308fcadd2d66de9fd45179a031a122b63baeffd93190dcf49f060f55dfdfa98
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9a4131b702f8d9ba2264d4fe34b78b91aae5252cbad555dcecfab394ed583d14
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is primarily a marketing platform for brand visibility and sentiment analysis, rather than a
-        developer-facing tool for building or managing AI software.
+      decision_reason: Agent Mindshare is a marketing and brand analytics tool focused on AI-generated content monitoring, not a developer-facing AI tool for coding, workflows, or infrastructure.
       decision_evidence:
-        - Primary product identity is an AI visibility platform for brands and agencies
-        - MCP support is an auxiliary feature to enable research via agents rather than the product's core identity
+        - Scraped site context describes it as a platform to 'monitor and track how your brand appears across AI agents and LLMs' with features like sentiment analysis, geographic targeting, and BigQuery export.
+        - Source-list context shows it appears in 'awesome-mcp-servers' under 'Official Servers' but the tool itself is not an MCP server — it only mentions MCP integration as a compatibility feature.
+        - The product has merged into cogny.com and no longer accepts new sign-ups, indicating it is sunsetted and not actively maintained as a standalone tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

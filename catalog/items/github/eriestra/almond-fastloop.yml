@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eriestra__almond-fastloop__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: almond-fastloop
         extracted_url: https://github.com/eriestra/almond-fastloop
-        surrounding_text: >-
-          | [almond-fastloop](https://github.com/eriestra/almond-fastloop) | ★ 1 | HTML | 2026-09-19 | Almond-fastloop:
-          Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics benchmark it
-          is measured on. |
+        surrounding_text: "| [almond-fastloop](https://github.com/eriestra/almond-fastloop) | ★ 1 | HTML | 2026-09-19 | Almond-fastloop: Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics benchmark it is measured on. |"
         confidence: high
 metadata:
   github:
@@ -41,18 +38,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Almond-fastloop: Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics
-    benchmark it is measured on.
+  summary: "Almond-fastloop: Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics benchmark it is measured on."
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for eriestra/almond-fastloop
     - ungh.cc (cached GitHub proxy) returned 404 for eriestra/almond-fastloop
@@ -67,17 +60,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-29T13:11:03.768Z'
+    updated_at: "2026-09-29T13:11:03.768Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: eriestra/almond-fastloop'
+      message: "GitHub repository not found: eriestra/almond-fastloop"
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

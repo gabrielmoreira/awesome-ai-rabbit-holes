@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tristandeleu__pytorch-meta__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,7 @@ provenance:
           - AutoML
         anchor_text: Torchmeta
         extracted_url: https://github.com/tristandeleu/pytorch-meta
-        surrounding_text: >-
-          | [Torchmeta](https://github.com/tristandeleu/pytorch-meta)                    | A Meta-Learning library for
-          PyTorch.                                                                                                                                           
-          | ![GitHub Badge](https://img.shields.io/github/stars/tristandeleu/pytorch-meta.svg?style=flat-square)       |
+        surrounding_text: "| [Torchmeta](https://github.com/tristandeleu/pytorch-meta)                    | A Meta-Learning library for PyTorch.                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/tristandeleu/pytorch-meta.svg?style=flat-square)       |"
         confidence: high
 metadata:
   github:
@@ -32,26 +29,22 @@ metadata:
     archived: false
     full_name: tristandeleu/pytorch-meta
     html_url: https://github.com/tristandeleu/pytorch-meta
-    created_at: '2018-12-04T23:36:45Z'
-    pushed_at: '2023-07-17T16:05:00Z'
+    created_at: "2018-12-04T23:36:45Z"
+    pushed_at: "2023-07-17T16:05:00Z"
     description: A collection of extensions and data-loaders for few-shot learning & meta-learning in PyTorch
     homepage: https://tristandeleu.github.io/pytorch-meta/
     topics:
       - few-shot-learning
       - meta-learning
       - pytorch
-    last_checked_at: '2026-07-21T15:20:55.452Z'
+    last_checked_at: "2026-07-21T15:20:55.452Z"
     readme:
-      fetched_at: '2026-07-21T15:20:55.452Z'
+      fetched_at: "2026-07-21T15:20:55.452Z"
       bytes: 6937
 insights:
   summary: A collection of PyTorch extensions and data-loaders for few-shot learning and meta-learning research.
-  why_it_matters: >-
-    It provides standardized meta-learning benchmarks and a MetaModule abstraction to simplify gradient-based methods
-    like MAML in PyTorch.
-  mental_damage: >-
-    Realizing that 'learning to learn' still requires reading ten papers and installing a custom PyTorch module just to
-    classify five images.
+  why_it_matters: It provides standardized meta-learning benchmarks and a MetaModule abstraction to simplify gradient-based methods like MAML in PyTorch.
+  mental_damage: Realizing that 'learning to learn' still requires reading ten papers and installing a custom PyTorch module just to classify five images.
   tags:
     - pytorch
     - meta-learning
@@ -61,19 +54,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a machine-learning research library for few-shot and meta-learning experiments, not a developer-facing AI
-    tooling product for building, orchestrating, or assisting software development.
+  reason: This is a machine-learning research library for few-shot and meta-learning experiments, not a developer-facing AI tooling product for building, orchestrating, or assisting software development.
   evidence:
-    - >-
-      Repo description and README focus on meta-learning benchmarks, custom DataLoaders, and research datasets rather
-      than coding agents or AI dev infrastructure.
-    - >-
-      Canonical use case is training MAML-style models on Omniglot and Mini-ImageNet, placing it in general ML research
-      rather than practical developer tooling.
-    - >-
-      Source list categorizes it under AutoML, confirming its identity as ML training/research tooling rather than
-      software workflow tooling.
+    - Repo description and README focus on meta-learning benchmarks, custom DataLoaders, and research datasets rather than coding agents or AI dev infrastructure.
+    - Canonical use case is training MAML-style models on Omniglot and Mini-ImageNet, placing it in general ML research rather than practical developer tooling.
+    - Source list categorizes it under AutoML, confirming its identity as ML training/research tooling rather than software workflow tooling.
 placement:
   primary_category: null
   section: null
@@ -83,17 +68,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.653Z'
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:20:55.452Z'
+    updated_at: "2026-07-21T15:20:55.452Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

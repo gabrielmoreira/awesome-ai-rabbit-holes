@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chathelp__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - ChatHelp
         anchor_text: ChatHelp
         extracted_url: https://chathelp.ai
-        surrounding_text: '## [ChatHelp](https://chathelp.ai/)'
+        surrounding_text: "## [ChatHelp](https://chathelp.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,27 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A SaaS platform offering an AI-powered chatbot widget and a suite of AI tools for business workflows and customer
-    support.
-  why_it_matters: It allows non-technical users to deploy custom AI agents on websites using their own API keys and documents.
-  mental_damage: >-
-    Just what the world needed: another 'all-in-one' dashboard to manage the infinite complexity of your business's AI
-    dependencies.
+  summary: ChatHelp.ai is a platform offering a free AI chat widget and 100+ AI tools for business, work, and study use cases, including AI writing, image generation, and customer support automation.
+  why_it_matters: It provides no-code AI tools for non-developers to add AI features to websites and workflows without requiring coding or model integration.
+  mental_damage: Another ‘all-in-one AI’ dashboard that promises to replace your team with a widget you can embed in one line of code — until you realize it’s just a thin wrapper around public model APIs.
   tags:
-    - chatbot
-    - saas
     - ai-tools
+    - chat-widget
+    - no-code
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a generic business SaaS for non-developers rather than a developer-facing tool, framework, or
-    infrastructure component.
+  reason: ChatHelp.ai is a SaaS platform delivering end-user AI features like chatbots and content generators via a hosted service, not a developer-facing tool for building, extending, or orchestrating AI systems; its primary audience is business users and marketers, not software developers integrating AI into codebases or workflows.
   evidence:
-    - The platform emphasizes 'Free AI Chat Widget - for your website' and tools like 'AI Writer & WordPress Auto Poster' and 'AI Yelp Reviews Analyzer' aimed at business owners and marketers
-    - Core functionality revolves around enabling non-developers to deploy AI chatbots and automate tasks like content generation and review analysis without coding
-    - No evidence of developer tooling such as APIs, SDKs, CLI tools, or extensibility features for engineers to integrate into development workflows
+    - Marketed as a 'Free AI Chat Widget - for your website' with one-line embed code for non-technical users
+    - Offers 100+ pre-built AI tools like AI Writer, Image Generator, and Yelp Reviews Analyzer targeting business, work, and study use cases
+    - Positioned as an all-in-one AI toolbox where users 'bring your own AI API keys' to access features like auto-posting to WordPress or generating headshots
 placement:
   primary_category: null
   section: null
@@ -66,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,31 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:08.465Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for chathelp__ai: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:19.919Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0084beed1409cac0b4818c2354ce388ee79b16560c559028a47bf083182be720
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e2c7290a288bc0586a50f801d08c970b3d880f8192229194a2484fe966e7650c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a generic business SaaS for non-developers rather than a developer-facing tool, framework, or
-        infrastructure component.
+      decision_reason: ChatHelp.ai is a SaaS platform delivering end-user AI features like chatbots and content generators via a hosted service, not a developer-facing tool for building, extending, or orchestrating AI systems; its primary audience is business users and marketers, not software developers integrating AI into codebases or workflows.
       decision_evidence:
-        - The platform emphasizes 'Free AI Chat Widget - for your website' and tools like 'AI Writer & WordPress Auto Poster' and 'AI Yelp Reviews Analyzer' aimed at business owners and marketers
-        - Core functionality revolves around enabling non-developers to deploy AI chatbots and automate tasks like content generation and review analysis without coding
-        - No evidence of developer tooling such as APIs, SDKs, CLI tools, or extensibility features for engineers to integrate into development workflows
+        - Marketed as a 'Free AI Chat Widget - for your website' with one-line embed code for non-technical users
+        - Offers 100+ pre-built AI tools like AI Writer, Image Generator, and Yelp Reviews Analyzer targeting business, work, and study use cases
+        - Positioned as an all-in-one AI toolbox where users 'bring your own AI API keys' to access features like auto-posting to WordPress or generating headshots
       category_candidates: []
       contrastive_reason: null
       review_reason: null

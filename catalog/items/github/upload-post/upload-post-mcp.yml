@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__upload-post__upload-post-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: Upload-Post/upload-post-mcp
         extracted_url: https://github.com/upload-post/upload-post-mcp
-        surrounding_text: >-
-          -   **[Upload-Post/upload-post-mcp](https://github.com/Upload-Post/upload-post-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/Upload-Post/upload-post-mcp?style=social)](https://github.com/Upload-Post/upload-post-mcp):
-          Publishes, schedules and analyzes social media posts on TikTok, Instagram, YouTube, LinkedIn, Facebook, X,
-          Threads, Pinterest, Reddit and Bluesky.
+        surrounding_text: "-   **[Upload-Post/upload-post-mcp](https://github.com/Upload-Post/upload-post-mcp)** [![GitHub stars](https://img.shields.io/github/stars/Upload-Post/upload-post-mcp?style=social)](https://github.com/Upload-Post/upload-post-mcp): Publishes, schedules and analyzes social media posts on TikTok, Instagram, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Reddit and Bluesky."
         confidence: high
 metadata:
   github:
@@ -62,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.482Z'
+    updated_at: "2026-09-29T13:07:10.482Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

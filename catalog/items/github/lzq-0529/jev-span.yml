@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lzq-0529__jev-span__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,14 +20,7 @@ provenance:
           - Data Labeling & Curation
         anchor_text: JevSpan
         extracted_url: https://github.com/lzq-0529/jev-span
-        surrounding_text: >-
-          - [JevSpan](https://github.com/lzq-0529/jev-span) ![type:
-          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/lzq-0529/jev-span?style=flat-square&label=%E2%98%85) -
-          Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one
-          `Choice` over every candidate window per entity type, verifies each nominee with a second `Choice` (the type,
-          none, mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and
-          English NER benchmarks against 72.1 for direct extraction with Qwen3.8-27B.
+        surrounding_text: "- [JevSpan](https://github.com/lzq-0529/jev-span) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lzq-0529/jev-span?style=flat-square&label=%E2%98%85) - Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one `Choice` over every candidate window per entity type, verifies each nominee with a second `Choice` (the type, none, mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER benchmarks against 72.1 for direct extraction with Qwen3.8-27B."
         confidence: high
 metadata:
   github:
@@ -45,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    JevSpan - Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one
-    Choice over every candidate window per entity type, verifies each nominee with a second Choice (the type, none,
-    mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER
-    benchmarks against 72.1 for direct extraction with Qwen3.8-27B.
+  summary: "JevSpan - Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one Choice over every candidate window per entity type, verifies each nominee with a second Choice (the type, none, mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER benchmarks against 72.1 for direct extraction with Qwen3.8-27B."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -69,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

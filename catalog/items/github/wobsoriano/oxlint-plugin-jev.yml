@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wobsoriano__oxlint-plugin-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: oxlint-plugin-jev
         extracted_url: https://github.com/wobsoriano/oxlint-plugin-jev
-        surrounding_text: >-
-          | [oxlint-plugin-jev](https://github.com/wobsoriano/oxlint-plugin-jev) | ★ 58 | TypeScript | 2026-09-23 | &gt;
-          This package is experimental. Use at your own risk. |
+        surrounding_text: "| [oxlint-plugin-jev](https://github.com/wobsoriano/oxlint-plugin-jev) | ★ 58 | TypeScript | 2026-09-23 | &gt; This package is experimental. Use at your own risk. |"
         confidence: high
 metadata:
   github:
@@ -61,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

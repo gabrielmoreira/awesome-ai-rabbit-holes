@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abdelstark__s1-rs__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: s1-rs
         extracted_url: https://github.com/abdelstark/s1-rs
-        surrounding_text: '- [s1-rs](https://github.com/AbdelStark/s1-rs) - Typed System One layer for Rust (Choice/Score/Noul).'
+        surrounding_text: "- [s1-rs](https://github.com/AbdelStark/s1-rs) - Typed System One layer for Rust (Choice/Score/Noul)."
         confidence: high
     - id: discovery__github__abdelstark__s1-rs__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -35,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: s1 (s1-rs)
         extracted_url: https://github.com/abdelstark/s1-rs
-        surrounding_text: >-
-          - [s1 (s1-rs)](https://github.com/AbdelStark/s1-rs) - Rust derive layer for TypeSafe System One
-          Choice/Score/Noul over optional `typesafe-rs` (distinct from typesafe-api). [Project
-          guide](community/projects/tools/s1-rs.md).
+        surrounding_text: "- [s1 (s1-rs)](https://github.com/AbdelStark/s1-rs) - Rust derive layer for TypeSafe System One Choice/Score/Noul over optional `typesafe-rs` (distinct from typesafe-api). [Project guide](community/projects/tools/s1-rs.md)."
         confidence: high
     - id: discovery__github__abdelstark__s1-rs__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -54,9 +51,7 @@ provenance:
           - SDKs & clients (57)
         anchor_text: s1-rs
         extracted_url: https://github.com/abdelstark/s1-rs
-        surrounding_text: >-
-          | [s1-rs](https://github.com/AbdelStark/s1-rs) | ★ 0 | Rust | 2026-09-19 | Typed System One layer for Rust
-          (Choice/Score/Noul). |
+        surrounding_text: "| [s1-rs](https://github.com/AbdelStark/s1-rs) | ★ 0 | Rust | 2026-09-19 | Typed System One layer for Rust (Choice/Score/Noul). |"
         confidence: high
 metadata:
   github:
@@ -66,52 +61,76 @@ metadata:
     archived: false
     full_name: AbdelStark/s1-rs
     html_url: https://github.com/AbdelStark/s1-rs
-    created_at: '2026-09-16T08:51:48Z'
-    pushed_at: '2026-09-16T13:39:19Z'
-    description: 'Typed System One layer for Rust (Choice/Score/Noul). '
-    homepage: ''
+    created_at: "2026-09-16T08:51:48Z"
+    pushed_at: "2026-09-16T13:39:19Z"
+    description: "Typed System One layer for Rust (Choice/Score/Noul). "
+    homepage: ""
     topics:
       - machine-learning
       - sdk
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:08:23.670Z'
+    last_checked_at: "2026-09-29T13:08:23.670Z"
     readme:
-      fetched_at: '2026-09-29T13:08:23.670Z'
+      fetched_at: "2026-09-29T13:08:23.670Z"
       bytes: 8053
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Typed System One layer for Rust providing Choice/Score/Noul decision model types.
+  why_it_matters: Offers Rust developers a typesafe way to integrate decision models (Jev-style) into applications for scoring, classification, or routing tasks.
+  mental_damage: Finally, a way to make your Rust code feel as indecisive as a Jev model choosing between tacos and burritos.
+  tags:
+    - decision-models
+    - rust
+    - typesafe-ai
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project provides a Rust SDK for TypeSafe AI's System One decision model (Jev), making it a framework integration for decision-model judgments rather than a coding agent or general AI tool.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.50 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - "Repo description: 'Typed System One layer for Rust (Choice/Score/Noul)'"
+    - "Topics include: machine-learning, sdk, typesafe-ai"
+    - Listed in awesome-jev under 'SDKs & clients' section
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.390Z'
+    updated_at: "2026-09-29T13:07:10.390Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:23.670Z'
+    updated_at: "2026-09-29T13:08:23.670Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:56.312Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c17e77256b64ad75e7dc4894f3f1221961c21bc74e5528fda0f9fc1ee43b88a0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project provides a Rust SDK for TypeSafe AI's System One decision model (Jev), making it a framework integration for decision-model judgments rather than a coding agent or general AI tool.
+      decision_evidence:
+        - "Repo description: 'Typed System One layer for Rust (Choice/Score/Noul)'"
+        - "Topics include: machine-learning, sdk, typesafe-ai"
+        - Listed in awesome-jev under 'SDKs & clients' section
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's identity is integrating a specific decision model (Jev/System One) rather than being a general-purpose AI framework SDK.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

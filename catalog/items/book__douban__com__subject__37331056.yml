@@ -1,12 +1,12 @@
 id: book__douban__com__subject__37331056
 kind: website
-name: '37331056'
+name: "37331056"
 canonical_url: https://book.douban.com/subject/37331056
 identity: {}
 provenance:
   discoveries:
     - id: discovery__book__douban__com__subject__37331056__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,29 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A technical book titled "Large Model Algorithms: Reinforcement Learning, Fine-tuning, and Alignment" covering LLM
-    training, SFT, DPO, and RLHF.
-  why_it_matters: >-
-    Provides deep theoretical and practical grounding on the mathematical and algorithmic mechanics behind modern
-    transformer-based models and alignment techniques.
-  mental_damage: >-
-    Because apparently, reading the original research papers wasn't enough to help you understand why your model is
-    hallucinating.
+  summary: A technical book on large model algorithms covering reinforcement learning, fine-tuning, and alignment techniques.
+  why_it_matters: Provides developers with a structured reference for LLM training and optimization methods used in industry.
+  mental_damage: Another AI book promising insider knowledge while the field moves faster than print cycles allow.
   tags:
     - llm
     - reinforcement-learning
     - fine-tuning
     - alignment
-    - chinese
   confidence: high
 curation:
   status: excluded
-  reason: The resource is an educational book, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+  reason: The resource is an educational book, not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - 'Product identity is a printed/digital book (ISBN: 9787121500725)'
-    - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
-    - Categorized in source-list as a 'Book' for learning
+    - Scraped site context identifies it as a book titled '大模型算法：强化学习、微调与对齐' published by 人民邮电出版社 in 2025
+    - Source-list context shows it appears in awesome-LLM-resources under the '书籍 Book' section as a learning resource
+    - No GitHub repo, stars, or activity signals indicate it is a software tool or project
 placement:
   primary_category: null
   section: null
@@ -68,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,29 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:05.382Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for book__douban__com__subject__37331056: Invalid AI response structure:
-        Invalid confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:16.558Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:547fa4983aeb74a000d5cd24de978982731cfaf273c75f90230df952cec8b298
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a6fbb53cc2abaca7aab59e0d76cce2370f4f0228635b7ad32b13697a22e3cd1e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is an educational book, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+      decision_reason: The resource is an educational book, not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - 'Product identity is a printed/digital book (ISBN: 9787121500725)'
-        - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
-        - Categorized in source-list as a 'Book' for learning
+        - Scraped site context identifies it as a book titled '大模型算法：强化学习、微调与对齐' published by 人民邮电出版社 in 2025
+        - Source-list context shows it appears in awesome-LLM-resources under the '书籍 Book' section as a learning resource
+        - No GitHub repo, stars, or activity signals indicate it is a software tool or project
       category_candidates: []
       contrastive_reason: null
       review_reason: null

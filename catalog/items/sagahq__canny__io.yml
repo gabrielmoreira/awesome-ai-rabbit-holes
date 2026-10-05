@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sagahq__canny__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Description
         anchor_text: Roadmap
         extracted_url: https://sagahq.canny.io
-        surrounding_text: '- [Roadmap](https://sagahq.canny.io/)'
+        surrounding_text: "- [Roadmap](https://sagahq.canny.io/)"
         confidence: high
 metadata:
   github:
@@ -37,25 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Saga is a note-taking and workspace tool with a feedback board powered by Canny.
-  why_it_matters: It lets teams collect and prioritize feature requests for internal productivity tools.
-  mental_damage: Another feedback SaaS where developers vote on whether they want dark mode or kanban boards.
+  summary: A Canny-powered feedback portal for the Saga note-taking app where users submit and vote on feature requests.
+  why_it_matters: It lets developers and users influence Saga's product roadmap through structured feedback.
+  mental_damage: Another SaaS feedback widget pretending to be a developer tool because it mentions 'AI' somewhere in its feature list.
   tags:
     - feedback
     - saas
-    - internal-tools
   confidence: high
 curation:
   status: excluded
-  reason: Saga is a general productivity and note-taking platform, not a developer-facing AI tool or infrastructure.
+  reason: Saga Feedback is a feature-voting portal for a note-taking app, not a developer-facing AI tool, agent, or workflow enhancer.
   evidence:
-    - >-
-      Source-list context shows it appears in awesome-ai-agents only as a feedback mechanism for the Saga team, not as
-      an AI agent itself.
-    - >-
-      Scraped site context describes it as a Canny-powered feedback board for feature requests, with no mention of AI
-      coding, agents, or developer tooling.
-    - No evidence of AI integration, coding assistance, or developer workflow automation in the provided inputs.
+    - "Source-list context: listed in awesome-ai-agents under 'Saga > Description' as a feedback portal for the Saga team"
+    - "Scraped site context: titled 'Saga Feedback', described as 'Give feedback to the Saga team so we can make more informed product decisions. Powered by Canny.'"
+    - Primary page excerpt shows feature requests like 'Offline mode', 'iOS mobile app', and 'API' — general app features, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -65,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:29.129Z'
+    updated_at: "2026-10-05T04:44:47.459Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:38052992450cfb93948ac52aecc581d0e2b92265f79d19e8c69d7eece4437063
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3eb580c07026612cce943de4788db11ee8087dd84d6b0787cff09943f7947912
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Saga is a general productivity and note-taking platform, not a developer-facing AI tool or infrastructure.
+      decision_reason: Saga Feedback is a feature-voting portal for a note-taking app, not a developer-facing AI tool, agent, or workflow enhancer.
       decision_evidence:
-        - >-
-          Source-list context shows it appears in awesome-ai-agents only as a feedback mechanism for the Saga team, not
-          as an AI agent itself.
-        - >-
-          Scraped site context describes it as a Canny-powered feedback board for feature requests, with no mention of
-          AI coding, agents, or developer tooling.
-        - No evidence of AI integration, coding assistance, or developer workflow automation in the provided inputs.
+        - "Source-list context: listed in awesome-ai-agents under 'Saga > Description' as a feedback portal for the Saga team"
+        - "Scraped site context: titled 'Saga Feedback', described as 'Give feedback to the Saga team so we can make more informed product decisions. Powered by Canny.'"
+        - Primary page excerpt shows feature requests like 'Offline mode', 'iOS mobile app', and 'API' — general app features, not developer tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null

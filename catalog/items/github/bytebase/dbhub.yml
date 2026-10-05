@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bytebase__dbhub__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,12 +19,10 @@ provenance:
           - Community Servers
         anchor_text: bytebase/dbhub
         extracted_url: https://github.com/bytebase/dbhub
-        surrounding_text: >-
-          - **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting
-          mainstream databases.\
+        surrounding_text: "- **[bytebase/dbhub](https://github.com/bytebase/dbhub)** – 📇 Universal database MCP server supporting mainstream databases.\\"
         confidence: high
     - id: discovery__github__bytebase__dbhub__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,10 +34,7 @@ provenance:
           - 🗄️ Databases
         anchor_text: bytebase/dbhub
         extracted_url: https://github.com/bytebase/dbhub
-        surrounding_text: >-
-          -   **[bytebase/dbhub](https://github.com/bytebase/dbhub)** [![GitHub
-          stars](https://img.shields.io/github/stars/bytebase/dbhub?style=social)](https://github.com/bytebase/dbhub):
-          Provides a universal database MCP server with support for mainstream databases.
+        surrounding_text: "-   **[bytebase/dbhub](https://github.com/bytebase/dbhub)** [![GitHub stars](https://img.shields.io/github/stars/bytebase/dbhub?style=social)](https://github.com/bytebase/dbhub): Provides a universal database MCP server with support for mainstream databases."
         confidence: high
 metadata:
   github:
@@ -49,8 +44,8 @@ metadata:
     archived: false
     full_name: bytebase/dbhub
     html_url: https://github.com/bytebase/dbhub
-    created_at: '2025-03-09T16:36:38Z'
-    pushed_at: '2026-09-21T08:08:43Z'
+    created_at: "2025-03-09T16:36:38Z"
+    pushed_at: "2026-09-21T08:08:43Z"
     description: Token conscious database MCP server for Postgres, MySQL, SQL Server, Oracle, MariaDB, SQLite.
     homepage: https://dbhub.ai
     topics:
@@ -74,20 +69,14 @@ metadata:
       - sql
       - sqlite
       - sqlserver
-    last_checked_at: '2026-09-24T04:13:05.140Z'
+    last_checked_at: "2026-09-24T04:13:05.140Z"
     readme:
-      fetched_at: '2026-09-24T04:13:05.140Z'
+      fetched_at: "2026-09-24T04:13:05.140Z"
       bytes: 7153
 insights:
-  summary: >-
-    Zero-dependency, token-efficient MCP server for connecting AI assistants to Postgres, MySQL, SQL Server, MariaDB,
-    and SQLite databases.
-  why_it_matters: >-
-    It lets developers expose database access to MCP-compatible clients (like Claude Code, Cursor, or VS Code) with
-    safety controls and multi-database support, turning any AI assistant into a database-aware tool.
-  mental_damage: >-
-    Now your AI can finally explain why your JOIN is slow, but only after it rewrites your schema in a way you’ll spend
-    the next three days debugging.
+  summary: Zero-dependency, token-efficient MCP server for connecting AI assistants to Postgres, MySQL, SQL Server, MariaDB, and SQLite databases.
+  why_it_matters: It lets developers expose database access to MCP-compatible clients (like Claude Code, Cursor, or VS Code) with safety controls and multi-database support, turning any AI assistant into a database-aware tool.
+  mental_damage: Now your AI can finally explain why your JOIN is slow, but only after it rewrites your schema in a way you’ll spend the next three days debugging.
   tags:
     - mcp-server
     - database
@@ -110,22 +99,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.583Z'
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:05.140Z'
+    updated_at: "2026-09-24T04:13:05.140Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:59:31.037Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for github__bytebase__dbhub: Invalid AI response structure: Invalid confidence
-        value: undefined
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -137,9 +124,7 @@ processing:
       input_hash: sha256:cbf4777ce7d2807816da2a0ae903c46fe6a89aa16679ae3cb06002f2e70da5f5
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or
-        extension layer.
+      decision_reason: "MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or extension layer."
       decision_evidence:
         - Repo description explicitly states it is a 'database MCP server'
         - README emphasizes MCP server interface and tools (execute_sql, search_objects)
@@ -147,8 +132,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server for databases, not
-        an extension augmenting another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server for databases, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentcommunicationprotocol__dev__introduction__welcome__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: ACP
         extracted_url: https://agentcommunicationprotocol.dev
-        surrounding_text: >-
-          - [i-am-bee/acp-mcp](https://github.com/i-am-bee/acp-mcp) 🐍 💬 - An MCP server acting as an adapter into the
-          [ACP](https://agentcommunicationprotocol.dev) ecosystem. Seamlessly exposes ACP agents to MCP clients,
-          bridging the communication gap between the two protocols.
+        surrounding_text: "- [i-am-bee/acp-mcp](https://github.com/i-am-bee/acp-mcp) 🐍 💬 - An MCP server acting as an adapter into the [ACP](https://agentcommunicationprotocol.dev) ecosystem. Seamlessly exposes ACP agents to MCP clients, bridging the communication gap between the two protocols."
         confidence: high
 metadata:
   github:
@@ -40,51 +37,38 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An open REST-based protocol and SDK for enabling interoperability and communication between AI agents across
-    different frameworks.
-  why_it_matters: >-
-    It provides a standardized communication layer that allows agents built on disparate stacks like LangChain or CrewAI
-    to discover and collaborate with one another.
-  mental_damage: >-
-    Because the only thing more complex than a single agent is the coordination overhead of a dozen agents speaking
-    different languages.
+  summary: The Agent Communication Protocol (ACP) is an open REST-based standard enabling interoperability between AI agents across different frameworks and infrastructures.
+  why_it_matters: It provides a vendor-neutral way for agents to communicate, discover, and collaborate, reducing integration friction in multi-agent systems.
+  mental_damage: Finally, a universal translator for agents—so your LLM stack doesn’t feel like a Tower of Babel held together with duct tape and hope.
   tags:
-    - protocol
+    - agent-communication
     - interoperability
-    - multi-agent
+    - mcp-adjacent
     - rest-api
-    - sdk
+    - linux-foundation
   confidence: high
 curation:
-  status: included
-  reason: >-
-    It functions as a communication standard for multi-agent coordination, similar to AgentRPC, rather than a
-    general-purpose agent-building library.
+  status: excluded
+  reason: ACP is a communication protocol specification, not a developer-facing tool, agent, framework, or app builder; it defines how agents talk but does not perform coding, orchestrate workflows, or generate code.
   evidence:
-    - An open protocol for agent interoperability that solves fragmentation across frameworks
-    - Supports multi-agent collaboration and cross-platform integration
-    - Provides Python and TypeScript SDKs for implementation
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at
-      agent-orchestration (unverified)
+    - The project describes itself as 'an open protocol for agent interoperability' and emphasizes being 'agnostic to internal implementations'.
+    - It provides REST endpoints, SDKs, and discovery mechanisms but does not act as a coding agent, orchestration platform, or code-first framework.
+    - While it references BeeAI as a reference implementation, the ACP specification itself is a standard, not a deployable developer tool.
 placement:
-  primary_category: agent-orchestration
-  section: Agent Runtimes & Harnesses
+  primary_category: null
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -92,31 +76,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:31:24.212Z'
+    updated_at: "2026-10-05T04:27:36.854Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:070dfbdc18406300fee88957fbcdd3ed8b97c0fc00c7b1d8883ad88379ece591
-      proposed_primary_category: agent-orchestration
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9d34712a19580e63610e86d5646786f063be2e3654172fee5ab9009fd2f8ee5f
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It functions as a communication standard for multi-agent coordination, similar to AgentRPC, rather than a
-        general-purpose agent-building library.
+      decision_reason: ACP is a communication protocol specification, not a developer-facing tool, agent, framework, or app builder; it defines how agents talk but does not perform coding, orchestrate workflows, or generate code.
       decision_evidence:
-        - An open protocol for agent interoperability that solves fragmentation across frameworks
-        - Supports multi-agent collaboration and cross-platform integration
-        - Provides Python and TypeScript SDKs for implementation
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because its primary identity is the communication and coordination
-        layer for multiple agents rather than a library for building a single agent application.
+        - The project describes itself as 'an open protocol for agent interoperability' and emphasizes being 'agnostic to internal implementations'.
+        - It provides REST endpoints, SDKs, and discovery mechanisms but does not act as a coding agent, orchestration platform, or code-first framework.
+        - While it references BeeAI as a reference implementation, the ACP specification itself is a standard, not a deployable developer tool.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

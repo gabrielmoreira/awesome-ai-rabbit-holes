@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__manifoldor__xtags__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: xtags
         extracted_url: https://github.com/manifoldor/xtags
-        surrounding_text: '- [xtags](https://github.com/manifoldor/xtags) - 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自 Jev，一个只返回概率、不生成文本的模型。'
+        surrounding_text: "- [xtags](https://github.com/manifoldor/xtags) - 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自 Jev，一个只返回概率、不生成文本的模型。"
         confidence: high
     - id: discovery__github__manifoldor__xtags__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -35,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Xtags
         extracted_url: https://github.com/manifoldor/xtags
-        surrounding_text: >-
-          - [Xtags](https://github.com/manifoldor/xtags) - `Open source` · `Free source build` · `BYOK`. Chrome
-          extension/userscript that tags X posts with TypeSafe Jev intent and risk signals for personal local browsing.
-          [Project guide](community/projects/apps/xtags.md).
+        surrounding_text: "- [Xtags](https://github.com/manifoldor/xtags) - `Open source` · `Free source build` · `BYOK`. Chrome extension/userscript that tags X posts with TypeSafe Jev intent and risk signals for personal local browsing. [Project guide](community/projects/apps/xtags.md)."
         confidence: high
     - id: discovery__github__manifoldor__xtags__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -54,9 +51,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: xtags
         extracted_url: https://github.com/manifoldor/xtags
-        surrounding_text: >-
-          | [xtags](https://github.com/manifoldor/xtags) | ★ 8 | JavaScript | 2026-09-19 | 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自
-          Jev，一个只返回概率、不生成文本的模型。 |
+        surrounding_text: "| [xtags](https://github.com/manifoldor/xtags) | ★ 8 | JavaScript | 2026-09-19 | 在 X 的时间线上，给每条帖子标出它想让你干什么。判断来自 Jev，一个只返回概率、不生成文本的模型。 |"
         confidence: high
 metadata:
   github:
@@ -94,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.398Z'
+    updated_at: "2026-09-29T13:07:10.398Z"
     cause: null
     next_retry_at: null
   stars:
@@ -102,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

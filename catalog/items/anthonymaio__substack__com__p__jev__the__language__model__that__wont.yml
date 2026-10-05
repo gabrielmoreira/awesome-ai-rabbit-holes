@@ -5,9 +5,8 @@ canonical_url: https://anthonymaio.substack.com/p/jev-the-language-model-that-wo
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__anthonymaio__substack__com__p__jev__the__language__model__that__wont__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__anthonymaio__substack__com__p__jev__the__language__model__that__wont__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -17,12 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - Articles & threads
-        anchor_text: 'Jev: The Language Model That Will Not Talk'
+        anchor_text: "Jev: The Language Model That Will Not Talk"
         extracted_url: https://anthonymaio.substack.com/p/jev-the-language-model-that-wont
-        surrounding_text: >-
-          - [Jev: The Language Model That Will Not
-          Talk](https://anthonymaio.substack.com/p/jev-the-language-model-that-wont) - Anthony Maio's essay on what a
-          model that cannot generate text is for.
+        surrounding_text: "- [Jev: The Language Model That Will Not Talk](https://anthonymaio.substack.com/p/jev-the-language-model-that-wont) - Anthony Maio's essay on what a model that cannot generate text is for."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Substack article about Jev, a TypeSafe System One decision model that answers typed questions with probabilities.
+  why_it_matters: Highlights a niche decision-model approach that could influence how developers build judgment gates or routing logic in AI agents.
+  mental_damage: Another AI model variant to track, just when you were starting to understand the difference between LLMs and SLMs.
+  tags:
+    - decision-model
+    - jev
+    - typesafe-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The input is a Substack article describing a decision model, not a standalone developer tool or product with runtime, SDK, or installable identity.
   evidence:
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept
-      (unverified)
+    - Source is a Substack publication (anthonymaio.substack.com), not a GitHub repo or tool distribution
+    - No evidence of executable tool, SDK, server, or agent runtime — only descriptive commentary on Jev as a decision model
+    - Listed in source-list context as a directory of projects built on Jev, but the entry itself is an article, not a project
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:16.828Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a9e079e57d1d65b2d828d50e4393df58513883d48d046eb49cd27d017ce31796
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a Substack article describing a decision model, not a standalone developer tool or product with runtime, SDK, or installable identity.
+      decision_evidence:
+        - Source is a Substack publication (anthonymaio.substack.com), not a GitHub repo or tool distribution
+        - No evidence of executable tool, SDK, server, or agent runtime — only descriptive commentary on Jev as a decision model
+        - Listed in source-list context as a directory of projects built on Jev, but the entry itself is an article, not a project
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

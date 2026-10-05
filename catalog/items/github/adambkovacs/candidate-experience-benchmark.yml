@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adambkovacs__candidate-experience-benchmark__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Candidate Experience Feedback Benchmark
         extracted_url: https://github.com/adambkovacs/candidate-experience-benchmark
-        surrounding_text: >-
-          - [Candidate Experience Feedback Benchmark](https://github.com/adambkovacs/candidate-experience-benchmark) -
-          Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed classifications).
-          [Project guide](community/projects/tools/candidate-experience-benchmark.md).
+        surrounding_text: "- [Candidate Experience Feedback Benchmark](https://github.com/adambkovacs/candidate-experience-benchmark) - Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed classifications). [Project guide](community/projects/tools/candidate-experience-benchmark.md)."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: adambkovacs/candidate-experience-benchmark
     html_url: https://github.com/adambkovacs/candidate-experience-benchmark
-    created_at: '2026-09-21T08:06:05Z'
-    pushed_at: '2026-09-29T12:22:50Z'
-    description: >-
-      Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt
-      variants, costs, tokens, and reproducible evidence.
+    created_at: "2026-09-21T08:06:05Z"
+    pushed_at: "2026-09-29T12:22:50Z"
+    description: "Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt variants, costs, tokens, and reproducible evidence."
     homepage: https://adambkovacs.github.io/candidate-experience-benchmark/
     topics:
       - benchmark
@@ -48,14 +43,12 @@ metadata:
       - sentiment-analysis
       - text-classification
       - typesafe
-    last_checked_at: '2026-09-29T13:08:27.624Z'
+    last_checked_at: "2026-09-29T13:08:27.624Z"
     readme:
-      fetched_at: '2026-09-29T13:08:27.624Z'
+      fetched_at: "2026-09-29T13:08:27.624Z"
       bytes: 18000
 insights:
-  summary: >-
-    Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt
-    variants, costs, tokens, and reproducible evidence.
+  summary: "Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt variants, costs, tokens, and reproducible evidence."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -75,15 +68,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:27.625Z'
+    updated_at: "2026-09-29T13:08:27.625Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:14:45.155Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__adambkovacs__candidate-experience-benchmark: provider stop reason: length"
+    next_retry_at: null
+    attempts: 1

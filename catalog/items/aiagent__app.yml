@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI Agent is a no-code platform for building, deploying, and running AI agents that automate business workflows by connecting to tools like Gmail, Notion, Linear, and GitHub.
-  why_it_matters: It lets developers and teams automate repetitive tasks without writing code, reducing context-switching across tools by centralizing agent behavior in one workspace.
-  mental_damage: Another ‘no-code AI agent’ platform promising to replace your junior dev while quietly rebuilding the same integration sprawl it claims to fix.
+  summary: AI Agent is a no-code platform for building, deploying, and managing AI agents that automate business tasks across connected tools.
+  why_it_matters: It lets developers and teams automate workflows like funnel analysis, content drafting, and ticket creation without coding, reducing manual busywork.
+  mental_damage: Finally, a way to feel productive while your AI agent does the work you were too busy to automate yourself.
   tags:
     - ai-agents
-    - workflow-automation
     - no-code
-    - tool-integrations
+    - workflow-automation
   confidence: high
 curation:
   status: excluded
-  reason: AI Agent is a general-purpose no-code AI agent platform for business workflow automation, not a developer-facing tool focused on coding, app building, or AI infrastructure; its primary identity does not align with any catalog category.
+  reason: AI Agent is a general-purpose AI automation platform for business users, not a developer-facing tool focused on coding, editing, or software development workflows.
   evidence:
-    - Marketed as a no-code AI agent platform for every team to automate busywork like research, workflows, and reports
-    - Core functionality centers on connecting to SaaS tools (Gmail, Notion, Linear, GitHub) to perform tasks via autonomous agents, not on coding or developer tooling
-    - Appears in awesome-local-ai under 'Agents' section, but the listing describes a general business automation platform, not a developer-specific tool
+    - Positioned as a no-code AI agent platform for every team to automate busywork like research, workflows, and reports
+    - Primary use cases include funnel analysis, SEO content drafting, sales outreach, and customer support — not code-related tasks
+    - Marketed to business teams, growth, sales, and support functions rather than developers or engineering workflows
 placement:
   primary_category: null
   section: null
@@ -70,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-01T04:22:41.635Z"
+    updated_at: "2026-10-05T05:01:27.257Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:413870ff4482865138574a7a640be5a48d3d61028619ec633afb46424c1e8c17
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:abd56be29cf1e38e25fd341e281df0f83012f02bb7f66a729a1d09f678b6f3db
       proposed_primary_category: null
       disagreement: false
-      decision_reason: AI Agent is a general-purpose no-code AI agent platform for business workflow automation, not a developer-facing tool focused on coding, app building, or AI infrastructure; its primary identity does not align with any catalog category.
+      decision_reason: AI Agent is a general-purpose AI automation platform for business users, not a developer-facing tool focused on coding, editing, or software development workflows.
       decision_evidence:
-        - Marketed as a no-code AI agent platform for every team to automate busywork like research, workflows, and reports
-        - Core functionality centers on connecting to SaaS tools (Gmail, Notion, Linear, GitHub) to perform tasks via autonomous agents, not on coding or developer tooling
-        - Appears in awesome-local-ai under 'Agents' section, but the listing describes a general business automation platform, not a developer-specific tool
+        - Positioned as a no-code AI agent platform for every team to automate busywork like research, workflows, and reports
+        - Primary use cases include funnel analysis, SEO content drafting, sales outreach, and customer support — not code-related tasks
+        - Marketed to business teams, growth, sales, and support functions rather than developers or engineering workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

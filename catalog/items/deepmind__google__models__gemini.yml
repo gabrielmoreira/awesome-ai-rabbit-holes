@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__deepmind__google__models__gemini__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Models
         anchor_text: Gemini (Google)
         extracted_url: https://deepmind.google/technologies/gemini
-        surrounding_text: >-
-          - **[Gemini (Google)](https://deepmind.google/technologies/gemini/)** – Powers Google Code Assist, Gemini CLI,
-          and Antigravity with 1M token context.
+        surrounding_text: "- **[Gemini (Google)](https://deepmind.google/technologies/gemini/)** – Powers Google Code Assist, Gemini CLI, and Antigravity with 1M token context."
         confidence: high
 metadata:
   github:
@@ -38,36 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Gemini is DeepMind's flagship family of multimodal AI models designed for building intelligent agents and
-    applications.
-  why_it_matters: >-
-    It provides developers with state-of-the-art reasoning and multimodal capabilities to build complex, autonomous
-    workflows and applications.
-  mental_damage: >-
-    Another frontier model with 15+ variants and constantly shifting pricing, promising 'intelligent agents' while you
-    spend weeks debugging which Flash-Lite version actually works for your task.
+  summary: Gemini is Google DeepMind's family of multimodal AI models, including Gemini 4 Argon, designed for general intelligence tasks such as coding, reasoning, and agent-based workflows.
+  why_it_matters: Gemini provides frontier models that power developer-facing tools like coding agents and AI app builders through API access and agentic capabilities.
+  mental_damage: Yet another foundation model launch that makes you wonder if your fine-tuned LoRA will be obsolete before lunch.
   tags:
     - multimodal
-    - agentic-coding
-    - foundation-models
+    - foundation-model
+    - google
+    - gemini
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Gemini is a model family and provider API, not a developer-facing coding agent, app builder, or tool that fits the
-    catalog's product identity requirements.
+  reason: Gemini is a foundation model provider, not a developer-facing tool, agent, or infrastructure product; it serves as underlying technology rather than a direct tool in the developer workflow.
   evidence:
-    - Repo description is missing and homepage contains no product identity beyond being a model family.
-    - >-
-      Scraped site context shows Gemini is a collection of models (Flash, Pro, Robotics, etc.) with no standalone
-      developer tool identity.
-    - >-
-      Source-list context places it in 'Frontier intelligence with action' under Code Models, indicating it's a
-      foundational model, not a coding agent.
-    - >-
-      The product is primarily an API and platform (Google AI Studio, Gemini API) for accessing models, not a
-      self-contained tool for coding tasks.
+    - "Repo description: (none)"
+    - "Scraped site context: Title: Gemini, Description: Our next era of frontier intelligence — positions it as a model family, not a tool"
+    - "Source-list context: Listed in awesome-ai-coding-tools under 'Code Models' section, indicating model provider status"
 placement:
   primary_category: null
   secondary_categories: []
@@ -78,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,33 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:37:16.657Z'
+    updated_at: "2026-10-05T04:30:45.681Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b0a48b1f76776f90763e64ab7655074f1a78e728c26d755d0b732a75cb78c22e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4725241ef3b4d8d8c350636eb1a1950c3775c808371ed9834722f4b2512fbe9a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Gemini is a model family and provider API, not a developer-facing coding agent, app builder, or tool that fits
-        the catalog's product identity requirements.
+      decision_reason: Gemini is a foundation model provider, not a developer-facing tool, agent, or infrastructure product; it serves as underlying technology rather than a direct tool in the developer workflow.
       decision_evidence:
-        - Repo description is missing and homepage contains no product identity beyond being a model family.
-        - >-
-          Scraped site context shows Gemini is a collection of models (Flash, Pro, Robotics, etc.) with no standalone
-          developer tool identity.
-        - >-
-          Source-list context places it in 'Frontier intelligence with action' under Code Models, indicating it's a
-          foundational model, not a coding agent.
-        - >-
-          The product is primarily an API and platform (Google AI Studio, Gemini API) for accessing models, not a
-          self-contained tool for coding tasks.
+        - "Repo description: (none)"
+        - "Scraped site context: Title: Gemini, Description: Our next era of frontier intelligence — positions it as a model family, not a tool"
+        - "Source-list context: Listed in awesome-ai-coding-tools under 'Code Models' section, indicating model provider status"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

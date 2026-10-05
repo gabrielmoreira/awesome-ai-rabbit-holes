@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__console__typesafe__ai__playground__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Official
         anchor_text: Playground
         extracted_url: https://console.typesafe.ai/playground
-        surrounding_text: >-
-          - [Playground](https://console.typesafe.ai/playground) - Paste a state, add questions, and see typed answers
-          in the browser.
+        surrounding_text: "- [Playground](https://console.typesafe.ai/playground) - Paste a state, add questions, and see typed answers in the browser."
         confidence: high
 metadata:
   github:
@@ -38,17 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Playground - Paste a state, add questions, and see typed answers in the browser.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Typesafe AI's playground interface for interacting with their Jev decision model system via the console.
+  why_it_matters: Provides developers an interactive way to test and understand Jev's probabilistic decision outputs for routing, scoring, or guardrail use cases.
+  mental_damage: Another siloed model playground that makes you wonder if the real product is just waiting for a Vercel deploy button.
+  tags:
+    - decision-models
+    - interactive
+    - typesafe-ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  reason: The Typesafe AI Playground is an official interface for experimenting with Jev, a System One decision model, placing its identity firmly in the decision-models category as a client/gateway for typed probabilistic judgments.
   evidence:
-    - jev-latest choice confidence 0.86
-    - jev winnow:e4b 0.26 below gate 0.50; proposed out of scope; placement kept at decision-models (unverified)
+    - URL is console.typesafe.ai/playground, indicating an official hosted interface for TypeSafe AI's Jev model
+    - Seen in source list 'awesome-jev' under section 'Official' as part of the Jev ecosystem
+    - No evidence of coding agent behavior; product centers on interacting with Jev's decision outputs
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -59,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:33.022Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3e7aa5a37fc0bb9ae59ce4c778f772ff917519aa3abff04098afedcde9fc0536
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The Typesafe AI Playground is an official interface for experimenting with Jev, a System One decision model, placing its identity firmly in the decision-models category as a client/gateway for typed probabilistic judgments.
+      decision_evidence:
+        - URL is console.typesafe.ai/playground, indicating an official hosted interface for TypeSafe AI's Jev model
+        - Seen in source list 'awesome-jev' under section 'Official' as part of the Jev ecosystem
+        - No evidence of coding agent behavior; product centers on interacting with Jev's decision outputs
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool's purpose is to interact with Jev's typed decision judgments, not to perform autonomous coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

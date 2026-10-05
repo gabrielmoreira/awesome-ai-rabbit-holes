@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__metercall__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - App Builders
         anchor_text: MeterCall
         extracted_url: https://metercall.ai
-        surrounding_text: >-
-          - **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+
-          models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier,
-          usage-based pricing.
+        surrounding_text: "- **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing."
         confidence: high
 metadata:
   github:
@@ -39,52 +36,36 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    RailCall is a local-first governance tool that lets AI agents draft workflows and data actions, which must be
-    human-approved before execution and produce verifiable cryptographic receipts.
-  why_it_matters: >-
-    It lets developers safely run AI agents on sensitive data by enforcing approval gates and auditability without data
-    leaving the machine.
-  mental_damage: >-
-    Finally, a way to feel paranoid about AI agents that also gives you a notarized alibi when they inevitably
-    misbehave.
+  summary: RailCall is a local-first, MCP-compatible governance layer that lets AI agents draft workflows while requiring human approval and generating verifiable receipts for every action.
+  why_it_matters: It gives developers a way to safely use AI agents on sensitive data by enforcing dry-run-by-default execution, human approval gates, and cryptographic receipts without sending data off-machine.
+  mental_damage: Finally, an AI tool that treats your production data like live ammunition — so you can finally stop trusting the vibes and start verifying the receipts.
   tags:
     - local-first
-    - governance
-    - ai-agents
-    - audit
-    - workflows
+    - ai-governance
+    - mcp
+    - receipt-backed
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: >-
-    RailCall fits as an app builder because its core flow turns natural language prompts into governed apps, workflows,
-    or internal tools that execute locally with human approval and cryptographic receipts, rather than acting as a
-    coding agent editing existing code.
+  reason: RailCall fits as an app builder because its core flow turns natural language prompts into governed apps, workflows, or internal tools that execute locally with human approval and cryptographic receipts, rather than acting as a coding agent editing existing code.
   evidence:
-    - >-
-      Describe any program — RailCall composes it from a pre-audited library and the integrations on your left rail,
-      then runs it airlocked. One receipt for the build, one for every flow.
+    - Describe any program — RailCall composes it from a pre-audited library and the integrations on your left rail, then runs it airlocked. One receipt for the build, one for every flow.
     - Every run mints an Ed25519-signed receipt — independently verifiable, offline.
-    - >-
-      Source-list context: placed in awesome-ai-coding-tools under App Builders with description 'Run AI agents on your
-      data — it never leaves your machine. Local-first governance: dry-run by default, BYOK, every flow minted to a
-      tamper-evident receipt.'
-    - >-
-      jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      app-builders (unverified)
+    - "Source-list context: placed in awesome-ai-coding-tools under App Builders with description 'Run AI agents on your data — it never leaves your machine. Local-first governance: dry-run by default, BYOK, every flow minted to a tamper-evident receipt.'"
+    - jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at app-builders (unverified)
 placement:
   primary_category: app-builders
-  section: Internal Tools & Dashboards
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,37 +74,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:34:40.048Z'
+    updated_at: "2026-10-05T04:43:31.599Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1deaa0f8b757dc6af8388c1c097311a17bdbf9e32aef4cb3511d2bf8ebcd16f3
-      proposed_primary_category: app-builders
-      disagreement: false
-      decision_reason: >-
-        RailCall fits as an app builder because its core flow turns natural language prompts into governed apps,
-        workflows, or internal tools that execute locally with human approval and cryptographic receipts, rather than
-        acting as a coding agent editing existing code.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:43b943998aa50e108a2ceb18abe1884f589bae3733579adf7ef00c5115cb4adf
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: RailCall's core identity is an MCP server that exposes governed AI workflow capabilities over stdio, making MCP the primary protocol identity rather than a side feature, and it is not mainly a coding agent or extension but a governed execution layer for agent-tool interactions.
       decision_evidence:
-        - >-
-          Describe any program — RailCall composes it from a pre-audited library and the integrations on your left rail,
-          then runs it airlocked. One receipt for the build, one for every flow.
-        - Every run mints an Ed25519-signed receipt — independently verifiable, offline.
-        - >-
-          Source-list context: placed in awesome-ai-coding-tools under App Builders with description 'Run AI agents on
-          your data — it never leaves your machine. Local-first governance: dry-run by default, BYOK, every flow minted
-          to a tamper-evident receipt.'
+        - RailCall registers as an open Model Context Protocol (MCP) server when your agent wants to build layouts, it calls the local binary over stdin/stdout.
+        - The product provides an MCP server implementation (mcp_server.py) with JSON-RPC over stdio for Cursor, Claude Desktop, and VS Code integrations.
+        - MCP is not just an adapter — the entire 'Airlocked Hand' positioning is built around being an MCP-first local server for governed agent-tool interactions.
       category_candidates:
-        - app-builders
-        - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because RailCall's primary identity is turning prompts into deployable
-        governed apps and workflows from scratch, not editing or assisting within an existing codebase.
-      review_reason: null
-      review_resume_lifecycle: null
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because RailCall's primary identity is an MCP server that exposes governed tooling capabilities, not a plugin that extends another coding agent's behavior.
+      review_reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__latent__space__p__o1__skill__issue__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 35. [o1 isn’t a chat model (and that’s the point)](https://www.latent.space/p/o1-skill-issue)
         confidence: high
     - id: discovery__www__latent__space__p__o1__skill__issue__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,33 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Substack article explaining how to use OpenAI's o1 model effectively by treating it as a report generator rather
-    than a chat model.
-  why_it_matters: >-
-    It provides practical guidance for developers on prompting strategies to leverage o1's strength in generating
-    structured outputs like code and technical reports.
-  mental_damage: >-
-    Yet another reminder that we must unlearn everything we know about talking to AI just to get it to stop
-    contradicting itself.
+  summary: A blog post explaining how to effectively use OpenAI's o1 model by treating it as a report generator rather than a chat model.
+  why_it_matters: It provides practical guidance for developers on how to adapt prompting techniques to leverage o1's strengths in code generation and architectural reasoning.
+  mental_damage: Realizing you've been treating a reasoning model like a Slack bot and now must relearn how to talk to AI.
   tags:
     - prompt-engineering
-    - llm-usage
-    - o1
+    - reasoning-models
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input is a standalone blog post or article, not a tool, product, or developer-facing infrastructure; it lacks
-    executable or installable artifacts for developers to use in their workflow.
+  reason: The input is an educational blog post, not a developer tool, product, or infrastructure; it lacks executable functionality or reusable components for integration into workflows.
   evidence:
-    - >-
-      Source is a Substack article titled 'o1 isn’t a chat model (and that’s the point)' with no repo, CLI, SDK, or
-      runtime.
-    - Describes personal experience and tips for using o1, but does not offer a tool, framework, or integration.
-    - >-
-      Appears in an awesome list as a resource/link under '技巧 Tips', indicating it is curated content, not a developer
-      tool.
+    - The source is a Substack article titled 'o1 isn’t a chat model (and that’s the point)' with no associated code repository or tool
+    - It describes personal usage patterns and tips for interacting with o1 via ChatGPT, not a buildable or installable product
+    - No evidence of CLI, SDK, framework, extension, or deployable artifact is provided
 placement:
   primary_category: null
   section: null
@@ -87,37 +74,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:23.050Z'
+    updated_at: "2026-10-05T04:48:54.290Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bb77cfee91a69216c3ea2962463a8be8cc7ee8df456ba1a3f89d1124be48bfdc
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9debcc846738a79c9e508a0170d455512d17064bbc6eb41471c1d37b35db4a8b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input is a standalone blog post or article, not a tool, product, or developer-facing infrastructure; it
-        lacks executable or installable artifacts for developers to use in their workflow.
+      decision_reason: The input is an educational blog post, not a developer tool, product, or infrastructure; it lacks executable functionality or reusable components for integration into workflows.
       decision_evidence:
-        - >-
-          Source is a Substack article titled 'o1 isn’t a chat model (and that’s the point)' with no repo, CLI, SDK, or
-          runtime.
-        - Describes personal experience and tips for using o1, but does not offer a tool, framework, or integration.
-        - >-
-          Appears in an awesome list as a resource/link under '技巧 Tips', indicating it is curated content, not a
-          developer tool.
+        - The source is a Substack article titled 'o1 isn’t a chat model (and that’s the point)' with no associated code repository or tool
+        - It describes personal usage patterns and tips for interacting with o1 via ChatGPT, not a buildable or installable product
+        - No evidence of CLI, SDK, framework, extension, or deployable artifact is provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

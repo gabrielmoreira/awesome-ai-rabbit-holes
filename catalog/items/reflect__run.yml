@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__reflect__run__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Reflect
         extracted_url: https://reflect.run
-        surrounding_text: '- **[Reflect](https://reflect.run/)** – No-code test automation with AI maintenance.'
+        surrounding_text: "- **[Reflect](https://reflect.run/)** – No-code test automation with AI maintenance."
         confidence: high
 metadata:
   github:
@@ -36,35 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SmartBear Reflect is an AI-powered, codeless test automation platform for web and mobile applications that converts
-    plain-English test steps into automated actions.
-  why_it_matters: >-
-    It reduces test maintenance by adapting to UI changes, enabling developers to maintain test coverage without fragile
-    selectors or constant script updates.
-  mental_damage: >-
-    Another AI testing tool promising to end flaky tests, as if the real problem wasn’t treating QA as an afterthought
-    until release day.
+  summary: SmartBear Reflect is an AI-powered test automation tool that creates and maintains UI tests from plain-English instructions without coding.
+  why_it_matters: It reduces test maintenance overhead by adapting to UI changes, enabling faster test creation and more reliable regression testing.
+  mental_damage: Another tool promising to eliminate flaky tests while quietly adding yet another SaaS dependency to your already bloated QA stack.
   tags:
     - testing
     - ai
-    - codeless
+    - ui
+    - automation
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Reflect is a QA/testing platform focused on application integrity through AI-driven test automation, not a
-    developer-facing AI tool for coding, agents, or workflow augmentation.
+  reason: Reflect is a test automation tool focused on application integrity, not a developer-facing AI coding agent, framework, or workflow tool; it serves QA/testers more than developers writing or editing code.
   evidence:
-    - >-
-      Product description emphasizes 'AI-powered test automation that maintains application integrity' and 'codeless web
-      and mobile testing'
-    - >-
-      Primary use cases are functional, visual, API, and mobile testing — not code generation, editing, or agent
-      orchestration
-    - >-
-      Marketed to testers and QA teams, with integrations into test management tools like Zephyr and CI/CD, not
-      developer IDEs or agents
+    - AI-powered test automation that maintains application integrity across every layer of your stack
+    - Build tests with intuitive agents. Create tests directly from your AI-coding environments like Claude Code or Cursor.
+    - Transform manual tests into automated ones. Run manual tests as automated tests directly from test management tools like Zephyr.
 placement:
   primary_category: null
   section: null
@@ -74,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,32 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:35:36.405Z'
+    updated_at: "2026-10-05T04:44:10.211Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:55d9454e068f68111204eecb6b16135ea07b921302ae9ef08f53fc6a1be47cb8
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:778aad451c8eecfad3ab605bf325762a3eeb3e4c81eb4165933e65354cde142a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Reflect is a QA/testing platform focused on application integrity through AI-driven test automation, not a
-        developer-facing AI tool for coding, agents, or workflow augmentation.
+      decision_reason: Reflect is a test automation tool focused on application integrity, not a developer-facing AI coding agent, framework, or workflow tool; it serves QA/testers more than developers writing or editing code.
       decision_evidence:
-        - >-
-          Product description emphasizes 'AI-powered test automation that maintains application integrity' and 'codeless
-          web and mobile testing'
-        - >-
-          Primary use cases are functional, visual, API, and mobile testing — not code generation, editing, or agent
-          orchestration
-        - >-
-          Marketed to testers and QA teams, with integrations into test management tools like Zephyr and CI/CD, not
-          developer IDEs or agents
+        - AI-powered test automation that maintains application integrity across every layer of your stack
+        - Build tests with intuitive agents. Create tests directly from your AI-coding environments like Claude Code or Cursor.
+        - Transform manual tests into automated ones. Run manual tests as automated tests directly from test management tools like Zephyr.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

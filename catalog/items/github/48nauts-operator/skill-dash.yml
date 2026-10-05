@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__48nauts-operator__skill-dash__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Skill Dash
         extracted_url: https://github.com/48nauts-operator/skill-dash
-        surrounding_text: >-
-          - [Skill Dash](https://github.com/48Nauts-Operator/skill-dash) - Local dashboard that judges Claude Code/Codex
-          skills with TypeSafe Jev (usefulness, redundancy, clarity, action) plus transcript evidence. [Project
-          guide](community/projects/tools/skill-dash.md).
+        surrounding_text: "- [Skill Dash](https://github.com/48Nauts-Operator/skill-dash) - Local dashboard that judges Claude Code/Codex skills with TypeSafe Jev (usefulness, redundancy, clarity, action) plus transcript evidence. [Project guide](community/projects/tools/skill-dash.md)."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: 48Nauts-Operator/skill-dash
     html_url: https://github.com/48Nauts-Operator/skill-dash
-    created_at: '2026-09-20T14:33:14Z'
-    pushed_at: '2026-09-20T15:52:11Z'
-    description: >-
-      Skill Dash uses Jev to judge Claude Code and Codex skills and plugins: usefulness, redundancy, clarity,
-      duplicates, safety. Local dashboard plus the corpus pipeline behind whichskills.dev. MIT.
+    created_at: "2026-09-20T14:33:14Z"
+    pushed_at: "2026-09-20T15:52:11Z"
+    description: "Skill Dash uses Jev to judge Claude Code and Codex skills and plugins: usefulness, redundancy, clarity, duplicates, safety. Local dashboard plus the corpus pipeline behind whichskills.dev. MIT."
     homepage: https://whichskills.dev
     topics:
       - agent-skills
@@ -48,42 +43,71 @@ metadata:
       - dashboard
       - jev
       - provenance
-    last_checked_at: '2026-09-29T13:08:18.050Z'
+    last_checked_at: "2026-09-29T13:08:18.050Z"
     readme:
-      fetched_at: '2026-09-29T13:08:18.050Z'
+      fetched_at: "2026-09-29T13:08:18.050Z"
       bytes: 5656
 insights:
-  summary: >-
-    Skill Dash uses Jev to judge Claude Code and Codex skills and plugins: usefulness, redundancy, clarity, duplicates,
-    safety. Local dashboard plus the corpus pipeline behind whichskills.dev. MIT.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Skill Dash is a local dashboard that uses Jev to evaluate Claude Code and Codex skills and plugins on usefulness, redundancy, clarity, duplicates, and safety, backed by the corpus pipeline behind whichskills.dev.
+  why_it_matters: It helps developers objectively assess and compare the quality of AI coding agent skills, reducing guesswork when extending assistants like Claude Code or Codex.
+  mental_damage: Finally, a way to quantify skill fatigue — because judging whether another 'supercharged logging' plugin is actually useful shouldn’t require a PhD in Jev and despair.
+  tags:
+    - skill-evaluation
+    - jev
+    - claude-code
+    - codex
+    - dashboard
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: Skill Dash’s core identity is using Jev — a decision model — to judge and score agent skills, making the judgment layer the product’s reason to exist, not a host extension or skill pack.
   evidence:
-    - jev-latest choice confidence 0.60
+    - "Repo description: 'Skill Dash uses Jev to judge Claude Code and Codex skills and plugins: usefulness, redundancy, clarity, duplicates, safety.'"
+    - "Topics include: agent-skills, jev, claude-code, codex, dashboard, provenance."
+    - "Homepage: https://whichskills.dev — the corpus pipeline powering skill evaluation."
+    - Seen in awesome-jev under 'Community projects > Developer projects and integrations'.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:18.050Z'
+    updated_at: "2026-09-29T13:08:18.050Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:09.584Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cbff886a117e9b6be9311c3f8803e278f61d6a0f47b12eaa0c99c43749e822dc
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Skill Dash’s core identity is using Jev — a decision model — to judge and score agent skills, making the judgment layer the product’s reason to exist, not a host extension or skill pack.
+      decision_evidence:
+        - "Repo description: 'Skill Dash uses Jev to judge Claude Code and Codex skills and plugins: usefulness, redundancy, clarity, duplicates, safety.'"
+        - "Topics include: agent-skills, jev, claude-code, codex, dashboard, provenance."
+        - "Homepage: https://whichskills.dev — the corpus pipeline powering skill evaluation."
+        - Seen in awesome-jev under 'Community projects > Developer projects and integrations'.
+      category_candidates:
+        - decision-models
+        - skills
+      contrastive_reason: Choose decision-models over skills because Skill Dash’s primary artifact is not a reusable skill pack but a dashboard that applies Jev to evaluate skills — the judgment model is the core identity, not installable content.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

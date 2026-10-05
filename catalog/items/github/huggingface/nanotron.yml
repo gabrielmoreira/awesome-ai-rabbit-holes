@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__nanotron__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,12 +19,10 @@ provenance:
           - Training
         anchor_text: Nanotron
         extracted_url: https://github.com/huggingface/nanotron
-        surrounding_text: >-
-          - [Nanotron](https://github.com/huggingface/nanotron) - Minimalistic large language model 3D-parallelism
-          training.
+        surrounding_text: "- [Nanotron](https://github.com/huggingface/nanotron) - Minimalistic large language model 3D-parallelism training."
         confidence: high
     - id: discovery__github__huggingface__nanotron__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,9 +34,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: nanotron
         extracted_url: https://github.com/huggingface/nanotron
-        surrounding_text: >-
-          28. [nanotron](https://github.com/huggingface/nanotron): Minimalistic large language model 3D-parallelism
-          training.
+        surrounding_text: "28. [nanotron](https://github.com/huggingface/nanotron): Minimalistic large language model 3D-parallelism training."
         confidence: high
 metadata:
   github:
@@ -48,20 +44,18 @@ metadata:
     archived: false
     full_name: huggingface/nanotron
     html_url: https://github.com/huggingface/nanotron
-    created_at: '2023-09-11T14:40:28Z'
-    pushed_at: '2026-05-26T10:32:37Z'
+    created_at: "2023-09-11T14:40:28Z"
+    pushed_at: "2026-05-26T10:32:37Z"
     description: Minimalistic large language model 3D-parallelism training
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-30T05:05:39.682Z'
+    last_checked_at: "2026-07-30T05:05:39.682Z"
     readme:
-      fetched_at: '2026-07-30T05:05:39.682Z'
+      fetched_at: "2026-07-30T05:05:39.682Z"
       bytes: 7404
 insights:
   summary: A minimalistic library for 3D-parallelism training of large language models.
-  why_it_matters: >-
-    It simplifies pretraining transformer models with a focus on speed, scalability, and ease of use for custom
-    datasets.
+  why_it_matters: It simplifies pretraining transformer models with a focus on speed, scalability, and ease of use for custom datasets.
   mental_damage: Because nothing says 'weekend project' like spinning up a tiny Llama on 8 H100s in 10 minutes.
   tags:
     - llm-training
@@ -71,12 +65,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Nanotron is a code-first framework for model training, not a developer-tooling product in the catalog's scope
-    (coding agents, IDEs, extensions, etc.).
+  reason: Nanotron is a code-first framework for model training, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
   evidence:
-    - 'Repo description: ''Minimalistic large language model 3D-parallelism training'''
-    - 'README: ''Nanotron is a library for pretraining transformer models'''
+    - "Repo description: 'Minimalistic large language model 3D-parallelism training'"
+    - "README: 'Nanotron is a library for pretraining transformer models'"
     - Primary identity is a training framework, not a developer workflow tool
 placement:
   primary_category: null
@@ -87,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.587Z'
+    updated_at: "2026-05-06T22:12:15.587Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:39.682Z'
+    updated_at: "2026-07-30T05:05:39.682Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -112,12 +104,10 @@ processing:
       input_hash: sha256:13c03bb4672e649944d9ec469ab88fcc7d08e86e313846d20ea816ace829481f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Nanotron is a code-first framework for model training, not a developer-tooling product in the catalog's scope
-        (coding agents, IDEs, extensions, etc.).
+      decision_reason: Nanotron is a code-first framework for model training, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
       decision_evidence:
-        - 'Repo description: ''Minimalistic large language model 3D-parallelism training'''
-        - 'README: ''Nanotron is a library for pretraining transformer models'''
+        - "Repo description: 'Minimalistic large language model 3D-parallelism training'"
+        - "README: 'Nanotron is a library for pretraining transformer models'"
         - Primary identity is a training framework, not a developer workflow tool
       category_candidates: []
       contrastive_reason: null

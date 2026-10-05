@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__isaacphi__mcp-gdrive__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 📂 <a name="file-systems"></a>File Systems
         anchor_text: isaacphi/mcp-gdrive
         extracted_url: https://github.com/isaacphi/mcp-gdrive
-        surrounding_text: >-
-          - [isaacphi/mcp-gdrive](https://github.com/isaacphi/mcp-gdrive) 📇 ☁️ - Model Context Protocol (MCP) Server
-          for reading from Google Drive and editing Google Sheets.
+        surrounding_text: "- [isaacphi/mcp-gdrive](https://github.com/isaacphi/mcp-gdrive) 📇 ☁️ - Model Context Protocol (MCP) Server for reading from Google Drive and editing Google Sheets."
         confidence: high
 metadata:
   github:
@@ -32,20 +30,18 @@ metadata:
     archived: false
     full_name: isaacphi/mcp-gdrive
     html_url: https://github.com/isaacphi/mcp-gdrive
-    created_at: '2024-12-13T23:49:36Z'
-    pushed_at: '2025-05-07T14:03:09Z'
+    created_at: "2024-12-13T23:49:36Z"
+    pushed_at: "2025-05-07T14:03:09Z"
     description: Model Context Protocol (MCP) Server for reading from Google Drive and editing Google Sheets
     homepage: null
     topics: []
-    last_checked_at: '2026-07-30T05:05:45.163Z'
+    last_checked_at: "2026-07-30T05:05:45.163Z"
     readme:
-      fetched_at: '2026-07-30T05:05:45.163Z'
+      fetched_at: "2026-07-30T05:05:45.163Z"
       bytes: 4884
 insights:
   summary: An MCP server that enables LLMs to search, read, and edit Google Drive files and Google Sheets.
-  why_it_matters: >-
-    It gives AI agents direct access to your unstructured documentation and structured spreadsheets within a unified
-    protocol.
+  why_it_matters: It gives AI agents direct access to your unstructured documentation and structured spreadsheets within a unified protocol.
   mental_damage: Now your LLM can hallucinate spreadsheet formulas directly into your production data pipelines.
   tags:
     - mcp
@@ -69,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.621Z'
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:45.163Z'
+    updated_at: "2026-07-30T05:05:45.163Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -102,8 +98,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product's core identity and distribution method is an MCP server
-        implementation, not a host integration for an existing editor.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity and distribution method is an MCP server implementation, not a host integration for an existing editor.
       review_reason: null
       review_resume_lifecycle: null

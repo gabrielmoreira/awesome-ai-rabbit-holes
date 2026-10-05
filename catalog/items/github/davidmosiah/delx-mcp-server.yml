@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidmosiah__delx-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-13T05:12:52.223Z'
+      discovered_at: "2026-07-13T05:12:52.223Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: davidmosiah/delx-mcp-server
         extracted_url: https://github.com/davidmosiah/delx-mcp-server
-        surrounding_text: >-
-          - [davidmosiah/delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server) [![Delx MCP
-          Server](https://glama.ai/mcp/servers/davidmosiah/delx-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/davidmosiah/delx-mcp-server)
-          📇 🏠 ☁️ 🍎 🪟 🐧 - Native stdio bridge for the hosted Delx Protocol MCP endpoint, with one-command client
-          install, doctor checks and live tool discovery.
+        surrounding_text: "- [davidmosiah/delx-mcp-server](https://github.com/davidmosiah/delx-mcp-server) [![Delx MCP Server](https://glama.ai/mcp/servers/davidmosiah/delx-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/davidmosiah/delx-mcp-server) 📇 🏠 ☁️ 🍎 🪟 🐧 - Native stdio bridge for the hosted Delx Protocol MCP endpoint, with one-command client install, doctor checks and live tool discovery."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: davidmosiah/delx-mcp-server
     html_url: https://github.com/davidmosiah/delx-mcp-server
-    created_at: '2026-05-19T20:03:20Z'
-    pushed_at: '2026-08-29T10:43:58Z'
-    description: >-
-      Free MCP stdio bridge for agent continuity: resume after compaction, hand off between runtimes, recover from
-      failure. No API key.
+    created_at: "2026-05-19T20:03:20Z"
+    pushed_at: "2026-08-29T10:43:58Z"
+    description: "Free MCP stdio bridge for agent continuity: resume after compaction, hand off between runtimes, recover from failure. No API key."
     homepage: https://delx.ai/mcp-server
     topics:
       - agent-continuity
@@ -58,20 +52,14 @@ metadata:
       - model-context-protocol
       - proof-of-agent-work
       - stdio
-    last_checked_at: '2026-09-14T04:13:35.975Z'
+    last_checked_at: "2026-09-14T04:13:35.975Z"
     readme:
-      fetched_at: '2026-09-14T04:13:35.975Z'
+      fetched_at: "2026-09-14T04:13:35.975Z"
       bytes: 6894
 insights:
-  summary: >-
-    Zero-star MCP stdio bridge that connects Claude Desktop, Cursor, and similar clients to Delx Protocol’s hosted
-    endpoint, exposing 143 tools for agent therapy, witness transfer, and proof-of-agent-work.
-  why_it_matters: >-
-    It normalizes access to a niche agent-infrastructure protocol inside standard MCP clients, though its tool surface
-    is aimed at agent lifecycle and reputation rather than everyday software development.
-  mental_damage: >-
-    Running --doctor to verify your IDE can reach start_therapy_session and active_forgetting makes you wonder if the
-    real outage is in the agent, or in you for installing it.
+  summary: Zero-star MCP stdio bridge that connects Claude Desktop, Cursor, and similar clients to Delx Protocol’s hosted endpoint, exposing 143 tools for agent therapy, witness transfer, and proof-of-agent-work.
+  why_it_matters: It normalizes access to a niche agent-infrastructure protocol inside standard MCP clients, though its tool surface is aimed at agent lifecycle and reputation rather than everyday software development.
+  mental_damage: Running --doctor to verify your IDE can reach start_therapy_session and active_forgetting makes you wonder if the real outage is in the agent, or in you for installing it.
   tags:
     - mcp-server
     - stdio-bridge
@@ -80,19 +68,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Stays out because it is a brand-new, zero-star transport wrapper around a highly domain-specific protocol whose
-    tools (e.g., start_therapy_session, attune_heartbeat, proof-of-agent-work) sit outside the catalog’s scope of
-    practical software-development tooling.
+  reason: Stays out because it is a brand-new, zero-star transport wrapper around a highly domain-specific protocol whose tools (e.g., start_therapy_session, attune_heartbeat, proof-of-agent-work) sit outside the catalog’s scope of practical software-development tooling.
   evidence:
-    - >-
-      README lists exposed tools such as start_therapy_session, reflect, refine_soul_document, and attune_heartbeat
-      under categories like witness, continuity, and recovery, signaling a wellness/reputation protocol rather than dev
-      infrastructure.
+    - README lists exposed tools such as start_therapy_session, reflect, refine_soul_document, and attune_heartbeat under categories like witness, continuity, and recovery, signaling a wellness/reputation protocol rather than dev infrastructure.
     - Zero stars and created/pushed dates in 2026 show no community traction or established use.
-    - >-
-      The entire package is a thin stdio-to-HTTP bridge around mcp-remote with no backend logic, acting as a shim to a
-      non-developer service.
+    - The entire package is a thin stdio-to-HTTP bridge around mcp-remote with no backend logic, acting as a shim to a non-developer service.
 placement:
   primary_category: null
   section: null
@@ -102,17 +82,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-13T05:12:52.224Z'
+    updated_at: "2026-07-13T05:12:52.224Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:35.975Z'
+    updated_at: "2026-09-14T04:13:35.975Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

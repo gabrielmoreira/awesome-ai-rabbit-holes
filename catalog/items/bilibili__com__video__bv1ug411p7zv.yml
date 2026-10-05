@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bilibili__com__video__bv1ug411p7zv__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,12 +18,10 @@ provenance:
           - 课程 Course
         anchor_text: 清华 NLP 刘知远团队大模型公开课
         extracted_url: https://bilibili.com/video/BV1UG411p7zv
-        surrounding_text: >-
-          9. [清华 NLP
-          刘知远团队大模型公开课](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
+        surrounding_text: 9. [清华 NLP 刘知远团队大模型公开课](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
     - id: discovery__www__bilibili__com__video__bv1ug411p7zv__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -35,9 +33,7 @@ provenance:
           - 课程 Course
         anchor_text: 清华 NLP 刘知远团队大模型公开课
         extracted_url: https://www.bilibili.com/video/BV1UG411p7zv
-        surrounding_text: >-
-          9. [清华 NLP
-          刘知远团队大模型公开课](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
+        surrounding_text: 9. [清华 NLP 刘知远团队大模型公开课](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
         confidence: high
 metadata:
   github:
@@ -55,29 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Bilibili video series from Tsinghua NLP Lab introducing large model theory and practice, covering topics from
-    neural networks to biomedical NLP and legal AI applications.
-  why_it_matters: >-
-    Provides a structured educational resource for developers to build foundational knowledge in LLMs and related AI
-    systems.
-  mental_damage: Watching 137 videos to feel caught up in AI is the developer’s version of doomscrolling through a syllabus.
+  summary: 清华NLP刘知远团队大模型公开课 is a 137-episode video lecture series on large models, covering theory and practice from deep learning to applications.
+  why_it_matters: Provides structured educational content for developers seeking foundational and advanced knowledge in LLMs and related AI systems.
+  mental_damage: Another reminder that keeping up with AI feels less like learning and more like trying to drink from a firehose labeled 'OpenBMB'.
   tags:
     - education
     - llm
-    - nlp
+    - video-course
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational lecture series, not a developer-facing AI tool, agent, framework, or infrastructure product;
-    it lacks any interactive, automatable, or workflow-integrating functionality for software development.
+  reason: This is an educational resource (video course), not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - The resource is a Bilibili video course titled '清华 NLP 刘知远团队大模型公开课' with 137 lectures on LLM theory and practice.
-    - >-
-      Scraped content shows it covers academic topics like Transformers, Prompt Tuning, BMTrain, and biomedical NLP —
-      all presented as lectures, not tools.
-    - No evidence of code, CLI, API, SDK, agent behavior, or workflow integration; it is purely instructional content.
+    - The resource is a 137-episode Bilibili video lecture series titled '清华NLP刘知远团队大模型公开课'
+    - It is listed in awesome-LLM-resources under the '课程 Course' section as educational content
+    - No evidence of being a tool, agent, SDK, or platform that developers use to build, orchestrate, or augment AI workflows
 placement:
   primary_category: null
   section: null
@@ -87,39 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:22.263Z'
+    updated_at: "2026-10-05T04:46:32.172Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e7b0481e7f1ac337d43e91837cfc602d63a03d7df942254c5fef9db91177a8ea
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:42d109e225d651985f3ffd56aac57b41a2e7d39982a74ae179cafddaea0f7c8e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational lecture series, not a developer-facing AI tool, agent, framework, or infrastructure
-        product; it lacks any interactive, automatable, or workflow-integrating functionality for software development.
+      decision_reason: This is an educational resource (video course), not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - >-
-          The resource is a Bilibili video course titled '清华 NLP 刘知远团队大模型公开课' with 137 lectures on LLM theory and
-          practice.
-        - >-
-          Scraped content shows it covers academic topics like Transformers, Prompt Tuning, BMTrain, and biomedical NLP
-          — all presented as lectures, not tools.
-        - >-
-          No evidence of code, CLI, API, SDK, agent behavior, or workflow integration; it is purely instructional
-          content.
+        - The resource is a 137-episode Bilibili video lecture series titled '清华NLP刘知远团队大模型公开课'
+        - It is listed in awesome-LLM-resources under the '课程 Course' section as educational content
+        - No evidence of being a tool, agent, SDK, or platform that developers use to build, orchestrate, or augment AI workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.963Z'
+    updated_at: "2026-07-21T15:20:21.963Z"
     cause: null
     next_retry_at: null
   stars:

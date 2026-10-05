@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scottcjn__trashclaw__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Core Frameworks
         anchor_text: TrashClaw
         extracted_url: https://github.com/scottcjn/trashclaw
-        surrounding_text: >-
-          | [TrashClaw](https://github.com/Scottcjn/trashclaw) | 71 | Python | MIT | 2026-09 | Zero-dependency local
-          agent for old hardware |
+        surrounding_text: "| [TrashClaw](https://github.com/Scottcjn/trashclaw) | 71 | Python | MIT | 2026-09 | Zero-dependency local agent for old hardware |"
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
     - jev-latest choice confidence 0.44
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed local-ai / Inference Engines; placement kept at coding-agents
-      (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed local-ai / Inference Engines; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

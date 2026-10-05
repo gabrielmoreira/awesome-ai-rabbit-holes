@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__askpandi__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Ask Pandi
         anchor_text: Ask Pandi
         extracted_url: https://askpandi.com/ask
-        surrounding_text: '## [Ask Pandi](https://askpandi.com/ask)'
+        surrounding_text: "## [Ask Pandi](https://askpandi.com/ask)"
         confidence: high
 metadata:
   github:
@@ -36,23 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pandi is a curiosity-driven AI search tool that answers questions by exploring connected topics.
-  why_it_matters: It helps developers discover related concepts and unexpected insights while researching technical topics.
-  mental_damage: Another AI search rabbit hole that promises serendipity but delivers yet another tab to close after 20 minutes.
+  summary: Ask Pandi is a web-based AI answer engine that lets users ask questions and explore topics through a curiosity-driven search interface.
+  why_it_matters: It offers developers a quick way to surface context or explore unfamiliar domains without leaving the browser.
+  mental_damage: Another AI search bar promising serendipity while you quietly wonder if it’s just Google with extra steps and a vibe.
   tags:
-    - search
-    - discovery
-    - research
+    - ai-search
+    - developer-research
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding
-    tool.
+  reason: Ask Pandi is a general-purpose AI question-answering tool with no developer-specific workflow, code interaction, or tooling angle; it functions as a consumer-facing search experience rather than a developer utility.
   evidence:
-    - Scraped site describes it as 'Stay curious. Search what's on your mind. Discover what you didn't know to look for.'
-    - Source-list context shows it in awesome-ai-agents under 'Ask Pandi' with the description 'Ask anything and discover answers with Pandi'.
-    - No evidence of code editing, agent orchestration, app building, or other developer-specific workflows in the provided inputs.
+    - Scraped site context describes it as a place to 'Ask anything and discover answers with Pandi' and 'Search what's on your mind'
+    - No evidence of code editing, terminal interaction, IDE integration, or agent behavior in the provided inputs
+    - Listed in awesome-ai-agents under the 'Ask Pandi' section, but the site itself lacks autonomous agent behavior or developer tooling identity
 placement:
   primary_category: null
   section: null
@@ -62,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,31 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:23.988Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for askpandi__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:31.685Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:29e42d583291278a97273a64346e987cc854484a8d6b12525c324da58c18dbaa
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6469f044f4359267e152065da07b6d47ddd82bec366c67c3390da428a5082b08
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or
-        coding tool.
+      decision_reason: Ask Pandi is a general-purpose AI question-answering tool with no developer-specific workflow, code interaction, or tooling angle; it functions as a consumer-facing search experience rather than a developer utility.
       decision_evidence:
-        - Scraped site describes it as 'Stay curious. Search what's on your mind. Discover what you didn't know to look for.'
-        - Source-list context shows it in awesome-ai-agents under 'Ask Pandi' with the description 'Ask anything and discover answers with Pandi'.
-        - No evidence of code editing, agent orchestration, app building, or other developer-specific workflows in the provided inputs.
+        - Scraped site context describes it as a place to 'Ask anything and discover answers with Pandi' and 'Search what's on your mind'
+        - No evidence of code editing, terminal interaction, IDE integration, or agent behavior in the provided inputs
+        - Listed in awesome-ai-agents under the 'Ask Pandi' section, but the site itself lacks autonomous agent behavior or developer tooling identity
       category_candidates: []
       contrastive_reason: null
       review_reason: null

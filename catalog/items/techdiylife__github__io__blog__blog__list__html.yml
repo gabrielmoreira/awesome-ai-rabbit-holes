@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__techdiylife__github__io__blog__blog__list__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    blog_list.html is a static HTML page listing articles from the TechDIYLife website, which shares tech DIY content,
-    YouTube videos, GitHub code, and free ebooks.
-  why_it_matters: >-
-    It serves as a navigation aid for developers seeking tutorials or resources on AI and programming topics shared by
-    the TechDIYLife channel.
-  mental_damage: >-
-    Yet another link farm pretending to be a curated tool, adding to the infinite scroll of marginally useful AI
-    resource lists.
+  summary: A blog listing page for the TechDIYLife website, which shares free ebooks, GitHub code, and YouTube content related to technology and DIY projects.
+  why_it_matters: Provides developers with a centralized list of educational resources and code samples shared by a tech educator.
+  mental_damage: Another link in the endless chain of 'free resources' that promises enlightenment but delivers another README you'll skim and forget.
   tags:
-    - resource-list
-    - blog
-    - ai-tutorials
-  confidence: medium
+    - resources
+    - education
+    - developer-content
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Publications & Feeds
+  status: excluded
+  reason: This is a static blog listing page, not a developer-facing AI tool, agent, or infrastructure product, and lacks any AI-tooling angle or functional utility for software developers.
   evidence:
-    - jev-latest choice confidence 0.82
+    - Scraped site context shows a simple blog list titled 'AI开发者de频道：文章列表' with no tooling or product claims
+    - Source-list context places it in 'awesome-LLM-resources' under '教程 Tutorial' as a curated link, not a tool
+    - No repo description, stars, or activity signals indicate it is a maintained software project
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Publications & Feeds
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,33 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:47:01.472Z'
+    updated_at: "2026-10-05T04:55:52.911Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:87df4952d5b45db687a1345d77dfda89a79192dd61859b0ad910a550db72caa0
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d3f6be76a140b8267d4be7a4cc6463f2d25f354d47218df2933f9cee5727bbc1
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The page functions as a curated publication feed of AI and developer content, aligning with awesome-awesomes'
-        purpose of helping developers discover resources, even if it's a simple HTML list.
+      decision_reason: This is a static blog listing page, not a developer-facing AI tool, agent, or infrastructure product, and lacks any AI-tooling angle or functional utility for software developers.
       decision_evidence:
-        - Appears in awesome-LLM-resources under '教程 Tutorial' as a source for LLM resources including Agent and辅助编程
-        - >-
-          Scraped title and description identify it as 'AI开发者de频道：文章列表' from TechDIYLife:
-          技术DIY生活，YouTube频道，Github代码，免费电子书籍分享
-        - The page is a static article list (blog_list.html) with no interactive tooling, SDK, or agent behavior
-      category_candidates:
-        - awesome-awesomes
-        - skills
-      contrastive_reason: >-
-        Choose awesome-awesomes over skills because it is a curated publication feed of content, not a reusable skill
-        pack or ruleset installed into an agent.
+        - Scraped site context shows a simple blog list titled 'AI开发者de频道：文章列表' with no tooling or product claims
+        - Source-list context places it in 'awesome-LLM-resources' under '教程 Tutorial' as a curated link, not a tool
+        - No repo description, stars, or activity signals indicate it is a maintained software project
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

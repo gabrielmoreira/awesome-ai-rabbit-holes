@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thelau__jev-tetris__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,12 +19,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: jev-tetris
         extracted_url: https://github.com/thelau/jev-tetris
-        surrounding_text: >-
-          - [jev-tetris](https://github.com/thelau/jev-tetris) - Tetris where deterministic code enumerates every
-          reachable placement, including tucks and spins, and writes each one as an English sentence; Jev returns a
-          probability for all of them across five Choice questions, and the highest-weighted option is played while the
-          whole distribution is drawn on the board. Ships a shuffled-probability control and a 23-line regex baseline
-          over the same sentences, which outscores the model.
+        surrounding_text: "- [jev-tetris](https://github.com/thelau/jev-tetris) - Tetris where deterministic code enumerates every reachable placement, including tucks and spins, and writes each one as an English sentence; Jev returns a probability for all of them across five Choice questions, and the highest-weighted option is played while the whole distribution is drawn on the board. Ships a shuffled-probability control and a 23-line regex baseline over the same sentences, which outscores the model."
         confidence: high
 metadata:
   github:
@@ -42,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-tetris - Tetris where deterministic code enumerates every reachable placement, including tucks and spins, and
-    writes each one as an English sentence; Jev returns a probability for all of them across five Choice questions, and
-    the highest-weighted option is played while the whole distribution is drawn on the board. Ships a
-    shuffled-probability control and a 23-line regex baseline over the same sentences, which outscores the model.
+  summary: jev-tetris - Tetris where deterministic code enumerates every reachable placement, including tucks and spins, and writes each one as an English sentence; Jev returns a probability for all of them across five Choice questions, and the highest-weighted option is played while the whole distribution is drawn on the board. Ships a shuffled-probability control and a 23-line regex baseline over the same sentences, which outscores the model.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

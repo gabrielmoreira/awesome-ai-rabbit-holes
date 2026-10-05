@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: FetchSERP
         extracted_url: https://fetchserp.com
-        surrounding_text: >-
-          - **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence
-          Toolkit API [FetchSERP](https://www.fetchserp.com)
+        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
         confidence: high
     - id: discovery__www__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: FetchSERP
         extracted_url: https://www.fetchserp.com
-        surrounding_text: >-
-          - **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence
-          Toolkit API [FetchSERP](https://www.fetchserp.com)
+        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
         confidence: high
 metadata:
   github:
@@ -55,80 +51,62 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    FetchSERP is an SEO and web intelligence API that provides search engine results, domain rankings, backlinks
-    analysis, and keyword research data from Bing, Yahoo, and DuckDuckGo.
-  why_it_matters: >-
-    Developers can integrate real-time SEO data into AI agents and applications via MCP servers or official SDKs to
-    build competitive analysis tools, content optimizers, and SEO-powered chatbots.
-  mental_damage: >-
-    Another API that promises to turn keyword rankings into AGI-level insights, as if SERP data alone could fix your
-    content strategy.
+  summary: FetchSERP is a paid API service providing real-time search engine results, keyword rankings, backlinks, and domain intelligence from Bing, Yahoo, and DuckDuckGo for SEO and web intelligence use cases.
+  why_it_matters: Developers can integrate live SEO data into AI agents, dashboards, or automation workflows via REST, SDKs, or MCP to build data-driven content and competitive analysis tools.
+  mental_damage: Yet another SEO API promising 'AI-powered insights' while developers spend more time managing API credits than actually ranking content.
   tags:
-    - api
     - seo
+    - api
     - mcp
-    - sdk
-  confidence: high
+    - web-intelligence
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    FetchSERP is a data API service focused on SEO and web intelligence, not a developer-facing AI tool, agent,
-    framework, or workflow product; its core value lies in providing search data, not in AI-assisted development,
-    coding, or orchestration.
+  status: included
+  reason: FetchSERP's core identity is its MCP server enabling AI agents to access live search data, making MCP the primary product identity rather than a generic API or SDK.
   evidence:
-    - Described as an 'SEO & Web Intelligence Toolkit API' with SERP, keyword, backlink, and domain ranking endpoints
-    - >-
-      Primary use cases involve SEO chatbots, competitive analysis dashboards, and automated reporting — not coding
-      agent workflows
-    - Listed in awesome-mcp-servers as an MCP server, but MCP is an adapter feature, not the product identity
+    - Listed in awesome-mcp-servers under 'Official Servers' with explicit MCP integration guidance for Claude Desktop
+    - Marketed as 'SEO Agent' with MCP-first setup instructions for Claude Desktop and OpenAI API
+    - Provides official SDKs but emphasizes MCP as the key integration layer for AI agent workflows
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:01.055Z'
+    updated_at: "2026-10-05T04:47:46.007Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:122009b02b0d12d404ed0f076f59a79e132f9ea01391b199ab49c308f14b321b
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e489c4b6d098e16e284b9f88857c42cc1b02673ecffe19f004def4a91c4d6086
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        FetchSERP is a data API service focused on SEO and web intelligence, not a developer-facing AI tool, agent,
-        framework, or workflow product; its core value lies in providing search data, not in AI-assisted development,
-        coding, or orchestration.
+      decision_reason: FetchSERP's core identity is its MCP server enabling AI agents to access live search data, making MCP the primary product identity rather than a generic API or SDK.
       decision_evidence:
-        - >-
-          Described as an 'SEO & Web Intelligence Toolkit API' with SERP, keyword, backlink, and domain ranking
-          endpoints
-        - >-
-          Primary use cases involve SEO chatbots, competitive analysis dashboards, and automated reporting — not coding
-          agent workflows
-        - Listed in awesome-mcp-servers as an MCP server, but MCP is an adapter feature, not the product identity
-      category_candidates: []
-      contrastive_reason: null
+        - Listed in awesome-mcp-servers under 'Official Servers' with explicit MCP integration guidance for Claude Desktop
+        - Marketed as 'SEO Agent' with MCP-first setup instructions for Claude Desktop and OpenAI API
+        - Provides official SDKs but emphasizes MCP as the key integration layer for AI agent workflows
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because FetchSERP's value is in exposing search data via MCP protocol, not in providing a code library developers import to build agents.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending

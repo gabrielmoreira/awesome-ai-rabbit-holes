@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automatic1111__stable-diffusion-webui__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,7 +19,7 @@ provenance:
           - Inference UI
         anchor_text: Automatic1111
         extracted_url: https://github.com/automatic1111/stable-diffusion-webui
-        surrounding_text: '- [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI.'
+        surrounding_text: "- [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI."
         confidence: high
 metadata:
   github:
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: AUTOMATIC1111/stable-diffusion-webui
     html_url: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-    created_at: '2022-08-22T14:05:26Z'
-    pushed_at: '2026-03-02T07:00:53Z'
+    created_at: "2022-08-22T14:05:26Z"
+    pushed_at: "2026-03-02T07:00:53Z"
     description: Stable Diffusion web UI
-    homepage: ''
+    homepage: ""
     topics:
       - ai
       - ai-art
@@ -50,18 +50,14 @@ metadata:
       - unstable
       - upscaling
       - web
-    last_checked_at: '2026-09-21T04:13:50.951Z'
+    last_checked_at: "2026-09-21T04:13:50.951Z"
     readme:
-      fetched_at: '2026-09-21T04:13:50.951Z'
+      fetched_at: "2026-09-21T04:13:50.951Z"
       bytes: 12924
 insights:
   summary: A web interface for Stable Diffusion implemented using Gradio.
-  why_it_matters: >-
-    It provides a user-friendly way for developers to generate, manipulate, and experiment with AI-generated images
-    locally.
-  mental_damage: >-
-    Because nothing says 'developer productivity' like spending hours tweaking prompts to generate the perfect meme for
-    your PR description.
+  why_it_matters: It provides a user-friendly way for developers to generate, manipulate, and experiment with AI-generated images locally.
+  mental_damage: Because nothing says 'developer productivity' like spending hours tweaking prompts to generate the perfect meme for your PR description.
   tags:
     - image-generation
     - local-ai
@@ -71,17 +67,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is primarily an image generation tool with a web UI, not a developer-tooling product focused on coding
-    workflows, agents, or infrastructure.
+  reason: The project is primarily an image generation tool with a web UI, not a developer-tooling product focused on coding workflows, agents, or infrastructure.
   evidence:
     - Repo description explicitly states it is a 'web UI for Stable Diffusion'
-    - >-
-      README focuses on image generation features (txt2img, img2img, inpainting, upscaling, etc.) with no
-      developer-tooling angle
-    - >-
-      Source-list context places it under 'Inference UI' in a local AI tools directory, not a developer workflow
-      category
+    - README focuses on image generation features (txt2img, img2img, inpainting, upscaling, etc.) with no developer-tooling angle
+    - Source-list context places it under 'Inference UI' in a local AI tools directory, not a developer workflow category
 placement:
   primary_category: null
   section: null
@@ -91,17 +81,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:50.951Z'
+    updated_at: "2026-09-21T04:13:50.951Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -116,17 +106,11 @@ processing:
       input_hash: sha256:8a54375aeaffa51729d502e044c6acdd7e124d634cb522b95738ba41cb3bd779
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is primarily an image generation tool with a web UI, not a developer-tooling product focused on
-        coding workflows, agents, or infrastructure.
+      decision_reason: The project is primarily an image generation tool with a web UI, not a developer-tooling product focused on coding workflows, agents, or infrastructure.
       decision_evidence:
         - Repo description explicitly states it is a 'web UI for Stable Diffusion'
-        - >-
-          README focuses on image generation features (txt2img, img2img, inpainting, upscaling, etc.) with no
-          developer-tooling angle
-        - >-
-          Source-list context places it under 'Inference UI' in a local AI tools directory, not a developer workflow
-          category
+        - README focuses on image generation features (txt2img, img2img, inpainting, upscaling, etc.) with no developer-tooling angle
+        - Source-list context places it under 'Inference UI' in a local AI tools directory, not a developer workflow category
       category_candidates: []
       contrastive_reason: null
       review_reason: null

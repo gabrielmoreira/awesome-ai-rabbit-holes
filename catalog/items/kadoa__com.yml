@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kadoa__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Kadoa
         anchor_text: Kadoa
         extracted_url: https://kadoa.com
-        surrounding_text: '## [Kadoa](https://www.kadoa.com/)'
+        surrounding_text: "## [Kadoa](https://www.kadoa.com/)"
         confidence: high
     - id: discovery__www__kadoa__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Kadoa
         anchor_text: Kadoa
         extracted_url: https://www.kadoa.com
-        surrounding_text: '## [Kadoa](https://www.kadoa.com/)'
+        surrounding_text: "## [Kadoa](https://www.kadoa.com/)"
         confidence: high
 metadata:
   github:
@@ -51,79 +51,61 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Kadoa is a web data platform that uses AI agents to build, monitor, and maintain verified web scraping pipelines for
-    finance and investment data.
-  why_it_matters: >-
-    It automates the creation and upkeep of reliable web data pipelines, reducing manual scraping work for developers
-    and data teams.
-  mental_damage: >-
-    Finally, an AI agent that doesn’t write code — it just scrapes the web so you don’t have to maintain another brittle
-    BeautifulSoup script.
+  summary: Kadoa is a commercial platform that uses AI agents to build, monitor, and maintain web data pipelines for finance and investment data.
+  why_it_matters: It lets developers and analysts get reliable, source-backed web datasets without writing or maintaining scrapers themselves.
+  mental_damage: Finally, a tool that treats data collection like infrastructure instead of a weekend side project held together by regex and hope.
   tags:
-    - web-scraping
-    - data-pipelines
-    - finance
     - ai-agents
-  confidence: medium
+    - data-pipelines
+    - web-scraping
+    - finance
+  confidence: high
 curation:
   status: included
-  reason: >-
-    Kadoa coordinates AI agents to build, monitor, and repair data pipelines as a managed service, fitting agent
-    orchestration more than coding agents or app builders.
+  reason: Kadoa coordinates AI agents to build, monitor, and repair data pipelines as a managed service, fitting agent orchestration more than coding agents or app builders.
   evidence:
-    - >-
-      Kadoa is the web data layer for finance. Our AI agents build, monitor, and maintain mission-critical web data
-      pipelines.
-    - 'Appears in awesome-ai-agents under purpose: ''A list of AI autonomous agents''.'
-    - >-
-      Describes a platform where agents automate scraper creation and maintenance, keeping data flowing as websites
-      change.
+    - Kadoa is the web data layer for finance. Our AI agents build, monitor, and maintain mission-critical web data pipelines.
+    - "Appears in awesome-ai-agents under purpose: 'A list of AI autonomous agents'."
+    - Describes a platform where agents automate scraper creation and maintenance, keeping data flowing as websites change.
     - jev winnow:e4b 0.25 below gate 0.50; proposed out of scope; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:14.025Z'
+    updated_at: "2026-10-05T04:48:44.919Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fbe1b11fe60c9759a26edfe6d694d1ad8b9c460f4b0a20ef9c757a4be77970eb
-      proposed_primary_category: agent-orchestration
-      disagreement: false
-      decision_reason: >-
-        Kadoa coordinates AI agents to build, monitor, and repair data pipelines as a managed service, fitting agent
-        orchestration more than coding agents or app builders.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:682f427dc8b292747dd689806568e1d551aaa2d25f12962f108ff1b01e18b7c2
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: Kadoa fits app-builders because its core identity is turning natural-language data requests into production data pipelines and datasets, not editing code or acting as a coding assistant.
       decision_evidence:
-        - >-
-          Kadoa is the web data layer for finance. Our AI agents build, monitor, and maintain mission-critical web data
-          pipelines.
-        - 'Appears in awesome-ai-agents under purpose: ''A list of AI autonomous agents''.'
-        - >-
-          Describes a platform where agents automate scraper creation and maintenance, keeping data flowing as websites
-          change.
+        - Describe the dataset. Kadoa Assistant builds and runs it.
+        - Our agents build, monitor, and repair your pipelines
+        - Get data in the tools you already use
       category_candidates:
-        - agent-orchestration
+        - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because Kadoa’s primary value is managing AI agents that handle
-        data pipelines, not writing or editing code directly.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose app-builders over coding-agents because Kadoa’s main output is deployable data pipelines from prompts, not code edits or repo interactions.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'app-builders'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

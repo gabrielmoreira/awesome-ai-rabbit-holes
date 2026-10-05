@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agentrunner__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,9 +18,7 @@ provenance:
           - Agents
         anchor_text: AgentRunner.ai
         extracted_url: https://agentrunner.ai
-        surrounding_text: >-
-          - [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully
-          autonomous AI agents.
+        surrounding_text: "- [AgentRunner.ai](https://www.agentrunner.ai) - Leverage the power of GPT-4 to create and train fully autonomous AI agents."
         confidence: high
 metadata:
   github:
@@ -38,32 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AgentRunner.ai is a platform for running and managing autonomous AI agents that perform coding tasks.
-  why_it_matters: It lets developers delegate coding work to agents, reducing manual effort in writing, testing, and debugging code.
-  mental_damage: >-
-    Another promise of 'set and forget' AI coding that makes you wonder if you're outsourcing your job or just creating
-    more surveillance.
+  summary: AgentRunner.ai is a web platform for running AI agents with minimal setup.
+  why_it_matters: It lets developers experiment with autonomous agents without managing infrastructure or writing agent loops.
+  mental_damage: Another click-to-run agent playground that makes you wonder if the real innovation is in the UI or the marketing.
   tags:
-    - ai-agents
-    - developer-tooling
-    - autonomous-coding
+    - agents
+    - saas
+    - web-platform
   confidence: medium
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  status: excluded
+  reason: AgentRunner.ai is a hosted agent execution platform whose core identity is providing a managed runtime for agents, not building, extending, or evaluating them as developer tooling; it lacks a clear developer-facing product surface like a CLI, SDK, or IDE integration.
   evidence:
-    - jev-latest choice confidence 0.85
+    - "Seen in source lists: awesome-local-ai | purpose: An awesome repository of local AI tools | section: Agents"
+    - No repo description, stars, creation, or push dates provided — no evidence of open-source developer tooling
+    - Homepage is a .ai domain with no linked GitHub or source repository, indicating a SaaS product rather than developer infrastructure
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,33 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:54:43.947Z'
+    updated_at: "2026-10-05T05:00:54.300Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:caa49717331451e46e89cf77e9c3254862b24fd76e0f38f888b92f70087cd898
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c553cb58586977aac588af5bcf8e7578ef4732a75c174393314bde0ebcc323e2
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        AgentRunner.ai markets itself as a platform for autonomous AI agents that act on code, matching the
-        coding-agents category's focus on tools that perform coding tasks autonomously.
+      decision_reason: AgentRunner.ai is a hosted agent execution platform whose core identity is providing a managed runtime for agents, not building, extending, or evaluating them as developer tooling; it lacks a clear developer-facing product surface like a CLI, SDK, or IDE integration.
       decision_evidence:
-        - Seen in awesome-local-ai under the Agents section, indicating recognition as an AI agent tool
-        - The name 'agentrunner.ai' and positioning suggest autonomous agent execution for developer tasks
-        - >-
-          No evidence of being primarily an app builder, framework, or extension — its identity centers on
-          agent-mediated coding
-      category_candidates:
-        - coding-agents
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because the product's primary identity is agents performing coding
-        tasks, not managing or coordinating multiple agents as a workforce platform.
+        - "Seen in source lists: awesome-local-ai | purpose: An awesome repository of local AI tools | section: Agents"
+        - No repo description, stars, creation, or push dates provided — no evidence of open-source developer tooling
+        - Homepage is a .ai domain with no linked GitHub or source repository, indicating a SaaS product rather than developer infrastructure
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

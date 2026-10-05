@@ -1,12 +1,12 @@
 id: book__douban__com__subject__36884058
 kind: website
-name: '36884058'
+name: "36884058"
 canonical_url: https://book.douban.com/subject/36884058
 identity: {}
 provenance:
   discoveries:
     - id: discovery__book__douban__com__subject__36884058__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,26 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A book on building AI agents using large language models, tools like LangChain and LlamaIndex, and hands-on
-    projects.
-  why_it_matters: Provides developers with practical, code-based guidance for constructing AI agents in real-world applications.
-  mental_damage: Another AI book promising hands-on agent mastery while the real work is still piecing together outdated API calls.
+  summary: A Chinese-language book on building AI agents using large language models and tools like LangChain, LlamaIndex, and OpenAI Assistants.
+  why_it_matters: Provides hands-on tutorials for developers to build practical AI agents using current frameworks and APIs.
+  mental_damage: Another AI agent book promising hands-on learning while you wonder if the code will still run in six months.
   tags:
-    - ai-agents
+    - ai-agent
     - llm
-    - python
-    - hands-on
+    - langchain
+    - llama-index
+    - openai
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Excluded because it is an educational book resource, not a developer-facing AI tool, agent, framework, or
-    infrastructure product.
+  reason: It is a book, not a tool, framework, or developer-facing product; the catalog excludes educational resources regardless of topic relevance.
   evidence:
-    - URL points to a Douban book page (subject/36884058)
-    - Scraped context identifies it as a published book by 黄佳 with ISBN, publisher, and page count
-    - Source-list context shows it appears in 'awesome-LLM-resources' under the '书籍 Book' section
+    - Scraped site context identifies it as a book published by 人民邮电出版社 in May 2024 with ISBN 9787115642172
+    - README excerpt and source-list context describe it as a book for developers and researchers to learn Agent technology
+    - No repo, CLI, SDK, or runtime is associated with the entry; it is purely a published educational resource
 placement:
   primary_category: null
   section: null
@@ -65,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,26 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:53:25.314Z'
+    updated_at: "2026-10-05T04:59:55.447Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bb65d4a468fd173d492f06f6025ee85b346a6af289a1ee3a4ad3a0a3226c3537
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:14f52631f367ab9b682e60a989263905e493cabb73abca1ac7fc8b245ed0c411
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Excluded because it is an educational book resource, not a developer-facing AI tool, agent, framework, or
-        infrastructure product.
+      decision_reason: It is a book, not a tool, framework, or developer-facing product; the catalog excludes educational resources regardless of topic relevance.
       decision_evidence:
-        - URL points to a Douban book page (subject/36884058)
-        - Scraped context identifies it as a published book by 黄佳 with ISBN, publisher, and page count
-        - Source-list context shows it appears in 'awesome-LLM-resources' under the '书籍 Book' section
+        - Scraped site context identifies it as a book published by 人民邮电出版社 in May 2024 with ISBN 9787115642172
+        - README excerpt and source-list context describe it as a book for developers and researchers to learn Agent technology
+        - No repo, CLI, SDK, or runtime is associated with the entry; it is purely a published educational resource
       category_candidates: []
       contrastive_reason: null
       review_reason: null

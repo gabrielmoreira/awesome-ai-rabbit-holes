@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sravan27__context-os__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Context-OS
         extracted_url: https://github.com/sravan27/context-os
-        surrounding_text: >-
-          - **[Context-OS](https://github.com/sravan27/context-os)** – Scans repos for coding-agent context bloat and
-          ships a GitHub Action gate for Claude Code, Codex, Cursor, and OpenCode.
+        surrounding_text: "- **[Context-OS](https://github.com/sravan27/context-os)** – Scans repos for coding-agent context bloat and ships a GitHub Action gate for Claude Code, Codex, Cursor, and OpenCode."
         confidence: high
 metadata:
   github:
@@ -39,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Context-OS – Scans repos for coding-agent context bloat and ships a GitHub Action gate for Claude Code, Codex,
-    Cursor, and OpenCode.
+  summary: Context-OS – Scans repos for coding-agent context bloat and ships a GitHub Action gate for Claude Code, Codex, Cursor, and OpenCode.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__git__allen__software__com__allenh1__dsh__auto__mode__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Find by coding agent
         anchor_text: dsh-auto-mode
         extracted_url: https://git.allen-software.com/allenh1/dsh-auto-mode
-        surrounding_text: >-
-          - **DeepSeek Harness** (3) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) ·
-          [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) ·
-          [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)
+        surrounding_text: "- **DeepSeek Harness** (3) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) · [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)"
         confidence: high
 metadata:
   github:
@@ -39,11 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DeepSeek Harness (3) — dsh-jev-interceptor · dsh-auto-mode · dsh-jev-decide
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: "DeepSeek Harness Auto mode: Full access guided by TypeSafe System One at every end prompt."
+  why_it_matters: It combines a coding agent interface with a decision-model layer to guide coding actions through typed judgments.
+  mental_damage: Another layer of AI judgment to second-guess whether your code changes were actually wise, not just syntactically correct.
+  tags:
+    - coding-agent
+    - decision-model
+    - deepseek
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
@@ -53,14 +53,14 @@ curation:
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:57.971Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2596a8fa895b29a51dfcb8b4cf762698fd7af93a96cb157f9f7c1f41b1cc90da
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: The product presents itself as an auto mode for DeepSeek Harness that performs guided coding actions, fitting the coding agent pattern despite its decision-model guidance.
+      decision_evidence:
+        - "Repo name and description: 'DeepSeek Harness Auto mode: Full access guided by TypeSafe System One at every end prompt'"
+        - "Source-list context: listed in awesome-jev under 'Find by coding agent' with the same description"
+        - "Scraped site context: emphasizes guided access via TypeSafe System One (Jev) but frames it as a coding mode"
+      category_candidates:
+        - coding-agents
+        - decision-models
+      contrastive_reason: Choose coding-agents over decision-models because the product's identity is a coding assistant that uses a decision model for guidance, not a decision model or judgment tool itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

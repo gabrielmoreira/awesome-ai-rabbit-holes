@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jev-chat__jev-chat-jarvis__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-chat-jarvis
         extracted_url: https://github.com/jev-chat/jev-chat-jarvis
-        surrounding_text: >-
-          - [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) - 装在手机上的对话副驾：在微信 / QQ / X /
-          飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。
+        surrounding_text: "- [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) - 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
         confidence: high
     - id: discovery__github__jev-chat__jev-chat-jarvis__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Chat Assistant
         extracted_url: https://github.com/jev-chat/jev-chat-jarvis
-        surrounding_text: >-
-          - [Jev Chat Assistant](https://github.com/jev-chat/jev-chat-jarvis) - `Open source` · `Free source build` ·
-          `BYOK`. Android overlay: Accessibility reads chat; TypeSafe Jev (OpenRouter) judges intent/danger and ranks
-          fill-only reply candidates (WeChat first). [Project guide](community/projects/apps/jev-chat-jarvis.md).
+        surrounding_text: "- [Jev Chat Assistant](https://github.com/jev-chat/jev-chat-jarvis) - `Open source` · `Free source build` · `BYOK`. Android overlay: Accessibility reads chat; TypeSafe Jev (OpenRouter) judges intent/danger and ranks fill-only reply candidates (WeChat first). [Project guide](community/projects/apps/jev-chat-jarvis.md)."
         confidence: high
     - id: discovery__github__jev-chat__jev-chat-jarvis__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,13 +51,10 @@ provenance:
           - Applications (129)
         anchor_text: jev-chat-jarvis
         extracted_url: https://github.com/jev-chat/jev-chat-jarvis
-        surrounding_text: >-
-          | [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | ★ 1,696 | Kotlin | 2026-09-22 | Android
-          conversation copilot where Jev interprets chat context and helps rank candidate replies before the user
-          inserts one. |
+        surrounding_text: "| [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | ★ 1,696 | Kotlin | 2026-09-22 | Android conversation copilot where Jev interprets chat context and helps rank candidate replies before the user inserts one. |"
         confidence: high
     - id: discovery__github__jev-chat__jev-chat-jarvis__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -75,12 +67,22 @@ provenance:
           - Agent Decisions
         anchor_text: jev-chat
         extracted_url: https://github.com/jev-chat/jev-chat-jarvis
-        surrounding_text: >-
-          - [jev-chat](https://github.com/jev-chat/jev-chat-jarvis)
-          ![stars](https://img.shields.io/github/stars/jev-chat/jev-chat-jarvis?style=flat-square&label=%E2%98%85) -
-          Messaging: an Android accessibility service reads the conversation in WeChat, QQ, X, or Feishu, asks Jev
-          `Choice` over candidate replies, and fills the draft box while sending stays manual; a Windows port does the
-          same from offline OCR of the WeChat window.
+        surrounding_text: "- [jev-chat](https://github.com/jev-chat/jev-chat-jarvis) ![stars](https://img.shields.io/github/stars/jev-chat/jev-chat-jarvis?style=flat-square&label=%E2%98%85) - Messaging: an Android accessibility service reads the conversation in WeChat, QQ, X, or Feishu, asks Jev `Choice` over candidate replies, and fills the draft box while sending stays manual; a Windows port does the same from offline OCR of the WeChat window."
+        confidence: high
+    - id: discovery__github__jev-chat__jev-chat-jarvis__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Routing, data, and workflows
+        anchor_text: jev-chat-jarvis
+        extracted_url: https://github.com/jev-chat/jev-chat-jarvis
+        surrounding_text: "- [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) - Android chat copilot where Jev answers intent, needs, and next-action Choice questions, a danger-level Score, and three Noul checks about the visible QQ, X, or Feishu/Lark conversation, then a Choice ranks three replies drafted by a separate chat model; code fills the picked reply into the input box and never sends."
         confidence: high
 metadata:
   github:
@@ -118,7 +120,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.383Z'
+    updated_at: "2026-10-05T04:19:11.930Z"
     cause: null
     next_retry_at: null
   stars:
@@ -126,6 +128,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

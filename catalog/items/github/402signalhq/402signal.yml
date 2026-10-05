@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__402signalhq__402signal__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: 402signalhq/402signal
         extracted_url: https://github.com/402signalhq/402signal
-        surrounding_text: >-
-          - [402signalhq/402signal](https://github.com/402signalhq/402signal) [![402Signal MCP
-          server](https://glama.ai/mcp/servers/402signalhq/402signal/badges/score.svg)](https://glama.ai/mcp/servers/402signalhq/402signal)
-          🐍 ☁️ - Checks and validates live x402 payment routes across Base, Solana and Algorand.
+        surrounding_text: "- [402signalhq/402signal](https://github.com/402signalhq/402signal) [![402Signal MCP server](https://glama.ai/mcp/servers/402signalhq/402signal/badges/score.svg)](https://glama.ai/mcp/servers/402signalhq/402signal) 🐍 ☁️ - Checks and validates live x402 payment routes across Base, Solana and Algorand."
         confidence: high
 metadata:
   github:
@@ -33,31 +30,31 @@ metadata:
     archived: false
     full_name: 402signalhq/402signal
     html_url: https://github.com/402signalhq/402signal
-    created_at: '2026-09-19T13:36:38Z'
-    pushed_at: '2026-09-25T14:19:16Z'
-    description: >-
-      Endpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and
-      independent verification.
+    created_at: "2026-09-19T13:36:38Z"
+    pushed_at: "2026-09-25T14:19:16Z"
+    description: Endpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and independent verification.
     homepage: https://402signal.com
     topics: []
-    last_checked_at: '2026-09-29T13:08:17.611Z'
+    last_checked_at: "2026-09-29T13:08:17.611Z"
     readme:
-      fetched_at: '2026-09-29T13:08:17.611Z'
+      fetched_at: "2026-09-29T13:08:17.611Z"
       bytes: 6233
 insights:
-  summary: >-
-    Endpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and
-    independent verification.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: 402signal provides endpoint selection, buyer protection, and verifiable records for AI payments with public clients, adapters, and independent verification.
+  why_it_matters: It addresses payment reliability and trust in AI agent transactions, a growing concern as agents autonomously procure services.
+  mental_damage: Finally, a way to feel paranoid about whether your AI agent got scammed on the open market.
+  tags:
+    - ai-payments
+    - verification
+    - mcp
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
+  reason: The project identifies as an MCP server for AI payments, with MCP as its core identity rather than a compatibility feature, placing it clearly in the MCP ecosystem.
   evidence:
-    - jev-latest choice confidence 0.87
-    - jev winnow:e4b 0.44 below gate 0.50; proposed mcp / Finance, Crypto & DeFi; placement kept at mcp (unverified)
+    - "Repo description: 'Endpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and independent verification.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
+    - "Homepage: https://402signal.com presents it as a dedicated MCP server for AI payments"
 placement:
   primary_category: mcp
   secondary_categories:
@@ -69,15 +66,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:17.611Z'
+    updated_at: "2026-09-29T13:08:17.611Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:51.136Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c6d7195202767b9c9ed03dfc11aaa096a0610f072d1eff9aa7f3d03526077d8b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project identifies as an MCP server for AI payments, with MCP as its core identity rather than a compatibility feature, placing it clearly in the MCP ecosystem.
+      decision_evidence:
+        - "Repo description: 'Endpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and independent verification.'"
+        - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
+        - "Homepage: https://402signal.com presents it as a dedicated MCP server for AI payments"
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product's identity is an MCP server for payments, not a platform coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

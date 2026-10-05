@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__allenai__olmocr__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: olmOCR
         extracted_url: https://github.com/allenai/olmocr
-        surrounding_text: >-
-          32. [olmOCR](https://github.com/allenai/olmocr): A toolkit for training language models to work with PDF
-          documents in the wild.
+        surrounding_text: "32. [olmOCR](https://github.com/allenai/olmocr): A toolkit for training language models to work with PDF documents in the wild."
         confidence: high
 metadata:
   github:
@@ -31,23 +29,19 @@ metadata:
     archived: false
     full_name: allenai/olmocr
     html_url: https://github.com/allenai/olmocr
-    created_at: '2024-09-17T14:53:40Z'
-    pushed_at: '2026-03-25T17:52:37Z'
+    created_at: "2024-09-17T14:53:40Z"
+    pushed_at: "2026-03-25T17:52:37Z"
     description: Toolkit for linearizing PDFs for LLM datasets/training
     homepage: null
     topics: []
-    last_checked_at: '2026-09-17T04:13:41.824Z'
+    last_checked_at: "2026-09-17T04:13:41.824Z"
     readme:
-      fetched_at: '2026-09-17T04:13:41.824Z'
+      fetched_at: "2026-09-17T04:13:41.824Z"
       bytes: 22320
 insights:
   summary: Toolkit for linearizing PDFs for LLM datasets and training.
-  why_it_matters: >-
-    Developers working with PDF-heavy datasets can use this to preprocess documents into a format more suitable for LLM
-    training or fine-tuning.
-  mental_damage: >-
-    Because nothing says 'modern AI workflow' like spending hours wrestling with PDFs to make them palatable to a model
-    that will forget them anyway.
+  why_it_matters: Developers working with PDF-heavy datasets can use this to preprocess documents into a format more suitable for LLM training or fine-tuning.
+  mental_damage: Because nothing says 'modern AI workflow' like spending hours wrestling with PDFs to make them palatable to a model that will forget them anyway.
   tags:
     - pdf-processing
     - dataset-prep
@@ -56,9 +50,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is focused on PDF linearization for dataset preparation, which is data infrastructure rather than
-    developer-tooling for coding workflows.
+  reason: The tool is focused on PDF linearization for dataset preparation, which is data infrastructure rather than developer-tooling for coding workflows.
   evidence:
     - Repo description explicitly states it is a toolkit for linearizing PDFs for LLM datasets/training
     - Source-list context places it under '数据 Data' (data) section, not developer tools
@@ -72,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.601Z'
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:41.824Z'
+    updated_at: "2026-09-17T04:13:41.824Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -97,9 +89,7 @@ processing:
       input_hash: sha256:0945e8583f02ce6aeeecabde6c740b1651638086992b5a7393578433e6cc4bab
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is focused on PDF linearization for dataset preparation, which is data infrastructure rather than
-        developer-tooling for coding workflows.
+      decision_reason: The tool is focused on PDF linearization for dataset preparation, which is data infrastructure rather than developer-tooling for coding workflows.
       decision_evidence:
         - Repo description explicitly states it is a toolkit for linearizing PDFs for LLM datasets/training
         - Source-list context places it under '数据 Data' (data) section, not developer tools

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hyperbrowser__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: Hyperbrowser
         extracted_url: https://hyperbrowser.ai
-        surrounding_text: >-
-          - **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is
-          the next-generation platform empowering AI agents and enabling effortless, scalable browser automation.
+        surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
         confidence: high
     - id: discovery__www__hyperbrowser__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: Hyperbrowser
         extracted_url: https://www.hyperbrowser.ai
-        surrounding_text: >-
-          - **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is
-          the next-generation platform empowering AI agents and enabling effortless, scalable browser automation.
+        surrounding_text: "- **[Hyperbrowser](https://github.com/hyperbrowserai/mcp)** - [Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation."
         confidence: high
 metadata:
   github:
@@ -55,69 +51,60 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hyperbrowser is a cloud browser service designed for AI agents to interact with web content.
-  why_it_matters: >-
-    It gives AI agents a reliable, scalable way to browse, scrape, and automate web interactions without managing local
-    browser infrastructure.
-  mental_damage: >-
-    Yet another layer of abstraction between your agent and the web, promising seamless browsing while quietly adding
-    latency, cost, and yet another API key to rotate.
+  summary: Hyperbrowser is a cloud browser infrastructure service enabling AI agents to automate web interactions.
+  why_it_matters: It provides developers with scalable, headless browser capabilities for AI-driven web automation, testing, and data extraction.
+  mental_damage: Another layer of abstraction for making AI click buttons — welcome to the web-flavored ouroboros of agent tooling.
   tags:
-    - browser
-    - automation
-    - mcp
+    - browser-automation
+    - cloud-infrastructure
     - ai-agents
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Browser & Web Automation
+  reason: Hyperbrowser is included because its primary identity is as an MCP server that exposes browser automation capabilities, matching the MCP ecosystem's focus on protocol-first tooling.
   evidence:
-    - jev-latest choice confidence 0.54
+    - Listed in awesome-mcp-servers under 'Official Servers' with the purpose 'Cloud browsers for AI agents & Apps'
+    - Scraped site context identifies it as 'Web Infra for AI Agents' with description 'Cloud browsers for AI agents & Apps'
+    - No evidence suggests it is a general AI tool, framework, or agent — its value is protocol-aligned MCP server functionality
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Browser & Web Automation
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:57.975Z'
+    updated_at: "2026-10-05T04:48:30.896Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3b3696b04914e06102da80cb94d2447ae8255850d41d3a658eedccd35e12ad4b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bea448ca59bf81a8319d2b5b7b2c289c38c6d4df8916fb43089fa7f59970f903
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        Hyperbrowser's primary identity is as an MCP server that exposes cloud browsing capabilities to AI agents via
-        the Model Context Protocol, making it infrastructure rather than an agent or extension itself.
+      decision_reason: Hyperbrowser is included because its primary identity is as an MCP server that exposes browser automation capabilities, matching the MCP ecosystem's focus on protocol-first tooling.
       decision_evidence:
         - Listed in awesome-mcp-servers under 'Official Servers' with the purpose 'Cloud browsers for AI agents & Apps'
-        - >-
-          Scraped site title and description: 'Hyperbrowser - Web Infra for AI Agents' and 'Cloud browsers for AI agents
-          & Apps'
-        - >-
-          No evidence of being a coding agent, app builder, or extension; the product is positioned as infrastructure
-          for agents to use
+        - Scraped site context identifies it as 'Web Infra for AI Agents' with description 'Cloud browsers for AI agents & Apps'
+        - No evidence suggests it is a general AI tool, framework, or agent — its value is protocol-aligned MCP server functionality
       category_candidates:
         - mcp
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because Hyperbrowser's core identity is providing MCP-accessible cloud
-        browsing infrastructure, not augmenting a specific coding agent or editor with additional features.
-      review_reason: null
-      review_resume_lifecycle: null
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because Hyperbrowser's identity is as an MCP server exposing browser tools, not as an extension that augments another agent or editor.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

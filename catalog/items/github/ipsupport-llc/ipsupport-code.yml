@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ipsupport-llc__ipsupport-code__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,7 @@ provenance:
           - Open Source
         anchor_text: ipsupport-code
         extracted_url: https://github.com/ipsupport-llc/ipsupport-code
-        surrounding_text: >-
-          - **[ipsupport-code](https://github.com/ipsupport-llc/ipsupport-code)** `⭐ 4` — Go terminal coding agent built
-          for LM Studio and other OpenAI-compatible endpoints, single static binary; a small fat-tool schema tuned for
-          weak local models, opt-in OS-level sandboxing (Seatbelt on macOS, Landlock on Linux) for its shell tool, and a
-          reflect step after each task that writes new lessons to disk. MIT.
+        surrounding_text: "- **[ipsupport-code](https://github.com/ipsupport-llc/ipsupport-code)** `⭐ 4` — Go terminal coding agent built for LM Studio and other OpenAI-compatible endpoints, single static binary; a small fat-tool schema tuned for weak local models, opt-in OS-level sandboxing (Seatbelt on macOS, Landlock on Linux) for its shell tool, and a reflect step after each task that writes new lessons to disk. MIT."
         confidence: high
 metadata:
   github:
@@ -42,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Go terminal coding agent built for LM Studio and other OpenAI-compatible endpoints, single static binary; a small
-    fat-tool schema tuned for weak local models, opt-in OS-level sandboxing (Seatbelt on macOS, Landlock on Linux) for
-    its shell tool, and a reflect step after each task that writes new lessons to disk. MIT.
+  summary: Go terminal coding agent built for LM Studio and other OpenAI-compatible endpoints, single static binary; a small fat-tool schema tuned for weak local models, opt-in OS-level sandboxing (Seatbelt on macOS, Landlock on Linux) for its shell tool, and a reflect step after each task that writes new lessons to disk. MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

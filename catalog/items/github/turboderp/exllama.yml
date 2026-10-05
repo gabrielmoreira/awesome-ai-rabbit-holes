@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__turboderp__exllama__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -19,10 +19,7 @@ provenance:
           - Inference Engine
         anchor_text: ExLlama
         extracted_url: https://github.com/turboderp/exllama
-        surrounding_text: >-
-          | [ExLlama](https://github.com/turboderp/exllama)                 | - A more memory-efficient rewrite of the
-          HF transformers implementation of Llama     | AutoGPTQ/GPTQ           | GPU             | ✅  | Python/C++  |
-          Text-Gen      |
+        surrounding_text: "| [ExLlama](https://github.com/turboderp/exllama)                 | - A more memory-efficient rewrite of the HF transformers implementation of Llama     | AutoGPTQ/GPTQ           | GPU             | ✅  | Python/C++  | Text-Gen      |"
         confidence: high
 metadata:
   github:
@@ -32,25 +29,19 @@ metadata:
     archived: false
     full_name: turboderp/exllama
     html_url: https://github.com/turboderp/exllama
-    created_at: '2023-05-04T23:10:58Z'
-    pushed_at: '2023-09-30T19:06:04Z'
+    created_at: "2023-05-04T23:10:58Z"
+    pushed_at: "2023-09-30T19:06:04Z"
     description: A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights.
     homepage: null
     topics: []
-    last_checked_at: '2026-07-21T15:20:57.187Z'
+    last_checked_at: "2026-07-21T15:20:57.187Z"
     readme:
-      fetched_at: '2026-07-21T15:20:57.187Z'
+      fetched_at: "2026-07-21T15:20:57.187Z"
       bytes: 9288
 insights:
-  summary: >-
-    ExLlama is a memory-efficient CUDA-based implementation of Llama for running 4-bit quantized weights on modern
-    NVIDIA GPUs.
-  why_it_matters: >-
-    It enables developers to run large language models locally with lower VRAM usage, making on-device inference more
-    accessible.
-  mental_damage: >-
-    The quiet relief of fitting a 7B model in 12GB VRAM, followed by the dread of realizing you still need to fine-tune
-    it.
+  summary: ExLlama is a memory-efficient CUDA-based implementation of Llama for running 4-bit quantized weights on modern NVIDIA GPUs.
+  why_it_matters: It enables developers to run large language models locally with lower VRAM usage, making on-device inference more accessible.
+  mental_damage: The quiet relief of fitting a 7B model in 12GB VRAM, followed by the dread of realizing you still need to fine-tune it.
   tags:
     - local-ai
     - inference
@@ -72,17 +63,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.653Z'
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:20:57.187Z'
+    updated_at: "2026-07-21T15:20:57.187Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abdelstark__heist-one__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: heist-one
         extracted_url: https://github.com/abdelstark/heist-one
-        surrounding_text: >-
-          - [heist-one](https://github.com/AbdelStark/heist-one) - Observable browser stealth game: Jev makes typed
-          guard judgments while deterministic code owns the world.
+        surrounding_text: "- [heist-one](https://github.com/AbdelStark/heist-one) - Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world."
         confidence: high
     - id: discovery__github__abdelstark__heist-one__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Games & simulations (73)
         anchor_text: heist-one
         extracted_url: https://github.com/abdelstark/heist-one
-        surrounding_text: >-
-          | [heist-one](https://github.com/AbdelStark/heist-one) | ★ 6 | TypeScript | 2026-09-19 | Observable browser
-          stealth game: Jev makes typed guard judgments while deterministic code owns the world. |
+        surrounding_text: "| [heist-one](https://github.com/AbdelStark/heist-one) | ★ 6 | TypeScript | 2026-09-19 | Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world. |"
         confidence: high
     - id: discovery__github__abdelstark__heist-one__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**heist-one**'
+        anchor_text: "**heist-one**"
         extracted_url: https://github.com/abdelstark/heist-one
-        surrounding_text: >-
-          - [**heist-one**](https://github.com/AbdelStark/heist-one) — Observable browser stealth game where Jev makes
-          typed guard judgments while deterministic code owns the physics world.
+        surrounding_text: "- [**heist-one**](https://github.com/AbdelStark/heist-one) — Observable browser stealth game where Jev makes typed guard judgments while deterministic code owns the physics world."
         confidence: high
     - id: discovery__github__abdelstark__heist-one__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -71,9 +65,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: heist-one
         extracted_url: https://github.com/abdelstark/heist-one
-        surrounding_text: >-
-          - [heist-one](https://github.com/AbdelStark/heist-one) - Browser stealth game where Jev judges guards while
-          deterministic code owns the world.
+        surrounding_text: "- [heist-one](https://github.com/AbdelStark/heist-one) - Browser stealth game where Jev judges guards while deterministic code owns the world."
         confidence: high
 metadata:
   github:
@@ -83,9 +75,9 @@ metadata:
     archived: false
     full_name: AbdelStark/heist-one
     html_url: https://github.com/AbdelStark/heist-one
-    created_at: '2026-09-17T07:29:14Z'
-    pushed_at: '2026-09-17T14:42:22Z'
-    description: 'Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world.'
+    created_at: "2026-09-17T07:29:14Z"
+    pushed_at: "2026-09-17T14:42:22Z"
+    description: "Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world."
     homepage: null
     topics:
       - ai-game
@@ -97,21 +89,28 @@ metadata:
       - system-one-models
       - typesafe
       - typescript
-    last_checked_at: '2026-09-29T13:08:23.165Z'
+    last_checked_at: "2026-09-29T13:08:23.165Z"
     readme:
-      fetched_at: '2026-09-29T13:08:23.165Z'
+      fetched_at: "2026-09-29T13:08:23.165Z"
       bytes: 9291
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A browser-based stealth game where typed judgments from a decision model drive gameplay while deterministic code controls the world.
+  why_it_matters: Demonstrates how decision models can be integrated into interactive applications, showing developers a concrete use case for typed probabilistic judgments in game logic.
+  mental_damage: Another reminder that we're now building games where the AI doesn't just play—it nervously second-guesses every guard patrol like a caffeine-fueled intern.
+  tags:
+    - game
+    - decision-model
+    - browser
+    - jev
+    - stealth
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is primarily a game demo showcasing a decision model, not a developer tool for coding, workflows, or AI-assisted development; its core value lies in interactive entertainment rather than aiding software creation.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Repo description: 'Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world.'"
+    - "Source-list context: Appears in awesome-jev under sections like 'Games, robotics, and interactive demos' and 'Games & simulations'."
+    - README excerpt and topics emphasize game mechanics (Phaser, stealth-game, remotion) and Jev integration, not developer workflows or coding assistance.
 placement:
   primary_category: null
   secondary_categories: []
@@ -122,15 +121,35 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.379Z'
+    updated_at: "2026-09-29T13:07:10.379Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:23.165Z'
+    updated_at: "2026-09-29T13:08:23.165Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:50.834Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:31591062c0261b996e75670a7c35ce3855bdbe4ca95c869a8069feebff2a478e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is primarily a game demo showcasing a decision model, not a developer tool for coding, workflows, or AI-assisted development; its core value lies in interactive entertainment rather than aiding software creation.
+      decision_evidence:
+        - "Repo description: 'Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world.'"
+        - "Source-list context: Appears in awesome-jev under sections like 'Games, robotics, and interactive demos' and 'Games & simulations'."
+        - README excerpt and topics emphasize game mechanics (Phaser, stealth-game, remotion) and Jev integration, not developer workflows or coding assistance.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

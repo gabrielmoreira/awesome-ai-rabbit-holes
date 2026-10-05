@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__windsurf__com__editor__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,25 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Windsurf Editor is an AI agent-powered IDE that combines a coding assistant (Cascade) and autonomous cloud agent
-    (Devin) to assist with code editing, generation, and task delegation.
-  why_it_matters: >-
-    It aims to keep developers in flow by integrating AI agents directly into the IDE to reduce context switching and
-    automate coding tasks.
-  mental_damage: >-
-    Another IDE that promises to make coding feel like magic, as if the real problem was ever a lack of enchantment in
-    our syntax highlighting.
+  summary: Windsurf Editor is an AI agent-powered IDE that combines deep codebase understanding, agentic features like Cascade and Devin, and flow-state optimizations for coding.
+  why_it_matters: It offers developers an integrated agentic coding experience that reduces context switching by embedding AI agents directly into the editor workflow.
+  mental_damage: Another IDE promising 'flow state' while quietly training models on your private codebases — because nothing says productivity like surrendering your IP for better autocomplete.
   tags:
     - ai-ide
+    - agentic-editor
     - coding-agent
-    - developer-tool
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
+  reason: Windsurf Editor is included as a coding agent because its primary identity is an AI agent that performs coding tasks autonomously (via Cascade, Devin, Tab) within an IDE environment, not merely as an extension to another agent.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Windsurf Editor is described as 'the first agentic IDE' where 'the work of developers and AI truly flow together'
+    - Cascade provides deep codebase understanding and real-time awareness of user actions
+    - Devin is an autonomous cloud agent built directly into Windsurf for delegating complex tasks like debugging and deployment
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,38 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:38.359Z'
+    updated_at: "2026-10-05T04:57:28.102Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ed66e7ca3417a5d1cf8e73adf45f374af042026de1ce7ba0751cc01095cb1f55
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:18be75870ea1effcd58839fbc583f03b32ee0f72aa28d68eb7d2b83334c6a3d6
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Windsurf Editor is a coding agent because its primary identity is performing coding tasks via its AI agents
-        (Cascade and Devin) that edit code, run commands, and manage workflows within an IDE environment, not merely
-        extending another agent.
+      decision_reason: Windsurf Editor is included as a coding agent because its primary identity is an AI agent that performs coding tasks autonomously (via Cascade, Devin, Tab) within an IDE environment, not merely as an extension to another agent.
       decision_evidence:
-        - >-
-          The Windsurf Editor is described as 'the first agentic IDE' where 'the work of developers and AI truly flow
-          together'
-        - >-
-          Cascade provides deep codebase understanding and real-time awareness to run on production codebases and give
-          relevant suggestions
-        - >-
-          Devin is an autonomous cloud agent built directly into Windsurf that delegates complex tasks like debugging,
-          testing, and deployment
+        - Windsurf Editor is described as 'the first agentic IDE' where 'the work of developers and AI truly flow together'
+        - Cascade provides deep codebase understanding and real-time awareness of user actions
+        - Devin is an autonomous cloud agent built directly into Windsurf for delegating complex tasks like debugging and deployment
       category_candidates:
         - coding-agents
-        - app-builders
-      contrastive_reason: >-
-        Choose coding-agents over app-builders because Windsurf Editor mainly assists developers in editing and managing
-        existing codebases rather than generating deployable apps from scratch via prompts.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Windsurf Editor is a standalone IDE with integrated AI agents as its core identity, not a plugin that extends another coding assistant or editor.
       review_reason: null
       review_resume_lifecycle: null

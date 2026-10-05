@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__genai__craft__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://genai-craft.com
-        surrounding_text: >-
-          - [openvons](https://github.com/genai-craft/openvons) ([site](https://genai-craft.com)) - Openvons (open-Jev):
-          有限選択肢に確率で答える判断層 — テキスト / 画像 / 日本語音声コマンド.
+        surrounding_text: "- [openvons](https://github.com/genai-craft/openvons) ([site](https://genai-craft.com)) - Openvons (open-Jev): 有限選択肢に確率で答える判断層 — テキスト / 画像 / 日本語音声コマンド."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'openvons (site) - Openvons (open-Jev): 有限選択肢に確率で答える判断層 — テキスト / 画像 / 日本語音声コマンド.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GenAI Craft is a Japanese indie workshop building and publishing self-made AI gadgets, apps, and local LLMs such as the '言箱' (AI PC) and FeelDance video app.
+  why_it_matters: It demonstrates end-to-end local AI product development—from hardware to app store—offering a reference for developers integrating on-device models into real-world tools.
+  mental_damage: Another developer realizing they could’ve spent the weekend fine-tuning a dance anime model instead of yet another React form.
+  tags:
+    - local-ai
+    - app-builders
+    - ai-gadgets
+    - japanese-indie
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: The project is a personal portfolio of AI gadgets and apps, not a reusable developer tool, framework, or infrastructure piece with clear workflow integration for software engineers.
   evidence:
-    - jev-latest choice confidence 0.68
+    - Scraped site describes GenAI Craft as an individual's workshop publishing self-made apps like FeelDance, MojiDance, and the '言箱' AI PC
+    - Source-list placement in awesome-jev is under 'Benchmarks & research' as a project built on Jev, not as a tool for developers
+    - No evidence of SDKs, APIs, frameworks, or reusable tooling; outputs are end-user apps and hardware prototypes
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:54.340Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c30d447bb128f54c60d53f95976716e351c728038a93dd8c23f6ddbdb20444cd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a personal portfolio of AI gadgets and apps, not a reusable developer tool, framework, or infrastructure piece with clear workflow integration for software engineers.
+      decision_evidence:
+        - Scraped site describes GenAI Craft as an individual's workshop publishing self-made apps like FeelDance, MojiDance, and the '言箱' AI PC
+        - Source-list placement in awesome-jev is under 'Benchmarks & research' as a project built on Jev, not as a tool for developers
+        - No evidence of SDKs, APIs, frameworks, or reusable tooling; outputs are end-user apps and hardware prototypes
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

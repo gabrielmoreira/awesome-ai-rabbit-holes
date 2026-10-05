@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rajivkuriakose__typesafe-jev-examples__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: typesafe-jev-examples
         extracted_url: https://github.com/rajivkuriakose/typesafe-jev-examples
-        surrounding_text: >-
-          | [typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples) | ★ 0 | Python | 2026-09-19
-          | Worked ticket-triage and reranking examples for Jev, runnable through OpenRouter with sample data and a
-          Makefile. |
+        surrounding_text: "| [typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples) | ★ 0 | Python | 2026-09-19 | Worked ticket-triage and reranking examples for Jev, runnable through OpenRouter with sample data and a Makefile. |"
         confidence: high
     - id: discovery__github__rajivkuriakose__typesafe-jev-examples__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,14 +33,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**typesafe-jev-examples**'
+        anchor_text: "**typesafe-jev-examples**"
         extracted_url: https://github.com/rajivkuriakose/typesafe-jev-examples
-        surrounding_text: >-
-          - [**typesafe-jev-examples**](https://github.com/rajivkuriakose/typesafe-jev-examples) — Worked examples for
-          TypeSafe's Jev System One decision model, runnable today through OpenRouter
+        surrounding_text: "- [**typesafe-jev-examples**](https://github.com/rajivkuriakose/typesafe-jev-examples) — Worked examples for TypeSafe's Jev System One decision model, runnable today through OpenRouter"
         confidence: high
     - id: discovery__github__rajivkuriakose__typesafe-jev-examples__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,11 +51,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: typesafe-jev-examples
         extracted_url: https://github.com/rajivkuriakose/typesafe-jev-examples
-        surrounding_text: >-
-          - [typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples)
-          ![stars](https://img.shields.io/github/stars/rajivkuriakose/typesafe-jev-examples?style=flat-square&label=%E2%98%85)
-          - Starter examples: worked ticket-triage and reranking examples runnable through OpenRouter without an
-          early-access key, shipped with their own sample data and Makefile.
+        surrounding_text: "- [typesafe-jev-examples](https://github.com/rajivkuriakose/typesafe-jev-examples) ![stars](https://img.shields.io/github/stars/rajivkuriakose/typesafe-jev-examples?style=flat-square&label=%E2%98%85) - Starter examples: worked ticket-triage and reranking examples runnable through OpenRouter without an early-access key, shipped with their own sample data and Makefile."
         confidence: high
 metadata:
   github:
@@ -98,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.403Z'
+    updated_at: "2026-09-29T13:07:10.403Z"
     cause: null
     next_retry_at: null
   stars:
@@ -106,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

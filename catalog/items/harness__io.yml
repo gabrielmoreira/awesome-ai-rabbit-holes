@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__harness__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Harness
         extracted_url: https://harness.io
-        surrounding_text: '- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks.'
+        surrounding_text: "- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks."
         confidence: high
     - id: discovery__www__harness__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Harness
         extracted_url: https://harness.io
-        surrounding_text: '- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks.'
+        surrounding_text: "- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks."
         confidence: high
 metadata:
   github:
@@ -51,26 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Harness is a unified AI-powered software delivery platform that automates the SDLC using specialized AI agents for
-    code delivery, security, runtime protection, and cost management.
-  why_it_matters: >-
-    It lets developers ship code faster by replacing manual pipeline scripts with AI agents that reason through build,
-    test, deploy, and security workflows end-to-end.
-  mental_damage: >-
-    Finally, an AI that doesn’t just write code but also manages the YAML hell that comes after — because even machines
-    hate maintaining ArgoCD.
+  summary: Harness is a unified AI software delivery platform that manages the SDLC using purpose-built AI agents for code deployment, security testing, runtime protection, and cost management.
+  why_it_matters: It automates end-to-end software delivery with AI agents that handle deployment, testing, security, and cost optimization across enterprise pipelines.
+  mental_damage: Watching AI agents reason through canary deployments while your team still argues over PR review standards feels like outsourcing adulthood to overachieving interns.
   tags:
-    - ai-sdlc
-    - devops
     - ai-agents
-    - platform
+    - devops
+    - sdtlc
+    - automation
+    - enterprise
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Domain & Enterprise Platforms
+  reason: Harness coordinates multiple specialized AI agents (software delivery, security testing, runtime protection, cost management) across the SDLC as a unified enterprise control plane, making it an agent orchestration platform rather than a single coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.65
+    - Harness is a unified AI software delivery platform to manage the SDLC using purpose-built AI agents
+    - Platform includes Software Delivery Agent, Security Testing Agent, Runtime Protection Agent, and Cost Management Agent operating across pipelines
+    - Agents reason through pipeline steps, review PRs, select tests, verify canary deployments, and manage AI/cloud spend autonomously
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -81,45 +78,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:38.991Z'
+    updated_at: "2026-10-05T04:48:15.148Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bdf79599bb665db7757c021851259146641fa8805f7b03ff2e18918810e41077
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1fa2cadbd4f6c72e1147bd989e7f2dc41697eb066e8a2ba1d3798a5e09176c9e
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        Harness is a platform that coordinates multiple specialized AI agents (Software Delivery, Security Testing,
-        Runtime Protection, Cost Management) across the software delivery lifecycle, making it an agent orchestration
-        platform rather than a single coding agent or app builder.
+      decision_reason: Harness coordinates multiple specialized AI agents (software delivery, security testing, runtime protection, cost management) across the SDLC as a unified enterprise control plane, making it an agent orchestration platform rather than a single coding agent or extension.
       decision_evidence:
-        - >-
-          Source-list context: listed in awesome-ai-coding-tools under DevOps and Infrastructure as a 'unified AI
-          software delivery platform to manage the SDLC using purpose-built AI agents'
-        - >-
-          README/scraped site: describes multiple AI agents (Software Delivery Agent, Security Testing Agent, Runtime
-          Protection Agent, Cost Management Agent) that operate across commits, builds, deployments, and runtime
-        - >-
-          Product positioning: 'AI for everything after code' and 'Autonomous SDLC Platform' emphasizes coordination of
-          agents across workflows, not direct code editing or app generation
+        - Harness is a unified AI software delivery platform to manage the SDLC using purpose-built AI agents
+        - Platform includes Software Delivery Agent, Security Testing Agent, Runtime Protection Agent, and Cost Management Agent operating across pipelines
+        - Agents reason through pipeline steps, review PRs, select tests, verify canary deployments, and manage AI/cloud spend autonomously
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because Harness primarily coordinates multiple AI agents across
-        SDLC workflows rather than acting as a primary coding assistant that writes, edits, or reviews code directly in
-        a repo.
+      contrastive_reason: Choose agent-orchestration over coding-agents because Harness coordinates multiple specialized AI agents across the full SDLC as a unified platform rather than acting as a primary coding assistant that writes or edits code directly.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause: null
     next_retry_at: null
   stars:

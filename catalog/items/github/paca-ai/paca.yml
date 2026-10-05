@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paca-ai__paca__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Applications (129)
         anchor_text: Paca
         extracted_url: https://github.com/paca-ai/paca
-        surrounding_text: >-
-          | [Paca](https://github.com/Paca-AI/paca) | ★ 1,850 | Go | 2026-09-25 | Project management app using Jev for
-          agent routing, task fields, assignee selection, and automation conditions. |
+        surrounding_text: "| [Paca](https://github.com/Paca-AI/paca) | ★ 1,850 | Go | 2026-09-25 | Project management app using Jev for agent routing, task fields, assignee selection, and automation conditions. |"
         confidence: high
     - id: discovery__github__paca-ai__paca__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,14 +36,7 @@ provenance:
           - Classification & Routing
         anchor_text: Paca
         extracted_url: https://github.com/paca-ai/paca
-        surrounding_text: >-
-          - [Paca](https://github.com/Paca-AI/paca) ![type:
-          self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/Paca-AI/paca?style=flat-square&label=%E2%98%85) - Project
-          management: self-hosted open-source Jira alternative that auto-assigns tasks with a Jev `Choice` over member
-          descriptions, fills blank task fields with `Choice` and `Score` questions, and routes automation workflows on
-          a `Choice`/`Score`/`Noul` condition node, applying answers only at 0.6 confidence or above and otherwise
-          leaving the task unassigned or taking the Else branch.
+        surrounding_text: "- [Paca](https://github.com/Paca-AI/paca) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Paca-AI/paca?style=flat-square&label=%E2%98%85) - Project management: self-hosted open-source Jira alternative that auto-assigns tasks with a Jev `Choice` over member descriptions, fills blank task fields with `Choice` and `Score` questions, and routes automation workflows on a `Choice`/`Score`/`Noul` condition node, applying answers only at 0.6 confidence or above and otherwise leaving the task unassigned or taking the Else branch."
         confidence: high
 metadata:
   github:
@@ -83,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.422Z'
+    updated_at: "2026-09-29T13:07:10.422Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

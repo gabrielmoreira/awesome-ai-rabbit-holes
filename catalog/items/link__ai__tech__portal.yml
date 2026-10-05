@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__link__ai__tech__portal__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,7 +18,7 @@ provenance:
           - 智能体 Agents
         anchor_text: LinkAI
         extracted_url: https://link-ai.tech/portal
-        surrounding_text: '9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台'
+        surrounding_text: "9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台"
         confidence: high
 metadata:
   github:
@@ -36,35 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LinkAI is an enterprise AI agent platform offering multimodal model integration, RAG knowledge bases, workflow
-    automation, and cross-channel deployment for business applications.
-  why_it_matters: >-
-    It enables developers to build and deploy AI agents with private knowledge and complex task execution capabilities
-    via zero-code integration into enterprise communication tools.
-  mental_damage: >-
-    Another 'one-stop AI platform' promising enterprise agility while locking teams into proprietary workflows and
-    channel-specific vendor dependencies.
+  summary: LinkAI is an enterprise AI agent platform offering multimodal models, RAG, workflows, and multi-channel deployment for building and managing AI agents.
+  why_it_matters: Provides developers a zero-code way to compose and deploy agent applications across IM and enterprise platforms using integrated tools and models.
+  mental_damage: Another 'one-stop AI platform' that promises to replace your entire stack while quietly locking you into its proprietary workflows.
   tags:
-    - ai-agents
-    - enterprise-ai
-    - workflow-automation
+    - ai-agent
+    - enterprise-platform
+    - workflow-builder
+    - rag
+    - mcp
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    LinkAI is an end-user enterprise platform for deploying AI agents in business contexts like customer service and
-    internal operations, not a developer-facing tool for coding, agent building, or workflow engineering.
+  reason: The product is an enterprise SaaS platform focused on business process automation and multi-agent deployment rather than a developer-facing coding tool or agent; its core value is in no-code workflow assembly and channel integration, not coding assistance or agent development.
   evidence:
-    - >-
-      Source-list description emphasizes enterprise use cases:智能客服, 私域运营, 企业效率助手, and industry solutions in消费, 健康, 文教,
-      科技制造.
-    - >-
-      Scraped site highlights zero-code接入 for websites, 企业微信, 公众号, 钉钉, 飞书等应用渠道, targeting business users over developer
-      tooling.
-    - >-
-      Open-source projects listed (bot-on-anything, CowAgent, AgentMesh, LinkAI CLI) are integrations or agents built
-      *on* the platform, not the platform itself as a dev tool.
+    - LinkAI is described as an 'enterprise-level one-stop AI agent platform' that aggregates multimodal models and provides RAG, workflows, and plugin capabilities
+    - It supports zero-code access to enterprise channels like WeCom, DingTalk, Feishu, and public accounts for use cases such as intelligent customer service and private domain operations
+    - The scraped site emphasizes business solutions (e.g., healthcare, manufacturing) and agent deployment over developer tooling, coding, or SDK usage
 placement:
   primary_category: null
   secondary_categories: []
@@ -75,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,32 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:06.121Z'
+    updated_at: "2026-10-05T04:37:14.920Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4945ff536b938d8c48dd5ef6566243a7af7b5e1ccd709d7ebfca5e719fe4ff11
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0b95b9537f06176e73b9947cc206f48eb85d0b8ae2d80531c555027da5bf8711
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        LinkAI is an end-user enterprise platform for deploying AI agents in business contexts like customer service and
-        internal operations, not a developer-facing tool for coding, agent building, or workflow engineering.
+      decision_reason: The product is an enterprise SaaS platform focused on business process automation and multi-agent deployment rather than a developer-facing coding tool or agent; its core value is in no-code workflow assembly and channel integration, not coding assistance or agent development.
       decision_evidence:
-        - >-
-          Source-list description emphasizes enterprise use cases:智能客服, 私域运营, 企业效率助手, and industry solutions in消费, 健康,
-          文教, 科技制造.
-        - >-
-          Scraped site highlights zero-code接入 for websites, 企业微信, 公众号, 钉钉, 飞书等应用渠道, targeting business users over
-          developer tooling.
-        - >-
-          Open-source projects listed (bot-on-anything, CowAgent, AgentMesh, LinkAI CLI) are integrations or agents
-          built *on* the platform, not the platform itself as a dev tool.
+        - LinkAI is described as an 'enterprise-level one-stop AI agent platform' that aggregates multimodal models and provides RAG, workflows, and plugin capabilities
+        - It supports zero-code access to enterprise channels like WeCom, DingTalk, Feishu, and public accounts for use cases such as intelligent customer service and private domain operations
+        - The scraped site emphasizes business solutions (e.g., healthcare, manufacturing) and agent deployment over developer tooling, coding, or SDK usage
       category_candidates: []
       contrastive_reason: null
       review_reason: null

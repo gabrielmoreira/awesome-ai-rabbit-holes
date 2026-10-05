@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: GitHub
         extracted_url: https://www.github.com
-        surrounding_text: >-
-          - [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic
-          remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation
+        surrounding_text: "- [idosal/git-mcp](https://github.com/idosal/git-mcp) 📇 ☁️ - [gitmcp.io](https://gitmcp.io/) is a generic remote MCP server to connect to ANY [GitHub](https://www.github.com) repository or project for documentation"
         confidence: high
 metadata:
   github:
@@ -39,24 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The global developer platform for version control, collaboration, and automated workflows.
-  why_it_matters: It serves as the foundational infrastructure and host for much of the AI tooling and agent ecosystem.
-  mental_damage: Trying to catalog the platform that hosts the tools is like trying to catalog the ocean while you're drowning in it.
+  summary: GitHub is a developer platform providing AI-powered tools like Copilot, Actions, Codespaces, and security features for software development workflows.
+  why_it_matters: It integrates AI assistance directly into code hosting, collaboration, and DevOps to accelerate software delivery at scale.
+  mental_damage: Yet another reminder that your IDE now has a Copilot, your PRs have AI reviewers, and your CI pipeline dreams in prompts.
   tags:
-    - platform
+    - ai-integrations
+    - developer-platform
     - devops
-    - collaboration
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI
-    tool or agent itself.
+  reason: GitHub is a broad developer platform whose AI features are integrated services rather than a standalone AI developer tool fitting a specific catalog category.
   evidence:
-    - >-
-      Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions, Codespaces,
-      and Copilot.
-    - The product identity is a broad host environment rather than a specialized AI-driven utility or agent.
+    - Repo description is missing; scraped site emphasizes GitHub as an AI-powered developer platform with Copilot, Actions, Codespaces, and security tools.
+    - Primary identity is code hosting and collaboration, with AI as one of many platform capabilities (e.g., Copilot for code, Actions for automation).
+    - No evidence of GitHub being primarily a coding agent, framework, app builder, or other focused AI developer tool; it is a general platform with AI additives.
 placement:
   primary_category: null
   section: null
@@ -66,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -79,27 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:16:02.058Z'
+    updated_at: "2026-10-05T04:32:53.558Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3e5b796bea4e998317609b11d6847d0dd8b62ee6987b292f516740bdadf4fceb
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4f1ccee62f83e87808705e2212340690cf52f8cc80bd2c89b87f4c9aca9df5d9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        GitHub is a massive, foundational developer platform that hosts various AI tools rather than being a specific AI
-        tool or agent itself.
+      decision_reason: GitHub is a broad developer platform whose AI features are integrated services rather than a standalone AI developer tool fitting a specific catalog category.
       decision_evidence:
-        - >-
-          Scraped context identifies GitHub as a 'developer platform' containing diverse features like Actions,
-          Codespaces, and Copilot.
-        - The product identity is a broad host environment rather than a specialized AI-driven utility or agent.
+        - Repo description is missing; scraped site emphasizes GitHub as an AI-powered developer platform with Copilot, Actions, Codespaces, and security tools.
+        - Primary identity is code hosting and collaboration, with AI as one of many platform capabilities (e.g., Copilot for code, Actions for automation).
+        - No evidence of GitHub being primarily a coding agent, framework, app builder, or other focused AI developer tool; it is a general platform with AI additives.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

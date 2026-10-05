@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__455-diao__jev-codex-router-skill__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-codex-router-skill
         extracted_url: https://github.com/455-diao/jev-codex-router-skill
-        surrounding_text: >-
-          - [jev-codex-router-skill](https://github.com/455-dIAO/jev-codex-router-skill) - Portable Codex Skill for Jev
-          model and reasoning-effort routing, with safe installation and Chinese usage guides.
+        surrounding_text: "- [jev-codex-router-skill](https://github.com/455-dIAO/jev-codex-router-skill) - Portable Codex Skill for Jev model and reasoning-effort routing, with safe installation and Chinese usage guides."
         confidence: high
     - id: discovery__github__455-diao__jev-codex-router-skill__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Decision Tools
-        anchor_text: '**jev-codex-router-skill**'
+        anchor_text: "**jev-codex-router-skill**"
         extracted_url: https://github.com/455-diao/jev-codex-router-skill
-        surrounding_text: >-
-          - [**jev-codex-router-skill**](https://github.com/455-dIAO/jev-codex-router-skill) — Portable Codex Skill for
-          Jev model and reasoning-effort routing, with safe installation and Chinese usage guides
+        surrounding_text: "- [**jev-codex-router-skill**](https://github.com/455-dIAO/jev-codex-router-skill) — Portable Codex Skill for Jev model and reasoning-effort routing, with safe installation and Chinese usage guides"
         confidence: high
 metadata:
   github:
@@ -48,49 +44,75 @@ metadata:
     archived: false
     full_name: 455-dIAO/jev-codex-router-skill
     html_url: https://github.com/455-dIAO/jev-codex-router-skill
-    created_at: '2026-09-22T03:07:27Z'
-    pushed_at: '2026-09-22T07:10:35Z'
+    created_at: "2026-09-22T03:07:27Z"
+    pushed_at: "2026-09-22T07:10:35Z"
     description: Portable Codex Skill for Jev model and reasoning-effort routing, with safe installation and Chinese usage guides
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:17.659Z'
+    last_checked_at: "2026-09-29T13:08:17.659Z"
     readme:
-      fetched_at: '2026-09-29T13:08:17.659Z'
+      fetched_at: "2026-09-29T13:08:17.659Z"
       bytes: 9270
 insights:
-  summary: Portable Codex Skill for Jev model and reasoning-effort routing, with safe installation and Chinese usage guides
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A portable Codex skill for Jev model and reasoning-effort routing with Chinese usage guides.
+  why_it_matters: It lets Jev-based models route reasoning effort through Codex-like skills, useful for developers experimenting with decision-model-driven coding agents.
+  mental_damage: Another skill pack promising to unlock Jev’s potential, as if the bottleneck wasn’t the model itself but the YAML file you forgot to reload.
+  tags:
+    - jev
+    - codex
+    - skill
+    - routing
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.73
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
     - skills
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'skills'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:17.659Z'
+    updated_at: "2026-09-29T13:08:17.659Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:53.755Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:97728efb7940ca9e8dc3c1344575585d6236d4903e875d0b421a3e0b2ebde14a
+      proposed_primary_category: skills
+      disagreement: true
+      decision_reason: This is a reusable skill pack that installs into a coding agent (Codex) to extend its behavior with Jev-based routing, matching the core definition of agent skills.
+      decision_evidence:
+        - "Repo description: 'Portable Codex Skill for Jev model and reasoning-effort routing'"
+        - "Seen in source list: awesome-jev under 'Agent tooling' section"
+        - Primary artifact is a skill pack, not a standalone agent or framework
+      category_candidates:
+        - skills
+        - decision-models
+      contrastive_reason: Choose skills over decision-models because the product is a portable skill pack for extending agent behavior, not a decision model, gateway, or routing tool whose core identity is the judgment itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'skills'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

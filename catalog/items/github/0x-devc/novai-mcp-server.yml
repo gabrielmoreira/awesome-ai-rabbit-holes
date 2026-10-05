@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0x-devc__novai-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 0x-devc/novai-mcp-server
         extracted_url: https://github.com/0x-devc/novai-mcp-server
-        surrounding_text: >-
-          - [0x-devc/novai-mcp-server](https://github.com/0x-devc/novai-mcp-server) [![0x-devc/novai-mcp-server MCP
-          server](https://glama.ai/mcp/servers/0x-devc/novai-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0x-devc/novai-mcp-server)
-          📇 ☁️ - Read-only access to the live NOVAI blockchain (AI-native L1). Query blocks, transactions, AI entities,
-          on-chain signals, oracle anchors, and memory objects over public JSON-RPC. No keys, no write paths.
+        surrounding_text: "- [0x-devc/novai-mcp-server](https://github.com/0x-devc/novai-mcp-server) [![0x-devc/novai-mcp-server MCP server](https://glama.ai/mcp/servers/0x-devc/novai-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/0x-devc/novai-mcp-server) 📇 ☁️ - Read-only access to the live NOVAI blockchain (AI-native L1). Query blocks, transactions, AI entities, on-chain signals, oracle anchors, and memory objects over public JSON-RPC. No keys, no write paths."
         confidence: high
 metadata:
   github:
@@ -34,25 +30,19 @@ metadata:
     archived: false
     full_name: 0x-devc/novai-mcp-server
     html_url: https://github.com/0x-devc/novai-mcp-server
-    created_at: '2026-06-16T16:17:25Z'
-    pushed_at: '2026-06-17T16:54:12Z'
+    created_at: "2026-06-16T16:17:25Z"
+    pushed_at: "2026-06-17T16:54:12Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-28T04:13:55.458Z'
+    last_checked_at: "2026-09-28T04:13:55.458Z"
     readme:
-      fetched_at: '2026-09-28T04:13:55.458Z'
+      fetched_at: "2026-09-28T04:13:55.458Z"
       bytes: 3887
 insights:
-  summary: >-
-    A read-only Model Context Protocol (MCP) server that allows AI agents to query the NOVAI blockchain via its public
-    JSON-RPC endpoint.
-  why_it_matters: >-
-    It enables agents to interact with blockchain data like transactions, balances, and entity records through
-    standardized MCP tools without requiring custom SDK integration.
-  mental_damage: >-
-    Because we've officially reached the point where agents need a standardized protocol just to check a blockchain
-    balance.
+  summary: A read-only Model Context Protocol (MCP) server that allows AI agents to query the NOVAI blockchain via its public JSON-RPC endpoint.
+  why_it_matters: It enables agents to interact with blockchain data like transactions, balances, and entity records through standardized MCP tools without requiring custom SDK integration.
+  mental_damage: Because we've officially reached the point where agents need a standardized protocol just to check a blockchain balance.
   tags:
     - mcp
     - blockchain
@@ -75,18 +65,22 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.455Z'
+    updated_at: "2026-06-22T05:53:30.455Z"
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: '2026-09-28T04:13:55.458Z'
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T04:19:13.471Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 0x-devc/novai-mcp-server
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:18:01.321Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.817Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -105,8 +99,6 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the project's core identity is being an MCP server that exposes
-        tools, rather than a plugin for a specific host editor or agent.
+      contrastive_reason: Choose mcp over extensions-and-addons because the project's core identity is being an MCP server that exposes tools, rather than a plugin for a specific host editor or agent.
       review_reason: null
       review_resume_lifecycle: null

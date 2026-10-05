@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__coingecko__com__en__api__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,13 +18,10 @@ provenance:
           - Official Servers
         anchor_text: CoinGecko API
         extracted_url: https://coingecko.com/en/api
-        surrounding_text: >-
-          - **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko
-          API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain
-          networks and 8M+ tokens.
+        surrounding_text: "- **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain networks and 8M+ tokens."
         confidence: high
     - id: discovery__www__coingecko__com__en__api__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -36,10 +33,7 @@ provenance:
           - Official Servers
         anchor_text: CoinGecko API
         extracted_url: https://www.coingecko.com/en/api
-        surrounding_text: >-
-          - **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko
-          API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain
-          networks and 8M+ tokens.
+        surrounding_text: "- **[CoinGecko](https://docs.coingecko.com/reference/mcp-server/)** - Official [CoinGecko API](https://www.coingecko.com/en/api) MCP Server for Crypto Price & Market Data, across 200+ blokchain networks and 8M+ tokens."
         confidence: high
 metadata:
   github:
@@ -57,75 +51,59 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CoinGecko API is a public cryptocurrency data service providing real-time and historical market data, prices, and
-    metadata for developers.
-  why_it_matters: >-
-    It gives developers reliable access to crypto market data for building trading bots, portfolio trackers, or
-    analytics tools without running their own data pipelines.
-  mental_damage: Another API key to manage while pretending your DeFi side project will finally make you rich.
+  summary: CoinGecko API provides crypto price, market data, and metadata for coins, NFTs, and exchanges across 224 blockchain networks.
+  why_it_matters: Developers building crypto apps, trading bots, or analytics tools can integrate real-time and historical blockchain data via a reliable, widely-used public API.
+  mental_damage: Yet another API key to juggle while pretending your DeFi dashboard isn’t just a glorified CoinGecko embed.
   tags:
     - crypto
     - market-data
     - api
+    - blockchain
+    - defi
   confidence: high
 curation:
-  status: excluded
-  reason: >-
-    CoinGecko API is a general-purpose data service, not a developer-facing AI tool, agent, or infrastructure — its
-    inclusion in awesome-mcp-servers does not change its core identity as a crypto data provider.
+  status: included
+  reason: CoinGecko API is included as an MCP server in the Finance, Crypto & DeFi section of awesome-mcp-servers, indicating its primary identity is serving crypto data via the Model Context Protocol, making it a canonical MCP server rather than a general API or developer tool.
   evidence:
-    - >-
-      Scraped site context describes it as a 'Crypto Data API' for prices, metadata, and charts, with no mention of AI,
-      agents, or developer tooling beyond generic API access.
-    - >-
-      Source-list context shows it appears in awesome-mcp-servers as an Official Server, but MCP compatibility alone is
-      insufficient for inclusion — the product identity must be MCP infrastructure, which it is not.
-    - >-
-      No README or repo description indicates AI-driven features, agent behavior, or developer workflow enhancement; it
-      is a standard REST API for cryptocurrency data.
+    - "Listed in awesome-mcp-servers under 'Official Servers' with purpose: 'Get reliable crypto prices and market data with CoinGecko API'"
+    - Scraped site context confirms it provides 'crypto prices and market data', 'historical charts', and 'onchain coverage across 224 networks'
+    - No evidence of agent behavior, code editing, or app generation — pure data provision via API
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Finance, Crypto & DeFi
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:16.855Z'
+    updated_at: "2026-10-05T04:47:05.876Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:21171eb5210b15e6e60264e8a406fc5bc6a89e446a881ddcf5eee7cf6e63ab46
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9081d2400c8b22ddf064f9fe193ff42248d5a0805eb5500061039128b1f1b689
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        CoinGecko API is a general-purpose data service, not a developer-facing AI tool, agent, or infrastructure — its
-        inclusion in awesome-mcp-servers does not change its core identity as a crypto data provider.
+      decision_reason: CoinGecko API is included as an MCP server in the Finance, Crypto & DeFi section of awesome-mcp-servers, indicating its primary identity is serving crypto data via the Model Context Protocol, making it a canonical MCP server rather than a general API or developer tool.
       decision_evidence:
-        - >-
-          Scraped site context describes it as a 'Crypto Data API' for prices, metadata, and charts, with no mention of
-          AI, agents, or developer tooling beyond generic API access.
-        - >-
-          Source-list context shows it appears in awesome-mcp-servers as an Official Server, but MCP compatibility alone
-          is insufficient for inclusion — the product identity must be MCP infrastructure, which it is not.
-        - >-
-          No README or repo description indicates AI-driven features, agent behavior, or developer workflow enhancement;
-          it is a standard REST API for cryptocurrency data.
-      category_candidates: []
-      contrastive_reason: null
+        - "Listed in awesome-mcp-servers under 'Official Servers' with purpose: 'Get reliable crypto prices and market data with CoinGecko API'"
+        - Scraped site context confirms it provides 'crypto prices and market data', 'historical charts', and 'onchain coverage across 224 networks'
+        - No evidence of agent behavior, code editing, or app generation — pure data provision via API
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because CoinGecko API's identity is serving data via MCP, not extending a coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.964Z'
+    updated_at: "2026-07-21T15:20:21.964Z"
     cause: null
     next_retry_at: null
   stars:

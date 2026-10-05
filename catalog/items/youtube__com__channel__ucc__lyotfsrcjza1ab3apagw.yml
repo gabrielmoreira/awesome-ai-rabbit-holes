@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__youtube__com__channel__ucc__lyotfsrcjza1ab3apagw__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,10 +18,10 @@ provenance:
           - LangChain Framework
         anchor_text: Youtube Channel
         extracted_url: https://www.youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw
-        surrounding_text: '- [Youtube Channel](https://www.youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)'
+        surrounding_text: "- [Youtube Channel](https://www.youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)"
         confidence: high
     - id: discovery__youtube__com__channel__ucc__lyotfsrcjza1ab3apagw__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -33,7 +33,7 @@ provenance:
           - LangChain Framework
         anchor_text: Youtube Channel
         extracted_url: https://youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw
-        surrounding_text: '- [Youtube Channel](https://www.youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)'
+        surrounding_text: "- [Youtube Channel](https://www.youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)"
         confidence: high
 metadata:
   github:
@@ -51,20 +51,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube channel named UCC-lyoTfSrcJzA1ab3APAgw with no description, homepage, or clear developer-tooling purpose.
-  why_it_matters: No evidence suggests it provides AI tools, agents, or workflows relevant to software developers.
-  mental_damage: Yet another content farm masquerading as developer infrastructure in the attention economy of AI hype.
+  summary: A YouTube channel named UCC-lyoTfSrcJzA1ab3APAgw with no public description or identifiable AI tooling focus.
+  why_it_matters: Unclear relevance to developer workflows or AI tooling; appears to be a generic content channel without stated technical purpose.
+  mental_damage: Subscribing to mystery feeds in hopes they secretly contain the next LangChain-level breakthrough is a special kind of developer optimism.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input provides no identifiable product, tool, or developer-facing AI functionality — only a YouTube channel URL
-    with no description, metadata, or signals of AI tooling relevance.
+  reason: No evidence of AI developer tooling, product identity, or technical scope; appears to be an unnamed YouTube channel without contextual metadata.
   evidence:
-    - URL points to a YouTube channel (https://youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)
-    - No repo description, README, homepage, or scraped site context provided
-    - Only appears in an awesome list as a passive reference with no functional role
+    - Repo description is missing.
+    - README excerpt and scraped site context are not provided.
+    - Source-list context shows inclusion only in awesome-langchain as a passive listing with no functional description.
 placement:
   primary_category: null
   section: null
@@ -74,33 +72,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:09.208Z'
+    updated_at: "2026-10-05T04:58:59.496Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:16153887b201a140a02a3fe27649e6b1f328ca942438ef05fe1a9d94c63b70eb
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a7a394aa1bdd07574b32918ad2581745043e8999d54d8d69ea0cfdaba7db2424
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input provides no identifiable product, tool, or developer-facing AI functionality — only a YouTube channel
-        URL with no description, metadata, or signals of AI tooling relevance.
+      decision_reason: No evidence of AI developer tooling, product identity, or technical scope; appears to be an unnamed YouTube channel without contextual metadata.
       decision_evidence:
-        - URL points to a YouTube channel (https://youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)
-        - No repo description, README, homepage, or scraped site context provided
-        - Only appears in an awesome list as a passive reference with no functional role
+        - Repo description is missing.
+        - README excerpt and scraped site context are not provided.
+        - Source-list context shows inclusion only in awesome-langchain as a passive listing with no functional description.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.972Z'
+    updated_at: "2026-07-21T15:20:21.972Z"
     cause: null
     next_retry_at: null
   stars:

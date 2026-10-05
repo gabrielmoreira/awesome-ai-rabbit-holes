@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blaizzy__mlx-vlm__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: MLX-VLM
         extracted_url: https://github.com/blaizzy/mlx-vlm
-        surrounding_text: >-
-          42. [MLX-VLM](https://github.com/Blaizzy/mlx-vlm): MLX-VLM is a package for inference and fine-tuning of
-          Vision Language Models (VLMs) on your Mac using MLX.
+        surrounding_text: "42. [MLX-VLM](https://github.com/Blaizzy/mlx-vlm): MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX."
         confidence: high
 metadata:
   github:
@@ -31,10 +29,10 @@ metadata:
     archived: false
     full_name: Blaizzy/mlx-vlm
     html_url: https://github.com/Blaizzy/mlx-vlm
-    created_at: '2024-04-16T15:10:12Z'
-    pushed_at: '2026-09-23T20:55:07Z'
+    created_at: "2024-04-16T15:10:12Z"
+    pushed_at: "2026-09-23T20:55:07Z"
     description: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
-    homepage: ''
+    homepage: ""
     topics:
       - apple-silicon
       - florence2
@@ -49,9 +47,9 @@ metadata:
       - vision-framework
       - vision-language-model
       - vision-transformer
-    last_checked_at: '2026-09-24T04:13:00.670Z'
+    last_checked_at: "2026-09-24T04:13:00.670Z"
     readme:
-      fetched_at: '2026-09-24T04:13:00.670Z'
+      fetched_at: "2026-09-24T04:13:00.670Z"
       bytes: 70862
 insights:
   summary: MLX-VLM is a package for inference and fine-tuning of Vision Language Models on Mac using MLX.
@@ -77,18 +75,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:00.670Z'
+    updated_at: "2026-09-24T04:13:00.670Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:57:01.665Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -100,20 +100,14 @@ processing:
       input_hash: sha256:4fc23c9b53f8f7f9455d55d58416a0f594ffc18a8b7489b35579c506f5aa4770
       proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: >-
-        MLX-VLM is a local inference and fine-tuning toolkit for vision-language models on Apple Silicon, matching the
-        local-ai category's focus on self-hosted execution and developer-controlled hardware.
+      decision_reason: MLX-VLM is a local inference and fine-tuning toolkit for vision-language models on Apple Silicon, matching the local-ai category's focus on self-hosted execution and developer-controlled hardware.
       decision_evidence:
-        - >-
-          Repo description: 'MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your
-          Mac using MLX.'
+        - "Repo description: 'MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.'"
         - README includes fine-tuning, inference, CLI, and server usage sections targeting local deployment.
-        - 'Stars: 5534, pushed at 2026-09-23, not archived — active and tractional project.'
+        - "Stars: 5534, pushed at 2026-09-23, not archived — active and tractional project."
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because MLX-VLM is an end-user toolkit for running and fine-tuning models
-        locally, not a code-first library developers import to build applications.
+      contrastive_reason: Choose local-ai over ai-frameworks because MLX-VLM is an end-user toolkit for running and fine-tuning models locally, not a code-first library developers import to build applications.
       review_reason: null
       review_resume_lifecycle: null

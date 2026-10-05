@@ -5,9 +5,8 @@ canonical_url: https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e76
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__openrag__notion__site__open__rag__c41b2a4dcdea4527a7c1cd998e763595__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+    - id: discovery__openrag__notion__site__open__rag__c41b2a4dcdea4527a7c1cd998e763595__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,41 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Open-RAG-c41b2a4dcdea4527a7c1cd998e763595 is a Notion page describing a collaborative AI workspace for building and
-    orchestrating agents alongside company context, projects, meetings, and connected apps.
-  why_it_matters: >-
-    It matters as a conceptual example of agent orchestration tools aiming to unify team workflows with AI agents in a
-    shared workspace.
-  mental_damage: >-
-    Another Notion page promising AI-powered team synergy while developers just want something that doesn’t require
-    exporting PDFs to trigger a workflow.
+  summary: A collaborative AI workspace for building and orchestrating agents alongside team projects, meetings, and connected apps.
+  why_it_matters: It provides a centralized environment for developers to design and manage AI agents in context with their existing workflows and data.
+  mental_damage: Another all-in-one AI workspace promising to unify agents, meetings, and apps — until you realize you now have to context-switch into yet another platform to manage your context-switching.
   tags:
     - agent-orchestration
-    - notion
+    - collaborative-ai
     - workspace
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The source is a Notion documentation page describing a product vision, not a standalone developer-facing tool, SDK,
-    or agent with executable functionality.
+  status: included
+  reason: The product's core identity is a hosted platform for building and orchestrating multiple agents alongside team data and tools, fitting the agent orchestration category rather than being a coding agent or extension.
   evidence:
-    - URL points to a Notion site (openrag.notion.site), indicating documentation or marketing content
-    - >-
-      Scraped site context describes it as 'A collaborative AI workspace...' with no evidence of code, CLI, API, or
-      installable tooling
-    - No repo description, stars, or activity signals — treated as a static page, not a software project
+    - "Scraped site description: 'A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.'"
+    - Source-list context appears in awesome-LLM-resources under '课程 Course' with description matching the agent workspace pitch.
+    - No evidence of being a coding agent, IDE extension, or MCP-first product; focus is on agent orchestration in a team context.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Hosted Agent Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,29 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:54:58.353Z'
+    updated_at: "2026-10-05T05:00:56.895Z"
     cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b99f21fdeb5be881faa815bfef7384453f5be5bd2ed3963b8c1f996711de569d
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:987ccd74b44aec239385cb66f984fd6d1bb9faa228fdc541b92e2b0d82828035
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The source is a Notion documentation page describing a product vision, not a standalone developer-facing tool,
-        SDK, or agent with executable functionality.
+      decision_reason: The product's core identity is a hosted platform for building and orchestrating multiple agents alongside team data and tools, fitting the agent orchestration category rather than being a coding agent or extension.
       decision_evidence:
-        - URL points to a Notion site (openrag.notion.site), indicating documentation or marketing content
-        - >-
-          Scraped site context describes it as 'A collaborative AI workspace...' with no evidence of code, CLI, API, or
-          installable tooling
-        - No repo description, stars, or activity signals — treated as a static page, not a software project
-      category_candidates: []
-      contrastive_reason: null
+        - "Scraped site description: 'A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.'"
+        - Source-list context appears in awesome-LLM-resources under '课程 Course' with description matching the agent workspace pitch.
+        - No evidence of being a coding agent, IDE extension, or MCP-first product; focus is on agent orchestration in a team context.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product's primary value is coordinating multiple agents in a hosted workspace, not performing coding tasks directly as a standalone agent.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9

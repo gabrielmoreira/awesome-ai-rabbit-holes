@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devhub__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: DevHub
         extracted_url: https://devhub.com
-        surrounding_text: >-
-          - **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the
-          [DevHub](https://www.devhub.com) CMS platform
+        surrounding_text: "- **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the [DevHub](https://www.devhub.com) CMS platform"
         confidence: high
     - id: discovery__www__devhub__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: DevHub
         extracted_url: https://www.devhub.com
-        surrounding_text: >-
-          - **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the
-          [DevHub](https://www.devhub.com) CMS platform
+        surrounding_text: "- **[DevHub](https://github.com/devhub/devhub-cms-mcp)** - Manage and utilize website content within the [DevHub](https://www.devhub.com) CMS platform"
         confidence: high
 metadata:
   github:
@@ -55,33 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DevHub is a franchise website platform and CMS for managing multi-location brand web presence.
-  why_it_matters: >-
-    It helps franchise businesses scale their websites with AI visibility and localization features, reducing the need
-    for custom development.
-  mental_damage: >-
-    Another no-code platform promising AI-powered growth while developers quietly maintain the integrations behind the
-    scenes.
+  summary: DevHub is a franchise CMS and website platform for scaling multi-location brand web presence.
+  why_it_matters: It matters to developers seeking a managed, AI-ready platform for deploying and maintaining franchise websites without rebuilding.
+  mental_damage: Another 'future-proof' platform promising to absorb AI trends while locking you into yet another vendor's walled garden.
   tags:
     - cms
     - franchise
-    - website-builder
+    - website-platform
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    DevHub is a franchise-focused CMS and website platform, not a developer-facing AI tool for coding, agents, or
-    workflows.
+  reason: DevHub is a franchise-focused website builder and CMS with no developer-facing AI tooling, agents, or infrastructure relevant to software developers' workflows.
   evidence:
-    - >-
-      Described as a 'Franchise CMS and website platform built for scale' with no mention of AI coding assistance or
-      developer tooling
-    - >-
-      Primary use cases involve location microsites, store locators, and brand consistency for franchisees, not code
-      generation or agent orchestration
-    - >-
-      Listed in awesome-mcp-servers as a linked page, but the source-list context shows it is being referenced as a
-      franchise platform, not an MCP server
+    - Scraped site describes DevHub as a 'Franchise CMS and website platform built for scale' targeting multi-location brands
+    - Primary use cases involve site updates, lead generation, SEO, and brand consistency—not coding agents, app building, or AI development tooling
+    - Listed in awesome-mcp-servers as an 'Official Server' but the linked content shows no MCP identity; it is a CMS platform that merely mentions MCP compatibility
 placement:
   primary_category: null
   section: null
@@ -91,39 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:40.245Z'
+    updated_at: "2026-10-05T04:47:26.246Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f703267e417b0bbecbc287e99fab9c57deaf5fe00a32a582c8dcac7006a6890e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b7de6828556895a308314afb6ef89d06d018b66524ab0a18337aba067bc58a17
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        DevHub is a franchise-focused CMS and website platform, not a developer-facing AI tool for coding, agents, or
-        workflows.
+      decision_reason: DevHub is a franchise-focused website builder and CMS with no developer-facing AI tooling, agents, or infrastructure relevant to software developers' workflows.
       decision_evidence:
-        - >-
-          Described as a 'Franchise CMS and website platform built for scale' with no mention of AI coding assistance or
-          developer tooling
-        - >-
-          Primary use cases involve location microsites, store locators, and brand consistency for franchisees, not code
-          generation or agent orchestration
-        - >-
-          Listed in awesome-mcp-servers as a linked page, but the source-list context shows it is being referenced as a
-          franchise platform, not an MCP server
+        - Scraped site describes DevHub as a 'Franchise CMS and website platform built for scale' targeting multi-location brands
+        - Primary use cases involve site updates, lead generation, SEO, and brand consistency—not coding agents, app building, or AI development tooling
+        - Listed in awesome-mcp-servers as an 'Official Server' but the linked content shows no MCP identity; it is a CMS platform that merely mentions MCP compatibility
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

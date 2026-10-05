@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentmetal__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: agentmetal/mcp
         extracted_url: https://github.com/agentmetal/mcp
-        surrounding_text: >-
-          - [agentmetal/mcp](https://github.com/agentmetal/mcp) [![agentmetal/mcp MCP
-          server](https://glama.ai/mcp/servers/agentmetal/mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentmetal/mcp)
-          🎖️ 📇 ☁️ - Provision, SSH into, run commands on, and manage Linux VPSes from an agent — pay USDC over x402 or
-          by card over HTTP 402, a running box in under 60s. No signup, no API key to buy.
+        surrounding_text: "- [agentmetal/mcp](https://github.com/agentmetal/mcp) [![agentmetal/mcp MCP server](https://glama.ai/mcp/servers/agentmetal/mcp/badges/score.svg)](https://glama.ai/mcp/servers/agentmetal/mcp) 🎖️ 📇 ☁️ - Provision, SSH into, run commands on, and manage Linux VPSes from an agent — pay USDC over x402 or by card over HTTP 402, a running box in under 60s. No signup, no API key to buy."
         confidence: high
 metadata:
   github:
@@ -34,25 +30,19 @@ metadata:
     archived: false
     full_name: agentmetal/mcp
     html_url: https://github.com/agentmetal/mcp
-    created_at: '2026-06-14T18:43:44Z'
-    pushed_at: '2026-07-02T03:45:22Z'
+    created_at: "2026-06-14T18:43:44Z"
+    pushed_at: "2026-07-02T03:45:22Z"
     description: AgentMetal MCP server — let an AI agent provision Linux VPSes (USDC/x402 or card) over HTTP 402.
     homepage: https://agentmetal.dev
     topics: []
-    last_checked_at: '2026-09-17T04:13:33.120Z'
+    last_checked_at: "2026-09-17T04:13:33.120Z"
     readme:
-      fetched_at: '2026-09-17T04:13:33.120Z'
+      fetched_at: "2026-09-17T04:13:33.120Z"
       bytes: 4120
 insights:
-  summary: >-
-    An MCP server that allows AI agents to provision, manage, and execute commands on Linux VPS instances using USDC or
-    card payments.
-  why_it_matters: >-
-    It enables agents to autonomously acquire and control cloud infrastructure to host services or run long-running
-    tasks without human intervention.
-  mental_damage: >-
-    We have officially reached the stage where your primary job is supervising an agent's crypto wallet to ensure it
-    doesn't accidentally provision a server farm in a high-cost region.
+  summary: An MCP server that allows AI agents to provision, manage, and execute commands on Linux VPS instances using USDC or card payments.
+  why_it_matters: It enables agents to autonomously acquire and control cloud infrastructure to host services or run long-running tasks without human intervention.
+  mental_damage: We have officially reached the stage where your primary job is supervising an agent's crypto wallet to ensure it doesn't accidentally provision a server farm in a high-cost region.
   tags:
     - mcp
     - cloud
@@ -75,18 +65,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.066Z'
+    updated_at: "2026-06-18T05:40:04.066Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:33.120Z'
+    updated_at: "2026-09-17T04:13:33.120Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:15:57.517Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -98,19 +90,13 @@ processing:
       input_hash: sha256:09c1b2fe3747a819d7e2fc65590075aa93c5b586c4cb4b777a289da3c0e7c6b6
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project is an MCP server whose primary identity is providing domain-specific cloud provisioning tools via
-        the Model Context Protocol.
+      decision_reason: The project is an MCP server whose primary identity is providing domain-specific cloud provisioning tools via the Model Context Protocol.
       decision_evidence:
         - The README identifies the product explicitly as an MCP server exposing AgentMetal tools.
-        - >-
-          It provides 13 specific tools for the server lifecycle, including provisioning and remote command execution,
-          over MCP.
+        - It provides 13 specific tools for the server lifecycle, including provisioning and remote command execution, over MCP.
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product's core identity is as an MCP server exposing
-        specialized cloud capabilities rather than a general-purpose plugin for a specific host.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's core identity is as an MCP server exposing specialized cloud capabilities rather than a general-purpose plugin for a specific host.
       review_reason: null
       review_resume_lifecycle: null

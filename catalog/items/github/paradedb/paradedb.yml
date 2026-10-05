@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__paradedb__paradedb__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Vector search
         anchor_text: ParadeDB
         extracted_url: https://github.com/paradedb/paradedb
-        surrounding_text: >-
-          | [ParadeDB](https://github.com/paradedb/paradedb)          | The transactional alternative to Elasticsearch,
-          built on
-          Postgres.                                                                                                                                                                                                                                           
-          | ![GitHub Badge](https://img.shields.io/github/stars/paradedb/paradedb.svg?style=flat-square)          |
+        surrounding_text: "| [ParadeDB](https://github.com/paradedb/paradedb)          | The transactional alternative to Elasticsearch, built on Postgres.                                                                                                                                                                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/paradedb/paradedb.svg?style=flat-square)          |"
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: paradedb/paradedb
     html_url: https://github.com/paradedb/paradedb
-    created_at: '2023-06-30T20:21:47Z'
-    pushed_at: '2026-07-20T16:42:23Z'
-    description: >-
-      One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the
-      pg_search extension.
+    created_at: "2023-06-30T20:21:47Z"
+    pushed_at: "2026-07-20T16:42:23Z"
+    description: One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.
     homepage: https://paradedb.com
     topics:
       - aggregations
@@ -55,20 +49,14 @@ metadata:
       - similarity-search
       - sparse-vector
       - sql
-    last_checked_at: '2026-07-20T16:42:30.910Z'
+    last_checked_at: "2026-07-20T16:42:30.910Z"
     readme:
-      fetched_at: '2026-07-20T16:42:30.910Z'
+      fetched_at: "2026-07-20T16:42:30.910Z"
       bytes: 6023
 insights:
-  summary: >-
-    ParadeDB is a PostgreSQL extension that delivers Elastic-quality full-text search, analytics, and hybrid search
-    capabilities directly inside Postgres using Rust-based libraries like Tantivy and Apache DataFusion.
-  why_it_matters: >-
-    It lets developers build advanced search and analytics into their apps without deploying and syncing a separate
-    search engine like Elasticsearch, simplifying the AI-adjacent data stack.
-  mental_damage: >-
-    Another pristine infrastructure bet that lets us feel productive while confidently explaining to our team why we
-    definitely don't need Elasticsearch this time.
+  summary: ParadeDB is a PostgreSQL extension that delivers Elastic-quality full-text search, analytics, and hybrid search capabilities directly inside Postgres using Rust-based libraries like Tantivy and Apache DataFusion.
+  why_it_matters: It lets developers build advanced search and analytics into their apps without deploying and syncing a separate search engine like Elasticsearch, simplifying the AI-adjacent data stack.
+  mental_damage: Another pristine infrastructure bet that lets us feel productive while confidently explaining to our team why we definitely don't need Elasticsearch this time.
   tags:
     - postgres
     - search
@@ -78,15 +66,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    ParadeDB is a database extension for search and analytics infrastructure, not a developer-facing AI tool, coding
-    agent, or AI workflow product.
+  reason: ParadeDB is a database extension for search and analytics infrastructure, not a developer-facing AI tool, coding agent, or AI workflow product.
   evidence:
-    - 'Repo description: ''Simple, Elastic-quality search for Postgres'''
-    - 'README: ''PostgreSQL extension that brings Elastic-quality full-text search and analytics directly inside Postgres'''
-    - >-
-      Listed in Awesome-LLMOps under 'Search > Vector search', but only as a data infrastructure component, not a
-      developer AI tool
+    - "Repo description: 'Simple, Elastic-quality search for Postgres'"
+    - "README: 'PostgreSQL extension that brings Elastic-quality full-text search and analytics directly inside Postgres'"
+    - Listed in Awesome-LLMOps under 'Search > Vector search', but only as a data infrastructure component, not a developer AI tool
 placement:
   primary_category: null
   section: null
@@ -96,21 +80,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.641Z'
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:30.910Z'
+    updated_at: "2026-07-20T16:42:30.910Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

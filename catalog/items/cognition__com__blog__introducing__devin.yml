@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cognition__com__blog__introducing__devin__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Devin
         anchor_text: Devin
         extracted_url: https://www.cognition-labs.com/introducing-devin
-        surrounding_text: '## [Devin](https://www.cognition-labs.com/introducing-devin)'
+        surrounding_text: "## [Devin](https://www.cognition-labs.com/introducing-devin)"
         confidence: high
 metadata:
   github:
@@ -36,26 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An autonomous AI software engineer that plans and executes complex engineering tasks using a terminal, code editor,
-    and browser within a sandboxed environment.
-  why_it_matters: >-
-    It attempts to move beyond simple autocomplete to a complete autonomous loop capable of resolving real-world GitHub
-    issues and managing end-to-end engineering workflows.
-  mental_damage: >-
-    The specific brand of existential dread that comes from watching an agent resolve a complex GitHub issue faster than
-    you can finish reading the documentation.
+  summary: Introducing Devin, the first AI software engineer capable of autonomously performing coding tasks such as writing, debugging, and deploying code using a sandboxed environment with shell, editor, and browser access.
+  why_it_matters: It demonstrates an autonomous coding agent that can handle end-to-end engineering tasks, reducing manual effort in software development workflows.
+  mental_damage: Finally, an AI that can take the blame when production breaks — just like a real engineer, but with less emotional labor.
   tags:
     - autonomous-agent
-    - ai-engineer
-    - swe-bench
-    - coding-agent
+    - software-engineering
+    - ai-coding-agent
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  reason: Devin is positioned as a fully autonomous AI software engineer that performs core coding tasks — planning, writing, testing, and debugging — making it a primary coding agent rather than an extension or framework.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Devin can plan and execute complex engineering tasks requiring thousands of decisions using shell, code editor, and browser in a sandbox.
+    - It autonomously finds and fixes bugs in codebases, contributes to production repositories, and resolves real-world GitHub issues on SWE-bench.
+    - Listed in awesome-ai-agents under the Devin section as the world’s first fully autonomous AI software engineer.
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -66,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.456Z'
+    updated_at: "2026-06-22T05:53:30.456Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:18:25.535Z'
+    updated_at: "2026-10-05T04:26:35.403Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:50b8ded49e2c9777c293224ea1cc9a7eafa0469e9d9991af86936f22fd8bf743
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cdbf6669f0ea7ba418a86e9cd305947d91dcb28d1c908efb0fa41ab54ec525b0
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Devin is a standalone agent that plans and executes tasks within a development environment, fitting the primary
-        identity of a coding agent.
+      decision_reason: Devin is positioned as a fully autonomous AI software engineer that performs core coding tasks — planning, writing, testing, and debugging — making it a primary coding agent rather than an extension or framework.
       decision_evidence:
-        - Claims to be a fully autonomous AI software engineer.
-        - Operates within a sandboxed environment with access to a shell, editor, and browser.
-        - Demonstrated ability to resolve real-world issues on the SWE-bench benchmark.
+        - Devin can plan and execute complex engineering tasks requiring thousands of decisions using shell, code editor, and browser in a sandbox.
+        - It autonomously finds and fixes bugs in codebases, contributes to production repositories, and resolves real-world GitHub issues on SWE-bench.
+        - Listed in awesome-ai-agents under the Devin section as the world’s first fully autonomous AI software engineer.
       category_candidates:
         - coding-agents
-        - app-builders
-      contrastive_reason: >-
-        Choose coding-agents over app-builders because Devin's core purpose is autonomous engineering within existing
-        codebases rather than just generating new applications from scratch.
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Devin acts as a single autonomous agent performing coding tasks directly, rather than coordinating multiple agents or managing agent workflows.
       review_reason: null
       review_resume_lifecycle: null

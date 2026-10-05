@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aifabrice__jev-rag__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-rag
         extracted_url: https://github.com/aifabrice/jev-rag
-        surrounding_text: >-
-          - [jev-rag](https://github.com/aifabrice/jev-rag) - Vector-free local RAG: SQLite BM25 retrieval, TypeSafe Jev
-          evidence reranking, optional grounded LLM answers (no embeddings). [Project
-          guide](community/projects/tools/jev-rag.md).
+        surrounding_text: "- [jev-rag](https://github.com/aifabrice/jev-rag) - Vector-free local RAG: SQLite BM25 retrieval, TypeSafe Jev evidence reranking, optional grounded LLM answers (no embeddings). [Project guide](community/projects/tools/jev-rag.md)."
         confidence: high
     - id: discovery__github__aifabrice__jev-rag__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,12 +33,40 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**jev-rag**'
+        anchor_text: "**jev-rag**"
         extracted_url: https://github.com/aifabrice/jev-rag
-        surrounding_text: >-
-          - [**jev-rag**](https://github.com/aifabrice/jev-rag) — Local knowledge search with three modes: BM25 + Jev by
-          default, agentic multi-query lexical search + Jev without vectors, and optional BM25 + embeddings/RRF + Jev,
-          with grounded streaming answers.
+        surrounding_text: "- [**jev-rag**](https://github.com/aifabrice/jev-rag) — Local knowledge search with three modes: BM25 + Jev by default, agentic multi-query lexical search + Jev without vectors, and optional BM25 + embeddings/RRF + Jev, with grounded streaming answers."
+        confidence: high
+    - id: discovery__github__aifabrice__jev-rag__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Scoring & Ranking
+        anchor_text: Jev RAG
+        extracted_url: https://github.com/aifabrice/jev-rag
+        surrounding_text: "- [Jev RAG](https://github.com/aifabrice/jev-rag) ![stars](https://img.shields.io/github/stars/aifabrice/jev-rag?style=flat-square&label=%E2%98%85) - Retrieval and RAG: shortlists local document passages with BM25, reranks up to 30 candidates through one batched set of Jev `Noul` relevance questions with an optional threshold, and passes the strongest evidence with source citations to a configurable answer model, backed by a runnable local demo and a public 323-query NFCorpus benchmark."
+        confidence: high
+    - id: discovery__github__aifabrice__jev-rag__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Routing, data, and workflows
+        anchor_text: Jev RAG
+        extracted_url: https://github.com/aifabrice/jev-rag
+        surrounding_text: "- [Jev RAG](https://github.com/aifabrice/jev-rag) - Local knowledge search where SQLite BM25 or agent-planned lexical retrieval shortlists passages, Jev answers batched `Noul` questions about relevance and answer support, and Python owns thresholds, ordering, caching, and whether evidence reaches the answering model."
         confidence: high
 metadata:
   github:
@@ -51,11 +76,9 @@ metadata:
     archived: false
     full_name: aifabrice/jev-rag
     html_url: https://github.com/aifabrice/jev-rag
-    created_at: '2026-09-26T01:47:17Z'
-    pushed_at: '2026-09-29T01:25:54Z'
-    description: >-
-      Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid
-      retrieval, taxonomy, passage gate, and line search.
+    created_at: "2026-09-26T01:47:17Z"
+    pushed_at: "2026-09-29T01:25:54Z"
+    description: "Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid retrieval, taxonomy, passage gate, and line search."
     homepage: https://aifabrice.github.io/jev-rag/
     topics:
       - agentic-search
@@ -76,14 +99,12 @@ metadata:
       - retrieval-augmented-generation
       - sqlite
       - vector-free
-    last_checked_at: '2026-09-29T13:08:40.601Z'
+    last_checked_at: "2026-09-29T13:08:40.601Z"
     readme:
-      fetched_at: '2026-09-29T13:08:40.601Z'
+      fetched_at: "2026-09-29T13:08:40.601Z"
       bytes: 19787
 insights:
-  summary: >-
-    Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid
-    retrieval, taxonomy, passage gate, and line search.
+  summary: "Open-source local knowledge search with 7 measurable pipelines: vector-free BM25 + Jev, agentic lexical, hybrid retrieval, taxonomy, passage gate, and line search."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -93,9 +114,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
     - jev-latest choice confidence 0.93
-    - >-
-      jev winnow:e4b 0.24 below gate 0.50; proposed decision-models / Search, Retrieval & Data; placement kept at
-      memory-and-context (unverified)
+    - jev winnow:e4b 0.24 below gate 0.50; proposed decision-models / Search, Retrieval & Data; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -107,12 +126,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-10-05T04:19:11.931Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:40.601Z'
+    updated_at: "2026-09-29T13:08:40.601Z"
     cause: null
     next_retry_at: null
   categorize:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adrianczuczka__mason__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: adrianczuczka/mason
         extracted_url: https://github.com/adrianczuczka/mason
-        surrounding_text: >-
-          - [adrianczuczka/mason](https://github.com/adrianczuczka/mason) [![adrianczuczka/mason MCP
-          server](https://glama.ai/mcp/servers/adrianczuczka/mason/badges/score.svg)](https://glama.ai/mcp/servers/adrianczuczka/mason)
-          📇 🏠 🍎 🪟 🐧 - Context engineering MCP server. Generates CLAUDE.md from git history and architectural file
-          sampling, and maintains a concept-map snapshot of features/flows → files so agents can skip grep/glob on
-          repeat queries.
+        surrounding_text: "- [adrianczuczka/mason](https://github.com/adrianczuczka/mason) [![adrianczuczka/mason MCP server](https://glama.ai/mcp/servers/adrianczuczka/mason/badges/score.svg)](https://glama.ai/mcp/servers/adrianczuczka/mason) 📇 🏠 🍎 🪟 🐧 - Context engineering MCP server. Generates CLAUDE.md from git history and architectural file sampling, and maintains a concept-map snapshot of features/flows → files so agents can skip grep/glob on repeat queries."
         confidence: high
 metadata:
   github:
@@ -35,25 +30,19 @@ metadata:
     archived: false
     full_name: adrianczuczka/mason
     html_url: https://github.com/adrianczuczka/mason
-    created_at: '2026-04-07T13:54:31Z'
-    pushed_at: '2026-09-16T20:37:27Z'
+    created_at: "2026-04-07T13:54:31Z"
+    pushed_at: "2026-09-16T20:37:27Z"
     description: Mason builds context for LLMs — smart file sampling, concept maps, and change impact analysis. MCP server + CLI.
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-17T04:13:30.482Z'
+    last_checked_at: "2026-09-17T04:13:30.482Z"
     readme:
-      fetched_at: '2026-09-17T04:13:30.482Z'
+      fetched_at: "2026-09-17T04:13:30.482Z"
       bytes: 4690
 insights:
-  summary: >-
-    An MCP server and CLI tool that provides smart file sampling, concept maps, and change impact analysis to improve
-    LLM context.
-  why_it_matters: >-
-    It helps AI agents maintain project context and prevent technical debt by surfacing decision rationale and
-    identifying related code impacts during edits.
-  mental_damage: >-
-    Because apparently, our coding agents need a memory therapist to prevent them from hallucinating their way into a
-    legacy codebase.
+  summary: An MCP server and CLI tool that provides smart file sampling, concept maps, and change impact analysis to improve LLM context.
+  why_it_matters: It helps AI agents maintain project context and prevent technical debt by surfacing decision rationale and identifying related code impacts during edits.
+  mental_damage: Because apparently, our coding agents need a memory therapist to prevent them from hallucinating their way into a legacy codebase.
   tags:
     - mcp
     - context-engineering
@@ -72,22 +61,24 @@ placement:
   section: Context & Session Management
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.817Z'
+    updated_at: "2026-05-28T05:28:09.817Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:30.482Z'
+    updated_at: "2026-09-17T04:13:30.482Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:24:55.137Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -99,9 +90,7 @@ processing:
       input_hash: sha256:f727a77a24b8088764b1ff380edbd658f27f0fd40edd58d26089b6b16ac9abb9
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: >-
-        It functions as an MCP server providing context-shaping capabilities, which triggers the priority rule for the
-        MCP category.
+      decision_reason: It functions as an MCP server providing context-shaping capabilities, which triggers the priority rule for the MCP category.
       decision_evidence:
         - Repo description explicitly identifies it as an 'MCP server + CLI'
         - README highlights features like retrieving recorded rationale and flagging changes to related files
@@ -109,8 +98,6 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the category instructions specify that an MCP server providing memory
-        or context capabilities should prioritize the MCP protocol identity.
-      review_reason: 'Categorization review required: placement disagreement: retained ''memory-and-context'', proposed ''mcp'''
+      contrastive_reason: Choose mcp over memory-and-context because the category instructions specify that an MCP server providing memory or context capabilities should prioritize the MCP protocol identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'mcp'"
       review_resume_lifecycle: null

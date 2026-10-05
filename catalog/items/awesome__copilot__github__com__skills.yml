@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__copilot__github__com__skills__awesome-list__github__awesome-copilot
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,9 +18,7 @@ provenance:
           - What's in this repo
         anchor_text: All skills →
         extracted_url: https://awesome-copilot.github.com/skills
-        surrounding_text: >-
-          | 🎯 [Skills](docs/README.skills.md) | Self-contained folders with instructions and bundled assets | [All
-          skills →](https://awesome-copilot.github.com/skills) |
+        surrounding_text: "| 🎯 [Skills](docs/README.skills.md) | Self-contained folders with instructions and bundled assets | [All skills →](https://awesome-copilot.github.com/skills) |"
         confidence: high
 metadata:
   github:
@@ -38,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of community-contributed instructions, agents, skills, and configurations for GitHub Copilot.
-  why_it_matters: Helps developers extend GitHub Copilot's behavior using community-tested skill packs and configurations.
-  mental_damage: >-
-    Yet another awesome list promising to fix your AI pair programmer, while you still wonder if it'll ever stop
-    suggesting console.log as a solution.
+  summary: A directory of community-contributed GitHub Copilot skills, instructions, agents, and configurations.
+  why_it_matters: Helps developers discover and install reusable Copilot enhancements to improve their AI-assisted coding workflow.
+  mental_damage: Yet another awesome list promising to unlock Copilot's true potential while you still struggle to get it to fix a typo.
   tags:
     - copilot
     - skills
     - awesome-list
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: It is a curated directory of Copilot skills and configurations, making it a navigation aid for developers seeking to extend their AI coding assistant.
   evidence:
-    - jev-latest choice confidence 0.72
+    - Seen in awesome-copilot under section 'What's in this repo' as 'Community-contributed instructions, agents, skills, and configurations'
+    - URL is awesome-copilot.github.com/skills, indicating it is a hosted awesome list or directory
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -63,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,33 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:55:12.049Z'
+    updated_at: "2026-10-05T05:01:04.379Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d82f5abd83431edb670dafa5ac8ecae93e23a6dc2fdb12cbb873dae9f43f0dbd
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d8b350ff5fdae1793a980c9db542c735b927aeef162f0c9e1fd7edf086b15302
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        This is a community-maintained awesome list focused on GitHub Copilot extensions and skills, fitting the curated
-        lists and resources category as a discovery tool rather than a standalone product.
+      decision_reason: It is a curated directory of Copilot skills and configurations, making it a navigation aid for developers seeking to extend their AI coding assistant.
       decision_evidence:
-        - >-
-          Listed in source list: awesome-copilot with purpose 'Community-contributed instructions, agents, skills, and
-          configurations to help you make the most of GitHub Copilot' in section 'What's in this repo'
-        - 'URL: https://awesome-copilot.github.com/skills indicates a GitHub Pages site for an awesome list'
-        - Name 'skills' and context align with reusable skill packs and configurations for coding agents
+        - Seen in awesome-copilot under section 'What's in this repo' as 'Community-contributed instructions, agents, skills, and configurations'
+        - URL is awesome-copilot.github.com/skills, indicating it is a hosted awesome list or directory
       category_candidates:
         - awesome-awesomes
         - skills
-      contrastive_reason: >-
-        Choose awesome-awesomes over skills because this is a curated directory of skill packs rather than a skill pack
-        itself or a registry tool for distributing them.
+      contrastive_reason: Choose awesome-awesomes over skills because it is a directory listing skill packs rather than being a skill pack itself
       review_reason: null
       review_resume_lifecycle: null

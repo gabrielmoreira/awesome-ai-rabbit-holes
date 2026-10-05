@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agenttier__agenttier__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-18T05:26:15.344Z'
+      discovered_at: "2026-05-18T05:26:15.344Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,14 +20,10 @@ provenance:
           - Agent infrastructure
         anchor_text: AgentTier
         extracted_url: https://github.com/agenttier/agenttier
-        surrounding_text: >-
-          - **[AgentTier](https://github.com/agenttier/agenttier)** `⭐ 18` — Kubernetes-native sandbox runtime for AI
-          coding agents. A `Sandbox` CRD provisions a Pod + PVC + NetworkPolicy with optional gVisor isolation; the
-          `agenttier` Go CLI runs agent invocations that stream stdout/stderr/exit as SSE. Ships reference templates for
-          Claude Code + Bedrock and LangGraph. Apache-2.0.
+        surrounding_text: "- **[AgentTier](https://github.com/agenttier/agenttier)** `⭐ 18` — Kubernetes-native sandbox runtime for AI coding agents. A `Sandbox` CRD provisions a Pod + PVC + NetworkPolicy with optional gVisor isolation; the `agenttier` Go CLI runs agent invocations that stream stdout/stderr/exit as SSE. Ships reference templates for Claude Code + Bedrock and LangGraph. Apache-2.0."
         confidence: high
     - id: discovery__github__agenttier__agenttier__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-21T04:13:39.852Z'
+      discovered_at: "2026-09-21T04:13:39.852Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -39,10 +35,7 @@ provenance:
           - Coding Agents
         anchor_text: AgentTier
         extracted_url: https://github.com/agenttier/agenttier
-        surrounding_text: >-
-          - **[AgentTier](https://github.com/agenttier/agenttier)** – Self-hosted Kubernetes-native sandbox runtime for
-          AI coding agents (Claude Code, OpenHands, LangGraph). Same Sandbox CRD provisions a Pod + PVC + default-deny
-          NetworkPolicy with optional gVisor isolation, hierarchical governance, and a streaming SSE invoke API.
+        surrounding_text: "- **[AgentTier](https://github.com/agenttier/agenttier)** – Self-hosted Kubernetes-native sandbox runtime for AI coding agents (Claude Code, OpenHands, LangGraph). Same Sandbox CRD provisions a Pod + PVC + default-deny NetworkPolicy with optional gVisor isolation, hierarchical governance, and a streaming SSE invoke API."
         confidence: high
 metadata:
   github:
@@ -52,26 +45,22 @@ metadata:
     archived: false
     full_name: agenttier/agenttier
     html_url: https://github.com/agenttier/agenttier
-    created_at: '2026-05-09T04:33:25Z'
-    pushed_at: '2026-09-14T03:15:58Z'
+    created_at: "2026-05-09T04:33:25Z"
+    pushed_at: "2026-09-14T03:15:58Z"
     description: Kubernetes-native sandbox platform to run AI agents, coding assistants and harnesses.
-    homepage: ''
+    homepage: ""
     topics:
       - ai-agents
       - coding-agent
       - harness
-    last_checked_at: '2026-09-17T04:13:33.894Z'
+    last_checked_at: "2026-09-17T04:13:33.894Z"
     readme:
-      fetched_at: '2026-09-17T04:13:33.894Z'
+      fetched_at: "2026-09-17T04:13:33.894Z"
       bytes: 32355
 insights:
   summary: A Kubernetes-native platform for providing isolated, persistent sandbox environments for AI agents and developers.
-  why_it_matters: >-
-    It allows developers to safely run autonomous coding agents and untrusted AI-generated code within secure,
-    kernel-level isolated environments.
-  mental_damage: >-
-    Because nothing says 'streamlined AI workflow' like managing a Kubernetes cluster just to give Claude Code a place
-    to run a unit test.
+  why_it_matters: It allows developers to safely run autonomous coding agents and untrusted AI-generated code within secure, kernel-level isolated environments.
+  mental_damage: Because nothing says 'streamlined AI workflow' like managing a Kubernetes cluster just to give Claude Code a place to run a unit test.
   tags:
     - kubernetes
     - sandboxing
@@ -83,9 +72,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.72
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed local-ai / Inference Engines; placement kept at agent-orchestration
-      (unverified)
+    - jev winnow:e4b 0.26 below gate 0.50; proposed local-ai / Inference Engines; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -97,18 +84,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-21T04:13:39.855Z'
+    updated_at: "2026-09-21T04:13:39.855Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:33.894Z'
+    updated_at: "2026-09-17T04:13:33.894Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:19:48.118Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -128,8 +117,6 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because its primary identity is an operated runtime platform and
-        sandbox harness rather than a library developers import into their source code.
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because its primary identity is an operated runtime platform and sandbox harness rather than a library developers import into their source code.
       review_reason: null
       review_resume_lifecycle: null

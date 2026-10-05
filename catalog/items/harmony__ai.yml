@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__harmony__ai__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-02T05:22:20.470Z'
+      discovered_at: "2026-07-02T05:22:20.470Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - Developer tools
         anchor_text: One AI
         extracted_url: https://www.oneai.com
-        surrounding_text: '- [One AI](https://www.oneai.com/) - MAKING GENERATIVE AI BUSINESS-READY.'
+        surrounding_text: "- [One AI](https://www.oneai.com/) - MAKING GENERATIVE AI BUSINESS-READY."
         confidence: high
 metadata:
   github:
@@ -36,28 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A voice AI platform designed for sales and revenue teams to automate lead qualification, outbound calls, and
-    customer engagement.
-  why_it_matters: >-
-    While it represents a sophisticated use of agentic workflows, it is a business-facing application rather than a tool
-    for the developer's technical workflow.
-  mental_damage: >-
-    The agentic revolution is finally moving from the terminal to the telephone, and the sales floor is officially first
-    in line.
-  tags: []
+  summary: Harmony.ai is a voice AI platform that deploys AI agents for automated sales and customer service calls without coding.
+  why_it_matters: It lets revenue teams automate phone-based lead qualification, appointment setting, and follow-ups using AI voice agents that integrate with existing telephony and CRM systems.
+  mental_damage: Another AI tool promising to replace humans in sales calls, adding to the growing list of tools that make developers question if their job is to build the next voice bot that never sleeps.
+  tags:
+    - voice-ai
+    - sales-automation
+    - customer-service
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or
-    infrastructure.
+  reason: Harmony.ai is a voice AI platform for revenue teams focused on automating phone calls in sales and support workflows, not a developer-facing AI tool for coding, agent building, or infrastructure.
   evidence:
-    - >-
-      The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification and
-      appointment setting.
-    - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
-    - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
+    - "Scraped site context: 'Deploy a voice AI in minutes. No code, no call center. Our agents are always learning, always adapting, and always delivering results.'"
+    - "Source-list context: Listed in awesome-local-ai under 'Developer tools' but describes a business-facing voice AI for CRM integration, lead qualification, and outbound calls."
+    - "Primary page excerpt: Emphasizes use cases like 'qualifies leads', 'books meetings', 'runs discovery calls', 'collects payments', and 'runs outbound calls' for revenue teams."
 placement:
   primary_category: null
   section: null
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-02T05:22:20.472Z'
+    updated_at: "2026-07-02T05:22:20.472Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:20:49.442Z'
+    updated_at: "2026-10-05T04:26:50.492Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1be03ec824d1c93860242aad3fc3fd6381de098edfe11984ce463d60027628af
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c23a5e391b3d1ee90717f6bfff4e7be9bbf7d9a3b0f20f49999de449f10c45ed
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a vertical SaaS product for business revenue teams rather than a developer-facing tool, framework, or
-        infrastructure.
+      decision_reason: Harmony.ai is a voice AI platform for revenue teams focused on automating phone calls in sales and support workflows, not a developer-facing AI tool for coding, agent building, or infrastructure.
       decision_evidence:
-        - >-
-          The product is marketed as a 'system for running revenue calls' for business use cases like lead qualification
-          and appointment setting.
-        - The site explicitly distinguishes itself from developer toolkits like Vapi or Retell.
-        - It does not provide coding assistance, IDE integration, or developer-centric agent orchestration.
+        - "Scraped site context: 'Deploy a voice AI in minutes. No code, no call center. Our agents are always learning, always adapting, and always delivering results.'"
+        - "Source-list context: Listed in awesome-local-ai under 'Developer tools' but describes a business-facing voice AI for CRM integration, lead qualification, and outbound calls."
+        - "Primary page excerpt: Emphasizes use cases like 'qualifies leads', 'books meetings', 'runs discovery calls', 'collects payments', and 'runs outbound calls' for revenue teams."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

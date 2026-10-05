@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vmendes90__jev-shield__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-shield (vmendes90)
         extracted_url: https://github.com/vmendes90/jev-shield
-        surrounding_text: >-
-          - [jev-shield (vmendes90)](https://github.com/vmendes90/jev-shield) - Privacy-first Chrome extension that
-          semantically blocks native ads, sponsored feed cards, and video ads using TypeSafe Jev.
+        surrounding_text: "- [jev-shield (vmendes90)](https://github.com/vmendes90/jev-shield) - Privacy-first Chrome extension that semantically blocks native ads, sponsored feed cards, and video ads using TypeSafe Jev."
         confidence: high
     - id: discovery__github__vmendes90__jev-shield__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Browser & computer use (75)
         anchor_text: jev-shield (vmendes90)
         extracted_url: https://github.com/vmendes90/jev-shield
-        surrounding_text: >-
-          | [jev-shield (vmendes90)](https://github.com/vmendes90/jev-shield) | ★ 2 | TypeScript | 2026-09-19 |
-          Privacy-first Chrome extension that semantically blocks native ads, sponsored feed cards, and video ads using
-          TypeSafe Jev. |
+        surrounding_text: "| [jev-shield (vmendes90)](https://github.com/vmendes90/jev-shield) | ★ 2 | TypeScript | 2026-09-19 | Privacy-first Chrome extension that semantically blocks native ads, sponsored feed cards, and video ads using TypeSafe Jev. |"
         confidence: high
     - id: discovery__github__vmendes90__jev-shield__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**jev-shield**'
+        anchor_text: "**jev-shield**"
         extracted_url: https://github.com/vmendes90/jev-shield
-        surrounding_text: >-
-          - [**jev-shield**](https://github.com/vmendes90/jev-shield) — A Chrome ad-filtering extension that uses Jev to
-          assess promotional intent in feed elements.
+        surrounding_text: "- [**jev-shield**](https://github.com/vmendes90/jev-shield) — A Chrome ad-filtering extension that uses Jev to assess promotional intent in feed elements."
         confidence: high
 metadata:
   github:
@@ -93,7 +86,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.406Z'
+    updated_at: "2026-09-29T13:07:10.406Z"
     cause: null
     next_retry_at: null
   stars:
@@ -101,6 +94,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

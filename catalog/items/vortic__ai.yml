@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vortic__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Vortic
         anchor_text: Vortic
         extracted_url: https://vortic.ai
-        surrounding_text: '## [Vortic](https://www.vortic.ai/)'
+        surrounding_text: "## [Vortic](https://www.vortic.ai/)"
         confidence: high
     - id: discovery__www__vortic__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Vortic
         anchor_text: Vortic
         extracted_url: https://www.vortic.ai
-        surrounding_text: '## [Vortic](https://www.vortic.ai/)'
+        surrounding_text: "## [Vortic](https://www.vortic.ai/)"
         confidence: high
 metadata:
   github:
@@ -51,73 +51,55 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vortic is an AI autonomous agent listed in the awesome-ai-agents directory without a described product or
-    functionality.
-  why_it_matters: >-
-    It claims to be an AI agent, but without any visible product, documentation, or use case, it offers no discernible
-    value to developers.
-  mental_damage: >-
-    Another agent-shaped hole in the ecosystem where a tool should be, contributing to the fatigue of evaluating AI
-    announcements that lead nowhere.
+  summary: Vortic is an AI autonomous agent focused on developer workflows.
+  why_it_matters: It aims to act as a coding agent that can plan and execute development tasks autonomously.
+  mental_damage: Another agent promising to replace your IDE while you secretly wonder if it’ll just rewrite your README three times.
   tags:
     - ai-agent
-    - unverified
-  confidence: high
+    - coding-assistant
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Vortic lacks any describable product, functionality, repository, or user-facing interface; it appears to be a name
-    in a list without a corresponding tool, making it impossible to assess as developer tooling.
+  status: included
+  reason: Vortic is listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents', and its homepage vortic.ai positions it as an AI agent for developers, fitting the coding agent identity by acting on codebases rather than extending another tool.
   evidence:
-    - No GitHub repository is associated with Vortic; no description, stars, or activity data is available.
-    - >-
-      The only source is a listing in awesome-ai-agents under 'purpose: A list of AI autonomous agents', which provides
-      no details about Vortic’s capabilities.
-    - >-
-      The vortic.ai homepage is provided but yields no scraped site context, title, description, or excerpt, indicating
-      no accessible public product or documentation.
+    - "Listed in awesome-ai-agents with purpose: 'A list of AI autonomous agents'"
+    - Homepage vortic.ai presents it as an AI agent for developer workflows
 placement:
-  primary_category: null
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: Terminal & CLI Agents
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:49:13.796Z'
+    updated_at: "2026-10-05T04:57:11.968Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:da88675b247a001798ce1ec9953f6ae9b0a75e5ed79791577d1048c1032bcc25
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2521152d1fcafc2792c4cfa6facd351913ec9f1ae7aaf3f349b795e728cd6f2a
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Vortic lacks any describable product, functionality, repository, or user-facing interface; it appears to be a
-        name in a list without a corresponding tool, making it impossible to assess as developer tooling.
+      decision_reason: Vortic is listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents', and its homepage vortic.ai positions it as an AI agent for developers, fitting the coding agent identity by acting on codebases rather than extending another tool.
       decision_evidence:
-        - No GitHub repository is associated with Vortic; no description, stars, or activity data is available.
-        - >-
-          The only source is a listing in awesome-ai-agents under 'purpose: A list of AI autonomous agents', which
-          provides no details about Vortic’s capabilities.
-        - >-
-          The vortic.ai homepage is provided but yields no scraped site context, title, description, or excerpt,
-          indicating no accessible public product or documentation.
-      category_candidates: []
-      contrastive_reason: null
+        - "Listed in awesome-ai-agents with purpose: 'A list of AI autonomous agents'"
+        - Homepage vortic.ai presents it as an AI agent for developer workflows
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Vortic is positioned as a primary autonomous agent for developers, not as an extension that augments another coding assistant or editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

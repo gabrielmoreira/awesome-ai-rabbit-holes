@@ -5,9 +5,8 @@ canonical_url: https://iangyan.github.io/2024/09/08/building-with-llms-part-1/in
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__iangyan__github__io__2024__09__08__building__with__llms__part__1__index__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__iangyan__github__io__2024__09__08__building__with__llms__part__1__index__html__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,31 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Chinese-translated blog post sharing tactical best practices for building LLM applications, covering prompting,
-    RAG, workflow engineering, and evaluation.
-  why_it_matters: >-
-    Provides practical, experience-driven guidance for developers integrating LLMs into real products, drawn from
-    production use by industry practitioners.
-  mental_damage: Another reminder that the real LLM app secret is just doing the boring engineering work nobody tweets about.
+  summary: A Chinese-translated blog post sharing tactical best practices for LLM application development, covering prompting, RAG, workflow engineering, and evaluation.
+  why_it_matters: It distills practical lessons from experienced LLM practitioners on improving reliability and output quality in real-world LLM applications.
+  mental_damage: Another lengthy guide promising better prompts will fix your hallucinations, as if we haven't heard that before.
   tags:
     - llm
     - prompt-engineering
     - rag
-    - workflow
     - evaluation
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The resource is an educational article, not a developer-facing tool, agent, framework, or infrastructure product; it
-    lacks runtime, SDK, or actionable output for direct use in workflows.
+  reason: The resource is an educational blog post, not a tool, framework, or developer-facing product, and does not represent a standalone AI tooling artifact suitable for inclusion.
   evidence:
-    - Source is a translated blog post (index.html) from a personal site, not a GitHub repo or tool distribution.
-    - >-
-      Content consists of tactical advice and best practices, with no downloadable code, CLI, API, or installable
-      artifact.
-    - Listed in awesome-LLM-resources under '技巧 Tips' as a reading resource, not a tool or platform.
+    - The source is a translated blog post from iangyan.github.io detailing lessons from LLM practitioners
+    - It describes practices like prompting, RAG, and evaluation but does not provide a tool, SDK, or platform
+    - It appears in awesome-LLM-resources under '技巧 Tips' as a reference, not a tool
 placement:
   primary_category: null
   section: null
@@ -71,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -84,28 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:48.561Z'
+    updated_at: "2026-10-05T04:34:53.001Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:294c1ee57200a3184b7004d758069bbc1a4f08f0cd53ea5a4e5e3867bda4e84d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ca8e1d8e81d8022c384b100ce457462f91c7a7441c282009aa51fd321016dfbf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The resource is an educational article, not a developer-facing tool, agent, framework, or infrastructure
-        product; it lacks runtime, SDK, or actionable output for direct use in workflows.
+      decision_reason: The resource is an educational blog post, not a tool, framework, or developer-facing product, and does not represent a standalone AI tooling artifact suitable for inclusion.
       decision_evidence:
-        - Source is a translated blog post (index.html) from a personal site, not a GitHub repo or tool distribution.
-        - >-
-          Content consists of tactical advice and best practices, with no downloadable code, CLI, API, or installable
-          artifact.
-        - Listed in awesome-LLM-resources under '技巧 Tips' as a reading resource, not a tool or platform.
+        - The source is a translated blog post from iangyan.github.io detailing lessons from LLM practitioners
+        - It describes practices like prompting, RAG, and evaluation but does not provide a tool, SDK, or platform
+        - It appears in awesome-LLM-resources under '技巧 Tips' as a reference, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

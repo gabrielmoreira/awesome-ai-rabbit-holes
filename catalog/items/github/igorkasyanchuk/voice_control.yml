@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__igorkasyanchuk__voice_control__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Integrations
         anchor_text: voice_control
         extracted_url: https://github.com/igorkasyanchuk/voice_control
-        surrounding_text: >-
-          - [voice_control](https://github.com/igorkasyanchuk/voice_control) ([site](https://youtu.be/Zz1Ibx8R7WI)) -
-          Rails engine for voice and typed commands: define actions in a Ruby DSL and Jev picks the matching command or
-          page control, with your own authorization and signed, replay-protected execution.
+        surrounding_text: "- [voice_control](https://github.com/igorkasyanchuk/voice_control) ([site](https://youtu.be/Zz1Ibx8R7WI)) - Rails engine for voice and typed commands: define actions in a Ruby DSL and Jev picks the matching command or page control, with your own authorization and signed, replay-protected execution."
         confidence: high
 metadata:
   github:
@@ -52,16 +49,16 @@ curation:
     - jev winnow:e4b 0.34 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.460Z'
+    updated_at: "2026-09-29T13:07:10.460Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

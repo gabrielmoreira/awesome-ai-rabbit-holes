@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__iotexproject__sidegrade__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: sidegrade
         extracted_url: https://github.com/iotexproject/sidegrade
-        surrounding_text: >-
-          - **[sidegrade](https://github.com/iotexproject/sidegrade)** – Reads your local coding-agent usage (Claude
-          Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every
-          model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account,
-          MIT-licensed. Run with `npx sidegrade`; on [npm](https://www.npmjs.com/package/sidegrade).
+        surrounding_text: "- **[sidegrade](https://github.com/iotexproject/sidegrade)** – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with `npx sidegrade`; on [npm](https://www.npmjs.com/package/sidegrade)."
         confidence: high
 metadata:
   github:
@@ -41,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives
-    you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and
-    re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
+  summary: sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

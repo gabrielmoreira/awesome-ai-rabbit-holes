@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agpt__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - AutoGPT
         anchor_text: AutoGPT
         extracted_url: https://agpt.co
-        surrounding_text: '## [AutoGPT](https://agpt.co/?utm_source=awesome-ai-agents)'
+        surrounding_text: "## [AutoGPT](https://agpt.co/?utm_source=awesome-ai-agents)"
         confidence: high
 metadata:
   github:
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AutoGPT is a hosted and self-hostable platform for building, deploying, and running AI agents that automate digital
-    workflows without writing code.
-  why_it_matters: >-
-    It lets developers offload repeatable tasks like research, outreach, and support to autonomous agents that run on
-    schedules or triggers, freeing up time for higher-value work.
-  mental_damage: Finally, a way to feel guilty about not automating your guilt over not automating things.
+  summary: AutoGPT is a hosted platform for creating and managing AI Expert teams that automate content, sales, research, and operational tasks.
+  why_it_matters: It lets developers offload repetitive business workflows to autonomous AI agents, reducing manual effort in recurring tasks.
+  mental_damage: Finally, a way to feel guilty about delegating work to AI that still requires you to brief, approve, and pay for it.
   tags:
     - ai-agents
     - workflow-automation
-    - no-code
     - hosted-platform
-    - self-hostable
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: AutoGPT’s primary identity is a business workflow automation platform for AI Experts, not a developer-facing coding agent, framework, or tool that operates on codebases or aids in software development tasks.
   evidence:
-    - jev-latest choice confidence 0.90
+    - The platform focuses on automating content, sales, research, and recurring business work via AI Experts like Maria (SEO Content Manager) and Max (Account Executive)
+    - Core user workflow involves briefing agents in plain English, reviewing outputs like article drafts or prospect shortlists, and scheduling routines — not editing code, running terminals, or interacting with IDEs
+    - While it references open-source roots and allows self-hosting, the marketed product is a SaaS platform with Otto as Head of AI coordinating Expert workflows, not a tool developers use to write, test, or modify code
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,37 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:55:16.379Z'
+    updated_at: "2026-10-05T05:01:09.421Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d215024f53c00fedd55ad09c3830b8ec820f7705c611bbd6310091e76a7b1ee3
-      proposed_primary_category: agent-orchestration
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4ae328afabd1fbbb8140f271fba7c6c8f809a1fd52ea92e218829affee8a1339
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        AutoGPT is a hosted platform that coordinates multiple agents via a visual builder, dashboard, and marketplace,
-        making its primary identity agent orchestration rather than a single coding agent or app builder.
+      decision_reason: AutoGPT’s primary identity is a business workflow automation platform for AI Experts, not a developer-facing coding agent, framework, or tool that operates on codebases or aids in software development tasks.
       decision_evidence:
-        - >-
-          The platform provides a visual Builder, Agent Dashboard, and Marketplace for managing agents that automate
-          workflows like research, outreach, and support.
-        - >-
-          AutoGPT is described as 'an AI agent platform: software for building, deploying, and running agents you can
-          hand a goal to' that run on schedules or triggers.
-        - >-
-          It positions itself as a workforce of agents handling repeatable work, with users managing them through a
-          central control plane (Dashboard).
-      category_candidates:
-        - agent-orchestration
-        - app-builders
-      contrastive_reason: >-
-        Choose agent-orchestration over app-builders because AutoGPT's core value is managing and coordinating multiple
-        autonomous agents for workflow automation, not generating deployable apps from prompts.
+        - The platform focuses on automating content, sales, research, and recurring business work via AI Experts like Maria (SEO Content Manager) and Max (Account Executive)
+        - Core user workflow involves briefing agents in plain English, reviewing outputs like article drafts or prospect shortlists, and scheduling routines — not editing code, running terminals, or interacting with IDEs
+        - While it references open-source roots and allows self-hosting, the marketed product is a SaaS platform with Otto as Head of AI coordinating Expert workflows, not a tool developers use to write, test, or modify code
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

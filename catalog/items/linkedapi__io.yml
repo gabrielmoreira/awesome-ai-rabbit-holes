@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__linkedapi__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Linked API
         extracted_url: https://linkedapi.io
-        surrounding_text: >-
-          - **[Linked API](https://github.com/Linked-API/linkedapi-mcp.git)** - MCP server that lets AI assistants
-          control LinkedIn accounts and retrieve real-time data with [Linked API](https://linkedapi.io).
+        surrounding_text: "- **[Linked API](https://github.com/Linked-API/linkedapi-mcp.git)** - MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data with [Linked API](https://linkedapi.io)."
         confidence: high
 metadata:
   github:
@@ -38,26 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A cloud-based automation API for LinkedIn that enables messaging, networking, data extraction, and outreach via API,
-    SDK, CLI, or MCP integration.
-  why_it_matters: >-
-    Developers can programmatically interact with LinkedIn for lead generation, data collection, and outreach without
-    browser automation tools like Puppeteer or Selenium.
-  mental_damage: >-
-    Now you can automate LinkedIn at scale, because nothing says 'human connection' like a cloud browser pretending to
-    be you.
+  summary: Linked API is a cloud-based LinkedIn automation platform offering REST API, SDKs, CLI, and MCP server access for messaging, networking, and data extraction on LinkedIn accounts via a dedicated cloud browser.
+  why_it_matters: It enables developers to programmatically interact with LinkedIn for lead generation, outreach, and data extraction without violating LinkedIn's automation policies through human-like browser simulation.
+  mental_damage: Finally, a way to automate LinkedIn spam that won’t get your account banned—until LinkedIn figures out how to detect cloud browsers mimicking human behavior too well.
   tags:
     - linkedin
+    - automation
     - api
     - mcp
-    - automation
+    - cloud-browser
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  reason: Linked API's core identity includes an MCP server as a first-class product feature alongside its API, SDK, and CLI, making MCP a primary identity rather than a compatibility footnote, which fits the MCP category's requirement that the protocol be the product's identity.
   evidence:
-    - jev-latest choice confidence 0.50
+    - Scraped site context explicitly lists 'MCP' as a top-level product offering alongside API, SDK, CLI, and Agent Skills.
+    - Source-list context appears in 'awesome-mcp-servers' under the 'Official Servers' section, describing it as 'LinkedIn API for messaging, networking and data extraction on your own account – REST API, Node and Python SDKs, CLI, MCP server and AI-agent skills.'
+    - The product's own documentation promotes 'Built for AI agents' and 'Your Agent' workflows using MCP, positioning the MCP server as a key integration path for AI agent tooling.
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -68,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,38 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:31:16.734Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for linkedapi__io: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:37:25.724Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8c49e442462663bb81c461e97e89c31dddf29f03e87372611125f9db81a22c1b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0632c55b597dc113c8ce02938f5ec540c600e4830f71d459cf57a0f80bf28a7e
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MCP is a core part of the product identity, with explicit MCP server support for AI agents to integrate LinkedIn
-        automation.
+      decision_reason: Linked API's core identity includes an MCP server as a first-class product feature alongside its API, SDK, and CLI, making MCP a primary identity rather than a compatibility footnote, which fits the MCP category's requirement that the protocol be the product's identity.
       decision_evidence:
-        - >-
-          Product explicitly lists MCP as a primary integration method ('Use via API, SDK, CLI, AI agents, or no-code
-          platforms')
-        - Dedicated 'MCP Server' and 'Agent Skills' sections in the product documentation
-        - Listed in awesome-mcp-servers under 'Official Servers'
+        - Scraped site context explicitly lists 'MCP' as a top-level product offering alongside API, SDK, CLI, and Agent Skills.
+        - Source-list context appears in 'awesome-mcp-servers' under the 'Official Servers' section, describing it as 'LinkedIn API for messaging, networking and data extraction on your own account – REST API, Node and Python SDKs, CLI, MCP server and AI-agent skills.'
+        - The product's own documentation promotes 'Built for AI agents' and 'Your Agent' workflows using MCP, positioning the MCP server as a key integration path for AI agent tooling.
       category_candidates:
         - mcp
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product's primary identity is as an MCP server for LinkedIn
-        automation, not a general-purpose SDK or framework.
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because Linked API is not a platform for coordinating multiple agents or managing agent workflows; it is a tool/data source (LinkedIn automation) exposed via MCP, with its main value being the LinkedIn API access itself, not orchestrating agent teams.
       review_reason: null
       review_resume_lifecycle: null

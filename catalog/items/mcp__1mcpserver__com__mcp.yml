@@ -36,13 +36,12 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Model Context Protocol infrastructure for AI agents to communicate with tools and data sources.
-  why_it_matters: Provides a standardized interface for AI agents to access external capabilities, reducing integration complexity.
-  mental_damage: Yet another protocol promising to solve the 'AI can't use your tools' problem we've already solved with custom APIs.
+  summary: mcp is a directory of Model Context Protocol servers for developer tooling integration.
+  why_it_matters: Provides developers with a curated list of MCP servers to connect AI agents to tools and data sources.
+  mental_damage: Another MCP directory to bookmark, forget, and rediscover when the next protocol hype cycle begins.
   tags:
     - mcp
-    - ai-infrastructure
-    - protocol
+    - directory
   confidence: medium
 curation:
   status: included
@@ -53,10 +52,10 @@ curation:
     - No evidence of being a coding agent, extension, or broader platform
 placement:
   primary_category: mcp
-  section: Dev & Code Tools
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
@@ -69,27 +68,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-01T04:28:42.820Z"
+    updated_at: "2026-10-05T05:01:39.413Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:09a543f8d4c6b468ba1f987fb6bc1ddc0d91459a97c53eccc8645adf5c3a4058
-      proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: The project is explicitly identified as MCP infrastructure in its URL and source-list context, making MCP its primary identity rather than a feature of another product.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:19e5d7b1fdcd98d1e522110010797e9ade0e2df1738b6632e6db3b315aea9cd4
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: The resource is an awesome list of MCP servers, making it a curated directory rather than a tool itself, fitting the awesome-awesomes category for navigation aids.
       decision_evidence:
-        - "URL: https://mcp.1mcpserver.com/mcp indicates MCP focus"
-        - Listed in awesome-mcp-servers under 'Official Servers' section
-        - No evidence of being a coding agent, extension, or broader platform
+        - "Seen in source list 'awesome-mcp-servers' with purpose: 'A curated list of Model Context Protocol (MCP) servers'"
+        - No GitHub repo description, stars, or activity metrics provided
+        - The resource is presented as a list for discovery, not as an MCP server or client implementation
       category_candidates:
+        - awesome-awesomes
         - mcp
-        - extensions-and-addons
-      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is MCP infrastructure itself, not an add-on that extends a coding agent or editor.
-      review_reason: null
+      contrastive_reason: Choose awesome-awesomes over mcp because the resource is a directory listing MCP servers, not an MCP server, client, registry, or infrastructure tool itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__joshhu__jevtest__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jevtest (joshhu)
         extracted_url: https://github.com/joshhu/jevtest
-        surrounding_text: >-
-          - [jevtest (joshhu)](https://github.com/joshhu/jevtest) - 情緒測謊器：嘴上說「好」，心裡真的好嗎？用 TypeSafe Jev（System One 模型）透過
-          OpenRouter 即時判斷，並與一般 LLM 對照.
+        surrounding_text: "- [jevtest (joshhu)](https://github.com/joshhu/jevtest) - 情緒測謊器：嘴上說「好」，心裡真的好嗎？用 TypeSafe Jev（System One 模型）透過 OpenRouter 即時判斷，並與一般 LLM 對照."
         confidence: high
     - id: discovery__github__joshhu__jevtest__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jevtest**'
+        anchor_text: "**jevtest**"
         extracted_url: https://github.com/joshhu/jevtest
-        surrounding_text: >-
-          - [**jevtest**](https://github.com/joshhu/jevtest) — It provides a web and CLI demo that sends user text to
-          Jev through OpenRouter for Choice, Score, and Noul probability judgments and compares the results side-by-side
-          with a general LLM.
+        surrounding_text: "- [**jevtest**](https://github.com/joshhu/jevtest) — It provides a web and CLI demo that sends user text to Jev through OpenRouter for Choice, Score, and Noul probability judgments and compares the results side-by-side with a general LLM."
         confidence: high
 metadata:
   github:
@@ -77,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.417Z'
+    updated_at: "2026-09-29T13:07:10.417Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +80,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zlzayn__ai-decision-maker__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Classification & Routing
         anchor_text: AI-decision-maker
         extracted_url: https://github.com/zlzayn/ai-decision-maker
-        surrounding_text: >-
-          - [AI-decision-maker](https://github.com/zlZayn/AI-decision-maker)
-          ![stars](https://img.shields.io/github/stars/zlZayn/AI-decision-maker?style=flat-square&label=%E2%98%85) -
-          Data cleaning: asks Jev `Choice` questions to classify CSV columns into a 13-code type vocabulary and each
-          dataset into one of six scenes, then executes every write locally; measured Jev at 6.6–12.7× an LLM's token
-          cost on this task because the output is already one character while per-question criteria repeat.
+        surrounding_text: "- [AI-decision-maker](https://github.com/zlZayn/AI-decision-maker) ![stars](https://img.shields.io/github/stars/zlZayn/AI-decision-maker?style=flat-square&label=%E2%98%85) - Data cleaning: asks Jev `Choice` questions to classify CSV columns into a 13-code type vocabulary and each dataset into one of six scenes, then executes every write locally; measured Jev at 6.6–12.7× an LLM's token cost on this task because the output is already one character while per-question criteria repeat."
         confidence: high
 metadata:
   github:
@@ -43,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AI-decision-maker - Data cleaning: asks Jev Choice questions to classify CSV columns into a 13-code type vocabulary
-    and each dataset into one of six scenes, then executes every write locally; measured Jev at 6.6–12.7× an LLM's token
-    cost on this task because the output is already one character while per-question criteria repeat.
+  summary: "AI-decision-maker - Data cleaning: asks Jev Choice questions to classify CSV columns into a 13-code type vocabulary and each dataset into one of six scenes, then executes every write locally; measured Jev at 6.6–12.7× an LLM's token cost on this task because the output is already one character while per-question criteria repeat."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__apixly__ai__github__io__jev__filter__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://apixly-ai.github.io/jev-filter
-        surrounding_text: >-
-          - [jev-filter](https://github.com/apixly-ai/jev-filter) ([site](https://apixly-ai.github.io/jev-filter/)) -
-          Semantic filtering for AI tool results. Native npm CLI, caller-controlled context, batching, and reproducible
-          benchmarks.
+        surrounding_text: "- [jev-filter](https://github.com/apixly-ai/jev-filter) ([site](https://apixly-ai.github.io/jev-filter/)) - Semantic filtering for AI tool results. Native npm CLI, caller-controlled context, batching, and reproducible benchmarks."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-filter (site) - Semantic filtering for AI tool results. Native npm CLI, caller-controlled context, batching, and
-    reproducible benchmarks.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Filter is a semantic filtering tool that reduces agent tool context by converting retrieved records into typed evidence packets with recoverable originals.
+  why_it_matters: It cuts the noise fed to AI agents by up to 97%, letting them focus on relevant evidence without losing traceability to source data.
+  mental_damage: Another layer to insert between your agent and reality, because apparently even filtering needs its own MCP-compatible CLI and benchmarks.
+  tags:
+    - semantic-filtering
+    - context-reduction
+    - evidence-packets
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
+  reason: Jev Filter’s core identity is a decision model that outputs typed judgments (Choice/Score/Noul) on retrieved data, making it a judgment tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.85
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Context Compaction & Memory; placement kept at
-      decision-models (unverified)
+    - Returns compact, typed evidence packets with source IDs and review cases based on semantic judgment against task context
+    - Described as screening 'retrieved search results, code candidates and logs' to return 'compact, typed evidence packets'
+    - Positioned as making 'repeated judgments' so the 'primary agent plans, reasons and writes'
 placement:
   primary_category: decision-models
   secondary_categories:
     - evals
-  section: Context Compaction & Memory
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:21.710Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ddfe2cdd450b70616be8e2ce50957e71153efb4093581276587cd616dd6887a4
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev Filter’s core identity is a decision model that outputs typed judgments (Choice/Score/Noul) on retrieved data, making it a judgment tool rather than a coding agent or extension.
+      decision_evidence:
+        - Returns compact, typed evidence packets with source IDs and review cases based on semantic judgment against task context
+        - Described as screening 'retrieved search results, code candidates and logs' to return 'compact, typed evidence packets'
+        - Positioned as making 'repeated judgments' so the 'primary agent plans, reasons and writes'
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jev Filter’s primary identity is the judgment model itself, not integration into a host agent — its value is in the decision output, not the host augmentation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

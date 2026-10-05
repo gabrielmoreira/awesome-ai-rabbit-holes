@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shashank-h__pi-jev-context-curator__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: pi-jev-context-curator
         extracted_url: https://github.com/shashank-h/pi-jev-context-curator
-        surrounding_text: >-
-          - [pi-jev-context-curator](https://github.com/Shashank-H/pi-jev-context-curator) - A Jev based context curator
-          for pi.
+        surrounding_text: "- [pi-jev-context-curator](https://github.com/Shashank-H/pi-jev-context-curator) - A Jev based context curator for pi."
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Context Compaction & Memory
   evidence:
     - jev-latest choice confidence 0.70
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Context Compaction & Memory; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Context Compaction & Memory; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

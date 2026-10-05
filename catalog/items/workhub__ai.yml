@@ -36,20 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: workhub.ai is a website promoting a tool called WorkBot that appears to be an AI autonomous agent.
-  why_it_matters: If it delivers on autonomous agent capabilities, it could help developers automate multi-step tasks without constant supervision.
-  mental_damage: Another 'autonomous agent' promising to replace your job while you nervously refresh the page waiting for it to actually do something useful.
+  summary: Workhub.ai is a platform for AI-powered work bots, listed as a WorkBot in the awesome-ai-agents directory.
+  why_it_matters: It offers developers a way to delegate autonomous task execution to AI agents, potentially reducing manual workflow overhead.
+  mental_damage: Another AI agent promising to 'work for you' while you still have to manage, monitor, and clean up after its mistakes.
   tags:
-    - ai-agent
-    - automation
+    - ai-agents
+    - workflow-automation
+    - task-execution
   confidence: low
 curation:
   status: excluded
-  reason: The available information only shows a marketing site for 'WorkBot' with no concrete details about its functionality, technical implementation, or developer-facing interface, making it impossible to determine if it fits any developer tooling category.
+  reason: Workhub.ai lacks sufficient detail to determine if it is a developer-facing AI tool; its listing as a 'WorkBot' in awesome-ai-agents suggests a general AI agent directory entry without clear developer-tooling focus.
   evidence:
-    - No GitHub repository or source code is linked, only a marketing website at workhub.ai
-    - Listed in awesome-ai-agents under the 'WorkBot' section with no further description
-    - No README, feature list, or technical documentation is provided in the inputs
+    - Listed in awesome-ai-agents under the section 'WorkBot'
+    - No GitHub repository, stars, or activity data provided
+    - No README or detailed description available to assess functionality
 placement:
   primary_category: null
   section: null
@@ -68,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:50:07.062Z"
+    updated_at: "2026-10-05T04:57:42.861Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:87bacaa6c07e4b9167ec77f518d497277cd89ec6bab4952e3ea3c8296a75f8c7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dddc42d3c8cdfe207001573353916a4ab23e1abf4520ec4176aef9d0fc5a06fc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The available information only shows a marketing site for 'WorkBot' with no concrete details about its functionality, technical implementation, or developer-facing interface, making it impossible to determine if it fits any developer tooling category.
+      decision_reason: Workhub.ai lacks sufficient detail to determine if it is a developer-facing AI tool; its listing as a 'WorkBot' in awesome-ai-agents suggests a general AI agent directory entry without clear developer-tooling focus.
       decision_evidence:
-        - No GitHub repository or source code is linked, only a marketing website at workhub.ai
-        - Listed in awesome-ai-agents under the 'WorkBot' section with no further description
-        - No README, feature list, or technical documentation is provided in the inputs
+        - Listed in awesome-ai-agents under the section 'WorkBot'
+        - No GitHub repository, stars, or activity data provided
+        - No README or detailed description available to assess functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: "Categorization review required: low confidence"

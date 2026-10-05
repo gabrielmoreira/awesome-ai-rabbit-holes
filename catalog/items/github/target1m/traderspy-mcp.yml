@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__target1m__traderspy-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,13 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: target1m/traderspy-mcp
         extracted_url: https://github.com/target1m/traderspy-mcp
-        surrounding_text: >-
-          -   **[target1m/traderspy-mcp](https://github.com/target1m/traderspy-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/target1m/traderspy-mcp?style=social)](https://github.com/target1m/traderspy-mcp):
-          Read-only crypto futures research: AI trading signals with entry, take-profit and stop levels, top-trader
-          positions on Binance, Hyperliquid, Bybit and OKX, prices and candles, 19 technical indicators, funding rate
-          and open interest, and a condition screener and backtester (17 tools); hosted at
-          `https://mcp.traderspy.app/mcp` with OAuth or a free API key.
+        surrounding_text: "-   **[target1m/traderspy-mcp](https://github.com/target1m/traderspy-mcp)** [![GitHub stars](https://img.shields.io/github/stars/target1m/traderspy-mcp?style=social)](https://github.com/target1m/traderspy-mcp): Read-only crypto futures research: AI trading signals with entry, take-profit and stop levels, top-trader positions on Binance, Hyperliquid, Bybit and OKX, prices and candles, 19 technical indicators, funding rate and open interest, and a condition screener and backtester (17 tools); hosted at `https://mcp.traderspy.app/mcp` with OAuth or a free API key."
         confidence: high
 metadata:
   github:
@@ -44,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    target1m/traderspy-mcp : Read-only crypto futures research: AI trading signals with entry, take-profit and stop
-    levels, top-trader positions on Binance, Hyperliquid, Bybit and OKX, prices and candles, 19 technical indicators,
-    funding rate and open interest, and a condition screener and backtester (17 tools); hosted at
-    https://mcp.traderspy.app/mcp with OAuth or a free API key.
+  summary: "target1m/traderspy-mcp : Read-only crypto futures research: AI trading signals with entry, take-profit and stop levels, top-trader positions on Binance, Hyperliquid, Bybit and OKX, prices and candles, 19 technical indicators, funding rate and open interest, and a condition screener and backtester (17 tools); hosted at https://mcp.traderspy.app/mcp with OAuth or a free API key."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -58,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -72,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

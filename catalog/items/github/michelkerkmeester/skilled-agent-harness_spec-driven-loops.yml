@@ -6,9 +6,8 @@ identity:
   github_repo: michelkerkmeester/skilled-agent-harness_spec-driven-loops
 provenance:
   discoveries:
-    - id: >-
-        discovery__github__michelkerkmeester__skilled-agent-harness_spec-driven-loops__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__github__michelkerkmeester__skilled-agent-harness_spec-driven-loops__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -21,11 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: skilled-agent-harness_spec-driven-loops
         extracted_url: https://github.com/michelkerkmeester/skilled-agent-harness_spec-driven-loops
-        surrounding_text: >-
-          |
-          [skilled-agent-harness_spec-driven-loops](https://github.com/MichelKerkmeester/skilled-agent-harness_spec-driven-loops)
-          | ★ 36 | TypeScript | 2026-09-23 | The cli-jev transport routes typed-judgment requests from the skill harness
-          to the Jev CLI and MCP interfaces. |
+        surrounding_text: "| [skilled-agent-harness_spec-driven-loops](https://github.com/MichelKerkmeester/skilled-agent-harness_spec-driven-loops) | ★ 36 | TypeScript | 2026-09-23 | The cli-jev transport routes typed-judgment requests from the skill harness to the Jev CLI and MCP interfaces. |"
         confidence: high
 metadata:
   github:
@@ -64,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

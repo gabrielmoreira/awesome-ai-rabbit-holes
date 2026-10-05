@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__skywalkerdarren__feed-lens__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,12 +20,7 @@ provenance:
           - Classification & Routing
         anchor_text: Feed Lens
         extracted_url: https://github.com/skywalkerdarren/feed-lens
-        surrounding_text: >-
-          - [Feed Lens](https://github.com/SkywalkerDarren/feed-lens) ![type:
-          extension](https://img.shields.io/badge/type-extension-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/SkywalkerDarren/feed-lens?style=flat-square&label=%E2%98%85) -
-          Social media: uses Jev `Noul` judgments against per-platform, user-defined topic and expression labels to
-          annotate Weibo, Threads and X posts directly in a Chrome extension.
+        surrounding_text: "- [Feed Lens](https://github.com/SkywalkerDarren/feed-lens) ![type: extension](https://img.shields.io/badge/type-extension-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/SkywalkerDarren/feed-lens?style=flat-square&label=%E2%98%85) - Social media: uses Jev `Noul` judgments against per-platform, user-defined topic and expression labels to annotate Weibo, Threads and X posts directly in a Chrome extension."
         confidence: high
 metadata:
   github:
@@ -43,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Feed Lens - Social media: uses Jev Noul judgments against per-platform, user-defined topic and expression labels to
-    annotate Weibo, Threads and X posts directly in a Chrome extension.
+  summary: "Feed Lens - Social media: uses Jev Noul judgments against per-platform, user-defined topic and expression labels to annotate Weibo, Threads and X posts directly in a Chrome extension."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.477Z'
+    updated_at: "2026-09-29T13:07:10.477Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

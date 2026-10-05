@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__acqusys__taskeract-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Official Servers
         anchor_text: Taskeract
         extracted_url: https://github.com/acqusys/taskeract-mcp
-        surrounding_text: >-
-          - **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating
-          your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP
-          enabled app.
+        surrounding_text: "- **[Taskeract](https://github.com/Acqusys/taskeract-mcp)** - Official Taskeract MCP Server for integrating your [Taskeract](https://www.taskeract.com/) project tasks and load the context of your tasks into your MCP enabled app."
         confidence: high
 metadata:
   github:
@@ -40,18 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Taskeract - Official Taskeract MCP Server for integrating your Taskeract project tasks and load the context of your
-    tasks into your MCP enabled app.
+  summary: Taskeract - Official Taskeract MCP Server for integrating your Taskeract project tasks and load the context of your tasks into your MCP enabled app.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for acqusys/taskeract-mcp
     - ungh.cc (cached GitHub proxy) returned 404 for acqusys/taskeract-mcp
@@ -66,19 +59,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.599Z'
+    updated_at: "2026-05-06T22:12:15.599Z"
     cause: null
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-24T04:12:56.386Z'
+    updated_at: "2026-09-24T04:12:56.386Z"
     cause:
       type: github_repo_missing
-      message: 'GitHub repository not found: acqusys/taskeract-mcp'
+      message: "GitHub repository not found: acqusys/taskeract-mcp"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

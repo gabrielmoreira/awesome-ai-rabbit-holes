@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ishantanu__jevmetrics__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: jevmetrics
         extracted_url: https://github.com/ishantanu/jevmetrics
-        surrounding_text: >-
-          - [jevmetrics](https://github.com/ishantanu/jevmetrics) - OpenTelemetry Collector connector that uses Jev to
-          assess metric metadata and apply retention policies before export.
+        surrounding_text: "- [jevmetrics](https://github.com/ishantanu/jevmetrics) - OpenTelemetry Collector connector that uses Jev to assess metric metadata and apply retention policies before export."
         confidence: high
     - id: discovery__github__ishantanu__jevmetrics__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevmetrics
         extracted_url: https://github.com/ishantanu/jevmetrics
-        surrounding_text: >-
-          - [jevmetrics](https://github.com/ishantanu/jevmetrics) - Experimental OpenTelemetry Collector metrics
-          processor: TypeSafe Jev assesses instrument metadata for retention; deterministic keep/reduce policy with
-          caching (alpha). [Project guide](community/projects/tools/jevmetrics.md).
+        surrounding_text: "- [jevmetrics](https://github.com/ishantanu/jevmetrics) - Experimental OpenTelemetry Collector metrics processor: TypeSafe Jev assesses instrument metadata for retention; deterministic keep/reduce policy with caching (alpha). [Project guide](community/projects/tools/jevmetrics.md)."
         confidence: high
     - id: discovery__github__ishantanu__jevmetrics__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,13 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jevmetrics**'
+        anchor_text: "**jevmetrics**"
         extracted_url: https://github.com/ishantanu/jevmetrics
-        surrounding_text: >-
-          - [**jevmetrics**](https://github.com/ishantanu/jevmetrics) — Use it to assess unfamiliar instrumentation,
-          review candidates for reduced retention, and selectively filter metrics before they reach a primary backend.
-          Inference runs asynchronously, and cached assessments let subsequent batches use the same decision without
-          another API call.
+        surrounding_text: "- [**jevmetrics**](https://github.com/ishantanu/jevmetrics) — Use it to assess unfamiliar instrumentation, review candidates for reduced retention, and selectively filter metrics before they reach a primary backend. Inference runs asynchronously, and cached assessments let subsequent batches use the same decision without another API call."
         confidence: high
 metadata:
   github:
@@ -86,21 +77,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
@@ -108,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alibaba-damo-academy__medevalkit__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 评估 Evaluation
         anchor_text: MedEvalKit
         extracted_url: https://github.com/alibaba-damo-academy/medevalkit
-        surrounding_text: '18. [MedEvalKit](https://github.com/alibaba-damo-academy/MedEvalKit): A Unified Medical Evaluation Framework.'
+        surrounding_text: "18. [MedEvalKit](https://github.com/alibaba-damo-academy/MedEvalKit): A Unified Medical Evaluation Framework."
         confidence: high
 metadata:
   github:
@@ -29,24 +29,22 @@ metadata:
     archived: false
     full_name: alibaba-damo-academy/MedEvalKit
     html_url: https://github.com/alibaba-damo-academy/MedEvalKit
-    created_at: '2025-06-11T03:12:27Z'
-    pushed_at: '2026-02-24T02:40:45Z'
-    description: 'MedEvalKit: A Unified Medical Evaluation Framework'
+    created_at: "2025-06-11T03:12:27Z"
+    pushed_at: "2026-02-24T02:40:45Z"
+    description: "MedEvalKit: A Unified Medical Evaluation Framework"
     homepage: https://alibaba-damo-academy.github.io/lingshu/
     topics:
       - evaluation-framework
       - llm
       - medicalai
       - multimodal
-    last_checked_at: '2026-09-17T04:13:40.880Z'
+    last_checked_at: "2026-09-17T04:13:40.880Z"
     readme:
-      fetched_at: '2026-09-17T04:13:40.880Z'
+      fetched_at: "2026-09-17T04:13:40.880Z"
       bytes: 6889
 insights:
   summary: MedEvalKit is a unified evaluation framework for Large Medical Models (LMMs/LLMs) in healthcare.
-  why_it_matters: >-
-    It provides standardized benchmarks and metrics for assessing medical AI models, which is critical for developers
-    working in healthcare AI.
+  why_it_matters: It provides standardized benchmarks and metrics for assessing medical AI models, which is critical for developers working in healthcare AI.
   mental_damage: Because nothing says 'production-ready' like a framework that only works if your model can pass the USMLE.
   tags:
     - evaluation
@@ -57,9 +55,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a domain-specific evaluation framework for medical AI models, which falls outside the catalog's scope
-    of practical AI tools for software developers.
+  reason: The project is a domain-specific evaluation framework for medical AI models, which falls outside the catalog's scope of practical AI tools for software developers.
   evidence:
     - Repo description explicitly states it is a medical evaluation framework
     - README focuses on medical benchmarks and models (e.g., MedQA-USMLE, PubMedQA)
@@ -73,17 +69,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.601Z'
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:40.880Z'
+    updated_at: "2026-09-17T04:13:40.880Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -98,9 +94,7 @@ processing:
       input_hash: sha256:312c3f819a99991df12f90b6a6de478f01e0de692e996d4592d11e8479ebc852
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a domain-specific evaluation framework for medical AI models, which falls outside the catalog's
-        scope of practical AI tools for software developers.
+      decision_reason: The project is a domain-specific evaluation framework for medical AI models, which falls outside the catalog's scope of practical AI tools for software developers.
       decision_evidence:
         - Repo description explicitly states it is a medical evaluation framework
         - README focuses on medical benchmarks and models (e.g., MedQA-USMLE, PubMedQA)

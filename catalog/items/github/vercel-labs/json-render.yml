@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vercel-labs__json-render__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: json-render
         extracted_url: https://github.com/vercel-labs/json-render
-        surrounding_text: >-
-          | [json-render](https://github.com/vercel-labs/json-render) | ★ 17,982 | TypeScript | 2026-09-22 | Generative
-          UI framework with an experimental evaluator that lets Jev choose among application-supplied composition
-          criteria. |
+        surrounding_text: "| [json-render](https://github.com/vercel-labs/json-render) | ★ 17,982 | TypeScript | 2026-09-22 | Generative UI framework with an experimental evaluator that lets Jev choose among application-supplied composition criteria. |"
         confidence: high
     - id: discovery__github__vercel-labs__json-render__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,14 +33,12 @@ provenance:
         mode: parsed
         section_path:
           - Creative Tools
-        anchor_text: '**json-render**'
+        anchor_text: "**json-render**"
         extracted_url: https://github.com/vercel-labs/json-render
-        surrounding_text: >-
-          - [**json-render**](https://github.com/vercel-labs/json-render) — A Jev UI-composition experiment inside the
-          json-render website that selects from predefined component and property options.
+        surrounding_text: "- [**json-render**](https://github.com/vercel-labs/json-render) — A Jev UI-composition experiment inside the json-render website that selects from predefined component and property options."
         confidence: high
     - id: discovery__github__vercel-labs__json-render__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,11 +51,7 @@ provenance:
           - Adaptive & Realtime UI
         anchor_text: json-render
         extracted_url: https://github.com/vercel-labs/json-render
-        surrounding_text: >-
-          - [json-render](https://github.com/vercel-labs/json-render)
-          ![stars](https://img.shields.io/github/stars/vercel-labs/json-render?style=flat-square&label=%E2%98%85) -
-          Generative UI: Vercel Labs' UI framework uses Jev in its compose path to pick which components and actions a
-          rendered interface should contain.
+        surrounding_text: "- [json-render](https://github.com/vercel-labs/json-render) ![stars](https://img.shields.io/github/stars/vercel-labs/json-render?style=flat-square&label=%E2%98%85) - Generative UI: Vercel Labs' UI framework uses Jev in its compose path to pick which components and actions a rendered interface should contain."
         confidence: high
 metadata:
   github:
@@ -78,9 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Generative UI framework with an experimental evaluator that lets Jev choose among application-supplied composition
-    criteria.
+  summary: Generative UI framework with an experimental evaluator that lets Jev choose among application-supplied composition criteria.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -90,9 +79,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.46
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at
-      ai-frameworks (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -104,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
+    updated_at: "2026-09-29T13:07:10.405Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,6 +99,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

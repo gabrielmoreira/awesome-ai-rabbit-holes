@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sortlist__overloop-cli__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: sortlist/overloop-cli
         extracted_url: https://github.com/sortlist/overloop-cli
-        surrounding_text: >-
-          -   **[sortlist/overloop-cli](https://github.com/sortlist/overloop-cli)** [![GitHub
-          stars](https://img.shields.io/github/stars/sortlist/overloop-cli?style=social)](https://github.com/sortlist/overloop-cli):
-          AI-powered outbound engine. Source prospects from 450M+ contacts, launch email + LinkedIn campaigns, manage
-          conversations. JSON output, agent-native. Install via `npm i -g overloop-cli`.
+        surrounding_text: "-   **[sortlist/overloop-cli](https://github.com/sortlist/overloop-cli)** [![GitHub stars](https://img.shields.io/github/stars/sortlist/overloop-cli?style=social)](https://github.com/sortlist/overloop-cli): AI-powered outbound engine. Source prospects from 450M+ contacts, launch email + LinkedIn campaigns, manage conversations. JSON output, agent-native. Install via `npm i -g overloop-cli`."
         confidence: high
 metadata:
   github:
@@ -61,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

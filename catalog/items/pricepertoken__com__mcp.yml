@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pricepertoken__com__mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: pricepertoken/mcp-server
         extracted_url: https://pricepertoken.com/mcp
-        surrounding_text: >-
-          - [pricepertoken/mcp-server](https://pricepertoken.com/mcp) 📇 ☁️ - LLM API pricing comparison and benchmarks
-          across 100+ models from 30+ providers including OpenAI, Anthropic, Google, and Meta. No API key required.
+        surrounding_text: "- [pricepertoken/mcp-server](https://pricepertoken.com/mcp) 📇 ☁️ - LLM API pricing comparison and benchmarks across 100+ models from 30+ providers including OpenAI, Anthropic, Google, and Meta. No API key required."
         confidence: high
 metadata:
   github:
@@ -39,34 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that exposes real-time LLM pricing and benchmark data for use by AI coding assistants.
-  why_it_matters: >-
-    Lets developers compare model costs and performance directly inside their coding workflow without switching
-    contexts.
-  mental_damage: >-
-    Another reason to trust a third-party server for pricing data that changes more often than your GitHub
-    notifications.
+  summary: An MCP server that provides real-time LLM pricing and benchmark data to MCP-enabled AI assistants like Claude Code and Cursor.
+  why_it_matters: Developers can compare model costs and performance directly within their coding workflow without switching contexts.
+  mental_damage: Yet another reason to obsess over saving fractions of a cent per token while your tech debt silently compounds.
   tags:
     - mcp
     - pricing
-    - ai-tooling
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  reason: The product is an MCP server whose core identity is exposing LLM pricing and benchmark data via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - jev-latest choice confidence 0.74
+    - "Title: 'LLM Pricing MCP Server for Claude Code & Cursor'"
+    - "Description: 'Free MCP server for real-time LLM pricing data. Get GPT-4, Claude, Gemini costs directly in Claude Code, Cursor, and Windsurf.'"
+    - Provides MCP tools like get_all_models, get_model, compare_models, get_benchmarks for pricing and benchmark data
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: AI & Model Services
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,33 +71,29 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:34:49.901Z'
+    updated_at: "2026-10-05T04:43:39.748Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c4bd9ca17cf01e9b60537fd7ff9e574ccdec12cfa5f9e1d0e5c0c2aa18aca840
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d6d8ca49fcc818dab5a22f7c350af58367766cf9cbc5511af4d8670d8dd33c36
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core identity is an MCP server exposing pricing and benchmark tools, making MCP its primary
-        purpose rather than a side feature.
+      decision_reason: The product is an MCP server whose core identity is exposing LLM pricing and benchmark data via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
       decision_evidence:
-        - 'Title: ''LLM Pricing MCP Server for Claude Code & Cursor'''
-        - >-
-          Primary page excerpt describes providing 'real-time LLM pricing, benchmark and speed data' via MCP tools like
-          get_model, compare_models, get_benchmarks
-        - Setup instructions show MCP server configuration for Claude Code, Cursor, Windsurf, and Claude Desktop
+        - "Title: 'LLM Pricing MCP Server for Claude Code & Cursor'"
+        - "Description: 'Free MCP server for real-time LLM pricing data. Get GPT-4, Claude, Gemini costs directly in Claude Code, Cursor, and Windsurf.'"
+        - Provides MCP tools like get_all_models, get_model, compare_models, get_benchmarks for pricing and benchmark data
       category_candidates:
         - mcp
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server exposing domain data, not an
-        extension that augments a coding agent with workflow or debugging capabilities.
-      review_reason: null
-      review_resume_lifecycle: null
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is the MCP server itself, not an extension that augments another assistant with workflow capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

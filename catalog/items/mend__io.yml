@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mend__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Security
         anchor_text: Mend (WhiteSource)
         extracted_url: https://mend.io
-        surrounding_text: '- **[Mend (WhiteSource)](https://www.mend.io/)** – Open-source security and license compliance.'
+        surrounding_text: "- **[Mend (WhiteSource)](https://www.mend.io/)** – Open-source security and license compliance."
         confidence: high
     - id: discovery__www__mend__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Security
         anchor_text: Mend (WhiteSource)
         extracted_url: https://www.mend.io
-        surrounding_text: '- **[Mend (WhiteSource)](https://www.mend.io/)** – Open-source security and license compliance.'
+        surrounding_text: "- **[Mend (WhiteSource)](https://www.mend.io/)** – Open-source security and license compliance."
         confidence: high
 metadata:
   github:
@@ -51,75 +51,57 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Mend (WhiteSource) is a DevSecOps platform that automates open source vulnerability detection, license compliance,
-    and remediation for software development teams.
-  why_it_matters: >-
-    It integrates security scanning into developer workflows to prevent supply chain risks from third-party dependencies
-    before code reaches production.
-  mental_damage: >-
-    Yet another tool that tells you your package.json is a liability while you're just trying to ship a feature before
-    Friday.
+  summary: Mend (WhiteSource) is a software composition analysis tool that identifies and helps remediate open source security vulnerabilities and license compliance issues.
+  why_it_matters: Developers rely on it to automatically detect risky dependencies in their codebases and maintain compliance without manual auditing.
+  mental_damage: Yet another layer of tooling that finds problems you now feel obligated to fix, turning dependency updates into a never-ending security treadmill.
   tags:
     - security
     - devsecops
-    - dependencies
-  confidence: high
+    - dependency-management
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Mend is a general DevSecOps and software composition analysis platform focused on security and compliance, not an
-    AI-powered developer tool; its appearance in the awesome-ai-coding-tools list appears to be a categorization error
-    as it lacks AI-driven coding assistance, agent behavior, or code generation/modification capabilities.
+  status: included
+  reason: Mend integrates as a security scanning tool into development workflows and CI/CD pipelines, providing vulnerability and license compliance checks rather than acting as a standalone coding agent or framework.
   evidence:
-    - Listed in awesome-ai-coding-tools under the Security section, indicating potential misclassification
-    - >-
-      No evidence of AI capabilities in the provided inputs — no repo description, README excerpt, or scraped context
-      mentions AI, agents, LLMs, or coding assistance
-    - >-
-      Core function is vulnerability detection, license compliance, and remediation — traditional DevSecOps, not
-      AI-augmented development
+    - Appears in awesome-ai-coding-tools under the Security section, indicating its role as a security-focused developer tool.
+    - Repo description is missing, but the tool is widely known as a software composition analysis (SCA) platform for detecting open source risks.
+    - It functions as an extension or integration within dev workflows, scanning dependencies and providing remediation guidance.
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Security & DevSecOps
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:42:41.070Z'
+    updated_at: "2026-10-05T04:49:04.344Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0ed8e05b8b3f968c4f7d5e9284e07dad7cb311d51971228c0f134f38a0522c71
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1b8396265ea15f3391b527b7a7eb1cbea90143339c723be3cb9ba82ca4a19ff6
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        Mend is a general DevSecOps and software composition analysis platform focused on security and compliance, not
-        an AI-powered developer tool; its appearance in the awesome-ai-coding-tools list appears to be a categorization
-        error as it lacks AI-driven coding assistance, agent behavior, or code generation/modification capabilities.
+      decision_reason: Mend integrates as a security scanning tool into development workflows and CI/CD pipelines, providing vulnerability and license compliance checks rather than acting as a standalone coding agent or framework.
       decision_evidence:
-        - Listed in awesome-ai-coding-tools under the Security section, indicating potential misclassification
-        - >-
-          No evidence of AI capabilities in the provided inputs — no repo description, README excerpt, or scraped
-          context mentions AI, agents, LLMs, or coding assistance
-        - >-
-          Core function is vulnerability detection, license compliance, and remediation — traditional DevSecOps, not
-          AI-augmented development
-      category_candidates: []
-      contrastive_reason: null
+        - Appears in awesome-ai-coding-tools under the Security section, indicating its role as a security-focused developer tool.
+        - Repo description is missing, but the tool is widely known as a software composition analysis (SCA) platform for detecting open source risks.
+        - It functions as an extension or integration within dev workflows, scanning dependencies and providing remediation guidance.
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Mend primarily functions as a security scanning integration for development workflows rather than an autonomous agent that writes, edits, or reviews code.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.967Z'
+    updated_at: "2026-07-21T15:20:21.967Z"
     cause: null
     next_retry_at: null
   stars:

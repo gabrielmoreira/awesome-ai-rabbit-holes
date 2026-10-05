@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -18,12 +18,10 @@ provenance:
           - README
         anchor_text: Step-by-step tutorials on Unwind AI
         extracted_url: https://theunwindai.com
-        surrounding_text: >-
-          **[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** ·
-          **[Browse all templates](#-browse-all-templates)**
+        surrounding_text: "**[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** · **[Browse all templates](#-browse-all-templates)**"
         confidence: high
     - id: discovery__www__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -35,9 +33,7 @@ provenance:
           - 💡 Why this exists
         anchor_text: Unwind AI
         extracted_url: https://www.theunwindai.com
-        surrounding_text: >-
-          - 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind
-          AI](https://www.theunwindai.com).
+        surrounding_text: "- 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind AI](https://www.theunwindai.com)."
         confidence: high
 metadata:
   github:
@@ -55,31 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Unwind AI is an open-source ecosystem offering tutorials, blogs, and newsletters on AI agents, RAG, and LLMs for
-    developers.
-  why_it_matters: It helps developers stay current with AI agent trends and learn practical implementations through curated content.
-  mental_damage: Another AI newsletter promising 'high-leverage' insights while you still haven't shipped your MCP server.
+  summary: Step-by-step tutorials on Unwind AI is a blog-style newsletter covering AI agents, LLMs, and agentic workflows.
+  why_it_matters: It keeps developers informed about emerging agent trends, model releases, and open-source agent ecosystems through regular digests.
+  mental_damage: Another AI newsletter promising 'high-leverage insights' while you scroll past yet another Gemini 3.8 Live model hype piece.
   tags:
     - newsletter
-    - tutorials
     - ai-agents
-    - llm
-    - curated
+    - llm-updates
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Excluded because it is a content platform (blog/newsletter/tutorials) without developer tooling, agent
-    orchestration, or app-building functionality.
+  reason: It is a curated content feed focused on news and tutorials, not a developer-facing AI tool, agent, framework, or infrastructure.
   evidence:
-    - >-
-      Source-list context shows it is listed in awesome-llm-apps as an 'Open-source Ecosystem for High-Leverage AI
-      Builders'
-    - >-
-      Scraped site context reveals primary content: blogs, tutorials ('Daily Unwind', 'AI Tutorial'), newsletters, and
-      agent discussions
-    - No evidence of tooling, SDKs, agents, or infrastructure — only educational and curation content
+    - Scraped site context shows it is a blog/newsletter with sections like 'Daily Unwind', 'AI Blogs', and 'AI Tutorial'.
+    - Source-list context notes it appears in awesome-llm-apps under 'Open-source Ecosystem for High-Leverage AI Builders', indicating it is a directory listing, not a tool.
+    - No evidence of it being an AI agent, coding assistant, framework, or developer tool — it primarily publishes commentary and updates.
 placement:
   primary_category: null
   secondary_categories: []
@@ -90,37 +76,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:47:09.525Z'
+    updated_at: "2026-10-05T04:55:57.186Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f444497404e3d718d02b339ad2070c864f990179cf433c1b70cf8eb6a8b48ac0
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3776ab31d18a5c2c322a68980cdae9c9c1fea3037106a98886053cbcd52957c2
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Excluded because it is a content platform (blog/newsletter/tutorials) without developer tooling, agent
-        orchestration, or app-building functionality.
+      decision_reason: It is a curated content feed focused on news and tutorials, not a developer-facing AI tool, agent, framework, or infrastructure.
       decision_evidence:
-        - >-
-          Source-list context shows it is listed in awesome-llm-apps as an 'Open-source Ecosystem for High-Leverage AI
-          Builders'
-        - >-
-          Scraped site context reveals primary content: blogs, tutorials ('Daily Unwind', 'AI Tutorial'), newsletters,
-          and agent discussions
-        - No evidence of tooling, SDKs, agents, or infrastructure — only educational and curation content
+        - Scraped site context shows it is a blog/newsletter with sections like 'Daily Unwind', 'AI Blogs', and 'AI Tutorial'.
+        - Source-list context notes it appears in awesome-llm-apps under 'Open-source Ecosystem for High-Leverage AI Builders', indicating it is a directory listing, not a tool.
+        - No evidence of it being an AI agent, coding assistant, framework, or developer tool — it primarily publishes commentary and updates.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

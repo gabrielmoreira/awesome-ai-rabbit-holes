@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ai-study-han__zero-qwen-vl__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,23 +29,19 @@ metadata:
     archived: false
     full_name: AI-Study-Han/Zero-Qwen-VL
     html_url: https://github.com/AI-Study-Han/Zero-Qwen-VL
-    created_at: '2024-08-16T17:11:54Z'
-    pushed_at: '2024-09-06T01:28:30Z'
+    created_at: "2024-08-16T17:11:54Z"
+    pushed_at: "2024-09-06T01:28:30Z"
     description: 训练一个对中文支持更好的LLaVA模型，并开源训练代码和数据。
     homepage: null
     topics: []
-    last_checked_at: '2026-09-17T04:13:35.417Z'
+    last_checked_at: "2026-09-17T04:13:35.417Z"
     readme:
-      fetched_at: '2026-09-17T04:13:35.417Z'
+      fetched_at: "2026-09-17T04:13:35.417Z"
       bytes: 5024
 insights:
   summary: An open-source training implementation for a LLaVA-style multimodal model with improved Chinese language support.
-  why_it_matters: >-
-    Provides a blueprint and dataset for fine-tuning vision-language models to better understand and respond to
-    Chinese-specific visual contexts.
-  mental_damage: >-
-    Now you can spend forty hours fine-tuning a model only to realize it's just a slightly better way to describe a
-    picture of a beach in Mandarin.
+  why_it_matters: Provides a blueprint and dataset for fine-tuning vision-language models to better understand and respond to Chinese-specific visual contexts.
+  mental_damage: Now you can spend forty hours fine-tuning a model only to realize it's just a slightly better way to describe a picture of a beach in Mandarin.
   tags:
     - vision-language-models
     - llava
@@ -55,9 +51,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a research/training implementation for a specific model architecture rather than a developer tool,
-    framework, or workflow product.
+  reason: This is a research/training implementation for a specific model architecture rather than a developer tool, framework, or workflow product.
   evidence:
     - README describes a multi-stage training process for a multimodal model
     - Focus is on model training/weights rather than developer-facing software/tooling
@@ -71,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.600Z'
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:35.417Z'
+    updated_at: "2026-09-17T04:13:35.417Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -96,9 +90,7 @@ processing:
       input_hash: sha256:c9b0ae6aa5073c6b47862a36b13624366212cd9c74fb4943d5e41f0922826cff
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a research/training implementation for a specific model architecture rather than a developer tool,
-        framework, or workflow product.
+      decision_reason: This is a research/training implementation for a specific model architecture rather than a developer tool, framework, or workflow product.
       decision_evidence:
         - README describes a multi-stage training process for a multimodal model
         - Focus is on model training/weights rather than developer-facing software/tooling

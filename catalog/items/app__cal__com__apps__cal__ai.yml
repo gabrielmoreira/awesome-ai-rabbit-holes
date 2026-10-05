@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__app__cal__com__apps__cal__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Cal.ai
         anchor_text: Cal.ai
         extracted_url: https://cal.ai
-        surrounding_text: '## [Cal.ai](https://cal.ai)'
+        surrounding_text: "## [Cal.ai](https://cal.ai)"
         confidence: high
 metadata:
   github:
@@ -36,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Cal.ai is an AI scheduling assistant that provides a personal email address to manage meetings via natural language commands.
+  why_it_matters: It streamlines calendar management for developers by letting them schedule, reschedule, or cancel meetings through email or chat without switching contexts.
+  mental_damage: "Finally, an AI that solves the one problem we all have: spending more time coordinating meetings than actually writing code."
+  tags:
+    - ai-agent
+    - productivity
+    - scheduling
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Cal.ai is a personal scheduling assistant focused on email and calendar management, not a developer-facing tool for coding, workflow automation, or AI-assisted software development tasks.
+  evidence:
+    - Cal.ai is described as an AI scheduling assistant that provides a personal email assistant (username@cal.ai) to forward emails to or converse with for meeting management
+    - "It appears in the awesome-ai-agents list under the section 'Cal.ai' with the purpose description: 'Cal.ai is your AI scheduling assistant. Get your personal email assistant...'"
+    - The tool's functionality centers on booking, moving, canceling meetings and checking availability via natural language, with no mention of code editing, repo interaction, or development workflow integration
 placement:
   primary_category: null
   section: null
@@ -54,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -62,6 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:21.292Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b4c7a7ec08a4e125ae19e254b3f56f4e529ae7f6d805fbc2acecd2352570335c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Cal.ai is a personal scheduling assistant focused on email and calendar management, not a developer-facing tool for coding, workflow automation, or AI-assisted software development tasks.
+      decision_evidence:
+        - Cal.ai is described as an AI scheduling assistant that provides a personal email assistant (username@cal.ai) to forward emails to or converse with for meeting management
+        - "It appears in the awesome-ai-agents list under the section 'Cal.ai' with the purpose description: 'Cal.ai is your AI scheduling assistant. Get your personal email assistant...'"
+        - The tool's functionality centers on booking, moving, canceling meetings and checking availability via natural language, with no mention of code editing, repo interaction, or development workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

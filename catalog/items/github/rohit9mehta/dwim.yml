@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rohit9mehta__dwim__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,13 +20,7 @@ provenance:
           - Adaptive & Realtime UI
         anchor_text: DWIM
         extracted_url: https://github.com/rohit9mehta/dwim
-        surrounding_text: >-
-          - [DWIM](https://github.com/rohit9mehta/dwim)
-          ![stars](https://img.shields.io/github/stars/rohit9mehta/dwim?style=flat-square&label=%E2%98%85) - Desktop
-          productivity: a macOS command palette that reads the frontmost app's menu tree through the accessibility API,
-          asks Jev one `Noul` per menu item against the user's plain-language request, and presses the top match when it
-          clears a probability threshold, falling back to a ranked list otherwise and never auto-running destructive
-          items.
+        surrounding_text: "- [DWIM](https://github.com/rohit9mehta/dwim) ![stars](https://img.shields.io/github/stars/rohit9mehta/dwim?style=flat-square&label=%E2%98%85) - Desktop productivity: a macOS command palette that reads the frontmost app's menu tree through the accessibility API, asks Jev one `Noul` per menu item against the user's plain-language request, and presses the top match when it clears a probability threshold, falling back to a ranked list otherwise and never auto-running destructive items."
         confidence: high
 metadata:
   github:
@@ -44,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    DWIM - Desktop productivity: a macOS command palette that reads the frontmost app's menu tree through the
-    accessibility API, asks Jev one Noul per menu item against the user's plain-language request, and presses the top
-    match when it clears a probability threshold, falling back to a ranked list otherwise and never auto-running
-    destructive items.
+  summary: "DWIM - Desktop productivity: a macOS command palette that reads the frontmost app's menu tree through the accessibility API, asks Jev one Noul per menu item against the user's plain-language request, and presses the top match when it clears a probability threshold, falling back to a ranked list otherwise and never auto-running destructive items."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

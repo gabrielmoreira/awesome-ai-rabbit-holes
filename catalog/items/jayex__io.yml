@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jayex__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Jenkins X
         extracted_url: https://jenkins-x.io
-        surrounding_text: '- **[Jenkins X](https://jenkins-x.io/)** – Cloud-native CI/CD with AI-enhanced automation.'
+        surrounding_text: "- **[Jenkins X](https://jenkins-x.io/)** – Cloud-native CI/CD with AI-enhanced automation."
         confidence: high
 metadata:
   github:
@@ -36,38 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    JayeX is a Kubernetes-based CI/CD platform that automates Tekton pipelines, GitOps workflows, preview environments,
-    and ChatOps for pull requests.
-  why_it_matters: >-
-    It reduces the operational overhead of setting up Kubernetes-native CI/CD by automating pipeline creation and
-    environment management from GitOps principles.
-  mental_damage: >-
-    Another CI/CD platform promising to abstract away Kubernetes complexity, just as developers finally start to
-    understand it.
+  summary: JayeX is a cloud-native CI/CD platform built on Kubernetes that automates Tekton pipelines, GitOps, preview environments, and ChatOps.
+  why_it_matters: It reduces the operational overhead of Kubernetes-native CI/CD by automating pipeline creation, environment promotion, and PR feedback for developers.
+  mental_damage: Another Kubernetes abstraction layer that promises simplicity while adding another YAML-shaped mental model to your CI/CD stack.
   tags:
+    - ci-cd
     - kubernetes
-    - cicd
     - gitops
-    - tekton
-    - devops
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    JayeX is a DevOps infrastructure tool focused on CI/CD automation for Kubernetes, with no AI agent, coding
-    assistant, or developer-facing AI workflow integration; it does not meet the catalog's scope for practical AI tools
-    relevant to software developers.
+  reason: JayeX is a CI/CD and DevOps platform focused on automating Kubernetes workflows, not an AI-powered developer tool for coding, agents, or workflows.
   evidence:
-    - >-
-      Repo description is missing; scraped site context identifies JayeX as 'Cloud Native CI/CD Built On Kubernetes'
-      with features like Tekton pipelines, GitOps, preview environments, and ChatOps.
-    - >-
-      No mention of AI, LLMs, agents, prompts, or intelligent automation in the README excerpt or site context—core
-      functionality is declarative CI/CD and GitOps tooling.
-    - >-
-      Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure' section, but this placement reflects a broad
-      or mistaken inclusion; the tool itself lacks AI-driven developer workflow enhancement.
+    - "Repo description: (none)"
+    - "Scraped site context: 'JayeX - Cloud Native CI/CD Built On Kubernetes' and 'All In One CI/CD including everything you need to start exploring Kubernetes'"
+    - README excerpt emphasizes Tekton pipelines, GitOps, preview environments, and ChatOps — all DevOps/CI/CD concerns with no mention of AI, LLMs, agents, or developer-facing AI functionality
 placement:
   primary_category: null
   section: null
@@ -77,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,33 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:41.015Z'
+    updated_at: "2026-10-05T04:34:49.101Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:579f8c97c8409460518acaf7c7ce52a73b7c79408e23943255a07888b4a9fa93
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:29b69519341bfa9bbecb7d321e9e5571cfc0290d3f07f26c840e4b120fffbc92
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        JayeX is a DevOps infrastructure tool focused on CI/CD automation for Kubernetes, with no AI agent, coding
-        assistant, or developer-facing AI workflow integration; it does not meet the catalog's scope for practical AI
-        tools relevant to software developers.
+      decision_reason: JayeX is a CI/CD and DevOps platform focused on automating Kubernetes workflows, not an AI-powered developer tool for coding, agents, or workflows.
       decision_evidence:
-        - >-
-          Repo description is missing; scraped site context identifies JayeX as 'Cloud Native CI/CD Built On Kubernetes'
-          with features like Tekton pipelines, GitOps, preview environments, and ChatOps.
-        - >-
-          No mention of AI, LLMs, agents, prompts, or intelligent automation in the README excerpt or site context—core
-          functionality is declarative CI/CD and GitOps tooling.
-        - >-
-          Listed in awesome-ai-coding-tools under 'DevOps and Infrastructure' section, but this placement reflects a
-          broad or mistaken inclusion; the tool itself lacks AI-driven developer workflow enhancement.
+        - "Repo description: (none)"
+        - "Scraped site context: 'JayeX - Cloud Native CI/CD Built On Kubernetes' and 'All In One CI/CD including everything you need to start exploring Kubernetes'"
+        - README excerpt emphasizes Tekton pipelines, GitOps, preview environments, and ChatOps — all DevOps/CI/CD concerns with no mention of AI, LLMs, agents, or developer-facing AI functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

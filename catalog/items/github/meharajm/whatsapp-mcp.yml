@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__meharajm__whatsapp-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💬 Communication
         anchor_text: meharajM/whatsapp-mcp
         extracted_url: https://github.com/meharajm/whatsapp-mcp
-        surrounding_text: >-
-          -   **[meharajM/whatsapp-mcp](https://github.com/meharajM/whatsapp-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/meharajM/whatsapp-mcp?style=social)](https://github.com/meharajM/whatsapp-mcp):
-          Human-in-the-loop approvals and notifications for AI agents via WhatsApp. Enables Cursor, Claude Code, and
-          autonomous AI agents to reach users when they are away from their computers.
+        surrounding_text: "-   **[meharajM/whatsapp-mcp](https://github.com/meharajM/whatsapp-mcp)** [![GitHub stars](https://img.shields.io/github/stars/meharajM/whatsapp-mcp?style=social)](https://github.com/meharajM/whatsapp-mcp): Human-in-the-loop approvals and notifications for AI agents via WhatsApp. Enables Cursor, Claude Code, and autonomous AI agents to reach users when they are away from their computers."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    meharajM/whatsapp-mcp : Human-in-the-loop approvals and notifications for AI agents via WhatsApp. Enables Cursor,
-    Claude Code, and autonomous AI agents to reach users when they are away from their computers.
+  summary: "meharajM/whatsapp-mcp : Human-in-the-loop approvals and notifications for AI agents via WhatsApp. Enables Cursor, Claude Code, and autonomous AI agents to reach users when they are away from their computers."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.28 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept
-      at mcp (unverified)
+    - jev winnow:e4b 0.28 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

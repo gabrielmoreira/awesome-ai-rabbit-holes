@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abdelstark__typesafe-rs__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: typesafe-rs
         extracted_url: https://github.com/abdelstark/typesafe-rs
-        surrounding_text: >-
-          - [typesafe-rs](https://github.com/AbdelStark/typesafe-rs)
-          ([site](https://docs.rs/typesafe-rs/latest/typesafe_rs/)) - Latency-first Rust SDK for TypeSafe System One.
+        surrounding_text: "- [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) ([site](https://docs.rs/typesafe-rs/latest/typesafe_rs/)) - Latency-first Rust SDK for TypeSafe System One."
         confidence: high
     - id: discovery__github__abdelstark__typesafe-rs__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: typesafe-rs
         extracted_url: https://github.com/abdelstark/typesafe-rs
-        surrounding_text: >-
-          | [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) | ★ 0 | Rust | 2026-09-19 | Latency-first Rust SDK
-          for TypeSafe System One. |
+        surrounding_text: "| [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) | ★ 0 | Rust | 2026-09-19 | Latency-first Rust SDK for TypeSafe System One. |"
         confidence: high
     - id: discovery__github__abdelstark__typesafe-rs__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**typesafe-rs**'
+        anchor_text: "**typesafe-rs**"
         extracted_url: https://github.com/abdelstark/typesafe-rs
-        surrounding_text: >-
-          - [**typesafe-rs**](https://github.com/AbdelStark/typesafe-rs) — A community Rust Jev client with async
-          requests, an optional blocking interface and local mock testing.
+        surrounding_text: "- [**typesafe-rs**](https://github.com/AbdelStark/typesafe-rs) — A community Rust Jev client with async requests, an optional blocking interface and local mock testing."
         confidence: high
 metadata:
   github:
@@ -66,51 +60,75 @@ metadata:
     archived: false
     full_name: AbdelStark/typesafe-rs
     html_url: https://github.com/AbdelStark/typesafe-rs
-    created_at: '2026-09-16T08:51:42Z'
-    pushed_at: '2026-09-16T12:22:27Z'
-    description: 'Latency-first Rust SDK for TypeSafe System One. '
+    created_at: "2026-09-16T08:51:42Z"
+    pushed_at: "2026-09-16T12:22:27Z"
+    description: "Latency-first Rust SDK for TypeSafe System One. "
     homepage: https://docs.rs/typesafe-rs/latest/typesafe_rs/
     topics:
       - machine-learning
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:08:23.474Z'
+    last_checked_at: "2026-09-29T13:08:23.474Z"
     readme:
-      fetched_at: '2026-09-29T13:08:23.474Z'
+      fetched_at: "2026-09-29T13:08:23.474Z"
       bytes: 9305
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Latency-first Rust SDK for TypeSafe System One decision model.
+  why_it_matters: Provides Rust developers low-latency access to the Jev decision model for typed question answering.
+  mental_damage: Another SDK for another niche model, because nothing says 'productive' like juggling half a dozen decision-model bindings.
+  tags:
+    - rust
+    - sdk
+    - decision-model
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: It is an SDK whose core purpose is calling a decision model with typed questions, fitting the decision-models category.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; no placement kept
-      (unverified)
+    - "Repo description: 'Latency-first Rust SDK for TypeSafe System One'"
+    - "Source-list context: listed in awesome-jev under SDKs & clients"
+    - Topics include machine-learning and typesafe-ai
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - ai-frameworks
-  section: null
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.390Z'
+    updated_at: "2026-09-29T13:07:10.390Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:23.474Z'
+    updated_at: "2026-09-29T13:08:23.474Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:56.522Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:88ceb7b0d1b9e55d18d9e278c7d9ab9ef195e33442e599418ae0d511c7a0c0c9
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is an SDK whose core purpose is calling a decision model with typed questions, fitting the decision-models category.
+      decision_evidence:
+        - "Repo description: 'Latency-first Rust SDK for TypeSafe System One'"
+        - "Source-list context: listed in awesome-jev under SDKs & clients"
+        - Topics include machine-learning and typesafe-ai
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product is an SDK for calling a decision model, not a general-purpose AI framework for building applications.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

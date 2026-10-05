@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nullify__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Security
         anchor_text: Nullify.ai
         extracted_url: https://nullify.ai
-        surrounding_text: '- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection.'
+        surrounding_text: "- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection."
         confidence: high
     - id: discovery__www__nullify__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Security
         anchor_text: Nullify.ai
         extracted_url: https://nullify.ai
-        surrounding_text: '- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection.'
+        surrounding_text: "- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection."
         confidence: high
 metadata:
   github:
@@ -51,15 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Nullify.ai is an autonomous AI system that detects, validates, fixes, and routes product-security vulnerabilities to
-    merge-ready pull requests.
-  why_it_matters: >-
-    It reduces developer toil by automating the entire security remediation loop from detection to merge, freeing
-    engineers from false positive noise.
-  mental_damage: >-
-    Watching an AI agent argue with your CI pipeline over a JWT handler is the new form of pair programming you didn’t
-    ask for.
+  summary: Nullify.ai is an autonomous AI system that detects, validates, fixes, and routes product-security vulnerabilities to merge-ready pull requests.
+  why_it_matters: It reduces developer toil by automating the entire security remediation loop from detection to merge, freeing engineers from false positive noise.
+  mental_damage: Watching an AI agent argue with your CI pipeline over a JWT handler is the new form of pair programming you didn’t ask for.
   tags:
     - security
     - devsecops
@@ -80,10 +74,12 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:43:31.980Z'
-    cause: null
-    attempts: 3
+    status: deferred
+    updated_at: "2026-10-05T04:49:34.379Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for nullify__ai: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": Nullify.ai\"... is not valid JSON"
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -94,32 +90,20 @@ processing:
       input_hash: sha256:e976061d191e632f9accd3ee67d4010aac8875eb61add8326c84cdc2c5596d16
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        Nullify.ai integrates as an autonomous agent that plugs into existing developer workflows (Jira, Compass, Slack,
-        CI) to extend security remediation capabilities, acting as a workflow add-on rather than a standalone coding
-        agent or platform.
+      decision_reason: Nullify.ai integrates as an autonomous agent that plugs into existing developer workflows (Jira, Compass, Slack, CI) to extend security remediation capabilities, acting as a workflow add-on rather than a standalone coding agent or platform.
       decision_evidence:
-        - >-
-          Source-list context: listed in awesome-ai-coding-tools under Security section as a tool that finds, proves,
-          and fixes vulnerabilities and drives PRs to merge.
-        - >-
-          README/scraped context: Nullify routes work via Compass (code ownership), Jira (capacity), and Slack
-          (escalations), integrating with existing dev tools rather than replacing them.
-        - >-
-          Core loop: detects, validates, triages, fixes, refines, and closes vulnerabilities in existing codebases — not
-          generating new apps or acting as a general-purpose coding agent.
+        - "Source-list context: listed in awesome-ai-coding-tools under Security section as a tool that finds, proves, and fixes vulnerabilities and drives PRs to merge."
+        - "README/scraped context: Nullify routes work via Compass (code ownership), Jira (capacity), and Slack (escalations), integrating with existing dev tools rather than replacing them."
+        - "Core loop: detects, validates, triages, fixes, refines, and closes vulnerabilities in existing codebases — not generating new apps or acting as a general-purpose coding agent."
       category_candidates:
         - extensions-and-addons
         - agent-orchestration
-      contrastive_reason: >-
-        Choose extensions-and-addons over agent-orchestration because Nullify.ai functions as a specialized agent that
-        integrates into developer tooling (Jira, Slack, Compass) to extend security workflows, rather than serving as a
-        general platform for coordinating multiple autonomous agent teams.
+      contrastive_reason: Choose extensions-and-addons over agent-orchestration because Nullify.ai functions as a specialized agent that integrates into developer tooling (Jira, Slack, Compass) to extend security workflows, rather than serving as a general platform for coordinating multiple autonomous agent teams.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:

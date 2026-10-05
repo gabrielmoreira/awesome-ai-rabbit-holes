@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__questflow__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Questflow
         anchor_text: Questflow
         extracted_url: https://questflow.ai
-        surrounding_text: '## [Questflow](https://questflow.ai)'
+        surrounding_text: "## [Questflow](https://questflow.ai)"
         confidence: high
 metadata:
   github:
@@ -36,34 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Questflow is an AI Finance Agent that lets users invest alongside top investors by connecting accounts, applying
-    strategies, and executing trades through natural language.
-  why_it_matters: >-
-    It demonstrates how AI agents can be specialized for domain-specific workflows like finance, offering developers a
-    pattern for building agents that integrate real-world data, permissions, and execution.
-  mental_damage: >-
-    Another AI agent promising outsized returns while quietly adding yet another layer of abstraction between you and
-    your money.
+  summary: Questflow is an AI finance agent that enables users to invest alongside top investors by connecting wallets, exchanges, and brokers to execute trades via natural language.
+  why_it_matters: It offers developers a glimpse into autonomous financial agents that combine LLMs with real-world asset execution, though it is not a tool for software development workflows.
+  mental_damage: Another AI agent promising outsized returns while developers just want their CI/CD pipelines to stop flaking.
   tags:
-    - ai-agent
     - finance
+    - ai-agent
+    - trading
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Questflow is a domain-specific AI agent for finance and investing, not a developer-facing tool for coding, workflow
-    orchestration, or AI infrastructure relevant to software development workflows.
+  reason: Questflow is an end-user AI agent focused on personal finance and trading, not a developer-facing tool for coding, workflows, or infrastructure; it does not assist with software development tasks.
   evidence:
-    - >-
-      Scraped site context describes Questflow as 'an AI finance agent that lets you invest alongside top investors
-      across markets' with features like connecting wallets, executing trades, and following top investor strategies.
-    - >-
-      No evidence of developer tooling, code generation, API/SDK offerings, or integration with coding agents, editors,
-      or development workflows.
-    - >-
-      Source-list placement in awesome-ai-agents under 'Questflow' section confirms its categorization as an AI agent
-      for finance, not developer tooling.
+    - Scraped site context describes Questflow as 'an AI finance agent that lets you invest alongside top investors across markets'
+    - Source-list context places it in awesome-ai-agents under 'Questflow' with the purpose 'Built to let you invest alongside top investors across markets'
+    - No evidence of code editing, repo interaction, IDE integration, or developer tooling functionality in the provided inputs
 placement:
   primary_category: null
   section: null
@@ -73,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,33 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:35:13.908Z'
+    updated_at: "2026-10-05T04:44:02.335Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a38dbf0744a356bc814e9e1ef0d5ed04155a6689e10c5affc150948076ae3976
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:827c4db861abb38cb40b807538160b5167db15f259d0870959c17aa9c138a30f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Questflow is a domain-specific AI agent for finance and investing, not a developer-facing tool for coding,
-        workflow orchestration, or AI infrastructure relevant to software development workflows.
+      decision_reason: Questflow is an end-user AI agent focused on personal finance and trading, not a developer-facing tool for coding, workflows, or infrastructure; it does not assist with software development tasks.
       decision_evidence:
-        - >-
-          Scraped site context describes Questflow as 'an AI finance agent that lets you invest alongside top investors
-          across markets' with features like connecting wallets, executing trades, and following top investor
-          strategies.
-        - >-
-          No evidence of developer tooling, code generation, API/SDK offerings, or integration with coding agents,
-          editors, or development workflows.
-        - >-
-          Source-list placement in awesome-ai-agents under 'Questflow' section confirms its categorization as an AI
-          agent for finance, not developer tooling.
+        - Scraped site context describes Questflow as 'an AI finance agent that lets you invest alongside top investors across markets'
+        - Source-list context places it in awesome-ai-agents under 'Questflow' with the purpose 'Built to let you invest alongside top investors across markets'
+        - No evidence of code editing, repo interaction, IDE integration, or developer tooling functionality in the provided inputs
       category_candidates: []
       contrastive_reason: null
       review_reason: null

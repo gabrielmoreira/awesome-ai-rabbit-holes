@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jourdanlabs__assay-001__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: ASSAY-001
         extracted_url: https://github.com/jourdanlabs/assay-001
-        surrounding_text: >-
-          - [ASSAY-001](https://github.com/jourdanlabs/assay-001)
-          ![stars](https://img.shields.io/github/stars/jourdanlabs/assay-001?style=flat-square&label=%E2%98%85) -
-          Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a split
-          verdict and full logs, written up at [donttrustme.ai](https://donttrustme.ai/assay-001.html).
+        surrounding_text: "- [ASSAY-001](https://github.com/jourdanlabs/assay-001) ![stars](https://img.shields.io/github/stars/jourdanlabs/assay-001?style=flat-square&label=%E2%98%85) - Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a split verdict and full logs, written up at [donttrustme.ai](https://donttrustme.ai/assay-001.html)."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ASSAY-001 - Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a
-    split verdict and full logs, written up at donttrustme.ai.
+  summary: ASSAY-001 - Independent pre-registered check of Jev calibration and type safety on Banking77 / CLINC150, with a split verdict and full logs, written up at donttrustme.ai.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.98
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.463Z'
+    updated_at: "2026-09-29T13:07:10.463Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

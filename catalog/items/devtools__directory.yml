@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__devtools__directory__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Related Lists
         anchor_text: DevTools Directory
         extracted_url: https://devtools.directory
-        surrounding_text: '- **[DevTools Directory](https://devtools.directory)** – Directory of trending dev tools.'
+        surrounding_text: "- **[DevTools Directory](https://devtools.directory)** – Directory of trending dev tools."
         confidence: high
 metadata:
   github:
@@ -36,32 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open-source, community-maintained directory of developer tools, languages, frameworks, and learning resources.
-  why_it_matters: >-
-    It serves as a centralized, wiki-style reference to help developers navigate the vast landscape of programming
-    ecosystems.
-  mental_damage: Another infinite list to scroll through while you pretend you aren't just procrastinating on your actual setup.
+  summary: devtools.directory is a community-maintained open wiki that curates developer tools, languages, frameworks, libraries, books, courses, paths, newsletters, and resources.
+  why_it_matters: It helps developers discover and evaluate tools across the ecosystem through a centralized, searchable directory.
+  mental_damage: Another awesome list to star and forget, adding to the guilt of unread bookmarks and infinite tool sprawl.
   tags:
     - directory
     - discovery
-    - curated
+    - curated-list
+    - developer-resources
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: The site is a curated, open-source directory of developer tools and resources, matching the purpose of awesome lists and curated directories in the catalog.
   evidence:
-    - jev-latest choice confidence 0.95
+    - "Scraped site description: 'A curated, open-source directory of developer tools, books, courses, and resources.'"
+    - Seen in source list awesome-ai-coding-tools under section 'Related Lists' as 'A curated, open-source directory of developer tools, books, courses, and resources.'
+    - Site structure includes categorized sections for tools, languages, frameworks, libraries, stacks, books, courses, paths, newsletters, and resources.
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): publications-and-feeds'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,38 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:46.912Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for devtools__directory: Invalid AI response structure: Invalid confidence
-        value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:05.131Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:87a8f6e3e92f0f23ae507dab005050e0bba5c2457194a65fbcb422df9ed49e8d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:969d1b7d6e937c618baff755b9dd9f30475de31cdd43a387927c7401ea641187
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        It is a curated directory and index designed for ecosystem discovery, which is the exact definition of this
-        category.
+      decision_reason: The site is a curated, open-source directory of developer tools and resources, matching the purpose of awesome lists and curated directories in the catalog.
       decision_evidence:
-        - README describes it as 'The open wiki for everything developers use'
-        - >-
-          Scraped site context identifies it as an 'open-source directory of developer tools, books, courses, and
-          resources'
-        - Contains indexed entries for languages, frameworks, and libraries
+        - "Scraped site description: 'A curated, open-source directory of developer tools, books, courses, and resources.'"
+        - Seen in source list awesome-ai-coding-tools under section 'Related Lists' as 'A curated, open-source directory of developer tools, books, courses, and resources.'
+        - Site structure includes categorized sections for tools, languages, frameworks, libraries, stacks, books, courses, paths, newsletters, and resources.
       category_candidates:
         - awesome-awesomes
-        - publications-and-feeds
-      contrastive_reason: >-
-        Choose awesome-awesomes over publications-and-feeds because it is a structured directory/map for discovery
-        rather than a source of recurring commentary or media.
-      review_reason: 'Categorization review required: unknown category candidate(s): publications-and-feeds'
+        - agent-orchestration
+      contrastive_reason: Choose awesome-awesomes over agent-orchestration because devtools.directory is a curated discovery directory, not a platform for managing or coordinating multiple AI agents.
+      review_reason: null
       review_resume_lifecycle: null

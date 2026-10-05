@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__benchmarkheaven__com__jev__models__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: JevBench
         extracted_url: https://benchmarkheaven.com/jev-models
-        surrounding_text: >-
-          - [JevBench](https://benchmarkheaven.com/jev-models) - Benchmark + HN thread (126 points, 34 comments): a
-          reproducible harness for comparing typed-decision models on the same questions.
+        surrounding_text: "- [JevBench](https://benchmarkheaven.com/jev-models) - Benchmark + HN thread (126 points, 34 comments): a reproducible harness for comparing typed-decision models on the same questions."
         confidence: high
 metadata:
   github:
@@ -39,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    JevBench - Benchmark + HN thread (126 points, 34 comments): a reproducible harness for comparing typed-decision
-    models on the same questions.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev-models is a benchmark hub for Jev decision models that serves typed questions with probabilities instead of generating text.
+  why_it_matters: It lets developers evaluate and compare decision-model performance for routing, scoring, and verification tasks where deterministic outputs are needed.
+  mental_damage: Another benchmark site promising clarity while the ecosystem keeps spitting out new model variants faster than anyone can validate them.
+  tags:
+    - decision-models
+    - benchmarks
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The site focuses on benchmarking Jev decision models, which are typed question-answering systems returning probabilities, placing it squarely in the decision-models category as an evals benchmark for that specific model type.
   evidence:
-    - jev-latest choice confidence 0.76
-    - >-
-      jev winnow:e4b 0.28 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - "URL: benchmarkheaven.com/jev-models"
+    - "Seen in source list: awesome-jev under Full list > Related Practices / Discussions"
+    - "Repo description: (none) but source-list context ties it to Jev decision models"
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -65,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:39.348Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:08e2244e1bc3d3caf3273023cb58bd364db0064fe6afb4109b074a78b0de7c1c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The site focuses on benchmarking Jev decision models, which are typed question-answering systems returning probabilities, placing it squarely in the decision-models category as an evals benchmark for that specific model type.
+      decision_evidence:
+        - "URL: benchmarkheaven.com/jev-models"
+        - "Seen in source list: awesome-jev under Full list > Related Practices / Discussions"
+        - "Repo description: (none) but source-list context ties it to Jev decision models"
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the benchmark is specifically for Jev decision models (typed question-answering with probabilities), and decision-model benchmarks belong in decision-models per the precedence rule.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

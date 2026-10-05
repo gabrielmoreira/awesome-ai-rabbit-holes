@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vercel-labs__ai-cli__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: ai-cli
         extracted_url: https://github.com/vercel-labs/ai-cli
-        surrounding_text: >-
-          - [ai-cli](https://github.com/vercel-labs/ai-cli) ([site](https://ai-cli.dev)) - Vercel Labs terminal CLI that
-          can run Jev as the evaluation model for its evaluate command.
+        surrounding_text: "- [ai-cli](https://github.com/vercel-labs/ai-cli) ([site](https://ai-cli.dev)) - Vercel Labs terminal CLI that can run Jev as the evaluation model for its evaluate command."
         confidence: high
     - id: discovery__github__vercel-labs__ai-cli__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: ai-cli
         extracted_url: https://github.com/vercel-labs/ai-cli
-        surrounding_text: >-
-          | [ai-cli](https://github.com/vercel-labs/ai-cli) | ★ 807 | TypeScript | 2026-09-19 | Vercel Labs terminal CLI
-          that can run Jev as the evaluation model for its evaluate command. |
+        surrounding_text: "| [ai-cli](https://github.com/vercel-labs/ai-cli) | ★ 807 | TypeScript | 2026-09-19 | Vercel Labs terminal CLI that can run Jev as the evaluation model for its evaluate command. |"
         confidence: high
     - id: discovery__github__vercel-labs__ai-cli__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -55,10 +51,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: AI CLI
         extracted_url: https://github.com/vercel-labs/ai-cli
-        surrounding_text: >-
-          - [AI CLI](https://github.com/vercel-labs/ai-cli)
-          ![stars](https://img.shields.io/github/stars/vercel-labs/ai-cli?style=flat-square&label=%E2%98%85) - Developer
-          tooling: Vercel Labs CLI that can run Jev as the evaluation model for its `evaluate` command.
+        surrounding_text: "- [AI CLI](https://github.com/vercel-labs/ai-cli) ![stars](https://img.shields.io/github/stars/vercel-labs/ai-cli?style=flat-square&label=%E2%98%85) - Developer tooling: Vercel Labs CLI that can run Jev as the evaluation model for its `evaluate` command."
         confidence: high
 metadata:
   github:
@@ -86,9 +79,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
     - jev-latest choice confidence 0.42
-    - >-
-      jev winnow:e4b 0.18 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.18 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -100,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
+    updated_at: "2026-09-29T13:07:10.405Z"
     cause: null
     next_retry_at: null
   stars:
@@ -108,6 +99,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

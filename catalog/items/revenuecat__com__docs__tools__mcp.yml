@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,12 +18,10 @@ provenance:
           - Official Servers
         anchor_text: RevenueCat
         extracted_url: https://revenuecat.com/docs/tools/mcp/overview
-        surrounding_text: >-
-          - **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in
-          [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment.
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
         confidence: high
     - id: discovery__www__revenuecat__com__docs__tools__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -35,9 +33,7 @@ provenance:
           - Official Servers
         anchor_text: RevenueCat
         extracted_url: https://www.revenuecat.com/docs/tools/mcp/overview
-        surrounding_text: >-
-          - **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in
-          [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment.
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
         confidence: high
 metadata:
   github:
@@ -55,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RevenueCat's Model Context Protocol server exposing subscription and in-app purchase tools for AI agents.
-  why_it_matters: >-
-    Lets AI agents securely access subscription data and billing workflows via a standardized interface, enabling
-    finance-aware automations.
-  mental_damage: Yet another MCP server promising to let your AI handle money—just pray it doesn’t refund your user by accident.
+  summary: RevenueCat provides MCP server documentation for integrating subscription and revenue data into AI agents via the Model Context Protocol.
+  why_it_matters: Developers can give AI agents real-time access to subscription metrics and customer data without building custom APIs.
+  mental_damage: Another MCP server promising to unlock AI's potential—while developers still wrestle with whether their agent actually needs to know MRR mid-refactor.
   tags:
     - mcp
     - finance
-    - billing
+    - saas
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
+  reason: RevenueCat's MCP server documentation positions it as an MCP infrastructure provider for financial data, making MCP the primary identity rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.86
+    - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' section"
+    - "URL path: /docs/tools/mcp indicates MCP-focused documentation"
+    - "Product purpose: exposes subscription/revenue data via MCP protocol for AI agent consumption"
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -80,37 +76,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:45:27.179Z'
+    updated_at: "2026-10-05T04:50:38.016Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e87f8e3296e879b38531cc99b9c19710756a8c3577eeb30bf9ea3cf5e1baab63
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:49a753cfdd32527694e3ad14e26b189cf47e8333a74b9363aabf0fdd8e9e107b
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        RevenueCat’s MCP server is primarily an MCP infrastructure product exposing financial tools, making MCP
-        Ecosystem the correct fit over extensions or agents.
+      decision_reason: RevenueCat's MCP server documentation positions it as an MCP infrastructure provider for financial data, making MCP the primary identity rather than a coding agent or extension.
       decision_evidence:
-        - Source-list context shows inclusion in awesome-mcp-servers under 'Official Servers'
-        - 'URL path indicates it is an MCP server: /docs/tools/mcp'
-        - Product identity is MCP server exposing RevenueCat’s subscription and purchase capabilities
+        - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' section"
+        - "URL path: /docs/tools/mcp indicates MCP-focused documentation"
+        - "Product purpose: exposes subscription/revenue data via MCP protocol for AI agent consumption"
       category_candidates:
         - mcp
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product’s primary identity is being an MCP server, not a tool
-        that extends a coding agent or editor.
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because RevenueCat's identity is providing MCP server infrastructure for financial data, not a code-first SDK or library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.969Z'
+    updated_at: "2026-07-21T15:20:21.969Z"
     cause: null
     next_retry_at: null
   stars:

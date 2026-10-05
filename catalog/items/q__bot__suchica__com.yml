@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__q__bot__suchica__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Q, ChatGPT for Slack
         anchor_text: Q, ChatGPT for Slack
         extracted_url: https://q-bot.suchica.com
-        surrounding_text: '## [Q, ChatGPT for Slack](https://q-bot.suchica.com/)'
+        surrounding_text: "## [Q, ChatGPT for Slack](https://q-bot.suchica.com/)"
         confidence: high
 metadata:
   github:
@@ -36,34 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Q, ChatGPT for Slack is an officially approved Slack app that lets users interact with OpenAI's GPT model within
-    their workspace, supporting file and URL reading, custom instructions, and plugins.
-  why_it_matters: >-
-    It brings AI chat capabilities into Slack workflows, enabling teams to use GPT for tasks like summarizing documents,
-    brainstorming, or generating content without leaving the platform.
-  mental_damage: >-
-    Another AI Slackbot promising to boost productivity while adding yet another notification to ignore in an already
-    noisy channel.
+  summary: Q, ChatGPT for Slack is a Slack app that lets users interact with a GPT-powered assistant to read files, summarize content, and generate text within Slack channels.
+  why_it_matters: It brings LLM-powered assistance directly into team communication workflows, reducing context switching for quick tasks like drafting or research.
+  mental_damage: Yet another way to accidentally leak internal docs to an AI while trying to look productive in a meeting.
   tags:
-    - slack-integration
-    - ai-chat
-    - workflow-assistant
+    - slack
+    - ai-assistant
+    - workflow-integration
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a general-purpose AI chat assistant for Slack, not a developer-focused tool; its primary use case is broad
-    workplace assistance (e.g., emails, translations, reporting), not coding, debugging, or software development
-    workflows.
+  reason: The tool is a general-purpose AI assistant for Slack with no specific developer-facing functionality such as code generation, debugging, or repository interaction; it serves broad workplace productivity rather than software development workflows.
   evidence:
-    - >-
-      Marketed as 'ChatGPT for your Slack' with use cases like emails, translations, tweet/blog content creation, and
-      reporting
-    - >-
-      Supports general URL/file reading (Google Docs, YouTube, PDFs) and plugins like Google search, not code-specific
-      tools
-    - Appears in awesome-ai-agents under 'Q, ChatGPT for Slack' as a general AI agent, not a coding or developer tool
+    - Described as 'ChatGPT for your Slack' with features like file reading, summarization, and content creation for emails, blogs, and reports
+    - Supports general use cases such as translations, tweet/blog content creation, and self-reviewing, not coding-specific tasks
+    - Listed in awesome-ai-agents under 'Q, ChatGPT for Slack' as a Slack app, not a developer tool
 placement:
   primary_category: null
   section: null
@@ -73,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,33 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:35:12.219Z'
+    updated_at: "2026-10-05T04:43:59.499Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0f72e0b5b6d3c0c03487b744f8b61d403c3b3de9d34d5f7df093aa3817f8cd9f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e4db73883748f5d62d30cbabf8c8bf6e18cd8f5ebbfe0d454d41c24efe5ecbbd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a general-purpose AI chat assistant for Slack, not a developer-focused tool; its primary use case is broad
-        workplace assistance (e.g., emails, translations, reporting), not coding, debugging, or software development
-        workflows.
+      decision_reason: The tool is a general-purpose AI assistant for Slack with no specific developer-facing functionality such as code generation, debugging, or repository interaction; it serves broad workplace productivity rather than software development workflows.
       decision_evidence:
-        - >-
-          Marketed as 'ChatGPT for your Slack' with use cases like emails, translations, tweet/blog content creation,
-          and reporting
-        - >-
-          Supports general URL/file reading (Google Docs, YouTube, PDFs) and plugins like Google search, not
-          code-specific tools
-        - >-
-          Appears in awesome-ai-agents under 'Q, ChatGPT for Slack' as a general AI agent, not a coding or developer
-          tool
+        - Described as 'ChatGPT for your Slack' with features like file reading, summarization, and content creation for emails, blogs, and reports
+        - Supports general use cases such as translations, tweet/blog content creation, and self-reviewing, not coding-specific tasks
+        - Listed in awesome-ai-agents under 'Q, ChatGPT for Slack' as a Slack app, not a developer tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

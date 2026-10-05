@@ -5,9 +5,8 @@ canonical_url: https://promptengineering.org/role-playing-in-large-language-mode
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__promptengineering__org__role__playing__in__large__language__models__like__chatgpt__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__promptengineering__org__role__playing__in__large__language__models__like__chatgpt__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 技巧 Tips
         anchor_text: Role-Playing in Large Language Models like ChatGPT
         extracted_url: https://promptengineering.org/role-playing-in-large-language-models-like-chatgpt
-        surrounding_text: >-
-          30. [Role-Playing in Large Language Models like
-          ChatGPT](https://promptengineering.org/role-playing-in-large-language-models-like-chatgpt/)
+        surrounding_text: 30. [Role-Playing in Large Language Models like ChatGPT](https://promptengineering.org/role-playing-in-large-language-models-like-chatgpt/)
         confidence: high
 metadata:
   github:
@@ -39,32 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Role-Playing in Large Language Models like ChatGPT is a guide on using role-playing prompting techniques to improve
-    LLM outputs.
-  why_it_matters: >-
-    Shows developers how to steer LLMs toward more accurate, consistent, and persona-aligned responses via prompt
-    design.
-  mental_damage: >-
-    Another reminder that getting useful AI output sometimes requires treating the model like a method actor in need of
-    motivation.
+  summary: An educational article explaining role-playing as a prompt engineering technique for large language models.
+  why_it_matters: Teaches developers how to use role-playing prompts to improve LLM output relevance and consistency in applications.
+  mental_damage: Another prompt engineering blog post that makes you wonder if you need a PhD to talk to chatbots properly.
   tags:
     - prompt-engineering
-    - llm-techniques
+    - llm
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational guide on a prompting technique, not a developer-facing tool, agent, framework, or
-    infrastructure product.
+  reason: This is an educational resource about a prompting technique, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - >-
-      The source is a blog post on promptengineering.org explaining role-playing in LLMs with examples like healthcare
-      and finance chatbots.
-    - >-
-      No GitHub repo, stars, or product identity; it is purely informational content with no downloadable or executable
-      artifact.
-    - Appears in an awesome list under '技巧 Tips' as a learning resource, not a tool.
+    - The content is a blog post from promptengineering.org explaining role-playing in LLMs
+    - It describes a conceptual technique rather than providing a usable product, tool, or platform
+    - Seen in awesome-LLM-resources under '技巧 Tips' as an educational article, not a tool
 placement:
   primary_category: null
   section: null
@@ -74,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,30 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:34:57.236Z'
+    updated_at: "2026-10-05T04:43:45.878Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:af0fd5f83e80f58bf3490b8f1f24acac9ccfd3cd7682dd5253e85d8d571d0958
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1dfb917eaccaaf0842755026342da2fda937527d131edc0f8b9618193b734d45
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational guide on a prompting technique, not a developer-facing tool, agent, framework, or
-        infrastructure product.
+      decision_reason: This is an educational resource about a prompting technique, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - >-
-          The source is a blog post on promptengineering.org explaining role-playing in LLMs with examples like
-          healthcare and finance chatbots.
-        - >-
-          No GitHub repo, stars, or product identity; it is purely informational content with no downloadable or
-          executable artifact.
-        - Appears in an awesome list under '技巧 Tips' as a learning resource, not a tool.
+        - The content is a blog post from promptengineering.org explaining role-playing in LLMs
+        - It describes a conceptual technique rather than providing a usable product, tool, or platform
+        - Seen in awesome-LLM-resources under '技巧 Tips' as an educational article, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

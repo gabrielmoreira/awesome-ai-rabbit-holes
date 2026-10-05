@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xopher00__jevdevice__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevdevice
         extracted_url: https://github.com/xopher00/jevdevice
-        surrounding_text: >-
-          - [jevdevice](https://github.com/Xopher00/jevdevice) - MCP harness for Android (adb) or local shell: TypeSafe
-          Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. [Project
-          guide](community/projects/tools/jevdevice.md).
+        surrounding_text: "- [jevdevice](https://github.com/Xopher00/jevdevice) - MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. [Project guide](community/projects/tools/jevdevice.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevdevice - MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered
-    target per goal; code gates and executes. Project guide.
+  summary: "jevdevice - MCP harness for Android (adb) or local shell: TypeSafe Jev (or local Laya) picks one runtime-discovered target per goal; code gates and executes. Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

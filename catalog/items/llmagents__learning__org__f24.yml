@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmagents__learning__org__f24__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,45 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    f24 is a Fall 2024 MOOC on Large Language Model Agents covering topics like reasoning, tool use, code generation,
-    and multi-agent systems.
-  why_it_matters: >-
-    It provides structured educational content for developers seeking to understand and build LLM agents through
-    expert-led lectures and hands-on labs.
-  mental_damage: >-
-    Another syllabus to bookmark while pretending you’ll eventually watch all 12 lectures between sprint planning and
-    incident response.
+  summary: Large Language Model Agents MOOC from Fall 2024 with lectures on agent foundations, applications, and limitations.
+  why_it_matters: Provides structured educational content on LLM agent development for developers seeking to understand agentic systems.
+  mental_damage: Another MOOC promising agent mastery while the field shifts faster than syllabus updates.
   tags:
     - education
     - llm-agents
     - course
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    f24 is an educational resource (MOOC) that curates and presents expert knowledge on LLM agents, fitting the curated
-    lists and resources scope as a publication/feed rather than a developer tool.
+  status: excluded
+  reason: This is an educational course resource, not a developer-facing AI tool, agent, or infrastructure product.
   evidence:
-    - Listed in awesome-LLM-resources under '课程 Course' as a MOOC, Fall 2024
-    - >-
-      Scraped site identifies it as 'Large Language Model Agents MOOC, Fall 2024' with syllabus, lectures, labs, and
-      hackathon
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
-      awesome-awesomes (unverified)
+    - Described as a MOOC with lectures, quizzes, labs, and a hackathon
+    - Focuses on teaching concepts like reasoning, planning, tool use, and agent applications
+    - Appears in awesome-LLM-resources under the '课程 Course' section
 placement:
-  primary_category: awesome-awesomes
-  section: Publications & Feeds
+  primary_category: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,32 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:53.438Z'
+    updated_at: "2026-10-05T04:40:56.190Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0bc22e5da31e40cd585cc5eb14ba02b4be34a9fa2d14d7c56b649c1698ed6ee7
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:baf7c41bac1ecd132b3bf2e7cf5c897fa4f26a9cdc377f14f6b09054ebe4c684
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        f24 is an educational resource (MOOC) that curates and presents expert knowledge on LLM agents, fitting the
-        curated lists and resources scope as a publication/feed rather than a developer tool.
+      decision_reason: This is an educational course resource, not a developer-facing AI tool, agent, or infrastructure product.
       decision_evidence:
-        - Listed in awesome-LLM-resources under '课程 Course' as a MOOC, Fall 2024
-        - >-
-          Scraped site identifies it as 'Large Language Model Agents MOOC, Fall 2024' with syllabus, lectures, labs, and
-          hackathon
-      category_candidates:
-        - awesome-awesomes
-        - evals
-      contrastive_reason: >-
-        Choose awesome-awesomes over evals because f24 is an educational course and resource curation, not a framework
-        for measuring or benchmarking model/agent behavior.
+        - Described as a MOOC with lectures, quizzes, labs, and a hackathon
+        - Focuses on teaching concepts like reasoning, planning, tool use, and agent applications
+        - Appears in awesome-LLM-resources under the '课程 Course' section
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

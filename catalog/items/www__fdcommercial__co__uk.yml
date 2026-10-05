@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__www__fdcommercial__co__uk__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-08T05:39:05.247Z'
+      discovered_at: "2026-06-08T05:39:05.247Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: FD Commercial
         extracted_url: https://www.fdcommercial.co.uk
-        surrounding_text: >-
-          - [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp)
-          [![fdcommercial/property-finance-mcp MCP
-          server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp)
-          📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development
-          appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT,
-          LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker.
-          Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint.
+        surrounding_text: "- [fdcommercial/property-finance-mcp](https://github.com/fdcommercial/property-finance-mcp) [![fdcommercial/property-finance-mcp MCP server](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fdcommercial/property-finance-mcp) 📇 ☁️ 🏠 - UK property finance calculators: bridging cost (rolled-up / retained / serviced), development appraisal (LTC, LTGDV, viability), BTL stress test (125%, 145%, 170% ICR), and UK stamp duty (SDLT, LBTT, LTT). Built by [FD Commercial](https://www.fdcommercial.co.uk), a specialist UK property finance broker. Install via `npx -y @fdcommercial/property-finance-mcp` or call the hosted endpoint."
         confidence: high
 metadata:
   github:
@@ -44,24 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A commercial finance and fintech-focused MCP server for providing financial data access to AI agents.
-  why_it_matters: >-
-    It allows AI coding agents to interface with commercial financial data and fintech systems via a standardized
-    protocol.
-  mental_damage: >-
-    We've reached the era where your AI agent can now handle the corporate bookkeeping while you wonder if it's
-    accidentally auditing your own salary.
-  tags:
-    - mcp
-    - fintech
-    - finance
-    - data-connector
-  confidence: medium
+  summary: FD Commercial is a UK-based commercial property agency website offering property listings and agent services.
+  why_it_matters: It does not provide developer-facing AI tools, coding agents, or infrastructure relevant to software development workflows.
+  mental_damage: Another reminder that not every .co.uk site with a contact form is secretly an LLM-powered dev platform.
+  tags: []
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
+  status: excluded
+  reason: The site is a commercial real estate brokerage with no AI tooling, developer features, or code-related functionality.
   evidence:
-    - jev-latest choice confidence 0.80
+    - "Repo description: (none)"
+    - "README excerpt: (not provided, but URL is a property agency site)"
+    - No indicators of AI, coding agents, extensions, or developer tooling in available context
 placement:
   primary_category: null
   secondary_categories: []
@@ -72,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-08T05:39:05.249Z'
+    updated_at: "2026-06-08T05:39:05.249Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,29 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:34:02.882Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for www__fdcommercial__co__uk: Upstream error from Nvidia: ResourceExhausted:
-        Worker local total request limit reached (16/16)
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:26:06.070Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0d75518748bedf7fa43ba7b45a15ef36ab25512e087d5449d6e8dd448a03994f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f482f45a2af15ee800626d65b8dbad2517da10d62be92263d471248279d54601
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a commercial property listing platform with no AI, agent, or developer tooling identity.
+      decision_reason: The site is a commercial real estate brokerage with no AI tooling, developer features, or code-related functionality.
       decision_evidence:
         - "Repo description: (none)"
-        - "URL: https://www.fdcommercial.co.uk"
-        - No README, source-list context, or indicators of AI developer tooling
+        - "README excerpt: (not provided, but URL is a property agency site)"
+        - No indicators of AI, coding agents, extensions, or developer tooling in available context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

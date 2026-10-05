@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__typesafe-ai__typesafe-sdk-python__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Official
         anchor_text: TypeSafe Python SDK
         extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
-        surrounding_text: >-
-          - [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python)
-          ([site](https://docs.typesafe.ai/sdk/python)) - Official sync and async Python client. pip install
-          typesafe-sdk.
+        surrounding_text: "- [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) ([site](https://docs.typesafe.ai/sdk/python)) - Official sync and async Python client. pip install typesafe-sdk."
         confidence: high
     - id: discovery__github__typesafe-ai__typesafe-sdk-python__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,12 +34,10 @@ provenance:
           - Official SDKs and tools
         anchor_text: Python SDK
         extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
-        surrounding_text: >-
-          - [Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) - Synchronous and asynchronous clients with
-          typed answers and configurable retries.
+        surrounding_text: "- [Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) - Synchronous and asynchronous clients with typed answers and configurable retries."
         confidence: high
     - id: discovery__github__typesafe-ai__typesafe-sdk-python__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -55,12 +50,10 @@ provenance:
           - Official (6)
         anchor_text: TypeSafe Python SDK
         extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
-        surrounding_text: >-
-          | [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) | ★ 128 | Python | 2026-09-19 |
-          Official sync and async Python client. pip install typesafe-sdk. |
+        surrounding_text: "| [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) | ★ 128 | Python | 2026-09-19 | Official sync and async Python client. pip install typesafe-sdk. |"
         confidence: high
     - id: discovery__github__typesafe-ai__typesafe-sdk-python__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -70,14 +63,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**typesafe-sdk-python**'
+        anchor_text: "**typesafe-sdk-python**"
         extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
-        surrounding_text: >-
-          - [**typesafe-sdk-python**](https://github.com/typesafe-ai/typesafe-sdk-python) — Official TypeSafe Python SDK
-          with synchronous and asynchronous clients for Jev System One, plus question and answer types.
+        surrounding_text: "- [**typesafe-sdk-python**](https://github.com/typesafe-ai/typesafe-sdk-python) — Official TypeSafe Python SDK with synchronous and asynchronous clients for Jev System One, plus question and answer types."
         confidence: high
     - id: discovery__github__typesafe-ai__typesafe-sdk-python__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -89,11 +80,7 @@ provenance:
           - Recent developments
         anchor_text: Release notes
         extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
-        surrounding_text: >-
-          **September 18: Python SDK 0.7.0.** [Release
-          notes](https://github.com/typesafe-ai/typesafe-sdk-python/releases/tag/v0.7.0) document a breaking
-          serialization change from `msgspec` to Pydantic, a new `response_model` argument, and corrected serialization
-          of `str` subclasses.
+        surrounding_text: "**September 18: Python SDK 0.7.0.** [Release notes](https://github.com/typesafe-ai/typesafe-sdk-python/releases/tag/v0.7.0) document a breaking serialization change from `msgspec` to Pydantic, a new `response_model` argument, and corrected serialization of `str` subclasses."
         confidence: high
 metadata:
   github:
@@ -131,7 +118,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.378Z'
+    updated_at: "2026-09-29T13:07:10.378Z"
     cause: null
     next_retry_at: null
   stars:
@@ -139,6 +126,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

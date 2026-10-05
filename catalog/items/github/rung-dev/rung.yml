@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rung-dev__rung__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Testing and QA
         anchor_text: rung
         extracted_url: https://github.com/rung-dev/rung
-        surrounding_text: >-
-          - **[rung](https://github.com/rung-dev/rung)** – Deterministic, AI-free CI gate that checks whether an AI
-          coding agent ran the checks it claims: reads an evidence bundle from the real run and passes or blocks the
-          build. Ships as a GitHub Action, CLI, and agent-agnostic skill.
+        surrounding_text: "- **[rung](https://github.com/rung-dev/rung)** – Deterministic, AI-free CI gate that checks whether an AI coding agent ran the checks it claims: reads an evidence bundle from the real run and passes or blocks the build. Ships as a GitHub Action, CLI, and agent-agnostic skill."
         confidence: high
 metadata:
   github:
@@ -40,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    rung – Deterministic, AI-free CI gate that checks whether an AI coding agent ran the checks it claims: reads an
-    evidence bundle from the real run and passes or blocks the build. Ships as a GitHub Action, CLI, and agent-agnostic
-    skill.
+  summary: "rung – Deterministic, AI-free CI gate that checks whether an AI coding agent ran the checks it claims: reads an evidence bundle from the real run and passes or blocks the build. Ships as a GitHub Action, CLI, and agent-agnostic skill."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.475Z'
+    updated_at: "2026-09-29T13:07:10.475Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

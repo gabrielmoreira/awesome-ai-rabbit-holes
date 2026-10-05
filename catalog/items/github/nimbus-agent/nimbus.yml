@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nimbus-agent__nimbus__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: nimbus-agent/Nimbus
         extracted_url: https://github.com/nimbus-agent/nimbus
-        surrounding_text: >-
-          - [nimbus-agent/Nimbus](https://github.com/nimbus-agent/Nimbus) [![nimbus-agent/Nimbus MCP
-          server](https://glama.ai/mcp/servers/nimbus-agent/Nimbus/badges/score.svg)](https://glama.ai/mcp/servers/nimbus-agent/Nimbus)
-          🎖️ 📇 🏠 🍎 🪟 🐧 - Read-only search over a local index of your engineering stack (GitHub, Jira, Slack,
-          PagerDuty, Datadog and more): incidents, PRs, deployments and DORA metrics.
+        surrounding_text: "- [nimbus-agent/Nimbus](https://github.com/nimbus-agent/Nimbus) [![nimbus-agent/Nimbus MCP server](https://glama.ai/mcp/servers/nimbus-agent/Nimbus/badges/score.svg)](https://glama.ai/mcp/servers/nimbus-agent/Nimbus) 🎖️ 📇 🏠 🍎 🪟 🐧 - Read-only search over a local index of your engineering stack (GitHub, Jira, Slack, PagerDuty, Datadog and more): incidents, PRs, deployments and DORA metrics."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    nimbus-agent/Nimbus ️ - Read-only search over a local index of your engineering stack (GitHub, Jira, Slack,
-    PagerDuty, Datadog and more): incidents, PRs, deployments and DORA metrics.
+  summary: "nimbus-agent/Nimbus ️ - Read-only search over a local index of your engineering stack (GitHub, Jira, Slack, PagerDuty, Datadog and more): incidents, PRs, deployments and DORA metrics."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

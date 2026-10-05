@@ -5,9 +5,8 @@ canonical_url: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mi
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__newsletter__maartengrootendorst__com__p__a__visual__guide__to__mixture__of__experts__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__newsletter__maartengrootendorst__com__p__a__visual__guide__to__mixture__of__experts__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 技巧 Tips
         anchor_text: A Visual Guide to Mixture of Experts (MoE)
         extracted_url: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
-        surrounding_text: >-
-          29. [A Visual Guide to Mixture of Experts
-          (MoE)](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)
+        surrounding_text: 29. [A Visual Guide to Mixture of Experts (MoE)](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts)
         confidence: high
 metadata:
   github:
@@ -39,11 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A visual guide explaining Mixture of Experts (MoE) in large language models through diagrams and text.
-  why_it_matters: >-
-    Helps developers understand a key efficiency technique used in modern LLMs like Mixtral, informing model selection
-    and architecture decisions.
-  mental_damage: Another deep-dive article that makes you feel smart for 20 minutes before you forget how routers actually work.
+  summary: A visual guide explaining the Mixture of Experts technique in Large Language Models.
+  why_it_matters: Helps developers understand a key architectural pattern used in modern LLMs, which can inform model selection and optimization decisions.
+  mental_damage: Another deep-dive on model internals that won't ship code but might make you nod along in a meeting about model efficiency.
   tags:
     - llm
     - architecture
@@ -51,15 +46,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational resource about a machine learning technique, not a developer-facing AI tool, agent, or
-    infrastructure for building or using AI in software development.
+  reason: This is an educational resource about LLM architecture, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a general LLM resource
-    - >-
-      Scraped site context describes it as a visual guide/newsletter post explaining MoE concepts, not a tool or
-      platform
-    - No evidence of code, SDK, agent functionality, or developer workflow integration
+    - The content is a newsletter/blog post explaining Mixture of Experts with visualizations and text, not a tool or platform.
+    - No code, SDK, CLI, agent, or deployable artifact is provided or described as the core offering.
+    - Appears in an awesome list under '技巧 Tips' as a resource, not as a tool to be used in development workflows.
 placement:
   primary_category: null
   section: null
@@ -69,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:43.152Z'
+    updated_at: "2026-10-05T04:42:33.941Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9ef47d4ec46b94ba151e23eed1d0ac4fe4f5ae216bcfdbcdfcb7f34ea7831e37
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bc795bda9b4f15c4e9e0c8b2728956bd7000315850e4f809d2233ef25f8a39ed
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational resource about a machine learning technique, not a developer-facing AI tool, agent, or
-        infrastructure for building or using AI in software development.
+      decision_reason: This is an educational resource about LLM architecture, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips' as a general LLM resource
-        - >-
-          Scraped site context describes it as a visual guide/newsletter post explaining MoE concepts, not a tool or
-          platform
-        - No evidence of code, SDK, agent functionality, or developer workflow integration
+        - The content is a newsletter/blog post explaining Mixture of Experts with visualizations and text, not a tool or platform.
+        - No code, SDK, CLI, agent, or deployable artifact is provided or described as the core offering.
+        - Appears in an awesome list under '技巧 Tips' as a resource, not as a tool to be used in development workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

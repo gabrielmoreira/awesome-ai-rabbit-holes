@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thebous__jev-flash-review__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Evaluation & Observability
-        anchor_text: '**jev-flash-review**'
+        anchor_text: "**jev-flash-review**"
         extracted_url: https://github.com/thebous/jev-flash-review
-        surrounding_text: >-
-          - [**jev-flash-review**](https://github.com/TheBous/jev-flash-review) — An MCP review engine that evaluates
-          Agent-supplied diffs against explicit rules.
+        surrounding_text: "- [**jev-flash-review**](https://github.com/TheBous/jev-flash-review) — An MCP review engine that evaluates Agent-supplied diffs against explicit rules."
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
   evidence:
     - jev-latest choice confidence 0.91
-    - >-
-      jev winnow:e4b 0.28 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
-      at decision-models (unverified)
+    - jev winnow:e4b 0.28 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

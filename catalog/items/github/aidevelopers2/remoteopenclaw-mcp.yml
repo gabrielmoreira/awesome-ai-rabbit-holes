@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidevelopers2__remoteopenclaw-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: aidevelopers2/remoteopenclaw-mcp
         extracted_url: https://github.com/aidevelopers2/remoteopenclaw-mcp
-        surrounding_text: >-
-          - [aidevelopers2/remoteopenclaw-mcp](https://github.com/aidevelopers2/remoteopenclaw-mcp)
-          [![aidevelopers2/remoteopenclaw-mcp MCP
-          server](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp)
-          📇 🏠 - MCP server and CLI to search the Remote OpenClaw directory of 13,870+ MCP servers, 4,384+ agent
-          skills, and plugins. Returns names, links, and install commands. Install: `claude mcp add remoteopenclaw --
-          npx -y remoteopenclaw`. CLI: `npx remoteopenclaw search <query>`. Free, no API key.
+        surrounding_text: "- [aidevelopers2/remoteopenclaw-mcp](https://github.com/aidevelopers2/remoteopenclaw-mcp) [![aidevelopers2/remoteopenclaw-mcp MCP server](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aidevelopers2/remoteopenclaw-mcp) 📇 🏠 - MCP server and CLI to search the Remote OpenClaw directory of 13,870+ MCP servers, 4,384+ agent skills, and plugins. Returns names, links, and install commands. Install: `claude mcp add remoteopenclaw -- npx -y remoteopenclaw`. CLI: `npx remoteopenclaw search <query>`. Free, no API key."
         confidence: high
 metadata:
   github:
@@ -36,27 +30,19 @@ metadata:
     archived: false
     full_name: aidevelopers2/remoteopenclaw-mcp
     html_url: https://github.com/aidevelopers2/remoteopenclaw-mcp
-    created_at: '2026-07-01T01:50:00Z'
-    pushed_at: '2026-07-02T11:15:01Z'
-    description: >-
-      Search 13,870+ MCP servers, 4,384+ agent skills, and plugins from your terminal or AI agent. CLI + MCP server for
-      remoteopenclaw.com
+    created_at: "2026-07-01T01:50:00Z"
+    pushed_at: "2026-07-02T11:15:01Z"
+    description: Search 13,870+ MCP servers, 4,384+ agent skills, and plugins from your terminal or AI agent. CLI + MCP server for remoteopenclaw.com
     homepage: null
     topics: []
-    last_checked_at: '2026-09-17T04:13:35.927Z'
+    last_checked_at: "2026-09-17T04:13:35.927Z"
     readme:
-      fetched_at: '2026-09-17T04:13:35.927Z'
+      fetched_at: "2026-09-17T04:13:35.927Z"
       bytes: 1752
 insights:
-  summary: >-
-    An MCP server that enables AI agents to search the Remote OpenClaw directory for MCP servers, agent skills, and
-    plugins.
-  why_it_matters: >-
-    It allows developers to discover and install new agent capabilities directly through their existing AI coding
-    assistants without leaving the terminal or editor.
-  mental_damage: >-
-    Because searching for tools via an agent is the only logical response to an ecosystem that expands faster than you
-    can read the documentation.
+  summary: An MCP server that enables AI agents to search the Remote OpenClaw directory for MCP servers, agent skills, and plugins.
+  why_it_matters: It allows developers to discover and install new agent capabilities directly through their existing AI coding assistants without leaving the terminal or editor.
+  mental_damage: Because searching for tools via an agent is the only logical response to an ecosystem that expands faster than you can read the documentation.
   tags:
     - mcp
     - discovery
@@ -78,18 +64,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.714Z'
+    updated_at: "2026-07-16T05:04:46.714Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:35.927Z'
+    updated_at: "2026-09-17T04:13:35.927Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:26:24.007Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -109,8 +97,6 @@ processing:
       category_candidates:
         - mcp
         - skills
-      contrastive_reason: >-
-        Choose mcp over skills because the product is a functional MCP server providing discovery services rather than a
-        pack of installable rules or prompt instructions.
+      contrastive_reason: Choose mcp over skills because the product is a functional MCP server providing discovery services rather than a pack of installable rules or prompt instructions.
       review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getizlo__com__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,11 +18,7 @@ provenance:
           - LLMOps
         anchor_text: Izlo
         extracted_url: https://getizlo.com
-        surrounding_text: >-
-          | [Izlo](https://getizlo.com/)                                       | Prompt management tools for teams.
-          Store, improve, test, and deploy your prompts in one unified
-          workspace.                                                                                                                                                                                                                                                                                             
-          |                                                                                                           |
+        surrounding_text: "| [Izlo](https://getizlo.com/)                                       | Prompt management tools for teams. Store, improve, test, and deploy your prompts in one unified workspace.                                                                                                                                                                                                                                                                                              |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -40,15 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for
-    team-based AI prompts.
-  why_it_matters: >-
-    It enables developers to manage prompts as structured assets with versioning and APIs, rather than letting them
-    remain hardcoded or scattered across documentation.
-  mental_damage: >-
-    Finally, a way to version control the chaotic string literals that are currently holding your production application
-    together.
+  summary: Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts.
+  why_it_matters: It enables developers to manage prompts as structured assets with versioning and APIs, rather than letting them remain hardcoded or scattered across documentation.
+  mental_damage: Finally, a way to version control the chaotic string literals that are currently holding your production application together.
   tags:
     - prompt-management
     - prompt-ops
@@ -61,9 +51,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Prompt Engineering & Management
   evidence:
     - jev-latest choice confidence 0.98
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed memory-and-context / Prompt Engineering & Management; placement kept
-      at memory-and-context (unverified)
+    - jev winnow:e4b 0.46 below gate 0.50; proposed memory-and-context / Prompt Engineering & Management; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -75,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,13 +72,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: '2026-09-24T04:40:15.664Z'
+    updated_at: "2026-10-05T04:32:30.836Z"
     cause:
       type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for getizlo__com: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+      message: "Catalog LLM categorization failed for getizlo__com: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": Izlo's cor\"... is not valid JSON"
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
@@ -101,9 +87,7 @@ processing:
       input_hash: sha256:4c92a5707b60c95b4fc827a2dd76fff04c735fb6d8d116f524d0b49b8aa8d58c
       proposed_primary_category: context-engineering
       disagreement: false
-      decision_reason: >-
-        The core identity of the product is prompt management and versioning, which falls directly under the
-        prompt-shaping and management definition of context engineering.
+      decision_reason: The core identity of the product is prompt management and versioning, which falls directly under the prompt-shaping and management definition of context engineering.
       decision_evidence:
         - Claimed core functionality is storing, improving, and deploying prompts in a unified workspace
         - Provides version control, testing suites, and API access for prompt retrieval
@@ -111,8 +95,6 @@ processing:
       category_candidates:
         - context-engineering
         - evals
-      contrastive_reason: >-
-        Choose context-engineering over evals because the product's primary identity is the management and storage of
-        prompt assets, whereas testing/evaluation is a secondary feature set.
+      contrastive_reason: Choose context-engineering over evals because the product's primary identity is the management and storage of prompt assets, whereas testing/evaluation is a secondary feature set.
       review_reason: null
       review_resume_lifecycle: null

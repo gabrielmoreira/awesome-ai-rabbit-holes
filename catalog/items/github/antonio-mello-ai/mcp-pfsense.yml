@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antonio-mello-ai__mcp-pfsense__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: antonio-mello-ai/mcp-pfsense
         extracted_url: https://github.com/antonio-mello-ai/mcp-pfsense
-        surrounding_text: >-
-          - [antonio-mello-ai/mcp-pfsense](https://github.com/antonio-mello-ai/mcp-pfsense) [![mcp-pfsense MCP
-          server](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-pfsense/badges/score.svg)](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-pfsense)
-          🐍 🏠 - Manage pfSense firewalls through AI assistants — firewall rules, DHCP leases/reservations, DNS
-          overrides, gateway monitoring, ARP table, and service management. 17 tools with two-step confirmation for
-          destructive operations.
+        surrounding_text: "- [antonio-mello-ai/mcp-pfsense](https://github.com/antonio-mello-ai/mcp-pfsense) [![mcp-pfsense MCP server](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-pfsense/badges/score.svg)](https://glama.ai/mcp/servers/antonio-mello-ai/mcp-pfsense) 🐍 🏠 - Manage pfSense firewalls through AI assistants — firewall rules, DHCP leases/reservations, DNS overrides, gateway monitoring, ARP table, and service management. 17 tools with two-step confirmation for destructive operations."
         confidence: high
 metadata:
   github:
@@ -35,22 +30,20 @@ metadata:
     archived: false
     full_name: antonio-mello-ai/mcp-pfsense
     html_url: https://github.com/antonio-mello-ai/mcp-pfsense
-    created_at: '2026-03-10T20:20:26Z'
-    pushed_at: '2026-08-17T00:55:20Z'
+    created_at: "2026-03-10T20:20:26Z"
+    pushed_at: "2026-08-17T00:55:20Z"
     description: MCP server for managing pfSense firewalls through AI assistants
     homepage: null
     topics:
       - felhen
       - mcp-server
-    last_checked_at: '2026-09-17T04:13:45.032Z'
+    last_checked_at: "2026-09-17T04:13:45.032Z"
     readme:
-      fetched_at: '2026-09-17T04:13:45.032Z'
+      fetched_at: "2026-09-17T04:13:45.032Z"
       bytes: 6646
 insights:
   summary: MCP server for managing pfSense firewalls through AI assistants.
-  why_it_matters: >-
-    Lets developers use AI assistants to query and manage pfSense firewall rules, DHCP, DNS, and system status via a
-    structured tool interface.
+  why_it_matters: Lets developers use AI assistants to query and manage pfSense firewall rules, DHCP, DNS, and system status via a structured tool interface.
   mental_damage: Now your firewall rules can be edited by the same AI that just rewrote your entire auth system.
   tags:
     - mcp-server
@@ -74,17 +67,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.602Z'
+    updated_at: "2026-05-06T22:12:15.602Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:45.032Z'
+    updated_at: "2026-09-17T04:13:45.032Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -99,9 +92,7 @@ processing:
       input_hash: sha256:58b07ae866f30dac55bb01a39382112e5e96c375017754bd5acb7564840cf3bf
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        This is an MCP-first server whose primary identity is exposing pfSense firewall management as MCP tools for AI
-        assistants.
+      decision_reason: This is an MCP-first server whose primary identity is exposing pfSense firewall management as MCP tools for AI assistants.
       decision_evidence:
         - Repo description explicitly states it is an MCP server for managing pfSense firewalls
         - README details 17 tools across 6 categories for firewall, DHCP, DNS, etc.
@@ -109,8 +100,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension layer
-        for another assistant.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension layer for another assistant.
       review_reason: null
       review_resume_lifecycle: null

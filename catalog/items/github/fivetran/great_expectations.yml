@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fivetran__great_expectations__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-06-18T05:40:04.065Z'
+      discovered_at: "2026-06-18T05:40:04.065Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,15 +20,10 @@ provenance:
           - Observability
         anchor_text: Great Expectations
         extracted_url: https://github.com/great-expectations/great_expectations
-        surrounding_text: >-
-          | [Great Expectations](https://github.com/great-expectations/great_expectations) | Always know what to expect
-          from your
-          data.                                                                                                                                                                                    
-          | ![GitHub
-          Badge](https://img.shields.io/github/stars/great-expectations/great_expectations.svg?style=flat-square) |
+        surrounding_text: "| [Great Expectations](https://github.com/great-expectations/great_expectations) | Always know what to expect from your data.                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/great-expectations/great_expectations.svg?style=flat-square) |"
         confidence: high
     - id: discovery__github__great-expectations__great_expectations__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -41,12 +36,7 @@ provenance:
           - Observability
         anchor_text: Great Expectations
         extracted_url: https://github.com/great-expectations/great_expectations
-        surrounding_text: >-
-          | [Great Expectations](https://github.com/great-expectations/great_expectations) | Always know what to expect
-          from your
-          data.                                                                                                                                                                                    
-          | ![GitHub
-          Badge](https://img.shields.io/github/stars/great-expectations/great_expectations.svg?style=flat-square) |
+        surrounding_text: "| [Great Expectations](https://github.com/great-expectations/great_expectations) | Always know what to expect from your data.                                                                                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/great-expectations/great_expectations.svg?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -56,8 +46,8 @@ metadata:
     archived: false
     full_name: fivetran/great_expectations
     html_url: https://github.com/fivetran/great_expectations
-    created_at: '2017-09-11T00:18:46Z'
-    pushed_at: '2026-08-27T08:59:06Z'
+    created_at: "2017-09-11T00:18:46Z"
+    pushed_at: "2026-08-27T08:59:06Z"
     description: Always know what to expect from your data.
     homepage: https://docs.greatexpectations.io/
     topics:
@@ -81,18 +71,14 @@ metadata:
       - pipeline-debt
       - pipeline-testing
       - pipeline-tests
-    last_checked_at: '2026-08-27T09:23:30.893Z'
+    last_checked_at: "2026-08-27T09:23:30.893Z"
     readme:
-      fetched_at: '2026-08-27T09:23:30.893Z'
+      fetched_at: "2026-08-27T09:23:30.893Z"
       bytes: 4708
 insights:
   summary: A data quality tool for defining and validating expectations for your data using expressive unit tests.
-  why_it_matters: >-
-    It provides a standardized way for data teams to prevent pipeline debt by automating data validation and
-    documentation.
-  mental_damage: >-
-    The comforting illusion that your data is actually doing what you think it's doing until a single null value
-    destroys your entire dashboard.
+  why_it_matters: It provides a standardized way for data teams to prevent pipeline debt by automating data validation and documentation.
+  mental_damage: The comforting illusion that your data is actually doing what you think it's doing until a single null value destroys your entire dashboard.
   tags:
     - data-engineering
     - data-quality
@@ -104,19 +90,13 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a traditional data engineering and quality tool; while it appears in some LLMOps lists for observability, it
-    lacks a core AI/ML-first identity or developer-tooling angle specific to the AI build-loop.
+  reason: This is a traditional data engineering and quality tool; while it appears in some LLMOps lists for observability, it lacks a core AI/ML-first identity or developer-tooling angle specific to the AI build-loop.
   evidence:
     - Repo description focuses on general data expectations ('Always know what to expect from your data')
     - Topics are centered on data-engineering and data-profiling, not AI agents, LLMs, or prompt engineering
     - README describes it as 'unit tests for your data' for 'data teams', not AI developers building AI apps
-    - >-
-      Repo description and README focus on data quality tests, pipelines, and data teams, not AI-assisted coding or
-      developer workflows.
-    - >-
-      Topics and documentation emphasize data-engineering, MLOps, and pipeline testing rather than coding agents, IDEs,
-      or prompt engineering.
+    - Repo description and README focus on data quality tests, pipelines, and data teams, not AI-assisted coding or developer workflows.
+    - Topics and documentation emphasize data-engineering, MLOps, and pipeline testing rather than coding agents, IDEs, or prompt engineering.
     - No evidence of LLM integration, agent orchestration, or AI-assisted development workflows in the provided inputs.
 placement:
   primary_category: null
@@ -127,7 +107,7 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -137,11 +117,11 @@ processing:
     category_rules_version: 6cc474a86022
   discover:
     status: done
-    updated_at: '2026-06-18T05:40:04.066Z'
+    updated_at: "2026-06-18T05:40:04.066Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-27T09:23:30.893Z'
+    updated_at: "2026-08-27T09:23:30.893Z"
     cause: null
     next_retry_at: null

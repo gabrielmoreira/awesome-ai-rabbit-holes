@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__trycatchkamal__typesafe-jev-traffic-demo__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**typesafe-jev-traffic-demo**'
+        anchor_text: "**typesafe-jev-traffic-demo**"
         extracted_url: https://github.com/trycatchkamal/typesafe-jev-traffic-demo
-        surrounding_text: >-
-          - [**typesafe-jev-traffic-demo**](https://github.com/trycatchkamal/typesafe-jev-traffic-demo) — This is a
-          \*\*simulation\*\*. It is not connected to, and cannot control, any real traffic signal — Hong Kong's
-          Transport Department publishes no write API for that, only a read-only feed of sensor data. Everything
-          downstream of that feed (the phase timing, the amber/all-red clearance, the safety limits) runs entirely in
-          this process's own memory.
+        surrounding_text: "- [**typesafe-jev-traffic-demo**](https://github.com/trycatchkamal/typesafe-jev-traffic-demo) — This is a \\*\\*simulation\\*\\*. It is not connected to, and cannot control, any real traffic signal — Hong Kong's Transport Department publishes no write API for that, only a read-only feed of sensor data. Everything downstream of that feed (the phase timing, the amber/all-red clearance, the safety limits) runs entirely in this process's own memory."
         confidence: high
 metadata:
   github:
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

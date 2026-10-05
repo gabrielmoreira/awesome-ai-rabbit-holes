@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__killerz3__jevalyzer__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: jevalyzer
         extracted_url: https://github.com/killerz3/jevalyzer
-        surrounding_text: >-
-          - [jevalyzer](https://github.com/killerz3/jevalyzer) ([site](https://folio.kz3.dev/p/jevalyzer)) - Grade the
-          agent sessions already on your disk. Claude Code, Codex, opencode, Gemini CLI and Antigravity, scored with Jev
-          for cents.
+        surrounding_text: "- [jevalyzer](https://github.com/killerz3/jevalyzer) ([site](https://folio.kz3.dev/p/jevalyzer)) - Grade the agent sessions already on your disk. Claude Code, Codex, opencode, Gemini CLI and Antigravity, scored with Jev for cents."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevalyzer (site) - Grade the agent sessions already on your disk. Claude Code, Codex, opencode, Gemini CLI and
-    Antigravity, scored with Jev for cents.
+  summary: jevalyzer (site) - Grade the agent sessions already on your disk. Claude Code, Codex, opencode, Gemini CLI and Antigravity, scored with Jev for cents.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -52,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.47
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -66,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.464Z'
+    updated_at: "2026-09-29T13:07:10.464Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

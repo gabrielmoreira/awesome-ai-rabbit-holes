@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lilianweng__github__io__posts__2023__06__23__agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -17,21 +17,9 @@ provenance:
         section_path:
           - ChemCrow
           - Description
-        anchor_text: >-
-          Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents". Lil’Log.
-          https://lilianweng.github.io/posts/2023-06-23-agent/.
+        anchor_text: Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents". Lil’Log. https://lilianweng.github.io/posts/2023-06-23-agent/.
         extracted_url: https://lilianweng.github.io/posts/2023-06-23-agent
-        surrounding_text: >-
-          - The LLM is provided with a list of tool names, descriptions of their utility, and details about the expected
-          input/output. It is then instructed to answer a user-given prompt using the tools provided when necessary. The
-          instruction suggests the model to follow the ReAct format - Thought, Action, Action Input, Observation. One
-          interesting observation is that while the LLM-based evaluation concluded that GPT-4 and ChemCrow perform
-          nearly equivalently, human evaluations with experts oriented towards the completion and chemical correctness
-          of the solutions showed that ChemCrow outperforms GPT-4 by a large margin. This indicates a potential problem
-          with using LLM to evaluate its own performance on domains that requires deep expertise. The lack of expertise
-          may cause LLMs not knowing its flaws and thus cannot well judge the correctness of task results. (Source:
-          [Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents". Lil’Log.
-          https://lilianweng.github.io/posts/2023-06-23-agent/.](https://lilianweng.github.io/posts/2023-06-23-agent/))
+        surrounding_text: "- The LLM is provided with a list of tool names, descriptions of their utility, and details about the expected input/output. It is then instructed to answer a user-given prompt using the tools provided when necessary. The instruction suggests the model to follow the ReAct format - Thought, Action, Action Input, Observation. One interesting observation is that while the LLM-based evaluation concluded that GPT-4 and ChemCrow perform nearly equivalently, human evaluations with experts oriented towards the completion and chemical correctness of the solutions showed that ChemCrow outperforms GPT-4 by a large margin. This indicates a potential problem with using LLM to evaluate its own performance on domains that requires deep expertise. The lack of expertise may cause LLMs not knowing its flaws and thus cannot well judge the correctness of task results. (Source: [Weng, Lilian. (Jun 2023). LLM-powered Autonomous Agents\". Lil’Log. https://lilianweng.github.io/posts/2023-06-23-agent/.](https://lilianweng.github.io/posts/2023-06-23-agent/))"
         confidence: high
 metadata:
   github:
@@ -49,29 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A blog post describing the components of LLM-powered autonomous agents, including planning, memory, and tool use,
-    with examples like AutoGPT and BabyAGI.
-  why_it_matters: >-
-    Provides a foundational conceptual overview for developers interested in building or understanding LLM agent
-    architectures.
-  mental_damage: Yet another taxonomy of agent parts that makes you feel like you need a flowchart just to keep up with the hype.
+  summary: "A blog post explaining the components of LLM-powered autonomous agents: planning, memory, and tool use."
+  why_it_matters: It provides a conceptual foundation for understanding how autonomous agents break down tasks, retain information, and interact with external tools.
+  mental_damage: Another deep dive that makes you feel like you need to re-architect your entire agent stack after reading it.
   tags:
+    - concept
     - overview
     - llm-agents
-    - conceptual
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational blog post, not a tool, framework, or product that developers can use or integrate into their
-    workflows; it lacks executable code, installable artifacts, or runtime functionality.
+  reason: The resource is an educational blog post, not a standalone developer tool, product, or infrastructure.
   evidence:
-    - Source is a GitHub Pages blog post (lilianweng.github.io) with no associated code repository or tooling
-    - >-
-      Content is explanatory, describing agent components like planning, memory, and tool use using examples (AutoGPT,
-      BabyAGI) but offering no deployable artifact or SDK
-    - Appears in awesome-ai-agents as a linked page for context, not as a curatable tool itself
+    - Source is a personal blog post by Lilian Weng on lilianweng.github.io
+    - Content explains agent components (planning, memory, tool use) as a tutorial, not a usable tool
+    - No code, repo, SDK, or deployable artifact is associated with the page
 placement:
   primary_category: null
   section: null
@@ -81,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -94,28 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:00.255Z'
+    updated_at: "2026-10-05T04:37:03.898Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:876c97a6eb16d926f6a2baf16a8ef79c16696da4c241e87c6383e971557dd361
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ee6eae660c03c755e5fafc3c5893c67106bb947092020043211f86eecebda2ec
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational blog post, not a tool, framework, or product that developers can use or integrate into
-        their workflows; it lacks executable code, installable artifacts, or runtime functionality.
+      decision_reason: The resource is an educational blog post, not a standalone developer tool, product, or infrastructure.
       decision_evidence:
-        - Source is a GitHub Pages blog post (lilianweng.github.io) with no associated code repository or tooling
-        - >-
-          Content is explanatory, describing agent components like planning, memory, and tool use using examples
-          (AutoGPT, BabyAGI) but offering no deployable artifact or SDK
-        - Appears in awesome-ai-agents as a linked page for context, not as a curatable tool itself
+        - Source is a personal blog post by Lilian Weng on lilianweng.github.io
+        - Content explains agent components (planning, memory, tool use) as a tutorial, not a usable tool
+        - No code, repo, SDK, or deployable artifact is associated with the page
       category_candidates: []
       contrastive_reason: null
       review_reason: null

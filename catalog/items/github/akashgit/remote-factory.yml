@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__akashgit__remote-factory__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-18T05:26:15.344Z'
+      discovered_at: "2026-05-18T05:26:15.344Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,7 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: The Factory
         extracted_url: https://github.com/akashgit/remote-factory
-        surrounding_text: >-
-          - **[The Factory](https://github.com/akashgit/remote-factory)** `⭐ 24` — Self-evolving meta-harness for
-          autonomous software dev and research; turns any codebase into an auto-research project, auto-discovers eval
-          dimensions, generates scoring harness, and runs keep/revert experiment loops with monotonic-improvement
-          guards. Multi-contributor. MIT.
+        surrounding_text: "- **[The Factory](https://github.com/akashgit/remote-factory)** `⭐ 24` — Self-evolving meta-harness for autonomous software dev and research; turns any codebase into an auto-research project, auto-discovers eval dimensions, generates scoring harness, and runs keep/revert experiment loops with monotonic-improvement guards. Multi-contributor. MIT."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: akashgit/remote-factory
     html_url: https://github.com/akashgit/remote-factory
-    created_at: '2026-04-11T21:17:39Z'
-    pushed_at: '2026-09-16T23:45:32Z'
+    created_at: "2026-04-11T21:17:39Z"
+    pushed_at: "2026-09-16T23:45:32Z"
     description: Domain-agnostic multi-agent software design and evolution harness
     homepage: https://akashgit.github.io/remote-factory/
     topics:
@@ -44,18 +40,14 @@ metadata:
       - claude-code
       - code-generation
       - openai-codex
-    last_checked_at: '2026-09-17T04:13:37.310Z'
+    last_checked_at: "2026-09-17T04:13:37.310Z"
     readme:
-      fetched_at: '2026-09-17T04:13:37.310Z'
+      fetched_at: "2026-09-17T04:13:37.310Z"
       bytes: 21495
 insights:
   summary: A multi-agent CLI harness for structured software design, research, and implementation.
-  why_it_matters: >-
-    It introduces a 'design-before-build' loop by orchestrating specialized agents to research and plan architecture
-    before any code is written.
-  mental_damage: >-
-    Because writing code is easy, but letting three different AI agents argue about your architecture for twenty minutes
-    is the true developer experience.
+  why_it_matters: It introduces a 'design-before-build' loop by orchestrating specialized agents to research and plan architecture before any code is written.
+  mental_damage: Because writing code is easy, but letting three different AI agents argue about your architecture for twenty minutes is the true developer experience.
   tags:
     - multi-agent
     - cli
@@ -78,18 +70,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-18T05:26:15.345Z'
+    updated_at: "2026-05-18T05:26:15.345Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:37.310Z'
+    updated_at: "2026-09-17T04:13:37.310Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:23:45.022Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 4
     prompt_version: catalog-categorize-v5-single-template
@@ -101,20 +95,14 @@ processing:
       input_hash: sha256:be3c8ab6add4854c8ec69f47e3eac47708d8b348961e42488deb480d889cb46e
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        It functions as a multi-agent orchestration layer that manages specialized roles like Strategists and QA
-        Directors to execute complex design-and-build workflows.
+      decision_reason: It functions as a multi-agent orchestration layer that manages specialized roles like Strategists and QA Directors to execute complex design-and-build workflows.
       decision_evidence:
         - Described as a domain-agnostic multi-agent software design and evolution harness
-        - >-
-          Uses 'Design-v2' to coordinate multiple parallel roles like Research Director, Strategy Director, and QA
-          Director
+        - Uses 'Design-v2' to coordinate multiple parallel roles like Research Director, Strategy Director, and QA Director
         - Operates as a CLI harness that requires Claude Code as a base agent for execution
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because it serves as a multi-agent harness coordinating
-        specialized roles around a host agent (Claude Code) rather than acting as the primary coding assistant itself.
+      contrastive_reason: Choose agent-orchestration over coding-agents because it serves as a multi-agent harness coordinating specialized roles around a host agent (Claude Code) rather than acting as the primary coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

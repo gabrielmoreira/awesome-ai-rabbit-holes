@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__4anti__jev-broadcast-lab__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**jev-broadcast-lab**'
+        anchor_text: "**jev-broadcast-lab**"
         extracted_url: https://github.com/4anti/jev-broadcast-lab
-        surrounding_text: >-
-          - [**jev-broadcast-lab**](https://github.com/4anti/jev-broadcast-lab) — A Jev experiment workbench centered on
-          chess, with additional classification and matching exercises.
+        surrounding_text: "- [**jev-broadcast-lab**](https://github.com/4anti/jev-broadcast-lab) — A Jev experiment workbench centered on chess, with additional classification and matching exercises."
         confidence: high
 metadata:
   github:
@@ -31,45 +29,72 @@ metadata:
     archived: false
     full_name: 4anti/jev-broadcast-lab
     html_url: https://github.com/4anti/jev-broadcast-lab
-    created_at: '2026-09-17T16:55:16Z'
-    pushed_at: '2026-09-20T10:56:48Z'
+    created_at: "2026-09-17T16:55:16Z"
+    pushed_at: "2026-09-20T10:56:48Z"
     description: Testing Lab for Jev AI
     homepage: https://4anti.github.io/jev-broadcast-lab/
     topics: []
-    last_checked_at: '2026-09-29T13:08:18.373Z'
+    last_checked_at: "2026-09-29T13:08:18.373Z"
     readme:
-      fetched_at: '2026-09-29T13:08:18.373Z'
+      fetched_at: "2026-09-29T13:08:18.373Z"
       bytes: 14407
 insights:
-  summary: Testing Lab for Jev AI
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Testing Lab for Jev AI is a repository for experimenting with Jev AI decision models.
+  why_it_matters: Provides a sandbox for developers to test and understand Jev-based decision model behavior in isolation.
+  mental_damage: Another Jev playground where you can watch probabilities fluctuate while questioning if System One is just System Two with extra steps.
+  tags:
+    - jev
+    - decision-model
+    - testing
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The project is explicitly a testing lab for Jev AI, a decision model, making its core identity the exploration and validation of decision-model judgments rather than coding assistance or agent orchestration.
   evidence:
-    - jev-latest choice confidence 0.57
+    - "Repo description: 'Testing Lab for Jev AI'"
+    - Appears in awesome-jev-projects under 'High-Frequency / Games' section
+    - Created and pushed in September 2026, indicating recent activity
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:18.373Z'
+    updated_at: "2026-09-29T13:08:18.373Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:10.246Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f29d6d9902bc79354d0e4e185b09d97e7bc530c03586ac5764e815837fd32bd5
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is explicitly a testing lab for Jev AI, a decision model, making its core identity the exploration and validation of decision-model judgments rather than coding assistance or agent orchestration.
+      decision_evidence:
+        - "Repo description: 'Testing Lab for Jev AI'"
+        - Appears in awesome-jev-projects under 'High-Frequency / Games' section
+        - Created and pushed in September 2026, indicating recent activity
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the project's primary purpose is testing Jev decision models, not performing autonomous coding tasks across a codebase.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

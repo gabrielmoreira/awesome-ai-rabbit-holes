@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: VS Code MCP Directory
         extracted_url: https://code.visualstudio.com/mcp
-        surrounding_text: '- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory.'
+        surrounding_text: "- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory."
         confidence: high
 metadata:
   github:
@@ -36,17 +36,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A centralized GitHub registry for discovering and integrating Model Context Protocol (MCP) servers.
-  why_it_matters: >-
-    It provides a searchable directory of community-built tools that allow AI assistants to connect to external APIs,
-    databases, and local filesystems.
-  mental_damage: >-
-    Prepare to spend your afternoon installing twenty different servers just to give your LLM a slightly better sense of
-    reality.
+  summary: A registry of MCP servers that connect AI models to external tools and data sources.
+  why_it_matters: It lets developers discover and integrate MCP servers to extend AI agent capabilities without building custom adapters.
+  mental_damage: Yet another directory promising seamless AI integration while you still spend hours wiring up authentication and error handling.
   tags:
     - mcp
     - registry
-    - discovery
+    - tooling
   confidence: high
 curation:
   status: included
@@ -56,14 +52,14 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,34 +67,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:31.730Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for code__visualstudio__com__mcp: Upstream error from Nvidia:
-        ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:46.889Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f419ccad6deb68a53a0bde4cbc67a22a71897113baefd59314b1854e97d3becf
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0ac54f02f28fbe0f08b39baf99d85f8303aa8c2ca4db7103502cca013bf906a4
       proposed_primary_category: mcp
-      disagreement: false
-      decision_reason: The GitHub MCP Registry is an operational registry whose primary identity is MCP infrastructure, making it a canonical fit for the MCP category under registries and discovery.
+      disagreement: true
+      decision_reason: The MCP Registry is an operational registry for MCP servers, making MCP its primary identity rather than a feature of a broader product.
       decision_evidence:
-        - The product is explicitly titled 'MCP Registry' and described as centralizing MCP servers for discovery and integration.
-        - It lists community MCP servers (e.g., for GitHub, Chrome DevTools, Notion) as installable tools via the registry.
-        - The source-list context shows it is curated as an MCP ecosystem tool, not a coding agent or app builder.
+        - "Title: MCP Registry; Description: A faster, safer way to build with AI: the GitHub MCP Registry centralizes MCP servers for effortless discovery, integration, and open collaboration."
+        - Primary page excerpt shows installable MCP servers like GitHub, Playwright, Chrome DevTools, and Notion, each exposing tools over MCP.
+        - The product's core function is serving as a registry and discovery service for the MCP ecosystem.
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because the product is an operational registry for protocol tooling rather than
-        a static curated list.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose mcp over awesome-awesomes because the MCP Registry is an operational registry tool for MCP infrastructure, not a curated list of third-party content.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

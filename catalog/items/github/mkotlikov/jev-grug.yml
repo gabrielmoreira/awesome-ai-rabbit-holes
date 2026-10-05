@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mkotlikov__jev-grug__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-grug
         extracted_url: https://github.com/mkotlikov/jev-grug
-        surrounding_text: '- [jev-grug](https://github.com/mkotlikov/jev-grug) - Helping JEV speak <3.'
+        surrounding_text: "- [jev-grug](https://github.com/mkotlikov/jev-grug) - Helping JEV speak <3."
         confidence: high
     - id: discovery__github__mkotlikov__jev-grug__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,7 +35,7 @@ provenance:
           - Applications (129)
         anchor_text: jev-grug
         extracted_url: https://github.com/mkotlikov/jev-grug
-        surrounding_text: '| [jev-grug](https://github.com/mkotlikov/jev-grug) | ★ 4 | TypeScript | 2026-09-19 | Helping JEV speak <3. |'
+        surrounding_text: "| [jev-grug](https://github.com/mkotlikov/jev-grug) | ★ 4 | TypeScript | 2026-09-19 | Helping JEV speak <3. |"
         confidence: high
 metadata:
   github:
@@ -73,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.420Z'
+    updated_at: "2026-09-29T13:07:10.420Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

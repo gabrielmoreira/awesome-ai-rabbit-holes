@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: get-convex/convex-backend
         extracted_url: https://stack.convex.dev/convex-mcp-server
-        surrounding_text: >-
-          - [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration
-          to introspect tables, functions, and run oneoff queries
-          ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))
+        surrounding_text: "- [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration to introspect tables, functions, and run oneoff queries ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))"
         confidence: high
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -37,12 +34,10 @@ provenance:
           - Official Servers
         anchor_text: Convex
         extracted_url: https://stack.convex.dev/convex-mcp-server
-        surrounding_text: >-
-          - **[Convex](https://stack.convex.dev/convex-mcp-server)** - Introspect and query your apps deployed to
-          Convex.
+        surrounding_text: "- **[Convex](https://stack.convex.dev/convex-mcp-server)** - Introspect and query your apps deployed to Convex."
         confidence: high
     - id: discovery__stack__convex__dev__convex__mcp__server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -54,9 +49,7 @@ provenance:
           - 🗄️ Databases
         anchor_text: get-convex/convex-mcp-server
         extracted_url: https://stack.convex.dev/convex-mcp-server
-        surrounding_text: >-
-          -   **[get-convex/convex-mcp-server](https://stack.convex.dev/convex-mcp-server)**: Introspects Convex tables,
-          functions, and allows one-off queries. (*Note: Links to Convex Stack page*)
+        surrounding_text: "-   **[get-convex/convex-mcp-server](https://stack.convex.dev/convex-mcp-server)**: Introspects Convex tables, functions, and allows one-off queries. (*Note: Links to Convex Stack page*)"
         confidence: high
 metadata:
   github:
@@ -74,11 +67,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server for Convex that lets AI agents introspect deployments, run functions, and read/write data.
-  why_it_matters: >-
-    Developers can now grant AI assistants direct, sandboxed access to their Convex backend for querying, analysis, and
-    safe data manipulation.
-  mental_damage: Finally, a way to let your AI poke your database without immediately regretting it.
+  summary: Convex MCP Server is an MCP server that exposes Convex deployment introspection, function execution, and data read/write capabilities to AI agents.
+  why_it_matters: It lets AI agents safely query and manipulate Convex backend data through standardized tool calls, enabling agent-driven backend interactions.
+  mental_damage: Another MCP server to add to the growing list of things agents can talk to, while humans still struggle to remember which tool does what.
   tags:
     - mcp
     - convex
@@ -86,20 +77,22 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Data & Databases
+  reason: The product's primary identity is an MCP server exposing Convex-specific tools and data, making MCP the core protocol identity rather than a side feature.
   evidence:
-    - jev-latest choice confidence 0.77
+    - Scraped site explicitly describes it as a 'beta MCP server for Convex' that lets agents introspect deployments, run functions, and read/write data
+    - Source-list context appears in awesome-mcp-servers under 'Official Servers' section
+    - README focuses entirely on MCP server installation, tool usage, and agent integration patterns
 placement:
   primary_category: mcp
   secondary_categories: []
   section: Data & Databases
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.580Z'
+    updated_at: "2026-05-06T22:12:15.580Z"
     cause: null
     next_retry_at: null
   stars:
@@ -107,36 +100,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:38:07.037Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for stack__convex__dev__convex__mcp__server: Invalid AI response format:
-        SyntaxError: Unexpected token 'T', ..."_reason": The produc"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:45:34.993Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d1c59fb3f49ce71f08cc6c88de8ba4e4631f84a3c9c017cefc83ebc797dc533d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:82aefbde9dc3e93626730f4c437736e86381b6511f892839b472d4937ed70149
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI
-        agents.
+      decision_reason: The product's primary identity is an MCP server exposing Convex-specific tools and data, making MCP the core protocol identity rather than a side feature.
       decision_evidence:
-        - Scraped site describes it as 'a beta MCP server for Convex' that lets agents introspect deployments, run functions, and read/write data
-        - "Source-list context places it in awesome-mcp-servers under 'Official Servers' with description: 'Convex now supports a powerful MCP server that lets you introspect your deployment's state, run functions, and read and write data'"
-        - Primary page excerpt shows MCP server implementation via npx convex@latest mcp start and details tool exposure for tables, functions, environment variables, and sandboxed queries
+        - Scraped site explicitly describes it as a 'beta MCP server for Convex' that lets agents introspect deployments, run functions, and read/write data
+        - Source-list context appears in awesome-mcp-servers under 'Official Servers' section
+        - README focuses entirely on MCP server installation, tool usage, and agent integration patterns
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension augmenting
-        another assistant.
-      review_reason: null
-      review_resume_lifecycle: null
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server exposing backend capabilities, not an extension that augments a coding agent with debugging or workflow features.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

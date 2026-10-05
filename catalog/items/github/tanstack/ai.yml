@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tanstack__ai__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Framework integrations
         anchor_text: TanStack AI
         extracted_url: https://github.com/tanstack/ai
-        surrounding_text: >-
-          - [TanStack AI](https://github.com/TanStack/ai) - `@tanstack/ai-typesafe` adapter exposing typed Boolean,
-          Choice, and Score decisions through TanStack AI's `decide()` API.
+        surrounding_text: "- [TanStack AI](https://github.com/TanStack/ai) - `@tanstack/ai-typesafe` adapter exposing typed Boolean, Choice, and Score decisions through TanStack AI's `decide()` API."
         confidence: high
 metadata:
   github:
@@ -39,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TanStack AI - @tanstack/ai-typesafe adapter exposing typed Boolean, Choice, and Score decisions through TanStack
-    AI's decide() API.
+  summary: TanStack AI - @tanstack/ai-typesafe adapter exposing typed Boolean, Choice, and Score decisions through TanStack AI's decide() API.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

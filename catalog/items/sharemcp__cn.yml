@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sharemcp__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Sharemcp.cn is a Chinese-language directory of Model Context Protocol (MCP) resources.
-  why_it_matters: It helps developers discover MCP servers, clients, and tooling by aggregating links in a single navigable list.
-  mental_damage: Another curated list promising to save you from tab hell, while adding yet another tab to your bookmarks bar.
+  summary: A Chinese-language directory of LLM resources covering topics such as agents, MCP, and AI-assisted programming.
+  why_it_matters: Provides developers with a curated reference for discovering AI tools and learning materials in one language-specific list.
+  mental_damage: Another awesome list to bookmark, ignore, and feel guilty about when chasing the next AI rabbit hole.
   tags:
-    - mcp
     - directory
-    - curated-list
+    - llm
+    - resources
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: It is a curated directory of LLM resources, making it a navigation aid for developers rather than a standalone tool, fitting the awesome-awesomes category.
   evidence:
-    - jev-latest choice confidence 0.92
+    - Listed in awesome-LLM-resources under the 模型上下文协议 MCP section
+    - Described as '全世界最好的LLM资料总结' covering AI-assisted programming, agents, and MCP
+    - No indication of being a tool, agent, or framework—purely a resource summary
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:37:02.673Z'
+    updated_at: "2026-10-05T04:45:06.291Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9589bffccc90f4581953b34064f12978364354ac8c786c63396600e2ee79b214
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6a50436ef2169899614df6e2688d902c527ab9365462e5a3a5e482c8a522c5b8
       proposed_primary_category: awesome-awesomes
-      disagreement: true
-      decision_reason: >-
-        Sharemcp.cn is a curated directory focused on MCP resources, matching the awesome-awesomes category’s purpose of
-        helping developers discover tools via community-maintained lists.
+      disagreement: false
+      decision_reason: It is a curated directory of LLM resources, making it a navigation aid for developers rather than a standalone tool, fitting the awesome-awesomes category.
       decision_evidence:
         - Listed in awesome-LLM-resources under the 模型上下文协议 MCP section
-        - URL sharemcp.cn presents as a resource hub for MCP-related content
-        - No indication of being a tool, agent, or platform — purely a listing or directory
+        - Described as '全世界最好的LLM资料总结' covering AI-assisted programming, agents, and MCP
+        - No indication of being a tool, agent, or framework—purely a resource summary
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: >-
-        Choose awesome-awesomes over mcp because sharemcp.cn is a curated list or directory of MCP resources, not an MCP
-        server, client, registry, or infrastructure tool whose primary identity is the MCP protocol itself.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+      contrastive_reason: Choose awesome-awesomes over mcp because the resource is a directory of LLM topics, not an MCP server, client, or infrastructure tool whose primary identity is the Model Context Protocol.
+      review_reason: null
       review_resume_lifecycle: null

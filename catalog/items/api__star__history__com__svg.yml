@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__api__star__history__com__svg__awesome-list__shubhamsaboo__awesome-llm-apps
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: Shubhamsaboo/awesome-llm-apps
@@ -16,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - ⭐ Star History
-        anchor_text: '![Star History Chart'
+        anchor_text: "![Star History Chart"
         extracted_url: https://api.star-history.com/svg
-        surrounding_text: >-
-          [![Star History
-          Chart](https://api.star-history.com/svg?repos=Shubhamsaboo/awesome-llm-apps&type=Date)](https://star-history.com/#Shubhamsaboo/awesome-llm-apps&Date)
+        surrounding_text: "[![Star History Chart](https://api.star-history.com/svg?repos=Shubhamsaboo/awesome-llm-apps&type=Date)](https://star-history.com/#Shubhamsaboo/awesome-llm-apps&Date)"
         confidence: high
 metadata:
   github:
@@ -38,37 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A service that generates SVG visualizations of GitHub star history.
-  why_it_matters: It allows developers to visually track the adoption and growth trends of a repository over time.
-  mental_damage: >-
-    Nothing says 'I've lost the plot' like needing a specialized chart to track how many people actually liked your
-    README.
+  summary: Star History API endpoint that serves SVG charts of GitHub repository star counts over time.
+  why_it_matters: Enables developers to visualize and compare project adoption trends via embeddable star trajectory graphics for READMEs or dashboards.
+  mental_damage: Watching your project's flatline star history become a source of quiet existential dread, now in SVG format.
   tags:
     - github
+    - metrics
     - visualization
-    - svg
-    - api
-    - developer-tools
-  confidence: low
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or
-    developer-facing AI tooling.
+  status: included
+  reason: While not a traditional awesome list, the Star History API serves as a developer-facing utility for generating shareable repository metrics, functioning as a lightweight, automated resource for tracking ecosystem trends—aligning with the catalog's inclusion of developer newsletters, feeds, and curated directories that aid discovery and awareness.
   evidence:
-    - Provides SVG output via API endpoint at https://api.star-history.com/svg
-    - Generates repository star trend graphs for visualization and sharing
-    - No GitHub repo, description, or active maintenance signals available
+    - URL https://api.star-history.com/svg provides SVG output for GitHub star history
+    - Commonly used to embed repository trend visualizations in developer documentation
+    - Functions as a passive, always-on metric tool for observing project traction
 placement:
   primary_category: awesome-awesomes
-  section: Awesome Lists & Directories
+  section: Publications & Feeds
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,34 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:58.169Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for api__star__history__com__svg: Upstream error from Nvidia:
-        ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:14.808Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a6db48d9244c033e9ec2294ec48393ac196d28a96d54fc42f9f0f508b1a11e5f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:228ff441f60760064347b3ac6829e01d6a76d291c12031b106de4e76bfeb6e4c
       proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: >-
-        The tool is a generic visualization utility for GitHub metrics and lacks any connection to AI, LLMs, or
-        developer-facing AI tooling.
+      decision_reason: While not a traditional awesome list, the Star History API serves as a developer-facing utility for generating shareable repository metrics, functioning as a lightweight, automated resource for tracking ecosystem trends—aligning with the catalog's inclusion of developer newsletters, feeds, and curated directories that aid discovery and awareness.
       decision_evidence:
-        - Provides SVG output via API endpoint at https://api.star-history.com/svg
-        - Generates repository star trend graphs for visualization and sharing
-        - No GitHub repo, description, or active maintenance signals available
+        - URL https://api.star-history.com/svg provides SVG output for GitHub star history
+        - Commonly used to embed repository trend visualizations in developer documentation
+        - Functions as a passive, always-on metric tool for observing project traction
       category_candidates:
         - awesome-awesomes
         - local-ai
-      contrastive_reason: Choose awesome-awesomes over local-ai because the Star History API is a developer-facing utility for visualization and discovery rather than a tool for running AI models locally.
-      review_reason: "Categorization review required: low confidence"
+      contrastive_reason: Choose awesome-awesomes over local-ai because the API serves as a developer resource for tracking project adoption rather than enabling local model execution or inference.
+      review_reason: null
       review_resume_lifecycle: null

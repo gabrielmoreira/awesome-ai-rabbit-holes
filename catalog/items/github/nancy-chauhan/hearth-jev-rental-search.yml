@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nancy-chauhan__hearth-jev-rental-search__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: hearth-jev-rental-search
         extracted_url: https://github.com/nancy-chauhan/hearth-jev-rental-search
-        surrounding_text: >-
-          - [hearth-jev-rental-search](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) - Autonomous
-          multi-source rental search powered by TypeSafe Jev.
+        surrounding_text: "- [hearth-jev-rental-search](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) - Autonomous multi-source rental search powered by TypeSafe Jev."
         confidence: high
     - id: discovery__github__nancy-chauhan__hearth-jev-rental-search__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Hearth
         extracted_url: https://github.com/nancy-chauhan/hearth-jev-rental-search
-        surrounding_text: >-
-          - [Hearth](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) - `Open source` · `Free source build` ·
-          `BYOK`. Local Chrome agent that searches four rental marketplaces with TypeSafe Jev action choice and returns
-          a shortlist (read-only). [Project guide](community/projects/apps/hearth.md).
+        surrounding_text: "- [Hearth](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) - `Open source` · `Free source build` · `BYOK`. Local Chrome agent that searches four rental marketplaces with TypeSafe Jev action choice and returns a shortlist (read-only). [Project guide](community/projects/apps/hearth.md)."
         confidence: high
     - id: discovery__github__nancy-chauhan__hearth-jev-rental-search__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,10 +51,7 @@ provenance:
           - Classification & Routing
         anchor_text: hearth-jev-rental-search
         extracted_url: https://github.com/nancy-chauhan/hearth-jev-rental-search
-        surrounding_text: >-
-          - [hearth-jev-rental-search](https://github.com/Nancy-Chauhan/hearth-jev-rental-search)
-          ![stars](https://img.shields.io/github/stars/Nancy-Chauhan/hearth-jev-rental-search?style=flat-square&label=%E2%98%85)
-          - Housing search: autonomous multi-source rental search where Jev decides which listings match the criteria.
+        surrounding_text: "- [hearth-jev-rental-search](https://github.com/Nancy-Chauhan/hearth-jev-rental-search) ![stars](https://img.shields.io/github/stars/Nancy-Chauhan/hearth-jev-rental-search?style=flat-square&label=%E2%98%85) - Housing search: autonomous multi-source rental search where Jev decides which listings match the criteria."
         confidence: high
 metadata:
   github:
@@ -97,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.401Z'
+    updated_at: "2026-09-29T13:07:10.401Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

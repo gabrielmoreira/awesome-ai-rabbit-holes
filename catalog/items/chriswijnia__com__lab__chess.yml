@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chriswijnia__com__lab__chess__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: Chess with Jev
         extracted_url: https://chriswijnia.com/experiments/chess
-        surrounding_text: >-
-          - [Chess with Jev](https://chriswijnia.com/experiments/chess) - Jev chooses one move per turn from the legal
-          moves, each described with facts worked out in code (exchanges, mates, threats); the page plays it and draws
-          Jev's candidates as arrows ([source](https://github.com/cwdx/chess-with-jev)).
+        surrounding_text: "- [Chess with Jev](https://chriswijnia.com/experiments/chess) - Jev chooses one move per turn from the legal moves, each described with facts worked out in code (exchanges, mates, threats); the page plays it and draws Jev's candidates as arrows ([source](https://github.com/cwdx/chess-with-jev))."
         confidence: high
 metadata:
   github:
@@ -39,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An interactive chess board where you play against Jev, a TypeSafe AI decision model, or watch it play itself with visible reasoning.
+  why_it_matters: Shows how decision models can be used in turn-based games with transparent reasoning, offering a toy example of AI-assisted gameplay.
+  mental_damage: Another reminder that we now need AI to tell us whether to move a knight or resign to existential dread.
+  tags:
+    - game
+    - decision-model
+    - demo
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a demonstration of a decision model in a game context, not a developer-facing AI tool for coding, workflow, or software creation.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The product lets users play chess against Jev, a TypeSafe AI System One model, or watch it play itself.
+    - It appears in the awesome-jev list under 'Games, robotics, and interactive demos', not developer tooling sections.
+    - The core function is turn-based gameplay with model reasoning display, not code editing, app generation, or agent assistance.
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,18 +61,36 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:58.551Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:37552b6e9a2ceaba97444e4d54f1cf27226b1c16a3db979f726ca394efa97011
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a demonstration of a decision model in a game context, not a developer-facing AI tool for coding, workflow, or software creation.
+      decision_evidence:
+        - The product lets users play chess against Jev, a TypeSafe AI System One model, or watch it play itself.
+        - It appears in the awesome-jev list under 'Games, robotics, and interactive demos', not developer tooling sections.
+        - The core function is turn-based gameplay with model reasoning display, not code editing, app generation, or agent assistance.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__testsigma__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Testsigma
         extracted_url: https://testsigma.com
-        surrounding_text: '- **[Testsigma](https://testsigma.com/)** – AI test automation with natural language test creation.'
+        surrounding_text: "- **[Testsigma](https://testsigma.com/)** – AI test automation with natural language test creation."
         confidence: high
 metadata:
   github:
@@ -36,46 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Testsigma is a SaaS platform that uses AI agents to generate, run, self-heal, and diagnose automated tests for web,
-    mobile, API, and Salesforce applications, providing release confidence scoring.
-  why_it_matters: >-
-    It reduces manual test maintenance and gives developers and QA teams an evidence-based confidence score before
-    deployment, integrating with CI/CD and AI coding tools.
-  mental_damage: >-
-    Finally, a tool that tells you not just if your tests pass, but whether you’re allowed to feel safe about shipping —
-    because passing tests and actual confidence were never the same thing.
+  summary: Testsigma is a unified agentic test automation platform that generates, runs, heals, and diagnoses tests from requirements, commits, and AI coding agents to score release confidence.
+  why_it_matters: It gives developers and QA teams a confidence score before deployment by measuring actual test coverage and risks from sprint context, not just green builds.
+  mental_damage: Finally, a tool that replaces the gut feeling of 'I think we're good' with a number that still makes you second-guess whether the AI missed something.
   tags:
     - testing
     - qa
-    - ai-agents
-    - cicd
+    - agentic
     - release-confidence
   confidence: high
 curation:
   status: included
-  reason: >-
-    Testsigma’s core value is measuring test coverage, diagnosing gaps, and scoring release confidence — aligning with
-    evals’ focus on measuring and improving agent/model behavior via scoring, tracing, and regression detection.
+  reason: Testsigma's core function is measuring, scoring, tracing, and comparing test behavior to determine release readiness, which aligns with evals' focus on evaluating AI agent and system behavior.
   evidence:
     - Scores release confidence using pass rate, coverage percentage, and critical path analysis
-    - Diagnoses untested changes and coverage gaps before release
-    - Integrates with AI coding tools like Claude Code to include their tests in coverage analysis
-    - >-
-      jev winnow:e4b 0.21 below gate 0.50; proposed agent-orchestration / Hosted Agent Platforms; placement kept at
-      evals (unverified)
+    - Integrates with AI coding tools like Claude Code to map generated tests against sprint context
+    - Appears in awesome-ai-coding-tools under Testing and QA for agentic test automation
 placement:
   primary_category: evals
-  section: Prompt Regression & Testing
   secondary_categories:
     - agent-orchestration
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,32 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:57.101Z'
+    updated_at: "2026-10-05T04:55:49.961Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0a024182ade1fff7f17adf1c3c5b2b5fd4a484a360dda2c8d0dda2c477ec7e25
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7376d3840102f2280a02a9fcc74392019c1cacf9cb999d526f72c30c45ae2814
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: >-
-        Testsigma’s core value is measuring test coverage, diagnosing gaps, and scoring release confidence — aligning
-        with evals’ focus on measuring and improving agent/model behavior via scoring, tracing, and regression
-        detection.
+      decision_reason: Testsigma's core function is measuring, scoring, tracing, and comparing test behavior to determine release readiness, which aligns with evals' focus on evaluating AI agent and system behavior.
       decision_evidence:
         - Scores release confidence using pass rate, coverage percentage, and critical path analysis
-        - Diagnoses untested changes and coverage gaps before release
-        - Integrates with AI coding tools like Claude Code to include their tests in coverage analysis
+        - Integrates with AI coding tools like Claude Code to map generated tests against sprint context
+        - Appears in awesome-ai-coding-tools under Testing and QA for agentic test automation
       category_candidates:
         - evals
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose evals over extensions-and-addons because Testsigma’s primary identity is measuring and scoring test
-        behavior and release readiness, not extending a coding agent or editor with a specific integration layer.
+        - coding-agents
+      contrastive_reason: Choose evals over coding-agents because Testsigma's primary identity is measuring and scoring test/system behavior for release decisions, not autonomously writing or editing code as a coding agent would.
       review_reason: null
       review_resume_lifecycle: null

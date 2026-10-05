@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tyler-dot-earth__patdown__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: patdown
         extracted_url: https://github.com/tyler-dot-earth/patdown
-        surrounding_text: >-
-          - [patdown](https://github.com/tyler-dot-earth/patdown) - Typesafe's jev as a "fuzzy linter". give your code
-          an ocular patdown.
+        surrounding_text: "- [patdown](https://github.com/tyler-dot-earth/patdown) - Typesafe's jev as a \"fuzzy linter\". give your code an ocular patdown."
         confidence: high
     - id: discovery__github__tyler-dot-earth__patdown__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: patdown
         extracted_url: https://github.com/tyler-dot-earth/patdown
-        surrounding_text: >-
-          - [patdown](https://github.com/tyler-dot-earth/patdown) - Fuzzy markdown-rule linter CLI with a swappable
-          judge; default backend posts typed questions to TypeSafe Jev. [Project
-          guide](community/projects/tools/patdown.md).
+        surrounding_text: "- [patdown](https://github.com/tyler-dot-earth/patdown) - Fuzzy markdown-rule linter CLI with a swappable judge; default backend posts typed questions to TypeSafe Jev. [Project guide](community/projects/tools/patdown.md)."
         confidence: high
     - id: discovery__github__tyler-dot-earth__patdown__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,10 +51,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: patdown
         extracted_url: https://github.com/tyler-dot-earth/patdown
-        surrounding_text: >-
-          | [patdown](https://github.com/tyler-dot-earth/patdown) | ★ 14 | TypeScript | 2026-09-22 | Block, steer, and
-          "fuzzy lint" with Jev to make agents follow your rules and conventions. CLI, github action, pi package, and
-          more. Built with Effect. |
+        surrounding_text: "| [patdown](https://github.com/tyler-dot-earth/patdown) | ★ 14 | TypeScript | 2026-09-22 | Block, steer, and \"fuzzy lint\" with Jev to make agents follow your rules and conventions. CLI, github action, pi package, and more. Built with Effect. |"
         confidence: high
 metadata:
   github:
@@ -97,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
+    updated_at: "2026-09-29T13:07:10.405Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

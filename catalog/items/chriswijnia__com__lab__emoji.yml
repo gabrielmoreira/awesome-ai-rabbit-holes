@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chriswijnia__com__lab__emoji__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: 1 Million Emojis
         extracted_url: https://chriswijnia.com/experiments/emoji
-        surrounding_text: >-
-          - [1 Million Emojis](https://chriswijnia.com/experiments/emoji) - Shared 1000 × 1000 emoji canvas where Jev
-          joins each stroke, choosing a square next to it and its emoji as one Choice over named options
-          ([source](https://github.com/cwdx/1-million-emojis)).
+        surrounding_text: "- [1 Million Emojis](https://chriswijnia.com/experiments/emoji) - Shared 1000 × 1000 emoji canvas where Jev joins each stroke, choosing a square next to it and its emoji as one Choice over named options ([source](https://github.com/cwdx/1-million-emojis))."
         confidence: high
 metadata:
   github:
@@ -39,28 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A shared 1,000 × 1,000 emoji canvas where humans and the Jev decision model collaboratively paint in real time.
+  why_it_matters: Demonstrates human-AI co-creativity in a low-stakes, visual format that makes decision-model behavior tangible and interactive.
+  mental_damage: Watching an AI fill in your half-finished emoji blob with eerie thematic precision is both delightful and a quiet indictment of how much we now outsource aesthetic judgment to opaque systems.
+  tags:
+    - decision-model
+    - interactive-art
+    - human-ai-collaboration
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The core identity is the Jev decision model providing real-time judgments to guide collaborative painting, making it a decision-model-driven application rather than a coding agent, framework, or general tool.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.36 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - "Scraped site context: 'Jev, TypeSafe AI’s System One model, joins in: after each stroke it reads what is around it by name, weighs emoji that belong with it, and paints one, or finishes a shape it is sure you meant.'"
+    - "Source-list context: Listed under awesome-jev in sections like 'Community apps', 'Games, robotics, and interactive demos', and 'Full list > Game & Simulation'."
+    - Primary product identity centers on the decision model's judgment (reading context, weighing emoji, painting in response), not on coding, orchestration, or app generation.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:02.455Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3006b56d04081a4d9dc2f6a1e0fffe8b81fb48d9b89020f3fde25ee6611db784
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The core identity is the Jev decision model providing real-time judgments to guide collaborative painting, making it a decision-model-driven application rather than a coding agent, framework, or general tool.
+      decision_evidence:
+        - "Scraped site context: 'Jev, TypeSafe AI’s System One model, joins in: after each stroke it reads what is around it by name, weighs emoji that belong with it, and paints one, or finishes a shape it is sure you meant.'"
+        - "Source-list context: Listed under awesome-jev in sections like 'Community apps', 'Games, robotics, and interactive demos', and 'Full list > Game & Simulation'."
+        - Primary product identity centers on the decision model's judgment (reading context, weighing emoji, painting in response), not on coding, orchestration, or app generation.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product's identity and value derive from the Jev model's real-time judgments in a collaborative canvas, not from generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

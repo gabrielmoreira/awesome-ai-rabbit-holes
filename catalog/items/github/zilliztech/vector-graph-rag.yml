@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zilliztech__vector-graph-rag__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**vector-graph-rag**'
+        anchor_text: "**vector-graph-rag**"
         extracted_url: https://github.com/zilliztech/vector-graph-rag
-        surrounding_text: >-
-          - [**vector-graph-rag**](https://github.com/zilliztech/vector-graph-rag) — Graph RAG with pure vector search,
-          achieving SOTA performance in multi-hop reasoning scenarios.
+        surrounding_text: "- [**vector-graph-rag**](https://github.com/zilliztech/vector-graph-rag) — Graph RAG with pure vector search, achieving SOTA performance in multi-hop reasoning scenarios."
         confidence: high
     - id: discovery__github__zilliztech__vector-graph-rag__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,11 +35,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: Vector Graph RAG
         extracted_url: https://github.com/zilliztech/vector-graph-rag
-        surrounding_text: >-
-          - [Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag)
-          ![stars](https://img.shields.io/github/stars/zilliztech/vector-graph-rag?style=flat-square&label=%E2%98%85) -
-          Multi-hop retrieval: uses Jev Noul judgments to score candidate relations and applies a configurable threshold
-          before retrieving their linked documents.
+        surrounding_text: "- [Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag) ![stars](https://img.shields.io/github/stars/zilliztech/vector-graph-rag?style=flat-square&label=%E2%98%85) - Multi-hop retrieval: uses Jev Noul judgments to score candidate relations and applies a configurable threshold before retrieving their linked documents."
         confidence: high
 metadata:
   github:
@@ -79,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

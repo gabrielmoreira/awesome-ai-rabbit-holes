@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jan__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Local LLM Tools
         anchor_text: Jan
         extracted_url: https://jan.ai
-        surrounding_text: >-
-          - **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a
-          ChatGPT-like interface.
+        surrounding_text: "- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface."
         confidence: high
 metadata:
   github:
@@ -38,31 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jan is an open-source desktop chat application that allows users to run local AI models or connect to cloud models
-    like GPT and Claude.
-  why_it_matters: >-
-    It gives developers a private, self-hosted alternative to commercial chat interfaces for experimenting with models
-    locally.
-  mental_damage: >-
-    Another locally-hosted ChatGPT clone promising 'your AI, your rules' while quietly downloading 7GB Llama weights
-    you’ll never quantize.
+  summary: Jan is an open-source desktop chat application that runs local AI models or connects to cloud models like GPT and Claude.
+  why_it_matters: It lets developers experiment with and use various LLMs locally or via API without leaving a unified chat interface.
+  mental_damage: Another chat UI in a sea of chat UIs, promising 'personal intelligence' while you juggle six different model backends just to get a decent answer.
   tags:
-    - local-ai
-    - desktop-chat
-    - open-source
+    - chat-ui
+    - local-llm
+    - desktop-app
+    - model-switcher
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Jan is primarily a general-purpose AI chat desktop app without developer-specific tooling, coding agent
-    capabilities, or workflow integration features that would place it in the catalog's scope.
+  reason: Jan is a general-purpose LLM chat client, not a developer-focused tool; it does not perform coding tasks, integrate with development workflows, or provide agent-like capabilities for software development.
   evidence:
-    - The site positions Jan as an 'open-source alternative to ChatGPT' for general AI conversation
-    - >-
-      Features highlighted include model selection, memory, and UI customization—not code editing, terminal use, or
-      developer workflows
-    - No evidence of coding-specific functionality like file editing, command execution, or repo awareness
+    - Jan markets itself as an open-source alternative to ChatGPT for running local or cloud models
+    - The interface is a standard chat app with model selection, memory, and newsletter signups
+    - No mention of code editing, terminal integration, IDE plugins, or agent-based coding workflows
 placement:
   primary_category: null
   secondary_categories: []
@@ -73,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,28 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:35.666Z'
+    updated_at: "2026-10-05T04:59:20.431Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:26d9871bfd22ffb433ee9aebee87ee98ba5b52642eb75f6abe2d6d29ce5d2081
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:235ea98cad8a9725cf297dc4f10766f3a8610ebb8ce778affc9da4052b62d592
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Jan is primarily a general-purpose AI chat desktop app without developer-specific tooling, coding agent
-        capabilities, or workflow integration features that would place it in the catalog's scope.
+      decision_reason: Jan is a general-purpose LLM chat client, not a developer-focused tool; it does not perform coding tasks, integrate with development workflows, or provide agent-like capabilities for software development.
       decision_evidence:
-        - The site positions Jan as an 'open-source alternative to ChatGPT' for general AI conversation
-        - >-
-          Features highlighted include model selection, memory, and UI customization—not code editing, terminal use, or
-          developer workflows
-        - No evidence of coding-specific functionality like file editing, command execution, or repo awareness
+        - Jan markets itself as an open-source alternative to ChatGPT for running local or cloud models
+        - The interface is a standard chat app with model selection, memory, and newsletter signups
+        - No mention of code editing, terminal integration, IDE plugins, or agent-based coding workflows
       category_candidates: []
       contrastive_reason: null
       review_reason: null

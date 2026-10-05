@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__syabdulr__responsible-ai-harness__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Responsible AI Harness
         extracted_url: https://github.com/syabdulr/responsible-ai-harness
-        surrounding_text: >-
-          - [Responsible AI Harness](https://github.com/syabdulr/responsible-ai-harness) - Model-agnostic safety
-          assessment harness: hard rules plus optional TypeSafe Jev judge for injection, leakage, unsafe tools, and
-          policy bypass; checksummed evidence + report UI. [Project
-          guide](community/projects/tools/responsible-ai-harness.md).
+        surrounding_text: "- [Responsible AI Harness](https://github.com/syabdulr/responsible-ai-harness) - Model-agnostic safety assessment harness: hard rules plus optional TypeSafe Jev judge for injection, leakage, unsafe tools, and policy bypass; checksummed evidence + report UI. [Project guide](community/projects/tools/responsible-ai-harness.md)."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Responsible AI Harness - Model-agnostic safety assessment harness: hard rules plus optional TypeSafe Jev judge for
-    injection, leakage, unsafe tools, and policy bypass; checksummed evidence + report UI. Project guide.
+  summary: "Responsible AI Harness - Model-agnostic safety assessment harness: hard rules plus optional TypeSafe Jev judge for injection, leakage, unsafe tools, and policy bypass; checksummed evidence + report UI. Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Safety, Fairness & Red-teaming
   evidence:
     - jev-latest choice confidence 0.86
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed evals / Safety, Fairness & Red-teaming; placement kept at evals
-      (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed evals / Safety, Fairness & Red-teaming; placement kept at evals (unverified)
 placement:
   primary_category: evals
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

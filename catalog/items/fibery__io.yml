@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fibery__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Fibery
         extracted_url: https://fibery.io
-        surrounding_text: >-
-          - **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in
-          your [Fibery](https://fibery.io) workspace.
+        surrounding_text: "- **[Fibery](https://github.com/Fibery-inc/fibery-mcp-server)** - Perform queries and entity operations in your [Fibery](https://fibery.io) workspace."
         confidence: high
 metadata:
   github:
@@ -38,28 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Fibery is a low-code work management platform that combines project management, CRM, and knowledge management into a
-    single integrated workspace.
-  why_it_matters: >-
-    It allows teams to build custom relational data structures and automated workflows to manage complex development
-    processes without writing custom internal tools.
-  mental_damage: >-
-    The sheer flexibility of mapping every single dependency in your life will eventually lead to a crisis of
-    architectural over-engineering.
+  summary: Fibery.io is a collaborative workspace and customizable knowledge management platform for teams.
+  why_it_matters: It helps developers centralize documentation, tasks, and workflows, reducing context switching and improving team alignment on technical projects.
+  mental_damage: Another all-in-one workspace promising to replace Notion, Jira, and your sanity—because why pick one tool when you can have them all, poorly integrated?
   tags:
-    - productivity
     - workspace
+    - knowledge-management
     - collaboration
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or
-    coding infrastructure.
+  reason: Fibery.io is a general-purpose team workspace and knowledge management tool without a clear AI agent, coding assistant, or developer-tooling focus; its inclusion in awesome-mcp-servers appears to be incidental MCP compatibility, not core identity.
   evidence:
-    - "Seen in source lists: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
-    - No GitHub repo description, stars, or activity signals provided; homepage describes a connected workspace for teams, not AI developer tooling
+    - "Seen in source lists / directories: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
+    - "Repo description: (none)"
+    - No README excerpt or scraped site context provided to indicate AI agent, coding assistant, or developer workflow automation functionality
 placement:
   primary_category: null
   section: null
@@ -69,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,30 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:27.677Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for fibery__io: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:08.436Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:199d2d3fa052a544f4607f8331c12e822d176ef26753923ce4571d156ed6a2f3
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d7c88709663bc22693be6d7a5c8f24f2605760b58e20c4b1483b5287381eb38b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent,
-        or coding infrastructure.
+      decision_reason: Fibery.io is a general-purpose team workspace and knowledge management tool without a clear AI agent, coding assistant, or developer-tooling focus; its inclusion in awesome-mcp-servers appears to be incidental MCP compatibility, not core identity.
       decision_evidence:
-        - "Seen in source lists: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
-        - No GitHub repo description, stars, or activity signals provided; homepage describes a connected workspace for teams, not AI developer tooling
+        - "Seen in source lists / directories: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
+        - "Repo description: (none)"
+        - No README excerpt or scraped site context provided to indicate AI agent, coding assistant, or developer workflow automation functionality
       category_candidates: []
       contrastive_reason: null
       review_reason: null

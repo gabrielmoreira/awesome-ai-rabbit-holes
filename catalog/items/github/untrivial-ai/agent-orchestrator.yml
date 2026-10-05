@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__untrivial-ai__agent-orchestrator__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Agent Orchestrator (AO)
         extracted_url: https://github.com/untrivial-ai/agent-orchestrator
-        surrounding_text: >-
-          - **[Agent Orchestrator (AO)](https://github.com/Untrivial-ai/agent-orchestrator)** `⭐ 12.5k` — Desktop app
-          and `ao` CLI for supervising Claude Code, Codex, Cursor, OpenCode, and 20+ other agents in parallel; every
-          Git-backed session gets its own worktree, branch, and pull request, and CI failures, review comments, and
-          merge conflicts are routed back to the agent that owns them. Go + Electron, Apache-2.0.
+        surrounding_text: "- **[Agent Orchestrator (AO)](https://github.com/Untrivial-ai/agent-orchestrator)** `⭐ 12.5k` — Desktop app and `ao` CLI for supervising Claude Code, Codex, Cursor, OpenCode, and 20+ other agents in parallel; every Git-backed session gets its own worktree, branch, and pull request, and CI failures, review comments, and merge conflicts are routed back to the agent that owns them. Go + Electron, Apache-2.0."
         confidence: high
 metadata:
   github:
@@ -42,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Agent Orchestrator (AO) — Desktop app and ao CLI for supervising Claude Code, Codex, Cursor, OpenCode, and 20+ other
-    agents in parallel; every Git-backed session gets its own worktree, branch, and pull request, and CI failures,
-    review comments, and merge conflicts are routed back to the agent that owns them. Go + Electron, Apache-2.0.
+  summary: Agent Orchestrator (AO) — Desktop app and ao CLI for supervising Claude Code, Codex, Cursor, OpenCode, and 20+ other agents in parallel; every Git-backed session gets its own worktree, branch, and pull request, and CI failures, review comments, and merge conflicts are routed back to the agent that owns them. Go + Electron, Apache-2.0.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.482Z'
+    updated_at: "2026-09-29T13:07:10.482Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

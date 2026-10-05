@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__capacity__so__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Capacity
         extracted_url: https://capacity.so
-        surrounding_text: >-
-          - **[Capacity](https://capacity.so/)** – Agentic platform using Claude Code to turn ideas into full-stack web
-          apps.
+        surrounding_text: "- **[Capacity](https://capacity.so/)** – Agentic platform using Claude Code to turn ideas into full-stack web apps."
         confidence: high
 metadata:
   github:
@@ -38,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions.
-  why_it_matters: >-
-    It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend
-    infrastructure.
-  mental_damage: >-
-    It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long
-    paragraph'.
+  summary: Capacity.so is a no-code app builder that turns plain-language ideas into live web apps with accounts, payments, and custom domains using AI.
+  why_it_matters: It lets non-developers and rapid prototypers ship real products from idea to deployment without writing code or managing infrastructure.
+  mental_damage: The quiet dread that your next weekend project will be outshipped by someone who just described their yoga studio booking app in plain English.
   tags:
-    - app-builder
     - no-code
-    - ai-generated
+    - app-builder
+    - ai-assisted
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Capacity.so belongs in App Builders because its core identity is generating deployable apps from plain-language prompts, not editing existing codebases or acting as a coding agent.
   evidence:
-    - jev-latest choice confidence 0.95
+    - "Scraped site context: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online: accounts, payments, your own domain.'"
+    - "Source-list context: Listed in awesome-ai-coding-tools under App Builders with the description: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online.'"
+    - "README excerpt: 'Your app ideas deserve to exist. Say it in your own words... Capacity turns it into a real app you can see and try right away.'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:13.819Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for capacity__so: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:33.218Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a4a02e8782ea30a9c27cd0aaffb39e94c5080c6ddefa4338b25f50c554e11b99
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e21bfffb43cc84c6d77ed08caea9dc8400ba423deec411e445d3a11d43b2758f
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        The product's core identity is generating complete, deployable applications from prompts rather than assisting a
-        developer with existing code.
+      decision_reason: Capacity.so belongs in App Builders because its core identity is generating deployable apps from plain-language prompts, not editing existing codebases or acting as a coding agent.
       decision_evidence:
-        - "Described in source list as: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online: accounts, payments, your own domain.'"
-        - "README states: 'You never write or see code' and 'Your app can have member accounts, logins, saved information, payments: everything real products have.'"
-        - "Primary workflow is prompt-to-live-app: 'Describe your idea...' → AI asks clarifying questions → builds and publishes to a custom domain."
+        - "Scraped site context: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online: accounts, payments, your own domain.'"
+        - "Source-list context: Listed in awesome-ai-coding-tools under App Builders with the description: 'Describe your idea in plain words. Capacity asks the right questions, builds your app, and puts it online.'"
+        - "README excerpt: 'Your app ideas deserve to exist. Say it in your own words... Capacity turns it into a real app you can see and try right away.'"
       category_candidates:
         - app-builders
-        - spec-driven-development
-      contrastive_reason: >-
-        Choose app-builders over spec-driven-development because the final output is a complete, deployed application
-        rather than just a structured specification or plan.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Capacity.so generates new apps from prompts without requiring or modifying an existing codebase, which is the defining trait of app builders rather than coding agents.
       review_reason: null
       review_resume_lifecycle: null

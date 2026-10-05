@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__console__kubestellar__io__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-21T05:27:57.681Z'
+      discovered_at: "2026-05-21T05:27:57.681Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,12 +19,7 @@ provenance:
           - ML Platforms
         anchor_text: KubeStellar Console
         extracted_url: https://console.kubestellar.io
-        surrounding_text: >-
-          | [KubeStellar Console](https://console.kubestellar.io)   | Open source AI-powered multi-cluster Kubernetes
-          dashboard for managing LLM workloads across hybrid edge and cloud environments. GPU monitoring, benchmark
-          streaming, real-time observability with 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox
-          project.                                                                                                                                                                                         
-          | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square)     |
+        surrounding_text: "| [KubeStellar Console](https://console.kubestellar.io)   | Open source AI-powered multi-cluster Kubernetes dashboard for managing LLM workloads across hybrid edge and cloud environments. GPU monitoring, benchmark streaming, real-time observability with 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox project.                                                                                                                                                                                          | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square)     |"
         confidence: high
 metadata:
   github:
@@ -42,42 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An open-source dashboard for managing multi-cluster Kubernetes environments featuring AI-powered troubleshooting
-    missions.
-  why_it_matters: >-
-    It attempts to lower the cognitive load of multi-cluster management by integrating AI-driven tasks into the DevOps
-    workflow.
-  mental_damage: Because troubleshooting Kubernetes with an AI mission is just a more expensive way to realize your YAML is broken.
+  summary: KubeStellar Console is an open-source multi-cluster Kubernetes management dashboard that monitors clusters, deploys workloads, manages GPU resources, and provides AI-powered missions for troubleshooting.
+  why_it_matters: It helps developers and platform engineers manage complex Kubernetes environments at scale with AI-assisted diagnostics and operations.
+  mental_damage: Finally, a dashboard that not only shows your clusters are on fire but also suggests how to extinguish them with AI-generated missions you’ll still have to manually verify.
   tags:
     - kubernetes
     - devops
-    - mlops
+    - ai-assisted
+    - multi-cluster
     - dashboard
-    - cloud-native
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature
-    rather than the core product identity defined in our categories.
+  status: included
+  reason: KubeStellar Console is included because it functions as a control plane for managing multi-cluster Kubernetes operations with AI-powered workflows, aligning with agent orchestration platforms that coordinate autonomous tasks across distributed systems.
   evidence:
-    - >-
-      The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management'
-      tool.
-    - >-
-      The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a broader
-      management context.
+    - Scraped site context describes it as an 'open-source multi-cluster Kubernetes management dashboard' with 'AI-powered missions' for monitoring, deploying workloads, managing GPU resources, and troubleshooting
+    - Source-list context from Awesome-LLMOps places it in 'Large Scale Deployment > ML Platforms' as a tool for managing Kubernetes environments with AI capabilities
+    - The product positions itself as a centralized console for multi-cluster observability and AI-driven operational workflows, not as a coding agent or IDE extension
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-21T05:27:57.684Z'
+    updated_at: "2026-05-21T05:27:57.684Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,30 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:22:00.750Z'
+    updated_at: "2026-10-05T04:25:19.082Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:eb36c964328a25f53b8b2059001d7f23c213c4f1c19c7364f1d8ae4de0b96d15
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d6538c83c2809043edfb446305a8c1ed3b36106eacf6b2c39013e5da5aae2363
+      proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The product's primary identity is a Kubernetes management dashboard, with AI capabilities serving as a feature
-        rather than the core product identity defined in our categories.
+      decision_reason: KubeStellar Console is included because it functions as a control plane for managing multi-cluster Kubernetes operations with AI-powered workflows, aligning with agent orchestration platforms that coordinate autonomous tasks across distributed systems.
       decision_evidence:
-        - >-
-          The scraped title and description explicitly define it as a 'Multi-Cluster Kubernetes Dashboard & Management'
-          tool.
-        - >-
-          The AI functionality is described as a capability for 'troubleshooting with AI-powered missions' within a
-          broader management context.
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context describes it as an 'open-source multi-cluster Kubernetes management dashboard' with 'AI-powered missions' for monitoring, deploying workloads, managing GPU resources, and troubleshooting
+        - Source-list context from Awesome-LLMOps places it in 'Large Scale Deployment > ML Platforms' as a tool for managing Kubernetes environments with AI capabilities
+        - The product positions itself as a centralized console for multi-cluster observability and AI-driven operational workflows, not as a coding agent or IDE extension
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because KubeStellar Console operates as a hosted control plane for managing AI-driven workflows across clusters, rather than being a code-first library or SDK that developers import into their applications.
       review_reason: null
       review_resume_lifecycle: null

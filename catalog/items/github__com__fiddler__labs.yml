@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__fiddler__labs__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - Visualization
         anchor_text: Fiddler AI
         extracted_url: https://github.com/fiddler-labs
-        surrounding_text: >-
-          | [Fiddler AI](https://github.com/fiddler-labs)                  | Rich dashboards, reports, and UMAP to
-          perform root cause analysis, pinpoint problem areas, like correctness, safety, and privacy issues, and improve
-          LLM outcomes.           
-          |                                                                                                         |
+        surrounding_text: "| [Fiddler AI](https://github.com/fiddler-labs)                  | Rich dashboards, reports, and UMAP to perform root cause analysis, pinpoint problem areas, like correctness, safety, and privacy issues, and improve LLM outcomes.            |                                                                                                         |"
         confidence: high
 metadata:
   github:
@@ -41,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fiddler AI is an organization providing tools and examples centered around AI observability and model trust.
-  why_it_matters: N/A
-  mental_damage: >-
-    Navigating a company's GitHub organization is a high-effort way to realize you are mostly looking at a collection of
-    abandoned forks and examples.
-  tags: []
+  summary: Fiddler Labs is a GitHub organization hosting multiple repositories focused on observability, monitoring, and integrations for AI and developer tools.
+  why_it_matters: Provides reusable components like OpenTelemetry collectors and coding agent plugins that help developers monitor and trace AI-assisted workflows.
+  mental_damage: Another org of niche observability tools that makes you wonder if your CI pipeline needs more monitoring than your actual code.
+  tags:
+    - observability
+    - opentelemetry
+    - ai-integrations
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The input is a GitHub organization profile rather than a single, specific developer tool, and the repositories
-    consist primarily of forks, examples, and niche infrastructure plugins.
+  reason: Fiddler Labs is a GitHub organization, not a standalone product, and its repositories are primarily observability or infrastructure tooling without a clear primary identity as a developer-facing AI tool.
   evidence:
-    - The organization contains several archived or forked repositories (e.g., locust, checklist, intercom-go).
-    - >-
-      The primary non-forked repository is a specialized OpenTelemetry collector plugin, which is niche infrastructure
-      rather than a primary coding or agentic tool.
+    - The URL is a GitHub organization (fiddler-labs) with no single product focus
+    - Repositories include observability plugins, OpenTelemetry collectors, and forked tools like Helm and ClickHouse backups
+    - Listed in Awesome-LLMOps under Training > Visualization for trust and monitoring in AI systems
 placement:
   primary_category: null
   section: null
@@ -67,12 +61,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -80,27 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:15:07.646Z'
+    updated_at: "2026-10-05T04:32:50.056Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7299b7cf6e38a54918dcf4851db572c111294c90bec5aed1148321971752eecb
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5dea3f9598a6f5f21a01d461387cb81ab1fb33b5fadea907dc42cfcaf27a158e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The input is a GitHub organization profile rather than a single, specific developer tool, and the repositories
-        consist primarily of forks, examples, and niche infrastructure plugins.
+      decision_reason: Fiddler Labs is a GitHub organization, not a standalone product, and its repositories are primarily observability or infrastructure tooling without a clear primary identity as a developer-facing AI tool.
       decision_evidence:
-        - The organization contains several archived or forked repositories (e.g., locust, checklist, intercom-go).
-        - >-
-          The primary non-forked repository is a specialized OpenTelemetry collector plugin, which is niche
-          infrastructure rather than a primary coding or agentic tool.
+        - The URL is a GitHub organization (fiddler-labs) with no single product focus
+        - Repositories include observability plugins, OpenTelemetry collectors, and forked tools like Helm and ClickHouse backups
+        - Listed in Awesome-LLMOps under Training > Visualization for trust and monitoring in AI systems
       category_candidates: []
       contrastive_reason: null
       review_reason: null

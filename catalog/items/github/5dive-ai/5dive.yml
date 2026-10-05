@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__5dive-ai__5dive__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-07-06T05:29:57.556Z'
+      discovered_at: "2026-07-06T05:29:57.556Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,13 +20,10 @@ provenance:
           - Orchestrators & autonomous loops
         anchor_text: 5dive
         extracted_url: https://github.com/5dive-ai/5dive
-        surrounding_text: >-
-          - **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 15` — Run a company of AI coding agents on a server you
-          own: one-command spin-up of named agents (Claude Code, Codex, Grok, and more), cron + heartbeat scheduling,
-          multi-agent orchestration, Telegram control, and a babysit + needs-you triage dashboard. Self-hosted. MIT.
+        surrounding_text: "- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 15` — Run a company of AI coding agents on a server you own: one-command spin-up of named agents (Claude Code, Codex, Grok, and more), cron + heartbeat scheduling, multi-agent orchestration, Telegram control, and a babysit + needs-you triage dashboard. Self-hosted. MIT."
         confidence: high
     - id: discovery__github__5dive-ai__5dive__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-08-17T04:19:08.737Z'
+      discovered_at: "2026-08-17T04:19:08.737Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -38,9 +35,7 @@ provenance:
           - CLI Agent Harnesses
         anchor_text: 5dive
         extracted_url: https://github.com/5dive-ai/5dive
-        surrounding_text: >-
-          | [5dive](https://github.com/5dive-ai/5dive) | 50 | Shell | MIT | 2026-08 | Run a company of named agents on
-          your own server |
+        surrounding_text: "| [5dive](https://github.com/5dive-ai/5dive) | 50 | Shell | MIT | 2026-08 | Run a company of named agents on your own server |"
         confidence: high
 metadata:
   github:
@@ -50,11 +45,9 @@ metadata:
     archived: false
     full_name: 5dive-ai/5dive
     html_url: https://github.com/5dive-ai/5dive
-    created_at: '2026-05-15T08:12:36Z'
-    pushed_at: '2026-09-17T02:00:42Z'
-    description: >-
-      Run a company of AI agents on a server you own. Spin up named agents (claude, codex, pi…), put them on an org
-      chart with a shared backlog, let them hand off work and ping your phone only when a human must decide. MIT.
+    created_at: "2026-05-15T08:12:36Z"
+    pushed_at: "2026-09-17T02:00:42Z"
+    description: Run a company of AI agents on a server you own. Spin up named agents (claude, codex, pi…), put them on an org chart with a shared backlog, let them hand off work and ping your phone only when a human must decide. MIT.
     homepage: https://5dive.ai
     topics:
       - agent-loops
@@ -77,18 +70,14 @@ metadata:
       - persistent-agents
       - self-hosted
       - zero-human-company
-    last_checked_at: '2026-09-17T04:13:26.654Z'
+    last_checked_at: "2026-09-17T04:13:26.654Z"
     readme:
-      fetched_at: '2026-09-17T04:13:26.654Z'
+      fetched_at: "2026-09-17T04:13:26.654Z"
       bytes: 28216
 insights:
   summary: A self-hosted runtime that orchestrates multiple AI agent CLIs as persistent Linux services.
-  why_it_matters: >-
-    It allows developers to deploy a multi-agent workforce using existing tools like Claude Code on their own
-    infrastructure with built-in human-in-the-loop escalation.
-  mental_damage: >-
-    There is no greater level of peak engineering than managing your autonomous AI workforce through systemd units and a
-    Telegram bot.
+  why_it_matters: It allows developers to deploy a multi-agent workforce using existing tools like Claude Code on their own infrastructure with built-in human-in-the-loop escalation.
+  mental_damage: There is no greater level of peak engineering than managing your autonomous AI workforce through systemd units and a Telegram bot.
   tags:
     - agent-orchestration
     - multi-agent
@@ -111,18 +100,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-08-17T04:19:08.740Z'
+    updated_at: "2026-08-17T04:19:08.740Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:26.654Z'
+    updated_at: "2026-09-17T04:13:26.654Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:21:12.367Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.817Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -134,9 +125,7 @@ processing:
       input_hash: sha256:7e5bba9be58806502c70667dc800c6d6dcc8b88e897abfbeb881f4766216f9db
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: >-
-        The tool's primary identity is a runtime for coordinating multiple agents, managing a shared task queue, and
-        handling agent lifecycles.
+      decision_reason: The tool's primary identity is a runtime for coordinating multiple agents, managing a shared task queue, and handling agent lifecycles.
       decision_evidence:
         - Orchestrates multiple agent CLIs (Claude, Codex, etc.) as systemd services
         - Uses a shared SQLite task queue for multi-agent coordination
@@ -144,8 +133,6 @@ processing:
       category_candidates:
         - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because the product acts as a management layer for multiple
-        existing agents rather than being a single autonomous coding assistant itself.
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product acts as a management layer for multiple existing agents rather than being a single autonomous coding assistant itself.
       review_reason: null
       review_resume_lifecycle: null

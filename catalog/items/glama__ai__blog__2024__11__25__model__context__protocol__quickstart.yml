@@ -5,9 +5,8 @@ canonical_url: https://glama.ai/blog/2024-11-25-model-context-protocol-quickstar
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__glama__ai__blog__2024__11__25__model__context__protocol__quickstart__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__glama__ai__blog__2024__11__25__model__context__protocol__quickstart__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +18,7 @@ provenance:
           - Tutorials
         anchor_text: Model Context Protocol (MCP) Quickstart
         extracted_url: https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart
-        surrounding_text: >-
-          * [Model Context Protocol (MCP)
-          Quickstart](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)
+        surrounding_text: "* [Model Context Protocol (MCP) Quickstart](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)"
         confidence: high
 metadata:
   github:
@@ -39,29 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A blog post explaining the Model Context Protocol (MCP) standard, its components, and how to test MCP servers using
-    Claude Desktop.
-  why_it_matters: >-
-    Helps developers understand how MCP enables AI agents to interact with external tools and data sources through a
-    unified interface.
-  mental_damage: >-
-    Another deep-dive protocol explainer that makes you feel like you need to implement three new things before lunch
-    just to stay relevant.
+  summary: A blog post quickstart guide explaining the Model Context Protocol (MCP) standard and how to implement MCP servers and clients.
+  why_it_matters: Helps developers understand and adopt MCP for connecting AI models to external tools and data sources through a unified interface.
+  mental_damage: Yet another MCP tutorial adding to the growing pile of protocol explainers developers must skim to stay current.
   tags:
-    - model-context-protocol
+    - mcp
     - tutorial
     - ai-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is documentation explaining a protocol standard, not a developer-facing tool, agent, or infrastructure product
-    that performs a function.
+  reason: The resource is a documentation blog post, not a standalone tool or product, so it does not qualify as developer tooling for inclusion.
   evidence:
-    - Source is a blog post on glama.ai titled 'Model Context Protocol (MCP) Quickstart'
-    - Content explains MCP concepts, components, and setup instructions without offering executable tooling
-    - Appears in awesome-mcp-servers under 'Tutorials' section, indicating educational rather than operational purpose
+    - URL points to a Glama blog post titled 'Model Context Protocol (MCP) Quickstart'
+    - Scraped site context shows it is an educational article explaining MCP concepts and implementation
+    - Source-list context indicates it is referenced only as a tutorial within the awesome-mcp-servers list
 placement:
   primary_category: null
   section: null
@@ -71,12 +60,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -84,28 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:16:15.256Z'
+    updated_at: "2026-10-05T04:32:56.430Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d7bfc7c30ffd9570c7c328b189f7c87e29d6d38de0a06219d74116d8202ea535
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a50db5b5da4b56f9696d878c3b1536c9a035459a2ee1a0e46da8f1678200a5ac
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is documentation explaining a protocol standard, not a developer-facing tool, agent, or infrastructure
-        product that performs a function.
+      decision_reason: The resource is a documentation blog post, not a standalone tool or product, so it does not qualify as developer tooling for inclusion.
       decision_evidence:
-        - Source is a blog post on glama.ai titled 'Model Context Protocol (MCP) Quickstart'
-        - Content explains MCP concepts, components, and setup instructions without offering executable tooling
-        - >-
-          Appears in awesome-mcp-servers under 'Tutorials' section, indicating educational rather than operational
-          purpose
+        - URL points to a Glama blog post titled 'Model Context Protocol (MCP) Quickstart'
+        - Scraped site context shows it is an educational article explaining MCP concepts and implementation
+        - Source-list context indicates it is referenced only as a tutorial within the awesome-mcp-servers list
       category_candidates: []
       contrastive_reason: null
       review_reason: null

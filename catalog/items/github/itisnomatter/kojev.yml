@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__itisnomatter__kojev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: kojev
         extracted_url: https://github.com/itisnomatter/kojev
-        surrounding_text: >-
-          - [kojev](https://github.com/ItisNoMatter/kojev) - Kotlin Multiplatform client for Jev that answers Choice and
-          Score questions as your own enums.
+        surrounding_text: "- [kojev](https://github.com/ItisNoMatter/kojev) - Kotlin Multiplatform client for Jev that answers Choice and Score questions as your own enums."
         confidence: high
     - id: discovery__github__itisnomatter__kojev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,14 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**kojev**'
+        anchor_text: "**kojev**"
         extracted_url: https://github.com/itisnomatter/kojev
-        surrounding_text: >-
-          - [**kojev**](https://github.com/ItisNoMatter/kojev) — Kotlin Multiplatform client for Jev that returns your
-          own enum/sealed types instead of string keys.
+        surrounding_text: "- [**kojev**](https://github.com/ItisNoMatter/kojev) — Kotlin Multiplatform client for Jev that returns your own enum/sealed types instead of string keys."
         confidence: high
     - id: discovery__github__itisnomatter__kojev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -54,15 +50,10 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: kojev
         extracted_url: https://github.com/itisnomatter/kojev
-        surrounding_text: >-
-          - [kojev](https://github.com/ItisNoMatter/kojev)
-          ![stars](https://img.shields.io/github/stars/ItisNoMatter/kojev?style=flat-square&label=%E2%98%85) - Kotlin
-          ecosystem: Kotlin Multiplatform (JVM, Android, iOS) client for Jev that answers Choice and Score questions as
-          the caller's own enums, with one typed way to read answers, no default thresholds, and offline MockEngine
-          tests.
+        surrounding_text: "- [kojev](https://github.com/ItisNoMatter/kojev) ![stars](https://img.shields.io/github/stars/ItisNoMatter/kojev?style=flat-square&label=%E2%98%85) - Kotlin ecosystem: Kotlin Multiplatform (JVM, Android, iOS) client for Jev that answers Choice and Score questions as the caller's own enums, with one typed way to read answers, no default thresholds, and offline MockEngine tests."
         confidence: high
     - id: discovery__github__itisnomatter__kojev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -74,9 +65,7 @@ provenance:
           - SDKs and developer tools
         anchor_text: kojev
         extracted_url: https://github.com/itisnomatter/kojev
-        surrounding_text: >-
-          - [kojev](https://github.com/ItisNoMatter/kojev) - Kotlin Multiplatform client that answers Choice and Score
-          questions as the caller's own enums; thresholds and routing stay in the caller's code.
+        surrounding_text: "- [kojev](https://github.com/ItisNoMatter/kojev) - Kotlin Multiplatform client that answers Choice and Score questions as the caller's own enums; thresholds and routing stay in the caller's code."
         confidence: high
 metadata:
   github:
@@ -114,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.383Z'
+    updated_at: "2026-09-29T13:07:10.383Z"
     cause: null
     next_retry_at: null
   stars:
@@ -122,6 +111,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

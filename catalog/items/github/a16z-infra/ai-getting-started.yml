@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__a16z-infra__ai-getting-started__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,10 +20,7 @@ provenance:
           - Templates
         anchor_text: AI Getting Started
         extracted_url: https://github.com/a16z-infra/ai-getting-started
-        surrounding_text: >-
-          - [AI Getting Started](https://github.com/a16z-infra/ai-getting-started): A Javascript AI getting started
-          stack for weekend projects, including image/text models, vector stores, auth, and deployment configs ![GitHub
-          Repo stars](https://img.shields.io/github/stars/a16z-infra/ai-getting-started?style=social)
+        surrounding_text: "- [AI Getting Started](https://github.com/a16z-infra/ai-getting-started): A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs ![GitHub Repo stars](https://img.shields.io/github/stars/a16z-infra/ai-getting-started?style=social)"
         confidence: high
 metadata:
   github:
@@ -33,27 +30,19 @@ metadata:
     archived: false
     full_name: a16z-infra/ai-getting-started
     html_url: https://github.com/a16z-infra/ai-getting-started
-    created_at: '2023-06-16T00:55:08Z'
-    pushed_at: '2024-08-21T12:35:18Z'
-    description: >-
-      A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and
-      deployment configs
+    created_at: "2023-06-16T00:55:08Z"
+    pushed_at: "2024-08-21T12:35:18Z"
+    description: A Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs
     homepage: https://ai-getting-started.com/
     topics: []
-    last_checked_at: '2026-09-17T04:13:27.342Z'
+    last_checked_at: "2026-09-17T04:13:27.342Z"
     readme:
-      fetched_at: '2026-09-17T04:13:27.342Z'
+      fetched_at: "2026-09-17T04:13:27.342Z"
       bytes: 6664
 insights:
-  summary: >-
-    A JavaScript reference stack and starter kit for building AI-powered applications using Next.js, LangChain, and
-    various vector databases.
-  why_it_matters: >-
-    It provides a pre-integrated architecture for common AI patterns like RAG and text streaming, reducing initial setup
-    friction for new projects.
-  mental_damage: >-
-    It’s just one more way to spend your entire weekend configuring auth and vector store secrets instead of actually
-    building your product.
+  summary: A JavaScript reference stack and starter kit for building AI-powered applications using Next.js, LangChain, and various vector databases.
+  why_it_matters: It provides a pre-integrated architecture for common AI patterns like RAG and text streaming, reducing initial setup friction for new projects.
+  mental_damage: It’s just one more way to spend your entire weekend configuring auth and vector store secrets instead of actually building your product.
   tags:
     - boilerplate
     - nextjs
@@ -63,14 +52,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a reference implementation and boilerplate template rather than a standalone product, framework, or
-    agent.
+  reason: The project is a reference implementation and boilerplate template rather than a standalone product, framework, or agent.
   evidence:
     - README describes the project as a 'getting started stack' for weekend projects.
-    - >-
-      The project is a collection of existing tools (Clerk, Pinecone, LangChain) rather than a single tool or library
-      itself.
+    - The project is a collection of existing tools (Clerk, Pinecone, LangChain) rather than a single tool or library itself.
 placement:
   primary_category: null
   section: null
@@ -80,17 +65,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.598Z'
+    updated_at: "2026-05-06T22:12:15.598Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:27.342Z'
+    updated_at: "2026-09-17T04:13:27.342Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.817Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -105,14 +90,10 @@ processing:
       input_hash: sha256:683a79818011d33aff848a2167eaf302456b5eb735b5b3100228ae5cb4fcb3ad
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a reference implementation and boilerplate template rather than a standalone product, framework,
-        or agent.
+      decision_reason: The project is a reference implementation and boilerplate template rather than a standalone product, framework, or agent.
       decision_evidence:
         - README describes the project as a 'getting started stack' for weekend projects.
-        - >-
-          The project is a collection of existing tools (Clerk, Pinecone, LangChain) rather than a single tool or
-          library itself.
+        - The project is a collection of existing tools (Clerk, Pinecone, LangChain) rather than a single tool or library itself.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

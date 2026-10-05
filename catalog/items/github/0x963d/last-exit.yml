@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0x963d__last-exit__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: last-exit
         extracted_url: https://github.com/0x963d/last-exit
-        surrounding_text: >-
-          - [last-exit](https://github.com/0x963D/last-exit) ([site](https://gate.fade.tools)) - A cyberpunk border
-          encounter powered by TypeSafe Jev. Bluff the guard. Inspect the receipts.
+        surrounding_text: "- [last-exit](https://github.com/0x963D/last-exit) ([site](https://gate.fade.tools)) - A cyberpunk border encounter powered by TypeSafe Jev. Bluff the guard. Inspect the receipts."
         confidence: high
     - id: discovery__github__0x963d__last-exit__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: last-exit
         extracted_url: https://github.com/0x963d/last-exit
-        surrounding_text: >-
-          | [last-exit](https://github.com/0x963D/last-exit) | ★ 0 | JavaScript | 2026-09-19 | A cyberpunk border
-          encounter powered by TypeSafe Jev. Bluff the guard. Inspect the receipts. |
+        surrounding_text: "| [last-exit](https://github.com/0x963D/last-exit) | ★ 0 | JavaScript | 2026-09-19 | A cyberpunk border encounter powered by TypeSafe Jev. Bluff the guard. Inspect the receipts. |"
         confidence: high
 metadata:
   github:
@@ -77,16 +73,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-29T13:12:37.046Z'
+    updated_at: "2026-10-05T04:19:13.794Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 0x963d/last-exit
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.817Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

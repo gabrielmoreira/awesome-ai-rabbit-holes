@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__seb4ez__jevguard-mcp__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Agents, coding, and guardrails
         anchor_text: jevguard-mcp
         extracted_url: https://github.com/seb4ez/jevguard-mcp
-        surrounding_text: >-
-          - [jevguard-mcp](https://github.com/seb4ez/jevguard-mcp) - Zero-dependency MCP server and Python runtime where
-          Jev evaluates shell command safety, code patch regression risk, and discrete decision certainty, with local
-          SQLite WAL caching and automatic closed-world escape injection.
+        surrounding_text: "- [jevguard-mcp](https://github.com/seb4ez/jevguard-mcp) - Zero-dependency MCP server and Python runtime where Jev evaluates shell command safety, code patch regression risk, and discrete decision certainty, with local SQLite WAL caching and automatic closed-world escape injection."
         confidence: high
 metadata:
   github:
@@ -40,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevguard-mcp - Zero-dependency MCP server and Python runtime where Jev evaluates shell command safety, code patch
-    regression risk, and discrete decision certainty, with local SQLite WAL caching and automatic closed-world escape
-    injection.
+  summary: jevguard-mcp - Zero-dependency MCP server and Python runtime where Jev evaluates shell command safety, code patch regression risk, and discrete decision certainty, with local SQLite WAL caching and automatic closed-world escape injection.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

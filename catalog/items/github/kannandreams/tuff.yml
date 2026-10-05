@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kannandreams__tuff__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - CLI Tools
         anchor_text: Tuff
         extracted_url: https://tuffcli.dev
-        surrounding_text: >-
-          - **[Tuff](https://tuffcli.dev)** – Rust-based CLI for managing coding-agent capabilities (skills, tools,
-          hooks, workflows, MCP servers) from a canonical manifest — install, track provenance, catch config drift, and
-          emit harness-specific output for Claude Code, Codex, and others.
+        surrounding_text: "- **[Tuff](https://tuffcli.dev)** – Rust-based CLI for managing coding-agent capabilities (skills, tools, hooks, workflows, MCP servers) from a canonical manifest — install, track provenance, catch config drift, and emit harness-specific output for Claude Code, Codex, and others."
         confidence: high
 metadata:
   github:
@@ -40,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Tuff – Rust-based CLI for managing coding-agent capabilities (skills, tools, hooks, workflows, MCP servers) from a
-    canonical manifest — install, track provenance, catch config drift, and emit harness-specific output for Claude
-    Code, Codex, and others.
+  summary: Tuff – Rust-based CLI for managing coding-agent capabilities (skills, tools, hooks, workflows, MCP servers) from a canonical manifest — install, track provenance, catch config drift, and emit harness-specific output for Claude Code, Codex, and others.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.463Z'
+    updated_at: "2026-09-29T13:07:10.463Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

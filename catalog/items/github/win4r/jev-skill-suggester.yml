@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__win4r__jev-skill-suggester__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-skill-suggester
         extracted_url: https://github.com/win4r/jev-skill-suggester
-        surrounding_text: >-
-          - [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) - 用 TypeSafe Jev 推荐已安装 Skill / Bounded
-          installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill, bilingual docs and live examples.
+        surrounding_text: "- [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) - 用 TypeSafe Jev 推荐已安装 Skill / Bounded installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill, bilingual docs and live examples."
         confidence: high
     - id: discovery__github__win4r__jev-skill-suggester__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-skill-suggester
         extracted_url: https://github.com/win4r/jev-skill-suggester
-        surrounding_text: >-
-          | [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) | ★ 32 | Python | 2026-09-23 | 用
-          TypeSafe Jev 推荐已安装 Skill / Bounded installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill,
-          bilingual docs and live examples. |
+        surrounding_text: "| [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) | ★ 32 | Python | 2026-09-23 | 用 TypeSafe Jev 推荐已安装 Skill / Bounded installed-skill recommendations with TypeSafe Jev. Python CLI, Codex skill, bilingual docs and live examples. |"
         confidence: high
     - id: discovery__github__win4r__jev-skill-suggester__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,15 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-skill-suggester**'
+        anchor_text: "**jev-skill-suggester**"
         extracted_url: https://github.com/win4r/jev-skill-suggester
-        surrounding_text: >-
-          - [**jev-skill-suggester**](https://github.com/win4r/jev-skill-suggester) — A Python CLI and Codex Skill that
-          recommends a suitable installed skill for the current task using TypeSafe Jev Choice and Noul checks without
-          executing candidate skills.
+        surrounding_text: "- [**jev-skill-suggester**](https://github.com/win4r/jev-skill-suggester) — A Python CLI and Codex Skill that recommends a suitable installed skill for the current task using TypeSafe Jev Choice and Noul checks without executing candidate skills."
         confidence: high
     - id: discovery__github__win4r__jev-skill-suggester__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -74,11 +66,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jev-skill-suggester
         extracted_url: https://github.com/win4r/jev-skill-suggester
-        surrounding_text: >-
-          - [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester)
-          ![stars](https://img.shields.io/github/stars/win4r/jev-skill-suggester?style=flat-square&label=%E2%98%85) -
-          Coding agents: recommends which installed skills apply to a request, keeping the recommendation bounded and
-          letting Jev decide.
+        surrounding_text: "- [jev-skill-suggester](https://github.com/win4r/jev-skill-suggester) ![stars](https://img.shields.io/github/stars/win4r/jev-skill-suggester?style=flat-square&label=%E2%98%85) - Coding agents: recommends which installed skills apply to a request, keeping the recommendation bounded and letting Jev decide."
         confidence: high
 metadata:
   github:
@@ -108,16 +96,16 @@ curation:
     - jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Client SDKs & CLIs; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.389Z'
+    updated_at: "2026-09-29T13:07:10.389Z"
     cause: null
     next_retry_at: null
   stars:
@@ -125,6 +113,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

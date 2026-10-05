@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__c-bata__goptuna__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - AutoML
         anchor_text: Goptuna
         extracted_url: https://github.com/c-bata/goptuna
-        surrounding_text: >-
-          | [Goptuna](https://github.com/c-bata/goptuna)                                 | A hyperparameter optimization
-          framework, inspired by
-          Optuna.                                                                                                                   
-          | ![GitHub Badge](https://img.shields.io/github/stars/c-bata/goptuna.svg?style=flat-square)                  |
+        surrounding_text: "| [Goptuna](https://github.com/c-bata/goptuna)                                 | A hyperparameter optimization framework, inspired by Optuna.                                                                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/c-bata/goptuna.svg?style=flat-square)                  |"
         confidence: high
 metadata:
   github:
@@ -33,8 +29,8 @@ metadata:
     archived: false
     full_name: c-bata/goptuna
     html_url: https://github.com/c-bata/goptuna
-    created_at: '2019-07-24T12:03:05Z'
-    pushed_at: '2025-08-12T14:50:33Z'
+    created_at: "2019-07-24T12:03:05Z"
+    pushed_at: "2025-08-12T14:50:33Z"
     description: A hyperparameter optimization framework, inspired by Optuna.
     homepage: https://pkg.go.dev/github.com/c-bata/goptuna
     topics:
@@ -42,17 +38,13 @@ metadata:
       - bayesian-optimization
       - blackbox-optimization
       - evolution-strategies
-    last_checked_at: '2026-09-24T04:13:05.679Z'
+    last_checked_at: "2026-09-24T04:13:05.679Z"
     readme:
-      fetched_at: '2026-09-24T04:13:05.679Z'
+      fetched_at: "2026-09-24T04:13:05.679Z"
       bytes: 10398
 insights:
-  summary: >-
-    A hyperparameter optimization framework for Go, inspired by Optuna, supporting Bayesian optimization, evolution
-    strategies, and multi-armed bandit algorithms.
-  why_it_matters: >-
-    Developers can programmatically optimize machine learning models or arbitrary objective functions in Go with minimal
-    setup and distributed backend support.
+  summary: A hyperparameter optimization framework for Go, inspired by Optuna, supporting Bayesian optimization, evolution strategies, and multi-armed bandit algorithms.
+  why_it_matters: Developers can programmatically optimize machine learning models or arbitrary objective functions in Go with minimal setup and distributed backend support.
   mental_damage: Finally, a way to spend even more time tuning hyperparameters instead of writing the code that actually uses them.
   tags:
     - hyperparameter-optimization
@@ -62,10 +54,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a code-first AutoML/hyperparameter optimization library for Go, which falls outside the catalog's scope of
-    AI tools, agents, workflows, and infrastructure specifically relevant to software developers in their daily coding
-    workflows.
+  reason: This is a code-first AutoML/hyperparameter optimization library for Go, which falls outside the catalog's scope of AI tools, agents, workflows, and infrastructure specifically relevant to software developers in their daily coding workflows.
   evidence:
     - Repo description explicitly identifies it as a hyperparameter optimization framework
     - README emphasizes ML-focused optimization with Go API and distributed backends
@@ -79,22 +68,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:05.679Z'
+    updated_at: "2026-09-24T04:13:05.679Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:59:46.290Z'
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for github__c-bata__goptuna: Invalid AI response structure: Invalid confidence
-        value: undefined
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -106,10 +93,7 @@ processing:
       input_hash: sha256:a9fd9b6fef7db07956ae6fd48233b2cad096e1f97c3691ebc9b415add49282dc
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a code-first AutoML/hyperparameter optimization library for Go, which falls outside the catalog's scope
-        of AI tools, agents, workflows, and infrastructure specifically relevant to software developers in their daily
-        coding workflows.
+      decision_reason: This is a code-first AutoML/hyperparameter optimization library for Go, which falls outside the catalog's scope of AI tools, agents, workflows, and infrastructure specifically relevant to software developers in their daily coding workflows.
       decision_evidence:
         - Repo description explicitly identifies it as a hyperparameter optimization framework
         - README emphasizes ML-focused optimization with Go API and distributed backends

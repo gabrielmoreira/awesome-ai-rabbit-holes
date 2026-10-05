@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__awesome__mcp__tools__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: awesome-mcp.tools
         extracted_url: https://awesome-mcp.tools
-        surrounding_text: >-
-          - [adw0rd/awesome-mcp-tools-mcp](https://github.com/adw0rd/awesome-mcp-tools-mcp)
-          [![adw0rd/awesome-mcp-tools-mcp MCP
-          server](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp/badges/score.svg)](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp)
-          📇 ☁️ 🏠 🍎 🪟 🐧 - CLI + stdio MCP bridge for the [awesome-mcp.tools](https://awesome-mcp.tools) catalog
-          (2,000+ MCP servers, refreshed every 6h). Search from terminal (`npx awesome-mcp search postgres`) or wire the
-          hosted server into Claude / Cursor / Codex / Cline / Windsurf. Endpoint: `https://awesome-mcp.tools/mcp`
-          (Streamable HTTP, no auth). Zero deps, MIT.
+        surrounding_text: "- [adw0rd/awesome-mcp-tools-mcp](https://github.com/adw0rd/awesome-mcp-tools-mcp) [![adw0rd/awesome-mcp-tools-mcp MCP server](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp/badges/score.svg)](https://glama.ai/mcp/servers/adw0rd/awesome-mcp-tools-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - CLI + stdio MCP bridge for the [awesome-mcp.tools](https://awesome-mcp.tools) catalog (2,000+ MCP servers, refreshed every 6h). Search from terminal (`npx awesome-mcp search postgres`) or wire the hosted server into Claude / Cursor / Codex / Cline / Windsurf. Endpoint: `https://awesome-mcp.tools/mcp` (Streamable HTTP, no auth). Zero deps, MIT."
         confidence: high
 metadata:
   github:
@@ -44,35 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of over 4,300 MCP servers for AI assistants like Claude, Cursor, and Codex.
-  why_it_matters: >-
-    It acts as a central discovery hub for finding and comparing the specific tools needed to extend agent capabilities
-    via the Model Context Protocol.
-  mental_damage: >-
-    It provides just enough variety to make you feel like you're one server away from total automation, while you
-    continue manually typing boilerplate.
+  summary: A curated directory of 4,374+ MCP servers searchable by category with install commands for Claude, Cursor, Codex, and Cline.
+  why_it_matters: Helps developers discover and compare MCP servers to extend AI assistant capabilities without manual searching.
+  mental_damage: Another directory to bookmark before realizing you’ll still spend hours googling for the right server.
   tags:
     - mcp
     - directory
     - discovery
-    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: The site is a curated directory of MCP servers, functioning as a discovery tool rather than a standalone product, fitting the awesome-awesomes scope for developer-facing resource lists.
   evidence:
-    - jev-latest choice confidence 0.93
+    - "Title: 'MCP Servers Directory 2026 — 4374+ for Claude, Cursor & Codex'"
+    - "Description: 'MCP server directory for Claude, Cursor, Codex & Cline. Browse 4374+ servers, search by category, compare side-by-side, copy install commands.'"
+    - "Primary page excerpt: 'Curated catalog of 4374 MCP servers. Discover, search and compare MCP servers for AI assistants and developer workflows.'"
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
   section: Awesome Lists & Directories
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.715Z'
+    updated_at: "2026-07-16T05:04:46.715Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,30 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:25:34.348Z'
+    updated_at: "2026-10-05T04:27:10.668Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fed340c47db5ffb4847eb089e62b74dff1101efae29e7ec3bbf86889ef15b999
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4f91656b78ebe3c5752d0768e92c923987adc11a4bae370e672b09c8436e51eb
       proposed_primary_category: awesome-awesomes
-      disagreement: true
-      decision_reason: >-
-        The tool is a discovery-oriented directory for the MCP ecosystem, serving as a navigation aid rather than
-        protocol infrastructure.
+      disagreement: false
+      decision_reason: The site is a curated directory of MCP servers, functioning as a discovery tool rather than a standalone product, fitting the awesome-awesomes scope for developer-facing resource lists.
       decision_evidence:
-        - Scraped site context describes it as a 'Curated catalog of 4374 MCP servers'
-        - Primary user workflows involve browsing, searching, and comparing existing servers
+        - "Title: 'MCP Servers Directory 2026 — 4374+ for Claude, Cursor & Codex'"
+        - "Description: 'MCP server directory for Claude, Cursor, Codex & Cline. Browse 4374+ servers, search by category, compare side-by-side, copy install commands.'"
+        - "Primary page excerpt: 'Curated catalog of 4374 MCP servers. Discover, search and compare MCP servers for AI assistants and developer workflows.'"
       category_candidates:
         - awesome-awesomes
         - mcp
-      contrastive_reason: >-
-        Choose awesome-awesomes over mcp because the product is a discovery directory/navigation aid rather than an
-        operational MCP registry or protocol-specific infrastructure.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+      contrastive_reason: Choose awesome-awesomes over mcp because the site’s identity is a curated directory for discovery, not an MCP server, client, registry, or infrastructure tool itself.
+      review_reason: null
       review_resume_lifecycle: null

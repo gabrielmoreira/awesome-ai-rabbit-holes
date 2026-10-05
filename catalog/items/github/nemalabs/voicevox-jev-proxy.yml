@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nemalabs__voicevox-jev-proxy__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: voicevox-jev-proxy
         extracted_url: https://github.com/nemalabs/voicevox-jev-proxy
-        surrounding_text: >-
-          - [voicevox-jev-proxy](https://github.com/nemalabs/voicevox-jev-proxy) - Corrects VOICEVOX Japanese readings
-          (optional intonation) with TypeSafe Jev; CLI WAV export or VOICEVOX-compatible API proxy. [Project
-          guide](community/projects/tools/voicevox-jev-proxy.md).
+        surrounding_text: "- [voicevox-jev-proxy](https://github.com/nemalabs/voicevox-jev-proxy) - Corrects VOICEVOX Japanese readings (optional intonation) with TypeSafe Jev; CLI WAV export or VOICEVOX-compatible API proxy. [Project guide](community/projects/tools/voicevox-jev-proxy.md)."
         confidence: high
     - id: discovery__github__nemalabs__voicevox-jev-proxy__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Creative Tools
-        anchor_text: '**voicevox-jev-proxy**'
+        anchor_text: "**voicevox-jev-proxy**"
         extracted_url: https://github.com/nemalabs/voicevox-jev-proxy
-        surrounding_text: >-
-          - [**voicevox-jev-proxy**](https://github.com/nemalabs/voicevox-jev-proxy) — This project integrates Jev to
-          provide structured decisions for its workflow. See the repository for implementation details.
+        surrounding_text: "- [**voicevox-jev-proxy**](https://github.com/nemalabs/voicevox-jev-proxy) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
 metadata:
   github:
@@ -58,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    voicevox-jev-proxy - Corrects VOICEVOX Japanese readings (optional intonation) with TypeSafe Jev; CLI WAV export or
-    VOICEVOX-compatible API proxy. Project guide.
+  summary: voicevox-jev-proxy - Corrects VOICEVOX Japanese readings (optional intonation) with TypeSafe Jev; CLI WAV export or VOICEVOX-compatible API proxy. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.421Z'
+    updated_at: "2026-09-29T13:07:10.421Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

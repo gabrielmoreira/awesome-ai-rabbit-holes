@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__tuanone123__hotlikeshop-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,12 +20,7 @@ provenance:
           - 🛒 E-Commerce
         anchor_text: tuanone123/hotlikeshop-mcp
         extracted_url: https://github.com/tuanone123/hotlikeshop-mcp
-        surrounding_text: >-
-          -   **[tuanone123/hotlikeshop-mcp](https://github.com/tuanone123/hotlikeshop-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/tuanone123/hotlikeshop-mcp?style=social)](https://github.com/tuanone123/hotlikeshop-mcp):
-          E-commerce marketplace MCP for social-media & digital accounts, proxies and services. Search, compare and view
-          best-sellers, then buy in chat via a safe quote->confirm flow (the AI can never spend on its own). Free
-          keyless lookup; remote Streamable HTTP. Docs: https://hotlikeshop.com/ai.
+        surrounding_text: "-   **[tuanone123/hotlikeshop-mcp](https://github.com/tuanone123/hotlikeshop-mcp)** [![GitHub stars](https://img.shields.io/github/stars/tuanone123/hotlikeshop-mcp?style=social)](https://github.com/tuanone123/hotlikeshop-mcp): E-commerce marketplace MCP for social-media & digital accounts, proxies and services. Search, compare and view best-sellers, then buy in chat via a safe quote->confirm flow (the AI can never spend on its own). Free keyless lookup; remote Streamable HTTP. Docs: https://hotlikeshop.com/ai."
         confidence: high
 metadata:
   github:
@@ -43,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    tuanone123/hotlikeshop-mcp : E-commerce marketplace MCP for social-media & digital accounts, proxies and services.
-    Search, compare and view best-sellers, then buy in chat via a safe quote->confirm flow (the AI can never spend on
-    its own). Free keyless lookup; remote Streamable HTTP. Docs: https://hotlikeshop.com/ai.
+  summary: "tuanone123/hotlikeshop-mcp : E-commerce marketplace MCP for social-media & digital accounts, proxies and services. Search, compare and view best-sellers, then buy in chat via a safe quote->confirm flow (the AI can never spend on its own). Free keyless lookup; remote Streamable HTTP. Docs: https://hotlikeshop.com/ai."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.481Z'
+    updated_at: "2026-09-29T13:07:10.481Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

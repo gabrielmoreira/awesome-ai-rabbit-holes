@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentset-ai__agentset__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Community Servers
         anchor_text: Agentset
         extracted_url: https://agentset.ai
-        surrounding_text: >-
-          - **[Agentset](https://github.com/agentset-ai/mcp-server)** - RAG MCP for your
-          [Agentset](https://agentset.ai/) data.
+        surrounding_text: "- **[Agentset](https://github.com/agentset-ai/mcp-server)** - RAG MCP for your [Agentset](https://agentset.ai/) data."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: agentset-ai/agentset
     html_url: https://github.com/agentset-ai/agentset
-    created_at: '2025-03-10T04:52:13Z'
-    pushed_at: '2026-07-16T13:11:34Z'
-    description: >-
-      The open-source RAG platform: built-in citations, deep research, 22+ file formats, partitions, MCP server, and
-      more.
+    created_at: "2025-03-10T04:52:13Z"
+    pushed_at: "2026-07-16T13:11:34Z"
+    description: "The open-source RAG platform: built-in citations, deep research, 22+ file formats, partitions, MCP server, and more."
     homepage: https://agentset.ai
     topics:
       - agentic-rag
@@ -50,15 +46,13 @@ metadata:
       - memory-management
       - rag
       - vercel-ai-sdk
-    last_checked_at: '2026-09-17T04:13:33.665Z'
+    last_checked_at: "2026-09-17T04:13:33.665Z"
     readme:
-      fetched_at: '2026-09-17T04:13:33.665Z'
+      fetched_at: "2026-09-17T04:13:33.665Z"
       bytes: 3960
 insights:
   summary: An open-source RAG platform providing end-to-end tools for data ingestion, vector indexing, and retrieval.
-  why_it_matters: >-
-    It abstracts the complexity of building production-ready RAG pipelines by handling everything from multi-format file
-    parsing to hosted retrieval APIs.
+  why_it_matters: It abstracts the complexity of building production-ready RAG pipelines by handling everything from multi-format file parsing to hosted retrieval APIs.
   mental_damage: Just one more specialized infrastructure layer to manage between your raw data and your LLM.
   tags:
     - rag
@@ -78,21 +72,21 @@ placement:
   section: Memory & Retrieval Infrastructure
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''context-engineering'''
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'context-engineering'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.600Z'
+    updated_at: "2026-05-06T22:12:15.600Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:33.665Z'
+    updated_at: "2026-09-17T04:13:33.665Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.163Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -115,8 +109,6 @@ processing:
       category_candidates:
         - context-engineering
         - ai-frameworks
-      contrastive_reason: >-
-        Choose context-engineering over ai-frameworks because its core novelty is the retrieval and context-shaping
-        pipeline rather than general-purpose agent orchestration.
-      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''context-engineering'''
+      contrastive_reason: Choose context-engineering over ai-frameworks because its core novelty is the retrieval and context-shaping pipeline rather than general-purpose agent orchestration.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'context-engineering'"
       review_resume_lifecycle: null

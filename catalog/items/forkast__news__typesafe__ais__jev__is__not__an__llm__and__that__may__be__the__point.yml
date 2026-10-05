@@ -5,9 +5,8 @@ canonical_url: https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__forkast__news__typesafe__ais__jev__is__not__an__llm__and__that__may__be__the__point__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__forkast__news__typesafe__ais__jev__is__not__an__llm__and__that__may__be__the__point__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: TypeSafe AI's Jev Is Not an LLM - and That May Be the Point
         extracted_url: https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point
-        surrounding_text: >-
-          - [TypeSafe AI's Jev Is Not an LLM - and That May Be the
-          Point](https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/) - News analysis: treats
-          the model's refusal to generate text as the feature rather than a limitation, and follows through on what that
-          implies for inference spend.
+        surrounding_text: "- [TypeSafe AI's Jev Is Not an LLM - and That May Be the Point](https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/) - News analysis: treats the model's refusal to generate text as the feature rather than a limitation, and follows through on what that implies for inference spend."
         confidence: high
 metadata:
   github:
@@ -42,31 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI's Jev is a non-LLM decision model designed for structured decision-making tasks via parallel sampling architecture.
+  why_it_matters: Jev offers faster, cheaper, type-safe decisions for agent workflows by replacing LLMs in routing and classification tasks where structured outputs are sufficient.
+  mental_damage: Another AI tool promising to fix agent latency by splitting the stack—now you need to decide whether your 'if' statement deserves an LLM or a Jev.
+  tags:
+    - decision-model
+    - ai-infrastructure
+    - agentic-workflow
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev is a decision model that answers typed questions with probabilities via parallel sampling, not text generation, making its core identity a decision layer rather than a coding agent or general infrastructure.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.32 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - Jev processes unstructured state data and typed questions to produce every required answer in a single parallel pass, with strictly type-safe output and calibrated confidence scores.
+    - It cannot generate free-form text, write code, or hold conversations—its utility is strictly limited to structured decision tasks with predefined output schemas.
+    - Source-list context places it in awesome-jev under 'Related Practices / Discussions' as a non-LLM architecture challenging the assumption that agents need generative models for every task.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - awesome-awesomes
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:37.405Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e24c2df50c013875d15be4327328427c66674490640da74895dc0a19a2f0b0fd
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that answers typed questions with probabilities via parallel sampling, not text generation, making its core identity a decision layer rather than a coding agent or general infrastructure.
+      decision_evidence:
+        - Jev processes unstructured state data and typed questions to produce every required answer in a single parallel pass, with strictly type-safe output and calibrated confidence scores.
+        - It cannot generate free-form text, write code, or hold conversations—its utility is strictly limited to structured decision tasks with predefined output schemas.
+        - Source-list context places it in awesome-jev under 'Related Practices / Discussions' as a non-LLM architecture challenging the assumption that agents need generative models for every task.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because Jev is a model whose identity is answering typed questions with probabilities, not a library developers import to build applications.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pulumi__pulumi__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Pulumi AI
         extracted_url: https://www.pulumi.com/ai
-        surrounding_text: >-
-          - **[Pulumi AI](https://www.pulumi.com/ai/)** – Infrastructure as code with AI assistance for cloud resource
-          management.
+        surrounding_text: "- **[Pulumi AI](https://www.pulumi.com/ai/)** – Infrastructure as code with AI assistance for cloud resource management."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: pulumi/pulumi
     html_url: https://github.com/pulumi/pulumi
-    created_at: '2016-10-31T21:02:47Z'
-    pushed_at: '2026-07-20T16:35:24Z'
+    created_at: "2016-10-31T21:02:47Z"
+    pushed_at: "2026-07-20T16:35:24Z"
     description: Pulumi - Infrastructure as Code in any programming language 🚀
     homepage: https://www.pulumi.com
     topics:
@@ -54,20 +52,14 @@ metadata:
       - python
       - serverless
       - typescript
-    last_checked_at: '2026-07-20T16:42:38.703Z'
+    last_checked_at: "2026-07-20T16:42:38.703Z"
     readme:
-      fetched_at: '2026-07-20T16:42:38.703Z'
+      fetched_at: "2026-07-20T16:42:38.703Z"
       bytes: 10210
 insights:
-  summary: >-
-    Pulumi is an open-source infrastructure-as-code platform that lets developers define and deploy cloud resources
-    using general-purpose programming languages like TypeScript, Python, Go, and C#.
-  why_it_matters: >-
-    It allows teams to leverage familiar coding patterns, loops, and functions to manage cloud infrastructure while
-    integrating with CI/CD and existing developer workflows.
-  mental_damage: >-
-    You can now introduce a critical production outage by accidentally importing a left-pad package, merging a race
-    condition, or triggering a garbage collection cycle in your infrastructure code.
+  summary: Pulumi is an open-source infrastructure-as-code platform that lets developers define and deploy cloud resources using general-purpose programming languages like TypeScript, Python, Go, and C#.
+  why_it_matters: It allows teams to leverage familiar coding patterns, loops, and functions to manage cloud infrastructure while integrating with CI/CD and existing developer workflows.
+  mental_damage: You can now introduce a critical production outage by accidentally importing a left-pad package, merging a race condition, or triggering a garbage collection cycle in your infrastructure code.
   tags:
     - iac
     - infrastructure
@@ -77,20 +69,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    While Pulumi is a powerful developer tool, it is a general infrastructure-as-code framework with no native AI coding
-    agent capabilities, though it does offer a separate AI platform engineer product (Neo) not represented by this
-    specific repository.
+  reason: While Pulumi is a powerful developer tool, it is a general infrastructure-as-code framework with no native AI coding agent capabilities, though it does offer a separate AI platform engineer product (Neo) not represented by this specific repository.
   evidence:
-    - >-
-      Repo description identifies it strictly as 'Infrastructure as Code in any programming language', with no mention
-      of AI.
-    - >-
-      README focuses entirely on cloud resource provisioning (AWS, Azure, GCP, K8s) using standard programming
-      languages.
-    - >-
-      Source-list context mentions 'Meet Neo' as the AI component, indicating the AI value is in a separate product
-      tier, not the core pulumi/pulumi engine.
+    - Repo description identifies it strictly as 'Infrastructure as Code in any programming language', with no mention of AI.
+    - README focuses entirely on cloud resource provisioning (AWS, Azure, GCP, K8s) using standard programming languages.
+    - Source-list context mentions 'Meet Neo' as the AI component, indicating the AI value is in a separate product tier, not the core pulumi/pulumi engine.
 placement:
   primary_category: null
   section: null
@@ -100,21 +83,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.643Z'
+    updated_at: "2026-05-06T22:12:15.643Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:38.703Z'
+    updated_at: "2026-07-20T16:42:38.703Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

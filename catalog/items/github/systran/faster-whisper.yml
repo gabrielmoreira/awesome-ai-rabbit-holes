@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__systran__faster-whisper__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,7 @@ provenance:
           - Large Model Serving
         anchor_text: Faster Whisper
         extracted_url: https://github.com/guillaumekln/faster-whisper
-        surrounding_text: >-
-          | [Faster Whisper](https://github.com/guillaumekln/faster-whisper)                      | fast inference
-          engine for whisper in C++ using CTranslate2.                                                     | ![GitHub
-          Badge](https://img.shields.io/github/stars/guillaumekln/faster-whisper.svg?style=flat-square)           |
+        surrounding_text: "| [Faster Whisper](https://github.com/guillaumekln/faster-whisper)                      | fast inference engine for whisper in C++ using CTranslate2.                                                     | ![GitHub Badge](https://img.shields.io/github/stars/guillaumekln/faster-whisper.svg?style=flat-square)           |"
         confidence: high
 metadata:
   github:
@@ -33,10 +30,10 @@ metadata:
     archived: false
     full_name: SYSTRAN/faster-whisper
     html_url: https://github.com/SYSTRAN/faster-whisper
-    created_at: '2023-02-11T09:17:27Z'
-    pushed_at: '2025-11-19T14:40:46Z'
+    created_at: "2023-02-11T09:17:27Z"
+    pushed_at: "2025-11-19T14:40:46Z"
     description: Faster Whisper transcription with CTranslate2
-    homepage: ''
+    homepage: ""
     topics:
       - deep-learning
       - inference
@@ -46,20 +43,14 @@ metadata:
       - speech-to-text
       - transformer
       - whisper
-    last_checked_at: '2026-07-21T15:20:38.587Z'
+    last_checked_at: "2026-07-21T15:20:38.587Z"
     readme:
-      fetched_at: '2026-07-21T15:20:38.587Z'
+      fetched_at: "2026-07-21T15:20:38.587Z"
       bytes: 15246
 insights:
-  summary: >-
-    A Python reimplementation of OpenAI's Whisper speech recognition model using the CTranslate2 inference engine for
-    faster transcription with lower memory usage.
-  why_it_matters: >-
-    Developers building voice features or transcription pipelines can integrate Whisper-compatible speech-to-text into
-    apps with significantly reduced latency and resource overhead.
-  mental_damage: >-
-    Yet another reminder that the AI ecosystem is just layers of re-implementations of re-implementations, optimized so
-    we can transcribe meetings we'll never listen to 4x faster.
+  summary: A Python reimplementation of OpenAI's Whisper speech recognition model using the CTranslate2 inference engine for faster transcription with lower memory usage.
+  why_it_matters: Developers building voice features or transcription pipelines can integrate Whisper-compatible speech-to-text into apps with significantly reduced latency and resource overhead.
+  mental_damage: Yet another reminder that the AI ecosystem is just layers of re-implementations of re-implementations, optimized so we can transcribe meetings we'll never listen to 4x faster.
   tags:
     - speech-to-text
     - inference
@@ -69,17 +60,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a general-purpose speech recognition library for model inference, not a developer-facing AI tool, agent, or
-    workflow specific to software development.
+  reason: This is a general-purpose speech recognition library for model inference, not a developer-facing AI tool, agent, or workflow specific to software development.
   evidence:
     - Repo description identifies it as a Whisper transcription reimplementation using CTranslate2, not a dev tool.
-    - >-
-      README focuses entirely on speech-to-text benchmarks and Python library usage, with no coding-agent or
-      developer-workflow angle.
-    - >-
-      Source list context places it in 'Large Model Serving' under LLMOps, which is infrastructure/ML ops rather than
-      developer tooling.
+    - README focuses entirely on speech-to-text benchmarks and Python library usage, with no coding-agent or developer-workflow angle.
+    - Source list context places it in 'Large Model Serving' under LLMOps, which is infrastructure/ML ops rather than developer tooling.
 placement:
   primary_category: null
   section: null
@@ -89,21 +74,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.650Z'
+    updated_at: "2026-05-06T22:12:15.650Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:20:38.587Z'
+    updated_at: "2026-07-21T15:20:38.587Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

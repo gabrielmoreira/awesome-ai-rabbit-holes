@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__invictai__io__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Invicta
         anchor_text: Invicta
         extracted_url: https://invictai.io
-        surrounding_text: '## [Invicta](https://invictai.io/)'
+        surrounding_text: "## [Invicta](https://invictai.io/)"
         confidence: high
 metadata:
   github:
@@ -36,36 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Invicta AI is a platform for building and deploying teams of AI agents that automate workflows by connecting to
-    external tools and LLMs via a no-code interface.
-  why_it_matters: >-
-    It lets developers orchestrate multi-agent automations without code, reducing the need to glue together scripts or
-    manage complex orchestration platforms manually.
-  mental_damage: >-
-    Another no-code agent builder promising to replace your Zapier workflows with something that still requires you to
-    debug why the LinkedIn agent keeps trying to connect with your ex.
+  summary: Invicta AI is a no-code platform for building and deploying teams of AI agents that automate workflows by connecting to tools and LLMs.
+  why_it_matters: It lets developers and non-developers create autonomous agent teams without writing code, reducing the effort to automate multi-tool workflows.
+  mental_damage: Yet another ‘no-code AI agent builder’ promising enterprise automation while you debug why your Slack trigger isn’t firing.
   tags:
     - ai-agents
-    - workflow-automation
     - no-code
-  confidence: medium
+    - workflow-automation
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: The product’s core identity is a no-code orchestration platform for AI agent teams, which does not match any developer-tooling category in the catalog’s scope; it is primarily an end-user SaaS tool for business workflow automation, not a developer-facing agent, framework, or infrastructure product.
   evidence:
-    - jev-latest choice confidence 0.86
+    - Primary page excerpt emphasizes 'Build Teams of AI Agents That Work', 'no-code AI agent teams', and 'automate complex workflows' with integrations to CRMs, scrapers, and business tools.
+    - Source-list context shows it appears in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents' in the 'Invicta' section, indicating it is treated as an autonomous agent product rather than developer tooling.
+    - No evidence of coding agent behavior, framework/SDK identity, MCP server, or developer-first interface; the product is positioned as a hosted platform with templates for customer support, scheduling, and operations.
 placement:
-  primary_category: agent-orchestration
+  primary_category: null
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,38 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:52.629Z'
+    updated_at: "2026-10-05T04:34:53.468Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b89848b7565d48bc4bfe60b4cf8de37cf0bbfdc0c85ea93749285778fe5bd3d1
-      proposed_primary_category: agent-orchestration
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bad1046c06cc18f9e42e0eae1df6b8764ba44604481ba49c5cf6b95b27f6ef61
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Invicta AI's core product is a hosted platform for designing, deploying, and managing teams of AI agents that
-        collaborate via triggers, shared knowledge, and tool use — making it an agent orchestration platform rather than
-        a coding agent, app builder, or extension.
+      decision_reason: The product’s core identity is a no-code orchestration platform for AI agent teams, which does not match any developer-tooling category in the catalog’s scope; it is primarily an end-user SaaS tool for business workflow automation, not a developer-facing agent, framework, or infrastructure product.
       decision_evidence:
-        - >-
-          Marketed as 'Build Teams of AI Agents' with features like AI Teammates for collaboration, Flexible Agent Team
-          Structures, and Human in the Loop controls.
-        - >-
-          Provides a visual builder and hosted runtime for defining agent behaviors, tools, triggers, and LLM
-          configurations — aligning with orchestration workbenches like Dify or LangFlow.
-        - >-
-          Listed in 'awesome-ai-agents' under the 'Invicta' section as a tool for building agent teams, confirming its
-          identity as an orchestration platform.
-      category_candidates:
-        - agent-orchestration
-        - app-builders
-      contrastive_reason: >-
-        Choose agent-orchestration over app-builders because Invicta AI focuses on coordinating multiple agents to
-        automate workflows via tool use and triggers, not generating deployable apps or sites from prompts.
+        - Primary page excerpt emphasizes 'Build Teams of AI Agents That Work', 'no-code AI agent teams', and 'automate complex workflows' with integrations to CRMs, scrapers, and business tools.
+        - Source-list context shows it appears in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents' in the 'Invicta' section, indicating it is treated as an autonomous agent product rather than developer tooling.
+        - No evidence of coding agent behavior, framework/SDK identity, MCP server, or developer-first interface; the product is positioned as a hosted platform with templates for customer support, scheduling, and operations.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

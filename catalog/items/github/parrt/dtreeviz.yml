@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__parrt__dtreeviz__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Visualization
         anchor_text: dtreeviz
         extracted_url: https://github.com/parrt/dtreeviz
-        surrounding_text: >-
-          | [dtreeviz](https://github.com/parrt/dtreeviz)                  | A python library for decision tree
-          visualization and model
-          interpretation.                                                                                                   
-          | ![GitHub Badge](https://img.shields.io/github/stars/parrt/dtreeviz.svg?style=flat-square)               |
+        surrounding_text: "| [dtreeviz](https://github.com/parrt/dtreeviz)                  | A python library for decision tree visualization and model interpretation.                                                                                                    | ![GitHub Badge](https://img.shields.io/github/stars/parrt/dtreeviz.svg?style=flat-square)               |"
         confidence: high
 metadata:
   github:
@@ -34,10 +30,10 @@ metadata:
     archived: false
     full_name: parrt/dtreeviz
     html_url: https://github.com/parrt/dtreeviz
-    created_at: '2018-08-13T21:45:15Z'
-    pushed_at: '2026-01-02T18:39:55Z'
+    created_at: "2018-08-13T21:45:15Z"
+    pushed_at: "2026-01-02T18:39:55Z"
     description: A python library for decision tree visualization and model interpretation.
-    homepage: ''
+    homepage: ""
     topics:
       - data-science
       - decision-trees
@@ -48,20 +44,14 @@ metadata:
       - scikit-learn
       - visualization
       - xgboost
-    last_checked_at: '2026-07-20T16:42:31.124Z'
+    last_checked_at: "2026-07-20T16:42:31.124Z"
     readme:
-      fetched_at: '2026-07-20T16:42:31.124Z'
+      fetched_at: "2026-07-20T16:42:31.124Z"
       bytes: 18608
 insights:
-  summary: >-
-    A Python library for visualizing and interpreting decision trees from scikit-learn, XGBoost, LightGBM, Spark MLlib,
-    and TensorFlow models.
-  why_it_matters: >-
-    It helps developers and data scientists understand how structured ML models make decisions through visualization of
-    trees, prediction paths, and feature spaces.
-  mental_damage: >-
-    Another classic ML interpretability tool that reminds us our 'AI rabbit holes' now include debugging Random Forests
-    from 2018 while we wait for agents to write themselves.
+  summary: A Python library for visualizing and interpreting decision trees from scikit-learn, XGBoost, LightGBM, Spark MLlib, and TensorFlow models.
+  why_it_matters: It helps developers and data scientists understand how structured ML models make decisions through visualization of trees, prediction paths, and feature spaces.
+  mental_damage: Another classic ML interpretability tool that reminds us our 'AI rabbit holes' now include debugging Random Forests from 2018 while we wait for agents to write themselves.
   tags:
     - decision-trees
     - visualization
@@ -71,19 +61,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a traditional machine learning visualization library with no AI developer tooling angle; it supports classic
-    ML models like Random Forests and XGBoost rather than LLMs, coding agents, or developer infrastructure.
+  reason: This is a traditional machine learning visualization library with no AI developer tooling angle; it supports classic ML models like Random Forests and XGBoost rather than LLMs, coding agents, or developer infrastructure.
   evidence:
-    - >-
-      Repo description explicitly states 'decision tree visualization and model interpretation' for scikit-learn,
-      XGBoost, Spark MLlib, LightGBM, and TensorFlow.
-    - >-
-      Topics are data-science, decision-trees, machine-learning, model-interpretation, python — no LLM, agent, or
-      developer-tooling tags.
-    - >-
-      README focuses entirely on classical ML model visualization with no mention of AI-assisted coding, agents, or
-      developer workflows.
+    - Repo description explicitly states 'decision tree visualization and model interpretation' for scikit-learn, XGBoost, Spark MLlib, LightGBM, and TensorFlow.
+    - Topics are data-science, decision-trees, machine-learning, model-interpretation, python — no LLM, agent, or developer-tooling tags.
+    - README focuses entirely on classical ML model visualization with no mention of AI-assisted coding, agents, or developer workflows.
 placement:
   primary_category: null
   section: null
@@ -93,21 +75,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.641Z'
+    updated_at: "2026-05-06T22:12:15.641Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:31.124Z'
+    updated_at: "2026-07-20T16:42:31.124Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

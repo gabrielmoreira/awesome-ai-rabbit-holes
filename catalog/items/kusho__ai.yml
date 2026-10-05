@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kusho__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Kusho
         anchor_text: Kusho
         extracted_url: https://kusho.ai
-        surrounding_text: '## [Kusho](https://kusho.ai/)'
+        surrounding_text: "## [Kusho](https://kusho.ai/)"
         confidence: high
     - id: discovery__kusho__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: KushoAI
         extracted_url: https://kusho.ai
-        surrounding_text: '- **[KushoAI](https://kusho.ai/)** – AI-driven API testing.'
+        surrounding_text: "- **[KushoAI](https://kusho.ai/)** – AI-driven API testing."
         confidence: high
 metadata:
   github:
@@ -51,46 +51,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    KushoAI is an AI-native infrastructure platform for software maintenance that provides autonomous agents for
-    testing, healing, and monitoring in CI/CD pipelines.
-  why_it_matters: >-
-    It reduces QA time by 80% and increases test coverage to 93%+ by automating API contract testing, security scanning,
-    and self-healing test generation.
-  mental_damage: >-
-    Another AI testing tool promising to free developers from test maintenance while adding yet another layer of tooling
-    to manage.
+  summary: AI-native infrastructure for autonomous software maintenance, specializing in automated API testing, security scanning, and self-healing test suites within CI/CD pipelines.
+  why_it_matters: It automates the tedious cycle of generating, running, and updating test suites to catch contract drift and security vulnerabilities before they hit production.
+  mental_damage: Because now you can outsource your debugging anxiety to an autonomous agent that lives in your CI/CD pipeline.
   tags:
-    - testing
-    - ci-cd
-    - ai-agents
+    - api-testing
+    - cicd
+    - security
+    - autonomous-agents
+    - maintenance
   confidence: high
 curation:
   status: included
-  reason: >-
-    The product is a control plane for autonomous agents that handle testing, healing, and monitoring continuously
-    within the software maintenance lifecycle.
+  reason: Kusho operates as an autonomous agent specialized in the testing, healing, and maintenance phase of the software lifecycle within the CI/CD workflow.
   evidence:
-    - >-
-      Scraped site describes 'Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring
-      continuously.'
-    - Positioned as a 'reliability layer' and 'control panel' rather than a simple script or library.
-    - Listed in awesome-ai-agents under sections describing infrastructure for software maintenance.
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed extensions-and-addons / Testing & Code Quality; placement kept at
-      coding-agents (unverified)
+    - The product claims to provide 'autonomous agents that live in your CI/CD and handle testing, healing, and monitoring continuously.'
+    - It automates the generation of test suites from OpenAPI specs and detects contract drift for self-healing capabilities.
+    - It is recognized in existing curated lists as an AI-powered tool for testing and QA.
 placement:
   primary_category: coding-agents
   secondary_categories:
     - extensions-and-addons
-  section: null
+  section: Review, Testing & Repair
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.597Z'
+    updated_at: "2026-05-06T22:12:15.597Z"
     cause: null
     next_retry_at: null
   stars:
@@ -99,32 +88,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:50.137Z'
+    updated_at: "2026-10-05T04:36:11.049Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:10259121a15d5e2475d2943ab6117a9e5687548da381ae6e46fcd56fad035de0
-      proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: >-
-        KushoAI coordinates multiple autonomous agents for testing, healing, and monitoring across the software
-        lifecycle, functioning as a control plane for AI-driven quality engineering rather than a single coding agent.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b7ec5aa61ffe194862021988e3080df41081fec45c69bf64b469cee16d55b75c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Kusho operates as an autonomous agent specialized in the testing, healing, and maintenance phase of the software lifecycle within the CI/CD workflow.
       decision_evidence:
-        - Autonomous agents that live in your CI/CD and handle testing, healing, and monitoring continuously
-        - KushoAI detects contract drift and automatically updates impacted tests
-        - Every release is a judgment call. KushoAI gives you the data to make it confidently
+        - The product claims to provide 'autonomous agents that live in your CI/CD and handle testing, healing, and monitoring continuously.'
+        - It automates the generation of test suites from OpenAPI specs and detects contract drift for self-healing capabilities.
+        - It is recognized in existing curated lists as an AI-powered tool for testing and QA.
       category_candidates:
-        - agent-orchestration
         - coding-agents
-      contrastive_reason: >-
-        Choose agent-orchestration over coding-agents because KushoAI primarily coordinates multiple specialized agents
-        (testing, security, healing) in a CI/CD control plane rather than acting as a single autonomous coding assistant
-        writing or editing code.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''agent-orchestration'''
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Kusho acts as a standalone autonomous agent for maintenance and testing rather than a plugin designed to extend a host editor like Cursor or VS Code.
+      review_reason: null
       review_resume_lifecycle: null

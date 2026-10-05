@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sylphxai__repomap__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💻 Developer Tools
         anchor_text: SylphxAI/repomap
         extracted_url: https://github.com/sylphxai/repomap
-        surrounding_text: >-
-          -   **[SylphxAI/repomap](https://github.com/SylphxAI/repomap)** [![GitHub
-          stars](https://img.shields.io/github/stars/SylphxAI/repomap?style=social)](https://github.com/SylphxAI/repomap):
-          A local code graph for AI agents with hybrid search, callers and callees, call paths, change impact including
-          git diff, and an interactive graph UI.
+        surrounding_text: "-   **[SylphxAI/repomap](https://github.com/SylphxAI/repomap)** [![GitHub stars](https://img.shields.io/github/stars/SylphxAI/repomap?style=social)](https://github.com/SylphxAI/repomap): A local code graph for AI agents with hybrid search, callers and callees, call paths, change impact including git diff, and an interactive graph UI."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SylphxAI/repomap : A local code graph for AI agents with hybrid search, callers and callees, call paths, change
-    impact including git diff, and an interactive graph UI.
+  summary: "SylphxAI/repomap : A local code graph for AI agents with hybrid search, callers and callees, call paths, change impact including git diff, and an interactive graph UI."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
   evidence:
     - jev-latest choice confidence 0.58
-    - >-
-      jev winnow:e4b 0.24 below gate 0.50; proposed memory-and-context / Retrieval & Fresh Docs; placement kept at
-      memory-and-context (unverified)
+    - jev winnow:e4b 0.24 below gate 0.50; proposed memory-and-context / Retrieval & Fresh Docs; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.479Z'
+    updated_at: "2026-09-29T13:07:10.479Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

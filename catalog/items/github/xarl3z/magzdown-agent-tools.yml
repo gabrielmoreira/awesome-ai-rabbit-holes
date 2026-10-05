@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__xarl3z__magzdown-agent-tools__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: xarl3z/magzdown-agent-tools
         extracted_url: https://github.com/xarl3z/magzdown-agent-tools
-        surrounding_text: >-
-          - [xarl3z/magzdown-agent-tools](https://github.com/xarl3z/magzdown-agent-tools) [![xarl3z/magzdown-agent-tools
-          MCP
-          server](https://glama.ai/mcp/servers/xarl3z/magzdown-agent-tools/badges/score.svg)](https://glama.ai/mcp/servers/xarl3z/magzdown-agent-tools)
-          📇 🏠 🍎 🪟 🐧 - Turn Markdown into a shareable link rendered as a typeset document (tables, Mermaid, math,
-          pagination); content is stored in the URL, not uploaded.
+        surrounding_text: "- [xarl3z/magzdown-agent-tools](https://github.com/xarl3z/magzdown-agent-tools) [![xarl3z/magzdown-agent-tools MCP server](https://glama.ai/mcp/servers/xarl3z/magzdown-agent-tools/badges/score.svg)](https://glama.ai/mcp/servers/xarl3z/magzdown-agent-tools) 📇 🏠 🍎 🪟 🐧 - Turn Markdown into a shareable link rendered as a typeset document (tables, Mermaid, math, pagination); content is stored in the URL, not uploaded."
         confidence: high
 metadata:
   github:
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.484Z'
+    updated_at: "2026-09-29T13:07:10.484Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

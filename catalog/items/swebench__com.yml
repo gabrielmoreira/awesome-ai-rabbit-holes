@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__swebench__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,12 +19,10 @@ provenance:
           - Description
         anchor_text: varies
         extracted_url: https://swebench.com
-        surrounding_text: >-
-          - It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by
-          the agent.
+        surrounding_text: "- It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by the agent."
         confidence: high
     - id: discovery__www__swebench__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -37,9 +35,7 @@ provenance:
           - Description
         anchor_text: varies
         extracted_url: https://www.swebench.com
-        surrounding_text: >-
-          - It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by
-          the agent.
+        surrounding_text: "- It is important to say that the performance [varies](https://www.swebench.com/) based on the model used by the agent."
         confidence: high
 metadata:
   github:
@@ -57,23 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SWE-Bench.com is a public leaderboard for evaluating coding agents on software engineering tasks using the SWE-bench
-    benchmark.
-  why_it_matters: >-
-    It provides developers with a standardized way to measure and compare the real-world coding performance of AI
-    agents.
-  mental_damage: Yet another leaderboard that turns your coding agent’s existential dread into a sortable table.
+  summary: An evaluation benchmark used to measure the ability of AI agents to resolve real-world software engineering issues.
+  why_it_matters: It provides a standardized metric to track the progress of autonomous agents in practical, repository-level engineering workflows.
+  mental_damage: It provides the cold, hard data needed to realize your autonomous agent is mostly just a very expensive loop of 'File Not Found' errors.
   tags:
     - benchmark
-    - leaderboard
-    - evals
+    - evaluation
+    - swe-agent
+    - llm-evals
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  reason: It is a specialized benchmarking suite designed to measure the performance of autonomous agents on software engineering tasks.
   evidence:
-    - jev-latest choice confidence 0.79
+    - Source list context categorizes it under 'SWE Agent'
+    - The name and domain identify it as the SWE-bench evaluation platform
 placement:
   primary_category: evals
   secondary_categories: []
@@ -84,42 +78,32 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:26.780Z'
+    updated_at: "2026-10-05T04:53:36.276Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:61ad6ffc901510ad85b720cc8015eb442924a8a4002a1ca5858444d140f12144
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:99752549a6706e2fa5b27070f1b57741c2acef35f774eec903582ed2ce01b9df
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: >-
-        SWE-Bench.com is a benchmarking platform focused on evaluating coding agents, making it a clear fit for the
-        evals category as its primary purpose is measuring and comparing model/prompt/agent behavior on software
-        engineering tasks.
+      decision_reason: It is a specialized benchmarking suite designed to measure the performance of autonomous agents on software engineering tasks.
       decision_evidence:
-        - 'Listed in awesome-ai-agents under the ''SWE Agent'' section with description: ''A list of AI autonomous agents'''
-        - >-
-          The site swebench.com hosts the SWE-bench leaderboard, which evaluates coding agents on real-world software
-          engineering tasks
-        - >-
-          No evidence of being a coding agent, framework, or app builder; identity is centered on evaluation and
-          comparison
+        - Source list context categorizes it under 'SWE Agent'
+        - The name and domain identify it as the SWE-bench evaluation platform
       category_candidates:
         - evals
         - coding-agents
-      contrastive_reason: >-
-        Choose evals over coding-agents because SWE-Bench.com measures and compares agent performance rather than acting
-        as a coding agent that writes or edits code itself.
+      contrastive_reason: Choose evals over coding-agents because it is a benchmarking suite used to measure agents rather than a tool that performs the coding tasks itself.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

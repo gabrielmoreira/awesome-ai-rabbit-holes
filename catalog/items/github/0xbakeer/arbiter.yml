@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xbakeer__arbiter__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Jev-like models (72)
         anchor_text: arbiter
         extracted_url: https://github.com/0xbakeer/arbiter
-        surrounding_text: >-
-          | [arbiter](https://github.com/0xBakeer/arbiter) | ★ 21 | HTML | 2026-09-23 | Serve typed-decision (System 1)
-          models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API and coding-agent
-          integrations. |
+        surrounding_text: "| [arbiter](https://github.com/0xBakeer/arbiter) | ★ 21 | HTML | 2026-09-23 | Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API and coding-agent integrations. |"
         confidence: high
 metadata:
   github:
@@ -33,30 +30,32 @@ metadata:
     archived: false
     full_name: 0xBakeer/arbiter
     html_url: https://github.com/0xBakeer/arbiter
-    created_at: '2026-09-20T04:45:28Z'
-    pushed_at: '2026-09-24T17:20:49Z'
-    description: >-
-      Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible
-      API and coding-agent integrations
+    created_at: "2026-09-20T04:45:28Z"
+    pushed_at: "2026-09-24T17:20:49Z"
+    description: Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API and coding-agent integrations
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:13.051Z'
+    last_checked_at: "2026-09-29T13:08:13.051Z"
     readme:
-      fetched_at: '2026-09-29T13:08:13.051Z'
+      fetched_at: "2026-09-29T13:08:13.051Z"
       bytes: 23768
 insights:
-  summary: >-
-    Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible
-    API and coding-agent integrations
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API and coding-agent integrations.
+  why_it_matters: Enables low-latency deterministic decisions for agent routing and guardrails without relying on LLMs, reducing cost and hallucination risk in agent workflows.
+  mental_damage: Finally, a way to feel smart about adding another layer of indirection to your already-overengineered agent stack.
+  tags:
+    - decision-models
+    - jev
+    - local-ai
+    - api
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  reason: The product's core identity is serving Jev-compatible typed-decision models locally, making it a decision-model gateway rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.61
+    - "Repo description: 'Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API'"
+    - Appears in awesome-jev under 'Jev-like models (83)' section
+    - Created and pushed in September 2026, indicating recent and active development
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -67,15 +66,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:13.051Z'
+    updated_at: "2026-09-29T13:08:13.051Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:06.549Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:925d670840a94221e3660a05647c5763719e2173ac55fd739628eb5e455e6c49
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is serving Jev-compatible typed-decision models locally, making it a decision-model gateway rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Serve typed-decision (System 1) models — Laya or your own — on NVIDIA GPUs or Apple Silicon, with a Jev-compatible API'"
+        - Appears in awesome-jev under 'Jev-like models (83)' section
+        - Created and pushed in September 2026, indicating recent and active development
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's primary function is serving decision models via a Jev-compatible API, not performing coding tasks autonomously.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

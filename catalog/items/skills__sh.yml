@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__skills__sh__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and registry for discovering and installing reusable skills for AI agents.
-  why_it_matters: Developers can extend their AI agents with pre-built, shareable capabilities for specific workflows or domains.
-  mental_damage: >-
-    Now you can spend hours browsing skills instead of writing code, because why solve problems when you can curate
-    them?
+  summary: skills.sh is a directory and installer for reusable AI agent skills that enhance agent behavior via single-command installation.
+  why_it_matters: It lets developers quickly equip AI agents with specialized capabilities like code review or debugging without building them from scratch.
+  mental_damage: Yet another registry to check before trusting that your agent won’t hallucinate a solution to a problem it was never taught.
   tags:
-    - skills
-    - agent-extension
+    - agent-skills
     - registry
+    - cli
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
+  reason: The site distributes installable skill packs for AI agents, making it a reusable content registry rather than a tool, framework, or agent itself.
   evidence:
-    - jev-latest choice confidence 0.60
+    - Primary page excerpt shows 'Skills' as reusable capabilities installable via `npx skills add <owner/repo>'
+    - "Site title is 'The Agent Skills Directory' and description: 'Discover and install skills for AI agents.'"
+    - Leaderboard lists skill packs like 'find-skills', 'grill-me', and 'improve-codebase-architecture' with install counts
 placement:
   primary_category: skills
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,38 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:37:41.353Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for skills__sh: Invalid AI response format: SyntaxError: Expected property
-        name or '}' in JSON at position 3 (line 2 column 2)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:45:23.992Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:b9c8509805a7eabe54d368a75a164b4ff2b5db60740a1e0af9a01300360632f6
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ef08620bfc0eeea08cfe70dfc5f36ab077acd1b15bb81bb1e645b78e26e23221
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: >-
-        The primary artifact is a registry/directory of reusable agent skills, which fits the 'Agent Skills' category's
-        focus on skill packs and registries.
+      decision_reason: The site distributes installable skill packs for AI agents, making it a reusable content registry rather than a tool, framework, or agent itself.
       decision_evidence:
-        - >-
-          Site title and description explicitly identify it as 'The Agent Skills Directory' for discovering/installing
-          skills
-        - Page excerpt describes skills as 'reusable capabilities for AI agents' with install commands
-        - Shows leaderboard and search functionality for skills from multiple providers
+        - Primary page excerpt shows 'Skills' as reusable capabilities installable via `npx skills add <owner/repo>'
+        - "Site title is 'The Agent Skills Directory' and description: 'Discover and install skills for AI agents.'"
+        - Leaderboard lists skill packs like 'find-skills', 'grill-me', and 'improve-codebase-architecture' with install counts
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose skills over awesome-awesomes because the product is an operational registry with installable artifacts,
-        not just a discovery list.
+      contrastive_reason: Choose skills over awesome-awesomes because the primary artifact is installable skill content for agents, not a curated list of tools or resources.
       review_reason: null
       review_resume_lifecycle: null

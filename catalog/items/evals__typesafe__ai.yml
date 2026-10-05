@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__evals__typesafe__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Official
         anchor_text: Workflow evals
         extracted_url: https://evals.typesafe.ai
-        surrounding_text: >-
-          - [Workflow evals](https://evals.typesafe.ai) - Published eval methodology and per-model results for System
-          One workflows.
+        surrounding_text: "- [Workflow evals](https://evals.typesafe.ai) - Published eval methodology and per-model results for System One workflows."
         confidence: high
     - id: discovery__evals__typesafe__ai__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +33,7 @@ provenance:
           - Official resources
         anchor_text: Workflow evaluations
         extracted_url: https://evals.typesafe.ai
-        surrounding_text: >-
-          | [Workflow evaluations](https://evals.typesafe.ai/) | TypeSafe's published workflow methodology and results.
-          |
+        surrounding_text: "| [Workflow evaluations](https://evals.typesafe.ai/) | TypeSafe's published workflow methodology and results. |"
         confidence: high
 metadata:
   github:
@@ -55,16 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Workflow evals - Published eval methodology and per-model results for System One workflows.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Workflow evals is a benchmark suite that measures model accuracy, cost, and speed on structured automation tasks using decision-model primitives.
+  why_it_matters: It provides a standardized way to compare how models perform on real-world workflows when decomposed into typed questions and code-driven rules.
+  mental_damage: Finally, a way to quantify why your ‘just ask the LLM’ approach loses to actually breaking the problem into tiny, answerable pieces.
+  tags:
+    - evals
+    - benchmarking
+    - workflow-automation
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  reason: The project's core function is evaluating model behavior across structured workflows using decision primitives, which matches the evals category's focus on measuring AI system quality.
   evidence:
-    - jev-latest choice confidence 0.75
+    - Primary page excerpt describes evaluating models on workflows like Security Incidents, Invoice Processing, etc., measuring accuracy, cost, and time
+    - Uses Noul, Choice, and Score primitives to decompose tasks into programmatic rules and intelligent judgments
+    - Compares model performance in workflows vs. standalone prompts, showing workflows are more accurate, cheaper, and faster
 placement:
   primary_category: evals
   secondary_categories: []
@@ -75,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +84,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:16.073Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1ef6b2eb7967c5f5888379d3c2d4d43c1e3f3e41b1660e31ad63406f0143b790
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The project's core function is evaluating model behavior across structured workflows using decision primitives, which matches the evals category's focus on measuring AI system quality.
+      decision_evidence:
+        - Primary page excerpt describes evaluating models on workflows like Security Incidents, Invoice Processing, etc., measuring accuracy, cost, and time
+        - Uses Noul, Choice, and Score primitives to decompose tasks into programmatic rules and intelligent judgments
+        - Compares model performance in workflows vs. standalone prompts, showing workflows are more accurate, cheaper, and faster
+      category_candidates:
+        - evals
+        - decision-models
+      contrastive_reason: Choose evals over decision-models because the product measures model behavior on workflows rather than providing a decision model or its direct tooling.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

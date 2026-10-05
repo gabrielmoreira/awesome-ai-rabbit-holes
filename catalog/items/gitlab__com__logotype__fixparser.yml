@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gitlab__com__logotype__fixparser__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: logotype/fixparser
         extracted_url: https://gitlab.com/logotype/fixparser
-        surrounding_text: >-
-          - [logotype/fixparser](https://gitlab.com/logotype/fixparser) 🎖 📇 ☁️ 🏠 📟  - FIX Protocol (send orders,
-          market data, etc.) written in TypeScript.
+        surrounding_text: "- [logotype/fixparser](https://gitlab.com/logotype/fixparser) 🎖 📇 ☁️ 🏠 📟  - FIX Protocol (send orders, market data, etc.) written in TypeScript."
         confidence: high
 metadata:
   github:
@@ -39,31 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    fixparser is a CLI tool that fixes and parses malformed log files, generating structured JSON output for easier
-    analysis.
-  why_it_matters: >-
-    Developers working with inconsistent logs can use this to quickly normalize output for debugging, monitoring, or
-    integration with observability pipelines.
-  mental_damage: >-
-    Another tool to add to the ever-growing pile of log wranglers, because apparently 'it works on my machine' wasn't
-    vague enough.
+  summary: fixparser is a tool designed to parse and analyze fix messages for financial trading systems.
+  why_it_matters: It helps developers working with financial protocols automate the interpretation and validation of FIX messages in trading workflows.
+  mental_damage: Another niche financial protocol parser that makes you wonder if anyone still writes raw FIX by hand in 2024.
   tags:
-    - cli
-    - log-processing
-    - debugging
+    - fix
+    - financial-protocols
+    - parser
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    fixparser is a general-purpose log processing utility with no AI functionality, developer workflow integration, or
-    connection to AI-assisted development, making it outside the catalog's scope.
+  reason: fixparser is a domain-specific parser for the Financial Information eXchange (FIX) protocol, which is not an AI tool, agent, workflow, or infrastructure relevant to software developers in the context of AI-assisted development.
   evidence:
-    - Repo description is missing, indicating lack of metadata or focus on AI/tooling
-    - >-
-      URL points to a GitLab repository under 'logotype/fixparser' with no indication of AI, agents, or developer
-      assistance
-    - No README excerpt or scraped site context provided to suggest AI-related capabilities
+    - Repo description is missing, but the name 'fixparser' and GitLab URL suggest a FIX protocol parser.
+    - No README excerpt or scraped site context is provided to indicate any AI, agent, or developer tooling functionality.
+    - The tool's purpose appears to be parsing financial messaging protocols, not AI-driven coding assistance, automation, or development workflows.
 placement:
   primary_category: null
   section: null
@@ -73,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,28 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:54.562Z'
+    updated_at: "2026-10-05T04:58:39.186Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:54efd682c47455ce7d23d7ff5c662cc97da2f0b8ca887770eeb5005f8bb0ff9c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e3ca69857ab45063bbeb19acdf37e9611db6cc98c2ab328c996a730536e735a4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        fixparser is a general-purpose log processing utility with no AI functionality, developer workflow integration,
-        or connection to AI-assisted development, making it outside the catalog's scope.
+      decision_reason: fixparser is a domain-specific parser for the Financial Information eXchange (FIX) protocol, which is not an AI tool, agent, workflow, or infrastructure relevant to software developers in the context of AI-assisted development.
       decision_evidence:
-        - Repo description is missing, indicating lack of metadata or focus on AI/tooling
-        - >-
-          URL points to a GitLab repository under 'logotype/fixparser' with no indication of AI, agents, or developer
-          assistance
-        - No README excerpt or scraped site context provided to suggest AI-related capabilities
+        - Repo description is missing, but the name 'fixparser' and GitLab URL suggest a FIX protocol parser.
+        - No README excerpt or scraped site context is provided to indicate any AI, agent, or developer tooling functionality.
+        - The tool's purpose appears to be parsing financial messaging protocols, not AI-driven coding assistance, automation, or development workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

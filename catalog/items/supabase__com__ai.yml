@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__supabase__com__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Database and API Tools
         anchor_text: Supabase AI
         extracted_url: https://supabase.com/ai
-        surrounding_text: >-
-          - **[Supabase AI](https://supabase.com/ai)** – AI for database schema generation, query optimization, and API
-          development.
+        surrounding_text: "- **[Supabase AI](https://supabase.com/ai)** – AI for database schema generation, query optimization, and API development."
         confidence: high
 metadata:
   github:
@@ -38,29 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Supabase's AI landing page offering resources and tools for building AI applications using their platform.
-  why_it_matters: >-
-    Provides developers with a centralized hub to access Supabase-integrated AI tutorials, templates, and services for
-    faster AI app development.
-  mental_damage: >-
-    Another 'AI solutions' page that makes you wonder if clicking through will actually save time or just add another
-    tab to your ever-growing AI tool graveyard.
+  summary: Supabase's AI landing page promoting AI features for app development.
+  why_it_matters: Highlights how Supabase integrates AI into its backend services, relevant for developers building AI-powered apps.
+  mental_damage: Another vendor AI page that promises magic but mostly just points to existing PostgreSQL features with 'AI' stamped on top.
   tags:
-    - ai
     - supabase
-    - resources
+    - backend
+    - ai-features
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The Supabase AI page is a resource hub and marketing landing page, not a standalone developer tool, agent, or
-    infrastructure product with clear utility for coding workflows.
+  reason: The Supabase AI page is a marketing landing page, not a developer tool, agent, framework, or infrastructure product; it promotes AI capabilities but does not itself constitute a usable developer-facing tool.
   evidence:
-    - URL is a Supabase.com subdomain with no GitHub repo, indicating it's a documentation or marketing page
-    - No repo description, stars, or activity signals suggest it's not a tool under active development
-    - >-
-      Source-list context shows it's only listed in 'awesome-ai-coding-tools' under 'Database and API Tools' as a
-      referral, not as a primary tool
+    - "Repo description: (none)"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Database and API Tools' as a curated resource, not a tool"
+    - "URL: https://supabase.com/ai is a promotional site, not a GitHub repo or downloadable product"
 placement:
   primary_category: null
   section: null
@@ -70,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:36.200Z'
+    updated_at: "2026-10-05T04:45:55.224Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:48abcfd42dddf3f5022a865a70dd0184ab820dd76bbd19d2c82544e1033b69de
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f09088233c0954276c5c51de07bbc3708f6eda8efaeb80ff6ff708e77a957beb
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The Supabase AI page is a resource hub and marketing landing page, not a standalone developer tool, agent, or
-        infrastructure product with clear utility for coding workflows.
+      decision_reason: The Supabase AI page is a marketing landing page, not a developer tool, agent, framework, or infrastructure product; it promotes AI capabilities but does not itself constitute a usable developer-facing tool.
       decision_evidence:
-        - URL is a Supabase.com subdomain with no GitHub repo, indicating it's a documentation or marketing page
-        - No repo description, stars, or activity signals suggest it's not a tool under active development
-        - >-
-          Source-list context shows it's only listed in 'awesome-ai-coding-tools' under 'Database and API Tools' as a
-          referral, not as a primary tool
+        - "Repo description: (none)"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Database and API Tools' as a curated resource, not a tool"
+        - "URL: https://supabase.com/ai is a promotional site, not a GitHub repo or downloadable product"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

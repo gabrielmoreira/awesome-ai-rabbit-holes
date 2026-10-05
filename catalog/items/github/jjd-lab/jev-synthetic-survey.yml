@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jjd-lab__jev-synthetic-survey__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,15 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**jev-synthetic-survey**'
+        anchor_text: "**jev-synthetic-survey**"
         extracted_url: https://github.com/jjd-lab/jev-synthetic-survey
-        surrounding_text: >-
-          - [**jev-synthetic-survey**](https://github.com/jjd-lab/jev-synthetic-survey) — New to synthetic survey
-          respondents? \[Start here\](#new-to-this-start-here). For the raw runs, the scored reports and the code, see
-          \[where to go\](#where-to-go).
+        surrounding_text: "- [**jev-synthetic-survey**](https://github.com/jjd-lab/jev-synthetic-survey) — New to synthetic survey respondents? \\[Start here\\](#new-to-this-start-here). For the raw runs, the scored reports and the code, see \\[where to go\\](#where-to-go)."
         confidence: high
     - id: discovery__github__jjd-lab__jev-synthetic-survey__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,13 +35,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Jev vs GPT-4.1 on a synthetic survey
         extracted_url: https://github.com/jjd-lab/jev-synthetic-survey
-        surrounding_text: >-
-          - [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey)
-          ![stars](https://img.shields.io/github/stars/jjd-lab/jev-synthetic-survey?style=flat-square&label=%E2%98%85) -
-          Survey research: runs Jev and GPT-4.1 as the same 300 synthetic respondents over 24,596 paired Twin-2K-500
-          cells under criteria fixed in advance, finding that asking a yes/no item as `Noul` rather than `Choice` moves
-          the result more than the gap between the two models, at a thirty-fourth of the cost, written up at
-          [jjd-lab.github.io](https://jjd-lab.github.io/jev-synthetic-survey/).
+        surrounding_text: "- [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey) ![stars](https://img.shields.io/github/stars/jjd-lab/jev-synthetic-survey?style=flat-square&label=%E2%98%85) - Survey research: runs Jev and GPT-4.1 as the same 300 synthetic respondents over 24,596 paired Twin-2K-500 cells under criteria fixed in advance, finding that asking a yes/no item as `Noul` rather than `Choice` moves the result more than the gap between the two models, at a thirty-fourth of the cost, written up at [jjd-lab.github.io](https://jjd-lab.github.io/jev-synthetic-survey/)."
         confidence: high
 metadata:
   github:
@@ -72,9 +63,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -86,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.416Z'
+    updated_at: "2026-09-29T13:07:10.416Z"
     cause: null
     next_retry_at: null
   stars:
@@ -94,6 +83,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

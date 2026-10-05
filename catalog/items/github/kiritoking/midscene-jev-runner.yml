@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kiritoking__midscene-jev-runner__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: midscene-jev-runner
         extracted_url: https://github.com/kiritoking/midscene-jev-runner
-        surrounding_text: >-
-          - [midscene-jev-runner](https://github.com/KiritoKing/midscene-jev-runner) - Community-maintained JEV runner
-          integration for Midscene Test.
+        surrounding_text: "- [midscene-jev-runner](https://github.com/KiritoKing/midscene-jev-runner) - Community-maintained JEV runner integration for Midscene Test."
         confidence: high
     - id: discovery__github__kiritoking__midscene-jev-runner__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Midscene JEV Runner
         extracted_url: https://github.com/kiritoking/midscene-jev-runner
-        surrounding_text: >-
-          - [Midscene JEV Runner](https://github.com/KiritoKing/midscene-jev-runner) - Community Midscene/Playwright
-          runner: TypeSafe Jev (OpenRouter Decisions) chooses browser ops on a caller-owned page. [Project
-          guide](community/projects/tools/midscene-jev-runner.md).
+        surrounding_text: "- [Midscene JEV Runner](https://github.com/KiritoKing/midscene-jev-runner) - Community Midscene/Playwright runner: TypeSafe Jev (OpenRouter Decisions) chooses browser ops on a caller-owned page. [Project guide](community/projects/tools/midscene-jev-runner.md)."
         confidence: high
 metadata:
   github:
@@ -67,21 +62,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - awesome-awesomes
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.418Z'
+    updated_at: "2026-09-29T13:07:10.418Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

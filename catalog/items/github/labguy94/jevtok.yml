@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__labguy94__jevtok__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevtok
         extracted_url: https://github.com/labguy94/jevtok
-        surrounding_text: >-
-          - [jevtok](https://github.com/LabGuy94/jevtok) - Exact token counting and request-cost prediction for TypeSafe
-          Jev (tiktoken-style encoder reconstructed from API usage). [Project
-          guide](community/projects/tools/jevtok.md).
+        surrounding_text: "- [jevtok](https://github.com/LabGuy94/jevtok) - Exact token counting and request-cost prediction for TypeSafe Jev (tiktoken-style encoder reconstructed from API usage). [Project guide](community/projects/tools/jevtok.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevtok - Exact token counting and request-cost prediction for TypeSafe Jev (tiktoken-style encoder reconstructed
-    from API usage). Project guide.
+  summary: jevtok - Exact token counting and request-cost prediction for TypeSafe Jev (tiktoken-style encoder reconstructed from API usage). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -53,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Compression & Token Optimization
   evidence:
     - jev-latest choice confidence 0.52
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Open & Local Decision Models; placement kept at
-      memory-and-context (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Open & Local Decision Models; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -67,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.465Z'
+    updated_at: "2026-09-29T13:07:10.465Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

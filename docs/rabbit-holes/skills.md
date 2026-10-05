@@ -136,7 +136,7 @@ _70 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 - **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤180d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline.
 - **[EmblemCompany/Agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 12` `updated ≤180d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking.
 - **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 12` `updated ≤90d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes.
-- **[Augustus](https://github.com/24601/augustus)** `⭐ 11` `updated ≤30d` Agent skills for designing, training, evaluating and improving application-specific decision systems. Primitive/model selection, data assembly, export/reload and bounded hill climbing. TypeSafe Jev is the default hosted exemplar; independent of TypeSafe.
+- **[Augustus](https://github.com/24601/augustus)** `⭐ 11` `updated ≤30d` Augustus is a library of reusable agent skills for designing, training, evaluating, and improving application-specific decision systems using primitive/model selection, data assembly, export/reload, and bounded hill climbing, with TypeSafe Jev as the default hosted exemplar.
 - **[SpecPi](https://github.com/tannermidd/specpi)** `⭐ 11` SpecPi — A Pi configuration and extension bundle with an optional Jev advisor for capabilities and workflow checks.
 - **[Aident-AI/aident-skill](https://github.com/aident-ai/aident-skill)** `⭐ 5` `updated ≤30d` Use Aident Loadout to connect your AI Agents to 1,000+ real-world apps and tools like Gmail, Slack, Linear, Notion, Firecrawl, and Fal, unlock 27,000+ executable actions, and track full audit history so your agents can get real work done reliably.
 - **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤1y` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions.
@@ -189,44 +189,51 @@ _70 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
   </details>
 - **[pinutss/jev-plugins](https://github.com/pinutss/jev-plugins)** `⭐ 0` Cursor and Hermes plugin marketplace for JEV Labs routing tools.
 - **[pouria3/bstorms-skill](https://github.com/pouria3/bstorms-skill)** `⭐ 0` pouria3/bstorms-skill : Playbook marketplace for AI agents — browse, buy, download, publish, and rate packages via remote MCP at https://bstorms.ai/mcp.
-- **[Agent Skill](https://agentskill.sh)** A marketplace and directory for discovering and installing reusable AI agent skills, rule sets, and instruction packs for tools like Claude Code and Cursor. <details><summary>More about</summary>
+- **[Agent Skill](https://agentskill.sh)** agentskill.sh is a marketplace and directory for installing AI agent skills across tools like Claude Code, Cursor, and Copilot via a single CLI command. <details><summary>More about</summary>
 
-  It provides a centralized way for developers to instantly augment their coding assistants with specialized domain knowledge or complex workflow rules via a single command.
+  It centralizes discoverable, reusable skill packs that extend AI coding assistants with role- and platform-specific behaviors.
 
-  _Because why write your own system prompts when you can subscribe to a marketplace of someone else's._
+  _Yet another registry promising to solve skill fragmentation while adding another layer of indirection to your agent setup._
 
-  `marketplace` `agent-skills` `cursor` `claude-code` `directory`
+  `skills` `registry` `cli` `agent-extensions`
   </details>
-- **[AIPM](https://aipm-registry.com)** AIPM – Open-source CLI and registry for finding, installing, publishing, and managing reusable agent skills across Cursor, Claude Code, and Codex.
-- **[cocoloop hub](https://hub.cocoloop.cn)** A marketplace and registry for discovering and downloading reusable skills and capabilities for AI agents. <details><summary>More about</summary>
+- **[AIPM](https://aipm-registry.com)** AIPM is a marketplace and CLI for installing versioned agent skills and prompts into Claude Code, Cursor, and Codex. <details><summary>More about</summary>
 
-  It provides a centralized hub to find and extend agent functionality with specialized tools like image generation, web search, and automation across multiple platforms.
+  It lets developers share and pin reusable AI agent behaviors like packages, reducing drift and duplication across teams.
 
-  _It turns your AI agent into a character in an RPG, where utility is measured by how many skill packs you've successfully micro-managed into its prompt._
+  _Finally, a way to argue about skill versions instead of just arguing about which prompt wording is 'more correct'._
 
-  `agent-skills` `marketplace` `registry` `mcp` `automation`
+  `ai-skills` `cli` `marketplace` `agent-extensions`
   </details>
-- **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents. <details><summary>More about</summary>
+- **[cocoloop hub](https://hub.cocoloop.cn)** A Chinese marketplace offering downloadable AI Agent Skills (MCP-based tools) for platforms like Claude Code, Work Buddy, and Codex. <details><summary>More about</summary>
 
-  Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging adapters.
+  Provides a centralized, safety-vetted hub for developers to discover and install agent extensions that enhance AI coding assistants with image/video generation, automation, and research capabilities.
 
-  _Finally, a place where your agent can learn to fish instead of just being told to fish._
+  _Yet another skill store promising to unlock your agent’s potential—if only you could remember which one you installed last Tuesday._
 
-  `agent-skills` `marketplace` `extensions`
+  `agent-skills` `mcp` `china`
   </details>
-- **[Skills.Sh](https://skills.sh)** A directory and registry for discovering and installing reusable skills for AI agents. <details><summary>More about</summary>
+- **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** 水产市场 (Seafood Market) is a community hub for discovering and sharing skills, plugins, triggers, and communication adapters to extend Agent capabilities. <details><summary>More about</summary>
 
-  Developers can extend their AI agents with pre-built, shareable capabilities for specific workflows or domains.
+  It provides a centralized marketplace for developers to enhance their AI agents with reusable components and integrations.
 
-  _Now you can spend hours browsing skills instead of writing code, because why solve problems when you can curate them?_
+  _Yet another agent app store promising infinite evolution while developers just want their code to stop breaking._
 
-  `skills` `agent-extension` `registry`
+  `agent-ecosystem` `skills-marketplace` `mcp-integrations`
   </details>
-- **[Skillsmp](https://skillsmp.com)** SkillsMP is a searchable marketplace for 1.7M+ agent skills in SKILL.md format compatible with Claude Code, Codex CLI, and ChatGPT. <details><summary>More about</summary>
+- **[Skills.Sh](https://skills.sh)** skills.sh is a directory and installer for reusable AI agent skills that enhance agent behavior via single-command installation. <details><summary>More about</summary>
 
-  It gives developers a centralized registry to discover, evaluate, and install reusable agent behaviors without writing custom prompts or skills from scratch.
+  It lets developers quickly equip AI agents with specialized capabilities like code review or debugging without building them from scratch.
 
-  _Another directory where you spend more time browsing skills than actually using them, hoping one finally understands your weird repo._
+  _Yet another registry to check before trusting that your agent won’t hallucinate a solution to a problem it was never taught._
 
-  `agent-skills` `registry` `skill-packs`
+  `agent-skills` `registry` `cli`
+  </details>
+- **[Skillsmp](https://skillsmp.com)** SkillsMP is a marketplace and directory for open-source AI agent skills in SKILL.md format for assistants like Claude Code, Codex, and ChatGPT. <details><summary>More about</summary>
+
+  It helps developers discover and evaluate reusable agent skills across occupations and creators to extend AI coding assistants.
+
+  _Browsing 1.7M agent skills to find the one that doesn’t break your assistant is the new dependency hell._
+
+  `agent-skills` `marketplace` `skill-packs`
   </details>

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__leddoengano__jev-eyes__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-eyes
         extracted_url: https://github.com/leddoengano/jev-eyes
-        surrounding_text: >-
-          - [jev-eyes](https://github.com/LeddoEngano/jev-eyes) - Local OCR/layout `see()` (and optional `ask()`) so
-          TypeSafe Jev decides over inspectable image-derived text state. [Project
-          guide](community/projects/tools/jev-eyes.md).
+        surrounding_text: "- [jev-eyes](https://github.com/LeddoEngano/jev-eyes) - Local OCR/layout `see()` (and optional `ask()`) so TypeSafe Jev decides over inspectable image-derived text state. [Project guide](community/projects/tools/jev-eyes.md)."
         confidence: high
     - id: discovery__github__leddoengano__jev-eyes__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,12 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-eyes**'
+        anchor_text: "**jev-eyes**"
         extracted_url: https://github.com/leddoengano/jev-eyes
-        surrounding_text: >-
-          - [**jev-eyes**](https://github.com/LeddoEngano/jev-eyes) — Also in the state: \`image\` (size, source),
-          \`blocks\` (\`\[x, y, w, h\]\` boxes with OCR confidence) and, if installed, \`labels\`. \`see(img,
-          compact=True)\` keeps only \`image\`, \`text\` and top label names when tokens matter more than positions.
+        surrounding_text: "- [**jev-eyes**](https://github.com/LeddoEngano/jev-eyes) — Also in the state: \\`image\\` (size, source), \\`blocks\\` (\\`\\[x, y, w, h\\]\\` boxes with OCR confidence) and, if installed, \\`labels\\`. \\`see(img, compact=True)\\` keeps only \\`image\\`, \\`text\\` and top label names when tokens matter more than positions."
         confidence: high
 metadata:
   github:
@@ -59,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-eyes - Local OCR/layout see() (and optional ask()) so TypeSafe Jev decides over inspectable image-derived text
-    state. Project guide.
+  summary: jev-eyes - Local OCR/layout see() (and optional ask()) so TypeSafe Jev decides over inspectable image-derived text state. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -71,9 +63,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
   evidence:
     - jev-latest choice confidence 0.49
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed document-ai / OCR Engines; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.49 below gate 0.50; proposed document-ai / OCR Engines; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -85,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.418Z'
+    updated_at: "2026-09-29T13:07:10.418Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,6 +83,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

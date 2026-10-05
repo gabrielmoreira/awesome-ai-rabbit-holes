@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__nikhilagrima__claude-pet__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Claude Pet
         extracted_url: https://github.com/nikhilagrima/claude-pet
-        surrounding_text: >-
-          - **[Claude Pet](https://github.com/nikhilagrima/claude-pet)** – Desktop companion for Claude Code that reacts
-          to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns
-          into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT.
+        surrounding_text: "- **[Claude Pet](https://github.com/nikhilagrima/claude-pet)** – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT."
         confidence: high
 metadata:
   github:
@@ -40,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Claude Pet – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local
-    graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity.
-    macOS/Windows/Linux, 100% local, MIT.
+  summary: Claude Pet – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.470Z'
+    updated_at: "2026-09-29T13:07:10.470Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

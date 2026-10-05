@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shengjidaguai-china__goutoujunshi-jev-chat__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: goutoujunshi-jev-chat
         extracted_url: https://github.com/shengjidaguai-china/goutoujunshi-jev-chat
-        surrounding_text: >-
-          - [goutoujunshi-jev-chat](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat) - 狗头军师 Chat：Mac
-          微信读屏、关系分析与回复草稿悬浮窗.
+        surrounding_text: "- [goutoujunshi-jev-chat](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat) - 狗头军师 Chat：Mac 微信读屏、关系分析与回复草稿悬浮窗."
         confidence: high
     - id: discovery__github__shengjidaguai-china__goutoujunshi-jev-chat__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Goutoujunshi Jev Chat
         extracted_url: https://github.com/shengjidaguai-china/goutoujunshi-jev-chat
-        surrounding_text: >-
-          - [Goutoujunshi Jev Chat](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat) - `Open source` ·
-          `Free source build` · `BYOK`. WeChat desktop companion: OCR + optional TypeSafe Jev strategy before reply
-          drafts (manual send). [Project guide](community/projects/apps/goutoujunshi-jev-chat.md).
+        surrounding_text: "- [Goutoujunshi Jev Chat](https://github.com/shengjidaguai-china/goutoujunshi-jev-chat) - `Open source` · `Free source build` · `BYOK`. WeChat desktop companion: OCR + optional TypeSafe Jev strategy before reply drafts (manual send). [Project guide](community/projects/apps/goutoujunshi-jev-chat.md)."
         confidence: high
 metadata:
   github:
@@ -78,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.424Z'
+    updated_at: "2026-09-29T13:07:10.424Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

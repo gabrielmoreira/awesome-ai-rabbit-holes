@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__signalfuse__co__play__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: signalfuse.co/play
         extracted_url: https://signalfuse.co/play
-        surrounding_text: >-
-          - [hypeprinter007-stack/signalfuse-mcp](https://github.com/hypeprinter007-stack/signalfuse-mcp)
-          [![hypeprinter007-stack/signalfuse-mcp MCP
-          server](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp)
-          📇 ☁️ - 11 tools for AI trading agents: fused crypto signals (10 assets), sentiment, macro regime, live
-          strategy arena (4 strategies × 4 assets), fused web search (Brave + Tavily), and sandboxed code execution
-          (E2B). Pay-per-call USDC on Base via x402. Free browser playground at
-          [signalfuse.co/play](https://signalfuse.co/play) — 25 calls/day, no wallet. `npx -y signalfuse-mcp`
+        surrounding_text: "- [hypeprinter007-stack/signalfuse-mcp](https://github.com/hypeprinter007-stack/signalfuse-mcp) [![hypeprinter007-stack/signalfuse-mcp MCP server](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/hypeprinter007-stack/signalfuse-mcp) 📇 ☁️ - 11 tools for AI trading agents: fused crypto signals (10 assets), sentiment, macro regime, live strategy arena (4 strategies × 4 assets), fused web search (Brave + Tavily), and sandboxed code execution (E2B). Pay-per-call USDC on Base via x402. Free browser playground at [signalfuse.co/play](https://signalfuse.co/play) — 25 calls/day, no wallet. `npx -y signalfuse-mcp`"
         confidence: high
 metadata:
   github:
@@ -44,28 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A web-based playground for testing SignalFuse API endpoints, including web search, sentiment analysis, and sandboxed
-    code execution.
-  why_it_matters: >-
-    It allows developers to prototype and validate specialized agent capabilities via API before committing to
-    integration or wallet setup.
-  mental_damage: 'Just what your agentic stack needs: another specialized set of API endpoints to manage and monitor.'
+  summary: SignalFuse Playground is a browser-based tool for trying SignalFuse's paid endpoints like crypto signals, sentiment, and web search with 25 free daily calls and x402 payment integration.
+  why_it_matters: Developers can test and integrate SignalFuse's AI-powered data endpoints without wallet setup or signup, accelerating prototyping of financial, sentiment, or search features.
+  mental_damage: Another AI API playground that makes you wonder if 'free tier' just means 'you're the product until you add a credit token'.
   tags:
     - api
-    - agent-tools
     - playground
+    - x402
+    - data-endpoints
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is an API service provider offering agent capabilities, which does not fit the specific definitions for
-    coding agents, frameworks, or extensions.
+  reason: SignalFuse Playground is an API testing interface for a data service, not a developer-facing AI tool, agent, workflow, or infrastructure product as defined by the catalog scope.
   evidence:
-    - The playground is for testing 'every paid SignalFuse endpoint' such as web search and sandboxed code execution.
-    - >-
-      The product identity is a service provider meant to be 'wired into your agent' rather than a library, a host
-      extension, or an autonomous agent.
+    - "Scraped site context: 'Try every paid SignalFuse endpoint from your browser. 25 free calls, no wallet required.'"
+    - "Primary page excerpt lists endpoints: crypto signals, sentiment, macro regime, strategy arena, web search, sandboxed code execution."
+    - No evidence of AI agent behavior, code editing, workflow automation, or developer tooling beyond API exploration.
 placement:
   primary_category: null
   section: null
@@ -75,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.820Z'
+    updated_at: "2026-05-28T05:28:09.820Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,29 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:30:59.304Z'
+    updated_at: "2026-10-05T04:25:36.103Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e15b1e5e1a47dac4c1ca094d15e09f5b983e81b1b740c1531b791b03cc7a9e68
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:913dab94ab5d168628f3e7ca7b691b057d91b70827a6cca3c2a22f00093e7daf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is an API service provider offering agent capabilities, which does not fit the specific definitions
-        for coding agents, frameworks, or extensions.
+      decision_reason: SignalFuse Playground is an API testing interface for a data service, not a developer-facing AI tool, agent, workflow, or infrastructure product as defined by the catalog scope.
       decision_evidence:
-        - >-
-          The playground is for testing 'every paid SignalFuse endpoint' such as web search and sandboxed code
-          execution.
-        - >-
-          The product identity is a service provider meant to be 'wired into your agent' rather than a library, a host
-          extension, or an autonomous agent.
+        - "Scraped site context: 'Try every paid SignalFuse endpoint from your browser. 25 free calls, no wallet required.'"
+        - "Primary page excerpt lists endpoints: crypto signals, sentiment, macro regime, strategy arena, web search, sandboxed code execution."
+        - No evidence of AI agent behavior, code editing, workflow automation, or developer tooling beyond API exploration.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

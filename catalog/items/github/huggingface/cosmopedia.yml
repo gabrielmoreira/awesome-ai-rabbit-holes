@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__huggingface__cosmopedia__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: Cosmopedia
         extracted_url: https://huggingface.co/datasets/HuggingFaceTB/cosmopedia
-        surrounding_text: >-
-          13. [llm-swarm](https://github.com/huggingface/llm-swarm/tree/main/examples/textbooks): Generate large
-          synthetic datasets like [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia).
+        surrounding_text: "13. [llm-swarm](https://github.com/huggingface/llm-swarm/tree/main/examples/textbooks): Generate large synthetic datasets like [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia)."
         confidence: high
 metadata:
   github:
@@ -31,20 +29,18 @@ metadata:
     archived: false
     full_name: huggingface/cosmopedia
     html_url: https://github.com/huggingface/cosmopedia
-    created_at: '2024-02-19T09:34:19Z'
-    pushed_at: '2024-11-20T10:42:28Z'
+    created_at: "2024-02-19T09:34:19Z"
+    pushed_at: "2024-11-20T10:42:28Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-07-30T05:05:39.372Z'
+    last_checked_at: "2026-07-30T05:05:39.372Z"
     readme:
-      fetched_at: '2026-07-30T05:05:39.372Z'
+      fetched_at: "2026-07-30T05:05:39.372Z"
       bytes: 2435
 insights:
   summary: Cosmopedia is an open-source dataset and toolkit for training and evaluating AI models on scientific knowledge.
-  why_it_matters: >-
-    It provides developers with a structured corpus of scientific literature to improve model performance in technical
-    domains.
+  why_it_matters: It provides developers with a structured corpus of scientific literature to improve model performance in technical domains.
   mental_damage: Now you can train your AI to argue with your PhD advisor in perfectly cited LaTeX.
   tags:
     - dataset
@@ -54,9 +50,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a dataset/toolkit for scientific AI model training and evaluation, not a developer-facing tool,
-    workflow, or infrastructure.
+  reason: The project is a dataset/toolkit for scientific AI model training and evaluation, not a developer-facing tool, workflow, or infrastructure.
   evidence:
     - Repo is from Hugging Face and focuses on scientific knowledge datasets
     - Source-list context places it under 'Data' section of an LLM resources list
@@ -70,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.619Z'
+    updated_at: "2026-05-06T22:12:15.619Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:39.372Z'
+    updated_at: "2026-07-30T05:05:39.372Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -95,9 +89,7 @@ processing:
       input_hash: sha256:9da4df9cf85d554142b3a8ed0b288fb47cd4493520b3846144f717ec163f0261
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a dataset/toolkit for scientific AI model training and evaluation, not a developer-facing tool,
-        workflow, or infrastructure.
+      decision_reason: The project is a dataset/toolkit for scientific AI model training and evaluation, not a developer-facing tool, workflow, or infrastructure.
       decision_evidence:
         - Repo is from Hugging Face and focuses on scientific knowledge datasets
         - Source-list context places it under 'Data' section of an LLM resources list

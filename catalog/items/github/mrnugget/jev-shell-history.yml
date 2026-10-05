@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mrnugget__jev-shell-history__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Integrations
         anchor_text: jev-shell-history
         extracted_url: https://github.com/mrnugget/jev-shell-history
-        surrounding_text: >-
-          - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Fish-style zsh history autosuggestions
-          ranked by Jev (TypeSafe).
+        surrounding_text: "- [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Fish-style zsh history autosuggestions ranked by Jev (TypeSafe)."
         confidence: high
     - id: discovery__github__mrnugget__jev-shell-history__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-shell-history
         extracted_url: https://github.com/mrnugget/jev-shell-history
-        surrounding_text: >-
-          - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Ranks recent zsh commands with Jev for
-          inline suggestions; sends selected history to TypeSafe and requires a user-supplied API key. [Project
-          guide](community/projects/tools/jev-shell-history.md).
+        surrounding_text: "- [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Ranks recent zsh commands with Jev for inline suggestions; sends selected history to TypeSafe and requires a user-supplied API key. [Project guide](community/projects/tools/jev-shell-history.md)."
         confidence: high
     - id: discovery__github__mrnugget__jev-shell-history__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,12 +51,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: jev-shell-history
         extracted_url: https://github.com/mrnugget/jev-shell-history
-        surrounding_text: >-
-          | [jev-shell-history](https://github.com/mrnugget/jev-shell-history) | ★ 67 | TypeScript | 2026-09-19 |
-          Fish-style zsh history autosuggestions ranked by Jev (TypeSafe). |
+        surrounding_text: "| [jev-shell-history](https://github.com/mrnugget/jev-shell-history) | ★ 67 | TypeScript | 2026-09-19 | Fish-style zsh history autosuggestions ranked by Jev (TypeSafe). |"
         confidence: high
     - id: discovery__github__mrnugget__jev-shell-history__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -71,14 +64,12 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-shell-history**'
+        anchor_text: "**jev-shell-history**"
         extracted_url: https://github.com/mrnugget/jev-shell-history
-        surrounding_text: >-
-          - [**jev-shell-history**](https://github.com/mrnugget/jev-shell-history) — Fish-style Zsh history suggestion
-          tool ranked by Jev, ordering candidate commands from local history based on context.
+        surrounding_text: "- [**jev-shell-history**](https://github.com/mrnugget/jev-shell-history) — Fish-style Zsh history suggestion tool ranked by Jev, ordering candidate commands from local history based on context."
         confidence: high
     - id: discovery__github__mrnugget__jev-shell-history__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -90,9 +81,7 @@ provenance:
           - SDKs and developer tools
         anchor_text: jev-shell-history
         extracted_url: https://github.com/mrnugget/jev-shell-history
-        surrounding_text: >-
-          - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Ranks existing zsh history entries for
-          inline completion; accepting a suggestion does not execute it.
+        surrounding_text: "- [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Ranks existing zsh history entries for inline completion; accepting a suggestion does not execute it."
         confidence: high
 metadata:
   github:
@@ -130,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.376Z'
+    updated_at: "2026-09-29T13:07:10.376Z"
     cause: null
     next_retry_at: null
   stars:
@@ -138,6 +127,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coobiw__mpp-llava__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,13 +29,10 @@ metadata:
     archived: false
     full_name: Coobiw/MPP-LLaVA
     html_url: https://github.com/Coobiw/MPP-LLaVA
-    created_at: '2023-10-24T17:27:32Z'
-    pushed_at: '2025-03-10T14:16:21Z'
-    description: >-
-      Personal Project: MPP-Qwen14B & MPP-Qwen-Next(Multimodal Pipeline Parallel based on Qwen-LM). Support
-      [video/image/multi-image] {sft/conversations}. Don't let the poverty limit your imagination! Train your own 8B/14B
-      LLaVA-training-like MLLM on RTX3090/4090 24GB.
-    homepage: ''
+    created_at: "2023-10-24T17:27:32Z"
+    pushed_at: "2025-03-10T14:16:21Z"
+    description: "Personal Project: MPP-Qwen14B & MPP-Qwen-Next(Multimodal Pipeline Parallel based on Qwen-LM). Support [video/image/multi-image] {sft/conversations}. Don't let the poverty limit your imagination! Train your own 8B/14B LLaVA-training-like MLLM on RTX3090/4090 24GB."
+    homepage: ""
     topics:
       - deepspeed
       - fine-tuning
@@ -47,17 +44,13 @@ metadata:
       - qwen
       - video-language-model
       - video-large-language-models
-    last_checked_at: '2026-09-14T04:13:29.563Z'
+    last_checked_at: "2026-09-14T04:13:29.563Z"
     readme:
-      fetched_at: '2026-09-14T04:13:29.563Z'
+      fetched_at: "2026-09-14T04:13:29.563Z"
       bytes: 10247
 insights:
-  summary: >-
-    A personal project for multimodal pipeline parallel training of Qwen-based vision-language models (e.g., LLaVA-like)
-    on consumer GPUs like RTX 3090/4090 24GB.
-  why_it_matters: >-
-    Enables developers to fine-tune or pretrain their own multimodal models (video/image/multi-image) with limited
-    hardware, lowering the barrier to entry for custom MLLM experimentation.
+  summary: A personal project for multimodal pipeline parallel training of Qwen-based vision-language models (e.g., LLaVA-like) on consumer GPUs like RTX 3090/4090 24GB.
+  why_it_matters: Enables developers to fine-tune or pretrain their own multimodal models (video/image/multi-image) with limited hardware, lowering the barrier to entry for custom MLLM experimentation.
   mental_damage: Finally, a way to train your own LLaVA on a GPU that also mines crypto in its spare time.
   tags:
     - multimodal-llm
@@ -68,9 +61,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a model training framework/repo focused on multimodal LLM fine-tuning, not a developer-tooling product for
-    coding workflows, extensions, or app-building.
+  reason: This is a model training framework/repo focused on multimodal LLM fine-tuning, not a developer-tooling product for coding workflows, extensions, or app-building.
   evidence:
     - Repo description explicitly frames it as a personal project for training MLLMs (Qwen/LLaVA-like) on consumer GPUs
     - Topics include deepspeed, fine-tuning, pipeline-parallelism, and multimodal models—no developer-tooling angle
@@ -84,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.609Z'
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:29.563Z'
+    updated_at: "2026-09-14T04:13:29.563Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -109,13 +100,9 @@ processing:
       input_hash: sha256:c95d9da95064f3e8ce7b8ae239b902457249302992c2f326ba67150c112e4760
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a model training framework/repo focused on multimodal LLM fine-tuning, not a developer-tooling product
-        for coding workflows, extensions, or app-building.
+      decision_reason: This is a model training framework/repo focused on multimodal LLM fine-tuning, not a developer-tooling product for coding workflows, extensions, or app-building.
       decision_evidence:
-        - >-
-          Repo description explicitly frames it as a personal project for training MLLMs (Qwen/LLaVA-like) on consumer
-          GPUs
+        - Repo description explicitly frames it as a personal project for training MLLMs (Qwen/LLaVA-like) on consumer GPUs
         - Topics include deepspeed, fine-tuning, pipeline-parallelism, and multimodal models—no developer-tooling angle
         - Source-list context places it under 'Tips' in a general LLM resources list, not a dev-tooling category
       category_candidates: []

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__firecrawl__dev__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Firecrawl
         extracted_url: https://firecrawl.dev
-        surrounding_text: >-
-          - **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with
-          [Firecrawl](https://firecrawl.dev)
+        surrounding_text: "- **[Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** - Extract web data with [Firecrawl](https://firecrawl.dev)"
         confidence: high
 metadata:
   github:
@@ -38,37 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or
-    structured data.
-  why_it_matters: >-
-    It solves the tedious problem of preprocessing messy HTML into high-quality context for RAG pipelines and agentic
-    workflows.
-  mental_damage: >-
-    Another layer of abstraction between you and the chaos of the open web, ensuring your LLM sees the world in
-    perfectly formatted markdown.
+  summary: Firecrawl.dev is a web scraping and crawling API that extracts structured data from websites.
+  why_it_matters: Developers use it to programmatically gather web data for AI training, RAG pipelines, or automation without building and maintaining scrapers.
+  mental_damage: Another API that promises to solve web scraping’s fragility, while quietly adding yet another dependency and potential failure point to your already over-engineered pipeline.
   tags:
     - web-scraping
     - data-extraction
     - api
-    - ai-tool
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Memory & Retrieval Infrastructure
+  status: excluded
+  reason: Firecrawl.dev is a web scraping API service, not a developer-facing AI tool, agent, framework, or infrastructure with a clear AI-tooling identity; its presence in awesome-mcp-servers is incidental and does not establish MCP as its primary identity.
   evidence:
-    - jev-latest choice confidence 0.55
+    - "URL: https://firecrawl.dev — homepage describes a web scraping and crawling API for extracting structured data from websites"
+    - "Seen in source lists / directories: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
+    - No repo description, README excerpt, or scraped site context provided that indicates AI agent, coding assistant, or developer tooling behavior
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   secondary_categories: []
-  section: Memory & Retrieval Infrastructure
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,36 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:35.896Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for firecrawl__dev: Invalid AI response structure: Missing required field:
-        mental_damage
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:15.695Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:922ce33363755fec0ffb6204a778477cb0aa0be731e5398a5d257c2430776042
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:806d80bdb832ae2a79a5d57b683d9c592bd879d16fe6733a3b3e8ceecb1ec0c1
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which
-        is a classic context engineering problem.
+      decision_reason: Firecrawl.dev is a web scraping API service, not a developer-facing AI tool, agent, framework, or infrastructure with a clear AI-tooling identity; its presence in awesome-mcp-servers is incidental and does not establish MCP as its primary identity.
       decision_evidence:
-        - Product focus is converting websites to LLM-ready markdown
-        - Included in awesome-mcp-servers as an official server
-        - Provides specialized infrastructure for data retrieval for AI models
-      category_candidates:
-        - context-engineering
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose context-engineering over ai-frameworks because its primary value is the transformation of unstructured
-        web data into high-quality context rather than providing a general-purpose coding library.
+        - "URL: https://firecrawl.dev — homepage describes a web scraping and crawling API for extracting structured data from websites"
+        - "Seen in source lists / directories: awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers | section: Official Servers"
+        - No repo description, README excerpt, or scraped site context provided that indicates AI agent, coding assistant, or developer tooling behavior
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

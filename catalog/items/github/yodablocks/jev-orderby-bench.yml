@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yodablocks__jev-orderby-bench__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,14 +20,10 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-orderby-bench
         extracted_url: https://github.com/yodablocks/jev-orderby-bench
-        surrounding_text: >-
-          | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | ★ 0 | Python | 2026-09-22 | Does
-          ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant
-          measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on
-          graded product relevance. |
+        surrounding_text: "| [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | ★ 0 | Python | 2026-09-22 | Does ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on graded product relevance. |"
         confidence: high
     - id: discovery__github__yodablocks__jev-orderby-bench__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -40,17 +36,10 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jev-orderby-bench
         extracted_url: https://github.com/yodablocks/jev-orderby-bench
-        surrounding_text: >-
-          - [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
-          ![stars](https://img.shields.io/github/stars/yodablocks/jev-orderby-bench?style=flat-square&label=%E2%98%85) -
-          Model evaluation: measures whether a SQL ORDER BY over a Jev probability is defensible (pairwise inversion,
-          Score ordinality against a human grade, calibration, wording invariants, sort-key ties) under a pre-registered
-          gate that jev-1.13.0 passes on 20 Newsgroups topics and fails four of six conditions on Amazon ESCI product
-          relevance, and shows a DuckDB extension's default 40-row batching fails the ranking gate that one row per
-          request passes.
+        surrounding_text: "- [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) ![stars](https://img.shields.io/github/stars/yodablocks/jev-orderby-bench?style=flat-square&label=%E2%98%85) - Model evaluation: measures whether a SQL ORDER BY over a Jev probability is defensible (pairwise inversion, Score ordinality against a human grade, calibration, wording invariants, sort-key ties) under a pre-registered gate that jev-1.13.0 passes on 20 Newsgroups topics and fails four of six conditions on Amazon ESCI product relevance, and shows a DuckDB extension's default 40-row batching fails the ranking gate that one row per request passes."
         confidence: high
     - id: discovery__github__yodablocks__jev-orderby-bench__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -62,12 +51,7 @@ provenance:
           - Evaluation and calibration
         anchor_text: jev-orderby-bench
         extracted_url: https://github.com/yodablocks/jev-orderby-bench
-        surrounding_text: >-
-          - [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) - Measures whether ORDER BY over a Jev
-          probability is defensible (inversion rate, Score ordinality against a human grade, calibration, wording
-          invariants, sort-key ties) under a pre-registered gate; passes on 20 Newsgroups topics, fails four of six
-          conditions on Amazon ESCI product relevance, and shows a DuckDB extension's default 40-row batching fails the
-          ranking gate that one row per request passes.
+        surrounding_text: "- [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) - Measures whether ORDER BY over a Jev probability is defensible (inversion rate, Score ordinality against a human grade, calibration, wording invariants, sort-key ties) under a pre-registered gate; passes on 20 Newsgroups topics, fails four of six conditions on Amazon ESCI product relevance, and shows a DuckDB extension's default 40-row batching fails the ranking gate that one row per request passes."
         confidence: high
 metadata:
   github:
@@ -85,10 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Does ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant
-    measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on graded
-    product relevance.
+  summary: "Does ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on graded product relevance."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -108,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.406Z'
+    updated_at: "2026-09-29T13:07:10.406Z"
     cause: null
     next_retry_at: null
   stars:
@@ -116,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

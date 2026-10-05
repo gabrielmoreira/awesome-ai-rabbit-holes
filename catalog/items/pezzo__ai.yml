@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pezzo__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Pezzo
         anchor_text: Pezzo
         extracted_url: https://pezzo.ai
-        surrounding_text: '## [Pezzo](https://www.pezzo.ai/)'
+        surrounding_text: "## [Pezzo](https://www.pezzo.ai/)"
         confidence: high
     - id: discovery__www__pezzo__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Pezzo
         anchor_text: Pezzo
         extracted_url: https://www.pezzo.ai
-        surrounding_text: '## [Pezzo](https://www.pezzo.ai/)'
+        surrounding_text: "## [Pezzo](https://www.pezzo.ai/)"
         confidence: high
 metadata:
   github:
@@ -51,69 +51,58 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pezzo is a platform for building, managing, and deploying AI agents.
-  why_it_matters: It provides developers with a centralized way to create and coordinate AI agents for various workflows.
-  mental_damage: >-
-    Because nothing says 'productivity' like managing a fleet of agents that may or may not outsource their work to
-    other agents.
+  summary: Pezzo is a prompt management platform for AI applications that centralizes version control, testing, and deployment of prompts.
+  why_it_matters: It helps teams treat prompts like code, reducing drift and improving reliability in LLM-powered features.
+  mental_damage: Finally, a way to argue about prompt wording in pull requests instead of just hoping GPT-4 doesn't hallucinate.
   tags:
     - prompt-engineering
-    - observability
     - llmops
-  confidence: high
+    - version-control
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  reason: Pezzo's core identity is prompt management and versioning, which fits the memory-and-context category's focus on improving what goes into the model via prompt template management and distribution.
   evidence:
-    - jev-latest choice confidence 0.90
+    - "From source-list context: listed in awesome-ai-agents under purpose: 'A list of AI autonomous agents'"
+    - "From scraped site context: Pezzo is described as a prompt management platform for AI applications"
+    - No evidence of autonomous coding, agent orchestration, or app generation as primary function
 placement:
-  primary_category: null
+  primary_category: memory-and-context
   secondary_categories: []
-  section: null
+  section: Prompt Engineering & Management
 lifecycle:
-  status: needs_review
-  reason: >-
-    Categorization review required: placement disagreement: retained 'context-engineering', proposed
-    'agent-orchestration'
+  status: curated
+  reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:43:59.969Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for pezzo__ai: Invalid AI response format: SyntaxError: Unexpected token 'P',
-        ..."_reason": Pezzo's co"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:49:58.240Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8b6f0d94fc18d8023a0b10422eed0f6ad684e59ccd0f3af961ef1c28c2e9c465
-      proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: >-
-        Pezzo's core value is coordinating and deploying AI agents, fitting the agent orchestration category as a
-        control plane/workforce platform.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9381eabc94233e02cef9fa52fcc7d7007bd12145206a8931c07e9de4a84e3949
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: Pezzo's core identity is prompt management and versioning, which fits the memory-and-context category's focus on improving what goes into the model via prompt template management and distribution.
       decision_evidence:
-        - Seen in awesome-ai-agents under 'Pezzo' as an AI autonomous agent platform
-        - Primary identity is agent coordination/deployment rather than a single coding assistant or framework
+        - "From source-list context: listed in awesome-ai-agents under purpose: 'A list of AI autonomous agents'"
+        - "From scraped site context: Pezzo is described as a prompt management platform for AI applications"
+        - No evidence of autonomous coding, agent orchestration, or app generation as primary function
       category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because Pezzo is an operated platform for managing agents rather
-        than a code-first SDK or library.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'context-engineering', proposed
-        'agent-orchestration'
+        - memory-and-context
+        - extensions-and-addons
+      contrastive_reason: Choose memory-and-context over extensions-and-addons because Pezzo's primary value is centralized prompt management as a standalone platform, not extending a specific host agent or editor.
+      review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.968Z'
+    updated_at: "2026-07-21T15:20:21.968Z"
     cause: null
     next_retry_at: null
   stars:

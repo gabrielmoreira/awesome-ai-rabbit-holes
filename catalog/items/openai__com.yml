@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__openai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Code Models
         anchor_text: GPT-5 (OpenAI)
         extracted_url: https://openai.com
-        surrounding_text: '- **[GPT-5 (OpenAI)](https://openai.com/)** – Powers GitHub Copilot, Codex CLI, and ChatGPT coding workflows.'
+        surrounding_text: "- **[GPT-5 (OpenAI)](https://openai.com/)** – Powers GitHub Copilot, Codex CLI, and ChatGPT coding workflows."
         confidence: high
 metadata:
   github:
@@ -36,23 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI is an AI research and deployment company providing large language models like GPT via API services.
-  why_it_matters: Developers use OpenAI's models as foundational components for building AI-powered applications and agents.
-  mental_damage: Relying on a single vendor for model access creates lock-in anxiety masked as convenience.
+  summary: OpenAI is a provider of large language models and AI services via API, including chat, reasoning, and coding models.
+  why_it_matters: It gives developers access to state-of-the-art models that power coding agents, app builders, and other AI tooling.
+  mental_damage: Another reminder that the real product is the API bill, not the open-source agent that uses it.
   tags:
-    - llm
-    - api
     - ai-provider
+    - llm-api
+    - foundation-models
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    OpenAI is a model provider and API service, not a developer-facing tool, agent, or infrastructure product that
-    directly aids coding workflows.
+  reason: OpenAI is a model provider and API service, not a developer-facing tool, agent, framework, or infrastructure product that directly aids coding workflows.
   evidence:
-    - 'Repo description: (none)'
-    - 'Source-list context: listed in awesome-ai-coding-tools under ''Code Models'' section'
-    - No evidence of being a coding agent, app builder, framework, or developer tool
+    - "Repo description: (none)"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Code Models', indicating it is categorized as a model provider, not a tool"
 placement:
   primary_category: null
   section: null
@@ -62,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,26 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:58.255Z'
+    updated_at: "2026-10-05T04:42:56.722Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fc1fb4a9ee8806b8ea614058931e93c3c03e799d17262fccf0ec827aba7d0170
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:156cabc5e100e15b3167c9a8ef77ac3cc4e69250eae76325a1676564a4b42545
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        OpenAI is a model provider and API service, not a developer-facing tool, agent, or infrastructure product that
-        directly aids coding workflows.
+      decision_reason: OpenAI is a model provider and API service, not a developer-facing tool, agent, framework, or infrastructure product that directly aids coding workflows.
       decision_evidence:
-        - 'Repo description: (none)'
-        - 'Source-list context: listed in awesome-ai-coding-tools under ''Code Models'' section'
-        - No evidence of being a coding agent, app builder, framework, or developer tool
+        - "Repo description: (none)"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Models', indicating it is categorized as a model provider, not a tool"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

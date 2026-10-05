@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ailaflow__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - AilaFlow
         anchor_text: AilaFlow
         extracted_url: https://ailaflow.com
-        surrounding_text: '## [AilaFlow](https://ailaflow.com)'
+        surrounding_text: "## [AilaFlow](https://ailaflow.com)"
         confidence: high
 metadata:
   github:
@@ -36,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous agent platform designed for complex workflow automation and multi-agent coordination.
-  why_it_matters: >-
-    It provides a framework for orchestrating multiple specialized agents to solve complex, multi-step tasks that a
-    single LLM prompt cannot handle.
-  mental_damage: Because deciding which specific agent to delegate your actual job to is the new way to waste a Tuesday afternoon.
+  summary: AilaFlow is an AI workspace platform for teams that lets users run workflows via chat and forms with human approvals.
+  why_it_matters: It enables non-technical team members to trigger AI-driven business processes without coding, reducing dependency on developers for routine automations.
+  mental_damage: Another 'AI workspace' that promises to replace Jira tickets with chatbots, just in time for the next round of tool sprawl.
   tags:
-    - low-code
+    - ai-workspace
     - workflow-automation
-    - ai-agents
-    - human-ai-collaboration
+    - human-in-the-loop
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  status: excluded
+  reason: AilaFlow is an end-user platform for business process automation via AI chat and forms, not a developer-facing tool for coding, agents, or infrastructure; its primary users are non-technical team members, not developers building or extending AI systems.
   evidence:
-    - jev-latest choice confidence 0.90
+    - The site emphasizes 'no technical expertise needed for everyday use' and targets team members using AI chat and forms.
+    - Core functionality revolves around defining workflows, access controls, and human approvals for business tasks like purchase approvals or employee onboarding.
+    - It positions itself as a workspace for 'people behind the workspace' to connect systems via JavaScript, but the product identity is the hosted platform, not a dev toolkit.
 placement:
   primary_category: null
   secondary_categories: []
-  section: Agent Runtimes & Harnesses
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: low confidence'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,35 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:44.243Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for ailaflow__com: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:08.933Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4d2cec46cd5fbff81ef7c532543a198883d38401029dae474286f0cd6cb8c570
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:83fb43966cca14bb0db250e99253e4a2b4518e660370625578c2e6879157fbff
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is listed in 'awesome-ai-agents' as an autonomous agent platform, implying a focus on multi-agent
-        coordination rather than just a single assistant.
+      decision_reason: AilaFlow is an end-user platform for business process automation via AI chat and forms, not a developer-facing tool for coding, agents, or infrastructure; its primary users are non-technical team members, not developers building or extending AI systems.
       decision_evidence:
-        - Included in awesome-ai-agents under 'AilaFlow'
-        - URL ailaflow.com indicates a workflow-oriented platform
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the source-list context and naming suggest a
-        runtime/platform for autonomous workflows rather than a library for developers to script against.
-      review_reason: 'Categorization review required: low confidence'
+        - The site emphasizes 'no technical expertise needed for everyday use' and targets team members using AI chat and forms.
+        - Core functionality revolves around defining workflows, access controls, and human approvals for business tasks like purchase approvals or employee onboarding.
+        - It positions itself as a workspace for 'people behind the workspace' to connect systems via JavaScript, but the product identity is the hosted platform, not a dev toolkit.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

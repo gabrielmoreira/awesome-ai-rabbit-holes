@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elhamid__llm-council__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: elhamid/llm-council
         extracted_url: https://github.com/elhamid/llm-council
-        surrounding_text: >-
-          - [elhamid/llm-council](https://github.com/elhamid/llm-council) 🐍 🏠 - Multi-LLM deliberation with anonymized
-          peer review. Runs a 3-stage council: parallel responses → anonymous ranking → synthesis. Based on Andrej
-          Karpathy's LLM Council concept.
+        surrounding_text: "- [elhamid/llm-council](https://github.com/elhamid/llm-council) 🐍 🏠 - Multi-LLM deliberation with anonymized peer review. Runs a 3-stage council: parallel responses → anonymous ranking → synthesis. Based on Andrej Karpathy's LLM Council concept."
         confidence: high
 metadata:
   github:
@@ -33,10 +30,10 @@ metadata:
     archived: false
     full_name: elhamid/llm-council
     html_url: https://github.com/elhamid/llm-council
-    created_at: '2025-12-14T09:46:37Z'
-    pushed_at: '2026-02-20T02:40:07Z'
+    created_at: "2025-12-14T09:46:37Z"
+    pushed_at: "2026-02-20T02:40:07Z"
     description: LLM Council fork with persistence, decision traces, stability fixes, repeatable checks, and MCP integration.
-    homepage: ''
+    homepage: ""
     topics:
       - decision-support
       - human-in-the-loop
@@ -44,15 +41,13 @@ metadata:
       - mcp
       - multi-agent
       - python
-    last_checked_at: '2026-08-27T09:23:22.823Z'
+    last_checked_at: "2026-08-27T09:23:22.823Z"
     readme:
-      fetched_at: '2026-08-27T09:23:22.822Z'
+      fetched_at: "2026-08-27T09:23:22.822Z"
       bytes: 6025
 insights:
   summary: A local web app that coordinates multiple LLMs to answer questions via a multi-stage review and synthesis process.
-  why_it_matters: >-
-    Developers can compare and audit model responses side-by-side, reducing single-model bias and improving decision
-    traceability.
+  why_it_matters: Developers can compare and audit model responses side-by-side, reducing single-model bias and improving decision traceability.
   mental_damage: Finally, a way to turn every LLM disagreement into a committee meeting.
   tags:
     - multi-agent
@@ -71,23 +66,23 @@ placement:
   section: Agent Runtimes & Harnesses
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''agent-orchestration'''
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.612Z'
+    updated_at: "2026-05-06T22:12:15.612Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-14T04:13:47.933Z'
+    updated_at: "2026-09-14T04:13:47.933Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for elhamid/llm-council
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -102,20 +97,14 @@ processing:
       input_hash: sha256:6a6cd5b12c8158704b1b0a85ccab59d1d6c64fec38598d8ded2e0c80357fe1ca
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: >-
-        The core value is coordinating multiple LLMs through a structured review and synthesis workflow, fitting the
-        multi-agent orchestration pattern.
+      decision_reason: The core value is coordinating multiple LLMs through a structured review and synthesis workflow, fitting the multi-agent orchestration pattern.
       decision_evidence:
-        - >-
-          README describes a 3-stage process (individual responses, peer review, final synthesis) with explicit role
-          assignments
+        - README describes a 3-stage process (individual responses, peer review, final synthesis) with explicit role assignments
         - Repo is a local web app that acts as a runtime platform for multi-agent coordination
         - Source-list context shows it in a Coding Agents section, but primary identity is orchestration
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated runtime platform for
-        coordinating agents, not a code-first library or SDK.
-      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''agent-orchestration'''
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated runtime platform for coordinating agents, not a code-first library or SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'agent-orchestration'"
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abdullahaamuda-code__jev-decide__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-decide (abdullahaamuda)
         extracted_url: https://github.com/abdullahaamuda-code/jev-decide
-        surrounding_text: >-
-          - [jev-decide (abdullahaamuda)](https://github.com/abdullahaamuda-code/jev-decide) - Agent skill + stdlib
-          Python CLI: offload page-state Choice/Noul/Score judgments to TypeSafe Jev for browser/desktop automation.
-          [Project guide](community/projects/tools/abdullahaamuda-jev-decide.md).
+        surrounding_text: "- [jev-decide (abdullahaamuda)](https://github.com/abdullahaamuda-code/jev-decide) - Agent skill + stdlib Python CLI: offload page-state Choice/Noul/Score judgments to TypeSafe Jev for browser/desktop automation. [Project guide](community/projects/tools/abdullahaamuda-jev-decide.md)."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: abdullahaamuda-code/jev-decide
     html_url: https://github.com/abdullahaamuda-code/jev-decide
-    created_at: '2026-09-26T11:40:26Z'
-    pushed_at: '2026-09-26T12:03:32Z'
-    description: >-
-      System One decision layer for browser automation: offload page-state judgments to TypeSafe Jev — element picks,
-      challenge detection, routing. ~1s, ~$0.001/decision.
+    created_at: "2026-09-26T11:40:26Z"
+    pushed_at: "2026-09-26T12:03:32Z"
+    description: "System One decision layer for browser automation: offload page-state judgments to TypeSafe Jev — element picks, challenge detection, routing. ~1s, ~$0.001/decision."
     homepage: null
     topics:
       - agent-skills
@@ -48,42 +43,71 @@ metadata:
       - playwright
       - python
       - web-scraping
-    last_checked_at: '2026-09-29T13:08:23.657Z'
+    last_checked_at: "2026-09-29T13:08:23.657Z"
     readme:
-      fetched_at: '2026-09-29T13:08:23.657Z'
+      fetched_at: "2026-09-29T13:08:23.657Z"
       bytes: 3771
 insights:
-  summary: >-
-    System One decision layer for browser automation: offload page-state judgments to TypeSafe Jev — element picks,
-    challenge detection, routing. ~1s, ~$0.001/decision.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: System One decision layer for browser automation that offloads page-state judgments to TypeSafe Jev for element selection, challenge detection, and routing.
+  why_it_matters: Provides reliable, low-cost decisions (~1s, ~$0.001/decision) for browser automation workflows by replacing heuristic checks with typed probabilistic judgments.
+  mental_damage: Yet another layer to insert between Playwright and your flaky test, promising to fix selector rot with a model that may or may not generalize beyond the training set of e-commerce sites.
+  tags:
+    - browser-automation
+    - decision-models
+    - jev
+    - type-safe
+    - agent-tool
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The product's core identity is a decision model (Jev) that answers typed questions with probabilities for browser automation tasks like element picking and challenge detection, placing it squarely in decision-models rather than as a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.90
+    - "Repo description: 'System One decision layer for browser automation: offload page-state judgments to TypeSafe Jev — element picks, challenge detection, routing.'"
+    - "Topics include: agent-skills, ai-agents, browser-automation, decision-making, llm, playwright, python, web-scraping"
+    - "Seen in source list: awesome-jev under 'Community projects > Developer projects and integrations'"
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Browser & Computer Use
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.433Z'
+    updated_at: "2026-09-29T13:07:10.433Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:23.657Z'
+    updated_at: "2026-09-29T13:08:23.657Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:12:00.665Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:167532bde38d3c1afbcc990c27ed0a66570743626bb3072efd448b365f415ac1
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model (Jev) that answers typed questions with probabilities for browser automation tasks like element picking and challenge detection, placing it squarely in decision-models rather than as a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'System One decision layer for browser automation: offload page-state judgments to TypeSafe Jev — element picks, challenge detection, routing.'"
+        - "Topics include: agent-skills, ai-agents, browser-automation, decision-making, llm, playwright, python, web-scraping"
+        - "Seen in source list: awesome-jev under 'Community projects > Developer projects and integrations'"
+      category_candidates:
+        - decision-models
+        - ai-dev-extensions
+      contrastive_reason: Choose decision-models over ai-dev-extensions because the product's primary identity is the Jev decision model itself, not an extension that augments a host agent with debugging or workflow capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

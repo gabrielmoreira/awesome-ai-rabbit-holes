@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__internlm__xtuner__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: Xtuner
         extracted_url: https://github.com/internlm/xtuner
-        surrounding_text: >-
-          7. [Xtuner](https://github.com/InternLM/xtuner): An efficient, flexible and full-featured toolkit for
-          fine-tuning large models.
+        surrounding_text: "7. [Xtuner](https://github.com/InternLM/xtuner): An efficient, flexible and full-featured toolkit for fine-tuning large models."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: InternLM/xtuner
     html_url: https://github.com/InternLM/xtuner
-    created_at: '2023-07-11T03:18:13Z'
-    pushed_at: '2026-07-30T05:01:56Z'
+    created_at: "2023-07-11T03:18:13Z"
+    pushed_at: "2026-07-30T05:01:56Z"
     description: A Next-Generation Training Engine Built for Ultra-Large MoE Models
     homepage: https://xtuner.readthedocs.io/zh-cn/latest/
     topics:
@@ -47,15 +45,13 @@ metadata:
       - qwen3-moe
       - qwen3-vl
       - reinforcement-learning
-    last_checked_at: '2026-07-30T05:05:44.405Z'
+    last_checked_at: "2026-07-30T05:05:44.405Z"
     readme:
-      fetched_at: '2026-07-30T05:05:44.405Z'
+      fetched_at: "2026-07-30T05:05:44.405Z"
       bytes: 7441
 insights:
   summary: A training engine designed for fine-tuning ultra-large Mixture-of-Experts (MoE) models.
-  why_it_matters: >-
-    Enables developers to efficiently train or fine-tune large-scale MoE models, which are increasingly relevant for
-    high-performance AI applications.
+  why_it_matters: Enables developers to efficiently train or fine-tune large-scale MoE models, which are increasingly relevant for high-performance AI applications.
   mental_damage: Because nothing says 'weekend project' like fine-tuning a 100B-parameter MoE model on your laptop.
   tags:
     - fine-tuning
@@ -65,9 +61,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a training engine for MoE models, which falls under ML research/infrastructure rather than
-    developer-facing AI tooling for coding workflows.
+  reason: The project is a training engine for MoE models, which falls under ML research/infrastructure rather than developer-facing AI tooling for coding workflows.
   evidence:
     - Repo description explicitly states it is a 'training engine for ultra-large MoE models'
     - Topics include 'llm', 'multimodal', 'reinforcement-learning' (research/infra focus)
@@ -81,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.621Z'
+    updated_at: "2026-05-06T22:12:15.621Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:44.405Z'
+    updated_at: "2026-07-30T05:05:44.405Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -106,9 +100,7 @@ processing:
       input_hash: sha256:a55874726c2c0e5fb821d90fe4f351d6a7d4c7a15c6449b3239fcb7b78d9858a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a training engine for MoE models, which falls under ML research/infrastructure rather than
-        developer-facing AI tooling for coding workflows.
+      decision_reason: The project is a training engine for MoE models, which falls under ML research/infrastructure rather than developer-facing AI tooling for coding workflows.
       decision_evidence:
         - Repo description explicitly states it is a 'training engine for ultra-large MoE models'
         - Topics include 'llm', 'multimodal', 'reinforcement-learning' (research/infra focus)

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__steven-shoemaker__hunch-js__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: hunch-js
         extracted_url: https://github.com/steven-shoemaker/hunch-js
-        surrounding_text: >-
-          | [hunch-js](https://github.com/steven-shoemaker/hunch-js) | ★ 1 | TypeScript | 2026-09-23 | TypeScript
-          library that maps Jev Choice, Score, and Noul questions onto classification, ranking, extraction,
-          verification, and array workflows. |
+        surrounding_text: "| [hunch-js](https://github.com/steven-shoemaker/hunch-js) | ★ 1 | TypeScript | 2026-09-23 | TypeScript library that maps Jev Choice, Score, and Noul questions onto classification, ranking, extraction, verification, and array workflows. |"
         confidence: high
     - id: discovery__github__steven-shoemaker__hunch-js__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,16 +36,10 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: hunch-js
         extracted_url: https://github.com/steven-shoemaker/hunch-js
-        surrounding_text: >-
-          - [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch)
-          ![stars](https://img.shields.io/github/stars/steven-shoemaker/hunch?style=flat-square&label=%E2%98%85) -
-          Python and TypeScript ecosystem: libraries that turn Jev Choice, Score, and Noul questions into functions over
-          lists and DataFrames (classify, score, check, where, extract, pick, rank, verify), with request deduplication,
-          caching, and optional escalation of unsure rows to an LLM that must pick from the same labels; TypeScript port
-          at [hunch-js](https://github.com/steven-shoemaker/hunch-js).
+        surrounding_text: "- [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) ![stars](https://img.shields.io/github/stars/steven-shoemaker/hunch?style=flat-square&label=%E2%98%85) - Python and TypeScript ecosystem: libraries that turn Jev Choice, Score, and Noul questions into functions over lists and DataFrames (classify, score, check, where, extract, pick, rank, verify), with request deduplication, caching, and optional escalation of unsure rows to an LLM that must pick from the same labels; TypeScript port at [hunch-js](https://github.com/steven-shoemaker/hunch-js)."
         confidence: high
     - id: discovery__github__steven-shoemaker__hunch-js__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -60,11 +51,7 @@ provenance:
           - SDKs and developer tools
         anchor_text: TypeScript port
         extracted_url: https://github.com/steven-shoemaker/hunch-js
-        surrounding_text: >-
-          - [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) - Python library that asks Jev
-          closed-set questions over each item in a list or DataFrame (classify, score, rank, check, where, extract,
-          pick, verify), caches the answers, and joins them back, while code owns candidates, thresholds, and actions; a
-          [TypeScript port](https://github.com/steven-shoemaker/hunch-js) offers the same verbs.
+        surrounding_text: "- [hunch (steven-shoemaker)](https://github.com/steven-shoemaker/hunch) - Python library that asks Jev closed-set questions over each item in a list or DataFrame (classify, score, rank, check, where, extract, pick, verify), caches the answers, and joins them back, while code owns candidates, thresholds, and actions; a [TypeScript port](https://github.com/steven-shoemaker/hunch-js) offers the same verbs."
         confidence: high
 metadata:
   github:
@@ -82,9 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TypeScript library that maps Jev Choice, Score, and Noul questions onto classification, ranking, extraction,
-    verification, and array workflows.
+  summary: TypeScript library that maps Jev Choice, Score, and Noul questions onto classification, ranking, extraction, verification, and array workflows.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -104,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.404Z'
+    updated_at: "2026-09-29T13:07:10.404Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

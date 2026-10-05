@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blackwhite084__playwright-plus-python-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,10 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: blackwhite084/playwright-plus-python-mcp
         extracted_url: https://github.com/blackwhite084/playwright-plus-python-mcp
-        surrounding_text: >-
-          - [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 -
-          An MCP python server using Playwright for browser automation,more suitable for llm
+        surrounding_text: "- [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 - An MCP python server using Playwright for browser automation,more suitable for llm"
         confidence: high
     - id: discovery__github__blackwhite084__playwright-plus-python-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -35,14 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - 📂 Browser Control
-        anchor_text: '@blackwhite084/playwright-plus-python-mcp'
+        anchor_text: "@blackwhite084/playwright-plus-python-mcp"
         extracted_url: https://github.com/blackwhite084/playwright-plus-python-mcp
-        surrounding_text: >-
-          -  
-          **[@blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp)**
-          [![GitHub
-          stars](https://img.shields.io/github/stars/blackwhite084/playwright-plus-python-mcp?style=social)](https://github.com/blackwhite084/playwright-plus-python-mcp):
-          Leverages Playwright via Python, optimized for large language models.
+        surrounding_text: "-   **[@blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp)** [![GitHub stars](https://img.shields.io/github/stars/blackwhite084/playwright-plus-python-mcp?style=social)](https://github.com/blackwhite084/playwright-plus-python-mcp): Leverages Playwright via Python, optimized for large language models."
         confidence: high
 metadata:
   github:
@@ -52,25 +45,19 @@ metadata:
     archived: false
     full_name: blackwhite084/playwright-plus-python-mcp
     html_url: https://github.com/blackwhite084/playwright-plus-python-mcp
-    created_at: '2025-01-04T08:23:58Z'
-    pushed_at: '2025-01-07T06:35:52Z'
+    created_at: "2025-01-04T08:23:58Z"
+    pushed_at: "2025-01-07T06:35:52Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-24T04:13:00.597Z'
+    last_checked_at: "2026-09-24T04:13:00.597Z"
     readme:
-      fetched_at: '2026-09-24T04:13:00.597Z'
+      fetched_at: "2026-09-24T04:13:00.597Z"
       bytes: 4198
 insights:
-  summary: >-
-    playwright-plus-python-mcp is an MCP server exposing Playwright browser automation tools for integration with AI
-    agents.
-  why_it_matters: >-
-    It enables AI agents to perform web navigation, screenshots, and DOM interactions via standardized MCP tool calls,
-    extending their browser automation capabilities.
-  mental_damage: >-
-    Yet another MCP server wrapping a mature library—because the world clearly needed another way for AI to click
-    buttons on web pages.
+  summary: playwright-plus-python-mcp is an MCP server exposing Playwright browser automation tools for integration with AI agents.
+  why_it_matters: It enables AI agents to perform web navigation, screenshots, and DOM interactions via standardized MCP tool calls, extending their browser automation capabilities.
+  mental_damage: Yet another MCP server wrapping a mature library—because the world clearly needed another way for AI to click buttons on web pages.
   tags:
     - mcp
     - browser-automation
@@ -91,18 +78,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.583Z'
+    updated_at: "2026-05-06T22:12:15.583Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:00.597Z'
+    updated_at: "2026-09-24T04:13:00.597Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:56:53.795Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -114,24 +103,14 @@ processing:
       input_hash: sha256:f08c5b994cc93453d698384d852b2d925f42fcedc25fcd45dc60f7b662836369
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project's core identity is an MCP server that exposes Playwright tools over the Model Context Protocol,
-        making MCP its primary product identity rather than a coding agent or extension.
+      decision_reason: The project's core identity is an MCP server that exposes Playwright tools over the Model Context Protocol, making MCP its primary product identity rather than a coding agent or extension.
       decision_evidence:
-        - >-
-          README describes the project as 'playwright-server MCP server' with MCP-defined resources, prompts, and tools
-          like playwright_navigate and playwright_screenshot
-        - >-
-          Source-list context shows inclusion in awesome-mcp-list and awesome-mcp-servers under browser automation
-          sections
-        - >-
-          No evidence of autonomous coding behavior; the server provides browser control primitives for use by agents,
-          not code editing or generation
+        - README describes the project as 'playwright-server MCP server' with MCP-defined resources, prompts, and tools like playwright_navigate and playwright_screenshot
+        - Source-list context shows inclusion in awesome-mcp-list and awesome-mcp-servers under browser automation sections
+        - No evidence of autonomous coding behavior; the server provides browser control primitives for use by agents, not code editing or generation
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is an MCP server whose identity is defined by the MCP
-        protocol, not by its role as an add-on to a specific coding agent host.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server whose identity is defined by the MCP protocol, not by its role as an add-on to a specific coding agent host.
       review_reason: null
       review_resume_lifecycle: null

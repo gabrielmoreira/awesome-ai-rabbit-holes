@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__weaviate__verba__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 知识库 RAG
         anchor_text: Verba
         extracted_url: https://github.com/weaviate/verba
-        surrounding_text: >-
-          10. [Verba](https://github.com/weaviate/Verba): Retrieval Augmented Generation (RAG) chatbot powered by
-          Weaviate.
+        surrounding_text: "10. [Verba](https://github.com/weaviate/Verba): Retrieval Augmented Generation (RAG) chatbot powered by Weaviate."
         confidence: high
 metadata:
   github:
@@ -31,25 +29,19 @@ metadata:
     archived: true
     full_name: weaviate/Verba
     html_url: https://github.com/weaviate/Verba
-    created_at: '2023-07-28T16:53:42Z'
-    pushed_at: '2026-06-08T09:25:18Z'
+    created_at: "2023-07-28T16:53:42Z"
+    pushed_at: "2026-06-08T09:25:18Z"
     description: Retrieval Augmented Generation (RAG) chatbot powered by Weaviate
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-21T15:21:10.684Z'
+    last_checked_at: "2026-07-21T15:21:10.684Z"
     readme:
-      fetched_at: '2026-07-21T15:21:10.684Z'
+      fetched_at: "2026-07-21T15:21:10.684Z"
       bytes: 33486
 insights:
-  summary: >-
-    Verba is a retrieval-augmented generation (RAG) chatbot built with Weaviate for querying and interacting with
-    personal or local data via LLMs.
-  why_it_matters: >-
-    It lets developers quickly prototype RAG applications with multiple LLM providers and embedding options, reducing
-    boilerplate for data-backed AI assistants.
-  mental_damage: >-
-    Another RAG wrapper promising 'just add data' while you spend three hours debugging chunking strategies and
-    embedding mismatches.
+  summary: Verba is a retrieval-augmented generation (RAG) chatbot built with Weaviate for querying and interacting with personal or local data via LLMs.
+  why_it_matters: It lets developers quickly prototype RAG applications with multiple LLM providers and embedding options, reducing boilerplate for data-backed AI assistants.
+  mental_damage: Another RAG wrapper promising 'just add data' while you spend three hours debugging chunking strategies and embedding mismatches.
   tags:
     - rag
     - weaviate
@@ -57,40 +49,34 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: >-
-    Verba is primarily a prompt-to-internal-tool builder for RAG-based data querying, not a coding agent or extension,
-    as it turns natural language prompts into deployed data inspection apps rather than editing existing codebases.
+  reason: Verba is primarily a prompt-to-internal-tool builder for RAG-based data querying, not a coding agent or extension, as it turns natural language prompts into deployed data inspection apps rather than editing existing codebases.
   evidence:
-    - 'Repo description: ''Retrieval Augmented Generation (RAG) chatbot powered by Weaviate'''
-    - >-
-      README: 'end-to-end, streamlined, and user-friendly interface for Retrieval-Augmented Generation (RAG) out of the
-      box' and 'resolve questions around your documents, cross-reference multiple data points'
+    - "Repo description: 'Retrieval Augmented Generation (RAG) chatbot powered by Weaviate'"
+    - "README: 'end-to-end, streamlined, and user-friendly interface for Retrieval-Augmented Generation (RAG) out of the box' and 'resolve questions around your documents, cross-reference multiple data points'"
     - Seen in source list under '知识库 RAG' (Knowledge Base RAG) section
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at app-builders
-      (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at app-builders (unverified)
 placement:
   primary_category: app-builders
-  section: Internal Tools & Dashboards
   secondary_categories:
     - ai-frameworks
+  section: Internal Tools & Dashboards
 lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.655Z'
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:21:10.685Z'
+    updated_at: "2026-07-21T15:21:10.685Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

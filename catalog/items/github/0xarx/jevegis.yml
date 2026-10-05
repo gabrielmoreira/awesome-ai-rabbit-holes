@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xarx__jevegis__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jevegis
         extracted_url: https://github.com/0xarx/jevegis
-        surrounding_text: >-
-          - [jevegis](https://github.com/0xArx/jevegis) ([site](https://jevegis.vercel.app)) - Guardrails for LLM apps
-          in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT.
+        surrounding_text: "- [jevegis](https://github.com/0xArx/jevegis) ([site](https://jevegis.vercel.app)) - Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT."
         confidence: high
     - id: discovery__github__0xarx__jevegis__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Applications (129)
         anchor_text: jevegis
         extracted_url: https://github.com/0xarx/jevegis
-        surrounding_text: >-
-          | [jevegis](https://github.com/0xArx/jevegis) | ★ 0 | TypeScript | 2026-09-19 | Guardrails for LLM apps in one
-          API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT. |
+        surrounding_text: "| [jevegis](https://github.com/0xArx/jevegis) | ★ 0 | TypeScript | 2026-09-19 | Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT. |"
         confidence: high
 metadata:
   github:
@@ -49,11 +45,9 @@ metadata:
     archived: false
     full_name: 0xArx/jevegis
     html_url: https://github.com/0xArx/jevegis
-    created_at: '2026-09-17T10:15:04Z'
-    pushed_at: '2026-09-18T11:26:17Z'
-    description: >-
-      Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe
-      Jev. MIT.
+    created_at: "2026-09-17T10:15:04Z"
+    pushed_at: "2026-09-18T11:26:17Z"
+    description: Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev. MIT.
     homepage: https://jevegis.vercel.app
     topics:
       - content-moderation
@@ -63,23 +57,26 @@ metadata:
       - prompt-injection
       - trust-and-safety
       - typesafe
-    last_checked_at: '2026-09-29T13:08:13.073Z'
+    last_checked_at: "2026-09-29T13:08:13.073Z"
     readme:
-      fetched_at: '2026-09-29T13:08:13.073Z'
+      fetched_at: "2026-09-29T13:08:13.073Z"
       bytes: 2415
 insights:
-  summary: >-
-    Guardrails for LLM apps in one API call. Prompt injection, jailbreaks, leaks, unsafe content. Built on TypeSafe Jev.
-    MIT.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Guardrails for LLM apps in one API call, protecting against prompt injection, jailbreaks, leaks, and unsafe content using TypeSafe Jev.
+  why_it_matters: Provides a simple API to enforce LLM safety and trust boundaries without building custom moderation logic.
+  mental_damage: Yet another layer of AI anxiety—now you need guardrails for your guardrails.
+  tags:
+    - llm-security
+    - guardrails
+    - prompt-injection
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: It is a tool-call risk gate driven by decision-model judgments (Jev), making its core identity the decision layer rather than a generic guardrail or extension.
   evidence:
-    - jev-latest choice confidence 0.77
+    - "Repo description: 'Guardrails for LLM apps in one API call. Built on TypeSafe Jev.'"
+    - "Source-list context: Listed in awesome-jev under Applications, a directory of projects built on Jev."
+    - "Topics include: content-moderation, guardrails, llm-security, prompt-injection, trust-and-safety, typesafe"
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -90,15 +87,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:13.073Z'
+    updated_at: "2026-09-29T13:08:13.073Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:03.782Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9686758cad70b8878405c7c938ee42b5e61950d5d497dba2d10494aeb51d19f3
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a tool-call risk gate driven by decision-model judgments (Jev), making its core identity the decision layer rather than a generic guardrail or extension.
+      decision_evidence:
+        - "Repo description: 'Guardrails for LLM apps in one API call. Built on TypeSafe Jev.'"
+        - "Source-list context: Listed in awesome-jev under Applications, a directory of projects built on Jev."
+        - "Topics include: content-moderation, guardrails, llm-security, prompt-injection, trust-and-safety, typesafe"
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because its core function is executing Jev-based judgments for safety, not integrating with a host agent as a plugin.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

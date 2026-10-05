@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chat__lmsys__org__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,7 +18,7 @@ provenance:
           - LLM Leaderboard
         anchor_text: lmsys.org
         extracted_url: https://chat.lmsys.org
-        surrounding_text: '- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings.'
+        surrounding_text: "- [lmsys.org](https://chat.lmsys.org/) - Benchmarking LLMs in the Wild with Elo Ratings."
         confidence: high
 metadata:
   github:
@@ -36,32 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of local AI tools that developers can run on their own hardware.
-  why_it_matters: It gives developers control over AI models and data, enabling offline use and privacy-preserving workflows.
-  mental_damage: >-
-    Another list to parse through while wondering if you'll ever actually run these models on your laptop instead of
-    paying for cloud APIs.
+  summary: chat.lmsys.org is the public-facing Chatbot Arena interface where users compare large language model responses side-by-side through blind voting.
+  why_it_matters: It provides developers with community-driven, real-world LLM performance insights to inform model selection for coding and AI workflows.
+  mental_damage: Another leaderboard to obsess over while your local LLM struggles to summarize a two-line function.
   tags:
-    - local-ai
-    - awesome-list
-    - developer-resources
+    - llm
+    - evaluation
+    - benchmarks
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: Chatbot Arena is a benchmarking platform for comparing model outputs, not a developer-facing AI tool that aids coding, editing, or workflow automation.
   evidence:
-    - jev-latest choice confidence 0.68
+    - Source-list context shows it appears in 'awesome-local-ai' under the 'LLM Leaderboard' section.
+    - The site functions as a public arena for blind model comparisons via chat.lmsys.org.
+    - No evidence of agent behavior, code editing, app generation, or infrastructure provisioning for developers.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''local-ai'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:35:07.898Z'
+    updated_at: "2026-10-05T04:29:28.238Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:41f3c15ad0f5934a8d8ebd0921d79717cc3cabf5108f426f644cd00a158c227d
-      proposed_primary_category: local-ai
-      disagreement: true
-      decision_reason: >-
-        This is a curated directory of local AI tools, which fits squarely under the Local & Self-hosted AI category as
-        a resource for discovering self-hosted inference engines and runtimes.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0d309cbed52924a22a09f46411392c667314ff256104052874bf28f6773d816b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Chatbot Arena is a benchmarking platform for comparing model outputs, not a developer-facing AI tool that aids coding, editing, or workflow automation.
       decision_evidence:
-        - 'Listed in awesome-local-ai source list under purpose: An awesome repository of local AI tools'
-        - Contains tools like Ollama, llama.cpp, and LM Studio which are canonical local AI inference engines
-        - Focuses on local execution rather than cloud services, matching the Local & Self-hosted AI category definition
-      category_candidates:
-        - local-ai
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose local-ai over awesome-awesomes because it's a purpose-built category for self-hosted AI execution tools
-        rather than just a discovery directory
-      review_reason: 'Categorization review required: placement disagreement: retained ''evals'', proposed ''local-ai'''
+        - Source-list context shows it appears in 'awesome-local-ai' under the 'LLM Leaderboard' section.
+        - The site functions as a public arena for blind model comparisons via chat.lmsys.org.
+        - No evidence of agent behavior, code editing, app generation, or infrastructure provisioning for developers.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

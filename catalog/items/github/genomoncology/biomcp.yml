@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genomoncology__biomcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: genomoncology/biomcp
         extracted_url: https://github.com/genomoncology/biomcp
-        surrounding_text: >-
-          - [genomoncology/biomcp](https://github.com/genomoncology/biomcp) 🐍 ☁️ - Biomedical research MCP server
-          providing access to PubMed, ClinicalTrials.gov, and MyVariant.info.
+        surrounding_text: "- [genomoncology/biomcp](https://github.com/genomoncology/biomcp) 🐍 ☁️ - Biomedical research MCP server providing access to PubMed, ClinicalTrials.gov, and MyVariant.info."
         confidence: high
 metadata:
   github:
@@ -32,9 +30,9 @@ metadata:
     archived: false
     full_name: genomoncology/biomcp
     html_url: https://github.com/genomoncology/biomcp
-    created_at: '2025-04-01T21:44:02Z'
-    pushed_at: '2026-09-03T01:06:14Z'
-    description: 'BioMCP: Biomedical Model Context Protocol'
+    created_at: "2025-04-01T21:44:02Z"
+    pushed_at: "2026-09-03T01:06:14Z"
+    description: "BioMCP: Biomedical Model Context Protocol"
     homepage: https://biomcp.org/
     topics:
       - ai
@@ -48,20 +46,14 @@ metadata:
       - model-context-protocol
       - pubmed
       - pubmed-central
-    last_checked_at: '2026-09-03T05:16:47.745Z'
+    last_checked_at: "2026-09-03T05:16:47.745Z"
     readme:
-      fetched_at: '2026-09-03T05:16:47.745Z'
+      fetched_at: "2026-09-03T05:16:47.745Z"
       bytes: 19067
 insights:
-  summary: >-
-    BioMCP is a Model Context Protocol (MCP) server that provides unified access to biomedical data sources like PubMed
-    and Europe PMC.
-  why_it_matters: >-
-    It enables AI agents to perform complex biomedical research, literature searches, and cross-entity pivots using a
-    single command grammar instead of navigating disparate APIs.
-  mental_damage: >-
-    Because why manually parse PubMed when you can let an agent hallucinate a medical hypothesis based on a single
-    command?
+  summary: BioMCP is a Model Context Protocol (MCP) server that provides unified access to biomedical data sources like PubMed and Europe PMC.
+  why_it_matters: It enables AI agents to perform complex biomedical research, literature searches, and cross-entity pivots using a single command grammar instead of navigating disparate APIs.
+  mental_damage: Because why manually parse PubMed when you can let an agent hallucinate a medical hypothesis based on a single command?
   tags:
     - mcp
     - bioinformatics
@@ -84,17 +76,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.615Z'
+    updated_at: "2026-05-06T22:12:15.615Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:47.745Z'
+    updated_at: "2026-09-03T05:16:47.745Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -117,8 +109,6 @@ processing:
       category_candidates:
         - mcp
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the tool's primary identity and distribution method is as a Model
-        Context Protocol server, not just a workflow add-on.
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity and distribution method is as a Model Context Protocol server, not just a workflow add-on.
       review_reason: null
       review_resume_lifecycle: null

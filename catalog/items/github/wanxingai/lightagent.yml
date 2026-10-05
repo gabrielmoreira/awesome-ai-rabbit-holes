@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__wanxingai__lightagent__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Core Frameworks
         anchor_text: LightAgent
         extracted_url: https://github.com/wanxingai/lightagent
-        surrounding_text: >-
-          | [LightAgent](https://github.com/wanxingai/LightAgent) | 1,225 | Python | Apache-2.0 | 2026-09 | Lightweight
-          Python agents with tools and memory |
+        surrounding_text: "| [LightAgent](https://github.com/wanxingai/LightAgent) | 1,225 | Python | Apache-2.0 | 2026-09 | Lightweight Python agents with tools and memory |"
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.483Z'
+    updated_at: "2026-09-29T13:07:10.483Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lykycy123__robojev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: RoboJEV
         extracted_url: https://github.com/lykycy123/robojev
-        surrounding_text: >-
-          - [RoboJEV](https://github.com/lykycy123/RoboJEV) ([site](https://lykycy123.github.io/RoboJEV/)) - Two-stage
-          JEV control of a Franka Panda in MuJoCo.
+        surrounding_text: "- [RoboJEV](https://github.com/lykycy123/RoboJEV) ([site](https://lykycy123.github.io/RoboJEV/)) - Two-stage JEV control of a Franka Panda in MuJoCo."
         confidence: high
     - id: discovery__github__lykycy123__robojev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Games & simulations (73)
         anchor_text: RoboJEV
         extracted_url: https://github.com/lykycy123/robojev
-        surrounding_text: >-
-          | [RoboJEV](https://github.com/lykycy123/RoboJEV) | ★ 35 | Python | 2026-09-23 | Two-stage JEV control of a
-          Franka Panda in MuJoCo. |
+        surrounding_text: "| [RoboJEV](https://github.com/lykycy123/RoboJEV) | ★ 35 | Python | 2026-09-23 | Two-stage JEV control of a Franka Panda in MuJoCo. |"
         confidence: high
     - id: discovery__github__lykycy123__robojev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,16 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - High-Frequency / Games
-        anchor_text: '**RoboJEV**'
+        anchor_text: "**RoboJEV**"
         extracted_url: https://github.com/lykycy123/robojev
-        surrounding_text: >-
-          - [**RoboJEV**](https://github.com/lykycy123/RoboJEV) — RoboJEV is a small, inspectable robotics laboratory.
-          JEV receives \*\*structured simulator state, not images\*\*, selects an immediate intent, then selects X/Y/Z
-          directions and a gripper command. A Cartesian controller executes the action using real MuJoCo contacts. Each
-          task has independent physical success checks; model answers cannot declare success.
+        surrounding_text: "- [**RoboJEV**](https://github.com/lykycy123/RoboJEV) — RoboJEV is a small, inspectable robotics laboratory. JEV receives \\*\\*structured simulator state, not images\\*\\*, selects an immediate intent, then selects X/Y/Z directions and a gripper command. A Cartesian controller executes the action using real MuJoCo contacts. Each task has independent physical success checks; model answers cannot declare success."
         confidence: high
     - id: discovery__github__lykycy123__robojev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -74,12 +66,7 @@ provenance:
           - Robotics & Physical
         anchor_text: RoboJEV
         extracted_url: https://github.com/lykycy123/robojev
-        surrounding_text: >-
-          - [RoboJEV](https://github.com/lykycy123/RoboJEV)
-          ![stars](https://img.shields.io/github/stars/lykycy123/RoboJEV?style=flat-square&label=%E2%98%85) - Robotics
-          simulation: uses two-stage Jev `Choice` decisions over structured state to select intent and Cartesian
-          motion/gripper commands for a Franka Panda in MuJoCo, rejecting malformed responses and checking task success
-          independently through physics.
+        surrounding_text: "- [RoboJEV](https://github.com/lykycy123/RoboJEV) ![stars](https://img.shields.io/github/stars/lykycy123/RoboJEV?style=flat-square&label=%E2%98%85) - Robotics simulation: uses two-stage Jev `Choice` decisions over structured state to select intent and Cartesian motion/gripper commands for a Franka Panda in MuJoCo, rejecting malformed responses and checking task success independently through physics."
         confidence: high
 metadata:
   github:
@@ -117,7 +104,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.384Z'
+    updated_at: "2026-09-29T13:07:10.384Z"
     cause: null
     next_retry_at: null
   stars:
@@ -125,6 +112,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

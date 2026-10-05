@@ -5,9 +5,8 @@ canonical_url: https://atlassian.com/blog/development/rovo-dev-command-line-inte
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-20T16:42:15.363Z'
+    - id: discovery__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,13 +18,10 @@ provenance:
           - Coding Agents
         anchor_text: Rovo Dev (Atlassian)
         extracted_url: https://atlassian.com/blog/announcements/rovo-dev-command-line-interface
-        surrounding_text: >-
-          - **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** –
-          Atlassian's terminal coding agent.
+        surrounding_text: "- **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** – Atlassian's terminal coding agent."
         confidence: high
-    - id: >-
-        discovery__www__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__www__atlassian__com__blog__development__rovo__dev__command__line__interface__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -37,9 +33,7 @@ provenance:
           - Coding Agents
         anchor_text: Rovo Dev (Atlassian)
         extracted_url: https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface
-        surrounding_text: >-
-          - **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** –
-          Atlassian's terminal coding agent.
+        surrounding_text: "- **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** – Atlassian's terminal coding agent."
         confidence: high
 metadata:
   github:
@@ -57,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Rovo Dev CLI is an Atlassian-powered command-line AI agent that understands, writes, and edits code while
-    integrating with Jira, Confluence, and Bitbucket.
-  why_it_matters: >-
-    It lets developers perform end-to-end coding tasks — from issue to PR — without leaving the terminal, reducing
-    context switching in enterprise workflows.
-  mental_damage: Finally, an AI agent that asks for your Jira ticket number before it starts refactoring your legacy monolith.
+  summary: Rovo Dev CLI is Atlassian's command-line AI coding agent that integrates with Jira, Confluence, and Bitbucket to perform coding tasks in the terminal.
+  why_it_matters: It enables developers to offload coding workflows like code navigation and feature implementation directly from their terminal while staying within the Atlassian ecosystem.
+  mental_damage: Another AI agent promising to eliminate context switching—while locking you deeper into a single vendor's toolchain.
   tags:
     - cli-agent
     - atlassian
-    - enterprise-dev
-  confidence: high
+    - jira-integration
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
+  reason: Rovo Dev CLI is positioned as a primary coding agent that performs autonomous coding tasks in the terminal, aligning with the coding-agents category's focus on agents that act on code.
   evidence:
-    - jev-latest choice confidence 0.96
+    - Rovo Dev CLI transforms the command line into an intelligent development agent that understands, codes, and collaborates with you
+    - It performs code understanding, navigation, development acceleration, and integrates with Jira, Confluence, and Bitbucket from the terminal
+    - It achieves a 41.98% resolve rate on SWE-bench full benchmark, demonstrating real-world code editing capabilities
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -84,41 +76,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:59.397Z'
+    updated_at: "2026-10-05T04:46:11.440Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:109d835cd9d15cbacc6307e7fd9fdb30dd733e7ec3d7c4899364d09128371c19
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ef5a923fdf892f107a0dd99c652008744b33c4ba39089149472ffbb9f338f6bb
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Rovo Dev CLI is a standalone coding agent that performs autonomous code understanding, generation, and editing
-        in the terminal, with deep Atlassian integration as a feature, not the core identity.
+      decision_reason: Rovo Dev CLI is positioned as a primary coding agent that performs autonomous coding tasks in the terminal, aligning with the coding-agents category's focus on agents that act on code.
       decision_evidence:
-        - >-
-          The tool transforms the command line into an intelligent development agent that understands, codes, and
-          collaborates with you.
-        - It performs code navigation, generation, refactoring, testing, and debugging directly in the terminal.
-        - >-
-          It integrates with Jira, Confluence, and Bitbucket via MCP servers to complete work items end-to-end without
-          context switching.
+        - Rovo Dev CLI transforms the command line into an intelligent development agent that understands, codes, and collaborates with you
+        - It performs code understanding, navigation, development acceleration, and integrates with Jira, Confluence, and Bitbucket from the terminal
+        - It achieves a 41.98% resolve rate on SWE-bench full benchmark, demonstrating real-world code editing capabilities
       category_candidates:
         - coding-agents
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose coding-agents over extensions-and-addons because Rovo Dev CLI is a primary coding agent that operates
-        autonomously in the terminal, not a plugin that extends another agent like Claude Code or Cursor.
+        - ai-frameworks
+      contrastive_reason: Choose coding-agents over ai-frameworks because Rovo Dev CLI is a standalone agent users interact with directly via CLI, not a library developers import and program against.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:

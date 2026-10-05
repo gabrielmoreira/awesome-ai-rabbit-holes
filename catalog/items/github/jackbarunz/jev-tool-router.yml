@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jackbarunz__jev-tool-router__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-tool-router
         extracted_url: https://github.com/jackbarunz/jev-tool-router
-        surrounding_text: >-
-          | [jev-tool-router](https://github.com/jackbarunz/jev-tool-router) | ★ 4 | JavaScript | 2026-09-21 | MCP
-          router for Codex that uses Jev to select an external tool on demand instead of exposing the agent to every
-          tool schema. |
+        surrounding_text: "| [jev-tool-router](https://github.com/jackbarunz/jev-tool-router) | ★ 4 | JavaScript | 2026-09-21 | MCP router for Codex that uses Jev to select an external tool on demand instead of exposing the agent to every tool schema. |"
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    MCP router for Codex that uses Jev to select an external tool on demand instead of exposing the agent to every tool
-    schema.
+  summary: MCP router for Codex that uses Jev to select an external tool on demand instead of exposing the agent to every tool schema.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

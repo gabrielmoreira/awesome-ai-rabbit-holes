@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__2951461586__jev-register-tool__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Applications
         anchor_text: Jev-Register-Tool
         extracted_url: https://github.com/2951461586/jev-register-tool
-        surrounding_text: >-
-          - [Jev-Register-Tool](https://github.com/2951461586/Jev-Register-Tool) - TypeSafe（Jev / System One）申请 → 确认邮件 →
-          获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器.
+        surrounding_text: "- [Jev-Register-Tool](https://github.com/2951461586/Jev-Register-Tool) - TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: 2951461586/Jev-Register-Tool
     html_url: https://github.com/2951461586/Jev-Register-Tool
-    created_at: '2026-09-20T02:23:20Z'
-    pushed_at: '2026-09-22T05:17:11Z'
+    created_at: "2026-09-20T02:23:20Z"
+    pushed_at: "2026-09-22T05:17:11Z"
     description: TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器
     homepage: null
     topics:
@@ -41,21 +39,28 @@ metadata:
       - python
       - stytch
       - typesafe
-    last_checked_at: '2026-09-29T13:08:16.773Z'
+    last_checked_at: "2026-09-29T13:08:16.773Z"
     readme:
-      fetched_at: '2026-09-29T13:08:16.773Z'
+      fetched_at: "2026-09-29T13:08:16.773Z"
       bytes: 18642
 insights:
-  summary: TypeSafe（Jev / System One）申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe (Jev / System One) tool that automates the full lifecycle from application to API key via pure HTTP without browser interaction.
+  why_it_matters: It eliminates manual steps in registering and configuring API keys for Jev-based workflows using a fully automated, browserless HTTP process.
+  mental_damage: Finally, a tool that automates the soul-crushing process of clicking 'I agree' and copying API keys—now you can do it all over HTTP like a robot.
+  tags:
+    - jev
+    - automation
+    - http
+    - api-key
+    - typesafe
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: The tool is a client-side automation utility for Jev (TypeSafe System One), a decision model, and its primary function is to invoke judgment-based workflows via HTTP, making it a decision-model client tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.61
+    - "Repo description: TypeSafe (Jev / System One) 申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器"
+    - "Seen in source list: awesome-jev under 'Applications' for projects built on Jev"
+    - "Topics include: typesafe, stytch, automation, cloudflare-workers, python"
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -66,15 +71,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:16.773Z'
+    updated_at: "2026-09-29T13:08:16.773Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:07.434Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7548b361da6234ab39eb868969de10663b9cb746a44da1f2a6077bae5c9f3113
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool is a client-side automation utility for Jev (TypeSafe System One), a decision model, and its primary function is to invoke judgment-based workflows via HTTP, making it a decision-model client tool rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: TypeSafe (Jev / System One) 申请 → 确认邮件 → 获批 → 注册 → 建 API Key 全链路工具，纯 HTTP 无浏览器"
+        - "Seen in source list: awesome-jev under 'Applications' for projects built on Jev"
+        - "Topics include: typesafe, stytch, automation, cloudflare-workers, python"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool automates decision-model workflows (application to API key via Jev) rather than performing coding tasks like editing, testing, or reviewing code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

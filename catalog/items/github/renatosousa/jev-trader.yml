@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__renatosousa__jev-trader__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: jev-trader (renatosousa)
         extracted_url: https://github.com/renatosousa/jev-trader
-        surrounding_text: >-
-          | [jev-trader (renatosousa)](https://github.com/renatosousa/jev-trader) | ★ 0 | Python | 2026-09-20 | Trading
-          application that uses Jev for market decisions. |
+        surrounding_text: "| [jev-trader (renatosousa)](https://github.com/renatosousa/jev-trader) | ★ 0 | Python | 2026-09-20 | Trading application that uses Jev for market decisions. |"
         confidence: high
 metadata:
   github:
@@ -61,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

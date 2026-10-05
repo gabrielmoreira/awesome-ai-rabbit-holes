@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kurtosis-tech__kurtosis__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - IDEs and Workspaces
         anchor_text: Kurtosis
         extracted_url: https://github.com/kurtosis-tech/kurtosis
-        surrounding_text: >-
-          | [Kurtosis](https://github.com/kurtosis-tech/kurtosis)    | A build, packaging, and run system for ephemeral
-          multi-container
-          environments.                                                                                                                    
-          | ![GitHub Badge](https://img.shields.io/github/stars/kurtosis-tech/kurtosis.svg?style=flat-square) |
+        surrounding_text: "| [Kurtosis](https://github.com/kurtosis-tech/kurtosis)    | A build, packaging, and run system for ephemeral multi-container environments.                                                                                                                     | ![GitHub Badge](https://img.shields.io/github/stars/kurtosis-tech/kurtosis.svg?style=flat-square) |"
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: kurtosis-tech/kurtosis
     html_url: https://github.com/kurtosis-tech/kurtosis
-    created_at: '2023-02-14T15:44:55Z'
-    pushed_at: '2026-07-28T19:24:27Z'
+    created_at: "2023-02-14T15:44:55Z"
+    pushed_at: "2026-07-28T19:24:27Z"
     description: A platform for packaging and launching blockchain infra. Think docker compose for blockchain
     homepage: https://docs.kurtosistech.com/
     topics:
@@ -53,20 +49,14 @@ metadata:
       - kubernetes
       - networks
       - prototyping
-    last_checked_at: '2026-07-30T05:06:01.521Z'
+    last_checked_at: "2026-07-30T05:06:01.521Z"
     readme:
-      fetched_at: '2026-07-30T05:06:01.521Z'
+      fetched_at: "2026-07-30T05:06:01.521Z"
       bytes: 24511
 insights:
-  summary: >-
-    A platform for packaging and launching ephemeral blockchain infrastructure stacks, abstracting Docker Compose and
-    Kubernetes for reproducible dev/test environments.
-  why_it_matters: >-
-    Developers can spin up complex backend stacks (e.g., blockchain nodes) with one-liners, reuse stack definitions
-    across local dev, CI, and k8s, and avoid manual configuration hell.
-  mental_damage: >-
-    Finally, a way to make blockchain dev feel as simple as a Docker Compose file—until you remember you’re still
-    debugging a distributed system.
+  summary: A platform for packaging and launching ephemeral blockchain infrastructure stacks, abstracting Docker Compose and Kubernetes for reproducible dev/test environments.
+  why_it_matters: Developers can spin up complex backend stacks (e.g., blockchain nodes) with one-liners, reuse stack definitions across local dev, CI, and k8s, and avoid manual configuration hell.
+  mental_damage: Finally, a way to make blockchain dev feel as simple as a Docker Compose file—until you remember you’re still debugging a distributed system.
   tags:
     - blockchain-infra
     - dev-environments
@@ -76,9 +66,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Kurtosis is a devops/infrastructure tool for blockchain stacks, not an AI developer tool or workflow—its core value
-    is environment orchestration, not AI-assisted coding, agents, or prompt/context engineering.
+  reason: Kurtosis is a devops/infrastructure tool for blockchain stacks, not an AI developer tool or workflow—its core value is environment orchestration, not AI-assisted coding, agents, or prompt/context engineering.
   evidence:
     - Repo description explicitly frames it as 'docker compose for blockchain'
     - README emphasizes packaging/launching backend stacks, not AI workflows
@@ -92,17 +80,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.625Z'
+    updated_at: "2026-05-06T22:12:15.625Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:06:01.521Z'
+    updated_at: "2026-07-30T05:06:01.521Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -117,9 +105,7 @@ processing:
       input_hash: sha256:0501c168481d4c3ef782911c4e8c227b8f2298b1260ea25d928e17e6631ce916
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Kurtosis is a devops/infrastructure tool for blockchain stacks, not an AI developer tool or workflow—its core
-        value is environment orchestration, not AI-assisted coding, agents, or prompt/context engineering.
+      decision_reason: Kurtosis is a devops/infrastructure tool for blockchain stacks, not an AI developer tool or workflow—its core value is environment orchestration, not AI-assisted coding, agents, or prompt/context engineering.
       decision_evidence:
         - Repo description explicitly frames it as 'docker compose for blockchain'
         - README emphasizes packaging/launching backend stacks, not AI workflows

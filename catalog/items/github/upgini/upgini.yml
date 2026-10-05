@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__upgini__upgini__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Data/Feature enrichment
         anchor_text: Upgini
         extracted_url: https://github.com/upgini/upgini
-        surrounding_text: >-
-          | [Upgini](https://github.com/upgini/upgini)             | Free automated data & feature enrichment library
-          for machine learning: automatically searches through thousands of ready-to-use features from public and
-          community shared data sources and enriches your training dataset with only the accuracy improving features |
-          ![GitHub Badge](https://img.shields.io/github/stars/upgini/upgini.svg?style=flat-square)         |
+        surrounding_text: "| [Upgini](https://github.com/upgini/upgini)             | Free automated data & feature enrichment library for machine learning: automatically searches through thousands of ready-to-use features from public and community shared data sources and enriches your training dataset with only the accuracy improving features | ![GitHub Badge](https://img.shields.io/github/stars/upgini/upgini.svg?style=flat-square)         |"
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: upgini/upgini
     html_url: https://github.com/upgini/upgini
-    created_at: '2021-12-08T21:53:58Z'
-    pushed_at: '2026-07-21T15:05:30Z'
-    description: >-
-      Data search & enrichment library for Machine Learning → Easily find and add relevant features to your ML & AI
-      pipeline from hundreds of public and premium external data sources, including open & commercial LLMs
+    created_at: "2021-12-08T21:53:58Z"
+    pushed_at: "2026-07-21T15:05:30Z"
+    description: Data search & enrichment library for Machine Learning → Easily find and add relevant features to your ML & AI pipeline from hundreds of public and premium external data sources, including open & commercial LLMs
     homepage: https://upgini.com
     topics:
       - automated-feature-engineering
@@ -61,20 +55,14 @@ metadata:
       - public-data
       - python-library
       - scikit-learn
-    last_checked_at: '2026-07-21T15:20:59.785Z'
+    last_checked_at: "2026-07-21T15:20:59.785Z"
     readme:
-      fetched_at: '2026-07-21T15:20:59.785Z'
+      fetched_at: "2026-07-21T15:20:59.785Z"
       bytes: 49290
 insights:
-  summary: >-
-    Data search and enrichment library for machine learning that automates feature discovery and generation from
-    external data sources using LLMs, GNNs, and RNNs.
-  why_it_matters: >-
-    It claims to boost ML model accuracy by automatically enriching tabular datasets with relevant external
-    features—like demographics, weather, or economic data—without manual feature engineering.
-  mental_damage: >-
-    Realizing your model's accuracy bottleneck wasn't hyperparameters but the fact that you didn't think to join against
-    historical weather data and ZIP-code-level consumer spending trends.
+  summary: Data search and enrichment library for machine learning that automates feature discovery and generation from external data sources using LLMs, GNNs, and RNNs.
+  why_it_matters: It claims to boost ML model accuracy by automatically enriching tabular datasets with relevant external features—like demographics, weather, or economic data—without manual feature engineering.
+  mental_damage: Realizing your model's accuracy bottleneck wasn't hyperparameters but the fact that you didn't think to join against historical weather data and ZIP-code-level consumer spending trends.
   tags:
     - feature-engineering
     - data-enrichment
@@ -84,18 +72,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is fundamentally an ML/Data Science library for tabular feature engineering rather than a software development or
-    AI application building tool; it targets data scientists improving model accuracy, not developers building software
-    with AI assistance.
+  reason: It is fundamentally an ML/Data Science library for tabular feature engineering rather than a software development or AI application building tool; it targets data scientists improving model accuracy, not developers building software with AI assistance.
   evidence:
     - Repo description positions it as 'Data search & enrichment library for Machine Learning' focused on ML pipelines
-    - >-
-      README centers on supervised ML tasks (binary/multiclass classification, regression, time-series) on tabular data,
-      not code generation or software workflows
-    - >-
-      Source-list context places it in Awesome-LLMOps under 'Data/Feature enrichment', confirming its identity as data
-      infrastructure rather than developer tooling
+    - README centers on supervised ML tasks (binary/multiclass classification, regression, time-series) on tabular data, not code generation or software workflows
+    - Source-list context places it in Awesome-LLMOps under 'Data/Feature enrichment', confirming its identity as data infrastructure rather than developer tooling
 placement:
   primary_category: null
   section: null
@@ -105,17 +86,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.653Z'
+    updated_at: "2026-05-06T22:12:15.653Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:20:59.785Z'
+    updated_at: "2026-07-21T15:20:59.785Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.825Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

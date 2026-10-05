@@ -37,20 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: celiums.io appears to be a service offering AI-enhanced app building or development tools, though specific details are not available from the provided inputs.
-  why_it_matters: If it enables faster application development through AI, it could reduce time-to-market for developers building internal tools or MVPs.
-  mental_damage: Another AI app builder promising to turn ideas into code, adding to the paradox of choice in an already saturated space.
-  tags:
-    - app-builder
-    - ai-tool
+  summary: celiums.io is a platform or service with an unclear primary function based on the provided inputs.
+  why_it_matters: Cannot be determined due to lack of specific tooling or developer-facing functionality described.
+  mental_damage: Another mysterious AI-linked domain promising productivity while revealing nothing concrete—just what we needed in our curated list of distractions.
+  tags: []
   confidence: low
 curation:
   status: excluded
-  reason: Insufficient information to determine the product's core functionality or developer-tooling focus; the lack of a clear description, README, or repository details prevents accurate categorization.
+  reason: The project lacks sufficient detail to determine its identity as a developer-facing AI tool; no repo description, README, or scoped functionality is provided to assess fit within the catalog's scope.
   evidence:
     - No repo description provided
-    - No README excerpt or scraped site context available to assess functionality
-    - No source-list context indicating curation in developer tooling lists
+    - No README excerpt or scoped functionality described
+    - Source URL is a homepage with no clear product identity indicated
 placement:
   primary_category: null
   section: null
@@ -69,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-01T04:24:52.329Z"
+    updated_at: "2026-10-05T05:01:35.722Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:92e505af1092e97c1415f3ae901f0406d11d70a0d386ca8082b67557fd47f21a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1efc8953523215ff66d765e9822a9da1df44c589a6a5e2ceda491e19459b8fa0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient information to determine the product's core functionality or developer-tooling focus; the lack of a clear description, README, or repository details prevents accurate categorization.
+      decision_reason: The project lacks sufficient detail to determine its identity as a developer-facing AI tool; no repo description, README, or scoped functionality is provided to assess fit within the catalog's scope.
       decision_evidence:
         - No repo description provided
-        - No README excerpt or scraped site context available to assess functionality
-        - No source-list context indicating curation in developer tooling lists
+        - No README excerpt or scoped functionality described
+        - Source URL is a homepage with no clear product identity indicated
       category_candidates: []
       contrastive_reason: null
       review_reason: "Categorization review required: low confidence"

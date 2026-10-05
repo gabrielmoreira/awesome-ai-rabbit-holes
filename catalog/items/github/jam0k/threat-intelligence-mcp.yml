@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jam0k__threat-intelligence-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🔎 Search
         anchor_text: Jam0k/Threat-Intelligence-MCP
         extracted_url: https://github.com/jam0k/threat-intelligence-mcp
-        surrounding_text: >-
-          -   **[Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP)** [![GitHub
-          stars](https://img.shields.io/github/stars/Jam0k/Threat-Intelligence-MCP?style=social)](https://github.com/Jam0k/Threat-Intelligence-MCP):
-          Threat intelligence lookup for agents: incident clusters, validated IOCs, CVE/KEV/EPSS status, ransomware
-          leak-site victims and entity profiles, hosted or via npm.
+        surrounding_text: "-   **[Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP)** [![GitHub stars](https://img.shields.io/github/stars/Jam0k/Threat-Intelligence-MCP?style=social)](https://github.com/Jam0k/Threat-Intelligence-MCP): Threat intelligence lookup for agents: incident clusters, validated IOCs, CVE/KEV/EPSS status, ransomware leak-site victims and entity profiles, hosted or via npm."
         confidence: high
 metadata:
   github:
@@ -54,16 +50,16 @@ curation:
     - jev winnow:e4b 0.26 below gate 0.50; proposed mcp / Middleware & Generic; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - mcp
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

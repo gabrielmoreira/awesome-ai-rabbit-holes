@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__komikat__jev-bfs__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: jev-bfs
         extracted_url: https://github.com/komikat/jev-bfs
-        surrounding_text: >-
-          - [jev-bfs](https://github.com/komikat/jev-bfs) - Wikipedia link races with direct Jev ranking and a live
-          terminal display.
+        surrounding_text: "- [jev-bfs](https://github.com/komikat/jev-bfs) - Wikipedia link races with direct Jev ranking and a live terminal display."
         confidence: high
     - id: discovery__github__komikat__jev-bfs__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Games & simulations (73)
         anchor_text: jev-bfs
         extracted_url: https://github.com/komikat/jev-bfs
-        surrounding_text: >-
-          | [jev-bfs](https://github.com/komikat/jev-bfs) | ★ 0 | Python | 2026-09-19 | Wikipedia link races with direct
-          Jev ranking and a live terminal display. |
+        surrounding_text: "| [jev-bfs](https://github.com/komikat/jev-bfs) | ★ 0 | Python | 2026-09-19 | Wikipedia link races with direct Jev ranking and a live terminal display. |"
         confidence: high
     - id: discovery__github__komikat__jev-bfs__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**jev-bfs**'
+        anchor_text: "**jev-bfs**"
         extracted_url: https://github.com/komikat/jev-bfs
-        surrounding_text: >-
-          - [**jev-bfs**](https://github.com/komikat/jev-bfs) — Wikipedia link race pathfinder guided by Jev: assesses
-          outbound links to navigate between two articles in real time.
+        surrounding_text: "- [**jev-bfs**](https://github.com/komikat/jev-bfs) — Wikipedia link race pathfinder guided by Jev: assesses outbound links to navigate between two articles in real time."
         confidence: high
     - id: discovery__github__komikat__jev-bfs__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -72,11 +66,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: jev-bfs
         extracted_url: https://github.com/komikat/jev-bfs
-        surrounding_text: >-
-          - [jev-bfs](https://github.com/komikat/jev-bfs)
-          ![stars](https://img.shields.io/github/stars/komikat/jev-bfs?style=flat-square&label=%E2%98%85) - Search
-          tooling: finds link paths between English Wikipedia articles by having Jev rank each page's outgoing links
-          while Python controls the search.
+        surrounding_text: "- [jev-bfs](https://github.com/komikat/jev-bfs) ![stars](https://img.shields.io/github/stars/komikat/jev-bfs?style=flat-square&label=%E2%98%85) - Search tooling: finds link paths between English Wikipedia articles by having Jev rank each page's outgoing links while Python controls the search."
         confidence: high
 metadata:
   github:
@@ -114,7 +104,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.384Z'
+    updated_at: "2026-09-29T13:07:10.384Z"
     cause: null
     next_retry_at: null
   stars:
@@ -122,6 +112,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

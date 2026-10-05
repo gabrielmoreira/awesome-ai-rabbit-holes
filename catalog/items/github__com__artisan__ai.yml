@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__artisan__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Artisian AI
         anchor_text: Artisian AI
         extracted_url: https://github.com/Artisan-AI
-        surrounding_text: '## [Artisian AI](https://github.com/Artisan-AI)'
+        surrounding_text: "## [Artisian AI](https://github.com/Artisan-AI)"
         confidence: high
 metadata:
   github:
@@ -36,41 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered platform designed to automate outbound sales and marketing processes using autonomous 'AI employees'.
-  why_it_matters: >-
-    While it leverages agentic workflows, the product is a business-facing sales tool rather than a tool for the
-    software development lifecycle.
-  mental_damage: The dream of replacing the entire sales department with a single script is closer than we'd like to admit.
+  summary: Artisan AI is a developer platform offering AI-powered tools like GitHub Copilot, MCP registry, and workflow automation for code creation and DevOps tasks.
+  why_it_matters: It bundles AI coding assistance with developer workflow integrations, aiming to streamline code creation, review, and deployment within a unified platform.
+  mental_damage: Yet another ‘all-in-one’ AI platform promising to replace your entire stack while quietly depending on GitHub Copilot and MCP as if they were novel features.
   tags:
-    - sales-automation
-    - outbound
-    - ai-agents
-  confidence: high
+    - developer-platform
+    - ai-integrations
+    - workflow-automation
+  confidence: low
 curation:
   status: excluded
-  reason: >-
-    The product is a business-process automation tool for outbound outreach, which falls outside the scope of
-    developer-facing coding, infrastructure, or agentic tooling.
+  reason: Artisan AI positions itself as a broad SaaS platform layering AI features onto existing GitHub and developer tools, lacking a clear primary identity as a coding agent, framework, or developer-facing tool.
   evidence:
-    - >-
-      Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your
-      Outbound'
-    - Source-list context links the tool to 'Automate Your Outbound' rather than developer workflows
+    - Repo description is missing; scraped site emphasizes 'Automate Your Outbound With an All-In-One, AI-First Platform' and lists GitHub Copilot, MCP Registry, and DevOps workflows as features.
+    - Source-list context appears in 'awesome-ai-agents' under 'Artisian AI' with description focused on outbound automation, not developer tooling.
+    - No evidence of autonomous coding, framework distribution, or core novelty in agent orchestration, memory systems, or prompt engineering.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -78,28 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:14:44.827Z'
+    updated_at: "2026-10-05T04:32:49.593Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:34cf4477b17877a21546074aefa702d6b360b4fefe96099194864cfb2a5312fb
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2ef8bc11e9b83589a157cf287553fdc13f3f3d571ea7fe5b9c96a52042113a55
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a business-process automation tool for outbound outreach, which falls outside the scope of
-        developer-facing coding, infrastructure, or agentic tooling.
+      decision_reason: Artisan AI positions itself as a broad SaaS platform layering AI features onto existing GitHub and developer tools, lacking a clear primary identity as a coding agent, framework, or developer-facing tool.
       decision_evidence:
-        - >-
-          Scraped site description identifies the product as an 'All-In-One, AI-First Platform' for 'Automating Your
-          Outbound'
-        - Source-list context links the tool to 'Automate Your Outbound' rather than developer workflows
+        - Repo description is missing; scraped site emphasizes 'Automate Your Outbound With an All-In-One, AI-First Platform' and lists GitHub Copilot, MCP Registry, and DevOps workflows as features.
+        - Source-list context appears in 'awesome-ai-agents' under 'Artisian AI' with description focused on outbound automation, not developer tooling.
+        - No evidence of autonomous coding, framework distribution, or core novelty in agent orchestration, memory systems, or prompt engineering.
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

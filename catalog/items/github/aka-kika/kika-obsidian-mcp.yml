@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dot-realitytest__obsidian-codex-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: dot-RealityTest/obsidian-codex-mcp
         extracted_url: https://github.com/dot-realitytest/obsidian-codex-mcp
-        surrounding_text: >-
-          - [dot-RealityTest/obsidian-codex-mcp](https://github.com/dot-RealityTest/obsidian-codex-mcp)
-          [![dot-RealityTest/obsidian-codex-mcp MCP
-          server](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp)
-          🐍 🏠 🍎 🪟 🐧 - Local-first Obsidian vault MCP server for Codex, Claude Desktop, and other MCP clients. Works
-          directly with markdown files, no Obsidian plugin, API key, cloud service, or running Obsidian app required.
-          Includes read-only mode, backup-on-write, path isolation, and setup examples.
+        surrounding_text: "- [dot-RealityTest/obsidian-codex-mcp](https://github.com/dot-RealityTest/obsidian-codex-mcp) [![dot-RealityTest/obsidian-codex-mcp MCP server](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/dot-RealityTest/obsidian-codex-mcp) 🐍 🏠 🍎 🪟 🐧 - Local-first Obsidian vault MCP server for Codex, Claude Desktop, and other MCP clients. Works directly with markdown files, no Obsidian plugin, API key, cloud service, or running Obsidian app required. Includes read-only mode, backup-on-write, path isolation, and setup examples."
         confidence: high
 metadata:
   github:
@@ -36,8 +30,8 @@ metadata:
     archived: false
     full_name: aka-kika/kika-obsidian-mcp
     html_url: https://github.com/aka-kika/kika-obsidian-mcp
-    created_at: '2026-05-19T12:25:05Z'
-    pushed_at: '2026-08-04T04:32:54Z'
+    created_at: "2026-05-19T12:25:05Z"
+    pushed_at: "2026-08-04T04:32:54Z"
     description: Local-first MCP server for Obsidian vaults — no plugins, no API keys, with schema-validated Bases (.base) support.
     homepage: https://akakika.com/blog/obsidian-codex-mcp-landing.html
     topics:
@@ -55,17 +49,13 @@ metadata:
       - obsidian-mcp
       - obsidian-vault
       - python
-    last_checked_at: '2026-09-17T04:13:37.263Z'
+    last_checked_at: "2026-09-17T04:13:37.263Z"
     readme:
-      fetched_at: '2026-09-17T04:13:37.263Z'
+      fetched_at: "2026-09-17T04:13:37.263Z"
       bytes: 13587
 insights:
-  summary: >-
-    A local-first MCP server that provides AI agents with direct filesystem access to Obsidian vaults and
-    schema-validated `.base` files.
-  why_it_matters: >-
-    It allows developers to bridge their existing personal knowledge bases with coding agents without requiring the
-    Obsidian REST API or third-party cloud services.
+  summary: A local-first MCP server that provides AI agents with direct filesystem access to Obsidian vaults and schema-validated `.base` files.
+  why_it_matters: It allows developers to bridge their existing personal knowledge bases with coding agents without requiring the Obsidian REST API or third-party cloud services.
   mental_damage: Finally, a way to automate the very note-taking process you were supposed to use to become more productive.
   tags:
     - mcp
@@ -88,9 +78,11 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:29:12.009Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -102,9 +94,7 @@ processing:
       input_hash: sha256:4a5ada26a7b6955ac1402d1c53829cf4ef1bdf2e873f3ac2c5dce169ace25381
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        This is an MCP server whose primary identity is providing a standardized interface to Obsidian data, which takes
-        precedence over its retrieval capabilities.
+      decision_reason: This is an MCP server whose primary identity is providing a standardized interface to Obsidian data, which takes precedence over its retrieval capabilities.
       decision_evidence:
         - Repo description identifies it as a 'Local-first MCP server for Obsidian vaults'
         - Provides specialized MCP tools for reading, searching, and editing .base files
@@ -112,18 +102,16 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the product's core identity is the MCP server interface, and the
-        protocol identity takes precedence over the context-shaping capability it provides.
+      contrastive_reason: Choose mcp over memory-and-context because the product's core identity is the MCP server interface, and the protocol identity takes precedence over the context-shaping capability it provides.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.818Z'
+    updated_at: "2026-05-28T05:28:09.818Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:37.263Z'
+    updated_at: "2026-09-17T04:13:37.263Z"
     cause: null
     next_retry_at: null

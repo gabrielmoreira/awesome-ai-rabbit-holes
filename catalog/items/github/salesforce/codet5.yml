@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__salesforce__codet5__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,10 +19,7 @@ provenance:
           - Code AI
         anchor_text: CodeT5
         extracted_url: https://github.com/salesforce/codet5
-        surrounding_text: >-
-          | [CodeT5](https://github.com/salesforce/CodeT5)      | Open Code LLMs for Code Understanding and
-          Generation.                                                    | ![GitHub
-          Badge](https://img.shields.io/github/stars/salesforce/CodeT5.svg?style=flat-square)    |
+        surrounding_text: "| [CodeT5](https://github.com/salesforce/CodeT5)      | Open Code LLMs for Code Understanding and Generation.                                                    | ![GitHub Badge](https://img.shields.io/github/stars/salesforce/CodeT5.svg?style=flat-square)    |"
         confidence: high
 metadata:
   github:
@@ -32,9 +29,9 @@ metadata:
     archived: true
     full_name: salesforce/CodeT5
     html_url: https://github.com/salesforce/CodeT5
-    created_at: '2021-08-16T04:03:46Z'
-    pushed_at: '2026-06-25T16:27:18Z'
-    description: 'Home of CodeT5: Open Code LLMs for Code Understanding and Generation'
+    created_at: "2021-08-16T04:03:46Z"
+    pushed_at: "2026-06-25T16:27:18Z"
+    description: "Home of CodeT5: Open Code LLMs for Code Understanding and Generation"
     homepage: https://arxiv.org/abs/2305.07922
     topics:
       - code-generation
@@ -42,20 +39,14 @@ metadata:
       - code-understanding
       - language-model
       - large-language-models
-    last_checked_at: '2026-07-20T16:42:50.332Z'
+    last_checked_at: "2026-07-20T16:42:50.332Z"
     readme:
-      fetched_at: '2026-07-20T16:42:50.332Z'
+      fetched_at: "2026-07-20T16:42:50.332Z"
       bytes: 5127
 insights:
-  summary: >-
-    CodeT5 is a family of open-source encoder-decoder language models from Salesforce Research designed for code
-    understanding, generation, summarization, and autocompletion.
-  why_it_matters: >-
-    It provides developers with the weights and architecture to build or fine-tune custom coding assistants, rather than
-    relying solely on closed, proprietary APIs.
-  mental_damage: >-
-    Yet another reminder that while we wait for the magical AGI assistant, we are still expected to be ML researchers
-    downloading HuggingFace checkpoints and tuning hyperparameters just to get a decent autocomplete.
+  summary: CodeT5 is a family of open-source encoder-decoder language models from Salesforce Research designed for code understanding, generation, summarization, and autocompletion.
+  why_it_matters: It provides developers with the weights and architecture to build or fine-tune custom coding assistants, rather than relying solely on closed, proprietary APIs.
+  mental_damage: Yet another reminder that while we wait for the magical AGI assistant, we are still expected to be ML researchers downloading HuggingFace checkpoints and tuning hyperparameters just to get a decent autocomplete.
   tags:
     - code-generation
     - llm
@@ -65,14 +56,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a research artifact and model repository, not a developer-facing tool, IDE, agent, or framework for
-    immediate use in a workflow.
+  reason: This is a research artifact and model repository, not a developer-facing tool, IDE, agent, or framework for immediate use in a workflow.
   evidence:
     - Repo description identifies this as 'Open Code LLMs' (models), not a product or tool.
-    - >-
-      README focuses on paper citations (EMNLP, NeurIPS) and HuggingFace checkpoints rather than a developer tool
-      experience.
+    - README focuses on paper citations (EMNLP, NeurIPS) and HuggingFace checkpoints rather than a developer tool experience.
     - Listed in Awesome-LLMOps under 'Code AI', which covers research models rather than operational developer tooling.
 placement:
   primary_category: null
@@ -83,21 +70,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.646Z'
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:50.332Z'
+    updated_at: "2026-07-20T16:42:50.332Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

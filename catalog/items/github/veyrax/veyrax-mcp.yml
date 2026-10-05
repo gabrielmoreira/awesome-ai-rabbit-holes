@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__veyrax__veyrax-mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - Official Servers
         anchor_text: VeyraX
         extracted_url: https://github.com/veyrax/veyrax-mcp
-        surrounding_text: >-
-          - **[VeyraX](https://github.com/VeyraX/veyrax-mcp)** - Single tool to control all 100+ API integrations, and
-          UI components
+        surrounding_text: "- **[VeyraX](https://github.com/VeyraX/veyrax-mcp)** - Single tool to control all 100+ API integrations, and UI components"
         confidence: high
 metadata:
   github:
@@ -31,25 +29,19 @@ metadata:
     archived: false
     full_name: VeyraX/veyrax-mcp
     html_url: https://github.com/VeyraX/veyrax-mcp
-    created_at: '2025-03-04T22:48:31Z'
-    pushed_at: '2025-04-29T06:36:36Z'
+    created_at: "2025-03-04T22:48:31Z"
+    pushed_at: "2025-04-29T06:36:36Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-07-21T15:21:04.482Z'
+    last_checked_at: "2026-07-21T15:21:04.482Z"
     readme:
-      fetched_at: '2026-07-21T15:21:04.482Z'
+      fetched_at: "2026-07-21T15:21:04.482Z"
       bytes: 3044
 insights:
-  summary: >-
-    VeyraX MCP is a platform that provides a unified authentication layer for accessing integrated tools across
-    MCP-compatible clients.
-  why_it_matters: >-
-    It reduces credential juggling by letting developers use all their VeyraX-connected tools in any MCP host after a
-    single login.
-  mental_damage: >-
-    Yet another login portal promising to be the 'single tool to control them all,' adding yet another identity silo to
-    the MCP ecosystem.
+  summary: VeyraX MCP is a platform that provides a unified authentication layer for accessing integrated tools across MCP-compatible clients.
+  why_it_matters: It reduces credential juggling by letting developers use all their VeyraX-connected tools in any MCP host after a single login.
+  mental_damage: Yet another login portal promising to be the 'single tool to control them all,' adding yet another identity silo to the MCP ecosystem.
   tags:
     - mcp
     - authentication
@@ -57,18 +49,11 @@ insights:
   confidence: medium
 curation:
   status: excluded
-  reason: >-
-    VeyraX MCP is primarily a hosted authentication and tool aggregation service, not a developer-facing tool that
-    writes, plans, or debugs code, and its MCP integration is a compatibility feature rather than the product's core
-    identity.
+  reason: VeyraX MCP is primarily a hosted authentication and tool aggregation service, not a developer-facing tool that writes, plans, or debugs code, and its MCP integration is a compatibility feature rather than the product's core identity.
   evidence:
     - README emphasizes 'Single Authentication' and 'Instant Access to All Tools' via VeyraX platform login
-    - >-
-      Product identity centers on VeyraX dashboard, API key, and platform registration, not on code assistance or MCP
-      server/client logic
-    - >-
-      Listed in awesome-mcp-servers under 'Official Servers' but functions as a compatibility layer, not an MCP-native
-      server
+    - Product identity centers on VeyraX dashboard, API key, and platform registration, not on code assistance or MCP server/client logic
+    - Listed in awesome-mcp-servers under 'Official Servers' but functions as a compatibility layer, not an MCP-native server
 placement:
   primary_category: null
   section: null
@@ -78,17 +63,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.654Z'
+    updated_at: "2026-05-06T22:12:15.654Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:21:04.482Z'
+    updated_at: "2026-07-21T15:21:04.482Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

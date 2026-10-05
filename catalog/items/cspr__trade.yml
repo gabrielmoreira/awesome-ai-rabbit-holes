@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cspr__trade__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: CSPR.trade
         extracted_url: https://cspr.trade
-        surrounding_text: >-
-          - [make-software/cspr-trade-mcp](https://github.com/make-software/cspr-trade-mcp)
-          [![make-software/cspr-trade-mcp MCP
-          server](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp/badges/score.svg)](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp)
-          📇 ☁️ 🏠 🍎 🪟 🐧 - Non-custodial DEX trading on the Casper Network via [CSPR.trade](https://cspr.trade). 14
-          tools for market data, swaps, liquidity, and account queries. Transactions built remotely, signed locally —
-          private keys never leave the machine. Public endpoint: `https://mcp.cspr.trade/mcp`
+        surrounding_text: "- [make-software/cspr-trade-mcp](https://github.com/make-software/cspr-trade-mcp) [![make-software/cspr-trade-mcp MCP server](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp/badges/score.svg)](https://glama.ai/mcp/servers/make-software/cspr-trade-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Non-custodial DEX trading on the Casper Network via [CSPR.trade](https://cspr.trade). 14 tools for market data, swaps, liquidity, and account queries. Transactions built remotely, signed locally — private keys never leave the machine. Public endpoint: `https://mcp.cspr.trade/mcp`"
         confidence: high
 metadata:
   github:
@@ -43,18 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: cspr.trade is a website with no clear developer tooling or AI functionality described.
-  why_it_matters: It does not appear to offer any practical AI tools, agents, workflows, or infrastructure relevant to software developers.
-  mental_damage: Another mysterious .trade domain promising who-knows-what in the endless AI gold rush.
+  summary: CSPR.trade is a website offering no discernible AI developer tooling or product description.
+  why_it_matters: It does not provide any identifiable functionality relevant to software developers building or using AI tools.
+  mental_damage: Another mystery URL in the AI gold rush, promising nothing while wasting a click.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The site provides no discernible product, functionality, or developer-facing value; it lacks any description, repository, or signals of being an AI tool for developers.
+  reason: The site provides no description, functionality, or evidence of being an AI tool for developers, making it impossible to categorize within the catalog's scope.
   evidence:
-    - No repo description provided
-    - No README or substantive site content beyond the title 'CSPR.trade'
-    - No stars, creation date, or activity signals available
+    - "Repo description: (none)"
+    - "Scraped site context title: CSPR.trade, description: (none)"
 placement:
   primary_category: null
   section: null
@@ -64,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,29 +65,24 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:36:47.344Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for cspr__trade: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:25.927Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:43a63ed26d60754e97ff748f2fa5173fb9bd6a67d60a689b9aca4cc5b0809bdf
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:01d97ab136dc410968746bbb40350f241ac6fb850cf54bbd993f04f0ad8635e7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site provides no discernible product, functionality, or developer-facing value; it lacks any description, repository, or signals of being an AI tool for developers.
+      decision_reason: The site provides no description, functionality, or evidence of being an AI tool for developers, making it impossible to categorize within the catalog's scope.
       decision_evidence:
-        - No repo description provided
-        - No README or substantive site content beyond the title 'CSPR.trade'
-        - No stars, creation date, or activity signals available
+        - "Repo description: (none)"
+        - "Scraped site context title: CSPR.trade, description: (none)"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

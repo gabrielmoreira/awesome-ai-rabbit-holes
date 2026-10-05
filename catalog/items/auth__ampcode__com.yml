@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__auth__ampcode__com__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-06-04T05:40:27.160Z'
+      discovered_at: "2026-06-04T05:40:27.160Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,12 +19,10 @@ provenance:
           - Closed Source
         anchor_text: Amp
         extracted_url: https://sourcegraph.com/amp
-        surrounding_text: >-
-          - **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for
-          implementing tasks across real codebases.
+        surrounding_text: "- **[Amp](https://sourcegraph.com/amp)** `[Sourcegraph]` — Sourcegraph's AI coding agent with a CLI for implementing tasks across real codebases."
         confidence: high
     - id: discovery__auth__ampcode__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-06-04T05:40:27.160Z'
+      discovered_at: "2026-06-04T05:40:27.160Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -36,9 +34,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Amp (Sourcegraph)
         extracted_url: https://ampcode.com
-        surrounding_text: >-
-          - **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search
-          infrastructure with deep codebase graph and unconstrained token usage.
+        surrounding_text: "- **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search infrastructure with deep codebase graph and unconstrained token usage."
         confidence: high
 metadata:
   github:
@@ -56,31 +52,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An authentication login page for Amp, presenting email and Google sign-in options with no product functionality
-    exposed.
-  why_it_matters: It offers no direct developer workflow, tooling, or AI capability; it is purely an account access gateway.
-  mental_damage: >-
-    An authentication page so unapologetically focused on capturing your email that it forgot to bring a product
-    description along.
+  summary: auth.ampcode.com is a login page for Amp's authentication service, presented in Afrikaans, with email and Google sign-in options.
+  why_it_matters: It provides access to Amp's developer tools, though the nature of those tools is not disclosed on the login page.
+  mental_damage: Yet another AI-adjacent service hiding its actual utility behind a signup wall, forcing developers to trade emails for the promise of relevance.
   tags:
-    - authentication
+    - auth
     - login
-    - saas
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an auxiliary authentication portal, not a standalone developer-facing AI tool, extension, framework, or
-    resource.
+  reason: The site is solely an authentication gateway with no visible product, tooling, or developer-facing functionality described; it does not constitute an AI tool, agent, framework, or infrastructure relevant to software developers.
   evidence:
-    - Scraped page content is exclusively an Afrikaans-language login form with email and Google sign-in for Amp.
-    - >-
-      No repository description, README, or site context describes any coding assistant, IDE, agent, or developer
-      infrastructure.
-    - >-
-      The URL auth.ampcode.com is an identity/access subdomain, indicating a supporting link rather than a primary
-      product surface.
+    - Scraped page shows only a login form in Afrikaans with email and Google sign-in options
+    - No README, repo description, or product explanation is provided in inputs
+    - No evidence of AI functionality, coding assistance, or developer tooling is present
 placement:
   primary_category: null
   section: null
@@ -90,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-04T05:40:27.161Z'
+    updated_at: "2026-06-04T05:40:27.161Z"
     cause: null
     next_retry_at: null
   stars:
@@ -98,29 +83,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:34:03.499Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for auth__ampcode__com: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (16/16)
-    attempts: 4
+    status: done
+    updated_at: "2026-10-05T04:26:10.579Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:28e078bbacc3db3b603703ac6886f275dfd257aee4b0f336e72eb4bcbec6f319
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6a7fc6d05f89a1598c98e0974f3cb14e587beb4ad34fe059cdafaa9718db61f6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The page is solely an authentication interface with no indication of being a developer-facing AI tool, agent, framework, or workflow product.
+      decision_reason: The site is solely an authentication gateway with no visible product, tooling, or developer-facing functionality described; it does not constitute an AI tool, agent, framework, or infrastructure relevant to software developers.
       decision_evidence:
-        - The scraped site shows only a login form with email and Google sign-in options.
-        - No repository description, README, or product details are provided to indicate developer tooling functionality.
-        - The domain auth.ampcode.com suggests an authentication service, but no evidence of AI, coding agents, or dev tooling is present in the inputs.
+        - Scraped page shows only a login form in Afrikaans with email and Google sign-in options
+        - No README, repo description, or product explanation is provided in inputs
+        - No evidence of AI functionality, coding assistance, or developer tooling is present
       category_candidates: []
       contrastive_reason: null
       review_reason: null

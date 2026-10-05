@@ -3,13 +3,41 @@
 
 Tools that read documents — turning scans, PDFs, screenshots, and office files into text, structure, or extracted fields.
 
-_18 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_21 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
+- [OCR Engines](#ocr-engines) — 3
 - [Document Parsing & Layout](#document-parsing--layout) — 14
 - [File Conversion & Markdown](#file-conversion--markdown) — 3
 - [Extraction & Structured Output](#extraction--structured-output) — 1
+
+## OCR Engines
+
+- **[GLM-OCR](https://huggingface.co/zai-org/GLM-OCR)** GLM-OCR is a vision-language model specialized in optical character recognition and document understanding tasks. <details><summary>More about</summary>
+
+  Enables developers to integrate high-accuracy OCR and document parsing into applications via Hugging Face model access.
+
+  _Another model card that makes you wonder if 'open source' just means you get to debug someone else's research checkpoint._
+
+  `ocr` `vision` `document-ai`
+  </details>
+- **[PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL)** PaddleOCR-VL is a multimodal vision-language model from PaddlePaddle optimized for document parsing and OCR tasks. <details><summary>More about</summary>
+
+  Improves automated extraction of text, tables, and layout from scanned documents, which is useful in developer workflows involving data ingestion or document processing pipelines.
+
+  _Yet another vision model promising to 'understand' your PDFs, while you still manually reformat the output into something usable._
+
+  `ocr` `document-ai` `vision-language`
+  </details>
+- **[PaddleOCR-VL-1.5](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5)** PaddleOCR-VL-1.5 is a Hugging Face vision-language model for document understanding, combining OCR with layout and table extraction. <details><summary>More about</summary>
+
+  It helps developers extract structured data from scanned documents and images for downstream LLM pipelines.
+
+  _Yet another vision model promising to fix your PDF hell, while you secretly just want it to work on receipts._
+
+  `ocr` `document-ai` `vision-language`
+  </details>
 
 ## Document Parsing & Layout
 
@@ -89,13 +117,13 @@ _18 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
   </details>
 - **[velyan/pdf-card-mcp](https://github.com/velyan/pdf-card-mcp)** `⭐ 2` `updated ≤180d` Local-first MCP tool that converts PDFs into polished standalone card-based HTML readers.
 - **[jev-information-extraction-fibby-prod-telegram.up.railway.app](https://jev-information-extraction-fibby-prod-telegram.up.railway.app)** jev-information-extraction (site) - Parsing the PDF and extracting the relevant information.
-- **[Unstructured Platform](https://unstructured.io)** unstructured.io provides tools to extract, clean, and structure unstructured data like documents, PDFs, and web pages for downstream AI processing. <details><summary>More about</summary>
+- **[Unstructured Platform](https://unstructured.io)** Unstructured.io is a platform that extracts and structures text from documents such as PDFs, images, and office files for use in AI pipelines. <details><summary>More about</summary>
 
-  It reduces the friction of turning messy real-world data into model-ready inputs, a critical bottleneck in building reliable AI applications.
+  It helps developers turn unstructured documents into clean, usable data for LLMs, RAG, and document-aware applications.
 
-  _Yet another preprocessing layer you didn’t know you needed until your LLM started hallucinating from bad OCR._
+  _Yet another preprocessing layer in the endless stack of 'just extract the text' tools that promise to solve your data problems but add another dependency to manage._
 
-  `data-prep` `etl` `ai-infrastructure`
+  `document-ai` `data-preprocessing` `rag`
   </details>
 
 ## File Conversion & Markdown
@@ -113,4 +141,11 @@ _18 entries in 3 sections, ranked by stars. Each section opens with its top 30; 
 
 ## Extraction & Structured Output
 
-- **[abhishekmamdapure/jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction)** `⭐ 2` `updated ≤30d` Parsing the PDF and extracting the relevant information.
+- **[abhishekmamdapure/jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction)** `⭐ 2` `updated ≤30d` A tool for parsing PDFs and extracting relevant information using Jev decision models. <details><summary>More about</summary>
+
+  Enables developers to automate structured data extraction from PDFs by leveraging typed decision models for accurate field identification.
+
+  _: Another PDF extractor promising to end manual copy-pasting, because retyping data from scanned invoices was clearly the highlight of sprint planning._
+
+  `pdf` `information-extraction` `jev`
+  </details>

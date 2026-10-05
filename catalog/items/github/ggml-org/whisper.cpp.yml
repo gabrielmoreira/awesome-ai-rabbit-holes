@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ggml-org__whisper.cpp__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,10 +20,7 @@ provenance:
           - Large Model Serving
         anchor_text: whisper.cpp
         extracted_url: https://github.com/ggerganov/whisper.cpp
-        surrounding_text: >-
-          | [whisper.cpp](https://github.com/ggerganov/whisper.cpp)                               | Port of OpenAI's
-          Whisper model in C/C++                                                                         | ![GitHub
-          Badge](https://img.shields.io/github/stars/ggerganov/whisper.cpp.svg?style=flat-square)                 |
+        surrounding_text: "| [whisper.cpp](https://github.com/ggerganov/whisper.cpp)                               | Port of OpenAI's Whisper model in C/C++                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/ggerganov/whisper.cpp.svg?style=flat-square)                 |"
         confidence: high
 metadata:
   github:
@@ -33,10 +30,10 @@ metadata:
     archived: false
     full_name: ggml-org/whisper.cpp
     html_url: https://github.com/ggml-org/whisper.cpp
-    created_at: '2022-09-25T18:26:37Z'
-    pushed_at: '2026-08-31T03:53:57Z'
+    created_at: "2022-09-25T18:26:37Z"
+    pushed_at: "2026-08-31T03:53:57Z"
     description: Port of OpenAI's Whisper model in C/C++
-    homepage: ''
+    homepage: ""
     topics:
       - inference
       - openai
@@ -44,18 +41,14 @@ metadata:
       - speech-to-text
       - transformer
       - whisper
-    last_checked_at: '2026-09-03T05:16:49.488Z'
+    last_checked_at: "2026-09-03T05:16:49.488Z"
     readme:
-      fetched_at: '2026-09-03T05:16:49.488Z'
+      fetched_at: "2026-09-03T05:16:49.488Z"
       bytes: 39240
 insights:
   summary: High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model.
-  why_it_matters: >-
-    Enables efficient, low-latency, and offline audio transcription directly on diverse hardware like Apple Silicon,
-    Linux, and mobile devices.
-  mental_damage: >-
-    Now you have one more way to turn your voice memos into perfectly transcribed text that you'll still never actually
-    read.
+  why_it_matters: Enables efficient, low-latency, and offline audio transcription directly on diverse hardware like Apple Silicon, Linux, and mobile devices.
+  mental_damage: Now you have one more way to turn your voice memos into perfectly transcribed text that you'll still never actually read.
   tags:
     - speech-to-text
     - inference
@@ -78,17 +71,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.616Z'
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:49.488Z'
+    updated_at: "2026-09-03T05:16:49.488Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -111,8 +104,6 @@ processing:
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because the project's core identity is a highly optimized runtime for local,
-        on-device execution rather than a general-purpose developer SDK.
+      contrastive_reason: Choose local-ai over ai-frameworks because the project's core identity is a highly optimized runtime for local, on-device execution rather than a general-purpose developer SDK.
       review_reason: null
       review_resume_lifecycle: null

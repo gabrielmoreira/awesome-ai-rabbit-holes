@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenClaw is a repository referenced in an awesome list for LLM resources, described as a skill or tool within the AI development ecosystem.
-  why_it_matters: It may offer reusable components or guidance for developers working with LLMs, agents, or related AI workflows.
-  mental_damage: Another vaguely defined LLM resource that promises to elevate your agent game while leaving you questioning what it actually does.
+  summary: openclaw is listed in the 'awesome-LLM-resources' directory under the 'Skills' section, suggesting it is a reusable skill pack or prompt set for LLMs or coding agents.
+  why_it_matters: If it is indeed a skill pack, it could help developers extend the behavior of coding agents like Claude Code or Cursor with reusable commands or prompt templates.
+  mental_damage: Another skill pack to install, another YAML file to forget you added, and another prompt that stops working when the model updates.
   tags:
-    - llm
     - skills
-    - resources
+    - prompt-engineering
+    - agent-extension
   confidence: low
 curation:
   status: excluded
-  reason: The available inputs do not describe a standalone product, tool, or system with clear developer-facing functionality; it appears only as a referenced item in an awesome list without sufficient detail to determine its actual purpose or identity.
+  reason: The available evidence only shows openclaw appearing in a skills section of an awesome list, with no repository, description, or README to confirm it is a standalone skill pack or tool; without concrete product signals, it cannot be confidently placed in the catalog.
   evidence:
-    - Repo description is missing, providing no factual basis for what openclaw is.
-    - No README excerpt, scraped site context, or homepage details are available to substantiate claims or functionality.
-    - "Only source-list context exists: it is referenced in 'awesome-LLM-resources' under the '技能 Skills' section, indicating it may be a skill pack or resource, but without confirmation of installable content or tool identity."
+    - "Seen in source list: awesome-LLM-resources | section: 技能 Skills"
+    - No repo description, README, stars, or activity data provided
+    - No URL content scraped beyond the listing in the awesome list
 placement:
   primary_category: null
   secondary_categories: []
@@ -70,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-28T04:31:34.530Z"
+    updated_at: "2026-10-05T04:39:16.407Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2655bd74573785ad70f89edf4034b7be57dbb4cd76b6b5c8d24ff44f68b7b0ee
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:32a4e1c44e6e39a49f6dad94714bf16a11bc7c393cc89b9307b6fb677d15c138
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The available inputs do not describe a standalone product, tool, or system with clear developer-facing functionality; it appears only as a referenced item in an awesome list without sufficient detail to determine its actual purpose or identity.
+      decision_reason: The available evidence only shows openclaw appearing in a skills section of an awesome list, with no repository, description, or README to confirm it is a standalone skill pack or tool; without concrete product signals, it cannot be confidently placed in the catalog.
       decision_evidence:
-        - Repo description is missing, providing no factual basis for what openclaw is.
-        - No README excerpt, scraped site context, or homepage details are available to substantiate claims or functionality.
-        - "Only source-list context exists: it is referenced in 'awesome-LLM-resources' under the '技能 Skills' section, indicating it may be a skill pack or resource, but without confirmation of installable content or tool identity."
+        - "Seen in source list: awesome-LLM-resources | section: 技能 Skills"
+        - No repo description, README, stars, or activity data provided
+        - No URL content scraped beyond the listing in the awesome list
       category_candidates: []
       contrastive_reason: null
       review_reason: "Categorization review required: low confidence"

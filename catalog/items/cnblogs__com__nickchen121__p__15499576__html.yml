@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cnblogs__com__nickchen121__p__15499576__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 36. [Beam Search快速理解及代码解析](https://www.cnblogs.com/nickchen121/p/15499576.html)
         confidence: high
     - id: discovery__www__cnblogs__com__nickchen121__p__15499576__html__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,29 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post explaining Beam Search decoding strategy with code examples from the Hugging Face Transformers library.
-  why_it_matters: >-
-    Helps developers understand a core text generation algorithm used in LLMs for improving output quality beyond greedy
-    decoding.
-  mental_damage: >-
-    Another reminder that decoding strategies are the secret sauce no one talks about until your model starts repeating
-    'the the the'.
+  summary: A Chinese blog post explaining the beam search algorithm with code examples from Hugging Face Transformers.
+  why_it_matters: Helps developers understand a core text generation algorithm used in LLMs for decoding strategies.
+  mental_damage: Another deep-dive into decoding tricks that makes you question if greedy search was ever enough.
   tags:
     - nlp
-    - decoding
     - llm
+    - decoding
     - beam-search
-    - tutorial
+    - transformers
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or
-    product.
+  reason: The resource is an educational blog post explaining an algorithm, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - Source is a CNBlogs article titled 'Beam Search快速理解及代码解析'
-    - Content is a tutorial explaining Beam Search with code snippets, not a standalone tool or service
-    - No evidence of being a reusable SDK, agent, app builder, or infrastructure for developers to use
+    - Scraped site context shows it is a blog post on cnblogs.com titled 'Beam Search快速理解及代码解析'
+    - README excerpt and primary page excerpt consist of algorithm explanation and code walkthrough, not a tool or product
+    - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips', indicating it is a learning resource
 placement:
   primary_category: null
   section: null
@@ -83,33 +77,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:53.007Z'
+    updated_at: "2026-10-05T04:46:51.837Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:8da29a3db444b273d7629b7671748b37be7f4bfd01b335ea4290b216741c2439
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2032f5e23b13737a012fa9e9744a5353f39a7d9c0b24c45ceaca4f6653123ff5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The resource is an educational blog post about an algorithm, not a developer-facing AI tool, agent, workflow, or
-        product.
+      decision_reason: The resource is an educational blog post explaining an algorithm, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - Source is a CNBlogs article titled 'Beam Search快速理解及代码解析'
-        - Content is a tutorial explaining Beam Search with code snippets, not a standalone tool or service
-        - No evidence of being a reusable SDK, agent, app builder, or infrastructure for developers to use
+        - Scraped site context shows it is a blog post on cnblogs.com titled 'Beam Search快速理解及代码解析'
+        - README excerpt and primary page excerpt consist of algorithm explanation and code walkthrough, not a tool or product
+        - Source-list context shows it appears in awesome-LLM-resources under '技巧 Tips', indicating it is a learning resource
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.963Z'
+    updated_at: "2026-07-21T15:20:21.963Z"
     cause: null
     next_retry_at: null
   stars:

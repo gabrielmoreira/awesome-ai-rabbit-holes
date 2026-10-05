@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aisearch__vpuna__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,11 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Vpuna AI Search Service
         extracted_url: https://aisearch.vpuna.com
-        surrounding_text: >-
-          - **[VpunaAiSearch](https://github.com/vpuna/vpuna-ai-search)** - Connect to [Vpuna AI Search
-          Service](https://aisearch.vpuna.com), a developer first platform for semantic search, summarization, and
-          contextual chat. Each project dynamically exposes its own Remote HTTP MCP server, enabling real-time context
-          injection from structured and unstructured data.
+        surrounding_text: "- **[VpunaAiSearch](https://github.com/vpuna/vpuna-ai-search)** - Connect to [Vpuna AI Search Service](https://aisearch.vpuna.com), a developer first platform for semantic search, summarization, and contextual chat. Each project dynamically exposes its own Remote HTTP MCP server, enabling real-time context injection from structured and unstructured data."
         confidence: high
 metadata:
   github:
@@ -40,36 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vpuna AI Search is a developer-first API for vector, semantic, and LLM-powered search, designed to be multi-tenant
-    and enterprise-ready.
-  why_it_matters: >-
-    It gives developers a ready-to-integrate search backend that combines traditional vector similarity with LLM
-    reranking or generation, reducing the need to build custom retrieval pipelines.
-  mental_damage: >-
-    Another search API promising to unify vectors and LLMs, just in time for the next search abstraction layer to make
-    it obsolete.
+  summary: Vpuna AI Search is a developer-first, API-first vector and LLM-powered search platform for vector, semantic, and LLM-based search.
+  why_it_matters: It provides developers with a multi-tenant, production-ready search backend for AI-powered retrieval applications.
+  mental_damage: Another vector search API to evaluate while your team debates whether Pinecone or Weaviate will haunt your Q3 OKRs.
   tags:
-    - search
-    - vector
+    - vector-search
     - llm
     - api
     - mcp
   confidence: medium
 curation:
   status: excluded
-  reason: >-
-    The product is an MCP server providing search capabilities, but MCP is not its primary identity; it is a search
-    platform that happens to expose MCP, so it belongs neither in MCP nor any developer-tooling category as a standalone
-    tool.
+  reason: While listed in awesome-mcp-servers, the product's identity is a general AI search platform, not an MCP server, client, or MCP-specific infrastructure.
   evidence:
-    - >-
-      Source-list context shows it is listed in awesome-mcp-servers under Official Servers as a 'Developer-first AI
-      search engine for vector, semantic, and LLM-powered search.'
-    - >-
-      Scraped site context describes it as a 'Developer-first AI search engine for vector, semantic, and LLM-powered
-      search. Multi-tenant, API-first, and enterprise-ready.' with no indication it is primarily an MCP server, client,
-      or toolkit.
+    - Scraped site context describes it as a 'Developer-first AI search engine for vector, semantic, and LLM-powered search. Multi-tenant, API-first, and enterprise-ready.'
+    - Source-list context appears in awesome-mcp-servers under 'Official Servers' but the linked page describes general search capabilities, not MCP protocol implementation.
+    - No evidence suggests MCP is the product's primary identity; it is only mentioned as a compatibility or adapter feature in the source-list context.
 placement:
   primary_category: null
   secondary_categories: []
@@ -80,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,31 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:14.190Z'
+    updated_at: "2026-10-05T04:59:03.612Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ad4a183f2aefe41b9629de73ea7a9c55c3b96046391f84fdbae8381b66ee34a7
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5a03f3e23b579380ab24a1117f117af54fb51a993a6b660e21247bee30df49c6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is an MCP server providing search capabilities, but MCP is not its primary identity; it is a search
-        platform that happens to expose MCP, so it belongs neither in MCP nor any developer-tooling category as a
-        standalone tool.
+      decision_reason: While listed in awesome-mcp-servers, the product's identity is a general AI search platform, not an MCP server, client, or MCP-specific infrastructure.
       decision_evidence:
-        - >-
-          Source-list context shows it is listed in awesome-mcp-servers under Official Servers as a 'Developer-first AI
-          search engine for vector, semantic, and LLM-powered search.'
-        - >-
-          Scraped site context describes it as a 'Developer-first AI search engine for vector, semantic, and LLM-powered
-          search. Multi-tenant, API-first, and enterprise-ready.' with no indication it is primarily an MCP server,
-          client, or toolkit.
+        - Scraped site context describes it as a 'Developer-first AI search engine for vector, semantic, and LLM-powered search. Multi-tenant, API-first, and enterprise-ready.'
+        - Source-list context appears in awesome-mcp-servers under 'Official Servers' but the linked page describes general search capabilities, not MCP protocol implementation.
+        - No evidence suggests MCP is the product's primary identity; it is only mentioned as a compatibility or adapter feature in the source-list context.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

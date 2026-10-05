@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__supadata__ai__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: Supadata
         extracted_url: https://supadata.ai
-        surrounding_text: >-
-          - **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai)
-          - YouTube, TikTok, X and Web data for makers.
+        surrounding_text: "- **[Supadata](https://github.com/supadata-ai/mcp)** - Official MCP server for [Supadata](https://supadata.ai) - YouTube, TikTok, X and Web data for makers."
         confidence: high
 metadata:
   github:
@@ -38,31 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Supadata is an API service that extracts transcripts, metadata, and structured data from web and social media videos
-    (YouTube, TikTok, Instagram, etc.) for AI training and retrieval.
-  why_it_matters: >-
-    Developers can programmatically access video content and metadata as clean JSON, enabling AI workflows that depend
-    on video-derived data without manual scraping.
-  mental_damage: >-
-    Now you can finally feed an LLM every TikTok trend, because nothing says 'production-ready' like a model trained on
-    the entire 'Never Gonna Give You Up' corpus.
+  summary: Supadata is a web and YouTube content API that extracts transcripts, metadata, and structured data from social media videos for AI training and retrieval.
+  why_it_matters: Developers building RAG systems, chatbots, or content analysis tools can offload video scraping and transcription to a reliable, plug-and-play API.
+  mental_damage: Yet another 'one-stop-shop' API promising to save you weeks while quietly locking you into yet another vendor-specific data pipeline.
   tags:
     - api
     - transcription
-    - social-media
-    - data-extraction
     - rag
+    - social-media
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding
-    workflows, agent orchestration, or AI-assisted development.
+  reason: Supadata is a data extraction API for social media content, not a developer-facing AI tool or workflow—it serves as infrastructure for AI training data rather than an agent, framework, or app-building product.
   evidence:
-    - Scraped site context describes it as 'one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval'
-    - Source-list context appears in awesome-mcp-servers as an Official Server, but MCP is presented as a compatibility feature, not the product identity
-    - README emphasizes use cases like chatbots, content repurposing, and brand monitoring — end-user applications, not developer tooling workflows
+    - Scraped site describes Supadata as 'one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval'
+    - Source-list context appears in awesome-mcp-servers as an Official Server, but the product itself is a web/video transcript API, not MCP infrastructure
+    - Core functionality centers on extracting transcripts, metadata, and structured data from YouTube, TikTok, Instagram, Facebook, and X for downstream AI use
 placement:
   primary_category: null
   section: null
@@ -72,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:46:05.571Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for supadata__ai: Invalid AI response format: SyntaxError: Unexpected token
-        'S', ..."_reason": Supadata.a"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:50:53.610Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3766e7d5139380534a80369beb20c1f86b9c589baa41602a00156735e0c95e79
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cf2c05ed01f399dcbae2e5d437978b6c0908de6dd666b5fbe1fbb247fc80db21
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a general-purpose API for video data extraction, not a developer-tooling product focused on
-        coding workflows, agent orchestration, or AI-assisted development.
+      decision_reason: Supadata is a data extraction API for social media content, not a developer-facing AI tool or workflow—it serves as infrastructure for AI training data rather than an agent, framework, or app-building product.
       decision_evidence:
-        - Scraped site context describes it as 'one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval'
-        - Source-list context appears in awesome-mcp-servers as an Official Server, but MCP is presented as a compatibility feature, not the product identity
-        - README emphasizes use cases like chatbots, content repurposing, and brand monitoring — end-user applications, not developer tooling workflows
+        - Scraped site describes Supadata as 'one stop-shop API for makers to read web and YouTube content, ready for AI training and retrieval'
+        - Source-list context appears in awesome-mcp-servers as an Official Server, but the product itself is a web/video transcript API, not MCP infrastructure
+        - Core functionality centers on extracting transcripts, metadata, and structured data from YouTube, TikTok, Instagram, Facebook, and X for downstream AI use
       category_candidates: []
       contrastive_reason: null
       review_reason: null

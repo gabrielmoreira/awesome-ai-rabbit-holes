@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wassenger__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Community Servers
         anchor_text: Wassenger
         extracted_url: https://wassenger.com
-        surrounding_text: >-
-          - **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP
-          server to chat, send messages and automate WhatsApp from any AI model client (free trial available).
+        surrounding_text: "- **[Wassenger](https://github.com/wassengerhq/mcp-wassenger)** - [Wassenger](https://wassenger.com) MCP server to chat, send messages and automate WhatsApp from any AI model client (free trial available)."
         confidence: high
 metadata:
   github:
@@ -38,24 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A WhatsApp Business platform with AI automation, team inbox, and MCP server integration for connecting AI assistants
-    like Claude and ChatGPT.
-  why_it_matters: >-
-    Developers can integrate WhatsApp messaging into AI workflows via MCP or REST API, enabling automated replies, team
-    collaboration, and AI-driven chat management.
-  mental_damage: Now your AI can ghost customers on WhatsApp just like you would, but with better uptime.
+  summary: Wassenger is a WhatsApp Business API platform that provides shared team inboxes, AI-powered messaging via Claude or ChatGPT, and workflow automation for sales, support, and operations teams.
+  why_it_matters: It lets developers and teams integrate AI assistants directly into WhatsApp workflows using REST APIs, webhooks, and MCP servers to automate customer communication without building custom infrastructure.
+  mental_damage: Another ‘AI-native’ layer on top of WhatsApp that promises to finally make team inboxes sane — until you realize you’re now managing AI agents *and* human agents across yet another SaaS dashboard.
   tags:
     - whatsapp
     - mcp
-    - ai-integration
+    - ai-assistant
     - business-api
+    - team-inbox
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
+  reason: Wassenger’s primary developer-facing identity is its MCP server that exposes WhatsApp capabilities to AI assistants like Claude and ChatGPT, making MCP the core product identity rather than a secondary feature.
   evidence:
-    - jev-latest choice confidence 0.65
+    - The site explicitly markets an 'Official MCP server' that lets users 'Connect WhatsApp to Claude, ChatGPT or your agent' with 'Nothing to install. Works out of the box.'
+    - "It appears in the awesome-mcp-servers list under 'Community Servers' with the description: 'One WhatsApp number for your whole team, with AI in every chat. Run it all from Claude or ChatGPT and connect your stack.'"
+    - The Developers section highlights 'MCP Server' as a top-level product alongside REST API, Webhooks, and WhatsApp Skills, positioning it as a first-class integration point for AI workflows.
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -66,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,36 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:49:11.103Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for wassenger__com: Invalid AI response format: SyntaxError: Unexpected token
-        'W', ..."_reason": Wassenger'"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:57:18.274Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:efb44850c48691c11029cc01d1e7de5f7c3ecb96cf424c8492b443c5113b69e2
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d2af27d5fc3b2407485235732bf4d8f983fa903bccb0e178519456e6cba54615
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's core developer-facing value is its MCP server, which explicitly connects WhatsApp to AI
-        assistants, making MCP the primary identity.
+      decision_reason: Wassenger’s primary developer-facing identity is its MCP server that exposes WhatsApp capabilities to AI assistants like Claude and ChatGPT, making MCP the core product identity rather than a secondary feature.
       decision_evidence:
-        - "The site explicitly promotes 'MCP Server: Connect WhatsApp to AI assistants' as a developer feature under the Developers section"
-        - It provides an official MCP server that works out of the box to connect WhatsApp to Claude, ChatGPT, or any AI agent
-        - Source-list context shows it appears in awesome-mcp-servers under Community Servers with the description 'One WhatsApp number for your whole team, with AI in every chat'
+        - The site explicitly markets an 'Official MCP server' that lets users 'Connect WhatsApp to Claude, ChatGPT or your agent' with 'Nothing to install. Works out of the box.'
+        - "It appears in the awesome-mcp-servers list under 'Community Servers' with the description: 'One WhatsApp number for your whole team, with AI in every chat. Run it all from Claude or ChatGPT and connect your stack.'"
+        - The Developers section highlights 'MCP Server' as a top-level product alongside REST API, Webhooks, and WhatsApp Skills, positioning it as a first-class integration point for AI workflows.
       category_candidates:
         - mcp
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose mcp over ai-dev-extensions because the MCP server is the primary developer-facing artifact, not just an
-        add-on to another assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because Wassenger’s MCP server is a standalone protocol endpoint that exposes WhatsApp capabilities to any AI assistant, not a plugin that extends a specific coding agent or editor.
       review_reason: null
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__camel-ai__camel__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,10 +19,10 @@ provenance:
           - CAMEL
         anchor_text: CAMEL
         extracted_url: https://github.com/camel-ai/camel
-        surrounding_text: '## [CAMEL](https://github.com/camel-ai/camel)'
+        surrounding_text: "## [CAMEL](https://github.com/camel-ai/camel)"
         confidence: high
     - id: discovery__github__camel-ai__camel__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -34,12 +34,10 @@ provenance:
           - Frameworks
         anchor_text: CAMEL
         extracted_url: https://github.com/camel-ai/camel
-        surrounding_text: >-
-          - Neural cache projection and fusion- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for
-          "Mind"
+        surrounding_text: "- Neural cache projection and fusion- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for \"Mind\""
         confidence: high
     - id: discovery__github__camel-ai__camel__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,9 +49,7 @@ provenance:
           - 智能体 Agents
         anchor_text: CAMEL
         extracted_url: https://github.com/camel-ai/camel
-        surrounding_text: >-
-          18. [CAMEL](https://github.com/camel-ai/camel): First LLM multi-agent framework and an open-source community
-          dedicated to finding the scaling law of agents.
+        surrounding_text: "18. [CAMEL](https://github.com/camel-ai/camel): First LLM multi-agent framework and an open-source community dedicated to finding the scaling law of agents."
         confidence: high
 metadata:
   github:
@@ -63,11 +59,9 @@ metadata:
     archived: false
     full_name: camel-ai/camel
     html_url: https://github.com/camel-ai/camel
-    created_at: '2023-03-17T21:41:54Z'
-    pushed_at: '2026-09-20T04:56:23Z'
-    description: >-
-      🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents.
-      https://www.camel-ai.org
+    created_at: "2023-03-17T21:41:54Z"
+    pushed_at: "2026-09-20T04:56:23Z"
+    description: "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
     homepage: https://docs.camel-ai.org/
     topics:
       - agent
@@ -79,15 +73,13 @@ metadata:
       - large-language-models
       - multi-agent-systems
       - natural-language-processing
-    last_checked_at: '2026-09-24T04:13:06.468Z'
+    last_checked_at: "2026-09-24T04:13:06.468Z"
     readme:
-      fetched_at: '2026-09-24T04:13:06.468Z'
+      fetched_at: "2026-09-24T04:13:06.468Z"
       bytes: 34695
 insights:
   summary: CAMEL is an open-source multi-agent framework for researching and building cooperative AI agent systems at scale.
-  why_it_matters: >-
-    It provides developers with a code-first framework to design, simulate, and coordinate multi-agent workflows for
-    tasks like data generation, task automation, and world simulation.
+  why_it_matters: It provides developers with a code-first framework to design, simulate, and coordinate multi-agent workflows for tasks like data generation, task automation, and world simulation.
   mental_damage: Finally, a way to turn your repo into a society of arguing LLM bureaucrats.
   tags:
     - multi-agent
@@ -107,21 +99,21 @@ placement:
   section: Multi-Agent Systems
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.576Z'
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:06.468Z'
+    updated_at: "2026-09-24T04:13:06.468Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-21T04:14:01.561Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -136,9 +128,7 @@ processing:
       input_hash: sha256:7fa6cce2cfc5f178913643848f3dd666aadba142a726902452354939c371fb39
       proposed_primary_category: agent-orchestration
       disagreement: true
-      decision_reason: >-
-        The primary product is a framework for coordinating multiple agents, with a focus on scalability, statefulness,
-        and code-as-prompt principles, fitting the Agent Orchestration category.
+      decision_reason: The primary product is a framework for coordinating multiple agents, with a focus on scalability, statefulness, and code-as-prompt principles, fitting the Agent Orchestration category.
       decision_evidence:
         - Repo description explicitly calls it a 'multi-agent framework'
         - README emphasizes multi-agent systems, coordination, and scaling laws of agents
@@ -146,8 +136,6 @@ processing:
       category_candidates:
         - agent-orchestration
         - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product's core identity is multi-agent coordination
-        and runtime simulation rather than being primarily a code-first library for embedding models.
-      review_reason: 'Categorization review required: placement disagreement: retained ''ai-frameworks'', proposed ''agent-orchestration'''
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product's core identity is multi-agent coordination and runtime simulation rather than being primarily a code-first library for embedding models.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
       review_resume_lifecycle: null

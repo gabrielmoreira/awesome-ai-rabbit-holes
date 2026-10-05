@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__47vigen__catherd__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: catherd
         extracted_url: https://github.com/47vigen/catherd
-        surrounding_text: >-
-          - [catherd](https://github.com/47vigen/catherd) - Herds coding agents from your Claude Code session: Claude
-          plans and verifies, Codex/opencode write code, TypeSafe Jev picks the model. [Project
-          guide](community/projects/tools/47vigen-catherd.md).
+        surrounding_text: "- [catherd](https://github.com/47vigen/catherd) - Herds coding agents from your Claude Code session: Claude plans and verifies, Codex/opencode write code, TypeSafe Jev picks the model. [Project guide](community/projects/tools/47vigen-catherd.md)."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: 47vigen/catherd
     html_url: https://github.com/47vigen/catherd
-    created_at: '2026-09-24T21:43:18Z'
-    pushed_at: '2026-09-29T13:03:05Z'
-    description: >-
-      Herds coding agents: autopilot builds from your own Claude Code session — Claude plans and verifies, Codex and
-      opencode write the code, Jev picks the model.
+    created_at: "2026-09-24T21:43:18Z"
+    pushed_at: "2026-09-29T13:03:05Z"
+    description: "Herds coding agents: autopilot builds from your own Claude Code session — Claude plans and verifies, Codex and opencode write the code, Jev picks the model."
     homepage: null
     topics:
       - ai-agents
@@ -47,14 +42,12 @@ metadata:
       - mcp
       - opencode
       - orchestration
-    last_checked_at: '2026-09-29T13:08:17.908Z'
+    last_checked_at: "2026-09-29T13:08:17.908Z"
     readme:
-      fetched_at: '2026-09-29T13:08:17.908Z'
+      fetched_at: "2026-09-29T13:08:17.908Z"
       bytes: 18139
 insights:
-  summary: >-
-    Herds coding agents: autopilot builds from your own Claude Code session — Claude plans and verifies, Codex and
-    opencode write the code, Jev picks the model.
+  summary: "Herds coding agents: autopilot builds from your own Claude Code session — Claude plans and verifies, Codex and opencode write the code, Jev picks the model."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -74,15 +67,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:17.908Z'
+    updated_at: "2026-09-29T13:08:17.908Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:11:06.357Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__47vigen__catherd: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool c\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

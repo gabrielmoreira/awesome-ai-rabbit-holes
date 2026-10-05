@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vbcherepanov__jev-symfony-bundle__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev Symfony Bundle
         extracted_url: https://github.com/vbcherepanov/jev-symfony-bundle
-        surrounding_text: >-
-          - [Jev Symfony Bundle](https://github.com/vbcherepanov/jev-symfony-bundle) - Unofficial Symfony bundle for
-          TypeSafe Jev: typed client, validator constraints, Messenger, Workflow guards, and profiler. [Project
-          guide](community/projects/tools/jev-symfony-bundle.md).
+        surrounding_text: "- [Jev Symfony Bundle](https://github.com/vbcherepanov/jev-symfony-bundle) - Unofficial Symfony bundle for TypeSafe Jev: typed client, validator constraints, Messenger, Workflow guards, and profiler. [Project guide](community/projects/tools/jev-symfony-bundle.md)."
         confidence: high
     - id: discovery__github__vbcherepanov__jev-symfony-bundle__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,12 +36,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jev-symfony-bundle
         extracted_url: https://github.com/vbcherepanov/jev-symfony-bundle
-        surrounding_text: >-
-          - [jev-symfony-bundle](https://github.com/vbcherepanov/jev-symfony-bundle) ![type:
-          library](https://img.shields.io/badge/type-library-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/vbcherepanov/jev-symfony-bundle?style=flat-square&label=%E2%98%85)
-          - PHP / Symfony: Symfony bundle providing typed Jev clients, validation constraints (`#[JevNoul]`,
-          `#[JevChoice]`), Workflow guards, and WebProfiler panels.
+        surrounding_text: "- [jev-symfony-bundle](https://github.com/vbcherepanov/jev-symfony-bundle) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/vbcherepanov/jev-symfony-bundle?style=flat-square&label=%E2%98%85) - PHP / Symfony: Symfony bundle providing typed Jev clients, validation constraints (`#[JevNoul]`, `#[JevChoice]`), Workflow guards, and WebProfiler panels."
         confidence: high
 metadata:
   github:
@@ -62,9 +54,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Symfony Bundle - Unofficial Symfony bundle for TypeSafe Jev: typed client, validator constraints, Messenger,
-    Workflow guards, and profiler. Project guide.
+  summary: "Jev Symfony Bundle - Unofficial Symfony bundle for TypeSafe Jev: typed client, validator constraints, Messenger, Workflow guards, and profiler. Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -84,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.427Z'
+    updated_at: "2026-09-29T13:07:10.427Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

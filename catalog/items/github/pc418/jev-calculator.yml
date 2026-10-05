@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pc418__jev-calculator__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: jev-calculator
         extracted_url: https://github.com/pc418/jev-calculator
-        surrounding_text: >-
-          | [jev-calculator](https://github.com/pc418/jev-calculator) | ★ 0 | TypeScript | 2026-09-23 | A probabilistic
-          calculator where Jev emits one answer character at a time from 13 fixed choices and the UI displays every
-          step’s probability distribution. |
+        surrounding_text: "| [jev-calculator](https://github.com/pc418/jev-calculator) | ★ 0 | TypeScript | 2026-09-23 | A probabilistic calculator where Jev emits one answer character at a time from 13 fixed choices and the UI displays every step’s probability distribution. |"
         confidence: high
     - id: discovery__github__pc418__jev-calculator__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,16 +33,12 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-calculator**'
+        anchor_text: "**jev-calculator**"
         extracted_url: https://github.com/pc418/jev-calculator
-        surrounding_text: >-
-          - [**jev-calculator**](https://github.com/pc418/jev-calculator) — Vars live in \`wrangler.jsonc\`:
-          \`JEV\_BASE\_URL\` / \`JEV\_MODEL\` (gateway), \`TYPESAFE\_BASE\_URL\` / \`TYPESAFE\_MODEL\` (direct
-          fallback), \`TURNSTILE\_SITEKEY\`, \`TURNSTILE\_HOSTNAMES\`, \`JEV\_DISABLED\` (kill switch). Rate limits are
-          Workers Rate Limiting bindings: \`API\_LIMIT\` per IP and \`FALLBACK\_LIMIT\` for the direct route as a whole.
+        surrounding_text: "- [**jev-calculator**](https://github.com/pc418/jev-calculator) — Vars live in \\`wrangler.jsonc\\`: \\`JEV\\_BASE\\_URL\\` / \\`JEV\\_MODEL\\` (gateway), \\`TYPESAFE\\_BASE\\_URL\\` / \\`TYPESAFE\\_MODEL\\` (direct fallback), \\`TURNSTILE\\_SITEKEY\\`, \\`TURNSTILE\\_HOSTNAMES\\`, \\`JEV\\_DISABLED\\` (kill switch). Rate limits are Workers Rate Limiting bindings: \\`API\\_LIMIT\\` per IP and \\`FALLBACK\\_LIMIT\\` for the direct route as a whole."
         confidence: high
     - id: discovery__github__pc418__jev-calculator__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -58,14 +51,7 @@ provenance:
           - Calibration & Research
         anchor_text: Jev calculator
         extracted_url: https://github.com/pc418/jev-calculator
-        surrounding_text: >-
-          - [Jev calculator](https://github.com/pc418/jev-calculator) ![type:
-          hosted](https://img.shields.io/badge/type-hosted-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/pc418/jev-calculator?style=flat-square&label=%E2%98%85) - Model
-          exploration: a calculator with no arithmetic in it, asking Jev one `Choice` over 13 options (`0`–`9`, `.`,
-          `-`, `END`) per answer character given the expression and the digits so far, appending whatever it picks and
-          showing each step's full probability distribution and confidence, with a Rerun that exposes call-to-call
-          jitter on identical inputs, live on Cloudflare Workers.
+        surrounding_text: "- [Jev calculator](https://github.com/pc418/jev-calculator) ![type: hosted](https://img.shields.io/badge/type-hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/pc418/jev-calculator?style=flat-square&label=%E2%98%85) - Model exploration: a calculator with no arithmetic in it, asking Jev one `Choice` over 13 options (`0`–`9`, `.`, `-`, `END`) per answer character given the expression and the digits so far, appending whatever it picks and showing each step's full probability distribution and confidence, with a Rerun that exposes call-to-call jitter on identical inputs, live on Cloudflare Workers."
         confidence: high
 metadata:
   github:
@@ -83,9 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A probabilistic calculator where Jev emits one answer character at a time from 13 fixed choices and the UI displays
-    every step’s probability distribution.
+  summary: A probabilistic calculator where Jev emits one answer character at a time from 13 fixed choices and the UI displays every step’s probability distribution.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -105,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.402Z'
+    updated_at: "2026-09-29T13:07:10.402Z"
     cause: null
     next_retry_at: null
   stars:
@@ -113,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

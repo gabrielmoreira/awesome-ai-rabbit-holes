@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__receptron__mulmoterminal__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,12 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: MulmoTerminal
         extracted_url: https://github.com/receptron/mulmoterminal
-        surrounding_text: >-
-          - **[MulmoTerminal](https://github.com/receptron/mulmoterminal)** `⭐ 226` — Browser grid of live Claude Code /
-          Codex / Grok sessions started with one `npx` command, no Electron; each cell is a real PTY, color-coded
-          working / needs-you / done from the CLI's own activity hooks rather than scraped scrollback, with a per-kind
-          chime and Web Push to your phone. tmux-backed persistence across restarts, git worktrees with one-click PRs,
-          and per-session model, context and token readouts. MIT.
+        surrounding_text: "- **[MulmoTerminal](https://github.com/receptron/mulmoterminal)** `⭐ 226` — Browser grid of live Claude Code / Codex / Grok sessions started with one `npx` command, no Electron; each cell is a real PTY, color-coded working / needs-you / done from the CLI's own activity hooks rather than scraped scrollback, with a per-kind chime and Web Push to your phone. tmux-backed persistence across restarts, git worktrees with one-click PRs, and per-session model, context and token readouts. MIT."
         confidence: high
 metadata:
   github:
@@ -43,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Browser grid of live Claude Code / Codex / Grok sessions started with one npx command, no Electron; each cell is a
-    real PTY, color-coded working / needs-you / done from the CLI's own activity hooks rather than scraped scrollback,
-    with a per-kind chime and Web Push to your phone. tmux-backed persistence across restarts, git worktrees with
-    one-click PRs, and per-session model, context and token readouts. MIT.
+  summary: Browser grid of live Claude Code / Codex / Grok sessions started with one npx command, no Electron; each cell is a real PTY, color-coded working / needs-you / done from the CLI's own activity hooks rather than scraped scrollback, with a per-kind chime and Web Push to your phone. tmux-backed persistence across restarts, git worktrees with one-click PRs, and per-session model, context and token readouts. MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

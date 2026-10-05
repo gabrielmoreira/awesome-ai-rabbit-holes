@@ -5,9 +5,8 @@ canonical_url: https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__glama__ai__blog__2025__12__07__the__state__of__mcp__in__2025__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__glama__ai__blog__2025__12__07__the__state__of__mcp__in__2025__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,7 +18,7 @@ provenance:
           - README
         anchor_text: The State of MCP in 2025
         extracted_url: https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025
-        surrounding_text: '> Read [The State of MCP in 2025](https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025) report.'
+        surrounding_text: "> Read [The State of MCP in 2025](https://glama.ai/blog/2025-12-07-the-state-of-mcp-in-2025) report."
         confidence: high
 metadata:
   github:
@@ -37,15 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An opinion piece analyzing the MCP ecosystem landscape, trends, and opportunities in 2025 based on the author's
-    experience building in the space.
-  why_it_matters: >-
-    Provides developers with a curated overview of MCP adoption, tooling, and market direction to inform tool selection
-    and architecture decisions.
-  mental_damage: >-
-    Yet another 'state of' blog post pretending to be neutral while subtly promoting the author's own platform in every
-    category it analyzes.
+  summary: The State of MCP in 2025 is a blog post analyzing the Model Context Protocol ecosystem, including trends, adoption, and challenges after a year of development.
+  why_it_matters: It gives developers a grounded view of MCP's real-world traction, helping them assess where to invest time in MCP tooling versus abandoned or consolidating projects.
+  mental_damage: Another MCP landscape piece that makes you wonder if you should build a server or just wait for the next consolidation wave to pick the winners.
   tags:
     - mcp
     - ecosystem
@@ -53,17 +46,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a blog post, not a tool, product, or developer-facing infrastructure; it lacks the runtime, SDK, or product
-    identity required for inclusion in the catalog.
+  reason: The input is a blog post, not a tool, product, or developer-facing infrastructure; it lacks any executable or integratable artifact for developers to use in their workflow.
   evidence:
-    - >-
-      The source is a blog post on glama.ai titled 'The State of MCP in 2025' with no indication of being a deployable
-      tool or platform
-    - >-
-      The content is descriptive and opinion-based, analyzing trends, companies, and market movements in the MCP
-      ecosystem
-    - No evidence of the author offering a downloadable, installable, or operable product via this URL
+    - "Title: The State of MCP in 2025"
+    - "Primary page excerpt: 'This is an opinion piece about the MCP ecosystem based on my observations and research building in this space for over a year.'"
+    - "Source-list context: none"
 placement:
   primary_category: null
   section: null
@@ -73,12 +60,10 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
@@ -86,30 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:16:28.401Z'
+    updated_at: "2026-10-05T04:33:02.527Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:437db456e7ae165e020ceb9663507ca108f681932828911566c825a67f79b564
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7f52d10fed9b5f446d5e9c46923010a3055f50179bb4252ac0aca30cbd917c88
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a blog post, not a tool, product, or developer-facing infrastructure; it lacks the runtime, SDK, or
-        product identity required for inclusion in the catalog.
+      decision_reason: The input is a blog post, not a tool, product, or developer-facing infrastructure; it lacks any executable or integratable artifact for developers to use in their workflow.
       decision_evidence:
-        - >-
-          The source is a blog post on glama.ai titled 'The State of MCP in 2025' with no indication of being a
-          deployable tool or platform
-        - >-
-          The content is descriptive and opinion-based, analyzing trends, companies, and market movements in the MCP
-          ecosystem
-        - No evidence of the author offering a downloadable, installable, or operable product via this URL
+        - "Title: The State of MCP in 2025"
+        - "Primary page excerpt: 'This is an opinion piece about the MCP ecosystem based on my observations and research building in this space for over a year.'"
+        - "Source-list context: none"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

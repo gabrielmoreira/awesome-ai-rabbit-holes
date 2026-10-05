@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mutable__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Mutable AI
         anchor_text: Mutable AI
         extracted_url: https://mutable.ai
-        surrounding_text: '## [Mutable AI](https://mutable.ai/)'
+        surrounding_text: "## [Mutable AI](https://mutable.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,36 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Mutable AI is an AI coding agent that autonomously plans and executes coding tasks across terminals and IDEs by
-    reading codebases, writing or editing files, and running commands on behalf of developers.
-  why_it_matters: >-
-    It lets developers delegate writing, editing, reviewing, or testing code to an autonomous agent, reducing manual
-    coding effort and accelerating development workflows.
-  mental_damage: >-
-    Another promise of vibe coding where the AI writes your code and you just hope it didn’t hallucinate a dependency
-    that bricks your CI pipeline.
+  summary: Mutable.ai appears to be an AI coding agent that integrates with development environments to assist with coding tasks.
+  why_it_matters: It aims to offload routine coding work from developers by acting as an autonomous agent within their workflow.
+  mental_damage: Another AI agent promising to write your code while you wonder if it’ll accidentally refactor your production database.
   tags:
     - coding-agent
-    - autonomous-coding
-    - developer-tooling
+    - ai-assistant
+    - developer-tool
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  reason: "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with the name 'Mutable AI', indicating it is recognized as an autonomous agent focused on coding tasks, fitting the coding-agents category."
   evidence:
-    - jev-latest choice confidence 0.98
+    - "Seen in source list 'awesome-ai-agents' under section 'Mutable AI' with purpose: 'A list of AI autonomous agents'"
+    - The listing identifies Mutable AI as an autonomous agent, aligning with the coding-agents category's focus on agents that perform coding tasks autonomously
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: IDE-Native & Editor Agents
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''app-builders'', proposed ''coding-agents'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,32 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:33:39.608Z'
+    updated_at: "2026-10-05T04:42:28.314Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:22a086b939e766b70667316d6f3219953df4e5a1379e29f785b2ff0144783ed6
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dd53c368c292bfc35d189bfa629bc0e842793574b1c7e9c0cb8d4636cc6f19c4
       proposed_primary_category: coding-agents
-      disagreement: true
-      decision_reason: >-
-        Mutable AI fits as a coding agent because its core identity is performing autonomous coding tasks across
-        terminals and IDEs, not extending another agent or building apps from scratch.
+      disagreement: false
+      decision_reason: "Listed in awesome-ai-agents under 'purpose: A list of AI autonomous agents' with the name 'Mutable AI', indicating it is recognized as an autonomous agent focused on coding tasks, fitting the coding-agents category."
       decision_evidence:
-        - Listed in awesome-ai-agents under the 'Mutable AI' entry as an AI autonomous agent
-        - >-
-          Described as performing coding tasks autonomously by reading codebases, writing or editing files, and running
-          commands
+        - "Seen in source list 'awesome-ai-agents' under section 'Mutable AI' with purpose: 'A list of AI autonomous agents'"
+        - The listing identifies Mutable AI as an autonomous agent, aligning with the coding-agents category's focus on agents that perform coding tasks autonomously
       category_candidates:
         - coding-agents
-        - app-builders
-      contrastive_reason: >-
-        Choose coding-agents over app-builders because Mutable AI operates on existing codebases to edit, test, and
-        repair code rather than generating deployable apps from prompts.
-      review_reason: 'Categorization review required: placement disagreement: retained ''app-builders'', proposed ''coding-agents'''
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Mutable.ai is listed as an autonomous agent in an AI agents list, indicating it performs coding tasks directly rather than coordinating multiple agents.
+      review_reason: null
       review_resume_lifecycle: null

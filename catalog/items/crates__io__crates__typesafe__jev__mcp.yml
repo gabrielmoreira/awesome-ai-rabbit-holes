@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__crates__io__crates__typesafe__jev__mcp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://crates.io/crates/typesafe-jev-mcp
-        surrounding_text: >-
-          - [typesafe-jev-mcp](https://github.com/anasbekheit/typesafe-jev-mcp)
-          ([site](https://crates.io/crates/typesafe-jev-mcp)) - MCP server exposing TypeSafe's Jev model as a typed
-          evaluate tool.
+        surrounding_text: "- [typesafe-jev-mcp](https://github.com/anasbekheit/typesafe-jev-mcp) ([site](https://crates.io/crates/typesafe-jev-mcp)) - MCP server exposing TypeSafe's Jev model as a typed evaluate tool."
         confidence: high
 metadata:
   github:
@@ -39,11 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: typesafe-jev-mcp (site) - MCP server exposing TypeSafe's Jev model as a typed evaluate tool.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Rust crate providing a type-safe Jev Model Context Protocol (MCP) server for System One decision models.
+  why_it_matters: Enables developers to expose Jev decision model judgments over MCP for integration with AI agents and workflows.
+  mental_damage: Another MCP wrapper for a niche decision model, because the world clearly needed yet another way to pipe Jev judgments into agents.
+  tags:
+    - mcp
+    - jev
+    - decision-model
+    - rust
+    - typesafe
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
@@ -52,14 +54,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Local Serving & Gateways
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:39.043Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f65f29f07e48b9dc16e11114cc7fb36c5b1783c30529e40f44aba359fc7c59b5
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The crate's primary identity is an MCP server exposing a decision model (Jev) over the Model Context Protocol, making MCP the core product identity rather than a compatibility feature.
+      decision_evidence:
+        - Named typesafe-jev-mcp and published on crates.io as a Rust crate
+        - Described as providing a type-safe Jev MCP server for TypeSafe AI's System One model
+        - Listed in awesome-jev under Benchmarks & research as a project built on Jev
+      category_candidates:
+        - mcp
+        - decision-models
+      contrastive_reason: Choose mcp over decision-models because the product's identity is an MCP server exposing the Jev model, not the decision model itself or its SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

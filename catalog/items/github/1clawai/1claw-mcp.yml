@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1clawai__1claw-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,12 +20,7 @@ provenance:
           - 💻 Developer Tools
         anchor_text: 1clawAI/1claw-mcp
         extracted_url: https://github.com/1clawai/1claw-mcp
-        surrounding_text: >-
-          -   **[1clawAI/1claw-mcp](https://github.com/1clawAI/1claw-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/1clawAI/1claw-mcp?style=social)](https://github.com/1clawAI/1claw-mcp):
-          HSM-backed secret vault for AI agents. Fetches API keys and tokens at call time with scoped, short-lived,
-          revocable access so raw secrets never touch the model context, environment, or logs. Also does keyless
-          multi-chain signing and a no-account local prompt-injection inspector.
+        surrounding_text: "-   **[1clawAI/1claw-mcp](https://github.com/1clawAI/1claw-mcp)** [![GitHub stars](https://img.shields.io/github/stars/1clawAI/1claw-mcp?style=social)](https://github.com/1clawAI/1claw-mcp): HSM-backed secret vault for AI agents. Fetches API keys and tokens at call time with scoped, short-lived, revocable access so raw secrets never touch the model context, environment, or logs. Also does keyless multi-chain signing and a no-account local prompt-injection inspector."
         confidence: high
 metadata:
   github:
@@ -35,26 +30,31 @@ metadata:
     archived: false
     full_name: 1clawAI/1claw-mcp
     html_url: https://github.com/1clawAI/1claw-mcp
-    created_at: '2026-02-20T15:20:23Z'
-    pushed_at: '2026-09-28T19:58:25Z'
+    created_at: "2026-02-20T15:20:23Z"
+    pushed_at: "2026-09-28T19:58:25Z"
     description: MCP server for 1claw secrets vault — gives AI agents secure, just-in-time access to secrets
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:15.395Z'
+    last_checked_at: "2026-09-29T13:08:15.395Z"
     readme:
-      fetched_at: '2026-09-29T13:08:15.395Z'
+      fetched_at: "2026-09-29T13:08:15.395Z"
       bytes: 39143
 insights:
-  summary: MCP server for 1claw secrets vault — gives AI agents secure, just-in-time access to secrets
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server that provides secure, just-in-time access to the 1claw secrets vault for AI agents.
+  why_it_matters: Lets AI agents retrieve secrets dynamically without hardcoding credentials, improving security in agent workflows.
+  mental_damage: Another layer of secret-handling anxiety as we teach agents to knock before entering the vault.
+  tags:
+    - mcp
+    - security
+    - secrets
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Dev & Code Tools
+  reason: The project is an MCP server whose primary identity is exposing secrets vault capabilities over the Model Context Protocol, fitting the MCP ecosystem category.
   evidence:
-    - jev-latest choice confidence 0.85
+    - "Repo description: 'MCP server for 1claw secrets vault — gives AI agents secure, just-in-time access to secrets'"
+    - Listed in awesome-mcp-list under Developer Tools section
+    - Created 2026-02-20, pushed 2026-09-28, MIT licensed, not archived
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -65,15 +65,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:15.395Z'
+    updated_at: "2026-09-29T13:08:15.395Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:30.251Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ac31862f9c193a93ba97c5076bef6d969064ae08f9e7465137c648b6d37e084a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server whose primary identity is exposing secrets vault capabilities over the Model Context Protocol, fitting the MCP ecosystem category.
+      decision_evidence:
+        - "Repo description: 'MCP server for 1claw secrets vault — gives AI agents secure, just-in-time access to secrets'"
+        - Listed in awesome-mcp-list under Developer Tools section
+        - Created 2026-02-20, pushed 2026-09-28, MIT licensed, not archived
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's identity is being an MCP server, not an add-on that extends a coding agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

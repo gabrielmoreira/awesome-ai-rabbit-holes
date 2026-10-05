@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__yepcode__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Official Servers
         anchor_text: YepCode
         extracted_url: https://yepcode.io
-        surrounding_text: >-
-          - **[YepCode](https://github.com/yepcode/mcp-server-js)** - Execute any LLM-generated code in the
-          [YepCode](https://yepcode.io) secure and scalable sandbox environment and create your own MCP tools using
-          JavaScript or Python, with full support for NPM and PyPI packages
+        surrounding_text: "- **[YepCode](https://github.com/yepcode/mcp-server-js)** - Execute any LLM-generated code in the [YepCode](https://yepcode.io) secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with full support for NPM and PyPI packages"
         confidence: high
 metadata:
   github:
@@ -39,46 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    YepCode is a developer-first platform for building, running, and scaling AI-powered integrations in secure sandboxes
-    with dependency and secrets management.
-  why_it_matters: >-
-    It lets developers run AI-generated or custom code integrations without managing infrastructure, reducing DevOps
-    overhead.
-  mental_damage: >-
-    Another 'Zapier for developers' pitch that somehow still requires you to write the code Zapier was supposed to
-    eliminate.
+  summary: YepCode is a developer-first platform for building, running, and scaling AI-powered integrations and automations in secure sandboxes with built-in dependency, secret, and audit trail management.
+  why_it_matters: It lets developers write and deploy code-driven automations without managing infrastructure, reducing time-to-deploy for API and service integrations.
+  mental_damage: Another 'Zapier for developers' pitch that makes you wonder if we've solved integration or just renamed the same problem.
   tags:
     - integrations
-    - serverless
-    - ai-workflows
+    - automation
+    - saas-platform
   confidence: medium
 curation:
   status: included
-  reason: >-
-    YepCode is a platform whose core integration bridge is exposing processes as MCP tools and providing a run_code MCP
-    tool, making MCP a primary product identity rather than a side feature.
+  reason: YepCode is a platform whose core integration bridge is exposing processes as MCP tools and providing a run_code MCP tool, making MCP a primary product identity rather than a side feature.
   evidence:
-    - 'Listed in awesome-mcp-servers under Official Servers with purpose: exposing YepCode processes as MCP tools.'
-    - >-
-      Site states: 'Easily integrate with your agents using our MCP server — any YepCode process can be exposed as an
-      MCP tool, and you can also use the built-in run_code tool.'
-    - >-
-      Platform provides SDKs and REST API to run AI-generated JS/Python code in secure sandboxes with secrets, logs, and
-      audit trails.
+    - "Listed in awesome-mcp-servers under Official Servers with purpose: exposing YepCode processes as MCP tools."
+    - "Site states: 'Easily integrate with your agents using our MCP server — any YepCode process can be exposed as an MCP tool, and you can also use the built-in run_code tool.'"
+    - Platform provides SDKs and REST API to run AI-generated JS/Python code in secure sandboxes with secrets, logs, and audit trails.
     - jev winnow:e4b 0.30 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
-  section: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''app-builders'''
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.671Z'
+    updated_at: "2026-05-06T22:12:15.671Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,38 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:29.148Z'
+    updated_at: "2026-10-05T04:58:15.830Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a7a26f90728ba2246b7e15e14c64163a7d37707461c3c87ccb1a9e1bf6c08e26
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:56b267f0a49963fc33c38d496509a9ab8ff18d665f58959a8d05e2c3c68dc961
       proposed_primary_category: app-builders
       disagreement: true
-      decision_reason: >-
-        YepCode primarily enables developers to turn prompts or scripts into deployable integrations and automations,
-        aligning with app-builder patterns rather than coding agents or orchestration platforms.
+      decision_reason: YepCode's core identity is a hosted platform for creating and operating AI-powered integrations via code, not a coding agent, framework, or MCP infrastructure; its primary value turns prompts or scripts into deployable automations that connect APIs and services, fitting the app-builder pattern for internal tools.
       decision_evidence:
-        - >-
-          Scraped site context states: 'Build, run, and scale AI-powered integrations — faster and safer. Run code
-          (including AI-generated) in secure sandboxes with dependencies, secrets, logs, and audit trails built in.'
-        - >-
-          Source-list context from awesome-mcp-servers lists it under 'Official Servers' with the description: 'Run code
-          (including AI-generated) in secure sandboxes with dependencies, secrets, logs, and audit trails built in. No
-          DevOps hassle.'
-        - >-
-          README excerpt emphasizes: 'Write code that connects to any API, database, or service. Run AI-generated
-          scripts safely in isolated sandboxes... Ship integrations in days — without standing up infrastructure.'
+        - "Scraped site context: 'The developer-first platform to build, run, and scale AI-powered integrations' and 'Write code that connects to any API, database, or service. Run AI-generated scripts safely in isolated sandboxes... Ship integrations in days — without standing up infrastructure.'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' with description emphasizing 'Build, run, and scale AI-powered integrations — faster and safer.'"
+        - "README excerpt: Prompts users to 'Get started for free' and 'Try the ✨ Yep Agent' to execute code that connects to services, positioning it as a turnkey integration platform rather than a coding assistant or library."
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: >-
-        Choose app-builders over agent-orchestration because YepCode focuses on turning code/prompts into deployable
-        integrations rather than coordinating multiple agents or managing agent workflows as its core function.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''app-builders'''
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because YepCode's main surface turns prompts or scripts into deployed integrations and automations rather than acting as a primary coding assistant that edits existing codebases.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__datacamp__com__blog__system__one__models__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -16,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - Articles & threads
-        anchor_text: 'Jev: System One models explained (DataCamp)'
+        anchor_text: "Jev: System One models explained (DataCamp)"
         extracted_url: https://datacamp.com/blog/system-one-models-jev
-        surrounding_text: >-
-          - [Jev: System One models explained (DataCamp)](https://www.datacamp.com/blog/system-one-models-jev) -
-          Third-party write-up of the System One primitives, pricing, and vendor workflow evals.
+        surrounding_text: "- [Jev: System One models explained (DataCamp)](https://www.datacamp.com/blog/system-one-models-jev) - Third-party write-up of the System One primitives, pricing, and vendor workflow evals."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post introducing Jev (System One) as TypeSafe AI's decision model for probabilistic reasoning.
+  why_it_matters: Explains a novel decision-model approach that could influence how developers build judgment-based tooling.
+  mental_damage: Another AI taxonomy deep-dive that makes you question whether you're reading research or a product pitch.
+  tags:
+    - decision-model
+    - jev
+    - blog
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The source is an informational blog post about a decision model concept, not a developer-facing tool, SDK, or product that performs a function in a workflow.
   evidence:
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - URL points to datacamp.com/blog/system-one-models-jev, an article
+    - No GitHub repo, no code, no installation, no CLI or API described
+    - Source-list context shows it's only referenced in an awesome-jev directory as an article
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - awesome-awesomes
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:42.073Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:82190f7d69d8d803f628222b7722c8dfec433dd728e3251d34876cc7f41e83a8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The source is an informational blog post about a decision model concept, not a developer-facing tool, SDK, or product that performs a function in a workflow.
+      decision_evidence:
+        - URL points to datacamp.com/blog/system-one-models-jev, an article
+        - No GitHub repo, no code, no installation, no CLI or API described
+        - Source-list context shows it's only referenced in an awesome-jev directory as an article
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

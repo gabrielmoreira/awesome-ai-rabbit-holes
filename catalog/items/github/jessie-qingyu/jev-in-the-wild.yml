@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jessie-qingyu__jev-in-the-wild__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Related lists
         anchor_text: jev-in-the-wild
         extracted_url: https://github.com/jessie-qingyu/jev-in-the-wild
-        surrounding_text: >-
-          - [jev-in-the-wild](https://github.com/Jessie-QingYu/jev-in-the-wild) - Index covering Reddit, Hacker News and
-          YouTube alongside GitHub, with a dedicated section for limits and failed results. Data is JSON with a schema;
-          the README is generated from it.
+        surrounding_text: "- [jev-in-the-wild](https://github.com/Jessie-QingYu/jev-in-the-wild) - Index covering Reddit, Hacker News and YouTube alongside GitHub, with a dedicated section for limits and failed results. Data is JSON with a schema; the README is generated from it."
         confidence: high
 metadata:
   github:
@@ -40,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-in-the-wild - Index covering Reddit, Hacker News and YouTube alongside GitHub, with a dedicated section for
-    limits and failed results. Data is JSON with a schema; the README is generated from it.
+  summary: jev-in-the-wild - Index covering Reddit, Hacker News and YouTube alongside GitHub, with a dedicated section for limits and failed results. Data is JSON with a schema; the README is generated from it.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

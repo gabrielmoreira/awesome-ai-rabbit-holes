@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__lianjiatech__belle__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Large Language Model
         anchor_text: BELLE
         extracted_url: https://github.com/lianjiatech/belle
-        surrounding_text: >-
-          | [BELLE](https://github.com/LianjiaTech/BELLE)                           | A 7B Large Language Model
-          fine-tune by 34B Chinese Character Corpus, based on LLaMA and
-          Alpaca.                                                                                            | ![GitHub
-          Badge](https://img.shields.io/github/stars/LianjiaTech/BELLE.svg?style=flat-square)              |
+        surrounding_text: "| [BELLE](https://github.com/LianjiaTech/BELLE)                           | A 7B Large Language Model fine-tune by 34B Chinese Character Corpus, based on LLaMA and Alpaca.                                                                                            | ![GitHub Badge](https://img.shields.io/github/stars/LianjiaTech/BELLE.svg?style=flat-square)              |"
         confidence: high
 metadata:
   github:
@@ -34,10 +30,10 @@ metadata:
     archived: false
     full_name: LianjiaTech/BELLE
     html_url: https://github.com/LianjiaTech/BELLE
-    created_at: '2023-03-17T09:44:11Z'
-    pushed_at: '2024-10-16T11:38:59Z'
-    description: 'BELLE: Be Everyone''s Large Language model Engine（开源中文对话大模型）'
-    homepage: ''
+    created_at: "2023-03-17T09:44:11Z"
+    pushed_at: "2024-10-16T11:38:59Z"
+    description: "BELLE: Be Everyone's Large Language model Engine（开源中文对话大模型）"
+    homepage: ""
     topics:
       - bloom
       - chinese-nlp
@@ -49,17 +45,13 @@ metadata:
       - llama
       - lora
       - open-models
-    last_checked_at: '2026-07-30T05:06:05.334Z'
+    last_checked_at: "2026-07-30T05:06:05.334Z"
     readme:
-      fetched_at: '2026-07-30T05:06:05.334Z'
+      fetched_at: "2026-07-30T05:06:05.334Z"
       bytes: 26696
 insights:
-  summary: >-
-    BELLE is an open-source Chinese large language model engine focused on instruction fine-tuning and releasing models,
-    datasets, and training code for developers.
-  why_it_matters: >-
-    It lowers the barrier to Chinese LLM research and application by providing open models, data, and training pipelines
-    that developers can use or build upon.
+  summary: BELLE is an open-source Chinese large language model engine focused on instruction fine-tuning and releasing models, datasets, and training code for developers.
+  why_it_matters: It lowers the barrier to Chinese LLM research and application by providing open models, data, and training pipelines that developers can use or build upon.
   mental_damage: Another model repo where you download weights hoping they’ll work better than the last one you fine-tuned at 3 AM.
   tags:
     - llm
@@ -69,14 +61,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    BELLE is primarily a model release and research project, not a developer-facing tool, agent, framework, or
-    infrastructure that directly aids coding workflows.
+  reason: BELLE is primarily a model release and research project, not a developer-facing tool, agent, framework, or infrastructure that directly aids coding workflows.
   evidence:
-    - 'Repo description: ''BELLE: Be Everyone''s Large Language model Engine（开源中文对话大模型）'''
-    - >-
-      README focuses on releasing Chinese-optimized LLMs, datasets, and training code, not on developer tooling or
-      workflow integration
+    - "Repo description: 'BELLE: Be Everyone's Large Language model Engine（开源中文对话大模型）'"
+    - README focuses on releasing Chinese-optimized LLMs, datasets, and training code, not on developer tooling or workflow integration
     - Appears in Awesome-LLMOps under 'Model > Large Language Model', indicating a model-centric identity
 placement:
   primary_category: null
@@ -87,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.626Z'
+    updated_at: "2026-05-06T22:12:15.626Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:06:05.334Z'
+    updated_at: "2026-07-30T05:06:05.334Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.822Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -112,14 +100,10 @@ processing:
       input_hash: sha256:b520f829891d0c0884d377b27e40f47e358521b4e83d5f8165d38f1e9ed0d4ec
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        BELLE is primarily a model release and research project, not a developer-facing tool, agent, framework, or
-        infrastructure that directly aids coding workflows.
+      decision_reason: BELLE is primarily a model release and research project, not a developer-facing tool, agent, framework, or infrastructure that directly aids coding workflows.
       decision_evidence:
-        - 'Repo description: ''BELLE: Be Everyone''s Large Language model Engine（开源中文对话大模型）'''
-        - >-
-          README focuses on releasing Chinese-optimized LLMs, datasets, and training code, not on developer tooling or
-          workflow integration
+        - "Repo description: 'BELLE: Be Everyone's Large Language model Engine（开源中文对话大模型）'"
+        - README focuses on releasing Chinese-optimized LLMs, datasets, and training code, not on developer tooling or workflow integration
         - Appears in Awesome-LLMOps under 'Model > Large Language Model', indicating a model-centric identity
       category_candidates: []
       contrastive_reason: null

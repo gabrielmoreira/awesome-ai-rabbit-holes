@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__testrigor__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: TestRigor
         extracted_url: https://testrigor.com
-        surrounding_text: '- **[TestRigor](https://testrigor.com/)** – Plain English test automation with self-healing.'
+        surrounding_text: "- **[TestRigor](https://testrigor.com/)** – Plain English test automation with self-healing."
         confidence: high
 metadata:
   github:
@@ -36,44 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    testRigor is an AI-powered test automation tool that generates and runs end-to-end UI tests from plain English
-    instructions.
-  why_it_matters: >-
-    It reduces test maintenance overhead by using AI to interpret natural language and adapt to UI changes, enabling
-    faster test creation and execution for QA and engineering teams.
-  mental_damage: >-
-    Finally, a tool that promises to make QA engineers feel useful again — by letting them write tests in plain English
-    instead of fighting brittle selectors.
+  summary: testRigor is a generative AI-powered test automation tool that creates and executes end-to-end UI tests from plain English instructions.
+  why_it_matters: It reduces test maintenance and increases coverage by letting QA and engineering teams write stable tests in natural language without code.
+  mental_damage: Finally, a tool that promises to make test maintenance disappear — as if the real problem wasn’t the tests, but the humans who write them.
   tags:
     - testing
     - qa
-    - ai-testing
-  confidence: medium
+    - ai
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    The product is a specialized AI testing tool that augments QA workflows rather than serving as a primary coding
-    assistant or IDE.
+  status: excluded
+  reason: testRigor is a SaaS testing platform focused on end-to-end UI validation, not a developer-facing AI tool for coding, agents, or workflows; its primary identity is test execution, not code manipulation or AI-assisted development.
   evidence:
-    - Described as an AI-based test automation tool for end-to-end test cases using plain English
-    - Listed in awesome-ai-coding-tools under Testing and QA
-    - Focuses on test generation, maintenance, and execution rather than code editing or repo management
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at
-      coding-agents (unverified)
+    - Scraped site context describes testRigor as an 'AI-Based Test Automation Tool' for end-to-end UI testing across web, mobile, desktop, and mainframe platforms
+    - README emphasizes test generation from plain English, test stability, and reduced maintenance — all QA/testing outcomes, not coding assistance
+    - Source-list context places it in 'awesome-ai-coding-tools' under 'Testing and QA', confirming its domain is test automation, not developer tooling for coding tasks
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories:
     - ai-frameworks
   section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''extensions-and-addons'''
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,37 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:47:23.164Z'
+    updated_at: "2026-10-05T04:56:02.006Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d817c9f6d6a4d22fb26e0175b3f27b9e99005439e589d52dd0da567959f6f889
-      proposed_primary_category: extensions-and-addons
-      disagreement: true
-      decision_reason: >-
-        testRigor functions as an AI-powered testing add-on that integrates with CI/CD and developer workflows,
-        augmenting coding agents like Claude Code rather than acting as a primary coding assistant itself.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f8afb833df06fa7a9e4d9a930bab0e7837a96ee464dbf6b6db71999c1683a581
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: testRigor is a SaaS testing platform focused on end-to-end UI validation, not a developer-facing AI tool for coding, agents, or workflows; its primary identity is test execution, not code manipulation or AI-assisted development.
       decision_evidence:
-        - Integrates with GitHub Actions, GitLab, Jenkins, Jira, and other developer tools as part of the CI/CD pipeline
-        - >-
-          Enables test generation through Claude Code using MCP and Skills, positioning it as a tool used by coding
-          agents
-        - >-
-          Marketed as a test automation tool for QA teams, not a code-writing agent — output is test scripts, not
-          application code
-      category_candidates:
-        - extensions-and-addons
-        - evals
-      contrastive_reason: >-
-        Choose extensions-and-addons over evals because testRigor’s primary function is generating and executing tests
-        as an integrated workflow tool, not measuring, scoring, or benchmarking model or agent behavior.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'coding-agents', proposed
-        'extensions-and-addons'
+        - Scraped site context describes testRigor as an 'AI-Based Test Automation Tool' for end-to-end UI testing across web, mobile, desktop, and mainframe platforms
+        - README emphasizes test generation from plain English, test stability, and reduced maintenance — all QA/testing outcomes, not coding assistance
+        - Source-list context places it in 'awesome-ai-coding-tools' under 'Testing and QA', confirming its domain is test automation, not developer tooling for coding tasks
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

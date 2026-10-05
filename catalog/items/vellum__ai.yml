@@ -1,12 +1,12 @@
 id: vellum__ai
 kind: website
-name: vellum.ai
+name: Vellum
 canonical_url: https://vellum.ai
 identity: {}
 provenance:
   discoveries:
     - id: discovery__vellum__ai__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,11 +18,22 @@ provenance:
           - LLMOps
         anchor_text: Vellum
         extracted_url: https://vellum.ai
-        surrounding_text: >-
-          | [Vellum](https://www.vellum.ai/)                                   | An AI product development platform to
-          experiment with, evaluate, and deploy advanced LLM
-          apps.                                                                                                                                                                                                                                                                                                         
-          |                                                                                                           |
+        surrounding_text: "| [Vellum](https://www.vellum.ai/)                                   | An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.                                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        confidence: high
+    - id: discovery__www__vellum__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Vellum
+        extracted_url: https://www.vellum.ai
+        surrounding_text: "| [Vellum](https://www.vellum.ai/)                                   | An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.                                                                                                                                                                                                                                                                                                          |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -40,34 +51,41 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI product development platform to experiment with, evaluate, and deploy advanced LLM apps.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Vellum is a personal AI assistant with persistent memory and task automation that runs locally or in the cloud to manage personal and business workflows.
+  why_it_matters: It gives developers a private, extensible AI agent that can act across tools like email, calendar, and code, reducing context-switching overhead.
+  mental_damage: Another 'always-on' AI companion promising to remember your life while quietly training the expectation that your assistant should anticipate your needs before you do.
+  tags:
+    - ai-assistant
+    - personal-ai
+    - task-automation
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
     - jev-latest choice confidence 0.54
+    - "included: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate"
+    - README emphasizes managing groceries, guitar practice, flight prices, and date nights as core use cases
+    - Scraped site describes it as 'a personal AI assistant for your busywork' with no mention of code editing, repo interaction, or development tooling
+    - Source-list context places it in Awesome-LLMOps under a vague personal assistant description, not a developer tool
+    - "excluded: Vellum is a general-purpose personal AI assistant focused on life and business task automation, not developer-specific coding tasks or workflows."
 placement:
-  primary_category: app-builders
-  secondary_categories: []
-  section: Scaffolding & Boilerplate
+  primary_category: null
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
-    cause: null
-    next_retry_at: null
-  stars:
+  categorize:
     status: pending
     updated_at: null
     cause: null
-  categorize:
+  discover:
+    status: done
+    updated_at: "2026-09-29T13:07:10.494Z"
+    cause: null
+    next_retry_at: null
+  stars:
     status: pending
     updated_at: null
     cause: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pulsemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - MCP Servers and Directories
         anchor_text: PulseMCP
         extracted_url: https://pulsemcp.com/servers
-        surrounding_text: '- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers.'
+        surrounding_text: "- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers."
         confidence: high
     - id: discovery__www__pulsemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: PulseMCP
         extracted_url: https://www.pulsemcp.com/servers
-        surrounding_text: '- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers.'
+        surrounding_text: "- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers."
         confidence: high
 metadata:
   github:
@@ -51,16 +51,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PulseMCP is a curated directory of MCP servers organized by category and use case.
-  why_it_matters: >-
-    It helps developers discover and evaluate MCP servers for integrating AI agents with external tools and data
-    sources.
-  mental_damage: Another directory to scroll through while pretending you're staying on top of the MCP gold rush.
+  summary: PulseMCP is a directory and registry of MCP servers for discovering and connecting to Model Context Protocol tools and services.
+  why_it_matters: It helps developers find and integrate MCP-compatible tools into their AI agent workflows by centralizing server discovery.
+  mental_damage: Another MCP directory to bookmark before realizing you still have to manually configure each server in your agent.
   tags:
     - mcp
     - directory
-    - discovery
-  confidence: medium
+    - registry
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -69,43 +67,40 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:44:52.499Z'
+    updated_at: "2026-10-05T04:50:26.323Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:400e63da4a9ee088e417729c6012eace548c92822b14ac3620e83ae6b51c44d8
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6a3189c421353f9e5724455d3ae6ddb827f447e147d60e503128967d5c3c675a
+      proposed_primary_category: mcp
       disagreement: true
-      decision_reason: >-
-        PulseMCP functions as a curated directory for MCP servers, aligning with the purpose of awesome-awesomes as a
-        navigation aid for developer tooling.
+      decision_reason: PulseMCP is an MCP server registry and discovery service, making MCP its primary identity rather than a secondary feature, which fits the MCP Ecosystem category.
       decision_evidence:
-        - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
-        - Described as a site providing MCP servers organized by category at pulsemcp.com/servers
+        - URL is pulsemcp.com/servers, indicating a focus on MCP servers
+        - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' section
+        - Product identity centers on exposing and discovering MCP servers
       category_candidates:
-        - awesome-awesomes
         - mcp
-      contrastive_reason: >-
-        Choose awesome-awesomes over mcp because PulseMCP is a directory or list of MCP servers, not an MCP server,
-        client, registry, or infrastructure tool itself.
-      review_reason: 'Categorization review required: placement disagreement: retained ''mcp'', proposed ''awesome-awesomes'''
+        - app-builders
+      contrastive_reason: Choose mcp over app-builders because PulseMCP does not generate apps from prompts but instead serves as a registry for MCP servers, making protocol infrastructure its core identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.969Z'
+    updated_at: "2026-07-21T15:20:21.969Z"
     cause: null
     next_retry_at: null
   stars:

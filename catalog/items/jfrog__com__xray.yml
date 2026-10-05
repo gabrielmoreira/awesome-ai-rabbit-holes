@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jfrog__com__xray__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Security
         anchor_text: JFrog Xray
         extracted_url: https://jfrog.com/xray
-        surrounding_text: '- **[JFrog Xray](https://jfrog.com/xray/)** – Security and compliance scanning for DevOps pipelines.'
+        surrounding_text: "- **[JFrog Xray](https://jfrog.com/xray/)** – Security and compliance scanning for DevOps pipelines."
         confidence: high
 metadata:
   github:
@@ -36,31 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Xray is a DevSecOps tool that scans container images and binaries for security vulnerabilities, malware, and policy
-    violations.
-  why_it_matters: >-
-    It helps developers catch security issues early in the CI/CD pipeline by integrating automated scanning into build
-    and deployment workflows.
-  mental_damage: Because nothing says 'move fast and break things' like waiting for a security scan to finish before you can ship.
+  summary: JFrog Xray is an enterprise software composition analysis (SCA) tool that continuously scans repositories, build artifacts, and container images for security vulnerabilities and license compliance issues throughout the development lifecycle.
+  why_it_matters: It gives developers real-time visibility into open-source risks directly in their workflow, enabling automated detection and remediation of vulnerabilities before they reach production.
+  mental_damage: Another layer of security theater that turns every dependency update into a compliance audit, making you wonder if 'shift left' just means shifting blame earlier.
   tags:
     - security
+    - sca
     - devsecops
-    - scanning
+    - supply-chain
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI agent,
-    assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization error.
+  reason: Xray is a general-purpose security and compliance scanning tool for software artifacts, not an AI-specific developer tool; while it now includes AI asset scanning, its core identity and value proposition remain rooted in traditional SCA and DevSecOps workflows, not AI-native coding assistance.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools |
-      section: Security
-    - >-
-      No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior beyond
-      standard security scanning.
+    - Repo description is missing, but the scraped site positions Xray as an 'enterprise grade software composition analysis (SCA) tool' focused on open source vulnerabilities and license compliance.
+    - The source-list context places it in the 'Security' section of awesome-ai-coding-tools, indicating tertiary relevance rather than primary AI tooling identity.
+    - Despite AI-related additions like the AI Catalog and Agent Guard, the primary product identity remains SCA-based artifact scanning, not AI agent interaction, coding, or workflow augmentation.
 placement:
   primary_category: null
   section: null
@@ -70,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,31 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:30:17.355Z'
+    updated_at: "2026-10-05T04:35:04.419Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2f33320db5e9bcbd8c646200b16157184c1672b1d20365930ba2bc0682d1653b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f663a4c4fd0496f61518d2539f8017d55cd7dae8288d921e7387ddc68b024d77
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Xray is a general-purpose DevSecOps scanning tool with no AI-specific functionality or developer-facing AI
-        agent, assistant, or workflow features; its inclusion in an AI coding tools list appears to be a categorization
-        error.
+      decision_reason: Xray is a general-purpose security and compliance scanning tool for software artifacts, not an AI-specific developer tool; while it now includes AI asset scanning, its core identity and value proposition remain rooted in traditional SCA and DevSecOps workflows, not AI-native coding assistance.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding
-          tools | section: Security
-        - >-
-          No README excerpt, scraped site context, or other signals indicate AI, agent, or developer tooling behavior
-          beyond standard security scanning.
+        - Repo description is missing, but the scraped site positions Xray as an 'enterprise grade software composition analysis (SCA) tool' focused on open source vulnerabilities and license compliance.
+        - The source-list context places it in the 'Security' section of awesome-ai-coding-tools, indicating tertiary relevance rather than primary AI tooling identity.
+        - Despite AI-related additions like the AI Catalog and Agent Guard, the primary product identity remains SCA-based artifact scanning, not AI agent interaction, coding, or workflow augmentation.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

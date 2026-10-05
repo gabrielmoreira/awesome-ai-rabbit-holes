@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aidevboard__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - Developer Productivity Tools
         anchor_text: AI Dev Jobs
         extracted_url: https://aidevboard.com
-        surrounding_text: >-
-          - **[AI Dev Jobs](https://aidevboard.com)** – AI job board aggregating 6,000+ positions from 340+ companies
-          like OpenAI, Anthropic, and Google DeepMind. Free API and MCP server for AI-powered job search.
+        surrounding_text: "- **[AI Dev Jobs](https://aidevboard.com)** – AI job board aggregating 6,000+ positions from 340+ companies like OpenAI, Anthropic, and Google DeepMind. Free API and MCP server for AI-powered job search."
         confidence: high
     - id: discovery__aidevboard__com__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-17T04:13:23.413Z'
+      discovered_at: "2026-09-17T04:13:23.413Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -36,11 +34,7 @@ provenance:
           - 🔎 Search
         anchor_text: aidevboard.com
         extracted_url: https://aidevboard.com
-        surrounding_text: >-
-          -   **[unitedideas/aidevboard-mcp](https://github.com/unitedideas/aidevboard-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/unitedideas/aidevboard-mcp?style=social)](https://github.com/unitedideas/aidevboard-mcp):
-          MCP server for AI developer job search. Search 5,000+ AI and ML positions with filters for role, location, and
-          salary. Live at [aidevboard.com](https://aidevboard.com).
+        surrounding_text: "-   **[unitedideas/aidevboard-mcp](https://github.com/unitedideas/aidevboard-mcp)** [![GitHub stars](https://img.shields.io/github/stars/unitedideas/aidevboard-mcp?style=social)](https://github.com/unitedideas/aidevboard-mcp): MCP server for AI developer job search. Search 5,000+ AI and ML positions with filters for role, location, and salary. Live at [aidevboard.com](https://aidevboard.com)."
         confidence: high
 metadata:
   github:
@@ -58,25 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A job board specializing in AI developer roles with salary data and market demand insights.
-  why_it_matters: >-
-    Provides visibility into the specific skills and salary benchmarks currently being demanded by companies building AI
-    infrastructure and applications.
-  mental_damage: Finally, a way to quantify exactly how much your specific flavor of LLM prompting is worth in the current market.
+  summary: AI Dev Jobs is a job board for AI developer roles with filters by location, salary, experience, and tech stack.
+  why_it_matters: Helps developers find AI engineering positions and companies hire ML talent.
+  mental_damage: Yet another reminder that your LinkedIn inbox is now a full-time job to monitor.
   tags:
-    - jobs
+    - job-board
     - career
-    - salary
+    - hiring
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The product is a job board and career resource, which falls under broad news/media/career rather than
-    developer-facing tooling or infrastructure.
+  reason: It is a job board, not a developer-facing AI tool, workflow, or infrastructure product.
   evidence:
-    - "Scraped site title and description: 'AI Dev Jobs — 9122 AI Developer Jobs · Hire ML Engineers'"
-    - Primary page excerpt shows job listings with filters for location, salary, experience, and tech stack
-    - Appears in source lists as a job board under 'Developer Productivity Tools' and 'MCP' sections, but these are misplacements
+    - Scraped site context shows it lists AI developer jobs with filters and salary data
+    - Source-list context places it in awesome-ai-coding-tools under 'Developer Productivity Tools' but links to job listings
+    - No evidence of AI tooling, agents, frameworks, or developer workflows in the page excerpt
 placement:
   primary_category: null
   section: null
@@ -86,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-17T04:13:23.416Z'
+    updated_at: "2026-09-17T04:13:23.416Z"
     cause: null
     next_retry_at: null
   stars:
@@ -94,31 +84,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:15.185Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for aidevboard__com: Upstream error from Nvidia: ResourceExhausted: Worker
-        local total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:27:55.746Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9733f15a6e9681511570175be25d5af47b4b8148eaa5f66c2b646ac288d73283
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:249e144afa88614b329c527d9eb0eec0d8d5c0a70760b8e67ecd212fe1a21419
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a job board and career resource, which falls under broad news/media/career rather than
-        developer-facing tooling or infrastructure.
+      decision_reason: It is a job board, not a developer-facing AI tool, workflow, or infrastructure product.
       decision_evidence:
-        - "Scraped site title and description: 'AI Dev Jobs — 9122 AI Developer Jobs · Hire ML Engineers'"
-        - Primary page excerpt shows job listings with filters for location, salary, experience, and tech stack
-        - Appears in source lists as a job board under 'Developer Productivity Tools' and 'MCP' sections, but these are misplacements
+        - Scraped site context shows it lists AI developer jobs with filters and salary data
+        - Source-list context places it in awesome-ai-coding-tools under 'Developer Productivity Tools' but links to job listings
+        - No evidence of AI tooling, agents, frameworks, or developer workflows in the page excerpt
       category_candidates: []
       contrastive_reason: null
       review_reason: null

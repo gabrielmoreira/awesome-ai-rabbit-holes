@@ -6,9 +6,8 @@ identity:
   github_repo: mysubb01/agent-ops-prompt-generator
 provenance:
   discoveries:
-    - id: >-
-        discovery__github__mysubb01__agent-ops-prompt-generator__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__github__mysubb01__agent-ops-prompt-generator__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -20,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Agent Ops Prompt Generator
         extracted_url: https://github.com/mysubb01/agent-ops-prompt-generator
-        surrounding_text: >-
-          - **[Agent Ops Prompt Generator](https://github.com/mysubb01/agent-ops-prompt-generator)** – Free local-first
-          browser and CLI tool that generates Korean prompts for AI coding agents during incident triage, deploy smoke
-          checks, code review, data correction, and handoff work.
+        surrounding_text: "- **[Agent Ops Prompt Generator](https://github.com/mysubb01/agent-ops-prompt-generator)** – Free local-first browser and CLI tool that generates Korean prompts for AI coding agents during incident triage, deploy smoke checks, code review, data correction, and handoff work."
         confidence: high
 metadata:
   github:
@@ -41,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Agent Ops Prompt Generator – Free local-first browser and CLI tool that generates Korean prompts for AI coding
-    agents during incident triage, deploy smoke checks, code review, data correction, and handoff work.
+  summary: Agent Ops Prompt Generator – Free local-first browser and CLI tool that generates Korean prompts for AI coding agents during incident triage, deploy smoke checks, code review, data correction, and handoff work.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -53,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.53
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills
-      (unverified)
+    - jev winnow:e4b 0.46 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -67,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.469Z'
+    updated_at: "2026-09-29T13:07:10.469Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

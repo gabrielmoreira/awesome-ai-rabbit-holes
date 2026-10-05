@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__denser__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://denser.ai
-        surrounding_text: >-
-          - [rerank-bench-jev](https://github.com/denser-org/rerank-bench-jev) ([site](https://denser.ai)) - Production
-          reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and
-          p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at
-          denser.ai.
+        surrounding_text: "- [rerank-bench-jev](https://github.com/denser-org/rerank-bench-jev) ([site](https://denser.ai)) - Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at denser.ai."
         confidence: high
 metadata:
   github:
@@ -40,17 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Denser.ai is a customer support platform that deploys AI chatbots and helpdesk across website, email, phone, and WhatsApp channels using a shared knowledge base.
+  why_it_matters: It helps developers reduce support ticket volume by automating routine inquiries and surfacing knowledge gaps for teams to resolve once and never again.
+  mental_damage: Another AI tool promising to eliminate repetitive work, while quietly adding yet another dashboard to monitor whether the AI is actually working.
+  tags:
+    - customer-support
+    - ai-chatbot
+    - helpdesk
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: Denser.ai is an end-user customer support platform with AI chatbots and helpdesk features, not a developer-facing AI tool for coding, workflows, or infrastructure.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.48 below gate 0.50; proposed evals / Agent & LLM Benchmarks; no placement kept (unverified)
+    - Deploy one AI support agent across website chat, email, phone, and WhatsApp
+    - AI chatbot + built-in helpdesk
+    - Seen in awesome-jev under Benchmarks & research as a deployable AI support agent
 placement:
   primary_category: null
   secondary_categories:
@@ -62,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:52.727Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9b70ab15e1b98ab03c405d3f68e50aa3fb4a14cf1f279e2557219a67b482c1f7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Denser.ai is an end-user customer support platform with AI chatbots and helpdesk features, not a developer-facing AI tool for coding, workflows, or infrastructure.
+      decision_evidence:
+        - Deploy one AI support agent across website chat, email, phone, and WhatsApp
+        - AI chatbot + built-in helpdesk
+        - Seen in awesome-jev under Benchmarks & research as a deployable AI support agent
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

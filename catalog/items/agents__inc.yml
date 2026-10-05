@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - AGENTS.inc
         anchor_text: AGENTS.inc
         extracted_url: https://agents.inc
-        surrounding_text: '## [AGENTS.inc](https://www.agents.inc/)'
+        surrounding_text: "## [AGENTS.inc](https://www.agents.inc/)"
         confidence: high
     - id: discovery__www__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - AGENTS.inc
         anchor_text: AGENTS.inc
         extracted_url: https://www.agents.inc
-        surrounding_text: '## [AGENTS.inc](https://www.agents.inc/)'
+        surrounding_text: "## [AGENTS.inc](https://www.agents.inc/)"
         confidence: high
 metadata:
   github:
@@ -51,30 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AGENTS.inc is an enterprise AI agent platform marketed for marketing, sales, and market intelligence use cases.
-  why_it_matters: >-
-    It positions itself as an autonomous workforce for business functions, but offers no visible developer tooling or
-    integration points.
-  mental_damage: Another 'AI agent' rebrand selling buzzword bingo to enterprises while developers wonder where the code is.
+  summary: AGENTS.inc is a commercial provider of autonomous AI agents for enterprise marketing, sales, and market intelligence.
+  why_it_matters: It offers pre-built, production-tested AI agents for enterprise workflows, reducing the need to develop custom agent solutions from scratch.
+  mental_damage: Yet another vendor promising to replace your team with agents that still require six-figure contracts and PowerPoint decks to evaluate.
   tags:
+    - ai-agents
     - enterprise
     - marketing
-    - sales
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding,
-    workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend, or
-    operate AI systems.
+  reason: AGENTS.inc is a black-box SaaS provider of domain-specific AI agents for business functions like marketing and sales, not a developer-facing tool for coding, workflow orchestration, or AI infrastructure.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence. In
-      production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München.
-    - >-
-      Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise marketing,
-      sales and market intelligence'
+    - Scraped site context describes it as 'Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence' with production use at Kaufland, AXA, E.ON, etc.
+    - No GitHub repo, no README, no source code, no CLI, no SDK, no extension, no framework — only a hosted service for non-technical enterprise users.
+    - Listed in awesome-ai-agents under a section titled 'AGENTS.inc' with no indication it is a developer tool, framework, or open component.
 placement:
   primary_category: null
   section: null
@@ -84,38 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:44.971Z'
+    updated_at: "2026-10-05T04:45:57.893Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3e272bc11ec6be27e21081b3036d842f9e37b2480b93334cf2ea799200964463
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:db366c4eadf0df5225780d7724204e5af7f6cd74be8d9667afef996e1f5581cf
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        AGENTS.inc is marketed as an enterprise AI workforce for business users, not a developer-facing tool for coding,
-        workflow automation, or infrastructure — it lacks any indication of being usable by developers to build, extend,
-        or operate AI systems.
+      decision_reason: AGENTS.inc is a black-box SaaS provider of domain-specific AI agents for business functions like marketing and sales, not a developer-facing tool for coding, workflow orchestration, or AI infrastructure.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Scraped site context: Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence.
-          In production at Kaufland, AXA, E.ON, Petrobras, Henkel and Messe München.
-        - >-
-          Source-list context: Listed in awesome-ai-agents under 'Autonomous AI agents for enterprise enterprise
-          marketing, sales and market intelligence'
+        - Scraped site context describes it as 'Autonomous AI agents for enterprise enterprise marketing, sales and market intelligence' with production use at Kaufland, AXA, E.ON, etc.
+        - No GitHub repo, no README, no source code, no CLI, no SDK, no extension, no framework — only a hosted service for non-technical enterprise users.
+        - Listed in awesome-ai-agents under a section titled 'AGENTS.inc' with no indication it is a developer tool, framework, or open component.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:

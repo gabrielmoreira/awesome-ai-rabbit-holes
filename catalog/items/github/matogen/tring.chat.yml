@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__matogen__tring.chat__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,12 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: tring
         extracted_url: https://github.com/matogen/tring.chat
-        surrounding_text: >-
-          - **[tring](https://github.com/matogen/tring.chat)** `⭐ 2` — Browser-based terminal deck that runs up to 16
-          Claude Code, other agent, or plain shell sessions per project from a local Node daemon; one session fills the
-          center of the screen while the rest render as live thumbnails, and a tile turns green when its session
-          finishes and is waiting for input (quiet output, OSC 133 prompt, bell, or a Claude Code Stop hook). Ctrl+Space
-          then a digit jumps to a fixed slot. npm `tring-chat`. MIT.
+        surrounding_text: "- **[tring](https://github.com/matogen/tring.chat)** `⭐ 2` — Browser-based terminal deck that runs up to 16 Claude Code, other agent, or plain shell sessions per project from a local Node daemon; one session fills the center of the screen while the rest render as live thumbnails, and a tile turns green when its session finishes and is waiting for input (quiet output, OSC 133 prompt, bell, or a Claude Code Stop hook). Ctrl+Space then a digit jumps to a fixed slot. npm `tring-chat`. MIT."
         confidence: high
 metadata:
   github:
@@ -43,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    tring — Browser-based terminal deck that runs up to 16 Claude Code, other agent, or plain shell sessions per project
-    from a local Node daemon; one session fills the center of the screen while the rest render as live thumbnails, and a
-    tile turns green when its session finishes and is waiting for input (quiet output, OSC 133 prompt, bell, or a Claude
-    Code Stop hook). Ctrl+Space then a digit jumps to a fixed slot. npm tring-chat. MIT.
+  summary: tring — Browser-based terminal deck that runs up to 16 Claude Code, other agent, or plain shell sessions per project from a local Node daemon; one session fills the center of the screen while the rest render as live thumbnails, and a tile turns green when its session finishes and is waiting for input (quiet output, OSC 133 prompt, bell, or a Claude Code Stop hook). Ctrl+Space then a digit jumps to a fixed slot. npm tring-chat. MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

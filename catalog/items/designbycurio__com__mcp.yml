@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__designbycurio__com__mcp__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Curio MCP
         extracted_url: https://designbycurio.com/mcp
-        surrounding_text: >-
-          - **[Curio MCP](https://designbycurio.com/mcp)** – Design-style library for AI: search hundreds of real design
-          styles and fetch token-complete, machine-readable specs (colors, typography, spacing, components) to apply to
-          sites, decks, and products. OAuth sign-in, free tier included.
-          [Documentation](https://designbycurio.com/docs).
+        surrounding_text: "- **[Curio MCP](https://designbycurio.com/mcp)** – Design-style library for AI: search hundreds of real design styles and fetch token-complete, machine-readable specs (colors, typography, spacing, components) to apply to sites, decks, and products. OAuth sign-in, free tier included. [Documentation](https://designbycurio.com/docs)."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Curio MCP – Design-style library for AI: search hundreds of real design styles and fetch token-complete,
-    machine-readable specs (colors, typography, spacing, components) to apply to sites, decks, and products. OAuth
-    sign-in, free tier included. Documentation.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server that exposes Curio's design style library to AI agents via the Model Context Protocol.
+  why_it_matters: Lets developers search, preview, and apply design styles from Curio's library directly within their AI coding assistants without manual copying or API keys.
+  mental_damage: Now your AI can spend your credits on Bauhaus fonts without asking — except it does ask, which is somehow both reassuring and mildly insulting.
+  tags:
+    - mcp
+    - design
+    - ai-agent
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  reason: The product's primary identity is an MCP server exposing Curio's design library as tools over MCP, making it a clear fit for the MCP Ecosystem category.
   evidence:
-    - jev-latest choice confidence 0.54
+    - Scraped site context describes it as 'Connect Curio to your AI over MCP' with a server URL for MCP clients
+    - Source-list context shows it appears in awesome-ai-coding-tools under 'MCP Servers and Directories'
+    - "README excerpt emphasizes MCP setup: 'One server URL, one sign-in. Then tell your AI the look you want'"
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:05.561Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5f725b8e62d7a69a42a0629a2c2b4b2668dac81b3c18a7f196dccd3fa2c5f026
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is an MCP server exposing Curio's design library as tools over MCP, making it a clear fit for the MCP Ecosystem category.
+      decision_evidence:
+        - Scraped site context describes it as 'Connect Curio to your AI over MCP' with a server URL for MCP clients
+        - Source-list context shows it appears in awesome-ai-coding-tools under 'MCP Servers and Directories'
+        - "README excerpt emphasizes MCP setup: 'One server URL, one sign-in. Then tell your AI the look you want'"
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is an MCP server exposing domain capabilities, not an extension that augments another agent with workflow features.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

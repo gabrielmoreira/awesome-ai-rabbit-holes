@@ -37,27 +37,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP API endpoint at mcp.myshipi.com providing MCP protocol services via HTTP.
-  why_it_matters: It offers a hosted way for AI agents to access tools and data through the Model Context Protocol without self-hosting.
-  mental_damage: Another MCP wrapper that makes you wonder if we're building infrastructure just to rebuild the same HTTP APIs we already had.
+  summary: mcp.myshipi.com provides an HTTP API endpoint for MCP (Model Context Protocol) resources, exposing tools and data sources over the protocol.
+  why_it_matters: It offers a hosted MCP endpoint that allows AI agents to access external tools and data through a standardized interface without running their own MCP servers.
+  mental_damage: Yet another HTTP wrapper around a protocol that already struggles with adoption, adding yet another layer of indirection to the agent-tool dance.
   tags:
     - mcp
     - api
-  confidence: low
+    - protocol
+  confidence: medium
 curation:
-  status: excluded
-  reason: The input describes only an HTTP API endpoint with no clear product identity beyond being an MCP service; there is insufficient evidence to determine if MCP is the primary identity or merely a feature of a broader, unnamed platform.
+  status: included
+  reason: The service is an MCP server exposing capabilities over HTTP, making MCP its primary product identity rather than a feature of a broader agent or platform.
   evidence:
-    - URL is https://mcp.myshipi.com/api/mcp, indicating an HTTP API endpoint
-    - No repo description, README, or scraped site context provided to clarify product identity
-    - No stars, creation date, or activity signals to assess traction or legitimacy
+    - "URL: https://mcp.myshipi.com/api/mcp indicates an MCP API endpoint"
+    - "Repo description: (none) but the domain and path suggest an MCP server implementation"
+    - MCP is the protocol identity of the product per the mcp.myshipi.com domain
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Dev & Code Tools
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -70,25 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-01T04:28:46.785Z"
+    updated_at: "2026-10-05T05:01:41.977Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e746648123a24bb8df39088afa028c873dc7dce94c3cb07673e233455bf1ad5f
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4d9a6d8d02ebd604f32dfba9ed170bae918bf1d19ffac17d39b26e4836c04f5e
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The input describes only an HTTP API endpoint with no clear product identity beyond being an MCP service; there is insufficient evidence to determine if MCP is the primary identity or merely a feature of a broader, unnamed platform.
+      decision_reason: The service is an MCP server exposing capabilities over HTTP, making MCP its primary product identity rather than a feature of a broader agent or platform.
       decision_evidence:
-        - URL is https://mcp.myshipi.com/api/mcp, indicating an HTTP API endpoint
-        - No repo description, README, or scraped site context provided to clarify product identity
-        - No stars, creation date, or activity signals to assess traction or legitimacy
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+        - "URL: https://mcp.myshipi.com/api/mcp indicates an MCP API endpoint"
+        - "Repo description: (none) but the domain and path suggest an MCP server implementation"
+        - MCP is the protocol identity of the product per the mcp.myshipi.com domain
+      category_candidates:
+        - mcp
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because the product's identity is the MCP protocol/server, not autonomous code execution or editing.
+      review_reason: null
       review_resume_lifecycle: null

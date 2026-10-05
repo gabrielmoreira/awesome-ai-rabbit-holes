@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__patapim__ai__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,10 +19,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: PATAPIM
         extracted_url: https://patapim.ai
-        surrounding_text: >-
-          - **[PATAPIM](https://patapim.ai)** — Terminal IDE with a 9-terminal grid for running multiple CLI coding
-          agents simultaneously; features AI state detection, built-in Whisper voice dictation, LAN remote access, and
-          an embedded MCP browser. Built with Electron and node-pty. Freemium.
+        surrounding_text: "- **[PATAPIM](https://patapim.ai)** — Terminal IDE with a 9-terminal grid for running multiple CLI coding agents simultaneously; features AI state detection, built-in Whisper voice dictation, LAN remote access, and an embedded MCP browser. Built with Electron and node-pty. Freemium."
         confidence: high
 metadata:
   github:
@@ -40,17 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A superpower suite for Claude Code that adds multi-project workspaces, voice dictation, remote control, live
-    notifications, and embedded browser automation.
-  why_it_matters: >-
-    It transforms Claude Code from a terminal agent into a more agentic, multi-session, and remotely accessible workflow
-    without replacing the core assistant.
-  mental_damage: Finally, a way to make Claude Code feel like it’s actually paying attention to more than one thing at a time.
+  summary: Patapim is a terminal wrapper that adds multi-project workspaces, voice dictation, remote access, and browser automation to Claude Code and similar CLI agents.
+  why_it_matters: It lets developers run persistent, distributed Claude Code sessions across devices without leaving the terminal, reducing context-switching friction.
+  mental_damage: Finally, a way to feel like a hacker movie protagonist while your agent debugs auth middleware from your phone on the toilet.
   tags:
-    - cli
-    - agent-extension
-    - workflow
+    - terminal-enhancement
+    - claude-code
+    - remote-access
+    - voice-dictation
   confidence: high
 curation:
   status: included
@@ -63,11 +57,11 @@ placement:
   section: Claude Code & Agent Tools
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,38 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:34:17.207Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for patapim__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:43:13.458Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:2df4af8bcbd958cedb402500dac6e6fb752e840de2059f53980d9c79308311f3
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f55e393537aa79f5fce40ad1813e9240b563d9c0039056c449c8b9dfc88b50c2
+      proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        It is primarily an extension layer that augments Claude Code (and similar CLIs) with workflow, UI, and host
-        integration capabilities rather than being a standalone coding assistant.
+      decision_reason: Patapim extends Claude Code with workflow superpowers but does not replace it as the primary coding agent, making it an extension rather than a standalone agent.
       decision_evidence:
-        - >-
-          Described as 'adds everything Claude Code is missing' (multi-project workspaces, voice, remote control,
-          notifications)
-        - Explicitly positions itself as a superpower suite for Claude Code, Codex, Antigravity, or custom CLIs
-        - Source-list context places it under 'Harnesses & orchestration > Session managers & parallel runners'
+        - Adds multi-project workspaces, voice dictation, remote control, and live notifications to Claude Code sessions
+        - Requires Claude Code or similar CLI agent to function; does not perform coding tasks autonomously
+        - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners'
       category_candidates:
-        - extensions-and-addons
+        - ai-dev-extensions
         - coding-agents
-      contrastive_reason: >-
-        Choose ai-dev-extensions over coding-agents because its core value is augmenting Claude Code with workflow, UI,
-        and host integrations rather than acting as the primary coding assistant.
-      review_reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''ai-dev-extensions'''
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because Patapim enhances Claude Code with workflow features rather than acting as the primary coding agent itself.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
       review_resume_lifecycle: null

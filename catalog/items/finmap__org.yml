@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__finmap__org__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,11 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: finmap.org
         extracted_url: https://finmap.org
-        surrounding_text: >-
-          - [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server) - [finmap.org](https://finmap.org/) MCP
-          server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access
-          sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and
-          histogram visualizations.
+        surrounding_text: "- [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server) - [finmap.org](https://finmap.org/) MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations."
         confidence: high
 metadata:
   github:
@@ -41,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: finmap.org is a global stock market visualization tool with treemap and histogram views for exchanges like NASDAQ, NYSE, and LSE, plus a news feed reader.
-  why_it_matters: It gives developers a visual, aggregated view of market data and news that could inform decisions in fintech or trading-related applications.
-  mental_damage: Another dashboard promising market clarity while you refresh it hoping for alpha, only to realize you're just doomscrolling candlesticks.
+  summary: finmap.org is a stock market visualization tool that displays market cap, trades, and value data via treemaps and histograms for global exchanges including NASDAQ, NYSE, LSE, and others, with an integrated news feed reader.
+  why_it_matters: It gives developers a visual, real-time pulse on global equity markets to inform investment-aware tooling or personal finance dashboards without needing to parse raw APIs.
+  mental_damage: Another pretty chart that makes you feel like you should be day trading instead of fixing legacy CI pipelines.
   tags:
     - finance
-    - visualization
+    - data-visualization
     - market-data
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a general-purpose financial visualization platform and does not relate to software development, AI
-    workflows, or coding infrastructure.
+  reason: finmap.org is a consumer-facing financial data visualization and news tool with no discernible AI component, developer workflow integration, or coding assistance functionality, placing it outside the catalog's AI-tooling scope for software developers.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context: Global stock market visualisation tool and your personal news feed reader. Focuses on treemap, histogram, market cap, value, trades, and news from exchanges like NASDAQ, NYSE, LSE."
-    - No AI, agent, coding, SDK, framework, orchestration, or developer tooling claims are present in the inputs.
+    - The site describes itself as a 'Global stock market visualisation tool and your personal news feed reader' with treemaps and histograms for exchanges like NASDAQ, NYSE, and LSE
+    - No mention of AI, machine learning, LLMs, agents, prompts, or any developer-facing automation, extension, or workflow enhancement
+    - The tool presents static or real-time financial data visualization without indicating any intelligent analysis, code generation, or developer tooling capability
 placement:
   primary_category: null
   section: null
@@ -67,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,31 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:36.450Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for finmap__org: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:18.555Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:239fbec448c06b050e5ea8fb8b88d8c66feff5c1bfe1fe842e874f0707df2fe3
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b80db7b1f5e61db2e2549ae57c11e6b5a2136dc105eb5b1f67c3469272a1d0fa
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a general-purpose financial visualization platform and does not relate to software development, AI
-        workflows, or coding infrastructure.
+      decision_reason: finmap.org is a consumer-facing financial data visualization and news tool with no discernible AI component, developer workflow integration, or coding assistance functionality, placing it outside the catalog's AI-tooling scope for software developers.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context: Global stock market visualisation tool and your personal news feed reader. Focuses on treemap, histogram, market cap, value, trades, and news from exchanges like NASDAQ, NYSE, LSE."
-        - No AI, agent, coding, SDK, framework, orchestration, or developer tooling claims are present in the inputs.
+        - The site describes itself as a 'Global stock market visualisation tool and your personal news feed reader' with treemaps and histograms for exchanges like NASDAQ, NYSE, and LSE
+        - No mention of AI, machine learning, LLMs, agents, prompts, or any developer-facing automation, extension, or workflow enhancement
+        - The tool presents static or real-time financial data visualization without indicating any intelligent analysis, code generation, or developer tooling capability
       category_candidates: []
       contrastive_reason: null
       review_reason: null

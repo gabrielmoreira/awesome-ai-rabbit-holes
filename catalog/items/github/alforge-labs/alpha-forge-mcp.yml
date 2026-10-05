@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alforge-labs__alpha-forge-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-06T05:29:57.556Z'
+      discovered_at: "2026-07-06T05:29:57.556Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: alforge-labs/alpha-forge-mcp
         extracted_url: https://github.com/alforge-labs/alpha-forge-mcp
-        surrounding_text: >-
-          - [alforge-labs/alpha-forge-mcp](https://github.com/alforge-labs/alpha-forge-mcp)
-          [![alforge-labs/alpha-forge-mcp MCP
-          server](https://glama.ai/mcp/servers/alforge-labs/alpha-forge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alforge-labs/alpha-forge-mcp)
-          🐍 🏠 🍎 🪟 🐧 - AlphaForge quant CLI as an MCP server — backtest, optimize (Optuna TPE), and
-          walk-forward-test trading strategies from Claude Desktop, Cursor, or Claude Code. Local-first,
-          anti-overfitting. `uvx alpha-forge-mcp`
+        surrounding_text: "- [alforge-labs/alpha-forge-mcp](https://github.com/alforge-labs/alpha-forge-mcp) [![alforge-labs/alpha-forge-mcp MCP server](https://glama.ai/mcp/servers/alforge-labs/alpha-forge-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alforge-labs/alpha-forge-mcp) 🐍 🏠 🍎 🪟 🐧 - AlphaForge quant CLI as an MCP server — backtest, optimize (Optuna TPE), and walk-forward-test trading strategies from Claude Desktop, Cursor, or Claude Code. Local-first, anti-overfitting. `uvx alpha-forge-mcp`"
         confidence: high
 metadata:
   github:
@@ -36,11 +30,9 @@ metadata:
     archived: false
     full_name: alforge-labs/alpha-forge-mcp
     html_url: https://github.com/alforge-labs/alpha-forge-mcp
-    created_at: '2026-06-01T14:31:03Z'
-    pushed_at: '2026-07-21T13:09:43Z'
-    description: >-
-      MCP server (stdio) exposing the AlphaForge forge CLI to Claude Code / Cursor / Codex (open-core wrapper,
-      Apache-2.0)
+    created_at: "2026-06-01T14:31:03Z"
+    pushed_at: "2026-07-21T13:09:43Z"
+    description: MCP server (stdio) exposing the AlphaForge forge CLI to Claude Code / Cursor / Codex (open-core wrapper, Apache-2.0)
     homepage: null
     topics:
       - ai-agents
@@ -55,18 +47,14 @@ metadata:
       - python
       - quant
       - trading-strategies
-    last_checked_at: '2026-09-17T04:13:40.358Z'
+    last_checked_at: "2026-09-17T04:13:40.358Z"
     readme:
-      fetched_at: '2026-09-17T04:13:40.358Z'
+      fetched_at: "2026-09-17T04:13:40.358Z"
       bytes: 12475
 insights:
   summary: An MCP server that exposes the AlphaForge quantitative trading CLI to AI coding agents like Claude Code and Cursor.
-  why_it_matters: >-
-    It enables developers to automate complex quantitative workflows, such as backtesting and parameter optimization,
-    directly through their AI coding assistants.
-  mental_damage: >-
-    Because we've officially reached the point where you can delegate your entire high-frequency trading strategy to a
-    prompt.
+  why_it_matters: It enables developers to automate complex quantitative workflows, such as backtesting and parameter optimization, directly through their AI coding assistants.
+  mental_damage: Because we've officially reached the point where you can delegate your entire high-frequency trading strategy to a prompt.
   tags:
     - mcp
     - quant
@@ -89,18 +77,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-06T05:29:57.557Z'
+    updated_at: "2026-07-06T05:29:57.557Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:40.358Z'
+    updated_at: "2026-09-17T04:13:40.358Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:21:29.668Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -112,9 +102,7 @@ processing:
       input_hash: sha256:c8cf74028efbf0f47d4c316f22d38d3ba29c100e61d87c62527a2d0ac47f9024
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project's primary identity is an MCP server providing specialized domain capabilities (quantitative finance)
-        to host agents.
+      decision_reason: The project's primary identity is an MCP server providing specialized domain capabilities (quantitative finance) to host agents.
       decision_evidence:
         - Exposes AlphaForge CLI tools like backtesting and optimization over MCP
         - Acts as a thin wrapper to allow Claude Code and Cursor to drive quant pipelines
@@ -122,8 +110,6 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because its primary identity is a specialized MCP server providing
-        domain-specific quant tools, similar to the playwright-mcp exemplar.
+      contrastive_reason: Choose mcp over extensions-and-addons because its primary identity is a specialized MCP server providing domain-specific quant tools, similar to the playwright-mcp exemplar.
       review_reason: null
       review_resume_lifecycle: null

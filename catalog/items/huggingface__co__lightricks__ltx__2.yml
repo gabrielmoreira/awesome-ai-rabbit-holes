@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__lightricks__ltx__2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,26 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A DiT-based foundation model designed to generate synchronized video and audio from text, images, or other video
-    inputs.
-  why_it_matters: >-
-    While a significant advancement in multimodal generation, it serves media creators rather than providing tools for
-    coding, agent orchestration, or software development workflows.
-  mental_damage: Adding this would be like putting a high-end cinema camera in a catalog of compiler optimizations.
+  summary: LTX-2 is a 19B parameter diffusion-based audio-video foundation model that generates synchronized video and audio from text, image, or audio prompts.
+  why_it_matters: It enables developers to generate multimodal video content locally or via APIs using standard diffusion pipelines, expanding creative AI tooling beyond text and image generation.
+  mental_damage: Another model card promising local execution while quietly assuming you have a GPU farm and a PhD in latent space manipulation.
   tags:
     - video-generation
+    - diffusion
     - multimodal
-    - foundation-model
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of
-    developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
+  reason: LTX-2 is a generative AI model for video and audio synthesis, not a developer-facing tool, agent, framework, or infrastructure that aids in software development workflows.
   evidence:
-    - The README identifies it as a 'DiT-based audio-video foundation model'.
-    - Its primary capabilities are text-to-video, image-to-video, and audio-visual generation.
+    - "Repo description: (none)"
+    - "Scraped site context: Model card focuses on LTX-2 as a DiT-based audio-video foundation model for generating synchronized video and audio."
+    - "Primary page excerpt: Designed for text-to-video, image-to-video, and audio-to-video generation via Diffusers or ComfyUI."
 placement:
   primary_category: null
   section: null
@@ -66,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:27:52.302Z'
+    updated_at: "2026-10-05T04:34:24.103Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:61d25491915323a27aff1bf8d0706e4136b8b8f329f32a9ed8ef5985cd770f6d
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2e2c86c17a3f9aa4834e5adc48b14189c24dc51dce0036e6e418dd81c976c632
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a generative foundation model for audio-visual media, which falls outside the catalog's scope of
-        developer-centric tooling such as coding agents, IDE extensions, or agent orchestration.
+      decision_reason: LTX-2 is a generative AI model for video and audio synthesis, not a developer-facing tool, agent, framework, or infrastructure that aids in software development workflows.
       decision_evidence:
-        - The README identifies it as a 'DiT-based audio-video foundation model'.
-        - Its primary capabilities are text-to-video, image-to-video, and audio-visual generation.
+        - "Repo description: (none)"
+        - "Scraped site context: Model card focuses on LTX-2 as a DiT-based audio-video foundation model for generating synchronized video and audio."
+        - "Primary page excerpt: Designed for text-to-video, image-to-video, and audio-to-video generation via Diffusers or ComfyUI."
       category_candidates: []
       contrastive_reason: null
       review_reason: null

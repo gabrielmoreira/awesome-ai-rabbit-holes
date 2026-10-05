@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xlau__jev-rps__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: Jev RPS
         extracted_url: https://github.com/0xlau/jev-rps
-        surrounding_text: >-
-          | [Jev RPS](https://github.com/0xlau/jev-rps) | ★ 0 | JavaScript | 2026-09-23 | Commit-reveal
-          rock-paper-scissors game where Jev scores player behavior, predicts the next move, and chooses its own move
-          before the player acts. |
+        surrounding_text: "| [Jev RPS](https://github.com/0xlau/jev-rps) | ★ 0 | JavaScript | 2026-09-23 | Commit-reveal rock-paper-scissors game where Jev scores player behavior, predicts the next move, and chooses its own move before the player acts. |"
         confidence: high
 metadata:
   github:
@@ -33,45 +30,70 @@ metadata:
     archived: false
     full_name: 0xlau/jev-rps
     html_url: https://github.com/0xlau/jev-rps
-    created_at: '2026-09-22T14:34:31Z'
-    pushed_at: '2026-09-22T16:09:53Z'
+    created_at: "2026-09-22T14:34:31Z"
+    pushed_at: "2026-09-22T16:09:53Z"
     description: Jev 对拳 · AI 先出拳，你再选择。每一局都可核验。
     homepage: https://jev-rps.timlau.me
     topics: []
-    last_checked_at: '2026-09-29T13:08:13.480Z'
+    last_checked_at: "2026-09-29T13:08:13.480Z"
     readme:
-      fetched_at: '2026-09-29T13:08:13.480Z'
+      fetched_at: "2026-09-29T13:08:13.480Z"
       bytes: 12202
 insights:
-  summary: Jev 对拳 · AI 先出拳，你再选择。每一局都可核验。
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev rock-paper-scissors game where AI moves first and outcomes are verifiable.
+  why_it_matters: Demonstrates Jev decision-model use in a simple interactive game for developers to verify.
+  mental_damage: Another toy proving that even rock-paper-scissors needs AI judgment now.
+  tags:
+    - jev
+    - game
+    - decision-model
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The project is a decision-model demo game, not a developer-facing AI tool for coding, workflows, or infrastructure.
   evidence:
-    - jev-latest choice confidence 0.88
+    - "Repo description: 'Jev 对拳 · AI 先出拳，你再选择。每一局都可核验.' (Jev rock-paper-scissors · AI moves first, you choose. Every round is verifiable.)"
+    - Appears in awesome-jev list under 'Games & simulations' section
+    - "Stars: 1, created and pushed same day (2026-09-22), minimal traction"
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:13.480Z'
+    updated_at: "2026-09-29T13:08:13.480Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:10.324Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9afffc26dc1634fa6d989013d51da362e23403fffe4b1e13b19c079028269a47
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a decision-model demo game, not a developer-facing AI tool for coding, workflows, or infrastructure.
+      decision_evidence:
+        - "Repo description: 'Jev 对拳 · AI 先出拳，你再选择。每一局都可核验.' (Jev rock-paper-scissors · AI moves first, you choose. Every round is verifiable.)"
+        - Appears in awesome-jev list under 'Games & simulations' section
+        - "Stars: 1, created and pushed same day (2026-09-22), minimal traction"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

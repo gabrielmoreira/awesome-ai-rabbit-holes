@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__victoriametrics__victorialogs__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: VictoriaLogs instance APIs
         extracted_url: https://docs.victoriametrics.com/victorialogs/querying
-        surrounding_text: >-
-          - [VictoriaMetrics-Community/mcp-victorialogs](https://github.com/VictoriaMetrics-Community/mcp-victorialogs)
-          🎖️ 🏎️ 🏠 - Provides comprehensive integration with your [VictoriaLogs instance
-          APIs](https://docs.victoriametrics.com/victorialogs/querying/#http-api) and
-          [documentation](https://docs.victoriametrics.com/victorialogs/) for working with logs, investigating and
-          debugging tasks related to your VictoriaLogs instances.
+        surrounding_text: "- [VictoriaMetrics-Community/mcp-victorialogs](https://github.com/VictoriaMetrics-Community/mcp-victorialogs) 🎖️ 🏎️ 🏠 - Provides comprehensive integration with your [VictoriaLogs instance APIs](https://docs.victoriametrics.com/victorialogs/querying/#http-api) and [documentation](https://docs.victoriametrics.com/victorialogs/) for working with logs, investigating and debugging tasks related to your VictoriaLogs instances."
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: false
     full_name: VictoriaMetrics/VictoriaLogs
     html_url: https://github.com/VictoriaMetrics/VictoriaLogs
-    created_at: '2025-07-06T22:56:52Z'
-    pushed_at: '2026-07-21T12:15:47Z'
+    created_at: "2025-07-06T22:56:52Z"
+    pushed_at: "2026-07-21T12:15:47Z"
     description: Fast and easy to use database for logs, which can efficiently handle terabytes of logs
     homepage: https://docs.victoriametrics.com/victorialogs/
     topics:
@@ -49,20 +44,14 @@ metadata:
       - observability
       - opentelemetry
       - siem
-    last_checked_at: '2026-07-21T15:21:04.923Z'
+    last_checked_at: "2026-07-21T15:21:04.923Z"
     readme:
-      fetched_at: '2026-07-21T15:21:04.923Z'
+      fetched_at: "2026-07-21T15:21:04.923Z"
       bytes: 3768
 insights:
-  summary: >-
-    VictoriaLogs is a high-performance, lightweight, zero-config, schema-free database for logs that scales from small
-    setups to terabytes per day.
-  why_it_matters: >-
-    It gives developers a fast, easy-to-use logging backend that integrates with Grafana and Kubernetes for
-    observability without complex tuning.
-  mental_damage: >-
-    Another log store promising 'zero-config' while developers still spend hours tuning retention, labels, and query
-    performance.
+  summary: VictoriaLogs is a high-performance, lightweight, zero-config, schema-free database for logs that scales from small setups to terabytes per day.
+  why_it_matters: It gives developers a fast, easy-to-use logging backend that integrates with Grafana and Kubernetes for observability without complex tuning.
+  mental_damage: Another log store promising 'zero-config' while developers still spend hours tuning retention, labels, and query performance.
   tags:
     - logging
     - observability
@@ -72,17 +61,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    VictoriaLogs is a general-purpose logging database with no developer-facing AI tooling, agent, workflow, or
-    infrastructure angle relevant to the catalog's scope.
+  reason: VictoriaLogs is a general-purpose logging database with no developer-facing AI tooling, agent, workflow, or infrastructure angle relevant to the catalog's scope.
   evidence:
-    - 'Repo description: ''Fast and easy to use database for logs, which can efficiently handle terabytes of logs'''
-    - >-
-      README excerpt positions it as a 'high-performance, lightweight, zero-config, schema-free database for logs' with
-      no mention of AI, agents, coding assistance, or developer tooling beyond observability
-    - >-
-      Source-list context shows it is listed in awesome-mcp-servers only as a database implementation, not as an MCP
-      server or AI tool
+    - "Repo description: 'Fast and easy to use database for logs, which can efficiently handle terabytes of logs'"
+    - README excerpt positions it as a 'high-performance, lightweight, zero-config, schema-free database for logs' with no mention of AI, agents, coding assistance, or developer tooling beyond observability
+    - Source-list context shows it is listed in awesome-mcp-servers only as a database implementation, not as an MCP server or AI tool
 placement:
   primary_category: null
   section: null
@@ -92,17 +75,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.654Z'
+    updated_at: "2026-05-06T22:12:15.654Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:21:04.923Z'
+    updated_at: "2026-07-21T15:21:04.923Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

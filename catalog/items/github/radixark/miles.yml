@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__radixark__miles__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: Miles
         extracted_url: https://github.com/radixark/miles
-        surrounding_text: >-
-          48. [Miles](https://github.com/radixark/miles): an enterprise-facing reinforcement learning framework for
-          large-scale MoE post-training and production workloads.
+        surrounding_text: "48. [Miles](https://github.com/radixark/miles): an enterprise-facing reinforcement learning framework for large-scale MoE post-training and production workloads."
         confidence: high
 metadata:
   github:
@@ -31,27 +29,19 @@ metadata:
     archived: false
     full_name: radixark/miles
     html_url: https://github.com/radixark/miles
-    created_at: '2025-10-09T06:04:57Z'
-    pushed_at: '2026-07-20T14:01:26Z'
-    description: >-
-      Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and
-      co-evolving with slime.
+    created_at: "2025-10-09T06:04:57Z"
+    pushed_at: "2026-07-20T14:01:26Z"
+    description: Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.
     homepage: https://miles.radixark.com/docs
     topics: []
-    last_checked_at: '2026-07-20T16:42:42.685Z'
+    last_checked_at: "2026-07-20T16:42:42.685Z"
     readme:
-      fetched_at: '2026-07-20T16:42:42.685Z'
+      fetched_at: "2026-07-20T16:42:42.685Z"
       bytes: 9504
 insights:
-  summary: >-
-    Miles is an enterprise-grade reinforcement learning framework for large-scale LLM and VLM post-training, optimized
-    for high-throughput rollout and low-precision training.
-  why_it_matters: >-
-    It provides the low-level system optimizations and production stability needed to bridge the gap between
-    research-grade RL and scalable model post-training in enterprise environments.
-  mental_damage: >-
-    Just when you thought your GPU cluster was safe, you now have a framework that turns reinforcement learning into a
-    memory-managed, INT4-quantized, routing-replay existential crisis.
+  summary: Miles is an enterprise-grade reinforcement learning framework for large-scale LLM and VLM post-training, optimized for high-throughput rollout and low-precision training.
+  why_it_matters: It provides the low-level system optimizations and production stability needed to bridge the gap between research-grade RL and scalable model post-training in enterprise environments.
+  mental_damage: Just when you thought your GPU cluster was safe, you now have a framework that turns reinforcement learning into a memory-managed, INT4-quantized, routing-replay existential crisis.
   tags:
     - reinforcement-learning
     - llm-training
@@ -61,17 +51,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a low-level model training and post-training framework for ML engineering rather than a developer-facing
-    tool for writing, reviewing, or deploying application code.
+  reason: This is a low-level model training and post-training framework for ML engineering rather than a developer-facing tool for writing, reviewing, or deploying application code.
   evidence:
     - Repo description explicitly states it is a 'reinforcement learning framework for LLM and VLM post-training'.
-    - >-
-      README focuses on training backends (Megatron/FSDP), inference optimization (SGLang), and RL algorithmic
-      hyperparameters rather than developer workflows.
-    - >-
-      Listed in awesome-LLM-resources under 'Fine-Tuning', indicating it is a model-training resource, not an
-      application development tool.
+    - README focuses on training backends (Megatron/FSDP), inference optimization (SGLang), and RL algorithmic hyperparameters rather than developer workflows.
+    - Listed in awesome-LLM-resources under 'Fine-Tuning', indicating it is a model-training resource, not an application development tool.
 placement:
   primary_category: null
   section: null
@@ -81,21 +65,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.644Z'
+    updated_at: "2026-05-06T22:12:15.644Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:42.685Z'
+    updated_at: "2026-07-20T16:42:42.685Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

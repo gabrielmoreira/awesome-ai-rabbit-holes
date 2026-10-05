@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__llmpricecheck__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,9 +18,7 @@ provenance:
           - 推理 Inference
         anchor_text: LLM Pricing
         extracted_url: https://llmpricecheck.com
-        surrounding_text: >-
-          14. [LLM Pricing](https://llmpricecheck.com/): Quickly Find the Perfect Large Language Models (LLM) API for
-          Your Budget! Use Our Free Tool for Instant Access to the Latest Prices from Top Providers.
+        surrounding_text: "14. [LLM Pricing](https://llmpricecheck.com/): Quickly Find the Perfect Large Language Models (LLM) API for Your Budget! Use Our Free Tool for Instant Access to the Latest Prices from Top Providers."
         confidence: high
 metadata:
   github:
@@ -38,23 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LLMPriceCheck is a web tool for comparing and calculating pricing across LLM API providers.
-  why_it_matters: Helps developers estimate and optimize costs when choosing or switching between LLM APIs for their applications.
-  mental_damage: Another spreadsheet in disguise, pretending that saving $0.0003 per token is a engineering win.
+  summary: A web-based comparison and calculation tool for LLM API pricing across multiple providers.
+  why_it_matters: It allows developers to optimize their AI budgets by instantly comparing input/output costs and context window economics across different models.
+  mental_damage: Because calculating the exact cost per token is the only way to justify why your agent's reasoning loop just cost fifty dollars.
   tags:
-    - pricing
-    - cost-management
-    - llm
+    - llm-pricing
+    - cost-optimization
+    - api-comparison
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is a pricing comparison website with no developer-facing tooling, SDK, agent, or workflow integration — it does
-    not build, run, measure, or extend AI development in a way that fits the catalog's scope.
+  reason: The tool is a financial utility for pricing comparison and does not fit the specific technical categories of coding agents, frameworks, orchestration, or behavioral evaluations.
   evidence:
-    - Scraped site context shows it is a web-based LLM API price calculator and comparison table
-    - Source-list context lists it under 'Inference' in an awesome list as a resource, not a tool
-    - No evidence of code, CLI, SDK, extension, or integration capabilities in README or description
+    - Scraped site context defines the tool as a price comparison and pricing calculator.
+    - The tool lacks a runtime, SDK, agentic capability, or context management infrastructure required for the catalog's categories.
 placement:
   primary_category: null
   section: null
@@ -64,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,26 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:31:41.550Z'
+    updated_at: "2026-10-05T04:39:16.109Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3b3bc808868fd638f8afe979391380ae1e880e7be4c6367414a2161aaeb65ae8
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7fd48ea2865b5d56c6db8242e29d69cf6336924459b496052d8220c8a43104c9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is a pricing comparison website with no developer-facing tooling, SDK, agent, or workflow integration — it
-        does not build, run, measure, or extend AI development in a way that fits the catalog's scope.
+      decision_reason: The tool is a financial utility for pricing comparison and does not fit the specific technical categories of coding agents, frameworks, orchestration, or behavioral evaluations.
       decision_evidence:
-        - Scraped site context shows it is a web-based LLM API price calculator and comparison table
-        - Source-list context lists it under 'Inference' in an awesome list as a resource, not a tool
-        - No evidence of code, CLI, SDK, extension, or integration capabilities in README or description
+        - Scraped site context defines the tool as a price comparison and pricing calculator.
+        - The tool lacks a runtime, SDK, agentic capability, or context management infrastructure required for the catalog's categories.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

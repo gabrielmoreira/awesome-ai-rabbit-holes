@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__boringtoolskit__com__blog__seo__audit__cost__2026__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,13 +18,10 @@ provenance:
           - Articles & threads
         anchor_text: SEO audit cost study driven by Jev triage
         extracted_url: https://boringtoolskit.com/blog/seo-audit-cost-2026
-        surrounding_text: >-
-          - [SEO audit cost study driven by Jev triage](https://boringtoolskit.com/blog/seo-audit-cost-2026/) -
-          Technical SEO audit cost study from Boring Tools Kit where Jev ranks striking-distance fixes and content gaps
-          by calibrated probability.
+        surrounding_text: "- [SEO audit cost study driven by Jev triage](https://boringtoolskit.com/blog/seo-audit-cost-2026/) - Technical SEO audit cost study from Boring Tools Kit where Jev ranks striking-distance fixes and content gaps by calibrated probability."
         confidence: high
     - id: discovery__boringtoolskit__com__blog__seo__audit__cost__2026__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,10 +34,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: BTK audit studies
         extracted_url: https://boringtoolskit.com/blog/seo-audit-cost-2026
-        surrounding_text: >-
-          - [BTK audit studies](https://boringtoolskit.com/blog/seo-audit-cost-2026/) - Content & growth: Jev
-          striking-distance triage ranks SEO fixes and drives study pages; 1,204 pages judged per run, 4,816 judgments
-          in under 3 minutes, $0.0048 per 12-query batch.
+        surrounding_text: "- [BTK audit studies](https://boringtoolskit.com/blog/seo-audit-cost-2026/) - Content & growth: Jev striking-distance triage ranks SEO fixes and drives study pages; 1,204 pages judged per run, 4,816 judgments in under 3 minutes, $0.0048 per 12-query batch."
         confidence: high
 metadata:
   github:
@@ -58,17 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post detailing the cost ranges of technical SEO audits in 2026, including a case study using a Jev-powered pipeline to audit 1,204 pages for under $1 in model cost.
+  why_it_matters: Shows developers how low-cost AI judgment can replace expensive manual SEO audits, highlighting a practical use case for decision models in automating repetitive analysis tasks.
+  mental_damage: Another reminder that your job might be replaced by a model that costs less than your coffee, as long as you're okay with auditing instead of strategizing.
+  tags:
+    - seo
+    - decision-models
+    - case-study
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a blog post summarizing SEO audit pricing and a internal case study — not a tool, product, or developer-facing artifact, but rather informational content with no runtime, SDK, or integration layer.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.31 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The source is a blog post on boringtoolskit.com with no GitHub repo, no installable artifact, and no CLI, API, or library described.
+    - The content describes pricing ranges and a measured case study using Jev, but does not distribute or productize the pipeline as a reusable tool for developers.
+    - Appears in awesome-jev as 'Articles & threads' and 'Evaluation & Benchmarking', confirming its status as curated content, not a tool.
 placement:
   primary_category: null
   secondary_categories: []
@@ -79,7 +77,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.430Z'
+    updated_at: "2026-09-29T13:07:10.430Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +85,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:51.359Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:17eac69d159d481b67aa563298057e19a76041d3070f959deff2ec12bcd1cb44
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog post summarizing SEO audit pricing and a internal case study — not a tool, product, or developer-facing artifact, but rather informational content with no runtime, SDK, or integration layer.
+      decision_evidence:
+        - The source is a blog post on boringtoolskit.com with no GitHub repo, no installable artifact, and no CLI, API, or library described.
+        - The content describes pricing ranges and a measured case study using Jev, but does not distribute or productize the pipeline as a reusable tool for developers.
+        - Appears in awesome-jev as 'Articles & threads' and 'Evaluation & Benchmarking', confirming its status as curated content, not a tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

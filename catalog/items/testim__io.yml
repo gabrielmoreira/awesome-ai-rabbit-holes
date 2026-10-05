@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__testim__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,10 @@ provenance:
           - Testing and QA
         anchor_text: Testim
         extracted_url: https://testim.io
-        surrounding_text: '- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators.'
+        surrounding_text: "- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators."
         confidence: high
     - id: discovery__www__testim__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: Testim
         extracted_url: https://www.testim.io
-        surrounding_text: '- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators.'
+        surrounding_text: "- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators."
         confidence: high
 metadata:
   github:
@@ -51,25 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Testim is an AI-powered automated testing platform for web, mobile, and Salesforce applications.
-  why_it_matters: >-
-    It accelerates test authoring and maintenance with AI-driven locators and agentic automation, reducing manual effort
-    in QA workflows.
-  mental_damage: Finally, a way to make your tests as flaky as your confidence in them.
+  summary: Testim is an automated testing platform for web, mobile, and Salesforce applications that uses AI to accelerate test authoring and improve test stability.
+  why_it_matters: It helps developers reduce test maintenance and authoring time by using AI to self-heal locators and generate tests from natural language.
+  mental_damage: Another AI-powered testing tool promising to eliminate flaky tests, adding to the growing stack of QA tools developers must learn and integrate.
   tags:
     - testing
     - qa
-    - ai-powered
+    - ai
   confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or adjacent
-    infrastructure.
+  status: included
+  reason: Testim is primarily a testing and QA tool that enhances developer workflows by integrating with CI/CD and providing AI-driven test authoring and stability, fitting best under extensions and addons for testing and code quality.
   evidence:
-    - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an automated testing platform for AI-powered stable tests"
-    - "README/scraped context: emphasizes AI-driven test authoring, self-healing locators, and integration with CI/CD tools like Jenkins, CircleCI, GitHub, and Slack"
-    - "Product positioning: focuses on accelerating testing, reducing maintenance, and root cause analysis — not generating code or apps from prompts"
+    - "Scraped site context: 'AI-powered Agentic Test automation makes it easier and faster to create better tests, automatically.'"
+    - "Source-list context: listed in awesome-ai-coding-tools under 'Testing and QA' section."
+    - "README excerpt: 'Reduce the time and costs of fixing tests' and 'Custom locators use AI and ML to identify more elements and learn more about your app, to keep your tests working.'"
 placement:
   primary_category: extensions-and-addons
   section: Testing & Code Quality
@@ -78,40 +74,34 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:46:49.331Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for testim__io: Invalid AI response format: SyntaxError: Unexpected token 'T',
-        ..."_reason": Testim is "... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:55:42.052Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:73123b320cc483b3f12f0ecef4eb2f2c53edf4865985605edb32192d107fd577
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aa3b3a10a6aaa10b585f38a639075e0fec1a6ea12e968d0510eab88b3ebe8f4e
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: >-
-        Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or
-        adjacent infrastructure.
+      decision_reason: Testim is primarily a testing and QA tool that enhances developer workflows by integrating with CI/CD and providing AI-driven test authoring and stability, fitting best under extensions and addons for testing and code quality.
       decision_evidence:
-        - "Source-list context: listed in awesome-ai-coding-tools under Testing and QA as an automated testing platform for AI-powered stable tests"
-        - "README/scraped context: emphasizes AI-driven test authoring, self-healing locators, and integration with CI/CD tools like Jenkins, CircleCI, GitHub, and Slack"
-        - "Product positioning: focuses on accelerating testing, reducing maintenance, and root cause analysis — not generating code or apps from prompts"
+        - "Scraped site context: 'AI-powered Agentic Test automation makes it easier and faster to create better tests, automatically.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Testing and QA' section."
+        - "README excerpt: 'Reduce the time and costs of fixing tests' and 'Custom locators use AI and ML to identify more elements and learn more about your app, to keep your tests working.'"
       category_candidates:
         - extensions-and-addons
         - evals
-      contrastive_reason: Choose extensions-and-addons over evals because Testim's primary function is enhancing test creation and stability within existing workflows, not measuring or benchmarking AI/model behavior.
+      contrastive_reason: Choose extensions-and-addons over evals because Testim's core function is enhancing test authoring and stability in developer workflows, not measuring or benchmarking model or agent behavior.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause: null
     next_retry_at: null
   stars:

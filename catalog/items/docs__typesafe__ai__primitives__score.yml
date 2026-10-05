@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__primitives__score__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -16,11 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - What Jev is
-        anchor_text: '`Score`'
+        anchor_text: "`Score`"
         extracted_url: https://docs.typesafe.ai/primitives/score
-        surrounding_text: >-
-          | [`Score`](https://docs.typesafe.ai/primitives/score) | Place something on an ordered rubric | Score, level
-          probabilities, confidence |
+        surrounding_text: "| [`Score`](https://docs.typesafe.ai/primitives/score) | Place something on an ordered rubric | Score, level probabilities, confidence |"
         confidence: high
 metadata:
   github:
@@ -38,27 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A System One question type for rating content against ordered, descriptive levels with probabilistic scores and confidence.
+  why_it_matters: It enables developers to replace unpredictable LLM text outputs with precise, structured, and probabilistic data for tasks like triage, routing, and classification.
+  mental_damage: Because natural language was just too ambiguous for our automated workflows, so now we need a 0.43 probability distribution to describe our bug reports.
+  tags:
+    - decision-models
+    - probabilistic-scoring
+    - system-one
+    - structured-output
+    - sdk
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: It is a core primitive of the TypeSafe System One decision-model ecosystem designed for structured, probabilistic scoring instead of raw text generation.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Identified as a 'System One question type' for rating content against ordered, descriptive levels.
+    - Outputs a weighted score, per-level probabilities, and a confidence value instead of generating text.
+    - Part of the TypeSafe AI ecosystem, which is listed as a canonical positive for decision-models.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:56.060Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7cb8ac7dcee2642fc9f84249a5693b60e2bd7b3d541b2cf7d49ff89966b2affa
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a core primitive of the TypeSafe System One decision-model ecosystem designed for structured, probabilistic scoring instead of raw text generation.
+      decision_evidence:
+        - Identified as a 'System One question type' for rating content against ordered, descriptive levels.
+        - Outputs a weighted score, per-level probabilities, and a confidence value instead of generating text.
+        - Part of the TypeSafe AI ecosystem, which is listed as a canonical positive for decision-models.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the tool's primary identity is the specific probabilistic judgment model it implements rather than being a general-purpose orchestration or abstraction library.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

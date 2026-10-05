@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__initrd__himalaya-jev-mail-classify__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: himalaya-jev-mail-classify
         extracted_url: https://github.com/initrd/himalaya-jev-mail-classify
-        surrounding_text: >-
-          - [himalaya-jev-mail-classify](https://github.com/initrd/himalaya-jev-mail-classify) - CLI that classifies
-          Gmail threads via himalaya + TypeSafe Jev (OpenRouter) and applies labels (dry-run default). [Project
-          guide](community/projects/tools/himalaya-jev-mail-classify.md).
+        surrounding_text: "- [himalaya-jev-mail-classify](https://github.com/initrd/himalaya-jev-mail-classify) - CLI that classifies Gmail threads via himalaya + TypeSafe Jev (OpenRouter) and applies labels (dry-run default). [Project guide](community/projects/tools/himalaya-jev-mail-classify.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    himalaya-jev-mail-classify - CLI that classifies Gmail threads via himalaya + TypeSafe Jev (OpenRouter) and applies
-    labels (dry-run default). Project guide.
+  summary: himalaya-jev-mail-classify - CLI that classifies Gmail threads via himalaya + TypeSafe Jev (OpenRouter) and applies labels (dry-run default). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.820Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

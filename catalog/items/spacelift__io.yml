@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__spacelift__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Spacelift
         extracted_url: https://spacelift.io
-        surrounding_text: '- **[Spacelift](https://spacelift.io/)** – AI-powered infrastructure automation with policy as code.'
+        surrounding_text: "- **[Spacelift](https://spacelift.io/)** – AI-powered infrastructure automation with policy as code."
         confidence: high
 metadata:
   github:
@@ -36,12 +36,8 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Spacelift is an infrastructure orchestration platform that automates Terraform, OpenTofu, Ansible, and other IaC
-    tools using AI-assisted workflows.
-  why_it_matters: >-
-    It lets developers provision infrastructure through self-service templates and AI assistants while giving platform
-    teams policy control and drift detection.
+  summary: Spacelift is an infrastructure orchestration platform that automates Terraform, OpenTofu, Ansible, and other IaC tools using AI-assisted workflows.
+  why_it_matters: It lets developers provision infrastructure through self-service templates and AI assistants while giving platform teams policy control and drift detection.
   mental_damage: Finally, a way to make waiting for platform approval feel like a self-serve AI-powered illusion of speed.
   tags:
     - infrastructure
@@ -50,22 +46,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Spacelift is an infrastructure orchestration and DevOps platform; its core value is managing Terraform/OpenTofu
-    pipelines, policy enforcement, and self-service workflows—not coding, agent behavior, or developer tooling that
-    writes, edits, or reviews code.
+  reason: Spacelift is an infrastructure orchestration and DevOps platform; its core value is managing Terraform/OpenTofu pipelines, policy enforcement, and self-service workflows—not coding, agent behavior, or developer tooling that writes, edits, or reviews code.
   evidence:
-    - >-
-      Repo description is missing, but scraped site context states: 'Spacelift helps orchestrate your entire
-      infrastructure pipeline (Terraform, OpenTofu, Ansible and more) to deliver secure, cost-effective, and
-      high-performance infrastructure.'
-    - >-
-      Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure', noting it helps
-      orchestrate infrastructure pipelines.
-    - >-
-      README excerpt emphasizes IaC/GitOps pipelines, AI deployment models, Infrastructure Assistant, policy as code,
-      and self-service via templates—none of which involve coding agents, app building, or developer-facing AI tooling
-      for code tasks.
+    - "Repo description is missing, but scraped site context states: 'Spacelift helps orchestrate your entire infrastructure pipeline (Terraform, OpenTofu, Ansible and more) to deliver secure, cost-effective, and high-performance infrastructure.'"
+    - Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure', noting it helps orchestrate infrastructure pipelines.
+    - README excerpt emphasizes IaC/GitOps pipelines, AI deployment models, Infrastructure Assistant, policy as code, and self-service via templates—none of which involve coding agents, app building, or developer-facing AI tooling for code tasks.
 placement:
   primary_category: null
   section: null
@@ -75,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,10 +68,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:52:01.543Z'
-    cause: null
-    attempts: 4
+    status: deferred
+    updated_at: "2026-10-05T04:58:52.979Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for spacelift__io: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"_reason\": Spacelift \"... is not valid JSON"
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null
@@ -97,22 +84,11 @@ processing:
       input_hash: sha256:10a5f1594b3904064e6634e433dba64b95cb43ae9b20126da47508f72813615d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Spacelift is an infrastructure orchestration and DevOps platform; its core value is managing Terraform/OpenTofu
-        pipelines, policy enforcement, and self-service workflows—not coding, agent behavior, or developer tooling that
-        writes, edits, or reviews code.
+      decision_reason: Spacelift is an infrastructure orchestration and DevOps platform; its core value is managing Terraform/OpenTofu pipelines, policy enforcement, and self-service workflows—not coding, agent behavior, or developer tooling that writes, edits, or reviews code.
       decision_evidence:
-        - >-
-          Repo description is missing, but scraped site context states: 'Spacelift helps orchestrate your entire
-          infrastructure pipeline (Terraform, OpenTofu, Ansible and more) to deliver secure, cost-effective, and
-          high-performance infrastructure.'
-        - >-
-          Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure', noting it helps
-          orchestrate infrastructure pipelines.
-        - >-
-          README excerpt emphasizes IaC/GitOps pipelines, AI deployment models, Infrastructure Assistant, policy as
-          code, and self-service via templates—none of which involve coding agents, app building, or developer-facing AI
-          tooling for code tasks.
+        - "Repo description is missing, but scraped site context states: 'Spacelift helps orchestrate your entire infrastructure pipeline (Terraform, OpenTofu, Ansible and more) to deliver secure, cost-effective, and high-performance infrastructure.'"
+        - Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure', noting it helps orchestrate infrastructure pipelines.
+        - README excerpt emphasizes IaC/GitOps pipelines, AI deployment models, Infrastructure Assistant, policy as code, and self-service via templates—none of which involve coding agents, app building, or developer-facing AI tooling for code tasks.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

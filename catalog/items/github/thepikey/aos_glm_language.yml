@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__thepikey__aos_glm_language__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Applications
         anchor_text: AOS_GLM_language
         extracted_url: https://github.com/thepikey/aos_glm_language
-        surrounding_text: >-
-          - [AOS_GLM_language](https://github.com/ThePikey/AOS_GLM_language) - Sovereign 0-VRAM & 0-LLM Deterministic
-          Reality Engine & TypeSafe Jev Replacement with VSA Hypervectors, Golay G_24 QEC, Clifford Cℓ(8,0) Bivector
-          Wedge Gates, Poincare Geodesics, and Cellular Sheaf Cohomology.
+        surrounding_text: "- [AOS_GLM_language](https://github.com/ThePikey/AOS_GLM_language) - Sovereign 0-VRAM & 0-LLM Deterministic Reality Engine & TypeSafe Jev Replacement with VSA Hypervectors, Golay G_24 QEC, Clifford Cℓ(8,0) Bivector Wedge Gates, Poincare Geodesics, and Cellular Sheaf Cohomology."
         confidence: high
 metadata:
   github:
@@ -40,19 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AOS_GLM_language - Sovereign 0-VRAM & 0-LLM Deterministic Reality Engine & TypeSafe Jev Replacement with VSA
-    Hypervectors, Golay G_24 QEC, Clifford Cℓ(8,0) Bivector Wedge Gates, Poincare Geodesics, and Cellular Sheaf
-    Cohomology.
+  summary: AOS_GLM_language - Sovereign 0-VRAM & 0-LLM Deterministic Reality Engine & TypeSafe Jev Replacement with VSA Hypervectors, Golay G_24 QEC, Clifford Cℓ(8,0) Bivector Wedge Gates, Poincare Geodesics, and Cellular Sheaf Cohomology.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for thepikey/aos_glm_language
     - ungh.cc (cached GitHub proxy) returned 404 for thepikey/aos_glm_language
@@ -67,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

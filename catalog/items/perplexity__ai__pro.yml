@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__perplexity__ai__pro__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Perplexity Pro
         extracted_url: https://perplexity.ai/pro
-        surrounding_text: >-
-          - **[Perplexity Pro](https://perplexity.ai/pro)** – AI search engine with real-time web access for coding
-          solutions.
+        surrounding_text: "- **[Perplexity Pro](https://perplexity.ai/pro)** – AI search engine with real-time web access for coding solutions."
         confidence: high
 metadata:
   github:
@@ -38,28 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Perplexity Pro is a paid AI search and assistant service offering enhanced model access and features.
-  why_it_matters: >-
-    It provides developers with a conversational interface for research and coding-related queries using advanced
-    language models.
-  mental_damage: >-
-    Another subscription layer for AI access that promises better answers but keeps the workflow of pasting prompts into
-    a chat box.
+  summary: Perplexity Pro is a subscription tier offering enhanced AI-powered search and research capabilities with access to advanced models.
+  why_it_matters: Provides developers with faster, more accurate information gathering for coding tasks through improved search and model access.
+  mental_damage: Yet another AI subscription promising to save time while adding yet another tab to your already overflowing research workflow.
   tags:
     - ai-search
-    - llm-chatbot
+    - research-tool
+    - developer-productivity
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Perplexity Pro is a general-purpose AI chat and search service, not a developer-facing coding tool or agent; it does
-    not act on codebases, edit files, or integrate into development workflows as a primary coding assistant.
+  reason: Perplexity Pro is primarily an enhanced search and research service, not a developer-facing AI tool that writes, edits, or assists with code in an existing codebase.
   evidence:
-    - URL is https://perplexity.ai/pro, a commercial AI search/product page, not a GitHub repo or developer tool
-    - No repo description, stars, or activity signals indicating a developer tool or open-source project
-    - >-
-      Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but this reflects indirect usefulness, not
-      a core developer tooling identity
+    - "Repo description: (none)"
+    - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools | section: Developer Productivity Tools"
+    - "URL: https://perplexity.ai/pro - indicates a commercial subscription page for enhanced search capabilities"
 placement:
   primary_category: null
   section: null
@@ -69,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,28 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:34:29.300Z'
+    updated_at: "2026-10-05T04:43:14.016Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6eceb96f6a5b2b38af8a346f87d6d351c3761c35dc1ef63ded250d12c0e575b1
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7bff44f9501f44985c134a767268a0b7d4cb37556fcc749d5dbf7242648e299d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Perplexity Pro is a general-purpose AI chat and search service, not a developer-facing coding tool or agent; it
-        does not act on codebases, edit files, or integrate into development workflows as a primary coding assistant.
+      decision_reason: Perplexity Pro is primarily an enhanced search and research service, not a developer-facing AI tool that writes, edits, or assists with code in an existing codebase.
       decision_evidence:
-        - URL is https://perplexity.ai/pro, a commercial AI search/product page, not a GitHub repo or developer tool
-        - No repo description, stars, or activity signals indicating a developer tool or open-source project
-        - >-
-          Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but this reflects indirect usefulness,
-          not a core developer tooling identity
+        - "Repo description: (none)"
+        - "Seen in source lists / directories: awesome-ai-coding-tools | purpose: A curated list of AI-powered coding tools | section: Developer Productivity Tools"
+        - "URL: https://perplexity.ai/pro - indicates a commercial subscription page for enhanced search capabilities"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

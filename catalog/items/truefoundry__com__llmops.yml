@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__truefoundry__com__llmops__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,15 +19,10 @@ provenance:
           - ML Platforms
         anchor_text: TrueFoundry
         extracted_url: https://truefoundry.com/llmops
-        surrounding_text: >-
-          | [TrueFoundry](https://truefoundry.com/llmops)           | A PaaS to deploy, Fine-tune and serve LLM Models
-          on a company’s own Infrastructure with Data Security and Optimal GPU and Cost Management. Launch your LLM
-          Application at Production scale with best DevSecOps
-          practices.                                                                                                                                                                                                                                                
-          |                                                                                                    |
+        surrounding_text: "| [TrueFoundry](https://truefoundry.com/llmops)           | A PaaS to deploy, Fine-tune and serve LLM Models on a company’s own Infrastructure with Data Security and Optimal GPU and Cost Management. Launch your LLM Application at Production scale with best DevSecOps practices.                                                                                                                                                                                                                                                 |                                                                                                    |"
         confidence: high
     - id: discovery__www__truefoundry__com__llmops__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -40,12 +35,7 @@ provenance:
           - ML Platforms
         anchor_text: TrueFoundry
         extracted_url: https://truefoundry.com/llmops
-        surrounding_text: >-
-          | [TrueFoundry](https://truefoundry.com/llmops)           | A PaaS to deploy, Fine-tune and serve LLM Models
-          on a company’s own Infrastructure with Data Security and Optimal GPU and Cost Management. Launch your LLM
-          Application at Production scale with best DevSecOps
-          practices.                                                                                                                                                                                                                                                
-          |                                                                                                    |
+        surrounding_text: "| [TrueFoundry](https://truefoundry.com/llmops)           | A PaaS to deploy, Fine-tune and serve LLM Models on a company’s own Infrastructure with Data Security and Optimal GPU and Cost Management. Launch your LLM Application at Production scale with best DevSecOps practices.                                                                                                                                                                                                                                                 |                                                                                                    |"
         confidence: high
 metadata:
   github:
@@ -63,27 +53,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Enterprise LLMOps platform for deploying, fine-tuning, and scaling GenAI applications with governance and
-    observability.
-  why_it_matters: >-
-    Provides a unified control plane for managing LLM lifecycles, from model serving to agent orchestration, with
-    enterprise-grade security and compliance.
-  mental_damage: >-
-    Because nothing says 'production-ready' like a platform that promises to unify your LLM chaos while adding 17 new
-    tabs to your browser.
+  summary: TrueFoundry is an enterprise LLMOps platform for deploying, fine-tuning, and scaling GenAI applications on self-hosted infrastructure.
+  why_it_matters: It lets developers manage the full LLM lifecycle—from training to inference—on their own VPC or on-prem environment with built-in governance and observability.
+  mental_damage: Finally, a way to feel like you’re running production AI without actually understanding any of the underlying infra.
   tags:
     - llmops
-    - ai-infrastructure
     - model-serving
-    - agent-lifecycle
     - self-hosted
+    - ai-gateway
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  status: excluded
+  reason: TrueFoundry is an enterprise infrastructure platform for LLMOps, not a developer-facing AI tool, agent, or workflow enhancer; it serves platform and MLOps buyers rather than individual developers shaping prompts, writing code, or orchestrating agents.
   evidence:
-    - jev-latest choice confidence 0.76
+    - Scraped site context describes it as an 'enterprise LLMOps platform' focused on deployment, fine-tuning, and GenAI infrastructure.
+    - Source-list placement is in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', targeting DS and IT leaders, not coding agents or developer tooling.
+    - Primary features include AI Gateway, MCP Gateway, model serving, training pipelines, and agent lifecycle management—all platform-level capabilities.
 placement:
   primary_category: null
   secondary_categories: []
@@ -93,49 +78,35 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:47:36.441Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for truefoundry__com__llmops: Invalid AI response format: SyntaxError:
-        Unexpected token 'T', ..."_reason": TrueFoundr"... is not valid JSON
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:56:12.110Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3e7d10e1ff8e2fb4f3b09f6bc28c6f38d4feac6c3d2860dd2e2706d026555902
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a998be86af097cce8410ab74682809b44230c84732f95e21fc86050e8e402bd7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a control plane for coordinating LLMOps workflows, including agent lifecycle management,
-        multi-agent orchestration, and MCP server integration, fitting the Agent Orchestration category.
+      decision_reason: TrueFoundry is an enterprise infrastructure platform for LLMOps, not a developer-facing AI tool, agent, or workflow enhancer; it serves platform and MLOps buyers rather than individual developers shaping prompts, writing code, or orchestrating agents.
       decision_evidence:
-        - Described as an 'enterprise LLMOps platform' for deploying, fine-tuning, and scaling GenAI applications
-        - >-
-          Includes 'Agent Gateway', 'Agent Skills Registry', and 'LLMOps for AI Agent Lifecycle Management' as core
-          features
-        - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms'
-      category_candidates:
-        - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane for
-        coordinating agents and LLMOps workflows, not a code-first SDK or library.
+        - Scraped site context describes it as an 'enterprise LLMOps platform' focused on deployment, fine-tuning, and GenAI infrastructure.
+        - Source-list placement is in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', targeting DS and IT leaders, not coding agents or developer tooling.
+        - Primary features include AI Gateway, MCP Gateway, model serving, training pipelines, and agent lifecycle management—all platform-level capabilities.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.971Z'
+    updated_at: "2026-07-21T15:20:21.971Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending

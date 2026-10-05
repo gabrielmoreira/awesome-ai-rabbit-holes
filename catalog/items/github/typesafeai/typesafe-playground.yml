@@ -6,8 +6,24 @@ identity:
   github_repo: typesafeai/typesafe-playground
 provenance:
   discoveries:
+    - id: discovery__github__bunsdev__typesafe-ai-playground__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Demos & playgrounds (65)
+        anchor_text: typesafe-ai-playground (BunsDev)
+        extracted_url: https://github.com/bunsdev/typesafe-ai-playground
+        surrounding_text: "| [typesafe-ai-playground (BunsDev)](https://github.com/BunsDev/typesafe-ai-playground) | ★ 14 | TypeScript | 2026-09-19 | Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI. |"
+        confidence: high
     - id: discovery__github__typesafeai__typesafe-playground__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +35,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: typesafe-ai-playground (BunsDev)
         extracted_url: https://github.com/typesafeai/typesafe-playground
-        surrounding_text: >-
-          - [typesafe-ai-playground (BunsDev)](https://github.com/TypeSafeAI/typesafe-playground)
-          ([site](https://jev.works)) - Community TypeSafe AI playground: 110 use cases, games, dilemmas and model
-          challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
+        surrounding_text: "- [typesafe-ai-playground (BunsDev)](https://github.com/TypeSafeAI/typesafe-playground) ([site](https://jev.works)) - Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI."
         confidence: high
     - id: discovery__github__typesafeai__typesafe-playground__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,12 +51,10 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: typesafe-playground
         extracted_url: https://github.com/typesafeai/typesafe-playground
-        surrounding_text: >-
-          | [typesafe-playground](https://github.com/TypeSafeAI/typesafe-playground) | ★ 20 | TypeScript | 2026-09-24 |
-          Community playground with editable Jev use cases, games, dilemmas, challenges, and A/B comparisons. |
+        surrounding_text: "| [typesafe-playground](https://github.com/TypeSafeAI/typesafe-playground) | ★ 20 | TypeScript | 2026-09-24 | Community playground with editable Jev use cases, games, dilemmas, challenges, and A/B comparisons. |"
         confidence: high
     - id: discovery__github__typesafeai__typesafe-playground__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,55 +64,57 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**typesafe-ai-playground**'
+        anchor_text: "**typesafe-ai-playground**"
         extracted_url: https://github.com/typesafeai/typesafe-playground
-        surrounding_text: >-
-          - [**typesafe-ai-playground**](https://github.com/TypeSafeAI/typesafe-playground) — Community playground for
-          TypeSafe AI and Jev featuring 110 real-world scenarios, dilemmas, and interactive experiments.
+        surrounding_text: "- [**typesafe-ai-playground**](https://github.com/TypeSafeAI/typesafe-playground) — Community playground for TypeSafe AI and Jev featuring 110 real-world scenarios, dilemmas, and interactive experiments."
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21
+    forks: 6
+    license: MIT
+    archived: false
+    full_name: TypeSafeAI/typesafe-playground
+    html_url: https://github.com/TypeSafeAI/typesafe-playground
+    created_at: "2026-09-16T16:20:23Z"
+    pushed_at: "2026-09-28T20:04:56Z"
+    description: "Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI."
+    homepage: https://jev.works
+    topics: []
+    last_checked_at: "2026-09-29T13:09:39.110Z"
+    readme:
+      fetched_at: "2026-09-29T13:09:39.110Z"
+      bytes: 23569
 insights:
-  summary: null
+  summary: "Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI."
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
-    - jev winnow:e4b 0.19 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - jev-latest choice confidence 0.58
+    - jev winnow:e4b 0.24 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at evals (unverified)
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
-    cause: null
-    next_retry_at: null
-  stars:
-    status: pending
-    updated_at: null
-    cause: null
   categorize:
     status: pending
     updated_at: null
     cause: null
+  discover:
+    status: done
+    updated_at: "2026-09-29T13:07:10.451Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-29T13:09:39.110Z"
+    cause: null
+    next_retry_at: null

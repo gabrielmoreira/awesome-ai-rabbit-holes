@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__z29k__notabene__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Documentation
         anchor_text: notabene
         extracted_url: https://github.com/z29k/notabene
-        surrounding_text: >-
-          - **[notabene](https://github.com/z29k/notabene)** – Self-hosted docs viewer with Google-Docs-style comments
-          and a human-agent review loop that turns comments into source edits.
+        surrounding_text: "- **[notabene](https://github.com/z29k/notabene)** – Self-hosted docs viewer with Google-Docs-style comments and a human-agent review loop that turns comments into source edits."
         confidence: high
 metadata:
   github:
@@ -51,16 +49,16 @@ curation:
     - jev winnow:e4b 0.25 below gate 0.50; proposed local-ai / Desktop Chat & UIs; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - local-ai
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

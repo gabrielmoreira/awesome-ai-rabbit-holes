@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__youkiti__tiab-review-plugin__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: tiab-review-plugin
         extracted_url: https://github.com/youkiti/tiab-review-plugin
-        surrounding_text: >-
-          | [tiab-review-plugin](https://github.com/youkiti/tiab-review-plugin) | ★ 1 | TypeScript | 2026-09-22 | Chrome
-          extension for systematic-review screening where Jev returns per-criterion match probabilities and an inclusion
-          judgment. |
+        surrounding_text: "| [tiab-review-plugin](https://github.com/youkiti/tiab-review-plugin) | ★ 1 | TypeScript | 2026-09-22 | Chrome extension for systematic-review screening where Jev returns per-criterion match probabilities and an inclusion judgment. |"
         confidence: high
 metadata:
   github:
@@ -50,21 +47,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

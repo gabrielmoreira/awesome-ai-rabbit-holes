@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__optionsahoy__com__tools__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-08T05:39:05.247Z'
+      discovered_at: "2026-06-08T05:39:05.247Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,16 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: optionsahoy.com/tools
         extracted_url: https://optionsahoy.com/tools
-        surrounding_text: >-
-          - [AlvisoOculus/optionsahoy-mcp](https://github.com/AlvisoOculus/optionsahoy-mcp)
-          [![AlvisoOculus/optionsahoy-mcp MCP
-          server](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp)
-          📇 ☁️ - Multi-year equity-compensation optimization engine: returns the globally-optimal ISO/AMT exercise
-          schedule, NSO sell-vs-hold decision, RSU vest plan, single-stock concentration sell-down, protective put /
-          zero-cost collar pricing, and Section 1202 QSBS qualification verdict. Covers full federal tax code plus all
-          50 states + DC (ordinary brackets, long-term capital gains treatment, state AMT for CA/CO/CT/MN, FICA, NIIT).
-          Remote HTTP MCP at `https://optionsahoy.com/mcp` (no auth, no install). Six tools, same engine as the
-          in-browser calculators at [optionsahoy.com/tools](https://optionsahoy.com/tools).
+        surrounding_text: "- [AlvisoOculus/optionsahoy-mcp](https://github.com/AlvisoOculus/optionsahoy-mcp) [![AlvisoOculus/optionsahoy-mcp MCP server](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AlvisoOculus/optionsahoy-mcp) 📇 ☁️ - Multi-year equity-compensation optimization engine: returns the globally-optimal ISO/AMT exercise schedule, NSO sell-vs-hold decision, RSU vest plan, single-stock concentration sell-down, protective put / zero-cost collar pricing, and Section 1202 QSBS qualification verdict. Covers full federal tax code plus all 50 states + DC (ordinary brackets, long-term capital gains treatment, state AMT for CA/CO/CT/MN, FICA, NIIT). Remote HTTP MCP at `https://optionsahoy.com/mcp` (no auth, no install). Six tools, same engine as the in-browser calculators at [optionsahoy.com/tools](https://optionsahoy.com/tools)."
         confidence: high
 metadata:
   github:
@@ -46,30 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A suite of tax and equity planning calculators for software engineers managing RSUs, ISOs, and concentrated stock
-    positions.
-  why_it_matters: >-
-    It helps developers optimize the timing and tax impact of exercising options and selling equity to avoid massive AMT
-    bills or avoidable capital gains.
-  mental_damage: >-
-    The realization that your 'generational wealth' is actually just a complex math problem involving the Alternative
-    Minimum Tax and a prayer.
+  summary: OptionsAhoy provides free, no-signup tax and financial calculators for equity holders to analyze stock concentration, option exercises, and vesting decisions.
+  why_it_matters: It helps developers with equity compensation make informed, tax-aware financial decisions using transparent, validated calculations.
+  mental_damage: Another reminder that your biggest coding risk isn't in production—it's accidentally exercising ISOs and triggering AMT you can't afford.
   tags:
+    - finance
     - tax
     - equity
     - calculator
-    - finance
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a financial planning and tax calculator tool for employees, not a tool for building software or an AI tool
-    for developers' coding workflows.
+  reason: OptionsAhoy is a financial/tax tool for equity holders, not an AI developer tool; it lacks any meaningful connection to coding, agents, or software development workflows.
   evidence:
     - "Repo description: (none)"
-    - "Scraped site context: Free Calculators for Equity Holders | OptionsAhoy — focused on stock concentration, protective puts, ISO exercise schedules, and tax calculations."
-    - No evidence of AI integration, agent behavior, code generation, or developer tooling beyond basic web forms.
+    - "Scraped site context: Title is 'Free Calculators for Equity Holders | OptionsAhoy' and description is 'Free, no-signup calculators for concentrated stock positions: concentration risk, protective put + collar pricing, and more.'"
+    - README excerpt focuses entirely on stock, options, tax calculations (e.g., ISO exercise, NSO, RSU, QSBS) with no mention of AI, code, or developer tooling.
 placement:
   primary_category: null
   section: null
@@ -79,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-08T05:39:05.249Z'
+    updated_at: "2026-06-08T05:39:05.249Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,29 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:34:01.155Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for optionsahoy__com__tools: Upstream error from Nvidia: ResourceExhausted:
-        Worker local total request limit reached (2492/16)
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:25:58.316Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5dd06a6d54848bd7741664376399510db8bb0b914c64ffbb295a4f0c722d3797
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a44f74f9e2b213bd885b719ce720bbe47672f3ae9ad94e878922c1a29a952be9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: OptionsAhoy is a financial tax calculator suite for equity holders, not a developer-facing AI tool, agent, framework, or workflow product.
+      decision_reason: OptionsAhoy is a financial/tax tool for equity holders, not an AI developer tool; it lacks any meaningful connection to coding, agents, or software development workflows.
       decision_evidence:
         - "Repo description: (none)"
-        - "Scraped site context: Free Calculators for Equity Holders | OptionsAhoy — focused on stock concentration, protective puts, ISO exercise schedules, and tax calculations."
-        - No evidence of AI integration, agent behavior, code generation, or developer tooling beyond basic web forms.
+        - "Scraped site context: Title is 'Free Calculators for Equity Holders | OptionsAhoy' and description is 'Free, no-signup calculators for concentrated stock positions: concentration risk, protective put + collar pricing, and more.'"
+        - README excerpt focuses entirely on stock, options, tax calculations (e.g., ISO exercise, NSO, RSU, QSBS) with no mention of AI, code, or developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

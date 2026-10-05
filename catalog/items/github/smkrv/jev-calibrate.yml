@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smkrv__jev-calibrate__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-calibrate
         extracted_url: https://github.com/smkrv/jev-calibrate
-        surrounding_text: >-
-          - [jev-calibrate](https://github.com/smkrv/jev-calibrate) - Calibrate TypeSafe Jev questions against labelled
-          examples and get per-question gate/ranker/unusable verdicts. [Project
-          guide](community/projects/tools/jev-calibrate.md).
+        surrounding_text: "- [jev-calibrate](https://github.com/smkrv/jev-calibrate) - Calibrate TypeSafe Jev questions against labelled examples and get per-question gate/ranker/unusable verdicts. [Project guide](community/projects/tools/jev-calibrate.md)."
         confidence: high
     - id: discovery__github__smkrv__jev-calibrate__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,13 +36,10 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-calibrate
         extracted_url: https://github.com/smkrv/jev-calibrate
-        surrounding_text: >-
-          | [jev-calibrate](https://github.com/smkrv/jev-calibrate) | ★ 31 | TypeScript | 2026-09-23 | Calibrate Jev
-          questions against your own labels: tune criteria on labelled examples, confirm on a held-out set, get a
-          verdict per question. Unofficial. |
+        surrounding_text: "| [jev-calibrate](https://github.com/smkrv/jev-calibrate) | ★ 31 | TypeScript | 2026-09-23 | Calibrate Jev questions against your own labels: tune criteria on labelled examples, confirm on a held-out set, get a verdict per question. Unofficial. |"
         confidence: high
     - id: discovery__github__smkrv__jev-calibrate__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -55,13 +49,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-calibrate**'
+        anchor_text: "**jev-calibrate**"
         extracted_url: https://github.com/smkrv/jev-calibrate
-        surrounding_text: >-
-          - [**jev-calibrate**](https://github.com/smkrv/jev-calibrate) — Jev is the typed-decision model from TypeSafe:
-          it takes a \`state\` and a set of questions (\`noul\`, \`choice\`, \`score\`) and returns probabilities
-          instead of text. How well a question works depends on its wording, on your data and on the threshold you cut
-          at, and none of the three can be read off a single good-looking answer.
+        surrounding_text: "- [**jev-calibrate**](https://github.com/smkrv/jev-calibrate) — Jev is the typed-decision model from TypeSafe: it takes a \\`state\\` and a set of questions (\\`noul\\`, \\`choice\\`, \\`score\\`) and returns probabilities instead of text. How well a question works depends on its wording, on your data and on the threshold you cut at, and none of the three can be read off a single good-looking answer."
         confidence: high
 metadata:
   github:
@@ -79,9 +69,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-calibrate - Calibrate TypeSafe Jev questions against labelled examples and get per-question gate/ranker/unusable
-    verdicts. Project guide.
+  summary: jev-calibrate - Calibrate TypeSafe Jev questions against labelled examples and get per-question gate/ranker/unusable verdicts. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -101,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.404Z'
+    updated_at: "2026-09-29T13:07:10.404Z"
     cause: null
     next_retry_at: null
   stars:
@@ -109,6 +97,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

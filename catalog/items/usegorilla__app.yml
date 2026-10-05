@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usegorilla__app__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: usegorilla.app
         extracted_url: https://usegorilla.app
-        surrounding_text: >-
-          - [opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp) [![opusforge/gorilla-mcp MCP
-          server](https://glama.ai/mcp/servers/opusforge/gorilla-mcp/badges/score.svg)](https://glama.ai/mcp/servers/opusforge/gorilla-mcp)
-          📇 ☁️ - Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people
-          describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes
-          `find_leads`, `draft_outreach`, and `plan_acquisition_funnel` for the full acquisition flow. Hosted, $0.99 per
-          run. Install: `npx -y github:opusforge/gorilla-mcp`. Sign up: [usegorilla.app](https://usegorilla.app).
+        surrounding_text: "- [opusforge/gorilla-mcp](https://github.com/opusforge/gorilla-mcp) [![opusforge/gorilla-mcp MCP server](https://glama.ai/mcp/servers/opusforge/gorilla-mcp/badges/score.svg)](https://glama.ai/mcp/servers/opusforge/gorilla-mcp) 📇 ☁️ - Lead discovery for solo SaaS founders. Searches Reddit, X, YouTube, and TikTok for posts where people describe a problem your product solves, ranks each by buying intent, and returns ranked leads. Includes `find_leads`, `draft_outreach`, and `plan_acquisition_funnel` for the full acquisition flow. Hosted, $0.99 per run. Install: `npx -y github:opusforge/gorilla-mcp`. Sign up: [usegorilla.app](https://usegorilla.app)."
         confidence: high
 metadata:
   github:
@@ -43,35 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Gorilla is a web service that scans public social media platforms for posts matching a user-provided product idea
-    and ranks them by buying intent.
-  why_it_matters: >-
-    It helps developers validate demand for product ideas by surfacing real user signals across Reddit, X, YouTube,
-    TikTok, LinkedIn, and Threads.
-  mental_damage: Finally, a tool that turns founder anxiety into a $5 CSV file of strangers vaguely interested in your niche.
+  summary: Gorilla is a SaaS tool that scans Reddit, X, YouTube, TikTok, LinkedIn, and Threads for real-time demand signals by matching user ideas to public posts scored by buying intent.
+  why_it_matters: It helps developers and founders validate product ideas quickly by surfacing where real users are expressing demand, reducing guesswork in early-stage product discovery.
+  mental_damage: Another tool promising to turn your half-baked idea into validated demand — as if scraping social media for signals wasn’t already a full-time job for someone.
   tags:
-    - market-research
     - idea-validation
-    - lead-gen
-    - saas-tools
+    - market-research
+    - lead-generation
+    - social-media
+    - saas
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Gorilla is a market research and lead generation tool for validating product ideas via social listening; it does not
-    assist with coding, agent workflows, app building, or any developer-facing AI-tooling function central to the
-    catalog’s scope.
+  reason: Gorilla is a market research and lead generation tool focused on demand validation via social media monitoring; it does not assist with coding, agent workflows, or any developer-facing AI tooling related to building, editing, or operating software systems.
   evidence:
-    - >-
-      Scraped site context: 'Drop in your idea. Gorilla scans Reddit, X, YouTube, TikTok, LinkedIn and Threads for real
-      demand — and rank every post by how close they are to buying what you're building.'
-    - >-
-      Use cases section: Lists lead generation for startups, Reddit monitoring, voice of customer — all marketing/sales
-      functions, not developer tooling.
-    - >-
-      Pricing: $5 per run, one-off payment — positioned as a disposable insight tool for founders/marketers, not a dev
-      workflow component.
+    - Scans Reddit, X, YouTube, TikTok, LinkedIn, and Threads for real posts where people want what you're building
+    - One run costs $5; no subscription; returns ranked leads with idea-match scoring
+    - Use cases include lead generation for startups, voice of customer, and Reddit keyword research
 placement:
   primary_category: null
   section: null
@@ -81,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,33 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:47.600Z'
+    updated_at: "2026-10-05T04:56:52.331Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a25d0f2a29986560831c51c0875c41c8d9729e91f922aa743c776f6d44788ce3
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5dac423a13ecf3bf2d23f7f2ff8da4354ab955626064a7893415c40052e3c7cd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Gorilla is a market research and lead generation tool for validating product ideas via social listening; it does
-        not assist with coding, agent workflows, app building, or any developer-facing AI-tooling function central to
-        the catalog’s scope.
+      decision_reason: Gorilla is a market research and lead generation tool focused on demand validation via social media monitoring; it does not assist with coding, agent workflows, or any developer-facing AI tooling related to building, editing, or operating software systems.
       decision_evidence:
-        - >-
-          Scraped site context: 'Drop in your idea. Gorilla scans Reddit, X, YouTube, TikTok, LinkedIn and Threads for
-          real demand — and rank every post by how close they are to buying what you're building.'
-        - >-
-          Use cases section: Lists lead generation for startups, Reddit monitoring, voice of customer — all
-          marketing/sales functions, not developer tooling.
-        - >-
-          Pricing: $5 per run, one-off payment — positioned as a disposable insight tool for founders/marketers, not a
-          dev workflow component.
+        - Scans Reddit, X, YouTube, TikTok, LinkedIn, and Threads for real posts where people want what you're building
+        - One run costs $5; no subscription; returns ranked leads with idea-match scoring
+        - Use cases include lead generation for startups, voice of customer, and Reddit keyword research
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__geeklink__dev__subtitle__translator__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://geeklink.dev/subtitle-translator
-        surrounding_text: >-
-          - [jev-subtitle-translator](https://github.com/GeekLinkDev/jev-subtitle-translator)
-          ([site](https://geeklink.dev/subtitle-translator/)) - Translate SRT subtitles with structured LLM output and
-          check every translation with Jev.
+        surrounding_text: "- [jev-subtitle-translator](https://github.com/GeekLinkDev/jev-subtitle-translator) ([site](https://geeklink.dev/subtitle-translator/)) - Translate SRT subtitles with structured LLM output and check every translation with Jev."
         confidence: high
 metadata:
   github:
@@ -39,44 +36,64 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-subtitle-translator (site) - Translate SRT subtitles with structured LLM output and check every translation with
-    Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GeekLink Full Pro is a desktop application for translating subtitle files (SRT) using AI models like Claude, GPT-4o, or DeepSeek, preserving timestamps and supporting batch processing, bilingual export, and video subtitle burn-in.
+  why_it_matters: It helps developers and creators localize video content efficiently without uploading files or losing subtitle synchronization.
+  mental_damage: Another niche AI tool that solves a real problem but makes you wonder if you should’ve just learned the language instead.
+  tags:
+    - ai-translation
+    - subtitles
+    - desktop-app
+    - local-ai
+    - media-processing
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The tool is focused on media localization and subtitle processing, not software development workflows, coding assistance, or developer-facing AI tooling.
   evidence:
-    - jev-latest choice confidence 0.40
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Official Jev & System One; placement kept at
-      decision-models (unverified)
+    - Translates SRT subtitle files using AI with context-aware translation and timestamp preservation
+    - Designed for video workflows, bilingual export, batch season processing, and hard-subtitle OCR
+    - Marketed to fansubbers, language learners, and international channels — not developers or coding tasks
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories:
     - app-builders
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:51.522Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a8fa1c885dfef7a2f99683f65c0a41496653aab5549a6da82dad29f4c0a920b3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is focused on media localization and subtitle processing, not software development workflows, coding assistance, or developer-facing AI tooling.
+      decision_evidence:
+        - Translates SRT subtitle files using AI with context-aware translation and timestamp preservation
+        - Designed for video workflows, bilingual export, batch season processing, and hard-subtitle OCR
+        - Marketed to fansubbers, language learners, and international channels — not developers or coding tasks
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

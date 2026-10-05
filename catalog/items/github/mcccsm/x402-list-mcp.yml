@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mcccsm__x402-list-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: mcccsm/x402-list-mcp
         extracted_url: https://github.com/mcccsm/x402-list-mcp
-        surrounding_text: >-
-          - [mcccsm/x402-list-mcp](https://github.com/mcccsm/x402-list-mcp) [![mcccsm/x402-list-mcp MCP
-          server](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp)
-          📇 ☁️ - Find and vet x402 payment APIs in the x402-list directory: search and rank services, check uptime,
-          health, per-endpoint prices and on-chain settlement volume.
+        surrounding_text: "- [mcccsm/x402-list-mcp](https://github.com/mcccsm/x402-list-mcp) [![mcccsm/x402-list-mcp MCP server](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp/badges/score.svg)](https://glama.ai/mcp/servers/mcccsm/x402-list-mcp) 📇 ☁️ - Find and vet x402 payment APIs in the x402-list directory: search and rank services, check uptime, health, per-endpoint prices and on-chain settlement volume."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    mcccsm/x402-list-mcp ☁️ - Find and vet x402 payment APIs in the x402-list directory: search and rank services, check
-    uptime, health, per-endpoint prices and on-chain settlement volume.
+  summary: "mcccsm/x402-list-mcp ☁️ - Find and vet x402 payment APIs in the x402-list directory: search and rank services, check uptime, health, per-endpoint prices and on-chain settlement volume."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Finance, Crypto & DeFi
   evidence:
     - jev-latest choice confidence 0.75
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
-      mcp (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

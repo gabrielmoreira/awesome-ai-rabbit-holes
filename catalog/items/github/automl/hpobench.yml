@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__automl__hpobench__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -19,11 +19,7 @@ provenance:
           - AutoML
         anchor_text: HPOlib2
         extracted_url: https://github.com/automl/hpolib2
-        surrounding_text: >-
-          | [HPOlib2](https://github.com/automl/HPOlib2)                                 | a library for hyperparameter
-          optimization and black box optimization
-          benchmarks.                                                                                                |
-          ![GitHub Badge](https://img.shields.io/github/stars/automl/HPOlib2.svg?style=flat-square)                  |
+        surrounding_text: "| [HPOlib2](https://github.com/automl/HPOlib2)                                 | a library for hyperparameter optimization and black box optimization benchmarks.                                                                                                | ![GitHub Badge](https://img.shields.io/github/stars/automl/HPOlib2.svg?style=flat-square)                  |"
         confidence: high
 metadata:
   github:
@@ -33,30 +29,24 @@ metadata:
     archived: false
     full_name: automl/HPOBench
     html_url: https://github.com/automl/HPOBench
-    created_at: '2020-01-14T07:58:39Z'
-    pushed_at: '2025-05-21T11:10:27Z'
+    created_at: "2020-01-14T07:58:39Z"
+    pushed_at: "2025-05-21T11:10:27Z"
     description: Collection of hyperparameter optimization benchmark problems
-    homepage: ''
+    homepage: ""
     topics:
       - bayesian-optimization
       - benchmark
       - benchmarking
       - containerized-benchmarks
       - hyperparameter-optimization
-    last_checked_at: '2026-09-21T04:13:51.392Z'
+    last_checked_at: "2026-09-21T04:13:51.392Z"
     readme:
-      fetched_at: '2026-09-21T04:13:51.392Z'
+      fetched_at: "2026-09-21T04:13:51.392Z"
       bytes: 8175
 insights:
-  summary: >-
-    A library providing containerized benchmark problems for hyperparameter optimization with a focus on
-    reproducibility.
-  why_it_matters: >-
-    It enables developers to evaluate and compare hyperparameter optimization algorithms in a standardized, reproducible
-    environment.
-  mental_damage: >-
-    Because nothing says 'fun' like spending your afternoon tuning hyperparameters only to realize your benchmark was
-    the problem all along.
+  summary: A library providing containerized benchmark problems for hyperparameter optimization with a focus on reproducibility.
+  why_it_matters: It enables developers to evaluate and compare hyperparameter optimization algorithms in a standardized, reproducible environment.
+  mental_damage: Because nothing says 'fun' like spending your afternoon tuning hyperparameters only to realize your benchmark was the problem all along.
   tags:
     - benchmarking
     - hyperparameter-optimization
@@ -65,15 +55,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a benchmarking library for hyperparameter optimization, which falls under ML research tooling rather than
-    developer-facing AI workflow or tooling.
+  reason: This is a benchmarking library for hyperparameter optimization, which falls under ML research tooling rather than developer-facing AI workflow or tooling.
   evidence:
     - Repo description explicitly states it is a 'Collection of hyperparameter optimization benchmark problems'
     - README emphasizes reproducibility and benchmarking for HPO, not developer workflow augmentation
-    - >-
-      Source-list context places it under AutoML in Awesome-LLMOps, which is adjacent but not core to developer-tooling
-      scope
+    - Source-list context places it under AutoML in Awesome-LLMOps, which is adjacent but not core to developer-tooling scope
 placement:
   primary_category: null
   section: null
@@ -83,17 +69,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:51.392Z'
+    updated_at: "2026-09-21T04:13:51.392Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -108,15 +94,11 @@ processing:
       input_hash: sha256:dad0f356e1978413ba5a9702a1028e40fb5d24464a0f4d8146cdb9ffb8cdbc90
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a benchmarking library for hyperparameter optimization, which falls under ML research tooling rather
-        than developer-facing AI workflow or tooling.
+      decision_reason: This is a benchmarking library for hyperparameter optimization, which falls under ML research tooling rather than developer-facing AI workflow or tooling.
       decision_evidence:
         - Repo description explicitly states it is a 'Collection of hyperparameter optimization benchmark problems'
         - README emphasizes reproducibility and benchmarking for HPO, not developer workflow augmentation
-        - >-
-          Source-list context places it under AutoML in Awesome-LLMOps, which is adjacent but not core to
-          developer-tooling scope
+        - Source-list context places it under AutoML in Awesome-LLMOps, which is adjacent but not core to developer-tooling scope
       category_candidates: []
       contrastive_reason: null
       review_reason: null

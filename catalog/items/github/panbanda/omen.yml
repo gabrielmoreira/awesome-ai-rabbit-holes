@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__panbanda__omen__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💻 Developer Tools
         anchor_text: panbanda/omen
         extracted_url: https://github.com/panbanda/omen
-        surrounding_text: >-
-          -   **[panbanda/omen](https://github.com/panbanda/omen)** [![GitHub
-          stars](https://img.shields.io/github/stars/panbanda/omen?style=social)](https://github.com/panbanda/omen):
-          Code-health analysis for AI coding agents: complexity, tech debt, dead code, churn hotspots, clones and a
-          health score across ten languages.
+        surrounding_text: "-   **[panbanda/omen](https://github.com/panbanda/omen)** [![GitHub stars](https://img.shields.io/github/stars/panbanda/omen?style=social)](https://github.com/panbanda/omen): Code-health analysis for AI coding agents: complexity, tech debt, dead code, churn hotspots, clones and a health score across ten languages."
         confidence: high
 metadata:
   github:
@@ -42,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    panbanda/omen : Code-health analysis for AI coding agents: complexity, tech debt, dead code, churn hotspots, clones
-    and a health score across ten languages.
+  summary: "panbanda/omen : Code-health analysis for AI coding agents: complexity, tech debt, dead code, churn hotspots, clones and a health score across ten languages."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Testing & Code Quality
   evidence:
     - jev-latest choice confidence 0.77
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.40 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -68,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.471Z'
+    updated_at: "2026-09-29T13:07:10.471Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hiyouga__llamafactory__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 微调 Fine-Tuning
         anchor_text: LLaMA-Factory (`🔥`)
         extracted_url: https://github.com/hiyouga/llama-factory
-        surrounding_text: '1. [LLaMA-Factory (`🔥`)](https://github.com/hiyouga/LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs.'
+        surrounding_text: "1. [LLaMA-Factory (`🔥`)](https://github.com/hiyouga/LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs."
         confidence: high
 metadata:
   github:
@@ -29,8 +29,8 @@ metadata:
     archived: false
     full_name: hiyouga/LlamaFactory
     html_url: https://github.com/hiyouga/LlamaFactory
-    created_at: '2023-05-28T10:09:12Z'
-    pushed_at: '2026-07-27T10:45:19Z'
+    created_at: "2023-05-28T10:09:12Z"
+    pushed_at: "2026-07-27T10:45:19Z"
     description: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
     homepage: https://llamafactory.readthedocs.io
     topics:
@@ -54,15 +54,13 @@ metadata:
       - qwen
       - rlhf
       - transformers
-    last_checked_at: '2026-07-30T05:05:37.729Z'
+    last_checked_at: "2026-07-30T05:05:37.729Z"
     readme:
-      fetched_at: '2026-07-30T05:05:37.729Z'
+      fetched_at: "2026-07-30T05:05:37.729Z"
       bytes: 70624
 insights:
   summary: Unified efficient fine-tuning framework for 100+ LLMs and VLMs.
-  why_it_matters: >-
-    Developers can fine-tune a wide range of large language and vision-language models with a single, optimized
-    codebase.
+  why_it_matters: Developers can fine-tune a wide range of large language and vision-language models with a single, optimized codebase.
   mental_damage: Because nothing says 'weekend project' like fine-tuning a 70B parameter model on your laptop.
   tags:
     - fine-tuning
@@ -73,9 +71,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a fine-tuning framework for LLMs/VLMs, not a developer-facing coding assistant, workflow tool, or
-    app-building product.
+  reason: This is a fine-tuning framework for LLMs/VLMs, not a developer-facing coding assistant, workflow tool, or app-building product.
   evidence:
     - Repo description explicitly states it is a fine-tuning framework for LLMs/VLMs
     - Topics include PEFT, LoRA, QLoRA, and quantization (training-focused)
@@ -89,17 +85,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.618Z'
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:37.729Z'
+    updated_at: "2026-07-30T05:05:37.729Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -114,9 +110,7 @@ processing:
       input_hash: sha256:b39ce51f9dafd18a4ef49a55c544fbcd93b21f786bf0bcbb6f44564320cf05ce
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a fine-tuning framework for LLMs/VLMs, not a developer-facing coding assistant, workflow tool, or
-        app-building product.
+      decision_reason: This is a fine-tuning framework for LLMs/VLMs, not a developer-facing coding assistant, workflow tool, or app-building product.
       decision_evidence:
         - Repo description explicitly states it is a fine-tuning framework for LLMs/VLMs
         - Topics include PEFT, LoRA, QLoRA, and quantization (training-focused)

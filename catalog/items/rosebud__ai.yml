@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rosebud__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - App Builders
         anchor_text: Rosebud AI
         extracted_url: https://rosebud.ai
-        surrounding_text: '- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps.'
+        surrounding_text: "- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps."
         confidence: high
 metadata:
   github:
@@ -36,24 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rosebud AI Game Maker lets users create and deploy playable games from AI prompts or templates without coding.
-  why_it_matters: >-
-    Enables rapid prototyping of games through natural language, lowering the barrier to entry for game development and
-    interactive experiences.
-  mental_damage: >-
-    Another promise that describing your dream game in a textbox will magically ship something playable—until you hit
-    the limits of what 'no coding required' actually means.
+  summary: Rosebud AI is a platform that lets users describe games or apps in natural language to generate and deploy playable games, websites, or web apps without coding.
+  why_it_matters: It lowers the barrier to creating interactive software by turning prompts into deployable frontend experiences, useful for rapid prototyping or educational projects.
+  mental_damage: Lets you feel like a game dev while sidestepping the inconvenience of learning engines, physics, or how collision detection actually works.
   tags:
     - app-builder
-    - game-dev
     - no-code
+    - game-dev
     - prompt-to-app
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Rosebud AI’s core identity is generating complete, deployable apps and games from prompts without requiring work in an existing codebase, fitting the app-builder pattern rather than coding agents or extensions.
   evidence:
-    - jev-latest choice confidence 0.94
+    - "Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'"
+    - "Scraped site context: primary page emphasizes 'Create Games with AI', 'Describe your game below, or pick a template', and lists products like AI Code Generator, AI Website Builder, AI Web App Builder, and Vibe Coding Tool under WEB DEV FEATURES."
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -64,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,37 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:09.601Z'
+    updated_at: "2026-10-05T04:44:27.371Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e090578e7120b2ff0d4f5788679dbf14591a573633e54dbaae4b129a072164d5
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:174380a1476979de1ac1feed856ba7a0d9ab1771ae83abe198a0daad78908ad3
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        Rosebud AI's core identity is generating complete, deployable games from prompts without requiring users to edit
-        an existing codebase, fitting the app-builder pattern.
+      decision_reason: Rosebud AI’s core identity is generating complete, deployable apps and games from prompts without requiring work in an existing codebase, fitting the app-builder pattern rather than coding agents or extensions.
       decision_evidence:
-        - >-
-          Scraped site context: 'Create playable games with AI prompts. Describe your idea or choose a template, then
-          build and deploy your game. No coding required.'
-        - >-
-          Source-list context: Listed in awesome-ai-coding-tools under App Builders section with the same prompt-to-game
-          description.
-        - >-
-          Primary page excerpt shows workflow: describe game or pick template → create → deploy, with no mention of
-          editing existing repositories.
+        - "Source-list context: listed in awesome-ai-coding-tools under App Builders with description 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'"
+        - "Scraped site context: primary page emphasizes 'Create Games with AI', 'Describe your game below, or pick a template', and lists products like AI Code Generator, AI Website Builder, AI Web App Builder, and Vibe Coding Tool under WEB DEV FEATURES."
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Rosebud generates new games from prompts rather than acting as an
-        agent that edits or assists within an existing codebase.
+      contrastive_reason: Choose app-builders over coding-agents because Rosebud generates new apps and games from prompts without acting on or editing an existing codebase, which is the defining behavior of app builders rather than coding agents.
       review_reason: null
       review_resume_lifecycle: null

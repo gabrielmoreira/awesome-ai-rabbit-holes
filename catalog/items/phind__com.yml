@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__phind__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Phind
         anchor_text: Phind
         extracted_url: https://phind.com
-        surrounding_text: '## [Phind](https://www.phind.com/)'
+        surrounding_text: "## [Phind](https://www.phind.com/)"
         confidence: high
     - id: discovery__phind__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,10 +33,10 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Phind
         extracted_url: https://phind.com
-        surrounding_text: '- **[Phind](https://www.phind.com/)** – AI search and coding assistant for instant answers and code solutions.'
+        surrounding_text: "- **[Phind](https://www.phind.com/)** – AI search and coding assistant for instant answers and code solutions."
         confidence: high
     - id: discovery__www__phind__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -48,10 +48,10 @@ provenance:
           - Phind
         anchor_text: Phind
         extracted_url: https://www.phind.com
-        surrounding_text: '## [Phind](https://www.phind.com/)'
+        surrounding_text: "## [Phind](https://www.phind.com/)"
         confidence: high
     - id: discovery__www__phind__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -63,7 +63,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Phind
         extracted_url: https://www.phind.com
-        surrounding_text: '- **[Phind](https://www.phind.com/)** – AI search and coding assistant for instant answers and code solutions.'
+        surrounding_text: "- **[Phind](https://www.phind.com/)** – AI search and coding assistant for instant answers and code solutions."
         confidence: high
 metadata:
   github:
@@ -81,29 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Phind is an AI-powered search engine and answer assistant for developers that provides code-focused answers and
-    explanations from web sources.
-  why_it_matters: >-
-    It helps developers quickly find accurate, contextualized answers to technical questions without leaving their
-    workflow, reducing context-switching and debugging time.
-  mental_damage: >-
-    Another AI search tool promising to replace Stack Overflow, while quietly training on the very answers it claims to
-    save you time from clicking.
+  summary: Phind is a developer-focused AI search engine that provides instant, context-aware answers to coding questions by pulling real-time information from the web.
+  why_it_matters: It reduces context-switching for developers by delivering accurate, up-to-date technical answers directly in the flow of work, cutting down on manual documentation trawling.
+  mental_damage: Another AI tool promising to replace Stack Overflow, while quietly making developers more dependent on black-box answers they can’t verify.
   tags:
     - ai-search
-    - developer-assistant
-    - code-answers
+    - developer-tools
+    - code-assistance
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Phind is primarily an AI-enhanced search and answer engine for general developer questions, not a tool that performs
-    coding tasks or integrates into development workflows as an agent or assistant.
+  reason: Phind is primarily an AI-powered search and answer engine for developers, not a tool that performs coding tasks, edits code, or acts as an autonomous agent; it does not meet the core criteria for coding agents or any adjacent developer tooling category in the catalog.
   evidence:
-    - Seen in source lists under 'Code Editors and Assistants' and 'Phind' section in awesome-ai-agents
-    - No GitHub repo or product description indicates it writes, edits, or acts on codebases
-    - Product identity is search and answering, not autonomous coding or IDE/agent extension
+    - "Repo description: (none)"
+    - "Seen in source lists: awesome-ai-coding-tools | section: Code Editors and Assistants; awesome-ai-agents | section: Phind"
+    - Scraped site context not provided, but Phind.com is known as an AI search engine for developers
 placement:
   primary_category: null
   section: null
@@ -113,33 +105,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:43:56.459Z'
+    updated_at: "2026-10-05T04:49:52.782Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a7a58d70b0b453927230ebc2831f49bceb82859994ff7cab7e538fb467264b49
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ead82d4afe80b840f8a35b60a98bb5b0e53687ca193dab420142f41185a4f957
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Phind is primarily an AI-enhanced search and answer engine for general developer questions, not a tool that
-        performs coding tasks or integrates into development workflows as an agent or assistant.
+      decision_reason: Phind is primarily an AI-powered search and answer engine for developers, not a tool that performs coding tasks, edits code, or acts as an autonomous agent; it does not meet the core criteria for coding agents or any adjacent developer tooling category in the catalog.
       decision_evidence:
-        - Seen in source lists under 'Code Editors and Assistants' and 'Phind' section in awesome-ai-agents
-        - No GitHub repo or product description indicates it writes, edits, or acts on codebases
-        - Product identity is search and answering, not autonomous coding or IDE/agent extension
+        - "Repo description: (none)"
+        - "Seen in source lists: awesome-ai-coding-tools | section: Code Editors and Assistants; awesome-ai-agents | section: Phind"
+        - Scraped site context not provided, but Phind.com is known as an AI search engine for developers
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.687Z'
+    updated_at: "2026-07-20T15:10:47.687Z"
     cause: null
     next_retry_at: null
   stars:

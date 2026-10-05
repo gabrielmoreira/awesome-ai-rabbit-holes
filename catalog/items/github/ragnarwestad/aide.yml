@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ragnarwestad__aide__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -19,12 +19,7 @@ provenance:
           - Workflow Management
         anchor_text: Aide
         extracted_url: https://github.com/ragnarwestad/aide
-        surrounding_text: >-
-          - [Aide](https://github.com/ragnarwestad/aide)
-          ![](https://img.shields.io/github/stars/ragnarwestad/aide.svg?cacheSeconds=86400) - Skills for Claude Code,
-          Codex, OpenCode and GitHub Copilot that write each change as a four-file Markdown spec before implementing it
-          test-first, and a local dashboard that queues specs across projects and runs create, analyze, implement and
-          archive headless, merging only once the project's tests pass on the merged result.
+        surrounding_text: "- [Aide](https://github.com/ragnarwestad/aide) ![](https://img.shields.io/github/stars/ragnarwestad/aide.svg?cacheSeconds=86400) - Skills for Claude Code, Codex, OpenCode and GitHub Copilot that write each change as a four-file Markdown spec before implementing it test-first, and a local dashboard that queues specs across projects and runs create, analyze, implement and archive headless, merging only once the project's tests pass on the merged result."
         confidence: high
 metadata:
   github:
@@ -42,10 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Aide - Skills for Claude Code, Codex, OpenCode and GitHub Copilot that write each change as a four-file Markdown
-    spec before implementing it test-first, and a local dashboard that queues specs across projects and runs create,
-    analyze, implement and archive headless, merging only once the project's tests pass on the merged result.
+  summary: Aide - Skills for Claude Code, Codex, OpenCode and GitHub Copilot that write each change as a four-file Markdown spec before implementing it test-first, and a local dashboard that queues specs across projects and runs create, analyze, implement and archive headless, merging only once the project's tests pass on the merged result.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -55,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
   evidence:
     - jev-latest choice confidence 0.51
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed coding-agents / Spec-First & Plan-Execute; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.47 below gate 0.50; proposed coding-agents / Spec-First & Plan-Execute; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -69,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.473Z'
+    updated_at: "2026-09-29T13:07:10.473Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__chat2jev__myai__family__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://chat2jev.myai.family
-        surrounding_text: >-
-          - [chat2jev](https://github.com/Chandler-Sun/chat2jev) ([site](https://chat2jev.myai.family)) - Convert legacy
-          chat completion API request to Typesafe jev API.
+        surrounding_text: "- [chat2jev](https://github.com/Chandler-Sun/chat2jev) ([site](https://chat2jev.myai.family)) - Convert legacy chat completion API request to Typesafe jev API."
         confidence: high
 metadata:
   github:
@@ -38,31 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: chat2jev (site) - Convert legacy chat completion API request to Typesafe jev API.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Chat2Jev is a web interface for comparing classic chat completion outputs with TypeSafe Jev System One judgments side by side.
+  why_it_matters: It lets developers directly observe the difference between generative LLM responses and deterministic decision-model outputs for the same prompt.
+  mental_damage: Yet another tool to remind you that your vibe-coded LLM output might be statistically hallucinating while a silent Jev model quietly judges it.
+  tags:
+    - decision-model
+    - comparison
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: The product's core identity is demonstrating and comparing Jev decision-model judgments against standard chat completions, making the decision model the central artifact rather than a coding agent or general tool.
   evidence:
-    - jev-latest choice confidence 0.56
-    - >-
-      jev winnow:e4b 0.21 below gate 0.50; proposed app-builders / Site & Landing Page Builders; placement kept at
-      decision-models (unverified)
+    - "Scraped site title: 'Chat2Jev' and description: 'Compare classic chat completion with TypeSafe Jev System One · 对照传统 Chat 与 Jev 判断'"
+    - Primary page excerpt shows UI for toggling between 'gpt-4.1-mini' and 'jev-latest' outputs with side-by-side comparison
+    - "Source-list context: listed in 'awesome-jev' under 'Demos & playgrounds' section for projects built on Jev"
 placement:
   primary_category: decision-models
   secondary_categories:
     - app-builders
-  section: Client SDKs & CLIs
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:56.006Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d4d611ce62988d618817d9052ed8d1e06cbe841463938ace3b3f3977fa37a0e6
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is demonstrating and comparing Jev decision-model judgments against standard chat completions, making the decision model the central artifact rather than a coding agent or general tool.
+      decision_evidence:
+        - "Scraped site title: 'Chat2Jev' and description: 'Compare classic chat completion with TypeSafe Jev System One · 对照传统 Chat 与 Jev 判断'"
+        - Primary page excerpt shows UI for toggling between 'gpt-4.1-mini' and 'jev-latest' outputs with side-by-side comparison
+        - "Source-list context: listed in 'awesome-jev' under 'Demos & playgrounds' section for projects built on Jev"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool's primary purpose is comparing decision-model judgments, not performing coding tasks like writing, editing, or reviewing code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -3,15 +3,15 @@
 
 Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 
-_167 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_166 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [IDE & Editor Add-ons](#ide--editor-add-ons) — 29
+- [IDE & Editor Add-ons](#ide--editor-add-ons) — 26
 - [Claude Code & Agent Tools](#claude-code--agent-tools) — 77
-- [Testing & Code Quality](#testing--code-quality) — 15
-- [Security & DevSecOps](#security--devsecops) — 20
-- [API & Service Integrations](#api--service-integrations) — 26
+- [Testing & Code Quality](#testing--code-quality) — 16
+- [Security & DevSecOps](#security--devsecops) — 24
+- [API & Service Integrations](#api--service-integrations) — 23
 
 ## IDE & Editor Add-ons
 
@@ -108,30 +108,13 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[impossiblecode/overseer-nvim-mcp](https://github.com/impossiblecode/overseer-nvim-mcp)** `⭐ 0` impossiblecode/overseer-nvim-mcp - Runs long-running commands a coding agent starts in Neovim (dev servers, watchers) as overseer.nvim tasks you can watch and stop from your task list.
 - **[mpeddicord/jev-tab-filter](https://github.com/mpeddicord/jev-tab-filter)** `⭐ 0` Theme Tab Filter (jev-tab-filter) - Chrome extension: type a theme; TypeSafe Jev scores open tabs so you can group, hide, window, or close matches. Project guide.
 - **[someka-vrc/obsidian-note-filer](https://github.com/someka-vrc/obsidian-note-filer)** `⭐ 0` Note Filer - Obsidian plugin that classifies notes with TypeSafe Jev and moves them into Thema/IAB taxonomy folders after review. Project guide.
-- **[GistPad VS Code extension](https://marketplace.visualstudio.com/items)** A Visual Studio Code extension for managing GitHub Gists and repositories directly from the editor. <details><summary>More about</summary>
+- **[Distill](https://store.juergenkoller.software/en/apps/distill)** Distill is a macOS app that uses AI to analyze files and automatically rename them according to customizable rules. <details><summary>More about</summary>
 
-  Developers can edit, create, and organize code snippets, notes, and repositories without local cloning or manual Git operations.
+  It saves developers time by eliminating manual file renaming after downloads, scans, or exports through AI-powered content understanding.
 
-  _Finally, a way to turn your GitHub Gists into a personal knowledge base without pretending you’ll ever organize them._
+  _Finally, an AI tool that solves the universal developer pain of IMG_0042.JPG instead of another chatbot that writes bad TypeScript._
 
-  `vscode-extension` `gist-manager` `developer-productivity`
-  </details>
-- **[Git AutoReview](https://gitautoreview.com)** Git AutoReview – VS Code extension for pull request review on GitHub, GitLab, and Bitbucket, including self-hosted Server and Data Center. You pick Claude, Gemini, or GPT, then approve each suggestion before it posts. Runs on your own API key, so code goes straight to the provider.
-- **[GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/chat/copilot-chat)** The AI-powered chat interface and agent runtime integrated into Visual Studio Code. <details><summary>More about</summary>
-
-  It provides multiple interaction surfaces (Chat view, Agents window, Inline chat) to transition from simple Q&A to autonomous agentic workflows that can edit files and run terminal commands.
-
-  _The transition from 'Chat view' for single workspaces to an 'Agents window' for multiple projects is the first step toward managing a fleet of autonomous interns who can all edit your source code simultaneously._
-
-  `vscode` `copilot` `documentation`
-  </details>
-- **[GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** The conversational interface for GitHub Copilot within the Visual Studio Code editor. <details><summary>More about</summary>
-
-  It provides multiple interaction surfaces—inline, sidebar, and an dedicated agents window—to perform natural language coding tasks, refactoring, and debugging directly in the IDE.
-
-  _It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing code._
-
-  `ai-assistant` `vscode-extension` `copilot`
+  `file-management` `ai-powered` `macos` `productivity`
   </details>
 - **[LegacyDoc AI](https://romanticode.com/legacydoc-ai)** LegacyDoc AI – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.
 - **[Supercode.sh](https://supercode.sh/en)** Supercode.sh – Cursor extension adding Architect Mode, voice input, and prompt enhancement.
@@ -274,7 +257,6 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[codachi](https://github.com/vincent-k2026/codachi)** `⭐ 14` `updated ≤180d` Codachi is a tamagotchi-style virtual pet that lives in the Claude Code statusline, showing context usage, rate limits, git state, and playful mood messages.
 - **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 14` `updated ≤30d` A bridge that connects the Claude Cowork web interface to a local Claude Code installation, enabling cloud-based chats to execute commands on a local machine.
 - **[Smart-AI-Memory/empathy-framework](https://github.com/smart-ai-memory/empathy-framework)** `⭐ 13` `updated ≤180d` A Python framework that provides git-native memory and cost-optimized workflows for running code review, debugging, and testing tasks via the terminal or Claude Code.
-- **[harshwasan/jev-sentinel](https://github.com/harshwasan/jev-sentinel)** `⭐ 12` `updated ≤30d` Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection, approvals, secret scrubbing, task pinning).
 - **[noisy/noisy-studio](https://github.com/noisy/noisy-studio)** `⭐ 12` noisy/noisy-coding - Voice interface for Claude Code: live speech-to-text with turn-taking, spoken replies with xAI Grok voices, per-subagent voice personas and a real-time HUD.
 - **[whyashthakker/beam-cli](https://github.com/whyashthakker/beam-cli)** `⭐ 12` beam-cli - AgentBeam local monitoring/safety CLI for coding agents, with optional TypeSafe Jev action judging (disabled by default; AGPL-3.0). Project guide.
 - **[Tuff](https://github.com/kannandreams/tuff)** `⭐ 10` Tuff – Rust-based CLI for managing coding-agent capabilities (skills, tools, hooks, workflows, MCP servers) from a canonical manifest — install, track provenance, catch config drift, and emit harness-specific output for Claude Code, Codex, and others.
@@ -312,9 +294,10 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[rennlabs/grokpack](https://github.com/rennlabs/grokpack)** `⭐ 0` grokpack – Unofficial Grok Build companion suite for Claude Code: observe (orientation card), drive (Grok executes / Claude orchestrates + gate), display (tmux HUD). MIT.
 - **[uhuntu/clisweave](https://github.com/uhuntu/clisweave)** `⭐ 0` Tiny, dependency-free CLI wrapper unifying Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three tools, plus a cross-tool numbered session list, resume-by-row-number, and an LLM-judged topic search that finds relevant past sessions by content, not just exact keyword match. Single Python package, no daemon. MIT.
 - **[wesleysmits/codex-triage](https://github.com/wesleysmits/codex-triage)** `⭐ 0` codex-triage - Local Codex task triage with human-reviewed archiving and optional TypeSafe Jev analysis. Project guide.
+- **[Bwee](https://bwee.app)** Bwee.app is a native macOS GUI that wraps Claude Code to let users build custom UIs via chat.
 - **[Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html)** Codex First Task Prompt Generator – Free prompt generator that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
-- **[defract](https://defract.dev)** defract — macOS GUI harness for Claude Code. Drives an opinionated lifecycle (story → design → architecture → implementation → review) with a visual design stage and review gates, not just parallel runs. Local-first, bring-your-own-Anthropic, free.
 - **[jev-enforce](https://npmjs.com/package/jev-enforce)** jev-enforce (site) - Claude Code plugin that makes Claude follow your CLAUDE.md: every reply and edit checked by TypeSafe Jev ✅.
+- **[OpenClaw](https://docs.openclaw.ai/zh-CN)** OpenClaw is a self-hosted multi-channel AI agent gateway that connects messaging platforms to AI coding agents via channel plugins.
 - **[Supercode.sh](https://supercode.sh)** Supercode.sh is an extension for Claude, Codex, and Cursor that optimizes token usage, provides curated agent skills, and enables spec-driven development.
 
 </details>
@@ -347,23 +330,31 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[rog0x/mcp-lint-tools](https://github.com/rog0x/mcp-lint-tools)** `⭐ 0` rog0x/mcp-lint-tools : Code quality — style checking, naming conventions, and complexity analysis.
 - **[rog0x/mcp-testing-tools](https://github.com/rog0x/mcp-testing-tools)** `⭐ 0` rog0x/mcp-testing-tools : Test generation — unit tests, mocks, and coverage analysis for multiple frameworks.
 - **[swarmbrr/commitpreflight](https://github.com/swarmbrr/commitpreflight)** `⭐ 0` commitpreflight – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available on PyPI with pre-commit hook support.
-- **[JSONFix](https://jsonfix-lake.vercel.app)** JSONFix is a free online tool that formats, validates, minifies, and uses Claude to automatically repair broken JSON. <details><summary>More about</summary>
+- **[JetBrains Qodana](https://jetbrains.com/qodana)** Qodana is a static code analysis tool by JetBrains that runs IDE inspections in CI pipelines. <details><summary>More about</summary>
 
-  Developers can instantly fix malformed JSON from APIs, configs, or LLM outputs without writing custom parsers or regexes.
+  It helps developers catch code quality issues early by bringing JetBrains' deep code analysis into automated workflows.
 
-  _Another bandaid for the eternal JSON hell, where even AIs need therapy to handle commas and quotes._
+  _Another layer of CI noise to ignore until the PR is already approved._
 
-  `json` `formatter` `ai-fix` `developer-tool` `online-utility`
+  `static-analysis` `code-quality` `ci-cd`
   </details>
-- **[Parasoft](https://parasoft.com)** Parasoft is an enterprise automated testing platform that uses AI for static analysis, test generation, and test maintenance across the software development lifecycle. <details><summary>More about</summary>
+- **[Parasoft](https://parasoft.com)** Parasoft is an AI-enhanced automated testing and quality platform for software development across the full SDLC. <details><summary>More about</summary>
 
-  It helps developers improve code quality and reduce technical debt by integrating AI-driven testing into CI/CD pipelines and static analysis workflows.
+  It helps developers automate test generation, static analysis, and compliance verification to improve software quality and reduce manual effort.
 
-  _Yet another tool promising to 'weave AI into your workflow' while adding another enterprise dashboard to monitor._
+  _Another AI-powered testing suite that promises to replace your QA team while still requiring you to write and maintain the tests._
 
-  `testing` `static-analysis` `ai` `qa` `enterprise`
+  `testing` `ai` `qa` `static-analysis` `devops`
   </details>
 - **[PyPI](https://pypi.org/project/commitpreflight)** commitpreflight – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available on PyPI with pre-commit hook support.
+- **[Testim](https://testim.io)** Testim is an automated testing platform for web, mobile, and Salesforce applications that uses AI to accelerate test authoring and improve test stability. <details><summary>More about</summary>
+
+  It helps developers reduce test maintenance and authoring time by using AI to self-heal locators and generate tests from natural language.
+
+  _Another AI-powered testing tool promising to eliminate flaky tests, adding to the growing stack of QA tools developers must learn and integrate._
+
+  `testing` `qa` `ai`
+  </details>
 
 ## Security & DevSecOps
 
@@ -410,7 +401,6 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `ai-agent-safety` `guardrails` `policy-enforcement`
   </details>
 - **[Agent Chaperone](https://github.com/agent-chaperone/agent-chaperone)** `⭐ 21` `updated ≤30d` Screens an AI agent's tool calls before they run and tool results before the agent reads them. An MCP proxy plus a hooks adapter for a client's built-in tools.
-- **[harshwasan/pi-jev-sentinel](https://github.com/harshwasan/pi-jev-sentinel)** `⭐ 12` `updated ≤30d` Pi coding-agent extension: TypeSafe Jev checks for tool calls, tool outputs and replies (prompt injection, approvals, secret scrubbing, task pinning).
 - **[sunglasses-dev/sunglasses](https://github.com/sunglasses-dev/sunglasses)** `⭐ 8` sunglasses-dev/sunglasses : Local input firewall for AI agents whose scan_text and scan_file tools check text and files for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories, installed with pip install sunglasses and run with python -m sunglasses.mcp.
 - **[Pattyboi101/indiestack](https://github.com/pattyboi101/indiestack)** `⭐ 4` `updated ≤180d` A dependency guardrail and tool curation platform for AI coding agents that validates packages, catches hallucinations, and provides compatibility data across 6,500+ developer tools via an MCP server, CLI, and web interface. <details><summary>More about</summary>
 
@@ -425,37 +415,77 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[AI Agent Safety Starter Pack](https://github.com/el-zachariah/ai-agent-safety-starter-pack)** `⭐ 0` `updated ≤90d` Free lite preflight scanner and checklist for AI coding agent repo runs.
 - **[basmaabouzied0/jev-secret-guard](https://github.com/basmaabouzied0/jev-secret-guard)** `⭐ 0` `updated ≤30d` Claude Code hook that stops your agent from writing, committing or sending secrets. Known keys blocked locally; unknown ones judged by Jev (TypeSafe), masked.
 - **[jevforge/jev-security-sentinel](https://github.com/jevforge/jev-security-sentinel)** `⭐ 0` jev-security-sentinel - GitHub Action that gates SAST/SCA/IaC/secrets/container findings with TypeSafe Jev (PASS/WARN/BLOCK/REVIEW) without hiding findings. Project guide.
-- **[DeepSource](https://deepsource.com)** An AI-powered code review platform that combines static analysis with AI agents to automate security, quality, and complexity checks. <details><summary>More about</summary>
+- **[Checkmarx](https://checkmarx.com)** Checkmarx One is an agentic application security platform that uses AI-powered agents and hybrid scanning to detect and prioritize vulnerabilities across the AI-driven software development lifecycle. <details><summary>More about</summary>
 
-  It automates the heavy lifting of pull request reviews by providing high-signal feedback and automated patches for security vulnerabilities and bugs.
+  It helps developers catch AI-generated code risks early by integrating security agents into IDEs, PRs, and CI/CD with merge-ready fix suggestions.
 
-  _Nothing says 'production-ready' like a bot telling you that your security architecture is essentially a series of open doors._
+  _Another security tool that promises to ‘shift left’ while adding yet another agent to your already overburdened DevOps pipeline._
 
-  `code-review` `security` `static-analysis` `ai-agent` `devsecops`
+  `application-security` `ai-agents` `devsecops` `ast` `mcp`
   </details>
-- **[GitGuardian](https://gitguardian.com)** GitGuardian is a security platform that detects and remediates exposed secrets, API keys, and non-human identities across code repositories, developer endpoints, and cloud infrastructure. <details><summary>More about</summary>
+- **[Codacy](https://codacy.com)** Codacy is a platform that enforces code quality, security, and AI coding policies across repositories and development workflows. <details><summary>More about</summary>
 
-  It helps developers prevent credential leaks that lead to breaches by integrating secret scanning into their workflow via CLI, IDE, and CI/CD.
+  It helps development teams maintain consistent standards and catch issues early, especially in AI-assisted coding environments.
 
-  _Finally, a tool that treats your .env file like a live grenade — and now you’re the one holding the pin._
+  _Another layer of governance to slow down the very AI tools meant to speed you up — because trust, but verify._
 
-  `security` `devsecops` `secrets`
+  `code-quality` `security` `ai-guardrails` `devsecops`
   </details>
-- **[Semgrep](https://semgrep.dev)** An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection. <details><summary>More about</summary>
+- **[Corgea](https://corgea.com)** Corgea is an AI-native application security platform that detects and fixes vulnerabilities across code, packages, infrastructure, and containers. <details><summary>More about</summary>
 
-  It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI tools like Cursor and Replit via MCP.
+  It helps developers secure their applications by providing accurate, review-ready fixes directly in their workflow, reducing the noise and manual effort of traditional security tools.
 
-  _Now your AI coding assistant can ship insecure code faster, but at least Semgrep will catch it before it hits prod._
+  _Yet another security tool promising to 'shift left' while adding yet another dashboard, alert, and integration to the ever-growing AppSec tax._
 
-  `security` `sast` `ai-assisted`
+  `security` `devsecops` `ai-sast` `vulnerability-management`
   </details>
-- **[Vulert](https://vulert.com)** Vulert is a web-based software composition analysis service that scans dependency manifests and SBOMs to detect vulnerabilities and provide version-specific remediation guidance without accessing source code. <details><summary>More about</summary>
+- **[Gecko Security](https://gecko.security)** Gecko Security is an AI-powered security scanning tool that finds business logic flaws and multi-step vulnerabilities by building a semantic understanding of codebases. <details><summary>More about</summary>
 
-  It lets developers monitor open-source dependencies for vulnerabilities continuously and get actionable fixes, especially useful for auditing AI-generated code changes.
+  It helps developers catch critical security issues that traditional SAST tools miss, reducing noise and accelerating remediation within existing workflows.
 
-  _Another tool to add to the growing list of things you have to remember to run before shipping, because trusting AI-generated dependencies is now a compliance liability._
+  _Another AI security tool promising to finally understand your code — until it flags your auth bypass as a 'low-priority suggestion' and you wonder if the model has been red-teamed by your interns._
 
-  `security` `sca` `dependency-monitoring`
+  `security` `sast` `ai-scanning` `devsecops`
+  </details>
+- **[GitGuardian](https://gitguardian.com)** GitGuardian is a credential layer security platform that detects and remediates exposed secrets across code, CI, and developer environments. <details><summary>More about</summary>
+
+  It helps developers prevent credential leaks by scanning for and automatically remediating exposed secrets in real time across their workflow.
+
+  _Another layer of security tooling that makes you feel guilty for every .env file you've ever committed._
+
+  `security` `secrets` `devsecops` `cli` `saas`
+  </details>
+- **[Mend (WhiteSource)](https://mend.io)** Mend (WhiteSource) is a software composition analysis tool that identifies and helps remediate open source security vulnerabilities and license compliance issues. <details><summary>More about</summary>
+
+  Developers rely on it to automatically detect risky dependencies in their codebases and maintain compliance without manual auditing.
+
+  _Yet another layer of tooling that finds problems you now feel obligated to fix, turning dependency updates into a never-ending security treadmill._
+
+  `security` `devsecops` `dependency-management`
+  </details>
+- **[Semgrep](https://semgrep.dev)** Semgrep is an application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, secrets detection, and malware protection. <details><summary>More about</summary>
+
+  It helps developers catch and fix security issues early in the development workflow, reducing false positives and accelerating secure code delivery.
+
+  _Another security tool promising to make AppSec 'magical' while developers just want to ship code without becoming part-time vulnerability janitors._
+
+  `security` `sast` `devsecops` `ai-assisted`
+  </details>
+- **[Snyk (DeepCode)](https://snyk.io)** Snyk is a security platform that scans AI-generated code, agents, and applications for vulnerabilities and risks. <details><summary>More about</summary>
+
+  It helps developers trust AI-assisted workflows by catching security issues in AI-written code before deployment.
+
+  _Finally, a tool that makes you feel guilty for letting AI write your code instead of just ignoring the problem._
+
+  `security` `ai-generated-code` `devsecops`
+  </details>
+- **[Veracode](https://veracode.com)** Veracode is an application security platform that provides static analysis, dynamic analysis, software composition analysis, container security, and AI-driven code remediation to secure software across the SDLC. <details><summary>More about</summary>
+
+  It helps developers catch and fix security flaws early in their workflow with AI-powered remediation guidance inside their existing tools.
+
+  _Another security tool that promises to 'shift left' while adding another tab to your already overflowing IDE sidebar._
+
+  `security` `devsecops` `sast` `sca` `ai-remediation`
   </details>
 
 ## API & Service Integrations
@@ -559,28 +589,4 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _Another layer of AI supervision that makes you wait for approvals while the agent sits idle, echoing the anxiety of the last year’s AI tooling chaos._
 
   `ai-dev-extensions` `mcp`
-  </details>
-- **[OpenClaw](https://docs.openclaw.ai/zh-CN)** A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents. <details><summary>More about</summary>
-
-  It enables developers to interact with their coding agents through their existing communication tools, bridging the gap between chat apps and development workflows.
-
-  _Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code from a coffee shop._
-
-  `ai-agent` `self-hosted` `gateway`
-  </details>
-- **[Postman API](https://postman.com/postman/postman-public-workspace)** Postman API is a widely used platform for designing, testing, and managing HTTP APIs, featuring collaborative workspaces and automated documentation generation. <details><summary>More about</summary>
-
-  It streamlines API development and integration workflows, reducing boilerplate and enabling faster iteration for backend and frontend developers.
-
-  _Another essential tool that makes you wonder how you ever shipped APIs without it — until you realize you still spend half your day debugging auth headers._
-
-  `api` `testing` `collaboration`
-  </details>
-- **[ScreenshotOne](https://screenshotone.com)** ScreenshotOne is a developer API for capturing website screenshots, PDFs, and scrolling videos with built-in ad and banner blocking. <details><summary>More about</summary>
-
-  It lets developers automate visual testing, documentation, or AI agent workflows without managing browser infrastructure or handling edge cases like lazy loading or consent popups.
-
-  _Another API to wrap in retry logic when the screenshot service randomly fails on Fridays because of a new cookie banner heuristic._
-
-  `screenshot` `api` `automation` `testing` `ai-agents`
   </details>

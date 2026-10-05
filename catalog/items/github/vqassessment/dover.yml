@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__vqassessment__dover__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -20,9 +20,7 @@ provenance:
           - 实用工具
         anchor_text: DOVER
         extracted_url: https://github.com/vqassessment/dover
-        surrounding_text: >-
-          - [DOVER](https://github.com/VQAssessment/DOVER): Video Quality Assessment on User Generated Contents from
-          Aesthetic and Technical Perspectives.
+        surrounding_text: "- [DOVER](https://github.com/VQAssessment/DOVER): Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives."
         confidence: high
 metadata:
   github:
@@ -32,11 +30,9 @@ metadata:
     archived: false
     full_name: VQAssessment/DOVER
     html_url: https://github.com/VQAssessment/DOVER
-    created_at: '2022-11-09T05:34:44Z'
-    pushed_at: '2024-08-12T14:19:35Z'
-    description: >-
-      [ICCV 2023, Official Code] for paper "Exploring Video Quality Assessment on User Generated Contents from Aesthetic
-      and Technical Perspectives". Official Weights and Demos provided.
+    created_at: "2022-11-09T05:34:44Z"
+    pushed_at: "2024-08-12T14:19:35Z"
+    description: "[ICCV 2023, Official Code] for paper \"Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives\". Official Weights and Demos provided."
     homepage: https://vqassessment.github.io/DOVER
     topics:
       - aesthetic-assessment
@@ -44,20 +40,14 @@ metadata:
       - disentangled-representations
       - technical-assessment
       - video-quality-assessment
-    last_checked_at: '2026-07-21T15:21:08.570Z'
+    last_checked_at: "2026-07-21T15:21:08.570Z"
     readme:
-      fetched_at: '2026-07-21T15:21:08.570Z'
+      fetched_at: "2026-07-21T15:21:08.570Z"
       bytes: 13674
 insights:
-  summary: >-
-    DOVER is a research codebase for video quality assessment that disentangles aesthetic and technical quality in
-    user-generated content using deep learning models.
-  why_it_matters: >-
-    Provides developers with pretrained models and evaluation scripts to programmatically assess video quality on UGC
-    datasets for content filtering or metadata tagging.
-  mental_damage: >-
-    Another academic research dump where you clone the repo, wrestle with dependencies, and pray the ONNX conversion
-    script still works.
+  summary: DOVER is a research codebase for video quality assessment that disentangles aesthetic and technical quality in user-generated content using deep learning models.
+  why_it_matters: Provides developers with pretrained models and evaluation scripts to programmatically assess video quality on UGC datasets for content filtering or metadata tagging.
+  mental_damage: Another academic research dump where you clone the repo, wrestle with dependencies, and pray the ONNX conversion script still works.
   tags:
     - video-quality
     - assessment
@@ -65,16 +55,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    DOVER is a specialized video quality assessment model from an ICCV 2023 paper, not a developer-facing AI tool for
-    coding, agents, or workflow automation.
+  reason: DOVER is a specialized video quality assessment model from an ICCV 2023 paper, not a developer-facing AI tool for coding, agents, or workflow automation.
   evidence:
-    - >-
-      Repo description: '[ICCV 2023, Official Code] for paper "Exploring Video Quality Assessment on User Generated
-      Contents from Aesthetic and Technical Perspectives"'
-    - >-
-      README focuses on video quality metrics (PLCC), model weights, and evaluation on datasets like Kinetics-400 and
-      YFCC-100M
+    - "Repo description: '[ICCV 2023, Official Code] for paper \"Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives\"'"
+    - README focuses on video quality metrics (PLCC), model weights, and evaluation on datasets like Kinetics-400 and YFCC-100M
     - No mention of coding assistance, agents, IDE integration, or developer workflow enhancement
 placement:
   primary_category: null
@@ -85,17 +69,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.655Z'
+    updated_at: "2026-05-06T22:12:15.655Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-21T15:21:08.570Z'
+    updated_at: "2026-07-21T15:21:08.570Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

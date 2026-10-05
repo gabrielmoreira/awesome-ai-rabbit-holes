@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cursor__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Cursor
         anchor_text: Cursor
         extracted_url: https://www.cursor.so
-        surrounding_text: '## [Cursor](https://www.cursor.so/)'
+        surrounding_text: "## [Cursor](https://www.cursor.so/)"
         confidence: high
     - id: discovery__cursor__com__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -33,13 +33,10 @@ provenance:
           - README
         anchor_text: Cursor AI
         extracted_url: https://cursor.sh
-        surrounding_text: >-
-          [Cursor AI](https://cursor.sh/) is an AI-powered code editor. `.cursorrules` files define custom rules for
-          Cursor AI to follow when generating code, allowing you to tailor its behavior to your specific needs and
-          preferences.
+        surrounding_text: "[Cursor AI](https://cursor.sh/) is an AI-powered code editor. `.cursorrules` files define custom rules for Cursor AI to follow when generating code, allowing you to tailor its behavior to your specific needs and preferences."
         confidence: high
     - id: discovery__cursor__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -51,12 +48,10 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Cursor
         extracted_url: https://www.cursor.sh
-        surrounding_text: >-
-          - **[Cursor](https://www.cursor.sh/)** – AI-first code editor with advanced autocompletion, codebase-aware
-          chat, and multi-file editing.
+        surrounding_text: "- **[Cursor](https://www.cursor.sh/)** – AI-first code editor with advanced autocompletion, codebase-aware chat, and multi-file editing."
         confidence: high
     - id: discovery__cursor__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -86,21 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-native code editor designed for building software through agentic assistance and deep codebase understanding.
-  why_it_matters: >-
-    It shifts the developer workflow from manual editing to high-level orchestration using integrated agents and
-    composer modes.
-  mental_damage: You'll spend more time deciding which level of autonomy to grant the agent than actually typing code.
+  summary: Cursor is an AI coding agent that helps developers plan, write, edit, and review code via a desktop IDE, CLI, and agent system.
+  why_it_matters: It accelerates software development by offloading coding tasks to AI agents while keeping the developer in control of decision-making.
+  mental_damage: Using Cursor feels like having a pair programmer who never gets tired but occasionally rewrites your entire architecture while you were getting coffee.
   tags:
     - ai-coding-agent
     - ide-integration
-    - autonomous-coding
+    - developer-productivity
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / IDE-Native & Editor Agents
+  reason: Cursor is a developer-facing agent whose primary identity is performing coding tasks autonomously or interactively across an IDE, terminal, and browser, making it a clear fit for the coding-agents category.
   evidence:
-    - jev-latest choice confidence 0.65
+    - Cursor is described as 'your coding agent for building ambitious software' and 'agents turn ideas into code'
+    - It operates via desktop IDE, CLI, Slack, and GitHub integrations to plan, search, build, and review code
+    - It is listed in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-ai-agents under 'Cursor'
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -111,7 +106,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.576Z'
+    updated_at: "2026-05-06T22:12:15.576Z"
     cause: null
     next_retry_at: null
   stars:
@@ -119,35 +114,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:36:51.202Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for cursor__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (406/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:29.045Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7738e3b2616107405537e400022b7ae10475e2c168f83cd7c15f2deb3e25df3e
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:226e76324d07dfa63a518d2dd8570d394ab1aa27ea88d81878476b14a98a7bd1
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        Cursor is an AI-native development environment where the AI is integrated directly into the editor surface
-        rather than being a plugin or extension.
+      decision_reason: Cursor is a developer-facing agent whose primary identity is performing coding tasks autonomously or interactively across an IDE, terminal, and browser, making it a clear fit for the coding-agents category.
       decision_evidence:
-        - Cursor markets itself as 'your coding agent for building ambitious software' with agents that 'turn ideas into code' and accelerate development.
-        - It provides autonomous agent workflows that plan, build, test, and demo features end-to-end, with cloud agents running in parallel on user behalf.
-        - It integrates deeply with IDE features like Mission Control, Slack, GitHub PR review, and CLI, positioning itself as a primary coding surface rather than a tool that augments another agent.
+        - Cursor is described as 'your coding agent for building ambitious software' and 'agents turn ideas into code'
+        - It operates via desktop IDE, CLI, Slack, and GitHub integrations to plan, search, build, and review code
+        - It is listed in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-ai-agents under 'Cursor'
       category_candidates:
         - coding-agents
-      contrastive_reason: >-
-        Choose ai-ides-editors over coding-agents because the product is a standalone development environment (IDE)
-        rather than a terminal-based or plugin-based assistant.
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Cursor is the primary coding agent itself, not a tool that extends another agent like Claude Code or Cline.
       review_reason: null
       review_resume_lifecycle: null

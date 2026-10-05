@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhinavexists__lev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: lev (Abhinavexists)
         extracted_url: https://github.com/abhinavexists/lev
-        surrounding_text: >-
-          - [lev (Abhinavexists)](https://github.com/Abhinavexists/lev) - Open Qwen3.5-4B LoRA System One decisions
-          (Choice/Noul/Score) over `/v1/systemone`; independent of hosted Jev. [Project
-          guide](community/projects/tools/lev.md).
+        surrounding_text: "- [lev (Abhinavexists)](https://github.com/Abhinavexists/lev) - Open Qwen3.5-4B LoRA System One decisions (Choice/Noul/Score) over `/v1/systemone`; independent of hosted Jev. [Project guide](community/projects/tools/lev.md)."
         confidence: high
 metadata:
   github:
@@ -33,29 +30,34 @@ metadata:
     archived: false
     full_name: Abhinavexists/lev
     html_url: https://github.com/Abhinavexists/lev
-    created_at: '2026-09-20T08:40:53Z'
-    pushed_at: '2026-09-25T17:24:11Z'
+    created_at: "2026-09-20T08:40:53Z"
+    pushed_at: "2026-09-25T17:24:11Z"
     description: An open System One decision model
     homepage: https://huggingface.co/interfaze-ai/lev
     topics:
       - jev
       - modal
       - qwen
-    last_checked_at: '2026-09-29T13:08:24.460Z'
+    last_checked_at: "2026-09-29T13:08:24.460Z"
     readme:
-      fetched_at: '2026-09-29T13:08:24.460Z'
+      fetched_at: "2026-09-29T13:08:24.460Z"
       bytes: 19472
 insights:
-  summary: An open System One decision model
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open System One decision model called Lev that answers typed questions with probabilities.
+  why_it_matters: Provides a typed decision interface for developers needing reliable, probability-based judgments in agent workflows.
+  mental_damage: Another model promising to replace gut feelings with math, while we all still guess which tool to use next.
+  tags:
+    - decision-model
+    - jev
+    - typed-questions
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: Lev is a decision model that returns constrained probabilistic answers to typed questions, making its core identity the judgment itself, not a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.89
+    - "Repo description: 'An open System One decision model'"
+    - "Homepage: hosted on Hugging Face as interfaze-ai/lev"
+    - Listed in awesome-jev under 'Community projects > Developer projects and integrations'
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -66,15 +68,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:24.460Z'
+    updated_at: "2026-09-29T13:08:24.460Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:12:12.966Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f6efe4fae424b696810b061327461f3eb2c45f5516c033446e37c185c95ef53e
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Lev is a decision model that returns constrained probabilistic answers to typed questions, making its core identity the judgment itself, not a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'An open System One decision model'"
+        - "Homepage: hosted on Hugging Face as interfaze-ai/lev"
+        - Listed in awesome-jev under 'Community projects > Developer projects and integrations'
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Lev's primary identity is a decision model answering typed questions with probabilities, not performing coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

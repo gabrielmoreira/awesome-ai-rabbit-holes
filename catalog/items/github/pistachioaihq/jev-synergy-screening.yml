@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pistachioaihq__jev-synergy-screening__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-synergy-screening
         extracted_url: https://github.com/pistachioaihq/jev-synergy-screening
-        surrounding_text: >-
-          - [jev-synergy-screening](https://github.com/PistachioAIHQ/jev-synergy-screening) - Jev (TypeSafe System One)
-          × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels.
+        surrounding_text: "- [jev-synergy-screening](https://github.com/PistachioAIHQ/jev-synergy-screening) - Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels."
         confidence: high
     - id: discovery__github__pistachioaihq__jev-synergy-screening__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-synergy-screening
         extracted_url: https://github.com/pistachioaihq/jev-synergy-screening
-        surrounding_text: >-
-          | [jev-synergy-screening](https://github.com/PistachioAIHQ/jev-synergy-screening) | ★ 1 | Python | 2026-09-19
-          | Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels. |
+        surrounding_text: "| [jev-synergy-screening](https://github.com/PistachioAIHQ/jev-synergy-screening) | ★ 1 | Python | 2026-09-19 | Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels. |"
         confidence: high
     - id: discovery__github__pistachioaihq__jev-synergy-screening__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - Evaluation & Observability
-        anchor_text: '**jev-synergy-screening**'
+        anchor_text: "**jev-synergy-screening**"
         extracted_url: https://github.com/pistachioaihq/jev-synergy-screening
-        surrounding_text: >-
-          - [**jev-synergy-screening**](https://github.com/PistachioAIHQ/jev-synergy-screening) — A Jev
-          title-and-abstract screening experiment compared with Cohen Abstract Triage labels for an ADHD review.
+        surrounding_text: "- [**jev-synergy-screening**](https://github.com/PistachioAIHQ/jev-synergy-screening) — A Jev title-and-abstract screening experiment compared with Cohen Abstract Triage labels for an ADHD review."
         confidence: high
 metadata:
   github:
@@ -74,9 +68,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-synergy-screening - Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold
-    labels.
+  summary: jev-synergy-screening - Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -86,9 +78,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.91
-    - >-
-      jev winnow:e4b 0.50 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.50 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -100,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.402Z'
+    updated_at: "2026-09-29T13:07:10.402Z"
     cause: null
     next_retry_at: null
   stars:
@@ -108,6 +98,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

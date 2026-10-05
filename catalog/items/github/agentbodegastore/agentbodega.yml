@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentbodegastore__agentbodega__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🔗 <a name="aggregators"></a>Aggregators
         anchor_text: agentbodegastore/agentbodega
         extracted_url: https://github.com/agentbodegastore/agentbodega
-        surrounding_text: >-
-          - [agentbodegastore/agentbodega](https://github.com/agentbodegastore/agentbodega) [![agentbodega MCP
-          server](https://glama.ai/mcp/servers/agentbodegastore/agentbodega/badges/score.svg)](https://glama.ai/mcp/servers/agentbodegastore/agentbodega)
-          📇 ☁️ - AgentBodega MCP gives agents a live catalog of 65 x402-payable HTTP tools across search, public data,
-          social media, status checks, media conversion, and agent-readiness checks. No API keys; install with `npx -y
-          @agentbodega/mcp`.
+        surrounding_text: "- [agentbodegastore/agentbodega](https://github.com/agentbodegastore/agentbodega) [![agentbodega MCP server](https://glama.ai/mcp/servers/agentbodegastore/agentbodega/badges/score.svg)](https://glama.ai/mcp/servers/agentbodegastore/agentbodega) 📇 ☁️ - AgentBodega MCP gives agents a live catalog of 65 x402-payable HTTP tools across search, public data, social media, status checks, media conversion, and agent-readiness checks. No API keys; install with `npx -y @agentbodega/mcp`."
         confidence: high
 metadata:
   github:
@@ -35,25 +30,19 @@ metadata:
     archived: false
     full_name: agentbodegastore/agentbodega
     html_url: https://github.com/agentbodegastore/agentbodega
-    created_at: '2026-07-05T12:23:32Z'
-    pushed_at: '2026-07-09T02:56:02Z'
+    created_at: "2026-07-05T12:23:32Z"
+    pushed_at: "2026-07-09T02:56:02Z"
     description: AgentBodega MCP discovery package and public registry metadata
     homepage: https://agentbodega.store
     topics: []
-    last_checked_at: '2026-09-17T04:13:32.069Z'
+    last_checked_at: "2026-09-17T04:13:32.069Z"
     readme:
-      fetched_at: '2026-09-17T04:13:32.069Z'
+      fetched_at: "2026-09-17T04:13:32.069Z"
       bytes: 3898
 insights:
-  summary: >-
-    An MCP server that enables agents to discover, inspect, and plan calls for a registry of paid, x402-ready tool
-    endpoints.
-  why_it_matters: >-
-    It provides agents with a programmatic way to browse, compare, and format requests for third-party services without
-    manual documentation scraping.
-  mental_damage: >-
-    We have reached the stage where agents require a specialized discovery layer just to navigate the complex
-    marketplace of tools they need to do their jobs.
+  summary: An MCP server that enables agents to discover, inspect, and plan calls for a registry of paid, x402-ready tool endpoints.
+  why_it_matters: It provides agents with a programmatic way to browse, compare, and format requests for third-party services without manual documentation scraping.
+  mental_damage: We have reached the stage where agents require a specialized discovery layer just to navigate the complex marketplace of tools they need to do their jobs.
   tags:
     - mcp
     - discovery
@@ -75,18 +64,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.714Z'
+    updated_at: "2026-07-16T05:04:46.714Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:32.069Z'
+    updated_at: "2026-09-17T04:13:32.069Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:26:13.448Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -98,17 +89,13 @@ processing:
       input_hash: sha256:cb6a15940d554b62c9dc8bc215ba3a5b5d953a4f81871433707fba090ba28ae4
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project's primary identity is an MCP server that functions as a discovery registry for external tool
-        endpoints.
+      decision_reason: The project's primary identity is an MCP server that functions as a discovery registry for external tool endpoints.
       decision_evidence:
         - Repo description identifies it as an MCP discovery package and public registry metadata
         - README details specific MCP tools for catalog searching, endpoint inspection, and task planning
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the core identity is an MCP-native discovery registry rather than
-        a functional plugin for a specific coding editor.
+      contrastive_reason: Choose mcp over extensions-and-addons because the core identity is an MCP-native discovery registry rather than a functional plugin for a specific coding editor.
       review_reason: null
       review_resume_lifecycle: null

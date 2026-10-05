@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jev-ids__jev-ids__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-ids
         extracted_url: https://github.com/jev-ids/jev-ids
-        surrounding_text: >-
-          - [jev-ids](https://github.com/jev-ids/jev-ids) ([site](https://jev-ids.github.io)) - Blazing-Fast
-          Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.
+        surrounding_text: "- [jev-ids](https://github.com/jev-ids/jev-ids) ([site](https://jev-ids.github.io)) - Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev."
         confidence: high
     - id: discovery__github__jev-ids__jev-ids__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,16 +35,10 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Jev IDS
         extracted_url: https://github.com/jev-ids/jev-ids
-        surrounding_text: >-
-          - [Jev IDS](https://github.com/jev-ids/jev-ids)
-          ![stars](https://img.shields.io/github/stars/jev-ids/jev-ids?style=flat-square&label=%E2%98%85) - Network
-          security: an Intrusion Detection System prototype that takes the metadata of a network flow and returns a
-          verdict on whether it is an attack plus its threat category with probabilities, and on the NSL-KDD benchmark
-          was 4.8× faster and 3.8× cheaper than a state-of-the-art LLM (GPT-5.6 Luna) while raising 15× fewer false
-          alarms than a Random Forest model.
+        surrounding_text: "- [Jev IDS](https://github.com/jev-ids/jev-ids) ![stars](https://img.shields.io/github/stars/jev-ids/jev-ids?style=flat-square&label=%E2%98%85) - Network security: an Intrusion Detection System prototype that takes the metadata of a network flow and returns a verdict on whether it is an attack plus its threat category with probabilities, and on the NSL-KDD benchmark was 4.8× faster and 3.8× cheaper than a state-of-the-art LLM (GPT-5.6 Luna) while raising 15× fewer false alarms than a Random Forest model."
         confidence: high
     - id: discovery__github__jev-ids__jev-ids__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -58,11 +50,7 @@ provenance:
           - Evaluation and calibration
         anchor_text: Jev IDS
         extracted_url: https://github.com/jev-ids/jev-ids
-        surrounding_text: >-
-          - [Jev IDS](https://github.com/jev-ids/jev-ids) - Intrusion-detection prototype where one Noul (attack or not)
-          and a five-way Choice (category) are asked per NSL-KDD network flow and Python applies a 0.5 cut; ships a
-          300-flow pilot comparison against GPT-5.6 Luna and a few-shot Random Forest with latency, cost, and
-          novel-attack recall, and lists its limits (pilot split, gateway retries, list-price costs).
+        surrounding_text: "- [Jev IDS](https://github.com/jev-ids/jev-ids) - Intrusion-detection prototype where one Noul (attack or not) and a five-way Choice (category) are asked per NSL-KDD network flow and Python applies a 0.5 cut; ships a 300-flow pilot comparison against GPT-5.6 Luna and a few-shot Random Forest with latency, cost, and novel-attack recall, and lists its limits (pilot split, gateway retries, list-price costs)."
         confidence: high
 metadata:
   github:
@@ -100,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
@@ -108,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__code__visualstudio__com__docs__agent__customization__overview__awesome-list__github__awesome-copilot
-      discovered_at: '2026-06-04T05:40:27.160Z'
+      discovered_at: "2026-06-04T05:40:27.160Z"
       source:
         type: awesome-list
         name: github/awesome-copilot
@@ -18,10 +18,7 @@ provenance:
           - 📚 Additional Resources
         anchor_text: VS Code Copilot Customization Documentation
         extracted_url: https://code.visualstudio.com/docs/copilot/copilot-customization
-        surrounding_text: >-
-          - [VS Code Copilot Customization
-          Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft
-          documentation
+        surrounding_text: "- [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation"
         confidence: high
 metadata:
   github:
@@ -39,31 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: VS Code documentation page for creating and managing agent customizations across profiles and workspaces.
-  why_it_matters: >-
-    Helps developers configure AI agents in VS Code by providing a centralized place to define instructions, skills, and
-    tools.
-  mental_damage: >-
-    Another config layer to forget exists until your agent ignores your project rules and starts rewriting your TODO
-    comments as sonnets.
+  summary: Microsoft Visual Studio Code documentation page for creating and managing AI agent customizations across profiles and workspaces.
+  why_it_matters: Provides official guidance for developers to configure and extend AI agent behavior within VS Code, a widely used development environment.
+  mental_damage: Yet another documentation page pretending to be a tool, adding to the pile of resources developers must track to stay current.
   tags:
     - vscode
-    - agent-customization
-    - configuration
+    - documentation
+    - ai-agents
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation for a feature within VS Code, not a standalone developer-facing AI tool or product.
+  reason: This is a documentation resource, not a standalone AI tool or developer product; it explains how to use existing features rather than providing new functionality.
   evidence:
-    - >-
-      URL is https://code.visualstudio.com/docs/agent-customization/overview, indicating it is official VS Code
-      documentation
-    - >-
-      Scraped site context shows it is part of the Visual Studio Code documentation hierarchy under 'Agents' and
-      'Customization'
-    - >-
-      Source-list context appears in awesome-copilot as a linked page under 'Additional Resources', confirming its role
-      as reference material
+    - URL is a Microsoft documentation page (code.visualstudio.com/docs/agent-customization/overview)
+    - Scraped site context shows it is documentation titled 'Create and manage agent customizations' with no indication of being a distributable tool
+    - Source-list context places it in 'awesome-copilot' under 'Additional Resources', indicating it is a reference, not a tool
 placement:
   primary_category: null
   section: null
@@ -73,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-04T05:40:27.161Z'
+    updated_at: "2026-06-04T05:40:27.161Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,30 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:33:31.573Z'
+    updated_at: "2026-10-05T04:25:49.782Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:44eff68010a892f932214008a4738993901ddf8e11e56879acbb74ca36991511
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cef1b38ddc5d12702ea798ea0096977915fd4b2d65717029c1ab63311d0fc638
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is documentation for a feature within VS Code, not a standalone developer-facing AI tool or product.
+      decision_reason: This is a documentation resource, not a standalone AI tool or developer product; it explains how to use existing features rather than providing new functionality.
       decision_evidence:
-        - >-
-          URL is https://code.visualstudio.com/docs/agent-customization/overview, indicating it is official VS Code
-          documentation
-        - >-
-          Scraped site context shows it is part of the Visual Studio Code documentation hierarchy under 'Agents' and
-          'Customization'
-        - >-
-          Source-list context appears in awesome-copilot as a linked page under 'Additional Resources', confirming its
-          role as reference material
+        - URL is a Microsoft documentation page (code.visualstudio.com/docs/agent-customization/overview)
+        - Scraped site context shows it is documentation titled 'Create and manage agent customizations' with no indication of being a distributable tool
+        - Source-list context places it in 'awesome-copilot' under 'Additional Resources', indicating it is a reference, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

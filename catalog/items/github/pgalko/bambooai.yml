@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__pgalko__bambooai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - BambooAI
         anchor_text: BambooAI
         extracted_url: https://github.com/pgalko/bambooai
-        surrounding_text: '## [BambooAI](https://github.com/pgalko/BambooAI)'
+        surrounding_text: "## [BambooAI](https://github.com/pgalko/BambooAI)"
         confidence: high
 metadata:
   github:
@@ -29,10 +29,10 @@ metadata:
     archived: false
     full_name: pgalko/BambooAI
     html_url: https://github.com/pgalko/BambooAI
-    created_at: '2023-05-07T01:25:51Z'
-    pushed_at: '2026-06-03T04:53:42Z'
+    created_at: "2023-05-07T01:25:51Z"
+    pushed_at: "2026-06-03T04:53:42Z"
     description: A Python library powered by Language Models (LLMs) for conversational data discovery and analysis.
-    homepage: ''
+    homepage: ""
     topics:
       - ai
       - ai-agents
@@ -51,20 +51,14 @@ metadata:
       - python
       - vector-database
       - vllm
-    last_checked_at: '2026-07-20T16:42:33.044Z'
+    last_checked_at: "2026-07-20T16:42:33.044Z"
     readme:
-      fetched_at: '2026-07-20T16:42:33.044Z'
+      fetched_at: "2026-07-20T16:42:33.044Z"
       bytes: 26887
 insights:
-  summary: >-
-    BambooAI is a Python library that enables natural language-driven data analysis by generating and executing code
-    against local datasets, external APIs, and vector databases.
-  why_it_matters: >-
-    It allows developers and analysts to query data and produce visualizations conversationally, reducing the
-    boilerplate required to derive insights from pandas DataFrames.
-  mental_damage: >-
-    Yet another library promising to turn a data analyst into a prompt engineer, ensuring your team spends more time
-    debugging LLM-generated pandas code than writing it themselves.
+  summary: BambooAI is a Python library that enables natural language-driven data analysis by generating and executing code against local datasets, external APIs, and vector databases.
+  why_it_matters: It allows developers and analysts to query data and produce visualizations conversationally, reducing the boilerplate required to derive insights from pandas DataFrames.
+  mental_damage: Yet another library promising to turn a data analyst into a prompt engineer, ensuring your team spends more time debugging LLM-generated pandas code than writing it themselves.
   tags:
     - python
     - data-analysis
@@ -87,21 +81,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.642Z'
+    updated_at: "2026-05-06T22:12:15.642Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:33.044Z'
+    updated_at: "2026-07-20T16:42:33.044Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

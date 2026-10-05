@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hrl__boyuai__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A pedagogical resource and textbook covering the fundamentals and advanced topics of Reinforcement Learning.
-  why_it_matters: It provides a structured learning path and practical Jupyter Notebooks for mastering RL algorithms.
-  mental_damage: A textbook that promises to explain exactly why your agent's reward function is broken.
+  summary: 动手学强化学习 is a Chinese-language educational resource offering free video lectures, course materials, and runnable Jupyter notebooks for learning reinforcement learning.
+  why_it_matters: It provides developers with accessible, code-first RL learning materials that bridge theory and implementation through executable examples.
+  mental_damage: Another free ML course that makes you feel guilty for not finishing it while adding yet another tab to your 47-open-learning-resources graveyard.
   tags:
-    - reinforcement-learning
     - education
-    - textbook
-    - ml-research
+    - reinforcement-learning
+    - jupyter
+    - chinese-language
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML research
-    rather than the practical developer-facing AI tooling required for the catalog.
+  reason: The resource is an educational course focused on teaching reinforcement learning concepts, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - Scraped content describes it as a 'Hands-on Reinforcement Learning' book and course
-    - Categorized as 'Book' in existing source lists
+    - Scraped site shows it is a textbook-style course with lectures, notes, and videos titled '动手学强化学习' (Hands-on Reinforcement Learning)
+    - Primary content includes freely available course materials, video lectures from Shanghai Jiao Tong University professors, and runnable Jupyter notebooks
+    - Source-list context shows it is categorized under '书籍 Book' in awesome-LLM-resources as a learning resource, not a tool
 placement:
   primary_category: null
   section: null
@@ -62,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:22:26.459Z'
+    updated_at: "2026-10-05T04:33:40.258Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9da3e29c733121a9645dbbb6da1de4184d0f01d7994f8c7f7c7f609af05b74df
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c7d533d21c506836b3aaac816dfb030070fbce50d3a44d2c7f8aa327749acb61
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a specialized educational resource/textbook on Reinforcement Learning, which falls under general ML
-        research rather than the practical developer-facing AI tooling required for the catalog.
+      decision_reason: The resource is an educational course focused on teaching reinforcement learning concepts, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - Scraped content describes it as a 'Hands-on Reinforcement Learning' book and course
-        - Categorized as 'Book' in existing source lists
+        - Scraped site shows it is a textbook-style course with lectures, notes, and videos titled '动手学强化学习' (Hands-on Reinforcement Learning)
+        - Primary content includes freely available course materials, video lectures from Shanghai Jiao Tong University professors, and runnable Jupyter notebooks
+        - Source-list context shows it is categorized under '书籍 Book' in awesome-LLM-resources as a learning resource, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

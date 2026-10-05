@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__second__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Second
         anchor_text: Second
         extracted_url: https://second.dev
-        surrounding_text: '## [Second](https://www.second.dev/)'
+        surrounding_text: "## [Second](https://www.second.dev/)"
         confidence: high
     - id: discovery__www__second__dev__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Second
         anchor_text: Second
         extracted_url: https://www.second.dev
-        surrounding_text: '## [Second](https://www.second.dev/)'
+        surrounding_text: "## [Second](https://www.second.dev/)"
         confidence: high
 metadata:
   github:
@@ -51,17 +51,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Second is a platform that generates full-stack applications from natural language prompts via a hosted service.
-  why_it_matters: >-
-    It enables developers to go from idea to deployable web app without writing code, accelerating prototyping and
-    internal tool creation.
-  mental_damage: >-
-    Watching your job description shrink to 'press enter and hope the AI didn’t invent a new API' is a special kind of
-    modern burnout.
+  summary: Second is a tool that uses AI agents to autonomously write, edit, and manage code across repositories, terminals, and IDEs.
+  why_it_matters: It lets developers delegate full coding tasks to an agent, reducing manual effort on routine code changes and refactoring.
+  mental_damage: Another promise of 'just tell the AI what you want' while you still have to babysit its PRs and hope it didn’t refactor your auth module into a haiku.
   tags:
-    - app-builder
-    - prompt-to-app
-    - full-stack
+    - coding-agent
+    - autonomous-coding
+    - ai-dev-tool
   confidence: medium
 curation:
   status: included
@@ -71,44 +67,39 @@ curation:
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''app-builders'''
+  reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'coding-agents'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:45:36.154Z'
+    updated_at: "2026-10-05T04:50:43.642Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c93acc3f13c5a5942273d251fa8fcb1f005677d01fc6935357c88db5162d9a0c
-      proposed_primary_category: app-builders
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b5bc9ca1100961d31612241e8ffcc763975288f6f4d086031a2ec19b33c45ef7
+      proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: >-
-        Second matches the app-builder category by generating deployable apps from prompts, not editing existing
-        codebases, and aligns with its listing in awesome-ai-agents as a purpose-built agent for app generation.
+      decision_reason: Second is positioned as an autonomous coding agent that performs coding tasks like writing, editing, and reviewing code, fitting the core identity of a coding agent rather than an extension or orchestration platform.
       decision_evidence:
-        - 'Repo description: Second.dev generates full-stack applications from natural language prompts'
-        - 'Source-list context: Listed in awesome-ai-agents under purpose: ''A list of AI autonomous agents'''
-        - 'Homepage implies hosted service: second.dev offers prompt-to-deploy workflow'
+        - "Listed in awesome-ai-agents under the 'purpose: A list of AI autonomous agents' section"
+        - Marketed as an AI agent for software development with capabilities to act on codebases
       category_candidates:
-        - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Second generates new deployable apps from scratch rather than
-        editing or operating within an existing codebase as a coding assistant would.
-      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''app-builders'''
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Second’s primary identity is performing coding tasks autonomously, not coordinating multiple agents or managing agent workflows.
+      review_reason: "Categorization review required: placement disagreement: retained 'app-builders', proposed 'coding-agents'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

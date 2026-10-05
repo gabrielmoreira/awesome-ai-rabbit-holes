@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__sc2musa__jev_star__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Games & simulations (73)
         anchor_text: Jev_Star
         extracted_url: https://github.com/sc2musa/jev_star
-        surrounding_text: >-
-          | [Jev_Star](https://github.com/sc2musa/Jev_Star) | ★ 33 | Python | 2026-09-24 | StarCraft agent experiment
-          using Jev for fast tactical decisions. |
+        surrounding_text: "| [Jev_Star](https://github.com/sc2musa/Jev_Star) | ★ 33 | Python | 2026-09-24 | StarCraft agent experiment using Jev for fast tactical decisions. |"
         confidence: high
     - id: discovery__github__sc2musa__jev_star__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,12 +36,7 @@ provenance:
           - Game & Simulation
         anchor_text: JEV-Star
         extracted_url: https://github.com/sc2musa/jev_star
-        surrounding_text: >-
-          - [JEV-Star](https://github.com/sc2musa/Jev_Star)
-          ![stars](https://img.shields.io/github/stars/sc2musa/Jev_Star?style=flat-square&label=%E2%98%85) - Gaming:
-          uses Jev `Choice` decisions for StarCraft II macro control and micromanagement on 35 SMAC-Hard maps, validates
-          selections against available actions, and follows optional GPT-6 plans to separate frequent action selection
-          from longer-term strategy.
+        surrounding_text: "- [JEV-Star](https://github.com/sc2musa/Jev_Star) ![stars](https://img.shields.io/github/stars/sc2musa/Jev_Star?style=flat-square&label=%E2%98%85) - Gaming: uses Jev `Choice` decisions for StarCraft II macro control and micromanagement on 35 SMAC-Hard maps, validates selections against available actions, and follows optional GPT-6 plans to separate frequent action selection from longer-term strategy."
         confidence: high
 metadata:
   github:
@@ -81,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.424Z'
+    updated_at: "2026-09-29T13:07:10.424Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

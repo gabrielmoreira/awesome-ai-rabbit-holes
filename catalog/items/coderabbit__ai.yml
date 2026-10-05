@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__coderabbit__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - Code Review and Refactoring
         anchor_text: CodeRabbit
         extracted_url: https://coderabbit.ai
-        surrounding_text: >-
-          - **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable
-          feedback.
+        surrounding_text: "- **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable feedback."
         confidence: high
     - id: discovery__coderabbit__ai__awesome-list__patrickjs__awesome-cursorrules
-      discovered_at: '2026-05-14T05:20:10.208Z'
+      discovered_at: "2026-05-14T05:20:10.208Z"
       source:
         type: awesome-list
         name: PatrickJS/awesome-cursorrules
@@ -36,10 +34,7 @@ provenance:
           - Sponsorships
         anchor_text: coderabbit.ai
         extracted_url: https://coderabbit.ai
-        surrounding_text: >-
-          -
-          [coderabbit.ai](https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules)
-          - Cut code review time and bugs in half.
+        surrounding_text: "- [coderabbit.ai](https://coderabbit.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-cursorrules) - Cut code review time and bugs in half."
         confidence: high
 metadata:
   github:
@@ -57,36 +52,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CodeRabbit is an AI code review and change management platform that automatically analyzes pull requests, identifies
-    issues, and provides prioritized feedback to help teams ship code safely and quickly.
-  why_it_matters: >-
-    It reduces the review burden and prevents bugs by automating code validation and contextual understanding across
-    massive PR volumes, addressing the scaling challenges of AI-generated code changes.
-  mental_damage: >-
-    It exposes the absurdity of shipping AI-written code at scale while teams struggle to keep up with the flood of
-    auto-generated pull requests.
+  summary: CodeRabbit is an AI-powered pull request review agent that automatically reviews, prioritizes, and secures code changes.
+  why_it_matters: It reduces manual review burden by providing instant AI feedback on PRs, helping teams ship code faster with fewer surprises.
+  mental_damage: Yet another bot commenting on your PRs, because humans clearly can't keep up with the AI-generated PR flood they unleashed.
   tags:
-    - ai-code-review
-    - pr-automation
-    - developer-productivity
+    - pr-review
+    - ai-agent
+    - code-quality
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  reason: CodeRabbit functions as an autonomous AI agent that reviews code, suggests fixes, and learns from team feedback, making it a coding agent focused on review and repair rather than a mere extension or decision model.
   evidence:
-    - jev-latest choice confidence 0.66
+    - Performs AI-driven code reviews, suggests committable changes, and validates fixes from coding agents like Codex
+    - Operates as a PR review bot that reads codebases, writes review comments, and controls the review workflow on behalf of developers
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as an AI-powered coding tool
 placement:
   primary_category: coding-agents
   secondary_categories: []
   section: Review, Testing & Repair
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-14T05:20:10.209Z'
+    updated_at: "2026-05-14T05:20:10.209Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,35 +86,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:35:44.216Z'
+    updated_at: "2026-10-05T04:29:50.686Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9116bd2aa04f47d9d0b8994af4f341de1f44e9ce1cfa479bbb2a65334c286b3b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a1e680d61158767346ce87b5f702d006720e542005e1fda6e8911383d57f394a
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        CodeRabbit is a coding agent that autonomously reviews code and enforces quality standards as its primary
-        function, not an extension or orchestration tool.
+      decision_reason: CodeRabbit functions as an autonomous AI agent that reviews code, suggests fixes, and learns from team feedback, making it a coding agent focused on review and repair rather than a mere extension or decision model.
       decision_evidence:
-        - README states 'We help teams ship code, not surprises' and 'AI-driven code now outpaces human capacity'
-        - >-
-          Scraped site describes 'automated reviews are the central validation layer for AI code' and shows bot actively
-          reviewing PRs with concrete code suggestions
-        - >-
-          Source-list context shows it's included in 'awesome-ai-coding-tools' under 'Code Review and Refactoring'
-          section
+        - Performs AI-driven code reviews, suggests committable changes, and validates fixes from coding agents like Codex
+        - Operates as a PR review bot that reads codebases, writes review comments, and controls the review workflow on behalf of developers
+        - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as an AI-powered coding tool
       category_candidates:
         - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because its core identity is performing code reviews autonomously
-        rather than augmenting another tool's workflow
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because CodeRabbit acts as a primary coding agent performing autonomous PR reviews and fix suggestions, rather than merely extending another agent's capabilities.
+      review_reason: null
       review_resume_lifecycle: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cs__uwaterloo__ca__wenhuche__teaching__cs886__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '滑铁卢大学 CS 886: Recent Advances on Foundation Models'
+        anchor_text: "滑铁卢大学 CS 886: Recent Advances on Foundation Models"
         extracted_url: https://cs.uwaterloo.ca/~wenhuche/teaching/cs886
-        surrounding_text: '17. [滑铁卢大学 CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)'
+        surrounding_text: "17. [滑铁卢大学 CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)"
         confidence: high
 metadata:
   github:
@@ -36,42 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CS 886 is a University of Waterloo course focused on recent advances in foundation models, covering topics from RNNs
-    and transformers to multimodal models and agent systems.
-  why_it_matters: >-
-    It gives developers a structured, academic pathway to study cutting-edge AI research and build hands-on experience
-    with foundation model architectures and applications.
-  mental_damage: >-
-    Students juggle 8-page reports, 12-minute presentations, and weekly readings while trying to stay current with the
-    fast-moving AI frontier.
+  summary: "CS 886: Recent Advances on Foundation Models is a graduate course at the University of Waterloo covering foundation models and their applications."
+  why_it_matters: It provides structured academic learning on foundation models, which developers use to understand and apply cutting-edge AI in software development.
+  mental_damage: Another syllabus to add to the pile of 'I’ll get to this when I have time' while shipping features with prompts copied from Twitter.
   tags:
     - course
     - foundation-models
-    - ai-education
-  confidence: medium
+    - education
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    The course project requires building a foundation model application with code, fitting the coding-agents category as
-    it involves autonomous coding tasks.
+  status: excluded
+  reason: This is an academic course syllabus and teaching resource, not a developer-facing AI tool, agent, or infrastructure product; it does not provide usable software, APIs, or workflows for coding tasks.
   evidence:
-    - >-
-      The course project requires a high-quality 8-page report plus a final in-class presentation, indicating code
-      implementation is central
-    - >-
-      The project needs to be related to foundation models like text or vision or multimodal models, implying code-based
-      development
+    - "Repo description: (none); the source is a university course homepage (cs.uwaterloo.ca/~wenhuche/teaching/cs886)"
+    - Scraped site context shows it is a course with lectures, readings, presentations, and a final project — not a tool or platform
+    - Appears in awesome-LLM-resources under '课程 Course' section, confirming its identity as educational material
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,34 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:36:55.000Z'
+    updated_at: "2026-10-05T04:30:34.069Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:2a16d8fecbf76cf1222245cef2abd73c694ba311782b199f4becb7eb1bf4fc8c
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c8f9ec60ab04426ff7996be4b0e1a0120778e76ed683364ee2e27aee758ff06b
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The course project requires building a foundation model application with code, fitting the coding-agents
-        category as it involves autonomous coding tasks.
+      decision_reason: This is an academic course syllabus and teaching resource, not a developer-facing AI tool, agent, or infrastructure product; it does not provide usable software, APIs, or workflows for coding tasks.
       decision_evidence:
-        - >-
-          The course project requires a high-quality 8-page report plus a final in-class presentation, indicating code
-          implementation is central
-        - >-
-          The project needs to be related to foundation models like text or vision or multimodal models, implying
-          code-based development
-      category_candidates:
-        - coding-agents
-        - ai-frameworks
-      contrastive_reason: >-
-        Choose coding-agents over ai-frameworks because the course requires building and presenting a working
-        application rather than just using a library.
+        - "Repo description: (none); the source is a university course homepage (cs.uwaterloo.ca/~wenhuche/teaching/cs886)"
+        - Scraped site context shows it is a course with lectures, readings, presentations, and a final project — not a tool or platform
+        - Appears in awesome-LLM-resources under '课程 Course' section, confirming its identity as educational material
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

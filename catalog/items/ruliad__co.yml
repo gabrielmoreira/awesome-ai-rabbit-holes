@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ruliad__co__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Naut
         anchor_text: Naut
         extracted_url: https://www.naut.ai
-        surrounding_text: '## [Naut](https://www.naut.ai/)'
+        surrounding_text: "## [Naut](https://www.naut.ai/)"
         confidence: high
 metadata:
   github:
@@ -36,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ruliad Chat is a self-sovereign intelligence chat interface.
-  why_it_matters: It offers developers a private, locally controlled AI chat experience focused on autonomy and data ownership.
-  mental_damage: Another chat UI promising sovereignty while you still wonder if it just wraps a cloud model behind a local frontend.
+  summary: Ruliad Chat is a web interface promising self-sovereign intelligence via a chat interface.
+  why_it_matters: It claims to offer a developer-controlled AI chat experience, potentially appealing for privacy or customization needs.
+  mental_damage: Another chat wrapper selling sovereignty while likely depending on opaque backends, adding to the parade of 'self-hosted' illusions.
   tags:
-    - local-ai
     - chat
+    - ai-interface
+    - self-sovereign
   confidence: medium
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
+  status: excluded
+  reason: Ruliad Chat does not clearly perform developer-facing tasks like coding, debugging, or workflow automation; it is a general chat interface lacking specific tooling for software development workflows.
   evidence:
-    - jev-latest choice confidence 0.91
+    - "Repo description: (none)"
+    - "Scraped site title: Ruliad Chat"
+    - "Scraped site description: Self Sovereign Intelligence"
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Desktop Chat & UIs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.665Z'
+    updated_at: "2026-05-06T22:12:15.665Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,31 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:36:19.503Z'
+    updated_at: "2026-10-05T04:44:34.822Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e72f00d7bfbc09b0d4880bfa65de42429270dcf5b963b36bcacb225353d56824
-      proposed_primary_category: local-ai
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0c3ac0f41527567b335a55b295b75458d6e4585dc9c967b31d7ccae593eca17e
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Ruliad Chat emphasizes self-sovereign intelligence and local execution, aligning with local AI desktop chat
-        tools that prioritize privacy and offline use.
+      decision_reason: Ruliad Chat does not clearly perform developer-facing tasks like coding, debugging, or workflow automation; it is a general chat interface lacking specific tooling for software development workflows.
       decision_evidence:
-        - 'Scraped site title: ''Ruliad Chat'''
-        - 'Scraped site description: ''Self Sovereign Intelligence'''
-        - No evidence of code editing, agent orchestration, or app generation; focuses on chat interaction
-      category_candidates:
-        - local-ai
-        - coding-agents
-      contrastive_reason: >-
-        Choose local-ai over coding-agents because Ruliad Chat is a desktop chat interface for private AI interaction,
-        not an agent that autonomously writes, edits, or reviews code.
+        - "Repo description: (none)"
+        - "Scraped site title: Ruliad Chat"
+        - "Scraped site description: Self Sovereign Intelligence"
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

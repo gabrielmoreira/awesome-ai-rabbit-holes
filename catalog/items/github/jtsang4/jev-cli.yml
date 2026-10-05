@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jtsang4__jev-cli__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-cli
         extracted_url: https://github.com/jtsang4/jev-cli
-        surrounding_text: >-
-          - [jev-cli](https://github.com/jtsang4/jev-cli) - CLI for TypeSafe AI's Jev evaluation model — typed questions
-          in, structured JSON answers out.
+        surrounding_text: "- [jev-cli](https://github.com/jtsang4/jev-cli) - CLI for TypeSafe AI's Jev evaluation model — typed questions in, structured JSON answers out."
         confidence: high
     - id: discovery__github__jtsang4__jev-cli__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Applications (129)
         anchor_text: jev-cli
         extracted_url: https://github.com/jtsang4/jev-cli
-        surrounding_text: >-
-          | [jev-cli](https://github.com/jtsang4/jev-cli) | ★ 1 | TypeScript | 2026-09-19 | CLI for TypeSafe AI's Jev
-          evaluation model — typed questions in, structured JSON answers out. |
+        surrounding_text: "| [jev-cli](https://github.com/jtsang4/jev-cli) | ★ 1 | TypeScript | 2026-09-19 | CLI for TypeSafe AI's Jev evaluation model — typed questions in, structured JSON answers out. |"
         confidence: high
     - id: discovery__github__jtsang4__jev-cli__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-cli**'
+        anchor_text: "**jev-cli**"
         extracted_url: https://github.com/jtsang4/jev-cli
-        surrounding_text: >-
-          - [**jev-cli**](https://github.com/jtsang4/jev-cli) — A CLI for asking Jev classification, yes/no and scoring
-          questions over text or JSON input.
+        surrounding_text: "- [**jev-cli**](https://github.com/jtsang4/jev-cli) — A CLI for asking Jev classification, yes/no and scoring questions over text or JSON input."
         confidence: high
 metadata:
   github:
@@ -94,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.397Z'
+    updated_at: "2026-09-29T13:07:10.397Z"
     cause: null
     next_retry_at: null
   stars:
@@ -102,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__backnotprop__com__blog__jev__poker__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Jev is the fish at the poker table
         extracted_url: https://backnotprop.com/blog/jev-poker
-        surrounding_text: >-
-          - [Jev is the fish at the poker table](https://backnotprop.com/blog/jev-poker/) - Blog: plays poker with Jev
-          and uses the table to probe where a fast decision model helps and where it does not.
+        surrounding_text: "- [Jev is the fish at the poker table](https://backnotprop.com/blog/jev-poker/) - Blog: plays poker with Jev and uses the table to probe where a fast decision model helps and where it does not."
         confidence: high
 metadata:
   github:
@@ -39,30 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a decision model that answers typed questions with probabilities instead of generating text, used for poker hand evaluations.
+  why_it_matters: It demonstrates how decision models can be applied to narrow, verifiable domains like game theory for testing judgment reliability.
+  mental_damage: Another AI tool that reduces human judgment to a probability distribution, making us wonder if we’ve outsourced even our gut feels to a model trained on solved poker hands.
+  tags:
+    - decision-model
+    - game-theory
+    - eval
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: Jev is a decision model that returns constrained probabilistic answers to typed questions, making it a canonical example of the decision-models category, especially as the original Jev (TypeSafe System One).
   evidence:
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - The product is Jev (TypeSafe System One), a model that answers typed questions with probabilities instead of generating text.
+    - The README describes Jev as taking a state object and a question (e.g., which action to take) and returning a choice with probability, not text.
+    - It is listed in the source list 'awesome-jev' under Related Practices / Discussions, indicating recognition in decision-model circles.
+    - The core function is judgment under uncertainty via typed input and probabilistic output, not code generation, editing, or app building.
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - awesome-awesomes
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +72,29 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:32.813Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:42ddb9cbba9e30584b7f3ebbd8c459ecba171212203ca0aee60cb2a57da6c0b2
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that returns constrained probabilistic answers to typed questions, making it a canonical example of the decision-models category, especially as the original Jev (TypeSafe System One).
+      decision_evidence:
+        - The product is Jev (TypeSafe System One), a model that answers typed questions with probabilities instead of generating text.
+        - The README describes Jev as taking a state object and a question (e.g., which action to take) and returning a choice with probability, not text.
+        - It is listed in the source list 'awesome-jev' under Related Practices / Discussions, indicating recognition in decision-model circles.
+        - The core function is judgment under uncertainty via typed input and probabilistic output, not code generation, editing, or app building.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because Jev is itself a decision model that produces judgments, not a framework for measuring or comparing model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

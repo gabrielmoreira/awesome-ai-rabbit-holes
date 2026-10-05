@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__anyeval__com__eval__jevbench__versus__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: gev beats jev and takes images as input too
         extracted_url: https://anyeval.com/eval/jevbench/versus
-        surrounding_text: >-
-          - [gev beats jev and takes images as input
-          too](https://anyeval.com/eval/jevbench/versus?a=typesafe-ai%2Fjev&b=trustedrouter%2Fgev-1.0) - Benchmark: a
-          head-to-head eval page where a rival model outperforms Jev on the same question set and additionally accepts
-          images.
+        surrounding_text: "- [gev beats jev and takes images as input too](https://anyeval.com/eval/jevbench/versus?a=typesafe-ai%2Fjev&b=trustedrouter%2Fgev-1.0) - Benchmark: a head-to-head eval page where a rival model outperforms Jev on the same question set and additionally accepts images."
         confidence: high
 metadata:
   github:
@@ -41,27 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A head-to-head model comparison tool for JevBench problems showing paired accuracy and answer speed.
+  why_it_matters: Helps developers evaluate and compare model performance on standardized reasoning tasks with statistical rigor.
+  mental_damage: Another leaderboard that makes you question whether your model choice is based on capability or just benchmark surface area.
+  tags:
+    - evals
+    - benchmarking
+    - model-comparison
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The tool's core function is measuring and comparing model behavior on JevBench problems, making it an evaluation platform rather than a decision model or coding agent.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site describes it as 'Two models on the same JevBench problems: paired accuracy and model answer speed'"
+    - Source-list context places it in 'awesome-jev' under 'Full list > Related Practices / Discussions'
+    - Primary page emphasizes running evaluations, reviewing public traces, and comparing model answers on shared problems
 placement:
-  primary_category: null
+  primary_category: evals
   secondary_categories: []
-  section: null
+  section: Agent & LLM Benchmarks
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:17.777Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:35d988404e9bc180d53cf6c657a437cfb49b15f9822222901c5e403dde75cfbc
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core function is measuring and comparing model behavior on JevBench problems, making it an evaluation platform rather than a decision model or coding agent.
+      decision_evidence:
+        - "Scraped site describes it as 'Two models on the same JevBench problems: paired accuracy and model answer speed'"
+        - Source-list context places it in 'awesome-jev' under 'Full list > Related Practices / Discussions'
+        - Primary page emphasizes running evaluations, reviewing public traces, and comparing model answers on shared problems
+      category_candidates:
+        - evals
+        - decision-models
+      contrastive_reason: Choose evals over decision-models because the product measures model performance rather than implementing or serving a decision model like Jev itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

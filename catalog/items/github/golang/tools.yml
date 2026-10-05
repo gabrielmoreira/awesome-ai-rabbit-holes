@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__golang__tools__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: Go's Language Server Protocol (gopls)
         extracted_url: https://github.com/golang/tools
-        surrounding_text: >-
-          - [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls) 🏎️ 🏠 - A MCP server for interacting
-          with [Go's Language Server Protocol (gopls)](https://github.com/golang/tools/tree/master/gopls) and benefit
-          from advanced Go code analysis features.
+        surrounding_text: "- [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls) 🏎️ 🏠 - A MCP server for interacting with [Go's Language Server Protocol (gopls)](https://github.com/golang/tools/tree/master/gopls) and benefit from advanced Go code analysis features."
         confidence: high
 metadata:
   github:
@@ -33,23 +30,19 @@ metadata:
     archived: false
     full_name: golang/tools
     html_url: https://github.com/golang/tools
-    created_at: '2014-11-25T21:07:26Z'
-    pushed_at: '2026-09-02T22:25:14Z'
-    description: '[mirror] Go Tools'
+    created_at: "2014-11-25T21:07:26Z"
+    pushed_at: "2026-09-02T22:25:14Z"
+    description: "[mirror] Go Tools"
     homepage: https://golang.org/x/tools
     topics: []
-    last_checked_at: '2026-09-03T05:16:51.258Z'
+    last_checked_at: "2026-09-03T05:16:51.258Z"
     readme:
-      fetched_at: '2026-09-03T05:16:51.258Z'
+      fetched_at: "2026-09-03T05:16:51.258Z"
       bytes: 3422
 insights:
   summary: Official Go Tools repository providing static analysis tools, LSP server (gopls), and utilities for Go programs.
-  why_it_matters: >-
-    Developers use this to get IDE-like features (autocomplete, diagnostics) and static analysis capabilities for Go
-    projects.
-  mental_damage: >-
-    The one time you need to debug Go code, you'll realize you've been using this indirectly through your editor for
-    years.
+  why_it_matters: Developers use this to get IDE-like features (autocomplete, diagnostics) and static analysis capabilities for Go projects.
+  mental_damage: The one time you need to debug Go code, you'll realize you've been using this indirectly through your editor for years.
   tags:
     - go
     - lsp
@@ -59,9 +52,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a core Go ecosystem toolkit (LSP server + static analysis) rather than an AI-native developer tool, so it
-    falls outside the catalog's AI/ML-focused scope.
+  reason: This is a core Go ecosystem toolkit (LSP server + static analysis) rather than an AI-native developer tool, so it falls outside the catalog's AI/ML-focused scope.
   evidence:
     - Repo description identifies it as Go Tools (static analysis, LSP server)
     - README confirms focus on Go program analysis and editor integrations
@@ -75,17 +66,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.616Z'
+    updated_at: "2026-05-06T22:12:15.616Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:51.258Z'
+    updated_at: "2026-09-03T05:16:51.258Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -100,9 +91,7 @@ processing:
       input_hash: sha256:6e5fc6d52b78d6761fdacffa15ab478d43a12e2f3164e9b7029a31183353650f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a core Go ecosystem toolkit (LSP server + static analysis) rather than an AI-native developer tool, so
-        it falls outside the catalog's AI/ML-focused scope.
+      decision_reason: This is a core Go ecosystem toolkit (LSP server + static analysis) rather than an AI-native developer tool, so it falls outside the catalog's AI/ML-focused scope.
       decision_evidence:
         - Repo description identifies it as Go Tools (static analysis, LSP server)
         - README confirms focus on Go program analysis and editor integrations

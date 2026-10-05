@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__model__jaggedness__jev__1__13__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Official
         anchor_text: Jev 1.13 jaggedness
         extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
-        surrounding_text: >-
-          - [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Known failure modes of the
-          current public model, documented by TypeSafe.
+        surrounding_text: "- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Known failure modes of the current public model, documented by TypeSafe."
         confidence: high
     - id: discovery__docs__typesafe__ai__model__jaggedness__jev__1__13__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -35,12 +33,10 @@ provenance:
           - Model behavior and evaluation
         anchor_text: Jev 1.13 limitations
         extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
-        surrounding_text: >-
-          - [Jev 1.13 limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Account for literal
-          interpretation, numerical weaknesses, distracting state, and adversarial inputs.
+        surrounding_text: "- [Jev 1.13 limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Account for literal interpretation, numerical weaknesses, distracting state, and adversarial inputs."
         confidence: high
     - id: discovery__docs__typesafe__ai__model__jaggedness__jev__1__13__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -53,12 +49,10 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Jev 1.13 jaggedness
         extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
-        surrounding_text: >-
-          - [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Documentation: TypeSafe's own
-          page on model jaggedness for the 1.13 release.
+        surrounding_text: "- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Documentation: TypeSafe's own page on model jaggedness for the 1.13 release."
         confidence: high
     - id: discovery__docs__typesafe__ai__model__jaggedness__jev__1__13__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -70,9 +64,7 @@ provenance:
           - Official resources
         anchor_text: Jev 1.13 jaggedness
         extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
-        surrounding_text: >-
-          - [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - First-party limitations covering
-          arithmetic, dates, distractors, adversarial state, and structural inconsistencies.
+        surrounding_text: "- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - First-party limitations covering arithmetic, dates, distractors, adversarial state, and structural inconsistencies."
         confidence: high
 metadata:
   github:
@@ -90,27 +82,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev 1.13 is a decision model from TypeSafe AI that answers typed questions with probabilities but has known limitations in areas like literal interpretation, math, and indirection.
+  why_it_matters: It provides developers with a calibrated, fast model for System One tasks where judgment calls are needed, though they must work around its failure modes.
+  mental_damage: Another reminder that trusting AI with anything resembling math or nuanced reasoning is a one-way ticket to debugging regret.
+  tags:
+    - decision-model
+    - jev
+    - typesafe-ai
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev 1.13 is a decision model whose core identity is answering typed questions with probabilities, placing it squarely in the decision-models category despite being presented as documentation.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The scraped page describes jev-1.13 as a model that answers questions with probabilities and details its failure modes in literal reading, math, and indirection.
+    - It is listed in the awesome-jev directory under sections like 'Model behavior and evaluation' and 'Official resources' as part of the Jev ecosystem.
+    - The page references Jev-compatible SDKs (Python, JavaScript) and positions jev-1.13 as a System One model from TypeSafe AI.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.390Z'
+    updated_at: "2026-09-29T13:07:10.390Z"
     cause: null
     next_retry_at: null
   stars:
@@ -118,6 +115,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:05:12.530Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d7d349dc02c34b9a6d81c2fa49a5c6af2e719d3358eae13de793dec4bdbd7f95
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev 1.13 is a decision model whose core identity is answering typed questions with probabilities, placing it squarely in the decision-models category despite being presented as documentation.
+      decision_evidence:
+        - The scraped page describes jev-1.13 as a model that answers questions with probabilities and details its failure modes in literal reading, math, and indirection.
+        - It is listed in the awesome-jev directory under sections like 'Model behavior and evaluation' and 'Official resources' as part of the Jev ecosystem.
+        - The page references Jev-compatible SDKs (Python, JavaScript) and positions jev-1.13 as a System One model from TypeSafe AI.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because jev-1.13 is the decision model itself being evaluated, not a tool for measuring or benchmarking model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

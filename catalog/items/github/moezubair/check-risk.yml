@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__moezubair__check-risk__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: check-risk
         extracted_url: https://github.com/moezubair/check-risk
-        surrounding_text: >-
-          - [check-risk](https://github.com/moezubair/check-risk) - A CLI and GitHub Action that assesses code-change
-          risk using deterministic rules and TypeSafe Jev, recommending checks and reviewers before merge.
+        surrounding_text: "- [check-risk](https://github.com/moezubair/check-risk) - A CLI and GitHub Action that assesses code-change risk using deterministic rules and TypeSafe Jev, recommending checks and reviewers before merge."
         confidence: high
     - id: discovery__github__moezubair__check-risk__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: check-risk
         extracted_url: https://github.com/moezubair/check-risk
-        surrounding_text: >-
-          | [check-risk](https://github.com/moezubair/check-risk) | ★ 0 | TypeScript | 2026-09-19 | A CLI and GitHub
-          Action that assesses code-change risk using deterministic rules and TypeSafe Jev, recommending checks and
-          reviewers before merge. |
+        surrounding_text: "| [check-risk](https://github.com/moezubair/check-risk) | ★ 0 | TypeScript | 2026-09-19 | A CLI and GitHub Action that assesses code-change risk using deterministic rules and TypeSafe Jev, recommending checks and reviewers before merge. |"
         confidence: high
 metadata:
   github:
@@ -58,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    check-risk - A CLI and GitHub Action that assesses code-change risk using deterministic rules and TypeSafe Jev,
-    recommending checks and reviewers before merge.
+  summary: check-risk - A CLI and GitHub Action that assesses code-change risk using deterministic rules and TypeSafe Jev, recommending checks and reviewers before merge.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.420Z'
+    updated_at: "2026-09-29T13:07:10.420Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

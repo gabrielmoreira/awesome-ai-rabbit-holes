@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__henripal__labnotebook__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -20,11 +20,7 @@ provenance:
           - Experiment Tracking
         anchor_text: LabNotebook
         extracted_url: https://github.com/henripal/labnotebook
-        surrounding_text: >-
-          | [LabNotebook](https://github.com/henripal/labnotebook) | LabNotebook is a tool that allows you to flexibly
-          monitor, record, save, and query all your machine learning
-          experiments.                                                                                                                                                                                                                                                                                                                                                
-          | ![GitHub Badge](https://img.shields.io/github/stars/henripal/labnotebook.svg?style=flat-square)    |
+        surrounding_text: "| [LabNotebook](https://github.com/henripal/labnotebook) | LabNotebook is a tool that allows you to flexibly monitor, record, save, and query all your machine learning experiments.                                                                                                                                                                                                                                                                                                                                                 | ![GitHub Badge](https://img.shields.io/github/stars/henripal/labnotebook.svg?style=flat-square)    |"
         confidence: high
 metadata:
   github:
@@ -34,12 +30,10 @@ metadata:
     archived: false
     full_name: henripal/labnotebook
     html_url: https://github.com/henripal/labnotebook
-    created_at: '2018-02-20T20:17:48Z'
-    pushed_at: '2018-03-31T02:06:31Z'
-    description: >-
-      LabNotebook is a tool that allows you to flexibly monitor, record, save, and query all your machine learning
-      experiments.
-    homepage: ''
+    created_at: "2018-02-20T20:17:48Z"
+    pushed_at: "2018-03-31T02:06:31Z"
+    description: LabNotebook is a tool that allows you to flexibly monitor, record, save, and query all your machine learning experiments.
+    homepage: ""
     topics:
       - experiment-manager
       - experimental-data
@@ -51,17 +45,13 @@ metadata:
       - reproducible-research
       - vuejs
       - webapp
-    last_checked_at: '2026-07-30T05:05:36.717Z'
+    last_checked_at: "2026-07-30T05:05:36.717Z"
     readme:
-      fetched_at: '2026-07-30T05:05:36.717Z'
+      fetched_at: "2026-07-30T05:05:36.717Z"
       bytes: 4144
 insights:
-  summary: >-
-    LabNotebook is a Python-based experiment manager for tracking, saving, and querying machine learning experiments in
-    a PostgreSQL database.
-  why_it_matters: >-
-    It provides a lightweight, queryable way to monitor and compare deep learning experiments, addressing the pain of
-    scattered logs and inflexible tracking tools.
+  summary: LabNotebook is a Python-based experiment manager for tracking, saving, and querying machine learning experiments in a PostgreSQL database.
+  why_it_matters: It provides a lightweight, queryable way to monitor and compare deep learning experiments, addressing the pain of scattered logs and inflexible tracking tools.
   mental_damage: Finally, a lab notebook that won’t smudge your training curves—just your PostgreSQL queries.
   tags:
     - experiment-tracking
@@ -72,9 +62,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is focused on ML experiment tracking (Training > Experiment Tracking), which is outside the catalog's scope
-    of developer-facing AI tooling for code creation, editing, or workflow automation.
+  reason: The tool is focused on ML experiment tracking (Training > Experiment Tracking), which is outside the catalog's scope of developer-facing AI tooling for code creation, editing, or workflow automation.
   evidence:
     - Repo description explicitly frames it as an experiment manager for ML experiments
     - Source-list context places it under 'Training > Experiment Tracking' in Awesome-LLMOps
@@ -88,17 +76,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.618Z'
+    updated_at: "2026-05-06T22:12:15.618Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:36.717Z'
+    updated_at: "2026-07-30T05:05:36.717Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -113,9 +101,7 @@ processing:
       input_hash: sha256:ad68f7cd2afe49ff907a0eea15916b4d882de2fc068e5bf125b026f5efeaed9e
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is focused on ML experiment tracking (Training > Experiment Tracking), which is outside the catalog's
-        scope of developer-facing AI tooling for code creation, editing, or workflow automation.
+      decision_reason: The tool is focused on ML experiment tracking (Training > Experiment Tracking), which is outside the catalog's scope of developer-facing AI tooling for code creation, editing, or workflow automation.
       decision_evidence:
         - Repo description explicitly frames it as an experiment manager for ML experiments
         - Source-list context places it under 'Training > Experiment Tracking' in Awesome-LLMOps

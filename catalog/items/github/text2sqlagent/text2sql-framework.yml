@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__text2sqlagent__text2sql-framework__awesome-list__kaushikb11__awesome-llm-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: kaushikb11/awesome-llm-agents
@@ -19,9 +19,7 @@ provenance:
           - Domain-Specific Agents
         anchor_text: text2sql-framework
         extracted_url: https://github.com/text2sqlagent/text2sql-framework
-        surrounding_text: >-
-          | [text2sql-framework](https://github.com/Text2SqlAgent/text2sql-framework) | 158 | Python | MIT | 2026-08 |
-          Text-to-SQL agent that explores schema, not RAG |
+        surrounding_text: "| [text2sql-framework](https://github.com/Text2SqlAgent/text2sql-framework) | 158 | Python | MIT | 2026-08 | Text-to-SQL agent that explores schema, not RAG |"
         confidence: high
 metadata:
   github:
@@ -59,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

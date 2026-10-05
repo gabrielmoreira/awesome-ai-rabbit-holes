@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kav-k__gptdiscord__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - GPT Discord
         anchor_text: GPT Discord
         extracted_url: https://github.com/kav-k/gptdiscord
-        surrounding_text: '## [GPT Discord](https://github.com/Kav-K/GPTDiscord)'
+        surrounding_text: "## [GPT Discord](https://github.com/Kav-K/GPTDiscord)"
         confidence: high
 metadata:
   github:
@@ -29,12 +29,10 @@ metadata:
     archived: false
     full_name: Kav-K/GPTDiscord
     html_url: https://github.com/Kav-K/GPTDiscord
-    created_at: '2022-12-08T08:06:26Z'
-    pushed_at: '2026-02-06T23:33:50Z'
-    description: >-
-      A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation,
-      custom indexes/knowledgebase, youtube summarizer, and more!
-    homepage: ''
+    created_at: "2022-12-08T08:06:26Z"
+    pushed_at: "2026-02-06T23:33:50Z"
+    description: A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!
+    homepage: ""
     topics:
       - artificial-intelligence
       - asyncio
@@ -56,17 +54,13 @@ metadata:
       - openai-api
       - pinecone
       - python
-    last_checked_at: '2026-07-30T05:05:55.113Z'
+    last_checked_at: "2026-07-30T05:05:55.113Z"
     readme:
-      fetched_at: '2026-07-30T05:05:55.113Z'
+      fetched_at: "2026-07-30T05:05:55.113Z"
       bytes: 11592
 insights:
-  summary: >-
-    A Discord bot providing a ChatGPT-style interface with features like image generation, AI moderation, custom
-    knowledge bases, and code interpretation.
-  why_it_matters: >-
-    Developers can integrate advanced AI capabilities like code execution, document Q&A, and multi-modal interactions
-    directly into Discord communities.
+  summary: A Discord bot providing a ChatGPT-style interface with features like image generation, AI moderation, custom knowledge bases, and code interpretation.
+  why_it_matters: Developers can integrate advanced AI capabilities like code execution, document Q&A, and multi-modal interactions directly into Discord communities.
   mental_damage: Now your Discord server can have more arguments about tabs vs. spaces, but with AI-generated code snippets.
   tags:
     - discord-bot
@@ -77,14 +71,10 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The project is a Discord bot for general AI interactions, not a developer-tooling product focused on coding
-    workflows, IDEs, or app-building.
+  reason: The project is a Discord bot for general AI interactions, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
   evidence:
     - Repo description and README emphasize Discord integration with ChatGPT-style features, not developer workflows
-    - >-
-      Core features include image generation, AI moderation, and YouTube summarization, not code editing or repo
-      management
+    - Core features include image generation, AI moderation, and YouTube summarization, not code editing or repo management
     - Source-list context places it in 'GPT Discord' under AI agents, but the catalog scope excludes general AI chatbots
 placement:
   primary_category: null
@@ -95,17 +85,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.624Z'
+    updated_at: "2026-05-06T22:12:15.624Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-30T05:05:55.113Z'
+    updated_at: "2026-07-30T05:05:55.113Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.166Z'
+    updated_at: "2026-10-05T04:19:18.821Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -120,17 +110,11 @@ processing:
       input_hash: sha256:ea922048bb8e281d097d7d246aa7fdbd9ea5c886b2759ecfde86e7b50f0bce9d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a Discord bot for general AI interactions, not a developer-tooling product focused on coding
-        workflows, IDEs, or app-building.
+      decision_reason: The project is a Discord bot for general AI interactions, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
       decision_evidence:
         - Repo description and README emphasize Discord integration with ChatGPT-style features, not developer workflows
-        - >-
-          Core features include image generation, AI moderation, and YouTube summarization, not code editing or repo
-          management
-        - >-
-          Source-list context places it in 'GPT Discord' under AI agents, but the catalog scope excludes general AI
-          chatbots
+        - Core features include image generation, AI moderation, and YouTube summarization, not code editing or repo management
+        - Source-list context places it in 'GPT Discord' under AI agents, but the catalog scope excludes general AI chatbots
       category_candidates: []
       contrastive_reason: null
       review_reason: null

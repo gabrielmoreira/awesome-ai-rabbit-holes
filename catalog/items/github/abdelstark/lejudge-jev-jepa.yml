@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abdelstark__lejudge-jev-jepa__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Applications
         anchor_text: lejudge-jev-jepa
         extracted_url: https://github.com/abdelstark/lejudge-jev-jepa
-        surrounding_text: >-
-          - [lejudge-jev-jepa](https://github.com/AbdelStark/lejudge-jev-jepa) - Natural-language constraints for JEPA
-          world-model planning, judged by a decision model instead of an LLM.
+        surrounding_text: "- [lejudge-jev-jepa](https://github.com/AbdelStark/lejudge-jev-jepa) - Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM."
         confidence: high
 metadata:
   github:
@@ -31,50 +29,75 @@ metadata:
     archived: false
     full_name: AbdelStark/lejudge-jev-jepa
     html_url: https://github.com/AbdelStark/lejudge-jev-jepa
-    created_at: '2026-09-22T07:31:06Z'
-    pushed_at: '2026-09-24T07:19:38Z'
+    created_at: "2026-09-22T07:31:06Z"
+    pushed_at: "2026-09-24T07:19:38Z"
     description: Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM.
-    homepage: ''
+    homepage: ""
     topics:
       - decision-model
       - jepa
       - jev-model
       - machine-learning
       - world-models
-    last_checked_at: '2026-09-29T13:08:23.316Z'
+    last_checked_at: "2026-09-29T13:08:23.316Z"
     readme:
-      fetched_at: '2026-09-29T13:08:23.316Z'
+      fetched_at: "2026-09-29T13:08:23.316Z"
       bytes: 22000
 insights:
-  summary: Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A research prototype for natural-language-constrained JEPA world-model planning judged by a decision model instead of an LLM.
+  why_it_matters: Explores an alternative to LLM-driven planning in world models using typed decision-model judgments for constrained, verifiable AI reasoning.
+  mental_damage: Another niche ML research demo that makes you wonder if we're solving real developer problems or just collecting arXiv badges.
+  tags:
+    - decision-model
+    - jepa
+    - world-models
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: This is a fundamental machine learning research prototype focused on world-model architectures and decision-model judgment, not a developer-facing AI tool for coding, workflows, or agent tooling.
   evidence:
-    - jev-latest choice confidence 0.74
+    - "Repo description: 'Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM.'"
+    - "Topics: decision-model, jepa, jev-model, machine-learning, world-models"
+    - "Source-list context: listed in awesome-jev under 'Applications' as a project built on Jev, indicating research/prototype status"
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.433Z'
+    updated_at: "2026-09-29T13:07:10.433Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:23.316Z'
+    updated_at: "2026-09-29T13:08:23.316Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:11:53.439Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0c1800259731331adf9c628ab3ae4a93e75c0e67d1a001053777f8c827991ea5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a fundamental machine learning research prototype focused on world-model architectures and decision-model judgment, not a developer-facing AI tool for coding, workflows, or agent tooling.
+      decision_evidence:
+        - "Repo description: 'Natural-language constraints for JEPA world-model planning, judged by a decision model instead of an LLM.'"
+        - "Topics: decision-model, jepa, jev-model, machine-learning, world-models"
+        - "Source-list context: listed in awesome-jev under 'Applications' as a project built on Jev, indicating research/prototype status"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

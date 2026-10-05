@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__autogen__studio__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,10 +18,7 @@ provenance:
           - 智能体 Agents
         anchor_text: AutoGen AIStudio
         extracted_url: https://autogen-studio.com
-        surrounding_text: >-
-          1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM
-          applications using multiple agents that can converse with each other to solve tasks. [AutoGen
-          AIStudio](https://autogen-studio.com/)
+        surrounding_text: "1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)"
         confidence: high
 metadata:
   github:
@@ -39,33 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated list of AI tools, agents, and workflows for software developers.
-  why_it_matters: >-
-    This catalog helps developers discover practical AI tools that integrate into their workflows, reducing manual
-    effort and improving productivity.
-  mental_damage: >-
-    Another AI tool list, because the last 17 this week already promised to 'revolutionize' your workflow while quietly
-    eating your time.
+  summary: BMW4D is an Indonesian online gambling site offering slots, togel, casino, and sports betting.
+  why_it_matters: It does not matter to developers as it provides no AI tooling, coding assistance, or software development relevance.
+  mental_damage: Another reminder that the web is still 90% casino ads pretending to be innovation.
   tags:
-    - ai-dev-extensions
-    - curated-lists
-  confidence: medium
+    - gambling
+    - casino
+    - indonesia
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The site is an online gambling platform with no connection to AI developer tooling, coding agents, or any catalog-relevant functionality.
   evidence:
-    - jev-latest choice confidence 0.96
+    - "Title: BMW4D - SITUS GAME ONLINE BERKUALITAS DI INDONESIA"
+    - "Description: BMW4D adalah situs game online yang menyediakan berbagai jenis permainan, seperti slot online, togel online, casino online, dan lainnya."
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,35 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:34:34.009Z'
+    updated_at: "2026-10-05T04:28:44.904Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7bbed23099699125314f44d0287e114ddff5e3e470a08f8b907fa23f37f1ec10
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4a6e342128984bfbb563b9d9729a01421777445665263aff0d7f686a5d0a131d
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is a curated list of AI tools, which fits the 'awesome-awesomes' category for navigation aids, but
-        its core focus on developer tooling and coding agents makes 'coding-agents' the primary category.
+      decision_reason: The site is an online gambling platform with no connection to AI developer tooling, coding agents, or any catalog-relevant functionality.
       decision_evidence:
-        - >-
-          The project is a curated list of AI tools for developers, as indicated by the scraped site context showing a
-          collection of game sites, which is likely a misclassification and the actual purpose is a developer resource
-          directory.
-        - >-
-          The source-list context indicates it is included in a curated list of AI tools, aligning with the
-          'awesome-awesomes' category.
-      category_candidates:
-        - coding-agents
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose coding-agents over awesome-awesomes because it directly serves as a developer-facing tooling resource
-        rather than just a discovery aid.
+        - "Title: BMW4D - SITUS GAME ONLINE BERKUALITAS DI INDONESIA"
+        - "Description: BMW4D adalah situs game online yang menyediakan berbagai jenis permainan, seperti slot online, togel online, casino online, dan lainnya."
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

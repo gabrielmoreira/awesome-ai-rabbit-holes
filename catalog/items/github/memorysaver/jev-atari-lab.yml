@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__memorysaver__jev-atari-lab__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: jev-atari-lab
         extracted_url: https://github.com/memorysaver/jev-atari-lab
-        surrounding_text: >-
-          | [jev-atari-lab](https://github.com/memorysaver/jev-atari-lab) | ★ 0 | Python | 2026-09-20 | Replayable Atari
-          experiments using Jev structured decisions and value questions. |
+        surrounding_text: "| [jev-atari-lab](https://github.com/memorysaver/jev-atari-lab) | ★ 0 | Python | 2026-09-20 | Replayable Atari experiments using Jev structured decisions and value questions. |"
         confidence: high
 metadata:
   github:
@@ -60,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

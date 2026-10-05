@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rommapp__romm__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🎮 <a name="gaming"></a>Gaming
         anchor_text: RomM
         extracted_url: https://github.com/rommapp/romm
-        surrounding_text: >-
-          - [lodordev/mcp-romm](https://github.com/lodordev/mcp-romm) [![lodordev/mcp-romm MCP
-          server](https://glama.ai/mcp/servers/lodordev/mcp-romm/badges/score.svg)](https://glama.ai/mcp/servers/lodordev/mcp-romm)
-          🐍 🏠 - MCP server for [RomM](https://github.com/rommapp/romm) retro game library manager. 19 read-only tools
-          for browsing platforms, searching ROMs, viewing metadata, managing collections, tracking saves, firmware,
-          devices, and task monitoring. OAuth2 auth with automatic token refresh.
+        surrounding_text: "- [lodordev/mcp-romm](https://github.com/lodordev/mcp-romm) [![lodordev/mcp-romm MCP server](https://glama.ai/mcp/servers/lodordev/mcp-romm/badges/score.svg)](https://glama.ai/mcp/servers/lodordev/mcp-romm) 🐍 🏠 - MCP server for [RomM](https://github.com/rommapp/romm) retro game library manager. 19 read-only tools for browsing platforms, searching ROMs, viewing metadata, managing collections, tracking saves, firmware, devices, and task monitoring. OAuth2 auth with automatic token refresh."
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: false
     full_name: rommapp/romm
     html_url: https://github.com/rommapp/romm
-    created_at: '2023-03-08T16:11:01Z'
-    pushed_at: '2026-07-20T15:24:40Z'
+    created_at: "2023-03-08T16:11:01Z"
+    pushed_at: "2026-07-20T15:24:40Z"
     description: A beautiful, powerful, self-hosted rom manager and player.
     homepage: https://romm.app
     topics:
@@ -45,20 +40,14 @@ metadata:
       - retrogaming
       - rommapp
       - self-hosted
-    last_checked_at: '2026-07-20T16:42:47.277Z'
+    last_checked_at: "2026-07-20T16:42:47.277Z"
     readme:
-      fetched_at: '2026-07-20T16:42:47.277Z'
+      fetched_at: "2026-07-20T16:42:47.277Z"
       bytes: 8585
 insights:
-  summary: >-
-    A self-hosted ROM manager and player for organizing, enriching, and browsing video game collections with metadata,
-    artwork, and browser-based emulation.
-  why_it_matters: >-
-    It provides a clean, self-hosted platform for managing large retro game libraries with rich metadata and
-    multi-platform support.
-  mental_damage: >-
-    Yet another reminder that our most sophisticated self-hosted infrastructure projects are almost always built to
-    better organize Pokémon ROMs.
+  summary: A self-hosted ROM manager and player for organizing, enriching, and browsing video game collections with metadata, artwork, and browser-based emulation.
+  why_it_matters: It provides a clean, self-hosted platform for managing large retro game libraries with rich metadata and multi-platform support.
+  mental_damage: Yet another reminder that our most sophisticated self-hosted infrastructure projects are almost always built to better organize Pokémon ROMs.
   tags:
     - self-hosted
     - emulation
@@ -67,9 +56,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a retro gaming ROM manager with no AI developer tooling, coding agent, or model infrastructure angle,
-    despite a peripheral mention in an awesome-mcp-servers list.
+  reason: This is a retro gaming ROM manager with no AI developer tooling, coding agent, or model infrastructure angle, despite a peripheral mention in an awesome-mcp-servers list.
   evidence:
     - Repo description and README describe a ROM manager and emulator frontend, not an AI tool.
     - Source-list context shows it only appears in awesome-mcp-servers under Gaming, not as core MCP infrastructure.
@@ -83,21 +70,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.645Z'
+    updated_at: "2026-05-06T22:12:15.645Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:47.277Z'
+    updated_at: "2026-07-20T16:42:47.277Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shantanugoel__ask-jev-skill__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: ask-jev-skill
         extracted_url: https://github.com/shantanugoel/ask-jev-skill
-        surrounding_text: >-
-          - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill)
-          ([post](https://x.com/KevinMagnan/status/2100587059928764726)) - Skill for Hermes, and other agents, to ask
-          typesafe's jev.
+        surrounding_text: "- [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) ([post](https://x.com/KevinMagnan/status/2100587059928764726)) - Skill for Hermes, and other agents, to ask typesafe's jev."
         confidence: high
     - id: discovery__github__shantanugoel__ask-jev-skill__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: ask-jev-skill
         extracted_url: https://github.com/shantanugoel/ask-jev-skill
-        surrounding_text: >-
-          - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill that asks TypeSafe Jev for
-          typed Choice/Score/Noul tiebreaks when paths remain plausible. [Project
-          guide](community/projects/tools/ask-jev-skill.md).
+        surrounding_text: "- [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill that asks TypeSafe Jev for typed Choice/Score/Noul tiebreaks when paths remain plausible. [Project guide](community/projects/tools/ask-jev-skill.md)."
         confidence: high
     - id: discovery__github__shantanugoel__ask-jev-skill__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -57,12 +51,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: ask-jev-skill
         extracted_url: https://github.com/shantanugoel/ask-jev-skill
-        surrounding_text: >-
-          | [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) | ★ 34 | Python | 2026-09-19 | Skill for
-          Hermes, and other agents, to ask typesafe's jev. |
+        surrounding_text: "| [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) | ★ 34 | Python | 2026-09-19 | Skill for Hermes, and other agents, to ask typesafe's jev. |"
         confidence: high
     - id: discovery__github__shantanugoel__ask-jev-skill__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -72,11 +64,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**ask-jev-skill**'
+        anchor_text: "**ask-jev-skill**"
         extracted_url: https://github.com/shantanugoel/ask-jev-skill
-        surrounding_text: >-
-          - [**ask-jev-skill**](https://github.com/shantanugoel/ask-jev-skill) — A skill for Hermes and other agents to
-          query TypeSafe Jev for bounded option judgments and confidence escalations.
+        surrounding_text: "- [**ask-jev-skill**](https://github.com/shantanugoel/ask-jev-skill) — A skill for Hermes and other agents to query TypeSafe Jev for bounded option judgments and confidence escalations."
         confidence: high
 metadata:
   github:
@@ -104,9 +94,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.56
-    - >-
-      jev winnow:e4b 0.18 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.18 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -118,7 +106,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.387Z'
+    updated_at: "2026-09-29T13:07:10.387Z"
     cause: null
     next_retry_at: null
   stars:
@@ -126,6 +114,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hub__cocoloop__cn__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-09T05:28:44.887Z'
+      discovered_at: "2026-07-09T05:28:44.887Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,30 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A marketplace and registry for discovering and downloading reusable skills and capabilities for AI agents.
-  why_it_matters: >-
-    It provides a centralized hub to find and extend agent functionality with specialized tools like image generation,
-    web search, and automation across multiple platforms.
-  mental_damage: >-
-    It turns your AI agent into a character in an RPG, where utility is measured by how many skill packs you've
-    successfully micro-managed into its prompt.
+  summary: A Chinese marketplace offering downloadable AI Agent Skills (MCP-based tools) for platforms like Claude Code, Work Buddy, and Codex.
+  why_it_matters: Provides a centralized, safety-vetted hub for developers to discover and install agent extensions that enhance AI coding assistants with image/video generation, automation, and research capabilities.
+  mental_damage: Yet another skill store promising to unlock your agent’s potential—if only you could remember which one you installed last Tuesday.
   tags:
     - agent-skills
-    - marketplace
-    - registry
     - mcp
-    - automation
-  confidence: high
+    - china
+  confidence: medium
 curation:
   status: included
-  reason: The site is a specialized marketplace and registry for the distribution of reusable agent skills and capabilities.
+  reason: The site is primarily a directory and marketplace for reusable AI Agent Skills (MCP-based add-ons) that install into coding agents like Claude Code or Work Buddy to extend their behavior, matching the core definition of a skill registry.
   evidence:
-    - Explicitly describes itself as an 'AI Agent Skills Store'
-    - Claims over 174,000 available skills across 50+ platforms
-    - Includes MCP-compatible skill content
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed awesome-awesomes / Ecosystem Maps & Landscapes; placement kept at
-      skills (unverified)
+    - Scraped site describes itself as '更快更安全的 AI Agent Skills 商店' (Faster, Safer AI Agent Skills Store)
+    - Lists 174,439 available Skills with categories like AI image/video generation, Notion automation, and web browsing
+    - Appears in awesome-LLM-resources under the '技能 Skills' section as a '更快更安全的 AI Agent Skills 商店'
 placement:
   primary_category: skills
   secondary_categories:
@@ -71,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-09T05:28:44.888Z'
+    updated_at: "2026-07-09T05:28:44.888Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,31 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:23:19.802Z'
+    updated_at: "2026-10-05T04:26:57.452Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c6ebee44a3d6a37bd913bd2b430728c0b191288c336564c96a5476c5d2b58eed
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:270d64713e1285af058f1e7a308b8c7984b929903c075d6ee9113cec5269d5f6
       proposed_primary_category: skills
       disagreement: false
-      decision_reason: >-
-        The site is a specialized marketplace and registry for the distribution of reusable agent skills and
-        capabilities.
+      decision_reason: The site is primarily a directory and marketplace for reusable AI Agent Skills (MCP-based add-ons) that install into coding agents like Claude Code or Work Buddy to extend their behavior, matching the core definition of a skill registry.
       decision_evidence:
-        - Explicitly describes itself as an 'AI Agent Skills Store'
-        - Claims over 174,000 available skills across 50+ platforms
-        - Includes MCP-compatible skill content
+        - Scraped site describes itself as '更快更安全的 AI Agent Skills 商店' (Faster, Safer AI Agent Skills Store)
+        - Lists 174,439 available Skills with categories like AI image/video generation, Notion automation, and web browsing
+        - Appears in awesome-LLM-resources under the '技能 Skills' section as a '更快更安全的 AI Agent Skills 商店'
       category_candidates:
         - skills
         - mcp
-      contrastive_reason: >-
-        Choose skills over mcp because the platform's primary identity is a broad marketplace for agent capabilities
-        rather than being an MCP-specific infrastructure tool or registry.
+      contrastive_reason: Choose skills over mcp because the product’s identity is a directory/marketplace for installable skill packs, not MCP infrastructure itself—MCP is used as a transport mechanism by the skills, not the core product.
       review_reason: null
       review_resume_lifecycle: null

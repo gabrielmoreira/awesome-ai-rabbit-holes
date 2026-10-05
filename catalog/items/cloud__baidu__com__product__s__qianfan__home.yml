@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cloud__baidu__com__product__s__qianfan__home__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,37 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Baidu's Qianfan platform is a cloud-based enterprise service for developing and deploying AI applications with a
-    core focus on agent-based workflows.
-  why_it_matters: >-
-    It provides developers with a full-stack platform to build, test, and deploy multi-agent AI applications using
-    Baidu's models, reducing the need to stitch together multiple services.
-  mental_damage: >-
-    Another 'one-stop shop' promising to solve all your agent coordination headaches while locking you into Baidu's
-    cloud ecosystem.
+  summary: 百度智能云千帆大模型平台是一个企业级一站式平台，提供模型开发、应用开发全流程工具链，以Agent为核心支持多智能体协同、工作流编排和知识库RAG等能力。
+  why_it_matters: 为开发者提供托管的大模型服务和Agent开发工具，降低企业级AI应用的构建和部署门槛。
+  mental_damage: 又一个声称以Agent为核心的平台，实际更像是模型市场与低代码拼装的组合拳，让人怀疑谁才是在卖焦虑。
   tags:
-    - ai-dev-extensions
+    - baidu
+    - qianfan
+    - llm-platform
+    - agent-orchestration
     - mcp
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Hosted Agent Platforms
+  reason: 平台的核心价值在于编排多智能体工作流、管理Agent生命周期和提供企业级控制平台，而非作为单一编码Agent或SDK供开发者直接编程使用。
   evidence:
-    - jev-latest choice confidence 0.77
+    - 以Agent为核心的一站式企业级大模型服务平台，支持多智能体协同Agent、自主规划Agent、工作流Agent
+    - 提供全链路可观测、高并发DAG执行引擎、官方预置高质量子Agent（如网页探索、代码编写、报告撰写）
+    - 强调企业级服务、私有化部署、权限管控、审计合规等平台能力，而非开发者直接编程接口
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
-  section: Hosted Agent Platforms
+  section: Domain & Enterprise Platforms
 lifecycle:
-  status: needs_review
-  reason: >-
-    Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained
-    'agent-orchestration', proposed 'app-builders'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,37 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:35:30.762Z'
+    updated_at: "2026-10-05T04:29:41.575Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0693993accd5b2a61b77fd1b5025e89113d92ea4c527a6358f39e6a1dcf1feeb
-      proposed_primary_category: app-builders
-      disagreement: true
-      decision_reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7ead5c261bf4e248226ef5c16d5ca26116fe6b12d316eedf9b5903d818c114d1
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: 平台的核心价值在于编排多智能体工作流、管理Agent生命周期和提供企业级控制平台，而非作为单一编码Agent或SDK供开发者直接编程使用。
       decision_evidence:
-        - >-
-          The scraped site context explicitly states '以Agent为核心的一站式企业级大模型服务平台' (Agent-centric one-stop enterprise-level
-          large model service platform) and lists multiple agent types including '代码编写' (code writing) agents.
-        - >-
-          Source-list context places it in 'awesome-LLM-resources' under '智能体 Agents' (Intelligent Agents) section,
-          confirming its classification as an agent platform.
-        - >-
-          Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct
-          code collaboration.
+        - 以Agent为核心的一站式企业级大模型服务平台，支持多智能体协同Agent、自主规划Agent、工作流Agent
+        - 提供全链路可观测、高并发DAG执行引擎、官方预置高质量子Agent（如网页探索、代码编写、报告撰写）
+        - 强调企业级服务、私有化部署、权限管控、审计合规等平台能力，而非开发者直接编程接口
       category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because the platform's core identity is an autonomous agent
-        environment for coding tasks rather than merely extending another coding agent's capabilities.
-      review_reason: >-
-        Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement:
-        retained 'agent-orchestration', proposed 'app-builders'
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated enterprise control plane for managing agent teams, not a code-first library developers import and program against.
+      review_reason: null
       review_resume_lifecycle: null

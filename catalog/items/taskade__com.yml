@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__taskade__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Taskade
         anchor_text: Taskade
         extracted_url: https://taskade.com
-        surrounding_text: '## [Taskade](https://www.taskade.com/)'
+        surrounding_text: "## [Taskade](https://www.taskade.com/)"
         confidence: high
     - id: discovery__taskade__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-07-20T15:10:47.684Z'
+      discovered_at: "2026-07-20T15:10:47.684Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -33,12 +33,10 @@ provenance:
           - Official Servers
         anchor_text: Taskade platform
         extracted_url: https://taskade.com
-        surrounding_text: >-
-          - **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/)
-          via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API.
+        surrounding_text: "- **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/) via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API."
         confidence: high
     - id: discovery__www__taskade__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -50,10 +48,10 @@ provenance:
           - Taskade
         anchor_text: Taskade
         extracted_url: https://www.taskade.com
-        surrounding_text: '## [Taskade](https://www.taskade.com/)'
+        surrounding_text: "## [Taskade](https://www.taskade.com/)"
         confidence: high
     - id: discovery__www__taskade__com__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -65,9 +63,7 @@ provenance:
           - Official Servers
         anchor_text: Taskade platform
         extracted_url: https://www.taskade.com
-        surrounding_text: >-
-          - **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/)
-          via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API.
+        surrounding_text: "- **[Taskade](https://github.com/taskade/mcp)** – Connect to the [Taskade platform](https://www.taskade.com/) via MCP. Access tasks, projects, workflows, and AI agents in real-time through a unified workspace and API."
         confidence: high
 metadata:
   github:
@@ -85,28 +81,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Taskade is a collaborative workspace platform offering AI-powered agents for task management and workflow
-    automation.
-  why_it_matters: >-
-    It integrates AI agents into project planning and execution, helping developers streamline task delegation and team
-    coordination.
-  mental_damage: >-
-    Yet another workspace trying to be your AI coworker while you're just trying to remember what ticket you were
-    working on.
+  summary: Taskade is a productivity platform offering AI-powered project management and collaboration tools, including an AI agent feature.
+  why_it_matters: It claims to help developers manage tasks and workflows with AI assistance, blending project planning with generative features.
+  mental_damage: Another all-in-one workspace trying to be your AI coworker while you still have to manually move tickets between columns.
   tags:
     - ai-agents
-    - workflow
-    - collaboration
-  confidence: medium
+    - productivity
+    - task-management
+  confidence: high
 curation:
   status: excluded
-  reason: >-
-    Taskade is primarily a general-purpose project management and team collaboration platform with AI agent features as
-    an add-on, not a developer-focused coding agent, app builder, or infrastructure tool.
+  reason: Taskade is primarily a general productivity and project management tool with AI features bolted on, not a developer-focused AI tool whose core identity is coding, agent orchestration, or infrastructure.
   evidence:
-    - Listed in awesome-ai-agents under 'Taskade' as an AI autonomous agent
-    - Listed in awesome-mcp-servers under 'Official Servers' suggesting MCP server exposure
+    - Listed in awesome-ai-agents under 'Taskade' as an AI autonomous agent, suggesting secondary inclusion rather than developer-tooling focus
+    - Also listed in awesome-mcp-servers under 'Official Servers', indicating MCP compatibility but not MCP-as-identity
+    - No GitHub repo, stars, or activity data provided; relies on a commercial site (taskade.com) positioning it as a broad productivity suite
 placement:
   primary_category: null
   section: null
@@ -116,32 +105,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:46:38.436Z'
+    updated_at: "2026-10-05T04:55:29.702Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:be6a9ef34136eda1fb6926265a500aa07fca6c061b443ac9ae81f53a453b5a62
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3d5ad3941bdfc210ce8064fa22b7c5a0692da37917ca8759c2a0381b68fdc201
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Taskade is primarily a general-purpose project management and team collaboration platform with AI agent features
-        as an add-on, not a developer-focused coding agent, app builder, or infrastructure tool.
+      decision_reason: Taskade is primarily a general productivity and project management tool with AI features bolted on, not a developer-focused AI tool whose core identity is coding, agent orchestration, or infrastructure.
       decision_evidence:
-        - Listed in awesome-ai-agents under 'Taskade' as an AI autonomous agent
-        - Listed in awesome-mcp-servers under 'Official Servers' suggesting MCP server exposure
+        - Listed in awesome-ai-agents under 'Taskade' as an AI autonomous agent, suggesting secondary inclusion rather than developer-tooling focus
+        - Also listed in awesome-mcp-servers under 'Official Servers', indicating MCP compatibility but not MCP-as-identity
+        - No GitHub repo, stars, or activity data provided; relies on a commercial site (taskade.com) positioning it as a broad productivity suite
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T15:10:47.687Z'
+    updated_at: "2026-07-20T15:10:47.687Z"
     cause: null
     next_retry_at: null
   stars:

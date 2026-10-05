@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mateonunez__jod__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jod
         extracted_url: https://github.com/mateonunez/jod
-        surrounding_text: >-
-          - [jod](https://github.com/mateonunez/jod) ([site](https://npmjs.com/package/@mateonunez/jod),
-          [post](https://x.com/mmateonunez/status/2100612699394597125)) - Semantic schemas over TypeSafe's Jev —
-          validate the state locally, then project typed answers.
+        surrounding_text: "- [jod](https://github.com/mateonunez/jod) ([site](https://npmjs.com/package/@mateonunez/jod), [post](https://x.com/mmateonunez/status/2100612699394597125)) - Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers."
         confidence: high
     - id: discovery__github__mateonunez__jod__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,9 +35,7 @@ provenance:
           - SDKs & clients (57)
         anchor_text: jod
         extracted_url: https://github.com/mateonunez/jod
-        surrounding_text: >-
-          | [jod](https://github.com/mateonunez/jod) | ★ 3 | TypeScript | 2026-09-19 | Semantic schemas over TypeSafe's
-          Jev — validate the state locally, then project typed answers. |
+        surrounding_text: "| [jod](https://github.com/mateonunez/jod) | ★ 3 | TypeScript | 2026-09-19 | Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers. |"
         confidence: high
 metadata:
   github:
@@ -78,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.419Z'
+    updated_at: "2026-09-29T13:07:10.419Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

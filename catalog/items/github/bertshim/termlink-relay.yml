@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bertshim__termlink-relay__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-14T04:13:20.171Z'
+      discovered_at: "2026-09-14T04:13:20.171Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,14 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: Relay protocol is open source
         extracted_url: https://github.com/bertshim/termlink-relay
-        surrounding_text: >-
-          - **[TermLink](https://www.getterm.link)** — Remote access to agent sessions from any browser or phone:
-          register each machine once with `termlink host` and they all appear in one list, each card showing that
-          agent's latest message so you can tell which one is working and which is blocked. The host dials out, so there
-          is no inbound port, SSH key, or VPN. Auto-Yes answers the permission prompts of Claude Code, Codex CLI, and
-          Cursor Agent per session, and pasting a screenshot onto the terminal uploads it to the host and types its path
-          in. macOS, Linux, and Windows hosts. [Relay protocol is open
-          source](https://github.com/bertshim/termlink-relay) (Apache-2.0); hosted service with a free plan.
+        surrounding_text: "- **[TermLink](https://www.getterm.link)** — Remote access to agent sessions from any browser or phone: register each machine once with `termlink host` and they all appear in one list, each card showing that agent's latest message so you can tell which one is working and which is blocked. The host dials out, so there is no inbound port, SSH key, or VPN. Auto-Yes answers the permission prompts of Claude Code, Codex CLI, and Cursor Agent per session, and pasting a screenshot onto the terminal uploads it to the host and types its path in. macOS, Linux, and Windows hosts. [Relay protocol is open source](https://github.com/bertshim/termlink-relay) (Apache-2.0); hosted service with a free plan."
         confidence: high
 metadata:
   github:
@@ -37,11 +30,9 @@ metadata:
     archived: false
     full_name: bertshim/termlink-relay
     html_url: https://github.com/bertshim/termlink-relay
-    created_at: '2026-06-29T08:31:49Z'
-    pushed_at: '2026-08-25T23:19:46Z'
-    description: >-
-      Remote access and session management for Claude Code - from any browser or phone, without SSH, VPN, or open ports.
-      Open-source subset of TermLink (getterm.link).
+    created_at: "2026-06-29T08:31:49Z"
+    pushed_at: "2026-08-25T23:19:46Z"
+    description: Remote access and session management for Claude Code - from any browser or phone, without SSH, VPN, or open ports. Open-source subset of TermLink (getterm.link).
     homepage: https://www.getterm.link
     topics:
       - ai-coding-agent
@@ -57,17 +48,13 @@ metadata:
       - ssh-alternative
       - terminal
       - websocket
-    last_checked_at: '2026-09-24T04:12:57.973Z'
+    last_checked_at: "2026-09-24T04:12:57.973Z"
     readme:
-      fetched_at: '2026-09-24T04:12:57.973Z'
+      fetched_at: "2026-09-24T04:12:57.973Z"
       bytes: 10518
 insights:
-  summary: >-
-    An open-source relay enabling remote terminal access to coding agents like Claude Code via a self-hosted WebSocket
-    proxy.
-  why_it_matters: >-
-    Lets developers securely run local terminal-based AI agents from any browser or phone without opening inbound ports
-    or using SSH.
+  summary: An open-source relay enabling remote terminal access to coding agents like Claude Code via a self-hosted WebSocket proxy.
+  why_it_matters: Lets developers securely run local terminal-based AI agents from any browser or phone without opening inbound ports or using SSH.
   mental_damage: Finally, a way to feel productive while pretending your laptop is a cloud server you can SSH into from the toilet.
   tags:
     - remote-access
@@ -78,13 +65,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    termlink-relay is infrastructure for remote terminal access, not a coding agent itself; it enables agents but does
-    not perform coding tasks.
+  reason: termlink-relay is infrastructure for remote terminal access, not a coding agent itself; it enables agents but does not perform coding tasks.
   evidence:
-    - 'Repo description: ''Remote access and session management for Claude Code'''
-    - 'README: ''connection protocol and a single termrelay binary that speaks it'''
-    - 'Source-list context: listed under ''Session managers & parallel runners'' in awesome-cli-coding-agents'
+    - "Repo description: 'Remote access and session management for Claude Code'"
+    - "README: 'connection protocol and a single termrelay binary that speaks it'"
+    - "Source-list context: listed under 'Session managers & parallel runners' in awesome-cli-coding-agents"
 placement:
   primary_category: null
   secondary_categories: []
@@ -95,18 +80,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-14T04:13:20.172Z'
+    updated_at: "2026-09-14T04:13:20.172Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:57.973Z'
+    updated_at: "2026-09-24T04:12:57.973Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:55:33.006Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
@@ -114,13 +101,11 @@ processing:
       input_hash: sha256:6a494e4979ff46f95bfe893e901d6d5a41d1ee9c473ef29c9bdaf71253eaf5c7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        termlink-relay is infrastructure for remote terminal access, not a coding agent itself; it enables agents but
-        does not perform coding tasks.
+      decision_reason: termlink-relay is infrastructure for remote terminal access, not a coding agent itself; it enables agents but does not perform coding tasks.
       decision_evidence:
-        - 'Repo description: ''Remote access and session management for Claude Code'''
-        - 'README: ''connection protocol and a single termrelay binary that speaks it'''
-        - 'Source-list context: listed under ''Session managers & parallel runners'' in awesome-cli-coding-agents'
+        - "Repo description: 'Remote access and session management for Claude Code'"
+        - "README: 'connection protocol and a single termrelay binary that speaks it'"
+        - "Source-list context: listed under 'Session managers & parallel runners' in awesome-cli-coding-agents"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

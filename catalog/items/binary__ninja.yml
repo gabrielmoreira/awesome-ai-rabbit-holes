@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__binary__ninja__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Community Servers
         anchor_text: Binary Ninja
         extracted_url: https://binary.ninja
-        surrounding_text: >-
-          - **[Binary Ninja](https://github.com/fosdickio/binary_ninja_mcp)** - A Binary Ninja plugin, MCP server, and
-          bridge that seamlessly integrates [Binary Ninja](https://binary.ninja) with your favorite MCP client.
+        surrounding_text: "- **[Binary Ninja](https://github.com/fosdickio/binary_ninja_mcp)** - A Binary Ninja plugin, MCP server, and bridge that seamlessly integrates [Binary Ninja](https://binary.ninja) with your favorite MCP client."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform.
-  why_it_matters: >-
-    It provides scriptable reverse engineering capabilities and AI-assisted analysis to accelerate deep binary
-    inspection and automation.
-  mental_damage: >-
-    Nothing says 'I've lost control of my codebase' quite like having to reverse engineer it with an AI-powered
-    decompiler.
+  summary: Binary Ninja is a scriptable reverse engineering platform with decompiler, disassembler, debugger, and collaborative analysis features for multiple architectures.
+  why_it_matters: Provides developers with AI-assisted analysis and automation via C++, Python, or Rust APIs to accelerate binary understanding and vulnerability research workflows.
+  mental_damage: Finally, a tool that makes staring at assembly feel less like ancient hieroglyphics and more like pair programming with a very focused robot.
   tags:
     - reverse-engineering
     - binary-analysis
-    - debugging
+    - disassembler
+    - debugger
+    - api
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Binary Ninja is a specialized professional reverse engineering tool rather than a developer-facing AI coding
-    assistant, IDE, or workflow agent.
+  reason: Binary Ninja is a reverse engineering platform, not an AI developer tool; its AI-assisted analysis is a minor feature, and it lacks primary identity as a coding agent, framework, or developer-facing AI workflow product.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context: 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
-    - "Source-list context: Listed in awesome-mcp-servers as a 'Community Server' with description 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
+    - "Repo description: none; scraped site describes it as 'a modern reverse engineering platform with a scriptable and extensible decompiler'"
+    - "Source-list context: appears in awesome-mcp-servers as a 'Community Server' with MCP as an add-on feature, not core identity"
+    - README excerpt highlights AI-assisted analysis as one of many features under 'Accelerate', alongside debugging, collaboration, and automation
 placement:
   primary_category: null
   section: null
@@ -68,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,31 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:34:58.608Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for binary__ninja: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:08.428Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:84a8ce4a7fbaa2eb73098c24cf4ee92ba043efe705fe00e0c1490a5c46b44fd4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5e8d7b3fda1c8ef815fbcb1c7c7a627e2cd831d65c3eaa95678a6a3f8d04576a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Binary Ninja is a specialized professional reverse engineering tool rather than a developer-facing AI coding
-        assistant, IDE, or workflow agent.
+      decision_reason: Binary Ninja is a reverse engineering platform, not an AI developer tool; its AI-assisted analysis is a minor feature, and it lacks primary identity as a coding agent, framework, or developer-facing AI workflow product.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context: 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
-        - "Source-list context: Listed in awesome-mcp-servers as a 'Community Server' with description 'Binary Ninja is a modern reverse engineering platform with a scriptable and extensible decompiler.'"
+        - "Repo description: none; scraped site describes it as 'a modern reverse engineering platform with a scriptable and extensible decompiler'"
+        - "Source-list context: appears in awesome-mcp-servers as a 'Community Server' with MCP as an add-on feature, not core identity"
+        - README excerpt highlights AI-assisted analysis as one of many features under 'Accelerate', alongside debugging, collaboration, and automation
       category_candidates: []
       contrastive_reason: null
       review_reason: null

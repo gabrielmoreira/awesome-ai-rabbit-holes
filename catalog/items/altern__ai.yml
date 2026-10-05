@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__altern__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Related Lists
         anchor_text: Altern
         extracted_url: https://altern.ai
-        surrounding_text: '- **[Altern](https://altern.ai)** – AI tool discovery platform.'
+        surrounding_text: "- **[Altern](https://altern.ai)** – AI tool discovery platform."
         confidence: high
 metadata:
   github:
@@ -36,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of AI tools, agents, and SDKs.
-  why_it_matters: >-
-    It acts as a discovery layer for developers trying to navigate the rapidly shifting landscape of AI-powered
-    development utilities.
-  mental_damage: >-
-    Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually
-    writing code.
+  summary: Altern is a general AI tools directory and discovery platform with categories, curated lists, and search for AI products across many domains.
+  why_it_matters: It helps developers discover AI tools by aggregating them in one searchable directory with categorization and user submissions.
+  mental_damage: Another AI tool directory promising to be the 'one place for all things AI' while adding to the infinite scroll of tool discovery fatigue.
   tags:
     - ai-directory
-    - tool-discovery
-  confidence: medium
+    - discovery
+    - curated-list
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: Altern is a general AI directory with broad categories like finance, healthcare, and gaming, lacking a developer-tooling focus or identity as a coding assistant, framework, or dev infrastructure product.
   evidence:
-    - jev-latest choice confidence 0.96
+    - Scraped site shows categories spanning 100+ non-dev domains including Finance, Fashion, Healthcare, Legal, and Gaming
+    - Source-list placement is in 'awesome-ai-coding-tools' under 'Related Lists' as a navigation link, not as a coding tool itself
+    - No evidence of agent behavior, code editing, framework/SDK identity, or developer workflow integration in README or description
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,36 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:33:57.103Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for altern__ai: Invalid AI response structure: Invalid confidence value:
-        undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:28:14.237Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:440b0b7fc455d066b4d597d72cd43328dfb3b14e2d0679a3d9ee7591b86c08ee
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d8fbe95aaf9cab5eb8bb7e9a4b72dd8e61df3c3841b05ace07329e24c6c8f773
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The product is a directory and map for discovering the AI ecosystem, which aligns with the core mission of the
-        awesome-awesomes category.
+      decision_reason: Altern is a general AI directory with broad categories like finance, healthcare, and gaming, lacking a developer-tooling focus or identity as a coding assistant, framework, or dev infrastructure product.
       decision_evidence:
-        - Scraped site context shows Altern indexes 2173 AIs and offers browsing by categories like Code Assistant, DevTools, and AI Directories
-        - Source-list context indicates it is listed in awesome-ai-coding-tools under 'Related Lists' as a discovery resource
-        - Primary page excerpt emphasizes 'Discover AI tools, curated lists, and categories — all in one place' and features sections for Curated lists, Leaderboard, and Buildboard
-      category_candidates:
-        - awesome-awesomes
-        - coding-agents
-      contrastive_reason: >-
-        Choose awesome-awesomes over coding-agents because the product is a discovery index rather than a standalone
-        coding assistant.
+        - Scraped site shows categories spanning 100+ non-dev domains including Finance, Fashion, Healthcare, Legal, and Gaming
+        - Source-list placement is in 'awesome-ai-coding-tools' under 'Related Lists' as a navigation link, not as a coding tool itself
+        - No evidence of agent behavior, code editing, framework/SDK identity, or developer workflow integration in README or description
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

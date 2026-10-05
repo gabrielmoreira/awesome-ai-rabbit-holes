@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__features__copilot__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,12 +19,10 @@ provenance:
           - Code Editors and Assistants
         anchor_text: GitHub Copilot
         extracted_url: https://github.com/features/copilot
-        surrounding_text: >-
-          - **[GitHub Copilot](https://github.com/features/copilot)** – AI pair programmer integrated across VS Code,
-          JetBrains, and GitHub with chat, code completion, and workspace agents.
+        surrounding_text: "- **[GitHub Copilot](https://github.com/features/copilot)** – AI pair programmer integrated across VS Code, JetBrains, and GitHub with chat, code completion, and workspace agents."
         confidence: high
     - id: discovery__github__com__features__copilot__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -36,9 +34,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: GitHub Copilot
         extracted_url: https://github.com/features/copilot
-        surrounding_text: >-
-          - **[GitHub Copilot](https://github.com/features/copilot)** – AI pair programmer integrated across VS Code,
-          JetBrains, and GitHub with chat, code completion, and workspace agents.
+        surrounding_text: "- **[GitHub Copilot](https://github.com/features/copilot)** – AI pair programmer integrated across VS Code, JetBrains, and GitHub with chat, code completion, and workspace agents."
         confidence: high
 metadata:
   github:
@@ -64,39 +60,32 @@ insights:
 curation:
   status: pending
   reason: null
-  evidence:
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; no placement kept
-      (unverified)
+  evidence: []
 placement:
   primary_category: null
   section: null
-  secondary_categories:
-    - awesome-awesomes
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.169Z'
+    updated_at: "2026-10-05T04:19:18.826Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.966Z'
+    updated_at: "2026-07-21T15:20:21.966Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: failed
-    updated_at: '2026-09-03T05:16:40.993Z'
+    updated_at: "2026-09-03T05:16:40.993Z"
     cause:
       type: invalid_github_repo
-      message: 'Invalid GitHub repository identity: features/copilot'
+      message: "Invalid GitHub repository identity: features/copilot"
     next_retry_at: null

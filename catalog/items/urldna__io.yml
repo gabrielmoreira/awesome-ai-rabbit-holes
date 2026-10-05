@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__urldna__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: urlDNA
         extracted_url: https://urldna.io
-        surrounding_text: >-
-          - **[urlDNA](https://github.com/urldna/mcp)** - Dynamically scan and analyze potentially malicious URLs using
-          the [urlDNA](https://urlDNA.io)
+        surrounding_text: "- **[urlDNA](https://github.com/urldna/mcp)** - Dynamically scan and analyze potentially malicious URLs using the [urlDNA](https://urlDNA.io)"
         confidence: high
 metadata:
   github:
@@ -38,36 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    urldna.io is a web-based tool that analyzes URLs for data insights, brand monitoring, and security risk exposure,
-    positioning itself as a 'DNA test for websites'.
-  why_it_matters: >-
-    It matters to developers who need automated, external visibility into web assets for security audits, brand
-    protection, or competitive intelligence without building custom scraping or analysis pipelines.
-  mental_damage: >-
-    Another tool promising to 'unleash insights' from URLs while adding yet another SaaS tab to the developer’s already
-    overflowing dashboard of monitoring services.
+  summary: urldna.io is a web tool that analyzes URLs for data insights, brand monitoring, and security risks.
+  why_it_matters: It gives developers a quick way to audit or monitor external websites for security, brand integrity, or competitive intelligence during development or ops workflows.
+  mental_damage: Another 'AI-powered' site scanner that promises DNA-level insights but mostly just tells you if a site has SSL and what tech stack it’s using.
   tags:
     - security
-    - web-analysis
     - monitoring
+    - web-tools
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    urldna.io is a general-purpose URL analysis and brand monitoring service with no clear developer-tooling identity,
-    workflow integration, or AI agent/component role — it functions as an external SaaS insight platform rather than a
-    tool for coding, agent orchestration, context engineering, or app building.
+  reason: urldna.io is a passive website analysis tool focused on security and brand monitoring, with no developer-facing AI agent, extension, framework, or workflow automation identity relevant to coding or AI tooling for developers.
   evidence:
-    - >-
-      Scraped site context describes it as analyzing data, monitoring brands, and exposing security risks via URL
-      analysis — a general insight tool, not a developer-facing AI agent or workflow enhancer
-    - >-
-      Source-list placement in awesome-mcp-servers is based on MCP compatibility, but the product’s identity is URL
-      analytics, not MCP infrastructure, making MCP a feature, not core identity
-    - >-
-      No evidence of integration with coding agents, IDEs, agent runtimes, or workflows — it presents as a standalone
-      web tool for brand and security teams, not developers shaping AI behavior or code
+    - "Scraped site context: 'urldna.io analyzes data, monitors brands and exposes security risks. Analyze URLs like a DNA test'"
+    - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' with description 'Unleash website insights! urldna.io analyzes data, monitors brands and exposes security risks. Analyze URLs like a DNA test'"
+    - No evidence of MCP server functionality, agent behavior, code generation, or developer tooling beyond passive URL analysis
 placement:
   primary_category: null
   section: null
@@ -77,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,33 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:37.809Z'
+    updated_at: "2026-10-05T04:56:44.282Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1974e302a487ba3e4af9b88843083766467d6d3ce0df71ef861a6ccc002c9a29
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:769ef30ea88e3e57e0d05fdbcc98b95ca8c3d17a8fcc0833133ccfc3a9c86f87
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        urldna.io is a general-purpose URL analysis and brand monitoring service with no clear developer-tooling
-        identity, workflow integration, or AI agent/component role — it functions as an external SaaS insight platform
-        rather than a tool for coding, agent orchestration, context engineering, or app building.
+      decision_reason: urldna.io is a passive website analysis tool focused on security and brand monitoring, with no developer-facing AI agent, extension, framework, or workflow automation identity relevant to coding or AI tooling for developers.
       decision_evidence:
-        - >-
-          Scraped site context describes it as analyzing data, monitoring brands, and exposing security risks via URL
-          analysis — a general insight tool, not a developer-facing AI agent or workflow enhancer
-        - >-
-          Source-list placement in awesome-mcp-servers is based on MCP compatibility, but the product’s identity is URL
-          analytics, not MCP infrastructure, making MCP a feature, not core identity
-        - >-
-          No evidence of integration with coding agents, IDEs, agent runtimes, or workflows — it presents as a
-          standalone web tool for brand and security teams, not developers shaping AI behavior or code
+        - "Scraped site context: 'urldna.io analyzes data, monitors brands and exposes security risks. Analyze URLs like a DNA test'"
+        - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' with description 'Unleash website insights! urldna.io analyzes data, monitors brands and exposes security risks. Analyze URLs like a DNA test'"
+        - No evidence of MCP server functionality, agent behavior, code generation, or developer tooling beyond passive URL analysis
       category_candidates: []
       contrastive_reason: null
       review_reason: null

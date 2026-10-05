@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__simonmesmith__agentflow__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -19,9 +19,7 @@ provenance:
           - Other LLM Frameworks
         anchor_text: AgentFlow
         extracted_url: https://github.com/simonmesmith/agentflow
-        surrounding_text: >-
-          - [AgentFlow](https://github.com/simonmesmith/agentflow): About Complex LLM Workflows from Simple JSON.
-          ![GitHub Repo stars](https://img.shields.io/github/stars/simonmesmith/agentflow?style=social)
+        surrounding_text: "- [AgentFlow](https://github.com/simonmesmith/agentflow): About Complex LLM Workflows from Simple JSON. ![GitHub Repo stars](https://img.shields.io/github/stars/simonmesmith/agentflow?style=social)"
         confidence: high
 metadata:
   github:
@@ -31,25 +29,19 @@ metadata:
     archived: false
     full_name: simonmesmith/agentflow
     html_url: https://github.com/simonmesmith/agentflow
-    created_at: '2023-08-02T20:57:16Z'
-    pushed_at: '2023-08-11T18:07:43Z'
+    created_at: "2023-08-02T20:57:16Z"
+    pushed_at: "2023-08-11T18:07:43Z"
     description: Complex LLM Workflows from Simple JSON.
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-07-20T16:42:57.617Z'
+    last_checked_at: "2026-07-20T16:42:57.617Z"
     readme:
-      fetched_at: '2026-07-20T16:42:57.617Z'
+      fetched_at: "2026-07-20T16:42:57.617Z"
       bytes: 3386
 insights:
-  summary: >-
-    Agentflow is a Python-based CLI tool that executes structured LLM workflows defined in human-readable JSON files
-    with support for variables and custom function calls.
-  why_it_matters: >-
-    It offers developers a lightweight, code-first way to define deterministic multi-step LLM processes without the
-    instability of fully autonomous agents or the limitations of simple chat interfaces.
-  mental_damage: >-
-    Yet another framework promising to bridge the gap between 'chat' and 'autonomous' that hasn't been touched in two
-    years, proving even LLM workflows need maintenance.
+  summary: Agentflow is a Python-based CLI tool that executes structured LLM workflows defined in human-readable JSON files with support for variables and custom function calls.
+  why_it_matters: It offers developers a lightweight, code-first way to define deterministic multi-step LLM processes without the instability of fully autonomous agents or the limitations of simple chat interfaces.
+  mental_damage: Yet another framework promising to bridge the gap between 'chat' and 'autonomous' that hasn't been touched in two years, proving even LLM workflows need maintenance.
   tags:
     - workflows
     - json
@@ -72,21 +64,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.648Z'
+    updated_at: "2026-05-06T22:12:15.648Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:57.617Z'
+    updated_at: "2026-07-20T16:42:57.617Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

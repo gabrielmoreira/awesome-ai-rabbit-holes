@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__minhbtrc__langchain-chatbot__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,10 +20,7 @@ provenance:
           - Other / Chatbots
         anchor_text: PersonalityChatbot
         extracted_url: https://github.com/btrcm00/chatbot-with-langchain
-        surrounding_text: >-
-          - [PersonalityChatbot](https://github.com/btrcm00/chatbot-with-langchain): Langchain chatbot for chat with
-          personality using Langchain🦜 | LangSmith | MongoDB. ![GitHub Repo
-          stars](https://img.shields.io/github/stars/btrcm00/chatbot-with-langchain?style=social)
+        surrounding_text: "- [PersonalityChatbot](https://github.com/btrcm00/chatbot-with-langchain): Langchain chatbot for chat with personality using Langchain🦜 | LangSmith | MongoDB. ![GitHub Repo stars](https://img.shields.io/github/stars/btrcm00/chatbot-with-langchain?style=social)"
         confidence: high
 metadata:
   github:
@@ -33,10 +30,10 @@ metadata:
     archived: false
     full_name: minhbtrc/langchain-chatbot
     html_url: https://github.com/minhbtrc/langchain-chatbot
-    created_at: '2023-10-02T09:31:33Z'
-    pushed_at: '2025-03-26T08:09:25Z'
+    created_at: "2023-10-02T09:31:33Z"
+    pushed_at: "2025-03-26T08:09:25Z"
     description: This code is an implementation of a chatbot using LLM chat model API and Langchain.
-    homepage: ''
+    homepage: ""
     topics:
       - chatbot
       - gpt-4
@@ -53,18 +50,14 @@ metadata:
       - runnable
       - streaming
       - streaming-response
-    last_checked_at: '2026-08-03T05:17:03.931Z'
+    last_checked_at: "2026-08-03T05:17:03.931Z"
     readme:
-      fetched_at: '2026-08-03T05:17:03.931Z'
+      fetched_at: "2026-08-03T05:17:03.931Z"
       bytes: 17431
 insights:
-  summary: >-
-    A chatbot implementation using LangChain with Next.js frontend, FastAPI backend, and MongoDB for conversation
-    memory.
+  summary: A chatbot implementation using LangChain with Next.js frontend, FastAPI backend, and MongoDB for conversation memory.
   why_it_matters: Shows how to combine LangChain with modern web stack components for building LLM-powered chat applications.
-  mental_damage: >-
-    Another reminder that 'chatbot' is the default answer when you're not sure what to build with LangChain but need
-    something to put on your résumé.
+  mental_damage: Another reminder that 'chatbot' is the default answer when you're not sure what to build with LangChain but need something to put on your résumé.
   tags:
     - chatbot
     - langchain
@@ -72,18 +65,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a basic chatbot implementation focused on application assembly rather than developer tooling innovation; it
-    uses LangChain as a component but does not provide reusable tooling, frameworks, or workflow enhancements for
-    developers building AI applications.
+  reason: This is a basic chatbot implementation focused on application assembly rather than developer tooling innovation; it uses LangChain as a component but does not provide reusable tooling, frameworks, or workflow enhancements for developers building AI applications.
   evidence:
-    - 'Repo description: ''This code is an implementation of a chatbot using LLM chat model API and Langchain.'''
-    - >-
-      README details a full-stack chatbot with Next.js frontend, FastAPI backend, MongoDB, and LangChain for LLM
-      integration.
-    - >-
-      Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', indicating it's an example project,
-      not a tool or framework.
+    - "Repo description: 'This code is an implementation of a chatbot using LLM chat model API and Langchain.'"
+    - README details a full-stack chatbot with Next.js frontend, FastAPI backend, MongoDB, and LangChain for LLM integration.
+    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', indicating it's an example project, not a tool or framework.
 placement:
   primary_category: null
   section: null
@@ -93,17 +79,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.630Z'
+    updated_at: "2026-05-06T22:12:15.630Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-08-03T05:17:03.931Z'
+    updated_at: "2026-08-03T05:17:03.931Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.822Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -118,18 +104,11 @@ processing:
       input_hash: sha256:cf36482c751efa68a7b9479a0bbb54684034bfafe8c6c97dac0418ec24bd3bd0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a basic chatbot implementation focused on application assembly rather than developer tooling innovation;
-        it uses LangChain as a component but does not provide reusable tooling, frameworks, or workflow enhancements for
-        developers building AI applications.
+      decision_reason: This is a basic chatbot implementation focused on application assembly rather than developer tooling innovation; it uses LangChain as a component but does not provide reusable tooling, frameworks, or workflow enhancements for developers building AI applications.
       decision_evidence:
-        - 'Repo description: ''This code is an implementation of a chatbot using LLM chat model API and Langchain.'''
-        - >-
-          README details a full-stack chatbot with Next.js frontend, FastAPI backend, MongoDB, and LangChain for LLM
-          integration.
-        - >-
-          Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', indicating it's an example
-          project, not a tool or framework.
+        - "Repo description: 'This code is an implementation of a chatbot using LLM chat model API and Langchain.'"
+        - README details a full-stack chatbot with Next.js frontend, FastAPI backend, MongoDB, and LangChain for LLM integration.
+        - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', indicating it's an example project, not a tool or framework.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hackmd__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Community Servers
         anchor_text: HackMD
         extracted_url: https://hackmd.io
-        surrounding_text: >-
-          - **[HackMD](https://github.com/yuna0x0/hackmd-mcp)** - A Model Context Protocol server for integrating
-          [HackMD](https://hackmd.io)'s note-taking platform with AI assistants.
+        surrounding_text: "- **[HackMD](https://github.com/yuna0x0/hackmd-mcp)** - A Model Context Protocol server for integrating [HackMD](https://hackmd.io)'s note-taking platform with AI assistants."
         confidence: high
 metadata:
   github:
@@ -38,37 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    HackMD is a real-time collaborative Markdown editor that provides versioned notes and API access for teams and AI
-    agents to share context.
-  why_it_matters: >-
-    It reduces token overhead for agents by serving Markdown directly and keeps human-AI workflows synchronized through
-    shared, version-controlled documentation.
-  mental_damage: >-
-    Another tool promising to be the 'universal context layer' while adding yet another tab to check when your agent's
-    output diverges from the team's latest Markdown doc.
+  summary: HackMD is a real-time collaborative Markdown editor with GitHub sync, version history, and API access for team and agent workflows.
+  why_it_matters: It provides a shared Markdown context layer where human teams and AI agents can read, write, and sync documentation using the same source of truth.
+  mental_damage: Yet another place to check whether your agent’s latest draft made it into the team’s shared brain before it gets overwritten by a human with stronger opinions.
   tags:
-    - collaborative-editing
+    - collaboration
+    - documentation
     - markdown
-    - ai-context
-    - developer-tools
-  confidence: medium
+    - api
+    - context-sharing
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
+  status: excluded
+  reason: HackMD is a general-purpose collaborative documentation tool whose primary value is team Markdown editing, not AI-specific developer tooling like coding agents, context engineering, or app building.
   evidence:
-    - jev-latest choice confidence 0.69
+    - Scraped site context positions HackMD as a real-time Markdown editor for collaborative work, with features like version history, GitHub sync, and team workspaces.
+    - README emphasizes real-time editing, comments, templates, and public community notes — core functionality is human collaboration, not AI agent enablement.
+    - Source-list context appears in awesome-mcp-servers only as a community server due to Markdown API access, not as an MCP-native tool.
 placement:
-  primary_category: memory-and-context
+  primary_category: null
   secondary_categories: []
-  section: Retrieval & Fresh Docs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,34 +72,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:20:32.687Z'
+    updated_at: "2026-10-05T04:33:29.173Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4104043ffa860a787ce1dff4efa572b68f563903a8e98e91c7b04608d84b3336
-      proposed_primary_category: memory-and-context
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:39c493517a9dd8707c4ef11a84f8ab9c9a7e221052b35fa9e84c1d21e8d98692
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        HackMD functions as a persistent knowledge base where agents can retrieve and write Markdown context via API,
-        fitting the memory-and-context category's focus on externalized agent memory and knowledge storage.
+      decision_reason: HackMD is a general-purpose collaborative documentation tool whose primary value is team Markdown editing, not AI-specific developer tooling like coding agents, context engineering, or app building.
       decision_evidence:
-        - >-
-          Every HackMD note is Markdown all the way down, enabling agents to pull context/reference docs via REST API or
-          CLI
-        - Push agent-generated drafts back into your workspace with version history tracking
-        - Explicitly positioned as a 'shared context layer' for teams and agents to stay aligned
-      category_candidates:
-        - memory-and-context
-        - mcp
-      contrastive_reason: >-
-        Choose memory-and-context over mcp because HackMD's core identity is a collaborative Markdown workspace for
-        context sharing, not MCP server infrastructure, with no evidence of MCP being its primary protocol in the
-        provided description.
+        - Scraped site context positions HackMD as a real-time Markdown editor for collaborative work, with features like version history, GitHub sync, and team workspaces.
+        - README emphasizes real-time editing, comments, templates, and public community notes — core functionality is human collaboration, not AI agent enablement.
+        - Source-list context appears in awesome-mcp-servers only as a community server due to Markdown API access, not as an MCP-native tool.
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

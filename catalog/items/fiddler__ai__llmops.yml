@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__fiddler__ai__llmops__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,14 +18,10 @@ provenance:
           - LLMOps
         anchor_text: Fiddler AI
         extracted_url: https://fiddler.ai/llmops
-        surrounding_text: >-
-          | [Fiddler AI](https://www.fiddler.ai/llmops)                        | Evaluate, monitor, analyze, and improve
-          MLOps and LLMOps from pre-production to
-          production.                                                                                                                                                                                                                                                                                                            
-          |                                                                                                           |
+        surrounding_text: "| [Fiddler AI](https://www.fiddler.ai/llmops)                        | Evaluate, monitor, analyze, and improve MLOps and LLMOps from pre-production to production.                                                                                                                                                                                                                                                                                                             |                                                                                                           |"
         confidence: high
     - id: discovery__www__fiddler__ai__llmops__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -37,11 +33,7 @@ provenance:
           - LLMOps
         anchor_text: Fiddler AI
         extracted_url: https://www.fiddler.ai/llmops
-        surrounding_text: >-
-          | [Fiddler AI](https://www.fiddler.ai/llmops)                        | Evaluate, monitor, analyze, and improve
-          MLOps and LLMOps from pre-production to
-          production.                                                                                                                                                                                                                                                                                                            
-          |                                                                                                           |
+        surrounding_text: "| [Fiddler AI](https://www.fiddler.ai/llmops)                        | Evaluate, monitor, analyze, and improve MLOps and LLMOps from pre-production to production.                                                                                                                                                                                                                                                                                                             |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -59,23 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Fiddler AI provides LLM observability and monitoring tools to track, analyze, and safeguard large language model
-    applications in production.
-  why_it_matters: >-
-    Developers gain visibility into LLM behavior, risks, and performance to build safer, more reliable generative AI
-    systems at scale.
-  mental_damage: Another dashboard to watch while your AI confidently hallucinates quarterly earnings reports.
+  summary: Fiddler AI provides LLM observability and security tools for monitoring, analyzing, and safeguarding large language model applications in production.
+  why_it_matters: It helps developers detect hallucinations, track metrics, and enforce guardrails to ensure LLM applications are accurate, safe, and trustworthy.
+  mental_damage: Another observability dashboard to add to the stack while your agent quietly hallucinates in production.
   tags:
     - llmops
     - observability
-    - monitoring
-  confidence: medium
+    - guardrails
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  reason: Fiddler AI's core identity is LLM observability and evaluation infrastructure, making it a fit for the evals category as it focuses on measuring, tracing, and monitoring model behavior in production.
   evidence:
-    - jev-latest choice confidence 0.84
+    - "Scraped site context: 'Fiddler empowers AI teams with LLM observability, providing tools to monitor, analyze, and safeguard large language models (LLMs) and their applications.'"
+    - "Source-list context: Listed in Awesome-LLMOps under LLMOps section for providing LLM observability and security."
+    - "README excerpt: Emphasizes continuous evaluations, agentic observability, policy enforcement, and tracking 50+ out-of-the-box LLM metrics."
 placement:
   primary_category: evals
   secondary_categories: []
@@ -86,42 +76,33 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:41:15.396Z'
+    updated_at: "2026-10-05T04:47:56.020Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3aa93b003946ec01d52fcab2c673274d7033cfe26e0c304391820d2bada66fed
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:42f7027fc943776f8eeff3552ae3990fc40a93e53bd3d2bd87703e17a66f44f3
       proposed_primary_category: evals
       disagreement: false
-      decision_reason: >-
-        Fiddler AI is primarily an observability and monitoring platform for LLM applications, focusing on tracking
-        metrics, detecting risks, and ensuring trustworthiness—core evals functions—rather than being a coding agent,
-        framework, or app builder.
+      decision_reason: Fiddler AI's core identity is LLM observability and evaluation infrastructure, making it a fit for the evals category as it focuses on measuring, tracing, and monitoring model behavior in production.
       decision_evidence:
-        - >-
-          Scraped site context: 'Fiddler empowers AI teams with LLM observability, providing tools to monitor, analyze,
-          and safeguard large language models (LLMs) and their applications.'
-        - 'Source-list context: Included in Awesome-LLMOps under LLMOps section for LLM observability.'
-        - >-
-          README excerpt: Tracks 50+ out-of-the-box LLM metrics (hallucination, toxicity, jailbreak activity, PII
-          exposure) and enables root cause analysis on prompt injection attacks.
+        - "Scraped site context: 'Fiddler empowers AI teams with LLM observability, providing tools to monitor, analyze, and safeguard large language models (LLMs) and their applications.'"
+        - "Source-list context: Listed in Awesome-LLMOps under LLMOps section for providing LLM observability and security."
+        - "README excerpt: Emphasizes continuous evaluations, agentic observability, policy enforcement, and tracking 50+ out-of-the-box LLM metrics."
       category_candidates:
         - evals
         - memory-and-context
-      contrastive_reason: >-
-        Choose evals over memory-and-context because Fiddler’s core identity is monitoring, scoring, and tracing LLM
-        behavior in production—not persisting memory, retrieval, or prompt management as a standalone system.
+      contrastive_reason: Choose evals over memory-and-context because Fiddler's primary focus is on observability, tracing, and evaluation of LLM behavior rather than persistent memory, retrieval, or context management infrastructure.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

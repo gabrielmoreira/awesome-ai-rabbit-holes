@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__itsmostafa__system-one-connector__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: System One Connector
         extracted_url: https://github.com/itsmostafa/system-one-connector
-        surrounding_text: >-
-          - [System One Connector](https://github.com/itsmostafa/system-one-connector) - Go MCP `evaluate` connector
-          giving agents typed Jev (or local System One / Laya) judgments with probabilities for Claude Code, Codex,
-          Hermes, and pi. [Project guide](community/projects/tools/system-one-connector.md).
+        surrounding_text: "- [System One Connector](https://github.com/itsmostafa/system-one-connector) - Go MCP `evaluate` connector giving agents typed Jev (or local System One / Laya) judgments with probabilities for Claude Code, Codex, Hermes, and pi. [Project guide](community/projects/tools/system-one-connector.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    System One Connector - Go MCP evaluate connector giving agents typed Jev (or local System One / Laya) judgments with
-    probabilities for Claude Code, Codex, Hermes, and pi. Project guide.
+  summary: System One Connector - Go MCP evaluate connector giving agents typed Jev (or local System One / Laya) judgments with probabilities for Claude Code, Codex, Hermes, and pi. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.461Z'
+    updated_at: "2026-09-29T13:07:10.461Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

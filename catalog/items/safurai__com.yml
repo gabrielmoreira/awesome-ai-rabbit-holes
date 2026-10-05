@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__safurai__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -18,12 +18,10 @@ provenance:
           - Developer tools
         anchor_text: Safurai
         extracted_url: https://safurai.com
-        surrounding_text: >-
-          - [Safurai](https://www.safurai.com) - AI Code Assistant that saves you time in changing, optimizing, and
-          searching code.
+        surrounding_text: "- [Safurai](https://www.safurai.com) - AI Code Assistant that saves you time in changing, optimizing, and searching code."
         confidence: high
     - id: discovery__www__safurai__com__awesome-list__janhq__awesome-local-ai
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: janhq/awesome-local-ai
@@ -35,9 +33,7 @@ provenance:
           - Developer tools
         anchor_text: Safurai
         extracted_url: https://www.safurai.com
-        surrounding_text: >-
-          - [Safurai](https://www.safurai.com) - AI Code Assistant that saves you time in changing, optimizing, and
-          searching code.
+        surrounding_text: "- [Safurai](https://www.safurai.com) - AI Code Assistant that saves you time in changing, optimizing, and searching code."
         confidence: high
 metadata:
   github:
@@ -55,13 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Safurai is a developer-focused AI coding assistant that helps write, debug, and explain code within IDEs.
-  why_it_matters: >-
-    It reduces context-switching by offering inline AI support for coding tasks like generation and troubleshooting
-    directly in the editor.
-  mental_damage: >-
-    Another AI pair programmer promising to finally understand your legacy codebase — until it confidently suggests
-    deleting your main branch.
+  summary: Safurai is an AI coding assistant that integrates into IDEs to help developers write, edit, and understand code.
+  why_it_matters: It reduces context-switching by bringing AI-powered code assistance directly into the developer's editing environment.
+  mental_damage: Another AI pair programmer vying for your tab focus, promising to understand your intent while you silently judge its suggestions.
   tags:
     - ai-assistant
     - ide-integration
@@ -75,49 +67,40 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: IDE-Native & Editor Agents
+  section: null
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''coding-agents'', proposed ''extensions-and-addons'''
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:45:13.804Z'
+    updated_at: "2026-10-05T04:50:34.551Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5c78ca1bbdf9b9f091699212a68a0357bc2c474fec9ff6bf5a3bd27a5b156ee5
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f4296a3ac4c22ed6915e19de084b72ff069135e70fe93751b2fc9e1198d5ba9e
       proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: >-
-        Safurai functions as an IDE extension that enhances developer workflows with AI-powered code assistance, making
-        it an add-on rather than a standalone coding agent or app builder.
+      decision_reason: Safurai is an IDE extension that augments existing coding workflows rather than acting as a standalone agent, making it a tooling add-on for AI-assisted development.
       decision_evidence:
-        - >-
-          Listed in 'awesome-local-ai' under the 'Developer tools' section, indicating recognition as a developer-facing
-          utility.
-        - >-
-          Positions itself as an AI assistant for coding tasks like writing, debugging, and explaining code within
-          development environments.
+        - Listed in awesome-local-ai under 'Developer tools' section
+        - Positioned as an IDE-integrated AI assistant for code writing and understanding
+        - No evidence of autonomous coding or multi-agent orchestration — focuses on IDE integration
       category_candidates:
         - extensions-and-addons
         - coding-agents
-      contrastive_reason: >-
-        Choose extensions-and-addons over coding-agents because Safurai primarily augments existing IDEs with AI
-        features rather than operating as an autonomous agent that directly edits codebases or terminals.
-      review_reason: >-
-        Categorization review required: placement disagreement: retained 'coding-agents', proposed
-        'extensions-and-addons'
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Safurai's primary identity is as an IDE plugin that assists coding rather than an autonomous agent that plans and executes coding tasks independently.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.970Z'
+    updated_at: "2026-07-21T15:20:21.970Z"
     cause: null
     next_retry_at: null
   stars:

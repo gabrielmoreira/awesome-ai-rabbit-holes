@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__5__kelime__ismail__jev__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://5-kelime-ismail-jev.vercel.app
-        surrounding_text: >-
-          - [bes-kelime-jev](https://github.com/mahmut-gundogdu/bes-kelime-jev)
-          ([site](https://5-kelime-ismail-jev.vercel.app)) - Ne yazarsanız yazın, beş kelimeden biriyle cevap veren
-          sohbet botu. Kelimeyi TypeSafe AI'ın Jev evaluation modeli seçer.
+        surrounding_text: "- [bes-kelime-jev](https://github.com/mahmut-gundogdu/bes-kelime-jev) ([site](https://5-kelime-ismail-jev.vercel.app)) - Ne yazarsanız yazın, beş kelimeden biriyle cevap veren sohbet botu. Kelimeyi TypeSafe AI'ın Jev evaluation modeli seçer."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    bes-kelime-jev (site) - Ne yazarsanız yazın, beş kelimeden biriyle cevap veren sohbet botu. Kelimeyi TypeSafe AI'ın
-    Jev evaluation modeli seçer.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Turkish-language web page titled '5 Kelime — İsmail Jev' with minimal content referencing Jev, likely a demo or placeholder for a TypeSafe AI Jev model-based project.
+  why_it_matters: If functional, it could demonstrate a Jev decision-model use case, but as presented offers no clear developer tooling or workflow utility.
+  mental_damage: Another half-baked Vercel demo that makes you wonder if '5 words' is all the effort left after hype.
+  tags:
+    - jev
+    - demo
+    - vercel
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The page lacks substantive content, developer-facing functionality, or clear ties to AI tooling beyond a name reference to Jev, making it indistinguishable from a placeholder or broken demo.
   evidence:
-    - jev-latest choice confidence 0.65
+    - "Scraped page shows only fragmented Turkish text: 'İJ', 'İsmail Jev', 'çevrimiçi', 'Temizle', 'bugün', '➤' with no tool description or interaction"
+    - Listed in awesome-jev under 'Benchmarks & research' but no evidence of actual benchmarking, research, or tooling activity
+    - No README, repo description, stars, or activity signals to assess purpose or traction
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:01:48.407Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b8cff393638cd4245abb0cc13999ac790fc119de647bd610190992b6d6743d28
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The page lacks substantive content, developer-facing functionality, or clear ties to AI tooling beyond a name reference to Jev, making it indistinguishable from a placeholder or broken demo.
+      decision_evidence:
+        - "Scraped page shows only fragmented Turkish text: 'İJ', 'İsmail Jev', 'çevrimiçi', 'Temizle', 'bugün', '➤' with no tool description or interaction"
+        - Listed in awesome-jev under 'Benchmarks & research' but no evidence of actual benchmarking, research, or tooling activity
+        - No README, repo description, stars, or activity signals to assess purpose or traction
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

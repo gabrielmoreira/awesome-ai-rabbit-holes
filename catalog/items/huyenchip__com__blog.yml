@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huyenchip__com__blog__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Chip Huyen's personal blog on AI system design and production practices.
-  why_it_matters: Provides practical insights on deploying AI systems in production, drawn from real-world experience and research.
-  mental_damage: Another reminder that reading about AI in production is easier than actually doing it.
+  summary: Chip Huyen's personal blog about AI system design and production ML topics.
+  why_it_matters: Offers practical insights on deploying AI systems, helping developers understand real-world MLOps challenges.
+  mental_damage: Reading yet another ML blog makes you question whether you're learning or just doomscrolling through AI advice.
   tags:
     - blog
-    - ai-production
-    - mloops
+    - ai-writing
+    - mlops
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Publications & Feeds
+  status: excluded
+  reason: A personal blog is not a developer tool, agent, framework, or infrastructure; it is commentary and educational content, which does not meet the catalog's scope for practical AI tooling.
   evidence:
-    - jev-latest choice confidence 0.86
+    - "Repo description: (none); the site is a personal blog with posts on AI system design, MLOps, and career advice."
+    - "Scraped site context: Title 'Blog', description 'I work to bring AI into production. I write about AI system design.'"
+    - "Source-list context: Appears in awesome-LLM-resources under '教程 Tutorial' as a resource, not a tool."
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Publications & Feeds
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,37 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:29:35.211Z'
+    updated_at: "2026-10-05T04:34:41.731Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:a27a62d13d5131ff67b4ff3e49a8e059c0e99072c73005fa4304e47fcad20524
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a0748711f7b8112b69849abc44dc2ef4acbfd251bc5964decbd9fd6e621517b6
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The blog serves as a curated publication feed focused on AI system design and production, matching the
-        awesome-awesomes category for developer-facing newsletters and publications.
+      decision_reason: A personal blog is not a developer tool, agent, framework, or infrastructure; it is commentary and educational content, which does not meet the catalog's scope for practical AI tooling.
       decision_evidence:
-        - >-
-          Source-list context shows inclusion in awesome-LLM-resources under '教程 Tutorial' with summary 'I work to bring
-          AI into production. I write about AI system design.'
-        - >-
-          Scraped site context confirms the blog's focus: 'I work to bring AI into production. I write about AI system
-          design.'
-        - >-
-          Content consists of recurring posts on MLOps, AI agents, generative AI platforms, and real-world AI system
-          challenges.
-      category_candidates:
-        - awesome-awesomes
-        - coding-agents
-      contrastive_reason: >-
-        Choose awesome-awesomes over coding-agents because the blog is a publication feed sharing insights, not a tool
-        that performs coding tasks autonomously or interactively.
+        - "Repo description: (none); the site is a personal blog with posts on AI system design, MLOps, and career advice."
+        - "Scraped site context: Title 'Blog', description 'I work to bring AI into production. I write about AI system design.'"
+        - "Source-list context: Appears in awesome-LLM-resources under '教程 Tutorial' as a resource, not a tool."
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

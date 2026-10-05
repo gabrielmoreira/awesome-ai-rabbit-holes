@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__s2-streamstore__s2-sdk-typescript__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: s2-streamstore/s2-sdk-typescript
         extracted_url: https://github.com/s2-streamstore/s2-sdk-typescript
-        surrounding_text: >-
-          - [s2-streamstore/s2-sdk-typescript](https://github.com/s2-streamstore/s2-sdk-typescript) 🎖️ 📇 ☁️ - Official
-          MCP server for the S2.dev serverless stream platform.
+        surrounding_text: "- [s2-streamstore/s2-sdk-typescript](https://github.com/s2-streamstore/s2-sdk-typescript) 🎖️ 📇 ☁️ - Official MCP server for the S2.dev serverless stream platform."
         confidence: high
 metadata:
   github:
@@ -32,8 +30,8 @@ metadata:
     archived: false
     full_name: s2-streamstore/s2-sdk-typescript
     html_url: https://github.com/s2-streamstore/s2-sdk-typescript
-    created_at: '2025-10-06T02:58:42Z'
-    pushed_at: '2026-07-18T04:46:27Z'
+    created_at: "2025-10-06T02:58:42Z"
+    pushed_at: "2026-07-18T04:46:27Z"
     description: TypeScript SDK for S2, the durable streams API
     homepage: https://s2.dev
     topics:
@@ -44,20 +42,14 @@ metadata:
       - streamstore
       - typescript
       - write-ahead-log
-    last_checked_at: '2026-07-20T16:42:49.513Z'
+    last_checked_at: "2026-07-20T16:42:49.513Z"
     readme:
-      fetched_at: '2026-07-20T16:42:49.513Z'
+      fetched_at: "2026-07-20T16:42:49.513Z"
       bytes: 13545
 insights:
-  summary: >-
-    Official TypeScript SDK for S2, a managed serverless service providing durable, real-time append-only streams with
-    random read access.
-  why_it_matters: >-
-    It gives developers a typed, programmable interface to build event-driven and streaming workflows on top of a
-    managed durable stream store without rolling their own append-log infrastructure.
-  mental_damage: >-
-    Another managed stream primitive enters the arena, just in case your current stack of queues, logs, and brokers
-    wasn’t quite metastable enough.
+  summary: Official TypeScript SDK for S2, a managed serverless service providing durable, real-time append-only streams with random read access.
+  why_it_matters: It gives developers a typed, programmable interface to build event-driven and streaming workflows on top of a managed durable stream store without rolling their own append-log infrastructure.
+  mental_damage: Another managed stream primitive enters the arena, just in case your current stack of queues, logs, and brokers wasn’t quite metastable enough.
   tags:
     - typescript
     - sdk
@@ -80,21 +72,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.646Z'
+    updated_at: "2026-05-06T22:12:15.646Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:49.513Z'
+    updated_at: "2026-07-20T16:42:49.513Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.168Z'
+    updated_at: "2026-10-05T04:19:18.824Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

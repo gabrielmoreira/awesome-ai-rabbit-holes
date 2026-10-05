@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__justintout__systemone__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: systemone (justintout)
         extracted_url: https://github.com/justintout/systemone
-        surrounding_text: >-
-          - [systemone (justintout)](https://github.com/justintout/systemone) - Unofficial Go System One/Jev client with
-          compile-time typed Choice/Noul/Score (distinct from TypeSafe Go / go-jev). [Project
-          guide](community/projects/tools/systemone-justintout.md).
+        surrounding_text: "- [systemone (justintout)](https://github.com/justintout/systemone) - Unofficial Go System One/Jev client with compile-time typed Choice/Noul/Score (distinct from TypeSafe Go / go-jev). [Project guide](community/projects/tools/systemone-justintout.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    systemone (justintout) - Unofficial Go System One/Jev client with compile-time typed Choice/Noul/Score (distinct
-    from TypeSafe Go / go-jev). Project guide.
+  summary: systemone (justintout) - Unofficial Go System One/Jev client with compile-time typed Choice/Noul/Score (distinct from TypeSafe Go / go-jev). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.463Z'
+    updated_at: "2026-09-29T13:07:10.463Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

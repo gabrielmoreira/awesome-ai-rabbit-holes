@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mameli__jev-vs-luna__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-vs-luna
         extracted_url: https://github.com/mameli/jev-vs-luna
-        surrounding_text: >-
-          | [jev-vs-luna](https://github.com/mameli/jev-vs-luna) | ★ 0 | Python | 2026-09-20 | Reproducible
-          review-classification comparison measuring Jev and Luna accuracy, latency, and cost. |
+        surrounding_text: "| [jev-vs-luna](https://github.com/mameli/jev-vs-luna) | ★ 0 | Python | 2026-09-20 | Reproducible review-classification comparison measuring Jev and Luna accuracy, latency, and cost. |"
         confidence: high
 metadata:
   github:
@@ -62,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.466Z'
+    updated_at: "2026-09-29T13:07:10.466Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

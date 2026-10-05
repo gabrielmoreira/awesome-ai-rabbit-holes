@@ -1,12 +1,12 @@
 id: medium__com__tejaswi__kashyap
 kind: website
-name: '@tejaswi_kashyap'
+name: "@tejaswi_kashyap"
 canonical_url: https://medium.com/@tejaswi_kashyap
 identity: {}
 provenance:
   discoveries:
     - id: discovery__medium__com__tejaswi__kashyap__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 教程 Tutorial
-        anchor_text: 'Blog: Tejaswi kashyap'
+        anchor_text: "Blog: Tejaswi kashyap"
         extracted_url: https://medium.com/@tejaswi_kashyap
-        surrounding_text: '24. [Blog: Tejaswi kashyap](https://medium.com/@tejaswi_kashyap)'
+        surrounding_text: "24. [Blog: Tejaswi kashyap](https://medium.com/@tejaswi_kashyap)"
         confidence: high
 metadata:
   github:
@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Medium blog post by @tejaswi_kashyap containing LLM resources and tutorials for developers.
-  why_it_matters: Aggregates LLM learning materials across multiple AI domains, helping developers find educational content.
-  mental_damage: Yet another link farm pretending to be a curated resource in an ocean of link farms.
+  summary: A Medium blog by Tejaswi Kashyap sharing personal insights on AI and machine learning topics.
+  why_it_matters: Offers developer-oriented perspectives on AI concepts through a practitioner’s lens.
+  mental_damage: Another voice in the echo chamber reminding you that reading yet another blog post won’t ship your features.
   tags:
-    - llm
-    - tutorial
-    - resources
+    - blog
+    - ai-insights
+    - personal-website
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The source is a Medium blog post, not a standalone tool, product, or developer-facing infrastructure; it is
-    educational content lacking operational utility for developers.
+  reason: Excluded because it is a personal blog with no developer-facing tool, product, or workflow—only commentary and opinion.
   evidence:
-    - Source is a Medium article by @tejaswi_kashyap, not a GitHub repo or tool
-    - Listed in awesome-LLM-resources under '教程 Tutorial' as educational content
-    - No indicators of being a deployable tool, agent, framework, or infrastructure
+    - URL points to a Medium profile (@tejaswi_kashyap), not a repository or tool
+    - No repo description, README, or product claims—only a byline and platform
+    - Listed in awesome-LLM-resources under '教程 Tutorial' as a learning resource, not a tool
 placement:
   primary_category: null
   section: null
@@ -62,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,26 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:57.888Z'
+    updated_at: "2026-10-05T04:58:42.920Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e0ed545093b241e701d286aa522b13d032fc71c14f94445eb7b5209e6d70f3ca
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ae7ca8e705315fbe8c18ff0950f1cf6f0056a8a03257ea3cda2e0c4f7c068d12
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The source is a Medium blog post, not a standalone tool, product, or developer-facing infrastructure; it is
-        educational content lacking operational utility for developers.
+      decision_reason: Excluded because it is a personal blog with no developer-facing tool, product, or workflow—only commentary and opinion.
       decision_evidence:
-        - Source is a Medium article by @tejaswi_kashyap, not a GitHub repo or tool
-        - Listed in awesome-LLM-resources under '教程 Tutorial' as educational content
-        - No indicators of being a deployable tool, agent, framework, or infrastructure
+        - URL points to a Medium profile (@tejaswi_kashyap), not a repository or tool
+        - No repo description, README, or product claims—only a byline and platform
+        - Listed in awesome-LLM-resources under '教程 Tutorial' as a learning resource, not a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

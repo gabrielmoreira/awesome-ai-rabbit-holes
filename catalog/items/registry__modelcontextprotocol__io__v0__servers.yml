@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__registry__modelcontextprotocol__io__v0__servers__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,14 +19,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: Official MCP Registry
         extracted_url: https://registry.modelcontextprotocol.io/v0/servers
-        surrounding_text: >-
-          - [deficlow/zipp-mcp](https://github.com/deficlow/zipp-mcp) [![deficlow/zipp-mcp MCP
-          server](https://glama.ai/mcp/servers/deficlow/zipp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deficlow/zipp-mcp)
-          🐍 ☁️ - Multi-language crypto news for AI assistants — editorial summaries with sentiment labels
-          (BULLISH/NEUTRAL/BEARISH) and importance scores (0–100). 6 tools across 8 languages, every story credits the
-          original publisher. Install: `uvx zipp-mcp` or `ghcr.io/deficlow/zipp-mcp`. Public Streamable HTTP endpoint at
-          `https://zippfeed.com/mcp/`; listed on the [Official MCP
-          Registry](https://registry.modelcontextprotocol.io/v0/servers?search=zipp).
+        surrounding_text: "- [deficlow/zipp-mcp](https://github.com/deficlow/zipp-mcp) [![deficlow/zipp-mcp MCP server](https://glama.ai/mcp/servers/deficlow/zipp-mcp/badges/score.svg)](https://glama.ai/mcp/servers/deficlow/zipp-mcp) 🐍 ☁️ - Multi-language crypto news for AI assistants — editorial summaries with sentiment labels (BULLISH/NEUTRAL/BEARISH) and importance scores (0–100). 6 tools across 8 languages, every story credits the original publisher. Install: `uvx zipp-mcp` or `ghcr.io/deficlow/zipp-mcp`. Public Streamable HTTP endpoint at `https://zippfeed.com/mcp/`; listed on the [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=zipp)."
         confidence: high
 metadata:
   github:
@@ -44,20 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A central registry for discovering Model Context Protocol (MCP) servers.
-  why_it_matters: It provides a unified way for developers to find and connect standardized tools and data sources to their AI agents.
-  mental_damage: Another indispensable layer of middleware to manage in the ever-expanding agentic stack.
+  summary: Model Context Protocol server registry exposing MCP servers over HTTP.
+  why_it_matters: Provides discovery for MCP servers so agents can find and connect to tools and data sources.
+  mental_damage: Yet another registry in the growing MCP zoo, promising interoperability while adding another layer to navigate.
   tags:
     - mcp
     - registry
     - discovery
-    - protocol
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
+  reason: The registry is core MCP infrastructure for discovering MCP servers, making MCP the product identity rather than a compatibility feature.
   evidence:
-    - jev-latest choice confidence 0.71
+    - URL is registry.modelcontextprotocol.io/v0/servers, indicating an MCP server registry
+    - MCP must be the product's primary identity for inclusion in the mcp category
 placement:
   primary_category: mcp
   secondary_categories: []
@@ -68,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.820Z'
+    updated_at: "2026-05-28T05:28:09.820Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,30 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-21T04:30:04.707Z'
+    updated_at: "2026-10-05T04:25:31.949Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:7f4cbb878f01be7290515ec9558a61f834e061bb6c1680288d7f1b40b8f18b6f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f4266df475dfd0cbd8d0eee67555f6868339433c1372a84922df5f582f8749f1
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product is a registry for the Model Context Protocol ecosystem, which matches the MCP category's definition
-        for discovery services.
+      decision_reason: The registry is core MCP infrastructure for discovering MCP servers, making MCP the product identity rather than a compatibility feature.
       decision_evidence:
-        - The URL points to a registry of MCP servers
-        - The identity is defined by the MCP protocol
+        - URL is registry.modelcontextprotocol.io/v0/servers, indicating an MCP server registry
+        - MCP must be the product's primary identity for inclusion in the mcp category
       category_candidates:
         - mcp
         - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because it is an operational registry for a specific protocol rather than a
-        general-purpose curated resource list.
+      contrastive_reason: Choose mcp over awesome-awesomes because the registry is operational MCP infrastructure, not a curated list of MCP servers.
       review_reason: null
       review_resume_lifecycle: null

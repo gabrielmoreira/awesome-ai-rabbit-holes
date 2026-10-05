@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__the-vibe-company__megaparse__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,7 +19,7 @@ provenance:
           - 数据 Data
         anchor_text: MegaParse
         extracted_url: https://github.com/quivrhq/megaparse
-        surrounding_text: '24. [MegaParse](https://github.com/QuivrHQ/MegaParse): File Parser optimised for LLM Ingestion with no loss.'
+        surrounding_text: "24. [MegaParse](https://github.com/QuivrHQ/MegaParse): File Parser optimised for LLM Ingestion with no loss."
         confidence: high
 metadata:
   github:
@@ -46,21 +46,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed document-ai / Document Parsing & Layout; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed document-ai / Document Parsing & Layout; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - document-ai
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.480Z'
+    updated_at: "2026-09-29T13:07:10.480Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

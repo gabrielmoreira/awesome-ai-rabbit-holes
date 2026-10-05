@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__openlinksoftware__mcp-odbc-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: openlink/mcp-server-odbc
         extracted_url: https://github.com/openlinksoftware/mcp-odbc-server
-        surrounding_text: >-
-          - [openlink/mcp-server-odbc](https://github.com/OpenLinkSoftware/mcp-odbc-server) 🐍 🏠 - An MCP server for
-          generic Database Management System (DBMS) Connectivity via the Open Database Connectivity (ODBC) protocol
+        surrounding_text: "- [openlink/mcp-server-odbc](https://github.com/OpenLinkSoftware/mcp-odbc-server) 🐍 🏠 - An MCP server for generic Database Management System (DBMS) Connectivity via the Open Database Connectivity (ODBC) protocol"
         confidence: high
 metadata:
   github:
@@ -32,25 +30,19 @@ metadata:
     archived: false
     full_name: OpenLinkSoftware/mcp-odbc-server
     html_url: https://github.com/OpenLinkSoftware/mcp-odbc-server
-    created_at: '2025-03-27T22:06:52Z'
-    pushed_at: '2025-07-23T23:52:11Z'
+    created_at: "2025-03-27T22:06:52Z"
+    pushed_at: "2025-07-23T23:52:11Z"
     description: Typescript based Model Context Procotol (MCP) Server for Open Database Connectivity (ODBC)
     homepage: null
     topics: []
-    last_checked_at: '2026-07-20T16:42:26.932Z'
+    last_checked_at: "2026-07-20T16:42:26.932Z"
     readme:
-      fetched_at: '2026-07-20T16:42:26.932Z'
+      fetched_at: "2026-07-20T16:42:26.932Z"
       bytes: 17398
 insights:
-  summary: >-
-    A TypeScript-based MCP server that exposes ODBC-accessible databases to LLMs via the Model Context Protocol,
-    enabling SQL and SPARQL queries through MCP client tools.
-  why_it_matters: >-
-    It lets AI coding assistants directly inspect schemas, run queries, and interact with any ODBC-compatible database
-    without custom glue code.
-  mental_damage: >-
-    Your agent can now introspect, query, and accidentally drop tables in twenty different databases, all from the
-    comfort of a chat window that confidently hallucinates your schema.
+  summary: A TypeScript-based MCP server that exposes ODBC-accessible databases to LLMs via the Model Context Protocol, enabling SQL and SPARQL queries through MCP client tools.
+  why_it_matters: It lets AI coding assistants directly inspect schemas, run queries, and interact with any ODBC-compatible database without custom glue code.
+  mental_damage: Your agent can now introspect, query, and accidentally drop tables in twenty different databases, all from the comfort of a chat window that confidently hallucinates your schema.
   tags:
     - mcp
     - database
@@ -73,21 +65,21 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.640Z'
+    updated_at: "2026-05-06T22:12:15.640Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-07-20T16:42:26.932Z'
+    updated_at: "2026-07-20T16:42:26.932Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.167Z'
+    updated_at: "2026-10-05T04:19:18.823Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: '77e831995030'
+    category_rules_version: "77e831995030"

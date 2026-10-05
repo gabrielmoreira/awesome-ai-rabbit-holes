@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__agent1st__io__ads__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,13 +19,7 @@ provenance:
           - 🎯 <a name="marketing"></a>Marketing
         anchor_text: agent1st.io/ads
         extracted_url: https://agent1st.io/ads
-        surrounding_text: >-
-          - [Nolas-Shadow/agent1st-ads-mcp](https://github.com/Nolas-Shadow/agent1st-ads-mcp)
-          [![Nolas-Shadow/agent1st-ads-mcp MCP
-          server](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp)
-          📇 ☁️ - Meta (Facebook/Instagram) and TikTok ad campaign management for AI agents. One tool call creates a
-          complete campaign — targeting, creative, budget, and ad. Requires license from
-          [agent1st.io/ads](https://agent1st.io/ads/).
+        surrounding_text: "- [Nolas-Shadow/agent1st-ads-mcp](https://github.com/Nolas-Shadow/agent1st-ads-mcp) [![Nolas-Shadow/agent1st-ads-mcp MCP server](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Nolas-Shadow/agent1st-ads-mcp) 📇 ☁️ - Meta (Facebook/Instagram) and TikTok ad campaign management for AI agents. One tool call creates a complete campaign — targeting, creative, budget, and ad. Requires license from [agent1st.io/ads](https://agent1st.io/ads/)."
         confidence: high
 metadata:
   github:
@@ -43,25 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous agent for creating, monitoring, and optimizing paid advertising campaigns on Meta and TikTok.
-  why_it_matters: It aims to automate the media buying and ad optimization process to drive conversions without a human media buyer.
-  mental_damage: >-
-    Because once the agents are running our ad spend, we'll finally have more time to stare at the debugging logs of the
-    agents running our code.
+  summary: Agent Ads is an autonomous MCP agent that creates, monitors, and optimizes paid ad campaigns on Meta and TikTok.
+  why_it_matters: It allows developers to integrate autonomous ad campaign management into their AI agent workflows via MCP.
+  mental_damage: Yet another AI agent promising to replace human expertise — this time in media buying, where nuance and brand safety still matter.
   tags:
-    - marketing
-    - ad-ops
+    - ads
     - mcp
-    - autonomous-agents
+    - marketing-automation
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool is a marketing automation product for ad operations, which falls outside the scope of developer-facing AI
-    tooling.
+  reason: Agent Ads is a domain-specific AI agent for marketing automation, not a developer-facing tool for coding, workflows, or AI infrastructure relevant to software development.
   evidence:
-    - The primary function is managing Meta and TikTok advertising campaigns
-    - The product is targeted at business growth and ad optimization rather than the software development lifecycle
+    - The product creates, monitors, and optimizes paid ad campaigns on Meta and TikTok via an autonomous MCP agent.
+    - Its core value proposition is replacing media buyers with AI for ad performance, not assisting developers with coding tasks.
+    - While it uses MCP for integration, its primary identity is ad operations, not MCP infrastructure, coding agents, or developer tooling.
 placement:
   primary_category: null
   section: null
@@ -71,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.658Z'
+    updated_at: "2026-05-06T22:12:15.658Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,25 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:31:46.974Z'
+    updated_at: "2026-10-05T04:27:39.202Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f7743aeba5bd1bb70287fb1ffc9a6a40b9fd4854a9974c17fb59c5c22ecc15e3
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c7dc128f360ea6b56d3f859ee6192df506f74356ae54f81e9ee2b264b0bb059b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool is a marketing automation product for ad operations, which falls outside the scope of developer-facing
-        AI tooling.
+      decision_reason: Agent Ads is a domain-specific AI agent for marketing automation, not a developer-facing tool for coding, workflows, or AI infrastructure relevant to software development.
       decision_evidence:
-        - The primary function is managing Meta and TikTok advertising campaigns
-        - The product is targeted at business growth and ad optimization rather than the software development lifecycle
+        - The product creates, monitors, and optimizes paid ad campaigns on Meta and TikTok via an autonomous MCP agent.
+        - Its core value proposition is replacing media buyers with AI for ad performance, not assisting developers with coding tasks.
+        - While it uses MCP for integration, its primary identity is ad operations, not MCP infrastructure, coding agents, or developer tooling.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

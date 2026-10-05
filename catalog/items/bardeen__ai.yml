@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bardeen__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Bardeen
         anchor_text: Bardeen
         extracted_url: https://bardeen.ai
-        surrounding_text: '## [Bardeen](https://www.bardeen.ai/)'
+        surrounding_text: "## [Bardeen](https://www.bardeen.ai/)"
         confidence: high
     - id: discovery__www__bardeen__ai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -33,7 +33,7 @@ provenance:
           - Bardeen
         anchor_text: Bardeen
         extracted_url: https://www.bardeen.ai
-        surrounding_text: '## [Bardeen](https://www.bardeen.ai/)'
+        surrounding_text: "## [Bardeen](https://www.bardeen.ai/)"
         confidence: high
 metadata:
   github:
@@ -51,33 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bardeen is an AI-powered automation platform for scraping web data, enriching leads, and syncing with spreadsheets.
-  why_it_matters: >-
-    It helps developers and GTM teams automate lead-generation workflows that would otherwise require custom scripts or
-    manual data entry.
-  mental_damage: >-
-    Another tool promising to replace your Python scraper with a click-through UI, just when you finally got
-    BeautifulSoup working.
+  summary: Bardeen is an automation and workflow platform for GTM teams that uses AI-powered web scraping, enrichment, and lead qualification to automate sales and outreach tasks.
+  why_it_matters: It reduces manual lead generation and data entry work for sales and operations teams by automating repetitive web-based workflows.
+  mental_damage: Another 'AI-powered' GTM tool promising to save hours while adding yet another SaaS login to the pile of tools sales teams already juggle.
   tags:
-    - automation
+    - sales-automation
     - web-scraping
     - lead-enrichment
+    - workflow-automation
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    Bardeen is a GTM-focused automation and lead-generation platform, not a developer-facing AI tool for coding, agents,
-    or workflows intrinsic to software development.
+  reason: Bardeen is a general-purpose workflow automation platform focused on sales and lead generation tasks, not developer-facing AI tooling for coding, agents, or infrastructure.
   evidence:
-    - >-
-      Scraped site context: 'Find and reach leads no one else can. Source leads with our agentic web scraper, qualify
-      them with AI and reach them with contact enrichment.'
-    - >-
-      Source-list context: Appears in awesome-ai-agents under 'Bardeen' with description focused on lead scraping and
-      enrichment for solopreneurs, real estate, recruiting, and PE.
-    - >-
-      README/product excerpt emphasizes sales, marketing, and ops use cases (SDRs, AEs, CSMs, RevOps), not developer
-      tooling or code-related workflows.
+    - Scraped site context describes Bardeen as an automation platform for GTM teams to eliminate manual tasks and streamline processes.
+    - Primary use cases include lead discovery, enrichment, outreach sequences, and CRM updates for sales, customer success, and revenue operations teams.
+    - Product features center on web scraping, AI lead qualification, contact enrichment, and syncing data to spreadsheets — not code editing, agent orchestration, or developer workflows.
 placement:
   primary_category: null
   section: null
@@ -87,39 +76,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:39:07.807Z'
+    updated_at: "2026-10-05T04:46:16.744Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:4d174060886201c5282052eecb1c8643e62e1cbf74a28cdb69ce620830f770ef
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b6aee4bac1c72150a6bbebcc6d77081b8e3c80c470a194edb8bc6e44c9966bea
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Bardeen is a GTM-focused automation and lead-generation platform, not a developer-facing AI tool for coding,
-        agents, or workflows intrinsic to software development.
+      decision_reason: Bardeen is a general-purpose workflow automation platform focused on sales and lead generation tasks, not developer-facing AI tooling for coding, agents, or infrastructure.
       decision_evidence:
-        - >-
-          Scraped site context: 'Find and reach leads no one else can. Source leads with our agentic web scraper,
-          qualify them with AI and reach them with contact enrichment.'
-        - >-
-          Source-list context: Appears in awesome-ai-agents under 'Bardeen' with description focused on lead scraping
-          and enrichment for solopreneurs, real estate, recruiting, and PE.
-        - >-
-          README/product excerpt emphasizes sales, marketing, and ops use cases (SDRs, AEs, CSMs, RevOps), not developer
-          tooling or code-related workflows.
+        - Scraped site context describes Bardeen as an automation platform for GTM teams to eliminate manual tasks and streamline processes.
+        - Primary use cases include lead discovery, enrichment, outreach sequences, and CRM updates for sales, customer success, and revenue operations teams.
+        - Product features center on web scraping, AI lead qualification, contact enrichment, and syncing data to spreadsheets — not code editing, agent orchestration, or developer workflows.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.365Z'
+    updated_at: "2026-07-20T16:42:15.365Z"
     cause: null
     next_retry_at: null
   stars:

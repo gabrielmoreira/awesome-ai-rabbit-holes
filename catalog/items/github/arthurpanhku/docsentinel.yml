@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arthurpanhku__docsentinel__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,10 +20,7 @@ provenance:
           - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
         anchor_text: arthurpanhku/Arthor-Agent
         extracted_url: https://github.com/arthurpanhku/arthor-agent
-        surrounding_text: >-
-          - [arthurpanhku/Arthor-Agent](https://github.com/arthurpanhku/Arthor-Agent) [![arthor-agent MCP
-          server](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent/badges/score.svg)](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent)
-          🐍 🏠 ☁️ - ...
+        surrounding_text: "- [arthurpanhku/Arthor-Agent](https://github.com/arthurpanhku/Arthor-Agent) [![arthor-agent MCP server](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent/badges/score.svg)](https://glama.ai/mcp/servers/@arthurpanhku/arthor-agent) 🐍 🏠 ☁️ - ..."
         confidence: high
 metadata:
   github:
@@ -33,12 +30,10 @@ metadata:
     archived: false
     full_name: arthurpanhku/DocSentinel
     html_url: https://github.com/arthurpanhku/DocSentinel
-    created_at: '2026-03-06T03:55:04Z'
-    pushed_at: '2026-09-18T07:14:51Z'
-    description: >-
-      MCP server for AI agent for cybersecurity: automate assessment of documents, questionnaires & reports.
-      Multi-format parsing, RAG knowledge base,Risks, compliance gaps, remediations. 
-    homepage: ''
+    created_at: "2026-03-06T03:55:04Z"
+    pushed_at: "2026-09-18T07:14:51Z"
+    description: "MCP server for AI agent for cybersecurity: automate assessment of documents, questionnaires & reports. Multi-format parsing, RAG knowledge base,Risks, compliance gaps, remediations. "
+    homepage: ""
     topics:
       - ai-agent
       - compliance
@@ -52,20 +47,14 @@ metadata:
       - rag
       - security
       - security-assessment
-    last_checked_at: '2026-09-21T04:13:47.767Z'
+    last_checked_at: "2026-09-21T04:13:47.767Z"
     readme:
-      fetched_at: '2026-09-21T04:13:47.767Z'
+      fetched_at: "2026-09-21T04:13:47.767Z"
       bytes: 41149
 insights:
-  summary: >-
-    MCP server and AI-powered platform for automating security assessments across the entire SSDLC using LangGraph
-    orchestration and RAG knowledge bases.
-  why_it_matters: >-
-    It shifts security left by automating threat modeling, compliance checks, and remediation suggestions across all six
-    SSDLC phases, reducing manual review bottlenecks.
-  mental_damage: >-
-    Finally, a tool that turns your security team’s backlog of PDFs and Word docs into a LangGraph-powered compliance
-    factory.
+  summary: MCP server and AI-powered platform for automating security assessments across the entire SSDLC using LangGraph orchestration and RAG knowledge bases.
+  why_it_matters: It shifts security left by automating threat modeling, compliance checks, and remediation suggestions across all six SSDLC phases, reducing manual review bottlenecks.
+  mental_damage: Finally, a tool that turns your security team’s backlog of PDFs and Word docs into a LangGraph-powered compliance factory.
   tags:
     - mcp-server
     - ssdlc
@@ -84,21 +73,21 @@ placement:
   section: Dev & Code Tools
 lifecycle:
   status: needs_review
-  reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''mcp'''
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.603Z'
+    updated_at: "2026-05-06T22:12:15.603Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:47.768Z'
+    updated_at: "2026-09-21T04:13:47.768Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -113,9 +102,7 @@ processing:
       input_hash: sha256:c09f088edcfb123f23a31b3308802524273873e90dde3ea3fa02ede040f75123
       proposed_primary_category: mcp
       disagreement: true
-      decision_reason: >-
-        MCP is the product identity here: it is explicitly an MCP server for security assessment workflows, not just an
-        MCP-compatible tool.
+      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for security assessment workflows, not just an MCP-compatible tool."
       decision_evidence:
         - Repo description explicitly states it is an MCP server for AI agent cybersecurity workflows
         - README highlights MCP readiness and integration with AI agents (Claude Desktop, Cursor, OpenClaw)
@@ -123,8 +110,6 @@ processing:
       category_candidates:
         - mcp
         - ai-frameworks
-      contrastive_reason: >-
-        Choose mcp over ai-frameworks because the product is explicitly an MCP server for security workflows, not a
-        general-purpose framework or SDK.
-      review_reason: 'Categorization review required: placement disagreement: retained ''agent-orchestration'', proposed ''mcp'''
+      contrastive_reason: Choose mcp over ai-frameworks because the product is explicitly an MCP server for security workflows, not a general-purpose framework or SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'mcp'"
       review_resume_lifecycle: null

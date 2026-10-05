@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__scienthoon__luce__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,14 +20,7 @@ provenance:
           - Calibration & Research
         anchor_text: Luce
         extracted_url: https://github.com/scienthoon/luce
-        surrounding_text: >-
-          - [Luce](https://github.com/scienthoon/luce)
-          ![stars](https://img.shields.io/github/stars/scienthoon/luce?style=flat-square&label=%E2%98%85) - Open recipe:
-          describe the decision task in a sentence, an LLM teacher writes the training data, a LoRA + decision head on
-          Qwen3-4B-Base answers choice/score/boolean questions with calibrated probabilities in one forward pass; trains
-          on a 12 GB card, and reports accuracy and ECE next to Jev on identical test items (rule-generated tickets 91.1
-          vs 75.1, phishing 97.4 vs 62.6, GitHub issue priority 41.1 vs 37.5) with a browser replay demo that needs no
-          GPU.
+        surrounding_text: "- [Luce](https://github.com/scienthoon/luce) ![stars](https://img.shields.io/github/stars/scienthoon/luce?style=flat-square&label=%E2%98%85) - Open recipe: describe the decision task in a sentence, an LLM teacher writes the training data, a LoRA + decision head on Qwen3-4B-Base answers choice/score/boolean questions with calibrated probabilities in one forward pass; trains on a 12 GB card, and reports accuracy and ECE next to Jev on identical test items (rule-generated tickets 91.1 vs 75.1, phishing 97.4 vs 62.6, GitHub issue priority 41.1 vs 37.5) with a browser replay demo that needs no GPU."
         confidence: high
 metadata:
   github:
@@ -45,12 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Luce - Open recipe: describe the decision task in a sentence, an LLM teacher writes the training data, a LoRA +
-    decision head on Qwen3-4B-Base answers choice/score/boolean questions with calibrated probabilities in one forward
-    pass; trains on a 12 GB card, and reports accuracy and ECE next to Jev on identical test items (rule-generated
-    tickets 91.1 vs 75.1, phishing 97.4 vs 62.6, GitHub issue priority 41.1 vs 37.5) with a browser replay demo that
-    needs no GPU.
+  summary: "Luce - Open recipe: describe the decision task in a sentence, an LLM teacher writes the training data, a LoRA + decision head on Qwen3-4B-Base answers choice/score/boolean questions with calibrated probabilities in one forward pass; trains on a 12 GB card, and reports accuracy and ECE next to Jev on identical test items (rule-generated tickets 91.1 vs 75.1, phishing 97.4 vs 62.6, GitHub issue priority 41.1 vs 37.5) with a browser replay demo that needs no GPU."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -70,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.476Z'
+    updated_at: "2026-09-29T13:07:10.476Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

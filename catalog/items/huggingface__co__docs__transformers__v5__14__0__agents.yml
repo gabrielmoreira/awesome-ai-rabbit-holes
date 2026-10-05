@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__docs__transformers__v5__14__0__agents__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-07-16T05:04:46.712Z'
+      discovered_at: "2026-07-16T05:04:46.712Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -18,9 +18,7 @@ provenance:
           - Other LLM Frameworks
         anchor_text: Transformers Agents
         extracted_url: https://huggingface.co/docs/transformers/transformers_agents
-        surrounding_text: >-
-          - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural
-          language API on top of transformers
+        surrounding_text: "- [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents): Provides a natural language API on top of transformers"
         confidence: high
 metadata:
   github:
@@ -38,29 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A redirect notice indicating the Agents documentation page for transformers v5.14.0 does not exist and users should
-    go to the main version.
-  why_it_matters: >-
-    It highlights documentation versioning friction developers face when navigating Hugging Face's moving target API
-    references.
-  mental_damage: >-
-    Another reminder that in the world of AI tooling, the docs you're reading are already outdated by the time you
-    finish the sentence.
-  tags:
-    - documentation
-    - huggingface
-    - versioning
+  summary: Hugging Face Transformers v5.14.0 documentation page for agents that currently does not exist in this version.
+  why_it_matters: It indicates missing or version-specific documentation, offering no functional tool or developer-facing utility.
+  mental_damage: Another click into the void of version-locked docs, reminding us that even AI tooling suffers from documentation rot.
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is not a tool, agent, or product — it is a broken documentation link with no functional agent behavior, making
-    it outside the catalog's scope.
+  reason: The input is a missing documentation page, not a standalone AI tool, agent, or developer-facing product.
   evidence:
-    - The page 'AGENTS' does not exist in transformers v5.14.0 and redirects to the main version
-    - No repo, stars, or activity signals are provided — this is a documentation notice, not a project
-    - The excerpt describes a missing page, not an AI agent or developer tool
+    - The documentation page AGENTS doesn't exist in v5.14.0, but exists on the main version. Click here to redirect to the main version of the documentation.
+    - No repo description, README, or scraped site context is provided to indicate a functional product.
+    - No stars, creation date, or activity signals suggest this is a maintained tool.
 placement:
   primary_category: null
   section: null
@@ -70,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-16T05:04:46.716Z'
+    updated_at: "2026-07-16T05:04:46.716Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,26 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:28:11.926Z'
+    updated_at: "2026-10-05T04:27:13.289Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e33b67706ec84cc3c0c20b1c9c54b81aa5d787644b41c60a43ff416ade23f569
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5b9d205098e7ca76bbd469d880575b65110e2f623a8750e25d7b3e7b365c6170
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is not a tool, agent, or product — it is a broken documentation link with no functional agent behavior,
-        making it outside the catalog's scope.
+      decision_reason: The input is a missing documentation page, not a standalone AI tool, agent, or developer-facing product.
       decision_evidence:
-        - The page 'AGENTS' does not exist in transformers v5.14.0 and redirects to the main version
-        - No repo, stars, or activity signals are provided — this is a documentation notice, not a project
-        - The excerpt describes a missing page, not an AI agent or developer tool
+        - The documentation page AGENTS doesn't exist in v5.14.0, but exists on the main version. Click here to redirect to the main version of the documentation.
+        - No repo description, README, or scraped site context is provided to indicate a functional product.
+        - No stars, creation date, or activity signals suggest this is a maintained tool.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

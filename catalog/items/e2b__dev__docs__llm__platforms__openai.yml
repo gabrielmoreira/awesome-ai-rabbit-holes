@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__e2b__dev__docs__llm__platforms__openai__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -15,11 +15,11 @@ provenance:
       extraction:
         mode: parsed
         section_path:
-          - ':eight_pointed_black_star: AI apps & agents with sandbox integration or native support'
+          - ":eight_pointed_black_star: AI apps & agents with sandbox integration or native support"
           - OpenAI's Assistants
         anchor_text: OpenAI's Assistants
         extracted_url: https://e2b.dev/docs/llm-platforms/openai
-        surrounding_text: '### :eight_pointed_black_star: [OpenAI''s Assistants](https://e2b.dev/docs/llm-platforms/openai/)'
+        surrounding_text: "### :eight_pointed_black_star: [OpenAI's Assistants](https://e2b.dev/docs/llm-platforms/openai/)"
         confidence: high
 metadata:
   github:
@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation for OpenAI's Assistants API within the E2B sandbox environment.
-  why_it_matters: >-
-    Provides the technical implementation details for running OpenAI Assistants within secure, sandboxed code execution
-    environments.
-  mental_damage: Another layer of abstraction to debug when your agent's code execution fails in a sandbox.
+  summary: Documentation page explaining how to use the OpenAI API with E2B's sandboxed code execution platform.
+  why_it_matters: Shows developers how to integrate OpenAI models with secure code execution for AI-assisted development workflows.
+  mental_damage: Another reminder that every AI tool needs its own special snowflake SDK wrapper just to avoid burning down your laptop.
   tags:
-    - api
-    - sandbox
     - openai
+    - e2b
+    - api-docs
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for using OpenAI with E2B, not a standalone AI developer tool or product; it lacks independent functionality and serves only as a guide.
+  reason: This is documentation for using OpenAI with E2B, not a standalone AI developer tool, agent, framework, or infrastructure product.
   evidence:
-    - URL points to e2b.dev/docs/llm-platforms/openai, indicating it is documentation
+    - URL points to e2b.dev/docs/llm-platforms/openai, indicating documentation
     - No repo description, stars, or activity signals provided
-    - Content describes how to use OpenAI API within E2B sandboxes, not a tool that performs coding tasks
+    - Content is explanatory guide rather than a tool or product
 placement:
   primary_category: null
   section: null
@@ -63,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.661Z'
+    updated_at: "2026-05-06T22:12:15.661Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,29 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:39:14.067Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for e2b__dev__docs__llm__platforms__openai: Invalid AI response structure:
-        Invalid confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:32:01.859Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:dd565eb8a510ba7e85d9f3abb4c1a23c6d873858fdfc1ea1220bda6e247834b0
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:862d27280217e18867ce71a4b0e8f25b57861c7e0fce3c6bc825ab3fbbc17cbd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation page for using OpenAI with E2B, not a standalone AI developer tool or product; it lacks independent functionality and serves only as a guide.
+      decision_reason: This is documentation for using OpenAI with E2B, not a standalone AI developer tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - URL points to e2b.dev/docs/llm-platforms/openai, indicating it is documentation
+        - URL points to e2b.dev/docs/llm-platforms/openai, indicating documentation
         - No repo description, stars, or activity signals provided
-        - Content describes how to use OpenAI API within E2B sandboxes, not a tool that performs coding tasks
+        - Content is explanatory guide rather than a tool or product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

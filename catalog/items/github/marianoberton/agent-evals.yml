@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marianoberton__agent-evals__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: agent-evals
         extracted_url: https://github.com/marianoberton/agent-evals
-        surrounding_text: >-
-          - [agent-evals](https://github.com/marianoberton/agent-evals) - Deterministic LLM-agent eval harness with
-          optional calibrated TypeSafe Jev judge for CI deploy gates. [Project
-          guide](community/projects/tools/agent-evals.md).
+        surrounding_text: "- [agent-evals](https://github.com/marianoberton/agent-evals) - Deterministic LLM-agent eval harness with optional calibrated TypeSafe Jev judge for CI deploy gates. [Project guide](community/projects/tools/agent-evals.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    agent-evals - Deterministic LLM-agent eval harness with optional calibrated TypeSafe Jev judge for CI deploy gates.
-    Project guide.
+  summary: agent-evals - Deterministic LLM-agent eval harness with optional calibrated TypeSafe Jev judge for CI deploy gates. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

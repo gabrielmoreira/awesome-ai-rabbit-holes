@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stas4000__jev-papers__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**jev-papers**'
+        anchor_text: "**jev-papers**"
         extracted_url: https://github.com/stas4000/jev-papers
-        surrounding_text: >-
-          - [**jev-papers**](https://github.com/stas4000/jev-papers) — 1,000 arXiv AI papers classified with one Jev
-          decision each, checked against an LLM judge. Open rebuild, MIT.
+        surrounding_text: "- [**jev-papers**](https://github.com/stas4000/jev-papers) — 1,000 arXiv AI papers classified with one Jev decision each, checked against an LLM judge. Open rebuild, MIT."
         confidence: high
 metadata:
   github:
@@ -49,9 +47,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -63,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.478Z'
+    updated_at: "2026-09-29T13:07:10.478Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

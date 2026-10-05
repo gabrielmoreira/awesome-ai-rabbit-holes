@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__abhishek085__open-spark-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: open-spark-jev
         extracted_url: https://github.com/abhishek085/open-spark-jev
-        surrounding_text: >-
-          - [open-spark-jev](https://github.com/abhishek085/open-spark-jev) - Open-source, local decision models
-          inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.
+        surrounding_text: "- [open-spark-jev](https://github.com/abhishek085/open-spark-jev) - Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark."
         confidence: high
     - id: discovery__github__abhishek085__open-spark-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Jev-like models (72)
         anchor_text: open-spark-jev
         extracted_url: https://github.com/abhishek085/open-spark-jev
-        surrounding_text: >-
-          | [open-spark-jev](https://github.com/abhishek085/open-spark-jev) | ★ 5 | Python | 2026-09-21 | Open local
-          System One implementation for NVIDIA DGX Spark, with a Qwen3-based model, Jev-compatible API, architecture
-          notes, and evaluation tooling. |
+        surrounding_text: "| [open-spark-jev](https://github.com/abhishek085/open-spark-jev) | ★ 5 | Python | 2026-09-21 | Open local System One implementation for NVIDIA DGX Spark, with a Qwen3-based model, Jev-compatible API, architecture notes, and evaluation tooling. |"
         confidence: high
 metadata:
   github:
@@ -50,12 +45,10 @@ metadata:
     archived: false
     full_name: abhishek085/open-spark-jev
     html_url: https://github.com/abhishek085/open-spark-jev
-    created_at: '2026-09-20T19:39:22Z'
-    pushed_at: '2026-09-27T18:53:09Z'
-    description: >-
-      Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX
-      Spark.
-    homepage: ''
+    created_at: "2026-09-20T19:39:22Z"
+    pushed_at: "2026-09-27T18:53:09Z"
+    description: Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.
+    homepage: ""
     topics:
       - agentic-ai
       - apache
@@ -68,21 +61,28 @@ metadata:
       - slm
       - system-one
       - training
-    last_checked_at: '2026-09-29T13:08:24.638Z'
+    last_checked_at: "2026-09-29T13:08:24.638Z"
     readme:
-      fetched_at: '2026-09-29T13:08:24.638Z'
+      fetched_at: "2026-09-29T13:08:24.638Z"
       bytes: 28090
 insights:
-  summary: Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Open-source, local decision model based on Qwen3, inspired by TypeSafe's Jev and System One, designed for NVIDIA DGX Spark.
+  why_it_matters: Provides developers with a locally runnable, open implementation of a typed decision model for deterministic agent judgment without relying on cloud APIs.
+  mental_damage: Another week, another open Jev clone — because clearly what the world needed was yet another way to route agent decisions with probability scores instead of text.
+  tags:
+    - local-ai
+    - decision-models
+    - jev
+    - qwen3
+    - dgx-spark
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: The project's core identity is a local, open-source decision model inspired by Jev/System One, matching the decision-models category's focus on models that return constrained probabilistic answers rather than generating text.
   evidence:
-    - jev-latest choice confidence 0.79
+    - "Repo description: 'Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.'"
+    - "Topics include: jev, local-ai, slm, system-one, indicating alignment with Jev-like decision model work."
+    - Listed in awesome-jev under 'Jev-like models (83)' and 'Benchmarks & research', showing ecosystem recognition as a Jev derivative.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -93,15 +93,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:24.638Z'
+    updated_at: "2026-09-29T13:08:24.638Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:12:15.435Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a550349520703c7c7732973a84230c6c274ddd5a2c3eb7d1aa19f7dcecbabffd
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project's core identity is a local, open-source decision model inspired by Jev/System One, matching the decision-models category's focus on models that return constrained probabilistic answers rather than generating text.
+      decision_evidence:
+        - "Repo description: 'Open-source, local decision models inspired by TypeSafe’s Jev and System One - built on Qwen3 for NVIDIA DGX Spark.'"
+        - "Topics include: jev, local-ai, slm, system-one, indicating alignment with Jev-like decision model work."
+        - Listed in awesome-jev under 'Jev-like models (83)' and 'Benchmarks & research', showing ecosystem recognition as a Jev derivative.
+      category_candidates:
+        - decision-models
+        - local-ai
+      contrastive_reason: Choose decision-models over local-ai because the product's identity is the decision model itself (Jev-inspired, Qwen3-based), not merely a local runtime or serving stack for generic models.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

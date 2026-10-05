@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__aipm__registry__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - CLI Tools
         anchor_text: AIPM
         extracted_url: https://aipm-registry.com
-        surrounding_text: >-
-          - **[AIPM](https://www.aipm-registry.com/)** – Open-source CLI and registry for finding, installing,
-          publishing, and managing reusable agent skills across Cursor, Claude Code, and Codex.
+        surrounding_text: "- **[AIPM](https://www.aipm-registry.com/)** – Open-source CLI and registry for finding, installing, publishing, and managing reusable agent skills across Cursor, Claude Code, and Codex."
         confidence: high
 metadata:
   github:
@@ -38,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AIPM – Open-source CLI and registry for finding, installing, publishing, and managing reusable agent skills across
-    Cursor, Claude Code, and Codex.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AIPM is a marketplace and CLI for installing versioned agent skills and prompts into Claude Code, Cursor, and Codex.
+  why_it_matters: It lets developers share and pin reusable AI agent behaviors like packages, reducing drift and duplication across teams.
+  mental_damage: Finally, a way to argue about skill versions instead of just arguing about which prompt wording is 'more correct'.
+  tags:
+    - ai-skills
+    - cli
+    - marketplace
+    - agent-extensions
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in skills / Registries & Directories
+  reason: AIPM is a registry and CLI for distributing installable agent skills and prompts, making it a content-first marketplace rather than a tool that executes behavior.
   evidence:
-    - jev-latest choice confidence 0.99
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed skills / Registries & Directories; placement kept at skills
-      (unverified)
+    - Marketplace of Claude skills, agent skills, and AI prompts that users install like packages via CLI
+    - Primary artifact is installable content (SKILL.md files) that changes agent behavior when added to .claude/skills
+    - Listed in awesome-ai-coding-tools under CLI Tools as a marketplace for Claude/Cursor/Codex skills
 placement:
   primary_category: skills
   secondary_categories:
@@ -64,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.486Z'
+    updated_at: "2026-09-29T13:07:10.486Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:08.589Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ac6ce778260923626bb2d7e84555246307bc0d246101d39e828df67a83de1719
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: AIPM is a registry and CLI for distributing installable agent skills and prompts, making it a content-first marketplace rather than a tool that executes behavior.
+      decision_evidence:
+        - Marketplace of Claude skills, agent skills, and AI prompts that users install like packages via CLI
+        - Primary artifact is installable content (SKILL.md files) that changes agent behavior when added to .claude/skills
+        - Listed in awesome-ai-coding-tools under CLI Tools as a marketplace for Claude/Cursor/Codex skills
+      category_candidates:
+        - skills
+        - extensions-and-addons
+      contrastive_reason: Choose skills over extensions-and-addons because AIPM’s core is distributing installable content (skills/prompts), not providing executable integrations or workflow tooling that runs inside agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

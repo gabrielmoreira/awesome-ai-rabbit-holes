@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__marcosmartinez__jev-acento__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,13 +20,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jev-acento
         extracted_url: https://github.com/marcosmartinez/jev-acento
-        surrounding_text: >-
-          - [jev-acento](https://github.com/marcosmartinez/jev-acento)
-          ![stars](https://img.shields.io/github/stars/marcosmartinez/jev-acento?style=flat-square&label=%E2%98%85) -
-          Language evaluation: pre-registered paired audit of Jev on Spanish over 3,200 human-labelled items, finding
-          that a Spanish `state` costs 3.0-6.4 pp of accuracy and roughly doubles ECE on XNLI and PAWS-X while writing
-          `instructions` in Spanish changes nothing, and shipping a CLI to rerun the same comparison on your own
-          labelled data.
+        surrounding_text: "- [jev-acento](https://github.com/marcosmartinez/jev-acento) ![stars](https://img.shields.io/github/stars/marcosmartinez/jev-acento?style=flat-square&label=%E2%98%85) - Language evaluation: pre-registered paired audit of Jev on Spanish over 3,200 human-labelled items, finding that a Spanish `state` costs 3.0-6.4 pp of accuracy and roughly doubles ECE on XNLI and PAWS-X while writing `instructions` in Spanish changes nothing, and shipping a CLI to rerun the same comparison on your own labelled data."
         confidence: high
 metadata:
   github:
@@ -44,10 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-acento - Language evaluation: pre-registered paired audit of Jev on Spanish over 3,200 human-labelled items,
-    finding that a Spanish state costs 3.0-6.4 pp of accuracy and roughly doubles ECE on XNLI and PAWS-X while writing
-    instructions in Spanish changes nothing, and shipping a CLI to rerun the same comparison on your own labelled data.
+  summary: "jev-acento - Language evaluation: pre-registered paired audit of Jev on Spanish over 3,200 human-labelled items, finding that a Spanish state costs 3.0-6.4 pp of accuracy and roughly doubles ECE on XNLI and PAWS-X while writing instructions in Spanish changes nothing, and shipping a CLI to rerun the same comparison on your own labelled data."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -57,9 +48,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.98
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -71,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.467Z'
+    updated_at: "2026-09-29T13:07:10.467Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,6 +68,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

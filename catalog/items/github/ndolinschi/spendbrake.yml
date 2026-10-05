@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ndolinschi__spendbrake__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: spendbrake
         extracted_url: https://github.com/ndolinschi/spendbrake
-        surrounding_text: >-
-          - [spendbrake](https://github.com/ndolinschi/spendbrake) ([site](https://spendbrake.vercel.app)) - Agent
-          budget brake — continue / downgrade_model / stop via TypeSafe Jev.
+        surrounding_text: "- [spendbrake](https://github.com/ndolinschi/spendbrake) ([site](https://spendbrake.vercel.app)) - Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev."
         confidence: high
     - id: discovery__github__ndolinschi__spendbrake__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: spendbrake
         extracted_url: https://github.com/ndolinschi/spendbrake
-        surrounding_text: >-
-          | [spendbrake](https://github.com/ndolinschi/spendbrake) | ★ 0 | TypeScript | 2026-09-19 | Agent budget brake
-          — continue / downgrade_model / stop via TypeSafe Jev. |
+        surrounding_text: "| [spendbrake](https://github.com/ndolinschi/spendbrake) | ★ 0 | TypeScript | 2026-09-19 | Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev. |"
         confidence: high
 metadata:
   github:
@@ -77,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.421Z'
+    updated_at: "2026-09-29T13:07:10.421Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.823Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

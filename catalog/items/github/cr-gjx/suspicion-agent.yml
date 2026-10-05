@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cr-gjx__suspicion-agent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -19,7 +19,7 @@ provenance:
           - Suspicion Agent
         anchor_text: Suspicion Agent
         extracted_url: https://github.com/cr-gjx/suspicion-agent
-        surrounding_text: '## [Suspicion Agent](https://github.com/CR-Gjx/Suspicion-Agent)'
+        surrounding_text: "## [Suspicion Agent](https://github.com/CR-Gjx/Suspicion-Agent)"
         confidence: high
 metadata:
   github:
@@ -29,20 +29,18 @@ metadata:
     archived: false
     full_name: CR-Gjx/Suspicion-Agent
     html_url: https://github.com/CR-Gjx/Suspicion-Agent
-    created_at: '2023-09-30T11:51:17Z'
-    pushed_at: '2023-11-08T08:02:01Z'
-    description: 'The implementation of "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4"'
+    created_at: "2023-09-30T11:51:17Z"
+    pushed_at: "2023-11-08T08:02:01Z"
+    description: "The implementation of \"Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4\""
     homepage: null
     topics: []
-    last_checked_at: '2026-09-14T04:13:30.751Z'
+    last_checked_at: "2026-09-14T04:13:30.751Z"
     readme:
-      fetched_at: '2026-09-14T04:13:30.751Z'
+      fetched_at: "2026-09-14T04:13:30.751Z"
       bytes: 1683
 insights:
   summary: Implementation of a Theory of Mind-aware GPT-4 agent for playing imperfect information games.
-  why_it_matters: >-
-    Demonstrates advanced multi-agent reasoning techniques in game-theoretic scenarios, which may inspire new approaches
-    to AI collaboration and strategic decision-making.
+  why_it_matters: Demonstrates advanced multi-agent reasoning techniques in game-theoretic scenarios, which may inspire new approaches to AI collaboration and strategic decision-making.
   mental_damage: Now you can lose at poker to an AI that not only knows your cards but also suspects you know it knows.
   tags:
     - multi-agent
@@ -52,9 +50,7 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is a research-focused implementation of a game-playing agent with Theory of Mind, not a developer tool for
-    coding workflows, app building, or infrastructure.
+  reason: This is a research-focused implementation of a game-playing agent with Theory of Mind, not a developer tool for coding workflows, app building, or infrastructure.
   evidence:
     - Repo description and README focus on playing imperfect information games with GPT-4
     - Primary artifact is a research paper implementation (arXiv:2309.17277)
@@ -68,17 +64,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.609Z'
+    updated_at: "2026-05-06T22:12:15.609Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-14T04:13:30.751Z'
+    updated_at: "2026-09-14T04:13:30.751Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -93,9 +89,7 @@ processing:
       input_hash: sha256:e8a93a8348f05b78f371e02068ceabb8aba7a6608fad0557066a7e19e2fc624c
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is a research-focused implementation of a game-playing agent with Theory of Mind, not a developer tool for
-        coding workflows, app building, or infrastructure.
+      decision_reason: This is a research-focused implementation of a game-playing agent with Theory of Mind, not a developer tool for coding workflows, app building, or infrastructure.
       decision_evidence:
         - Repo description and README focus on playing imperfect information games with GPT-4
         - Primary artifact is a research paper implementation (arXiv:2309.17277)

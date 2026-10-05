@@ -5,9 +5,8 @@ canonical_url: https://cloudbees.com/capabilities/cloudbees-smart-tests
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__cloudbees__com__capabilities__cloudbees__smart__tests__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-07-21T15:20:21.961Z'
+    - id: discovery__cloudbees__com__capabilities__cloudbees__smart__tests__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +18,10 @@ provenance:
           - Testing and QA
         anchor_text: Launchable
         extracted_url: https://launchableinc.com
-        surrounding_text: '- **[Launchable](https://launchableinc.com/)** – AI-driven test optimization that predicts which tests to run.'
+        surrounding_text: "- **[Launchable](https://launchableinc.com/)** – AI-driven test optimization that predicts which tests to run."
         confidence: high
-    - id: >-
-        discovery__www__cloudbees__com__capabilities__cloudbees__smart__tests__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__www__cloudbees__com__capabilities__cloudbees__smart__tests__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -35,7 +33,7 @@ provenance:
           - Testing and QA
         anchor_text: Launchable
         extracted_url: https://launchableinc.com
-        surrounding_text: '- **[Launchable](https://launchableinc.com/)** – AI-driven test optimization that predicts which tests to run.'
+        surrounding_text: "- **[Launchable](https://launchableinc.com/)** – AI-driven test optimization that predicts which tests to run."
         confidence: high
 metadata:
   github:
@@ -53,20 +51,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Launchable is CloudBees Smart Tests, an AI-powered test selection and flaky test detection service that reduces CI
-    test execution time by running only relevant tests per code change.
-  why_it_matters: >-
-    It saves developers CI time and compute by intelligently prioritizing tests and reducing flaky failure noise in
-    existing pipelines.
-  mental_damage: >-
-    Finally, an AI that doesn't write code but instead decides which of your already-too-many tests you can safely
-    ignore.
+  summary: CloudBees Smart Tests uses AI to prioritize and run only the most relevant tests for each code change, reducing CI waste.
+  why_it_matters: It cuts test execution time and flaky reruns, giving developers faster feedback and lower CI costs without replacing existing test frameworks.
+  mental_damage: Another AI-powered promise to stop wasting compute on tests we already wrote, because trusting our own test suites clearly wasn't enough.
   tags:
     - testing
     - ci-cd
     - ai
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
@@ -75,46 +67,42 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'decision-models', proposed 'evals'"
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:40:11.418Z'
+    updated_at: "2026-10-05T04:47:01.354Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:47095efd04bf3ed6c752559078420b92e33bf38d98609c0d8b5883ed857eed7b
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c420bce675d726894485c4b6945b9d7be14c55882e394a4f5764c989d38d6c68
       proposed_primary_category: evals
-      disagreement: false
-      decision_reason: >-
-        Launchable fits Evals because its core function is measuring, tracing, and optimizing test behavior—identifying
-        flaky tests and predicting test relevance—rather than generating or editing code.
+      disagreement: true
+      decision_reason: It belongs in evals because its core function is measuring, tracing, and optimizing test suite behavior using AI to reduce waste and improve signal, not to generate or edit code.
       decision_evidence:
-        - AI-powered test intelligence that cuts test execution time up to 80% by running only relevant tests
-        - Analyzes test behavior across pipelines to identify flaky tests, long-running tests, and reliable tests
-        - >-
-          AI-powered classification groups failures, surfaces patterns, and brings relevant history into one place for
-          faster triage
+        - AI-powered test intelligence that cuts test execution time up to 80%
+        - Analyzes test behavior across your pipeline to identify flaky tests and long-running tests
+        - Appears in awesome-ai-coding-tools under Testing and QA for AI-powered test intelligence
       category_candidates:
         - evals
-        - extensions-and-addons
-      contrastive_reason: >-
-        Choose evals over extensions-and-addons because Launchable's primary identity is AI-driven test analytics and
-        optimization, not extending a coding agent or IDE with new capabilities.
-      review_reason: null
-      review_resume_lifecycle: null
+        - ai-dev-extensions
+      contrastive_reason: Choose evals over ai-dev-extensions because the product's identity is AI-driven test analysis and optimization, not extending a coding agent or IDE with debugging or workflow capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'decision-models', proposed 'evals'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.963Z'
+    updated_at: "2026-07-21T15:20:21.963Z"
     cause: null
     next_retry_at: null
   stars:

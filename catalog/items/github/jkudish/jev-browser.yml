@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jkudish__jev-browser__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-browser
         extracted_url: https://github.com/jkudish/jev-browser
-        surrounding_text: '- [jev-browser](https://github.com/jkudish/jev-browser) - Browser use using Typesafe''s Jev model.'
+        surrounding_text: "- [jev-browser](https://github.com/jkudish/jev-browser) - Browser use using Typesafe's Jev model."
         confidence: high
     - id: discovery__github__jkudish__jev-browser__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,12 +35,10 @@ provenance:
           - Browser & computer use (75)
         anchor_text: jev-browser
         extracted_url: https://github.com/jkudish/jev-browser
-        surrounding_text: >-
-          | [jev-browser](https://github.com/jkudish/jev-browser) | ★ 155 | TypeScript | 2026-09-19 | Browser use using
-          Typesafe's Jev model. |
+        surrounding_text: "| [jev-browser](https://github.com/jkudish/jev-browser) | ★ 155 | TypeScript | 2026-09-19 | Browser use using Typesafe's Jev model. |"
         confidence: high
     - id: discovery__github__jkudish__jev-browser__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -50,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**jev-browser**'
+        anchor_text: "**jev-browser**"
         extracted_url: https://github.com/jkudish/jev-browser
-        surrounding_text: >-
-          - [**jev-browser**](https://github.com/jkudish/jev-browser) — Drives a browser from a task and URL, returning
-          the final page, screenshot and action trace.
+        surrounding_text: "- [**jev-browser**](https://github.com/jkudish/jev-browser) — Drives a browser from a task and URL, returning the final page, screenshot and action trace."
         confidence: high
     - id: discovery__github__jkudish__jev-browser__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -70,14 +66,10 @@ provenance:
           - Agent Decisions
         anchor_text: Jev Browser
         extracted_url: https://github.com/jkudish/jev-browser
-        surrounding_text: >-
-          - [Jev Browser](https://github.com/jkudish/jev-browser)
-          ![stars](https://img.shields.io/github/stars/jkudish/jev-browser?style=flat-square&label=%E2%98%85) - Browser
-          automation: drives a browser with Jev deciding each step, pitched as fast and very cheap next to LLM-driven
-          browsing.
+        surrounding_text: "- [Jev Browser](https://github.com/jkudish/jev-browser) ![stars](https://img.shields.io/github/stars/jkudish/jev-browser?style=flat-square&label=%E2%98%85) - Browser automation: drives a browser with Jev deciding each step, pitched as fast and very cheap next to LLM-driven browsing."
         confidence: high
     - id: discovery__github__jkudish__jev-browser__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -89,7 +81,7 @@ provenance:
           - Browser and computer use
         anchor_text: jev-browser
         extracted_url: https://github.com/jkudish/jev-browser
-        surrounding_text: '- [jev-browser](https://github.com/jkudish/jev-browser) - Browser-use experiment powered by Jev decisions.'
+        surrounding_text: "- [jev-browser](https://github.com/jkudish/jev-browser) - Browser-use experiment powered by Jev decisions."
         confidence: high
 metadata:
   github:
@@ -127,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.374Z'
+    updated_at: "2026-09-29T13:07:10.374Z"
     cause: null
     next_retry_at: null
   stars:
@@ -135,6 +127,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

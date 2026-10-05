@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bmw4d__com__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,10 +18,7 @@ provenance:
           - 智能体 Agents
         anchor_text: AutoGen AIStudio
         extracted_url: https://autogen-studio.com
-        surrounding_text: >-
-          1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM
-          applications using multiple agents that can converse with each other to solve tasks. [AutoGen
-          AIStudio](https://autogen-studio.com/)
+        surrounding_text: "1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)"
         confidence: high
 metadata:
   github:
@@ -39,17 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: bmw4d.com is an Indonesian online gambling site offering slot, togel, casino, and sports betting games.
+  why_it_matters: It does not provide any developer-facing AI tool, workflow, or infrastructure relevant to software development.
+  mental_damage: Another reminder that 'AI' in a URL doesn't mean it’s useful for coding — just another digital casino in developer’s clothing.
+  tags:
+    - gambling
+    - casino
+    - online-gaming
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The site is an online gambling platform with no connection to AI developer tooling, coding agents, or software development workflows.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.29 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Scraped site context identifies BMW4D as a situs game online providing slot, togel, casino, and sports betting.
+    - Source-list context shows it was listed in awesome-LLM-resources under '智能体 Agents' but the content confirms it is a gambling site, not an AI agent.
+    - No repository, description, or technical claims suggest any AI, agent, or developer tooling functionality.
 placement:
   primary_category: null
   secondary_categories: []
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:02:45.221Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1afa00e5add6a112714d7410825b409af96519a4b8ea6ac790ddb8c09cff430f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site is an online gambling platform with no connection to AI developer tooling, coding agents, or software development workflows.
+      decision_evidence:
+        - Scraped site context identifies BMW4D as a situs game online providing slot, togel, casino, and sports betting.
+        - Source-list context shows it was listed in awesome-LLM-resources under '智能体 Agents' but the content confirms it is a gambling site, not an AI agent.
+        - No repository, description, or technical claims suggest any AI, agent, or developer tooling functionality.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

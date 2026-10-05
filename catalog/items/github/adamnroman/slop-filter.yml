@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__adamnroman__slop-filter__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: slop-filter
         extracted_url: https://github.com/adamnroman/slop-filter
-        surrounding_text: >-
-          - [slop-filter](https://github.com/adamnroman/slop-filter) - Chrome extension that hides AI-generated posts
-          and comments on X, LinkedIn, and Reddit. Scored by TypeSafe Jev.
+        surrounding_text: "- [slop-filter](https://github.com/adamnroman/slop-filter) - Chrome extension that hides AI-generated posts and comments on X, LinkedIn, and Reddit. Scored by TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: adamnroman/slop-filter
     html_url: https://github.com/adamnroman/slop-filter
-    created_at: '2026-09-20T01:07:43Z'
-    pushed_at: '2026-09-27T19:20:49Z'
+    created_at: "2026-09-20T01:07:43Z"
+    pushed_at: "2026-09-27T19:20:49Z"
     description: Chrome extension that hides AI-generated posts and comments on X, LinkedIn, and Reddit. Scored by TypeSafe Jev.
     homepage: null
     topics:
@@ -43,9 +41,9 @@ metadata:
       - linkedin
       - twitter
       - typesafe
-    last_checked_at: '2026-09-29T13:08:27.842Z'
+    last_checked_at: "2026-09-29T13:08:27.842Z"
     readme:
-      fetched_at: '2026-09-29T13:08:27.842Z'
+      fetched_at: "2026-09-29T13:08:27.842Z"
       bytes: 4789
 insights:
   summary: Chrome extension that hides AI-generated posts and comments on X, LinkedIn, and Reddit. Scored by TypeSafe Jev.
@@ -68,15 +66,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.446Z'
+    updated_at: "2026-09-29T13:07:10.446Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:27.842Z'
+    updated_at: "2026-09-29T13:08:27.842Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:14:54.216Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__adamnroman__slop-filter: Invalid AI response format: Error: No JSON found in AI response"
+    next_retry_at: null
+    attempts: 1

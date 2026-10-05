@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ambujtewari__com__llm__fall2024__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-20T16:42:15.363Z'
+      discovered_at: "2026-07-20T16:42:15.363Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 39. [LLMs and Transformers](https://www.ambujtewari.com/LLM-fall2024/)
         confidence: high
     - id: discovery__www__ambujtewari__com__llm__fall2024__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,30 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LLMs and Transformers is an educational course page covering LLMs, multimodal generation, agents, coding assistance,
-    model training, inference, and related topics.
-  why_it_matters: >-
-    It serves as a curated learning resource for developers seeking to understand and apply LLM technologies in software
-    development workflows.
-  mental_damage: Another exhaustive syllabus promising mastery while you struggle to keep up with the weekly paper deluge.
+  summary: LLMs and Transformers is an educational resource page on ambujtewari.com covering LLM topics including agents and coding assistance.
+  why_it_matters: It aggregates learning material for developers wanting to understand LLMs and their applications in software development.
+  mental_damage: Another PDF-heavy course page that promises agent insights but delivers mostly theory you’ll forget before lunch.
   tags:
     - education
     - llm
-    - course
+    - resources
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    It is an educational resource page, not a developer-facing AI tool, agent, framework, or infrastructure product, and
-    thus falls outside the catalog's scope of practical AI tooling for software developers.
+  reason: It is an educational summary resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
   evidence:
-    - 'Repo description: (none)'
-    - >-
-      Seen in source lists / directories: awesome-LLM-resources | purpose: 🧑‍🚀
-      全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM
-      resources. | section: 课程 Course
-    - The URL https://ambujtewari.com/LLM-fall2024 hosts a course page, not a deployable tool, SDK, agent, or platform.
+    - "Repo description: (none)"
+    - "Seen in source lists: awesome-LLM-resources under purpose: '全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）'"
+    - "URL: https://ambujtewari.com/LLM-fall2024 indicates a course or lecture page, not a tool"
 placement:
   primary_category: null
   section: null
@@ -84,38 +75,31 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: '2026-09-28T04:38:48.380Z'
+    updated_at: "2026-10-05T04:46:00.958Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c24b85df6a8a8e7f15b1b7194dc10a93a9eb6244c94d3b1c79f12c5ed6fa5c30
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d77e2c55a953f90798aabb671fbd77763a5f018d208284a2fd32170b65e71352
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        It is an educational resource page, not a developer-facing AI tool, agent, framework, or infrastructure product,
-        and thus falls outside the catalog's scope of practical AI tooling for software developers.
+      decision_reason: It is an educational summary resource, not a developer-facing AI tool, agent, workflow, or infrastructure product.
       decision_evidence:
-        - 'Repo description: (none)'
-        - >-
-          Seen in source lists / directories: awesome-LLM-resources | purpose: 🧑‍🚀
-          全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM
-          resources. | section: 课程 Course
-        - >-
-          The URL https://ambujtewari.com/LLM-fall2024 hosts a course page, not a deployable tool, SDK, agent, or
-          platform.
+        - "Repo description: (none)"
+        - "Seen in source lists: awesome-LLM-resources under purpose: '全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）'"
+        - "URL: https://ambujtewari.com/LLM-fall2024 indicates a course or lecture page, not a tool"
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-20T16:42:15.364Z'
+    updated_at: "2026-07-20T16:42:15.364Z"
     cause: null
     next_retry_at: null
   stars:

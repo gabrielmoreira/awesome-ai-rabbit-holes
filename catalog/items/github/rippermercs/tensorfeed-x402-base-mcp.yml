@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__rippermercs__tensorfeed-x402-base-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,13 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: RipperMercs/tensorfeed-x402-base-mcp
         extracted_url: https://github.com/rippermercs/tensorfeed-x402-base-mcp
-        surrounding_text: >-
-          -   **[RipperMercs/tensorfeed-x402-base-mcp](https://github.com/RipperMercs/tensorfeed-x402-base-mcp)**
-          [![GitHub
-          stars](https://img.shields.io/github/stars/RipperMercs/tensorfeed-x402-base-mcp?style=social)](https://github.com/RipperMercs/tensorfeed-x402-base-mcp):
-          Read-only Base mainnet chain reader for x402 payment verification. 11 tools: verify on-chain that a USDC
-          settlement matches a claimed x402 receipt, parse publisher `/.well-known/x402` manifests, list recent USDC
-          payments to an address, check AFTA federation status. No private keys, MIT, in the canonical MCP registry.
+        surrounding_text: "-   **[RipperMercs/tensorfeed-x402-base-mcp](https://github.com/RipperMercs/tensorfeed-x402-base-mcp)** [![GitHub stars](https://img.shields.io/github/stars/RipperMercs/tensorfeed-x402-base-mcp?style=social)](https://github.com/RipperMercs/tensorfeed-x402-base-mcp): Read-only Base mainnet chain reader for x402 payment verification. 11 tools: verify on-chain that a USDC settlement matches a claimed x402 receipt, parse publisher `/.well-known/x402` manifests, list recent USDC payments to an address, check AFTA federation status. No private keys, MIT, in the canonical MCP registry."
         confidence: high
 metadata:
   github:
@@ -44,11 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    RipperMercs/tensorfeed-x402-base-mcp : Read-only Base mainnet chain reader for x402 payment verification. 11 tools:
-    verify on-chain that a USDC settlement matches a claimed x402 receipt, parse publisher /.well-known/x402 manifests,
-    list recent USDC payments to an address, check AFTA federation status. No private keys, MIT, in the canonical MCP
-    registry.
+  summary: "RipperMercs/tensorfeed-x402-base-mcp : Read-only Base mainnet chain reader for x402 payment verification. 11 tools: verify on-chain that a USDC settlement matches a claimed x402 receipt, parse publisher /.well-known/x402 manifests, list recent USDC payments to an address, check AFTA federation status. No private keys, MIT, in the canonical MCP registry."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

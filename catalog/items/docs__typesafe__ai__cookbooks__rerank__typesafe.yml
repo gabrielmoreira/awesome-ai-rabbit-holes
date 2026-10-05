@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__docs__typesafe__ai__cookbooks__rerank__typesafe__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Retrieval and verification
         anchor_text: Re-ranking
         extracted_url: https://docs.typesafe.ai/cookbooks/rerank_typesafe
-        surrounding_text: >-
-          - [Re-ranking](https://docs.typesafe.ai/cookbooks/rerank_typesafe) - Apply semantic judgments to a shortlist
-          produced by an existing retriever.
+        surrounding_text: "- [Re-ranking](https://docs.typesafe.ai/cookbooks/rerank_typesafe) - Apply semantic judgments to a shortlist produced by an existing retriever."
         confidence: high
 metadata:
   github:
@@ -39,28 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe is a decision model (Jev/System One) that scores query-candidate pairs with noul values for re-ranking retrieval results.
+  why_it_matters: It improves retrieval accuracy by enabling precise, low-cost re-ranking of candidate passages against specific legal or factual criteria.
+  mental_damage: Yet another specialized model promising to fix retrieval, as if BM25 wasn’t already enough of a rabbit hole.
+  tags:
+    - decision-model
+    - retrieval
+    - reranking
+    - noul
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: TypeSafe’s core identity is a decision model (Jev/System One) that returns noul scores for typed questions, not a coding agent or general AI tool, making it a clear fit for decision-models.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.45 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - TypeSafe returns a noul (number between 0 and 1) as a score for yes/no questions about query-candidate relevance
+    - The product is explicitly described as TypeSafe AI and uses the Jev-1.12 model via its SDK
+    - Source-list context shows it is used in a Jev-powered app for retrieval and verification in the awesome-jev list
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:04:53.496Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ae0efbbcf672984b3427aa04ec1cccc297b36094883d0bca6f4639132f35effe
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: TypeSafe’s core identity is a decision model (Jev/System One) that returns noul scores for typed questions, not a coding agent or general AI tool, making it a clear fit for decision-models.
+      decision_evidence:
+        - TypeSafe returns a noul (number between 0 and 1) as a score for yes/no questions about query-candidate relevance
+        - The product is explicitly described as TypeSafe AI and uses the Jev-1.12 model via its SDK
+        - Source-list context shows it is used in a Jev-powered app for retrieval and verification in the awesome-jev list
+      category_candidates:
+        - decision-models
+        - memory-and-context
+      contrastive_reason: Choose decision-models over memory-and-context because TypeSafe’s identity is the decision model itself (Jev/System One) that scores query-candidate pairs, not a memory or retrieval infrastructure layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

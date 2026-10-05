@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__unicodeveloper__jevocks__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jevocks
         extracted_url: https://github.com/unicodeveloper/jevocks
-        surrounding_text: >-
-          - [jevocks](https://github.com/unicodeveloper/jevocks) ([site](https://jevinik.up.railway.app)) - Everyday
-          Stocks Status with Jev.
+        surrounding_text: "- [jevocks](https://github.com/unicodeveloper/jevocks) ([site](https://jevinik.up.railway.app)) - Everyday Stocks Status with Jev."
         confidence: high
     - id: discovery__github__unicodeveloper__jevocks__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Applications (129)
         anchor_text: jevocks
         extracted_url: https://github.com/unicodeveloper/jevocks
-        surrounding_text: >-
-          | [jevocks](https://github.com/unicodeveloper/jevocks) | ★ 9 | TypeScript | 2026-09-19 | Everyday Stocks
-          Status with Jev. |
+        surrounding_text: "| [jevocks](https://github.com/unicodeveloper/jevocks) | ★ 9 | TypeScript | 2026-09-19 | Everyday Stocks Status with Jev. |"
         confidence: high
     - id: discovery__github__unicodeveloper__jevocks__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -55,11 +51,7 @@ provenance:
           - Finance & Trading
         anchor_text: Jevinik
         extracted_url: https://github.com/unicodeveloper/jevocks
-        surrounding_text: >-
-          - [Jevinik](https://github.com/unicodeveloper/jevocks)
-          ![stars](https://img.shields.io/github/stars/unicodeveloper/jevocks?style=flat-square&label=%E2%98%85) - Stock
-          decisions: terminal that gathers live market evidence through Valyu and asks Jev whether a stock is likely to
-          trade higher over the next 30 days.
+        surrounding_text: "- [Jevinik](https://github.com/unicodeveloper/jevocks) ![stars](https://img.shields.io/github/stars/unicodeveloper/jevocks?style=flat-square&label=%E2%98%85) - Stock decisions: terminal that gathers live market evidence through Valyu and asks Jev whether a stock is likely to trade higher over the next 30 days."
         confidence: high
 metadata:
   github:
@@ -96,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.405Z'
+    updated_at: "2026-09-29T13:07:10.405Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +96,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

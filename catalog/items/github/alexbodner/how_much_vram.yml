@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexbodner__how_much_vram__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -29,14 +29,14 @@ metadata:
     archived: false
     full_name: AlexBodner/How_Much_VRAM
     html_url: https://github.com/AlexBodner/How_Much_VRAM
-    created_at: '2024-07-09T17:34:35Z'
-    pushed_at: '2024-08-30T19:41:32Z'
+    created_at: "2024-07-09T17:34:35Z"
+    pushed_at: "2024-08-30T19:41:32Z"
     description: null
     homepage: https://how-much-vram.vercel.app
     topics: []
-    last_checked_at: '2026-09-17T04:13:39.446Z'
+    last_checked_at: "2026-09-17T04:13:39.446Z"
     readme:
-      fetched_at: '2026-09-17T04:13:39.446Z'
+      fetched_at: "2026-09-17T04:13:39.446Z"
       bytes: 1934
 insights:
   summary: A web tool that estimates VRAM requirements for running local LLMs based on model parameters and configuration.
@@ -63,17 +63,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.601Z'
+    updated_at: "2026-05-06T22:12:15.601Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:39.446Z'
+    updated_at: "2026-09-17T04:13:39.446Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.164Z'
+    updated_at: "2026-10-05T04:19:18.818Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -92,14 +92,10 @@ processing:
       decision_evidence:
         - Homepage title and URL indicate a VRAM estimation tool for local LLM usage
         - Repo is active (pushed 2024-08-30) and unarchived
-        - >-
-          Source-list context places it in a tutorial section of an LLM resources list, but the tool itself is
-          operational
+        - Source-list context places it in a tutorial section of an LLM resources list, but the tool itself is operational
       category_candidates:
         - local-ai
         - ai-frameworks
-      contrastive_reason: >-
-        Choose local-ai over ai-frameworks because the tool's primary value is hardware planning for local inference
-        rather than a code-first SDK or library.
+      contrastive_reason: Choose local-ai over ai-frameworks because the tool's primary value is hardware planning for local inference rather than a code-first SDK or library.
       review_reason: null
       review_resume_lifecycle: null

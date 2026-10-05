@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__1panel-dev__laya-server__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: laya-server (1Panel-dev)
         extracted_url: https://github.com/1panel-dev/laya-server
-        surrounding_text: >-
-          - [laya-server (1Panel-dev)](https://github.com/1Panel-dev/laya-server) - A self-hosted API and web interface
-          for Laya’s structured decision models, compatible with the TypeSafe Jev API format.
+        surrounding_text: "- [laya-server (1Panel-dev)](https://github.com/1Panel-dev/laya-server) - A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format."
         confidence: high
     - id: discovery__github__1panel-dev__laya-server__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Jev-like models (72)
         anchor_text: laya-server
         extracted_url: https://github.com/1panel-dev/laya-server
-        surrounding_text: >-
-          | [laya-server](https://github.com/1Panel-dev/laya-server) | ★ 38 | TypeScript | 2026-09-24 | Self-hosted API
-          and web interface for Laya decision models with a Jev-compatible API shape. |
+        surrounding_text: "| [laya-server](https://github.com/1Panel-dev/laya-server) | ★ 38 | TypeScript | 2026-09-24 | Self-hosted API and web interface for Laya decision models with a Jev-compatible API shape. |"
         confidence: high
 metadata:
   github:
@@ -49,12 +45,10 @@ metadata:
     archived: false
     full_name: 1Panel-dev/laya-server
     html_url: https://github.com/1Panel-dev/laya-server
-    created_at: '2026-09-23T05:08:49Z'
-    pushed_at: '2026-09-29T01:51:11Z'
-    description: >-
-      A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API
-      format.
-    homepage: ''
+    created_at: "2026-09-23T05:08:49Z"
+    pushed_at: "2026-09-29T01:51:11Z"
+    description: A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format.
+    homepage: ""
     topics:
       - decision-model
       - jev
@@ -62,14 +56,12 @@ metadata:
       - jev-api
       - laya
       - typesafe
-    last_checked_at: '2026-09-29T13:08:15.756Z'
+    last_checked_at: "2026-09-29T13:08:15.756Z"
     readme:
-      fetched_at: '2026-09-29T13:08:15.756Z'
+      fetched_at: "2026-09-29T13:08:15.756Z"
       bytes: 2799
 insights:
-  summary: >-
-    A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API
-    format.
+  summary: A self-hosted API and web interface for Laya’s structured decision models, compatible with the TypeSafe Jev API format.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -89,15 +81,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:15.756Z'
+    updated_at: "2026-09-29T13:08:15.756Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:10:34.217Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__1panel-dev__laya-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

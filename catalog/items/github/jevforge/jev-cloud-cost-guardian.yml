@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__jevforge__jev-cloud-cost-guardian__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-cloud-cost-guardian
         extracted_url: https://github.com/jevforge/jev-cloud-cost-guardian
-        surrounding_text: >-
-          - [jev-cloud-cost-guardian](https://github.com/JevForge/jev-cloud-cost-guardian) - GitHub Action FinOps gate:
-          TypeSafe Jev evaluates cloud spend vs budget (`approve`/`warn`/`block`/`manual-review`) without mutating
-          infra. [Project guide](community/projects/tools/jev-cloud-cost-guardian.md).
+        surrounding_text: "- [jev-cloud-cost-guardian](https://github.com/JevForge/jev-cloud-cost-guardian) - GitHub Action FinOps gate: TypeSafe Jev evaluates cloud spend vs budget (`approve`/`warn`/`block`/`manual-review`) without mutating infra. [Project guide](community/projects/tools/jev-cloud-cost-guardian.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-cloud-cost-guardian - GitHub Action FinOps gate: TypeSafe Jev evaluates cloud spend vs budget
-    (approve/warn/block/manual-review) without mutating infra. Project guide.
+  summary: "jev-cloud-cost-guardian - GitHub Action FinOps gate: TypeSafe Jev evaluates cloud spend vs budget (approve/warn/block/manual-review) without mutating infra. Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.462Z'
+    updated_at: "2026-09-29T13:07:10.462Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

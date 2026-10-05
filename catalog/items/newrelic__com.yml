@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__newrelic__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: New Relic
         extracted_url: https://newrelic.com
-        surrounding_text: '- **[New Relic](https://newrelic.com/)** – Observability platform with AIOps and anomaly detection.'
+        surrounding_text: "- **[New Relic](https://newrelic.com/)** – Observability platform with AIOps and anomaly detection."
         confidence: high
 metadata:
   github:
@@ -36,46 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    New Relic is an AI-powered observability platform that correlates telemetry across the entire stack to isolate root
-    causes and reduce MTTR.
-  why_it_matters: >-
-    It gives developers end-to-end visibility into application performance, user experience, and AI agent behavior,
-    helping them debug faster and protect business outcomes.
-  mental_damage: >-
-    Another observability platform promising to predict, think, and act—while your pager still blares at 3 a.m. because
-    the AI missed the one metric that actually mattered.
+  summary: New Relic is an AI-powered observability platform that correlates telemetry across the stack to isolate root causes and reduce MTTR.
+  why_it_matters: It helps developers and SREs detect and resolve issues in AI and traditional systems faster by unifying metrics, logs, traces, and agent behavior in one view.
+  mental_damage: Yet another dashboard promising to 'predict, think, act' — because what we really needed was more AI telling us our systems are on fire.
   tags:
     - observability
     - ai-monitoring
     - devops
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    New Relic is a broad observability and monitoring platform with AI features, not a developer-facing AI tool for
-    coding, agents, or workflows; its primary identity is enterprise infrastructure observability, not AI-assisted
-    development.
+  status: included
+  reason: New Relic provides AI observability and monitoring capabilities as a platform service, primarily consumed via APIs and integrations rather than as a standalone coding agent, framework library, or app builder, making it best suited as a provider abstraction in AI frameworks.
   evidence:
-    - >-
-      Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools, noting it
-      correlates telemetry to reduce MTTR
-    - >-
-      Scraped site context emphasizes AI-powered observability, agentic monitoring, and full-stack visibility—not coding
-      assistance or agent behavior
-    - >-
-      No evidence of direct code editing, prompt-to-app generation, agent orchestration, or developer workflow
-      integration as core functionality
+    - Scraped site context describes New Relic as an 'AI-powered observability platform' that monitors AI agents, models, and infrastructure.
+    - Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure' for its telemetry correlation and MTTR reduction.
+    - Product features include AI and Agentic Monitoring, SRE Agent, and cloud cost intelligence — all positioned as platform services for observability, not agent behavior or code generation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider & Model Abstractions
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,34 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:50.427Z'
+    updated_at: "2026-10-05T04:59:36.224Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:3f135f97f44ccc83d12405f0868bbf67507133a5de4cfaad56896f7fae1ea79f
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:99642f372bcd1ab110610732d4a4dfdd01bba87234af9d128279a1e84fb51625
+      proposed_primary_category: ai-frameworks
       disagreement: false
-      decision_reason: >-
-        New Relic is a broad observability and monitoring platform with AI features, not a developer-facing AI tool for
-        coding, agents, or workflows; its primary identity is enterprise infrastructure observability, not AI-assisted
-        development.
+      decision_reason: New Relic provides AI observability and monitoring capabilities as a platform service, primarily consumed via APIs and integrations rather than as a standalone coding agent, framework library, or app builder, making it best suited as a provider abstraction in AI frameworks.
       decision_evidence:
-        - >-
-          Source-list context places it in 'DevOps and Infrastructure' section of awesome-ai-coding-tools, noting it
-          correlates telemetry to reduce MTTR
-        - >-
-          Scraped site context emphasizes AI-powered observability, agentic monitoring, and full-stack visibility—not
-          coding assistance or agent behavior
-        - >-
-          No evidence of direct code editing, prompt-to-app generation, agent orchestration, or developer workflow
-          integration as core functionality
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context describes New Relic as an 'AI-powered observability platform' that monitors AI agents, models, and infrastructure.
+        - Source-list context places it in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure' for its telemetry correlation and MTTR reduction.
+        - Product features include AI and Agentic Monitoring, SRE Agent, and cloud cost intelligence — all positioned as platform services for observability, not agent behavior or code generation.
+      category_candidates:
+        - ai-frameworks
+        - evals
+      contrastive_reason: Choose ai-frameworks over evals because New Relic's primary identity is an observability platform service for monitoring AI and system behavior, not a tool for benchmarking, tracing, or evaluating model/prompt quality.
       review_reason: null
       review_resume_lifecycle: null

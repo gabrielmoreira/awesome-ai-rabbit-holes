@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__snjrusmn__jev-humanizer__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-humanizer
         extracted_url: https://github.com/snjrusmn/jev-humanizer
-        surrounding_text: >-
-          - [jev-humanizer](https://github.com/snjrusmn/jev-humanizer) - Anti-slop skill: TypeSafe Jev flags AI-sounding
-          paragraphs so the writing model rewrites only those spans (RU-focused humanizer). [Project
-          guide](community/projects/tools/snjrusmn-jev-humanizer.md).
+        surrounding_text: "- [jev-humanizer](https://github.com/snjrusmn/jev-humanizer) - Anti-slop skill: TypeSafe Jev flags AI-sounding paragraphs so the writing model rewrites only those spans (RU-focused humanizer). [Project guide](community/projects/tools/snjrusmn-jev-humanizer.md)."
         confidence: high
     - id: discovery__github__snjrusmn__jev-humanizer__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-humanizer**'
+        anchor_text: "**jev-humanizer**"
         extracted_url: https://github.com/snjrusmn/jev-humanizer
-        surrounding_text: >-
-          - [**jev-humanizer**](https://github.com/snjrusmn/jev-humanizer) — This project integrates Jev to provide
-          structured decisions for its workflow. See the repository for implementation details.
+        surrounding_text: "- [**jev-humanizer**](https://github.com/snjrusmn/jev-humanizer) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
 metadata:
   github:
@@ -58,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-humanizer - Anti-slop skill: TypeSafe Jev flags AI-sounding paragraphs so the writing model rewrites only those
-    spans (RU-focused humanizer). Project guide.
+  summary: "jev-humanizer - Anti-slop skill: TypeSafe Jev flags AI-sounding paragraphs so the writing model rewrites only those spans (RU-focused humanizer). Project guide."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -70,9 +63,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.57
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      skills (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -84,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.425Z'
+    updated_at: "2026-09-29T13:07:10.425Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,6 +83,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__revlist__pocket-drives-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🗺️ Location Services
         anchor_text: RevList/pocket-drives-mcp
         extracted_url: https://github.com/revlist/pocket-drives-mcp
-        surrounding_text: >-
-          -   **[RevList/pocket-drives-mcp](https://github.com/RevList/pocket-drives-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/RevList/pocket-drives-mcp?style=social)](https://github.com/RevList/pocket-drives-mcp):
-          Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Booking finishes in the iOS app.
-          Remote at https://pocketdrives.ai/mcp.
+        surrounding_text: "-   **[RevList/pocket-drives-mcp](https://github.com/RevList/pocket-drives-mcp)** [![GitHub stars](https://img.shields.io/github/stars/RevList/pocket-drives-mcp?style=social)](https://github.com/RevList/pocket-drives-mcp): Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Booking finishes in the iOS app. Remote at https://pocketdrives.ai/mcp."
         confidence: high
 metadata:
   github:
@@ -60,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.474Z'
+    updated_at: "2026-09-29T13:07:10.474Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +64,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

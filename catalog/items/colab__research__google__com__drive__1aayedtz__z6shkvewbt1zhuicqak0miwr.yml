@@ -5,9 +5,8 @@ canonical_url: https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUIC
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__colab__research__google__com__drive__1aayedtz__z6shkvewbt1zhuicqak0miwr__awesome-list__kyrolabs__awesome-langchain
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__colab__research__google__com__drive__1aayedtz__z6shkvewbt1zhuicqak0miwr__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: kyrolabs/awesome-langchain
@@ -20,9 +19,7 @@ provenance:
           - Notebooks
         anchor_text: LangChain <> Wolfram Alpha
         extracted_url: https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR
-        surrounding_text: >-
-          - [LangChain <> Wolfram
-          Alpha](https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR?usp=sharing)
+        surrounding_text: "- [LangChain <> Wolfram Alpha](https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR?usp=sharing)"
         confidence: high
 metadata:
   github:
@@ -40,44 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google Colab is a notebook environment for running Python code in the browser with GPU/TPU support.
-  why_it_matters: >-
-    It enables developers to prototype and test AI workflows without local setup, accelerating experimentation with
-    models and data pipelines.
-  mental_damage: >-
-    Another notebook that pretends to be a dev tool while you're just copying code from a tutorial and hoping the GPU
-    doesn't time out.
+  summary: A Google Colab notebook linked from an awesome-langchain list.
+  why_it_matters: It serves as a learning resource for developers using the LangChain framework.
+  mental_damage: Another notebook in the endless scroll of 'Learn AI by copying someone else's Colab'.
   tags:
+    - tutorial
+    - langchain
     - notebook
-    - colab
-    - ai-prototyping
-    - developer-experience
-    - workflow-anxiety
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: >-
-    Google Colab is included in the awesome-langchain list under 'Learn > Notebooks', indicating its role as a
-    development environment for AI coding tasks.
+  status: excluded
+  reason: It is a static educational Colab notebook, not a standalone AI developer tool or product.
   evidence:
-    - Appears in awesome-langchain under 'Learn > Notebooks' section
-    - Primary page excerpt shows Google Colab interface
-    - Listed as a source for AI development tools in curated list
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
-      coding-agents (unverified)
+    - URL points to a Google Colab notebook (https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR)
+    - Listed in awesome-langchain under 'Learn > Notebooks' as a learning resource
+    - No repo description, stars, or activity signals indicating a maintained tool
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories:
     - ai-frameworks
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: needs_review
-  reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,31 +72,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:36:11.871Z'
+    updated_at: "2026-10-05T04:30:07.681Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:80a9bf53f0675711728b5d90e05dcb54dfb6aae70dba510143e6a8fe2f47b552
-      proposed_primary_category: coding-agents
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cee648fc9231bb192a8a710b7f605091b06cf8c3c0784a9c80b1d0df5753a138
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Google Colab is included in the awesome-langchain list under 'Learn > Notebooks', indicating its role as a
-        development environment for AI coding tasks.
+      decision_reason: It is a static educational Colab notebook, not a standalone AI developer tool or product.
       decision_evidence:
-        - Appears in awesome-langchain under 'Learn > Notebooks' section
-        - Primary page excerpt shows Google Colab interface
-        - Listed as a source for AI development tools in curated list
-      category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because it provides the primary coding surface rather than
-        augmenting another agent.
-      review_reason: 'Categorization review required: unknown category candidate(s): ai-dev-extensions'
+        - URL points to a Google Colab notebook (https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR)
+        - Listed in awesome-langchain under 'Learn > Notebooks' as a learning resource
+        - No repo description, stars, or activity signals indicating a maintained tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
       review_resume_lifecycle: null

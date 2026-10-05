@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__cactal__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - App Builders
         anchor_text: Cactal
         extracted_url: https://cactal.ai
-        surrounding_text: >-
-          - **[Cactal](https://cactal.ai)** – Cactal is the website platform for AI agents. Connect Claude Code, Cursor,
-          or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production
-          websites: source code, CMS, assets, domains, analytics, and publishing.
+        surrounding_text: "- **[Cactal](https://cactal.ai)** – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing."
         confidence: high
 metadata:
   github:
@@ -39,10 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and
-    your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets,
-    domains, analytics, and publishing.
+  summary: "Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-05T05:02:52.043Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for cactal__ai: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Cactal's c\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

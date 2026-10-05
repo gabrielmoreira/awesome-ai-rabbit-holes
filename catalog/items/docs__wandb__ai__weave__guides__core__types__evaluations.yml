@@ -5,9 +5,8 @@ canonical_url: https://docs.wandb.ai/weave/guides/core-types/evaluations
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__docs__wandb__ai__weave__guides__core__types__evaluations__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__docs__wandb__ai__weave__guides__core__types__evaluations__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 评估 Evaluation
         anchor_text: Weave
         extracted_url: https://weave-docs.wandb.ai/guides/core-types/evaluations
-        surrounding_text: >-
-          5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and
-          evaluating LLM applications.
+        surrounding_text: "5. [Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations): A lightweight toolkit for tracking and evaluating LLM applications."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: '5. Weave: A lightweight toolkit for tracking and evaluating LLM applications.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Documentation guide for implementing the evaluation workflow within the Weights & Biases Weave observability platform.
+  why_it_matters: It provides instructions for developers to transition from ad hoc LLM testing to structured, repeatable evaluation pipelines.
+  mental_damage: The sudden realization that your 'highly optimized' prompt is actually failing 30% of your new, more rigorous test cases.
+  tags:
+    - weights-and-biases
+    - weave
+    - llm-ops
+    - documentation
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  status: excluded
+  reason: The input is a specific documentation guide for a feature within a larger product (W&B Weave), rather than a standalone tool or product.
   evidence:
-    - jev-latest choice confidence 0.58
+    - The URL structure (/guides/core-types/evaluations) identifies this as a documentation sub-page.
+    - The page title explicitly labels the content as 'Weights & Biases Documentation'.
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:07:11.674Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a934bfdc26a60e8bf22f212f16a648633dadac1f03dabd074d144b0e29c28274
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a specific documentation guide for a feature within a larger product (W&B Weave), rather than a standalone tool or product.
+      decision_evidence:
+        - The URL structure (/guides/core-types/evaluations) identifies this as a documentation sub-page.
+        - The page title explicitly labels the content as 'Weights & Biases Documentation'.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

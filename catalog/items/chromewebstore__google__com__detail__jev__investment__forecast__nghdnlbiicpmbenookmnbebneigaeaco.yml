@@ -5,9 +5,8 @@ canonical_url: https://chromewebstore.google.com/detail/jev-investment-forecast/
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__chromewebstore__google__com__detail__jev__investment__forecast__nghdnlbiicpmbenookmnbebneigaeaco__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__chromewebstore__google__com__detail__jev__investment__forecast__nghdnlbiicpmbenookmnbebneigaeaco__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,12 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Try app
         extracted_url: https://chromewebstore.google.com/detail/jev-investment-forecast/nghdnlbiicpmbenookmnbebneigaeaco
-        surrounding_text: >-
-          - [Jev Investment Forecast](https://github.com/serejkaaa512/jev-investment-forecast) - `Open source` · `Free
-          source build` · `BYOK`. Chrome extension: TypeSafe Jev forecasts investment potential across 27 page
-          categories plus amount/duration choices. [Try
-          app](https://chromewebstore.google.com/detail/jev-investment-forecast/nghdnlbiicpmbenookmnbebneigaeaco) ·
-          [Project guide](community/projects/apps/jev-investment-forecast.md).
+        surrounding_text: "- [Jev Investment Forecast](https://github.com/serejkaaa512/jev-investment-forecast) - `Open source` · `Free source build` · `BYOK`. Chrome extension: TypeSafe Jev forecasts investment potential across 27 page categories plus amount/duration choices. [Try app](https://chromewebstore.google.com/detail/jev-investment-forecast/nghdnlbiicpmbenookmnbebneigaeaco) · [Project guide](community/projects/apps/jev-investment-forecast.md)."
         confidence: high
 metadata:
   github:
@@ -43,29 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Investment Forecast - Open source · Free source build · BYOK. Chrome extension: TypeSafe Jev forecasts
-    investment potential across 27 page categories plus amount/duration choices. Try app · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Investment Forecast is a Chrome extension that inspects the current webpage and forecasts its investment potential using the TypeSafe Jev API.
+  why_it_matters: It provides a quick, AI-driven investment-score overlay for any webpage, letting developers assess potential value without leaving the browser.
+  mental_damage: Because nothing says 'due diligence' like trusting a browser extension that rates your Stack Overflow thread as a 73% buy signal.
+  tags:
+    - investment
+    - chrome-extension
+    - jev
+    - decision-model
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The tool is a general-purpose investment forecaster powered by a decision model (Jev), not a developer-facing coding tool, agent, or workflow enhancer; its core function is financial judgment, not software development assistance.
   evidence:
-    - jev-latest choice confidence 0.79
+    - Inspects the current page with TypeSafe Jev AI and forecasts its investment potential.
+    - Powered by the TypeSafe Jev API (https://api.typesafe.ai/v1/systemone).
+    - Listed in source list 'awesome-jev' under 'Community projects > Apps powered by Jev'.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:05.880Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c442eec03aef4ba7d717a9b50cdf029fa2b3677cd799c5688fefa233dd16eb5f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose investment forecaster powered by a decision model (Jev), not a developer-facing coding tool, agent, or workflow enhancer; its core function is financial judgment, not software development assistance.
+      decision_evidence:
+        - Inspects the current page with TypeSafe Jev AI and forecasts its investment potential.
+        - Powered by the TypeSafe Jev API (https://api.typesafe.ai/v1/systemone).
+        - Listed in source list 'awesome-jev' under 'Community projects > Apps powered by Jev'.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__themodernsoftware__dev__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -16,9 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - 课程 Course
-        anchor_text: '斯坦福CS146S: The Modern Software Developer'
+        anchor_text: "斯坦福CS146S: The Modern Software Developer"
         extracted_url: https://themodernsoftware.dev
-        surrounding_text: '56. [斯坦福CS146S: The Modern Software Developer](https://themodernsoftware.dev/)'
+        surrounding_text: "56. [斯坦福CS146S: The Modern Software Developer](https://themodernsoftware.dev/)"
         confidence: high
 metadata:
   github:
@@ -36,9 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'A Stanford University course page titled ''CS146S: The Modern Software Developer''.'
-  why_it_matters: It provides educational content for developers on modern software development practices.
-  mental_damage: Another course to add to the ever-growing list of things you feel guilty for not having time to take.
+  summary: "CS146S: The Modern Software Developer is a Stanford University course teaching AI-native software development practices."
+  why_it_matters: It helps developers learn how to leverage AI tooling and coding agents to increase productivity in software projects.
+  mental_damage: Another academic course promising 10x productivity gains while the industry debates whether AI will replace or augment developers.
   tags:
     - education
     - course
@@ -46,11 +46,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: The Modern Software Developer is an academic course, not a developer-facing AI tool, agent, framework, or infrastructure product; it is educational content, not a tool to be used in workflows.
+  reason: This is an educational course resource, not a practical AI tool, agent, workflow, infrastructure, or app-building product for software developers.
   evidence:
-    - "Source-list context shows it is listed under '课程 Course' in awesome-LLM-resources with description: 'CS146S at Stanford University. Learn how the next generation of software engineers can leverage AI tooling to 10x their productivity. Fall 2025.'"
-    - Scraped site context confirms it is a university course with syllabus, lectures, assignments, and instructor information, not a deployable tool or platform.
-    - Primary page excerpt describes course goals, units, prerequisites, format, and classroom details — all hallmarks of academic instruction, not a developer tool.
+    - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' as CS146S at Stanford University
+    - "Scraped site context identifies it as 'CS146S: The Modern Software Developer - Stanford University' with syllabus, assignments, and classroom details"
+    - Primary page excerpt describes it as a course with lectures, hands-on coding sessions, guest speakers, and a final project
 placement:
   primary_category: null
   section: null
@@ -60,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,29 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-28T04:47:15.287Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for themodernsoftware__dev: Invalid AI response structure: Invalid confidence
-        value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:55:59.331Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6c00ab7fd1634120afaaec2ada39ec83138a8491faafd7bfdcfdf3513a6d744f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3965caf3f23edc9d647328cd31a842685e9a3c4d4bf8f99d01f76d36f7184b6f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The Modern Software Developer is an academic course, not a developer-facing AI tool, agent, framework, or infrastructure product; it is educational content, not a tool to be used in workflows.
+      decision_reason: This is an educational course resource, not a practical AI tool, agent, workflow, infrastructure, or app-building product for software developers.
       decision_evidence:
-        - "Source-list context shows it is listed under '课程 Course' in awesome-LLM-resources with description: 'CS146S at Stanford University. Learn how the next generation of software engineers can leverage AI tooling to 10x their productivity. Fall 2025.'"
-        - Scraped site context confirms it is a university course with syllabus, lectures, assignments, and instructor information, not a deployable tool or platform.
-        - Primary page excerpt describes course goals, units, prerequisites, format, and classroom details — all hallmarks of academic instruction, not a developer tool.
+        - Source-list context shows it appears in awesome-LLM-resources under '课程 Course' as CS146S at Stanford University
+        - "Scraped site context identifies it as 'CS146S: The Modern Software Developer - Stanford University' with syllabus, assignments, and classroom details"
+        - Primary page excerpt describes it as a course with lectures, hands-on coding sessions, guest speakers, and a final project
       category_candidates: []
       contrastive_reason: null
       review_reason: null

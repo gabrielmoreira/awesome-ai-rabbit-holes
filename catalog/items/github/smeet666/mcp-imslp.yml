@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__smeet666__mcp-imslp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: smeet666/mcp-imslp
         extracted_url: https://github.com/smeet666/mcp-imslp
-        surrounding_text: >-
-          - [smeet666/mcp-imslp](https://github.com/smeet666/mcp-imslp) [![smeet666/mcp-imslp MCP
-          server](https://glama.ai/mcp/servers/smeet666/mcp-imslp/badges/score.svg)](https://glama.ai/mcp/servers/smeet666/mcp-imslp)
-          📇 ☁️ - Read IMSLP, the Petrucci Music Library: search works and composers, view catalogue numbers, key and
-          instrumentation, and browse editions with copyright status.
+        surrounding_text: "- [smeet666/mcp-imslp](https://github.com/smeet666/mcp-imslp) [![smeet666/mcp-imslp MCP server](https://glama.ai/mcp/servers/smeet666/mcp-imslp/badges/score.svg)](https://glama.ai/mcp/servers/smeet666/mcp-imslp) 📇 ☁️ - Read IMSLP, the Petrucci Music Library: search works and composers, view catalogue numbers, key and instrumentation, and browse editions with copyright status."
         confidence: high
 metadata:
   github:
@@ -60,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.477Z'
+    updated_at: "2026-09-29T13:07:10.477Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +64,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

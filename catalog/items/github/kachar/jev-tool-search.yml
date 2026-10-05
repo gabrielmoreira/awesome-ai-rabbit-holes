@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__kachar__jev-tool-search__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-tool-search
         extracted_url: https://github.com/kachar/jev-tool-search
-        surrounding_text: >-
-          - [jev-tool-search](https://github.com/kachar/jev-tool-search) - Benchmark and experimental engine comparing
-          BM25, embeddings, rerankers, and TypeSafe Jev for selecting among 525 real MCP tools. [Project
-          guide](community/projects/tools/jev-tool-search.md).
+        surrounding_text: "- [jev-tool-search](https://github.com/kachar/jev-tool-search) - Benchmark and experimental engine comparing BM25, embeddings, rerankers, and TypeSafe Jev for selecting among 525 real MCP tools. [Project guide](community/projects/tools/jev-tool-search.md)."
         confidence: high
     - id: discovery__github__kachar__jev-tool-search__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-tool-search**'
+        anchor_text: "**jev-tool-search**"
         extracted_url: https://github.com/kachar/jev-tool-search
-        surrounding_text: >-
-          - [**jev-tool-search**](https://github.com/kachar/jev-tool-search) — Tool search for LLM agents: BM25 vs
-          embeddings vs rerankers vs Jev on 525 real MCP tools, plus an experimental Jev search engine
+        surrounding_text: "- [**jev-tool-search**](https://github.com/kachar/jev-tool-search) — Tool search for LLM agents: BM25 vs embeddings vs rerankers vs Jev on 525 real MCP tools, plus an experimental Jev search engine"
         confidence: high
 metadata:
   github:
@@ -58,9 +53,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-tool-search - Benchmark and experimental engine comparing BM25, embeddings, rerankers, and TypeSafe Jev for
-    selecting among 525 real MCP tools. Project guide.
+  summary: jev-tool-search - Benchmark and experimental engine comparing BM25, embeddings, rerankers, and TypeSafe Jev for selecting among 525 real MCP tools. Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.417Z'
+    updated_at: "2026-09-29T13:07:10.417Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.821Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

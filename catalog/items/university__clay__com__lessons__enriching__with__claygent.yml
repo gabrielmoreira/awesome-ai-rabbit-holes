@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__university__clay__com__lessons__enriching__with__claygent__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - Claygent
         anchor_text: Claygent
         extracted_url: https://www.clay.com/learn/claygent
-        surrounding_text: '## [Claygent](https://www.clay.com/learn/claygent)'
+        surrounding_text: "## [Claygent](https://www.clay.com/learn/claygent)"
         confidence: high
 metadata:
   github:
@@ -36,29 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    A Clay University lesson on using Claygent, an AI web scraper for enriching company and people data with real-time
-    web research.
-  why_it_matters: >-
-    Shows developers how to automate last-mile data enrichment that traditional providers miss, using AI to scrape live
-    web content for GTM use cases.
-  mental_damage: >-
-    Another reminder that your 'AI workflow' still depends on manually prompting a browser to read company websites like
-    it's 2003.
+  summary: Claygent is an AI web scraper integrated into Clay that automates real-time web research for enriching company and people data with custom, niche information not found in standard databases.
+  why_it_matters: It helps developers and GTM teams automate tedious last-mile data research by turning natural language prompts into scalable web scraping tasks, saving hours of manual data entry.
+  mental_damage: Another 'AI research assistant' that promises to replace manual Googling — but now you’re debugging prompts instead of spreadsheets.
   tags:
-    - ai-scraping
+    - ai-scraper
     - data-enrichment
     - gtm-automation
+    - web-research
+    - clay-platform
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI developer
-    tool or product; it lacks product identity and is documentation-first.
+  reason: Enriching with Claygent is a feature within the Clay GTM automation platform, not a standalone developer-facing tool or agent; it serves sales and marketing workflows rather than software development tasks.
   evidence:
-    - URL points to a Clay University lesson page, not a GitHub repo or standalone tool
-    - 'Primary content is a course lesson titled ''Enriching with Claygent'' within ''Clay 101: GTM Automation'''
-    - No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside Clay
+    - The resource is a lesson from Clay University titled 'Enriching with Claygent' focused on using Claygent for company and people data enrichment in GTM automation.
+    - Claygent is described as an AI web scraper for retrieving real-time, dynamic web context to solve the 'last mile data problem' in sales and marketing, such as checking if a company offers a free trial or what a founder said at a panel.
+    - The source-list context shows it appears in 'awesome-ai-agents' under the 'Claygent' section, but this reflects its use as an AI agent for data enrichment, not developer tooling like coding, debugging, or workflow automation for software engineers.
 placement:
   primary_category: null
   section: null
@@ -68,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.666Z'
+    updated_at: "2026-05-06T22:12:15.666Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,28 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:48:13.933Z'
+    updated_at: "2026-10-05T04:56:36.981Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e034a2c12701b891fee63d1db42eabb425b28a3f28ef35211ae87af8cc20ad5c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:657856149591210a6935d49ec89900a9fce3d94ac03f7bdde87638a93a656021
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        This is an educational lesson about using a feature within a broader platform (Clay), not a standalone AI
-        developer tool or product; it lacks product identity and is documentation-first.
+      decision_reason: Enriching with Claygent is a feature within the Clay GTM automation platform, not a standalone developer-facing tool or agent; it serves sales and marketing workflows rather than software development tasks.
       decision_evidence:
-        - URL points to a Clay University lesson page, not a GitHub repo or standalone tool
-        - 'Primary content is a course lesson titled ''Enriching with Claygent'' within ''Clay 101: GTM Automation'''
-        - >-
-          No evidence of a deployable product, SDK, agent, or framework — only usage instructions for Claygent inside
-          Clay
+        - The resource is a lesson from Clay University titled 'Enriching with Claygent' focused on using Claygent for company and people data enrichment in GTM automation.
+        - Claygent is described as an AI web scraper for retrieving real-time, dynamic web context to solve the 'last mile data problem' in sales and marketing, such as checking if a company offers a free trial or what a founder said at a panel.
+        - The source-list context shows it appears in 'awesome-ai-agents' under the 'Claygent' section, but this reflects its use as an AI agent for data enrichment, not developer tooling like coding, debugging, or workflow automation for software engineers.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

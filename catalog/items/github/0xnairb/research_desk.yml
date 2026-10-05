@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__0xnairb__research_desk__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: research_desk
         extracted_url: https://github.com/0xnairb/research_desk
-        surrounding_text: >-
-          - [research_desk](https://github.com/0xnairb/research_desk) - TypeSafe Jev demonstration for new analyzation —
-          experimenting with Jev for fast analysis of news and tickers.
+        surrounding_text: "- [research_desk](https://github.com/0xnairb/research_desk) - TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers."
         confidence: high
 metadata:
   github:
@@ -31,45 +29,72 @@ metadata:
     archived: false
     full_name: 0xnairb/research_desk
     html_url: https://github.com/0xnairb/research_desk
-    created_at: '2026-09-18T04:19:47Z'
-    pushed_at: '2026-09-18T04:27:55Z'
+    created_at: "2026-09-18T04:19:47Z"
+    pushed_at: "2026-09-18T04:27:55Z"
     description: TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:13.792Z'
+    last_checked_at: "2026-09-29T13:08:13.792Z"
     readme:
-      fetched_at: '2026-09-29T13:08:13.792Z'
+      fetched_at: "2026-09-29T13:08:13.792Z"
       bytes: 1199
 insights:
-  summary: TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A GitHub repo experimenting with Jev for fast news and ticker analysis using TypeSafe.
+  why_it_matters: Demonstrates how Jev decision models can be applied to real-time financial data streams.
+  mental_damage: Another niche Jev demo that reminds us we're all just waiting for the next shiny decision-model toy.
+  tags:
+    - jev
+    - finance
+    - demo
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The repo's core identity is using Jev (a decision model) for news/ticker analysis, making it a decision-model-driven tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.80
+    - "Repo description: 'TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers'"
+    - "Seen in source list: awesome-jev under 'Benchmarks & research' section"
+    - Created and pushed on 2026-09-18, very recent but shows active experimentation
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:13.792Z'
+    updated_at: "2026-09-29T13:08:13.792Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:10:14.277Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:15d4f10af93d42e5ba977e3d265fa57346fa98a5cc9d2326bce2b1c529028ebe
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The repo's core identity is using Jev (a decision model) for news/ticker analysis, making it a decision-model-driven tool rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'TypeSafe Jev demonstration for new analyzation — experimenting with Jev for fast analysis of news and tickers'"
+        - "Seen in source list: awesome-jev under 'Benchmarks & research' section"
+        - Created and pushed on 2026-09-18, very recent but shows active experimentation
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's primary function is applying Jev to analyze news/tickers (a judgment task), not performing coding operations on a codebase.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__bolt__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - App Builders
         anchor_text: Bolt.new
         extracted_url: https://bolt.new
-        surrounding_text: >-
-          - **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural
-          language with one-click deployment.
+        surrounding_text: "- **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural language with one-click deployment."
         confidence: high
     - id: discovery__bolt__new__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -53,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bolt.new is an AI-powered app builder that generates full websites and applications from natural language prompts.
-  why_it_matters: It lets developers and non-developers go from idea to deployable product rapidly without writing code manually.
-  mental_damage: >-
-    Another tool promising to replace developers while simultaneously flooding the market with AI-generated SaaS clones
-    nobody asked for.
+  summary: bolt.new is an AI app builder that generates full websites, web apps, and prototypes from natural language prompts.
+  why_it_matters: It lets developers and non-developers ship working web applications by describing them in plain English, skipping manual setup and boilerplate.
+  mental_damage: The anxiety of realizing your 'no-code' AI app now needs a custom Figma plugin to fix the CSS it generated.
   tags:
     - app-builder
-    - ai-coding
-    - no-code
     - prompt-to-app
+    - web-dev
+    - no-code
+    - ai-agent
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: bolt.new belongs in App Builders because its core identity is generating deployable web apps and sites from prompts, not editing existing codebases or acting as a coding assistant.
   evidence:
-    - jev-latest choice confidence 0.98
+    - "Scraped site excerpt: 'Create stunning apps & websites by chatting with AI' and 'Build and scale high-performing websites & apps using your words'"
+    - "Source-list context: listed in awesome-ai-coding-tools under App Builders section with the description 'Build and scale high-performing websites & apps using your words'"
+    - README/excerpt emphasizes turning prompts into production-ready starting points, templates, and live products — not repo editing or agent-assisted coding
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -79,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.596Z'
+    updated_at: "2026-05-06T22:12:15.596Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,33 +87,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:53:20.619Z'
+    updated_at: "2026-10-05T04:59:49.587Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f143dd81715c4179e43ad121b56ab4683f4eb9d91a2bb1d9880ee3a6475de30f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e38916f910c3e42ee50eca4307d8b55784d965efc202e1082e6e1b5336bfa717
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: >-
-        Bolt.new's core identity is generating deployable apps from prompts, not editing existing codebases, making it a
-        clear fit for app builders over coding agents.
+      decision_reason: bolt.new belongs in App Builders because its core identity is generating deployable web apps and sites from prompts, not editing existing codebases or acting as a coding assistant.
       decision_evidence:
-        - 'Scraped site: ''Build and scale high-performing websites & apps using your words'''
-        - 'Source-list: listed in awesome-ai-coding-tools under App Builders section'
-        - >-
-          README excerpt: 'Create stunning apps & websites by chatting with AI' and 'Bolt does the heavy lifting for
-          you'
+        - "Scraped site excerpt: 'Create stunning apps & websites by chatting with AI' and 'Build and scale high-performing websites & apps using your words'"
+        - "Source-list context: listed in awesome-ai-coding-tools under App Builders section with the description 'Build and scale high-performing websites & apps using your words'"
+        - README/excerpt emphasizes turning prompts into production-ready starting points, templates, and live products — not repo editing or agent-assisted coding
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: >-
-        Choose app-builders over coding-agents because Bolt.new's primary function is generating new apps from scratch
-        via prompts, not acting as an autonomous coding assistant that edits existing repositories.
+      contrastive_reason: Choose app-builders over coding-agents because bolt.new generates new apps from scratch via prompting, rather than acting as an agent that edits or operates on an existing codebase.
       review_reason: null
       review_resume_lifecycle: null

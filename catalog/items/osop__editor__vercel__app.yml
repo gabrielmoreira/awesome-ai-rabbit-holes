@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__osop__editor__vercel__app__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,11 +19,7 @@ provenance:
           - Agent infrastructure
         anchor_text: visual editor
         extracted_url: https://osop-editor.vercel.app
-        surrounding_text: >-
-          - **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for
-          CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports
-          Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual
-          editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec).
+        surrounding_text: "- **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 1` — Universal workflow logging protocol for CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec)."
         confidence: high
 metadata:
   github:
@@ -41,26 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: osop-editor.vercel.app is a Vercel-hosted Google AI Studio app with no clear developer-tooling identity.
-  why_it_matters: >-
-    It does not meaningfully change how developers write, test, or deploy code, nor does it serve as a coding agent, app
-    builder, or infrastructure tool.
-  mental_damage: Another vague AI demo that pretends to be useful while offering zero clarity on what it actually does for engineers.
-  tags: []
+  summary: My Google AI Studio App is a frontend interface for Google AI Studio prompting and model interaction.
+  why_it_matters: It lets developers test prompts and model outputs in a browser UI without leaving the AI Studio environment.
+  mental_damage: Another wrapper around a model playground that makes you feel like you're building something while just clicking buttons in someone else's UI.
+  tags:
+    - ai-studio
+    - prompting
+    - frontend
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio interface
-    with no coding-agent, app-builder, or infrastructure traits.
+  reason: The tool is a frontend for Google AI Studio, not a developer-facing AI tool or agent; it provides no autonomous coding, agent behavior, or workflow enhancement beyond basic prompting.
   evidence:
-    - >-
-      Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI interface,
-      not a developer tool.
-    - >-
-      Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a
-      Google AI Studio app, which is not a coding agent or orchestration tool.
-    - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
+    - Source-list context shows it appears in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but links to a Google AI Studio app
+    - Scraped site context identifies the title as 'My Google AI Studio App' with no description of agent or coding functionality
+    - No evidence of autonomous coding, terminal/IDE/browser agent behavior, or developer workflow integration
 placement:
   primary_category: null
   section: null
@@ -70,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.664Z'
+    updated_at: "2026-05-06T22:12:15.664Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,30 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:51:57.199Z'
+    updated_at: "2026-10-05T04:58:49.029Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:ce6920df255bef3f0d87ce186faf8c5a68909b2115a585eb99ad1e90aca9e1ac
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d1ee12cbabb4e8de32d9973df083d55b999b6afebf68609fe42fc0a6f60ebaa7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The tool lacks any discernible developer-facing functionality; it appears to be a hosted Google AI Studio
-        interface with no coding-agent, app-builder, or infrastructure traits.
+      decision_reason: The tool is a frontend for Google AI Studio, not a developer-facing AI tool or agent; it provides no autonomous coding, agent behavior, or workflow enhancement beyond basic prompting.
       decision_evidence:
-        - >-
-          Repo description is missing, and the scraped site title 'My Google AI Studio App' suggests a generic AI
-          interface, not a developer tool.
-        - >-
-          Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but linked to a
-          Google AI Studio app, which is not a coding agent or orchestration tool.
-        - No README, stars, creation date, or push activity provided to assess functionality or maintenance.
+        - Source-list context shows it appears in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure' but links to a Google AI Studio app
+        - Scraped site context identifies the title as 'My Google AI Studio App' with no description of agent or coding functionality
+        - No evidence of autonomous coding, terminal/IDE/browser agent behavior, or developer workflow integration
       category_candidates: []
       contrastive_reason: null
       review_reason: null

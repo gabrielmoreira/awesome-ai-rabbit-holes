@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcp__install__instructions__alpic__cloud__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,11 +18,7 @@ provenance:
           - Official Servers
         anchor_text: https://www.kiwi.com
         extracted_url: https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search
-        surrounding_text: >-
-          -
-          **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)**
-          - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from
-          your favorite AI assistant.
+        surrounding_text: "- **[Kiwi.com](<[https://www.kiwi.com](https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search)>)** - Official [Kiwi.com](https://www.kiwi.com) flight search MCP server. Search and book flights directly from your favorite AI assistant."
         confidence: high
 metadata:
   github:
@@ -40,44 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    MCP Install Instructions Generator is a web tool that creates shareable installation guides with auto-generated
-    Deeplinks and CLI commands for MCP servers.
-  why_it_matters: >-
-    It simplifies onboarding MCP servers by providing ready-to-use, client-specific setup instructions, reducing
-    friction in MCP ecosystem adoption.
-  mental_damage: >-
-    Another MCP helper that makes you wonder if the real product is the endless tooling around the protocol rather than
-    the protocol itself.
+  summary: MCP Install Instructions Generator is a web tool that creates shareable installation guides with deeplinks and CLI commands for popular MCP clients.
+  why_it_matters: It reduces friction in adopting MCP servers by providing ready-to-use setup instructions for developers.
+  mental_damage: Finally, a tool to automate the README section nobody reads but everyone pretends to have followed.
   tags:
     - mcp
-    - documentation
     - developer-tools
-  confidence: high
+    - documentation
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    It is a documentation generator, not a standalone developer tool; its primary function is producing installation
-    guides rather than performing coding, orchestration, or infrastructure tasks.
+  status: included
+  reason: The tool’s primary identity is generating MCP-specific installation assets, making it MCP infrastructure rather than a generic utility or agent extension.
   evidence:
-    - >-
-      Source-list context: listed in awesome-mcp-servers as a tool to 'Generate beautiful, shareable installation guides
-      for your MCP Server'
-    - >-
-      Scraped site context: Title and description emphasize generating installation guides, Deeplinks, and CLI
-      instructions
-    - No evidence of it being an MCP server, client, SDK, or runtime; it is a web page focused on output formatting
+    - "Scraped site title: 'MCP Install Instructions Generator'"
+    - "Scraped site description: 'Generate beautiful, shareable installation guides for your MCP Server, with auto-generated Deeplinks and command line instructions for the most popular MCP clients.'"
+    - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' with purpose 'A curated list of Model Context Protocol (MCP) servers'"
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.663Z'
+    updated_at: "2026-05-06T22:12:15.663Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,31 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:32:23.012Z'
+    updated_at: "2026-10-05T04:41:38.314Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:6256d710f3bd0858af6a8e3c67061f18937ebd4b52902e7ca6f60a2455bfe6b0
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:08c79a19830e2d20dec8f9ddc8612a27c88352f92d086dec7ad70d70d53ebc04
+      proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        It is a documentation generator, not a standalone developer tool; its primary function is producing installation
-        guides rather than performing coding, orchestration, or infrastructure tasks.
+      decision_reason: The tool’s primary identity is generating MCP-specific installation assets, making it MCP infrastructure rather than a generic utility or agent extension.
       decision_evidence:
-        - >-
-          Source-list context: listed in awesome-mcp-servers as a tool to 'Generate beautiful, shareable installation
-          guides for your MCP Server'
-        - >-
-          Scraped site context: Title and description emphasize generating installation guides, Deeplinks, and CLI
-          instructions
-        - No evidence of it being an MCP server, client, SDK, or runtime; it is a web page focused on output formatting
-      category_candidates: []
-      contrastive_reason: null
+        - "Scraped site title: 'MCP Install Instructions Generator'"
+        - "Scraped site description: 'Generate beautiful, shareable installation guides for your MCP Server, with auto-generated Deeplinks and command line instructions for the most popular MCP clients.'"
+        - "Source-list context: listed in awesome-mcp-servers under 'Official Servers' with purpose 'A curated list of Model Context Protocol (MCP) servers'"
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because the tool’s core function is generating MCP installation artifacts, not extending a host agent or editor with new capabilities.
       review_reason: null
       review_resume_lifecycle: null

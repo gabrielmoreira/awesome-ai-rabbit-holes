@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__contextstream__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: ContextStream
         extracted_url: https://contextstream.io
-        surrounding_text: >-
-          - **[ContextStream](https://contextstream.io)** – Shared project context for Cursor, Claude Code, Codex, Grok,
-          and the rest. Intelligence isn’t the bottleneck. Context is. Remote MCP: https://mcp.contextstream.io/mcp.
+        surrounding_text: "- **[ContextStream](https://contextstream.io)** – Shared project context for Cursor, Claude Code, Codex, Grok, and the rest. Intelligence isn’t the bottleneck. Context is. Remote MCP: https://mcp.contextstream.io/mcp."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ContextStream – Shared project context for Cursor, Claude Code, Codex, Grok, and the rest. Intelligence isn’t the
-    bottleneck. Context is. Remote MCP: https://mcp.contextstream.io/mcp.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ContextStream is a hosted platform that shares project context with AI coding agents via MCP to align them with project goals, code, and decisions.
+  why_it_matters: It reduces costly agent drift by surfacing project memory and coordination context directly in the tools developers already use.
+  mental_damage: Finally, a way to make your AI agent feel less like a forgetful intern and more like a teammate who actually read the wiki.
+  tags:
+    - context-sharing
+    - mcp
+    - agent-alignment
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
     - jev-latest choice confidence 0.49
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed memory-and-context / Context & Session Management; placement kept at
-      mcp (unverified)
+    - jev winnow:e4b 0.49 below gate 0.50; proposed memory-and-context / Context & Session Management; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
     - memory-and-context
-  section: Middleware & Generic
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.487Z'
+    updated_at: "2026-09-29T13:07:10.487Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:03:25.969Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:331957746ed6af7b8ef77814ee8a429628509a90d3c55ad47411429c7b56e6d6
+      proposed_primary_category: memory-and-context
+      disagreement: true
+      decision_reason: ContextStream's core identity is persistent project memory and context delivery for AI agents, not agent orchestration or MCP infrastructure alone.
+      decision_evidence:
+        - Scraped site emphasizes 'Project memory preserved' and lists DECISIONS, LESSONS, GUARDRAILS as core capabilities
+        - Source-list placement in awesome-ai-coding-tools under MCP Servers and Directories is secondary to its actual function
+        - README positions it as bringing 'project’s goals, code, decisions, and hard earned lessons into the AI tools you already use'
+      category_candidates:
+        - memory-and-context
+        - mcp
+      contrastive_reason: Choose memory-and-context over mcp because ContextStream's primary value is project context and memory persistence, not MCP protocol identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'memory-and-context'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

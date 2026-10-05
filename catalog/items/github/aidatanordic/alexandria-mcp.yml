@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aidatanordic__alexandria-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-28T05:28:09.816Z'
+      discovered_at: "2026-05-28T05:28:09.816Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🎨 <a name="art-and-culture"></a>Art & Culture
         anchor_text: AIDataNordic/alexandria-mcp
         extracted_url: https://github.com/aidatanordic/alexandria-mcp
-        surrounding_text: >-
-          - [AIDataNordic/alexandria-mcp](https://github.com/AIDataNordic/alexandria-mcp) [![AIDataNordic/alexandria-mcp
-          MCP
-          server](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp)
-          🐍 ☁️ -
+        surrounding_text: "- [AIDataNordic/alexandria-mcp](https://github.com/AIDataNordic/alexandria-mcp) [![AIDataNordic/alexandria-mcp MCP server](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AIDataNordic/alexandria-mcp) 🐍 ☁️ -"
         confidence: high
 metadata:
   github:
@@ -34,22 +30,18 @@ metadata:
     archived: false
     full_name: AIDataNordic/Alexandria-mcp
     html_url: https://github.com/AIDataNordic/Alexandria-mcp
-    created_at: '2026-04-28T17:17:22Z'
-    pushed_at: '2026-06-10T11:09:21Z'
-    description: >-
-      Semantic search over 4.6 million text chunks from 20,000 classical philosophy and humanities works. Built for AI
-      agents using FastMCP.
+    created_at: "2026-04-28T17:17:22Z"
+    pushed_at: "2026-06-10T11:09:21Z"
+    description: Semantic search over 4.6 million text chunks from 20,000 classical philosophy and humanities works. Built for AI agents using FastMCP.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-17T04:13:35.672Z'
+    last_checked_at: "2026-09-17T04:13:35.672Z"
     readme:
-      fetched_at: '2026-09-17T04:13:35.672Z'
+      fetched_at: "2026-09-17T04:13:35.672Z"
       bytes: 4315
 insights:
   summary: An MCP server providing semantic search over a collection of 20,000 classical philosophy and humanities works.
-  why_it_matters: >-
-    It enables AI agents to perform deep, semantic retrieval from a massive corpus of classical knowledge to enhance
-    their reasoning and context.
+  why_it_matters: It enables AI agents to perform deep, semantic retrieval from a massive corpus of classical knowledge to enhance their reasoning and context.
   mental_damage: Because your agent definitely needs to debate Nietzsche's eternal recurrence before it can fix a CSS bug.
   tags:
     - mcp
@@ -73,18 +65,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-28T05:28:09.817Z'
+    updated_at: "2026-05-28T05:28:09.817Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:35.672Z'
+    updated_at: "2026-09-17T04:13:35.672Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:25:48.138Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -96,9 +90,7 @@ processing:
       input_hash: sha256:871b997e45773b17dd6be3fb93c5fc58498f75e1cbc64a65eeac11267eca6794
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        It is an MCP server whose primary identity is exposing a specialized semantic search capability to agents via
-        the Model Context Protocol.
+      decision_reason: It is an MCP server whose primary identity is exposing a specialized semantic search capability to agents via the Model Context Protocol.
       decision_evidence:
         - Explicitly built using FastMCP for AI agent integration
         - Provides specific tools like `search_texts` and `get_book_list` via the MCP protocol
@@ -106,8 +98,6 @@ processing:
       category_candidates:
         - mcp
         - memory-and-context
-      contrastive_reason: >-
-        Choose mcp over memory-and-context because the product's primary identity is as an MCP server, and the protocol
-        identity takes precedence over the retrieval capability per the decision rules.
+      contrastive_reason: Choose mcp over memory-and-context because the product's primary identity is as an MCP server, and the protocol identity takes precedence over the retrieval capability per the decision rules.
       review_reason: null
       review_resume_lifecycle: null

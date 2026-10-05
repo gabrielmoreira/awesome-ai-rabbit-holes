@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__mattneel__typesafe__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: typesafe
         extracted_url: https://github.com/mattneel/typesafe
-        surrounding_text: '- [typesafe](https://github.com/mattneel/typesafe) - An idiomatic Elixir client for the TypeSafe AI API.'
+        surrounding_text: "- [typesafe](https://github.com/mattneel/typesafe) - An idiomatic Elixir client for the TypeSafe AI API."
         confidence: high
     - id: discovery__github__mattneel__typesafe__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +35,7 @@ provenance:
           - SDKs & clients (57)
         anchor_text: typesafe
         extracted_url: https://github.com/mattneel/typesafe
-        surrounding_text: >-
-          | [typesafe](https://github.com/mattneel/typesafe) | ★ 0 | Elixir | 2026-09-19 | An idiomatic Elixir client
-          for the TypeSafe AI API. |
+        surrounding_text: "| [typesafe](https://github.com/mattneel/typesafe) | ★ 0 | Elixir | 2026-09-19 | An idiomatic Elixir client for the TypeSafe AI API. |"
         confidence: high
 metadata:
   github:
@@ -75,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.419Z'
+    updated_at: "2026-09-29T13:07:10.419Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,6 +81,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

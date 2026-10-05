@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__monglong0214__agent-operator-score__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Agent Operator Score
         extracted_url: https://github.com/monglong0214/agent-operator-score
-        surrounding_text: >-
-          - **[Agent Operator Score](https://github.com/MongLong0214/agent-operator-score)** – Local-first CLI (`aos`)
-          that scores how well you operate Claude Code, Codex, and Grok CLI from your own session transcripts, plus a
-          controlled-run assessment suite with a hidden verifier. No model calls in review mode; nothing leaves your
-          disk.
+        surrounding_text: "- **[Agent Operator Score](https://github.com/MongLong0214/agent-operator-score)** – Local-first CLI (`aos`) that scores how well you operate Claude Code, Codex, and Grok CLI from your own session transcripts, plus a controlled-run assessment suite with a hidden verifier. No model calls in review mode; nothing leaves your disk."
         confidence: high
 metadata:
   github:
@@ -41,19 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Agent Operator Score – Local-first CLI (aos) that scores how well you operate Claude Code, Codex, and Grok CLI from
-    your own session transcripts, plus a controlled-run assessment suite with a hidden verifier. No model calls in
-    review mode; nothing leaves your disk.
+  summary: Agent Operator Score – Local-first CLI (aos) that scores how well you operate Claude Code, Codex, and Grok CLI from your own session transcripts, plus a controlled-run assessment suite with a hidden verifier. No model calls in review mode; nothing leaves your disk.
   why_it_matters: null
   mental_damage: null
   tags: []
   confidence: null
 curation:
   status: excluded
-  reason: >-
-    Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead
-    repo
+  reason: Repository does not exist on GitHub (404 from both the GitHub API and ungh.cc) — the source list pointed at a dead repo
   evidence:
     - GitHub API returned 404 for monglong0214/agent-operator-score
     - ungh.cc (cached GitHub proxy) returned 404 for monglong0214/agent-operator-score
@@ -68,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.468Z'
+    updated_at: "2026-09-29T13:07:10.468Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +67,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.822Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

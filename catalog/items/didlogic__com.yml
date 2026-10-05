@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__didlogic__com__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -19,9 +19,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: DIDLogic
         extracted_url: https://didlogic.com
-        surrounding_text: >-
-          - [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp) 🐍 ☁️ - An MCP server for
-          [DIDLogic](https://didlogic.com). Adds functionality to manage SIP endpoints, numbers and destinations.
+        surrounding_text: "- [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp) 🐍 ☁️ - An MCP server for [DIDLogic](https://didlogic.com). Adds functionality to manage SIP endpoints, numbers and destinations."
         confidence: high
 metadata:
   github:
@@ -39,38 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A collection of Model Context Protocol (MCP) server implementations.
-  why_it_matters: >-
-    It provides a curated list of standardized connectors to give AI assistants access to external tools and data
-    sources.
-  mental_damage: Because one protocol to rule them all is the only way to stop manually copy-pasting JSON into your chat window.
+  summary: didlogic.com is a SIP trunk provider offering global phone numbers, voice, and SMS infrastructure for connecting AI agents to telephony services.
+  why_it_matters: Developers building voice-enabled AI agents can use didlogic to provision local numbers and carrier-grade routing without managing telecom infrastructure.
+  mental_damage: Finally, a way to make your AI agent sound local while you still have to explain why it keeps saying 'your call is important to us'.
   tags:
     - sip
-    - voip
     - telephony
-    - ai-voice
-    - infrastructure
+    - voice-api
+    - ai-agents
   confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Registries & Discovery
+  status: excluded
+  reason: didlogic is a telecommunications infrastructure provider, not a developer-facing AI tool; its AI-related features are add-ons for existing voice services rather than core to software development workflows.
   evidence:
-    - jev-latest choice confidence 0.67
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
-      mcp (unverified)
+    - "Primary product identity: SIP trunk provider offering phone numbers, voice, and SMS services"
+    - AI features described as 'AI receptionist', 'AI customer support', and 'AI sales agent' are use cases enabled by its telephony platform, not developer tools
+    - No evidence of agent orchestration, prompt engineering, coding assistance, or other developer-facing AI tooling in core offering
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories:
     - awesome-awesomes
-  section: Registries & Discovery
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,35 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:41.782Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for didlogic__com: Upstream error from Nvidia: ResourceExhausted: Worker local
-        total request limit reached (16/16)
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:31:03.941Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:fd27708ce841d37d26b262095d9e81ab070373f625bccc7db172e4e4cb978a4a
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3631eb25d7bae16d406a9f5c8742e845fc64c26361391793aae1f3be3f8b6f5b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project's identity is defined by being a collection of MCP server implementations, making it a perfect fit
-        for the MCP category.
+      decision_reason: didlogic is a telecommunications infrastructure provider, not a developer-facing AI tool; its AI-related features are add-ons for existing voice services rather than core to software development workflows.
       decision_evidence:
-        - Seen in awesome-mcp-servers
-        - Purpose is specifically 'A collection of MCP servers'
-      category_candidates:
-        - mcp
-        - awesome-awesomes
-      contrastive_reason: >-
-        Choose mcp over awesome-awesomes because the project's core identity is providing the protocol implementations
-        themselves rather than being a general ecosystem directory.
+        - "Primary product identity: SIP trunk provider offering phone numbers, voice, and SMS services"
+        - AI features described as 'AI receptionist', 'AI customer support', and 'AI sales agent' are use cases enabled by its telephony platform, not developer tools
+        - No evidence of agent orchestration, prompt engineering, coding assistance, or other developer-facing AI tooling in core offering
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

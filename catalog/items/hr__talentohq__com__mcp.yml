@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hr__talentohq__com__mcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,10 +18,7 @@ provenance:
           - Official Servers
         anchor_text: TalentoHQ
         extracted_url: https://hr.talentohq.com/mcp
-        surrounding_text: >-
-          - **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR
-          software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR
-          software.
+        surrounding_text: "- **[TalentoHQ](https://hr.talentohq.com/mcp)** – Connect to the [TalentoHQ HR software](https://talentohq.com/features/mcp) via MCP. Transform your organization with the AI first HR software."
         confidence: high
 metadata:
   github:
@@ -39,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Model Context Protocol (MCP) is a standardized interface enabling AI agents to interact with external tools and data sources.
-  why_it_matters: MCP allows developers to build interoperable AI tooling by defining how agents access capabilities like file systems, APIs, and databases through a common protocol.
-  mental_damage: Yet another protocol promising to end the chaos of agent-tool integrations, as if the problem wasn’t already solved by HTTP and JSON.
+  summary: A placeholder landing page for MCP job listings with no developer tooling content.
+  why_it_matters: It does not provide any developer-facing tool, SDK, server, or infrastructure related to Model Context Protocol or AI development workflows.
+  mental_damage: Another dead-end HR page pretending to be tech infrastructure, adding to the noise of AI resume theater.
   tags:
-    - mcp
-    - protocol
-    - ai-infrastructure
+    - placeholder
+    - hr-page
+    - not-a-tool
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The entry lacks a distinct product identity and appears to be a resource link or documentation pointer rather than a
-    standalone tool, agent, or framework.
+  reason: The URL resolves to a TalentO HQ job listing page with no technical content, SDK, server, or tooling related to MCP or developer workflows; it is not a product but a recruitment landing page.
   evidence:
-    - Source-list context shows inclusion in 'awesome-mcp-servers' under 'Official Servers', indicating recognition as MCP infrastructure
-    - The project's identity aligns with MCP as a protocol, not merely an adapter or compatibility feature
-    - MCP is defined as a standard for AI agents to talk to tools and data sources, matching the canonical positives like FastMCP and github-mcp-server
+    - "URL: https://hr.talentohq.com/mcp is a human resources subdomain hosting job listings"
+    - No repo description, README, or technical documentation was provided
+    - Source-list context only shows inclusion in 'awesome-mcp-servers' as a list, but the target URL is not an MCP server or tool
 placement:
-  primary_category: mcp
+  primary_category: null
   secondary_categories: []
-  section: Dev & Code Tools
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,29 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:21:41.053Z'
+    updated_at: "2026-10-05T04:33:35.807Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:435b7914ad1ec2a4a71486071a1f46838dcb83ae35008f32a836fa1e2b83967d
-      proposed_primary_category: mcp
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:948e76db6ac8c47d09e9c25f59fc1ceac45dd54ddb632ab37849d0860861bf4f
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The entry lacks a distinct product identity and appears to be a resource link or documentation pointer rather
-        than a standalone tool, agent, or framework.
+      decision_reason: The URL resolves to a TalentO HQ job listing page with no technical content, SDK, server, or tooling related to MCP or developer workflows; it is not a product but a recruitment landing page.
       decision_evidence:
-        - Source-list context shows inclusion in 'awesome-mcp-servers' under 'Official Servers', indicating recognition as MCP infrastructure
-        - The project's identity aligns with MCP as a protocol, not merely an adapter or compatibility feature
-        - MCP is defined as a standard for AI agents to talk to tools and data sources, matching the canonical positives like FastMCP and github-mcp-server
-      category_candidates:
-        - mcp
-        - agent-orchestration
-      contrastive_reason: Choose mcp over agent-orchestration because MCP is a protocol infrastructure standard, not a platform for coordinating multiple agents or managing agent workflows.
+        - "URL: https://hr.talentohq.com/mcp is a human resources subdomain hosting job listings"
+        - No repo description, README, or technical documentation was provided
+        - Source-list context only shows inclusion in 'awesome-mcp-servers' as a list, but the target URL is not an MCP server or tool
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

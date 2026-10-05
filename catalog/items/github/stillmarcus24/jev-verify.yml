@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__stillmarcus24__jev-verify__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-verify (stillmarcus24)
         extracted_url: https://github.com/stillmarcus24/jev-verify
-        surrounding_text: >-
-          - [jev-verify (stillmarcus24)](https://github.com/stillmarcus24/jev-verify) - Checks published Jev outputs
-          against the Yurin confidence identity (distinct from dsh-jev-verify). [Project
-          guide](community/projects/tools/stillmarcus-jev-verify.md).
+        surrounding_text: "- [jev-verify (stillmarcus24)](https://github.com/stillmarcus24/jev-verify) - Checks published Jev outputs against the Yurin confidence identity (distinct from dsh-jev-verify). [Project guide](community/projects/tools/stillmarcus-jev-verify.md)."
         confidence: high
     - id: discovery__github__stillmarcus24__jev-verify__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,13 +36,7 @@ provenance:
           - Calibration & Research
         anchor_text: jev-verify
         extracted_url: https://github.com/stillmarcus24/jev-verify
-        surrounding_text: >-
-          - [jev-verify](https://github.com/stillmarcus24/jev-verify)
-          ![stars](https://img.shields.io/github/stars/stillmarcus24/jev-verify?style=flat-square&label=%E2%98%85) -
-          Developer tooling: recomputes Jev's confidence and expected-score identities against outputs published in
-          public repositories rather than live API calls, separating vendor-channel examples (10/10) and recorded
-          responses (843/854) from hand-authored fixtures (115/296), where all 121 outputs whose confidence equals the
-          fractional part of their score are concentrated.
+        surrounding_text: "- [jev-verify](https://github.com/stillmarcus24/jev-verify) ![stars](https://img.shields.io/github/stars/stillmarcus24/jev-verify?style=flat-square&label=%E2%98%85) - Developer tooling: recomputes Jev's confidence and expected-score identities against outputs published in public repositories rather than live API calls, separating vendor-channel examples (10/10) and recorded responses (843/854) from hand-authored fixtures (115/296), where all 121 outputs whose confidence equals the fractional part of their score are concentrated."
         confidence: high
 metadata:
   github:
@@ -63,9 +54,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-verify (stillmarcus24) - Checks published Jev outputs against the Yurin confidence identity (distinct from
-    dsh-jev-verify). Project guide.
+  summary: jev-verify (stillmarcus24) - Checks published Jev outputs against the Yurin confidence identity (distinct from dsh-jev-verify). Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -85,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.425Z'
+    updated_at: "2026-09-29T13:07:10.425Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,6 +82,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.825Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

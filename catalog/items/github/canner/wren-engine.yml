@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__canner__wren-engine__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,9 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Canner/wren-engine
         extracted_url: https://github.com/canner/wren-engine
-        surrounding_text: >-
-          - [Canner/wren-engine](https://github.com/Canner/wren-engine) 🐍 🦀 🏠 - The Semantic Engine for Model Context
-          Protocol(MCP) Clients and AI Agents
+        surrounding_text: "- [Canner/wren-engine](https://github.com/Canner/wren-engine) 🐍 🦀 🏠 - The Semantic Engine for Model Context Protocol(MCP) Clients and AI Agents"
         confidence: high
 metadata:
   github:
@@ -32,8 +30,8 @@ metadata:
     archived: true
     full_name: Canner/wren-engine
     html_url: https://github.com/Canner/wren-engine
-    created_at: '2022-05-09T07:07:45Z'
-    pushed_at: '2026-05-06T17:28:37Z'
+    created_at: "2022-05-09T07:07:45Z"
+    pushed_at: "2026-05-06T17:28:37Z"
     description: This repository has been merged into Canner/WrenAI under the core/ directory
     homepage: https://github.com/Canner/WrenAI
     topics:
@@ -53,18 +51,14 @@ metadata:
       - semantic
       - semantic-layer
       - sql
-    last_checked_at: '2026-09-24T04:13:06.869Z'
+    last_checked_at: "2026-09-24T04:13:06.869Z"
     readme:
-      fetched_at: '2026-09-24T04:13:06.869Z'
+      fetched_at: "2026-09-24T04:13:06.869Z"
       bytes: 11391
 insights:
   summary: An open-source context engine for AI agents that turns business data into agent-usable semantic context.
-  why_it_matters: >-
-    It solves the gap where agents can connect to databases but lack business definitions, metrics, and governance
-    context to answer data questions correctly.
-  mental_damage: >-
-    Finally, an engine that lets your AI agent understand 'net revenue' without you having to explain your entire
-    company’s data model in the prompt.
+  why_it_matters: It solves the gap where agents can connect to databases but lack business definitions, metrics, and governance context to answer data questions correctly.
+  mental_damage: Finally, an engine that lets your AI agent understand 'net revenue' without you having to explain your entire company’s data model in the prompt.
   tags:
     - context-engineering
     - mcp
@@ -87,17 +81,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.607Z'
+    updated_at: "2026-05-06T22:12:15.607Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:06.869Z'
+    updated_at: "2026-09-24T04:13:06.869Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-21T04:14:01.561Z'
+    updated_at: "2026-10-05T04:19:18.819Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -112,9 +106,7 @@ processing:
       input_hash: sha256:9be93114d996a1fcd4b09c5dbd887296b496e8c0b0d3686faf11a90b467ac2d5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The repository is archived and has been merged into Canner/WrenAI, making it no longer an active standalone
-        project.
+      decision_reason: The repository is archived and has been merged into Canner/WrenAI, making it no longer an active standalone project.
       decision_evidence:
         - Repo description states it has been merged into Canner/WrenAI under the core/ directory
         - Archived flag is true

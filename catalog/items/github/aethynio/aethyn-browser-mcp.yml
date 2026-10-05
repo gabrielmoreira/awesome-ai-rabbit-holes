@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aethynio__aethyn-browser-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-07-13T05:12:52.223Z'
+      discovered_at: "2026-07-13T05:12:52.223Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 📂 <a name="browser-automation"></a>Browser Automation
         anchor_text: aethynio/aethyn-browser-mcp
         extracted_url: https://github.com/aethynio/aethyn-browser-mcp
-        surrounding_text: >-
-          - [aethynio/aethyn-browser-mcp](https://github.com/aethynio/aethyn-browser-mcp) [![aethynio/aethyn-browser-mcp
-          MCP
-          server](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp)
-          📇 🏠 - Drive a local Playwright browser through residential proxies with the agent choosing the exit
-          country/city and holding one sticky identity per task. 10 tools: launch, navigate, accessibility snapshot,
-          click, type, content extraction, exit-IP verification, and per-task identity rotation. Free trial, no card.
+        surrounding_text: "- [aethynio/aethyn-browser-mcp](https://github.com/aethynio/aethyn-browser-mcp) [![aethynio/aethyn-browser-mcp MCP server](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp/badges/score.svg)](https://glama.ai/mcp/servers/aethynio/aethyn-browser-mcp) 📇 🏠 - Drive a local Playwright browser through residential proxies with the agent choosing the exit country/city and holding one sticky identity per task. 10 tools: launch, navigate, accessibility snapshot, click, type, content extraction, exit-IP verification, and per-task identity rotation. Free trial, no card."
         confidence: high
 metadata:
   github:
@@ -36,8 +30,8 @@ metadata:
     archived: false
     full_name: aethynio/aethyn-browser-mcp
     html_url: https://github.com/aethynio/aethyn-browser-mcp
-    created_at: '2026-07-11T17:42:03Z'
-    pushed_at: '2026-07-11T18:14:53Z'
+    created_at: "2026-07-11T17:42:03Z"
+    pushed_at: "2026-07-11T18:14:53Z"
     description: Browser MCP to use custom proxies for scraping by AI Agents
     homepage: https://www.aethyn.io
     topics:
@@ -51,20 +45,14 @@ metadata:
       - proxy
       - residential-proxy
       - web-scraping
-    last_checked_at: '2026-09-17T04:13:31.021Z'
+    last_checked_at: "2026-09-17T04:13:31.021Z"
     readme:
-      fetched_at: '2026-09-17T04:13:31.021Z'
+      fetched_at: "2026-09-17T04:13:31.021Z"
       bytes: 7516
 insights:
-  summary: >-
-    An MCP server that provides AI agents with browser control via Playwright, utilizing steerable residential proxies
-    for geo-specific tasks.
-  why_it_matters: >-
-    It allows agents to perform localized web scraping and bypass geo-restrictions by selecting specific countries and
-    identities at runtime.
-  mental_damage: >-
-    Because your agent's reasoning capabilities are only truly complete once it can successfully spoof a residential IP
-    in Osaka.
+  summary: An MCP server that provides AI agents with browser control via Playwright, utilizing steerable residential proxies for geo-specific tasks.
+  why_it_matters: It allows agents to perform localized web scraping and bypass geo-restrictions by selecting specific countries and identities at runtime.
+  mental_damage: Because your agent's reasoning capabilities are only truly complete once it can successfully spoof a residential IP in Osaka.
   tags:
     - mcp
     - browser-automation
@@ -87,18 +75,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-07-13T05:12:52.224Z'
+    updated_at: "2026-07-13T05:12:52.224Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-17T04:13:31.021Z'
+    updated_at: "2026-09-17T04:13:31.021Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:24:12.072Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -110,9 +100,7 @@ processing:
       input_hash: sha256:5898df2aca6eb7bd395beafd65d8c82c706f2c2f1aa46b1d126f0ea0715d5837
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        It is a dedicated MCP server providing specialized browser automation tools with advanced proxy and geo-steering
-        capabilities.
+      decision_reason: It is a dedicated MCP server providing specialized browser automation tools with advanced proxy and geo-steering capabilities.
       decision_evidence:
         - Repo description and README identify it as an MCP server
         - Provides specific tools like aethyn_launch_browser for per-task geo-steering
@@ -120,8 +108,6 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because its primary identity is a specific MCP server implementation
-        providing domain-specific tools rather than a general-purpose host integration.
+      contrastive_reason: Choose mcp over extensions-and-addons because its primary identity is a specific MCP server implementation providing domain-specific tools rather than a general-purpose host integration.
       review_reason: null
       review_resume_lifecycle: null

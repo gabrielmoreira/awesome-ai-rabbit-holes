@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__27dream__mcp-eastmoney__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-06-22T05:53:30.454Z'
+      discovered_at: "2026-06-22T05:53:30.454Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,7 @@ provenance:
           - 💰 <a name="finance--fintech"></a>Finance & Fintech
         anchor_text: 27dream/mcp-eastmoney
         extracted_url: https://github.com/27dream/mcp-eastmoney
-        surrounding_text: >-
-          - [27dream/mcp-eastmoney](https://github.com/27dream/mcp-eastmoney) [![27dream/mcp-eastmoney MCP
-          server](https://glama.ai/mcp/servers/27dream/mcp-eastmoney/badges/score.svg)](https://glama.ai/mcp/servers/27dream/mcp-eastmoney)
-          🐍 ☁️ 🏠 🍎 🪟 🐧 - China A-share stock market MCP server — real-time quotes, main capital flow ranking,
-          sector fund flow, and historical K-lines via Eastmoney's free APIs. Zero config, no API keys required. 5
-          tools: `get_stock_quote`, `search_stock`, `main_fund_rank`, `sector_fund_flow`, `get_kline`. Install: `uvx
-          mcp-eastmoney` or `pip install mcp-eastmoney`.
+        surrounding_text: "- [27dream/mcp-eastmoney](https://github.com/27dream/mcp-eastmoney) [![27dream/mcp-eastmoney MCP server](https://glama.ai/mcp/servers/27dream/mcp-eastmoney/badges/score.svg)](https://glama.ai/mcp/servers/27dream/mcp-eastmoney) 🐍 ☁️ 🏠 🍎 🪟 🐧 - China A-share stock market MCP server — real-time quotes, main capital flow ranking, sector fund flow, and historical K-lines via Eastmoney's free APIs. Zero config, no API keys required. 5 tools: `get_stock_quote`, `search_stock`, `main_fund_rank`, `sector_fund_flow`, `get_kline`. Install: `uvx mcp-eastmoney` or `pip install mcp-eastmoney`."
         confidence: high
 metadata:
   github:
@@ -36,8 +30,8 @@ metadata:
     archived: false
     full_name: 27dream/mcp-eastmoney
     html_url: https://github.com/27dream/mcp-eastmoney
-    created_at: '2026-06-13T09:54:17Z'
-    pushed_at: '2026-06-19T07:56:27Z'
+    created_at: "2026-06-13T09:54:17Z"
+    pushed_at: "2026-06-19T07:56:27Z"
     description: 📈 东方财富MCP服务器 | A股实时行情+主力资金+板块数据+K线 | Claude Code/Cursor通用
     homepage: https://github.com/27dream/mcp-eastmoney
     topics:
@@ -49,20 +43,14 @@ metadata:
       - finance
       - mcp
       - model-context-protocol
-    last_checked_at: '2026-09-17T04:13:25.888Z'
+    last_checked_at: "2026-09-17T04:13:25.888Z"
     readme:
-      fetched_at: '2026-09-17T04:13:25.888Z'
+      fetched_at: "2026-09-17T04:13:25.888Z"
       bytes: 5951
 insights:
-  summary: >-
-    An MCP server that provides real-time China A-share market data, including stock quotes, capital flows, and K-line
-    history, to MCP-compatible AI assistants.
-  why_it_matters: >-
-    It allows developers to bring real-time Chinese financial data directly into their AI coding environments like
-    Claude Code or Cursor without managing external API keys.
-  mental_damage: >-
-    Because the next logical step in the agentic workflow is definitely your coding assistant performing high-frequency
-    trading while you're trying to refactor a function.
+  summary: An MCP server that provides real-time China A-share market data, including stock quotes, capital flows, and K-line history, to MCP-compatible AI assistants.
+  why_it_matters: It allows developers to bring real-time Chinese financial data directly into their AI coding environments like Claude Code or Cursor without managing external API keys.
+  mental_damage: Because the next logical step in the agentic workflow is definitely your coding assistant performing high-frequency trading while you're trying to refactor a function.
   tags:
     - mcp
     - finance
@@ -85,20 +73,22 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-06-22T05:53:30.455Z'
+    updated_at: "2026-06-22T05:53:30.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-28T04:13:56.781Z'
+    updated_at: "2026-10-05T04:19:14.715Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 27dream/mcp-eastmoney
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-24T04:18:51.728Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.817Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -110,9 +100,7 @@ processing:
       input_hash: sha256:5bf8b5b3ad985fd154eca6e411f14bae12c6ec702bba45f9d13eedecae35534a
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The project is a domain-specific MCP server that exposes financial data tools to AI agents via the Model Context
-        Protocol.
+      decision_reason: The project is a domain-specific MCP server that exposes financial data tools to AI agents via the Model Context Protocol.
       decision_evidence:
         - Implements 5 tools for quotes, stock searches, fund rankings, sector flows, and K-line data
         - Designed for seamless integration with Claude Desktop, Cursor, and other MCP clients
@@ -120,8 +108,6 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product is primarily an MCP server exposing domain-specific
-        data tools through the protocol.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product is primarily an MCP server exposing domain-specific data tools through the protocol.
       review_reason: null
       review_resume_lifecycle: null

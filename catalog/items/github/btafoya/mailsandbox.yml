@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__btafoya__mailsandbox__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,10 +19,7 @@ provenance:
           - Official Servers
         anchor_text: MailSandbox
         extracted_url: https://github.com/btafoya/mailsandbox
-        surrounding_text: >-
-          - **[MailSandbox](https://github.com/btafoya/mailsandbox)** - MailSandbox (a fork of Mailpit) is a fast,
-          zero-dependency email testing tool & API with a web UI, SMTP server, Postmark API emulation, and MCP server
-          for AI-assisted debugging.
+        surrounding_text: "- **[MailSandbox](https://github.com/btafoya/mailsandbox)** - MailSandbox (a fork of Mailpit) is a fast, zero-dependency email testing tool & API with a web UI, SMTP server, Postmark API emulation, and MCP server for AI-assisted debugging."
         confidence: high
 metadata:
   github:
@@ -32,24 +29,18 @@ metadata:
     archived: false
     full_name: btafoya/mailsandbox
     html_url: https://github.com/btafoya/mailsandbox
-    created_at: '2025-09-09T18:35:04Z'
-    pushed_at: '2025-09-15T04:06:11Z'
-    description: >-
-      MailSandbox is a fast, zero-dependency email testing tool & API with a web UI, SMTP server, Postmark API
-      emulation, and MCP server for AI-assisted debugging.
-    homepage: ''
+    created_at: "2025-09-09T18:35:04Z"
+    pushed_at: "2025-09-15T04:06:11Z"
+    description: MailSandbox is a fast, zero-dependency email testing tool & API with a web UI, SMTP server, Postmark API emulation, and MCP server for AI-assisted debugging.
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-24T04:13:04.170Z'
+    last_checked_at: "2026-09-24T04:13:04.170Z"
     readme:
-      fetched_at: '2026-09-24T04:13:04.170Z'
+      fetched_at: "2026-09-24T04:13:04.170Z"
       bytes: 5777
 insights:
-  summary: >-
-    MailSandbox is a lightweight email testing tool with SMTP server, web UI, Postmark API emulation, and an MCP server
-    for AI-assisted email inspection.
-  why_it_matters: >-
-    It lets developers test and debug email workflows locally while enabling AI assistants to read and analyze messages
-    via MCP during development.
+  summary: MailSandbox is a lightweight email testing tool with SMTP server, web UI, Postmark API emulation, and an MCP server for AI-assisted email inspection.
+  why_it_matters: It lets developers test and debug email workflows locally while enabling AI assistants to read and analyze messages via MCP during development.
   mental_damage: Another tool to run alongside your AI agent just to verify if the email it drafted actually looks like spam.
   tags:
     - email
@@ -72,18 +63,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.606Z'
+    updated_at: "2026-05-06T22:12:15.606Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:13:04.170Z'
+    updated_at: "2026-09-24T04:13:04.170Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:58:49.281Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
@@ -95,23 +88,14 @@ processing:
       input_hash: sha256:765c7199e75a552a82e23d257358272eabdedf617c647c3fcf207d4776e152ef
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        MailSandbox’s MCP server is a core feature enabling AI assistants to interact with email, making MCP its primary
-        identity as a developer tool exposing data over the protocol.
+      decision_reason: MailSandbox’s MCP server is a core feature enabling AI assistants to interact with email, making MCP its primary identity as a developer tool exposing data over the protocol.
       decision_evidence:
-        - >-
-          README highlights MCP server as a key feature: 'MCP server for AI-assisted debugging' and lists MCP tools like
-          list_messages, get_message, analyze_message
+        - "README highlights MCP server as a key feature: 'MCP server for AI-assisted debugging' and lists MCP tools like list_messages, get_message, analyze_message"
         - Source-list context shows inclusion in awesome-mcp-servers under Official Servers
-        - >-
-          Repo description explicitly states: 'MailSandbox is a fast, zero-dependency email testing tool & API [...] and
-          MCP server for AI-assisted debugging'
+        - "Repo description explicitly states: 'MailSandbox is a fast, zero-dependency email testing tool & API [...] and MCP server for AI-assisted debugging'"
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because MailSandbox’s MCP server is not merely an add-on for another
-        agent—it is the product’s primary identity as an MCP server exposing email data, whereas extensions enhance host
-        agents rather than standing as protocol infrastructure.
+      contrastive_reason: Choose mcp over extensions-and-addons because MailSandbox’s MCP server is not merely an add-on for another agent—it is the product’s primary identity as an MCP server exposing email data, whereas extensions enhance host agents rather than standing as protocol infrastructure.
       review_reason: null
       review_resume_lifecycle: null

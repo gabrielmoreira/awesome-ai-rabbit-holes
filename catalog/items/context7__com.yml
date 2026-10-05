@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__context7__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Context7
         extracted_url: https://context7.com
-        surrounding_text: >-
-          - **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI
-          editors.
+        surrounding_text: "- **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI editors."
         confidence: high
 metadata:
   github:
@@ -38,38 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Context7 provides up-to-date, version-specific documentation and code examples for AI libraries that can be inserted
-    directly into Cursor, Claude Code, Codex, Devin Desktop, Antigravity, and other AI coding tools.
-  why_it_matters: >-
-    It solves the constant context-switching and outdated documentation problem developers face when using AI coding
-    assistants with rapidly changing libraries.
-  mental_damage: >-
-    You'll spend less time Googling stale API docs and more time watching your AI assistant hallucinate import errors
-    because it's working with yesterday's library version.
+  summary: Context7.com provides up-to-date, version-specific documentation and code examples for libraries, retrievable directly into AI coding tools.
+  why_it_matters: It solves the context freshness problem for developers using AI coding assistants by delivering current library knowledge without manual lookup.
+  mental_damage: Another tool promising to keep your AI pair programmer from hallucinating outdated API calls—because nothing says 'productive' like outsourcing your memory to a documentation CDN.
   tags:
     - documentation
-    - ai-coding-tools
-    - developer-productivity
+    - ai-coding
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Retrieval & Fresh Docs
+  reason: Context7 is a retrieval service focused on delivering current documentation to AI agents, making its core identity context enrichment rather than coding automation or extension.
   evidence:
-    - jev-latest choice confidence 0.93
+    - "Scraped site description: 'Pull up-to-date, version-specific documentation and code examples for any library directly into Cursor, Claude Code, Codex, Devin Desktop, Antigravity and other AI coding tools.'"
+    - "Source-list context: listed in awesome-ai-coding-tools under Developer Productivity Tools with the same documentation retrieval pitch."
+    - No evidence of autonomous coding, IDE integration as primary agent, or app generation—focus is purely on fetching fresh context.
 placement:
   primary_category: memory-and-context
   secondary_categories: []
   section: Retrieval & Fresh Docs
 lifecycle:
   status: needs_review
-  reason: >-
-    Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained
-    'memory-and-context', proposed 'coding-agents'
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,35 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-24T04:36:23.412Z'
+    updated_at: "2026-10-05T04:30:18.178Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:43296e87fcba7f85f5119f2b76d808bdbbaa9734271220c628afa8527a6e5e66
-      proposed_primary_category: coding-agents
-      disagreement: true
-      decision_reason: >-
-        Context7 is a coding agent because it provides autonomous, interactive assistance by supplying up-to-date
-        documentation and code examples directly into AI coding agents during active development workflows.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ebd34a57896772eb818106d9aaaf77ce529e54d9170536a08d78c376773c29e0
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: Context7 is a retrieval service focused on delivering current documentation to AI agents, making its core identity context enrichment rather than coding automation or extension.
       decision_evidence:
-        - >-
-          README states it pulls documentation 'directly into Cursor, Claude Code, Codex, Devin Desktop, Antigravity and
-          other AI coding tools'
-        - Description explicitly frames the product as 'Up-to-date documentation for LLMs and AI code editors'
-        - Scraped site excerpt confirms the core function is providing version-specific docs to AI coding tools
+        - "Scraped site description: 'Pull up-to-date, version-specific documentation and code examples for any library directly into Cursor, Claude Code, Codex, Devin Desktop, Antigravity and other AI coding tools.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under Developer Productivity Tools with the same documentation retrieval pitch."
+        - No evidence of autonomous coding, IDE integration as primary agent, or app generation—focus is purely on fetching fresh context.
       category_candidates:
-        - coding-agents
+        - memory-and-context
         - ai-dev-extensions
-      contrastive_reason: >-
-        Choose coding-agents over ai-dev-extensions because it provides autonomous documentation assistance as its
-        primary identity rather than merely augmenting a host tool with a side feature.
-      review_reason: >-
-        Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement:
-        retained 'memory-and-context', proposed 'coding-agents'
+      contrastive_reason: Choose memory-and-context over ai-dev-extensions because Context7's core novelty is retrieval and fresh-document delivery, not augmenting a host agent with workflow or debugger capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
       review_resume_lifecycle: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__get-convex__convex-backend__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,10 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Source
         extracted_url: https://github.com/get-convex/convex-backend
-        surrounding_text: >-
-          - [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration
-          to introspect tables, functions, and run oneoff queries
-          ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))
+        surrounding_text: "- [get-convex/convex-backend](https://stack.convex.dev/convex-mcp-server) 📇 ☁️ - Convex database integration to introspect tables, functions, and run oneoff queries ([Source](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/src/cli/mcp.ts))"
         confidence: high
     - id: discovery__github__get-convex__convex-backend__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-28T04:13:54.113Z'
+      discovered_at: "2026-09-28T04:13:54.113Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -39,11 +36,53 @@ provenance:
           - 🗄️ Databases
         anchor_text: get-convex/convex-backend
         extracted_url: https://github.com/get-convex/convex-backend
-        surrounding_text: >-
-          -   **[get-convex/convex-backend](https://github.com/get-convex/convex-backend)** [![GitHub
-          stars](https://img.shields.io/github/stars/get-convex/convex-backend?style=social)](https://github.com/get-convex/convex-backend):
-          Official Convex MCP server (`npx convex mcp start`, shipped in the Convex CLI) that introspects Convex tables
-          and functions and runs one-off queries.
+        surrounding_text: "-   **[get-convex/convex-backend](https://github.com/get-convex/convex-backend)** [![GitHub stars](https://img.shields.io/github/stars/get-convex/convex-backend?style=social)](https://github.com/get-convex/convex-backend): Official Convex MCP server (`npx convex mcp start`, shipped in the Convex CLI) that introspects Convex tables and functions and runs one-off queries."
+        confidence: high
+    - id: discovery__github__get-convex__convex-backend__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Benchmarks & research
+        anchor_text: site
+        extracted_url: https://convex.dev/evals/decision
+        surrounding_text: "- [Convex Decision Evals](https://github.com/get-convex/convex-evals) ([site](https://www.convex.dev/evals/decision)) - Leaderboard that puts Jev and 14 LLMs through 108 four-option multiple-choice questions about the Convex backend platform, comparing accuracy, latency, and cost, with a per-answer explorer showing Jev probabilities."
+        confidence: high
+    - id: discovery__github__get-convex__convex-backend__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: Convex Decision Evals
+        extracted_url: https://convex.dev/evals/decision
+        surrounding_text: "- [Convex Decision Evals](https://www.convex.dev/evals/decision) - Model evaluation: asks Jev a `Choice` on 108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer, probability and raw request/response in a public [explorer](https://convex-evals.netlify.app) and the runner in [get-convex/convex-evals](https://github.com/get-convex/convex-evals)."
+        confidence: high
+    - id: discovery__github__get-convex__convex-backend__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Evaluation and calibration
+        anchor_text: Leaderboard
+        extracted_url: https://convex.dev/evals/decision
+        surrounding_text: "- [Convex Decision Evals](https://github.com/get-convex/convex-evals/tree/main/runner/decisions) - Leaderboard that asks Jev (native Choice questions through OpenRouter's decisions endpoint) and 14 other models (structured output limited to A-D, no tools, low reasoning effort) 108 verified four-option questions about the Convex backend platform, each asked 3 times per run with shuffled options (random guessing is 25%); in the 23 Sept 2026 benchmark jev-1.13 scored 84.6% ±0.7 (13th of 15) at a 199 ms median per question and $0.0088 per full run, against 98.0% at 2.12 s and $1.59 per run for the top model, GPT-6 Astra. [Leaderboard](https://www.convex.dev/evals/decision), [per-answer explorer](https://convex-evals.netlify.app)."
         confidence: high
 metadata:
   github:
@@ -53,8 +92,8 @@ metadata:
     archived: false
     full_name: get-convex/convex-backend
     html_url: https://github.com/get-convex/convex-backend
-    created_at: '2024-03-08T07:23:15Z'
-    pushed_at: '2026-09-03T04:07:03Z'
+    created_at: "2024-03-08T07:23:15Z"
+    pushed_at: "2026-09-03T04:07:03Z"
     description: The open-source reactive database for app developers
     homepage: https://docs.convex.dev
     topics:
@@ -63,18 +102,14 @@ metadata:
       - database
       - rust
       - typescript
-    last_checked_at: '2026-09-03T05:16:48.365Z'
+    last_checked_at: "2026-09-03T05:16:48.365Z"
     readme:
-      fetched_at: '2026-09-03T05:16:48.365Z'
+      fetched_at: "2026-09-03T05:16:48.365Z"
       bytes: 4136
 insights:
   summary: An open-source reactive database designed for web application development using TypeScript.
-  why_it_matters: >-
-    It simplifies full-stack development by unifying the database, server functions, and client libraries into a single
-    reactive ecosystem.
-  mental_damage: >-
-    Now you have to decide whether your business logic belongs in a SQL trigger, a cloud function, or a pure TypeScript
-    file.
+  why_it_matters: It simplifies full-stack development by unifying the database, server functions, and client libraries into a single reactive ecosystem.
+  mental_damage: Now you have to decide whether your business logic belongs in a SQL trigger, a cloud function, or a pure TypeScript file.
   tags:
     - database
     - typescript
@@ -98,17 +133,17 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-28T04:13:54.114Z'
+    updated_at: "2026-10-05T04:19:11.930Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-03T05:16:48.365Z'
+    updated_at: "2026-09-03T05:16:48.365Z"
     cause: null
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: '2026-09-28T04:14:00.165Z'
+    updated_at: "2026-10-05T04:19:18.820Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -123,9 +158,7 @@ processing:
       input_hash: sha256:edff48d7b8bbcfaccda5e1f8aec559a2c5854b68723e6d1a15d3188d25342549
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        Convex is a general-purpose backend/database infrastructure product rather than a developer-facing AI tool or
-        agent.
+      decision_reason: Convex is a general-purpose backend/database infrastructure product rather than a developer-facing AI tool or agent.
       decision_evidence:
         - Repo description identifies it as a 'eactive database for app developers'
         - README describes it as a 'database, a place to write your server functions, and client libraries'

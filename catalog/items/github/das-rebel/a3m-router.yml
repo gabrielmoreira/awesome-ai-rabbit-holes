@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__das-rebel__a3m-router__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: a3m-router
         extracted_url: https://github.com/das-rebel/a3m-router
-        surrounding_text: >-
-          | [a3m-router](https://github.com/Das-rebel/a3m-router) | ★ 16 | TypeScript | 2026-09-23 | ⚡ Adaptive
-          multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail
-          failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router. |
+        surrounding_text: "| [a3m-router](https://github.com/Das-rebel/a3m-router) | ★ 16 | TypeScript | 2026-09-23 | ⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router. |"
         confidence: high
 metadata:
   github:
@@ -41,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto),
-    pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router.
+  summary: "⚡ Adaptive multi-model LLM router — 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,16 +58,19 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: '2026-09-29T13:10:26.438Z'
+    updated_at: "2026-09-29T13:10:26.438Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for das-rebel/a3m-router
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.819Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

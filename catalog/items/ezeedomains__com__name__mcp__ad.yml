@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ezeedomains__com__name__mcp__ad__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-07-21T15:20:21.961Z'
+      discovered_at: "2026-07-21T15:20:21.961Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -21,7 +21,7 @@ provenance:
         surrounding_text: 4. [mcp.ad](https://mcp.ad/)
         confidence: high
     - id: discovery__www__ezeedomains__com__name__mcp__ad__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-06-08T05:39:05.247Z'
+      discovered_at: "2026-06-08T05:39:05.247Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -51,11 +51,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A premium domain name (MCP.Ad) listed for sale on a domain marketplace.
-  why_it_matters: >-
-    It does not provide any technical utility to developers beyond being a digital asset for someone who wants to start
-    a brand related to the Model Context Protocol.
-  mental_damage: The ecosystem has reached the stage where the most valuable 'MCP tool' is the right TLD for a landing page.
+  summary: MCP.Ad is a premium three-letter .Ad domain name for sale, marketed as brand-ready for Model Context Protocol platforms and AI integration tools.
+  why_it_matters: It matters as a speculative digital asset for developers building MCP-compatible infrastructure, though it provides no tooling, code, or functionality itself.
+  mental_damage: Buying a domain to feel like you're early on MCP is the developer equivalent of buying a tennis outfit to become a pro.
   tags:
     - domain
     - mcp
@@ -63,11 +61,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: MCP.Ad is a domain name listing, not a developer tool, agent, framework, or infrastructure product; it lacks any executable, integrable, or operable identity relevant to software development workflows.
+  reason: MCP.Ad is a domain name marketplace listing with no associated software, tooling, or developer product; it is a speculative asset, not a practical AI tool for developers.
   evidence:
-    - The product is a domain for sale at ezeedomains.com with no associated repository, code, or tooling
-    - Marketing emphasizes premium domain value, brandability, and investment potential, not developer functionality
-    - Source-list placement in awesome-LLM-resources is under a resource summary section, not as a tool
+    - The scraped site shows MCP.Ad is listed for sale at $88,888 with no GitHub repo, code, documentation, or tooling provided.
+    - The primary page excerpt describes it as a 'premium 3-letter .Ad domain' for branding MCP platforms, not as a functional tool or platform.
+    - Source-list context shows it appears only in an awesome LLM resources list under the MCP section as a named asset, not as a curated tool or project.
 placement:
   primary_category: null
   section: null
@@ -76,36 +74,32 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: '2026-09-21T04:34:02.371Z'
-    cause:
-      type: categorization_failed
-      message: >-
-        Catalog LLM categorization failed for ezeedomains__com__name__mcp__ad: Upstream error from Nvidia:
-        ResourceExhausted: Worker local total request limit reached (16/16)
-    attempts: 2
+    status: done
+    updated_at: "2026-10-05T04:26:03.901Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:da9e21b130a3c9e401f46afe6783b4281133a79e333d58604d35b2b34bde1538
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:197243c6bd8e9468c0c72ee41be0143551a1a29ccc3b6416353597a587d137a0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: MCP.Ad is a domain name listing, not a developer tool, agent, framework, or infrastructure product; it lacks any executable, integrable, or operable identity relevant to software development workflows.
+      decision_reason: MCP.Ad is a domain name marketplace listing with no associated software, tooling, or developer product; it is a speculative asset, not a practical AI tool for developers.
       decision_evidence:
-        - The product is a domain for sale at ezeedomains.com with no associated repository, code, or tooling
-        - Marketing emphasizes premium domain value, brandability, and investment potential, not developer functionality
-        - Source-list placement in awesome-LLM-resources is under a resource summary section, not as a tool
+        - The scraped site shows MCP.Ad is listed for sale at $88,888 with no GitHub repo, code, documentation, or tooling provided.
+        - The primary page excerpt describes it as a 'premium 3-letter .Ad domain' for branding MCP platforms, not as a functional tool or platform.
+        - Source-list context shows it appears only in an awesome LLM resources list under the MCP section as a named asset, not as a curated tool or project.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-07-21T15:20:21.965Z'
+    updated_at: "2026-07-21T15:20:21.965Z"
     cause: null
     next_retry_at: null
   stars:

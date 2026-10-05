@@ -5,9 +5,8 @@ canonical_url: https://docs.google.com/spreadsheets/d/18GHPEBJzDbICmMStPVkNWA_hQ
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__docs__google__com__spreadsheets__d__18ghpebjzdbicmmstpvknwa__hqhiwmlcqudeja1b4mjm__edit__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+    - id: discovery__docs__google__com__spreadsheets__d__18ghpebjzdbicmmstpvknwa__hqhiwmlcqudeja1b4mjm__edit__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -19,9 +18,7 @@ provenance:
           - 技巧 Tips
         anchor_text: LLM Pricing
         extracted_url: https://docs.google.com/spreadsheets/d/18GHPEBJzDbICmMStPVkNWA_hQHiWmLcqUdEJA1b4MJM/edit
-        surrounding_text: >-
-          8. [LLM
-          Pricing](https://docs.google.com/spreadsheets/d/18GHPEBJzDbICmMStPVkNWA_hQHiWmLcqUdEJA1b4MJM/edit?gid=0#gid=0)
+        surrounding_text: 8. [LLM Pricing](https://docs.google.com/spreadsheets/d/18GHPEBJzDbICmMStPVkNWA_hQHiWmLcqUdEJA1b4MJM/edit?gid=0#gid=0)
         confidence: high
 metadata:
   github:
@@ -39,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Sheets spreadsheet comparing input/output pricing and context lengths for various LLMs.
-  why_it_matters: Helps developers estimate costs when choosing models for API usage in AI-powered applications.
-  mental_damage: Yet another pricing table to bookmark, ignore, and rediscover when the bill arrives.
+  summary: A Google Spreadsheet containing LLM pricing tables for various models including input/output costs, context windows, and token rates.
+  why_it_matters: Provides developers with a centralized, up-to-date reference for comparing LLM API costs when building AI-powered applications or making model selection decisions.
+  mental_damage: Another pricing sheet to bookmark and immediately forget when you just want to know if Claude 3.5 Sonnet is still cheaper than GPT-4o for your side project.
   tags:
-    - llm
     - pricing
+    - llm
     - reference
+    - cost-comparison
   confidence: high
 curation:
   status: excluded
-  reason: >-
-    The resource is a static pricing reference sheet, not a developer-facing AI tool, agent, workflow, or infrastructure
-    component.
+  reason: The resource is a static pricing spreadsheet that does not constitute a developer-facing AI tool, agent, workflow, or infrastructure product, and lacks any active development or runtime component relevant to software engineering workflows.
   evidence:
-    - Source is a Google Doc spreadsheet titled 'LLM Pricing' with token cost and context window data
-    - Appears in awesome-LLM-resources under '技巧 Tips' as a curated resource, not a tool
-    - No evidence of interactivity, automation, code integration, or developer workflow enhancement
+    - The source is a Google Docs spreadsheet URL with no indication of ongoing maintenance or developer tooling functionality
+    - Listed in 'awesome-LLM-resources' under '技巧 Tips' as a reference, not a tool
+    - Content consists solely of model pricing data with no tooling, API, SDK, or agent capabilities
 placement:
   primary_category: null
   section: null
@@ -65,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,26 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:52:17.135Z'
+    updated_at: "2026-10-05T04:59:06.451Z"
     cause: null
     next_retry_at: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:cf68238cb8d419fb65ed3e8edeae1ce493459faffd7818ba4e04d3e7d981ae05
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:964287efd5a3c5b9e01032f87a65ce3ae42f4b584d8b9b64a6fbd39da41f61b6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The resource is a static pricing reference sheet, not a developer-facing AI tool, agent, workflow, or
-        infrastructure component.
+      decision_reason: The resource is a static pricing spreadsheet that does not constitute a developer-facing AI tool, agent, workflow, or infrastructure product, and lacks any active development or runtime component relevant to software engineering workflows.
       decision_evidence:
-        - Source is a Google Doc spreadsheet titled 'LLM Pricing' with token cost and context window data
-        - Appears in awesome-LLM-resources under '技巧 Tips' as a curated resource, not a tool
-        - No evidence of interactivity, automation, code integration, or developer workflow enhancement
+        - The source is a Google Docs spreadsheet URL with no indication of ongoing maintenance or developer tooling functionality
+        - Listed in 'awesome-LLM-resources' under '技巧 Tips' as a reference, not a tool
+        - Content consists solely of model pricing data with no tooling, API, SDK, or agent capabilities
       category_candidates: []
       contrastive_reason: null
       review_reason: null

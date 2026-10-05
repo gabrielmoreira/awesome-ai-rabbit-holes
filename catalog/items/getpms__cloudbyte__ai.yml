@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__getpms__cloudbyte__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: CloudByte PMS
         extracted_url: https://getpms.cloudbyte.ai
-        surrounding_text: >-
-          - **[CloudByte PMS](https://getpms.cloudbyte.ai)** – Team analytics for AI coding assistants: tracks Claude
-          Code, GitHub Copilot, and Cursor sessions, prompts, and commits to surface adoption, ROI, ghost seats, and
-          prompt governance in one dashboard with role-based access.
+        surrounding_text: "- **[CloudByte PMS](https://getpms.cloudbyte.ai)** – Team analytics for AI coding assistants: tracks Claude Code, GitHub Copilot, and Cursor sessions, prompts, and commits to surface adoption, ROI, ghost seats, and prompt governance in one dashboard with role-based access."
         confidence: high
 metadata:
   github:
@@ -39,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CloudByte PMS – Team analytics for AI coding assistants: tracks Claude Code, GitHub Copilot, and Cursor sessions,
-    prompts, and commits to surface adoption, ROI, ghost seats, and prompt governance in one dashboard with role-based
-    access.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CloudByte PMS tracks Claude Code usage, token spend, commits, and session metrics to measure AI adoption and efficiency across engineering teams.
+  why_it_matters: Gives engineering leaders visibility into actual AI tool usage and ROI, moving beyond vanity metrics to real adoption and impact data.
+  mental_damage: Finally, a way to quantify the guilt of paying for AI seats nobody uses — now with pretty graphs and existential dread.
+  tags:
+    - ai-adoption
+    - engineering-metrics
+    - team-analytics
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Observability & Tracing
+  status: excluded
+  reason: CloudByte PMS is an observability and analytics platform for tracking AI tool usage, not a developer-facing AI tool that assists with coding, workflows, or app development.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Tracks Claude Code sessions, token spend, commits, and provides ROI metrics for engineering teams
+    - Designed for engineering managers and CTOs to measure AI adoption and efficiency, not to assist developers in writing or editing code
+    - Appears in awesome-ai-coding-tools under 'Developer Productivity Tools' as a measurement layer, not a coding agent or extension
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories: []
-  section: Observability & Tracing
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.488Z'
+    updated_at: "2026-09-29T13:07:10.488Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-05T05:09:54.528Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d860c275490b61872535ee9fcf0a823a7a7ad22d3f58a9d649cb00a57e80d7e6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: CloudByte PMS is an observability and analytics platform for tracking AI tool usage, not a developer-facing AI tool that assists with coding, workflows, or app development.
+      decision_evidence:
+        - Tracks Claude Code sessions, token spend, commits, and provides ROI metrics for engineering teams
+        - Designed for engineering managers and CTOs to measure AI adoption and efficiency, not to assist developers in writing or editing code
+        - Appears in awesome-ai-coding-tools under 'Developer Productivity Tools' as a measurement layer, not a coding agent or extension
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

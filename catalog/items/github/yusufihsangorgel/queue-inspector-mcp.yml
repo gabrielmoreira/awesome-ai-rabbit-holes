@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__yusufihsangorgel__queue-inspector-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: Yusufihsangorgel/queue-inspector-mcp
         extracted_url: https://github.com/yusufihsangorgel/queue-inspector-mcp
-        surrounding_text: >-
-          - [Yusufihsangorgel/queue-inspector-mcp](https://github.com/Yusufihsangorgel/queue-inspector-mcp)
-          [![Yusufihsangorgel/queue-inspector-mcp MCP
-          server](https://glama.ai/mcp/servers/Yusufihsangorgel/queue-inspector-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Yusufihsangorgel/queue-inspector-mcp)
-          📇 🏠 - Inspect and operate Redis-backed Asynq and BullMQ job queues: per-state counts, decoded job payloads
-          and errors, retry and delete, with a read-only mode.
+        surrounding_text: "- [Yusufihsangorgel/queue-inspector-mcp](https://github.com/Yusufihsangorgel/queue-inspector-mcp) [![Yusufihsangorgel/queue-inspector-mcp MCP server](https://glama.ai/mcp/servers/Yusufihsangorgel/queue-inspector-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Yusufihsangorgel/queue-inspector-mcp) 📇 🏠 - Inspect and operate Redis-backed Asynq and BullMQ job queues: per-state counts, decoded job payloads and errors, retry and delete, with a read-only mode."
         confidence: high
 metadata:
   github:
@@ -43,9 +38,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Yusufihsangorgel/queue-inspector-mcp - Inspect and operate Redis-backed Asynq and BullMQ job queues: per-state
-    counts, decoded job payloads and errors, retry and delete, with a read-only mode.
+  summary: "Yusufihsangorgel/queue-inspector-mcp - Inspect and operate Redis-backed Asynq and BullMQ job queues: per-state counts, decoded job payloads and errors, retry and delete, with a read-only mode."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,7 +58,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.485Z'
+    updated_at: "2026-09-29T13:07:10.485Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +66,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

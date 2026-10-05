@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__jinaai__readerlm__v2__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -18,9 +18,7 @@ provenance:
           - 数据 Data
         anchor_text: ReaderLM-v2
         extracted_url: https://huggingface.co/jinaai/ReaderLM-v2
-        surrounding_text: >-
-          28. [ReaderLM-v2](https://huggingface.co/jinaai/ReaderLM-v2): a 1.5B parameter language model that converts
-          raw HTML into beautifully formatted markdown or JSON.
+        surrounding_text: "28. [ReaderLM-v2](https://huggingface.co/jinaai/ReaderLM-v2): a 1.5B parameter language model that converts raw HTML into beautifully formatted markdown or JSON."
         confidence: high
 metadata:
   github:
@@ -38,35 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A 1.5B parameter language model specialized in converting raw HTML into structured Markdown or JSON.
-  why_it_matters: >-
-    It provides a lightweight, specialized way to preprocess web content into clean, LLM-friendly formats for RAG and
-    data extraction pipelines.
-  mental_damage: Just another specialized model weight to download and manage in your increasingly crowded local inference setup.
+  summary: ReaderLM-v2 is a 1.5B parameter language model specialized for converting raw HTML into Markdown or JSON with long-context support.
+  why_it_matters: It enables developers to automate HTML-to-structured-content conversion for documentation, scraping, or content pipelines without relying on larger, more expensive models.
+  mental_damage: Another niche model that promises to solve a problem you didn’t know you had until you tried to parse Hacker News with regex.
   tags:
-    - html-to-markdown
-    - slm
-    - data-extraction
-    - jina-ai
-  confidence: high
+    - html-processing
+    - markdown
+    - json
+    - local-ai
+    - text-generation
+  confidence: medium
 curation:
-  status: excluded
-  reason: >-
-    This is a raw model weight repository on Hugging Face rather than a standalone developer tool, framework, or
-    runtime.
+  status: included
+  reason: ReaderLM-v2 is a self-hostable text-generation model whose primary identity is as a local or self-hosted AI model for HTML transformation, fitting the local-ai category as a developer-facing inference engine.
   evidence:
-    - Hugging Face repository for a 1.5B parameter model
-    - README describes model architecture and training rather than a software product/SDK
+    - Model card describes it as a 1.5B parameter language model for HTML to Markdown/JSON conversion
+    - Provides local usage instructions via Hugging Face Transformers, vLLM, SGLang, and Docker Model Runner
+    - Listed in awesome-LLM-resources under the 'Data' section for LLM resources
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Inference Engines
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.662Z'
+    updated_at: "2026-05-06T22:12:15.662Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,26 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: '2026-09-28T04:27:03.383Z'
+    updated_at: "2026-10-05T04:34:16.017Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:9a083a6fd15b3a4b658e20a82597a96662218684448031cf2cfe48a7a6a7665a
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:50bbd47c7909f141ed87dd72156cead9c747af33ebb340e2ef687579142703ec
+      proposed_primary_category: local-ai
       disagreement: false
-      decision_reason: >-
-        This is a raw model weight repository on Hugging Face rather than a standalone developer tool, framework, or
-        runtime.
+      decision_reason: ReaderLM-v2 is a self-hostable text-generation model whose primary identity is as a local or self-hosted AI model for HTML transformation, fitting the local-ai category as a developer-facing inference engine.
       decision_evidence:
-        - Hugging Face repository for a 1.5B parameter model
-        - README describes model architecture and training rather than a software product/SDK
-      category_candidates: []
-      contrastive_reason: null
+        - Model card describes it as a 1.5B parameter language model for HTML to Markdown/JSON conversion
+        - Provides local usage instructions via Hugging Face Transformers, vLLM, SGLang, and Docker Model Runner
+        - Listed in awesome-LLM-resources under the 'Data' section for LLM resources
+      category_candidates:
+        - local-ai
+        - memory-and-context
+      contrastive_reason: Choose local-ai over memory-and-context because ReaderLM-v2 is a generative model for HTML transformation, not a memory, retrieval, or context-shaping system.
       review_reason: null
       review_resume_lifecycle: null

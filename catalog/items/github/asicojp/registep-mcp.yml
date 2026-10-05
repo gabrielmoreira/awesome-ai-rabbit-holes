@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__asicojp__registep-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-12T15:06:19.300Z'
+      discovered_at: "2026-05-12T15:06:19.300Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,13 +20,10 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: saikiyusuke/registep-mcp
         extracted_url: https://github.com/saikiyusuke/registep-mcp
-        surrounding_text: >-
-          - [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales
-          analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales
-          data querying, AI chat analysis, and weather correlation features.
+        surrounding_text: "- [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features."
         confidence: high
     - id: discovery__github__saikiyusuke__registep-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -39,10 +36,7 @@ provenance:
           - 📊 <a name="data-platforms"></a>Data Platforms
         anchor_text: saikiyusuke/registep-mcp
         extracted_url: https://github.com/saikiyusuke/registep-mcp
-        surrounding_text: >-
-          - [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales
-          analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales
-          data querying, AI chat analysis, and weather correlation features.
+        surrounding_text: "- [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features."
         confidence: high
 metadata:
   github:
@@ -52,21 +46,17 @@ metadata:
     archived: false
     full_name: asicojp/registep-mcp
     html_url: https://github.com/asicojp/registep-mcp
-    created_at: '2026-02-17T18:00:16Z'
-    pushed_at: '2026-06-11T14:30:41Z'
+    created_at: "2026-02-17T18:00:16Z"
+    pushed_at: "2026-06-11T14:30:41Z"
     description: Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients
     homepage: https://registep.jp
     topics: []
-    last_checked_at: '2026-09-21T04:13:48.689Z'
+    last_checked_at: "2026-09-21T04:13:48.689Z"
     readme: null
 insights:
   summary: An MCP server that exposes POS and sales analytics data to AI agents like Claude Code and Cursor.
-  why_it_matters: >-
-    It allows developers to use their coding assistants to directly query, analyze, and integrate real-world retail and
-    sales data into their development workflows.
-  mental_damage: >-
-    Because eventually, your LLM will be less focused on refactoring your React components and more focused on why your
-    Q3 sales margins are dipping.
+  why_it_matters: It allows developers to use their coding assistants to directly query, analyze, and integrate real-world retail and sales data into their development workflows.
+  mental_damage: Because eventually, your LLM will be less focused on refactoring your React components and more focused on why your Q3 sales margins are dipping.
   tags:
     - mcp
     - pos
@@ -87,9 +77,11 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: done
-    updated_at: '2026-09-21T04:15:49.785Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -101,9 +93,7 @@ processing:
       input_hash: sha256:832f4fb387b01efb1fb60178d8f39863ade83ba930e2b9cff8fa829678c75fac
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        The product's primary identity is an MCP server designed to expose specific domain data to the Model Context
-        Protocol ecosystem.
+      decision_reason: The product's primary identity is an MCP server designed to expose specific domain data to the Model Context Protocol ecosystem.
       decision_evidence:
         - Repo description explicitly identifies it as an 'MCP Server'
         - Provides capabilities specifically for 'Claude Code, Cursor, and other MCP clients'
@@ -111,18 +101,16 @@ processing:
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product's core identity is the MCP server providing data
-        access rather than a general workflow plugin for a specific IDE.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's core identity is the MCP server providing data access rather than a general workflow plugin for a specific IDE.
       review_reason: null
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: '2026-05-12T15:06:19.301Z'
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-21T04:13:48.690Z'
+    updated_at: "2026-09-21T04:13:48.690Z"
     cause: null
     next_retry_at: null

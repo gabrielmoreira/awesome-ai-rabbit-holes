@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__datawhalechina__github__io__llm__cookbook__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An introductory tutorial for developers on using Large Language Models.
-  why_it_matters: >-
-    Provides a structured learning path for developers looking to transition into LLM-based development and agentic
-    workflows.
-  mental_damage: Another reminder that the half-life of your current AI knowledge is approximately three business days.
+  summary: An open-source educational tutorial for developers learning to build and work with large language models.
+  why_it_matters: Provides structured learning resources to help developers understand LLM fundamentals and applications.
+  mental_damage: Another lengthy PDF-style guide that promises to make you an LLM expert while you still can't get your local Llama 3 to load.
   tags:
-    - awesome-list
+    - education
     - llm
-    - resources
+    - tutorial
+    - developer-resources
   confidence: high
 curation:
-  status: included
-  reason: It is a curated directory of LLM resources with a clear developer-tooling focus, matching the purpose of awesome-awesomes as a navigation aid for AI development.
+  status: excluded
+  reason: This is an educational tutorial resource, not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - "Source-list context shows inclusion in awesome-LLM-resources with purpose: '🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）'"
-    - "Scraped site context title: '面向开发者的LLM入门教程' indicates a developer-facing educational resource"
-    - No evidence of being a standalone tool, agent, framework, or runtime — it is a summary/link aggregation
+    - Source-list context identifies it as a '书籍 Book' (book) in the awesome-LLM-resources directory
+    - "Scraped site context title: '面向开发者的LLM入门教程' (LLM Beginner Tutorial for Developers)"
+    - No evidence of being a standalone tool, agent, framework, or runtime that developers would use in their workflow
 placement:
-  primary_category: awesome-awesomes
-  section: Awesome Lists & Directories
+  primary_category: null
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.660Z'
+    updated_at: "2026-05-06T22:12:15.660Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,34 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:37:08.317Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for datawhalechina__github__io__llm__cookbook: Invalid AI response structure:
-        Invalid confidence value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:30:39.531Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:c85ee1054fc93bcde6f777dd553cdad364eef128672550c4df796b9870c3fdf9
-      proposed_primary_category: awesome-awesomes
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bf24a5cd283ac29331d5ccaa037f381199d7d5710c1e96e84ba2376ebb69501a
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: >-
-        The project is an educational tutorial/documentation resource rather than a standalone developer tool or
-        product.
+      decision_reason: This is an educational tutorial resource, not a developer-facing AI tool, agent, framework, or infrastructure product.
       decision_evidence:
-        - "Source-list context shows inclusion in awesome-LLM-resources with purpose: '🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）'"
-        - "Scraped site context title: '面向开发者的LLM入门教程' indicates a developer-facing educational resource"
-        - No evidence of being a standalone tool, agent, framework, or runtime — it is a summary/link aggregation
-      category_candidates:
-        - awesome-awesomes
-        - skills
-      contrastive_reason: Choose awesome-awesomes over skills because the resource is a curated list of LLM materials for discovery, not a reusable skill pack or rules bundle intended for installation into coding agents.
+        - Source-list context identifies it as a '书籍 Book' (book) in the awesome-LLM-resources directory
+        - "Scraped site context title: '面向开发者的LLM入门教程' (LLM Beginner Tutorial for Developers)"
+        - No evidence of being a standalone tool, agent, framework, or runtime that developers would use in their workflow
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

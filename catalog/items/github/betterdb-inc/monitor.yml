@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__betterdb-inc__monitor__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: BetterDB-inc/monitor
         extracted_url: https://github.com/betterdb-inc/monitor
-        surrounding_text: >-
-          - [BetterDB-inc/monitor](https://github.com/BetterDB-inc/monitor) [![BetterDB MCP
-          server](https://glama.ai/mcp/servers/BetterDB-inc/monitor/badges/score.svg)](https://glama.ai/mcp/servers/BetterDB-inc/monitor)
-          📇 ☁️ 🏠 - Valkey-first observability with Redis compatibility. Query real-time metrics, analyze slow
-          commands, detect hot keys, and investigate performance issues directly from AI coding assistants.
+        surrounding_text: "- [BetterDB-inc/monitor](https://github.com/BetterDB-inc/monitor) [![BetterDB MCP server](https://glama.ai/mcp/servers/BetterDB-inc/monitor/badges/score.svg)](https://glama.ai/mcp/servers/BetterDB-inc/monitor) 📇 ☁️ 🏠 - Valkey-first observability with Redis compatibility. Query real-time metrics, analyze slow commands, detect hot keys, and investigate performance issues directly from AI coding assistants."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: BetterDB-inc/monitor
     html_url: https://github.com/BetterDB-inc/monitor
-    created_at: '2025-12-29T16:47:38Z'
-    pushed_at: '2026-09-23T15:06:55Z'
+    created_at: "2025-12-29T16:47:38Z"
+    pushed_at: "2026-09-23T15:06:55Z"
     description: Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis
     homepage: https://betterdb.com
     topics:
@@ -49,17 +45,13 @@ metadata:
       - prometheus
       - redis
       - valkey
-    last_checked_at: '2026-09-24T04:12:58.236Z'
+    last_checked_at: "2026-09-24T04:12:58.236Z"
     readme:
-      fetched_at: '2026-09-24T04:12:58.236Z'
+      fetched_at: "2026-09-24T04:12:58.236Z"
       bytes: 22924
 insights:
-  summary: >-
-    BetterDB Monitor is a real-time monitoring and observability tool for Valkey and Redis, providing slowlog analysis,
-    audit trails, and metrics via CLI, Docker, or Helm.
-  why_it_matters: >-
-    It gives developers visibility into historical database behavior—like slowlogs and command patterns—that Valkey and
-    Redis discard, enabling post-incident debugging without relying on real-time metrics alone.
+  summary: BetterDB Monitor is a real-time monitoring and observability tool for Valkey and Redis, providing slowlog analysis, audit trails, and metrics via CLI, Docker, or Helm.
+  why_it_matters: It gives developers visibility into historical database behavior—like slowlogs and command patterns—that Valkey and Redis discard, enabling post-incident debugging without relying on real-time metrics alone.
   mental_damage: Finally, a tool that lets you pretend your 3 AM outage was preventable, if only you’d installed this yesterday.
   tags:
     - monitoring
@@ -70,18 +62,12 @@ insights:
   confidence: medium
 curation:
   status: included
-  reason: >-
-    While BetterDB Monitor is primarily a Redis/Valkey observability tool, its presence in the awesome-mcp-servers list
-    under Developer Tools and its explicit MCP server capabilities (evidenced by topics and Docker image variants with
-    AI Helper) give it a strong secondary identity as an MCP server, which qualifies it for the MCP category per the
-    protocol-first rule.
+  reason: While BetterDB Monitor is primarily a Redis/Valkey observability tool, its presence in the awesome-mcp-servers list under Developer Tools and its explicit MCP server capabilities (evidenced by topics and Docker image variants with AI Helper) give it a strong secondary identity as an MCP server, which qualifies it for the MCP category per the protocol-first rule.
   evidence:
-    - 'Repo description: ''Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis'''
-    - 'Topics include: mcp, mcp-server, metrics, monitoring, observability, prometheus, opentelemetry'
+    - "Repo description: 'Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis'"
+    - "Topics include: mcp, mcp-server, metrics, monitoring, observability, prometheus, opentelemetry"
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
-    - >-
-      README mentions experimental AI Helper via Ollama in tagged Docker images, suggesting extensibility beyond core
-      monitoring
+    - README mentions experimental AI Helper via Ollama in tagged Docker images, suggesting extensibility beyond core monitoring
     - Provides CLI (npx @betterdb/monitor), Docker, and Helm deployment options for developer integration
     - jev winnow:e4b 0.42 below gate 0.50; proposed out of scope; placement kept at mcp (unverified)
 placement:
@@ -93,18 +79,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.605Z'
+    updated_at: "2026-05-06T22:12:15.605Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-24T04:12:58.236Z'
+    updated_at: "2026-09-24T04:12:58.236Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: '2026-09-28T04:55:40.006Z'
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.818Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
@@ -116,25 +104,16 @@ processing:
       input_hash: sha256:6f6c38f0a40d606441eba0d310dad176d8c83521a4bcf45c8dd94e46d738f163
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: >-
-        While BetterDB Monitor is primarily a Redis/Valkey observability tool, its presence in the awesome-mcp-servers
-        list under Developer Tools and its explicit MCP server capabilities (evidenced by topics and Docker image
-        variants with AI Helper) give it a strong secondary identity as an MCP server, which qualifies it for the MCP
-        category per the protocol-first rule.
+      decision_reason: While BetterDB Monitor is primarily a Redis/Valkey observability tool, its presence in the awesome-mcp-servers list under Developer Tools and its explicit MCP server capabilities (evidenced by topics and Docker image variants with AI Helper) give it a strong secondary identity as an MCP server, which qualifies it for the MCP category per the protocol-first rule.
       decision_evidence:
-        - 'Repo description: ''Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis'''
-        - 'Topics include: mcp, mcp-server, metrics, monitoring, observability, prometheus, opentelemetry'
+        - "Repo description: 'Real-time monitoring, slowlog analysis, and audit trails for Valkey and Redis'"
+        - "Topics include: mcp, mcp-server, metrics, monitoring, observability, prometheus, opentelemetry"
         - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
-        - >-
-          README mentions experimental AI Helper via Ollama in tagged Docker images, suggesting extensibility beyond
-          core monitoring
+        - README mentions experimental AI Helper via Ollama in tagged Docker images, suggesting extensibility beyond core monitoring
         - Provides CLI (npx @betterdb/monitor), Docker, and Helm deployment options for developer integration
       category_candidates:
         - mcp
         - extensions-and-addons
-      contrastive_reason: >-
-        Choose mcp over extensions-and-addons because the product's inclusion in an MCP-specific awesome list and its
-        explicit MCP server topics indicate MCP is a core identity, not merely an add-on feature to another agent or
-        editor.
+      contrastive_reason: Choose mcp over extensions-and-addons because the product's inclusion in an MCP-specific awesome list and its explicit MCP server topics indicate MCP is a core identity, not merely an add-on feature to another agent or editor.
       review_reason: null
       review_resume_lifecycle: null

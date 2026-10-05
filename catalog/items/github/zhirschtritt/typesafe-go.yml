@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__zhirschtritt__typesafe-go__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: typesafe-go (zhirschtritt)
         extracted_url: https://github.com/zhirschtritt/typesafe-go
-        surrounding_text: >-
-          - [typesafe-go (zhirschtritt)](https://github.com/zhirschtritt/typesafe-go) - Idiomatic Go SDK for the
-          TypeSafe AI API.
+        surrounding_text: "- [typesafe-go (zhirschtritt)](https://github.com/zhirschtritt/typesafe-go) - Idiomatic Go SDK for the TypeSafe AI API."
         confidence: high
     - id: discovery__github__zhirschtritt__typesafe-go__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: typesafe-go (zhirschtritt)
         extracted_url: https://github.com/zhirschtritt/typesafe-go
-        surrounding_text: >-
-          | [typesafe-go (zhirschtritt)](https://github.com/zhirschtritt/typesafe-go) | ★ 1 | Go | 2026-09-19 |
-          Idiomatic Go SDK for the TypeSafe AI API. |
+        surrounding_text: "| [typesafe-go (zhirschtritt)](https://github.com/zhirschtritt/typesafe-go) | ★ 1 | Go | 2026-09-19 | Idiomatic Go SDK for the TypeSafe AI API. |"
         confidence: high
     - id: discovery__github__zhirschtritt__typesafe-go__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**typesafe-go**'
+        anchor_text: "**typesafe-go**"
         extracted_url: https://github.com/zhirschtritt/typesafe-go
-        surrounding_text: >-
-          - [**typesafe-go**](https://github.com/zhirschtritt/typesafe-go) — An unofficial Go client without third-party
-          dependencies for System One calls and model discovery.
+        surrounding_text: "- [**typesafe-go**](https://github.com/zhirschtritt/typesafe-go) — An unofficial Go client without third-party dependencies for System One calls and model discovery."
         confidence: high
     - id: discovery__github__zhirschtritt__typesafe-go__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -71,7 +65,23 @@ provenance:
           - SDKs and developer tools
         anchor_text: typesafe-go
         extracted_url: https://github.com/zhirschtritt/typesafe-go
-        surrounding_text: '- [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - Idiomatic Go SDK for the TypeSafe API.'
+        surrounding_text: "- [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - Idiomatic Go SDK for the TypeSafe API."
+        confidence: high
+    - id: discovery__github__zhirschtritt__typesafe-go__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-05T04:19:11.926Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: typesafe-go (zhirschtritt)
+        extracted_url: https://github.com/zhirschtritt/typesafe-go
+        surrounding_text: "- [typesafe-go (zhirschtritt)](https://github.com/zhirschtritt/typesafe-go) - Unofficial idiomatic Go SDK for TypeSafe System One; distinct from listed stacklok/typesafe-go. [Project guide](community/projects/tools/zhirschtritt-typesafe-go.md)."
         confidence: high
 metadata:
   github:
@@ -109,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.389Z'
+    updated_at: "2026-10-05T04:19:11.931Z"
     cause: null
     next_retry_at: null
   stars:
@@ -117,6 +127,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.826Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

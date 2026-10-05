@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__shinpr__jev-reranker__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-reranker (shinpr)
         extracted_url: https://github.com/shinpr/jev-reranker
-        surrounding_text: >-
-          - [jev-reranker (shinpr)](https://github.com/shinpr/jev-reranker) - Rerank, filter, and compress JSON search
-          results with TypeSafe AI's Jev.
+        surrounding_text: "- [jev-reranker (shinpr)](https://github.com/shinpr/jev-reranker) - Rerank, filter, and compress JSON search results with TypeSafe AI's Jev."
         confidence: high
     - id: discovery__github__shinpr__jev-reranker__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-reranker
         extracted_url: https://github.com/shinpr/jev-reranker
-        surrounding_text: >-
-          - [jev-reranker](https://github.com/shinpr/jev-reranker) - Pipe JSON search candidates through TypeSafe Jev to
-          rerank, filter evidence, or compress passages for LLM context. [Project
-          guide](community/projects/tools/jev-reranker.md).
+        surrounding_text: "- [jev-reranker](https://github.com/shinpr/jev-reranker) - Pipe JSON search candidates through TypeSafe Jev to rerank, filter evidence, or compress passages for LLM context. [Project guide](community/projects/tools/jev-reranker.md)."
         confidence: high
     - id: discovery__github__shinpr__jev-reranker__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,14 +48,12 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**jev-reranker**'
+        anchor_text: "**jev-reranker**"
         extracted_url: https://github.com/shinpr/jev-reranker
-        surrounding_text: >-
-          - [**jev-reranker**](https://github.com/shinpr/jev-reranker) — Rerank, filter, and compress JSON search
-          results with TypeSafe AI's Jev.
+        surrounding_text: "- [**jev-reranker**](https://github.com/shinpr/jev-reranker) — Rerank, filter, and compress JSON search results with TypeSafe AI's Jev."
         confidence: high
     - id: discovery__github__shinpr__jev-reranker__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -73,14 +66,10 @@ provenance:
           - Scoring & Ranking
         anchor_text: Jev Reranker (Rust CLI)
         extracted_url: https://github.com/shinpr/jev-reranker
-        surrounding_text: >-
-          - [Jev Reranker (Rust CLI)](https://github.com/shinpr/jev-reranker)
-          ![stars](https://img.shields.io/github/stars/shinpr/jev-reranker?style=flat-square&label=%E2%98%85) -
-          Retrieval and RAG: JSON-in/JSON-out CLI that uses separate Jev `Noul` checks to rank candidates, apply
-          evidence thresholds, or extract source text while keeping those decisions independent.
+        surrounding_text: "- [Jev Reranker (Rust CLI)](https://github.com/shinpr/jev-reranker) ![stars](https://img.shields.io/github/stars/shinpr/jev-reranker?style=flat-square&label=%E2%98%85) - Retrieval and RAG: JSON-in/JSON-out CLI that uses separate Jev `Noul` checks to rank candidates, apply evidence thresholds, or extract source text while keeping those decisions independent."
         confidence: high
     - id: discovery__github__shinpr__jev-reranker__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -92,10 +81,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: Jev Reranker (Rust CLI)
         extracted_url: https://github.com/shinpr/jev-reranker
-        surrounding_text: >-
-          - [Jev Reranker (Rust CLI)](https://github.com/shinpr/jev-reranker) - Rust JSON-in/JSON-out CLI that asks Jev
-          about relevance, usable evidence, or which source text to retain, then applies the resulting order and
-          thresholds in code.
+        surrounding_text: "- [Jev Reranker (Rust CLI)](https://github.com/shinpr/jev-reranker) - Rust JSON-in/JSON-out CLI that asks Jev about relevance, usable evidence, or which source text to retain, then applies the resulting order and thresholds in code."
         confidence: high
 metadata:
   github:
@@ -133,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.377Z'
+    updated_at: "2026-09-29T13:07:10.377Z"
     cause: null
     next_retry_at: null
   stars:
@@ -141,6 +127,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

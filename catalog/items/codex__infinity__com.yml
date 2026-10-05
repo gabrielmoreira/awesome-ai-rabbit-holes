@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__codex__infinity__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-05-06T22:12:15.572Z'
+      discovered_at: "2026-05-06T22:12:15.572Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Codex Infinity
         extracted_url: https://codex-infinity.com
-        surrounding_text: >-
-          - **[Codex Infinity](https://codex-infinity.com)** – Autonomous coding agent that runs continuously on bare
-          metal VPS. Run your Claude Max or OpenAI Codex plans with full root access and no cloud timeouts.
+        surrounding_text: "- **[Codex Infinity](https://codex-infinity.com)** – Autonomous coding agent that runs continuously on bare metal VPS. Run your Claude Max or OpenAI Codex plans with full root access and no cloud timeouts."
         confidence: high
 metadata:
   github:
@@ -38,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous coding agent platform that provides advanced reasoning, AI art generation, and cloud orchestration.
-  why_it_matters: It aims to automate entire coding sessions and cloud deployment through a high-level reasoning engine.
-  mental_damage: >-
-    The promise of 'infinite' coding sessions is a bold way to describe the inevitable loop of debugging an agent that
-    is currently debugging itself.
+  summary: Codex Infinity is a cloud-based service offering autonomous AI coding agents that can write, edit, test code, run CI, and orchestrate cloud workers.
+  why_it_matters: It promises to offload full-cycle software development tasks to AI agents, potentially accelerating shipping velocity for individual developers or small teams.
+  mental_damage: Another reminder that 'just vibe-code it' now comes with a monthly bill and the existential dread of debugging an agent’s pull request at 2 a.m.
   tags:
-    - coding-agent
-    - autonomous
-    - cloud
+    - ai-coding-agent
+    - cloud-development
+    - autonomous-workers
   confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  reason: Codex Infinity markets itself as bare-metal AI coding agents with full autonomy that ship code, run CI, and orchestrate cloud workers — matching the coding-agents category’s focus on autonomous coding task execution, not extension, orchestration, or app generation.
   evidence:
-    - jev-latest choice confidence 0.77
+    - "Scraped site description: 'Bare-metal AI coding agents with full autonomy. Ship code, run CI, and orchestrate cloud workers on Codex Infinity.'"
+    - Source-list placement in awesome-ai-coding-tools under Coding Agents with identical description.
+    - No evidence of being an extension, framework, app builder, or decision model; primary identity is autonomous coding agent execution.
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -63,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-05-06T22:12:15.659Z'
+    updated_at: "2026-05-06T22:12:15.659Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,36 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: '2026-09-24T04:35:52.993Z'
-    cause:
-      type: invalid_llm_json
-      message: >-
-        Catalog LLM categorization failed for codex__infinity__com: Invalid AI response structure: Invalid confidence
-        value: undefined
-    attempts: 3
+    status: done
+    updated_at: "2026-10-05T04:29:56.393Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:d91adf7eec70d86ac1e73d028791265ce48dbc3c72c51caca6c1ff55b9652a0c
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e55f5f4eb566901e7391bc8fda2065b64d50b97405d4504550ee6e2a1e163ebf
       proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: >-
-        The product is positioned as a standalone platform for running autonomous coding sessions rather than an
-        integration for an existing editor.
+      decision_reason: Codex Infinity markets itself as bare-metal AI coding agents with full autonomy that ship code, run CI, and orchestrate cloud workers — matching the coding-agents category’s focus on autonomous coding task execution, not extension, orchestration, or app generation.
       decision_evidence:
-        - "Scraped site title: 'Codex Infinity - Autonomous AI Coding Agents in the Cloud'"
         - "Scraped site description: 'Bare-metal AI coding agents with full autonomy. Ship code, run CI, and orchestrate cloud workers on Codex Infinity.'"
-        - "Source-list context: Listed in awesome-ai-coding-tools under 'Coding Agents' with description 'Bare-metal AI coding agents with full autonomy. Ship code, run CI, and orchestrate cloud workers on Codex Infinity.'"
+        - Source-list placement in awesome-ai-coding-tools under Coding Agents with identical description.
+        - No evidence of being an extension, framework, app builder, or decision model; primary identity is autonomous coding agent execution.
       category_candidates:
         - coding-agents
         - agent-orchestration
-      contrastive_reason: >-
-        Choose coding-agents over agent-orchestration because the primary value proposition is performing autonomous
-        coding work rather than managing a multi-agent workflow.
+      contrastive_reason: Choose coding-agents over agent-orchestration because Codex Infinity positions its agents as direct coders performing terminal/IDE/file operations, not as a platform for managing or coordinating multiple agent teams or workflows.
       review_reason: null
       review_resume_lifecycle: null

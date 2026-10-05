@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__r33drichards__laya-vision__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,12 +19,7 @@ provenance:
           - Open reproductions and research
         anchor_text: Laya Vision
         extracted_url: https://github.com/r33drichards/laya-vision
-        surrounding_text: >-
-          - [Laya Vision](https://github.com/r33drichards/laya-vision) - Research fork of Laya that replaces its text
-          encoder with SmolVLM-256M so typed `choice` and `noul` decisions are read from an image plus optional text in
-          one forward pass with no generated text; reports 75.2% accuracy and post-calibration ECE 0.034 across A-OKVQA,
-          ScienceQA image questions, and a VQAv2 yes/no re-split, and states that `score` questions are untrained and
-          meaningless.
+        surrounding_text: "- [Laya Vision](https://github.com/r33drichards/laya-vision) - Research fork of Laya that replaces its text encoder with SmolVLM-256M so typed `choice` and `noul` decisions are read from an image plus optional text in one forward pass with no generated text; reports 75.2% accuracy and post-calibration ECE 0.034 across A-OKVQA, ScienceQA image questions, and a VQAv2 yes/no re-split, and states that `score` questions are untrained and meaningless."
         confidence: high
 metadata:
   github:
@@ -42,11 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Laya Vision - Research fork of Laya that replaces its text encoder with SmolVLM-256M so typed choice and noul
-    decisions are read from an image plus optional text in one forward pass with no generated text; reports 75.2%
-    accuracy and post-calibration ECE 0.034 across A-OKVQA, ScienceQA image questions, and a VQAv2 yes/no re-split, and
-    states that score questions are untrained and meaningless.
+  summary: Laya Vision - Research fork of Laya that replaces its text encoder with SmolVLM-256M so typed choice and noul decisions are read from an image plus optional text in one forward pass with no generated text; reports 75.2% accuracy and post-calibration ECE 0.034 across A-OKVQA, ScienceQA image questions, and a VQAv2 yes/no re-split, and states that score questions are untrained and meaningless.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.473Z'
+    updated_at: "2026-09-29T13:07:10.473Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +65,9 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-05T04:19:18.824Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
