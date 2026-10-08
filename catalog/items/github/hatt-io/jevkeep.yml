@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hatt-io__jevkeep__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: jevkeep
         extracted_url: https://github.com/hatt-io/jevkeep
-        surrounding_text: >-
-          | [jevkeep](https://github.com/hatt-io/jevkeep) | ★ 0 | TypeScript | 2026-09-20 | Codex plugin that uses Jev
-          to preserve useful conversation excerpts alongside compacted summaries. |
+        surrounding_text: "| [jevkeep](https://github.com/hatt-io/jevkeep) | ★ 0 | TypeScript | 2026-09-20 | Codex plugin that uses Jev to preserve useful conversation excerpts alongside compacted summaries. |"
         confidence: high
 metadata:
   github:
@@ -32,8 +30,8 @@ metadata:
     archived: false
     full_name: hatt-io/jevkeep
     html_url: https://github.com/hatt-io/jevkeep
-    created_at: '2026-09-18T10:16:35Z'
-    pushed_at: '2026-09-18T10:23:19Z'
+    created_at: "2026-09-18T10:16:35Z"
+    pushed_at: "2026-09-18T10:23:19Z"
     description: Codex plugin that preserves useful conversation excerpts alongside the summary after context compaction.
     homepage: null
     topics:
@@ -41,9 +39,9 @@ metadata:
       - codex-plugin
       - context-compaction
       - typescript
-    last_checked_at: '2026-09-29T13:12:01.050Z'
+    last_checked_at: "2026-09-29T13:12:01.050Z"
     readme:
-      fetched_at: '2026-09-29T13:12:01.050Z'
+      fetched_at: "2026-09-29T13:12:01.050Z"
       bytes: 5877
 insights:
   summary: Codex plugin that preserves useful conversation excerpts alongside the summary after context compaction.
@@ -66,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:01.050Z'
+    updated_at: "2026-09-29T13:12:01.050Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

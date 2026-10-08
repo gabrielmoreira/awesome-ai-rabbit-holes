@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__garry-schuette__browser-use-with-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Browser & OS Action
-        anchor_text: '**browser-use-with-jev**'
+        anchor_text: "**browser-use-with-jev**"
         extracted_url: https://github.com/garry-schuette/browser-use-with-jev
-        surrounding_text: >-
-          - [**browser-use-with-jev**](https://github.com/garry-schuette/browser-use-with-jev) — \*\*Keep Browser Use's
-          execution engine. Move bounded decisions to Jev.\*\*
+        surrounding_text: "- [**browser-use-with-jev**](https://github.com/garry-schuette/browser-use-with-jev) — \\*\\*Keep Browser Use's execution engine. Move bounded decisions to Jev.\\*\\*"
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: garry-schuette/browser-use-with-jev
     html_url: https://github.com/garry-schuette/browser-use-with-jev
-    created_at: '2026-09-22T13:00:34Z'
-    pushed_at: '2026-09-22T13:02:55Z'
+    created_at: "2026-09-22T13:00:34Z"
+    pushed_at: "2026-09-22T13:02:55Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:31.999Z'
+    last_checked_at: "2026-09-29T13:11:31.999Z"
     readme:
-      fetched_at: '2026-09-29T13:11:31.999Z'
+      fetched_at: "2026-09-29T13:11:31.999Z"
       bytes: 16928
 insights:
   summary: browser-use-with-jev — \*\*Keep Browser Use's execution engine. Move bounded decisions to Jev.\*\*
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:31.999Z'
+    updated_at: "2026-09-29T13:11:31.999Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

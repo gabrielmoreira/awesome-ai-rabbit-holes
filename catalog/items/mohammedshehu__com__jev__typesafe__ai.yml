@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mohammedshehu__com__jev__typesafe__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Articles & threads
         anchor_text: What is Jev?
         extracted_url: https://mohammedshehu.com/jev-typesafe-ai
-        surrounding_text: >-
-          - [What is Jev?](https://mohammedshehu.com/jev-typesafe-ai/) - Short practical intro with a Python
-          ticket-triage example.
+        surrounding_text: "- [What is Jev?](https://mohammedshehu.com/jev-typesafe-ai/) - Short practical intro with a Python ticket-triage example."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: What is Jev? - Short practical intro with a Python ticket-triage example.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a decision model that returns typed answers (Choice, Score, Noul) with probabilities instead of generating text, accessible via a Python SDK.
+  why_it_matters: It enables developers to integrate structured, probabilistic AI judgments into workflows like routing, triage, or guardrails without parsing free-form model output.
+  mental_damage: Finally, an AI that won’t hallucinate a new JSON schema — just a 90% chance your support ticket goes to billing when it should’ve gone to engineering.
+  tags:
+    - decision-model
+    - structured-output
+    - ai-inference
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: Jev is a canonical decision model that returns constrained answers with probabilities, not a coding agent, framework, or app builder, and its SDK and use cases are centered on judgment, not code generation or orchestration.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Jev accepts information, evaluates questions, and returns predefined answers with probabilities — it doesn't generate free-form text.
+    - The product provides a Python SDK for integrating Jev into existing software to return typed answers like department classification, urgency probability, and frustration score.
+    - TypeSafe describes Jev as a System One model designed for structured decisions that software can use directly, such as classifying documents, assessing risk, or routing requests.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:52.554Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5f970a062dab2aa75e87fa7bf3fefc312f9325aa5ccf5b1d1c5a12126c692a4d
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a canonical decision model that returns constrained answers with probabilities, not a coding agent, framework, or app builder, and its SDK and use cases are centered on judgment, not code generation or orchestration.
+      decision_evidence:
+        - Jev accepts information, evaluates questions, and returns predefined answers with probabilities — it doesn't generate free-form text.
+        - The product provides a Python SDK for integrating Jev into existing software to return typed answers like department classification, urgency probability, and frustration score.
+        - TypeSafe describes Jev as a System One model designed for structured decisions that software can use directly, such as classifying documents, assessing risk, or routing requests.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jev’s core identity is the decision model itself, not an add-on that augments another agent — its value lies in the judgment it returns, not in extending a host tool’s capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

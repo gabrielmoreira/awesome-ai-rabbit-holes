@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__guide__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev.guide
-        surrounding_text: >-
-          - [jevguide](https://github.com/2456868764/jevguide) ([site](https://jev.guide)) - Curated Jev showcases from
-          X, organized by category with media previews and direct source links.
+        surrounding_text: "- [jevguide](https://github.com/2456868764/jevguide) ([site](https://jev.guide)) - Curated Jev showcases from X, organized by category with media previews and direct source links."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jevguide (site) - Curated Jev showcases from X, organized by category with media previews and direct source links.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Guide is a community-curated index of open-source projects, demos, and resources built on TypeSafe Jev (System One model), organized by use case and project type.
+  why_it_matters: It helps developers discover real-world implementations of Jev for decision-model-powered apps, agents, and workflows, reducing guesswork in adoption.
+  mental_damage: Another awesome list for a niche model that promises structured decisions but leaves you wondering if you need yet another JSON schema to feel productive.
+  tags:
+    - jev
+    - decision-models
+    - curated-list
+    - developer-resources
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: Jev Guide is a curated directory of Jev-based projects and resources, fitting the awesome-awesomes category as a navigation aid for developers exploring the Jev ecosystem.
   evidence:
-    - jev-latest choice confidence 0.85
+    - Described as a '独立、开源的社区索引' (independent, open-source community index) of Jev projects.
+    - Lists open-source GitHub projects, SDKs, tools, and demos built on Jev, organized by type and use case.
+    - Appears in source lists as a directory of projects built on Jev, with a section labeled 'Demos & playgrounds'.
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -58,18 +62,38 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:09.118Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d2b10a8cd497a4c7cb28169845e3577288838e44dee4a0ddf5c6f5a405e16490
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: Jev Guide is a curated directory of Jev-based projects and resources, fitting the awesome-awesomes category as a navigation aid for developers exploring the Jev ecosystem.
+      decision_evidence:
+        - Described as a '独立、开源的社区索引' (independent, open-source community index) of Jev projects.
+        - Lists open-source GitHub projects, SDKs, tools, and demos built on Jev, organized by type and use case.
+        - Appears in source lists as a directory of projects built on Jev, with a section labeled 'Demos & playgrounds'.
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because Jev Guide is a curated directory of resources and projects, not a decision model, SDK, or tool that performs typed judgments itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anasbekheit__typesafe-jev-mcp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: typesafe-jev-mcp
         extracted_url: https://github.com/anasbekheit/typesafe-jev-mcp
-        surrounding_text: >-
-          - [typesafe-jev-mcp](https://github.com/anasbekheit/typesafe-jev-mcp)
-          ([site](https://crates.io/crates/typesafe-jev-mcp)) - MCP server exposing TypeSafe's Jev model as a typed
-          evaluate tool.
+        surrounding_text: "- [typesafe-jev-mcp](https://github.com/anasbekheit/typesafe-jev-mcp) ([site](https://crates.io/crates/typesafe-jev-mcp)) - MCP server exposing TypeSafe's Jev model as a typed evaluate tool."
         confidence: high
     - id: discovery__github__anasbekheit__typesafe-jev-mcp__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,12 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**typesafe-jev-mcp**'
+        anchor_text: "**typesafe-jev-mcp**"
         extracted_url: https://github.com/anasbekheit/typesafe-jev-mcp
-        surrounding_text: >-
-          - [**typesafe-jev-mcp**](https://github.com/anasbekheit/typesafe-jev-mcp) — This repository is an MCP server
-          for TypeSafe Jev that provides a single evaluate tool taking state plus typed questions and returning noul,
-          choice, or score answers with probabilities.
+        surrounding_text: "- [**typesafe-jev-mcp**](https://github.com/anasbekheit/typesafe-jev-mcp) — This repository is an MCP server for TypeSafe Jev that provides a single evaluate tool taking state plus typed questions and returning noul, choice, or score answers with probabilities."
         confidence: high
 metadata:
   github:
@@ -50,8 +44,8 @@ metadata:
     archived: false
     full_name: anasbekheit/typesafe-jev-mcp
     html_url: https://github.com/anasbekheit/typesafe-jev-mcp
-    created_at: '2026-09-20T11:59:29Z'
-    pushed_at: '2026-09-27T17:22:55Z'
+    created_at: "2026-09-20T11:59:29Z"
+    pushed_at: "2026-09-27T17:22:55Z"
     description: MCP server exposing TypeSafe's Jev model as a typed evaluate tool.
     homepage: https://crates.io/crates/typesafe-jev-mcp
     topics:
@@ -62,9 +56,9 @@ metadata:
       - model-context-protocol
       - rust
       - typesafe
-    last_checked_at: '2026-09-29T13:08:57.373Z'
+    last_checked_at: "2026-09-29T13:08:57.373Z"
     readme:
-      fetched_at: '2026-09-29T13:08:57.373Z'
+      fetched_at: "2026-09-29T13:08:57.373Z"
       bytes: 2098
 insights:
   summary: MCP server exposing TypeSafe's Jev model as a typed evaluate tool.
@@ -87,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.409Z'
+    updated_at: "2026-09-29T13:07:10.409Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:57.373Z'
+    updated_at: "2026-09-29T13:08:57.373Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

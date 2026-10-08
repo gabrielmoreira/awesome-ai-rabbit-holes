@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__excalibur9527__dsh-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,12 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Context GC
-        anchor_text: '**dsh-jev**'
+        anchor_text: "**dsh-jev**"
         extracted_url: https://github.com/excalibur9527/dsh-jev
-        surrounding_text: >-
-          - [**dsh-jev**](https://github.com/Excalibur9527/dsh-jev) — This DeepSeek Harness plugin sends each round's
-          latest user message to the systemone (Jev) API for emotion and intent classification and injects the result as
-          plugin-sourced runtime context, with API Key and all parameters configured in the GUI settings page.
+        surrounding_text: "- [**dsh-jev**](https://github.com/Excalibur9527/dsh-jev) — This DeepSeek Harness plugin sends each round's latest user message to the systemone (Jev) API for emotion and intent classification and injects the result as plugin-sourced runtime context, with API Key and all parameters configured in the GUI settings page."
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: Excalibur9527/dsh-jev
     html_url: https://github.com/Excalibur9527/dsh-jev
-    created_at: '2026-09-22T10:01:25Z'
-    pushed_at: '2026-09-23T07:23:35Z'
+    created_at: "2026-09-22T10:01:25Z"
+    pushed_at: "2026-09-23T07:23:35Z"
     description: DSH Plugin（DeepSeek Harness 插件）：每轮对话调用 typesafe.ai systemone(jev) 判定用户情绪/意图，结果注入模型上下文；API Key 与全部参数在 GUI 设置页配置
     homepage: null
     topics:
@@ -42,9 +39,9 @@ metadata:
       - dsh
       - dsh-plugin
       - plugin
-    last_checked_at: '2026-09-29T13:11:08.960Z'
+    last_checked_at: "2026-09-29T13:11:08.960Z"
     readme:
-      fetched_at: '2026-09-29T13:11:08.960Z'
+      fetched_at: "2026-09-29T13:11:08.960Z"
       bytes: 7783
 insights:
   summary: DSH Plugin（DeepSeek Harness 插件）：每轮对话调用 typesafe.ai systemone(jev) 判定用户情绪/意图，结果注入模型上下文；API Key 与全部参数在 GUI 设置页配置
@@ -57,9 +54,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.42
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept
-      at decision-models (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed extensions-and-addons / API & Service Integrations; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -71,15 +66,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:08.960Z'
+    updated_at: "2026-09-29T13:11:08.960Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

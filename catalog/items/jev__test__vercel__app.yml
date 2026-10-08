@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__test__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev-test.vercel.app
-        surrounding_text: >-
-          - [Job Risk Analyzer](https://github.com/WeSecureYou/Jev-test) ([site](https://jev-test.vercel.app)) - Job
-          Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to AI-driven layoffs and its
-          resilience.
+        surrounding_text: "- [Job Risk Analyzer](https://github.com/WeSecureYou/Jev-test) ([site](https://jev-test.vercel.app)) - Job Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to AI-driven layoffs and its resilience."
         confidence: high
 metadata:
   github:
@@ -39,9 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Job Risk Analyzer (site) - Job Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to
-    AI-driven layoffs and its resilience.
+  summary: "Job Risk Analyzer (site) - Job Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to AI-driven layoffs and its resilience."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:39:49.290Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for jev__test__vercel__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The core i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

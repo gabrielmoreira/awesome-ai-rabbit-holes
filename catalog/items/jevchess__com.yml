@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevchess__com__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Game & Simulation
         anchor_text: Jev Chess
         extracted_url: https://jevchess.com
-        surrounding_text: >-
-          - [Jev Chess](https://jevchess.com) - Gaming: one shared board where the internet collectively plays against
-          Jev; every legal move is an option of a single `Choice` question so an illegal move is impossible, returned
-          probabilities shade the pieces on the board, and a live calibration panel scores each claimed confidence
-          against a one-ply material check.
+        surrounding_text: "- [Jev Chess](https://jevchess.com) - Gaming: one shared board where the internet collectively plays against Jev; every legal move is an option of a single `Choice` question so an illegal move is impossible, returned probabilities shade the pieces on the board, and a live calibration panel scores each claimed confidence against a one-ply material check."
         confidence: high
 metadata:
   github:
@@ -41,16 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JEV Chess is a decision-model-powered chess engine that evaluates all legal moves simultaneously and cannot play illegally.
+  why_it_matters: Demonstrates how decision models can enforce strict rule compliance in turn-based systems, a pattern relevant to AI-assisted coding agents needing guardrails.
+  mental_damage: Watching a model agonize over every legal move while humans blunder feels like seeing your linter win at chess.
+  tags:
+    - decision-model
+    - game
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: JEV Chess is a game simulation showcasing a decision model's behavior, not a developer-facing tool for coding, workflow automation, or AI-assisted software development.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site context: 'JEV 253, humans 81 across 334 games. It weighs every legal move at once and cannot play an illegal one.'"
+    - "Source-list context: listed under 'Game & Simulation' in awesome-jev, not a developer tooling section."
+    - No evidence of code editing, agent behavior, IDE integration, or app generation — core to catalog scope.
 placement:
   primary_category: null
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:10.809Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cec2d3ad8f7e3c36fd7e9c9515e6506f7a9cbdb4dcf7dfcf76c6d2a71e5a5552
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: JEV Chess is a game simulation showcasing a decision model's behavior, not a developer-facing tool for coding, workflow automation, or AI-assisted software development.
+      decision_evidence:
+        - "Scraped site context: 'JEV 253, humans 81 across 334 games. It weighs every legal move at once and cannot play an illegal one.'"
+        - "Source-list context: listed under 'Game & Simulation' in awesome-jev, not a developer tooling section."
+        - No evidence of code editing, agent behavior, IDE integration, or app generation — core to catalog scope.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

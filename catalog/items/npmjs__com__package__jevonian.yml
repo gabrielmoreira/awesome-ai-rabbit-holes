@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jevonian__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jevonian
-        surrounding_text: >-
-          - [Jevonian](https://github.com/xinyao27/jevonian) ([site](https://www.npmjs.com/package/jevonian)) - Local
-          OpenAI-compatible proxy that sits between a coding agent and its providers and asks Jev, per turn, which
-          routed model and thinking level should serve it.
+        surrounding_text: "- [Jevonian](https://github.com/xinyao27/jevonian) ([site](https://www.npmjs.com/package/jevonian)) - Local OpenAI-compatible proxy that sits between a coding agent and its providers and asks Jev, per turn, which routed model and thinking level should serve it."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jevonian (site) - Local OpenAI-compatible proxy that sits between a coding agent and its providers and asks Jev, per
-    turn, which routed model and thinking level should serve it.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jevonian is an npm package serving as a skill set or integration for the Jev (TypeSafe System One) decision model.
+  why_it_matters: It enables developers to embed typed-decision capabilities from the Jev model into JavaScript/TypeScript workflows, supporting structured judgment tasks.
+  mental_damage: Another npm package promising decision-model superpowers while you wonder if 'typed questions with probabilities' is just conditional logic with extra steps.
+  tags:
+    - jev
+    - decision-model
+    - npm-package
+    - ai-tool
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: Jevonian is an SDK for calling the Jev decision model, making its primary identity a decision-model integration rather than a coding agent or general tool.
   evidence:
-    - jev-latest choice confidence 0.69
+    - Distributed as an npm package named jevonian
+    - Listed in awesome-jev under 'Agent tooling' as a project built on Jev (TypeSafe System One)
+    - No evidence of autonomous coding, app generation, or agent orchestration; positioned as a Jev-based tool
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:03.258Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:84988c8e0d7213a8658ae4d6463852a044ab8ad6779b1a4b451669395245eacf
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jevonian is an SDK for calling the Jev decision model, making its primary identity a decision-model integration rather than a coding agent or general tool.
+      decision_evidence:
+        - Distributed as an npm package named jevonian
+        - Listed in awesome-jev under 'Agent tooling' as a project built on Jev (TypeSafe System One)
+        - No evidence of autonomous coding, app generation, or agent orchestration; positioned as a Jev-based tool
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jevonian's core purpose is to interface with the Jev decision model, not to extend a coding agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

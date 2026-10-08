@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__simonwillison__net__2026__sep__21__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Jev introduces a new shape of LLM
         extracted_url: https://simonwillison.net/2026/Sep/21/jev
-        surrounding_text: >-
-          - [Jev introduces a new shape of LLM](https://simonwillison.net/2026/Sep/21/jev/) - Blog: Simon Willison's
-          read on what changes when a model's output is a typed decision instead of prose.
+        surrounding_text: "- [Jev introduces a new shape of LLM](https://simonwillison.net/2026/Sep/21/jev/) - Blog: Simon Willison's read on what changes when a model's output is a typed decision instead of prose."
         confidence: high
 metadata:
   github:
@@ -39,42 +37,64 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a System One decision model that accepts text input and returns probabilistic scores for yes/no, choice, or rating questions instead of generating text.
+  why_it_matters: It enables fast, cheap structured judgments for tasks like spam detection, relevance scoring, or guardrails where developers need typed decisions over open-ended text.
+  mental_damage: Another clever way to trade model interpretability for latency and cost savings, now with extra steps to pretend it's not just a classifier.
+  tags:
+    - decision-model
+    - llm
+    - inference
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev is a decision model that returns typed probabilistic answers (Choice, Score, Noul) instead of generated text, making it a canonical example of the decision-models category.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed decision-models / Official Jev & System One; no placement kept
-      (unverified)
+    - Jev returns floating point numbers for yes/no, choice, and score questions instead of text output
+    - "TypeSafe AI describes Jev as a 'frontier-intelligence function call: unstructured state in, typed probabilistic decisions out'"
+    - The scraped site positions Jev as the first example of TypeSafe AI's 'System One models' (aka decision models)
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:25.531Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c5bec14d5c86e959b5b8222b890f59b623af66bfa8cee27be69df0f511a79eb9
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that returns typed probabilistic answers (Choice, Score, Noul) instead of generated text, making it a canonical example of the decision-models category.
+      decision_evidence:
+        - Jev returns floating point numbers for yes/no, choice, and score questions instead of text output
+        - "TypeSafe AI describes Jev as a 'frontier-intelligence function call: unstructured state in, typed probabilistic decisions out'"
+        - The scraped site positions Jev as the first example of TypeSafe AI's 'System One models' (aka decision models)
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because Jev is a model that produces decisions, not a tool for measuring or benchmarking model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

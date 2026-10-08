@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__halloffame12__ctx__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: halloffame12/CTX
         extracted_url: https://github.com/halloffame12/ctx
-        surrounding_text: >-
-          - [halloffame12/CTX](https://github.com/halloffame12/CTX) [![halloffame12/CTX MCP
-          server](https://glama.ai/mcp/servers/halloffame12/CTX/badges/score.svg)](https://glama.ai/mcp/servers/halloffame12/CTX)
-          🦀 🏠 🍎 🪟 🐧 - Indexes a repo into a local, deterministic code graph (symbols, references, dependencies)
-          with semantic diffs and impact analysis.
+        surrounding_text: "- [halloffame12/CTX](https://github.com/halloffame12/CTX) [![halloffame12/CTX MCP server](https://glama.ai/mcp/servers/halloffame12/CTX/badges/score.svg)](https://glama.ai/mcp/servers/halloffame12/CTX) 🦀 🏠 🍎 🪟 🐧 - Indexes a repo into a local, deterministic code graph (symbols, references, dependencies) with semantic diffs and impact analysis."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: halloffame12/CTX
     html_url: https://github.com/halloffame12/CTX
-    created_at: '2026-08-12T01:27:32Z'
-    pushed_at: '2026-09-24T20:24:41Z'
-    description: >-
-      Local-first code graph + context engine for AI coding agents (Rust/MCP server). Published in microsoft/winget-pkgs
-      (winget install halloffame12.CTX) & awesome-mcp-servers. A+ on Glama.
+    created_at: "2026-08-12T01:27:32Z"
+    pushed_at: "2026-09-24T20:24:41Z"
+    description: Local-first code graph + context engine for AI coding agents (Rust/MCP server). Published in microsoft/winget-pkgs (winget install halloffame12.CTX) & awesome-mcp-servers. A+ on Glama.
     homepage: https://ctx.sumitchauhan.me/playground/
     topics:
       - ai-coding
@@ -52,9 +46,9 @@ metadata:
       - rag
       - rust
       - static-analysis
-    last_checked_at: '2026-09-29T13:11:55.956Z'
+    last_checked_at: "2026-09-29T13:11:55.956Z"
     readme:
-      fetched_at: '2026-09-29T13:11:55.956Z'
+      fetched_at: "2026-09-29T13:11:55.956Z"
       bytes: 17970
 insights:
   summary: null
@@ -69,24 +63,27 @@ curation:
     - jev winnow:e4b 0.23 below gate 0.50; proposed mcp / Dev & Code Tools; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - mcp
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:55.956Z'
+    updated_at: "2026-09-29T13:11:55.956Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

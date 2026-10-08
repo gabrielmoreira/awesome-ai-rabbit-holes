@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__donaldmurillo__system-one-playground__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: system-one-playground
         extracted_url: https://github.com/donaldmurillo/system-one-playground
-        surrounding_text: >-
-          - [system-one-playground](https://github.com/DonaldMurillo/system-one-playground)
-          ([site](https://donaldmurillo.github.io/system-one-playground/)) - Readable scripting, semantic code checks, a
-          Go System One client, and Studio.
+        surrounding_text: "- [system-one-playground](https://github.com/DonaldMurillo/system-one-playground) ([site](https://donaldmurillo.github.io/system-one-playground/)) - Readable scripting, semantic code checks, a Go System One client, and Studio."
         confidence: high
     - id: discovery__github__donaldmurillo__system-one-playground__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -38,10 +35,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: System One Playground
         extracted_url: https://github.com/donaldmurillo/system-one-playground
-        surrounding_text: >-
-          - [System One Playground](https://github.com/DonaldMurillo/system-one-playground) - SysOneScript CLI/VS Code
-          plus Go TypeSafe System One client and Studio; start offline, add live Jev when needed. [Project
-          guide](community/projects/tools/system-one-playground.md).
+        surrounding_text: "- [System One Playground](https://github.com/DonaldMurillo/system-one-playground) - SysOneScript CLI/VS Code plus Go TypeSafe System One client and Studio; start offline, add live Jev when needed. [Project guide](community/projects/tools/system-one-playground.md)."
         confidence: high
 metadata:
   github:
@@ -51,8 +45,8 @@ metadata:
     archived: false
     full_name: DonaldMurillo/system-one-playground
     html_url: https://github.com/DonaldMurillo/system-one-playground
-    created_at: '2026-09-20T03:00:52Z'
-    pushed_at: '2026-09-23T01:51:19Z'
+    created_at: "2026-09-20T03:00:52Z"
+    pushed_at: "2026-09-23T01:51:19Z"
     description: Readable scripting, semantic code checks, a Go System One client, and Studio.
     homepage: https://donaldmurillo.github.io/system-one-playground/
     topics:
@@ -61,9 +55,9 @@ metadata:
       - jev
       - jev-ai
       - language
-    last_checked_at: '2026-09-29T13:10:46.537Z'
+    last_checked_at: "2026-09-29T13:10:46.537Z"
     readme:
-      fetched_at: '2026-09-29T13:10:46.537Z'
+      fetched_at: "2026-09-29T13:10:46.537Z"
       bytes: 8030
 insights:
   summary: Readable scripting, semantic code checks, a Go System One client, and Studio.
@@ -76,9 +70,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.72
-    - >-
-      jev winnow:e4b 0.19 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.19 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -90,15 +82,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.412Z'
+    updated_at: "2026-09-29T13:07:10.412Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:46.537Z'
+    updated_at: "2026-09-29T13:10:46.537Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

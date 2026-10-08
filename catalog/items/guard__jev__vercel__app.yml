@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__guard__jev__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://guard-jev.vercel.app
-        surrounding_text: >-
-          - [guard-jev](https://github.com/NorbertBodziony/guard-jev) ([site](https://guard-jev.vercel.app)) -
-          Comment-moderation playground: paste a comment, Jev decides what to do with it.
+        surrounding_text: "- [guard-jev](https://github.com/NorbertBodziony/guard-jev) ([site](https://guard-jev.vercel.app)) - Comment-moderation playground: paste a comment, Jev decides what to do with it."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'guard-jev (site) - Comment-moderation playground: paste a comment, Jev decides what to do with it.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A TypeSafe Jev demo that screens text for seven Noul hazard types and a severity score via a single decision-model call.
+  why_it_matters: Shows how typed decision models can replace brittle keyword filters for real-time content moderation in developer tools.
+  mental_damage: Yet another demo proving that if you squint hard enough, any model can look like a safety gate.
+  tags:
+    - decision-model
+    - moderation
+    - jev
+    - demo
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The site is a read-only demo of a decision-model judgment, not a tool developers install, integrate, or operate in their workflows.
   evidence:
-    - jev-latest choice confidence 0.88
+    - Scraped page shows a text input and hazard scores from one TypeSafe Jev call, with no download, API key, or integration instructions
+    - Source-list context labels it as a demo under 'awesome-jev' in the Demos & playgrounds section
+    - No repo, stars, or pushed-at signals indicate an installable or maintainable product
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:45.968Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bcb646af57cdf6ce8de1edc9ce0956ff354a8368755a4ef8d4f724bb7919736d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site is a read-only demo of a decision-model judgment, not a tool developers install, integrate, or operate in their workflows.
+      decision_evidence:
+        - Scraped page shows a text input and hazard scores from one TypeSafe Jev call, with no download, API key, or integration instructions
+        - Source-list context labels it as a demo under 'awesome-jev' in the Demos & playgrounds section
+        - No repo, stars, or pushed-at signals indicate an installable or maintainable product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

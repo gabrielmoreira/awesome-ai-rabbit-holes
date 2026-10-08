@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__agent__fastpath__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://npmjs.com/package/agent-fastpath
-        surrounding_text: >-
-          - [agent-fastpath](https://github.com/abhishekswe/agent-fastpath)
-          ([site](https://www.npmjs.com/package/agent-fastpath)) - Jev MCP server: a decision layer for coding agents,
-          built on TypeSafe Jev (System One model). Ship gates, risk checks, file triage that keeps files out of
-          context, and a safe headless browser, with calibrated confidence. For Claude Code, Codex, Cursor.
+        surrounding_text: "- [agent-fastpath](https://github.com/abhishekswe/agent-fastpath) ([site](https://www.npmjs.com/package/agent-fastpath)) - Jev MCP server: a decision layer for coding agents, built on TypeSafe Jev (System One model). Ship gates, risk checks, file triage that keeps files out of context, and a safe headless browser, with calibrated confidence. For Claude Code, Codex, Cursor."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    agent-fastpath (site) - Jev MCP server: a decision layer for coding agents, built on TypeSafe Jev (System One
-    model). Ship gates, risk checks, file triage that keeps files out of context, and a safe headless browser, with
-    calibrated confidence. For Claude Code, Codex, Cursor.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Jev-powered browser automation tool for decision-model driven computer use.
+  why_it_matters: Shows how typed decision models like Jev can drive browser interactions, offering a new paradigm for deterministic AI automation.
+  mental_damage: Another reminder that we're now classifying browsers by their decision-model backends instead of just what they render.
+  tags:
+    - browser-automation
+    - decision-models
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The tool's identity is Jev-driven browser automation, making the decision model the core product rather than a generic coding agent or MCP adapter.
   evidence:
-    - jev-latest choice confidence 0.80
+    - Listed in awesome-jev under Browser & computer use section for projects built on Jev (TypeSafe AI's System One model)
+    - URL points to npm package agent-fastpath, suggesting a Jev-powered CLI or automation tool
+    - No GitHub repo or README provided, but source-list context confirms Jev as the foundational identity
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Browser & Computer Use
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:16.436Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:58a94253354472ecbe400c358e8568b01f49f1e06a4e918c3dc337a53bea7226
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's identity is Jev-driven browser automation, making the decision model the core product rather than a generic coding agent or MCP adapter.
+      decision_evidence:
+        - Listed in awesome-jev under Browser & computer use section for projects built on Jev (TypeSafe AI's System One model)
+        - URL points to npm package agent-fastpath, suggesting a Jev-powered CLI or automation tool
+        - No GitHub repo or README provided, but source-list context confirms Jev as the foundational identity
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool's primary value is Jev-driven decision modeling for browser use, not autonomous coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

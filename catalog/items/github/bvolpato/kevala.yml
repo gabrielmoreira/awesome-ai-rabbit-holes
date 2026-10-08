@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bvolpato__kevala__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: kevala
         extracted_url: https://github.com/bvolpato/kevala
-        surrounding_text: >-
-          - [kevala](https://github.com/bvolpato/kevala) - Zero-dependency Rust→WASM decision models (Laya/Kev/…) in any
-          web page with WebGPU; independent of official Jev. [Project guide](community/projects/tools/kevala.md).
+        surrounding_text: "- [kevala](https://github.com/bvolpato/kevala) - Zero-dependency Rust→WASM decision models (Laya/Kev/…) in any web page with WebGPU; independent of official Jev. [Project guide](community/projects/tools/kevala.md)."
         confidence: high
 metadata:
   github:
@@ -32,11 +30,9 @@ metadata:
     archived: false
     full_name: bvolpato/kevala
     html_url: https://github.com/bvolpato/kevala
-    created_at: '2026-09-21T23:49:14Z'
-    pushed_at: '2026-09-28T22:42:14Z'
-    description: >-
-      Decision models (Laya, Kev) in any web page: a zero-dependency Rust engine compiled to WebAssembly, with WebGPU
-      kernels. One import, no server.
+    created_at: "2026-09-21T23:49:14Z"
+    pushed_at: "2026-09-28T22:42:14Z"
+    description: "Decision models (Laya, Kev) in any web page: a zero-dependency Rust engine compiled to WebAssembly, with WebGPU kernels. One import, no server."
     homepage: https://bvolpato.github.io/kevala/
     topics:
       - browser
@@ -50,14 +46,12 @@ metadata:
       - wasm
       - webassembly
       - webgpu
-    last_checked_at: '2026-09-29T13:09:39.458Z'
+    last_checked_at: "2026-09-29T13:09:39.458Z"
     readme:
-      fetched_at: '2026-09-29T13:09:39.458Z'
+      fetched_at: "2026-09-29T13:09:39.458Z"
       bytes: 26774
 insights:
-  summary: >-
-    Decision models (Laya, Kev) in any web page: a zero-dependency Rust engine compiled to WebAssembly, with WebGPU
-    kernels. One import, no server.
+  summary: "Decision models (Laya, Kev) in any web page: a zero-dependency Rust engine compiled to WebAssembly, with WebGPU kernels. One import, no server."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -77,15 +71,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:39.458Z'
+    updated_at: "2026-09-29T13:09:39.458Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

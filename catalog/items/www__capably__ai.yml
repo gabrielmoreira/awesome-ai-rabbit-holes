@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Capably.ai is a website promoting AI agent workflows for business automation, not a developer-facing tool or product.
-  why_it_matters: It does not provide any developer tooling, SDK, agent, or infrastructure relevant to software developers building or using AI in their workflows.
-  mental_damage: Another AI startup landing page that promises 'agentic workflows' while offering nothing developers can install, import, or integrate.
+  summary: No descriptive information or context was provided for capably.ai.
+  why_it_matters: N/A
+  mental_damage: The absolute silence of the provided metadata is more profound than most LLM outputs.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The site markets AI agent concepts for business users but provides no downloadable tool, code, SDK, or agent that developers can use; it is purely promotional content with no developer-facing product identity.
+  reason: The provided input lacks the necessary README, description, or scraped site context required to evaluate whether this tool fits the developer-centric scope of the catalog.
   evidence:
-    - URL is www.capably.ai, a commercial site with no GitHub repo or downloadable artifact
-    - No repository description, stars, or activity signals indicate a developer tool
-    - Content focuses on business automation and AI agents without specifying any developer integration, SDK, CLI, or extensible tool
+    - Repo description is missing
+    - README excerpt is missing
+    - Scraped site context is missing
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:57:48.250Z"
+    updated_at: "2026-10-08T04:32:08.254Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:c66a8b34df9c80f36943d327741acf091cfc898534ec76d77d561b0346a0096b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site markets AI agent concepts for business users but provides no downloadable tool, code, SDK, or agent that developers can use; it is purely promotional content with no developer-facing product identity.
+      decision_reason: The provided input lacks the necessary README, description, or scraped site context required to evaluate whether this tool fits the developer-centric scope of the catalog.
       decision_evidence:
-        - URL is www.capably.ai, a commercial site with no GitHub repo or downloadable artifact
-        - No repository description, stars, or activity signals indicate a developer tool
-        - Content focuses on business automation and AI agents without specifying any developer integration, SDK, CLI, or extensible tool
+        - Repo description is missing
+        - README excerpt is missing
+        - Scraped site context is missing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

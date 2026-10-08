@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getsentry__mobilebuildmcp__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -19,11 +19,7 @@ provenance:
           - Community Servers
         anchor_text: XcodeBuildMCP
         extracted_url: https://github.com/cameroncooke/xcodebuildmcp
-        surrounding_text: >-
-          - **[XcodeBuildMCP](https://github.com/cameroncooke/xcodebuildmcp)** -  Popular MCP server that enables AI
-          agents to scaffold, build, run and test iOS, macOS, visionOS and watchOS apps or simulators and wired and
-          wireless devices. It has powerful UI-automation capabilities like controlling the simulator, capturing
-          run-time logs, as well as taking screenshots and viewing the accessibility hierarchy.
+        surrounding_text: "- **[XcodeBuildMCP](https://github.com/cameroncooke/xcodebuildmcp)** -  Popular MCP server that enables AI agents to scaffold, build, run and test iOS, macOS, visionOS and watchOS apps or simulators and wired and wireless devices. It has powerful UI-automation capabilities like controlling the simulator, capturing run-time logs, as well as taking screenshots and viewing the accessibility hierarchy."
         confidence: high
 metadata:
   github:
@@ -33,12 +29,10 @@ metadata:
     archived: false
     full_name: getsentry/MobileBuildMCP
     html_url: https://github.com/getsentry/MobileBuildMCP
-    created_at: '2025-03-09T17:31:18Z'
-    pushed_at: '2026-09-28T23:10:11Z'
-    description: >-
-      A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS
-      projects.
-    homepage: ''
+    created_at: "2025-03-09T17:31:18Z"
+    pushed_at: "2026-09-28T23:10:11Z"
+    description: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
+    homepage: ""
     topics:
       - mcp
       - mcp-server
@@ -47,14 +41,12 @@ metadata:
       - tag-non-production
       - xcode
       - xcodebuild
-    last_checked_at: '2026-09-29T13:11:40.238Z'
+    last_checked_at: "2026-09-29T13:11:40.238Z"
     readme:
-      fetched_at: '2026-09-29T13:11:40.238Z'
+      fetched_at: "2026-09-29T13:11:40.238Z"
       bytes: 7056
 insights:
-  summary: >-
-    A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS
-    projects.
+  summary: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -74,15 +66,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:40.238Z'
+    updated_at: "2026-09-29T13:11:40.238Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

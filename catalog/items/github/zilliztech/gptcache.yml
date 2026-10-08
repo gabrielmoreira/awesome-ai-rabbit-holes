@@ -37,6 +37,37 @@ provenance:
         extracted_url: https://github.com/zilliztech/gptcache
         surrounding_text: "- [GPTCache](https://github.com/zilliztech/GPTCache): A Library for Creating Semantic Cache for LLM Queries ![GitHub Repo stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social)"
         confidence: high
+    - id: discovery__github__zilliztech__gptcache__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Data & Search
+        anchor_text: "**GPTCache**"
+        extracted_url: https://github.com/zilliztech/gptcache
+        surrounding_text: "- [**GPTCache**](https://github.com/zilliztech/GPTCache) — Semantic cache with a Jev evaluator that uses Noul judgments to check whether a cached response can serve an incoming request."
+        confidence: high
+    - id: discovery__github__zilliztech__gptcache__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: GPTCache
+        extracted_url: https://github.com/zilliztech/gptcache
+        surrounding_text: "- [GPTCache](https://github.com/zilliztech/GPTCache) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=flat-square&label=%E2%98%85) - Semantic caching: Zilliz semantic cache integrates TypeSafe Jev Noul checks to evaluate cache hit freshness and time-dependent query validity."
+        confidence: high
 metadata:
   github:
     stars: 8209
@@ -94,7 +125,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.596Z"
+    updated_at: "2026-10-08T04:16:14.232Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,7 +135,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.826Z"
+    updated_at: "2026-10-08T04:16:21.691Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

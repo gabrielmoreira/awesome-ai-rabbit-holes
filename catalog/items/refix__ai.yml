@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__refix__ai__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Refix
         extracted_url: https://refix.ai
-        surrounding_text: >-
-          - [Refix](https://www.refix.ai) - `Closed source` · `Paid` · `Commercial`. Growth: AI that helps your product
-          grow faster on autopilot by running product experiments, SEO, content, and ads. [Project
-          guide](community/projects/apps/refix.md).
+        surrounding_text: "- [Refix](https://www.refix.ai) - `Closed source` · `Paid` · `Commercial`. Growth: AI that helps your product grow faster on autopilot by running product experiments, SEO, content, and ads. [Project guide](community/projects/apps/refix.md)."
         confidence: high
     - id: discovery__refix__ai__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,10 +35,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: Refix
         extracted_url: https://refix.ai
-        surrounding_text: >-
-          - [Refix](https://refix.ai) - Growth: asks Jev a `Score` over each experiment result to decide whether it
-          clears the promotion bar, and a `Choice` over candidate plays to decide what to run next in SEO, content, and
-          ads.
+        surrounding_text: "- [Refix](https://refix.ai) - Growth: asks Jev a `Score` over each experiment result to decide whether it clears the promotion bar, and a `Choice` over candidate plays to decide what to run next in SEO, content, and ads."
         confidence: high
 metadata:
   github:
@@ -59,15 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Refix is a business-focused AI agent that autonomously investigates growth opportunities and revenue metrics across business systems without prompting.
+  why_it_matters: It automates product analytics workflows by connecting to business data sources and running continuous goal-oriented investigations.
+  mental_damage: Finally, an AI that nitpicks your conversion funnels 24/7 without needing a Slack reminder.
+  tags:
+    - business-analytics
+    - growth-agent
+    - autonomous-investigation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Refix is a business intelligence and growth optimization tool focused on revenue metrics, not software development workflows or coding tasks.
+  evidence:
+    - Primary focus is investigating business growth opportunities and revenue metrics across customer acquisition, activation, monetization, and retention
+    - Integrates with business data sources like Mixpanel, BigQuery, Postgres, Stripe to analyze bookings, searches, payments, and user behavior
+    - Positioned as an 'AI Product Manager' for business teams, not developers; features include Slack integration, goal tracking, and business context learning
 placement:
   primary_category: null
   section: null
@@ -77,7 +77,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,6 +85,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:53.375Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e58d9bbff02a15871ffcdeeadb8ca7ec8daf5dbc9fdcbda79bed8e24e4796c8f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Refix is a business intelligence and growth optimization tool focused on revenue metrics, not software development workflows or coding tasks.
+      decision_evidence:
+        - Primary focus is investigating business growth opportunities and revenue metrics across customer acquisition, activation, monetization, and retention
+        - Integrates with business data sources like Mixpanel, BigQuery, Postgres, Stripe to analyze bookings, searches, payments, and user behavior
+        - Positioned as an 'AI Product Manager' for business teams, not developers; features include Slack integration, goal tracking, and business context learning
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

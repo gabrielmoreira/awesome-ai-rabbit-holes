@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__haplab__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://haplab.com
-        surrounding_text: >-
-          - [frost](https://github.com/marcus/frost) ([site](https://haplab.com)) - A flexible and configurable CLI
-          model router using TypeSafe Jev.
+        surrounding_text: "- [frost](https://github.com/marcus/frost) ([site](https://haplab.com)) - A flexible and configurable CLI model router using TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: frost (site) - A flexible and configurable CLI model router using TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
+  summary: haplab.com is a personal website for a Seattle-based developer tools studio with no clear product or tooling described.
+  why_it_matters: It does not describe any developer tool, workflow, or AI-enhanced software that would be useful for software developers.
+  mental_damage: Another portfolio site masquerading as a tool, adding to the endless scroll of 'look what I made' with zero utility.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  status: excluded
+  reason: The site provides no description of a product, tool, agent, or workflow; it is only a branding placeholder with no functional developer-facing utility.
   evidence:
-    - jev-latest choice confidence 0.73
+    - Repo description is absent
+    - Scraped site content shows only a title, copyright, and contact link with no tool description
+    - Source-list context notes it is a directory entry for 'Software to make you happy. Developer tools handmade in Seattle' but links to no actual tool
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:56.766Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1561023f1effa965e800d10908f51e6c684bc496c8df4b658ca340a8418da8a4
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site provides no description of a product, tool, agent, or workflow; it is only a branding placeholder with no functional developer-facing utility.
+      decision_evidence:
+        - Repo description is absent
+        - Scraped site content shows only a title, copyright, and contact link with no tool description
+        - Source-list context notes it is a directory entry for 'Software to make you happy. Developer tools handmade in Seattle' but links to no actual tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

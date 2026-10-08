@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__readmeai__six__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Documentation
         anchor_text: ReadMeAI
         extracted_url: https://readmeai-six.vercel.app
-        surrounding_text: >-
-          - **[ReadMeAI](https://readmeai-six.vercel.app/)** – Generate professional README.md files from any GitHub
-          repo URL with AI. Includes description, installation, usage, and contributing sections. Free, instant.
+        surrounding_text: "- **[ReadMeAI](https://readmeai-six.vercel.app/)** – Generate professional README.md files from any GitHub repo URL with AI. Includes description, installation, usage, and contributing sections. Free, instant."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    ReadMeAI – Generate professional README.md files from any GitHub repo URL with AI. Includes description,
-    installation, usage, and contributing sections. Free, instant.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ReadMeAI is a free web tool that generates README.md files from GitHub repository URLs by analyzing the codebase and detecting the tech stack.
+  why_it_matters: It saves developers time by automating the creation of professional, complete READMEs with badges, installation, usage, API docs, and more in under 10 seconds.
+  mental_damage: Yet another AI-powered wrapper around basic repo introspection that makes you wonder if we’ve automated the one thing that was already easy to copy-paste.
+  tags:
+    - readme-generator
+    - developer-tool
+    - ai-assisted
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
+  status: excluded
+  reason: ReadMeAI is a documentation generation utility that creates static README files from existing repositories; it does not perform coding tasks, act as an agent, or modify codebases, so it lacks the developer-facing AI agent or workflow automation identity required for inclusion in this catalog.
   evidence:
-    - jev-latest choice confidence 0.63
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed app-builders / Site & Landing Page Builders; placement kept at
-      app-builders (unverified)
+    - Tool generates README.md by pasting a GitHub repo URL and clicking 'Generate'
+    - Claims to auto-detect stack via package.json, requirements.txt, go.mod and output title, badges, install, usage, API docs, contributing guide, license
+    - Positioned as a 'Free AI README Generator' for GitHub repos with no indication of code editing, agent behavior, or integration with coding assistants
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories:
     - coding-agents
-  section: Scaffolding & Boilerplate
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:49.717Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:427e723c73f96802d41599b5775448f274fb36b07acccbdf311170701aee456f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: ReadMeAI is a documentation generation utility that creates static README files from existing repositories; it does not perform coding tasks, act as an agent, or modify codebases, so it lacks the developer-facing AI agent or workflow automation identity required for inclusion in this catalog.
+      decision_evidence:
+        - Tool generates README.md by pasting a GitHub repo URL and clicking 'Generate'
+        - Claims to auto-detect stack via package.json, requirements.txt, go.mod and output title, badges, install, usage, API docs, contributing guide, license
+        - Positioned as a 'Free AI README Generator' for GitHub repos with no indication of code editing, agent behavior, or integration with coding assistants
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

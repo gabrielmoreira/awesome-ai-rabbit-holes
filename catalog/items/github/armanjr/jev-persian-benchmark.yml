@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__armanjr__jev-persian-benchmark__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**Jev-Persian-Benchmark**'
+        anchor_text: "**Jev-Persian-Benchmark**"
         extracted_url: https://github.com/armanjr/jev-persian-benchmark
-        surrounding_text: >-
-          - [**Jev-Persian-Benchmark**](https://github.com/ArmanJR/Jev-Persian-Benchmark) — Benchmarks for \*\*Jev\*\*
-          on \*\*480 authored general Persian questions\*\* and a \*\*24-excerpt classical Persian poetry pilot\*\* (48
-          main questions plus 48 controls). Related general questions are batched; poetry questions run individually.
-          Raw responses are saved and answers are scored locally, without a runtime model judge. The general benchmark's
-          historical Laya comparison is retained below.
+        surrounding_text: "- [**Jev-Persian-Benchmark**](https://github.com/ArmanJR/Jev-Persian-Benchmark) — Benchmarks for \\*\\*Jev\\*\\* on \\*\\*480 authored general Persian questions\\*\\* and a \\*\\*24-excerpt classical Persian poetry pilot\\*\\* (48 main questions plus 48 controls). Related general questions are batched; poetry questions run individually. Raw responses are saved and answers are scored locally, without a runtime model judge. The general benchmark's historical Laya comparison is retained below."
         confidence: high
 metadata:
   github:
@@ -34,14 +29,14 @@ metadata:
     archived: false
     full_name: ArmanJR/Jev-Persian-Benchmark
     html_url: https://github.com/ArmanJR/Jev-Persian-Benchmark
-    created_at: '2026-09-22T04:00:06Z'
-    pushed_at: '2026-09-28T23:13:33Z'
+    created_at: "2026-09-22T04:00:06Z"
+    pushed_at: "2026-09-28T23:13:33Z"
     description: A Quick Typesafe's Jev Evaluation on Persian
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:12.208Z'
+    last_checked_at: "2026-09-29T13:09:12.208Z"
     readme:
-      fetched_at: '2026-09-29T13:09:12.208Z'
+      fetched_at: "2026-09-29T13:09:12.208Z"
       bytes: 22226
 insights:
   summary: null
@@ -54,9 +49,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -68,15 +61,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:12.208Z'
+    updated_at: "2026-09-29T13:09:12.208Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

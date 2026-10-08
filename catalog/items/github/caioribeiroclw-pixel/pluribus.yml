@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__caioribeiroclw-pixel__pluribus__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - CLI Tools
         anchor_text: Pluribus
         extracted_url: https://github.com/caioribeiroclw-pixel/pluribus
-        surrounding_text: >-
-          - **[Pluribus](https://github.com/caioribeiroclw-pixel/pluribus)** – Open-source CLI that keeps one versioned
-          AI coding context in sync across Claude Code, Cursor, Copilot, OpenClaw, Windsurf, Continue, and Zed.
+        surrounding_text: "- **[Pluribus](https://github.com/caioribeiroclw-pixel/pluribus)** – Open-source CLI that keeps one versioned AI coding context in sync across Claude Code, Cursor, Copilot, OpenClaw, Windsurf, Continue, and Zed."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: caioribeiroclw-pixel/pluribus
     html_url: https://github.com/caioribeiroclw-pixel/pluribus
-    created_at: '2026-03-08T13:31:09Z'
-    pushed_at: '2026-07-18T15:55:54Z'
-    description: >-
-      Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never
-      confuse generation with runtime load.
+    created_at: "2026-03-08T13:31:09Z"
+    pushed_at: "2026-07-18T15:55:54Z"
+    description: Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse generation with runtime load.
     homepage: https://caioribeiroclw-pixel.github.io/pluribus/context-sync-demo.html
     topics:
       - agent-skills
@@ -58,14 +54,12 @@ metadata:
       - mcp
       - openclaw
       - project-memory
-    last_checked_at: '2026-09-29T13:09:40.370Z'
+    last_checked_at: "2026-09-29T13:09:40.370Z"
     readme:
-      fetched_at: '2026-09-29T13:09:40.370Z'
+      fetched_at: "2026-09-29T13:09:40.370Z"
       bytes: 44670
 insights:
-  summary: >-
-    Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse
-    generation with runtime load.
+  summary: Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse generation with runtime load.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -75,9 +69,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Context & Session Management
   evidence:
     - jev-latest choice confidence 0.87
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed memory-and-context / Context & Session Management; placement kept at
-      memory-and-context (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed memory-and-context / Context & Session Management; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -89,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:40.370Z'
+    updated_at: "2026-09-29T13:09:40.370Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

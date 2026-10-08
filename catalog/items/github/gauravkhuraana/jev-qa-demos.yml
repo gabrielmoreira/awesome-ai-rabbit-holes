@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gauravkhuraana__jev-qa-demos__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,12 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-qa-demos**'
+        anchor_text: "**jev-qa-demos**"
         extracted_url: https://github.com/gauravkhuraana/jev-qa-demos
-        surrounding_text: >-
-          - [**jev-qa-demos**](https://github.com/gauravkhuraana/jev-qa-demos) — Demos for the video "Jev explained for
-          testers": TypeSafe AI's System One model, called through \*\*Vercel AI Gateway\*\* with the AI SDK's
-          \`experimental\_evaluate\`.
+        surrounding_text: "- [**jev-qa-demos**](https://github.com/gauravkhuraana/jev-qa-demos) — Demos for the video \"Jev explained for testers\": TypeSafe AI's System One model, called through \\*\\*Vercel AI Gateway\\*\\* with the AI SDK's \\`experimental\\_evaluate\\`."
         confidence: high
 metadata:
   github:
@@ -32,16 +29,14 @@ metadata:
     archived: false
     full_name: gauravkhuraana/jev-qa-demos
     html_url: https://github.com/gauravkhuraana/jev-qa-demos
-    created_at: '2026-09-25T11:24:35Z'
-    pushed_at: '2026-09-25T11:24:40Z'
-    description: >-
-      Jev (TypeSafe AI) demos for QA / SDET engineers via Vercel AI Gateway - simple, commented TypeScript for a video
-      walkthrough
+    created_at: "2026-09-25T11:24:35Z"
+    pushed_at: "2026-09-25T11:24:40Z"
+    description: Jev (TypeSafe AI) demos for QA / SDET engineers via Vercel AI Gateway - simple, commented TypeScript for a video walkthrough
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:32.776Z'
+    last_checked_at: "2026-09-29T13:11:32.776Z"
     readme:
-      fetched_at: '2026-09-29T13:11:32.775Z'
+      fetched_at: "2026-09-29T13:11:32.775Z"
       bytes: 2461
 insights:
   summary: null
@@ -54,9 +49,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed decision-models / Official Jev & System One; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed decision-models / Official Jev & System One; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -68,15 +61,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:32.776Z'
+    updated_at: "2026-09-29T13:11:32.776Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

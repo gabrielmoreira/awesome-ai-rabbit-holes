@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__heman10x__rlcd__modernbert__151m__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://huggingface.co/heman10x/rlcd-modernbert-151m
-        surrounding_text: >-
-          - [Verdict-open-jev](https://github.com/Heman10x-NGU/Verdict-open-jev)
-          ([site](https://huggingface.co/heman10x/rlcd-modernbert-151m),
-          [post](https://x.com/heman10x/status/2100836659533336676)) - Non-autoregressive decision engine on ModernBERT
-          (151M) with calibrated uncertainty (RLCD), TypeSafe AI Jev benchmark audit, and in-browser WebGPU playground.
+        surrounding_text: "- [Verdict-open-jev](https://github.com/Heman10x-NGU/Verdict-open-jev) ([site](https://huggingface.co/heman10x/rlcd-modernbert-151m), [post](https://x.com/heman10x/status/2100836659533336676)) - Non-autoregressive decision engine on ModernBERT (151M) with calibrated uncertainty (RLCD), TypeSafe AI Jev benchmark audit, and in-browser WebGPU playground."
         confidence: high
 metadata:
   github:
@@ -40,29 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Verdict-open-jev (site, post) - Non-autoregressive decision engine on ModernBERT (151M) with calibrated uncertainty
-    (RLCD), TypeSafe AI Jev benchmark audit, and in-browser WebGPU playground.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: rlcd-modernbert-151m is a 151M-parameter non-autoregressive decision model for structured software workflows, providing calibrated semantic judgments in a single forward pass.
+  why_it_matters: Enables developers to build reliable, calibrated decision systems (e.g., intent classification, routing, guardrails) without conversational generation overhead.
+  mental_damage: Finally, a model that won’t hallucinate a JSON response when you just want a probability over whether the user lost their card.
+  tags:
+    - decision-model
+    - non-autoregressive
+    - calibrated
+    - text-classification
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The product is a decision model that answers typed questions with probabilities (Choice, Score, Noul/Boolean) instead of generating text, fitting the core identity of decision-models; it is explicitly built as an open Jev-like model for structured workflows with calibrated judgments and abstention routing.
   evidence:
-    - jev-latest choice confidence 0.75
+    - Model card describes it as an 'open-source, post-trained foundational decision model built for structured software workflows' providing 'calibrated semantic judgments (discrete choices, ordinal scores, and binary probabilities) in a single forward pass without conversational text generation'
+    - It includes an explicit __insufficient_evidence__ abstention slot and is trained with Cross-Entropy + Brier Score loss for proper scoring calibration
+    - Seen in source list awesome-jev under Benchmarks & research as part of the Jev ecosystem, and the model uses Jev-inspired architecture and RLCD
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:19.004Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c0033a6227baf9063247580f3f00580d3ab35d5042146f8e1f8cf5b0e2a4a456
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product is a decision model that answers typed questions with probabilities (Choice, Score, Noul/Boolean) instead of generating text, fitting the core identity of decision-models; it is explicitly built as an open Jev-like model for structured workflows with calibrated judgments and abstention routing.
+      decision_evidence:
+        - Model card describes it as an 'open-source, post-trained foundational decision model built for structured software workflows' providing 'calibrated semantic judgments (discrete choices, ordinal scores, and binary probabilities) in a single forward pass without conversational text generation'
+        - It includes an explicit __insufficient_evidence__ abstention slot and is trained with Cross-Entropy + Brier Score loss for proper scoring calibration
+        - Seen in source list awesome-jev under Benchmarks & research as part of the Jev ecosystem, and the model uses Jev-inspired architecture and RLCD
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the product is a decision model whose core function is providing typed judgments with probabilities, not measuring or benchmarking model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

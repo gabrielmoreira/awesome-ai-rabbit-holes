@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__xiechengyuan__github__io__jev__gomoku__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://xiechengyuan.github.io/jev-gomoku
-        surrounding_text: >-
-          - [jev-gomoku (XieChengYuan)](https://github.com/XieChengYuan/jev-gomoku)
-          ([site](https://xiechengyuan.github.io/jev-gomoku/)) - 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。
+        surrounding_text: "- [jev-gomoku (XieChengYuan)](https://github.com/XieChengYuan/jev-gomoku) ([site](https://xiechengyuan.github.io/jev-gomoku/)) - 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。"
         confidence: high
 metadata:
   github:
@@ -38,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-gomoku (XieChengYuan) (site) - 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A simulation environment where two Jev decision models duel in a Gomoku-style game to compare their decision-making processes.
+  why_it_matters: It provides an interactive way to observe and benchmark the decision-making behavior and reasoning of System One-style decision models.
+  mental_damage: Because nothing says 'cutting-edge AI research' like watching two decision models play a board game to prove which one is slightly less wrong.
+  tags:
+    - decision-models
+    - jev
+    - simulation
+    - gomoku
+    - benchmarking
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The project is a simulation tool designed specifically to compare and observe the judgments made by Jev decision models.
   evidence:
-    - jev-latest choice confidence 0.83
+    - Scraped site context describes it as a duel between two Jev players to compare model decisions.
+    - Source-list context identifies Jev as TypeSafe AI's System One decision model.
+    - The tool's core function is the observation and comparison of decision-model judgments.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:49:45.252Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bf39ab70f87b876785406f48401b9d4f88422bb62e5a253822095ccd50e2d8fd
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is a simulation tool designed specifically to compare and observe the judgments made by Jev decision models.
+      decision_evidence:
+        - Scraped site context describes it as a duel between two Jev players to compare model decisions.
+        - Source-list context identifies Jev as TypeSafe AI's System One decision model.
+        - The tool's core function is the observation and comparison of decision-model judgments.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the project is a game-based simulation built specifically around the decision-model identity rather than a generic measurement framework.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

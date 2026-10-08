@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__lightricks__ltx__2__3__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,15 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: LTX-2.3 is a Hugging Face-hosted diffusion model for generating synchronized video and audio from text, image, or audio prompts.
+  why_it_matters: Provides developers with open weights and local-run capabilities for multimodal generative AI in video-audio synthesis workflows.
+  mental_damage: Another model drop that makes you feel behind while your GPU silently weeps trying to run the distilled version.
+  tags:
+    - multimodal
+    - video-generation
+    - audio-synthesis
+    - diffusion
+    - local-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: LTX-2.3 is a raw generative model without developer-facing tooling, SDK, agent behavior, or workflow integration — it is model infrastructure, not developer tooling.
+  evidence:
+    - Repo description is missing; the model card focuses on weights, checkpoints, and inference code, not developer workflows or tooling
+    - Scraped context shows usage via Diffusers, LTX-2 pipelines, and ComfyUI — all are consumption interfaces, not agent or SDK identities
+    - Source-list placement is in a general LLM resources list under video models, not a developer tooling or agent-focused section
 placement:
   primary_category: null
   section: null
@@ -55,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -63,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:32.359Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9da20193a5e4b1e53bd015d3ac0971b3e052a1f79813266ccbc4a047f1a46697
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: LTX-2.3 is a raw generative model without developer-facing tooling, SDK, agent behavior, or workflow integration — it is model infrastructure, not developer tooling.
+      decision_evidence:
+        - Repo description is missing; the model card focuses on weights, checkpoints, and inference code, not developer workflows or tooling
+        - Scraped context shows usage via Diffusers, LTX-2 pipelines, and ComfyUI — all are consumption interfaces, not agent or SDK identities
+        - Source-list placement is in a general LLM resources list under video models, not a developer tooling or agent-focused section
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

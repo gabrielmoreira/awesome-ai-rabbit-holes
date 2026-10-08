@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__myspec__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,10 @@ provenance:
           - Developer Productivity Tools
         anchor_text: MySpec
         extracted_url: https://myspec.dev
-        surrounding_text: >-
-          - **[MySpec](https://myspec.dev)** – Interactive AI architect that interviews developers and generates
-          structured 4-file spec bundles with MCP server integration.
+        surrounding_text: "- **[MySpec](https://myspec.dev)** – Interactive AI architect that interviews developers and generates structured 4-file spec bundles with MCP server integration."
         confidence: high
     - id: discovery__myspec__dev__awesome-list__engineering4ai__awesome-spec-driven-development
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: Engineering4AI/awesome-spec-driven-development
@@ -35,10 +33,7 @@ provenance:
           - Specification Tools
         anchor_text: MySpec
         extracted_url: https://myspec.dev
-        surrounding_text: >-
-          - [MySpec](https://myspec.dev) - Spec-driven development platform compiling guided developer discovery
-          interviews into deterministic 4-file bundles (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`)
-          with MCP server integration.
+        surrounding_text: "- [MySpec](https://myspec.dev) - Spec-driven development platform compiling guided developer discovery interviews into deterministic 4-file bundles (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`) with MCP server integration."
         confidence: high
 metadata:
   github:
@@ -56,33 +51,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    MySpec – Interactive AI architect that interviews developers and generates structured 4-file spec bundles with MCP
-    server integration.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MySpec is a spec-driven development tool that interviews users and generates a deterministic 4-file spec bundle (constitution, requirements, solution, tasks) for AI coding agents to build from.
+  why_it_matters: It reduces AI code hallucinations by providing immutable architectural contracts that agents follow deterministically, improving context retention and reducing rework.
+  mental_damage: Finally, a tool that treats AI coding agents like overconfident interns who need a strict supervisor to stop them from inventing APIs mid-sprint.
+  tags:
+    - spec-driven-development
+    - ai-coding-agents
+    - prompt-engineering
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
+  reason: MySpec's core identity is generating structured spec bundles via agent-led interviews to drive deterministic AI coding, making it a spec-first tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.93
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; placement kept at
-      coding-agents (unverified)
+    - Generates a deterministic 4-file spec bundle (constitution, requirements, solution, tasks) before code is written.
+    - Positioned as an 'AI Senior Architect' that extracts problem shape and runs structured interviews to produce spec files.
+    - Exported spec bundles are consumed by Cursor, Claude Code, and Windsurf to guide agent behavior.
+    - Listed in both awesome-ai-coding-tools and awesome-spec-driven-development under Developer Productivity Tools and Specification Tools sections.
 placement:
   primary_category: coding-agents
   secondary_categories:
     - app-builders
-  section: Spec-First & Plan-Execute
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary 'spec-driven-development' promoted runner-up 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,6 +86,31 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:59.313Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1e2c376e7eca21500fbff9fb477601f373381da49f240cb0ef72a8cdf5cfd71a
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: MySpec's core identity is generating structured spec bundles via agent-led interviews to drive deterministic AI coding, making it a spec-first tool rather than a coding agent or extension.
+      decision_evidence:
+        - Generates a deterministic 4-file spec bundle (constitution, requirements, solution, tasks) before code is written.
+        - Positioned as an 'AI Senior Architect' that extracts problem shape and runs structured interviews to produce spec files.
+        - Exported spec bundles are consumed by Cursor, Claude Code, and Windsurf to guide agent behavior.
+        - Listed in both awesome-ai-coding-tools and awesome-spec-driven-development under Developer Productivity Tools and Specification Tools sections.
+      category_candidates:
+        - spec-driven-development
+        - coding-agents
+      contrastive_reason: Choose spec-driven-development over coding-agents because MySpec's primary output is a spec bundle for agents to consume, not direct code editing or autonomous coding tasks.
+      review_reason: "Categorization review required: unknown category candidate(s): spec-driven-development; invalid primary 'spec-driven-development' promoted runner-up 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

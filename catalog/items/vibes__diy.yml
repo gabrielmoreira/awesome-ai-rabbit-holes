@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vibes__diy__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Vibes DIY
         extracted_url: https://vibes.diy
-        surrounding_text: >-
-          - **[Vibes DIY](https://vibes.diy)** – [Open-source](https://github.com/VibesDIY/vibes.diy) AI app builder
-          that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
+        surrounding_text: "- **[Vibes DIY](https://vibes.diy)** – [Open-source](https://github.com/VibesDIY/vibes.diy) AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can
-    share, remix, and collaborate on.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Vibes DIY is a prompt-to-app platform that generates deployable web applications from natural language descriptions.
+  why_it_matters: It lets developers and non-developers quickly turn ideas into functional apps without writing code, accelerating prototyping and internal tool creation.
+  mental_damage: The joy of describing your dream app in plain words is immediately tempered by the realization you now have to explain why it looks like a 2008 GeoCities site.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - no-code
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Vibes DIY fits the app-builders category because its core identity is generating complete, deployable apps from plain-language prompts, not editing existing codebases or acting as a coding assistant.
   evidence:
-    - jev-latest choice confidence 0.95
+    - "Scraped site context: 'Build a game for friends or an app for your shop. Describe it in plain words, no coding.'"
+    - "Source-list context: Listed in awesome-ai-coding-tools under the App Builders section with the description 'Build a game for friends or an app for your shop. Describe it in plain words, no coding.'"
+    - README excerpt emphasizes describing apps in words, sharing links, and creating deployable artifacts like bingo cards, block worlds, and recipe tools.
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:21.646Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1871bf91a86bb3235526ff2d72ebe1b4fc9fa9e64db6d381989831b1c1f8e66b
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: Vibes DIY fits the app-builders category because its core identity is generating complete, deployable apps from plain-language prompts, not editing existing codebases or acting as a coding assistant.
+      decision_evidence:
+        - "Scraped site context: 'Build a game for friends or an app for your shop. Describe it in plain words, no coding.'"
+        - "Source-list context: Listed in awesome-ai-coding-tools under the App Builders section with the description 'Build a game for friends or an app for your shop. Describe it in plain words, no coding.'"
+        - README excerpt emphasizes describing apps in words, sharing links, and creating deployable artifacts like bingo cards, block worlds, and recipe tools.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Vibes DIY generates new apps from prompts rather than acting as an autonomous agent that edits or operates on existing codebases.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

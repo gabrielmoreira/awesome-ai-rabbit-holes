@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevcode__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jevcode.ai
-        surrounding_text: >-
-          - [jevcode](https://github.com/miounet11/jevcode) ([site](https://www.jevcode.ai)) - JevCode — Jev (TypeSafe
-          System One) 技术解决方案与最佳实践 · https://www.jevcode.ai.
+        surrounding_text: "- [jevcode](https://github.com/miounet11/jevcode) ([site](https://www.jevcode.ai)) - JevCode — Jev (TypeSafe System One) 技术解决方案与最佳实践 · https://www.jevcode.ai."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jevcode.ai is the homepage for Jev, a TypeSafe System One decision model that answers typed questions with probabilities.
+  why_it_matters: Developers can use Jev for reliable classification, routing, or guardrail decisions where probabilistic outputs are needed instead of open-ended text generation.
+  mental_damage: Another model to add to the stack when what you really wanted was a coding agent that could just fix your tests.
+  tags:
+    - decision-model
+    - jev
+    - typesafe
+    - typed-questions
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: jevcode.ai hosts the Jev decision model, which fits the decision-models category as its core identity is answering typed questions with probabilities, not performing coding tasks or acting as an agent.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Repo description: (none)"
+    - "Source-list context: listed in awesome-jev under 'Demos & playgrounds' for projects built on Jev, TypeSafe AI's System One model"
+    - "URL: https://jevcode.ai — homepage for Jev, a TypeSafe System One decision model"
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:14.836Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dc7b638961e0e976d910ca4ab6e1524e72f962d3f17e7ea1d5c9376f2d7e6354
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jevcode.ai hosts the Jev decision model, which fits the decision-models category as its core identity is answering typed questions with probabilities, not performing coding tasks or acting as an agent.
+      decision_evidence:
+        - "Repo description: (none)"
+        - "Source-list context: listed in awesome-jev under 'Demos & playgrounds' for projects built on Jev, TypeSafe AI's System One model"
+        - "URL: https://jevcode.ai — homepage for Jev, a TypeSafe System One decision model"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because jevcode.ai presents Jev as a decision model that answers typed questions with probabilities, not as an agent that writes, edits, or reviews code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

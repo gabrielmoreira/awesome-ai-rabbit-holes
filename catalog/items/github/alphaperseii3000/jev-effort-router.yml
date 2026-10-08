@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alphaperseii3000__jev-effort-router__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-effort-router
         extracted_url: https://github.com/alphaperseii3000/jev-effort-router
-        surrounding_text: >-
-          - [jev-effort-router](https://github.com/AlphaPerseii3000/jev-effort-router) - Hermes plugin for Ollama:Cloud:
-          TypeSafe Jev routes both model and reasoning effort per turn via `llm_request` rewrite. [Project
-          guide](community/projects/tools/jev-effort-router.md).
+        surrounding_text: "- [jev-effort-router](https://github.com/AlphaPerseii3000/jev-effort-router) - Hermes plugin for Ollama:Cloud: TypeSafe Jev routes both model and reasoning effort per turn via `llm_request` rewrite. [Project guide](community/projects/tools/jev-effort-router.md)."
         confidence: high
 metadata:
   github:
@@ -33,12 +30,9 @@ metadata:
     archived: false
     full_name: AlphaPerseii3000/jev-effort-router
     html_url: https://github.com/AlphaPerseii3000/jev-effort-router
-    created_at: '2026-09-22T19:39:47Z'
-    pushed_at: '2026-09-28T06:27:32Z'
-    description: >-
-      Per-turn model AND reasoning-effort routing for Hermes Agent on Ollama:Cloud, decided by TypeSafe Jev (a System
-      One decision model, not an LLM). Rewrites the outgoing provider request itself via llm_request middleware.
-      Ollama:Cloud only.
+    created_at: "2026-09-22T19:39:47Z"
+    pushed_at: "2026-09-28T06:27:32Z"
+    description: Per-turn model AND reasoning-effort routing for Hermes Agent on Ollama:Cloud, decided by TypeSafe Jev (a System One decision model, not an LLM). Rewrites the outgoing provider request itself via llm_request middleware. Ollama:Cloud only.
     homepage: null
     topics:
       - hermes-agent
@@ -49,15 +43,12 @@ metadata:
       - plugin
       - reasoning-effort
       - typesafe
-    last_checked_at: '2026-09-29T13:08:53.701Z'
+    last_checked_at: "2026-09-29T13:08:53.701Z"
     readme:
-      fetched_at: '2026-09-29T13:08:53.701Z'
+      fetched_at: "2026-09-29T13:08:53.701Z"
       bytes: 14729
 insights:
-  summary: >-
-    Per-turn model AND reasoning-effort routing for Hermes Agent on Ollama:Cloud, decided by TypeSafe Jev (a System One
-    decision model, not an LLM). Rewrites the outgoing provider request itself via llm_request middleware. Ollama:Cloud
-    only.
+  summary: Per-turn model AND reasoning-effort routing for Hermes Agent on Ollama:Cloud, decided by TypeSafe Jev (a System One decision model, not an LLM). Rewrites the outgoing provider request itself via llm_request middleware. Ollama:Cloud only.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -77,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:53.701Z'
+    updated_at: "2026-09-29T13:08:53.701Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

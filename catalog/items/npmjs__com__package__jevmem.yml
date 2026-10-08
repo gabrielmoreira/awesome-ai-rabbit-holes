@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jevmem__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jevmem
-        surrounding_text: >-
-          - [jevmem](https://github.com/Avinash-jetwani/jevmem) ([site](https://www.npmjs.com/package/jevmem)) - Jev
-          decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools.
+        surrounding_text: "- [jevmem](https://github.com/Avinash-jetwani/jevmem) ([site](https://www.npmjs.com/package/jevmem)) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevmem (site) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI
-    coding tools.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jevmem is an npm package that appears to be a client or utility for the Jev decision model system.
+  why_it_matters: Provides programmatic access to Jev's typed-decision capabilities for developers building judgment-based tooling.
+  mental_damage: Another npm package promising to let you outsource thinking to a probability-spitting model that still needs human supervision.
+  tags:
+    - jev
+    - decision-model
+    - npm-package
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
     - jev-latest choice confidence 0.49
-    - >-
-      jev winnow:e4b 0.28 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
-      at memory-and-context (unverified)
+    - jev winnow:e4b 0.28 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
     - decision-models
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:56.578Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e18f118cdaccf62160d2feb47e3488f2092210315006ea09757be65d8626dc49
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: jevmem is a client SDK/CLI for the Jev decision model, making its core identity the judgment layer rather than a coding agent or general tool.
+      decision_evidence:
+        - URL is an npm package (jevmem) with no GitHub repo provided
+        - Seen in source list 'awesome-jev' under 'Agent tooling' section for projects built on Jev (TypeSafe System One)
+        - README excerpt and repo description unavailable, but naming and context indicate Jev integration
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jevmem's identity is calling a decision model with typed questions, not extending a host coding agent or editor.
+      review_reason: "Categorization review required: placement disagreement: retained 'memory-and-context', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

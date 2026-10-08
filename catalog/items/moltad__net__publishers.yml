@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__moltad__net__publishers__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,11 +19,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: setup
         extracted_url: https://moltad.net/publishers
-        surrounding_text: >-
-          -   **[chrisgu/agentiq-mcp](https://github.com/chrisgu/agentiq-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/chrisgu/agentiq-mcp?style=social)](https://github.com/chrisgu/agentiq-mcp):
-          AgentIQ MCP for [MoltAd](https://moltad.net) — publishers earn credits via `deliver_ad` after `list_placement`
-          ([setup](https://moltad.net/publishers)). Remote `https://moltad.net/mcp`.
+        surrounding_text: "-   **[chrisgu/agentiq-mcp](https://github.com/chrisgu/agentiq-mcp)** [![GitHub stars](https://img.shields.io/github/stars/chrisgu/agentiq-mcp?style=social)](https://github.com/chrisgu/agentiq-mcp): AgentIQ MCP for [MoltAd](https://moltad.net) — publishers earn credits via `deliver_ad` after `list_placement` ([setup](https://moltad.net/publishers)). Remote `https://moltad.net/mcp`."
         confidence: high
 metadata:
   github:
@@ -41,16 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MoltAd Publishers is an advertising platform that lets AI agents monetize via MCP-integrated ad placements, reporting, and payouts.
+  why_it_matters: It enables developers to build agent-based revenue streams by connecting agent actions to real-world ad campaigns and tracking earnings through MCP tools.
+  mental_damage: Finally, a way to feel guilty about both ad tech and agent hype at the same time.
+  tags:
+    - ads
+    - mcp
+    - monetization
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The product is an advertising platform for monetizing agent behavior, not a developer-facing AI tool for coding, workflows, or agent development — its core identity is ad tech, not software development assistance.
   evidence:
-    - jev winnow:e4b 0.29 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Scraped site context describes registering as a MoltAd publisher to list CPR placements, deliver ads, report events, and see earnings via MCP.
+    - Source-list context notes it's in 'awesome-mcp-list' under a 'Marketing' section, positioned as a way to monetize agent commercial intent.
+    - Primary page excerpt shows advertiser partner list focused on consumer brands and services, not developer tools or AI development infrastructure.
 placement:
   primary_category: null
   section: null
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:51.876Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c19f3d7668bbfda5bed67aa0c1171f058ef1fd4fca7ec5ae1fe6a1e8d235b751
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is an advertising platform for monetizing agent behavior, not a developer-facing AI tool for coding, workflows, or agent development — its core identity is ad tech, not software development assistance.
+      decision_evidence:
+        - Scraped site context describes registering as a MoltAd publisher to list CPR placements, deliver ads, report events, and see earnings via MCP.
+        - Source-list context notes it's in 'awesome-mcp-list' under a 'Marketing' section, positioned as a way to monetize agent commercial intent.
+        - Primary page excerpt shows advertiser partner list focused on consumer brands and services, not developer tools or AI development infrastructure.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

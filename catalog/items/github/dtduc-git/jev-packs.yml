@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dtduc-git__jev-packs__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-packs
         extracted_url: https://github.com/dtduc-git/jev-packs
-        surrounding_text: >-
-          - [jev-packs](https://github.com/dtduc-git/jev-packs) - Evidence-gated Jev question-pack registry with golden
-          cases and a reproducible offline multi-backend scoreboard. [Project
-          guide](community/projects/tools/jev-packs.md).
+        surrounding_text: "- [jev-packs](https://github.com/dtduc-git/jev-packs) - Evidence-gated Jev question-pack registry with golden cases and a reproducible offline multi-backend scoreboard. [Project guide](community/projects/tools/jev-packs.md)."
         confidence: high
     - id: discovery__github__dtduc-git__jev-packs__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,10 +36,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-packs
         extracted_url: https://github.com/dtduc-git/jev-packs
-        surrounding_text: >-
-          | [jev-packs](https://github.com/dtduc-git/jev-packs) | ★ 0 | Python | 2026-09-22 | Evidence-gated registry of
-          Jev question packs — curated questions, golden cases and measured evidence for Jev-compatible decision
-          endpoints |
+        surrounding_text: "| [jev-packs](https://github.com/dtduc-git/jev-packs) | ★ 0 | Python | 2026-09-22 | Evidence-gated registry of Jev question packs — curated questions, golden cases and measured evidence for Jev-compatible decision endpoints |"
         confidence: high
 metadata:
   github:
@@ -52,11 +46,9 @@ metadata:
     archived: false
     full_name: dtduc-git/jev-packs
     html_url: https://github.com/dtduc-git/jev-packs
-    created_at: '2026-09-19T06:35:36Z'
-    pushed_at: '2026-09-23T03:35:47Z'
-    description: >-
-      Evidence-gated registry of Jev question packs — curated questions, golden cases and measured evidence for
-      Jev-compatible decision endpoints
+    created_at: "2026-09-19T06:35:36Z"
+    pushed_at: "2026-09-23T03:35:47Z"
+    description: Evidence-gated registry of Jev question packs — curated questions, golden cases and measured evidence for Jev-compatible decision endpoints
     homepage: null
     topics:
       - ai-testing
@@ -66,14 +58,12 @@ metadata:
       - jev
       - llm-evaluation
       - question-packs
-    last_checked_at: '2026-09-29T13:10:50.228Z'
+    last_checked_at: "2026-09-29T13:10:50.228Z"
     readme:
-      fetched_at: '2026-09-29T13:10:50.228Z'
+      fetched_at: "2026-09-29T13:10:50.228Z"
       bytes: 7773
 insights:
-  summary: >-
-    Evidence-gated registry of Jev question packs — curated questions, golden cases and measured evidence for
-    Jev-compatible decision endpoints
+  summary: Evidence-gated registry of Jev question packs — curated questions, golden cases and measured evidence for Jev-compatible decision endpoints
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -83,9 +73,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.46
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.46 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -97,15 +85,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:50.228Z'
+    updated_at: "2026-09-29T13:10:50.228Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

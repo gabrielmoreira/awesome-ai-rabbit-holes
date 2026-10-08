@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cogflux__opencode-jev-guard__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: opencode-jev-guard
         extracted_url: https://github.com/cogflux/opencode-jev-guard
-        surrounding_text: >-
-          - [opencode-jev-guard](https://github.com/CogFlux/opencode-jev-guard) - OpenCode 2 plugin: TypeSafe Jev
-          triages every local/FarHand shell command before run (distinct from leepokai/jev-guard). [Project
-          guide](community/projects/tools/opencode-jev-guard.md).
+        surrounding_text: "- [opencode-jev-guard](https://github.com/CogFlux/opencode-jev-guard) - OpenCode 2 plugin: TypeSafe Jev triages every local/FarHand shell command before run (distinct from leepokai/jev-guard). [Project guide](community/projects/tools/opencode-jev-guard.md)."
         confidence: high
     - id: discovery__github__cogflux__opencode-jev-guard__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,13 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**opencode-jev-guard**'
+        anchor_text: "**opencode-jev-guard**"
         extracted_url: https://github.com/cogflux/opencode-jev-guard
-        surrounding_text: >-
-          - [**opencode-jev-guard**](https://github.com/CogFlux/opencode-jev-guard) — When FarHand is active, the
-          agent's commands run on a remote host through the \`farhand\_remote\_shell\` MCP tool instead of \`shell\`.
-          OpenCode's permission request for an MCP tool carries no arguments, so the plugin takes the command (and its
-          \`cwd\`) from the \`execute.before\` hook, which OpenCode runs first.
+        surrounding_text: "- [**opencode-jev-guard**](https://github.com/CogFlux/opencode-jev-guard) — When FarHand is active, the agent's commands run on a remote host through the \\`farhand\\_remote\\_shell\\` MCP tool instead of \\`shell\\`. OpenCode's permission request for an MCP tool carries no arguments, so the plugin takes the command (and its \\`cwd\\`) from the \\`execute.before\\` hook, which OpenCode runs first."
         confidence: high
 metadata:
   github:
@@ -52,12 +45,9 @@ metadata:
     archived: false
     full_name: CogFlux/opencode-jev-guard
     html_url: https://github.com/CogFlux/opencode-jev-guard
-    created_at: '2026-09-23T02:10:49Z'
-    pushed_at: '2026-09-25T16:17:58Z'
-    description: >-
-      OpenCode 2 plugin that sends every shell command (local or via FarHand) to TypeSafe's Jev and asks you first when
-      it leaves files outside the project, installs software globally, changes global settings, is harmful or exposes
-      private data
+    created_at: "2026-09-23T02:10:49Z"
+    pushed_at: "2026-09-25T16:17:58Z"
+    description: OpenCode 2 plugin that sends every shell command (local or via FarHand) to TypeSafe's Jev and asks you first when it leaves files outside the project, installs software globally, changes global settings, is harmful or exposes private data
     homepage: null
     topics:
       - ai-agents
@@ -72,15 +62,12 @@ metadata:
       - security
       - shell
       - typesafe
-    last_checked_at: '2026-09-29T13:10:03.537Z'
+    last_checked_at: "2026-09-29T13:10:03.537Z"
     readme:
-      fetched_at: '2026-09-29T13:10:03.537Z'
+      fetched_at: "2026-09-29T13:10:03.537Z"
       bytes: 11140
 insights:
-  summary: >-
-    OpenCode 2 plugin that sends every shell command (local or via FarHand) to TypeSafe's Jev and asks you first when it
-    leaves files outside the project, installs software globally, changes global settings, is harmful or exposes private
-    data
+  summary: OpenCode 2 plugin that sends every shell command (local or via FarHand) to TypeSafe's Jev and asks you first when it leaves files outside the project, installs software globally, changes global settings, is harmful or exposes private data
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -100,15 +87,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:03.537Z'
+    updated_at: "2026-09-29T13:10:03.537Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

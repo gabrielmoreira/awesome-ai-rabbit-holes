@@ -36,26 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: VibeDoctor is a security and performance scanning service for AI-generated code that runs 149+ automated checks via MCP integration.
-  why_it_matters: It helps developers catch AI-specific code defects like phantom imports and committed secrets before they reach production.
-  mental_damage: Yet another tool to scan the slop your AI intern just committed, because trusting vibes alone clearly wasn’t enough.
+  summary: A security, performance, and code quality scanner designed to audit applications built by AI agents.
+  why_it_matters: It provides a diagnostic safety net that catches common agent-driven errors—like hallucinated imports and exposed secrets—before they reach production.
+  mental_damage: It's a digital second opinion to ensure your agent's 'vibe' hasn't accidentally compromised your entire production environment.
   tags:
     - security
-    - code-quality
     - mcp
-  confidence: medium
+    - code-quality
+    - agent-tooling
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Testing & Code Quality
+  reason: VibeDoctor acts as a specialized security and quality-assurance add-on that integrates into existing coding agents via MCP to verify agent-generated code.
   evidence:
-    - jev-latest choice confidence 0.88
+    - Provides 149+ automated checks for secrets, auth, dependencies, and performance
+    - Integrates with Claude Code, Cursor, and Windsurf via MCP to deliver findings directly in chat
+    - Specifically targets AI-agent failure modes like hallucinated package imports and dead code
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: Testing & Code Quality
+  section: Security & DevSecOps
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -67,30 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:56:55.430Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for vibedoctor__io: Invalid AI response format: SyntaxError: Unexpected token 'V', ...\"_reason\": VibeDoctor\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:30:23.663Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:1ce51b9b427294d5644d204cabd7135a84217cfa9694b905509747d6bee7a1d6
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:77f87f3dee4612e7db887c72a4f72d112240286642a1d731400f221da3880402
       proposed_primary_category: extensions-and-addons
-      disagreement: true
-      decision_reason: VibeDoctor primarily functions as a security and code quality extension that integrates with coding agents via MCP, making it an add-on rather than a standalone agent or framework.
+      disagreement: false
+      decision_reason: VibeDoctor acts as a specialized security and quality-assurance add-on that integrates into existing coding agents via MCP to verify agent-generated code.
       decision_evidence:
-        - Scraped site context shows it installs as an MCP server when users paste a connect command into Claude Code, Cursor, or similar agents.
-        - README excerpt emphasizes scanning and monitoring AI-built apps for security, performance, and code quality, with findings returned to the agent for fixing.
-        - Source-list context from awesome-ai-coding-tools places it in 'Code Review and Refactoring' as a tool that scans vibe-coded apps and hands developers a prescription for fixes.
+        - Provides 149+ automated checks for secrets, auth, dependencies, and performance
+        - Integrates with Claude Code, Cursor, and Windsurf via MCP to deliver findings directly in chat
+        - Specifically targets AI-agent failure modes like hallucinated package imports and dead code
       category_candidates:
         - extensions-and-addons
         - mcp
-      contrastive_reason: Choose extensions-and-addons over mcp because VibeDoctor’s primary identity is as a security and code quality tool for coding agents, not as MCP infrastructure itself — it uses MCP as a compatibility feature to integrate with agents.
-      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
+      contrastive_reason: Choose extensions-and-addons over mcp because the core product is the scanning and diagnostic service, while MCP is the integration mechanism used to deliver its reports.
+      review_reason: null
       review_resume_lifecycle: null

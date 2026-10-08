@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__hellogumbo__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,7 +18,7 @@ provenance:
           - License
         anchor_text: Gumbo
         extracted_url: https://hellogumbo.com
-        surrounding_text: '[CC0 1.0](LICENSE). Maintained by [Gumbo](https://hellogumbo.com).'
+        surrounding_text: "[CC0 1.0](LICENSE). Maintained by [Gumbo](https://hellogumbo.com)."
         confidence: high
 metadata:
   github:
@@ -36,15 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Gumbo is a consulting firm that builds custom AI systems and trains client teams to operate them.
+  why_it_matters: It offers end-to-end AI delivery and enablement, but is a services business rather than a developer tool.
+  mental_damage: Another reminder that not every 'AI systems' vendor is shipping code you can run.
+  tags:
+    - consulting
+    - services
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Gumbo is a services consultancy that builds AI systems and trains teams, not a developer-facing product, tool, or platform.
+  evidence:
+    - Scraped site describes Gumbo as a team that 'builds the AI systems companies actually run on, and teaches their people to run them' with services in strategy, design, and technology.
+    - No repo, stars, or product artifacts are provided; the offering is framed as consulting and case studies, not a tool or framework.
+    - Listed in awesome-jev under a 'License' section as a project built on Jev, but the site itself shows no Jev integration or developer tooling identity.
 placement:
   primary_category: null
   section: null
@@ -54,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -62,6 +67,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:04.182Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:17a8cf4006a79d388ccd6c91c76d06bef65d35dcd437bba307bdf9333f489bdd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Gumbo is a services consultancy that builds AI systems and trains teams, not a developer-facing product, tool, or platform.
+      decision_evidence:
+        - Scraped site describes Gumbo as a team that 'builds the AI systems companies actually run on, and teaches their people to run them' with services in strategy, design, and technology.
+        - No repo, stars, or product artifacts are provided; the offering is framed as consulting and case studies, not a tool or framework.
+        - Listed in awesome-jev under a 'License' section as a project built on Jev, but the site itself shows no Jev integration or developer tooling identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

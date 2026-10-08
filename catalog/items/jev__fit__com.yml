@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__fit__com__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Classification & Routing
         anchor_text: jev-fit
         extracted_url: https://jev-fit.com
-        surrounding_text: >-
-          - [jev-fit](https://jev-fit.com) - Developer tooling: hosted fit checker that sends a pasted software idea and
-          a fixed typed rubric to Jev in one call, where a `Choice` picks plain code, Jev or a reasoning LLM behind a
-          `Noul` gate for non-tasks, code vetoes Jev when the idea needs images, and low confidence returns "not sure";
-          closed source, free page and API.
+        surrounding_text: "- [jev-fit](https://jev-fit.com) - Developer tooling: hosted fit checker that sends a pasted software idea and a fixed typed rubric to Jev in one call, where a `Choice` picks plain code, Jev or a reasoning LLM behind a `Noul` gate for non-tasks, code vetoes Jev when the idea needs images, and low confidence returns \"not sure\"; closed source, free page and API."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-fit - Developer tooling: hosted fit checker that sends a pasted software idea and a fixed typed rubric to Jev in
-    one call, where a Choice picks plain code, Jev or a reasoning LLM behind a Noul gate for non-tasks, code vetoes Jev
-    when the idea needs images, and low confidence returns "not sure"; closed source, free page and API.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-fit.com is a web tool that evaluates whether a user-provided idea should be implemented as plain code, a Jev decision model, or a reasoning LLM.
+  why_it_matters: It helps developers quickly assess the appropriate complexity level for implementing an idea, potentially saving effort by avoiding over-engineering with LLMs or under-utilizing structured decision models.
+  mental_damage: Another tool to add to the growing stack of meta-decision aids that promise to reduce choice paralysis while silently increasing it.
+  tags:
+    - decision-tool
+    - idea-validation
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: The tool's core function is a decision model that classifies user ideas into implementation paths using typed judgments, making it a direct application of Jev-style decision modeling rather than a coding agent, app builder, or general resource.
   evidence:
-    - jev-latest choice confidence 0.87
+    - Paste an idea. Jev decides if it fits plain code, Jev, or a reasoning LLM.
+    - "jev-fit: Paste an idea. Jev decides what should run it."
+    - "Seen in source list 'awesome-jev' under section: Classification & Routing"
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:01.203Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:316ec3a5bf19059446b83359c13dd1fbc2f458fdeabf17a225d36a1be60e7b11
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core function is a decision model that classifies user ideas into implementation paths using typed judgments, making it a direct application of Jev-style decision modeling rather than a coding agent, app builder, or general resource.
+      decision_evidence:
+        - Paste an idea. Jev decides if it fits plain code, Jev, or a reasoning LLM.
+        - "jev-fit: Paste an idea. Jev decides what should run it."
+        - "Seen in source list 'awesome-jev' under section: Classification & Routing"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because jev-fit does not write, edit, or act on code — it outputs a classification judgment about where an idea should be implemented, which is the core function of a decision model.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

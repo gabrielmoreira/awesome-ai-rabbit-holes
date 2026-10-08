@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hellob1889__pandaone-ai-agent__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🤖 <a name="coding-agents"></a>Coding Agents
         anchor_text: hellob1889/Pandaone-AI-Agent
         extracted_url: https://github.com/hellob1889/pandaone-ai-agent
-        surrounding_text: >-
-          - [hellob1889/Pandaone-AI-Agent](https://github.com/hellob1889/Pandaone-AI-Agent) [![Pandaone Guard MCP
-          server](https://glama.ai/mcp/servers/hellob1889/pandaone-ai-agent/badges/score.svg)](https://glama.ai/mcp/servers/hellob1889/pandaone-ai-agent)
-          🐍 🏠 🍎 🪟 🐧 - Requires every AI agent code change to leave a problem, reason and approach audit record
-          before commit, with a pre-commit hook and audit trail dashboard.
+        surrounding_text: "- [hellob1889/Pandaone-AI-Agent](https://github.com/hellob1889/Pandaone-AI-Agent) [![Pandaone Guard MCP server](https://glama.ai/mcp/servers/hellob1889/pandaone-ai-agent/badges/score.svg)](https://glama.ai/mcp/servers/hellob1889/pandaone-ai-agent) 🐍 🏠 🍎 🪟 🐧 - Requires every AI agent code change to leave a problem, reason and approach audit record before commit, with a pre-commit hook and audit trail dashboard."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: hellob1889/Pandaone-AI-Agent
     html_url: https://github.com/hellob1889/Pandaone-AI-Agent
-    created_at: '2026-09-09T17:12:12Z'
-    pushed_at: '2026-09-21T01:12:51Z'
-    description: >-
-      Pandaone Guard — Free open-source MCP server for AI code audit. L1-L6 defense (file lock + audit log + pre-commit
-      hooks) for Claude/Cursor/Trae. Local stdio, no API key, MIT.
+    created_at: "2026-09-09T17:12:12Z"
+    pushed_at: "2026-09-21T01:12:51Z"
+    description: Pandaone Guard — Free open-source MCP server for AI code audit. L1-L6 defense (file lock + audit log + pre-commit hooks) for Claude/Cursor/Trae. Local stdio, no API key, MIT.
     homepage: https://hellob1889.github.io/Pandaone-AI-Agent/
     topics:
       - ai-agent
@@ -60,14 +54,12 @@ metadata:
       - security-scanner
       - static-analysis
       - trae
-    last_checked_at: '2026-09-29T13:12:03.988Z'
+    last_checked_at: "2026-09-29T13:12:03.988Z"
     readme:
-      fetched_at: '2026-09-29T13:12:03.988Z'
+      fetched_at: "2026-09-29T13:12:03.988Z"
       bytes: 23397
 insights:
-  summary: >-
-    Pandaone Guard — Free open-source MCP server for AI code audit. L1-L6 defense (file lock + audit log + pre-commit
-    hooks) for Claude/Cursor/Trae. Local stdio, no API key, MIT.
+  summary: Pandaone Guard — Free open-source MCP server for AI code audit. L1-L6 defense (file lock + audit log + pre-commit hooks) for Claude/Cursor/Trae. Local stdio, no API key, MIT.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -87,15 +79,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:03.988Z'
+    updated_at: "2026-09-29T13:12:03.988Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

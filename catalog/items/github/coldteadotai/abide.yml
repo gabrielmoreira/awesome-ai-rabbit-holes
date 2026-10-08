@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coldteadotai__abide__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: abide
         extracted_url: https://github.com/coldteadotai/abide
-        surrounding_text: >-
-          | [abide](https://github.com/coldteadotai/abide) | ★ 169 | TypeScript | 2026-09-19 | Supervises coding-agent
-          edits and uses Jev to flag violations of project rules. |
+        surrounding_text: "| [abide](https://github.com/coldteadotai/abide) | ★ 169 | TypeScript | 2026-09-19 | Supervises coding-agent edits and uses Jev to flag violations of project rules. |"
         confidence: high
     - id: discovery__github__coldteadotai__abide__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,11 +36,7 @@ provenance:
           - Verification & Guardrails
         anchor_text: Abide
         extracted_url: https://github.com/coldteadotai/abide
-        surrounding_text: >-
-          - [Abide](https://github.com/coldteadotai/abide)
-          ![stars](https://img.shields.io/github/stars/coldteadotai/abide?style=flat-square&label=%E2%98%85) - Agent
-          supervision: reads every edit a coding agent makes and has Jev flag rule violations, with the project
-          reporting that an independent reviewer confirmed 10 of the 39 flagged edits and 11 of the 15 flagged turns.
+        surrounding_text: "- [Abide](https://github.com/coldteadotai/abide) ![stars](https://img.shields.io/github/stars/coldteadotai/abide?style=flat-square&label=%E2%98%85) - Agent supervision: reads every edit a coding agent makes and has Jev flag rule violations, with the project reporting that an independent reviewer confirmed 10 of the 39 flagged edits and 11 of the 15 flagged turns."
         confidence: high
 metadata:
   github:
@@ -52,10 +46,10 @@ metadata:
     archived: false
     full_name: coldteadotai/abide
     html_url: https://github.com/coldteadotai/abide
-    created_at: '2026-09-18T10:41:48Z'
-    pushed_at: '2026-09-27T22:06:36Z'
-    description: 'Make your coding agent abide by all your project rules '
-    homepage: ''
+    created_at: "2026-09-18T10:41:48Z"
+    pushed_at: "2026-09-27T22:06:36Z"
+    description: "Make your coding agent abide by all your project rules "
+    homepage: ""
     topics:
       - claude-code
       - claude-code-hooks
@@ -68,9 +62,9 @@ metadata:
       - opencode
       - opencode-plugin
       - opencode-skills
-    last_checked_at: '2026-09-29T13:10:04.499Z'
+    last_checked_at: "2026-09-29T13:10:04.499Z"
     readme:
-      fetched_at: '2026-09-29T13:10:04.499Z'
+      fetched_at: "2026-09-29T13:10:04.499Z"
       bytes: 10644
 insights:
   summary: Make your coding agent abide by all your project rules
@@ -83,9 +77,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.53
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -97,15 +89,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:04.499Z'
+    updated_at: "2026-09-29T13:10:04.499Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

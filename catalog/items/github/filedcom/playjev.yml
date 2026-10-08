@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__filedcom__playjev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: playjev
         extracted_url: https://github.com/filedcom/playjev
-        surrounding_text: >-
-          | [playjev](https://github.com/filedcom/playjev) | ★ 3 | TypeScript | 2026-09-21 | Experimental Playwright
-          library for natural-language browser automation, using Jev to turn page state and instructions into typed
-          actions. |
+        surrounding_text: "| [playjev](https://github.com/filedcom/playjev) | ★ 3 | TypeScript | 2026-09-21 | Experimental Playwright library for natural-language browser automation, using Jev to turn page state and instructions into typed actions. |"
         confidence: high
 metadata:
   github:
@@ -33,8 +30,8 @@ metadata:
     archived: false
     full_name: filedcom/playjev
     html_url: https://github.com/filedcom/playjev
-    created_at: '2026-09-20T10:03:50Z'
-    pushed_at: '2026-09-27T10:33:08Z'
+    created_at: "2026-09-20T10:03:50Z"
+    pushed_at: "2026-09-27T10:33:08Z"
     description: Fast, typed browser automation powered by Jev and Playwright
     homepage: null
     topics:
@@ -43,9 +40,9 @@ metadata:
       - playwright
       - typesafe-ai
       - typescript
-    last_checked_at: '2026-09-29T13:11:17.940Z'
+    last_checked_at: "2026-09-29T13:11:17.940Z"
     readme:
-      fetched_at: '2026-09-29T13:11:17.939Z'
+      fetched_at: "2026-09-29T13:11:17.939Z"
       bytes: 11287
 insights:
   summary: Fast, typed browser automation powered by Jev and Playwright
@@ -68,15 +65,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:17.940Z'
+    updated_at: "2026-09-29T13:11:17.940Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

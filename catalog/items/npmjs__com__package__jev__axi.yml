@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__axi__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-axi
-        surrounding_text: >-
-          - [jev-axi](https://github.com/shiftynick/jev-axi) ([site](https://www.npmjs.com/package/jev-axi)) -
-          Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard)
-          from the shell.
+        surrounding_text: "- [jev-axi](https://github.com/shiftynick/jev-axi) ([site](https://www.npmjs.com/package/jev-axi)) - Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard) from the shell."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-axi (site) - Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage,
-    guard) from the shell.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-axi is an npm package for Jev (TypeSafe System One) decision model integration.
+  why_it_matters: Provides developers with a way to use Jev's typed-decision capabilities for routing, scoring, and verification in AI workflows.
+  mental_damage: Another npm dependency to audit while wondering if your LLM needs a probability score to decide whether to use this.
+  tags:
+    - jev
+    - decision-model
+    - npm
+    - type-safe
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: jev-axi is an npm package that serves as a client SDK for the Jev decision model, making its core identity the judgment layer rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.66
+    - Name 'jev-axi' and npm packaging indicate a Jev-focused client library
+    - Listed in awesome-jev under 'Agent tooling' section for Jev-built projects
+    - No evidence of autonomous coding, code editing, or IDE integration in provided inputs
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:35.525Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8207a42140cafae36136d268f89b2c88b7b4f236fad3eff67580ffd20e8a0016
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-axi is an npm package that serves as a client SDK for the Jev decision model, making its core identity the judgment layer rather than a coding agent or extension.
+      decision_evidence:
+        - Name 'jev-axi' and npm packaging indicate a Jev-focused client library
+        - Listed in awesome-jev under 'Agent tooling' section for Jev-built projects
+        - No evidence of autonomous coding, code editing, or IDE integration in provided inputs
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product's identity is the Jev decision model judgment layer, not host integration or workflow augmentation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

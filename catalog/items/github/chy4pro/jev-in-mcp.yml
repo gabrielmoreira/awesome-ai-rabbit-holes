@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chy4pro__jev-in-mcp__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,12 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-in-mcp**'
+        anchor_text: "**jev-in-mcp**"
         extracted_url: https://github.com/chy4pro/jev-in-mcp
-        surrounding_text: >-
-          - [**jev-in-mcp**](https://github.com/chy4pro/jev-in-mcp) — MCP relay that adds use\_jev to every server: Jev
-          picks the tool calls, the calling model writes the values Jev cannot choose, the relay executes. Built on
-          jev-dev-kit.
+        surrounding_text: "- [**jev-in-mcp**](https://github.com/chy4pro/jev-in-mcp) — MCP relay that adds use\\_jev to every server: Jev picks the tool calls, the calling model writes the values Jev cannot choose, the relay executes. Built on jev-dev-kit."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: chy4pro/jev-in-mcp
     html_url: https://github.com/chy4pro/jev-in-mcp
-    created_at: '2026-09-20T08:43:57Z'
-    pushed_at: '2026-09-22T08:54:13Z'
-    description: >-
-      MCP relay that adds use_jev to every server: Jev picks the tool calls, the calling model writes the values Jev
-      cannot choose, the relay executes. Built on jev-dev-kit.
+    created_at: "2026-09-20T08:43:57Z"
+    pushed_at: "2026-09-22T08:54:13Z"
+    description: "MCP relay that adds use_jev to every server: Jev picks the tool calls, the calling model writes the values Jev cannot choose, the relay executes. Built on jev-dev-kit."
     homepage: null
     topics:
       - agent
@@ -47,14 +42,12 @@ metadata:
       - mcp-proxy
       - model-context-protocol
       - typesafe
-    last_checked_at: '2026-09-29T13:09:52.537Z'
+    last_checked_at: "2026-09-29T13:09:52.537Z"
     readme:
-      fetched_at: '2026-09-29T13:09:52.537Z'
+      fetched_at: "2026-09-29T13:09:52.537Z"
       bytes: 5258
 insights:
-  summary: >-
-    MCP relay that adds use_jev to every server: Jev picks the tool calls, the calling model writes the values Jev
-    cannot choose, the relay executes. Built on jev-dev-kit.
+  summary: "MCP relay that adds use_jev to every server: Jev picks the tool calls, the calling model writes the values Jev cannot choose, the relay executes. Built on jev-dev-kit."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,9 +57,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
   evidence:
     - jev-latest choice confidence 0.85
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -78,15 +69,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:52.537Z'
+    updated_at: "2026-09-29T13:09:52.537Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

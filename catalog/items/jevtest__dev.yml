@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevtest__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://jevtest.dev
-        surrounding_text: >-
-          - [JevTest](https://github.com/CorieW/JevTest) ([site](https://jevtest.dev)) - Bounded exploratory browser
-          testing with Jev, deterministic assertions, and replayable evidence.
+        surrounding_text: "- [JevTest](https://github.com/CorieW/JevTest) ([site](https://jevtest.dev)) - Bounded exploratory browser testing with Jev, deterministic assertions, and replayable evidence."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JevTest (site) - Bounded exploratory browser testing with Jev, deterministic assertions, and replayable evidence.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jevtest.dev is a directory of projects built on the Jev decision model from TypeSafe AI's System One.
+  why_it_matters: It helps developers discover and explore real-world applications of the Jev decision model for typing-based AI workflows.
+  mental_damage: Another curated list that makes you feel like you're falling behind on yet another niche AI paradigm no one asked for.
+  tags:
+    - jev
+    - decision-models
+    - directory
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  reason: While jevtest.dev is a directory, its explicit focus on projects built on the Jev decision model aligns it with the decision-models category, especially given its source-list placement in a Jev-specific awesome list under Browser & Computer Use.
   evidence:
-    - jev-latest choice confidence 0.71
+    - "Source-list context: listed in awesome-jev with purpose 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model' in section 'Browser & computer use'"
+    - "Name and URL: jevtest.dev suggests a test or showcase environment for Jev-based projects"
+    - No repo description, stars, or activity data available, but source-list context provides strong topical grounding
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:31.479Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8563d00850f9ad79c92362f01b505ecc95a73fedbf90c1a756d6bfb905f0609c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: While jevtest.dev is a directory, its explicit focus on projects built on the Jev decision model aligns it with the decision-models category, especially given its source-list placement in a Jev-specific awesome list under Browser & Computer Use.
+      decision_evidence:
+        - "Source-list context: listed in awesome-jev with purpose 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model' in section 'Browser & computer use'"
+        - "Name and URL: jevtest.dev suggests a test or showcase environment for Jev-based projects"
+        - No repo description, stars, or activity data available, but source-list context provides strong topical grounding
+      category_candidates:
+        - decision-models
+        - awesome-awesomes
+      contrastive_reason: Choose decision-models over awesome-awesomes because the directory's explicit focus on Jev-built projects gives it a clear topical identity within the decision-model ecosystem, making it more than a generic curated list.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zop__dev__learn__how__to__set__up__zopnight__mcp__for__claude__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,13 +19,7 @@ provenance:
           - ☁️ Cloud Platforms
         anchor_text: Claude setup
         extracted_url: https://zop.dev/learn/how-to/set-up-zopnight-mcp-for-claude
-        surrounding_text: >-
-          -   **[zopdev/mcp](https://github.com/zopdev/mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/zopdev/mcp?style=social)](https://github.com/zopdev/mcp): Cloud
-          cost and infrastructure governance across AWS, Azure, GCP, Databricks and Snowflake. 263 tools (155 read, 108
-          write), read-only by default, over a hosted remote endpoint at `https://api.zop.dev/mcp-server`.
-          [Docs](https://zop.dev/learn/mcp-server?utm_source=mobinx-awesome-mcp-list&utm_medium=listing&utm_campaign=mcp-directory)
-          · [Claude setup](https://zop.dev/learn/how-to/set-up-zopnight-mcp-for-claude).
+        surrounding_text: "-   **[zopdev/mcp](https://github.com/zopdev/mcp)** [![GitHub stars](https://img.shields.io/github/stars/zopdev/mcp?style=social)](https://github.com/zopdev/mcp): Cloud cost and infrastructure governance across AWS, Azure, GCP, Databricks and Snowflake. 263 tools (155 read, 108 write), read-only by default, over a hosted remote endpoint at `https://api.zop.dev/mcp-server`. [Docs](https://zop.dev/learn/mcp-server?utm_source=mobinx-awesome-mcp-list&utm_medium=listing&utm_campaign=mcp-directory) · [Claude setup](https://zop.dev/learn/how-to/set-up-zopnight-mcp-for-claude)."
         confidence: high
 metadata:
   github:
@@ -43,29 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ZopNight provides an MCP server that exposes cloud cost, resource, scheduling, and recommendation data to AI assistants like Claude Code.
+  why_it_matters: Developers can query live cloud infrastructure data from within their coding assistant using natural language.
+  mental_damage: Another MCP wrapper promising terminal enlightenment while you still have to manually fix the cloud bill it just revealed.
+  tags:
+    - mcp
+    - cloud
+    - finops
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: ZopNight's MCP server is the core product identity, exposing cloud data via MCP to AI assistants, fitting the MCP category as infrastructure, not merely an add-on.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.34 below gate 0.50; proposed mcp / Cloud & API Integration; no placement kept (unverified)
+    - ZopNight runs a Model Context Protocol server for Claude Code, Cursor, and Codex clients.
+    - The guide focuses on adding ZopNight as a remote MCP server in Claude Code using claude mcp add.
+    - Listed in awesome-mcp-list under Cloud Platforms as a remote MCP server for Claude Code.
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories:
     - mcp
-  section: null
+  section: Cloud & API Integration
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:51:06.186Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fc77b14e6e293b3a2895a6e03a3f4f6f74a67b10461109796cc64ec81d502ad8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: ZopNight's MCP server is the core product identity, exposing cloud data via MCP to AI assistants, fitting the MCP category as infrastructure, not merely an add-on.
+      decision_evidence:
+        - ZopNight runs a Model Context Protocol server for Claude Code, Cursor, and Codex clients.
+        - The guide focuses on adding ZopNight as a remote MCP server in Claude Code using claude mcp add.
+        - Listed in awesome-mcp-list under Cloud Platforms as a remote MCP server for Claude Code.
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because ZopNight's primary identity is an MCP server exposing cloud data, not an extension that augments another agent's capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

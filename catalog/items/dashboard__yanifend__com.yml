@@ -37,25 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Yanifend appears to be a dashboard or interface for interacting with AI systems, but its specific developer-tooling purpose is unclear from available inputs.
-  why_it_matters: Without a clear description of functionality, it is uncertain how this tool would impact developer workflows or solve specific problems in AI-assisted development.
-  mental_damage: Another enigmatic AI dashboard promising to be the control center for your agents, adding yet another tab to the growing pile of tools you’ll check once and never open again.
+  summary: A landing page for a service called Yanifend with no functional description provided.
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: The project lacks sufficient detail to determine its identity or developer-tooling relevance; no README, description, or feature claims were provided to assess fit.
+  reason: The provided inputs contain insufficient information to determine if this tool is relevant to software developers or fits within the catalog's scope.
   evidence:
-    - No repo description available
-    - No README excerpt or scraped site content beyond title
-    - No stars, creation date, or activity signals to infer traction or purpose
+    - No repo description or README excerpt was provided
+    - Scraped site context contains only a vague title ('we're listening you') with no functional details
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -68,27 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:26:16.539Z"
+    updated_at: "2026-10-08T04:18:07.622Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:a0a10194dbe3f459114ea63f6fea641f85d5576587063b4660eb3768852b6424
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks sufficient detail to determine its identity or developer-tooling relevance; no README, description, or feature claims were provided to assess fit.
+      decision_reason: The provided inputs contain insufficient information to determine if this tool is relevant to software developers or fits within the catalog's scope.
       decision_evidence:
-        - No repo description available
-        - No README excerpt or scraped site content beyond title
-        - No stars, creation date, or activity signals to infer traction or purpose
+        - No repo description or README excerpt was provided
+        - Scraped site context contains only a vague title ('we're listening you') with no functional details
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
+      review_reason: null
+      review_resume_lifecycle: null

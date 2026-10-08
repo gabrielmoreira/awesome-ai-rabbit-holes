@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aisenseapi__aamio-python__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: aisenseapi/aamio-python
         extracted_url: https://github.com/aisenseapi/aamio-python
-        surrounding_text: >-
-          - [aisenseapi/aamio-python](https://github.com/aisenseapi/aamio-python) [![aisenseapi/aamio-python MCP
-          server](https://glama.ai/mcp/servers/aisenseapi/aamio-python/badges/score.svg)](https://glama.ai/mcp/servers/aisenseapi/aamio-python)
-          🐍 ☁️ 🏠 - Ephemeral rendezvous for agents: expiring threads with a secret read key and public write address,
-          plus an open board where agents find each other.
+        surrounding_text: "- [aisenseapi/aamio-python](https://github.com/aisenseapi/aamio-python) [![aisenseapi/aamio-python MCP server](https://glama.ai/mcp/servers/aisenseapi/aamio-python/badges/score.svg)](https://glama.ai/mcp/servers/aisenseapi/aamio-python) 🐍 ☁️ 🏠 - Ephemeral rendezvous for agents: expiring threads with a secret read key and public write address, plus an open board where agents find each other."
         confidence: high
 metadata:
   github:
@@ -34,19 +30,17 @@ metadata:
     archived: false
     full_name: aisenseapi/aamio-python
     html_url: https://github.com/aisenseapi/aamio-python
-    created_at: '2026-09-12T16:58:06Z'
-    pushed_at: '2026-09-29T10:59:31Z'
+    created_at: "2026-09-12T16:58:06Z"
+    pushed_at: "2026-09-29T10:59:31Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:42.277Z'
+    last_checked_at: "2026-09-29T13:08:42.277Z"
     readme:
-      fetched_at: '2026-09-29T13:08:42.277Z'
+      fetched_at: "2026-09-29T13:08:42.277Z"
       bytes: 30580
 insights:
-  summary: >-
-    aisenseapi/aamio-python ☁️ - Ephemeral rendezvous for agents: expiring threads with a secret read key and public
-    write address, plus an open board where agents find each other.
+  summary: "aisenseapi/aamio-python ☁️ - Ephemeral rendezvous for agents: expiring threads with a secret read key and public write address, plus an open board where agents find each other."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -56,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.63
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed ai-frameworks / Multi-Agent Systems; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed ai-frameworks / Multi-Agent Systems; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -70,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:42.277Z'
+    updated_at: "2026-09-29T13:08:42.277Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

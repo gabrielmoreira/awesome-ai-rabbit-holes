@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__devbackend__jevgo__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jevgo (devbackend)
         extracted_url: https://github.com/devbackend/jevgo
-        surrounding_text: >-
-          - [jevgo (devbackend)](https://github.com/devbackend/jevgo) - Unofficial Go client for the TypeSafe AI System
-          One API (Jev) — typed questions in, calibrated answers out.
+        surrounding_text: "- [jevgo (devbackend)](https://github.com/devbackend/jevgo) - Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out."
         confidence: high
     - id: discovery__github__devbackend__jevgo__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevgo
         extracted_url: https://github.com/devbackend/jevgo
-        surrounding_text: >-
-          - [jevgo](https://github.com/devbackend/jevgo) - Unofficial Go client for TypeSafe System One: typed
-          Noul/Choice/Score in one call (stdlib HTTP). [Project guide](community/projects/tools/jevgo.md).
+        surrounding_text: "- [jevgo](https://github.com/devbackend/jevgo) - Unofficial Go client for TypeSafe System One: typed Noul/Choice/Score in one call (stdlib HTTP). [Project guide](community/projects/tools/jevgo.md)."
         confidence: high
     - id: discovery__github__devbackend__jevgo__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jevgo**'
+        anchor_text: "**jevgo**"
         extracted_url: https://github.com/devbackend/jevgo
-        surrounding_text: >-
-          - [**jevgo**](https://github.com/devbackend/jevgo) — Unofficial Go client for the TypeSafe AI System One API
-          (Jev) — typed questions in, calibrated answers out.
+        surrounding_text: "- [**jevgo**](https://github.com/devbackend/jevgo) — Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out."
         confidence: high
 metadata:
   github:
@@ -66,8 +60,8 @@ metadata:
     archived: false
     full_name: devbackend/jevgo
     html_url: https://github.com/devbackend/jevgo
-    created_at: '2026-09-21T10:02:15Z'
-    pushed_at: '2026-09-21T17:33:15Z'
+    created_at: "2026-09-21T10:02:15Z"
+    pushed_at: "2026-09-21T17:33:15Z"
     description: Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out.
     homepage: null
     topics:
@@ -81,9 +75,9 @@ metadata:
       - system-one
       - typesafe
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:10:37.799Z'
+    last_checked_at: "2026-09-29T13:10:37.799Z"
     readme:
-      fetched_at: '2026-09-29T13:10:37.799Z'
+      fetched_at: "2026-09-29T13:10:37.799Z"
       bytes: 5340
 insights:
   summary: Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out.
@@ -106,15 +100,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.394Z'
+    updated_at: "2026-09-29T13:07:10.394Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:37.799Z'
+    updated_at: "2026-09-29T13:10:37.799Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

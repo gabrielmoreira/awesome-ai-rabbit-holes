@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vnmoorthy__github__io__siege__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://vnmoorthy.github.io/siege
-        surrounding_text: >-
-          - [siege](https://github.com/vnmoorthy/siege) ([site](https://vnmoorthy.github.io/siege/)) - SIEGE: 200 people
-          vs one agent. A typed action gate (TypeSafe System One) that learns from every breach, evaluated by W&B Weave,
-          hardened by a defender loop. Built at CoreWeave Hacks: Agent Loops 2026.
+        surrounding_text: "- [siege](https://github.com/vnmoorthy/siege) ([site](https://vnmoorthy.github.io/siege/)) - SIEGE: 200 people vs one agent. A typed action gate (TypeSafe System One) that learns from every breach, evaluated by W&B Weave, hardened by a defender loop. Built at CoreWeave Hacks: Agent Loops 2026."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    siege (site) - SIEGE: 200 people vs one agent. A typed action gate (TypeSafe System One) that learns from every
-    breach, evaluated by W&B Weave, hardened by a defender loop. Built at CoreWeave Hacks: Agent Loops 2026.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A game or simulation built on the Jev decision model from TypeSafe AI, listed in an awesome-jev directory under 'Games & simulations'.
+  why_it_matters: Shows how decision models like Jev can be applied beyond coding agents to interactive systems like games.
+  mental_damage: Another reminder that 'AI for games' now means slapping a decision model onto a dice roll and calling it innovation.
+  tags:
+    - decision-model
+    - game
+    - jev
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The project is a game or simulation, not a developer-facing AI tool for coding, workflows, or infrastructure.
   evidence:
-    - jev-latest choice confidence 0.79
+    - "Listed in awesome-jev under section: Games & simulations"
+    - Built on Jev (TypeSafe System One) as per source-list context
+    - No evidence of coding assistance, agent behavior, or developer tooling in inputs
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:27.763Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f5452c3cf8fb400f47e1172d87eba859c132cd297914e48271a37c0f03b6e128
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a game or simulation, not a developer-facing AI tool for coding, workflows, or infrastructure.
+      decision_evidence:
+        - "Listed in awesome-jev under section: Games & simulations"
+        - Built on Jev (TypeSafe System One) as per source-list context
+        - No evidence of coding assistance, agent behavior, or developer tooling in inputs
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

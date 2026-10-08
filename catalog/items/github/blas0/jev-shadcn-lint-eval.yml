@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blas0__jev-shadcn-lint-eval__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-shadcn-lint-eval
         extracted_url: https://github.com/blas0/jev-shadcn-lint-eval
-        surrounding_text: >-
-          - [jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval) - A small second eval for
-          shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
+        surrounding_text: "- [jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval) - A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output."
         confidence: high
     - id: discovery__github__blas0__jev-shadcn-lint-eval__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-shadcn-lint-eval
         extracted_url: https://github.com/blas0/jev-shadcn-lint-eval
-        surrounding_text: >-
-          | [jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval) | ★ 0 | JavaScript | 2026-09-19 | A
-          small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output. |
+        surrounding_text: "| [jev-shadcn-lint-eval](https://github.com/blas0/jev-shadcn-lint-eval) | ★ 0 | JavaScript | 2026-09-19 | A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output. |"
         confidence: high
 metadata:
   github:
@@ -49,14 +45,14 @@ metadata:
     archived: false
     full_name: blas0/jev-shadcn-lint-eval
     html_url: https://github.com/blas0/jev-shadcn-lint-eval
-    created_at: '2026-09-17T07:12:26Z'
-    pushed_at: '2026-09-17T07:55:13Z'
+    created_at: "2026-09-17T07:12:26Z"
+    pushed_at: "2026-09-17T07:55:13Z"
     description: A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:33.060Z'
+    last_checked_at: "2026-09-29T13:09:33.060Z"
     readme:
-      fetched_at: '2026-09-29T13:09:33.060Z'
+      fetched_at: "2026-09-29T13:09:33.060Z"
       bytes: 3070
 insights:
   summary: A small second eval for shadcn-ui/lint that uses TypeSafe's Jev to judge the linter's own output.
@@ -69,9 +65,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
   evidence:
     - jev-latest choice confidence 0.68
-    - >-
-      jev winnow:e4b 0.33 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      evals (unverified)
+    - jev winnow:e4b 0.33 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at evals (unverified)
 placement:
   primary_category: evals
   secondary_categories:
@@ -83,15 +77,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:33.060Z'
+    updated_at: "2026-09-29T13:09:33.060Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vulk__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: VULK
         extracted_url: https://vulk.dev
-        surrounding_text: >-
-          - **[VULK](https://vulk.dev)** – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js
-          games, Shopify themes. Firecracker microVM live preview, BYOM with 16+ models, EU-hosted, full code export.
+        surrounding_text: "- **[VULK](https://vulk.dev)** – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js games, Shopify themes. Firecracker microVM live preview, BYOM with 16+ models, EU-hosted, full code export."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    VULK – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js games, Shopify themes. Firecracker
-    microVM live preview, BYOM with 16+ models, EU-hosted, full code export.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: VULK is an AI app builder that generates full-stack web, mobile, and 3D apps from prompts and allows code export and publishing.
+  why_it_matters: It lets developers go from idea to deployable app in one click, reducing boilerplate work for full-stack and 3D experiences.
+  mental_damage: The promise of 'online in 90 seconds' makes you wonder if your IDE will soon feel like a relic from the Steam Age.
+  tags:
+    - app-builder
+    - full-stack
+    - 3d
+    - mcp
+    - low-code
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: VULK’s core identity is generating complete, deployable apps from prompts—web, mobile, 3D—with code export, fitting the App Builders category’s prompt-to-app loop.
   evidence:
-    - jev-latest choice confidence 0.95
+    - "Scraped site: 'Build web, iOS and Android apps, 3D websites and GLB models with VULK. Generate images and video, connect a backend, export code and publish.'"
+    - "Source-list: awesome-ai-coding-tools lists it under App Builders with the same description."
+    - "README excerpt: 'From a prompt, voice note, screenshot or Figma to a full-stack app in production — in one click.'"
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -60,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:30.847Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b5ffe06ed1554c016ac4ededbe5a0e81ebcb4e4b1e787af9c641c51c0db56c19
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: VULK’s core identity is generating complete, deployable apps from prompts—web, mobile, 3D—with code export, fitting the App Builders category’s prompt-to-app loop.
+      decision_evidence:
+        - "Scraped site: 'Build web, iOS and Android apps, 3D websites and GLB models with VULK. Generate images and video, connect a backend, export code and publish.'"
+        - "Source-list: awesome-ai-coding-tools lists it under App Builders with the same description."
+        - "README excerpt: 'From a prompt, voice note, screenshot or Figma to a full-stack app in production — in one click.'"
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because VULK generates new apps from scratch rather than editing existing codebases.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

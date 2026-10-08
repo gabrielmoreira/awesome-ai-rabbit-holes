@@ -3,14 +3,14 @@
 
 Products that generate complete apps, websites, dashboards, or scaffolds from prompts — the user starts from zero and receives a deployable artifact.
 
-_88 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_83 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Full App Builders](#full-app-builders) — 32
-- [Site & Landing Page Builders](#site--landing-page-builders) — 15
-- [Internal Tools & Dashboards](#internal-tools--dashboards) — 16
-- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 25
+- [Site & Landing Page Builders](#site--landing-page-builders) — 12
+- [Internal Tools & Dashboards](#internal-tools--dashboards) — 17
+- [Scaffolding & Boilerplate](#scaffolding--boilerplate) — 22
 
 ## Full App Builders
 
@@ -54,13 +54,13 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-native-ide` `cloud-development` `code-generation` `live-preview`
   </details>
-- **[base44](https://base44.com)** A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language prompts. <details><summary>More about</summary>
+- **[base44](https://base44.com)** A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language descriptions. <details><summary>More about</summary>
 
-  It allows users to bypass traditional development setup by automatically handling backend, authentication, and hosting through 'vibe coding'.
+  It enables users to bypass traditional backend, auth, and hosting setup by generating deployable, end-to-end products through 'vibe coding'.
 
-  _It accelerates the path from 'random thought' to 'live URL' so quickly that the learning-to-code phase of your life starts to feel like a massive time sink._
+  _Your entire technical stack is now officially just a collection of vibes and a monthly subscription._
 
-  `no-code` `app-builder` `full-stack` `vibe-coding`
+  `app-builders` `no-code` `full-stack` `vibe-coding` `ai-agents`
   </details>
 - **[Bolt.new](https://bolt.new)** bolt.new is an AI app builder that generates full websites, web apps, and prototypes from natural language prompts. <details><summary>More about</summary>
 
@@ -86,7 +86,14 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `no-code` `ai-generated`
   </details>
-- **[Cactal](https://cactal.ai)** Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
+- **[Builder.io Fusion](https://www.builder.io)** A collaborative platform for building web applications, marketing sites, and digital experiences using AI agents and a visual editor. <details><summary>More about</summary>
+
+  It aims to bridge the gap between designers, marketers, and engineers by allowing non-technical roles to contribute to production code via prompts and visual tools.
+
+  _It promises a world where marketing teams can ship production code, provided you trust their prompts more than your own unit tests._
+
+  `visual-editor` `ai-agents` `cms` `design-to-code` `low-code`
+  </details>
 - **[Capacity](https://capacity.so)** Capacity.so is a no-code app builder that turns plain-language ideas into live web apps with accounts, payments, and custom domains using AI. <details><summary>More about</summary>
 
   It lets non-developers and rapid prototypers ship real products from idea to deployment without writing code or managing infrastructure.
@@ -143,7 +150,6 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `ai-generated` `no-code`
   </details>
-- **[Kuberns](https://kuberns.com)** Kuberns – Agentic AI deployment platform that auto-detects tech stacks, provisions infrastructure, and deploys applications from GitHub repositories with zero configuration.
 - **[Lighter](https://lighter.xyz)** lighter.xyz is a web-based tool that enables users to build full-stack applications from natural language prompts without writing code. <details><summary>More about</summary>
 
   It allows developers and non-developers to rapidly prototype and deploy apps by describing features in plain English, reducing boilerplate and setup time.
@@ -160,13 +166,21 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `prompt-to-app` `web-development` `no-code`
   </details>
-- **[Mage](https://usemage.ai)** MAGE GPT Web App Generator creates full-stack React, Node.js and Prisma web apps from prompts using the Wasp framework. <details><summary>More about</summary>
+- **[Mage](https://usemage.ai)** A web app generator that uses GPT and the Wasp framework to create full-stack React, Node.js, and Prisma applications. <details><summary>More about</summary>
 
-  It lets developers generate deployable full-stack applications from natural language, turning prompt-driven scaffolding into runnable code.
+  It enables developers to rapidly scaffold and deploy complete full-stack web projects from natural language descriptions.
 
-  _The dream of typing 'build me a startup' and getting a production app is now one prompt away — and the stack overflow posts are already writing themselves._
+  _It accelerates the time between having a vague idea and realizing you still have to actually build the business logic._
 
-  `app-builder` `full-stack` `wasp` `gpt`
+  `react` `nodejs` `prisma` `wasp` `app-builder`
+  </details>
+- **[Makedraft](https://makedraft.com)** Makedraft is a web-based AI agent that builds and deploys real GitHub-hosted web apps from natural language prompts using React and Next.js. <details><summary>More about</summary>
+
+  It eliminates the export/sandbox step by making every AI-generated change a live branch and deploy in the user's own repo.
+
+  _Finally, a way to feel productive while outsourcing your frontend anxiety to an AI that commits directly to main._
+
+  `app-builder` `ai-agent` `web-dev`
   </details>
 - **[MGX](https://atoms.dev)** Atoms is an AI-powered platform that turns natural language prompts into full-stack websites and apps using a team of specialized AI agents. <details><summary>More about</summary>
 
@@ -176,7 +190,22 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `no-code` `ai-agents`
   </details>
-- **[RapidNative](https://rapidnative.com)** RapidNative – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.
+- **[OTF — Open Template Forest](https://otf-kit.dev)** OTF Kit provides full-stack app templates for web and mobile with authentication, payments, and data already wired in. <details><summary>More about</summary>
+
+  It lets developers ship production apps faster by starting from a complete, owned codebase instead of scaffolding from scratch.
+
+  _Another template shop promising 'just plug in your AI agent' while you still have to wire up the real business logic._
+
+  `app-builder` `full-stack` `templates`
+  </details>
+- **[RapidNative](https://rapidnative.com)** RapidNative is a mobile app builder that generates React Native and Expo apps from natural language prompts. <details><summary>More about</summary>
+
+  It lets developers skip boilerplate and ship native mobile apps faster using AI-generated code they can export and extend.
+
+  _Another prompt-to-app tool that makes you wonder if writing any code yourself is now just legacy behavior._
+
+  `app-builder` `react-native` `expo` `mobile` `ai`
+  </details>
 - **[Replit](https://replit.com)** Replit is a hosted AI platform for building apps and websites from natural language prompts without coding. <details><summary>More about</summary>
 
   Enables developers and non-developers to quickly prototype and deploy full-stack applications using AI-generated code and managed infrastructure.
@@ -193,13 +222,13 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `ai-agent` `replit`
   </details>
-- **[Rocket.new](https://rocket.new)** Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build. <details><summary>More about</summary>
+- **[Rocket.new](https://rocket.new)** AI platform that generates web and mobile applications from prompts and provides market research and competitor intelligence. <details><summary>More about</summary>
 
-  It lets developers turn ideas into production-grade apps while maintaining shared context across research, building, and tracking phases.
+  It attempts to unify the entire product lifecycle—from market research and decision-making to deployment and competitive tracking—into a single prompt-driven workflow.
 
-  _Finally, a tool that will tell you what to build, build it for you, and then watch your competitors do it better._
+  _It automates the entire lifecycle from 'what should I build' to 'someone just copied me,' leaving you with nothing to do but watch a dashboard._
 
-  `app-builder` `no-code` `prompt-to-app`
+  `app-builders` `no-code` `market-research` `saas`
   </details>
 - **[Rosebud AI](https://rosebud.ai)** Rosebud AI is a platform that lets users describe games or apps in natural language to generate and deploy playable games, websites, or web apps without coding. <details><summary>More about</summary>
 
@@ -209,28 +238,27 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `no-code` `game-dev` `prompt-to-app`
   </details>
-- **[Taskade Genesis](https://taskade.com/create)** Taskade Genesis – Prompt-to-app builder for live portals, CRMs, and dashboards with agents and automations.
-- **[v0](https://v0.app)** An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts. <details><summary>More about</summary>
+- **[v0](https://v0.app)** An AI-powered assistant by Vercel for generating, designing, and deploying full-stack web applications from natural language prompts. <details><summary>More about</summary>
 
-  It accelerates the prototyping-to-production pipeline by automating UI generation, task planning, and deployment to Vercel.
+  It enables developers to move from an idea to a deployed, full-stack prototype or application through a prompt-to-app workflow.
 
-  _It turns the architectural planning phase into a single text box, effectively deleting the middleman between your imagination and a live URL._
+  _It turns the 'blank page' problem into a 'too many design choices' problem, making the concept of a manual boilerplate feel increasingly ancient._
 
-  `vercel` `full-stack` `prompt-to-app` `web-dev`
+  `vercel` `full-stack` `prompt-to-app` `web-dev` `deployment`
   </details>
-- **[v0](https://v0.dev)** v0 by Vercel is an AI assistant that generates full-stack web applications from natural language prompts and deploys them to Vercel. <details><summary>More about</summary>
+- **[v0](https://v0.dev)** An AI-powered web application generator that builds full-stack applications from natural language prompts. <details><summary>More about</summary>
 
-  It lets developers go from idea to live web app in seconds using AI-generated code and one-click deployment.
+  It enables developers to move from a conceptual idea to a deployed, functional web application in minutes by automating frontend, backend, and deployment workflows.
 
-  _The promise of skipping all the boilerplate and configuration work feels like magic until you realize you still have to understand and maintain the code it generates._
+  _It turns the meditative process of manual CSS debugging into a high-stakes game of linguistic negotiation with a black box._
 
-  `app-builder` `ai-assisted` `full-stack` `vercel`
+  `app-builder` `vercel` `full-stack` `generative-ui` `frontend`
   </details>
 
 <details><summary><strong>▸ &nbsp;&nbsp;+2 more in Full App Builders &nbsp;—&nbsp; click to expand</strong></summary>
 
-- **[Vibes DIY](https://vibes.diy)** Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
-- **[VULK](https://vulk.dev)** VULK – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js games, Shopify themes. Firecracker microVM live preview, BYOM with 16+ models, EU-hosted, full code export.
+- **[Vibes DIY](https://vibes.diy)** Vibes DIY is a prompt-to-app platform that generates deployable web applications from natural language descriptions.
+- **[VULK](https://vulk.dev)** VULK is an AI app builder that generates full-stack web, mobile, and 3D apps from prompts and allows code export and publishing.
 
 </details>
 
@@ -248,13 +276,13 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-website-builder` `wordpress` `no-code` `hosting` `ecommerce`
   </details>
-- **[Builder.io Fusion](https://www.builder.io)** Builder.io is a collaborative platform for teams to build software with AI agents, enabling engineers, designers, PMs, and marketers to work from a single codebase. <details><summary>More about</summary>
+- **[Cactal](https://cactal.ai)** An agent-native platform for building, hosting, and operating websites through AI agents and MCP. <details><summary>More about</summary>
 
-  It allows cross-functional teams to prototype, develop, and ship product experiences without handoffs, using shared context and design systems.
+  It provides the managed infrastructure—including hosting, CMS, and SEO—necessary for autonomous agents to actually deploy and maintain live web projects.
 
-  _Finally, a tool that lets PMs and designers commit code directly—what could possibly go wrong._
+  _Because now 'maintaining your website' just means arguing with a terminal about why the hero section is suddenly neon pink._
 
-  `ai-platform` `collaborative-coding` `visual-editor` `agentic-cms` `multi-role-workflow`
+  `website-builder` `agent-native` `mcp` `hosting` `cms`
   </details>
 - **[CodeWP](https://telex.automattic.ai)** Telex is an AI-assisted authoring environment for WordPress that transforms prompts into fully functional WordPress projects. <details><summary>More about</summary>
 
@@ -272,13 +300,13 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-builder` `ai` `no-code` `web-dev`
   </details>
-- **[Kombai](https://kombai.com)** Kombai is an AI design engineer that generates production-ready frontend code and designs from prompts while reusing components and patterns from existing codebases. <details><summary>More about</summary>
+- **[Kombai](https://kombai.com)** Kombai is an AI design engineer that generates production-ready frontend code and UI designs by reusing components and tokens from existing codebases. <details><summary>More about</summary>
 
-  It bridges design and development by turning UI prompts into editable, repo-aligned code, reducing the gap between mockups and production implementation.
+  It reduces AI-generated design slop by grounding outputs in a developer's actual design system and code patterns.
 
-  _Another tool promising to eliminate 'design slop' while adding yet another context-switch between designer, agent, and IDE extensions._
+  _Finally, an AI that doesn’t just vomit Tailwind cards but pretends to respect your Figma-to-Storybook pipeline._
 
-  `ai-design` `frontend` `code-generation` `vscode-extension` `cursor-extension`
+  `ui-generator` `design-to-code` `frontend`
   </details>
 - **[Mixo.io](https://mixo.io)** Mixo.io is an AI website builder that generates complete business websites from natural language descriptions without coding. <details><summary>More about</summary>
 
@@ -288,8 +316,6 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `ai-website-builder` `no-code` `prompt-to-site`
   </details>
-- **[PolicyAI](https://policy-ai-alpha.vercel.app)** PolicyAI – AI-powered legal document generator. Creates GDPR & CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy for developer products in 60 seconds. Free tier available.
-- **[search-function-test.vercel.app](https://search-function-test.vercel.app)** Search-Function-Test (site) - A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to question anything and find related answers/articles.
 - **[TeleportHQ](https://teleporthq.io)** TeleportHQ is a low-code front-end design platform with AI-powered visual builder and headless CMS integration for creating static websites and UI components. <details><summary>More about</summary>
 
   It lets developers and designers generate production-ready front-end code from prompts and visual edits, reducing manual coding for websites and prototypes.
@@ -298,7 +324,6 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `low-code` `frontend` `ai-builder` `static-site`
   </details>
-- **[ui-generator-instinct-jev.vercel.app](https://ui-generator-instinct-jev.vercel.app)** Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.
 - **[Webflow AI](https://webflow.com/ai)** Webflow AI is a suite of AI-powered features within the Webflow platform for building, managing, and optimizing websites. <details><summary>More about</summary>
 
   It enables developers and designers to accelerate web creation and optimization using AI directly inside a visual development platform.
@@ -333,14 +358,6 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   _Trusting an AI to generate correct SQL for your production database while hoping it didn’t hallucinate a JOIN that deletes your user table._
 
   `sql` `database` `ai-assistant` `data-analysis`
-  </details>
-- **[Avanzai](https://avanz.ai)** Avanz.ai is an AI agent platform that helps generate financial and data analysis code from natural language prompts. <details><summary>More about</summary>
-
-  It lets developers automate quantitative workflows by turning analytical requests into executable Python or SQL code.
-
-  _Another 'just describe your spreadsheet problem' tool that assumes your data is clean and your intentions are unambiguous._
-
-  `ai-agent` `data-analysis` `code-generation`
   </details>
 - **[DiagramGPT (Eraser)](https://eraser.io/diagramgpt)** DiagramGPT generates polished diagrams from text prompts in seconds using AI. <details><summary>More about</summary>
 
@@ -390,6 +407,14 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `low-code` `business-apps` `power-platform`
   </details>
+- **[RegexAI](https://regexai-six.vercel.app)** RegexAI is a free online tool that helps users build and test regular expressions by describing patterns in plain English or pasting regex to validate matches. <details><summary>More about</summary>
+
+  Developers can quickly prototype and debug regex patterns without manual trial-and-error, saving time when parsing logs, validating inputs, or extracting data.
+
+  _Another niche regex tool that promises AI magic but mostly just wraps common patterns in a friendly UI, leaving you to wonder if 'describe what you want to match' is just autocomplete with extra steps._
+
+  `regex` `developer-tool` `ai-assistant`
+  </details>
 - **[SchemaFlow](https://schemaflow.dev)** SchemaFlow is an end-to-end encrypted, real-time collaborative canvas for designing system architecture diagrams with searchable AWS/GCP shapes and AI-assisted diagram generation from codebases. <details><summary>More about</summary>
 
   It helps developers visualize and document system architectures collaboratively while keeping sensitive diagrams private through client-side encryption.
@@ -405,6 +430,14 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   _Finally, a way to build that internal tool your team begged for — without opening a ticket, waiting six weeks, or learning yet another low-code platform that still requires SQL._
 
   `app-builder` `no-code` `ai-powered` `internal-tools` `workflow-automation`
+  </details>
+- **[Taskade Genesis](https://taskade.com/create)** Taskade Genesis is a no-code AI app builder that turns natural-language prompts into deployed apps with projects, agents, and automations. <details><summary>More about</summary>
+
+  It lets developers generate full internal tools or dashboards from a single prompt, cutting boilerplate setup time.
+
+  _Finally, a way to feel productive while avoiding actual code by letting AI build the scaffolding you’ll still have to maintain._
+
+  `app-builder` `no-code` `ai`
   </details>
 - **[tldraw Make Real](https://makereal.tldraw.com)** makereal.tldraw.com is a web-based tool that converts hand-drawn UI sketches in tldraw into functional React or HTML/CSS code via AI. <details><summary>More about</summary>
 
@@ -560,14 +593,6 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `app-planning` `mvp` `coding-agent`
   </details>
-- **[Makedraft](https://makedraft.com)** A web-based tool that generates HTML templates from AI prompts. <details><summary>More about</summary>
-
-  Developers can quickly scaffold HTML templates without manual coding, accelerating frontend or email template creation.
-
-  _Finally, a way to outsource the part of web development that already felt like outsourcing._
-
-  `prompt-to-html` `frontend-scaffolding` `web-templates`
-  </details>
 - **[OpenZeppelin Wizard templates](https://wizard.openzeppelin.com)** OpenZeppelin Contracts Wizard is an interactive smart contract generator based on OpenZeppelin Contracts. <details><summary>More about</summary>
 
   Helps developers build secure smart contracts faster by generating boilerplate code aligned with audited standards.
@@ -576,5 +601,3 @@ _88 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
 
   `smart-contracts` `solidity` `code-generation`
   </details>
-- **[OTF — Open Template Forest](https://otf-kit.dev)** OTF — Open Template Forest – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits.
-- **[ReadMeAI](https://readmeai-six.vercel.app)** ReadMeAI – Generate professional README.md files from any GitHub repo URL with AI. Includes description, installation, usage, and contributing sections. Free, instant.

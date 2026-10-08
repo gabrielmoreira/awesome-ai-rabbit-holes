@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__layer__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-layer
-        surrounding_text: >-
-          - [jev-layer](https://github.com/typakon4/jev-layer) ([site](https://www.npmjs.com/package/jev-layer)) -
-          Portable System-1 decision layer for agent harnesses with host-owned routing, receipts, replay, and fail-open
-          integrations.
+        surrounding_text: "- [jev-layer](https://github.com/typakon4/jev-layer) ([site](https://www.npmjs.com/package/jev-layer)) - Portable System-1 decision layer for agent harnesses with host-owned routing, receipts, replay, and fail-open integrations."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-layer (site) - Portable System-1 decision layer for agent harnesses with host-owned routing, receipts, replay,
-    and fail-open integrations.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-layer is an npm package for Jev, a TypeSafe System One decision model that answers typed questions with probabilities.
+  why_it_matters: Provides developers with a programmable decision model for routing, scoring, or verification tasks in AI workflows.
+  mental_damage: Yet another npm install to add probabilistic judgment to your agent stack, because deterministic code wasn't brittle enough.
+  tags:
+    - decision-model
+    - jev
+    - typesafe
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: jev-layer is an npm package exposing the Jev decision model, which fits the decision-models category as a System One model returning probabilistic answers to typed questions.
   evidence:
-    - jev-latest choice confidence 0.80
+    - "Package name: jev-layer on npmjs.com"
+    - "Seen in source list: awesome-jev under 'Agent tooling' for projects built on Jev"
+    - Jev is defined as a TypeSafe System One decision model that answers typed questions with probabilities
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:53.291Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f6d5811f0eb9352cecbccc3be368b4aaa988b79748a572c5cbc5694e58740761
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-layer is an npm package exposing the Jev decision model, which fits the decision-models category as a System One model returning probabilistic answers to typed questions.
+      decision_evidence:
+        - "Package name: jev-layer on npmjs.com"
+        - "Seen in source list: awesome-jev under 'Agent tooling' for projects built on Jev"
+        - Jev is defined as a TypeSafe System One decision model that answers typed questions with probabilities
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because jev-layer provides a decision model for typed probabilistic judgments, not an autonomous coding agent that writes or edits code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

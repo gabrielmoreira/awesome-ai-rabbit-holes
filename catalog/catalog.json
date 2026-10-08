@@ -93265,30 +93265,18 @@
       "activity_bucket": null
     },
     {
-      "id": "www__npmjs__com__package__tunedforai__x402__mcp",
-      "kind": "website",
-      "name": "@tunedforai/x402-mcp",
-      "canonical_url": "https://www.npmjs.com/package/@tunedforai/x402-mcp",
-      "summary": "An npm package providing an MCP server implementation for the x402 protocol.",
-      "tags": [
-        "mcp",
-        "protocol",
-        "server",
-        "npm-package"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "rubygems__org__gems__ruby__llm__providers__typesafe__versions__0__1__0",
       "kind": "website",
       "name": "0.1.0",
       "canonical_url": "https://rubygems.org/gems/ruby_llm-providers-typesafe/versions/0.1.0",
-      "summary": "ruby_llm-providers-typesafe (site) - TypeSafe System One models (Jev) for RubyLLM: typed judgments, evaluations and reranking.",
-      "tags": [],
+      "summary": "A RubyGem that provides typed judgments and reranking using the TypeSafe Jev model through RubyLLM.",
+      "tags": [
+        "ruby",
+        "decision-model",
+        "jev",
+        "typesafe",
+        "llm"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -93421,8 +93409,14 @@
       "kind": "website",
       "name": "Agent Fleet",
       "canonical_url": "https://woodor.ai/agent-fleet",
-      "summary": "Agent Fleet — Messaging layer for coding-agent sessions: every live Claude Code or Codex session takes a name@project address, and sessions exchange messages and files on one machine, across a LAN, or across networks. Also does remote session lifecycle control — compact, clear, handoff, restart. Native on macOS, Windows (x64 and arm64), and Linux x64, with no WSL or tmux. Closed source; free on a local network, paid cloud relay.",
-      "tags": [],
+      "summary": "A communication layer for messaging and file handoffs between Claude Code and Codex CLI sessions across different machines and networks.",
+      "tags": [
+        "agent-orchestration",
+        "multi-agent",
+        "claude-code",
+        "codex",
+        "cli-tool"
+      ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
       "stars": null,
@@ -93469,8 +93463,12 @@
       "kind": "website",
       "name": "agent-fastpath",
       "canonical_url": "https://npmjs.com/package/agent-fastpath",
-      "summary": "agent-fastpath (site) - Jev MCP server: a decision layer for coding agents, built on TypeSafe Jev (System One model). Ship gates, risk checks, file triage that keeps files out of context, and a safe headless browser, with calibrated confidence. For Claude Code, Codex, Cursor.",
-      "tags": [],
+      "summary": "A Jev-powered browser automation tool for decision-model driven computer use.",
+      "tags": [
+        "browser-automation",
+        "decision-models",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -93616,6 +93614,23 @@
       "activity_bucket": null
     },
     {
+      "id": "ziplyne__agency__blog__ai__that__doesnt__talk__typesafe__jev__guide",
+      "kind": "website",
+      "name": "AI that does not talk",
+      "canonical_url": "https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guide",
+      "summary": "TypeSafe's Jev is a hosted decision model API that returns typed values (Choice, Score, Noul) with confidence scores instead of prose.",
+      "tags": [
+        "decision-models",
+        "typed-ai",
+        "confidence-scoring"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "codestory__ai",
       "kind": "website",
       "name": "Aide by Codestory",
@@ -93670,8 +93685,13 @@
       "kind": "website",
       "name": "AINews: Jev, a System One Model that only decides",
       "canonical_url": "https://latent.space/p/ainews-jev-a-system-one-model-that",
-      "summary": "AINews: Jev, a System One Model that only decides - Latent Space's launch-day roundup: over 100x faster and 200x cheaper than small frontier LLMs.",
-      "tags": [],
+      "summary": "A non-autoregressive decision model optimized for classification, routing, and scoring tasks, claiming 20–200x faster and 40–400x cheaper inference than small LLMs.",
+      "tags": [
+        "decision-model",
+        "inference",
+        "routing",
+        "rlcd"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -93782,19 +93802,6 @@
       "activity_bucket": null
     },
     {
-      "id": "lindfors__no__blog__a__first__look__at__typesafes__jev",
-      "kind": "website",
-      "name": "An early-access test of TypeSafe's Jev",
-      "canonical_url": "https://lindfors.no/blog/a-first-look-at-typesafes-jev",
-      "summary": "An early-access test of TypeSafe's Jev - Independent trial: measures calibrated judgments on early-access Jev and reports the resulting cost per decision.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "github__com__antvis",
       "kind": "website",
       "name": "AntV",
@@ -93824,19 +93831,6 @@
       ],
       "primary_category": "mcp",
       "lifecycle_status": "needs_review",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__anyjev",
-      "kind": "website",
-      "name": "anyjev",
-      "canonical_url": "https://pypi.org/project/anyjev",
-      "summary": "AnyJev (site) - Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating).",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -93930,6 +93924,24 @@
       "activity_bucket": null
     },
     {
+      "id": "github__com__omni__ask__jev",
+      "kind": "website",
+      "name": "ask-jev",
+      "canonical_url": "https://github.com/omni-/ask-jev",
+      "summary": "ask-jev is a Windows PowerShell hook for Codex that audits agentic coding sessions by querying the Jev decision model for probabilistic yes/no judgments.",
+      "tags": [
+        "decision-model",
+        "codex-hook",
+        "jev",
+        "audit"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "askjev__ai",
       "kind": "website",
       "name": "askjev.ai",
@@ -93987,12 +93999,12 @@
       "kind": "website",
       "name": "Athena Intelligence",
       "canonical_url": "https://athenaintelligence.ai",
-      "summary": "Athena Intelligence is a platform for building and orchestrating AI agents for complex, regulated knowledge work, deployed on user-controlled infrastructure.",
+      "summary": "An enterprise platform for building and orchestrating AI agent workforces with integrated governance, identity, and deployment controls.",
       "tags": [
-        "ai-agents",
-        "orchestration",
-        "enterprise",
-        "governance"
+        "agent-orchestration",
+        "enterprise-ai",
+        "governance",
+        "infrastructure"
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
@@ -94092,13 +94104,13 @@
       "kind": "website",
       "name": "Augments",
       "canonical_url": "https://augments.dev",
-      "summary": "An MCP server that provides type signatures, prose documentation, and code examples for any npm package.",
+      "summary": "An MCP server that provides type signatures, documentation, and code examples for npm packages to AI agents.",
       "tags": [
         "mcp",
         "npm",
-        "documentation",
-        "context-retrieval",
-        "typescript"
+        "claude-code",
+        "typescript",
+        "documentation"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
@@ -94119,23 +94131,6 @@
       ],
       "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "avanz__ai",
-      "kind": "website",
-      "name": "Avanzai",
-      "canonical_url": "https://avanz.ai",
-      "summary": "Avanz.ai is an AI agent platform that helps generate financial and data analysis code from natural language prompts.",
-      "tags": [
-        "ai-agent",
-        "data-analysis",
-        "code-generation"
-      ],
-      "primary_category": "app-builders",
-      "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -94197,8 +94192,12 @@
       "kind": "website",
       "name": "awesome-jev",
       "canonical_url": "https://omnijev.github.io/awesome-jev",
-      "summary": "awesome-jev (OmniJev) (site) - Papers, open reproductions and independent evaluations behind System One models and Jev.",
-      "tags": [],
+      "summary": "awesome-jev is a directory of projects built on Jev, TypeSafe AI's System One decision model.",
+      "tags": [
+        "awesome-list",
+        "decision-models",
+        "jev"
+      ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
@@ -94210,8 +94209,12 @@
       "kind": "website",
       "name": "awesome-jev-projects",
       "canonical_url": "https://logicrw.github.io/awesome-jev-projects",
-      "summary": "awesome-jev-projects (site) - Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync.",
-      "tags": [],
+      "summary": "A curated directory of projects built on Jev, TypeSafe AI's System One model.",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "decision-models"
+      ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
@@ -94382,12 +94385,13 @@
       "kind": "website",
       "name": "base44",
       "canonical_url": "https://base44.com",
-      "summary": "A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language prompts.",
+      "summary": "A no-code AI platform that generates full-stack applications, websites, and AI agents from natural language descriptions.",
       "tags": [
+        "app-builders",
         "no-code",
-        "app-builder",
         "full-stack",
-        "vibe-coding"
+        "vibe-coding",
+        "ai-agents"
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
@@ -94611,15 +94615,32 @@
       "kind": "website",
       "name": "Builder.io Fusion",
       "canonical_url": "https://www.builder.io",
-      "summary": "Builder.io is a collaborative platform for teams to build software with AI agents, enabling engineers, designers, PMs, and marketers to work from a single codebase.",
+      "summary": "A collaborative platform for building web applications, marketing sites, and digital experiences using AI agents and a visual editor.",
       "tags": [
-        "ai-platform",
-        "collaborative-coding",
         "visual-editor",
-        "agentic-cms",
-        "multi-role-workflow"
+        "ai-agents",
+        "cms",
+        "design-to-code",
+        "low-code"
       ],
       "primary_category": "app-builders",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "langchain__com__blog__building__a__harness__with__jev",
+      "kind": "website",
+      "name": "Building a Harness with Jev",
+      "canonical_url": "https://langchain.com/blog/building-a-harness-with-jev",
+      "summary": "Jev is a TypeSafe System One decision model that returns typed probabilities for classification tasks like urgency scoring, used via LangChain integrations for fast agent decisions.",
+      "tags": [
+        "decision-model",
+        "classification",
+        "langchain"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -94639,19 +94660,6 @@
         "tool-building"
       ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "youtu__be__c__l8fi1odde",
-      "kind": "website",
-      "name": "C_l8FI1oddE",
-      "canonical_url": "https://youtu.be/C_l8FI1oddE",
-      "summary": "jev-labs (site) - Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -94681,9 +94689,32 @@
       "kind": "website",
       "name": "Cactal",
       "canonical_url": "https://cactal.ai",
-      "summary": "Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.",
-      "tags": [],
+      "summary": "An agent-native platform for building, hosting, and operating websites through AI agents and MCP.",
+      "tags": [
+        "website-builder",
+        "agent-native",
+        "mcp",
+        "hosting",
+        "cms"
+      ],
       "primary_category": "app-builders",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "langchain__com__blog__jev__agent__evals__langsmith",
+      "kind": "website",
+      "name": "Can Jev Be a Better Agent Evaluator?",
+      "canonical_url": "https://langchain.com/blog/jev-agent-evals-langsmith",
+      "summary": "Jev is a System One decision model that returns typed answers with probabilities instead of generating text.",
+      "tags": [
+        "decision-model",
+        "agent-eval",
+        "jey"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -94746,8 +94777,12 @@
       "kind": "website",
       "name": "Cerebellum-2B-BF16",
       "canonical_url": "https://huggingface.co/mkeco/Cerebellum-2B-BF16",
-      "summary": "Cerebellum-2B (site) - Non-Autoregressive AI Agent Decision Model. Open-source SOTA alternative to TypeSafe Jev. O(1) Tool Routing & DOM Automation on Qwen3.5-2B .",
-      "tags": [],
+      "summary": "Cerebellum-2B-BF16 is a Hugging Face-hosted decision model for typed questions with probabilistic outputs.",
+      "tags": [
+        "decision-model",
+        "huggingface",
+        "jev-like"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -94915,14 +94950,32 @@
       "activity_bucket": null
     },
     {
+      "id": "zop__dev__learn__how__to__set__up__zopnight__mcp__for__claude",
+      "kind": "website",
+      "name": "Claude setup",
+      "canonical_url": "https://zop.dev/learn/how-to/set-up-zopnight-mcp-for-claude",
+      "summary": "ZopNight provides an MCP server that exposes cloud cost, resource, scheduling, and recommendation data to AI assistants like Claude Code.",
+      "tags": [
+        "mcp",
+        "cloud",
+        "finops"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "clevagent__io",
       "kind": "website",
       "name": "ClevAgent",
       "canonical_url": "https://clevagent.io",
-      "summary": "ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments.",
+      "summary": "ClevAgent is a workspace for running and guiding AI agents with built-in safety and optimization layers.",
       "tags": [
-        "ai-dev-extensions",
-        "mcp"
+        "agent-safety",
+        "workspace",
+        "guardrails"
       ],
       "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
@@ -94987,11 +95040,13 @@
       "kind": "website",
       "name": "Code Autopilot",
       "canonical_url": "https://codeautopilot.com",
-      "summary": "Code Autopilot is a GitHub-integrated AI coding agent that solves bugs, implements features, and reviews pull requests using LLM-powered agents.",
+      "summary": "An AI coding agent that integrates with GitHub to resolve issues, implement features, and perform pull request reviews directly within repository threads.",
       "tags": [
+        "github",
         "coding-agent",
-        "github-integration",
-        "ai-dev-assistant"
+        "pull-requests",
+        "bug-fixing",
+        "automation"
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "curated",
@@ -95142,10 +95197,14 @@
       "kind": "website",
       "name": "Codex First Task Prompt Generator",
       "canonical_url": "https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html",
-      "summary": "Codex First Task Prompt Generator – Free prompt generator that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.",
-      "tags": [],
+      "summary": "A web-based prompt generator that creates scoped first-task prompts for the Codex CLI with project context, constraints, file boundaries, and acceptance checks.",
+      "tags": [
+        "prompt-engineering",
+        "codex-cli",
+        "developer-productivity"
+      ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -95168,19 +95227,6 @@
       "activity_bucket": null
     },
     {
-      "id": "minilv__github__io__2026__09__18__codex__auto__router",
-      "kind": "website",
-      "name": "codex-auto-router",
-      "canonical_url": "https://minilv.github.io/2026/09/18/codex-auto-router",
-      "summary": "Jev Auto Router (site) - Per-call GPT model routing for Codex: Jev chooses model and effort, a local Responses proxy keeps the tool loop intact, then independent verification and Router Compass check whether the task still passed.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "codiv__ai",
       "kind": "website",
       "name": "codiv.ai",
@@ -95192,6 +95238,23 @@
         "typed-questions"
       ],
       "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "sourcegraph__com__docs__cody",
+      "kind": "website",
+      "name": "Cody by Sourcegraph",
+      "canonical_url": "https://sourcegraph.com/docs/cody",
+      "summary": "Cody is an AI coding assistant that uses Sourcegraph's search API to provide context-aware code completions, chat, and editing across IDEs and the web.",
+      "tags": [
+        "ai-coding-assistant",
+        "context-aware",
+        "sourcegraph"
+      ],
+      "primary_category": "coding-agents",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -95572,19 +95635,6 @@
       "activity_bucket": null
     },
     {
-      "id": "huggingface__co__cua__ai__cua__s1__forms",
-      "kind": "website",
-      "name": "CUA-S1-FORMS",
-      "canonical_url": "https://huggingface.co/cua-ai/cua-s1-forms",
-      "summary": "CUA-S1-FORMS - Specialist decision model: a 706,048-parameter, 2.8 MB jev-like option scorer that rates FILL / CHECK / CLICK / SKIP for each form field in one parallel pass, reporting 99.7% on its own form-filling eval against Jev's 83.6% - a specialist on home turf rather than a general win.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "designbycurio__com__mcp",
       "kind": "website",
       "name": "Curio MCP",
@@ -95681,6 +95731,23 @@
         "configuration"
       ],
       "primary_category": "awesome-awesomes",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "cycode__com",
+      "kind": "website",
+      "name": "Cycode",
+      "canonical_url": "https://cycode.com",
+      "summary": "Cycode.com is an Agentic Development Security Platform that unifies security and development teams with actionable, code-to-runtime context to identify, prioritize, and fix software risk.",
+      "tags": [
+        "security",
+        "devsecops",
+        "ai-governance"
+      ],
+      "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -95835,8 +95902,12 @@
       "kind": "website",
       "name": "Demo",
       "canonical_url": "https://replynodes.com/jev-web-analyzer",
-      "summary": "jev-web-analyzer (site) - See what Jev thinks about your SaaS website — powered by ReplyNodes web context and Vercel AI Gateway.",
-      "tags": [],
+      "summary": "A web page analyzer that uses ReplyNodes to convert URLs to Markdown and Jev to score how clearly a homepage communicates to first-time visitors.",
+      "tags": [
+        "decision-models",
+        "web-analysis",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -95854,6 +95925,25 @@
         "code-generation"
       ],
       "primary_category": "coding-agents",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "deployramp__com",
+      "kind": "website",
+      "name": "DeployRamp",
+      "canonical_url": "https://deployramp.com",
+      "summary": "AI-powered feature flag management that automatically detects risky code changes, wraps them in flags, and manages the cleanup lifecycle.",
+      "tags": [
+        "feature-flags",
+        "devops",
+        "deployment-safety",
+        "automation",
+        "ai-agent"
+      ],
+      "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -95940,19 +96030,6 @@
         "developer-resources"
       ],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "huggingface__co__datasets__ctaxnagomi__dgui__hypermem__jev",
-      "kind": "website",
-      "name": "DGUI_HYPERMEM-JEV",
-      "canonical_url": "https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV",
-      "summary": "dgui-hypermem (site) - DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -96169,8 +96246,13 @@
       "kind": "website",
       "name": "dsh-jev-tools",
       "canonical_url": "https://npmjs.com/package/dsh-jev-tools",
-      "summary": "dsh-jev-tools (site) - Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.",
-      "tags": [],
+      "summary": "dsh-jev-tools is an npm package providing tooling built on the Jev decision model from TypeSafe AI.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "tooling",
+        "typesafe"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -96182,8 +96264,12 @@
       "kind": "website",
       "name": "dsh-jev-verify",
       "canonical_url": "https://npmjs.com/package/dsh-jev-verify",
-      "summary": "dsh-jev-verify (site) - Jev (TypeSafe System One) decision tools + live verification benchmark for DeepSeek Harness: jev_decision (choice/score/noul) and jev_verify, honest by design.",
-      "tags": [],
+      "summary": "dsh-jev-verify is an npm package that appears to be related to verifying or validating Jev decision model outputs, based on its naming and presence in a Jev-focused awesome list.",
+      "tags": [
+        "jev",
+        "verification",
+        "decision-models"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -96195,8 +96281,12 @@
       "kind": "website",
       "name": "dxtmc35dbmyei.cloudfront.net",
       "canonical_url": "https://dxtmc35dbmyei.cloudfront.net",
-      "summary": "jev-cloud-quiz (site) - 三大クラウドの機能名を、TypeSafe AI の System One モデル Jev が確率つきで判定するデモ.",
-      "tags": [],
+      "summary": "Jev クラウド判定 is a web tool that uses TypeSafe AI's Jev decision model to predict which of the three major clouds a given feature name belongs to, with probability scores.",
+      "tags": [
+        "decision-model",
+        "cloud-inference",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -96223,28 +96313,17 @@
       "activity_bucket": null
     },
     {
-      "id": "pypi__org__project__edgejev",
-      "kind": "website",
-      "name": "edgejev",
-      "canonical_url": "https://pypi.org/project/edgejev",
-      "summary": "edgejev (site) - 离线可用的本地类型化决策：4 核 CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no torch at runtime. 支持 laya / kev / PlayJev.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "ellipsis__dev",
       "kind": "website",
       "name": "Ellipsis",
       "canonical_url": "https://ellipsis.dev",
-      "summary": "Ellipsis is a managed cloud platform that runs Claude Code agents defined by YAML config files to automate coding tasks like feature building, bug fixing, and production investigations.",
+      "summary": "A managed cloud platform for running and governing autonomous coding agents using YAML-based configurations and API triggers.",
       "tags": [
-        "ai-agents",
-        "cloud-automation",
-        "claude-code"
+        "coding-agents",
+        "infrastructure",
+        "managed-service",
+        "agent-orchestration",
+        "devops"
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "needs_review",
@@ -96439,6 +96518,25 @@
         "guardrails"
       ],
       "primary_category": "evals",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "ilove__ai__net__fill",
+      "kind": "website",
+      "name": "fill",
+      "canonical_url": "https://ilove-ai.net/fill",
+      "summary": "fill is a browser-based tool that extracts form field labels from PDFs and sends them to a Jev decision model for field-value prediction without transmitting user data.",
+      "tags": [
+        "pdf",
+        "form-filling",
+        "jev",
+        "browser-tool",
+        "decision-models"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -96668,6 +96766,25 @@
       "activity_bucket": null
     },
     {
+      "id": "openrouter__ai__docs__cookbook__building__agents__gate__tool__calls__with__jev",
+      "kind": "website",
+      "name": "Gating agent tool calls",
+      "canonical_url": "https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev",
+      "summary": "A recipe for gating tool calls in OpenRouter Agent SDK using Jev decision models to conditionally approve, block, or escalate refund decisions based on ticket context.",
+      "tags": [
+        "agent-tool",
+        "jev",
+        "human-in-the-loop",
+        "openrouter",
+        "decision-gating"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "gecko__security",
       "kind": "website",
       "name": "Gecko Security",
@@ -96723,8 +96840,13 @@
       "kind": "website",
       "name": "gg-friggin-ez",
       "canonical_url": "https://itisshikhar.github.io/gg-friggin-ez",
-      "summary": "gg-friggin-ez (site) - Fast, drop-in profanity and toxicity screener for Node.js, powered by TypeSafe AI Jev. Catches leetspeak, character spacing, and romanized profanity across languages including Kannada, Telugu, Tamil, Hindi, and Bengali. ~50-500ms latency.",
-      "tags": [],
+      "summary": "GG FRIGGIN EZ is a TypeSafe AI Jev-powered demo for real-time Indic language moderation in Twitch stream chat, comparing System 1 decisions against regex and OpenAI.",
+      "tags": [
+        "decision-models",
+        "content-moderation",
+        "jev",
+        "twitch"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -96966,13 +97088,13 @@
       "kind": "website",
       "name": "gotoHuman",
       "canonical_url": "https://gotohuman.com",
-      "summary": "A platform for adding human-in-the-loop supervision to AI agent workflows via review templates, notifications, and approvals.",
+      "summary": "A human-in-the-loop platform for supervising, approving, and editing AI agent workflow steps.",
       "tags": [
         "human-in-the-loop",
-        "ai-workflows",
-        "approvals",
-        "orchestration",
-        "mcp-server"
+        "agent-orchestration",
+        "workflow-automation",
+        "supervision",
+        "sdk"
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
@@ -97019,8 +97141,12 @@
       "kind": "website",
       "name": "gptvsjev.vercel.app",
       "canonical_url": "https://gptvsjev.vercel.app",
-      "summary": "gpt-vs-jev (site, post) - Compare GPT generated language with JEV structured Noul decisions on the same input.",
-      "tags": [],
+      "summary": "GPT vs JEV — AI Arena is a web app that compares GPT's generated language with JEV's structured Noul probabilities on the same input.",
+      "tags": [
+        "decision-models",
+        "comparison",
+        "ai-arena"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97081,19 +97207,6 @@
       "activity_bucket": null
     },
     {
-      "id": "guard__jev__vercel__app",
-      "kind": "website",
-      "name": "guard-jev.vercel.app",
-      "canonical_url": "https://guard-jev.vercel.app",
-      "summary": "guard-jev (site) - Comment-moderation playground: paste a comment, Jev decides what to do with it.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "gumloop__com",
       "kind": "website",
       "name": "Gumloop",
@@ -97140,19 +97253,6 @@
         "ollama"
       ],
       "primary_category": "local-ai",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "haplab__com",
-      "kind": "website",
-      "name": "haplab.com",
-      "canonical_url": "https://haplab.com",
-      "summary": "frost (site) - A flexible and configurable CLI model router using TypeSafe Jev.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -97212,8 +97312,29 @@
       "kind": "website",
       "name": "hiresignal-opal.vercel.app",
       "canonical_url": "https://hiresignal-opal.vercel.app",
-      "summary": "hiresignal (site) - HireSignal — resume first-pass fit+interview via TypeSafe Jev.",
-      "tags": [],
+      "summary": "HireSignal is a Jev-powered tool that scores resumes against job descriptions to output fit scores and interview yes/no signals.",
+      "tags": [
+        "decision-models",
+        "hr",
+        "jev"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "hollow__creek__sigma__vercel__app",
+      "kind": "website",
+      "name": "Hollow Creek",
+      "canonical_url": "https://hollow-creek-sigma.vercel.app",
+      "summary": "Hollow Creek is a Vercel-hosted interactive simulation where a Jev decision model powers villagers that remember, judge, and react to the player's actions in a persistent village.",
+      "tags": [
+        "decision-model",
+        "simulation",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97275,14 +97396,15 @@
       "kind": "website",
       "name": "https://mcp.pfvc.io/mcp/",
       "canonical_url": "https://mcp.pfvc.io/mcp",
-      "summary": "The Model Context Protocol (MCP) is an open standard enabling AI agents to interact with tools and data sources through a unified interface.",
+      "summary": "A discovery service or registry for Model Context Protocol (MCP) servers.",
       "tags": [
         "mcp",
-        "protocol",
-        "ai-infrastructure"
+        "registry",
+        "ai-agents",
+        "discovery"
       ],
       "primary_category": "mcp",
-      "lifecycle_status": "needs_review",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97300,19 +97422,6 @@
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "needs_review",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "human__compiler__asfarlab__fun",
-      "kind": "website",
-      "name": "human-compiler.asfarlab.fun",
-      "canonical_url": "https://human-compiler.asfarlab.fun",
-      "summary": "human-compiler (site) - A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97339,10 +97448,16 @@
       "kind": "website",
       "name": "Instafill.ai",
       "canonical_url": "https://instafill.ai",
-      "summary": "Instafill.ai – MCP server for AI-powered PDF form filling. Auto-completes any PDF form by extracting fields and filling them from saved profiles, uploaded files, or supplied data.",
-      "tags": [],
+      "summary": "Instafill.ai is an AI-powered online form filler that automatically completes PDF and Word documents by extracting fields and populating them from user-provided data or prior fills.",
+      "tags": [
+        "form-filling",
+        "ai-tool",
+        "document-automation",
+        "mcp-integration",
+        "workflow"
+      ],
       "primary_category": "mcp",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97352,8 +97467,13 @@
       "kind": "website",
       "name": "INSTRUCT_JEV",
       "canonical_url": "https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV",
-      "summary": "instruct-jev (site) - INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace.",
-      "tags": [],
+      "summary": "INSTRUCT_JEV is a Hugging Face dataset of instruction-tuning examples for the Jev decision model.",
+      "tags": [
+        "dataset",
+        "jev",
+        "decision-models",
+        "instruction-tuning"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97365,8 +97485,12 @@
       "kind": "website",
       "name": "Introducing System One Models and Jev",
       "canonical_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "summary": "Introducing System One Models and Jev - Launch post: architecture, RLCD training, pricing, Doom and Wikiracing demos, FAQ.",
-      "tags": [],
+      "summary": "TypeSafe AI introduces Jev, a System One Model that outputs typed probabilistic decisions instead of text for fast, structured AI decisions in software.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "structured-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97414,13 +97538,11 @@
       "kind": "website",
       "name": "Izlo",
       "canonical_url": "https://getizlo.com",
-      "summary": "Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts.",
+      "summary": "Izlo is a collaborative prompt management platform for storing, versioning, testing, and deploying AI prompts from code, documents, and spreadsheets.",
       "tags": [
-        "prompt-management",
-        "prompt-ops",
+        "prompt-engineering",
         "collaboration",
-        "version-control",
-        "testing"
+        "version-control"
       ],
       "primary_category": "memory-and-context",
       "lifecycle_status": "curated",
@@ -97518,8 +97640,12 @@
       "kind": "website",
       "name": "Jev AI",
       "canonical_url": "https://jev-ai.pro",
-      "summary": "Jev AI - Developer tooling: public Jev playground and API that puts typed Choice, Score and Yes/No questions to the model about pasted text - ticket triage, moderation, review scoring - and returns a parsed answer with a confidence value in about 0.5 s per decision.",
-      "tags": [],
+      "summary": "Jev AI is a playground and API for Jev, TypeSafe's System One decision model that returns typed answers (Yes/No, Choice, Score) with calibrated probabilities instead of generating text.",
+      "tags": [
+        "decision-model",
+        "structured-output",
+        "typed-questions"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97531,8 +97657,63 @@
       "kind": "website",
       "name": "Jev AI Tools",
       "canonical_url": "https://jevai.tools",
-      "summary": "Jev AI Tools - Developer education: hosts six bounded recipes plus a custom builder for AI SDK Choice, Score, and Boolean evaluations; recipes display answer probabilities separately from provider confidence and use deterministic local thresholds to pause uncertain routes for review, while every configuration exports as TypeScript.",
-      "tags": [],
+      "summary": "Jev AI is a decision model that returns typed answers—choice, score, or boolean probability—from text or structured input for use in application logic.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "agent-tool"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "latent__space__p__jev",
+      "kind": "website",
+      "name": "Jev and the System One Model (Latent Space)",
+      "canonical_url": "https://latent.space/p/jev",
+      "summary": "Jev is a System One decision model from TypeSafe AI that outputs calibrated probabilities for typed questions instead of generating text.",
+      "tags": [
+        "decision-model",
+        "jevon",
+        "typesafe"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jev__arcade__vercel__app__duel",
+      "kind": "website",
+      "name": "Jev Arcade",
+      "canonical_url": "https://jev-arcade.vercel.app/duel",
+      "summary": "Two playable browser games where users compete against a live Jev AI in an industrial arena duel or neon survival challenge.",
+      "tags": [
+        "game",
+        "decision-model",
+        "jev",
+        "browser"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jevboardgames__everpaper__app",
+      "kind": "website",
+      "name": "Jev board games",
+      "canonical_url": "https://jevboardgames.everpaper.app",
+      "summary": "Tic-tac-toe and Connect Four games where Jev, a decision model, selects moves while code enforces rules.",
+      "tags": [
+        "games",
+        "decision-models"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97561,8 +97742,12 @@
       "kind": "website",
       "name": "Jev Classifier",
       "canonical_url": "https://jevclassifier.vercel.app",
-      "summary": "Jev Classifier (post) - Local Telegram channel JSON analyzer for intent, quality, sentiment, and speaker tone.",
-      "tags": [],
+      "summary": "Jev Classifier is a web tool for classifying text content into predefined categories using the Jev decision model.",
+      "tags": [
+        "decision-model",
+        "classification",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97574,9 +97759,30 @@
       "kind": "website",
       "name": "Jev in Search: Three Practical Evaluations",
       "canonical_url": "https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html",
-      "summary": "Jev in Search: Three Practical Evaluations - Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration.",
-      "tags": [],
+      "summary": "Jev (TypeSafe System One) is a decision model that returns constrained answers (Choice, Score, Boolean) to typed questions without generating text.",
+      "tags": [
+        "decision-model",
+        "agentic-search",
+        "reranking"
+      ],
       "primary_category": "evals",
+      "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "simonwillison__net__2026__sep__21__jev",
+      "kind": "website",
+      "name": "Jev introduces a new shape of LLM",
+      "canonical_url": "https://simonwillison.net/2026/Sep/21/jev",
+      "summary": "Jev is a System One decision model that accepts text input and returns probabilistic scores for yes/no, choice, or rating questions instead of generating text.",
+      "tags": [
+        "decision-model",
+        "llm",
+        "inference"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -97600,14 +97806,19 @@
       "activity_bucket": null
     },
     {
-      "id": "jev__kitchen__vercel__app__recipe",
+      "id": "jev__demo__vercel__app",
       "kind": "website",
-      "name": "Jev Kitchen",
-      "canonical_url": "https://jev-kitchen.vercel.app/recipe",
-      "summary": "Jev Kitchen - Closed source · Free. Web demo: TypeSafe Jev judges which sticker ingredients belong to a named dish or cocktail (issue #399). Try app · Project guide.",
-      "tags": [],
+      "name": "Jev mood demo",
+      "canonical_url": "https://jev-demo.vercel.app",
+      "summary": "A 3D robot companion driven by the TypeSafe Jev decision model that answers nine typed questions per turn and decides actions without generating text.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "companion",
+        "typed-ai"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97617,8 +97828,12 @@
       "kind": "website",
       "name": "Jev on Vercel AI Gateway",
       "canonical_url": "https://vercel.com/ai-gateway/models/jev",
-      "summary": "Jev on Vercel AI Gateway (post) - Hosted typesafe-ai/jev for AI SDK evaluate calls, no TypeSafe waitlist required.",
-      "tags": [],
+      "summary": "Jev is TypeSafe AI's System One decision model that answers typed questions with probabilities for classification, routing, and verification tasks.",
+      "tags": [
+        "decision-model",
+        "typed-questions",
+        "ai-gateway"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97626,12 +97841,16 @@
       "activity_bucket": null
     },
     {
-      "id": "jev__room__moe136231__chatgpt__site",
+      "id": "jev__pacman__ephraimduncan__com",
       "kind": "website",
-      "name": "Jev Room",
-      "canonical_url": "https://jev-room.moe136231.chatgpt.site",
-      "summary": "Jev Room - One sentence becomes six room settings. Jev chooses, the app renders.",
-      "tags": [],
+      "name": "Jev Pac-Man",
+      "canonical_url": "https://jev-pacman.ephraimduncan.com",
+      "summary": "Jev plays Pac-Man is a web demo where TypeSafe's Jev decision model steers a Pac-Man recreation using structured game state and typed directional queries.",
+      "tags": [
+        "decision-model",
+        "demo",
+        "game-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97643,8 +97862,12 @@
       "kind": "website",
       "name": "Jev Tutorial",
       "canonical_url": "https://jev-tutorial.org",
-      "summary": "Jev Tutorial - Site: an independent multilingual implementation guide to Choice, Score, Noul, Python SDK requests, confidence thresholds, deterministic fallbacks, and human escalation.",
-      "tags": [],
+      "summary": "TypeSafe Jev is a decision model that returns typed Choice, Score, or Noul answers with probabilities for software judgment tasks instead of generating free-form text.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "system-one"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97652,25 +97875,16 @@
       "activity_bucket": null
     },
     {
-      "id": "vercel__com__i__jev__vs__gpt__6__astra",
+      "id": "seenpaid__com__blog__jev__review__tested__against__fable",
       "kind": "website",
-      "name": "Jev vs GPT-6 Astra: when to use each",
-      "canonical_url": "https://vercel.com/i/jev-vs-gpt-6-astra",
-      "summary": "Jev vs GPT-6 Astra: when to use each - Guide: Vercel's own decision guide for choosing between a System One model and a frontier model, published alongside a companion page of seven Jev use cases.",
-      "tags": [],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__jev__align",
-      "kind": "website",
-      "name": "jev-align",
-      "canonical_url": "https://pypi.org/project/jev-align",
-      "summary": "jev-align (Sutro) (site) - Active-learning CLI that uses human labels and GEPA to improve Jev decision definitions.",
-      "tags": [],
+      "name": "Jev vs Fable on 520 real social posts",
+      "canonical_url": "https://seenpaid.com/blog/jev-review-tested-against-fable",
+      "summary": "Jev is a decision model from TypeSafe that outputs a probability score (0–1) for typed yes/no questions about text, such as spam or promotional content detection.",
+      "tags": [
+        "decision-model",
+        "content-moderation",
+        "api"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97682,8 +97896,30 @@
       "kind": "website",
       "name": "jev-axi",
       "canonical_url": "https://npmjs.com/package/jev-axi",
-      "summary": "jev-axi (site) - Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard) from the shell.",
-      "tags": [],
+      "summary": "jev-axi is an npm package for Jev (TypeSafe System One) decision model integration.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "npm",
+        "type-safe"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "h3manth__com__fun__jev__chess",
+      "kind": "website",
+      "name": "jev-chess",
+      "canonical_url": "https://h3manth.com/fun/jev-chess",
+      "summary": "Jev Chess is a chess studio that uses TypeSafe's System One decision model to parse natural language moves, evaluate positions, simulate persona opponents, and replay classic matches.",
+      "tags": [
+        "decision-model",
+        "chess",
+        "ai-game"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97695,10 +97931,14 @@
       "kind": "website",
       "name": "jev-codes",
       "canonical_url": "https://npx@kushwho/jev-codes",
-      "summary": "jev-codes (site) - Audit your git diff against YAML coding-standards packs using TypeSafe's Jev model, from a CLI or your AI agent's command/skill.",
-      "tags": [],
+      "summary": "jev-codes is a directory of projects built on Jev, the TypeSafe AI System One decision model.",
+      "tags": [
+        "curated-list",
+        "decision-models",
+        "jev"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97708,8 +97948,14 @@
       "kind": "website",
       "name": "jev-compiler",
       "canonical_url": "https://npmjs.com/package/jev-compiler",
-      "summary": "jevc (site) - Compile agent policy prose into deterministic verdict programs: narrow evidence questions for the model, the verdict computed in code. Install: npm i -g jev-compiler.",
-      "tags": [],
+      "summary": "jev-compiler is a JavaScript package that compiles Jev decision models for use in development workflows.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "compiler",
+        "npm",
+        "typesafe-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97740,10 +97986,14 @@
       "kind": "website",
       "name": "jev-enforce",
       "canonical_url": "https://npmjs.com/package/jev-enforce",
-      "summary": "jev-enforce (site) - Claude Code plugin that makes Claude follow your CLAUDE.md: every reply and edit checked by TypeSafe Jev ✅.",
-      "tags": [],
+      "summary": "jev-enforce is a package that provides Jev decision-model judgments for TypeSafe AI's System One model.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "typesafe"
+      ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97770,8 +98020,14 @@
       "kind": "website",
       "name": "jev-firewall",
       "canonical_url": "https://npmjs.com/package/jev-firewall",
-      "summary": "jev-firewall (site) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block that fails closed.",
-      "tags": [],
+      "summary": "jev-firewall is an NPM package that provides a firewall or guardrail tool built on TypeSafe AI's Jev decision model for agent tooling.",
+      "tags": [
+        "jev",
+        "firewall",
+        "guardrail",
+        "decision-models",
+        "agent-tooling"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97783,8 +98039,29 @@
       "kind": "website",
       "name": "jev-fit",
       "canonical_url": "https://jev-fit.com",
-      "summary": "jev-fit - Developer tooling: hosted fit checker that sends a pasted software idea and a fixed typed rubric to Jev in one call, where a Choice picks plain code, Jev or a reasoning LLM behind a Noul gate for non-tasks, code vetoes Jev when the idea needs images, and low confidence returns \"not sure\"; closed source, free page and API.",
-      "tags": [],
+      "summary": "jev-fit.com is a web tool that evaluates whether a user-provided idea should be implemented as plain code, a Jev decision model, or a reasoning LLM.",
+      "tags": [
+        "decision-tool",
+        "idea-validation",
+        "jev"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jev__gamecast__vercel__app",
+      "kind": "website",
+      "name": "jev-gamecast.vercel.app",
+      "canonical_url": "https://jev-gamecast.vercel.app",
+      "summary": "Jev Gamecast turns CSV tables into interactive data dashboards using Jev decision models for insights.",
+      "tags": [
+        "data-visualization",
+        "decision-models",
+        "dashboards"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97809,8 +98086,14 @@
       "kind": "website",
       "name": "jev-gomoku",
       "canonical_url": "https://xiechengyuan.github.io/jev-gomoku",
-      "summary": "jev-gomoku (XieChengYuan) (site) - 弈瞬：双 Jev 五子棋九宫格输入实验台，逐手查看模型决策，支持真实对局回放与实时对战。",
-      "tags": [],
+      "summary": "A simulation environment where two Jev decision models duel in a Gomoku-style game to compare their decision-making processes.",
+      "tags": [
+        "decision-models",
+        "jev",
+        "simulation",
+        "gomoku",
+        "benchmarking"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97822,10 +98105,15 @@
       "kind": "website",
       "name": "jev-harness",
       "canonical_url": "https://pypi.org/project/jev-harness",
-      "summary": "jev-harness (ismaelsoilet) (site) - Zero-dependency System One decision harness: 5 semantic gates saving frontier AI agent tokens on trivial errors & doom loops. Python + TypeScript + Rust. MCP-compatible.",
-      "tags": [],
+      "summary": "jev-harness is a Python package for evaluating decision models using Jev-compatible interfaces.",
+      "tags": [
+        "evals",
+        "decision-models",
+        "jev",
+        "benchmarking"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97835,8 +98123,29 @@
       "kind": "website",
       "name": "jev-harness-router",
       "canonical_url": "https://npmjs.com/package/jev-harness-router",
-      "summary": "jev-harness-router (site) - Per-turn router for agent harnesses: one 350ms Jev call picks the model tier, effort, tools and skill, behind a hard deadline with a regex fallback. Claude Agent SDK adapter included.",
-      "tags": [],
+      "summary": "A Node.js package that provides routing utilities for Jev harness workflows.",
+      "tags": [
+        "jev",
+        "routing",
+        "npm"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jev__harness__tianyuchen99__chatgpt__site",
+      "kind": "website",
+      "name": "jev-harness.tianyuchen99.chatgpt.site",
+      "canonical_url": "https://jev-harness.tianyuchen99.chatgpt.site",
+      "summary": "JevHarness is a web demo that visualizes and analyzes the evolution of Jev decision-model flows in Pokémon battles using recorded trajectories and rewards.",
+      "tags": [
+        "decision-models",
+        "debugging",
+        "visualization"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97848,10 +98157,15 @@
       "kind": "website",
       "name": "jev-ids.github.io",
       "canonical_url": "https://jev-ids.github.io",
-      "summary": "jev-ids (site) - Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.",
-      "tags": [],
+      "summary": "A directory of projects built on Jev (TypeSafe AI's System One model) for browsing demos and playgrounds.",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "decision-models",
+        "directory"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -97870,12 +98184,33 @@
       "activity_bucket": null
     },
     {
+      "id": "nolane__x__github__io__jev__language",
+      "kind": "website",
+      "name": "JEV-language",
+      "canonical_url": "https://nolane-x.github.io/JEV-language",
+      "summary": "JEV-language is a typed decision model system that answers questions with probabilities instead of generating text.",
+      "tags": [
+        "decision-models",
+        "typed-ai",
+        "guardrails"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "npmjs__com__package__jev__layer",
       "kind": "website",
       "name": "jev-layer",
       "canonical_url": "https://npmjs.com/package/jev-layer",
-      "summary": "jev-layer (site) - Portable System-1 decision layer for agent harnesses with host-owned routing, receipts, replay, and fail-open integrations.",
-      "tags": [],
+      "summary": "jev-layer is an npm package for Jev, a TypeSafe System One decision model that answers typed questions with probabilities.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97900,25 +98235,15 @@
       "activity_bucket": null
     },
     {
-      "id": "pypi__org__project__jev__logtriage",
-      "kind": "website",
-      "name": "jev-logtriage",
-      "canonical_url": "https://pypi.org/project/jev-logtriage",
-      "summary": "jev-logtriage (site) - Jev scores collapsed log batches; code maps answers to suppress, watch, review, notify, or page. Nothing is executed.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "npmjs__com__package__jev__mcp",
       "kind": "website",
       "name": "jev-mcp",
       "canonical_url": "https://npmjs.com/package/jev-mcp",
-      "summary": "jev-mcp (rashedInt32) (site) - MCP server exposing TypeSafe Jev as typed, calibrated judgment tools: classify, score, check, batched ask. Ships as a Claude Code plugin.",
-      "tags": [],
+      "summary": "jev-mcp is an MCP server that exposes Jev (TypeSafe System One decision model) judgments over the Model Context Protocol.",
+      "tags": [
+        "mcp",
+        "decision-model"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97949,8 +98274,12 @@
       "kind": "website",
       "name": "Jev-Omni",
       "canonical_url": "https://huggingface.co/akhilaaa3/Jev-Omni",
-      "summary": "Jev-Omni - Open multimodal System One–style decision classifier (text/image/audio/video → option probabilities) fine-tuned from Gemma 4 12B IT; independent of official Jev. Project guide.",
-      "tags": [],
+      "summary": "Jev-Omni is a multimodal decision classifier that outputs probabilities for text, image, audio, and video inputs based on typed questions and options.",
+      "tags": [
+        "decision-model",
+        "multimodal",
+        "je-v"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97962,8 +98291,13 @@
       "kind": "website",
       "name": "jev-playground-zeta.vercel.app",
       "canonical_url": "https://jev-playground-zeta.vercel.app",
-      "summary": "jev-playground (Little-Planet-Labs) (site) - A small Next.js app for experimenting with TypeSafe AI's Jev model (System One).",
-      "tags": [],
+      "summary": "Jev Playground is a web-based tool for evaluating state using TypeSafe AI's System One decision model via noul, choice, and score questions.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe",
+        "playground"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -97975,8 +98309,12 @@
       "kind": "website",
       "name": "jev-playground.vercel.app",
       "canonical_url": "https://jev-playground.vercel.app",
-      "summary": "jev-playground (wustep) (site) - Can a System One model steer music? Jev picks the plan (enums only); code renders sheet, audio and MIDI.",
-      "tags": [],
+      "summary": "Jevo Playground is a demo site showing Jev, a System One decision model, generating musical plans while code renders the notes.",
+      "tags": [
+        "decision-models",
+        "demo",
+        "music"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98023,19 +98361,6 @@
       "activity_bucket": null
     },
     {
-      "id": "jev__speed__tubone24__workers__dev",
-      "kind": "website",
-      "name": "jev-speed.tubone24.workers.dev",
-      "canonical_url": "https://jev-speed.tubone24.workers.dev",
-      "summary": "jev-practice-speed (site) - A WebGL demo where you play the card game Speed against a CPU whose brain is TypeSafe AI's Jev. The whole point of the app is to measure and show Jev's decision speed and decision accuracy in real time.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "jev__test__vercel__app",
       "kind": "website",
       "name": "jev-test.vercel.app",
@@ -98049,12 +98374,35 @@
       "activity_bucket": null
     },
     {
+      "id": "jev__tetris__vercel__app",
+      "kind": "website",
+      "name": "jev-tetris.vercel.app",
+      "canonical_url": "https://jev-tetris.vercel.app",
+      "summary": "Jev vs the LLMs is a real-time Tetris game where the Jev decision model competes against language models like Claude Haiku 4.5 and Gemini Flash.",
+      "tags": [
+        "decision-model",
+        "demo",
+        "competition",
+        "tetris",
+        "jev"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "jev__trader__vercel__app",
       "kind": "website",
       "name": "jev-trader.vercel.app",
       "canonical_url": "https://jev-trader.vercel.app",
-      "summary": "jev-trader (site, post) - One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
-      "tags": [],
+      "summary": "Jev Trader is a web-based tool that provides one AI-driven trade decision per Monad blockchain block using the Jev decision model.",
+      "tags": [
+        "trading",
+        "decision-model",
+        "blockchain"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98066,21 +98414,12 @@
       "kind": "website",
       "name": "jev-triage-playground.ziki.workers.dev",
       "canonical_url": "https://jev-triage-playground.ziki.workers.dev",
-      "summary": "jev (zeke) (site) - Research notes and an interactive Cloudflare Worker demo for Jev, TypeSafe AI's structured decision model.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__jev__trust",
-      "kind": "website",
-      "name": "jev-trust",
-      "canonical_url": "https://pypi.org/project/jev-trust",
-      "summary": "jev-trust - Python ecosystem: trust middleware for the Jev API that logs every typed decision, measures calibration in your own domain from outcomes you record (accuracy, Brier, top-label ECE, C = 1 − ECE), annotates each answer with its measured effective confidence, fires overconfidence alerts, and signs the evidence (ed25519) for independent recomputation.",
-      "tags": [],
+      "summary": "Jev Triage Playground is a Cloudflare Workers demo that routes support messages to the Jev decision model for parallel triage classification.",
+      "tags": [
+        "decision-model",
+        "demo",
+        "cloudflare-workers"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98092,8 +98431,12 @@
       "kind": "website",
       "name": "jev-ultrafast-mcp",
       "canonical_url": "https://pypi.org/project/jev-ultrafast-mcp",
-      "summary": "jev-ultrafast-mcp (site) - Hand the browser work off: an MCP server where a decision model drives the page for your agent, so a flow costs one tool call instead of a turn per click. Ref-based element tables, code-checked assertions, zero-model macro replay. Speaks CDP to your Chrome.",
-      "tags": [],
+      "summary": "JeV Ultrafast MCP is a Python package exposing Jev decision-model functionality via the Model Context Protocol.",
+      "tags": [
+        "mcp",
+        "decision-model",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98105,8 +98448,31 @@
       "kind": "website",
       "name": "jev-use",
       "canonical_url": "https://npmjs.com/package/jev-use",
-      "summary": "jev-use (site) - Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) — measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM.",
-      "tags": [],
+      "summary": "jev-use is an npm package providing a TypeScript hook for integrating the Jev decision model into applications.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "react-hook",
+        "typescript",
+        "typesafe"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jev__com__tr",
+      "kind": "website",
+      "name": "jev.com.tr",
+      "canonical_url": "https://jev.com.tr",
+      "summary": "jev.com.tr is the public site for TypeSafe AI's Jev decision model, which answers typed questions with probabilistic outputs.",
+      "tags": [
+        "decision-model",
+        "type-safe",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98118,22 +98484,14 @@
       "kind": "website",
       "name": "jev.guide",
       "canonical_url": "https://jev.guide",
-      "summary": "jevguide (site) - Curated Jev showcases from X, organized by category with media previews and direct source links.",
-      "tags": [],
+      "summary": "Jev Guide is a community-curated index of open-source projects, demos, and resources built on TypeSafe Jev (System One model), organized by use case and project type.",
+      "tags": [
+        "jev",
+        "decision-models",
+        "curated-list",
+        "developer-resources"
+      ],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "huggingface__co__collections__tianxinwei__jevany__adaptive__decision__systems",
-      "kind": "website",
-      "name": "jevany-adaptive-decision-systems",
-      "canonical_url": "https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems",
-      "summary": "JevAny (site) - Calibration-aware reinforcement learning for adaptive decision systems.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -98161,21 +98519,13 @@
       "kind": "website",
       "name": "jevbest.com",
       "canonical_url": "https://jevbest.com",
-      "summary": "awesome-jev (heyjunpenn) (site) - A verified, community-maintained catalog of 485 open-source projects built with Jev.",
-      "tags": [],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "jevbooks__com__en__patterns",
-      "kind": "website",
-      "name": "jevbooks: 16 Jev design patterns",
-      "canonical_url": "https://jevbooks.com/en/patterns",
-      "summary": "jevbooks: 16 Jev design patterns - Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends.",
-      "tags": [],
+      "summary": "jevbest.com is a directory of projects built on Jev (TypeSafe AI's System One model).",
+      "tags": [
+        "directory",
+        "jev",
+        "type-safe",
+        "decision-models"
+      ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98187,10 +98537,16 @@
       "kind": "website",
       "name": "JevBystander",
       "canonical_url": "https://nisaka520.github.io/JevBystander",
-      "summary": "JevBystander (site) - 安卓无障碍版微信判读：只读屏、只弹 3 条 Toast（意图 / 情绪 / 着急 / 建议），不生成回复文案、不发送 · 零第三方依赖，APK 861 KB.",
-      "tags": [],
+      "summary": "JevBystander is an Android app that reads WeChat messages via accessibility services and uses the Jev decision model to suggest response postures without generating replies.",
+      "tags": [
+        "decision-model",
+        "android",
+        "privacy-first",
+        "accessibility",
+        "jev"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98200,8 +98556,13 @@
       "kind": "website",
       "name": "jevcache",
       "canonical_url": "https://npmjs.com/package/@kushalicious/jevcache",
-      "summary": "jevcache (kushals256) (site) - Skip expensive LLM calls when TypeSafe Jev says same intent. OpenAI-compatible local cache proxy — npx @kushalicious/jevcache.",
-      "tags": [],
+      "summary": "jevcache is an npm package associated with Jev (TypeSafe System One) decision models, used within agent tooling directories.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "agent-tooling",
+        "npm"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98213,8 +98574,30 @@
       "kind": "website",
       "name": "jevclient",
       "canonical_url": "https://pypi.org/project/jevclient",
-      "summary": "jevclient (site) - Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.",
-      "tags": [],
+      "summary": "A Python client package for interacting with Jev decision models via PyPI.",
+      "tags": [
+        "jev",
+        "decision-models",
+        "sdk"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jevcode__ai",
+      "kind": "website",
+      "name": "jevcode.ai",
+      "canonical_url": "https://jevcode.ai",
+      "summary": "jevcode.ai is the homepage for Jev, a TypeSafe System One decision model that answers typed questions with probabilities.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe",
+        "typed-questions"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98239,21 +98622,12 @@
       "kind": "website",
       "name": "jevframe",
       "canonical_url": "https://pypi.org/project/jevframe",
-      "summary": "jevframe (site) - Semantic AI for pandas and Polars: classify text, analyze sentiment, and score DataFrame rows with natural-language questions and full probabilities using TypeSafe Jev.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__jevgrep__cli",
-      "kind": "website",
-      "name": "jevgrep-cli",
-      "canonical_url": "https://pypi.org/project/jevgrep-cli",
-      "summary": "jevgrep (site) - Grep by meaning: pipe in any text, ask a yes/no question in plain English, get only the matching lines. Works behind tail -f, about $0.004 per 1,000 lines, powered by TypeSafe's Jev.",
-      "tags": [],
+      "summary": "Jevframe is a decision-model-based tool built on TypeSafe AI's Jev (System One) model for typed probabilistic judgments.",
+      "tags": [
+        "decision-models",
+        "jev",
+        "typed-judgments"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98265,8 +98639,13 @@
       "kind": "website",
       "name": "JevGuide",
       "canonical_url": "https://nisaka520.github.io/JevGuide",
-      "summary": "JevGuide (site) - 弦外之音 —— 微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。",
-      "tags": [],
+      "summary": "JevGuide is an Android app that reads WeChat screenshots, uses the Jev decision model to analyze intent and relationship progress, and generates three candidate replies.",
+      "tags": [
+        "android-app",
+        "decision-model",
+        "jev",
+        "wechat-integration"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98278,8 +98657,14 @@
       "kind": "website",
       "name": "JevList",
       "canonical_url": "https://jevlist.ai",
-      "summary": "Try the beta web UI at JevList. Explore the projects in this directory through a searchable web interface. We're continually improving the experience—take a look and let us know what you think!",
-      "tags": [],
+      "summary": "Jevlist.ai is a directory of apps, libraries, and examples built with Jev, a typed-decision model by TypeSafe AI.",
+      "tags": [
+        "jev",
+        "directory",
+        "typed-decisions",
+        "awesome-list",
+        "developer-tools"
+      ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98291,10 +98676,14 @@
       "kind": "website",
       "name": "jevmem",
       "canonical_url": "https://npmjs.com/package/jevmem",
-      "summary": "jevmem (site) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools.",
-      "tags": [],
+      "summary": "jevmem is an npm package that appears to be a client or utility for the Jev decision model system.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "npm-package"
+      ],
       "primary_category": "memory-and-context",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98304,8 +98693,13 @@
       "kind": "website",
       "name": "jevonian",
       "canonical_url": "https://npmjs.com/package/jevonian",
-      "summary": "Jevonian (site) - Local OpenAI-compatible proxy that sits between a coding agent and its providers and asks Jev, per turn, which routed model and thinking level should serve it.",
-      "tags": [],
+      "summary": "Jevonian is an npm package serving as a skill set or integration for the Jev (TypeSafe System One) decision model.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "npm-package",
+        "ai-tool"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98317,8 +98711,13 @@
       "kind": "website",
       "name": "jevplay.vercel.app",
       "canonical_url": "https://jevplay.vercel.app",
-      "summary": "jevplay (site) - TypeSafe Jev playground — custom Choice/Score/Noul builder with live distributions.",
-      "tags": [],
+      "summary": "JevPlay is a web-based playground for building and testing structured Choice, Score, and Noul questions with live TypeSafe Jev model distributions.",
+      "tags": [
+        "decision-model",
+        "playground",
+        "jev",
+        "typesafe"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98348,8 +98747,12 @@
       "kind": "website",
       "name": "jevtest",
       "canonical_url": "https://npmjs.com/package/jevtest",
-      "summary": "jevtest (site) - Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get calibrated probabilities back.",
-      "tags": [],
+      "summary": "Jev is a decision model from TypeSafe AI's System One that answers typed questions with probabilities instead of generating text.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98361,8 +98764,12 @@
       "kind": "website",
       "name": "jevtest.dev",
       "canonical_url": "https://jevtest.dev",
-      "summary": "JevTest (site) - Bounded exploratory browser testing with Jev, deterministic assertions, and replayable evidence.",
-      "tags": [],
+      "summary": "Jevtest.dev is a directory of projects built on the Jev decision model from TypeSafe AI's System One.",
+      "tags": [
+        "jev",
+        "decision-models",
+        "directory"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98374,8 +98781,12 @@
       "kind": "website",
       "name": "jevtrafficsim.vercel.app",
       "canonical_url": "https://jevtrafficsim.vercel.app",
-      "summary": "jevtrafficsim (site) - TypeSafe AI's first model Jev takes on an entire city's traffic.",
-      "tags": [],
+      "summary": "Jev Traffic Simulator demonstrates a TypeSafe AI decision model (Jev) by simulating a car crossing Chicago using fixed vs adaptive signal logic.",
+      "tags": [
+        "decision-models",
+        "simulation",
+        "demo"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98387,8 +98798,12 @@
       "kind": "website",
       "name": "jevtypesafeai.com",
       "canonical_url": "https://jevtypesafeai.com",
-      "summary": "jev-ai (site) - Jev AI quickstart & FAQ — TypeSafe AI's System One model. Try it free: jevtypesafeai.com.",
-      "tags": [],
+      "summary": "Jev is a hosted decision model (TypeSafe System One) that returns typed choices, scores, or yes/no probabilities from messy text input in 70–500ms via API.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "api"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98396,25 +98811,16 @@
       "activity_bucket": null
     },
     {
-      "id": "pypi__org__project__jfind__cli",
+      "id": "jjd__lab__github__io__jev__synthetic__survey",
       "kind": "website",
-      "name": "jfind-cli",
-      "canonical_url": "https://pypi.org/project/jfind-cli",
-      "summary": "jfind (site) - Find files by describing them in plain English: find(1) with a semantic --like predicate, answered by TypeSafe.ai's jev model.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "npmjs__com__package__mateonunez__jod",
-      "kind": "website",
-      "name": "jod",
-      "canonical_url": "https://npmjs.com/package/@mateonunez/jod",
-      "summary": "jod (site, post) - Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers.",
-      "tags": [],
+      "name": "jjd-lab.github.io",
+      "canonical_url": "https://jjd-lab.github.io/jev-synthetic-survey",
+      "summary": "A benchmark comparing Jev (TypeSafe System One) and GPT-4.1 on a synthetic survey dataset to evaluate probability calibration and cost efficiency.",
+      "tags": [
+        "benchmark",
+        "decision-models",
+        "evaluation"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98512,6 +98918,23 @@
       "activity_bucket": null
     },
     {
+      "id": "killmyidea__stemonte__io",
+      "kind": "website",
+      "name": "killmyidea.stemonte.io",
+      "canonical_url": "https://killmyidea.stemonte.io",
+      "summary": "Kill My Idea is a web tool that evaluates startup ideas using the Jev decision model to output kill/fix/ship probabilities.",
+      "tags": [
+        "decision-model",
+        "idea-validation",
+        "jev"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "kilo__ai",
       "kind": "website",
       "name": "Kilo Code",
@@ -98570,27 +98993,12 @@
       "kind": "website",
       "name": "Kombai",
       "canonical_url": "https://kombai.com",
-      "summary": "Kombai is an AI design engineer that generates production-ready frontend code and designs from prompts while reusing components and patterns from existing codebases.",
+      "summary": "Kombai is an AI design engineer that generates production-ready frontend code and UI designs by reusing components and tokens from existing codebases.",
       "tags": [
-        "ai-design",
-        "frontend",
-        "code-generation",
-        "vscode-extension",
-        "cursor-extension"
+        "ui-generator",
+        "design-to-code",
+        "frontend"
       ],
-      "primary_category": "app-builders",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "kuberns__com",
-      "kind": "website",
-      "name": "Kuberns",
-      "canonical_url": "https://kuberns.com",
-      "summary": "Kuberns – Agentic AI deployment platform that auto-detects tech stacks, provisions infrastructure, and deploys applications from GitHub repositories with zero configuration.",
-      "tags": [],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98676,8 +99084,12 @@
       "kind": "website",
       "name": "lanebreak.vercel.app",
       "canonical_url": "https://lanebreak.vercel.app",
-      "summary": "lanebreak (site) - LaneBreak — support ticket priority+routing via TypeSafe Jev.",
-      "tags": [],
+      "summary": "LaneBreak is a Jev-powered ticket routing system that assigns priority and team ownership before tickets enter a queue.",
+      "tags": [
+        "decision-models",
+        "ticket-routing",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98696,19 +99108,6 @@
         "agents"
       ],
       "primary_category": "ai-frameworks",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__langchain__loadout",
-      "kind": "website",
-      "name": "langchain-loadout",
-      "canonical_url": "https://pypi.org/project/langchain-loadout",
-      "summary": "langchain-loadout (site) - Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -98770,32 +99169,6 @@
       "activity_bucket": null
     },
     {
-      "id": "stiermid__github__io__laya__serve",
-      "kind": "website",
-      "name": "laya-serve",
-      "canonical_url": "https://stiermid.github.io/laya-serve",
-      "summary": "laya-serve (site) - Jev-compatible HTTP server for Laya System One decision models.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "laya__tools",
-      "kind": "website",
-      "name": "laya.tools",
-      "canonical_url": "https://laya.tools",
-      "summary": "laya.tools - Site: an independent directory of about 950 projects built on Laya, the Apache-2.0 open alternative to Jev, imported daily from GitHub, npm, Hugging Face and X and browsable by platform and use case, with a Laya vs Jev comparison page.",
-      "tags": [],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "leanctx__com",
       "kind": "website",
       "name": "leanctx.com",
@@ -98834,8 +99207,13 @@
       "kind": "website",
       "name": "LegacyDoc AI",
       "canonical_url": "https://romanticode.com/legacydoc-ai",
-      "summary": "LegacyDoc AI – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.",
-      "tags": [],
+      "summary": "LegacyDoc AI is a VS Code extension that generates JSDoc, Markdown docs, Mermaid diagrams, and AI-ready context packs from selected code to document legacy or AI-generated projects before cleanup or handoff.",
+      "tags": [
+        "vscode-extension",
+        "documentation",
+        "context-pack",
+        "ai-coding-agent"
+      ],
       "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
       "stars": null,
@@ -99127,42 +99505,17 @@
       "activity_bucket": null
     },
     {
-      "id": "pypi__org__project__macos__computer__use__kit",
-      "kind": "website",
-      "name": "macos-computer-use-kit",
-      "canonical_url": "https://pypi.org/project/macos-computer-use-kit",
-      "summary": "macos-computer-use-kit (site) - AX-first computer use for AI agents on macOS with optional Jev (TypeSafe System One) semantic guards: calibrated target/input judgments before an irreversible action, decisions kept in code. Accessibility-tree targeting, window-scoped input, clipboard-safe paste, read-back verification. Ships a pip CLI, a pi package and a DeepSeek Harness plugin.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "madewithjev__com",
-      "kind": "website",
-      "name": "Made with Jev",
-      "canonical_url": "https://madewithjev.com",
-      "summary": "awesome-jev (kraayenjon) (site) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.",
-      "tags": [],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "usemage__ai",
       "kind": "website",
       "name": "Mage",
       "canonical_url": "https://usemage.ai",
-      "summary": "MAGE GPT Web App Generator creates full-stack React, Node.js and Prisma web apps from prompts using the Wasp framework.",
+      "summary": "A web app generator that uses GPT and the Wasp framework to create full-stack React, Node.js, and Prisma applications.",
       "tags": [
-        "app-builder",
-        "full-stack",
+        "react",
+        "nodejs",
+        "prisma",
         "wasp",
-        "gpt"
+        "app-builder"
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
@@ -99193,10 +99546,14 @@
       "kind": "website",
       "name": "Magic Hour",
       "canonical_url": "https://magichour.ai",
-      "summary": "magichourhq/magic-hour-mcp : Official hosted MCP server for Magic Hour, providing AI video, image, and audio generation and editing tools.",
-      "tags": [],
+      "summary": "Magic Hour AI is a web-based platform offering 100+ AI tools for generating, editing, and animating images, video, and audio from text or media inputs.",
+      "tags": [
+        "api",
+        "media-generation",
+        "sdk"
+      ],
       "primary_category": "mcp",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -99258,26 +99615,13 @@
       "kind": "website",
       "name": "Makedraft",
       "canonical_url": "https://makedraft.com",
-      "summary": "A web-based tool that generates HTML templates from AI prompts.",
+      "summary": "Makedraft is a web-based AI agent that builds and deploys real GitHub-hosted web apps from natural language prompts using React and Next.js.",
       "tags": [
-        "prompt-to-html",
-        "frontend-scaffolding",
-        "web-templates"
+        "app-builder",
+        "ai-agent",
+        "web-dev"
       ],
       "primary_category": "app-builders",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "markstream__vue__simonhe__me",
-      "kind": "website",
-      "name": "Markstream Vue",
-      "canonical_url": "https://markstream-vue.simonhe.me",
-      "summary": "Markstream Vue – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.",
-      "tags": [],
-      "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -99374,8 +99718,12 @@
       "kind": "website",
       "name": "mcp-server",
       "canonical_url": "https://zop.dev/learn/mcp-server",
-      "summary": "zopdev/mcp : Cloud cost and infrastructure governance across AWS, Azure, GCP, Databricks and Snowflake. 263 tools (155 read, 108 write), read-only by default, over a hosted remote endpoint at https://api.zop.dev/mcp-server. Docs · Claude setup.",
-      "tags": [],
+      "summary": "ZopNight MCP Server is a Model Context Protocol server exposing ZopNight's cloud cost and resource data to AI assistants like Claude, Cursor, and Codex.",
+      "tags": [
+        "mcp",
+        "cloud",
+        "finops"
+      ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
       "stars": null,
@@ -99502,10 +99850,14 @@
       "kind": "website",
       "name": "MergeFix",
       "canonical_url": "https://mergefix.com",
-      "summary": "MergeFix – AI website audits (SEO, performance, accessibility, security) delivered as real GitHub pull requests, plus a Migrate & Own flow to move an AI-built app into a repo you fully own.",
-      "tags": [],
+      "summary": "MergeFix moves AI-generated projects from platforms like Bolt or Lovable into a user's GitHub repo via a production-ready pull request.",
+      "tags": [
+        "code-ownership",
+        "github-integration",
+        "ai-builder-migration"
+      ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -99619,6 +99971,23 @@
       "activity_bucket": null
     },
     {
+      "id": "myokoym__github__io__misereru__slide__jev",
+      "kind": "website",
+      "name": "misereru-slide-jev",
+      "canonical_url": "https://myokoym.github.io/misereru-slide-jev",
+      "summary": "A Jev/System One Models presentation site showing interface, design, use cases, performance, quality, limits, and status of the decision model.",
+      "tags": [
+        "decision-models",
+        "benchmarking",
+        "jev"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "mixo__io",
       "kind": "website",
       "name": "Mixo.io",
@@ -99659,11 +100028,12 @@
       "kind": "website",
       "name": "modelmarket.dev",
       "canonical_url": "https://modelmarket.dev",
-      "summary": "A discovery and marketplace platform for AI agents to find and invoke capabilities via the Model Context Protocol (MCP).",
+      "summary": "A live marketplace and discovery protocol for AI agents to trade and invoke capabilities through an MCP endpoint.",
       "tags": [
         "mcp",
-        "agent-economy",
+        "agent-commerce",
         "discovery",
+        "protocol",
         "micropayments"
       ],
       "primary_category": "mcp",
@@ -99677,8 +100047,12 @@
       "kind": "website",
       "name": "ModelScope",
       "canonical_url": "https://modelscope.cn/home",
-      "summary": "ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。",
-      "tags": [],
+      "summary": "ModelScope 魔搭社区 is an open-source model community offering models, datasets, and online demos.",
+      "tags": [
+        "model-hub",
+        "open-source",
+        "demo"
+      ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
@@ -99743,10 +100117,14 @@
       "kind": "website",
       "name": "MySpec",
       "canonical_url": "https://myspec.dev",
-      "summary": "MySpec – Interactive AI architect that interviews developers and generates structured 4-file spec bundles with MCP server integration.",
-      "tags": [],
+      "summary": "MySpec is a spec-driven development tool that interviews users and generates a deterministic 4-file spec bundle (constitution, requirements, solution, tasks) for AI coding agents to build from.",
+      "tags": [
+        "spec-driven-development",
+        "ai-coding-agents",
+        "prompt-engineering"
+      ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -99769,8 +100147,13 @@
       "kind": "website",
       "name": "n8n-nodes-jev-classification",
       "canonical_url": "https://npmjs.com/package/n8n-nodes-jev-classification",
-      "summary": "n8n-nodes-jev-classification (site) - N8n community node for Jev by TypeSafe AI: classify, score and check text with calibrated probabilities. Parallel requests and multi-item batching.",
-      "tags": [],
+      "summary": "An n8n node that integrates Jev classification via TypeSafe AI's System One model.",
+      "tags": [
+        "n8n",
+        "jev",
+        "workflow-automation",
+        "decision-model"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -99795,8 +100178,12 @@
       "kind": "website",
       "name": "Netlify AI Gateway",
       "canonical_url": "https://netlify.com/changelog/typesafe-jev-ai-gateway",
-      "summary": "Netlify AI Gateway - Zero-configuration access from Netlify Functions through @typesafe-ai/sdk, with credentials and billing handled by Netlify.",
-      "tags": [],
+      "summary": "TypeSafe Jev decision model available via Netlify AI Gateway for typed questions with probabilistic answers.",
+      "tags": [
+        "decision-model",
+        "netlify",
+        "typed-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -99815,19 +100202,6 @@
         "devops"
       ],
       "primary_category": "ai-frameworks",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "nexibeo__com",
-      "kind": "website",
-      "name": "nexibeo.com",
-      "canonical_url": "https://nexibeo.com",
-      "summary": "jev-organize (site) - Throw in a pile of company files and get them classified and organized by department, type, sensitivity, date, counterparty and PII, with an index for AI agents. Powered by TypeSafe's Jev on OpenRouter (17¢ per 1,000 files). Zero-dependency Node CLI + Claude skill + Codex agent.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -99855,10 +100229,15 @@
       "kind": "website",
       "name": "nothumansearch.ai",
       "canonical_url": "https://nothumansearch.ai",
-      "summary": "unitedideas/nothumansearch : MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live at nothumansearch.ai.",
-      "tags": [],
+      "summary": "Not Human Search is a free agent-readiness search and scoring tool that evaluates any website on seven agentic signals like llms.txt and MCP support.",
+      "tags": [
+        "agent-readiness",
+        "mcp",
+        "llms.txt",
+        "api-discovery"
+      ],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -99904,12 +100283,13 @@
       "kind": "website",
       "name": "Nullify.ai",
       "canonical_url": "https://nullify.ai",
-      "summary": "Nullify.ai is an autonomous AI system that detects, validates, fixes, and routes product-security vulnerabilities to merge-ready pull requests.",
+      "summary": "An autonomous agentic system that finds, validates, and fixes product security vulnerabilities by generating merge-ready pull requests.",
       "tags": [
         "security",
+        "agents",
         "devsecops",
-        "ai-agent",
-        "automation"
+        "remediation",
+        "vulnerability-management"
       ],
       "primary_category": "coding-agents",
       "lifecycle_status": "curated",
@@ -99984,19 +100364,6 @@
       "activity_bucket": null
     },
     {
-      "id": "onmyway133__com",
-      "kind": "website",
-      "name": "onmyway133.com",
-      "canonical_url": "https://onmyway133.com",
-      "summary": "awesome-jev (onmyway133) (site) - Awesome projects built with Jev from Typesafe AI.",
-      "tags": [],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "openinterpreter__com",
       "kind": "website",
       "name": "Open Interpreter",
@@ -100035,8 +100402,12 @@
       "kind": "website",
       "name": "open-alternative-jev",
       "canonical_url": "https://huggingface.co/spaces/IkerMoel/open-alternative-jev",
-      "summary": "open-alternative-jev (site) - Open alternative to Jev: typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with benchmarks.",
-      "tags": [],
+      "summary": "A Hugging Face Space providing an open alternative to the Jev decision model for making typed decisions from an open LLM in one forward pass.",
+      "tags": [
+        "decision-models",
+        "open-source",
+        "llm"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100101,8 +100472,12 @@
       "kind": "website",
       "name": "openjev.com",
       "canonical_url": "https://openjev.com",
-      "summary": "SemIf (site, post) - Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
-      "tags": [],
+      "summary": "OpenJev (SemIf) is a browser-based experiment that runs local decision models like Qwen3 and MiniCPM to compute conditional probabilities for constrained choices using logits or token-by-token JSON generation.",
+      "tags": [
+        "decision-models",
+        "browser",
+        "local-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100148,8 +100523,12 @@
       "kind": "website",
       "name": "OpenRouter",
       "canonical_url": "https://openrouter.ai/typesafe/jev-1.13",
-      "summary": "jev-decisions (site) - Safety checks for Hermes and other AI agents before they act, ask for approval, or verify a change.",
-      "tags": [],
+      "summary": "Jev 1.13 is a structured decision model from TypeSafe that returns typed choices instead of free-form text for fast, predictable application decisions.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "low-latency"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100178,8 +100557,12 @@
       "kind": "website",
       "name": "OTF — Open Template Forest",
       "canonical_url": "https://otf-kit.dev",
-      "summary": "OTF — Open Template Forest – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits.",
-      "tags": [],
+      "summary": "OTF Kit provides full-stack app templates for web and mobile with authentication, payments, and data already wired in.",
+      "tags": [
+        "app-builder",
+        "full-stack",
+        "templates"
+      ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100225,10 +100608,14 @@
       "kind": "website",
       "name": "Parallel Constrained Decoding (Qwen2.5-1B-RLCD)",
       "canonical_url": "https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding",
-      "summary": "Parallel Constrained Decoding (Qwen2.5-1B-RLCD) - Hugging Face Space exploring open-source parallel constrained decoding as an alternative to Jev.",
-      "tags": [],
+      "summary": "A Hugging Face Space that extracts structured data from text using parallel constrained decoding guided by a JSON schema.",
+      "tags": [
+        "constrained-decoding",
+        "structured-output",
+        "huggingface-spaces"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -100379,9 +100766,31 @@
       "kind": "website",
       "name": "pgjev.com",
       "canonical_url": "https://pgjev.com",
-      "summary": "pg-jev (site) - Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev.",
-      "tags": [],
+      "summary": "pgjev is a PostgreSQL extension that adds SQL functions for natural-language filtering, classification, scoring, and choice via the Jev decision model.",
+      "tags": [
+        "postgres",
+        "sql",
+        "decision-models",
+        "jev"
+      ],
       "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "pi__dev",
+      "kind": "website",
+      "name": "pi.dev",
+      "canonical_url": "https://pi.dev",
+      "summary": "Pi Agent Foreman is an extension that enables a terminal-based coding agent (Pi) to resume unfinished work by checking for explicit work commands in user requests.",
+      "tags": [
+        "extension",
+        "coding-agent",
+        "workflow"
+      ],
+      "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -100446,14 +100855,16 @@
       "kind": "website",
       "name": "Pixee",
       "canonical_url": "https://pixee.ai",
-      "summary": "Pixee is a platform that automates vulnerability triage and remediation across security scanners using AI to reduce false positives and generate developer-accepted fixes.",
+      "summary": "AI-driven platform for automated security vulnerability triage and remediation.",
       "tags": [
         "security",
-        "devsecops",
-        "automation"
+        "remediation",
+        "triage",
+        "ai-agents",
+        "devsecops"
       ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "needs_review",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -100476,14 +100887,18 @@
       "activity_bucket": null
     },
     {
-      "id": "policy__ai__alpha__vercel__app",
+      "id": "plotveil__app",
       "kind": "website",
-      "name": "PolicyAI",
-      "canonical_url": "https://policy-ai-alpha.vercel.app",
-      "summary": "PolicyAI – AI-powered legal document generator. Creates GDPR & CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy for developer products in 60 seconds. Free tier available.",
-      "tags": [],
-      "primary_category": "app-builders",
-      "lifecycle_status": "curated",
+      "name": "plotveil.app",
+      "canonical_url": "https://plotveil.app",
+      "summary": "PlotVeil is a Chrome extension that blocks YouTube comment spoilers using the Jev decision model to judge and reveal comments on demand.",
+      "tags": [
+        "chrome-extension",
+        "decision-model",
+        "content-filtering"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -100505,12 +100920,34 @@
       "activity_bucket": null
     },
     {
+      "id": "portkey__ai",
+      "kind": "website",
+      "name": "Portkey",
+      "canonical_url": "https://portkey.ai",
+      "summary": "An AI gateway and observability platform for managing LLM request routing, retries, and prompt management.",
+      "tags": [
+        "llmops",
+        "ai-gateway",
+        "observability",
+        "llm-abstraction"
+      ],
+      "primary_category": "evals",
+      "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "postmark__rho__vercel__app",
       "kind": "website",
       "name": "postmark-rho.vercel.app",
       "canonical_url": "https://postmark-rho.vercel.app",
-      "summary": "Postmark (site) - A working Demo that acts as classifier to classify linkedin post which inside uses jev by Typesafe.ai.",
-      "tags": [],
+      "summary": "Postmark is a web app that evaluates draft text using TypeSafe Jev to score vibe, viral potential, and cringe risk.",
+      "tags": [
+        "decision-model",
+        "text-evaluation",
+        "vibe-check"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100626,14 +101063,15 @@
       "kind": "website",
       "name": "prior.cg3.io",
       "canonical_url": "https://prior.cg3.io",
-      "summary": "Prior is a knowledge exchange protocol that enables AI agents to search for previously solved problems across agent sessions without retraining or wasting tokens.",
+      "summary": "A knowledge exchange network that allows AI agents to search for and contribute solutions discovered during previous sessions.",
       "tags": [
+        "agent-memory",
         "mcp",
-        "agent-orchestration",
-        "memory-and-context"
+        "knowledge-exchange",
+        "coding-tools"
       ],
       "primary_category": "memory-and-context",
-      "lifecycle_status": "needs_review",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -100643,9 +101081,34 @@
       "kind": "website",
       "name": "Prismix",
       "canonical_url": "https://prismix.dev",
-      "summary": "Prismix – AI hub with 500+ MCP server directory, real-time status monitoring for 75+ AI services, and news aggregator from 70+ sources with email/webhook alerts.",
-      "tags": [],
+      "summary": "Prismix.dev is a curated hub offering real-time status, AI news, MCP server directory, and troubleshooting guides for AI services and tools.",
+      "tags": [
+        "dashboard",
+        "mcp",
+        "status",
+        "news",
+        "developer-tools"
+      ],
       "primary_category": "awesome-awesomes",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "privategpt__io",
+      "kind": "website",
+      "name": "Private GPT",
+      "canonical_url": "https://privategpt.io",
+      "summary": "A private RAG platform that allows users to query internal data sources like Notion, JIRA, and Slack using secure LLMs.",
+      "tags": [
+        "rag",
+        "local-ai",
+        "privacy",
+        "knowledge-management",
+        "security"
+      ],
+      "primary_category": "local-ai",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -100669,19 +101132,6 @@
       "activity_bucket": null
     },
     {
-      "id": "harness__autonomous__ai__desktop",
-      "kind": "website",
-      "name": "Product",
-      "canonical_url": "https://harness.autonomous.ai/desktop",
-      "summary": "Jev Sheets - Open source · Free source build · BYOK. OpenHarness desktop sheet pane: TypeSafe Jev answers typed column questions per row (Question Lab wording trials; BYOK or offline practice). Product · Project guide.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "quantdinger__com",
       "kind": "website",
       "name": "Product",
@@ -100699,8 +101149,12 @@
       "kind": "website",
       "name": "Prompt Evaluator",
       "canonical_url": "https://prompt-evaluator.vercel.app",
-      "summary": "Prompt Evaluator – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and workflow quality.",
-      "tags": [],
+      "summary": "Prompt Evaluator is a Vercel-hosted tool for testing and scoring prompts using model responses and eval criteria.",
+      "tags": [
+        "prompt-engineering",
+        "evals",
+        "testing"
+      ],
       "primary_category": "evals",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100846,19 +101300,6 @@
       "activity_bucket": null
     },
     {
-      "id": "pypi__org__project__pydecide",
-      "kind": "website",
-      "name": "pydecide",
-      "canonical_url": "https://pypi.org/project/pydecide",
-      "summary": "decide (site) - One client for every decision model: Choice, Score and Noul over Jev, OpenRouter, laya, MLX, CrossEncoders and LLM fallback.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "pypi__org__project__agent__cost__guardrails",
       "kind": "website",
       "name": "PyPI",
@@ -100876,26 +101317,18 @@
       "activity_bucket": null
     },
     {
-      "id": "pypi__org__project__commitpreflight",
+      "id": "pypi__org__project__pytest__jev",
       "kind": "website",
-      "name": "PyPI",
-      "canonical_url": "https://pypi.org/project/commitpreflight",
-      "summary": "commitpreflight – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available on PyPI with pre-commit hook support.",
-      "tags": [],
-      "primary_category": "extensions-and-addons",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__harness__ai__kit",
-      "kind": "website",
-      "name": "PyPI",
-      "canonical_url": "https://pypi.org/project/harness-ai-kit",
-      "summary": "harness-ai-kit – Package manager for AI agent assets (skills/CLIs/MCPs/loops). Install, lock, and sync skills across Codex, Claude Code, Cursor, Kiro with SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise skills included. Available on PyPI.",
-      "tags": [],
-      "primary_category": "skills",
+      "name": "pytest-jev",
+      "canonical_url": "https://pypi.org/project/pytest-jev",
+      "summary": "pytest-jev is a Python package for Jev-related functionality, as listed on PyPI.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "python",
+        "pypi"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -100978,8 +101411,14 @@
       "kind": "website",
       "name": "RapidNative",
       "canonical_url": "https://rapidnative.com",
-      "summary": "RapidNative – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.",
-      "tags": [],
+      "summary": "RapidNative is a mobile app builder that generates React Native and Expo apps from natural language prompts.",
+      "tags": [
+        "app-builder",
+        "react-native",
+        "expo",
+        "mobile",
+        "ai"
+      ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100991,8 +101430,12 @@
       "kind": "website",
       "name": "ray.run",
       "canonical_url": "https://ray.run",
-      "summary": "> ray.run – from idea to a production-grade MCP server in under a minute!",
-      "tags": [],
+      "summary": "ray.run is a hosted platform that builds, runs, and publishes MCP servers behind a single endpoint for coding agents to consume.",
+      "tags": [
+        "mcp",
+        "platform",
+        "developer-tool"
+      ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
       "stars": null,
@@ -101091,19 +101534,6 @@
       "activity_bucket": null
     },
     {
-      "id": "readmeai__six__vercel__app",
-      "kind": "website",
-      "name": "ReadMeAI",
-      "canonical_url": "https://readmeai-six.vercel.app",
-      "summary": "ReadMeAI – Generate professional README.md files from any GitHub repo URL with AI. Includes description, installation, usage, and contributing sections. Free, instant.",
-      "tags": [],
-      "primary_category": "app-builders",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "rebyte__ai",
       "kind": "website",
       "name": "Rebyte",
@@ -101116,6 +101546,24 @@
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "recast__indol__vercel__app",
+      "kind": "website",
+      "name": "Recast",
+      "canonical_url": "https://recast-indol.vercel.app",
+      "summary": "Recast is a browser-based tool that cleans, validates, and explains fixes for messy AI/LLM-generated JSON output.",
+      "tags": [
+        "json",
+        "ai-output",
+        "browser-tool",
+        "developer-productivity"
+      ],
+      "primary_category": "coding-agents",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -101140,26 +101588,17 @@
       "activity_bucket": null
     },
     {
-      "id": "smartbear__com__product__reflect",
+      "id": "regexai__six__vercel__app",
       "kind": "website",
-      "name": "Reflect",
-      "canonical_url": "https://smartbear.com/product/reflect",
-      "summary": "Reflect – No-code test automation with AI maintenance.",
-      "tags": [],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "remio__ai",
-      "kind": "website",
-      "name": "Remio",
-      "canonical_url": "https://remio.ai",
-      "summary": "Remio – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill workflows require the Remio desktop client.",
-      "tags": [],
-      "primary_category": "memory-and-context",
+      "name": "RegexAI",
+      "canonical_url": "https://regexai-six.vercel.app",
+      "summary": "RegexAI is a free online tool that helps users build and test regular expressions by describing patterns in plain English or pasting regex to validate matches.",
+      "tags": [
+        "regex",
+        "developer-tool",
+        "ai-assistant"
+      ],
+      "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101256,8 +101695,12 @@
       "kind": "website",
       "name": "Respan",
       "canonical_url": "https://respan.ai/ai-gateway",
-      "summary": "Respan – Full-stack AI engineering platform with a tracing SDK, evals, prompt management, and a gateway to 250+ models.",
-      "tags": [],
+      "summary": "AI Gateway for Production LLM Routing with failover, response caching, and observability for 1,000+ models via a unified endpoint.",
+      "tags": [
+        "llm-gateway",
+        "model-routing",
+        "observability"
+      ],
       "primary_category": "ai-frameworks",
       "lifecycle_status": "curated",
       "stars": null,
@@ -101316,25 +101759,6 @@
       "activity_bucket": null
     },
     {
-      "id": "rivestack__io",
-      "kind": "website",
-      "name": "Rivestack",
-      "canonical_url": "https://rivestack.io",
-      "summary": "Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector search and built-in semantic search tools.",
-      "tags": [
-        "postgresql",
-        "vector-search",
-        "pgvector",
-        "managed-database",
-        "ai-infrastructure"
-      ],
-      "primary_category": "ai-frameworks",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "riza__io",
       "kind": "website",
       "name": "Riza",
@@ -101356,8 +101780,14 @@
       "kind": "website",
       "name": "rlcd-modernbert-151m",
       "canonical_url": "https://huggingface.co/heman10x/rlcd-modernbert-151m",
-      "summary": "Verdict-open-jev (site, post) - Non-autoregressive decision engine on ModernBERT (151M) with calibrated uncertainty (RLCD), TypeSafe AI Jev benchmark audit, and in-browser WebGPU playground.",
-      "tags": [],
+      "summary": "rlcd-modernbert-151m is a 151M-parameter non-autoregressive decision model for structured software workflows, providing calibrated semantic judgments in a single forward pass.",
+      "tags": [
+        "decision-model",
+        "non-autoregressive",
+        "calibrated",
+        "text-classification",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -101369,11 +101799,12 @@
       "kind": "website",
       "name": "Rocket.new",
       "canonical_url": "https://rocket.new",
-      "summary": "Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build.",
+      "summary": "AI platform that generates web and mobile applications from prompts and provides market research and competitor intelligence.",
       "tags": [
-        "app-builder",
+        "app-builders",
         "no-code",
-        "prompt-to-app"
+        "market-research",
+        "saas"
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
@@ -101453,6 +101884,22 @@
       "activity_bucket": null
     },
     {
+      "id": "s1s__iar__dev",
+      "kind": "website",
+      "name": "s1s.iar.dev",
+      "canonical_url": "https://s1s.iar.dev",
+      "summary": "s1s.iar.dev is a Jev-powered application directory for projects built on TypeSafe AI's System One decision model.",
+      "tags": [
+        "decision-models",
+        "awesome-list"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "safurai__com",
       "kind": "website",
       "name": "Safurai",
@@ -101474,8 +101921,14 @@
       "kind": "website",
       "name": "scam-shield-seven-ecru.vercel.app",
       "canonical_url": "https://scam-shield-seven-ecru.vercel.app",
-      "summary": "scam-shield (site) - Scam text message filter powered by TypeSafe's Jev model.",
-      "tags": [],
+      "summary": "Scam Shield is a Vercel-hosted demo application for detecting scams, built on the Jev decision model from TypeSafe AI.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "security-demo",
+        "vercel",
+        "scam-detection"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -101576,19 +102029,6 @@
       "activity_bucket": null
     },
     {
-      "id": "scrnify__com",
-      "kind": "website",
-      "name": "scrnify",
-      "canonical_url": "https://scrnify.com",
-      "summary": "scrnify – Capture API for AI agents and developer automation to generate screenshots and videos of web pages.",
-      "tags": [],
-      "primary_category": "mcp",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "logicrw__github__io__awesome__jev__projects__en",
       "kind": "website",
       "name": "Search and filter",
@@ -101596,19 +102036,6 @@
       "summary": "> Search and filter ↗ · 798 curated projects",
       "tags": [],
       "primary_category": "awesome-awesomes",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "search__function__test__vercel__app",
-      "kind": "website",
-      "name": "search-function-test.vercel.app",
-      "canonical_url": "https://search-function-test.vercel.app",
-      "summary": "Search-Function-Test (site) - A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to question anything and find related answers/articles.",
-      "tags": [],
-      "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101667,9 +102094,30 @@
       "kind": "website",
       "name": "Septim Agents Pack",
       "canonical_url": "https://septimlabs.com/tools/agents",
-      "summary": "Septim Agents Pack – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance, design, legal, customer research, and cross-lane coordination. Drop the .claude/agents/ folder into any project; pay-once at $49.",
-      "tags": [],
+      "summary": "A one-time purchase of twelve Claude Code agents as markdown files for developer workflow automation.",
+      "tags": [
+        "claude-code",
+        "markdown-agents",
+        "developer-tools"
+      ],
       "primary_category": "skills",
+      "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "gtdbrain__com__connect",
+      "kind": "website",
+      "name": "Setup guides",
+      "canonical_url": "https://gtdbrain.com/connect",
+      "summary": "GTD Brain hosts a GTD Method MCP server that lets AI assistants read, add, edit, move, and archive GTD board cards using plain language.",
+      "tags": [
+        "mcp",
+        "gtd",
+        "productivity"
+      ],
+      "primary_category": "mcp",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101710,39 +102158,36 @@
       "activity_bucket": null
     },
     {
-      "id": "npmjs__com__package__sidegrade",
-      "kind": "website",
-      "name": "sidegrade",
-      "canonical_url": "https://npmjs.com/package/sidegrade",
-      "summary": "sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.",
-      "tags": [],
-      "primary_category": "evals",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "vnmoorthy__github__io__siege",
-      "kind": "website",
-      "name": "siege",
-      "canonical_url": "https://vnmoorthy.github.io/siege",
-      "summary": "siege (site) - SIEGE: 200 people vs one agent. A typed action gate (TypeSafe System One) that learns from every breach, evaluated by W&B Weave, hardened by a defender loop. Built at CoreWeave Hacks: Agent Loops 2026.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "sinatra__dev",
       "kind": "website",
       "name": "Sinatra",
       "canonical_url": "https://sinatra.dev",
-      "summary": "Sinatra – Coding agent for Linear and GitHub issues; runs in an isolated sandbox, opens a PR, and runs on your Claude or ChatGPT subscription.",
-      "tags": [],
+      "summary": "Sinatra.dev is an autonomous coding agent that reads codebases, writes code, runs tests, and opens pull requests when assigned a Linear issue or GitHub issue label.",
+      "tags": [
+        "coding-agent",
+        "linear",
+        "github",
+        "pr-automation"
+      ],
       "primary_category": "coding-agents",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "jev__hooks__demo__microchipgnu__workers__dev__docs",
+      "kind": "website",
+      "name": "site",
+      "canonical_url": "https://jev-hooks-demo.microchipgnu.workers.dev/docs",
+      "summary": "Jev Hooks is an independent library that provides typed semantic state hooks for React and backend programs, enabling composition of model judgments like state.",
+      "tags": [
+        "ai-integration",
+        "react-hooks",
+        "decision-models",
+        "state-management"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101800,6 +102245,23 @@
       "activity_bucket": null
     },
     {
+      "id": "npmjs__com__package__lukstei__slop__grader",
+      "kind": "website",
+      "name": "slop-grader",
+      "canonical_url": "https://npmjs.com/package/@lukstei/slop-grader",
+      "summary": "slop-grader is an npm package that evaluates text outputs from language models to detect and score low-quality or nonsensical content ('slop').",
+      "tags": [
+        "evals",
+        "text-quality",
+        "llm-testing"
+      ],
+      "primary_category": "evals",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "smithery__ai",
       "kind": "website",
       "name": "smithery.ai",
@@ -101811,6 +102273,23 @@
         "tools"
       ],
       "primary_category": "mcp",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "npmjs__com__package__snifftest",
+      "kind": "website",
+      "name": "snifftest",
+      "canonical_url": "https://npmjs.com/package/snifftest",
+      "summary": "snifftest is an npm package serving as a Jev-based agent tool in the TypeSafe AI ecosystem.",
+      "tags": [
+        "jev",
+        "decision-model",
+        "agent-tooling"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101857,8 +102336,14 @@
       "kind": "website",
       "name": "Speakeasy",
       "canonical_url": "https://speakeasy.com/product/ai-control-plane",
-      "summary": "Speakeasy – Enterprise AI control plane for governing access, policy, and auditability across agents, MCP servers, and Skills.",
-      "tags": [],
+      "summary": "Speakeasy AI Control Plane is a managed or self-hosted platform that connects, secures, distributes, and observes AI agents across an organization by governing MCP, skill, and agent sessions through identity, policy, and audit trails.",
+      "tags": [
+        "ai-control-plane",
+        "mcp",
+        "observability",
+        "security",
+        "enterprise"
+      ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
       "stars": null,
@@ -101886,8 +102371,12 @@
       "kind": "website",
       "name": "spendbrake.vercel.app",
       "canonical_url": "https://spendbrake.vercel.app",
-      "summary": "spendbrake (site) - Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev.",
-      "tags": [],
+      "summary": "SpendBrake is a budget gate that uses Jev decision models to continue, downgrade, or stop agent runs based on spend vs. value.",
+      "tags": [
+        "budget",
+        "decision-model",
+        "agent"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -101899,10 +102388,16 @@
       "kind": "website",
       "name": "spring-ai-typesafe",
       "canonical_url": "https://spring-ai-community.github.io/spring-ai-typesafe",
-      "summary": "spring-ai-typesafe (site) - A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations.",
-      "tags": [],
+      "summary": "Redirect placeholder for spring-ai-typesafe, a TypeSafe AI Jev-based decision model integration for Spring applications.",
+      "tags": [
+        "spring",
+        "jev",
+        "typesafe",
+        "decision-model",
+        "java"
+      ],
       "primary_category": "ai-frameworks",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -101948,11 +102443,11 @@
       "kind": "website",
       "name": "Supercode.sh",
       "canonical_url": "https://supercode.sh",
-      "summary": "Supercode.sh is an extension for Claude, Codex, and Cursor that optimizes token usage, provides curated agent skills, and enables spec-driven development.",
+      "summary": "Supercode.sh is a paid extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor agents.",
       "tags": [
-        "ai-extension",
+        "extensions",
         "token-optimization",
-        "agent-skills"
+        "skills-catalog"
       ],
       "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
@@ -101965,8 +102460,12 @@
       "kind": "website",
       "name": "Supercode.sh",
       "canonical_url": "https://supercode.sh/en",
-      "summary": "Supercode.sh – Cursor extension adding Architect Mode, voice input, and prompt enhancement.",
-      "tags": [],
+      "summary": "Supercode is a browser extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor.",
+      "tags": [
+        "token-optimization",
+        "agent-extension",
+        "skills-catalog"
+      ],
       "primary_category": "extensions-and-addons",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102013,8 +102512,12 @@
       "kind": "website",
       "name": "swarmrouter.vercel.app",
       "canonical_url": "https://swarmrouter.vercel.app",
-      "summary": "swarmrouter (site) - Route tasks to research/code/browser/support/writer agents via TypeSafe Jev.",
-      "tags": [],
+      "summary": "SwarmRouter is a Jev-powered decision model that routes tasks to specialized agents for research, code, browser, support, or writing based on typed judgments.",
+      "tags": [
+        "decision-models",
+        "agent-routing",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102063,8 +102566,12 @@
       "kind": "website",
       "name": "system-one-router",
       "canonical_url": "https://mmornati.github.io/system-one-router",
-      "summary": "system-one-router (site) - A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark.",
-      "tags": [],
+      "summary": "System One Router is a benchmark comparing routing decisions of multiple decision models on 80 labelled prompts.",
+      "tags": [
+        "benchmark",
+        "decision-models",
+        "routing"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102076,13 +102583,13 @@
       "kind": "website",
       "name": "systemprompt.io",
       "canonical_url": "https://systemprompt.io",
-      "summary": "SystemPrompt is a self-hosted Rust runtime for governing AI client access, model routing, and tool execution with centralized policy enforcement and audit logging.",
+      "summary": "A self-hosted control plane and Rust runtime designed to govern access, identity, and tool permissions for enterprise AI agents.",
       "tags": [
-        "ai-governance",
-        "self-hosted",
-        "security",
-        "mcp",
-        "rust"
+        "governance",
+        "control-plane",
+        "rust",
+        "enterprise-ai",
+        "security"
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
@@ -102146,8 +102653,12 @@
       "kind": "website",
       "name": "Taskade Genesis",
       "canonical_url": "https://taskade.com/create",
-      "summary": "Taskade Genesis – Prompt-to-app builder for live portals, CRMs, and dashboards with agents and automations.",
-      "tags": [],
+      "summary": "Taskade Genesis is a no-code AI app builder that turns natural-language prompts into deployed apps with projects, agents, and automations.",
+      "tags": [
+        "app-builder",
+        "no-code",
+        "ai"
+      ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102214,11 +102725,12 @@
       "kind": "website",
       "name": "TeamoRouter",
       "canonical_url": "https://router.teamolab.com",
-      "summary": "TeamoRouter is an LLM routing service that lets developers use a single API key to access discounted Claude, GPT, and Gemini models for coding agents like Claude Code and Codex.",
+      "summary": "An LLM routing gateway that provides a unified API to access multiple providers like Claude, OpenAI, and Gemini at discounted rates.",
       "tags": [
         "llm-router",
+        "provider-abstraction",
         "cost-optimization",
-        "api-proxy"
+        "api-gateway"
       ],
       "primary_category": "decision-models",
       "lifecycle_status": "needs_review",
@@ -102231,10 +102743,14 @@
       "kind": "website",
       "name": "TeamoRouter",
       "canonical_url": "https://teamorouter.cn",
-      "summary": "LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via skill.md.",
-      "tags": [],
+      "summary": "TeamoRouter is an LLM router that provides a single API key for accessing Claude Code, Codex, and other AI coding agents with discounted model pricing and usage tracking.",
+      "tags": [
+        "llm-router",
+        "cost-optimization",
+        "api-gateway"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102244,16 +102760,16 @@
       "kind": "website",
       "name": "TeamoRouter",
       "canonical_url": "https://teamorouter.com",
-      "summary": "An LLM routing gateway providing a unified, OpenAI-compatible API to access multiple models like Claude, GPT, and Gemini with automated cost reduction.",
+      "summary": "A unified LLM routing API that provides access to multiple models at discounted rates, specifically optimized for coding agents.",
       "tags": [
         "llm-router",
         "api-gateway",
+        "claude-code",
         "cost-optimization",
-        "model-abstraction",
-        "infrastructure"
+        "coding-agents"
       ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102369,23 +102885,14 @@
       "kind": "website",
       "name": "thruwire.ai",
       "canonical_url": "https://thruwire.ai",
-      "summary": "foreman (site, post) - Software Factory Foreman: an agent supervisor that uses Jev decisions to keep coding agents on task.",
-      "tags": [],
+      "summary": "ThruWire is an AI checkpoint system that creates explicit, inspectable artifacts and shared work models to enable coordination between humans and agents.",
+      "tags": [
+        "agent-coordination",
+        "workflow",
+        "context-management"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "thursdai__news",
-      "kind": "website",
-      "name": "thursdai.news",
-      "canonical_url": "https://thursdai.news",
-      "summary": "jevify (site) - An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102529,6 +103036,24 @@
       "activity_bucket": null
     },
     {
+      "id": "trustgate__mu__vercel__app",
+      "kind": "website",
+      "name": "trustgate-mu.vercel.app",
+      "canonical_url": "https://trustgate-mu.vercel.app",
+      "summary": "TrustGate is a TypeSafe Jev-powered moderation gate that classifies content as publish, soft-hold, or block using typed decision-model judgments.",
+      "tags": [
+        "decision-model",
+        "content-moderation",
+        "jev",
+        "safety"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "fotocopiatrice__vercel__app",
       "kind": "website",
       "name": "Try app",
@@ -102550,8 +103075,12 @@
       "kind": "website",
       "name": "Try app",
       "canonical_url": "https://jev-chat-ten.vercel.app",
-      "summary": "Preguntale a Jev - Source unverified · Free · BYOK. No-login yes/no chat: TypeSafe Jev Choice probabilities via Vercel AI Gateway (Spanish UI). Try app · Project guide.",
-      "tags": [],
+      "summary": "A web-based yes/no question interface that uses the Jev decision model to return probabilistic answers with confidence levels.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "web-tool"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102563,8 +103092,12 @@
       "kind": "website",
       "name": "Try app",
       "canonical_url": "https://jev-column-race.vercel.app",
-      "summary": "jev-column-race (site) - Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1× faster and 7× cheaper.",
-      "tags": [],
+      "summary": "Column Race is a demo tool that compares AI model outputs on app reviews by running side-by-side sentiment, topic, bug report, and churn risk analyses using TypeSafe Jev and Gemini APIs.",
+      "tags": [
+        "decision-models",
+        "benchmark",
+        "ai-comparison"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102576,8 +103109,12 @@
       "kind": "website",
       "name": "Try app",
       "canonical_url": "https://jev.mintan.org",
-      "summary": "Jev Asks Until Sure - Open source · Free · BYOK. Twenty-questions web game: TypeSafe Jev keeps asking until calibrated confidence crosses a threshold (hosted demo or BYOK). Try app · Project guide.",
-      "tags": [],
+      "summary": "Jev.mintan.org is a Japanese-language web demo of the Jev decision model that answers typed questions with probabilistic judgments about user personality, origin, and age.",
+      "tags": [
+        "decision-model",
+        "demo",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102589,8 +103126,12 @@
       "kind": "website",
       "name": "Try app",
       "canonical_url": "https://jevpdf.fly.dev",
-      "summary": "jevpdf (site) - Ask a PDF in your own words and watch the matching lines light up. React + pdf.js + TypeSafe Jev.",
-      "tags": [],
+      "summary": "JevPDF is a tool that leverages the Jev decision model to enable PDF-related functionality, likely involving retrieval, reasoning, or decision-based interactions with PDF content.",
+      "tags": [
+        "decision-models",
+        "pdf",
+        "document-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102602,8 +103143,12 @@
       "kind": "website",
       "name": "Try app",
       "canonical_url": "https://jevslop.pages.dev",
-      "summary": "JevSlop - Open source · Free source build · BYOK. Scores note articles for AI-slop writing patterns with TypeSafe Jev (BYOK). Try app · Project guide.",
-      "tags": [],
+      "summary": "JevSlop is a tool that evaluates published note articles by sending their title and content to TypeSafe for a writing-quality judgment based on eight transparent detail signals.",
+      "tags": [
+        "writing",
+        "judgment",
+        "decision-model"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102615,34 +103160,12 @@
       "kind": "website",
       "name": "Try app",
       "canonical_url": "https://talktojev.com",
-      "summary": "talktojev (Jev Prime) - Open source · Free · BYOK. Generation-as-classification web chat: TypeSafe Jev chooses every word via OpenRouter Decisions (no LLM). Try app · Project guide.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "onecentdemo__com",
-      "kind": "website",
-      "name": "Try demos",
-      "canonical_url": "https://onecentdemo.com",
-      "summary": "jev-demofast - Open source · Free source build · BYOK. One sentence in, a narrated product demo out: TypeSafe Jev drives your real product in a browser (optional source-built screen map). Try demos · Project guide.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "tryjevai__com",
-      "kind": "website",
-      "name": "TryJevAI",
-      "canonical_url": "https://tryjevai.com",
-      "summary": "TryJevAI - Scheduling: public Jev playground uses a typed Choice with an explicit Unresolved option to distinguish a mentioned arrival time from an agreed meeting time, showing the returned probabilities and prompting for missing agreement before treating a time as settled.",
-      "tags": [],
+      "summary": "talktojev.com is a website offering access to the Jev decision model for typed questions with probabilistic answers.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "api"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102671,8 +103194,12 @@
       "kind": "website",
       "name": "Tuning Engines",
       "canonical_url": "https://tuningengines.com",
-      "summary": "Tuning Engines – Governed AI runtime and MCP server for coding agents: route models through one OpenAI-compatible API, apply RBAC and traffic policies, request approvals, and inspect traces and usage.",
-      "tags": [],
+      "summary": "Tuning Engines is an AI workforce management system that monitors, governs, and optimizes software agents and embodied robots through a unified control plane.",
+      "tags": [
+        "ai-governance",
+        "agent-observability",
+        "cost-control"
+      ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102718,8 +103245,13 @@
       "kind": "website",
       "name": "twitterapi.io",
       "canonical_url": "https://twitterapi.io",
-      "summary": "kaitoInfra/twitterapi-io-mcp-server : Hosted MCP server for twitterapi.io — Twitter/X data API for AI agents. 12 read-only tools: tweet search with full operators, profiles, threads, real-time WebSocket streaming. Hosted endpoint at mcp.twitterapi.io/mcp, npm @kaitoinfra/twitterapi-io-mcp-server.",
-      "tags": [],
+      "summary": "twitterapi.io is a third-party REST and WebSocket API providing real-time and historical access to X (Twitter) data for developers and AI agents.",
+      "tags": [
+        "api",
+        "social-data",
+        "mcp",
+        "developer-tools"
+      ],
       "primary_category": "mcp",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102731,8 +103263,12 @@
       "kind": "website",
       "name": "Typed decisions, not chat",
       "canonical_url": "https://warmersun.com/jev",
-      "summary": "Typed decisions, not chat - Independent walkthrough separating TypeSafe's published claims from public evidence.",
-      "tags": [],
+      "summary": "Jev is a TypeSafe AI System One decision model that returns structured probabilities (Choice, Score, Noul) for typed questions instead of generating text.",
+      "tags": [
+        "decision-model",
+        "typed-inference",
+        "structured-output"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102744,9 +103280,30 @@
       "kind": "website",
       "name": "TypeSafe AI",
       "canonical_url": "https://typesafe.ai",
-      "summary": "> Directory of projects built on Jev, TypeSafe AI's System One model.",
-      "tags": [],
+      "summary": "TypeSafe AI provides Jev, a System One Model that outputs typed decisions with calibrated confidence for software automation.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "automation"
+      ],
       "primary_category": "awesome-awesomes",
+      "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "theregister__com__ai__and__ml__2026__09__16__typesafe__ai__debuts__model__for__machines__that__plays__doom__5296711",
+      "kind": "website",
+      "name": "TypeSafe AI debuts model for machines that plays Doom",
+      "canonical_url": "https://theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+      "summary": "TypeSafe AI's Jev is a System One decision model that returns typed probabilistic outputs for software consumption rather than natural language.",
+      "tags": [
+        "decision-model",
+        "typed-output",
+        "ai-automation"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -102774,8 +103331,11 @@
       "kind": "website",
       "name": "TypeSafe Typewriter",
       "canonical_url": "https://typesafe-demo.val.run",
-      "summary": "TypeSafe Typewriter (post) - Val Town demo where 16 typed judgments update live as you type.",
-      "tags": [],
+      "summary": "TypeSafe Typewriter is a web demo that shows real-time judgments from the Jev decision model as users type sentences.",
+      "tags": [
+        "demo",
+        "decision-model"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102836,19 +103396,6 @@
       "activity_bucket": null
     },
     {
-      "id": "typesafe__ai__trading__showcase__vercel__app",
-      "kind": "website",
-      "name": "typesafe-ai-trading-showcase.vercel.app",
-      "canonical_url": "https://typesafe-ai-trading-showcase.vercel.app",
-      "summary": "Probably (site) - Probably: live BTC, ETH, and XRP prices with a shared TypeSafe buy-or-wait demonstration. No trades placed.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "crates__io__crates__typesafe__jev__mcp",
       "kind": "website",
       "name": "typesafe-jev-mcp",
@@ -102868,12 +103415,35 @@
       "activity_bucket": null
     },
     {
+      "id": "go__dw1__io__typesafe__sdk__go",
+      "kind": "website",
+      "name": "typesafe-sdk-go",
+      "canonical_url": "https://go.dw1.io/typesafe-sdk-go",
+      "summary": "A Go SDK for the Jev decision model system from TypeSafe AI.",
+      "tags": [
+        "go",
+        "sdk",
+        "decision-model",
+        "jev",
+        "typesafe"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "typesafe__vs__deepseek__vercel__app",
       "kind": "website",
       "name": "typesafe-vs-deepseek.vercel.app",
       "canonical_url": "https://typesafe-vs-deepseek.vercel.app",
-      "summary": "typesafe-vs-deepseek (site) - TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison across invoice extraction, email classification, and reranking.",
-      "tags": [],
+      "summary": "TypeSafe vs DeepSeek vs OpenAI is a live comparison tool that runs identical tasks across three AI engines to measure speed, cost, accuracy, and hallucination rate.",
+      "tags": [
+        "benchmark",
+        "model-comparison",
+        "evals"
+      ],
       "primary_category": "evals",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102881,13 +103451,35 @@
       "activity_bucket": null
     },
     {
-      "id": "ui__generator__instinct__jev__vercel__app",
+      "id": "mikulskibartosz__name__typesafe__jev__guess__what__i__drew",
       "kind": "website",
-      "name": "ui-generator-instinct-jev.vercel.app",
-      "canonical_url": "https://ui-generator-instinct-jev.vercel.app",
-      "summary": "Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.",
-      "tags": [],
-      "primary_category": "app-builders",
+      "name": "TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway",
+      "canonical_url": "https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew",
+      "summary": "An experimental evaluation where a text-only decision model (Jev) is asked to classify hand-drawn sketches converted to SVG or base64 text.",
+      "tags": [
+        "evaluation",
+        "decision-models",
+        "vision-limits"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "zenn__dev__nwn__articles__824026c76116e0",
+      "kind": "website",
+      "name": "TypeSafeのJevを正しく驚く",
+      "canonical_url": "https://zenn.dev/nwn/articles/824026c76116e0",
+      "summary": "An article discussing TypeSafe's Jev, a decision model that returns calibrated probabilities instead of generating text, with demonstrations of its speed and accuracy in JSON output and game-playing tasks like DOOM and Mario.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe",
+        "calibrated-probability"
+      ],
+      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -102898,10 +103490,14 @@
       "kind": "website",
       "name": "UIZZE",
       "canonical_url": "https://uizze.com",
-      "summary": "UIZZE – Stop generic UI before it ships. The free MIT anti-ui-slop Skill gives coding agents a product-specific design contract, required loading/empty/error states, and a hard finish gate. The optional authenticated MCP provides find_ui_references and find_ui_materials over 800,000+ real web and iOS screens.",
-      "tags": [],
+      "summary": "Uizze is a searchable library of 800,000+ real web and iOS screens designed to provide visual UI references for AI coding agents.",
+      "tags": [
+        "ui-reference",
+        "ai-agents",
+        "design-resources"
+      ],
       "primary_category": "skills",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102964,12 +103560,13 @@
       "kind": "website",
       "name": "v0",
       "canonical_url": "https://v0.app",
-      "summary": "An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts.",
+      "summary": "An AI-powered assistant by Vercel for generating, designing, and deploying full-stack web applications from natural language prompts.",
       "tags": [
         "vercel",
         "full-stack",
         "prompt-to-app",
-        "web-dev"
+        "web-dev",
+        "deployment"
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
@@ -102982,12 +103579,13 @@
       "kind": "website",
       "name": "v0",
       "canonical_url": "https://v0.dev",
-      "summary": "v0 by Vercel is an AI assistant that generates full-stack web applications from natural language prompts and deploys them to Vercel.",
+      "summary": "An AI-powered web application generator that builds full-stack applications from natural language prompts.",
       "tags": [
         "app-builder",
-        "ai-assisted",
+        "vercel",
         "full-stack",
-        "vercel"
+        "generative-ui",
+        "frontend"
       ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
@@ -103036,11 +103634,13 @@
       "kind": "website",
       "name": "Vectorize",
       "canonical_url": "https://vectorize.io",
-      "summary": "Vectorize provides open-source agent memory (Hindsight) that enables AI agents to learn from experience and retain persistent context across sessions.",
+      "summary": "An open-source agent memory layer that provides persistent, per-user context and automated knowledge synthesis through a reflection layer.",
       "tags": [
-        "memory",
-        "agent",
-        "mcp"
+        "agent-memory",
+        "mcp",
+        "rag",
+        "context-management",
+        "persistence"
       ],
       "primary_category": "memory-and-context",
       "lifecycle_status": "curated",
@@ -103072,8 +103672,12 @@
       "kind": "website",
       "name": "Vercel AI Gateway",
       "canonical_url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
-      "summary": "Vercel AI Gateway - typesafe-ai/jev through AI SDK's experimental evaluate interface; its Boolean primitive corresponds to TypeSafe's Noul.",
-      "tags": [],
+      "summary": "Vercel AI Gateway now hosts TypeSafe AI's Jev, a probabilistic decision model that returns typed answers with probabilities for routing, scoring, and verification tasks.",
+      "tags": [
+        "decision-model",
+        "ai-gateway",
+        "vercel"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103116,12 +103720,34 @@
       "activity_bucket": null
     },
     {
+      "id": "openrouter__ai__docs__cookbook__evaluate__and__optimize__jev__verified__cascade",
+      "kind": "website",
+      "name": "Verified cascade",
+      "canonical_url": "https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-verified-cascade",
+      "summary": "A recipe for a draft-verify-escalate cascade using Jev to reduce LLM costs by routing only uncertain answers to a frontier model.",
+      "tags": [
+        "llm-cost",
+        "jev",
+        "prompt-engineering",
+        "agent-pattern"
+      ],
+      "primary_category": "memory-and-context",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "verify__papertrellis__com",
       "kind": "website",
       "name": "verify.papertrellis.com",
       "canonical_url": "https://verify.papertrellis.com",
-      "summary": "citation-verifier (site) - Check whether each cited paper supports the sentence citing it. Claude proves the quote, TypeSafe's Jev scores it, a human decides.",
-      "tags": [],
+      "summary": "Paper Trellis Citation Verifier is a Jev-based tool for verifying academic citations using TypeSafe AI's System One decision model.",
+      "tags": [
+        "decision-models",
+        "academic-tools",
+        "verification"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103133,10 +103759,16 @@
       "kind": "website",
       "name": "Vernclaw Connect CLI",
       "canonical_url": "https://vernclaw.com",
-      "summary": "Vernclaw Connect CLI – Official connector CLI with JSON-first agent-friendly connector invocation, managed connectors, and bundled skill docs for open-source workflows.",
-      "tags": [],
+      "summary": "A collection of managed plugins and connectors that provide OpenClaw agents with SEO data, social media extraction, and content generation capabilities.",
+      "tags": [
+        "connectors",
+        "openclaw",
+        "agent-tools",
+        "seo-data",
+        "plugins"
+      ],
       "primary_category": "mcp",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103146,10 +103778,16 @@
       "kind": "website",
       "name": "VibeAudit",
       "canonical_url": "https://vibeaudit.sh",
-      "summary": "VibeAudit – Pre-launch code audit that reads your whole repo and returns a launch-readiness score plus fixes as paste-ready prompts for your AI editor.",
-      "tags": [],
+      "summary": "An AI-powered scanner that audits GitHub repositories for security and reliability risks and generates fix prompts for AI editors.",
+      "tags": [
+        "security",
+        "auditing",
+        "github",
+        "code-quality",
+        "prompts"
+      ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103159,14 +103797,15 @@
       "kind": "website",
       "name": "VibeDoctor",
       "canonical_url": "https://vibedoctor.io",
-      "summary": "VibeDoctor is a security and performance scanning service for AI-generated code that runs 149+ automated checks via MCP integration.",
+      "summary": "A security, performance, and code quality scanner designed to audit applications built by AI agents.",
       "tags": [
         "security",
+        "mcp",
         "code-quality",
-        "mcp"
+        "agent-tooling"
       ],
       "primary_category": "extensions-and-addons",
-      "lifecycle_status": "needs_review",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103195,9 +103834,30 @@
       "kind": "website",
       "name": "Vibes DIY",
       "canonical_url": "https://vibes.diy",
-      "summary": "Vibes DIY – Open-source AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.",
-      "tags": [],
+      "summary": "Vibes DIY is a prompt-to-app platform that generates deployable web applications from natural language descriptions.",
+      "tags": [
+        "app-builder",
+        "prompt-to-app",
+        "no-code"
+      ],
       "primary_category": "app-builders",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "vicaura__com",
+      "kind": "website",
+      "name": "Vicaura",
+      "canonical_url": "https://vicaura.com",
+      "summary": "Vicaura.com turns products into markdown repositories of features and logic for use in coding agents.",
+      "tags": [
+        "context",
+        "markdown",
+        "product-logic"
+      ],
+      "primary_category": "memory-and-context",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -103278,8 +103938,14 @@
       "kind": "website",
       "name": "VULK",
       "canonical_url": "https://vulk.dev",
-      "summary": "VULK – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js games, Shopify themes. Firecracker microVM live preview, BYOM with 16+ models, EU-hosted, full code export.",
-      "tags": [],
+      "summary": "VULK is an AI app builder that generates full-stack web, mobile, and 3D apps from prompts and allows code export and publishing.",
+      "tags": [
+        "app-builder",
+        "full-stack",
+        "3d",
+        "mcp",
+        "low-code"
+      ],
       "primary_category": "app-builders",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103300,19 +103966,6 @@
         "team-inbox"
       ],
       "primary_category": "mcp",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "pypi__org__project__watfile",
-      "kind": "website",
-      "name": "watfile",
-      "canonical_url": "https://pypi.org/project/watfile",
-      "summary": "watfile (site) - Text/PDF - File categorization and sorting with Typesafe AI Jev or local calibrated decision model.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -103426,8 +104079,13 @@
       "kind": "website",
       "name": "wellposed",
       "canonical_url": "https://npmjs.com/package/wellposed",
-      "summary": "wellposed (site) - Lints Jev requests before they are sent: offline checks for missing none-of-the-above options and broken state paths, then Jev itself for what structure cannot decide.",
-      "tags": [],
+      "summary": "wellposed is an npm package for the Jev decision model from TypeSafe AI's System One.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe",
+        "npm"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103439,22 +104097,13 @@
       "kind": "website",
       "name": "What is Jev?",
       "canonical_url": "https://mohammedshehu.com/jev-typesafe-ai",
-      "summary": "What is Jev? - Short practical intro with a Python ticket-triage example.",
-      "tags": [],
+      "summary": "Jev is a decision model that returns typed answers (Choice, Score, Noul) with probabilities instead of generating text, accessible via a Python SDK.",
+      "tags": [
+        "decision-model",
+        "structured-output",
+        "ai-inference"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "whisper__remskill__com",
-      "kind": "website",
-      "name": "Whisper by Remskill",
-      "canonical_url": "https://whisper.remskill.com",
-      "summary": "Whisper by Remskill – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier.",
-      "tags": [],
-      "primary_category": "local-ai",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -103564,19 +104213,6 @@
       "activity_bucket": null
     },
     {
-      "id": "wrapped__ivanhabor__com",
-      "kind": "website",
-      "name": "wrapped.ivanhabor.com",
-      "canonical_url": "https://wrapped.ivanhabor.com",
-      "summary": "jev-wrapped (site) - Telegram channel X-ray: Jev judges a year of posts, you get a card. One Cloudflare Worker.",
-      "tags": [],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "getwren__ai",
       "kind": "website",
       "name": "Wren",
@@ -103668,8 +104304,14 @@
       "kind": "website",
       "name": "Yappy",
       "canonical_url": "https://yappy.biz/jev",
-      "summary": "Yappy - Computer use: macOS voice agent that asks Jev one Choice per step (operation and target control) over the front window's accessibility table, executes only validated high-confidence answers, and escalates to a full LLM agent on low confidence, no-effect actions, or unknown field values; author-reported 275–690 ms per decision.",
-      "tags": [],
+      "summary": "A non-generative decision model that returns typed, probabilistic answers instead of text to facilitate high-speed computer use.",
+      "tags": [
+        "decision-model",
+        "computer-use",
+        "macos",
+        "low-latency",
+        "structured-output"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103681,10 +104323,16 @@
       "kind": "website",
       "name": "Yaw",
       "canonical_url": "https://yaw.sh",
-      "summary": "Yaw — Cross-platform terminal that auto-detects CLI coding agents (Claude Code, Codex, Gemini CLI, Vibe CLI) and opens a split-pane workflow.",
-      "tags": [],
+      "summary": "An AI-enhanced terminal environment featuring an integrated SSH client, database manager, file editor, and specialized harnesses for coding agents.",
+      "tags": [
+        "terminal",
+        "mcp",
+        "claude-code",
+        "ai-assistant",
+        "dev-workflow"
+      ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -103694,8 +104342,14 @@
       "kind": "website",
       "name": "ycsearch.purbayan.me",
       "canonical_url": "https://ycsearch.purbayan.me",
-      "summary": "yc-jev-bench (site) - Can Jev replace an LLM reranker? A benchmark of TypeSafe's Jev vs Claude Haiku and BGE on natural-language search over all 6,245 YC companies, with a live search demo.",
-      "tags": [],
+      "summary": "A search interface for YC company data that functions as a benchmark for the Jev decision model's reranking capabilities.",
+      "tags": [
+        "search",
+        "benchmark",
+        "decision-models",
+        "reranker",
+        "yc"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103724,8 +104378,12 @@
       "kind": "website",
       "name": "Yes / No",
       "canonical_url": "https://yesno.coderai.dev",
-      "summary": "Yes / No - Free, no-signup Noul demo. Ask a question, get yes, no, or maybe, with web search when needed.",
-      "tags": [],
+      "summary": "Yes/No is a free web demo of the Jev decision model from TypeSafe AI that returns Yes, No, or Maybe answers to typed questions, optionally using live web search.",
+      "tags": [
+        "decision-model",
+        "demo",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103771,10 +104429,15 @@
       "kind": "website",
       "name": "ZenML",
       "canonical_url": "https://zenml.io",
-      "summary": "ZenML - Interact with your MLOps and LLMOps pipelines through your ZenML MCP server",
-      "tags": [],
+      "summary": "ZenML is an open-source MLOps platform for orchestrating ML pipelines and agent workflows on user-selected infrastructure.",
+      "tags": [
+        "mlops",
+        "orchestration",
+        "pipelines",
+        "agent-workflows"
+      ],
       "primary_category": "mcp",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null

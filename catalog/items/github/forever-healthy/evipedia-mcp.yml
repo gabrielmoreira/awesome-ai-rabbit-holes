@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__forever-healthy__evipedia-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - <a name="bio"></a>Biology, Medicine and Bioinformatics
         anchor_text: forever-healthy/evipedia-mcp
         extracted_url: https://github.com/forever-healthy/evipedia-mcp
-        surrounding_text: >-
-          - [forever-healthy/evipedia-mcp](https://github.com/forever-healthy/evipedia-mcp)
-          [![forever-healthy/evipedia-mcp MCP
-          server](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp)
-          📇 ☁️ 🍎 🪟 🐧 - Search Evipedia's evidence-based reviews of health and longevity interventions, fetch
-          conclusions and metadata with PMIDs, and suggest new interventions.
+        surrounding_text: "- [forever-healthy/evipedia-mcp](https://github.com/forever-healthy/evipedia-mcp) [![forever-healthy/evipedia-mcp MCP server](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp/badges/score.svg)](https://glama.ai/mcp/servers/forever-healthy/evipedia-mcp) 📇 ☁️ 🍎 🪟 🐧 - Search Evipedia's evidence-based reviews of health and longevity interventions, fetch conclusions and metadata with PMIDs, and suggest new interventions."
         confidence: high
 metadata:
   github:
@@ -35,14 +30,14 @@ metadata:
     archived: false
     full_name: forever-healthy/evipedia-mcp
     html_url: https://github.com/forever-healthy/evipedia-mcp
-    created_at: '2026-07-05T13:42:06Z'
-    pushed_at: '2026-09-09T12:49:08Z'
+    created_at: "2026-07-05T13:42:06Z"
+    pushed_at: "2026-09-09T12:49:08Z"
     description: MCP Server for evipedia.ai
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:22.694Z'
+    last_checked_at: "2026-09-29T13:11:22.694Z"
     readme:
-      fetched_at: '2026-09-29T13:11:22.694Z'
+      fetched_at: "2026-09-29T13:11:22.694Z"
       bytes: 5337
 insights:
   summary: MCP Server for evipedia.ai
@@ -65,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:22.694Z'
+    updated_at: "2026-09-29T13:11:22.694Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

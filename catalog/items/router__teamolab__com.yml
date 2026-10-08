@@ -36,14 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TeamoRouter is an LLM routing service that lets developers use a single API key to access discounted Claude, GPT, and Gemini models for coding agents like Claude Code and Codex.
-  why_it_matters: It reduces token costs and simplifies provider management for developers using multiple AI coding agents by offering up to 90% off official model pricing with unified billing.
-  mental_damage: Another layer of abstraction to save pennies on tokens while adding yet another API key and dashboard to the growing pile of AI tooling overhead.
+  summary: An LLM routing gateway that provides a unified API to access multiple providers like Claude, OpenAI, and Gemini at discounted rates.
+  why_it_matters: It allows developers to use high-end models in coding agents like Claude Code with significantly lower token costs and simplified provider management.
+  mental_damage: Consolidating your entire model provider stack into one single point of failure just to save a few cents per million tokens.
   tags:
     - llm-router
+    - provider-abstraction
     - cost-optimization
-    - api-proxy
-  confidence: medium
+    - api-gateway
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
@@ -52,10 +53,10 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'extensions-and-addons'"
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
@@ -67,30 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:44:27.788Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for router__teamolab__com: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": TeamoRoute\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:25:56.301Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:5b750b95c49a34c06c43212011c40982f2e5fb2bd6548f62bd9ef871fdd97873
-      proposed_primary_category: extensions-and-addons
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:671024a894acbb04f59fb5d48db6d979811272501ac3a8a1ef131cbcbe1248b5
+      proposed_primary_category: ai-frameworks
       disagreement: true
-      decision_reason: TeamoRouter functions as a host-agnostic integration layer that enables coding agents like Claude Code and Codex to access models via a unified, cost-optimized endpoint, making it an extension rather than a standalone agent or framework.
+      decision_reason: It functions as an LLM abstraction layer, providing a unified endpoint and SDKs to route requests across various model providers.
       decision_evidence:
-        - Designed specifically to work with Claude Code, Codex, and other coding agents via OpenAI/Anthropic-compatible endpoints
-        - Core value is routing, metering, and billing for agent workflows — not performing coding tasks itself
-        - Marketed as a 'one-line change' to point existing tools at TeamoRouter, positioning it as a drop-in integration
+        - Provides a single API key and base URL to replace official provider endpoints
+        - Features smart routing, prompt caching, and auto-fallbacks for models like Claude and GPT
+        - Designed to be used as a provider abstraction for tools like Claude Code and Codex
       category_candidates:
+        - ai-frameworks
         - extensions-and-addons
-        - mcp
-      contrastive_reason: Choose extensions-and-addons over mcp because TeamoRouter’s primary identity is as a cost-optimized routing and billing proxy for coding agents, not as an MCP server, client, or infrastructure toolkit — MCP compatibility is not mentioned or implied in its core positioning.
-      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'extensions-and-addons'"
+      contrastive_reason: Choose ai-frameworks over extensions-and-addons because its primary identity is a provider abstraction/gateway rather than a tool that installs into a specific host.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'ai-frameworks'"
       review_resume_lifecycle: null

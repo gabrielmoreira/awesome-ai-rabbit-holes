@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentpostmortem__bridgekit__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,10 +20,7 @@ provenance:
           - 💻 Developer Tools
         anchor_text: AgentPostmortem/Bridgekit
         extracted_url: https://github.com/agentpostmortem/bridgekit
-        surrounding_text: >-
-          -   **[AgentPostmortem/Bridgekit](https://github.com/AgentPostmortem/Bridgekit)** [![GitHub
-          stars](https://img.shields.io/github/stars/AgentPostmortem/Bridgekit?style=social)](https://github.com/AgentPostmortem/Bridgekit):
-          Scoped MCP server with per-client permission boundaries and an append-only audit log.
+        surrounding_text: "-   **[AgentPostmortem/Bridgekit](https://github.com/AgentPostmortem/Bridgekit)** [![GitHub stars](https://img.shields.io/github/stars/AgentPostmortem/Bridgekit?style=social)](https://github.com/AgentPostmortem/Bridgekit): Scoped MCP server with per-client permission boundaries and an append-only audit log."
         confidence: high
 metadata:
   github:
@@ -33,12 +30,9 @@ metadata:
     archived: false
     full_name: AgentPostmortem/Bridgekit
     html_url: https://github.com/AgentPostmortem/Bridgekit
-    created_at: '2026-06-10T06:12:59Z'
-    pushed_at: '2026-09-17T11:24:00Z'
-    description: >-
-      A scoped MCP server exposing company tools (Shopify, Triple Whale, Postgres) to an AI stack with per-client
-      permission boundaries and an append-only audit log. Writes need an explicit scope. Zero runtime dependencies,
-      hand-rolled MCP on Cloudflare Workers.
+    created_at: "2026-06-10T06:12:59Z"
+    pushed_at: "2026-09-17T11:24:00Z"
+    description: A scoped MCP server exposing company tools (Shopify, Triple Whale, Postgres) to an AI stack with per-client permission boundaries and an append-only audit log. Writes need an explicit scope. Zero runtime dependencies, hand-rolled MCP on Cloudflare Workers.
     homepage: https://bridgekit.agentpostmortem.com
     topics:
       - access-control
@@ -48,15 +42,12 @@ metadata:
       - mcp
       - model-context-protocol
       - typescript
-    last_checked_at: '2026-09-29T13:08:35.478Z'
+    last_checked_at: "2026-09-29T13:08:35.478Z"
     readme:
-      fetched_at: '2026-09-29T13:08:35.478Z'
+      fetched_at: "2026-09-29T13:08:35.478Z"
       bytes: 2411
 insights:
-  summary: >-
-    A scoped MCP server exposing company tools (Shopify, Triple Whale, Postgres) to an AI stack with per-client
-    permission boundaries and an append-only audit log. Writes need an explicit scope. Zero runtime dependencies,
-    hand-rolled MCP on Cloudflare Workers.
+  summary: A scoped MCP server exposing company tools (Shopify, Triple Whale, Postgres) to an AI stack with per-client permission boundaries and an append-only audit log. Writes need an explicit scope. Zero runtime dependencies, hand-rolled MCP on Cloudflare Workers.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -76,15 +67,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:35.478Z'
+    updated_at: "2026-09-29T13:08:35.478Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

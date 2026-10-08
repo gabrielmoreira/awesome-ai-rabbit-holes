@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bankbridge-money__bankbridge-plugin__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: bankbridge-money/bankbridge-plugin
         extracted_url: https://github.com/bankbridge-money/bankbridge-plugin
-        surrounding_text: >-
-          -   **[bankbridge-money/bankbridge-plugin](https://github.com/bankbridge-money/bankbridge-plugin)** [![GitHub
-          stars](https://img.shields.io/github/stars/bankbridge-money/bankbridge-plugin?style=social)](https://github.com/bankbridge-money/bankbridge-plugin):
-          Read-only bank access for AI agents via hosted MCP server. 12 tools — balances, transactions, recurring
-          charges, monthly cashflow, holdings — for Claude, ChatGPT, Cursor, Gemini, Codex. Plaid-backed.
+        surrounding_text: "-   **[bankbridge-money/bankbridge-plugin](https://github.com/bankbridge-money/bankbridge-plugin)** [![GitHub stars](https://img.shields.io/github/stars/bankbridge-money/bankbridge-plugin?style=social)](https://github.com/bankbridge-money/bankbridge-plugin): Read-only bank access for AI agents via hosted MCP server. 12 tools — balances, transactions, recurring charges, monthly cashflow, holdings — for Claude, ChatGPT, Cursor, Gemini, Codex. Plaid-backed."
         confidence: high
 metadata:
   github:
@@ -34,14 +30,14 @@ metadata:
     archived: false
     full_name: bankbridge-money/bankbridge-plugin
     html_url: https://github.com/bankbridge-money/bankbridge-plugin
-    created_at: '2026-04-19T06:54:42Z'
-    pushed_at: '2026-07-10T19:44:59Z'
+    created_at: "2026-04-19T06:54:42Z"
+    pushed_at: "2026-07-10T19:44:59Z"
     description: Claude plugin for BankBridge — read-only access to bank accounts, transactions, and investments via MCP.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:26.518Z'
+    last_checked_at: "2026-09-29T13:09:26.518Z"
     readme:
-      fetched_at: '2026-09-29T13:09:26.518Z'
+      fetched_at: "2026-09-29T13:09:26.518Z"
       bytes: 9363
 insights:
   summary: Claude plugin for BankBridge — read-only access to bank accounts, transactions, and investments via MCP.
@@ -64,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:26.518Z'
+    updated_at: "2026-09-29T13:09:26.518Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

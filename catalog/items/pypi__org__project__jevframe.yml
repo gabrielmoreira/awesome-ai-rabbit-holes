@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jevframe__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://pypi.org/project/jevframe
-        surrounding_text: >-
-          - [jevframe](https://github.com/ktaletsk/jevframe) ([site](https://pypi.org/project/jevframe/)) - Semantic AI
-          for pandas and Polars: classify text, analyze sentiment, and score DataFrame rows with natural-language
-          questions and full probabilities using TypeSafe Jev.
+        surrounding_text: "- [jevframe](https://github.com/ktaletsk/jevframe) ([site](https://pypi.org/project/jevframe/)) - Semantic AI for pandas and Polars: classify text, analyze sentiment, and score DataFrame rows with natural-language questions and full probabilities using TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevframe (site) - Semantic AI for pandas and Polars: classify text, analyze sentiment, and score DataFrame rows with
-    natural-language questions and full probabilities using TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jevframe is a decision-model-based tool built on TypeSafe AI's Jev (System One) model for typed probabilistic judgments.
+  why_it_matters: It provides developers with a deterministic decision layer for routing, scoring, or guardrails in agent workflows without relying on generative model outputs.
+  mental_damage: Another layer to debug when your agent keeps choosing the wrong tool because the probabilities don't add up.
+  tags:
+    - decision-models
+    - jev
+    - typed-judgments
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  reason: Jevframe is built on and exposes the Jev decision model via a PyPI package, making it a developer-facing SDK for calling typed probabilistic judgments, which aligns with decision-models' core purpose.
   evidence:
-    - jev-latest choice confidence 0.63
+    - Available on PyPI as a installable package (jevframe)
+    - Listed in 'awesome-jev' under 'Demos & playgrounds' as a project built on Jev (TypeSafe System One)
+    - No evidence of being a coding agent, app builder, or orchestrator — identity centers on Jev model usage
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Search, Retrieval & Data
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:28.950Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2384aa1f4892f1570b55ecd7f24b38127fcdb56081cdf060c5ce7fd8996e0e6c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jevframe is built on and exposes the Jev decision model via a PyPI package, making it a developer-facing SDK for calling typed probabilistic judgments, which aligns with decision-models' core purpose.
+      decision_evidence:
+        - Available on PyPI as a installable package (jevframe)
+        - Listed in 'awesome-jev' under 'Demos & playgrounds' as a project built on Jev (TypeSafe System One)
+        - No evidence of being a coding agent, app builder, or orchestrator — identity centers on Jev model usage
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because jevframe's primary identity is providing access to the Jev decision model for typed judgments, not serving as a general-purpose agent or LLM framework SDK.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

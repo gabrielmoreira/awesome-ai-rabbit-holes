@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amberwhitehead__jevscript__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jevscript**'
+        anchor_text: "**jevscript**"
         extracted_url: https://github.com/amberwhitehead/jevscript
-        surrounding_text: >-
-          - [**jevscript**](https://github.com/amberwhitehead/jevscript) — An early language experiment whose current
-          implementation is a Jev request-batching spike.
+        surrounding_text: "- [**jevscript**](https://github.com/amberwhitehead/jevscript) — An early language experiment whose current implementation is a Jev request-batching spike."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: amberwhitehead/jevscript
     html_url: https://github.com/amberwhitehead/jevscript
-    created_at: '2026-09-16T17:32:40Z'
-    pushed_at: '2026-09-17T02:36:45Z'
+    created_at: "2026-09-16T17:32:40Z"
+    pushed_at: "2026-09-17T02:36:45Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:55.087Z'
+    last_checked_at: "2026-09-29T13:08:55.087Z"
     readme:
-      fetched_at: '2026-09-29T13:08:55.087Z'
+      fetched_at: "2026-09-29T13:08:55.087Z"
       bytes: 2829
 insights:
   summary: null
@@ -59,15 +57,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:55.087Z'
+    updated_at: "2026-09-29T13:08:55.087Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

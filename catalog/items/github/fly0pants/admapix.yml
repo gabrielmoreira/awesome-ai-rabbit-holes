@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fly0pants__admapix__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: fly0pants/admapix
         extracted_url: https://github.com/fly0pants/admapix
-        surrounding_text: >-
-          -   **[fly0pants/admapix](https://github.com/fly0pants/admapix)** [![GitHub
-          stars](https://img.shields.io/github/stars/fly0pants/admapix?style=social)](https://github.com/fly0pants/admapix):
-          Search global advertising creatives and return structured JSON for competitor ad research. `pip install
-          admapix-mcp`.
+        surrounding_text: "-   **[fly0pants/admapix](https://github.com/fly0pants/admapix)** [![GitHub stars](https://img.shields.io/github/stars/fly0pants/admapix?style=social)](https://github.com/fly0pants/admapix): Search global advertising creatives and return structured JSON for competitor ad research. `pip install admapix-mcp`."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: fly0pants/admapix
     html_url: https://github.com/fly0pants/admapix
-    created_at: '2026-03-13T02:07:09Z'
-    pushed_at: '2026-08-20T16:02:48Z'
-    description: >-
-      AdMapix — AI-powered ad intelligence & mobile app analytics. Search ad creatives, analyze competitor strategies,
-      track rankings across 200+ countries. SimilarWeb/Sensor Tower/AppGrowing alternative.
+    created_at: "2026-03-13T02:07:09Z"
+    pushed_at: "2026-08-20T16:02:48Z"
+    description: AdMapix — AI-powered ad intelligence & mobile app analytics. Search ad creatives, analyze competitor strategies, track rankings across 200+ countries. SimilarWeb/Sensor Tower/AppGrowing alternative.
     homepage: https://www.admapix.com
     topics:
       - ad-analytics
@@ -61,9 +55,9 @@ metadata:
       - sensor-tower-alternative
       - similarweb-alternative
       - spyfu-alternative
-    last_checked_at: '2026-09-29T13:11:21.439Z'
+    last_checked_at: "2026-09-29T13:11:21.439Z"
     readme:
-      fetched_at: '2026-09-29T13:11:21.439Z'
+      fetched_at: "2026-09-29T13:11:21.439Z"
       bytes: 3214
 insights:
   summary: null
@@ -84,15 +78,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:21.439Z'
+    updated_at: "2026-09-29T13:11:21.439Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

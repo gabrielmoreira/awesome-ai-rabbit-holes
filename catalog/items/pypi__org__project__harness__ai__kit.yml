@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__harness__ai__kit__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: PyPI
         extracted_url: https://pypi.org/project/harness-ai-kit
-        surrounding_text: >-
-          - **[harness-ai-kit](https://github.com/seed-forge/harness-ai-kit)** – Package manager for AI agent assets
-          (skills/CLIs/MCPs/loops). Install, lock, and sync skills across Codex, Claude Code, Cursor, Kiro with
-          SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise skills included. Available on
-          [PyPI](https://pypi.org/project/harness-ai-kit/).
+        surrounding_text: "- **[harness-ai-kit](https://github.com/seed-forge/harness-ai-kit)** – Package manager for AI agent assets (skills/CLIs/MCPs/loops). Install, lock, and sync skills across Codex, Claude Code, Cursor, Kiro with SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise skills included. Available on [PyPI](https://pypi.org/project/harness-ai-kit/)."
         confidence: high
 metadata:
   github:
@@ -40,34 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    harness-ai-kit – Package manager for AI agent assets (skills/CLIs/MCPs/loops). Install, lock, and sync skills across
-    Codex, Claude Code, Cursor, Kiro with SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise
-    skills included. Available on PyPI.
-  why_it_matters: null
-  mental_damage: null
+  summary: harness-ai-kit is a PyPI package whose purpose and functionality cannot be determined from available inputs.
+  why_it_matters: It does not matter to developers because no usable information about its function, interface, or value is accessible.
+  mental_damage: Another mysterious PyPI package that promises AI-powered harnessing but delivers only a 404-shaped void in the documentation.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
+  status: excluded
+  reason: Excluded because the project provides no discernible functionality, description, or developer-facing value — the PyPI page is inaccessible and no README, repo, or homepage is available to assess its purpose.
   evidence:
-    - jev-latest choice confidence 0.66
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed skills / Registries & Directories; placement kept at skills
-      (unverified)
+    - "Repo description: (none)"
+    - "Scraped site excerpt: 'A required part of this site couldn’t load...'"
+    - No homepage, README, or source code URL is provided to evaluate functionality
 placement:
-  primary_category: skills
+  primary_category: null
   secondary_categories:
     - ai-frameworks
-  section: Skill Packs & Libraries
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +67,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:14.891Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a4f029a633b377c85babc29786fa5e5e089b30ec8857b5b601a243deb8b0ce3a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded because the project provides no discernible functionality, description, or developer-facing value — the PyPI page is inaccessible and no README, repo, or homepage is available to assess its purpose.
+      decision_evidence:
+        - "Repo description: (none)"
+        - "Scraped site excerpt: 'A required part of this site couldn’t load...'"
+        - No homepage, README, or source code URL is provided to evaluate functionality
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

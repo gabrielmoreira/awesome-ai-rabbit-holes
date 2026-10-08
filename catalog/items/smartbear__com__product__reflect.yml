@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__smartbear__com__product__reflect__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Reflect
         extracted_url: https://reflect.run
-        surrounding_text: '- **[Reflect](https://reflect.run/)** – No-code test automation with AI maintenance.'
+        surrounding_text: "- **[Reflect](https://reflect.run/)** – No-code test automation with AI maintenance."
         confidence: high
 metadata:
   github:
@@ -36,28 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Reflect – No-code test automation with AI maintenance.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SmartBear Reflect is a commercial AI-powered codeless testing tool for web and mobile applications that uses plain-English prompts to generate and maintain automated tests.
+  why_it_matters: It reduces test maintenance overhead by adapting to UI changes, helping developers and testers keep test suites aligned with evolving applications.
+  mental_damage: Another no-code testing tool promising to 'heal itself' while your team still spends time translating English into test steps that break on the next redesign.
+  tags:
+    - testing
+    - ai-powered
+    - codeless
+    - web-testing
+    - mobile-testing
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  status: excluded
+  reason: Reflect is a SaaS testing platform focused on application integrity via AI-generated UI tests, not a developer-facing AI tool for coding, agents, or workflows; it serves QA/tester workflows rather than software development workflows.
   evidence:
-    - jev-latest choice confidence 0.58
-    - jev winnow:e4b 0.33 below gate 0.50; proposed out of scope; placement kept at coding-agents (unverified)
+    - AI-powered test automation that maintains application integrity across every layer of your stack
+    - Build tests with intuitive agents [...] Create tests directly from your AI-coding environments like Claude Code or Cursor
+    - Listed in awesome-ai-coding-tools under Testing and QA section
 placement:
-  primary_category: coding-agents
+  primary_category: null
   secondary_categories: []
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:32.817Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7523f058a0ab099b188e7b137c679f0b52ca21d6b17a277f1a1c1cafaf65be07
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Reflect is a SaaS testing platform focused on application integrity via AI-generated UI tests, not a developer-facing AI tool for coding, agents, or workflows; it serves QA/tester workflows rather than software development workflows.
+      decision_evidence:
+        - AI-powered test automation that maintains application integrity across every layer of your stack
+        - Build tests with intuitive agents [...] Create tests directly from your AI-coding environments like Claude Code or Cursor
+        - Listed in awesome-ai-coding-tools under Testing and QA section
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

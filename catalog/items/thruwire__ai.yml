@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__thruwire__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://thruwire.ai
-        surrounding_text: >-
-          - [foreman](https://github.com/thruwire/foreman) ([site](https://thruwire.ai),
-          [post](https://x.com/JoshARosen/status/2100573432089866717)) - Software Factory Foreman: an agent supervisor
-          that uses Jev decisions to keep coding agents on task.
+        surrounding_text: "- [foreman](https://github.com/thruwire/foreman) ([site](https://thruwire.ai), [post](https://x.com/JoshARosen/status/2100573432089866717)) - Software Factory Foreman: an agent supervisor that uses Jev decisions to keep coding agents on task."
         confidence: high
 metadata:
   github:
@@ -39,13 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    foreman (site, post) - Software Factory Foreman: an agent supervisor that uses Jev decisions to keep coding agents
-    on task.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ThruWire is an AI checkpoint system that creates explicit, inspectable artifacts and shared work models to enable coordination between humans and agents.
+  why_it_matters: It provides a durable work state that survives tool and model changes, reducing context fragmentation in agent-assisted development.
+  mental_damage: Finally, a way to pretend your agents aren't just hallucinating in silos while you manually stitch together yesterday's decisions.
+  tags:
+    - agent-coordination
+    - workflow
+    - context-management
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
@@ -54,14 +52,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'memory-and-context'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +67,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:10.723Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e2c592ba14eb0416cb798ab940396d1453b7d793763829e01e463e3c8007070a
+      proposed_primary_category: memory-and-context
+      disagreement: true
+      decision_reason: ThruWire's core is a shared, explicit work model with checkpointed artifacts that functions as persistent, inspectable context for both humans and agents, fitting memory-and-context's focus on improving what reaches the model.
+      decision_evidence:
+        - ThruWire makes the important state of the work explicit, while leaving agents free to reason, delegate, use tools, and choose their own path between checkpoints.
+        - Artifacts produced are connected to the context that produced them, so each result updates the shared model and becomes context for what happens next.
+        - "Appears in source list 'awesome-jev' under 'Agent tooling' with description: 'Checkpoints guide people and agents through what matters, then return evidence you can inspect, correct, and improve.'"
+      category_candidates:
+        - memory-and-context
+        - agent-orchestration
+      contrastive_reason: Choose memory-and-context over agent-orchestration because ThruWire's primary identity is managing shared work state and contextual artifacts between checkpoints, not coordinating multiple agents or managing agent lifecycles.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'memory-and-context'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

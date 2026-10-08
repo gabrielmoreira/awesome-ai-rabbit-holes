@@ -36,18 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: xiaosheng.blog is a personal website returning a 404 error with no discernible content or tooling purpose.
-  why_it_matters: It does not matter to developers as it provides no accessible information, tools, or resources.
-  mental_damage: Another dead link in the AI resource graveyard, reminding us that even curated lists can point to digital voids.
+  summary: A curated collection of LLM and AI development resources and tutorials.
+  why_it_matters: It intended to provide a centralized starting point for discovering tools and tutorials across the AI ecosystem.
+  mental_damage: The most efficient way to avoid AI fatigue is a resource that is permanently unavailable.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The site returns a 404 error with no content, making it impossible to assess as a developer tool or resource, and thus it fails to meet the catalog's requirement for substantive, accessible content.
+  reason: The resource is currently inaccessible as the URL returns a 404 Not Found error.
   evidence:
-    - Scraped site context shows a 404 Not Found error with no title, description, or meaningful excerpt
-    - Source-list placement in awesome-LLM-resources under '教程 Tutorial' is inconclusive due to inaccessible content
-    - No repository description, README, or other grounded input is available to determine functionality or purpose
+    - "Scraped site context: 404 Not Found"
+    - No active repository or content found to verify substance
 placement:
   primary_category: null
   section: null
@@ -66,24 +65,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:58:19.069Z"
+    updated_at: "2026-10-08T04:33:27.967Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:e59070e0c62018baa9704624f5fc6d1f8723d0af0996c05cd0220f0225706c1f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site returns a 404 error with no content, making it impossible to assess as a developer tool or resource, and thus it fails to meet the catalog's requirement for substantive, accessible content.
+      decision_reason: The resource is currently inaccessible as the URL returns a 404 Not Found error.
       decision_evidence:
-        - Scraped site context shows a 404 Not Found error with no title, description, or meaningful excerpt
-        - Source-list placement in awesome-LLM-resources under '教程 Tutorial' is inconclusive due to inaccessible content
-        - No repository description, README, or other grounded input is available to determine functionality or purpose
+        - "Scraped site context: 404 Not Found"
+        - No active repository or content found to verify substance
       category_candidates: []
       contrastive_reason: null
       review_reason: null

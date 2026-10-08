@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__baize7815__jev-mcp-open-source__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-mcp-open-source**'
+        anchor_text: "**jev-mcp-open-source**"
         extracted_url: https://github.com/baize7815/jev-mcp-open-source
-        surrounding_text: >-
-          - [**jev-mcp-open-source**](https://github.com/baize7815/jev-mcp-open-source) — Self-hosted Jev MCP on
-          Cloudflare Workers with intent routing, retrieval reranking and batch judgments
+        surrounding_text: "- [**jev-mcp-open-source**](https://github.com/baize7815/jev-mcp-open-source) — Self-hosted Jev MCP on Cloudflare Workers with intent routing, retrieval reranking and batch judgments"
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: baize7815/jev-mcp-open-source
     html_url: https://github.com/baize7815/jev-mcp-open-source
-    created_at: '2026-09-22T00:48:14Z'
-    pushed_at: '2026-09-22T16:45:53Z'
+    created_at: "2026-09-22T00:48:14Z"
+    pushed_at: "2026-09-22T16:45:53Z"
     description: Self-hosted Jev MCP on Cloudflare Workers with intent routing, retrieval reranking and batch judgments
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:25.886Z'
+    last_checked_at: "2026-09-29T13:09:25.886Z"
     readme:
-      fetched_at: '2026-09-29T13:09:25.886Z'
+      fetched_at: "2026-09-29T13:09:25.886Z"
       bytes: 11631
 insights:
   summary: Self-hosted Jev MCP on Cloudflare Workers with intent routing, retrieval reranking and batch judgments
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:25.886Z'
+    updated_at: "2026-09-29T13:09:25.886Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

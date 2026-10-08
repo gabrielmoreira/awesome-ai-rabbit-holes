@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cardotrejos__jev-should-i-apply__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-should-i-apply
         extracted_url: https://github.com/cardotrejos/jev-should-i-apply
-        surrounding_text: '- [jev-should-i-apply](https://github.com/cardotrejos/jev-should-i-apply) - Typesafe/Jev public X demo.'
+        surrounding_text: "- [jev-should-i-apply](https://github.com/cardotrejos/jev-should-i-apply) - Typesafe/Jev public X demo."
         confidence: high
     - id: discovery__github__cardotrejos__jev-should-i-apply__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +35,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: jev-should-i-apply
         extracted_url: https://github.com/cardotrejos/jev-should-i-apply
-        surrounding_text: >-
-          | [jev-should-i-apply](https://github.com/cardotrejos/jev-should-i-apply) | ★ 0 | — | 2026-09-19 |
-          Typesafe/Jev public X demo. |
+        surrounding_text: "| [jev-should-i-apply](https://github.com/cardotrejos/jev-should-i-apply) | ★ 0 | — | 2026-09-19 | Typesafe/Jev public X demo. |"
         confidence: high
 metadata:
   github:
@@ -47,14 +45,14 @@ metadata:
     archived: false
     full_name: cardotrejos/jev-should-i-apply
     html_url: https://github.com/cardotrejos/jev-should-i-apply
-    created_at: '2026-09-17T15:09:46Z'
-    pushed_at: '2026-09-17T15:09:48Z'
+    created_at: "2026-09-17T15:09:46Z"
+    pushed_at: "2026-09-17T15:09:48Z"
     description: Typesafe/Jev public X demo
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:41.841Z'
+    last_checked_at: "2026-09-29T13:09:41.841Z"
     readme:
-      fetched_at: '2026-09-29T13:09:41.841Z'
+      fetched_at: "2026-09-29T13:09:41.841Z"
       bytes: 48
 insights:
   summary: Typesafe/Jev public X demo
@@ -77,15 +75,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:41.841Z'
+    updated_at: "2026-09-29T13:09:41.841Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

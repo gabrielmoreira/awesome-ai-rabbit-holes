@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__chat__ten__vercel__app__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Try app
         extracted_url: https://jev-chat-ten.vercel.app
-        surrounding_text: >-
-          - [Preguntale a Jev](https://github.com/dariozfold6-wez2/JEV-CHAT) - `Source unverified` · `Free` · `BYOK`.
-          No-login yes/no chat: TypeSafe Jev Choice probabilities via Vercel AI Gateway (Spanish UI). [Try
-          app](https://jev-chat-ten.vercel.app) · [Project guide](community/projects/apps/preguntale-a-jev.md).
+        surrounding_text: "- [Preguntale a Jev](https://github.com/dariozfold6-wez2/JEV-CHAT) - `Source unverified` · `Free` · `BYOK`. No-login yes/no chat: TypeSafe Jev Choice probabilities via Vercel AI Gateway (Spanish UI). [Try app](https://jev-chat-ten.vercel.app) · [Project guide](community/projects/apps/preguntale-a-jev.md)."
         confidence: high
 metadata:
   github:
@@ -40,18 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Preguntale a Jev - Source unverified · Free · BYOK. No-login yes/no chat: TypeSafe Jev Choice probabilities via
-    Vercel AI Gateway (Spanish UI). Try app · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A web-based yes/no question interface that uses the Jev decision model to return probabilistic answers with confidence levels.
+  why_it_matters: Developers can get quick, uncertainty-aware judgments on technical or career questions without installing or registering for anything.
+  mental_damage: Another AI oracle that turns existential developer dread into a number between 0 and 100.
+  tags:
+    - decision-model
+    - jev
+    - web-tool
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The core product is a decision model (Jev) that answers typed yes/no questions with probabilistic outputs, matching the decision-models category definition even though it is presented as a simple web app.
   evidence:
-    - jev-latest choice confidence 0.81
+    - The site describes Jev as a 'TypeSafe AI' model that returns probability and confidence for yes/no questions.
+    - It is listed in the awesome-jev directory under 'Community projects > Apps powered by Jev'.
+    - The tool does not edit code, generate apps, or act as a coding assistant; its sole function is delivering model-based judgments.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -62,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:53.921Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:172243561f3973e012402c40c427d06cfad4ec4b4ddc0df5d6d67f7152fde376
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The core product is a decision model (Jev) that answers typed yes/no questions with probabilistic outputs, matching the decision-models category definition even though it is presented as a simple web app.
+      decision_evidence:
+        - The site describes Jev as a 'TypeSafe AI' model that returns probability and confidence for yes/no questions.
+        - It is listed in the awesome-jev directory under 'Community projects > Apps powered by Jev'.
+        - The tool does not edit code, generate apps, or act as a coding assistant; its sole function is delivering model-based judgments.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product does not generate deployable apps from prompts but instead returns probabilistic judgments from a decision model as its primary output.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

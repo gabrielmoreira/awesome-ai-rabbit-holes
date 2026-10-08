@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bentlybro__siftr__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: siftr
         extracted_url: https://github.com/bentlybro/siftr
-        surrounding_text: >-
-          - [siftr](https://github.com/Bentlybro/siftr) - Fast, cheap judgment for AI coding agents: semantic search,
-          focused reads and list picking in ~2s. CLI + MCP server on TypeSafe Jev. Benchmarked on SWE-bench.
+        surrounding_text: "- [siftr](https://github.com/Bentlybro/siftr) - Fast, cheap judgment for AI coding agents: semantic search, focused reads and list picking in ~2s. CLI + MCP server on TypeSafe Jev. Benchmarked on SWE-bench."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: Bentlybro/siftr
     html_url: https://github.com/Bentlybro/siftr
-    created_at: '2026-09-19T00:09:47Z'
-    pushed_at: '2026-09-19T03:08:50Z'
-    description: >-
-      Fast, cheap judgment for AI coding agents: semantic search, focused reads and list picking in ~2s. CLI + MCP
-      server on TypeSafe Jev. Benchmarked on SWE-bench.
+    created_at: "2026-09-19T00:09:47Z"
+    pushed_at: "2026-09-19T03:08:50Z"
+    description: "Fast, cheap judgment for AI coding agents: semantic search, focused reads and list picking in ~2s. CLI + MCP server on TypeSafe Jev. Benchmarked on SWE-bench."
     homepage: null
     topics:
       - ai-agents
@@ -45,14 +41,12 @@ metadata:
       - semantic-search
       - swe-bench
       - tokens
-    last_checked_at: '2026-09-29T13:09:29.983Z'
+    last_checked_at: "2026-09-29T13:09:29.983Z"
     readme:
-      fetched_at: '2026-09-29T13:09:29.983Z'
+      fetched_at: "2026-09-29T13:09:29.983Z"
       bytes: 5524
 insights:
-  summary: >-
-    Fast, cheap judgment for AI coding agents: semantic search, focused reads and list picking in ~2s. CLI + MCP server
-    on TypeSafe Jev. Benchmarked on SWE-bench.
+  summary: "Fast, cheap judgment for AI coding agents: semantic search, focused reads and list picking in ~2s. CLI + MCP server on TypeSafe Jev. Benchmarked on SWE-bench."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,9 +56,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
   evidence:
     - jev-latest choice confidence 0.95
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -76,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:29.983Z'
+    updated_at: "2026-09-29T13:09:29.983Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

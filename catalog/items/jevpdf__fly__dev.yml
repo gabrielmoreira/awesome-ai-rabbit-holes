@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevpdf__fly__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jevpdf.fly.dev
-        surrounding_text: >-
-          - [jevpdf](https://github.com/kylemclaren/jevpdf) ([site](https://jevpdf.fly.dev)) - Ask a PDF in your own
-          words and watch the matching lines light up. React + pdf.js + TypeSafe Jev.
+        surrounding_text: "- [jevpdf](https://github.com/kylemclaren/jevpdf) ([site](https://jevpdf.fly.dev)) - Ask a PDF in your own words and watch the matching lines light up. React + pdf.js + TypeSafe Jev."
         confidence: high
     - id: discovery__jevpdf__fly__dev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -36,10 +34,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Try app
         extracted_url: https://jevpdf.fly.dev
-        surrounding_text: >-
-          - [JevPDF](https://github.com/kylemclaren/jevpdf) - `Open source` · `Free` · `BYOK`. Ask a PDF in your own
-          words; TypeSafe Jev answers one yes/no question per extracted line and matching lines highlight in the
-          browser. [Try app](https://jevpdf.fly.dev) · [Project guide](community/projects/apps/jevpdf.md).
+        surrounding_text: "- [JevPDF](https://github.com/kylemclaren/jevpdf) - `Open source` · `Free` · `BYOK`. Ask a PDF in your own words; TypeSafe Jev answers one yes/no question per extracted line and matching lines highlight in the browser. [Try app](https://jevpdf.fly.dev) · [Project guide](community/projects/apps/jevpdf.md)."
         confidence: high
 metadata:
   github:
@@ -57,31 +52,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jevpdf (site) - Ask a PDF in your own words and watch the matching lines light up. React + pdf.js + TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JevPDF is a tool that leverages the Jev decision model to enable PDF-related functionality, likely involving retrieval, reasoning, or decision-based interactions with PDF content.
+  why_it_matters: It allows developers to build applications that make structured, probabilistic decisions over PDF content using a decision model instead of generative AI, enabling more reliable workflows for document triage, extraction, or routing.
+  mental_damage: Another specialized wrapper around a niche model that promises precision but locks you into a fragmented ecosystem of Jev-dependent tools with unclear interoperability.
+  tags:
+    - decision-models
+    - pdf
+    - document-ai
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: JevPDF's core identity is as an application built around the Jev decision model for PDF interaction, making it a decision-model-driven tool rather than a coding agent, framework, or general document AI tool.
   evidence:
-    - jev-latest choice confidence 0.60
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed app-builders / Site & Landing Page Builders; placement kept at
-      decision-models (unverified)
+    - Seen in source lists as part of 'awesome-jev' under 'Apps powered by Jev' and 'Demos & playgrounds', indicating it is a Jev-powered application
+    - The tool is hosted at jevpdf.fly.dev and named JevPDF, suggesting it is a demo or lightweight app showcasing Jev's capabilities in a PDF context
+    - No evidence of it being a coding agent, framework, or SDK — it presents as an end-user or developer-facing app that uses Jev for judgment-based tasks
 placement:
   primary_category: decision-models
   secondary_categories:
     - app-builders
-  section: Apps, Games & Simulation
+  section: Browser & Computer Use
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +86,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:28.746Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6bc21f8177320a0ec63382c210240ff870c93457f76d87c1699def5f5ded13d8
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: JevPDF's core identity is as an application built around the Jev decision model for PDF interaction, making it a decision-model-driven tool rather than a coding agent, framework, or general document AI tool.
+      decision_evidence:
+        - Seen in source lists as part of 'awesome-jev' under 'Apps powered by Jev' and 'Demos & playgrounds', indicating it is a Jev-powered application
+        - The tool is hosted at jevpdf.fly.dev and named JevPDF, suggesting it is a demo or lightweight app showcasing Jev's capabilities in a PDF context
+        - No evidence of it being a coding agent, framework, or SDK — it presents as an end-user or developer-facing app that uses Jev for judgment-based tasks
+      category_candidates:
+        - decision-models
+        - document-ai
+      contrastive_reason: Choose decision-models over document-ai because JevPDF's primary value comes from applying the Jev decision model to PDF tasks, not from document parsing or OCR as a core function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

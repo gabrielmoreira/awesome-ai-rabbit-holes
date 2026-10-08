@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__erhanmeydan__jev2048__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Games & simulations
         anchor_text: jev2048 (erhanmeydan)
         extracted_url: https://github.com/erhanmeydan/jev2048
-        surrounding_text: >-
-          - [jev2048 (erhanmeydan)](https://github.com/erhanmeydan/jev2048) - TypeSafe'in Jev karar modeli gerçek bir
-          online 2048 sitesinde oynuyor — hamle başına tek API çağrısı, tek anahtar.
+        surrounding_text: "- [jev2048 (erhanmeydan)](https://github.com/erhanmeydan/jev2048) - TypeSafe'in Jev karar modeli gerçek bir online 2048 sitesinde oynuyor — hamle başına tek API çağrısı, tek anahtar."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: erhanmeydan/jev2048
     html_url: https://github.com/erhanmeydan/jev2048
-    created_at: '2026-09-18T12:55:51Z'
-    pushed_at: '2026-09-18T12:58:32Z'
+    created_at: "2026-09-18T12:55:51Z"
+    pushed_at: "2026-09-18T12:58:32Z"
     description: TypeSafe'in Jev karar modeli gerçek bir online 2048 sitesinde oynuyor — hamle başına tek API çağrısı, tek anahtar.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:03.349Z'
+    last_checked_at: "2026-09-29T13:11:03.349Z"
     readme:
-      fetched_at: '2026-09-29T13:11:03.348Z'
+      fetched_at: "2026-09-29T13:11:03.348Z"
       bytes: 7124
 insights:
   summary: TypeSafe'in Jev karar modeli gerçek bir online 2048 sitesinde oynuyor — hamle başına tek API çağrısı, tek anahtar.
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:03.349Z'
+    updated_at: "2026-09-29T13:11:03.349Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gridhra__port-keeper-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: gridhra/port-keeper-mcp
         extracted_url: https://github.com/gridhra/port-keeper-mcp
-        surrounding_text: >-
-          - [gridhra/port-keeper-mcp](https://github.com/gridhra/port-keeper-mcp) [![gridhra/port-keeper-mcp MCP
-          server](https://glama.ai/mcp/servers/gridhra/port-keeper-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gridhra/port-keeper-mcp)
-          🏎️ 🏠 🍎 🪟 🐧 - Leases development port blocks to each clone or git worktree, writes .env files and resolves
-          service names to URLs so parallel agents get their own ports.
+        surrounding_text: "- [gridhra/port-keeper-mcp](https://github.com/gridhra/port-keeper-mcp) [![gridhra/port-keeper-mcp MCP server](https://glama.ai/mcp/servers/gridhra/port-keeper-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gridhra/port-keeper-mcp) 🏎️ 🏠 🍎 🪟 🐧 - Leases development port blocks to each clone or git worktree, writes .env files and resolves service names to URLs so parallel agents get their own ports."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: gridhra/port-keeper-mcp
     html_url: https://github.com/gridhra/port-keeper-mcp
-    created_at: '2026-09-17T16:26:04Z'
-    pushed_at: '2026-09-21T10:32:02Z'
-    description: >-
-      Local ledger for development ports — leases a block per project slot, renders env files, resolves service names to
-      URLs, and serves it all over MCP. No daemon, no listener, no secrets.
+    created_at: "2026-09-17T16:26:04Z"
+    pushed_at: "2026-09-21T10:32:02Z"
+    description: Local ledger for development ports — leases a block per project slot, renders env files, resolves service names to URLs, and serves it all over MCP. No daemon, no listener, no secrets.
     homepage: null
     topics:
       - ai-agents
@@ -53,14 +47,12 @@ metadata:
       - mcp-server
       - model-context-protocol
       - ports
-    last_checked_at: '2026-09-29T13:11:51.547Z'
+    last_checked_at: "2026-09-29T13:11:51.547Z"
     readme:
-      fetched_at: '2026-09-29T13:11:51.547Z'
+      fetched_at: "2026-09-29T13:11:51.547Z"
       bytes: 28016
 insights:
-  summary: >-
-    Local ledger for development ports — leases a block per project slot, renders env files, resolves service names to
-    URLs, and serves it all over MCP. No daemon, no listener, no secrets.
+  summary: Local ledger for development ports — leases a block per project slot, renders env files, resolves service names to URLs, and serves it all over MCP. No daemon, no listener, no secrets.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -82,15 +74,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:51.547Z'
+    updated_at: "2026-09-29T13:11:51.547Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

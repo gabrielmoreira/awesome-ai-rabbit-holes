@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__omega__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: Jev Tetris
         extracted_url: https://jev-omega.vercel.app
-        surrounding_text: >-
-          - [Jev Tetris](https://jev-omega.vercel.app) - Jev picks rotation and column from holes, stack height, and
-          bumpiness.
+        surrounding_text: "- [Jev Tetris](https://jev-omega.vercel.app) - Jev picks rotation and column from holes, stack height, and bumpiness."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Tetris × TypeSafe is a playable Tetris game where the TypeSafe Choice primitive decides each move.
+  why_it_matters: It demonstrates a decision-model-driven game mechanic where model judgments directly control gameplay in real time.
+  mental_damage: Watching an AI play Tetris perfectly is fun until you realize your own pull request reviews feel sluggish by comparison.
+  tags:
+    - decision-model
+    - demo
+    - game
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The project is an interactive game demo showcasing a decision model, not a developer-facing tool for coding, workflows, or infrastructure.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site context: Title 'Tetris × TypeSafe' and description 'Tetris where the TypeSafe Choice primitive can play every move'."
+    - Primary page excerpt shows a playable Tetris game with AI-controlled moves via TypeSafe Choice primitive.
+    - "Source-list context: Listed in awesome-jev under 'Games & simulations' section, linking to the Tetris demo."
 placement:
   primary_category: null
   secondary_categories: []
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:28.485Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:673d0114aae187f67af8e6ea30da850d70d696627552bc553e42de7af6e74af5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an interactive game demo showcasing a decision model, not a developer-facing tool for coding, workflows, or infrastructure.
+      decision_evidence:
+        - "Scraped site context: Title 'Tetris × TypeSafe' and description 'Tetris where the TypeSafe Choice primitive can play every move'."
+        - Primary page excerpt shows a playable Tetris game with AI-controlled moves via TypeSafe Choice primitive.
+        - "Source-list context: Listed in awesome-jev under 'Games & simulations' section, linking to the Tetris demo."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

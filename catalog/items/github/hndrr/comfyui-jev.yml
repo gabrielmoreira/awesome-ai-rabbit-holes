@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hndrr__comfyui-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,12 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Creative Tools
-        anchor_text: '**ComfyUI-Jev**'
+        anchor_text: "**ComfyUI-Jev**"
         extracted_url: https://github.com/hndrr/comfyui-jev
-        surrounding_text: >-
-          - [**ComfyUI-Jev**](https://github.com/hndrr/ComfyUI-Jev) — Custom nodes for using Jev's text interpretation
-          and judgments in ComfyUI. Use natural-language instructions to select candidates, evaluate conditions, score
-          text, or extract numbers, then pass the results to other nodes. Jev judgments use the TypeSafe API by default.
+        surrounding_text: "- [**ComfyUI-Jev**](https://github.com/hndrr/ComfyUI-Jev) — Custom nodes for using Jev's text interpretation and judgments in ComfyUI. Use natural-language instructions to select candidates, evaluate conditions, score text, or extract numbers, then pass the results to other nodes. Jev judgments use the TypeSafe API by default."
         confidence: high
 metadata:
   github:
@@ -32,14 +29,14 @@ metadata:
     archived: false
     full_name: hndrr/ComfyUI-Jev
     html_url: https://github.com/hndrr/ComfyUI-Jev
-    created_at: '2026-09-19T06:12:32Z'
-    pushed_at: '2026-09-20T06:49:46Z'
+    created_at: "2026-09-19T06:12:32Z"
+    pushed_at: "2026-09-20T06:49:46Z"
     description: Jev text interpretation and judgments for ComfyUI.
     homepage: https://registry.comfy.org/ja/nodes/comfyui-jev
     topics: []
-    last_checked_at: '2026-09-29T13:12:10.539Z'
+    last_checked_at: "2026-09-29T13:12:10.539Z"
     readme:
-      fetched_at: '2026-09-29T13:12:10.539Z'
+      fetched_at: "2026-09-29T13:12:10.539Z"
       bytes: 6618
 insights:
   summary: Jev text interpretation and judgments for ComfyUI.
@@ -62,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:10.539Z'
+    updated_at: "2026-09-29T13:12:10.539Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__austinaway__working-memory-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,12 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**Working-Memory-Jev**'
+        anchor_text: "**Working-Memory-Jev**"
         extracted_url: https://github.com/austinaway/working-memory-jev
-        surrounding_text: >-
-          - [**Working-Memory-Jev**](https://github.com/AustinAWay/Working-Memory-Jev) — Edit \`.env\` locally and
-          replace the placeholder with your own key. Keep this file private; Git ignores it. Do not paste the key into
-          frontend code, a browser field, an issue, or a command that will be saved in shell history.
+        surrounding_text: "- [**Working-Memory-Jev**](https://github.com/AustinAWay/Working-Memory-Jev) — Edit \\`.env\\` locally and replace the placeholder with your own key. Keep this file private; Git ignores it. Do not paste the key into frontend code, a browser field, an issue, or a command that will be saved in shell history."
         confidence: high
 metadata:
   github:
@@ -32,14 +29,14 @@ metadata:
     archived: false
     full_name: AustinAWay/Working-Memory-Jev
     html_url: https://github.com/AustinAWay/Working-Memory-Jev
-    created_at: '2026-09-18T15:23:03Z'
-    pushed_at: '2026-09-21T19:54:59Z'
+    created_at: "2026-09-18T15:23:03Z"
+    pushed_at: "2026-09-21T19:54:59Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:18.989Z'
+    last_checked_at: "2026-09-29T13:09:18.989Z"
     readme:
-      fetched_at: '2026-09-29T13:09:18.989Z'
+      fetched_at: "2026-09-29T13:09:18.989Z"
       bytes: 9122
 insights:
   summary: null
@@ -51,29 +48,30 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:18.989Z'
+    updated_at: "2026-09-29T13:09:18.989Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

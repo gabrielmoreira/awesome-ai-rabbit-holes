@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__deyna256__langchain-skill-router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Integrations
         anchor_text: langchain-loadout
         extracted_url: https://github.com/deyna256/langchain-skill-router
-        surrounding_text: >-
-          - [langchain-loadout](https://github.com/deyna256/langchain-skill-router)
-          ([site](https://pypi.org/project/langchain-loadout/)) - Per-turn skill selection for LangChain and deepagents
-          agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt.
+        surrounding_text: "- [langchain-loadout](https://github.com/deyna256/langchain-skill-router) ([site](https://pypi.org/project/langchain-loadout/)) - Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt."
         confidence: high
     - id: discovery__github__deyna256__langchain-skill-router__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: langchain-skill-router
         extracted_url: https://github.com/deyna256/langchain-skill-router
-        surrounding_text: >-
-          | [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) | ★ 3 | Python | 2026-09-23 |
-          LangChain and deepagents skill router where Jev ranks installed `SKILL.md` files and decides whether and which
-          skills to load for each turn. |
+        surrounding_text: "| [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) | ★ 3 | Python | 2026-09-23 | LangChain and deepagents skill router where Jev ranks installed `SKILL.md` files and decides whether and which skills to load for each turn. |"
         confidence: high
     - id: discovery__github__deyna256__langchain-skill-router__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -57,16 +51,10 @@ provenance:
           - Classification & Routing
         anchor_text: langchain-skill-router
         extracted_url: https://github.com/deyna256/langchain-skill-router
-        surrounding_text: >-
-          - [langchain-skill-router](https://github.com/deyna256/langchain-skill-router)
-          ![stars](https://img.shields.io/github/stars/deyna256/langchain-skill-router?style=flat-square&label=%E2%98%85)
-          - Agent infrastructure: per-turn skill routing for LangChain deepagents, where Jev ranks the SKILL.md catalog
-          against the request and the recent conversation and verifies the top candidates, so only the picked skill's
-          instructions reach the prompt; the judge is a protocol that a self-hosted model or static rules can implement
-          instead.
+        surrounding_text: "- [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) ![stars](https://img.shields.io/github/stars/deyna256/langchain-skill-router?style=flat-square&label=%E2%98%85) - Agent infrastructure: per-turn skill routing for LangChain deepagents, where Jev ranks the SKILL.md catalog against the request and the recent conversation and verifies the top candidates, so only the picked skill's instructions reach the prompt; the judge is a protocol that a self-hosted model or static rules can implement instead."
         confidence: high
     - id: discovery__github__deyna256__langchain-skill-router__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -78,12 +66,23 @@ provenance:
           - Agents, coding, and guardrails
         anchor_text: langchain-skill-router
         extracted_url: https://github.com/deyna256/langchain-skill-router
-        surrounding_text: >-
-          - [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) - Per-turn skill routing for
-          LangChain deepagents: Jev ranks the SKILL.md catalog against the request and the recent conversation and
-          verifies the top candidates, while the library applies the thresholds and either loads one skill's
-          instructions or offers a short list; the judge is a protocol, so a self-hosted model or static rules can take
-          Jev's place.
+        surrounding_text: "- [langchain-skill-router](https://github.com/deyna256/langchain-skill-router) - Per-turn skill routing for LangChain deepagents: Jev ranks the SKILL.md catalog against the request and the recent conversation and verifies the top candidates, while the library applies the thresholds and either loads one skill's instructions or offers a short list; the judge is a protocol, so a self-hosted model or static rules can take Jev's place."
+        confidence: high
+    - id: discovery__github__deyna256__langchain-skill-router__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Skill Router (LangChain)
+        extracted_url: https://github.com/deyna256/langchain-skill-router
+        surrounding_text: "- [Skill Router (LangChain)](https://github.com/deyna256/langchain-skill-router) - Drop-in replacement for the deepagents `SkillsMiddleware` that picks which `SKILL.md` skills to load each turn with a pluggable judge; the included `JevJudge` adapter uses TypeSafe Jev. [Project guide](community/projects/tools/langchain-skill-router.md)."
         confidence: high
 metadata:
   github:
@@ -93,11 +92,9 @@ metadata:
     archived: false
     full_name: deyna256/langchain-skill-router
     html_url: https://github.com/deyna256/langchain-skill-router
-    created_at: '2026-09-20T17:49:22Z'
-    pushed_at: '2026-09-24T09:02:35Z'
-    description: >-
-      Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a
-      catalog of hundreds stays out of the prompt.
+    created_at: "2026-09-20T17:49:22Z"
+    pushed_at: "2026-09-24T09:02:35Z"
+    description: "Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt."
     homepage: https://pypi.org/project/langchain-skill-router/
     topics:
       - agent-skills
@@ -114,14 +111,12 @@ metadata:
       - skill-md
       - skill-routing
       - typesafe
-    last_checked_at: '2026-09-29T13:10:39.208Z'
+    last_checked_at: "2026-09-29T13:10:39.208Z"
     readme:
-      fetched_at: '2026-09-29T13:10:39.208Z'
+      fetched_at: "2026-09-29T13:10:39.208Z"
       bytes: 14184
 insights:
-  summary: >-
-    Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a
-    catalog of hundreds stays out of the prompt.
+  summary: "Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -131,9 +126,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -145,15 +138,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.381Z'
+    updated_at: "2026-10-08T04:16:14.229Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:39.208Z'
+    updated_at: "2026-09-29T13:10:39.208Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elbruno__elbruno.ai.jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - SDKs & clients
         anchor_text: ElBruno.AI.Jev
         extracted_url: https://github.com/elbruno/elbruno.ai.jev
-        surrounding_text: >-
-          - [ElBruno.AI.Jev](https://github.com/elbruno/ElBruno.AI.Jev) - Community .NET 10 SDK for official TypeSafe AI
-          Jev typed decisions and Microsoft.Extensions.AI integrations.
+        surrounding_text: "- [ElBruno.AI.Jev](https://github.com/elbruno/ElBruno.AI.Jev) - Community .NET 10 SDK for official TypeSafe AI Jev typed decisions and Microsoft.Extensions.AI integrations."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: elbruno/ElBruno.AI.Jev
     html_url: https://github.com/elbruno/ElBruno.AI.Jev
-    created_at: '2026-09-22T12:05:46Z'
-    pushed_at: '2026-09-22T13:10:00Z'
+    created_at: "2026-09-22T12:05:46Z"
+    pushed_at: "2026-09-22T13:10:00Z"
     description: Community .NET 10 SDK for official TypeSafe AI Jev typed decisions and Microsoft.Extensions.AI integrations.
     homepage: null
     topics:
@@ -41,9 +39,9 @@ metadata:
       - jev
       - microsoft-extensions-ai
       - nuget
-    last_checked_at: '2026-09-29T13:10:56.944Z'
+    last_checked_at: "2026-09-29T13:10:56.944Z"
     readme:
-      fetched_at: '2026-09-29T13:10:56.944Z'
+      fetched_at: "2026-09-29T13:10:56.944Z"
       bytes: 8439
 insights:
   summary: Community .NET 10 SDK for official TypeSafe AI Jev typed decisions and Microsoft.Extensions.AI integrations.
@@ -56,9 +54,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.85
-    - >-
-      jev winnow:e4b 0.50 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.50 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -70,15 +66,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:56.944Z'
+    updated_at: "2026-09-29T13:10:56.944Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

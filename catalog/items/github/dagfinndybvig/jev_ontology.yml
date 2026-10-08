@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dagfinndybvig__jev_ontology__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Applications
         anchor_text: Jev_Ontology
         extracted_url: https://github.com/dagfinndybvig/jev_ontology
-        surrounding_text: '- [Jev_Ontology](https://github.com/dagfinndybvig/Jev_Ontology) - Trying to combine Jev with ontology.'
+        surrounding_text: "- [Jev_Ontology](https://github.com/dagfinndybvig/Jev_Ontology) - Trying to combine Jev with ontology."
         confidence: high
     - id: discovery__github__dagfinndybvig__jev_ontology__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -32,13 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**Jev\_Ontology**'
+        anchor_text: "**Jev\\_Ontology**"
         extracted_url: https://github.com/dagfinndybvig/jev_ontology
-        surrounding_text: >-
-          - [**Jev\_Ontology**](https://github.com/dagfinndybvig/Jev_Ontology) — We built a working MVP that pairs an
-          LLM-authored ontology with Jev's calibrated classification, tested it against the live Jev API on 78 unique
-          tickets across 5 sessions (86 classifications -- Session 4 re-runs Session 2's eight tickets), closed the
-          feedback loop, and ran a 3-iteration convergence experiment. Total cost: $0.0085.
+        surrounding_text: "- [**Jev\\_Ontology**](https://github.com/dagfinndybvig/Jev_Ontology) — We built a working MVP that pairs an LLM-authored ontology with Jev's calibrated classification, tested it against the live Jev API on 78 unique tickets across 5 sessions (86 classifications -- Session 4 re-runs Session 2's eight tickets), closed the feedback loop, and ran a 3-iteration convergence experiment. Total cost: $0.0085."
         confidence: high
 metadata:
   github:
@@ -48,14 +44,14 @@ metadata:
     archived: false
     full_name: dagfinndybvig/Jev_Ontology
     html_url: https://github.com/dagfinndybvig/Jev_Ontology
-    created_at: '2026-09-21T10:31:35Z'
-    pushed_at: '2026-09-25T10:59:23Z'
+    created_at: "2026-09-21T10:31:35Z"
+    pushed_at: "2026-09-25T10:59:23Z"
     description: Trying to combine Jev with ontology
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-29T13:10:19.570Z'
+    last_checked_at: "2026-09-29T13:10:19.570Z"
     readme:
-      fetched_at: '2026-09-29T13:10:19.570Z'
+      fetched_at: "2026-09-29T13:10:19.570Z"
       bytes: 15385
 insights:
   summary: null
@@ -67,29 +63,30 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.47 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.412Z'
+    updated_at: "2026-09-29T13:07:10.412Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:19.570Z'
+    updated_at: "2026-09-29T13:10:19.570Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

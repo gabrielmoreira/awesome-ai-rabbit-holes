@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__policy__ai__alpha__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Documentation
         anchor_text: PolicyAI
         extracted_url: https://policy-ai-alpha.vercel.app
-        surrounding_text: >-
-          - **[PolicyAI](https://policy-ai-alpha.vercel.app)** – AI-powered legal document generator. Creates GDPR &
-          CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy for developer products in 60 seconds. Free
-          tier available.
+        surrounding_text: "- **[PolicyAI](https://policy-ai-alpha.vercel.app)** – AI-powered legal document generator. Creates GDPR & CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy for developer products in 60 seconds. Free tier available."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    PolicyAI – AI-powered legal document generator. Creates GDPR & CCPA compliant Privacy Policy, Terms of Service, and
-    Cookie Policy for developer products in 60 seconds. Free tier available.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: PolicyAI is a web app that generates privacy policy, terms of service, and cookie policy documents from user inputs.
+  why_it_matters: It saves developers time and legal risk by auto-generating compliant website policies without manual drafting or lawyer fees.
+  mental_damage: Another reminder that even your compliance paperwork now has an AI wrapper, because why should building software be the only thing you automate?
+  tags:
+    - legal
+    - saas
+    - compliance
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
+  status: excluded
+  reason: PolicyAI generates legal documents, not code or developer tooling; its output serves website compliance, not software development workflows.
   evidence:
-    - jev-latest choice confidence 0.84
+    - Generates privacy policy, terms, and cookie policy documents from business inputs
+    - Targeted at companies needing GDPR/CCPA compliance, not developers writing or editing code
+    - No evidence of code generation, editing, or integration with development tools
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:52.331Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bb00da20b128957cef51c7cc68096673f03c80fb22dc1eca2e6f7ae828b50152
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: PolicyAI generates legal documents, not code or developer tooling; its output serves website compliance, not software development workflows.
+      decision_evidence:
+        - Generates privacy policy, terms, and cookie policy documents from business inputs
+        - Targeted at companies needing GDPR/CCPA compliance, not developers writing or editing code
+        - No evidence of code generation, editing, or integration with development tools
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

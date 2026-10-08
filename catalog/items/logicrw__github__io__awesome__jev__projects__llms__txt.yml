@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__logicrw__github__io__awesome__jev__projects__llms__txt__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -18,10 +18,7 @@ provenance:
           - Install the Agent Skill
         anchor_text: llms.txt
         extracted_url: https://logicrw.github.io/awesome-jev-projects/llms.txt
-        surrounding_text: >-
-          [Agent Skill](https://logicrw.github.io/awesome-jev-projects/skill.md) ·
-          [llms.txt](https://logicrw.github.io/awesome-jev-projects/llms.txt) ·
-          [llms-full.txt](https://logicrw.github.io/awesome-jev-projects/llms-full.txt)
+        surrounding_text: "[Agent Skill](https://logicrw.github.io/awesome-jev-projects/skill.md) · [llms.txt](https://logicrw.github.io/awesome-jev-projects/llms.txt) · [llms-full.txt](https://logicrw.github.io/awesome-jev-projects/llms-full.txt)"
         confidence: high
 metadata:
   github:
@@ -57,7 +54,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,6 +62,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:41:17.940Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for logicrw__github__io__awesome__jev__projects__llms__txt: Invalid AI response structure: Missing required field: why_it_matters"
+    next_retry_at: null
+    attempts: 1

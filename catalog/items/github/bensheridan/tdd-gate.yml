@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bensheridan__tdd-gate__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: tdd-gate
         extracted_url: https://github.com/bensheridan/tdd-gate
-        surrounding_text: >-
-          - [tdd-gate](https://github.com/bensheridan/tdd-gate) - Keeps test and code agents on one plan: TypeSafe Jev
-          judges coverage, blame, gaming, weakening, and drift. [Project guide](community/projects/tools/tdd-gate.md).
+        surrounding_text: "- [tdd-gate](https://github.com/bensheridan/tdd-gate) - Keeps test and code agents on one plan: TypeSafe Jev judges coverage, blame, gaming, weakening, and drift. [Project guide](community/projects/tools/tdd-gate.md)."
         confidence: high
 metadata:
   github:
@@ -32,21 +30,17 @@ metadata:
     archived: false
     full_name: bensheridan/tdd-gate
     html_url: https://github.com/bensheridan/tdd-gate
-    created_at: '2026-09-23T08:28:58Z'
-    pushed_at: '2026-09-27T08:44:57Z'
-    description: >-
-      Keeps a test-writing agent and a code-writing agent on the same plan, using TypeSafe (Jev) judgments: requirement
-      coverage and failing-test blame routing.
+    created_at: "2026-09-23T08:28:58Z"
+    pushed_at: "2026-09-27T08:44:57Z"
+    description: "Keeps a test-writing agent and a code-writing agent on the same plan, using TypeSafe (Jev) judgments: requirement coverage and failing-test blame routing."
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:29.803Z'
+    last_checked_at: "2026-09-29T13:09:29.803Z"
     readme:
-      fetched_at: '2026-09-29T13:09:29.803Z'
+      fetched_at: "2026-09-29T13:09:29.803Z"
       bytes: 32325
 insights:
-  summary: >-
-    Keeps a test-writing agent and a code-writing agent on the same plan, using TypeSafe (Jev) judgments: requirement
-    coverage and failing-test blame routing.
+  summary: "Keeps a test-writing agent and a code-writing agent on the same plan, using TypeSafe (Jev) judgments: requirement coverage and failing-test blame routing."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:29.803Z'
+    updated_at: "2026-09-29T13:09:29.803Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -36,17 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Hugging Face Transformers documentation page for 'agents' does not exist in version 5.9.0 and redirects to the main version.
-  why_it_matters: It does not matter to developers as it is not a tool, product, or resource but a broken documentation link.
-  mental_damage: Another reminder that even documentation can feel like an AI rabbit hole when the page you’re looking for vanished into the void.
-  tags: []
+  summary: A documentation page for the agents feature within the Hugging Face Transformers library.
+  why_it_matters: It provides guidance on implementing agentic workflows using the Transformers framework.
+  mental_damage: There is no greater descent into madness than hunting for documentation that exists in one version but not the one you are currently using.
+  tags:
+    - documentation
+    - huggingface
+    - transformers
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation redirect notice for a missing page, not a standalone AI tool, agent, or developer-facing product.
+  reason: The input is a documentation page/redirect for a library feature rather than a standalone developer tool or agent.
   evidence:
-    - "Repo description: (none)"
-    - "Primary page excerpt: 'The documentation page AGENTS doesn't exist in v5.9.0, but exists on the main version. Click here to redirect to the main version of the documentation.'"
+    - Scraped content identifies this as a documentation redirect page.
+    - The URL is a sub-page within the Hugging Face Transformers documentation.
 placement:
   primary_category: null
   section: null
@@ -65,23 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:25:23.859Z"
+    updated_at: "2026-10-08T04:17:17.165Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:d1cb72be8da628e0db60b244082e73a26710ea9ae357daebbbe6645cec13ff69
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a documentation redirect notice for a missing page, not a standalone AI tool, agent, or developer-facing product.
+      decision_reason: The input is a documentation page/redirect for a library feature rather than a standalone developer tool or agent.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Primary page excerpt: 'The documentation page AGENTS doesn't exist in v5.9.0, but exists on the main version. Click here to redirect to the main version of the documentation.'"
+        - Scraped content identifies this as a documentation redirect page.
+        - The URL is a sub-page within the Hugging Face Transformers documentation.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

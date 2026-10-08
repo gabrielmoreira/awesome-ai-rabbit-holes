@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__macos__computer__use__kit__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://pypi.org/project/macos-computer-use-kit
-        surrounding_text: >-
-          - [macos-computer-use-kit](https://github.com/Sur-Cai/macos-computer-use-kit)
-          ([site](https://pypi.org/project/macos-computer-use-kit/)) - AX-first computer use for AI agents on macOS with
-          optional Jev (TypeSafe System One) semantic guards: calibrated target/input judgments before an irreversible
-          action, decisions kept in code. Accessibility-tree targeting, window-scoped input, clipboard-safe paste,
-          read-back verification. Ships a pip CLI, a pi package and a DeepSeek Harness plugin.
+        surrounding_text: "- [macos-computer-use-kit](https://github.com/Sur-Cai/macos-computer-use-kit) ([site](https://pypi.org/project/macos-computer-use-kit/)) - AX-first computer use for AI agents on macOS with optional Jev (TypeSafe System One) semantic guards: calibrated target/input judgments before an irreversible action, decisions kept in code. Accessibility-tree targeting, window-scoped input, clipboard-safe paste, read-back verification. Ships a pip CLI, a pi package and a DeepSeek Harness plugin."
         confidence: high
 metadata:
   github:
@@ -41,31 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    macos-computer-use-kit (site) - AX-first computer use for AI agents on macOS with optional Jev (TypeSafe System One)
-    semantic guards: calibrated target/input judgments before an irreversible action, decisions kept in code.
-    Accessibility-tree targeting, window-scoped input, clipboard-safe paste, read-back verification. Ships a pip CLI, a
-    pi package and a DeepSeek Harness plugin.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: macos-computer-use-kit is a Python package enabling AI agents to control macOS via mouse and keyboard automation.
+  why_it_matters: It lets developers build agents that interact with macOS GUI applications for testing, automation, or AI-driven workflows.
+  mental_damage: Finally, a way for your AI to accidentally quit TextEdit instead of saving your work — progress.
+  tags:
+    - macos
+    - automation
+    - computer-use
+    - ai-agents
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  status: excluded
+  reason: The tool is a low-level automation kit for controlling macOS GUI, not a developer-facing AI coding agent or workflow tool; it lacks any identity as a coding assistant, app builder, or agent orchestration layer.
   evidence:
-    - jev-latest choice confidence 0.62
+    - "From PyPI: macos-computer-use-kit enables mouse/keyboard control on macOS for AI agents"
+    - "Source-list context: listed in awesome-jev under 'Browser & computer use' as a client challenge for Jev decision model"
+    - No evidence of coding task execution, code editing, or developer workflow integration
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Browser & Computer Use
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:35.089Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4bdb5011fc9d5b806ecc5b97f855ee1252ee471cba3338c1eecc43dec5258519
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a low-level automation kit for controlling macOS GUI, not a developer-facing AI coding agent or workflow tool; it lacks any identity as a coding assistant, app builder, or agent orchestration layer.
+      decision_evidence:
+        - "From PyPI: macos-computer-use-kit enables mouse/keyboard control on macOS for AI agents"
+        - "Source-list context: listed in awesome-jev under 'Browser & computer use' as a client challenge for Jev decision model"
+        - No evidence of coding task execution, code editing, or developer workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

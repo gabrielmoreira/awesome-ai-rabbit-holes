@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alex314618-create__jevrev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: JevRev
         extracted_url: https://github.com/alex314618-create/jevrev
-        surrounding_text: >-
-          - [JevRev](https://github.com/Alex314618-create/JevRev) - An LLM + Jev workflow. Boost your vertebrate brain
-          with a spine inside.
+        surrounding_text: "- [JevRev](https://github.com/Alex314618-create/JevRev) - An LLM + Jev workflow. Boost your vertebrate brain with a spine inside."
         confidence: high
     - id: discovery__github__alex314618-create__jevrev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: JevRev
         extracted_url: https://github.com/alex314618-create/jevrev
-        surrounding_text: >-
-          | [JevRev](https://github.com/Alex314618-create/JevRev) | ★ 39 | TypeScript | 2026-09-23 | An LLM + Jev
-          workflow. Boost your vertebrate brain with a spine inside. |
+        surrounding_text: "| [JevRev](https://github.com/Alex314618-create/JevRev) | ★ 39 | TypeScript | 2026-09-23 | An LLM + Jev workflow. Boost your vertebrate brain with a spine inside. |"
         confidence: high
     - id: discovery__github__alex314618-create__jevrev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**JevRev**'
+        anchor_text: "**JevRev**"
         extracted_url: https://github.com/alex314618-create/jevrev
-        surrounding_text: >-
-          - [**JevRev**](https://github.com/Alex314618-create/JevRev) — Your LLM can imagine, write, test, and revise.
-          It should not have to make every cheap routing decision by itself.
+        surrounding_text: "- [**JevRev**](https://github.com/Alex314618-create/JevRev) — Your LLM can imagine, write, test, and revise. It should not have to make every cheap routing decision by itself."
         confidence: high
 metadata:
   github:
@@ -66,17 +60,17 @@ metadata:
     archived: false
     full_name: Alex314618-create/JevRev
     html_url: https://github.com/Alex314618-create/JevRev
-    created_at: '2026-09-21T01:53:13Z'
-    pushed_at: '2026-09-29T01:33:12Z'
-    description: 'An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. '
-    homepage: ''
+    created_at: "2026-09-21T01:53:13Z"
+    pushed_at: "2026-09-29T01:33:12Z"
+    description: "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. "
+    homepage: ""
     topics:
       - jev
       - llm
       - workflow
-    last_checked_at: '2026-09-29T13:08:47.468Z'
+    last_checked_at: "2026-09-29T13:08:47.468Z"
     readme:
-      fetched_at: '2026-09-29T13:08:47.468Z'
+      fetched_at: "2026-09-29T13:08:47.468Z"
       bytes: 12568
 insights:
   summary: An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside.
@@ -89,9 +83,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
   evidence:
     - jev-latest choice confidence 0.65
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.38 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -103,15 +95,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.391Z'
+    updated_at: "2026-09-29T13:07:10.391Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:47.468Z'
+    updated_at: "2026-09-29T13:08:47.468Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

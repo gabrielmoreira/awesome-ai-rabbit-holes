@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__trustgate__mu__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://trustgate-mu.vercel.app
-        surrounding_text: >-
-          - [trustgate](https://github.com/ndolinschi/trustgate) ([site](https://trustgate-mu.vercel.app)) - TrustGate —
-          indie media T&S gate via TypeSafe Jev.
+        surrounding_text: "- [trustgate](https://github.com/ndolinschi/trustgate) ([site](https://trustgate-mu.vercel.app)) - TrustGate — indie media T&S gate via TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -38,25 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TrustGate is a TypeSafe Jev-powered moderation gate that classifies content as publish, soft-hold, or block using typed decision-model judgments.
+  why_it_matters: It gives indie media creators a programmable, probabilistic content filter that replaces brittle keyword rules with calibrated safety judgments.
+  mental_damage: Another layer of AI-mediated censorship where your verdict depends on a model’s confidence in whether a park renovation budget is a scam.
+  tags:
+    - decision-model
+    - content-moderation
+    - jev
+    - safety
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: TrustGate’s core identity is a Jev decision model that returns constrained probabilistic judgments for content moderation, not a coding agent or general AI tool.
+  evidence:
+    - Scraped site identifies it as 'Jev moderation gate' with typed questions like 'Benign news', 'Health claim', 'Scam', 'Threat' returning publish/hold/block decisions.
+    - Source-list placement in awesome-jev under 'Demos & playgrounds' for Jev-built projects confirms its identity as a decision-model application.
+    - No evidence of code editing, app generation, or agent orchestration; the tool’s sole function is classifying input via typed decision-model outputs.
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -64,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:26.576Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1a9acbc24cf081c3af1fae94e7f9d00a0847d44dbcd2dbd82333fa3d5d18c5ba
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: TrustGate’s core identity is a Jev decision model that returns constrained probabilistic judgments for content moderation, not a coding agent or general AI tool.
+      decision_evidence:
+        - Scraped site identifies it as 'Jev moderation gate' with typed questions like 'Benign news', 'Health claim', 'Scam', 'Threat' returning publish/hold/block decisions.
+        - Source-list placement in awesome-jev under 'Demos & playgrounds' for Jev-built projects confirms its identity as a decision-model application.
+        - No evidence of code editing, app generation, or agent orchestration; the tool’s sole function is classifying input via typed decision-model outputs.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because TrustGate’s product identity is the Jev decision model’s judgment output, not an integration that adds capabilities to a host coding agent.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

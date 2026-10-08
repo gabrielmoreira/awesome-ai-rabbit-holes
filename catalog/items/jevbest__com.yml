@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevbest__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://jevbest.com
-        surrounding_text: >-
-          - [awesome-jev (heyjunpenn)](https://github.com/heyjunpenn/awesome-jev) ([site](https://jevbest.com/)) - A
-          verified, community-maintained catalog of 485 open-source projects built with Jev.
+        surrounding_text: "- [awesome-jev (heyjunpenn)](https://github.com/heyjunpenn/awesome-jev) ([site](https://jevbest.com/)) - A verified, community-maintained catalog of 485 open-source projects built with Jev."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    awesome-jev (heyjunpenn) (site) - A verified, community-maintained catalog of 485 open-source projects built with
-    Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jevbest.com is a directory of projects built on Jev (TypeSafe AI's System One model).
+  why_it_matters: Helps developers discover and evaluate real-world implementations of decision-model-based tools.
+  mental_damage: Another curated list promising signal in a sea of noise, where the only thing you can truly judge is the curator's taste.
+  tags:
+    - directory
+    - jev
+    - type-safe
+    - decision-models
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: jevbest.com is a curated directory of projects built on Jev, making it a navigation aid for developers exploring decision-model tooling, which fits the awesome-awesomes category as a developer-facing resource list.
   evidence:
-    - jev-latest choice confidence 0.91
+    - "Source-list context shows it appears in 'awesome-jev' with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+    - The site is described as a directory of projects built on Jev, indicating its role as a curated list rather than a standalone tool or agent.
+    - No evidence suggests it is a decision model, coding agent, or infrastructure product; its identity is aggregation and discovery.
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -60,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:07.325Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:379d626095515d4c30415efb555e74a060bfcf05f671a0bb51ab3cad0f887031
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: jevbest.com is a curated directory of projects built on Jev, making it a navigation aid for developers exploring decision-model tooling, which fits the awesome-awesomes category as a developer-facing resource list.
+      decision_evidence:
+        - "Source-list context shows it appears in 'awesome-jev' with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+        - The site is described as a directory of projects built on Jev, indicating its role as a curated list rather than a standalone tool or agent.
+        - No evidence suggests it is a decision model, coding agent, or infrastructure product; its identity is aggregation and discovery.
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because jevbest.com is a directory of projects built on Jev, not a decision model, SDK, or tool that exercises judgment — its value lies in curation, not in providing or integrating decision-model capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

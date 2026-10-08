@@ -36,18 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This is a redirect notice indicating that the 'AGENTS' documentation page does not exist in transformers v5.13.0.
-  why_it_matters: It matters because it signals broken or outdated documentation, which can mislead developers trying to use Hugging Face Transformers agents.
-  mental_damage: Another documentation dead end in the AI tooling wilderness — just when you thought you were close to figuring out how agents work.
-  tags: []
+  summary: Documentation for agentic capabilities within the Hugging Face Transformers library.
+  why_it_matters: It provides implementation details for developers building agents using the Transformers ecosystem.
+  mental_damage: A documentation link that simply redirects you to another version of itself is the ultimate developer experience in the age of rapid AI iteration.
+  tags:
+    - huggingface
+    - documentation
+    - transformers
   confidence: high
 curation:
   status: excluded
-  reason: The input is not a tool or product but a documentation redirect notice with no standalone functionality, making it outside the catalog's scope.
+  reason: The input is a documentation page for a specific feature within a library, rather than a standalone product, tool, or framework.
   evidence:
-    - The page 'AGENTS' does not exist in v5.13.0 and redirects to the main version.
-    - No repo description, README, or product claims were provided to assess functionality.
-    - The source is a documentation page, not a developer-facing AI tool, agent, or infrastructure.
+    - The scraped site context explicitly states the page is a documentation redirect.
+    - The URL path belongs to the Hugging Face documentation site rather than a product or repository.
 placement:
   primary_category: null
   section: null
@@ -66,24 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:26:51.756Z"
+    updated_at: "2026-10-08T04:19:09.282Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:c702fb72151e81275afae3d3bf3fa28855aece3519c4bb5c80f3a0184b5429e9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is not a tool or product but a documentation redirect notice with no standalone functionality, making it outside the catalog's scope.
+      decision_reason: The input is a documentation page for a specific feature within a library, rather than a standalone product, tool, or framework.
       decision_evidence:
-        - The page 'AGENTS' does not exist in v5.13.0 and redirects to the main version.
-        - No repo description, README, or product claims were provided to assess functionality.
-        - The source is a documentation page, not a developer-facing AI tool, agent, or infrastructure.
+        - The scraped site context explicitly states the page is a documentation redirect.
+        - The URL path belongs to the Hugging Face documentation site rather than a product or repository.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

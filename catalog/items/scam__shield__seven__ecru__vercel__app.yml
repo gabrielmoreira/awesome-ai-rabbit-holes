@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__scam__shield__seven__ecru__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Applications
         anchor_text: site
         extracted_url: https://scam-shield-seven-ecru.vercel.app
-        surrounding_text: >-
-          - [scam-shield](https://github.com/ShupingR/scam-shield) ([site](https://scam-shield-seven-ecru.vercel.app)) -
-          Scam text message filter powered by TypeSafe's Jev model.
+        surrounding_text: "- [scam-shield](https://github.com/ShupingR/scam-shield) ([site](https://scam-shield-seven-ecru.vercel.app)) - Scam text message filter powered by TypeSafe's Jev model."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: scam-shield (site) - Scam text message filter powered by TypeSafe's Jev model.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Scam Shield is a Vercel-hosted demo application for detecting scams, built on the Jev decision model from TypeSafe AI.
+  why_it_matters: It demonstrates how decision-model judgments can be applied to real-world security tasks like scam detection, offering a pattern for developers integrating Jev into safety-critical workflows.
+  mental_damage: Another reminder that even your browser needs a lie detector now — welcome to the era where AI judges if your grandma’s Facebook post is a Nigerian prince in disguise.
+  tags:
+    - jev
+    - decision-model
+    - security-demo
+    - vercel
+    - scam-detection
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: Scam Shield’s core identity is as an application built on the Jev decision model to provide scam detection via typed judgments, making it a decision-model-powered app rather than a general tool or agent.
   evidence:
-    - jev-latest choice confidence 0.73
+    - Listed in awesome-jev under 'Applications' as a project built on Jev, TypeSafe AI's System One model
+    - Hosted at scam-shield-seven-ecru.vercel.app with the title 'Scam Shield', indicating a demo or showcase application
+    - No evidence of being a coding agent, framework, or infrastructure — positioned as an end-user app using Jev for judgments
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:12.855Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fd8dd5c2a6622a4723005ac953e88bc5aafcfe9202ab2b5334f4ca6fd0bc40f9
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Scam Shield’s core identity is as an application built on the Jev decision model to provide scam detection via typed judgments, making it a decision-model-powered app rather than a general tool or agent.
+      decision_evidence:
+        - Listed in awesome-jev under 'Applications' as a project built on Jev, TypeSafe AI's System One model
+        - Hosted at scam-shield-seven-ecru.vercel.app with the title 'Scam Shield', indicating a demo or showcase application
+        - No evidence of being a coding agent, framework, or infrastructure — positioned as an end-user app using Jev for judgments
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because Scam Shield’s value lies in demonstrating Jev-powered judgment for scam detection, not in generating deployable apps from prompts — it is a use case of the decision model, not a prompt-to-app generator.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

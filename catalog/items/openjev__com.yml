@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__openjev__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://openjev.com
-        surrounding_text: >-
-          - [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) ([site](https://openjev.com),
-          [post](https://x.com/hhkkmon/status/2100443314957038010)) - Semantic ifs from open models, on a 3090 at home.
-          Independent; not affiliated with Jev or TypeSafe.
+        surrounding_text: "- [SemIf](https://github.com/TheoLeeCJ/SemIf-OpenJev) ([site](https://openjev.com), [post](https://x.com/hhkkmon/status/2100443314957038010)) - Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe."
         confidence: high
 metadata:
   github:
@@ -39,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SemIf (site, post) - Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or
-    TypeSafe.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: OpenJev (SemIf) is a browser-based experiment that runs local decision models like Qwen3 and MiniCPM to compute conditional probabilities for constrained choices using logits or token-by-token JSON generation.
+  why_it_matters: It lets developers test and compare decision model inference strategies entirely client-side, enabling private, low-latency prototyping of typed-question systems without backend dependencies.
+  mental_damage: Another locally quantized model demo that makes you feel like you're cracking the AGI code while just measuring softmax over three options in your lunch break.
+  tags:
+    - decision-models
+    - browser
+    - local-ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: OpenJev's core identity is a local decision model runner that exposes Jev-style typed-question inference in the browser, matching the decision-models category's focus on local serving and gateways for System One models.
   evidence:
-    - jev-latest choice confidence 0.72
-    - jev winnow:e4b 0.21 below gate 0.50; proposed out of scope; placement kept at decision-models (unverified)
+    - Scraped site describes it as 'Run typed option logits and autoregressive JSON locally with open models and WebGPU' and 'Semantic ifs from open models, in your browser'
+    - Source-list context shows it appears in awesome-jev under 'Benchmarks & research' as a project built on Jev (TypeSafe AI's System One model)
+    - "README excerpt emphasizes local model execution: 'Weights come from Hugging Face and remain in your browser cache. Inputs never leave this page.' and compares direct logit readout vs token-by-token JSON generation for decision output"
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: Local Serving & Gateways
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:40.479Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d36f95fb36405dd4168574e31826362de3e9bc6d9ae21c9edca8b3dca629bd9d
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: OpenJev's core identity is a local decision model runner that exposes Jev-style typed-question inference in the browser, matching the decision-models category's focus on local serving and gateways for System One models.
+      decision_evidence:
+        - Scraped site describes it as 'Run typed option logits and autoregressive JSON locally with open models and WebGPU' and 'Semantic ifs from open models, in your browser'
+        - Source-list context shows it appears in awesome-jev under 'Benchmarks & research' as a project built on Jev (TypeSafe AI's System One model)
+        - "README excerpt emphasizes local model execution: 'Weights come from Hugging Face and remain in your browser cache. Inputs never leave this page.' and compares direct logit readout vs token-by-token JSON generation for decision output"
+      category_candidates:
+        - decision-models
+        - local-ai
+      contrastive_reason: Choose decision-models over local-ai because the product's primary identity is serving and demonstrating a decision model (Jev/System One) for typed questions with probabilities, not general local AI inference.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__akynte__boundedcode__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: BoundedCode
         extracted_url: https://github.com/akynte/boundedcode
-        surrounding_text: >-
-          - [BoundedCode](https://github.com/akynte/boundedcode) - 8 GB GPU coding agent: local generation, required
-          TypeSafe Jev decision plane, and Go-supervisor verification before accept. [Project
-          guide](community/projects/tools/boundedcode.md).
+        surrounding_text: "- [BoundedCode](https://github.com/akynte/boundedcode) - 8 GB GPU coding agent: local generation, required TypeSafe Jev decision plane, and Go-supervisor verification before accept. [Project guide](community/projects/tools/boundedcode.md)."
         confidence: high
 metadata:
   github:
@@ -33,23 +30,17 @@ metadata:
     archived: false
     full_name: akynte/boundedcode
     html_url: https://github.com/akynte/boundedcode
-    created_at: '2026-09-23T11:38:09Z'
-    pushed_at: '2026-09-29T12:13:37Z'
-    description: >-
-      A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision
-      plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed
-      verification, and a human approval gate.
+    created_at: "2026-09-23T11:38:09Z"
+    pushed_at: "2026-09-29T12:13:37Z"
+    description: "A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed verification, and a human approval gate."
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:45.576Z'
+    last_checked_at: "2026-09-29T13:08:45.576Z"
     readme:
-      fetched_at: '2026-09-29T13:08:45.576Z'
+      fetched_at: "2026-09-29T13:08:45.576Z"
       bytes: 15202
 insights:
-  summary: >-
-    A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision
-    plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed
-    verification, and a human approval gate.
+  summary: "A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed verification, and a human approval gate."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -69,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:45.576Z'
+    updated_at: "2026-09-29T13:08:45.576Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

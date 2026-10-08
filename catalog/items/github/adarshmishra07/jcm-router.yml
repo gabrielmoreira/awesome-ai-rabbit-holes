@@ -100,10 +100,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:14:56.374Z"
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__adarshmishra07__jcm-router: provider stop reason: length"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1

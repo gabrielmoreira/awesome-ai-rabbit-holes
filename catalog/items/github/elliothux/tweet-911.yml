@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elliothux__tweet-911__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: tweet-911
         extracted_url: https://github.com/elliothux/tweet-911
-        surrounding_text: >-
-          - [tweet-911](https://github.com/elliothux/tweet-911) - Real-time AI / solicitation / parrot-bot scores for X
-          posts and replies. Chrome extension + Workers API on open-compute, judged by TypeSafe Jev.
+        surrounding_text: "- [tweet-911](https://github.com/elliothux/tweet-911) - Real-time AI / solicitation / parrot-bot scores for X posts and replies. Chrome extension + Workers API on open-compute, judged by TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: elliothux/tweet-911
     html_url: https://github.com/elliothux/tweet-911
-    created_at: '2026-09-20T09:19:31Z'
-    pushed_at: '2026-09-20T09:22:13Z'
-    description: >-
-      Real-time AI / solicitation / parrot-bot scores for X posts and replies. Chrome extension + Workers API on
-      open-compute, judged by TypeSafe Jev.
+    created_at: "2026-09-20T09:19:31Z"
+    pushed_at: "2026-09-20T09:22:13Z"
+    description: Real-time AI / solicitation / parrot-bot scores for X posts and replies. Chrome extension + Workers API on open-compute, judged by TypeSafe Jev.
     homepage: null
     topics:
       - ai-detection
@@ -49,14 +45,12 @@ metadata:
       - typescript
       - wxt
       - x
-    last_checked_at: '2026-09-29T13:10:58.832Z'
+    last_checked_at: "2026-09-29T13:10:58.832Z"
     readme:
-      fetched_at: '2026-09-29T13:10:58.832Z'
+      fetched_at: "2026-09-29T13:10:58.832Z"
       bytes: 4557
 insights:
-  summary: >-
-    Real-time AI / solicitation / parrot-bot scores for X posts and replies. Chrome extension + Workers API on
-    open-compute, judged by TypeSafe Jev.
+  summary: Real-time AI / solicitation / parrot-bot scores for X posts and replies. Chrome extension + Workers API on open-compute, judged by TypeSafe Jev.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -76,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:58.832Z'
+    updated_at: "2026-09-29T13:10:58.832Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fgn__jevgo__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jevgo
         extracted_url: https://github.com/fgn/jevgo
-        surrounding_text: >-
-          - [jevgo](https://github.com/fgn/jevgo) - Go client for TypeSafe AI's System One API (Jev), with optional
-          Langfuse instrumentation.
+        surrounding_text: "- [jevgo](https://github.com/fgn/jevgo) - Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation."
         confidence: high
     - id: discovery__github__fgn__jevgo__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: jevgo
         extracted_url: https://github.com/fgn/jevgo
-        surrounding_text: >-
-          | [jevgo](https://github.com/fgn/jevgo) | ★ 2 | Go | 2026-09-19 | Go client for TypeSafe AI's System One API
-          (Jev), with optional Langfuse instrumentation. |
+        surrounding_text: "| [jevgo](https://github.com/fgn/jevgo) | ★ 2 | Go | 2026-09-19 | Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation. |"
         confidence: high
     - id: discovery__github__fgn__jevgo__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jevgo**'
+        anchor_text: "**jevgo**"
         extracted_url: https://github.com/fgn/jevgo
-        surrounding_text: >-
-          - [**jevgo**](https://github.com/fgn/jevgo) — A community Go client with a standard-library core and optional
-          Langfuse tracing.
+        surrounding_text: "- [**jevgo**](https://github.com/fgn/jevgo) — A community Go client with a standard-library core and optional Langfuse tracing."
         confidence: high
 metadata:
   github:
@@ -66,14 +60,14 @@ metadata:
     archived: false
     full_name: fgn/jevgo
     html_url: https://github.com/fgn/jevgo
-    created_at: '2026-09-17T14:03:36Z'
-    pushed_at: '2026-09-17T15:57:04Z'
+    created_at: "2026-09-17T14:03:36Z"
+    pushed_at: "2026-09-17T15:57:04Z"
     description: Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:17.195Z'
+    last_checked_at: "2026-09-29T13:11:17.195Z"
     readme:
-      fetched_at: '2026-09-29T13:11:17.195Z'
+      fetched_at: "2026-09-29T13:11:17.195Z"
       bytes: 8849
 insights:
   summary: Go client for TypeSafe AI's System One API (Jev), with optional Langfuse instrumentation
@@ -96,15 +90,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.395Z'
+    updated_at: "2026-09-29T13:07:10.395Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:17.195Z'
+    updated_at: "2026-09-29T13:11:17.195Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

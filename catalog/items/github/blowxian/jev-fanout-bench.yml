@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__blowxian__jev-fanout-bench__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-fanout-bench
         extracted_url: https://github.com/blowxian/jev-fanout-bench
-        surrounding_text: >-
-          - [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) - Reproducible measurement that N TypeSafe
-          Jev questions in one call bill shared state once (2,976 requests, raw JSONL). [Project
-          guide](community/projects/tools/jev-fanout-bench.md).
+        surrounding_text: "- [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) - Reproducible measurement that N TypeSafe Jev questions in one call bill shared state once (2,976 requests, raw JSONL). [Project guide](community/projects/tools/jev-fanout-bench.md)."
         confidence: high
     - id: discovery__github__blowxian__jev-fanout-bench__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,16 +36,10 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jev-fanout-bench
         extracted_url: https://github.com/blowxian/jev-fanout-bench
-        surrounding_text: >-
-          - [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench)
-          ![stars](https://img.shields.io/github/stars/blowxian/jev-fanout-bench?style=flat-square&label=%E2%98%85) -
-          Model billing: compares batched with one-question-per-call requests across 2,976 calls to `jev-1.13-20260917`
-          through OpenRouter's TypeSafe-compatible `/systemone` endpoint, reporting about 261 fixed input tokens per
-          request, zero spread in the implied per-request cost across question counts, batched-vs-single answer
-          differences comparable to repeat-request noise, and median input-token savings of 76–86% at eight questions.
+        surrounding_text: "- [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) ![stars](https://img.shields.io/github/stars/blowxian/jev-fanout-bench?style=flat-square&label=%E2%98%85) - Model billing: compares batched with one-question-per-call requests across 2,976 calls to `jev-1.13-20260917` through OpenRouter's TypeSafe-compatible `/systemone` endpoint, reporting about 261 fixed input tokens per request, zero spread in the implied per-request cost across question counts, batched-vs-single answer differences comparable to repeat-request noise, and median input-token savings of 76–86% at eight questions."
         confidence: high
     - id: discovery__github__blowxian__jev-fanout-bench__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -60,11 +51,7 @@ provenance:
           - Evaluation and calibration
         anchor_text: jev-fanout-bench
         extracted_url: https://github.com/blowxian/jev-fanout-bench
-        surrounding_text: >-
-          - [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) - Reproducible comparison of batched and
-          one-question-per-call Jev requests whose 2,976-request OpenRouter run reports approximately 261 fixed input
-          tokens per request, observed charges matching the published token rate, and batched-vs-single answer
-          differences comparable to repeat-request noise.
+        surrounding_text: "- [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) - Reproducible comparison of batched and one-question-per-call Jev requests whose 2,976-request OpenRouter run reports approximately 261 fixed input tokens per request, observed charges matching the published token rate, and batched-vs-single answer differences comparable to repeat-request noise."
         confidence: high
 metadata:
   github:
@@ -74,11 +61,9 @@ metadata:
     archived: false
     full_name: blowxian/jev-fanout-bench
     html_url: https://github.com/blowxian/jev-fanout-bench
-    created_at: '2026-09-23T14:01:45Z'
-    pushed_at: '2026-09-28T05:12:02Z'
-    description: >-
-      Measured: asking TypeSafe Jev N questions in one call bills the state once. 2,976 real requests, raw data, exact
-      billing check.
+    created_at: "2026-09-23T14:01:45Z"
+    pushed_at: "2026-09-28T05:12:02Z"
+    description: "Measured: asking TypeSafe Jev N questions in one call bills the state once. 2,976 real requests, raw data, exact billing check."
     homepage: https://jevpricing.com/fan-out/
     topics:
       - benchmark
@@ -87,14 +72,12 @@ metadata:
       - openrouter
       - system-one
       - typesafe
-    last_checked_at: '2026-09-29T13:09:33.311Z'
+    last_checked_at: "2026-09-29T13:09:33.311Z"
     readme:
-      fetched_at: '2026-09-29T13:09:33.311Z'
+      fetched_at: "2026-09-29T13:09:33.311Z"
       bytes: 12783
 insights:
-  summary: >-
-    Measured: asking TypeSafe Jev N questions in one call bills the state once. 2,976 real requests, raw data, exact
-    billing check.
+  summary: "Measured: asking TypeSafe Jev N questions in one call bills the state once. 2,976 real requests, raw data, exact billing check."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -104,9 +87,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.50
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -118,15 +99,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.391Z'
+    updated_at: "2026-09-29T13:07:10.391Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:33.311Z'
+    updated_at: "2026-09-29T13:09:33.311Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__faahim__postbag__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💬 Communication
         anchor_text: faahim/postbag
         extracted_url: https://github.com/faahim/postbag
-        surrounding_text: >-
-          -   **[faahim/postbag](https://github.com/faahim/postbag)** [![GitHub
-          stars](https://img.shields.io/github/stars/faahim/postbag?style=social)](https://github.com/faahim/postbag):
-          Agent-native form backend — create sandboxed forms, store submissions with status, and deliver to
-          email/Telegram/webhooks via MCP (`npx -y @postbag/mcp`).
+        surrounding_text: "-   **[faahim/postbag](https://github.com/faahim/postbag)** [![GitHub stars](https://img.shields.io/github/stars/faahim/postbag?style=social)](https://github.com/faahim/postbag): Agent-native form backend — create sandboxed forms, store submissions with status, and deliver to email/Telegram/webhooks via MCP (`npx -y @postbag/mcp`)."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: faahim/postbag
     html_url: https://github.com/faahim/postbag
-    created_at: '2026-08-20T20:30:31Z'
-    pushed_at: '2026-09-21T07:31:13Z'
-    description: >-
-      A form backend that routes. Every submission stored durably, delivered by rules to email, Telegram and webhooks.
-      Self-hostable, agent-native (CLI, MCP, llms.txt).
+    created_at: "2026-08-20T20:30:31Z"
+    pushed_at: "2026-09-21T07:31:13Z"
+    description: A form backend that routes. Every submission stored durably, delivered by rules to email, Telegram and webhooks. Self-hostable, agent-native (CLI, MCP, llms.txt).
     homepage: https://postbag.dev
     topics:
       - ai-agents
@@ -50,9 +44,9 @@ metadata:
       - self-hosted
       - typescript
       - webhooks
-    last_checked_at: '2026-09-29T13:11:10.805Z'
+    last_checked_at: "2026-09-29T13:11:10.805Z"
     readme:
-      fetched_at: '2026-09-29T13:11:10.805Z'
+      fetched_at: "2026-09-29T13:11:10.805Z"
       bytes: 3066
 insights:
   summary: null
@@ -74,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:10.805Z'
+    updated_at: "2026-09-29T13:11:10.805Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

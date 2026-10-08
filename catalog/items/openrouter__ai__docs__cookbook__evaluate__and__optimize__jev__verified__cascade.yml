@@ -5,9 +5,8 @@ canonical_url: https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-ver
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__openrouter__ai__docs__cookbook__evaluate__and__optimize__jev__verified__cascade__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__openrouter__ai__docs__cookbook__evaluate__and__optimize__jev__verified__cascade__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Verified cascade
         extracted_url: https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-verified-cascade
-        surrounding_text: >-
-          - [Verified cascade](https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-verified-cascade) -
-          OpenRouter example that checks a cheaper draft against grounding constraints with Jev before accepting it or
-          escalating to a stronger model.
+        surrounding_text: "- [Verified cascade](https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-verified-cascade) - OpenRouter example that checks a cheaper draft against grounding constraints with Jev before accepting it or escalating to a stronger model."
         confidence: high
 metadata:
   github:
@@ -40,25 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A recipe for a draft-verify-escalate cascade using Jev to reduce LLM costs by routing only uncertain answers to a frontier model.
+  why_it_matters: Shows developers how to cut inference costs while maintaining answer correctness by combining cheap models with verification via Jev.
+  mental_damage: Another layer of YAML and TypeScript to manage when you already regret adding the first one.
+  tags:
+    - llm-cost
+    - jev
+    - prompt-engineering
+    - agent-pattern
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The Jev-verified cascade is a prompt/context engineering pattern that improves answer reliability through verification and selective escalation, fitting the core goal of shaping model inputs and judgments rather than being a coding agent or app builder.
+  evidence:
+    - The recipe defines a verification step using Jev to check whether a model's answer is supported by retrieved context before deciding to escalate.
+    - It is presented as a cookbook pattern under OpenRouter's 'Evaluate & Optimize' section, focused on cost reduction via judgment-based routing.
+    - The core novelty is the verification and routing logic, not code generation, editing, or app creation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
+  section: Prompt Engineering & Management
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:40.676Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5cd94191ecdb3c5de3b0be626735ddf811aa9caad2438a102920fed847861074
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: The Jev-verified cascade is a prompt/context engineering pattern that improves answer reliability through verification and selective escalation, fitting the core goal of shaping model inputs and judgments rather than being a coding agent or app builder.
+      decision_evidence:
+        - The recipe defines a verification step using Jev to check whether a model's answer is supported by retrieved context before deciding to escalate.
+        - It is presented as a cookbook pattern under OpenRouter's 'Evaluate & Optimize' section, focused on cost reduction via judgment-based routing.
+        - The core novelty is the verification and routing logic, not code generation, editing, or app creation.
+      category_candidates:
+        - memory-and-context
+        - decision-models
+      contrastive_reason: Choose memory-and-context over decision-models because the Jev-verified cascade is a reusable pattern for improving context usage and routing decisions, not a decision model or its tooling.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

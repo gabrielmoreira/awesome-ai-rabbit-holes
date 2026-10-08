@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevtypesafeai__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jevtypesafeai.com
-        surrounding_text: >-
-          - [jev-ai](https://github.com/codaaiteam/jev-ai) ([site](https://jevtypesafeai.com)) - Jev AI quickstart & FAQ
-          — TypeSafe AI's System One model. Try it free: jevtypesafeai.com.
+        surrounding_text: "- [jev-ai](https://github.com/codaaiteam/jev-ai) ([site](https://jevtypesafeai.com)) - Jev AI quickstart & FAQ — TypeSafe AI's System One model. Try it free: jevtypesafeai.com."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'jev-ai (site) - Jev AI quickstart & FAQ — TypeSafe AI''s System One model. Try it free: jevtypesafeai.com.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a hosted decision model (TypeSafe System One) that returns typed choices, scores, or yes/no probabilities from messy text input in 70–500ms via API.
+  why_it_matters: Developers can replace brittle rules or slow LLM calls with fast, structured judgments for routing, guardrails, scoring, and agent decision loops.
+  mental_damage: Another model API promising to eliminate hallucinations while locking you into a proprietary black-box judgment service.
+  tags:
+    - decision-model
+    - typed-output
+    - api
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  reason: Jev is a decision model that returns constrained typed answers (Choice, Score, Noul) instead of generated text, matching the core identity of the decision-models category.
   evidence:
-    - jev-latest choice confidence 0.70
+    - Jev returns typed decisions — choice, score, or yes/no probability — in 70–500ms with zero hallucinations by construction
+    - "The product's reason to exist is the judgment itself: routing, scoring, guardrails, and agent skill routing are presented as primary use cases"
+    - Listed in awesome-jev under 'Demos & playgrounds' as part of the Jev ecosystem
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:35.622Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d5ce2950203a5606ec74e5f087cccf5037beda59425cdfccb769e5d4239089f5
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that returns constrained typed answers (Choice, Score, Noul) instead of generated text, matching the core identity of the decision-models category.
+      decision_evidence:
+        - Jev returns typed decisions — choice, score, or yes/no probability — in 70–500ms with zero hallucinations by construction
+        - "The product's reason to exist is the judgment itself: routing, scoring, guardrails, and agent skill routing are presented as primary use cases"
+        - Listed in awesome-jev under 'Demos & playgrounds' as part of the Jev ecosystem
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jev's identity is the decision model and its judgments, not an integration that augments a host agent.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

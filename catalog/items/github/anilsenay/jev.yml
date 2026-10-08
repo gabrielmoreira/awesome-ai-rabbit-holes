@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__anilsenay__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jev
         extracted_url: https://github.com/anilsenay/jev
-        surrounding_text: >-
-          - [jev](https://github.com/anilsenay/jev) - Unofficial Go client for TypeSafe's System One API and its model,
-          Jev.
+        surrounding_text: "- [jev](https://github.com/anilsenay/jev) - Unofficial Go client for TypeSafe's System One API and its model, Jev."
         confidence: high
     - id: discovery__github__anilsenay__jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: jev
         extracted_url: https://github.com/anilsenay/jev
-        surrounding_text: >-
-          | [jev](https://github.com/anilsenay/jev) | ★ 1 | Go | 2026-09-19 | Unofficial Go client for TypeSafe's System
-          One API and its model, Jev. |
+        surrounding_text: "| [jev](https://github.com/anilsenay/jev) | ★ 1 | Go | 2026-09-19 | Unofficial Go client for TypeSafe's System One API and its model, Jev. |"
         confidence: high
     - id: discovery__github__anilsenay__jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -52,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev**'
+        anchor_text: "**jev**"
         extracted_url: https://github.com/anilsenay/jev
-        surrounding_text: >-
-          - [**jev**](https://github.com/anilsenay/jev) — Unofficial Go client for TypeSafe's System One API and its
-          model, Jev.
+        surrounding_text: "- [**jev**](https://github.com/anilsenay/jev) — Unofficial Go client for TypeSafe's System One API and its model, Jev."
         confidence: high
 metadata:
   github:
@@ -66,10 +60,10 @@ metadata:
     archived: false
     full_name: anilsenay/jev
     html_url: https://github.com/anilsenay/jev
-    created_at: '2026-09-17T04:11:48Z'
-    pushed_at: '2026-09-17T05:14:07Z'
+    created_at: "2026-09-17T04:11:48Z"
+    pushed_at: "2026-09-17T05:14:07Z"
     description: Unofficial Go client for TypeSafe's System One API  and its model, Jev.
-    homepage: ''
+    homepage: ""
     topics:
       - api-client
       - go
@@ -80,9 +74,9 @@ metadata:
       - structured-output
       - typesafe
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:09:00.011Z'
+    last_checked_at: "2026-09-29T13:09:00.011Z"
     readme:
-      fetched_at: '2026-09-29T13:09:00.011Z'
+      fetched_at: "2026-09-29T13:09:00.011Z"
       bytes: 14699
 insights:
   summary: Unofficial Go client for TypeSafe's System One API  and its model, Jev.
@@ -95,9 +89,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.72
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.37 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -109,15 +101,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.391Z'
+    updated_at: "2026-09-29T13:07:10.391Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:00.011Z'
+    updated_at: "2026-09-29T13:09:00.011Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

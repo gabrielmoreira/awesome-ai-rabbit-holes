@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cachix__jev-action__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev GitHub Action
         extracted_url: https://github.com/cachix/jev-action
-        surrounding_text: >-
-          - [Jev GitHub Action](https://github.com/cachix/jev-action) - GitHub Action: install pinned Jev CLI, run typed
-          judgments on an event/JSON request, expose answers (no issue mutation). [Project
-          guide](community/projects/tools/jev-action.md).
+        surrounding_text: "- [Jev GitHub Action](https://github.com/cachix/jev-action) - GitHub Action: install pinned Jev CLI, run typed judgments on an event/JSON request, expose answers (no issue mutation). [Project guide](community/projects/tools/jev-action.md)."
         confidence: high
 metadata:
   github:
@@ -33,14 +30,14 @@ metadata:
     archived: false
     full_name: cachix/jev-action
     html_url: https://github.com/cachix/jev-action
-    created_at: '2026-09-23T16:26:32Z'
-    pushed_at: '2026-09-23T16:29:21Z'
+    created_at: "2026-09-23T16:26:32Z"
+    pushed_at: "2026-09-23T16:29:21Z"
     description: Run Jev judgments in GitHub Actions, including pull request label triage
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:40.152Z'
+    last_checked_at: "2026-09-29T13:09:40.152Z"
     readme:
-      fetched_at: '2026-09-29T13:09:40.152Z'
+      fetched_at: "2026-09-29T13:09:40.152Z"
       bytes: 7174
 insights:
   summary: Run Jev judgments in GitHub Actions, including pull request label triage
@@ -63,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:40.152Z'
+    updated_at: "2026-09-29T13:09:40.152Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

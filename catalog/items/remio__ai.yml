@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__remio__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Remio
         extracted_url: https://remio.ai
-        surrounding_text: >-
-          - **[Remio](https://remio.ai/)** – Local-first AI memory and knowledge base desktop app with a CLI/agent skill
-          interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so
-          coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading
-          whole documents into prompts. CLI/skill workflows require the Remio desktop client.
+        surrounding_text: "- **[Remio](https://remio.ai/)** – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill workflows require the Remio desktop client."
         confidence: high
 metadata:
   github:
@@ -40,31 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Remio – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files,
-    webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused
-    personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill
-    workflows require the Remio desktop client.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: remio.ai is a website offering AI-powered coding tools for developers, but provides no technical details about its product or functionality.
+  why_it_matters: It claims to be an AI coding tool directory, yet offers zero insight into what it actually does, making it impossible to assess developer value.
+  mental_damage: Another vaporware landing page that makes developers wonder if they missed the memo about yet another AI tool that does nothing.
+  tags:
+    - ai-tools
+    - directory
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  status: excluded
+  reason: The site provides no concrete product description, functionality, or technical details — only a vague promise of AI coding tools — making it impossible to determine if it fits any developer-tooling category.
   evidence:
-    - jev-latest choice confidence 0.82
+    - "Repo description: (none)"
+    - "README excerpt: (none provided)"
+    - "Scraped site context: only URL and name given, no title, description, or excerpt available"
 placement:
-  primary_category: memory-and-context
+  primary_category: null
   secondary_categories: []
-  section: Persistent Memory & Knowledge
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:56.427Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f6783480a79c20789de17b0340202f0abe1237956d6770d281f4d92d3a97ec45
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site provides no concrete product description, functionality, or technical details — only a vague promise of AI coding tools — making it impossible to determine if it fits any developer-tooling category.
+      decision_evidence:
+        - "Repo description: (none)"
+        - "README excerpt: (none provided)"
+        - "Scraped site context: only URL and name given, no title, description, or excerpt available"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__laya__tools__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Related Practices / Discussions
         anchor_text: laya.tools
         extracted_url: https://laya.tools
-        surrounding_text: >-
-          - [laya.tools](https://laya.tools) - Site: an independent directory of about 950 projects built on Laya, the
-          Apache-2.0 open alternative to Jev, imported daily from GitHub, npm, Hugging Face and X and browsable by
-          platform and use case, with a Laya vs Jev comparison page.
+        surrounding_text: "- [laya.tools](https://laya.tools) - Site: an independent directory of about 950 projects built on Laya, the Apache-2.0 open alternative to Jev, imported daily from GitHub, npm, Hugging Face and X and browsable by platform and use case, with a Laya vs Jev comparison page."
         confidence: high
     - id: discovery__laya__tools__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -37,10 +34,7 @@ provenance:
           - Related lists
         anchor_text: laya.tools
         extracted_url: https://laya.tools
-        surrounding_text: >-
-          - [laya.tools](https://laya.tools) - Directory of about 950 projects built on the open Laya decision model
-          (GitHub repos, npm packages, Hugging Face models and Spaces, and demos from X), browsable by platform and use
-          case, with a Laya vs Jev comparison; independent and not affiliated with TypeSafe or ConvAI.
+        surrounding_text: "- [laya.tools](https://laya.tools) - Directory of about 950 projects built on the open Laya decision model (GitHub repos, npm packages, Hugging Face models and Spaces, and demos from X), browsable by platform and use case, with a Laya vs Jev comparison; independent and not affiliated with TypeSafe or ConvAI."
         confidence: high
 metadata:
   github:
@@ -58,30 +52,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    laya.tools - Site: an independent directory of about 950 projects built on Laya, the Apache-2.0 open alternative to
-    Jev, imported daily from GitHub, npm, Hugging Face and X and browsable by platform and use case, with a Laya vs Jev
-    comparison page.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: laya.tools is a directory showcasing 1810+ open-source projects built on the Laya decision model, including ports, agents, APIs, and demos.
+  why_it_matters: It helps developers discover real-world implementations of Laya for local, typed-decision AI in routing, agents, and tooling.
+  mental_damage: Another directory promising 'everything built on X' — as if the world needed yet another taxonomy of niche model ports to feel productive.
+  tags:
+    - directory
+    - decision-models
+    - showcase
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: laya.tools is a curated directory of projects using Laya, not a developer-facing AI tool itself; it lacks autonomous functionality and serves only as a discovery index, which falls outside the catalog's scope for active tooling.
   evidence:
-    - jev-latest choice confidence 0.93
+    - The site describes itself as 'The directory of 1810+ open-source projects built on Laya' and emphasizes browsing and showcasing projects.
+    - It provides no coding agent, framework, SDK, or tooling — only links to external repos and demos hosted elsewhere.
+    - Appears in awesome-jev under 'Related lists' and 'Full list > Related Practices / Discussions', confirming its role as a directory, not a primary tool.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,6 +85,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:07.182Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d2fb49038ac0b3fe1ee3bfc93ee0fb22ae12dbdb05ce8af1fb615d3e8286eff3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: laya.tools is a curated directory of projects using Laya, not a developer-facing AI tool itself; it lacks autonomous functionality and serves only as a discovery index, which falls outside the catalog's scope for active tooling.
+      decision_evidence:
+        - The site describes itself as 'The directory of 1810+ open-source projects built on Laya' and emphasizes browsing and showcasing projects.
+        - It provides no coding agent, framework, SDK, or tooling — only links to external repos and demos hosted elsewhere.
+        - Appears in awesome-jev under 'Related lists' and 'Full list > Related Practices / Discussions', confirming its role as a directory, not a primary tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

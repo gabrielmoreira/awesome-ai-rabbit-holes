@@ -52,14 +52,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Playwright-focused dashboard, reporter, and test orchestrator designed to debug and monitor complex CI test suites.
-  why_it_matters: It helps developers reduce CI costs and debugging time through automated flaky test detection, real-time streaming, and smart test orchestration.
-  mental_damage: Nothing cures the fear of a broken CI pipeline quite like an AI agent being handed a dashboard of your most frequent, un-flakable failures.
+  summary: Playwright dashboard and orchestrator that provides test context to AI agents via an MCP server.
+  why_it_matters: It enables AI agents to autonomously debug and resolve flaky web tests by providing access to traces, logs, and error history.
+  mental_damage: Another dashboard to monitor as you watch an agent attempt to 'vibe-fix' your flaky tests in real-time.
   tags:
-    - testing
     - playwright
-    - ci-cd
-    - debugging
+    - mcp
+    - testing
+    - ci
+    - observability
   confidence: high
 curation:
   status: included
@@ -73,10 +74,10 @@ placement:
   primary_category: mcp
   secondary_categories:
     - evals
-  section: Browser & Web Automation
+  section: null
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
@@ -88,30 +89,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:30:36.394Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for currents__dev: Invalid AI response structure: Missing required field: why_it_matters"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:22:53.973Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:8f343d3e5e8e000f32cb7bfeff1aad2f98c8cb9e25253c1572b91e2513221746
-      proposed_primary_category: ai-dev-extensions
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c6475009e927a98d376469f592d6aacee452f4c8579e11efafe70aee188fb00d
+      proposed_primary_category: extensions-and-addons
       disagreement: true
-      decision_reason: Currents is a specialized testing and observability platform that includes an MCP server to augment AI agents with testing context.
+      decision_reason: It is a testing and orchestration platform that functions as an extension for AI agents by providing test context via MCP.
       decision_evidence:
-        - Claims to be a Playwright-focused reporter, dashboard and test orchestrator
-        - Offers an MCP server to provide 'better context for AI agents' regarding test results
-        - Provides smart orchestration to speed up CI pipelines
+        - Offers an MCP server to provide test context to AI agents
+        - Provides Playwright reporting, tracing, and orchestration capabilities
       category_candidates:
-        - ai-dev-extensions
-        - evals
-      contrastive_reason: Choose ai-dev-extensions over evals because the product's core identity is a management and orchestration dashboard that extends agent capabilities, rather than a pure benchmarking/evaluation framework.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+        - extensions-and-addons
+        - mcp
+      contrastive_reason: Choose extensions-and-addons over mcp because the core product is a complete Playwright testing platform that includes MCP as a feature to extend agentic workflows.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
       review_resume_lifecycle: null

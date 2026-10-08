@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dansidanutz__fake-real-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Decision Tools
-        anchor_text: '**fake-real-jev**'
+        anchor_text: "**fake-real-jev**"
         extracted_url: https://github.com/dansidanutz/fake-real-jev
-        surrounding_text: >-
-          - [**fake-real-jev**](https://github.com/DansiDanutz/fake-real-jev) — See link entry, the live scan timer,
-          JEV's evidence-checking role, a saved REAL example, a saved FAKE example, and the linked sources. The live
-          documentation scan shown ended without a verdict; its credit was returned. The coffee reports are clearly
-          labeled saved examples, with their original analysis times.
+        surrounding_text: "- [**fake-real-jev**](https://github.com/DansiDanutz/fake-real-jev) — See link entry, the live scan timer, JEV's evidence-checking role, a saved REAL example, a saved FAKE example, and the linked sources. The live documentation scan shown ended without a verdict; its credit was returned. The coffee reports are clearly labeled saved examples, with their original analysis times."
         confidence: high
 metadata:
   github:
@@ -33,9 +29,9 @@ metadata:
     archived: false
     full_name: DansiDanutz/fake-real-jev
     html_url: https://github.com/DansiDanutz/fake-real-jev
-    created_at: '2026-09-26T18:04:50Z'
-    pushed_at: '2026-09-26T18:36:13Z'
-    description: 'Built with Jev: how Fake / Real (fake-real.live) uses TypeSafe Jev to check claims against cited evidence.'
+    created_at: "2026-09-26T18:04:50Z"
+    pushed_at: "2026-09-26T18:36:13Z"
+    description: "Built with Jev: how Fake / Real (fake-real.live) uses TypeSafe Jev to check claims against cited evidence."
     homepage: https://www.fake-real.live/
     topics:
       - evidence-verification
@@ -43,12 +39,12 @@ metadata:
       - javascript
       - jev
       - typesafe
-    last_checked_at: '2026-09-29T13:10:26.660Z'
+    last_checked_at: "2026-09-29T13:10:26.660Z"
     readme:
-      fetched_at: '2026-09-29T13:10:26.660Z'
+      fetched_at: "2026-09-29T13:10:26.660Z"
       bytes: 3454
 insights:
-  summary: 'Built with Jev: how Fake / Real (fake-real.live) uses TypeSafe Jev to check claims against cited evidence.'
+  summary: "Built with Jev: how Fake / Real (fake-real.live) uses TypeSafe Jev to check claims against cited evidence."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:26.660Z'
+    updated_at: "2026-09-29T13:10:26.660Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

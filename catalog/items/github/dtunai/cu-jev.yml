@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dtunai__cu-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: cu-Jev
         extracted_url: https://github.com/dtunai/cu-jev
-        surrounding_text: >-
-          - [cu-Jev](https://github.com/dtunai/cu-Jev) ([site](https://dtunai.blog/blog/introducing-cu-jev)) - Cuda-Jev
-          — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible
-          benchmarks.
+        surrounding_text: "- [cu-Jev](https://github.com/dtunai/cu-Jev) ([site](https://dtunai.blog/blog/introducing-cu-jev)) - Cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks."
         confidence: high
     - id: discovery__github__dtunai__cu-jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,11 +35,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: cu-Jev
         extracted_url: https://github.com/dtunai/cu-jev
-        surrounding_text: >-
-          - [cu-Jev](https://github.com/dtunai/cu-Jev)
-          ![stars](https://img.shields.io/github/stars/dtunai/cu-Jev?style=flat-square&label=%E2%98%85) - Inference
-          engine: a CUDA-native implementation of the Jev System One API that keeps decisions GPU-resident, shipping a
-          Starfighter demo and a benchmark script.
+        surrounding_text: "- [cu-Jev](https://github.com/dtunai/cu-Jev) ![stars](https://img.shields.io/github/stars/dtunai/cu-Jev?style=flat-square&label=%E2%98%85) - Inference engine: a CUDA-native implementation of the Jev System One API that keeps decisions GPU-resident, shipping a Starfighter demo and a benchmark script."
         confidence: high
 metadata:
   github:
@@ -52,24 +45,20 @@ metadata:
     archived: false
     full_name: dtunai/cu-Jev
     html_url: https://github.com/dtunai/cu-Jev
-    created_at: '2026-09-20T09:09:16Z'
-    pushed_at: '2026-09-23T09:05:26Z'
-    description: >-
-      cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible
-      benchmarks.
+    created_at: "2026-09-20T09:09:16Z"
+    pushed_at: "2026-09-23T09:05:26Z"
+    description: cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks.
     homepage: https://dtunai.blog/blog/introducing-cu-jev
     topics:
       - cuda
       - jev
       - jev-model
-    last_checked_at: '2026-09-29T13:10:50.525Z'
+    last_checked_at: "2026-09-29T13:10:50.525Z"
     readme:
-      fetched_at: '2026-09-29T13:10:50.525Z'
+      fetched_at: "2026-09-29T13:10:50.525Z"
       bytes: 17691
 insights:
-  summary: >-
-    cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible
-    benchmarks.
+  summary: cuda-Jev — a CUDA-native Jev System One decision inference engine. Jev compatible API, examples, and reproducible benchmarks.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -89,15 +78,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:50.525Z'
+    updated_at: "2026-09-29T13:10:50.525Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

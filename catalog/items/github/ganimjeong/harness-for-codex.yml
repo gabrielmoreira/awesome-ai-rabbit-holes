@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ganimjeong__harness-for-codex__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Harness for Codex
         extracted_url: https://github.com/ganimjeong/harness-for-codex
-        surrounding_text: >-
-          - **[Harness for Codex](https://github.com/ganimjeong/Harness-for-codex)** – Language-agnostic repository
-          template for consistent Codex and AI-assisted development workflows with AGENTS.md, standard scripts, CI,
-          hooks, and docs.
+        surrounding_text: "- **[Harness for Codex](https://github.com/ganimjeong/Harness-for-codex)** – Language-agnostic repository template for consistent Codex and AI-assisted development workflows with AGENTS.md, standard scripts, CI, hooks, and docs."
         confidence: high
 metadata:
   github:
@@ -32,13 +29,10 @@ metadata:
     archived: false
     full_name: ganimjeong/Harness-for-codex
     html_url: https://github.com/ganimjeong/Harness-for-codex
-    created_at: '2026-05-18T02:04:17Z'
-    pushed_at: '2026-05-30T11:44:23Z'
-    description: >-
-      Codex harness for consistent AI-assisted development workflows, including agent   instructions, standard
-      setup/check/test/eval scripts, CI, hooks, and  documentation. |  AI 기반 개발 작업을 일관되게 진행하기 위한 Codex 하네스입니다. 에이전트 지침,
-      표준 setup/check/test/eval 스크립트, CI, 훅, 문서를 포함합니다.
-    homepage: ''
+    created_at: "2026-05-18T02:04:17Z"
+    pushed_at: "2026-05-30T11:44:23Z"
+    description: Codex harness for consistent AI-assisted development workflows, including agent   instructions, standard setup/check/test/eval scripts, CI, hooks, and  documentation. |  AI 기반 개발 작업을 일관되게 진행하기 위한 Codex 하네스입니다. 에이전트 지침, 표준 setup/check/test/eval 스크립트, CI, 훅, 문서를 포함합니다.
+    homepage: ""
     topics:
       - agent-instructions
       - agents-md
@@ -60,15 +54,12 @@ metadata:
       - software-agents
       - verification
       - workflow
-    last_checked_at: '2026-09-29T13:11:31.327Z'
+    last_checked_at: "2026-09-29T13:11:31.327Z"
     readme:
-      fetched_at: '2026-09-29T13:11:31.327Z'
+      fetched_at: "2026-09-29T13:11:31.327Z"
       bytes: 3492
 insights:
-  summary: >-
-    Codex harness for consistent AI-assisted development workflows, including agent   instructions, standard
-    setup/check/test/eval scripts, CI, hooks, and  documentation. |  AI 기반 개발 작업을 일관되게 진행하기 위한 Codex 하네스입니다. 에이전트 지침, 표준
-    setup/check/test/eval 스크립트, CI, 훅, 문서를 포함합니다.
+  summary: Codex harness for consistent AI-assisted development workflows, including agent   instructions, standard setup/check/test/eval scripts, CI, hooks, and  documentation. |  AI 기반 개발 작업을 일관되게 진행하기 위한 Codex 하네스입니다. 에이전트 지침, 표준 setup/check/test/eval 스크립트, CI, 훅, 문서를 포함합니다.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -78,9 +69,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.61
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -92,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:31.327Z'
+    updated_at: "2026-09-29T13:11:31.327Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

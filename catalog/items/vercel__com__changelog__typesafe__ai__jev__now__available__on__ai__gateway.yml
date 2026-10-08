@@ -5,9 +5,8 @@ canonical_url: https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__vercel__com__changelog__typesafe__ai__jev__now__available__on__ai__gateway__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__vercel__com__changelog__typesafe__ai__jev__now__available__on__ai__gateway__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Provider integrations
         anchor_text: Vercel AI Gateway
         extracted_url: https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway
-        surrounding_text: >-
-          - [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) -
-          `typesafe-ai/jev` through AI SDK's experimental `evaluate` interface; its Boolean primitive corresponds to
-          TypeSafe's Noul.
+        surrounding_text: "- [Vercel AI Gateway](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) - `typesafe-ai/jev` through AI SDK's experimental `evaluate` interface; its Boolean primitive corresponds to TypeSafe's Noul."
         confidence: high
 metadata:
   github:
@@ -40,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vercel AI Gateway - typesafe-ai/jev through AI SDK's experimental evaluate interface; its Boolean primitive
-    corresponds to TypeSafe's Noul.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Vercel AI Gateway now hosts TypeSafe AI's Jev, a probabilistic decision model that returns typed answers with probabilities for routing, scoring, and verification tasks.
+  why_it_matters: Developers can integrate fast, low-cost decision logic into workflows without parsing LLM text output.
+  mental_damage: Another model to add to the model router, because choosing between LLMs wasn’t anxious enough.
+  tags:
+    - decision-model
+    - ai-gateway
+    - vercel
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: The product is a hosted decision model (Jev) exposed via a gateway, making its core identity the judgment layer rather than coding, orchestration, or app generation.
   evidence:
-    - jev-latest choice confidence 0.74
+    - Jev evaluates declared questions in parallel and returns typed answers plus probabilities directly
+    - TypeSafe reports Jev was up to 193.6x faster and 444.6x cheaper than LLMs on workflow evaluations
+    - Appears in source list under 'Provider integrations' for Jev on Vercel AI Gateway
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -62,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:57.635Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0c36dc13c345cdf9af860c320add20b32dc69d7ffd76a8f2a27c198832cc59b9
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product is a hosted decision model (Jev) exposed via a gateway, making its core identity the judgment layer rather than coding, orchestration, or app generation.
+      decision_evidence:
+        - Jev evaluates declared questions in parallel and returns typed answers plus probabilities directly
+        - TypeSafe reports Jev was up to 193.6x faster and 444.6x cheaper than LLMs on workflow evaluations
+        - Appears in source list under 'Provider integrations' for Jev on Vercel AI Gateway
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jev’s identity is the decision model itself, not an add-on that augments a coding agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

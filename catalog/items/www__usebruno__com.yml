@@ -37,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bruno is a Git-native, local-first API client for REST, GraphQL, gRPC, and WebSocket that stores collections as plain-text files in your repository.
-  why_it_matters: Developers can version-control, diff, and collaborate on API collections using Git, eliminating cloud lock-in and enabling seamless integration with IDEs and agents.
-  mental_damage: Finally, an API client that treats your workflow like a first-class citizen instead of a subscription feature.
+  summary: Bruno is a Git-native API client that stores collections as plain-text files in repositories.
+  why_it_matters: Enables version-controlled, local-first API testing without cloud sync or accounts, fitting developer workflows.
+  mental_damage: Another API client promising to free you from Postman, while quietly adding yet another tool to your already overflowing dev toolbox.
   tags:
     - api-client
     - git-native
-    - open-source
     - local-first
+    - testing
     - developer-tool
   confidence: high
 curation:
   status: excluded
-  reason: Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent developer-facing AI infrastructure.
+  reason: Bruno is a developer tool but not an AI-powered one; it lacks any AI agent, assistant, or workflow integration that would place it in the catalog's AI-tooling scope.
   evidence:
-    - Bruno is described as a 'Git-native API client' and 'open-source, local, and built for developers' with no AI agent or LLM core functionality
-    - Testimonials highlight Git integration, local storage, and offline use — not AI-assisted coding, prompting, or agent behavior
-    - No evidence of AI-driven features like prompt-to-code, agent orchestration, or LLM-powered API test generation beyond a single testimonial mentioning Claude Code scanning routes (which is user-driven, not Bruno’s feature)
+    - No mention of AI, LLMs, agents, or intelligent features in the README or site context
+    - Core functionality is Git-based API collection management and local testing
+    - Positioned as an open-source alternative to Postman/Insomnia, not an AI-enhanced tool
 placement:
   primary_category: null
   section: null
@@ -71,27 +71,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:58:03.518Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for www__usebruno__com: Invalid AI response format: SyntaxError: No number after minus sign in JSON at position 1094 (line 12 column 6)"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:33:12.623Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:04e6fe67687b39aa9c06bb4a5f40d656224a1466ad499ccebd300f39ba76bfb4
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b4ec40770d2a31914661ddb56f1cd1af0cd88006c089f31383c957b9b79d64af
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent developer-facing AI infrastructure.
+      decision_reason: Bruno is a developer tool but not an AI-powered one; it lacks any AI agent, assistant, or workflow integration that would place it in the catalog's AI-tooling scope.
       decision_evidence:
-        - Bruno is described as a 'Git-native API client' and 'open-source, local, and built for developers' with no AI agent or LLM core functionality
-        - Testimonials highlight Git integration, local storage, and offline use — not AI-assisted coding, prompting, or agent behavior
-        - No evidence of AI-driven features like prompt-to-code, agent orchestration, or LLM-powered API test generation beyond a single testimonial mentioning Claude Code scanning routes (which is user-driven, not Bruno’s feature)
+        - No mention of AI, LLMs, agents, or intelligent features in the README or site context
+        - Core functionality is Git-based API collection management and local testing
+        - Positioned as an open-source alternative to Postman/Insomnia, not an AI-enhanced tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

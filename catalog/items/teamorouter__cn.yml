@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__teamorouter__cn__awesome-list__tensorchord__awesome-llmops
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: tensorchord/Awesome-LLMOps
@@ -18,12 +18,7 @@ provenance:
           - LLMOps
         anchor_text: TeamoRouter
         extracted_url: https://router.teamolab.com
-        surrounding_text: >-
-          | [TeamoRouter](https://router.teamolab.com)                         | LLM routing gateway for OpenClaw. One
-          API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best,
-          teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via
-          skill.md.                                                                                                                                       
-          |                                                                                                           |
+        surrounding_text: "| [TeamoRouter](https://router.teamolab.com)                         | LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices. 2-second install via skill.md.                                                                                                                                        |                                                                                                           |"
         confidence: high
 metadata:
   github:
@@ -41,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LLM routing gateway for OpenClaw. One API key to access Claude, GPT-4o, Gemini, DeepSeek, Kimi, MiniMax. Smart
-    routing modes (teamo-best, teamo-balanced, teamo-eco) auto-pick the optimal model. Up to 50% off official prices.
-    2-second install via skill.md.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TeamoRouter is an LLM router that provides a single API key for accessing Claude Code, Codex, and other AI coding agents with discounted model pricing and usage tracking.
+  why_it_matters: It simplifies provider setup and reduces token costs for developers using multiple coding agents by consolidating billing and routing through a single endpoint.
+  mental_damage: Yet another layer of abstraction to save money on AI tools that already feel expensive enough to need a router just to afford them.
+  tags:
+    - llm-router
+    - cost-optimization
+    - api-gateway
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
@@ -57,14 +52,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +67,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:04.684Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dd4973eb0066acad15ff29b4e1b4d05bc1b4faa68b0bf39f1bdfeca72f3b29e2
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: TeamoRouter's core identity is as an LLM router that aggregates and optimizes access to multiple model providers, functioning as middleware that fits the MCP ecosystem's infrastructure role despite not explicitly implementing MCP, as its primary value is routing and billing—aligning with MCP-like tooling for developer workflows.
+      decision_evidence:
+        - Scraped site context describes TeamoRouter as 'The LLM router built for Claude Code and Codex' with 'One Bill' and 'Spend Tracking'
+        - Source-list context from Awesome-LLMOps lists it under LLMOps for reducing token costs and simplifying provider setup
+        - Primary page excerpt emphasizes 'Use one API key for Claude Code, Codex, and AI coding agents' and 'Pay Less for Every Token' with real-time pricing
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because TeamoRouter is not a library or SDK developers import and program against, but rather a middleware service that routes requests and manages billing—matching MCP infrastructure's role as a gateway or proxy rather than a code-first framework.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

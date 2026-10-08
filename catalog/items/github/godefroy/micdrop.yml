@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__godefroy__micdrop__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Micdrop
         extracted_url: https://github.com/godefroy/micdrop
-        surrounding_text: >-
-          - [Micdrop](https://github.com/Godefroy/micdrop) - TypeScript voice conversation SDK (browser/RN/Node) with
-          official `@micdrop/typesafe` Jev turn classifier (BYOK). [Project guide](community/projects/tools/micdrop.md).
+        surrounding_text: "- [Micdrop](https://github.com/Godefroy/micdrop) - TypeScript voice conversation SDK (browser/RN/Node) with official `@micdrop/typesafe` Jev turn classifier (BYOK). [Project guide](community/projects/tools/micdrop.md)."
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: Godefroy/micdrop
     html_url: https://github.com/Godefroy/micdrop
-    created_at: '2025-02-21T17:25:29Z'
-    pushed_at: '2026-09-29T08:16:37Z'
+    created_at: "2025-02-21T17:25:29Z"
+    pushed_at: "2026-09-29T08:16:37Z"
     description: Micdrop is a set packages for node and browser that simplify voice conversations with AI systems.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:44.519Z'
+    last_checked_at: "2026-09-29T13:11:44.519Z"
     readme:
-      fetched_at: '2026-09-29T13:11:44.519Z'
+      fetched_at: "2026-09-29T13:11:44.519Z"
       bytes: 5827
 insights:
   summary: Micdrop is a set packages for node and browser that simplify voice conversations with AI systems.
@@ -62,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:44.519Z'
+    updated_at: "2026-09-29T13:11:44.519Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__ai__pro__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: Jev AI
         extracted_url: https://jev-ai.pro
-        surrounding_text: >-
-          - [Jev AI](https://jev-ai.pro) - Developer tooling: public Jev playground and API that puts typed `Choice`,
-          `Score` and Yes/No questions to the model about pasted text - ticket triage, moderation, review scoring - and
-          returns a parsed answer with a confidence value in about 0.5 s per decision.
+        surrounding_text: "- [Jev AI](https://jev-ai.pro) - Developer tooling: public Jev playground and API that puts typed `Choice`, `Score` and Yes/No questions to the model about pasted text - ticket triage, moderation, review scoring - and returns a parsed answer with a confidence value in about 0.5 s per decision."
         confidence: high
 metadata:
   github:
@@ -40,30 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev AI - Developer tooling: public Jev playground and API that puts typed Choice, Score and Yes/No questions to the
-    model about pasted text - ticket triage, moderation, review scoring - and returns a parsed answer with a confidence
-    value in about 0.5 s per decision.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev AI is a playground and API for Jev, TypeSafe's System One decision model that returns typed answers (Yes/No, Choice, Score) with calibrated probabilities instead of generating text.
+  why_it_matters: It gives developers access to a fast, structured decision model for routing, triage, scoring, and guardrails where deterministic, probability-backed outputs are needed over free-form generation.
+  mental_damage: Another specialized model API to juggle when all you wanted was a yes/no on whether your support ticket is urgent.
+  tags:
+    - decision-model
+    - structured-output
+    - typed-questions
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: Jev AI's core identity is hosting and exposing the Jev decision model via playground and API, which returns constrained typed answers with probabilities—not generated text—making it a canonical decision-model product rather than a coding agent, framework, or MCP tool.
   evidence:
-    - jev-latest choice confidence 0.90
+    - "README states: 'Jev AI lets you try Jev, the TypeSafe System One model, in the browser. Ask yes/no, choice and score questions about any text and get calibrated probabilities and confidence.'"
+    - Scraped site positions Jev AI as an independent playground and API for Jev, emphasizing typed questions (Yes/No, Choice, Score) and calibrated confidence over text generation.
+    - Source-list context shows inclusion in awesome-jev under Infra/SDKs/Integrations with description matching Jev AI's self-pitch as a playground and API for the Jev model.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:51.448Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:9c5d652cdf8c2b85c761e3fbf41292967fb6c0c8bc5d2128c8b306fca600a9ad
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev AI's core identity is hosting and exposing the Jev decision model via playground and API, which returns constrained typed answers with probabilities—not generated text—making it a canonical decision-model product rather than a coding agent, framework, or MCP tool.
+      decision_evidence:
+        - "README states: 'Jev AI lets you try Jev, the TypeSafe System One model, in the browser. Ask yes/no, choice and score questions about any text and get calibrated probabilities and confidence.'"
+        - Scraped site positions Jev AI as an independent playground and API for Jev, emphasizing typed questions (Yes/No, Choice, Score) and calibrated confidence over text generation.
+        - Source-list context shows inclusion in awesome-jev under Infra/SDKs/Integrations with description matching Jev AI's self-pitch as a playground and API for the Jev model.
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because Jev AI's primary identity is the Jev decision model and its API/playground for typed judgments, not MCP server/client/tooling—MCP is only mentioned as a use case (MCP Tool Router), not the product's core function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ethanalgox__jev-trading__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-trading**'
+        anchor_text: "**jev-trading**"
         extracted_url: https://github.com/ethanalgox/jev-trading
-        surrounding_text: >-
-          - [**jev-trading**](https://github.com/EthanAlgoX/jev-trading) — \*\*Jev Trading is a stock decision service
-          that runs on your computer.\*\* Use the web workbench or call it from your own software over HTTP. It sends
-          market data, indicators, fundamentals, and news collected by AIStock to a model, then returns a structured
-          decision with a record of the evidence.
+        surrounding_text: "- [**jev-trading**](https://github.com/EthanAlgoX/jev-trading) — \\*\\*Jev Trading is a stock decision service that runs on your computer.\\*\\* Use the web workbench or call it from your own software over HTTP. It sends market data, indicators, fundamentals, and news collected by AIStock to a model, then returns a structured decision with a record of the evidence."
         confidence: high
 metadata:
   github:
@@ -33,22 +29,19 @@ metadata:
     archived: false
     full_name: EthanAlgoX/jev-trading
     html_url: https://github.com/EthanAlgoX/jev-trading
-    created_at: '2026-09-20T04:20:00Z'
-    pushed_at: '2026-09-20T14:55:57Z'
+    created_at: "2026-09-20T04:20:00Z"
+    pushed_at: "2026-09-20T14:55:57Z"
     description: null
-    homepage: ''
+    homepage: ""
     topics:
       - jev
       - trading
-    last_checked_at: '2026-09-29T13:11:06.218Z'
+    last_checked_at: "2026-09-29T13:11:06.218Z"
     readme:
-      fetched_at: '2026-09-29T13:11:06.218Z'
+      fetched_at: "2026-09-29T13:11:06.218Z"
       bytes: 17292
 insights:
-  summary: >-
-    jev-trading — \*\*Jev Trading is a stock decision service that runs on your computer.\*\* Use the web workbench or
-    call it from your own software over HTTP. It sends market data, indicators, fundamentals, and news collected by
-    AIStock to a model, then returns a structured decision with a record of the evidence.
+  summary: jev-trading — \*\*Jev Trading is a stock decision service that runs on your computer.\*\* Use the web workbench or call it from your own software over HTTP. It sends market data, indicators, fundamentals, and news collected by AIStock to a model, then returns a structured decision with a record of the evidence.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,15 +61,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:06.218Z'
+    updated_at: "2026-09-29T13:11:06.218Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

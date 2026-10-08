@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexj11324__open-jev-approvals__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: open-jev-approvals
         extracted_url: https://github.com/alexj11324/open-jev-approvals
-        surrounding_text: >-
-          | [open-jev-approvals](https://github.com/alexj11324/open-jev-approvals) | ★ 3 | Go | 2026-09-21 | Approval
-          gate for Claude Code and Codex: intercepts tool calls, gets a Jev risk judgment, then applies a versioned
-          local allow/deny policy. |
+        surrounding_text: "| [open-jev-approvals](https://github.com/alexj11324/open-jev-approvals) | ★ 3 | Go | 2026-09-21 | Approval gate for Claude Code and Codex: intercepts tool calls, gets a Jev risk judgment, then applies a versioned local allow/deny policy. |"
         confidence: high
     - id: discovery__github__alexj11324__open-jev-approvals__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,12 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**open-jev-approvals**'
+        anchor_text: "**open-jev-approvals**"
         extracted_url: https://github.com/alexj11324/open-jev-approvals
-        surrounding_text: >-
-          - [**open-jev-approvals**](https://github.com/alexj11324/open-jev-approvals) — Binary approval gate for Codex
-          and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and composed through a versioned
-          local policy, with scoped authorization.
+        surrounding_text: "- [**open-jev-approvals**](https://github.com/alexj11324/open-jev-approvals) — Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and composed through a versioned local policy, with scoped authorization."
         confidence: high
 metadata:
   github:
@@ -51,12 +45,10 @@ metadata:
     archived: false
     full_name: alexj11324/open-jev-approvals
     html_url: https://github.com/alexj11324/open-jev-approvals
-    created_at: '2026-09-20T05:17:00Z'
-    pushed_at: '2026-09-20T09:52:39Z'
-    description: >-
-      Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and
-      composed through a versioned local policy, with scoped authorization.
-    homepage: ''
+    created_at: "2026-09-20T05:17:00Z"
+    pushed_at: "2026-09-20T09:52:39Z"
+    description: Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and composed through a versioned local policy, with scoped authorization.
+    homepage: ""
     topics:
       - agent
       - approval
@@ -70,14 +62,12 @@ metadata:
       - permissions
       - policy-engine
       - typesafe
-    last_checked_at: '2026-09-29T13:08:48.699Z'
+    last_checked_at: "2026-09-29T13:08:48.699Z"
     readme:
-      fetched_at: '2026-09-29T13:08:48.699Z'
+      fetched_at: "2026-09-29T13:08:48.699Z"
       bytes: 4233
 insights:
-  summary: >-
-    Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and
-    composed through a versioned local policy, with scoped authorization.
+  summary: Binary approval gate for Codex and Claude Code — every intercepted tool call is reviewed by TypeSafe JEV and composed through a versioned local policy, with scoped authorization.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -97,15 +87,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.409Z'
+    updated_at: "2026-09-29T13:07:10.409Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:48.699Z'
+    updated_at: "2026-09-29T13:08:48.699Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

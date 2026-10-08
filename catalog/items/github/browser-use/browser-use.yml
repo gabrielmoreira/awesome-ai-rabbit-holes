@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browser-use__browser-use__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://browser-use.com
-        surrounding_text: >-
-          - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) ([site](https://browser-use.com),
-          [post](https://x.com/gregpr07/status/2100411066966749359)) - Browser Use's ultrafast agent: Jev picks the
-          operation and DOM element in one request; a small LLM only writes text when typing is needed.
+        surrounding_text: "- [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) ([site](https://browser-use.com), [post](https://x.com/gregpr07/status/2100411066966749359)) - Browser Use's ultrafast agent: Jev picks the operation and DOM element in one request; a small LLM only writes text when typing is needed."
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: browser-use/browser-use
     html_url: https://github.com/browser-use/browser-use
-    created_at: '2024-10-31T16:00:56Z'
-    pushed_at: '2026-09-26T07:29:35Z'
+    created_at: "2024-10-31T16:00:56Z"
+    pushed_at: "2026-09-26T07:29:35Z"
     description: Agents that use the browser.
     homepage: https://browser-use.com
     topics:
@@ -44,9 +41,9 @@ metadata:
       - llm
       - playwright
       - python
-    last_checked_at: '2026-09-29T13:09:37.024Z'
+    last_checked_at: "2026-09-29T13:09:37.024Z"
     readme:
-      fetched_at: '2026-09-29T13:09:37.024Z'
+      fetched_at: "2026-09-29T13:09:37.024Z"
       bytes: 14959
 insights:
   summary: Agents that use the browser.
@@ -69,15 +66,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:37.024Z'
+    updated_at: "2026-09-29T13:09:37.024Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

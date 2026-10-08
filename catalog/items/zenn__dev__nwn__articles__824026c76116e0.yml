@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zenn__dev__nwn__articles__824026c76116e0__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Articles & threads
         anchor_text: TypeSafeのJevを正しく驚く
         extracted_url: https://zenn.dev/nwn/articles/824026c76116e0
-        surrounding_text: >-
-          - [TypeSafeのJevを正しく驚く](https://zenn.dev/nwn/articles/824026c76116e0) - Japanese walkthrough of what Jev is and
-          is not.
+        surrounding_text: "- [TypeSafeのJevを正しく驚く](https://zenn.dev/nwn/articles/824026c76116e0) - Japanese walkthrough of what Jev is and is not."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An article discussing TypeSafe's Jev, a decision model that returns calibrated probabilities instead of generating text, with demonstrations of its speed and accuracy in JSON output and game-playing tasks like DOOM and Mario.
+  why_it_matters: It highlights an alternative to LLMs for deterministic, high-speed decision tasks where calibrated probability outputs are more reliable than text generation.
+  mental_damage: Another reminder that the AI tooling landscape keeps inventing new model types just to avoid admitting we're still bad at prompting.
+  tags:
+    - decision-model
+    - jev
+    - typesafe
+    - calibrated-probability
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: The article centers on Jev as a decision model that outputs probabilities via logit comparison rather than text generation, fitting the core identity of decision-models, especially given its use in structured tasks like JSON output and game control.
   evidence:
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Official Jev & System One; no placement kept
-      (unverified)
+    - TypeSafeのJevは、文章を生成する代わりに、ソフトウェアがそのまま使える判断と確率を高速に返すモデルです
+    - Jevを使って並列に推論することで大幅に高速化したとのことです。これによりJSON出力と比較して、77倍の高速化することができました
+    - 開発元によると、既存LLMではプロンプト内の選択肢の順序バイアス（Position Bias）、トークナイザの切り出し方、モデルの過信（Overconfidence）などの影響を強く受け、現実世界の確実性と一致する「正しい確率（Calibrated Probability）」にはなっていないとのことです。それに対しJevでは、単に数値を出すことではなく、その数値が確率論的・統計的に適切に校正（Calibration）された信頼できる推定量であることというのが大きなメリットであると開発元は主張しています
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:58.673Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b1229f6bd9e9e668c9801ee1cc1adaa7455c39c329bbda15256d2c0e005224f0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The article centers on Jev as a decision model that outputs probabilities via logit comparison rather than text generation, fitting the core identity of decision-models, especially given its use in structured tasks like JSON output and game control.
+      decision_evidence:
+        - TypeSafeのJevは、文章を生成する代わりに、ソフトウェアがそのまま使える判断と確率を高速に返すモデルです
+        - Jevを使って並列に推論することで大幅に高速化したとのことです。これによりJSON出力と比較して、77倍の高速化することができました
+        - 開発元によると、既存LLMではプロンプト内の選択肢の順序バイアス（Position Bias）、トークナイザの切り出し方、モデルの過信（Overconfidence）などの影響を強く受け、現実世界の確実性と一致する「正しい確率（Calibrated Probability）」にはなっていないとのことです。それに対しJevでは、単に数値を出すことではなく、その数値が確率論的・統計的に適切に校正（Calibration）された信頼できる推定量であることというのが大きなメリットであると開発元は主張しています
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev is a decision model that returns calibrated probabilities for typed questions, not an agent that writes, edits, or operates on code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

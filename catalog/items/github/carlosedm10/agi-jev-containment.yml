@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carlosedm10__agi-jev-containment__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: agi-jev-containment
         extracted_url: https://github.com/carlosedm10/agi-jev-containment
-        surrounding_text: >-
-          - [agi-jev-containment](https://github.com/carlosedm10/agi-jev-containment) - AGI JEV Detection — local AI
-          agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel), escalate-only L1–L5
-          containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026.
+        surrounding_text: "- [agi-jev-containment](https://github.com/carlosedm10/agi-jev-containment) - AGI JEV Detection — local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel), escalate-only L1–L5 containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026."
         confidence: high
     - id: discovery__github__carlosedm10__agi-jev-containment__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,13 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**agi-jev-containment**'
+        anchor_text: "**agi-jev-containment**"
         extracted_url: https://github.com/carlosedm10/agi-jev-containment
-        surrounding_text: >-
-          - [**agi-jev-containment**](https://github.com/carlosedm10/agi-jev-containment) — \*\*Open-source AI agent
-          monitoring, malicious-agent detection, and escalate-only containment\*\* for sandboxed LLM agents. Local
-          HackSpain 2026 stack (AngryRobot dashboard): FastAPI, React/Vite, Neo4j. Classifies a \*chain of actions\*,
-          not a single tool call. A model never pulls the plug.
+        surrounding_text: "- [**agi-jev-containment**](https://github.com/carlosedm10/agi-jev-containment) — \\*\\*Open-source AI agent monitoring, malicious-agent detection, and escalate-only containment\\*\\* for sandboxed LLM agents. Local HackSpain 2026 stack (AngryRobot dashboard): FastAPI, React/Vite, Neo4j. Classifies a \\*chain of actions\\*, not a single tool call. A model never pulls the plug."
         confidence: high
 metadata:
   github:
@@ -51,21 +44,17 @@ metadata:
     archived: false
     full_name: carlosedm10/agi-jev-containment
     html_url: https://github.com/carlosedm10/agi-jev-containment
-    created_at: '2026-09-14T08:13:20Z'
-    pushed_at: '2026-09-21T06:49:40Z'
-    description: >-
-      AGI JEV Detection — local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel),
-      escalate-only L1–L5 containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026.
-    homepage: ''
+    created_at: "2026-09-14T08:13:20Z"
+    pushed_at: "2026-09-21T06:49:40Z"
+    description: "AGI JEV Detection — local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel), escalate-only L1–L5 containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026."
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-29T13:09:43.105Z'
+    last_checked_at: "2026-09-29T13:09:43.105Z"
     readme:
-      fetched_at: '2026-09-29T13:09:43.105Z'
+      fetched_at: "2026-09-29T13:09:43.105Z"
       bytes: 6956
 insights:
-  summary: >-
-    AGI JEV Detection — local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel),
-    escalate-only L1–L5 containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026.
+  summary: "AGI JEV Detection — local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel), escalate-only L1–L5 containment, Neo4j forensics, AngryRobot dashboard. HackSpain 2026."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -85,15 +74,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:43.105Z'
+    updated_at: "2026-09-29T13:09:43.105Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

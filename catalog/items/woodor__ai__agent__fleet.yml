@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__woodor__ai__agent__fleet__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,12 +19,7 @@ provenance:
           - Agent infrastructure
         anchor_text: Agent Fleet
         extracted_url: https://woodor.ai/agent-fleet
-        surrounding_text: >-
-          - **[Agent Fleet](https://woodor.ai/agent-fleet/)** — Messaging layer for coding-agent sessions: every live
-          Claude Code or Codex session takes a `name@project` address, and sessions exchange messages and files on one
-          machine, across a LAN, or across networks. Also does remote session lifecycle control — compact, clear,
-          handoff, restart. Native on macOS, Windows (x64 and arm64), and Linux x64, with no WSL or tmux. Closed source;
-          free on a local network, paid cloud relay.
+        surrounding_text: "- **[Agent Fleet](https://woodor.ai/agent-fleet/)** — Messaging layer for coding-agent sessions: every live Claude Code or Codex session takes a `name@project` address, and sessions exchange messages and files on one machine, across a LAN, or across networks. Also does remote session lifecycle control — compact, clear, handoff, restart. Native on macOS, Windows (x64 and arm64), and Linux x64, with no WSL or tmux. Closed source; free on a local network, paid cloud relay."
         confidence: high
 metadata:
   github:
@@ -42,20 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Agent Fleet — Messaging layer for coding-agent sessions: every live Claude Code or Codex session takes a
-    name@project address, and sessions exchange messages and files on one machine, across a LAN, or across networks.
-    Also does remote session lifecycle control — compact, clear, handoff, restart. Native on macOS, Windows (x64 and
-    arm64), and Linux x64, with no WSL or tmux. Closed source; free on a local network, paid cloud relay.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A communication layer for messaging and file handoffs between Claude Code and Codex CLI sessions across different machines and networks.
+  why_it_matters: It enables complex multi-agent workflows by allowing autonomous coding sessions to pass context and files directly to one another without manual intervention.
+  mental_damage: Because the only thing missing from our terminal-based autonomous workflows was a decentralized, cross-machine chat protocol for our bots.
+  tags:
+    - agent-orchestration
+    - multi-agent
+    - claude-code
+    - codex
+    - cli-tool
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  reason: It provides a communication harness for coordinating the interaction and data flow between multiple autonomous coding agents.
   evidence:
-    - jev-latest choice confidence 0.64
+    - Enables messaging and file handoffs between Claude Code and Codex sessions
+    - Supports cross-machine and cross-network coordination
+    - Provides addressable identities for CLI-based agent sessions
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -66,7 +64,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:56.613Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7003e080e8086d36dd7be9c00d9df87e0229b332d2a10ed95125f3dce568e6d1
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It provides a communication harness for coordinating the interaction and data flow between multiple autonomous coding agents.
+      decision_evidence:
+        - Enables messaging and file handoffs between Claude Code and Codex sessions
+        - Supports cross-machine and cross-network coordination
+        - Provides addressable identities for CLI-based agent sessions
+      category_candidates:
+        - agent-orchestration
+        - extensions-and-addons
+      contrastive_reason: Choose agent-orchestration over extensions-and-addons because the product's primary purpose is managing the relationship and communication between multiple agent sessions rather than just adding a capability to a single host.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

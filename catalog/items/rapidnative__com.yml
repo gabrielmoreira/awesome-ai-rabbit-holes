@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__rapidnative__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: RapidNative
         extracted_url: https://rapidnative.com
-        surrounding_text: >-
-          - **[RapidNative](https://rapidnative.com/)** – AI-native mobile app builder that turns ideas, sketches, or
-          screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.
+        surrounding_text: "- **[RapidNative](https://rapidnative.com/)** – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    RapidNative – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and
-    Expo apps with production-ready code. Freemium with 20 free credits.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: RapidNative is a mobile app builder that generates React Native and Expo apps from natural language prompts.
+  why_it_matters: It lets developers skip boilerplate and ship native mobile apps faster using AI-generated code they can export and extend.
+  mental_damage: Another prompt-to-app tool that makes you wonder if writing any code yourself is now just legacy behavior.
+  tags:
+    - app-builder
+    - react-native
+    - expo
+    - mobile
+    - ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: RapidNative generates complete, deployable React Native apps from prompts, matching the core app-builder identity of turning natural language into runnable software.
   evidence:
-    - jev-latest choice confidence 0.96
+    - Describe what you want in plain English, and RapidNative builds real React Native screens—instantly.
+    - Every project ships with authentication, file storage, and realtime updates wired up on day one.
+    - You can export clean React Native code anytime and have your developers extend it, or publish directly to app stores.
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -60,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:43.484Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2c1265b7372b1e5d9c2529a63d99eca730c36ec16d759d85f0149f0e1b3f13d6
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: RapidNative generates complete, deployable React Native apps from prompts, matching the core app-builder identity of turning natural language into runnable software.
+      decision_evidence:
+        - Describe what you want in plain English, and RapidNative builds real React Native screens—instantly.
+        - Every project ships with authentication, file storage, and realtime updates wired up on day one.
+        - You can export clean React Native code anytime and have your developers extend it, or publish directly to app stores.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because RapidNative’s primary function is generating new apps from prompts rather than editing or assisting within an existing codebase.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

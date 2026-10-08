@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coo-quack__jev-pii-checker__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: jev-pii-checker
         extracted_url: https://github.com/coo-quack/jev-pii-checker
-        surrounding_text: >-
-          - [jev-pii-checker](https://github.com/coo-quack/jev-pii-checker)
-          ([site](https://coo-quack.github.io/jev-pii-checker/)) - CLI that finds PII in text with TypeSafe Jev:
-          presence, sensitivity, and located spans.
+        surrounding_text: "- [jev-pii-checker](https://github.com/coo-quack/jev-pii-checker) ([site](https://coo-quack.github.io/jev-pii-checker/)) - CLI that finds PII in text with TypeSafe Jev: presence, sensitivity, and located spans."
         confidence: high
     - id: discovery__github__coo-quack__jev-pii-checker__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-pii-checker
         extracted_url: https://github.com/coo-quack/jev-pii-checker
-        surrounding_text: >-
-          - [jev-pii-checker](https://github.com/coo-quack/jev-pii-checker) - CLI that finds PII spans and sensitivity
-          with TypeSafe Jev plus regex/segmentation layers (scanned text leaves the host). [Project
-          guide](community/projects/tools/jev-pii-checker.md).
+        surrounding_text: "- [jev-pii-checker](https://github.com/coo-quack/jev-pii-checker) - CLI that finds PII spans and sensitivity with TypeSafe Jev plus regex/segmentation layers (scanned text leaves the host). [Project guide](community/projects/tools/jev-pii-checker.md)."
         confidence: high
     - id: discovery__github__coo-quack__jev-pii-checker__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**jev-pii-checker**'
+        anchor_text: "**jev-pii-checker**"
         extracted_url: https://github.com/coo-quack/jev-pii-checker
-        surrounding_text: >-
-          - [**jev-pii-checker**](https://github.com/coo-quack/jev-pii-checker) — A CLI that sends text to TypeSafe Jev
-          for PII category Nouls and a sensitivity Score, then locates spans with regex and segmentation.
+        surrounding_text: "- [**jev-pii-checker**](https://github.com/coo-quack/jev-pii-checker) — A CLI that sends text to TypeSafe Jev for PII category Nouls and a sensitivity Score, then locates spans with regex and segmentation."
         confidence: high
 metadata:
   github:
@@ -68,9 +60,9 @@ metadata:
     archived: false
     full_name: coo-quack/jev-pii-checker
     html_url: https://github.com/coo-quack/jev-pii-checker
-    created_at: '2026-09-19T13:57:58Z'
-    pushed_at: '2026-09-28T01:31:38Z'
-    description: 'CLI that finds PII in text with TypeSafe Jev: presence, sensitivity, and located spans'
+    created_at: "2026-09-19T13:57:58Z"
+    pushed_at: "2026-09-28T01:31:38Z"
+    description: "CLI that finds PII in text with TypeSafe Jev: presence, sensitivity, and located spans"
     homepage: https://coo-quack.github.io/jev-pii-checker/
     topics:
       - ai-tools
@@ -81,12 +73,12 @@ metadata:
       - privacy
       - typesafe
       - typescript
-    last_checked_at: '2026-09-29T13:10:10.150Z'
+    last_checked_at: "2026-09-29T13:10:10.150Z"
     readme:
-      fetched_at: '2026-09-29T13:10:10.150Z'
+      fetched_at: "2026-09-29T13:10:10.150Z"
       bytes: 5430
 insights:
-  summary: 'CLI that finds PII in text with TypeSafe Jev: presence, sensitivity, and located spans'
+  summary: "CLI that finds PII in text with TypeSafe Jev: presence, sensitivity, and located spans"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -106,15 +98,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.393Z'
+    updated_at: "2026-09-29T13:07:10.393Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:10.150Z'
+    updated_at: "2026-09-29T13:10:10.150Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

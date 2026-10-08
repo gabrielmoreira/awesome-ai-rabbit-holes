@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hiwoniu__jev-case__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: Jev-Case
         extracted_url: https://github.com/hiwoniu/jev-case
-        surrounding_text: >-
-          - [Jev-Case](https://github.com/Hiwoniu/Jev-Case) - 收集全网优秀 case 的收藏库 | A curated collection of excellent cases
-          from across the web.
+        surrounding_text: "- [Jev-Case](https://github.com/Hiwoniu/Jev-Case) - 收集全网优秀 case 的收藏库 | A curated collection of excellent cases from across the web."
         confidence: high
     - id: discovery__github__hiwoniu__jev-case__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Other lists (41)
         anchor_text: Jev-Case
         extracted_url: https://github.com/hiwoniu/jev-case
-        surrounding_text: >-
-          | [Jev-Case](https://github.com/Hiwoniu/Jev-Case) | ★ 0 | TypeScript | 2026-09-20 | Curated collection of Jev
-          and System One cases from across the web. |
+        surrounding_text: "| [Jev-Case](https://github.com/Hiwoniu/Jev-Case) | ★ 0 | TypeScript | 2026-09-20 | Curated collection of Jev and System One cases from across the web. |"
         confidence: high
 metadata:
   github:
@@ -49,14 +45,14 @@ metadata:
     archived: false
     full_name: Hiwoniu/Jev-Case
     html_url: https://github.com/Hiwoniu/Jev-Case
-    created_at: '2026-09-18T10:12:32Z'
-    pushed_at: '2026-09-22T08:26:45Z'
+    created_at: "2026-09-18T10:12:32Z"
+    pushed_at: "2026-09-22T08:26:45Z"
     description: 收集全网优秀 case 的收藏库 | A curated collection of excellent cases from across the web
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:12:09.278Z'
+    last_checked_at: "2026-09-29T13:12:09.278Z"
     readme:
-      fetched_at: '2026-09-29T13:12:09.278Z'
+      fetched_at: "2026-09-29T13:12:09.278Z"
       bytes: 2832
 insights:
   summary: 收集全网优秀 case 的收藏库 | A curated collection of excellent cases from across the web
@@ -79,15 +75,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.415Z'
+    updated_at: "2026-09-29T13:07:10.415Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:09.278Z'
+    updated_at: "2026-09-29T13:12:09.278Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

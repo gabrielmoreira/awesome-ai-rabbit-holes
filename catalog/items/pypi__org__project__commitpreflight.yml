@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__commitpreflight__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: PyPI
         extracted_url: https://pypi.org/project/commitpreflight
-        surrounding_text: >-
-          - **[commitpreflight](https://github.com/swarmbrr/commitpreflight)** – Pre-flight lint for commit messages
-          written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available
-          on [PyPI](https://pypi.org/project/commitpreflight/) with pre-commit hook support.
+        surrounding_text: "- **[commitpreflight](https://github.com/swarmbrr/commitpreflight)** – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available on [PyPI](https://pypi.org/project/commitpreflight/) with pre-commit hook support."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    commitpreflight – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real
-    agent CLI failures, not style opinions. Available on PyPI with pre-commit hook support.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python package whose purpose cannot be determined from available metadata or documentation.
+  why_it_matters: Unclear; no developer-facing function or workflow improvement is described.
+  mental_damage: Another mystery box in the Python ecosystem that promises AI-powered commits but delivers only a 404.
+  tags:
+    - unknown
+    - python
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Testing & Code Quality
+  status: excluded
+  reason: Insufficient information to determine what the tool does; no README, repo description, or functional details are accessible to assess developer relevance.
   evidence:
-    - jev-latest choice confidence 0.66
-    - >-
-      jev winnow:e4b 0.24 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
-      at extensions-and-addons (unverified)
+    - Repo description is missing
+    - Scraped site shows a generic error page with no tool-specific content
+    - Source-list placement is vague and not grounded in the tool's actual function
 placement:
-  primary_category: extensions-and-addons
+  primary_category: null
   secondary_categories:
     - decision-models
-  section: Testing & Code Quality
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:09.981Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3b8c8838151da0199def41b903e1107a53e174161d8f6284ab7bc7decdd95457
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information to determine what the tool does; no README, repo description, or functional details are accessible to assess developer relevance.
+      decision_evidence:
+        - Repo description is missing
+        - Scraped site shows a generic error page with no tool-specific content
+        - Source-list placement is vague and not grounded in the tool's actual function
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

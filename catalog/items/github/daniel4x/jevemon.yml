@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__daniel4x__jevemon__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**JevEmon**'
+        anchor_text: "**JevEmon**"
         extracted_url: https://github.com/daniel4x/jevemon
-        surrounding_text: >-
-          - [**JevEmon**](https://github.com/daniel4x/JevEmon) — Verified milestones so far: Jev can leave the Player's
-          House, cross Pallet Town, deliver itself through Route 1 (fighting and winning any wild encounters along the
-          way), and reach Viridian City. Further legs of the journey (Oak's Parcel, the first Gym) aren't built yet —
-          the walk currently ends the run once it reaches Viridian City.
+        surrounding_text: "- [**JevEmon**](https://github.com/daniel4x/JevEmon) — Verified milestones so far: Jev can leave the Player's House, cross Pallet Town, deliver itself through Route 1 (fighting and winning any wild encounters along the way), and reach Viridian City. Further legs of the journey (Oak's Parcel, the first Gym) aren't built yet — the walk currently ends the run once it reaches Viridian City."
         confidence: high
 metadata:
   github:
@@ -33,10 +29,10 @@ metadata:
     archived: false
     full_name: daniel4x/JevEmon
     html_url: https://github.com/daniel4x/JevEmon
-    created_at: '2026-09-21T12:50:05Z'
-    pushed_at: '2026-09-21T13:25:04Z'
+    created_at: "2026-09-21T12:50:05Z"
+    pushed_at: "2026-09-21T13:25:04Z"
     description: Jev walks a real Pokémon FireRed ROM.
-    homepage: ''
+    homepage: ""
     topics:
       - agents
       - ai
@@ -45,9 +41,9 @@ metadata:
       - mgba
       - pokemon
       - typesafe
-    last_checked_at: '2026-09-29T13:10:21.371Z'
+    last_checked_at: "2026-09-29T13:10:21.371Z"
     readme:
-      fetched_at: '2026-09-29T13:10:21.371Z'
+      fetched_at: "2026-09-29T13:10:21.371Z"
       bytes: 3522
 insights:
   summary: null
@@ -68,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:21.371Z'
+    updated_at: "2026-09-29T13:10:21.371Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

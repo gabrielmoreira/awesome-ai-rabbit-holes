@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sourcegraph__com__docs__cody__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,10 +18,10 @@ provenance:
           - Cody by Sourcegraph
         anchor_text: Cody by Sourcegraph
         extracted_url: https://docs.sourcegraph.com/cody
-        surrounding_text: '## [Cody by Sourcegraph](https://docs.sourcegraph.com/cody)'
+        surrounding_text: "## [Cody by Sourcegraph](https://docs.sourcegraph.com/cody)"
         confidence: high
     - id: discovery__sourcegraph__com__docs__cody__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -33,9 +33,7 @@ provenance:
           - Code Editors and Assistants
         anchor_text: Cody (Sourcegraph)
         extracted_url: https://about.sourcegraph.com/cody
-        surrounding_text: >-
-          - **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)** – AI assistant for code understanding,
-          navigation, and generation across entire codebases.
+        surrounding_text: "- **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)** – AI assistant for code understanding, navigation, and generation across entire codebases."
         confidence: high
 metadata:
   github:
@@ -53,28 +51,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Cody is an AI coding assistant that uses Sourcegraph's search API to provide context-aware code completions, chat, and editing across IDEs and the web.
+  why_it_matters: It helps developers understand, write, and fix code faster by pulling in relevant context from local and remote codebases via advanced search.
+  mental_damage: Yet another AI pair programmer that promises to reduce context-switching while adding yet another sidebar to your IDE.
+  tags:
+    - ai-coding-assistant
+    - context-aware
+    - sourcegraph
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Cody is a developer-facing AI agent whose primary identity is performing coding tasks like chat, code completion, and editing using repository context, fitting the coding-agents category.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.36 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - README describes Cody as 'an AI coding assistant that uses all the latest LLMs and your development context to help you understand, write, and fix code faster'
+    - It provides developer chat, code completions, code edits, and customizable prompts via extensions for VS Code, JetBrains, Visual Studio, and web
+    - It uses Sourcegraph's advanced Search API to pull context from both local and remote codebases for accurate results
 placement:
-  primary_category: null
+  primary_category: coding-agents
   secondary_categories: []
-  section: null
+  section: IDE-Native & Editor Agents
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,6 +84,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:33.765Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:976c0b9370e0e1c9263939ff677f8ef5dffa65b87484e57aa72e1c2b19e0b127
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Cody is a developer-facing AI agent whose primary identity is performing coding tasks like chat, code completion, and editing using repository context, fitting the coding-agents category.
+      decision_evidence:
+        - README describes Cody as 'an AI coding assistant that uses all the latest LLMs and your development context to help you understand, write, and fix code faster'
+        - It provides developer chat, code completions, code edits, and customizable prompts via extensions for VS Code, JetBrains, Visual Studio, and web
+        - It uses Sourcegraph's advanced Search API to pull context from both local and remote codebases for accurate results
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because Cody is a standalone AI coding assistant that operates across multiple hosts rather than primarily augmenting a single agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

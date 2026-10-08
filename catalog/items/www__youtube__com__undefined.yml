@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The provided input contains no identifiable tool, repository, or product information.
-  why_it_matters: An undefined tool provides no value to a developer's workflow.
-  mental_damage: The developer experience of reviewing an undefined tool is the ultimate test of existential dread.
+  summary: Undefined project entry with corrupted or placeholder metadata.
+  why_it_matters: No actionable information or developer value can be determined from the provided input.
+  mental_damage: The data has reached a state of pure entropy.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is missing all required factual identifiers, including a valid name, description, and repository link.
+  reason: The input contains no valid product information, featuring an 'undefined' name and a generic YouTube placeholder URL.
   evidence:
-    - Name is explicitly 'undefined'
-    - URL points to a non-existent YouTube path
-    - No README or repository description provided
+    - Name is 'undefined'
+    - URL is a generic YouTube link
+    - Missing repo description and README
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:23:03.074Z"
+    updated_at: "2026-10-08T04:16:49.138Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is missing all required factual identifiers, including a valid name, description, and repository link.
+      decision_reason: The input contains no valid product information, featuring an 'undefined' name and a generic YouTube placeholder URL.
       decision_evidence:
-        - Name is explicitly 'undefined'
-        - URL points to a non-existent YouTube path
-        - No README or repository description provided
+        - Name is 'undefined'
+        - URL is a generic YouTube link
+        - Missing repo description and README
       category_candidates: []
       contrastive_reason: null
       review_reason: null

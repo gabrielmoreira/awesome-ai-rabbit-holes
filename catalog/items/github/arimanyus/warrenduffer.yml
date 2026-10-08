@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__arimanyus__warrenduffer__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: warrenduffer
         extracted_url: https://github.com/arimanyus/warrenduffer
-        surrounding_text: >-
-          | [warrenduffer](https://github.com/arimanyus/warrenduffer) | ★ 82 | TypeScript | 2026-09-24 | Intraday
-          trading bot where Jev ranks Nifty 50 candidates and deterministic code controls position sizing and risk. |
+        surrounding_text: "| [warrenduffer](https://github.com/arimanyus/warrenduffer) | ★ 82 | TypeScript | 2026-09-24 | Intraday trading bot where Jev ranks Nifty 50 candidates and deterministic code controls position sizing and risk. |"
         confidence: high
 metadata:
   github:
@@ -32,13 +30,10 @@ metadata:
     archived: false
     full_name: arimanyus/warrenduffer
     html_url: https://github.com/arimanyus/warrenduffer
-    created_at: '2026-09-22T18:38:48Z'
-    pushed_at: '2026-09-23T05:00:33Z'
-    description: >-
-      AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and
-      places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt,
-      terminal dashboard.
-    homepage: ''
+    created_at: "2026-09-22T18:38:48Z"
+    pushed_at: "2026-09-23T05:00:33Z"
+    description: AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal dashboard.
+    homepage: ""
     topics:
       - ai-gateway
       - ai-trading
@@ -59,15 +54,12 @@ metadata:
       - typescript
       - vercel-ai-sdk
       - zerodha
-    last_checked_at: '2026-09-29T13:09:11.447Z'
+    last_checked_at: "2026-09-29T13:09:11.447Z"
     readme:
-      fetched_at: '2026-09-29T13:09:11.447Z'
+      fetched_at: "2026-09-29T13:09:11.447Z"
       bytes: 8723
 insights:
-  summary: >-
-    AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places
-    the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal
-    dashboard.
+  summary: AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal dashboard.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -87,15 +79,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:11.447Z'
+    updated_at: "2026-09-29T13:09:11.447Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

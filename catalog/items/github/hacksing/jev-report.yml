@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hacksing__jev-report__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-report
         extracted_url: https://github.com/hacksing/jev-report
-        surrounding_text: >-
-          - [jev-report](https://github.com/HackSing/jev-report) - 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50
-          条中文实测复现包 + 143 条可回溯数据表.
+        surrounding_text: "- [jev-report](https://github.com/HackSing/jev-report) - 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表."
         confidence: high
     - id: discovery__github__hacksing__jev-report__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-report
         extracted_url: https://github.com/hacksing/jev-report
-        surrounding_text: >-
-          | [jev-report](https://github.com/HackSing/jev-report) | ★ 0 | Python | 2026-09-19 | 发明 RLHF
-          的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表. |
+        surrounding_text: "| [jev-report](https://github.com/HackSing/jev-report) | ★ 0 | Python | 2026-09-19 | 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表. |"
         confidence: high
 metadata:
   github:
@@ -49,8 +45,8 @@ metadata:
     archived: false
     full_name: HackSing/jev-report
     html_url: https://github.com/HackSing/jev-report
-    created_at: '2026-09-17T14:49:15Z'
-    pushed_at: '2026-09-17T14:50:24Z'
+    created_at: "2026-09-17T14:49:15Z"
+    pushed_at: "2026-09-17T14:50:24Z"
     description: 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表
     homepage: https://github.com/HackSing/jev-report
     topics:
@@ -59,9 +55,9 @@ metadata:
       - jev
       - llm-evaluation
       - typesafe
-    last_checked_at: '2026-09-29T13:11:54.870Z'
+    last_checked_at: "2026-09-29T13:11:54.870Z"
     readme:
-      fetched_at: '2026-09-29T13:11:54.870Z'
+      fetched_at: "2026-09-29T13:11:54.870Z"
       bytes: 7806
 insights:
   summary: 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表
@@ -84,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.414Z'
+    updated_at: "2026-09-29T13:07:10.414Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:54.870Z'
+    updated_at: "2026-09-29T13:11:54.870Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

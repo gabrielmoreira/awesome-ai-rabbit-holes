@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__beatapi__awesome-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Other lists
         anchor_text: awesome-jev (BeatAPI)
         extracted_url: https://github.com/beatapi/awesome-jev
-        surrounding_text: >-
-          - [awesome-jev (BeatAPI)](https://github.com/BeatAPI/awesome-jev) ([site](https://beatapi.io/awesome-jev)) -
-          We only curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models,
-          and experiments. Live gallery: beatapi.io/awesome-jev.
+        surrounding_text: "- [awesome-jev (BeatAPI)](https://github.com/BeatAPI/awesome-jev) ([site](https://beatapi.io/awesome-jev)) - We only curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models, and experiments. Live gallery: beatapi.io/awesome-jev."
         confidence: high
     - id: discovery__github__beatapi__awesome-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,10 +35,7 @@ provenance:
           - Other lists (41)
         anchor_text: awesome-jev (BeatAPI)
         extracted_url: https://github.com/beatapi/awesome-jev
-        surrounding_text: >-
-          | [awesome-jev (BeatAPI)](https://github.com/BeatAPI/awesome-jev) | ★ 38 | JavaScript | 2026-09-22 | We only
-          curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models, and
-          experiments. Live gallery: beatapi.io/awesome-jev |
+        surrounding_text: "| [awesome-jev (BeatAPI)](https://github.com/BeatAPI/awesome-jev) | ★ 38 | JavaScript | 2026-09-22 | We only curate source-reviewed JEV-related projects with 100+ GitHub stars — integrations, tools, open models, and experiments. Live gallery: beatapi.io/awesome-jev |"
         confidence: high
 metadata:
   github:
@@ -51,11 +45,9 @@ metadata:
     archived: false
     full_name: BeatAPI/awesome-jev
     html_url: https://github.com/BeatAPI/awesome-jev
-    created_at: '2026-09-20T04:52:51Z'
-    pushed_at: '2026-09-28T00:52:56Z'
-    description: >-
-      A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models,
-      experiments, and ecosystem resources. Live gallery: beatapi.io/awesome-jev
+    created_at: "2026-09-20T04:52:51Z"
+    pushed_at: "2026-09-28T00:52:56Z"
+    description: "A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources. Live gallery: beatapi.io/awesome-jev"
     homepage: https://beatapi.io/awesome-jev
     topics:
       - ai-agents
@@ -63,14 +55,12 @@ metadata:
       - decision-models
       - jev
       - open-source
-    last_checked_at: '2026-09-29T13:09:28.826Z'
+    last_checked_at: "2026-09-29T13:09:28.826Z"
     readme:
-      fetched_at: '2026-09-29T13:09:28.826Z'
+      fetched_at: "2026-09-29T13:09:28.826Z"
       bytes: 77279
 insights:
-  summary: >-
-    A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models,
-    experiments, and ecosystem resources. Live gallery: beatapi.io/awesome-jev
+  summary: "A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources. Live gallery: beatapi.io/awesome-jev"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -90,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:28.826Z'
+    updated_at: "2026-09-29T13:09:28.826Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drsound__markdown-to-whatsapp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,12 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: drsound/markdown-to-whatsapp
         extracted_url: https://github.com/drsound/markdown-to-whatsapp
-        surrounding_text: >-
-          - [drsound/markdown-to-whatsapp](https://github.com/drsound/markdown-to-whatsapp)
-          [![drsound/markdown-to-whatsapp MCP
-          server](https://glama.ai/mcp/servers/drsound/markdown-to-whatsapp/badges/score.svg)](https://glama.ai/mcp/servers/drsound/markdown-to-whatsapp)
-          📇 🏠 🍎 🪟 🐧 - Convert Markdown to WhatsApp formatting so agent output shows bold, lists and quotes instead
-          of raw asterisks, with tables rendered as monospace boxes.
+        surrounding_text: "- [drsound/markdown-to-whatsapp](https://github.com/drsound/markdown-to-whatsapp) [![drsound/markdown-to-whatsapp MCP server](https://glama.ai/mcp/servers/drsound/markdown-to-whatsapp/badges/score.svg)](https://glama.ai/mcp/servers/drsound/markdown-to-whatsapp) 📇 🏠 🍎 🪟 🐧 - Convert Markdown to WhatsApp formatting so agent output shows bold, lists and quotes instead of raw asterisks, with tables rendered as monospace boxes."
         confidence: high
 metadata:
   github:
@@ -35,11 +30,9 @@ metadata:
     archived: false
     full_name: drsound/markdown-to-whatsapp
     html_url: https://github.com/drsound/markdown-to-whatsapp
-    created_at: '2026-08-23T12:35:03Z'
-    pushed_at: '2026-08-25T08:21:51Z'
-    description: >-
-      Convert Markdown into WhatsApp formatting: tables drawn to fit the phone's monospace width. Web page, library, CLI
-      and MCP server.
+    created_at: "2026-08-23T12:35:03Z"
+    pushed_at: "2026-08-25T08:21:51Z"
+    description: "Convert Markdown into WhatsApp formatting: tables drawn to fit the phone's monospace width. Web page, library, CLI and MCP server."
     homepage: https://drsound.github.io/markdown-to-whatsapp/
     topics:
       - cli
@@ -52,14 +45,12 @@ metadata:
       - mcp-server
       - npm-package
       - whatsapp
-    last_checked_at: '2026-09-29T13:10:49.547Z'
+    last_checked_at: "2026-09-29T13:10:49.547Z"
     readme:
-      fetched_at: '2026-09-29T13:10:49.547Z'
+      fetched_at: "2026-09-29T13:10:49.547Z"
       bytes: 18015
 insights:
-  summary: >-
-    Convert Markdown into WhatsApp formatting: tables drawn to fit the phone's monospace width. Web page, library, CLI
-    and MCP server.
+  summary: "Convert Markdown into WhatsApp formatting: tables drawn to fit the phone's monospace width. Web page, library, CLI and MCP server."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -69,9 +60,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.43
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at
-      mcp (unverified)
+    - jev winnow:e4b 0.36 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -83,15 +72,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:49.547Z'
+    updated_at: "2026-09-29T13:10:49.547Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

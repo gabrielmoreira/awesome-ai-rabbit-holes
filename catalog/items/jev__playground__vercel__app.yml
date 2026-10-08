@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__playground__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev-playground.vercel.app
-        surrounding_text: >-
-          - [jev-playground (wustep)](https://github.com/wustep/jev-playground)
-          ([site](https://jev-playground.vercel.app)) - Can a System One model steer music? Jev picks the plan (enums
-          only); code renders sheet, audio and MIDI.
+        surrounding_text: "- [jev-playground (wustep)](https://github.com/wustep/jev-playground) ([site](https://jev-playground.vercel.app)) - Can a System One model steer music? Jev picks the plan (enums only); code renders sheet, audio and MIDI."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-playground (wustep) (site) - Can a System One model steer music? Jev picks the plan (enums only); code renders
-    sheet, audio and MIDI.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jevo Playground is a demo site showing Jev, a System One decision model, generating musical plans while code renders the notes.
+  why_it_matters: It demonstrates how decision models can steer creative outputs like music, offering a novel interface for developers exploring typed judgments in generative workflows.
+  mental_damage: Another reminder that we now need AI to pick our scales before we can even hum a tune.
+  tags:
+    - decision-models
+    - demo
+    - music
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The product's core identity is a decision model (Jev) generating typed judgments to steer music generation, fitting the decision-models category despite being hosted as a playground.
   evidence:
-    - jev-latest choice confidence 0.69
+    - "Scraped site title: 'Jev Playground'"
+    - "Scraped site description: 'Can a System One model steer music? Jev picks the plan, code writes the notes.'"
+    - "Source-list context: listed in awesome-jev under 'Demos & playgrounds' as a project built on Jev"
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:32.102Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a2b22f85baa6b74bbecbf6908193752db88b772bc0a6a65c649835feed73cf30
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model (Jev) generating typed judgments to steer music generation, fitting the decision-models category despite being hosted as a playground.
+      decision_evidence:
+        - "Scraped site title: 'Jev Playground'"
+        - "Scraped site description: 'Can a System One model steer music? Jev picks the plan, code writes the notes.'"
+        - "Source-list context: listed in awesome-jev under 'Demos & playgrounds' as a project built on Jev"
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product's identity is the decision model steering output, not generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

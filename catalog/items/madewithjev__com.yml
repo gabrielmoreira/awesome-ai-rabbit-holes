@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__madewithjev__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,13 +18,10 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://madewithjev.com
-        surrounding_text: >-
-          - [awesome-jev (kraayenjon)](https://github.com/kraayenjon/awesome-jev) ([site](https://madewithjev.com)) - A
-          curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast,
-          typed decisions in software — Choice, Score, and Noul with calibrated probabilities.
+        surrounding_text: "- [awesome-jev (kraayenjon)](https://github.com/kraayenjon/awesome-jev) ([site](https://madewithjev.com)) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities."
         confidence: high
     - id: discovery__madewithjev__com__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,12 +34,10 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Made with Jev
         extracted_url: https://madewithjev.com
-        surrounding_text: >-
-          - [Made with Jev](https://madewithjev.com) - Site: a directory of Jev builds, guides, and posts with reported
-          cost and speed, plus free Jev-powered tools such as an AI slop detector.
+        surrounding_text: "- [Made with Jev](https://madewithjev.com) - Site: a directory of Jev builds, guides, and posts with reported cost and speed, plus free Jev-powered tools such as an AI slop detector."
         confidence: high
     - id: discovery__madewithjev__com__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -54,9 +49,7 @@ provenance:
           - Related lists
         anchor_text: Made with Jev
         extracted_url: https://madewithjev.com
-        surrounding_text: >-
-          - [Made with Jev](https://madewithjev.com) - Use-case directory of Jev builds, guides, and posts, with the
-          cost and speed each author reported, plus free Jev-powered tools.
+        surrounding_text: "- [Made with Jev](https://madewithjev.com) - Use-case directory of Jev builds, guides, and posts, with the cost and speed each author reported, plus free Jev-powered tools."
         confidence: high
 metadata:
   github:
@@ -74,29 +67,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    awesome-jev (kraayenjon) (site) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe
-    AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: madewithjev.com is a directory listing 755 projects built with Jev, a decision model from TypeSafe AI, each showing cost and speed metrics reported by their authors.
+  why_it_matters: It helps developers discover real-world Jev use cases and evaluate its cost/latency trade-offs for decision-model-powered applications.
+  mental_damage: Another AI model directory where you have to trust strangers' self-reported benchmarks to avoid wasting tokens on vaporware.
+  tags:
+    - jev
+    - directory
+    - decision-models
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The site is a curated gallery of Jev-powered projects, not a tool, framework, or infrastructure that developers use directly; it serves as discovery content rather than developer-tooling.
   evidence:
-    - jev-latest choice confidence 0.50
+    - madewithjev.com lists 755 Jev projects with source links and self-reported cost/speed metrics
+    - The site includes sections like 'Free tools', 'Guides', and 'Sponsors' but offers no downloadable SDK, CLI, or runtime
+    - It appears in awesome-jev lists under 'Related lists' and 'Other lists' as a directory of Jev builds
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +100,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:26.102Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:32b4f2eb92af72e65a5488802dbb7a73b4d66b473839b7ebfb23fa2cd2c8daf6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site is a curated gallery of Jev-powered projects, not a tool, framework, or infrastructure that developers use directly; it serves as discovery content rather than developer-tooling.
+      decision_evidence:
+        - madewithjev.com lists 755 Jev projects with source links and self-reported cost/speed metrics
+        - The site includes sections like 'Free tools', 'Guides', and 'Sponsors' but offers no downloadable SDK, CLI, or runtime
+        - It appears in awesome-jev lists under 'Related lists' and 'Other lists' as a directory of Jev builds
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

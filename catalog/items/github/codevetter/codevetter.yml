@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__codevetter__codevetter__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,7 @@ provenance:
           - Agent infrastructure
         anchor_text: CodeVetter
         extracted_url: https://github.com/codevetter/codevetter
-        surrounding_text: >-
-          - **[CodeVetter](https://github.com/Codevetter/codevetter)** `⭐ 1` — Execution-backed verification for
-          AI-written changes: proves a change satisfies its requested task by running the evidence checks locally and
-          recording inspectable, source-bound receipts. macOS app, CLI, read-only MCP. MIT.
+        surrounding_text: "- **[CodeVetter](https://github.com/Codevetter/codevetter)** `⭐ 1` — Execution-backed verification for AI-written changes: proves a change satisfies its requested task by running the evidence checks locally and recording inspectable, source-bound receipts. macOS app, CLI, read-only MCP. MIT."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: Codevetter/codevetter
     html_url: https://github.com/Codevetter/codevetter
-    created_at: '2025-11-30T15:15:31Z'
-    pushed_at: '2026-09-27T23:30:24Z'
-    description: >-
-      Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent
-      changes via a macOS app, CLI, and MCP server.
+    created_at: "2025-11-30T15:15:31Z"
+    pushed_at: "2026-09-27T23:30:24Z"
+    description: Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent changes via a macOS app, CLI, and MCP server.
     homepage: https://codevetter.com
     topics:
       - ai
@@ -58,14 +53,12 @@ metadata:
       - software-testing
       - swift
       - verification
-    last_checked_at: '2026-09-29T13:10:02.699Z'
+    last_checked_at: "2026-09-29T13:10:02.699Z"
     readme:
-      fetched_at: '2026-09-29T13:10:02.699Z'
+      fetched_at: "2026-09-29T13:10:02.699Z"
       bytes: 11815
 insights:
-  summary: >-
-    Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent changes
-    via a macOS app, CLI, and MCP server.
+  summary: Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent changes via a macOS app, CLI, and MCP server.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -87,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:02.699Z'
+    updated_at: "2026-09-29T13:10:02.699Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__indispensable__lingonberry__hot__julius__site__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://indispensable-lingonberry-hot.julius.site
-        surrounding_text: >-
-          - [jev-play-ping-pong](https://github.com/Icohen007/jev-play-ping-pong)
-          ([site](https://indispensable-lingonberry-hot.julius.site/)) - Jev plays browser table tennis in real time:
-          structured telemetry, typed decisions, ordinary Chrome inputs, and auditable evidence.
+        surrounding_text: "- [jev-play-ping-pong](https://github.com/Icohen007/jev-play-ping-pong) ([site](https://indispensable-lingonberry-hot.julius.site/)) - Jev plays browser table tennis in real time: structured telemetry, typed decisions, ordinary Chrome inputs, and auditable evidence."
         confidence: high
 metadata:
   github:
@@ -39,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: RALLY is a browser-based table tennis game where you play against a computer opponent using keyboard or mouse controls.
+  why_it_matters: It offers a simple, focus-friendly break for developers needing short mental resets during coding sessions.
+  mental_damage: Another browser game dressed up as productivity, because nothing says 'deep work' like pretending ping pong is a workflow optimization.
+  tags:
+    - game
+    - break
+    - browser
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: RALLY is a standalone browser game with no developer-tooling purpose, AI integration, or workflow enhancement for software development.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The site is a table tennis game with controls for movement, power shots, and serving against a CPU opponent.
+    - No AI, code generation, editing, debugging, or developer workflow features are mentioned in the excerpt or description.
+    - It appears in the awesome-jev list under 'Games & simulations', indicating it's a Jev-powered demo, not a dev tool.
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:39.066Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6e3798cf036207f3d5f0ae59b19d91ce7d30e598dabf38ee2d6f5bc01ec272bb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: RALLY is a standalone browser game with no developer-tooling purpose, AI integration, or workflow enhancement for software development.
+      decision_evidence:
+        - The site is a table tennis game with controls for movement, power shots, and serving against a CPU opponent.
+        - No AI, code generation, editing, debugging, or developer workflow features are mentioned in the excerpt or description.
+        - It appears in the awesome-jev list under 'Games & simulations', indicating it's a Jev-powered demo, not a dev tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

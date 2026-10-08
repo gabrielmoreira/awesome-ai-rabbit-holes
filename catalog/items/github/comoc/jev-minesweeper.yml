@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__comoc__jev-minesweeper__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Applications
         anchor_text: jev-minesweeper
         extracted_url: https://github.com/comoc/jev-minesweeper
-        surrounding_text: >-
-          - [jev-minesweeper](https://github.com/comoc/jev-minesweeper) - TypeSafe Jev (System One)
-          にブラウザ上のマインスイーパーを解かせるデモ.
+        surrounding_text: "- [jev-minesweeper](https://github.com/comoc/jev-minesweeper) - TypeSafe Jev (System One) にブラウザ上のマインスイーパーを解かせるデモ."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: comoc/jev-minesweeper
     html_url: https://github.com/comoc/jev-minesweeper
-    created_at: '2026-09-20T12:50:13Z'
-    pushed_at: '2026-09-20T12:50:17Z'
+    created_at: "2026-09-20T12:50:13Z"
+    pushed_at: "2026-09-20T12:50:17Z"
     description: TypeSafe Jev (System One) にブラウザ上のマインスイーパーを解かせるデモ
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:07.303Z'
+    last_checked_at: "2026-09-29T13:10:07.303Z"
     readme:
-      fetched_at: '2026-09-29T13:10:07.303Z'
+      fetched_at: "2026-09-29T13:10:07.303Z"
       bytes: 7511
 insights:
   summary: TypeSafe Jev (System One) にブラウザ上のマインスイーパーを解かせるデモ
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:07.303Z'
+    updated_at: "2026-09-29T13:10:07.303Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

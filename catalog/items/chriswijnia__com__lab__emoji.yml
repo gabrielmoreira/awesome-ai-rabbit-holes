@@ -20,6 +20,53 @@ provenance:
         extracted_url: https://chriswijnia.com/experiments/emoji
         surrounding_text: "- [1 Million Emojis](https://chriswijnia.com/experiments/emoji) - Shared 1000 × 1000 emoji canvas where Jev joins each stroke, choosing a square next to it and its emoji as one Choice over named options ([source](https://github.com/cwdx/1-million-emojis))."
         confidence: high
+    - id: discovery__chriswijnia__com__lab__emoji__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Games & simulations
+        anchor_text: site
+        extracted_url: https://chriswijnia.com/experiments/emoji
+        surrounding_text: "- [1 Million Emojis](https://github.com/cwdx/1-million-emojis) ([site](https://chriswijnia.com/experiments/emoji)) - A shared 1000 × 1000 emoji canvas, live for everyone, where Jev joins each stroke by choosing a square next to it and its emoji as one Choice."
+        confidence: high
+    - id: discovery__chriswijnia__com__lab__emoji__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: Try app
+        extracted_url: https://chriswijnia.com/lab/emoji
+        surrounding_text: "- [1 Million Emojis](https://github.com/cwdx/1-million-emojis) - `Open source` · `Free` · `BYOK`. Shared million-emoji canvas where TypeSafe Jev paints alongside humans from stroke context. [Try app](https://chriswijnia.com/lab/emoji) · [Project guide](community/projects/apps/1-million-emojis.md)."
+        confidence: high
+    - id: discovery__chriswijnia__com__lab__emoji__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Game & Simulation
+        anchor_text: 1 Million Emojis
+        extracted_url: https://chriswijnia.com/lab/emoji
+        surrounding_text: "- [1 Million Emojis](https://chriswijnia.com/lab/emoji) - Collaborative art: a shared 1000 × 1000 emoji canvas where, after each visitor stroke, one Jev request asks a `Choice` over named (emoji, square) pairs next to it and a `Noul` on whether the stroke is an unfinished shape, finishing the loop or line above 0.7 and otherwise sampling its pick from the returned probabilities ([source](https://github.com/cwdx/1-million-emojis))."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -61,7 +108,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.487Z"
+    updated_at: "2026-10-08T04:16:14.232Z"
     cause: null
     next_retry_at: null
   stars:

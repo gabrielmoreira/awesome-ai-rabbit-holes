@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antlobach__clojev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: CloJev
         extracted_url: https://github.com/antlobach/clojev
-        surrounding_text: >-
-          - [CloJev](https://github.com/antlobach/clojev)
-          ![stars](https://img.shields.io/github/stars/antlobach/clojev?style=flat-square&label=%E2%98%85) - Clojure
-          ecosystem: unofficial portable Clojure SDK for System One, so Clojure applications can put typed questions to
-          Jev without a Java interop layer.
+        surrounding_text: "- [CloJev](https://github.com/antlobach/clojev) ![stars](https://img.shields.io/github/stars/antlobach/clojev?style=flat-square&label=%E2%98%85) - Clojure ecosystem: unofficial portable Clojure SDK for System One, so Clojure applications can put typed questions to Jev without a Java interop layer."
         confidence: high
 metadata:
   github:
@@ -34,14 +30,14 @@ metadata:
     archived: false
     full_name: antlobach/clojev
     html_url: https://github.com/antlobach/clojev
-    created_at: '2026-09-20T20:50:13Z'
-    pushed_at: '2026-09-20T22:49:21Z'
+    created_at: "2026-09-20T20:50:13Z"
+    pushed_at: "2026-09-20T22:49:21Z"
     description: Unofficial portable Clojure SDK for TypeSafe System One
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:01.836Z'
+    last_checked_at: "2026-09-29T13:09:01.836Z"
     readme:
-      fetched_at: '2026-09-29T13:09:01.836Z'
+      fetched_at: "2026-09-29T13:09:01.836Z"
       bytes: 12978
 insights:
   summary: null
@@ -54,9 +50,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.31 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.31 below gate 0.50; proposed ai-frameworks / Training & Model Infrastructure; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -68,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:01.836Z'
+    updated_at: "2026-09-29T13:09:01.836Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

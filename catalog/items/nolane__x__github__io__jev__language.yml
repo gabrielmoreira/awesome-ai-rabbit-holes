@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nolane__x__github__io__jev__language__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://nolane-x.github.io/JEV-language
-        surrounding_text: >-
-          - [JEV-language](https://github.com/Nolane-x/JEV-language) ([site](https://nolane-x.github.io/JEV-language/))
-          - Give your Jev language.
+        surrounding_text: "- [JEV-language](https://github.com/Nolane-x/JEV-language) ([site](https://nolane-x.github.io/JEV-language/)) - Give your Jev language."
         confidence: high
 metadata:
   github:
@@ -38,28 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JEV-language is a typed decision model system that answers questions with probabilities instead of generating text.
+  why_it_matters: It enables developers to build reliable guardrails, routers, and verifiers that operate on deterministic judgments rather than uncertain text generation.
+  mental_damage: Another model to learn whose main selling point is not hallucinating, which somehow feels like progress.
+  tags:
+    - decision-models
+    - typed-ai
+    - guardrails
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project is a decision model (Jev) that returns constrained answers with probabilities, fitting the decision-models category's core identity.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.43 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Repo name JEV-language and URL nolane-x.github.io/JEV-language indicate a Jev-based decision model system
+    - Decision-models category explicitly lists Jev (TypeSafe System One) as a canonical positive
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:12.751Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:41c306f5fb940436ebfc72658fbe6cb946d1b7fd9a64430aefdbcf52c6b1fcce
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is a decision model (Jev) that returns constrained answers with probabilities, fitting the decision-models category's core identity.
+      decision_evidence:
+        - Repo name JEV-language and URL nolane-x.github.io/JEV-language indicate a Jev-based decision model system
+        - Decision-models category explicitly lists Jev (TypeSafe System One) as a canonical positive
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because JEV-language's core identity is a typed decision model returning probabilistic answers, not an agent that writes or edits code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

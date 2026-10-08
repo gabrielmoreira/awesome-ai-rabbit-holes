@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chaitin__decis__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: Decis
         extracted_url: https://github.com/chaitin/decis
-        surrounding_text: >-
-          - [Decis](https://github.com/chaitin/Decis) - Self-hosted System One–compatible `/v1/systemone` server with
-          open Laya/kev Docker images (independent of hosted TypeSafe Jev). [Project
-          guide](community/projects/tools/chaitin-decis.md).
+        surrounding_text: "- [Decis](https://github.com/chaitin/Decis) - Self-hosted System One–compatible `/v1/systemone` server with open Laya/kev Docker images (independent of hosted TypeSafe Jev). [Project guide](community/projects/tools/chaitin-decis.md)."
         confidence: high
     - id: discovery__github__chaitin__decis__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,10 +35,7 @@ provenance:
           - Added today
         anchor_text: Decis
         extracted_url: https://github.com/chaitin/decis
-        surrounding_text: >-
-          - **Frameworks & integrations (5):** [LangWatch](https://github.com/langwatch/langwatch), [vLLM
-          Jev](https://github.com/mode-io/vllm-jev), [Decis](https://github.com/chaitin/Decis),
-          [Tiltmeter](https://github.com/abe75ch/tiltmeter), [Yueli DEX](https://github.com/haxitag/Yueli-Dex)
+        surrounding_text: "- **Frameworks & integrations (5):** [LangWatch](https://github.com/langwatch/langwatch), [vLLM Jev](https://github.com/mode-io/vllm-jev), [Decis](https://github.com/chaitin/Decis), [Tiltmeter](https://github.com/abe75ch/tiltmeter), [Yueli DEX](https://github.com/haxitag/Yueli-Dex)"
         confidence: high
 metadata:
   github:
@@ -51,12 +45,10 @@ metadata:
     archived: false
     full_name: chaitin/Decis
     html_url: https://github.com/chaitin/Decis
-    created_at: '2026-09-22T09:06:47Z'
-    pushed_at: '2026-09-28T11:44:40Z'
-    description: >-
-      Self-hosted, Jev-compatible decision-model API — one /v1/systemone endpoint, open weights (Laya, kev), one Docker
-      image per engine.
-    homepage: ''
+    created_at: "2026-09-22T09:06:47Z"
+    pushed_at: "2026-09-28T11:44:40Z"
+    description: Self-hosted, Jev-compatible decision-model API — one /v1/systemone endpoint, open weights (Laya, kev), one Docker image per engine.
+    homepage: ""
     topics:
       - decision-models
       - docker
@@ -71,14 +63,12 @@ metadata:
       - python
       - self-hosted
       - typesafe
-    last_checked_at: '2026-09-29T13:09:46.347Z'
+    last_checked_at: "2026-09-29T13:09:46.347Z"
     readme:
-      fetched_at: '2026-09-29T13:09:46.347Z'
+      fetched_at: "2026-09-29T13:09:46.347Z"
       bytes: 9032
 insights:
-  summary: >-
-    Self-hosted, Jev-compatible decision-model API — one /v1/systemone endpoint, open weights (Laya, kev), one Docker
-    image per engine.
+  summary: Self-hosted, Jev-compatible decision-model API — one /v1/systemone endpoint, open weights (Laya, kev), one Docker image per engine.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -98,15 +88,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:46.347Z'
+    updated_at: "2026-09-29T13:09:46.347Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

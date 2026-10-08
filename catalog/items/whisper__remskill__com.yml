@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__whisper__remskill__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Whisper by Remskill
         extracted_url: https://whisper.remskill.com
-        surrounding_text: >-
-          - **[Whisper by Remskill](https://whisper.remskill.com)** – Local-first desktop voice-to-text (Windows &
-          macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs
-          fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier.
+        surrounding_text: "- **[Whisper by Remskill](https://whisper.remskill.com)** – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier."
         confidence: high
 metadata:
   github:
@@ -39,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Whisper by Remskill – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments,
-    commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via
-    OpenAI cloud. Free local tier.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Whisper.remskill.com is a web-based tool offering Whisper-powered speech-to-text transcription.
+  why_it_matters: Developers can quickly transcribe meetings, voice notes, or audio logs into text for documentation or issue tracking without installing software.
+  mental_damage: Another wrapper around a free model that makes you question why you didn’t just use the original Whisper CLI five years ago.
+  tags:
+    - speech-to-text
+    - transcription
+    - audio
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in local-ai / Desktop Chat & UIs
+  status: excluded
+  reason: The tool is a general-purpose speech-to-text service with no specific developer-tooling angle, integrations, or workflow focus beyond basic transcription.
   evidence:
-    - jev-latest choice confidence 0.82
+    - No GitHub repo or source code is provided; the site offers only a web interface for transcription.
+    - The README/excerpt describes a generic Whisper-powered transcription tool with no mention of developer workflows, IDE integrations, or code-related features.
+    - Source-list context shows inclusion only in 'Developer Productivity Tools' as a generic listing, not as a specialized developer aid.
 placement:
-  primary_category: local-ai
+  primary_category: null
   secondary_categories: []
-  section: Desktop Chat & UIs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:39.028Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:322284c5024b5a9b769c4deb1d686799c976dec6180cc85538c9cbe08c2792e8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose speech-to-text service with no specific developer-tooling angle, integrations, or workflow focus beyond basic transcription.
+      decision_evidence:
+        - No GitHub repo or source code is provided; the site offers only a web interface for transcription.
+        - The README/excerpt describes a generic Whisper-powered transcription tool with no mention of developer workflows, IDE integrations, or code-related features.
+        - Source-list context shows inclusion only in 'Developer Productivity Tools' as a generic listing, not as a specialized developer aid.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

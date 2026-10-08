@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__romanticode__com__legacydoc__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Documentation
         anchor_text: LegacyDoc AI
         extracted_url: https://romanticode.com/legacydoc-ai
-        surrounding_text: >-
-          - **[LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/)** – VS Code extension that generates AI code
-          audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.
+        surrounding_text: "- **[LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/)** – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    LegacyDoc AI – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid
-    architecture maps from existing codebases.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: LegacyDoc AI is a VS Code extension that generates JSDoc, Markdown docs, Mermaid diagrams, and AI-ready context packs from selected code to document legacy or AI-generated projects before cleanup or handoff.
+  why_it_matters: It helps developers make undocumented codebases reviewable and safer to modify by providing structured documentation and context for humans and AI agents before changes are made.
+  mental_damage: Another documentation tool that promises to fix the 'no docs' problem while quietly admitting the output needs human review to avoid hallucinated truths.
+  tags:
+    - vscode-extension
+    - documentation
+    - context-pack
+    - ai-coding-agent
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
+  reason: LegacyDoc AI is a VS Code extension that augments the editor with documentation generation capabilities, making it an add-on rather than a standalone coding agent or app builder.
   evidence:
-    - jev-latest choice confidence 0.84
+    - Described as an 'AI code documentation generator for VS Code' that runs inside the editor
+    - Generates JSDoc, Markdown, Mermaid diagrams, and context packs for AI coding agents like Claude Code and Cursor
+    - Listed in awesome-ai-coding-tools under the Documentation section as a VS Code extension for legacy code documentation
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
@@ -60,18 +62,38 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:04.551Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:34e1bba8fce24dd87aa3d307b7be331992cd0ad5b9cd49d9890f5c87fa72e35d
+      proposed_primary_category: extensions-and-addons
+      disagreement: false
+      decision_reason: LegacyDoc AI is a VS Code extension that augments the editor with documentation generation capabilities, making it an add-on rather than a standalone coding agent or app builder.
+      decision_evidence:
+        - Described as an 'AI code documentation generator for VS Code' that runs inside the editor
+        - Generates JSDoc, Markdown, Mermaid diagrams, and context packs for AI coding agents like Claude Code and Cursor
+        - Listed in awesome-ai-coding-tools under the Documentation section as a VS Code extension for legacy code documentation
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because LegacyDoc AI primarily augments VS Code with documentation features rather than acting as an autonomous coding agent that writes or edits code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

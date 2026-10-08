@@ -51,53 +51,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered feature flag management service that automatically wraps risky PRs in feature flags, monitors rollouts, and cleans up flags.
-  why_it_matters: It automates the tedious parts of progressive delivery—flagging risky changes, monitoring for errors, and removing flag debt—so developers can ship faster with less manual oversight.
-  mental_damage: Finally, a way to stop pretending you’ll remember to clean up that feature flag from three sprints ago.
+  summary: AI-powered feature flag management that automatically detects risky code changes, wraps them in flags, and manages the cleanup lifecycle.
+  why_it_matters: It automates the tedious manual work of feature flagging, reducing deployment risk and preventing the accumulation of stale flag debt.
+  mental_damage: It automates the exact type of manual grunt work that makes you want to quit your job at 3 AM during a botched rollout.
   tags:
-    - devops
     - feature-flags
-    - ai-automation
+    - devops
     - deployment-safety
+    - automation
+    - ai-agent
   confidence: high
 curation:
-  status: excluded
-  reason: This is a DevOps/SaaS product for feature flag automation, not a developer tooling product in the catalog's scope (coding agents, IDEs, frameworks, etc.).
+  status: included
+  reason: It acts as a specialized workflow automation tool that integrates with Git providers to add deployment safety and risk mitigation to the existing PR process.
   evidence:
-    - Primary product is a hosted feature flag management service with AI automation
-    - Source-list context places it under 'DevOps and Infrastructure'
-    - Core value is deployment safety workflow, not developer-tooling for coding/building
+    - Uses AI to scan pull requests for risky changes like API endpoints and database migrations
+    - Automates the full lifecycle from wrapping code in flags to opening cleanup PRs
+    - Integrates directly with GitHub, GitLab, and Bitbucket via a GitHub App
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Security & DevSecOps
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:47:30.353Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for deployramp__com: Invalid AI response format: SyntaxError: Unexpected token 'D', ...\"_reason\": DeployRamp\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:27:08.290Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:5e95e025eb9a551a8e1071ec4a8151bd67007fce42c2215c3005222ceb3e9698
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5679f15c01737056a49d0ac89c20027b30a00ae1ff8810d51e53a401c5cd65c8
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: This is a DevOps/SaaS product for feature flag automation, not a developer tooling product in the catalog's scope (coding agents, IDEs, frameworks, etc.).
+      decision_reason: It acts as a specialized workflow automation tool that integrates with Git providers to add deployment safety and risk mitigation to the existing PR process.
       decision_evidence:
-        - Primary product is a hosted feature flag management service with AI automation
-        - Source-list context places it under 'DevOps and Infrastructure'
-        - Core value is deployment safety workflow, not developer-tooling for coding/building
-      category_candidates: []
-      contrastive_reason: null
+        - Uses AI to scan pull requests for risky changes like API endpoints and database migrations
+        - Automates the full lifecycle from wrapping code in flags to opening cleanup PRs
+        - Integrates directly with GitHub, GitLab, and Bitbucket via a GitHub App
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because its primary identity is providing deployment safety and workflow automation within the Git/PR process rather than acting as a general-purpose coding assistant.
       review_reason: null
       review_resume_lifecycle: null
   discover:

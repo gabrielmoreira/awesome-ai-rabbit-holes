@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cwdx__chess-with-jev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: source
         extracted_url: https://github.com/cwdx/chess-with-jev
-        surrounding_text: >-
-          - [Chess with Jev](https://chriswijnia.com/experiments/chess) - Jev chooses one move per turn from the legal
-          moves, each described with facts worked out in code (exchanges, mates, threats); the page plays it and draws
-          Jev's candidates as arrows ([source](https://github.com/cwdx/chess-with-jev)).
+        surrounding_text: "- [Chess with Jev](https://chriswijnia.com/experiments/chess) - Jev chooses one move per turn from the legal moves, each described with facts worked out in code (exchanges, mates, threats); the page plays it and draws Jev's candidates as arrows ([source](https://github.com/cwdx/chess-with-jev))."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: cwdx/chess-with-jev
     html_url: https://github.com/cwdx/chess-with-jev
-    created_at: '2026-09-25T13:18:26Z'
-    pushed_at: '2026-09-29T09:18:34Z'
-    description: >-
-      Chess with Jev: every legal move's facts worked out in code, Jev's move as one typed Choice. The Jev client (MIT)
-      and chess engine (GPL-3.0) behind chriswijnia.com/lab/chess.
+    created_at: "2026-09-25T13:18:26Z"
+    pushed_at: "2026-09-29T09:18:34Z"
+    description: "Chess with Jev: every legal move's facts worked out in code, Jev's move as one typed Choice. The Jev client (MIT) and chess engine (GPL-3.0) behind chriswijnia.com/lab/chess."
     homepage: https://chriswijnia.com/lab/chess
     topics:
       - chess
@@ -44,9 +39,9 @@ metadata:
       - jev
       - nuxt
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:10:17.546Z'
+    last_checked_at: "2026-09-29T13:10:17.546Z"
     readme:
-      fetched_at: '2026-09-29T13:10:17.546Z'
+      fetched_at: "2026-09-29T13:10:17.546Z"
       bytes: 901
 insights:
   summary: null
@@ -69,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:17.546Z'
+    updated_at: "2026-09-29T13:10:17.546Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

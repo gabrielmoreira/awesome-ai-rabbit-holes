@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__emenowicz__jev-sap-commerce__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-sap-commerce
         extracted_url: https://github.com/emenowicz/jev-sap-commerce
-        surrounding_text: >-
-          - [jev-sap-commerce](https://github.com/Emenowicz/jev-sap-commerce) - SAP Commerce extension: TypeSafe Jev
-          review moderation + category suggestions with dry runs and audit records. [Project
-          guide](community/projects/tools/emenowicz-jev-sap-commerce.md).
+        surrounding_text: "- [jev-sap-commerce](https://github.com/Emenowicz/jev-sap-commerce) - SAP Commerce extension: TypeSafe Jev review moderation + category suggestions with dry runs and audit records. [Project guide](community/projects/tools/emenowicz-jev-sap-commerce.md)."
         confidence: high
 metadata:
   github:
@@ -33,12 +30,9 @@ metadata:
     archived: false
     full_name: Emenowicz/jev-sap-commerce
     html_url: https://github.com/Emenowicz/jev-sap-commerce
-    created_at: '2026-09-24T14:00:00Z'
-    pushed_at: '2026-09-25T09:27:59Z'
-    description: >-
-      SAP Commerce extension using TypeSafe's Jev to moderate product reviews and suggest product categories and
-      classification attribute values: dry runs on your own data first, an audit record per decision. Plus a Claude Code
-      skill.
+    created_at: "2026-09-24T14:00:00Z"
+    pushed_at: "2026-09-25T09:27:59Z"
+    description: "SAP Commerce extension using TypeSafe's Jev to moderate product reviews and suggest product categories and classification attribute values: dry runs on your own data first, an audit record per decision. Plus a Claude Code skill."
     homepage: null
     topics:
       - catalog-enrichment
@@ -51,15 +45,12 @@ metadata:
       - sap-commerce
       - sap-commerce-cloud
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:11:00.282Z'
+    last_checked_at: "2026-09-29T13:11:00.282Z"
     readme:
-      fetched_at: '2026-09-29T13:11:00.282Z'
+      fetched_at: "2026-09-29T13:11:00.282Z"
       bytes: 24585
 insights:
-  summary: >-
-    SAP Commerce extension using TypeSafe's Jev to moderate product reviews and suggest product categories and
-    classification attribute values: dry runs on your own data first, an audit record per decision. Plus a Claude Code
-    skill.
+  summary: "SAP Commerce extension using TypeSafe's Jev to moderate product reviews and suggest product categories and classification attribute values: dry runs on your own data first, an audit record per decision. Plus a Claude Code skill."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -79,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:00.282Z'
+    updated_at: "2026-09-29T13:11:00.282Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

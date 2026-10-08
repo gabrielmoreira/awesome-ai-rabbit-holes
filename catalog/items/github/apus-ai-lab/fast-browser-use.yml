@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apus-ai-lab__fast-browser-use__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: fast-browser-use
         extracted_url: https://github.com/apus-ai-lab/fast-browser-use
-        surrounding_text: >-
-          | [fast-browser-use](https://github.com/APUS-AI-Lab/fast-browser-use) | ★ 121 | Python | 2026-09-23 | A fast
-          browser-use skill powered by local LLMs via single-token reflexes. Fast, local-first, zero hallucinations. |
+        surrounding_text: "| [fast-browser-use](https://github.com/APUS-AI-Lab/fast-browser-use) | ★ 121 | Python | 2026-09-23 | A fast browser-use skill powered by local LLMs via single-token reflexes. Fast, local-first, zero hallucinations. |"
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: APUS-AI-Lab/fast-browser-use
     html_url: https://github.com/APUS-AI-Lab/fast-browser-use
-    created_at: '2026-09-19T10:17:17Z'
-    pushed_at: '2026-09-21T02:48:29Z'
+    created_at: "2026-09-19T10:17:17Z"
+    pushed_at: "2026-09-21T02:48:29Z"
     description: A fast browser-use skill powered by local LLMs via single-token reflexes. Fast, local-first, zero hallucinations.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:07.390Z'
+    last_checked_at: "2026-09-29T13:09:07.390Z"
     readme:
-      fetched_at: '2026-09-29T13:09:07.390Z'
+      fetched_at: "2026-09-29T13:09:07.390Z"
       bytes: 24159
 insights:
   summary: A fast browser-use skill powered by local LLMs via single-token reflexes. Fast, local-first, zero hallucinations.
@@ -52,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.51
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
-      skills (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -66,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:07.390Z'
+    updated_at: "2026-09-29T13:09:07.390Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

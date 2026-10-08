@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ycsearch__purbayan__me__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://ycsearch.purbayan.me
-        surrounding_text: >-
-          - [yc-jev-bench](https://github.com/PPRAMANIK62/yc-jev-bench) ([site](https://ycsearch.purbayan.me)) - Can Jev
-          replace an LLM reranker? A benchmark of TypeSafe's Jev vs Claude Haiku and BGE on natural-language search over
-          all 6,245 YC companies, with a live search demo.
+        surrounding_text: "- [yc-jev-bench](https://github.com/PPRAMANIK62/yc-jev-bench) ([site](https://ycsearch.purbayan.me)) - Can Jev replace an LLM reranker? A benchmark of TypeSafe's Jev vs Claude Haiku and BGE on natural-language search over all 6,245 YC companies, with a live search demo."
         confidence: high
 metadata:
   github:
@@ -39,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    yc-jev-bench (site) - Can Jev replace an LLM reranker? A benchmark of TypeSafe's Jev vs Claude Haiku and BGE on
-    natural-language search over all 6,245 YC companies, with a live search demo.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A search interface for YC company data that functions as a benchmark for the Jev decision model's reranking capabilities.
+  why_it_matters: It provides a real-world demonstration and benchmark for how decision models like Jev perform in search reranking tasks.
+  mental_damage: Another benchmark to track while you're still trying to figure out if your RAG pipeline actually works.
+  tags:
+    - search
+    - benchmark
+    - decision-models
+    - reranker
+    - yc
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The project serves as an independent benchmark and practical demonstration of the Jev decision model's reranking performance.
   evidence:
-    - jev-latest choice confidence 0.85
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - Acts as a search reranker benchmark for the Jev decision model
+    - Uses YC company data to demonstrate natural language search capabilities
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -65,18 +63,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:41.296Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:385972d5ff02115aba63fd6c6f5eb67a666d117d9d59f9be00a7d655a3908112
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project serves as an independent benchmark and practical demonstration of the Jev decision model's reranking performance.
+      decision_evidence:
+        - Acts as a search reranker benchmark for the Jev decision model
+        - Uses YC company data to demonstrate natural language search capabilities
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the instructions explicitly state that benchmarks for decision models like Jev belong in the decision-models category.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

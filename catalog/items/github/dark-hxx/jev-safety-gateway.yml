@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dark-hxx__jev-safety-gateway__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**jev-safety-gateway**'
+        anchor_text: "**jev-safety-gateway**"
         extracted_url: https://github.com/dark-hxx/jev-safety-gateway
-        surrounding_text: >-
-          - [**jev-safety-gateway**](https://github.com/dark-hxx/jev-safety-gateway) — This project integrates Jev to
-          provide structured decisions for its workflow. See the repository for implementation details.
+        surrounding_text: "- [**jev-safety-gateway**](https://github.com/dark-hxx/jev-safety-gateway) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: dark-hxx/jev-safety-gateway
     html_url: https://github.com/dark-hxx/jev-safety-gateway
-    created_at: '2026-09-24T03:21:43Z'
-    pushed_at: '2026-09-24T18:47:14Z'
+    created_at: "2026-09-24T03:21:43Z"
+    pushed_at: "2026-09-24T18:47:14Z"
     description: 位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行
     homepage: https://jev-gateway.clim.asia
     topics:
@@ -40,9 +38,9 @@ metadata:
       - gateway
       - go
       - jev
-    last_checked_at: '2026-09-29T13:10:24.250Z'
+    last_checked_at: "2026-09-29T13:10:24.250Z"
     readme:
-      fetched_at: '2026-09-29T13:10:24.250Z'
+      fetched_at: "2026-09-29T13:10:24.250Z"
       bytes: 23286
 insights:
   summary: 位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行
@@ -65,15 +63,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:24.250Z'
+    updated_at: "2026-09-29T13:10:24.250Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

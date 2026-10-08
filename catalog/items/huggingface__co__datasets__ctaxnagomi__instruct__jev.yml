@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__datasets__ctaxnagomi__instruct__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV
-        surrounding_text: >-
-          - [instruct-jev](https://github.com/ctaxnagomi/instruct-jev)
-          ([site](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)) - INSTRUCT_JEV - TypeSafe AI Jev / System
-          One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace.
+        surrounding_text: "- [instruct-jev](https://github.com/ctaxnagomi/instruct-jev) ([site](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)) - INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    instruct-jev (site) - INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled
-    by DeckerGUI. 119 rows. Mirrored on HuggingFace.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: INSTRUCT_JEV is a Hugging Face dataset of instruction-tuning examples for the Jev decision model.
+  why_it_matters: Provides training data for developers building or fine-tuning decision-model-based agents and tools.
+  mental_damage: Another dataset in the Jev ecosystem, because we needed more ways to teach models to say yes/no with confidence scores.
+  tags:
+    - dataset
+    - jev
+    - decision-models
+    - instruction-tuning
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The dataset supports the Jev decision model ecosystem, which is the core identity of the decision-models category, even though it is a dataset rather than a model or tool.
   evidence:
-    - jev-latest choice confidence 0.55
+    - Hosted on Hugging Face as a dataset under ctaxnagomi/INSTRUCT_JEV
+    - Named INSTRUCT_JEV, indicating instruction-tuning data for Jev
+    - Listed in the awesome-jev directory under 'Agent tooling' section for Jev-based projects
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:16.225Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d9f7058b1eea3b9153fd92f633af48e6ecfee7cc8936e8204eb3a3d991856abe
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The dataset supports the Jev decision model ecosystem, which is the core identity of the decision-models category, even though it is a dataset rather than a model or tool.
+      decision_evidence:
+        - Hosted on Hugging Face as a dataset under ctaxnagomi/INSTRUCT_JEV
+        - Named INSTRUCT_JEV, indicating instruction-tuning data for Jev
+        - Listed in the awesome-jev directory under 'Agent tooling' section for Jev-based projects
+      category_candidates:
+        - decision-models
+        - awesome-awesomes
+      contrastive_reason: Choose decision-models over awesome-awesomes because the dataset is a technical resource for training Jev models, not a curated list or directory for discovery.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

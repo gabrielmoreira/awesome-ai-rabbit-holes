@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dreamblooms__dohnuts.cpp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Applications
         anchor_text: dohnuts.cpp
         extracted_url: https://github.com/dreamblooms/dohnuts.cpp
-        surrounding_text: >-
-          - [dohnuts.cpp](https://github.com/DreamBlooms/dohnuts.cpp) - The same decisions, on CPU. System One model
-          that can run on your Personal Computer.
+        surrounding_text: "- [dohnuts.cpp](https://github.com/DreamBlooms/dohnuts.cpp) - The same decisions, on CPU. System One model that can run on your Personal Computer."
         confidence: high
 metadata:
   github:
@@ -31,10 +29,10 @@ metadata:
     archived: false
     full_name: DreamBlooms/dohnuts.cpp
     html_url: https://github.com/DreamBlooms/dohnuts.cpp
-    created_at: '2026-09-21T12:35:26Z'
-    pushed_at: '2026-09-29T06:11:07Z'
+    created_at: "2026-09-21T12:35:26Z"
+    pushed_at: "2026-09-29T06:11:07Z"
     description: The same decisions, on CPU. System One model that can run on your Personal Computer.
-    homepage: ''
+    homepage: ""
     topics:
       - decider
       - dohnuts
@@ -44,9 +42,9 @@ metadata:
       - llama-cpp
       - system-one
       - system-one-model
-    last_checked_at: '2026-09-29T13:10:48.742Z'
+    last_checked_at: "2026-09-29T13:10:48.742Z"
     readme:
-      fetched_at: '2026-09-29T13:10:48.742Z'
+      fetched_at: "2026-09-29T13:10:48.742Z"
       bytes: 13816
 insights:
   summary: The same decisions, on CPU. System One model that can run on your Personal Computer.
@@ -69,15 +67,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:48.742Z'
+    updated_at: "2026-09-29T13:10:48.742Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -5,9 +5,8 @@ canonical_url: https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-eval
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__zc277584121__github__io__rag__2026__09__22__jev__search__deep__evaluation__html__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__zc277584121__github__io__rag__2026__09__22__jev__search__deep__evaluation__html__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -17,17 +16,12 @@ provenance:
         mode: parsed
         section_path:
           - Articles & threads
-        anchor_text: 'Jev in Search: Three Practical Evaluations'
+        anchor_text: "Jev in Search: Three Practical Evaluations"
         extracted_url: https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html
-        surrounding_text: >-
-          - [Jev in Search: Three Practical
-          Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html) - Independent
-          experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links
-          and limitations including private data, unequal sample counts, and a simulated speed illustration.
+        surrounding_text: "- [Jev in Search: Three Practical Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html) - Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration."
         confidence: high
-    - id: >-
-        discovery__zc277584121__github__io__rag__2026__09__22__jev__search__deep__evaluation__html__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__zc277584121__github__io__rag__2026__09__22__jev__search__deep__evaluation__html__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -37,13 +31,9 @@ provenance:
         mode: parsed
         section_path:
           - Evaluation and calibration
-        anchor_text: 'Jev in Search: Three Practical Evaluations'
+        anchor_text: "Jev in Search: Three Practical Evaluations"
         extracted_url: https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html
-        surrounding_text: >-
-          - [Jev in Search: Three Practical
-          Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html) - Independent
-          experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links
-          and limitations including private data, unequal sample counts, and a simulated speed illustration.
+        surrounding_text: "- [Jev in Search: Three Practical Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html) - Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration."
         confidence: high
 metadata:
   github:
@@ -61,14 +51,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev in Search: Three Practical Evaluations - Independent experiments on search stopping, memory reranking, and
-    multi-hop relation selection, with implementation links and limitations including private data, unequal sample
-    counts, and a simulated speed illustration.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev (TypeSafe System One) is a decision model that returns constrained answers (Choice, Score, Boolean) to typed questions without generating text.
+  why_it_matters: It enables faster, lower-cost semantic decisions in agentic systems like search stopping or memory reranking by replacing generative model calls with direct judgments.
+  mental_damage: Another model promising to replace LLMs with binary choices, as if the hardest part of AI wasn't knowing what question to ask.
+  tags:
+    - decision-model
+    - agentic-search
+    - reranking
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
@@ -77,25 +67,47 @@ curation:
 placement:
   primary_category: evals
   secondary_categories: []
-  section: Agent & LLM Benchmarks
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.432Z'
+    updated_at: "2026-09-29T13:07:10.432Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:51:02.986Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3bde7bcc9cc04a9f8819b960b0de718c4c4d453e791b3a3473e9d2547b095275
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: The product's core identity is a decision model (Jev/TypeSafe System One) that returns constrained answers to typed questions, which matches the decision-models category definition exactly, even though it is evaluated in agentic search and reranking contexts.
+      decision_evidence:
+        - "Scraped site context: 'give it context and tell it what to judge, and it returns a choice, a score, or a true-or-false decision'"
+        - "Source-list context: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model'"
+        - "Scraped site excerpt: 'Jev is ready to do the job. It can take over the search-stopping decision from a general-purpose model, with lower latency and cost.'"
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because Jev is the decision model itself being evaluated, not a tool for measuring or benchmarking model behavior.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

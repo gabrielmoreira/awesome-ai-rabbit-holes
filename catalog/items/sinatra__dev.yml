@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__sinatra__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Sinatra
         extracted_url: https://sinatra.dev
-        surrounding_text: >-
-          - **[Sinatra](https://sinatra.dev)** – Coding agent for Linear and GitHub issues; runs in an isolated sandbox,
-          opens a PR, and runs on your Claude or ChatGPT subscription.
+        surrounding_text: "- **[Sinatra](https://sinatra.dev)** – Coding agent for Linear and GitHub issues; runs in an isolated sandbox, opens a PR, and runs on your Claude or ChatGPT subscription."
         confidence: high
 metadata:
   github:
@@ -38,29 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Sinatra – Coding agent for Linear and GitHub issues; runs in an isolated sandbox, opens a PR, and runs on your
-    Claude or ChatGPT subscription.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Sinatra.dev is an autonomous coding agent that reads codebases, writes code, runs tests, and opens pull requests when assigned a Linear issue or GitHub issue label.
+  why_it_matters: It lets developers delegate ticket-to-PR workflows to an AI agent that operates within their existing tools and model subscriptions.
+  mental_damage: Finally, an agent that pretends to be your teammate but still needs you to review its PRs and fix the tests it broke.
+  tags:
+    - coding-agent
+    - linear
+    - github
+    - pr-automation
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Autonomous & Multi-Agent Coding
+  reason: Sinatra.dev performs autonomous coding tasks—reading repos, writing code, running tests, and opening PRs—making it a primary coding agent, not an extension or orchestration platform.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Assign a Linear issue or GitHub label to Sinatra; it writes code, runs tests, and opens a draft PR.
+    - It operates as a standalone agent via hosted sandbox, using user-provided model keys or subscriptions.
+    - It reviews its own work, replies in PR threads, and reworks on failure without merging or deploying.
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Autonomous & Multi-Agent Coding
+  section: Review, Testing & Repair
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:29.679Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ca3f6b751217225732b1a52dcfcdc1bcfac6bf7fb190c8981e8d5d394336921e
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Sinatra.dev performs autonomous coding tasks—reading repos, writing code, running tests, and opening PRs—making it a primary coding agent, not an extension or orchestration platform.
+      decision_evidence:
+        - Assign a Linear issue or GitHub label to Sinatra; it writes code, runs tests, and opens a draft PR.
+        - It operates as a standalone agent via hosted sandbox, using user-provided model keys or subscriptions.
+        - It reviews its own work, replies in PR threads, and reworks on failure without merging or deploying.
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Sinatra.dev performs coding tasks directly as a single agent, rather than coordinating multiple agents or managing agent workflows.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

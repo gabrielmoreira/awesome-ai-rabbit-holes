@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__sand__ai__magi__2__preview__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -37,15 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MAGI-2-preview is a 114B-parameter Mixture-of-Experts model for generating synchronized audio-video from text or image prompts, released with inference code and weights on Hugging Face.
+  why_it_matters: It enables developers to generate high-fidelity, 10-second audiovisual clips from multimodal prompts using a scalable MoE architecture that activates only 6B parameters per token.
+  mental_damage: Another giant model that needs eight Hopper GPUs just to pretend we're democratizing AI while most developers wait for CI to finish.
+  tags:
+    - multimodal
+    - video-generation
+    - mixture-of-experts
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: MAGI-2-preview is a foundational multimodal generative model, not a developer-facing tool, agent, framework, or workflow product; it serves as model infrastructure rather than something developers directly use to build, edit, or orchestrate AI-assisted software.
+  evidence:
+    - The product is a 114B-parameter unified audio-video generation model with inference code, designed for T2V and I2V generation.
+    - It requires 8 NVIDIA Hopper GPUs and is positioned as a research artifact exploring efficient video generation scaling, not a tool for developers to integrate into coding workflows.
+    - Source-list context shows it appears in awesome-LLM-resources under '模型' (Models), indicating it is treated as a model resource, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -55,18 +61,36 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:27.434Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dc411d087fd5a9c6793ec15586b64e863cf1645d245de38b52d9efec744bb074
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: MAGI-2-preview is a foundational multimodal generative model, not a developer-facing tool, agent, framework, or workflow product; it serves as model infrastructure rather than something developers directly use to build, edit, or orchestrate AI-assisted software.
+      decision_evidence:
+        - The product is a 114B-parameter unified audio-video generation model with inference code, designed for T2V and I2V generation.
+        - It requires 8 NVIDIA Hopper GPUs and is positioned as a research artifact exploring efficient video generation scaling, not a tool for developers to integrate into coding workflows.
+        - Source-list context shows it appears in awesome-LLM-resources under '模型' (Models), indicating it is treated as a model resource, not a developer tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

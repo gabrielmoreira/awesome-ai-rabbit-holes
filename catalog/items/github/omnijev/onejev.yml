@@ -52,6 +52,36 @@ provenance:
         extracted_url: https://github.com/omnijev/onejev
         surrounding_text: "- [**OneJev**](https://github.com/OmniJev/OneJev) — 🚀🚀 A multimodal System One decision model that gives calibrated answers to typed questions about screens, photos, video and text in one forward pass."
         confidence: high
+    - id: discovery__github__omnijev__onejev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: OneJev
+        extracted_url: https://github.com/omnijev/onejev
+        surrounding_text: "- [OneJev](https://github.com/OmniJev/OneJev) ([site](https://omnijev.github.io/OneJev/)) - 🚀🚀 A multimodal System One decision model that gives calibrated answers to typed questions about screens, photos, video and text in one forward pass."
+        confidence: high
+    - id: discovery__github__omnijev__onejev__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Open reproductions and research
+        anchor_text: OneJev
+        extracted_url: https://github.com/omnijev/onejev
+        surrounding_text: "- [OneJev](https://github.com/OmniJev/OneJev) - Open multimodal System One model in four sizes (0.8B to 27B): typed questions about a screenshot, photo, video or text get a calibrated probability for every option in one forward pass. On one H200, a question about a 1280x720 screenshot takes 31 ms on the 0.8B and 189 ms on the 27B, and ten questions cost little more than one. On 354 TypeSafe questions with published Jev answers, OneJev-27B scores 89.3 against Jev 1.13's 89.0."
+        confidence: high
 metadata:
   github:
     stars: 110
@@ -88,7 +118,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.402Z"
+    updated_at: "2026-10-08T04:16:14.229Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +127,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.823Z"
+    updated_at: "2026-10-08T04:16:21.688Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gaurav-gosain__jev-alpha-bench__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-alpha-bench
         extracted_url: https://github.com/gaurav-gosain/jev-alpha-bench
-        surrounding_text: >-
-          - [jev-alpha-bench](https://github.com/Gaurav-Gosain/jev-alpha-bench) - Does Jev predict stock returns from
-          news? It reads the news well; there is no tradeable alpha. Three arms separate reading from recall.
+        surrounding_text: "- [jev-alpha-bench](https://github.com/Gaurav-Gosain/jev-alpha-bench) - Does Jev predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate reading from recall."
         confidence: high
     - id: discovery__github__gaurav-gosain__jev-alpha-bench__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-alpha-bench
         extracted_url: https://github.com/gaurav-gosain/jev-alpha-bench
-        surrounding_text: >-
-          | [jev-alpha-bench](https://github.com/Gaurav-Gosain/jev-alpha-bench) | ★ 0 | Go | 2026-09-19 | Does Jev
-          predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate
-          reading from recall. |
+        surrounding_text: "| [jev-alpha-bench](https://github.com/Gaurav-Gosain/jev-alpha-bench) | ★ 0 | Go | 2026-09-19 | Does Jev predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate reading from recall. |"
         confidence: high
 metadata:
   github:
@@ -50,16 +45,14 @@ metadata:
     archived: false
     full_name: Gaurav-Gosain/jev-alpha-bench
     html_url: https://github.com/Gaurav-Gosain/jev-alpha-bench
-    created_at: '2026-09-16T08:03:55Z'
-    pushed_at: '2026-09-16T08:18:44Z'
-    description: >-
-      Does Jev predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate
-      reading from recall.
+    created_at: "2026-09-16T08:03:55Z"
+    pushed_at: "2026-09-16T08:18:44Z"
+    description: Does Jev predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate reading from recall.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:32.432Z'
+    last_checked_at: "2026-09-29T13:11:32.432Z"
     readme:
-      fetched_at: '2026-09-29T13:11:32.432Z'
+      fetched_at: "2026-09-29T13:11:32.432Z"
       bytes: 10390
 insights:
   summary: null
@@ -72,9 +65,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -86,15 +77,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.414Z'
+    updated_at: "2026-09-29T13:07:10.414Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:32.432Z'
+    updated_at: "2026-09-29T13:11:32.432Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

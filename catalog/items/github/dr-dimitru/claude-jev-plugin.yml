@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dr-dimitru__claude-jev-plugin__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: claude-jev-plugin
         extracted_url: https://github.com/dr-dimitru/claude-jev-plugin
-        surrounding_text: >-
-          - [claude-jev-plugin](https://github.com/dr-dimitru/claude-jev-plugin) - TypeSafe Jev semantic guardrails for
-          Claude Code.
+        surrounding_text: "- [claude-jev-plugin](https://github.com/dr-dimitru/claude-jev-plugin) - TypeSafe Jev semantic guardrails for Claude Code."
         confidence: high
     - id: discovery__github__dr-dimitru__claude-jev-plugin__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**claude-jev-plugin**'
+        anchor_text: "**claude-jev-plugin**"
         extracted_url: https://github.com/dr-dimitru/claude-jev-plugin
-        surrounding_text: >-
-          - [**claude-jev-plugin**](https://github.com/dr-dimitru/claude-jev-plugin) — TypeSafe Jev semantic guardrails
-          for Claude Code
+        surrounding_text: "- [**claude-jev-plugin**](https://github.com/dr-dimitru/claude-jev-plugin) — TypeSafe Jev semantic guardrails for Claude Code"
         confidence: high
 metadata:
   github:
@@ -48,14 +44,14 @@ metadata:
     archived: false
     full_name: dr-dimitru/claude-jev-plugin
     html_url: https://github.com/dr-dimitru/claude-jev-plugin
-    created_at: '2026-09-20T20:42:56Z'
-    pushed_at: '2026-09-29T12:22:28Z'
+    created_at: "2026-09-20T20:42:56Z"
+    pushed_at: "2026-09-29T12:22:28Z"
     description: TypeSafe Jev semantic guardrails for Claude Code
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:48.076Z'
+    last_checked_at: "2026-09-29T13:10:48.076Z"
     readme:
-      fetched_at: '2026-09-29T13:10:48.076Z'
+      fetched_at: "2026-09-29T13:10:48.076Z"
       bytes: 17925
 insights:
   summary: TypeSafe Jev semantic guardrails for Claude Code
@@ -78,15 +74,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:48.076Z'
+    updated_at: "2026-09-29T13:10:48.076Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

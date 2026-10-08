@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__harness__router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - SDKs & clients
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-harness-router
-        surrounding_text: >-
-          - [jev-harness-router](https://github.com/JoacoMarc/jev-harness-router)
-          ([site](https://www.npmjs.com/package/jev-harness-router)) - Per-turn router for agent harnesses: one 350ms
-          Jev call picks the model tier, effort, tools and skill, behind a hard deadline with a regex fallback. Claude
-          Agent SDK adapter included.
+        surrounding_text: "- [jev-harness-router](https://github.com/JoacoMarc/jev-harness-router) ([site](https://www.npmjs.com/package/jev-harness-router)) - Per-turn router for agent harnesses: one 350ms Jev call picks the model tier, effort, tools and skill, behind a hard deadline with a regex fallback. Claude Agent SDK adapter included."
         confidence: high
 metadata:
   github:
@@ -40,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-harness-router (site) - Per-turn router for agent harnesses: one 350ms Jev call picks the model tier, effort,
-    tools and skill, behind a hard deadline with a regex fallback. Claude Agent SDK adapter included.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Node.js package that provides routing utilities for Jev harness workflows.
+  why_it_matters: It helps developers orchestrate decision-model calls within Jev-based agents by managing execution paths.
+  mental_damage: Yet another npm package that feels like plumbing for a plumbing system you didn't know you needed.
+  tags:
+    - jev
+    - routing
+    - npm
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The package is a client SDK whose core function is calling a decision model (Jev) with typed questions via routing logic, fitting the identity of decision-model tooling.
   evidence:
-    - jev-latest choice confidence 0.80
+    - Source-list context shows it's curated in 'awesome-jev' under 'SDKs & clients' for Jev-based projects
+    - The package name 'jev-harness-router' implies routing logic for Jev harness workflows
+    - No evidence suggests it acts as a coding agent, app builder, or standalone agent; it integrates with Jev
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:42.603Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:923996f827f3bc1f80103ffaec990821305aff9904c16221cd9272322c545439
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The package is a client SDK whose core function is calling a decision model (Jev) with typed questions via routing logic, fitting the identity of decision-model tooling.
+      decision_evidence:
+        - Source-list context shows it's curated in 'awesome-jev' under 'SDKs & clients' for Jev-based projects
+        - The package name 'jev-harness-router' implies routing logic for Jev harness workflows
+        - No evidence suggests it acts as a coding agent, app builder, or standalone agent; it integrates with Jev
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product's identity is routing decision-model judgments, not extending a host agent's workflow capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

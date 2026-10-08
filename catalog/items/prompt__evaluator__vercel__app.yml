@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prompt__evaluator__vercel__app__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Testing and QA
         anchor_text: Prompt Evaluator
         extracted_url: https://prompt-evaluator.vercel.app
-        surrounding_text: >-
-          - **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** – Web-based prompt and workflow QA tool.
-          Evaluate, compare, and audit AI prompt outputs and workflow quality.
+        surrounding_text: "- **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and workflow quality."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Prompt Evaluator – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and
-    workflow quality.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Prompt Evaluator is a Vercel-hosted tool for testing and scoring prompts using model responses and eval criteria.
+  why_it_matters: It helps developers systematically assess prompt quality and model behavior, reducing guesswork in prompt engineering.
+  mental_damage: Another prompt playground that pretends scoring a few outputs replaces actual user testing.
+  tags:
+    - prompt-engineering
+    - evals
+    - testing
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Prompt Regression & Testing
+  reason: It focuses on evaluating prompt quality and model responses, aligning with evals' core purpose of measuring AI behavior.
   evidence:
-    - jev-latest choice confidence 0.82
+    - Listed in awesome-ai-coding-tools under Testing and QA section
+    - URL prompt-evaluator.vercel.app suggests a focused tool for prompt evaluation
+    - No indication of being a coding agent, framework, or orchestration platform
 placement:
   primary_category: evals
   secondary_categories: []
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:58.875Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0541e172ca6e8b0ee82e06a751eae70c4c8290f17c93693aaa3684d589df47f6
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: It focuses on evaluating prompt quality and model responses, aligning with evals' core purpose of measuring AI behavior.
+      decision_evidence:
+        - Listed in awesome-ai-coding-tools under Testing and QA section
+        - URL prompt-evaluator.vercel.app suggests a focused tool for prompt evaluation
+        - No indication of being a coding agent, framework, or orchestration platform
+      category_candidates:
+        - evals
+        - memory-and-context
+      contrastive_reason: Choose evals over memory-and-context because its primary function is scoring and comparing prompt/model behavior, not managing memory or context infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

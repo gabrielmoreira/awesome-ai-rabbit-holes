@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__mkeco__cerebellum__2b__bf16__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://huggingface.co/mkeco/Cerebellum-2B-BF16
-        surrounding_text: >-
-          - [Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B)
-          ([site](https://huggingface.co/mkeco/Cerebellum-2B-BF16)) - Non-Autoregressive AI Agent Decision Model.
-          Open-source SOTA alternative to TypeSafe Jev. O(1) Tool Routing & DOM Automation on Qwen3.5-2B .
+        surrounding_text: "- [Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B) ([site](https://huggingface.co/mkeco/Cerebellum-2B-BF16)) - Non-Autoregressive AI Agent Decision Model. Open-source SOTA alternative to TypeSafe Jev. O(1) Tool Routing & DOM Automation on Qwen3.5-2B ."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Cerebellum-2B (site) - Non-Autoregressive AI Agent Decision Model. Open-source SOTA alternative to TypeSafe Jev.
-    O(1) Tool Routing & DOM Automation on Qwen3.5-2B .
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Cerebellum-2B-BF16 is a Hugging Face-hosted decision model for typed questions with probabilistic outputs.
+  why_it_matters: It enables developers to build reliable routing, scoring, or guardrail layers in AI systems using constrained, probability-based judgments instead of open-ended text generation.
+  mental_damage: Another model repo where you pray the BF16 precision doesn’t silently corrupt your guardrail thresholds at 3 a.m.
+  tags:
+    - decision-model
+    - huggingface
+    - jev-like
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: The model is explicitly a decision model (Jev-style) serving typed questions with probabilities, which matches the core identity of the decision-models category, and it is listed in an awesome list under Browser & Computer Use for Jev-built projects.
   evidence:
-    - jev-latest choice confidence 0.81
+    - Hosted on Hugging Face as mkeco/Cerebellum-2B-BF16 with no repo description, indicating a model weight release.
+    - Listed in awesome-jev under the Browser & Computer Use section as a project built on Jev (TypeSafe AI's System One model).
+    - The naming convention 'Cerebellum-2B-BF16' and context suggest a 2B parameter BF16 quantized decision model in the Jev lineage.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:23.334Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fd8a7f25bc3258d9553d8ba1df4d92114e387f93b1e943b9f3fb393594b69725
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The model is explicitly a decision model (Jev-style) serving typed questions with probabilities, which matches the core identity of the decision-models category, and it is listed in an awesome list under Browser & Computer Use for Jev-built projects.
+      decision_evidence:
+        - Hosted on Hugging Face as mkeco/Cerebellum-2B-BF16 with no repo description, indicating a model weight release.
+        - Listed in awesome-jev under the Browser & Computer Use section as a project built on Jev (TypeSafe AI's System One model).
+        - The naming convention 'Cerebellum-2B-BF16' and context suggest a 2B parameter BF16 quantized decision model in the Jev lineage.
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product's identity is a decision model serving typed questions with probabilities, not an MCP server, client, or infrastructure layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

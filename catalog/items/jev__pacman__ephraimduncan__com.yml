@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__pacman__ephraimduncan__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: Jev Pac-Man
         extracted_url: https://jev-pacman.ephraimduncan.com
-        surrounding_text: >-
-          - [Jev Pac-Man](https://jev-pacman.ephraimduncan.com) - The maze as JSON; Jev picks the turn at each junction
-          in real time.
+        surrounding_text: "- [Jev Pac-Man](https://jev-pacman.ephraimduncan.com) - The maze as JSON; Jev picks the turn at each junction in real time."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev plays Pac-Man is a web demo where TypeSafe's Jev decision model steers a Pac-Man recreation using structured game state and typed directional queries.
+  why_it_matters: It demonstrates decision models in action for real-time control, showing how Jev outputs probabilistic moves from game-state inputs without vision or hardcoded paths.
+  mental_damage: Watching an AI play Pac-Man at 0.5x speed while you wonder if this is the future of game AI or just a neat way to avoid writing a pathfinder.
+  tags:
+    - decision-model
+    - demo
+    - game-ai
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project's core identity is showcasing the Jev decision model's typed judgment capability in a game context, making it a decision-model tool rather than a coding agent or app builder.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site context: 'Jev, TypeSafe's System One model, steers this Pac-Man recreation. Before each junction the game sends Jev the maze, the actors, and the legal directions as structured data; Jev answers with one direction and a probability for each option.'"
+    - "Source-list context: Listed in awesome-jev under 'Games & simulations' as a project built on Jev, TypeSafe's System One model."
+    - No evidence of coding tasks, code editing, or app generation — the model outputs directional decisions, not code or apps.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:27.923Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:26b65a790e072ff5c671bb445a67c3c289f01f083374c83f3481983c05f3bcea
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project's core identity is showcasing the Jev decision model's typed judgment capability in a game context, making it a decision-model tool rather than a coding agent or app builder.
+      decision_evidence:
+        - "Scraped site context: 'Jev, TypeSafe's System One model, steers this Pac-Man recreation. Before each junction the game sends Jev the maze, the actors, and the legal directions as structured data; Jev answers with one direction and a probability for each option.'"
+        - "Source-list context: Listed in awesome-jev under 'Games & simulations' as a project built on Jev, TypeSafe's System One model."
+        - No evidence of coding tasks, code editing, or app generation — the model outputs directional decisions, not code or apps.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the project does not generate deployable apps from prompts but instead demonstrates a decision model controlling Pac-Man via typed state queries.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hegargarcia__jev-playground__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-playground (hegargarcia)
         extracted_url: https://github.com/hegargarcia/jev-playground
-        surrounding_text: >-
-          - [jev-playground (hegargarcia)](https://github.com/hegargarcia/jev-playground) - Benchmarks Jev against other
-          evaluation models in games with explicit states, legal actions, and measurable outcomes.
+        surrounding_text: "- [jev-playground (hegargarcia)](https://github.com/hegargarcia/jev-playground) - Benchmarks Jev against other evaluation models in games with explicit states, legal actions, and measurable outcomes."
         confidence: high
     - id: discovery__github__hegargarcia__jev-playground__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Benchmarks & research (116)
         anchor_text: jev-playground (hegargarcia)
         extracted_url: https://github.com/hegargarcia/jev-playground
-        surrounding_text: >-
-          | [jev-playground (hegargarcia)](https://github.com/hegargarcia/jev-playground) | ★ 0 | TypeScript |
-          2026-09-19 | Benchmarks Jev against other evaluation models in games with explicit states, legal actions, and
-          measurable outcomes. |
+        surrounding_text: "| [jev-playground (hegargarcia)](https://github.com/hegargarcia/jev-playground) | ★ 0 | TypeScript | 2026-09-19 | Benchmarks Jev against other evaluation models in games with explicit states, legal actions, and measurable outcomes. |"
         confidence: high
     - id: discovery__github__hegargarcia__jev-playground__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,11 +51,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Jev Playground
         extracted_url: https://github.com/hegargarcia/jev-playground
-        surrounding_text: >-
-          - [Jev Playground](https://github.com/hegargarcia/jev-playground)
-          ![stars](https://img.shields.io/github/stars/hegargarcia/jev-playground?style=flat-square&label=%E2%98%85) -
-          Model evaluation: benchmarks Jev against Luna, Haiku, and Gemini at choosing validated legal moves in
-          explicit-state games, scoring decision quality and consistency across a sequence of moves.
+        surrounding_text: "- [Jev Playground](https://github.com/hegargarcia/jev-playground) ![stars](https://img.shields.io/github/stars/hegargarcia/jev-playground?style=flat-square&label=%E2%98%85) - Model evaluation: benchmarks Jev against Luna, Haiku, and Gemini at choosing validated legal moves in explicit-state games, scoring decision quality and consistency across a sequence of moves."
         confidence: high
 metadata:
   github:
@@ -70,19 +61,17 @@ metadata:
     archived: false
     full_name: hegargarcia/jev-playground
     html_url: https://github.com/hegargarcia/jev-playground
-    created_at: '2026-09-17T03:03:44Z'
-    pushed_at: '2026-09-17T15:27:20Z'
+    created_at: "2026-09-17T03:03:44Z"
+    pushed_at: "2026-09-17T15:27:20Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:12:02.962Z'
+    last_checked_at: "2026-09-29T13:12:02.962Z"
     readme:
-      fetched_at: '2026-09-29T13:12:02.962Z'
+      fetched_at: "2026-09-29T13:12:02.962Z"
       bytes: 6502
 insights:
-  summary: >-
-    jev-playground (hegargarcia) - Benchmarks Jev against other evaluation models in games with explicit states, legal
-    actions, and measurable outcomes.
+  summary: jev-playground (hegargarcia) - Benchmarks Jev against other evaluation models in games with explicit states, legal actions, and measurable outcomes.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -92,9 +81,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.28 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.28 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -106,15 +93,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:02.962Z'
+    updated_at: "2026-09-29T13:12:02.962Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

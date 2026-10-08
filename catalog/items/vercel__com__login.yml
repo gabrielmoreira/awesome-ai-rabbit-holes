@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vercel__com__login__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://jev-snake-theta.vercel.app
-        surrounding_text: >-
-          - [jev-snake (lalitsonawane)](https://github.com/lalitsonawane/jev-snake)
-          ([site](https://jev-snake-theta.vercel.app)) - Snake autoplay powered by TypeSafe Jev (System One).
+        surrounding_text: "- [jev-snake (lalitsonawane)](https://github.com/lalitsonawane/jev-snake) ([site](https://jev-snake-theta.vercel.app)) - Snake autoplay powered by TypeSafe Jev (System One)."
         confidence: high
 metadata:
   github:
@@ -38,17 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: The authentication page for the Vercel deployment and hosting platform.
+  why_it_matters: It provides the entry point for developers to access and manage their cloud-hosted projects.
+  mental_damage: "The final boss of the 'push-to-deploy' dopamine loop: the password reset request."
+  tags:
+    - vercel
+    - hosting
+    - auth
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The input is a platform's login page, which is not a standalone AI developer tool or product.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.35 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The URL is a login endpoint (vercel.com/login)
+    - The scraped content is a standard authentication form
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:47:26.613Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c3d3c2ac8f59ec2a15d7572578f54747b2620958e0f283b122d8c8bb345647aa
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a platform's login page, which is not a standalone AI developer tool or product.
+      decision_evidence:
+        - The URL is a login endpoint (vercel.com/login)
+        - The scraped content is a standard authentication form
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

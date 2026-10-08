@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__plotveil__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://plotveil.app
-        surrounding_text: >-
-          - [plotveil](https://github.com/Dearest/plotveil) ([site](https://plotveil.app)) - A quiet spoiler blocker for
-          YouTube comments. One typed Jev (TypeSafe System One) Noul decision per comment; covered while checked, still
-          covered if the check fails.
+        surrounding_text: "- [plotveil](https://github.com/Dearest/plotveil) ([site](https://plotveil.app)) - A quiet spoiler blocker for YouTube comments. One typed Jev (TypeSafe System One) Noul decision per comment; covered while checked, still covered if the check fails."
         confidence: high
 metadata:
   github:
@@ -39,25 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: PlotVeil is a Chrome extension that blocks YouTube comment spoilers using the Jev decision model to judge and reveal comments on demand.
+  why_it_matters: It lets developers avoid spoilers while watching technical videos or entertainment, preserving surprise without missing community discussion.
+  mental_damage: Another layer of AI-mediated censorship so you can finally enjoy that frame-by-frame breakdown without someone ruining the twist in the first reply.
+  tags:
+    - chrome-extension
+    - decision-model
+    - content-filtering
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: PlotVeil's core identity is the Jev decision model judging spoiler risk via typed questions and probabilities, making it a decision-model tool despite being a browser extension.
+  evidence:
+    - Uses Jev (TypeSafe System One) to return calibrated probabilities (noul) on whether comments contain spoilers
+    - No text generation; judgments are pure probability outputs from structured state and typed questions
+    - Listed in awesome-jev under 'Browser & computer use' as a Jev-built spoiler blocker for YouTube comments
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Browser & Computer Use
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:51.703Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dcd293bc37bf0f7478812d03899fe3325f0ecd0c052ae2c94d39e979e83e78fa
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: PlotVeil's core identity is the Jev decision model judging spoiler risk via typed questions and probabilities, making it a decision-model tool despite being a browser extension.
+      decision_evidence:
+        - Uses Jev (TypeSafe System One) to return calibrated probabilities (noul) on whether comments contain spoilers
+        - No text generation; judgments are pure probability outputs from structured state and typed questions
+        - Listed in awesome-jev under 'Browser & computer use' as a Jev-built spoiler blocker for YouTube comments
+      category_candidates:
+        - decision-models
+        - ai-dev-extensions
+      contrastive_reason: Choose decision-models over ai-dev-extensions because the product's identity is the Jev decision model's judgment, not merely extending a coding agent or editor.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

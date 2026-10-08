@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mealmacroai__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: MealMacroAI
         extracted_url: https://mealmacroai.com
-        surrounding_text: >-
-          - **[MealMacroAI](https://www.mealmacroai.com)** – AI-powered reverse macro calculator that converts target
-          nutrition into precise raw and cooked food portion weights.
+        surrounding_text: "- **[MealMacroAI](https://www.mealmacroai.com)** – AI-powered reverse macro calculator that converts target nutrition into precise raw and cooked food portion weights."
         confidence: high
 metadata:
   github:
@@ -38,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A web-based meal planning tool that uses AI to generate personalized meal plans based on user input.
+  why_it_matters: It helps developers and health-conscious users automate meal planning with AI-driven macronutrient tracking, reducing time spent on manual diet logging.
+  mental_damage: Another AI tool that promises to optimize your life while you still have to manually log every snack and wonder if the AI knows you ate three cookies at 2 a.m.
+  tags:
+    - health
+    - nutrition
+    - ai-planning
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The tool is focused on meal planning and nutrition tracking, which lacks a clear developer-tooling angle despite being listed in an AI coding tools directory.
+  evidence:
+    - "Repo description: (none)"
+    - README excerpt or site context indicates it generates meal plans based on user input, with no mention of code, software development, or developer workflows
+    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' but the tool's core function is unrelated to coding, editing, or software engineering tasks
 placement:
   primary_category: null
   section: null
@@ -56,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -64,6 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:36.416Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2f395a454e48dd26c562da3242657e83e28503000e01fb6c536d1722d0b8cb9a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is focused on meal planning and nutrition tracking, which lacks a clear developer-tooling angle despite being listed in an AI coding tools directory.
+      decision_evidence:
+        - "Repo description: (none)"
+        - README excerpt or site context indicates it generates meal plans based on user input, with no mention of code, software development, or developer workflows
+        - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' but the tool's core function is unrelated to coding, editing, or software engineering tasks
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

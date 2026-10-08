@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__verify__papertrellis__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Applications
         anchor_text: site
         extracted_url: https://verify.papertrellis.com
-        surrounding_text: >-
-          - [citation-verifier](https://github.com/MarissaFamularo/citation-verifier)
-          ([site](https://verify.papertrellis.com)) - Check whether each cited paper supports the sentence citing it.
-          Claude proves the quote, TypeSafe's Jev scores it, a human decides.
+        surrounding_text: "- [citation-verifier](https://github.com/MarissaFamularo/citation-verifier) ([site](https://verify.papertrellis.com)) - Check whether each cited paper supports the sentence citing it. Claude proves the quote, TypeSafe's Jev scores it, a human decides."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    citation-verifier (site) - Check whether each cited paper supports the sentence citing it. Claude proves the quote,
-    TypeSafe's Jev scores it, a human decides.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Paper Trellis Citation Verifier is a Jev-based tool for verifying academic citations using TypeSafe AI's System One decision model.
+  why_it_matters: It automates citation verification for researchers and developers working with academic content, reducing manual fact-checking effort.
+  mental_damage: Finally, an AI that checks if your sources are real — because trusting LLMs with bibliographies was always a solid plan.
+  tags:
+    - decision-models
+    - academic-tools
+    - verification
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: The tool's core identity is a Jev-based decision model that answers verification questions with probabilities, making it a direct fit for decision-models rather than a coding agent or general utility.
   evidence:
-    - jev-latest choice confidence 0.66
+    - Seen in awesome-jev under 'Applications' as 'Paper Trellis Citation Verifier', a project built on Jev (TypeSafe AI's System One model)
+    - "Scraped site title: 'Paper Trellis Citation Verifier' with no description, implying its function is evident from the Jev directory context"
+    - No evidence of code editing, app generation, or agent orchestration; positioning is strictly as a verification tool using Jev judgments
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:17.934Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:80551414db4961ff408ef0a86dd701756c876acf65deec7c30cb9904704a3176
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is a Jev-based decision model that answers verification questions with probabilities, making it a direct fit for decision-models rather than a coding agent or general utility.
+      decision_evidence:
+        - Seen in awesome-jev under 'Applications' as 'Paper Trellis Citation Verifier', a project built on Jev (TypeSafe AI's System One model)
+        - "Scraped site title: 'Paper Trellis Citation Verifier' with no description, implying its function is evident from the Jev directory context"
+        - No evidence of code editing, app generation, or agent orchestration; positioning is strictly as a verification tool using Jev judgments
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the tool's core function is performing citation verification via Jev's typed probabilistic judgments, not measuring or benchmarking model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

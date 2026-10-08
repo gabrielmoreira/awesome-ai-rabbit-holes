@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davertor__jev-slop-guard__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Slop Guard
         extracted_url: https://github.com/davertor/jev-slop-guard
-        surrounding_text: >-
-          - [Jev Slop Guard](https://github.com/davertor/jev-slop-guard) - `Open source` · `Free source build` · `BYOK`.
-          Chrome extension: TypeSafe Jev scores/stamps AI slop on X and LinkedIn feeds as you scroll. [Project
-          guide](community/projects/apps/jev-slop-guard.md).
+        surrounding_text: "- [Jev Slop Guard](https://github.com/davertor/jev-slop-guard) - `Open source` · `Free source build` · `BYOK`. Chrome extension: TypeSafe Jev scores/stamps AI slop on X and LinkedIn feeds as you scroll. [Project guide](community/projects/apps/jev-slop-guard.md)."
         confidence: high
     - id: discovery__github__davertor__jev-slop-guard__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,14 +33,12 @@ provenance:
         mode: parsed
         section_path:
           - Decision Tools
-        anchor_text: '**jev-slop-guard**'
+        anchor_text: "**jev-slop-guard**"
         extracted_url: https://github.com/davertor/jev-slop-guard
-        surrounding_text: >-
-          - [**jev-slop-guard**](https://github.com/davertor/jev-slop-guard) — Jev Slop Guard — a Chrome extension that
-          scores and stamps AI slop on your X and LinkedIn feeds as you scroll
+        surrounding_text: "- [**jev-slop-guard**](https://github.com/davertor/jev-slop-guard) — Jev Slop Guard — a Chrome extension that scores and stamps AI slop on your X and LinkedIn feeds as you scroll"
         confidence: high
     - id: discovery__github__davertor__jev-slop-guard__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,14 +51,7 @@ provenance:
           - Content Moderation
         anchor_text: jev-slop-guard
         extracted_url: https://github.com/davertor/jev-slop-guard
-        surrounding_text: >-
-          - [jev-slop-guard](https://github.com/davertor/jev-slop-guard) ![type:
-          extension](https://img.shields.io/badge/type-extension-4B5563?style=flat-square)
-          ![stars](https://img.shields.io/github/stars/davertor/jev-slop-guard?style=flat-square&label=%E2%98%85) -
-          Social feed filtering: bring-your-own-key Chrome extension that asks Jev one `Choice` (`slop` / `not_slop`)
-          per X and LinkedIn post as it scrolls into view, blurring and stamping anything at or above a user-set
-          threshold (default 0.7) behind a "Show the post" override, with a three-request concurrency cap and one cached
-          verdict per post so scrolling never blocks.
+        surrounding_text: "- [jev-slop-guard](https://github.com/davertor/jev-slop-guard) ![type: extension](https://img.shields.io/badge/type-extension-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/davertor/jev-slop-guard?style=flat-square&label=%E2%98%85) - Social feed filtering: bring-your-own-key Chrome extension that asks Jev one `Choice` (`slop` / `not_slop`) per X and LinkedIn post as it scrolls into view, blurring and stamping anything at or above a user-set threshold (default 0.7) behind a \"Show the post\" override, with a three-request concurrency cap and one cached verdict per post so scrolling never blocks."
         confidence: high
 metadata:
   github:
@@ -73,8 +61,8 @@ metadata:
     archived: false
     full_name: davertor/jev-slop-guard
     html_url: https://github.com/davertor/jev-slop-guard
-    created_at: '2026-09-21T10:24:18Z'
-    pushed_at: '2026-09-22T11:58:05Z'
+    created_at: "2026-09-21T10:24:18Z"
+    pushed_at: "2026-09-22T11:58:05Z"
     description: Jev Slop Guard — a Chrome extension that scores and stamps AI slop on your X and LinkedIn feeds as you scroll
     homepage: null
     topics:
@@ -91,9 +79,9 @@ metadata:
       - typesafe
       - typescript
       - wxt
-    last_checked_at: '2026-09-29T13:10:28.386Z'
+    last_checked_at: "2026-09-29T13:10:28.386Z"
     readme:
-      fetched_at: '2026-09-29T13:10:28.386Z'
+      fetched_at: "2026-09-29T13:10:28.386Z"
       bytes: 4846
 insights:
   summary: Jev Slop Guard — a Chrome extension that scores and stamps AI slop on your X and LinkedIn feeds as you scroll
@@ -116,15 +104,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.394Z'
+    updated_at: "2026-09-29T13:07:10.394Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:28.386Z'
+    updated_at: "2026-09-29T13:10:28.386Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

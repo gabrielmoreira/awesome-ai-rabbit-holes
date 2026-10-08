@@ -3,11 +3,11 @@
 
 Reusable skill packs, rules bundles, slash-command sets, and directories that install into a coding agent or assistant to extend its behavior.
 
-_70 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_67 entries in 2 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Skill Packs & Libraries](#skill-packs--libraries) — 59
+- [Skill Packs & Libraries](#skill-packs--libraries) — 56
 - [Registries & Directories](#registries--directories) — 11
 
 ## Skill Packs & Libraries
@@ -127,7 +127,7 @@ _70 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 - **[typesafe-ai/daggerverse](https://github.com/typesafe-ai/daggerverse)** `⭐ 24` Official collection of reusable Dagger modules for TypeSafe AI and System One workflows.
 - **[heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills)** `⭐ 22` `updated ≤30d` 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+29 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+26 more in Skill Packs & Libraries &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[taiizor/agents-md-cookbook](https://github.com/taiizor/agents-md-cookbook)** `⭐ 21` agents-md-cookbook – Tool-agnostic AGENTS.md authoring kit (MIT) with 15 stack-specific templates, a tool compatibility matrix, an npm CLI + GitHub Action linter (agents-md-lint), and a migrator (agents-md-migrate) that converts .cursorrules, CLAUDE.md, Copilot, Windsurf, Cline, and Aider configs to AGENTS.md. Works across Cursor, Claude Code, Copilot, and 30+ AI coding tools. Free and open source.
 - **[longkou1988/cnki-skills](https://github.com/longkou1988/cnki-skills)** `⭐ 20` The optional cnki-jev package uses Jev for first-pass literature screening and escalates complex cases for model or human review.
@@ -155,9 +155,6 @@ _70 entries in 2 sections, ranked by stars. Each section opens with its top 30; 
 - **[Jev Internal Links](https://github.com/nicoskool/jev-internal-links)** `⭐ 0` Jev Internal Links - Claude Code skill: crawl a site, ask TypeSafe Jev which internal links to add, apply local rules, export a report. Project guide.
 - **[manifoldmcp/marketing-skills](https://github.com/manifoldmcp/marketing-skills)** `⭐ 0` manifoldmcp/marketing-skills : Plugin, marketing skills and connection config for Manifold, a hosted MCP server that gives agents read-only SEO, AI search, social, ad and lead data.
 - **[yuyang2230/jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)** `⭐ 0` Multi (19) — jev-router · Harness Router · Switchboard · jev-guard (leepokai) · jev-axi · jev-harness · Canny · jev-lint · Perch · Jev-Code-Reviewer · yoshi · public-browser · jev-agent-skill · hermes-jev-skills · Jevbridge · jev-use · jev-mcp (burnigtm) · typesafe-mcp · jev-style.
-- **[PyPI](https://pypi.org/project/harness-ai-kit)** harness-ai-kit – Package manager for AI agent assets (skills/CLIs/MCPs/loops). Install, lock, and sync skills across Codex, Claude Code, Cursor, Kiro with SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise skills included. Available on PyPI.
-- **[Septim Agents Pack](https://septimlabs.com/tools/agents)** Septim Agents Pack – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance, design, legal, customer research, and cross-lane coordination. Drop the .claude/agents/ folder into any project; pay-once at $49.
-- **[UIZZE](https://uizze.com)** UIZZE – Stop generic UI before it ships. The free MIT anti-ui-slop Skill gives coding agents a product-specific design contract, required loading/empty/error states, and a hard finish gate. The optional authenticated MCP provides find_ui_references and find_ui_materials over 800,000+ real web and iOS screens.
 
 </details>
 

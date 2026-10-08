@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__tetris__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://jev-tetris.vercel.app
-        surrounding_text: >-
-          - [jev-tetris (trungdq88)](https://github.com/trungdq88/jev-tetris) ([site](https://jev-tetris.vercel.app)) -
-          Jev play Tetris in real-time against other AI models.
+        surrounding_text: "- [jev-tetris (trungdq88)](https://github.com/trungdq88/jev-tetris) ([site](https://jev-tetris.vercel.app)) - Jev play Tetris in real-time against other AI models."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev vs the LLMs is a real-time Tetris game where the Jev decision model competes against language models like Claude Haiku 4.5 and Gemini Flash.
+  why_it_matters: It demonstrates decision-model performance in a competitive, time-sensitive setting, offering developers a tangible way to compare model latency and reasoning under pressure.
+  mental_damage: Watching an AI sweat over Tetris while gravity accelerates is the closest we’ve come to seeing machine anxiety in real time.
+  tags:
+    - decision-model
+    - demo
+    - competition
+    - tetris
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project centers on the Jev decision model as the core product, with gameplay built around its typed judgments; this fits decision-models over coding agents or app builders because the model’s output—not code generation or app creation—is the primary artifact.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Two models play the same Tetris piece sequence in real time. First to top out loses.
+    - Jev answers with a Choice distribution; the opponent answers through a forced function call whose argument is one of the option ids.
+    - "Seen in source lists under awesome-jev, section: Games & simulations"
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:49.090Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b24669bf55c8d192dd0265dad77beafb0f8ab459918df647bff649cefd67d7a7
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project centers on the Jev decision model as the core product, with gameplay built around its typed judgments; this fits decision-models over coding agents or app builders because the model’s output—not code generation or app creation—is the primary artifact.
+      decision_evidence:
+        - Two models play the same Tetris piece sequence in real time. First to top out loses.
+        - Jev answers with a Choice distribution; the opponent answers through a forced function call whose argument is one of the option ids.
+        - "Seen in source lists under awesome-jev, section: Games & simulations"
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the tool does not generate deployable apps from prompts but instead hosts a competitive demo where the decision model's judgments drive gameplay.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

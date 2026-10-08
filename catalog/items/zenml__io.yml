@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__zenml__io__awesome-list__wong2__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -18,9 +18,7 @@ provenance:
           - Official Servers
         anchor_text: ZenML
         extracted_url: https://zenml.io
-        surrounding_text: >-
-          - **[ZenML](https://github.com/zenml-io/mcp-zenml)** - Interact with your MLOps and LLMOps pipelines through
-          your [ZenML](https://www.zenml.io) MCP server
+        surrounding_text: "- **[ZenML](https://github.com/zenml-io/mcp-zenml)** - Interact with your MLOps and LLMOps pipelines through your [ZenML](https://www.zenml.io) MCP server"
         confidence: high
 metadata:
   github:
@@ -38,11 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ZenML - Interact with your MLOps and LLMOps pipelines through your ZenML MCP server
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ZenML is an open-source MLOps platform for orchestrating ML pipelines and agent workflows on user-selected infrastructure.
+  why_it_matters: It lets developers build, version, and reproduce AI workflows across environments without locking into a specific cloud or toolchain.
+  mental_damage: Yet another YAML-driven orchestration layer that promises portability while you quietly vendor-lock into its DSL.
+  tags:
+    - mlops
+    - orchestration
+    - pipelines
+    - agent-workflows
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
@@ -51,14 +53,14 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:54.270Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c54a8ac5939a8dd49eae93830659cf3b75d84f3f9627a4261826ac999e171e17
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: ZenML primarily coordinates pipelines and agents as a reusable workflow engine, fitting agent orchestration rather than being a coding agent, framework, or MCP server.
+      decision_evidence:
+        - ZenML orchestrates your pipelines and agents on the infra you choose
+        - Kitaru replays them on production data before a change ships
+        - Listed in awesome-mcp-servers under 'Official Servers' as unified infrastructure layer for AI in production
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because ZenML is an operated platform for managing multi-agent workflows, not a code-first library developers import.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'agent-orchestration'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

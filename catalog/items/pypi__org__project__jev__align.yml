@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jev__align__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Applications
         anchor_text: site
         extracted_url: https://pypi.org/project/jev-align
-        surrounding_text: >-
-          - [jev-align (Sutro)](https://github.com/sutro-sh/jev-align) ([site](https://pypi.org/project/jev-align/)) -
-          Active-learning CLI that uses human labels and GEPA to improve Jev decision definitions.
+        surrounding_text: "- [jev-align (Sutro)](https://github.com/sutro-sh/jev-align) ([site](https://pypi.org/project/jev-align/)) - Active-learning CLI that uses human labels and GEPA to improve Jev decision definitions."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-align (Sutro) (site) - Active-learning CLI that uses human labels and GEPA to improve Jev decision definitions.
-  why_it_matters: null
-  mental_damage: null
+  summary: jev-align is a PyPI package described as 'Client Challenge' on its listing page, with no clear functional description provided.
+  why_it_matters: It is unclear what jev-align does or how it assists developers, making its practical value difficult to assess.
+  mental_damage: Another mysterious PyPI package that promises nothing and delivers even less, adding to the noise in an already crowded ecosystem.
   tags: []
-  confidence: null
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  status: excluded
+  reason: The project lacks a coherent description, functional README, or clear purpose; the PyPI page fails to load properly, and there is no evidence it is a developer-facing AI tool.
   evidence:
-    - jev-latest choice confidence 0.74
+    - Repo description is missing
+    - "PyPI project page shows a loading error: 'A required part of this site couldn’t load'"
+    - Seen only in an 'awesome-jev' list under 'Applications' with no detail on functionality
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +66,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:15.089Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1c8524ca85b7b08f862cf052e1b983f1e07c1c9ca0624038a8084bbb40885ab9
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks a coherent description, functional README, or clear purpose; the PyPI page fails to load properly, and there is no evidence it is a developer-facing AI tool.
+      decision_evidence:
+        - Repo description is missing
+        - "PyPI project page shows a loading error: 'A required part of this site couldn’t load'"
+        - Seen only in an 'awesome-jev' list under 'Applications' with no detail on functionality
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

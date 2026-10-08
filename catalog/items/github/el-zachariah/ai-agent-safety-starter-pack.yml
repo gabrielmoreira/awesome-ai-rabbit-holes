@@ -6,9 +6,8 @@ identity:
   github_repo: el-zachariah/ai-agent-safety-starter-pack
 provenance:
   discoveries:
-    - id: >-
-        discovery__github__el-zachariah__ai-agent-safety-starter-pack__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__github__el-zachariah__ai-agent-safety-starter-pack__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -20,10 +19,7 @@ provenance:
           - Security
         anchor_text: AI Agent Safety Starter Pack
         extracted_url: https://github.com/el-zachariah/ai-agent-safety-starter-pack
-        surrounding_text: >-
-          - **[AI Agent Safety Starter Pack](https://github.com/el-zachariah/ai-agent-safety-starter-pack)** – Free repo
-          preflight scanner for Claude Code, Codex, Cursor, and other AI coding-agent runs that flags agent
-          instructions, MCP config, risky shell patterns, package scripts, and secret-adjacent files before tool access.
+        surrounding_text: "- **[AI Agent Safety Starter Pack](https://github.com/el-zachariah/ai-agent-safety-starter-pack)** – Free repo preflight scanner for Claude Code, Codex, Cursor, and other AI coding-agent runs that flags agent instructions, MCP config, risky shell patterns, package scripts, and secret-adjacent files before tool access."
         confidence: high
 metadata:
   github:
@@ -33,8 +29,8 @@ metadata:
     archived: false
     full_name: el-zachariah/ai-agent-safety-starter-pack
     html_url: https://github.com/el-zachariah/ai-agent-safety-starter-pack
-    created_at: '2026-07-04T15:31:35Z'
-    pushed_at: '2026-07-09T01:26:45Z'
+    created_at: "2026-07-04T15:31:35Z"
+    pushed_at: "2026-07-09T01:26:45Z"
     description: Free lite preflight scanner and checklist for AI coding agent repo runs
     homepage: https://payhip.com/b/1nmxV
     topics:
@@ -45,9 +41,9 @@ metadata:
       - mcp
       - preflight
       - repo-safety
-    last_checked_at: '2026-09-29T13:10:56.945Z'
+    last_checked_at: "2026-09-29T13:10:56.945Z"
     readme:
-      fetched_at: '2026-09-29T13:10:56.945Z'
+      fetched_at: "2026-09-29T13:10:56.945Z"
       bytes: 91497
 insights:
   summary: Free lite preflight scanner and checklist for AI coding agent repo runs
@@ -60,9 +56,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Security & DevSecOps
   evidence:
     - jev-latest choice confidence 0.88
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.44 below gate 0.50; proposed extensions-and-addons / Security & DevSecOps; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -74,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:56.945Z'
+    updated_at: "2026-09-29T13:10:56.945Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

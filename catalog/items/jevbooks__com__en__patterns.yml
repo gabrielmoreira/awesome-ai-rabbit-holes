@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevbooks__com__en__patterns__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -17,13 +17,9 @@ provenance:
         section_path:
           - Full list
           - Related Practices / Discussions
-        anchor_text: 'jevbooks: 16 Jev design patterns'
+        anchor_text: "jevbooks: 16 Jev design patterns"
         extracted_url: https://jevbooks.com/en/patterns
-        surrounding_text: >-
-          - [jevbooks: 16 Jev design patterns](https://jevbooks.com/en/patterns) - Site: a bilingual gallery of 500+
-          open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design
-          patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a
-          solution, and the recognition question the pipeline sends.
+        surrounding_text: "- [jevbooks: 16 Jev design patterns](https://jevbooks.com/en/patterns) - Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevbooks: 16 Jev design patterns - Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself
-    gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat,
-    Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: The 16 Jev design patterns are problem-solving approaches for using models that only output probabilities, each mapping a common issue to a solution and real-world project examples.
+  why_it_matters: It gives developers practical patterns to structure interactions with probabilistic models, turning raw outputs into reliable decisions in code.
+  mental_damage: Another taxonomy of prompt engineering that feels useful until you realize you're memorizing incantations for model whims.
+  tags:
+    - prompt-engineering
+    - design-patterns
+    - decision-models
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: The resource is an educational guide about decision-model usage patterns, not a tool, framework, or workflow that developers install or operate.
   evidence:
-    - jev-latest choice confidence 0.68
+    - Scraped site context describes 'The 16 Jev design patterns' as ways to use a model that only answers with probabilities, each being a problem, solution, and project example.
+    - No GitHub repo, stars, or product surface is provided; it is a documentation page on jevbooks.com.
+    - Source-list context shows it appears in 'awesome-jev' under 'Related Practices / Discussions', indicating it is a conceptual resource, not a tool.
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:07.523Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:96b34f33f2e52d58ade60a49026c668efde3241349cd1ee43d900fc58c7a14b8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The resource is an educational guide about decision-model usage patterns, not a tool, framework, or workflow that developers install or operate.
+      decision_evidence:
+        - Scraped site context describes 'The 16 Jev design patterns' as ways to use a model that only answers with probabilities, each being a problem, solution, and project example.
+        - No GitHub repo, stars, or product surface is provided; it is a documentation page on jevbooks.com.
+        - Source-list context shows it appears in 'awesome-jev' under 'Related Practices / Discussions', indicating it is a conceptual resource, not a tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

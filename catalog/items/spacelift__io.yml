@@ -69,11 +69,21 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-05T04:58:52.979Z"
+    updated_at: "2026-10-08T04:34:28.163Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for spacelift__io: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"_reason\": Spacelift \"... is not valid JSON"
-    attempts: 5
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for spacelift__io: ```json
+        {
+          "summary": "An IaC orchestration platform that integrates AI assistants and MCP support into infrastructure provisioning and GitOps workflows.",
+          "why_it_matters": "It attempts to bring AI-assisted speed to the highly governed and high-stakes domain of infrastructure management.",
+          "mental_damage": "Because the only thing more unpredictable than a Terraform plan is a non-deterministic LLM.",
+          "tags": ["iac", "devops", "orchestration", "mcp", "terraform"],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "The product's primary identity is an IaC orchestration platform for DevOps workflows, rather than an AI-native coding agent or agent-orchestration platform.",
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: c367d6101132
     next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__triage__playground__ziki__workers__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev-triage-playground.ziki.workers.dev
-        surrounding_text: >-
-          - [jev (zeke)](https://github.com/zeke/jev) ([site](https://jev-triage-playground.ziki.workers.dev)) -
-          Research notes and an interactive Cloudflare Worker demo for Jev, TypeSafe AI's structured decision model.
+        surrounding_text: "- [jev (zeke)](https://github.com/zeke/jev) ([site](https://jev-triage-playground.ziki.workers.dev)) - Research notes and an interactive Cloudflare Worker demo for Jev, TypeSafe AI's structured decision model."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev (zeke) (site) - Research notes and an interactive Cloudflare Worker demo for Jev, TypeSafe AI's structured
-    decision model.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Triage Playground is a Cloudflare Workers demo that routes support messages to the Jev decision model for parallel triage classification.
+  why_it_matters: Shows how developers can integrate Jev's probability-based decisions into real workflows like ticket routing.
+  mental_damage: Another playground that proves your model works—now if only it helped triage the 47 other AI demos you opened today.
+  tags:
+    - decision-model
+    - demo
+    - cloudflare-workers
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: The product's core identity is exposing the Jev decision model via a gateway for typed triage questions, making it a decision-model tool rather than a coding agent or app builder.
   evidence:
-    - jev-latest choice confidence 0.68
+    - Scraped site shows Jev answering three typed questions in one parallel call with calibrated probabilities
+    - Listed in awesome-jev under 'Demos & playgrounds' as a Jev-based project
+    - No evidence of code editing, app generation, or agent orchestration—focus is purely on judgment output
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:53.102Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4144838318c59496f53d90da7df1715cfe42294b39b345df9e8a5f24f65781a4
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is exposing the Jev decision model via a gateway for typed triage questions, making it a decision-model tool rather than a coding agent or app builder.
+      decision_evidence:
+        - Scraped site shows Jev answering three typed questions in one parallel call with calibrated probabilities
+        - Listed in awesome-jev under 'Demos & playgrounds' as a Jev-based project
+        - No evidence of code editing, app generation, or agent orchestration—focus is purely on judgment output
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the tool outputs triage classifications, not deployable apps or scaffolds from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__harrymunro__jev-laya-benchmark__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Decision Tools
-        anchor_text: '**jev-laya-benchmark**'
+        anchor_text: "**jev-laya-benchmark**"
         extracted_url: https://github.com/harrymunro/jev-laya-benchmark
-        surrounding_text: >-
-          - [**jev-laya-benchmark**](https://github.com/harrymunro/jev-laya-benchmark) — Speed and accuracy benchmark:
-          TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks
+        surrounding_text: "- [**jev-laya-benchmark**](https://github.com/harrymunro/jev-laya-benchmark) — Speed and accuracy benchmark: TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks"
         confidence: high
 metadata:
   github:
@@ -31,17 +29,17 @@ metadata:
     archived: false
     full_name: harrymunro/jev-laya-benchmark
     html_url: https://github.com/harrymunro/jev-laya-benchmark
-    created_at: '2026-09-21T19:13:50Z'
-    pushed_at: '2026-09-21T19:13:56Z'
-    description: 'Speed and accuracy benchmark: TypeSafe''s Jev API vs the local Laya MLX typed-decision model on synthetic tasks'
+    created_at: "2026-09-21T19:13:50Z"
+    pushed_at: "2026-09-21T19:13:56Z"
+    description: "Speed and accuracy benchmark: TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks"
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:59.321Z'
+    last_checked_at: "2026-09-29T13:11:59.321Z"
     readme:
-      fetched_at: '2026-09-29T13:11:59.321Z'
+      fetched_at: "2026-09-29T13:11:59.321Z"
       bytes: 3702
 insights:
-  summary: 'Speed and accuracy benchmark: TypeSafe''s Jev API vs the local Laya MLX typed-decision model on synthetic tasks'
+  summary: "Speed and accuracy benchmark: TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -51,9 +49,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.96
-    - >-
-      jev winnow:e4b 0.35 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.35 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -65,15 +61,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:59.321Z'
+    updated_at: "2026-09-29T13:11:59.321Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

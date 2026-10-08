@@ -36,18 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: mcpservers.net is a domain name currently for sale on the Spaceship marketplace.
-  why_it_matters: It does not matter to developers as it offers no tool, service, or code related to AI development.
-  mental_damage: Another premium domain squat hoping someone confuses it for actual MCP infrastructure.
-  tags: []
+  summary: A domain name currently listed for sale via a domain registrar.
+  why_it_matters: It provides no functional value as it is a parked domain rather than a tool or directory.
+  mental_damage: The realization that the most valuable part of the MCP ecosystem might just be the domain squatting.
+  tags:
+    - domain-sale
+    - parked
   confidence: high
 curation:
   status: excluded
-  reason: The site is a domain marketplace listing with no AI developer tooling, product, or functionality; it is purely a domain for sale.
+  reason: The URL is a parked domain for sale rather than an active product, tool, or directory.
   evidence:
-    - Scraped site shows 'Domain for sale' with pricing and purchase flow via Spaceship
-    - Source-list context notes it appears in awesome-ai-coding-tools only as a linked page for domain purchase
-    - No README, repo description, or tool claims are provided; the page is solely a domain transaction interface
+    - Scraped site context confirms the domain is for sale for $50,000
+    - The site content is a standard domain registrar landing page (Spaceship)
 placement:
   primary_category: null
   section: null
@@ -66,24 +67,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:42:13.259Z"
+    updated_at: "2026-10-08T04:23:57.310Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:937c1f85290a25c88eb4d4ced4d949a813072a1593654de5989fab04095f2877
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a domain marketplace listing with no AI developer tooling, product, or functionality; it is purely a domain for sale.
+      decision_reason: The URL is a parked domain for sale rather than an active product, tool, or directory.
       decision_evidence:
-        - Scraped site shows 'Domain for sale' with pricing and purchase flow via Spaceship
-        - Source-list context notes it appears in awesome-ai-coding-tools only as a linked page for domain purchase
-        - No README, repo description, or tool claims are provided; the page is solely a domain transaction interface
+        - Scraped site context confirms the domain is for sale for $50,000
+        - The site content is a standard domain registrar landing page (Spaceship)
       category_candidates: []
       contrastive_reason: null
       review_reason: null

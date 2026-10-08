@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__prismix__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Prismix
         extracted_url: https://prismix.dev
-        surrounding_text: >-
-          - **[Prismix](https://prismix.dev)** – AI hub with 500+ MCP server directory, real-time status monitoring for
-          75+ AI services, and news aggregator from 70+ sources with email/webhook alerts.
+        surrounding_text: "- **[Prismix](https://prismix.dev)** – AI hub with 500+ MCP server directory, real-time status monitoring for 75+ AI services, and news aggregator from 70+ sources with email/webhook alerts."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Prismix – AI hub with 500+ MCP server directory, real-time status monitoring for 75+ AI services, and news
-    aggregator from 70+ sources with email/webhook alerts.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Prismix.dev is a curated hub offering real-time status, AI news, MCP server directory, and troubleshooting guides for AI services and tools.
+  why_it_matters: It reduces context-switching for developers by aggregating AI service status, news, and MCP resources in one configurable dashboard.
+  mental_damage: Another dashboard to check so you don’t miss the one outage that breaks your whole AI stack — because monitoring 77 services manually clearly wasn’t enough.
+  tags:
+    - dashboard
+    - mcp
+    - status
+    - news
+    - developer-tools
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: Prismix.dev is a curated directory and news hub for AI tools and MCP servers, matching the developer-facing resource discovery purpose of awesome-awesomes, not a tool that performs coding, orchestration, or infrastructure tasks itself.
   evidence:
-    - jev-latest choice confidence 0.64
+    - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' as a hub for real-time status, LLM news, and 500+ MCP servers
+    - Self-described as 'The AI builder's hub' with live status across 77+ AI providers, curated news from 71+ sources, and a directory of 80+ MCP servers
+    - Provides navigational resources like status dashboards, news feeds, MCP directories, and troubleshooting guides — no code generation, agent behavior, or framework functionality
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -60,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:12.152Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:04b92e84dea8fcf5bb7cab7bd07a71ab8d83a7f6d7256970f35f89b3cf569c83
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: Prismix.dev is a curated directory and news hub for AI tools and MCP servers, matching the developer-facing resource discovery purpose of awesome-awesomes, not a tool that performs coding, orchestration, or infrastructure tasks itself.
+      decision_evidence:
+        - Listed in awesome-ai-coding-tools under 'MCP Servers and Directories' as a hub for real-time status, LLM news, and 500+ MCP servers
+        - Self-described as 'The AI builder's hub' with live status across 77+ AI providers, curated news from 71+ sources, and a directory of 80+ MCP servers
+        - Provides navigational resources like status dashboards, news feeds, MCP directories, and troubleshooting guides — no code generation, agent behavior, or framework functionality
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because Prismix.dev is a curated directory and news hub, not an MCP server, client, registry, or infrastructure tool whose primary identity is the Model Context Protocol itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

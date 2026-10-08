@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__ids__github__io__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev-ids.github.io
-        surrounding_text: >-
-          - [jev-ids](https://github.com/jev-ids/jev-ids) ([site](https://jev-ids.github.io)) - Blazing-Fast
-          Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.
+        surrounding_text: "- [jev-ids](https://github.com/jev-ids/jev-ids) ([site](https://jev-ids.github.io)) - Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev."
         confidence: high
 metadata:
   github:
@@ -38,11 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-ids (site) - Blazing-Fast Token-Efficient Intrusion Detection System (IDS) based on TypeSafe's Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A directory of projects built on Jev (TypeSafe AI's System One model) for browsing demos and playgrounds.
+  why_it_matters: Helps developers discover and explore real-world applications of decision-model-based systems built with Jev.
+  mental_damage: Another curated list that pretends to be a launchpad while you quietly wonder if any of these demos actually ship.
+  tags:
+    - awesome-list
+    - jev
+    - decision-models
+    - directory
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
@@ -51,14 +53,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:13.795Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3814db83eb396f592d8db6527eb068a20a9a28fbe4e63c0192afa15f19e8b129
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: jev-ids.github.io is a curated directory of Jev-based projects, making it a navigation aid for developers exploring the Jev ecosystem, which fits the curated lists and resources scope.
+      decision_evidence:
+        - Source-list context shows it appears in 'awesome-jev' under the 'Demos & playgrounds' section
+        - The site presents itself as a directory of projects built on Jev (TypeSafe AI's System One model)
+        - No evidence of being a standalone tool, agent, framework, or runtime — it is a listing of external projects
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because the site is a directory of Jev-based projects, not a decision model, server, SDK, or tool whose core function is judgment or inference.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'awesome-awesomes'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

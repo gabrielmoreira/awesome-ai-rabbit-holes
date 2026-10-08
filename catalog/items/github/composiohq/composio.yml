@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__composiohq__composio__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,12 +19,10 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Composio
         extracted_url: https://composio.dev
-        surrounding_text: >-
-          - **[Composio](https://composio.dev)** – Connects AI coding agents to 1,000+ apps with managed authentication,
-          MCP support, and tool execution for developer workflows.
+        surrounding_text: "- **[Composio](https://composio.dev)** – Connects AI coding agents to 1,000+ apps with managed authentication, MCP support, and tool execution for developer workflows."
         confidence: high
     - id: discovery__github__composiohq__composio__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,14 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**composio**'
+        anchor_text: "**composio**"
         extracted_url: https://github.com/composiohq/composio
-        surrounding_text: >-
-          - [**composio**](https://github.com/ComposioHQ/composio) — An optional TypeSafe provider for Composio that
-          uses Jev to choose among tools and bounded argument options.
+        surrounding_text: "- [**composio**](https://github.com/ComposioHQ/composio) — An optional TypeSafe provider for Composio that uses Jev to choose among tools and bounded argument options."
         confidence: high
     - id: discovery__github__composiohq__composio__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -53,9 +49,7 @@ provenance:
           - Framework integrations
         anchor_text: Composio
         extracted_url: https://github.com/composiohq/composio
-        surrounding_text: >-
-          - [Composio](https://github.com/ComposioHQ/composio) - TypeSafe provider that shortlists tools, selects one
-          from a bounded set, maps closed-set arguments, and exposes confidence and destructive-action gates.
+        surrounding_text: "- [Composio](https://github.com/ComposioHQ/composio) - TypeSafe provider that shortlists tools, selects one from a bounded set, maps closed-set arguments, and exposes confidence and destructive-action gates."
         confidence: high
 metadata:
   github:
@@ -65,11 +59,9 @@ metadata:
     archived: false
     full_name: ComposioHQ/composio
     html_url: https://github.com/ComposioHQ/composio
-    created_at: '2024-02-23T13:58:27Z'
-    pushed_at: '2026-09-29T12:13:46Z'
-    description: >-
-      Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help
-      you build AI agents that turn intent into action.
+    created_at: "2024-02-23T13:58:27Z"
+    pushed_at: "2026-09-29T12:13:46Z"
+    description: Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
     homepage: https://docs.composio.dev
     topics:
       - agentic-ai
@@ -89,14 +81,12 @@ metadata:
       - remote-mcp-server
       - sse
       - typescript
-    last_checked_at: '2026-09-29T13:10:06.985Z'
+    last_checked_at: "2026-09-29T13:10:06.985Z"
     readme:
-      fetched_at: '2026-09-29T13:10:06.985Z'
+      fetched_at: "2026-09-29T13:10:06.985Z"
       bytes: 9257
 insights:
-  summary: >-
-    Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help
-    you build AI agents that turn intent into action.
+  summary: Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -106,9 +96,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.88
-    - >-
-      jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks
-      (unverified)
+    - jev winnow:e4b 0.38 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -120,15 +108,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.393Z'
+    updated_at: "2026-09-29T13:07:10.393Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:06.986Z'
+    updated_at: "2026-09-29T13:10:06.986Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

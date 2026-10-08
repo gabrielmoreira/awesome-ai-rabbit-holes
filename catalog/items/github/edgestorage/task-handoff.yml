@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__edgestorage__task-handoff__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,11 +20,7 @@ provenance:
           - Session managers & parallel runners
         anchor_text: TaskHandoff
         extracted_url: https://github.com/edgestorage/task-handoff
-        surrounding_text: >-
-          - **[TaskHandoff](https://github.com/edgestorage/task-handoff)** `⭐ 3` — Self-hosted control plane for running
-          Docker-based Codex workspaces on local and remote machines: each task gets its own isolated checkout, changes
-          pass a diff review gate before landing in your repository, and work is handed off between a planner agent, an
-          executor agent, and a human reviewer. `task-handoff` CLI plus a web control plane. Apache-2.0.
+        surrounding_text: "- **[TaskHandoff](https://github.com/edgestorage/task-handoff)** `⭐ 3` — Self-hosted control plane for running Docker-based Codex workspaces on local and remote machines: each task gets its own isolated checkout, changes pass a diff review gate before landing in your repository, and work is handed off between a planner agent, an executor agent, and a human reviewer. `task-handoff` CLI plus a web control plane. Apache-2.0."
         confidence: high
 metadata:
   github:
@@ -34,24 +30,20 @@ metadata:
     archived: false
     full_name: edgestorage/task-handoff
     html_url: https://github.com/edgestorage/task-handoff
-    created_at: '2026-07-14T13:15:09Z'
-    pushed_at: '2026-09-28T17:03:35Z'
-    description: >-
-      TaskHandoff is a unified control plane for running, managing, and collaborating with docker-based Codex workspaces
-      across local and remote machines
+    created_at: "2026-07-14T13:15:09Z"
+    pushed_at: "2026-09-28T17:03:35Z"
+    description: TaskHandoff is a unified control plane for running, managing, and collaborating with docker-based Codex workspaces across local and remote machines
     homepage: https://docs.thandoff.com/
     topics:
       - codex
       - task-handoff
       - taskhandoff
-    last_checked_at: '2026-09-29T13:10:54.883Z'
+    last_checked_at: "2026-09-29T13:10:54.883Z"
     readme:
-      fetched_at: '2026-09-29T13:10:54.883Z'
+      fetched_at: "2026-09-29T13:10:54.883Z"
       bytes: 15705
 insights:
-  summary: >-
-    TaskHandoff is a unified control plane for running, managing, and collaborating with docker-based Codex workspaces
-    across local and remote machines
+  summary: TaskHandoff is a unified control plane for running, managing, and collaborating with docker-based Codex workspaces across local and remote machines
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -71,15 +63,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:54.883Z'
+    updated_at: "2026-09-29T13:10:54.883Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

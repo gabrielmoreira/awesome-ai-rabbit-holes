@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__usenotra__com__pricing__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Pricing
         extracted_url: https://usenotra.com/pricing
-        surrounding_text: >-
-          - [Notra](https://github.com/usenotra/notra) - `Open source` · `Commercial` · `Paid`. Uses Jev judgments
-          within a broader application for tracking brand mentions and placement in AI answers.
-          [Product](https://www.usenotra.com) · [Pricing](https://www.usenotra.com/pricing) · [Project
-          guide](community/projects/apps/notra.md).
+        surrounding_text: "- [Notra](https://github.com/usenotra/notra) - `Open source` · `Commercial` · `Paid`. Uses Jev judgments within a broader application for tracking brand mentions and placement in AI answers. [Product](https://www.usenotra.com) · [Pricing](https://www.usenotra.com/pricing) · [Project guide](community/projects/apps/notra.md)."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Pricing page for Notra, a platform that tracks AI traffic and visibility across models like ChatGPT, Claude, and Gemini.
+  why_it_matters: Helps developers and teams monitor how their content is perceived and cited by AI search engines and LLMs.
+  mental_damage: Another dashboard to obsess over whether AI likes your blog more than your competitor's.
+  tags:
+    - ai-visibility
+    - llm-monitoring
+    - developer-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: This is a marketing and pricing page for a commercial SaaS product, not a developer-facing tool, framework, or infrastructure that fits the catalog's scope.
   evidence:
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed decision-models / Apps, Games & Simulation; no placement kept
-      (unverified)
+    - The page is a pricing comparison for Notra's Starter, Growth, Scale, and Enterprise plans.
+    - Notra's core offering is AI visibility tracking, prompt tracking, and traffic attribution — not coding, agent orchestration, or developer tooling.
+    - The source-list context shows it appears in 'awesome-jev' under 'Community projects > Apps powered by Jev', indicating it is an end-user app, not a developer tool.
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:54.281Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:36a72f0a62a9a2ab05f292e73edd6dcc8482232e276b8f2ac7d5ea6d47eb8f78
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a marketing and pricing page for a commercial SaaS product, not a developer-facing tool, framework, or infrastructure that fits the catalog's scope.
+      decision_evidence:
+        - The page is a pricing comparison for Notra's Starter, Growth, Scale, and Enterprise plans.
+        - Notra's core offering is AI visibility tracking, prompt tracking, and traffic attribution — not coding, agent orchestration, or developer tooling.
+        - The source-list context shows it appears in 'awesome-jev' under 'Community projects > Apps powered by Jev', indicating it is an end-user app, not a developer tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

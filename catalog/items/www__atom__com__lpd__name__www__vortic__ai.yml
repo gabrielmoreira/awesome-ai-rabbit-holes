@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A parked domain for vortic.ai with no associated product, repository, or public website.
-  why_it_matters: Does not provide any developer tooling, AI functionality, or discoverable resource.
-  mental_damage: Another AI-adjacent domain squat that wastes developers' time checking if it's a real tool.
-  tags: []
+  summary: A domain name listed for auction on the Atom.com platform.
+  why_it_matters: "N/A: This is a domain listing, not a functional developer tool."
+  mental_damage: "The ultimate AI rabbit hole: spending your entire seed round on a premium .ai domain before even writing a line of code."
+  tags:
+    - domain-auction
   confidence: high
 curation:
   status: excluded
-  reason: The input points only to a parked domain with no repo, description, README, or tool — it lacks any product identity or developer-facing functionality.
+  reason: The input is a domain name for sale and provides no information regarding an actual AI product, tool, or codebase.
   evidence:
-    - Repo description is missing
-    - URL redirects to a domain parking page (atom.com/lpd)
-    - No homepage, stars, topics, or activity signals
+    - The URL is a link to a domain auction site (Atom.com)
+    - No repository description, README, or product context was provided
 placement:
   primary_category: null
   section: null
@@ -66,24 +66,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:26:26.357Z"
+    updated_at: "2026-10-08T04:18:35.217Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:64954a889c5d2fe2a7c49b667c9066b3b1abfa11bd0aff76d66d057c670f50e4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input points only to a parked domain with no repo, description, README, or tool — it lacks any product identity or developer-facing functionality.
+      decision_reason: The input is a domain name for sale and provides no information regarding an actual AI product, tool, or codebase.
       decision_evidence:
-        - Repo description is missing
-        - URL redirects to a domain parking page (atom.com/lpd)
-        - No homepage, stars, topics, or activity signals
+        - The URL is a link to a domain auction site (Atom.com)
+        - No repository description, README, or product context was provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

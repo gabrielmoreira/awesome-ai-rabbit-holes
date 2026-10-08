@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cognesy__instructor-php__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**instructor-php**'
+        anchor_text: "**instructor-php**"
         extracted_url: https://github.com/cognesy/instructor-php
-        surrounding_text: >-
-          - [**instructor-php**](https://github.com/cognesy/instructor-php) — A TypeSafe Decision driver within
-          Instructor PHP’s Polyglot module.
+        surrounding_text: "- [**instructor-php**](https://github.com/cognesy/instructor-php) — A TypeSafe Decision driver within Instructor PHP’s Polyglot module."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: cognesy/instructor-php
     html_url: https://github.com/cognesy/instructor-php
-    created_at: '2024-02-26T10:47:00Z'
-    pushed_at: '2026-09-25T06:08:15Z'
+    created_at: "2024-02-26T10:47:00Z"
+    pushed_at: "2026-09-25T06:08:15Z"
     description: Unified LLM API, structured data outputs with LLMs, and agent SDK - in PHP
     homepage: https://instructorphp.com
     topics:
@@ -42,9 +40,9 @@ metadata:
       - genai
       - llm
       - php
-    last_checked_at: '2026-09-29T13:10:03.712Z'
+    last_checked_at: "2026-09-29T13:10:03.712Z"
     readme:
-      fetched_at: '2026-09-29T13:10:03.712Z'
+      fetched_at: "2026-09-29T13:10:03.712Z"
       bytes: 20354
 insights:
   summary: Unified LLM API, structured data outputs with LLMs, and agent SDK - in PHP
@@ -67,15 +65,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:03.712Z'
+    updated_at: "2026-09-29T13:10:03.712Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

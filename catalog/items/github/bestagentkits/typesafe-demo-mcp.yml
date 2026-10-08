@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bestagentkits__typesafe-demo-mcp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: typesafe-demo-mcp
         extracted_url: https://github.com/bestagentkits/typesafe-demo-mcp
-        surrounding_text: >-
-          - [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) - MCP server exposing TypeSafe
-          System One judgments (noul, choice, score) as agent tools.
+        surrounding_text: "- [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) - MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools."
         confidence: high
     - id: discovery__github__bestagentkits__typesafe-demo-mcp__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: typesafe-demo-mcp
         extracted_url: https://github.com/bestagentkits/typesafe-demo-mcp
-        surrounding_text: >-
-          | [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 |
-          MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools. |
+        surrounding_text: "| [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 | MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools. |"
         confidence: high
 metadata:
   github:
@@ -49,12 +45,12 @@ metadata:
     archived: false
     full_name: bestagentkits/typesafe-demo-mcp
     html_url: https://github.com/bestagentkits/typesafe-demo-mcp
-    created_at: '2026-09-17T07:29:44Z'
-    pushed_at: '2026-09-17T07:29:52Z'
+    created_at: "2026-09-17T07:29:44Z"
+    pushed_at: "2026-09-17T07:29:52Z"
     description: MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:30.576Z'
+    last_checked_at: "2026-09-29T13:09:30.576Z"
     readme: null
 insights:
   summary: MCP server exposing TypeSafe System One judgments (noul, choice, score) as agent tools
@@ -67,9 +63,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
   evidence:
     - jev-latest choice confidence 0.97
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Local Serving & Gateways; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Local Serving & Gateways; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -81,15 +75,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:30.576Z'
+    updated_at: "2026-09-29T13:09:30.576Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

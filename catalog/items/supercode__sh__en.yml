@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__supercode__sh__en__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Supercode.sh
         extracted_url: https://supercode.sh
-        surrounding_text: >-
-          - **[Supercode.sh](https://supercode.sh/)** – Cursor extension adding Architect Mode, voice input, and prompt
-          enhancement.
+        surrounding_text: "- **[Supercode.sh](https://supercode.sh/)** – Cursor extension adding Architect Mode, voice input, and prompt enhancement."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Supercode.sh – Cursor extension adding Architect Mode, voice input, and prompt enhancement.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Supercode is a browser extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor.
+  why_it_matters: It reduces token waste and improves agent reliability by pre-processing context and injecting structured skills, letting developers get more useful work from existing AI coding assistants.
+  mental_damage: Finally, a way to feel like you're upgrading your AI pair programmer without admitting you still need to babysit it.
+  tags:
+    - token-optimization
+    - agent-extension
+    - skills-catalog
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
+  reason: Supercode is an extension that augments existing coding agents (Claude, Codex, Cursor) with token optimization and skill injection, making it an add-on rather than a standalone agent or framework.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Supercode installs into Claude, Codex, and Cursor to cut token usage by up to 60% and provide built-in skills
+    - Its core value is augmenting host agents via context preprocessing and curated skill packs, not autonomous coding
+    - Listed in awesome-ai-coding-tools under Developer Productivity Tools as a way to 'Improve Claude, Codex, and Cursor'
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: IDE & Editor Add-ons
+  section: Claude Code & Agent Tools
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:47.341Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4d88b485c35a26c49cc6afceacf85706f1dc2176943469778680a8f12c9eaae1
+      proposed_primary_category: extensions-and-addons
+      disagreement: false
+      decision_reason: Supercode is an extension that augments existing coding agents (Claude, Codex, Cursor) with token optimization and skill injection, making it an add-on rather than a standalone agent or framework.
+      decision_evidence:
+        - Supercode installs into Claude, Codex, and Cursor to cut token usage by up to 60% and provide built-in skills
+        - Its core value is augmenting host agents via context preprocessing and curated skill packs, not autonomous coding
+        - Listed in awesome-ai-coding-tools under Developer Productivity Tools as a way to 'Improve Claude, Codex, and Cursor'
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Supercode’s primary identity is augmenting existing agents (Claude, Codex, Cursor) via token optimization and skill injection, not performing coding tasks autonomously as a standalone agent.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__antonorlov__mcp-postgres-server__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🗄️ <a name="databases"></a>Databases
         anchor_text: antonorlov/mcp-postgres-server
         extracted_url: https://github.com/antonorlov/mcp-postgres-server
-        surrounding_text: >-
-          - [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server)
-          [![antonorlov/mcp-postgres-server MCP
-          server](https://glama.ai/mcp/servers/antonorlov/mcp-postgres-server/badges/score.svg)](https://glama.ai/mcp/servers/antonorlov/mcp-postgres-server)
-          📇 🏠 ☁️ 🍎 🪟 🐧 - Access PostgreSQL databases, including those behind an SSH bastion.
+        surrounding_text: "- [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server) [![antonorlov/mcp-postgres-server MCP server](https://glama.ai/mcp/servers/antonorlov/mcp-postgres-server/badges/score.svg)](https://glama.ai/mcp/servers/antonorlov/mcp-postgres-server) 📇 🏠 ☁️ 🍎 🪟 🐧 - Access PostgreSQL databases, including those behind an SSH bastion."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: antonorlov/mcp-postgres-server
     html_url: https://github.com/antonorlov/mcp-postgres-server
-    created_at: '2025-03-24T14:24:29Z'
-    pushed_at: '2026-09-16T14:01:16Z'
+    created_at: "2025-03-24T14:24:29Z"
+    pushed_at: "2026-09-16T14:01:16Z"
     description: MCP server for PostgreSQL. Works with VS Code, Cursor, Claude Code, Codex, and Windsurf.
     homepage: https://www.npmjs.com/package/mcp-postgres-server
     topics:
@@ -53,9 +49,9 @@ metadata:
       - postgresql
       - sql
       - ssh-tunnel
-    last_checked_at: '2026-09-29T13:09:02.413Z'
+    last_checked_at: "2026-09-29T13:09:02.413Z"
     readme:
-      fetched_at: '2026-09-29T13:09:02.413Z'
+      fetched_at: "2026-09-29T13:09:02.413Z"
       bytes: 18635
 insights:
   summary: MCP server for PostgreSQL. Works with VS Code, Cursor, Claude Code, Codex, and Windsurf.
@@ -78,15 +74,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:02.413Z'
+    updated_at: "2026-09-29T13:09:02.413Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

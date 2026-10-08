@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nestmux__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: NestMux
         extracted_url: https://nestmux.com
-        surrounding_text: >-
-          - **[NestMux](https://nestmux.com)** – Desktop workspace for Windows, macOS and Linux that runs Claude Code,
-          Codex, Gemini, Copilot and OpenCode side by side in a resizable pane grid, each pane with its own account and
-          isolated HOME. Includes git worktrees, an integrated diff viewer, MCP server management and shared team
-          workspaces. Free tier available.
+        surrounding_text: "- **[NestMux](https://nestmux.com)** – Desktop workspace for Windows, macOS and Linux that runs Claude Code, Codex, Gemini, Copilot and OpenCode side by side in a resizable pane grid, each pane with its own account and isolated HOME. Includes git worktrees, an integrated diff viewer, MCP server management and shared team workspaces. Free tier available."
         confidence: high
 metadata:
   github:
@@ -40,10 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    NestMux – Desktop workspace for Windows, macOS and Linux that runs Claude Code, Codex, Gemini, Copilot and OpenCode
-    side by side in a resizable pane grid, each pane with its own account and isolated HOME. Includes git worktrees, an
-    integrated diff viewer, MCP server management and shared team workspaces. Free tier available.
+  summary: NestMux – Desktop workspace for Windows, macOS and Linux that runs Claude Code, Codex, Gemini, Copilot and OpenCode side by side in a resizable pane grid, each pane with its own account and isolated HOME. Includes git worktrees, an integrated diff viewer, MCP server management and shared team workspaces. Free tier available.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:42:02.342Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for nestmux__com: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": NestMux is\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

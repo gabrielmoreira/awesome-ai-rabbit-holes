@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__spring__ai__community__github__io__spring__ai__typesafe__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - SDKs & clients
         anchor_text: site
         extracted_url: https://spring-ai-community.github.io/spring-ai-typesafe
-        surrounding_text: >-
-          - [spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe)
-          ([site](https://spring-ai-community.github.io/spring-ai-typesafe)) - A Java SDK for the TypeSafe AI JEV API, &
-          Spring AI TypeSafe integrations.
+        surrounding_text: "- [spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe) ([site](https://spring-ai-community.github.io/spring-ai-typesafe)) - A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations."
         confidence: high
 metadata:
   github:
@@ -39,11 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: spring-ai-typesafe (site) - A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Redirect placeholder for spring-ai-typesafe, a TypeSafe AI Jev-based decision model integration for Spring applications.
+  why_it_matters: Provides Java developers a typesafe interface to invoke the Jev decision model via Spring AI, enabling probabilistic reasoning in enterprise workflows.
+  mental_damage: Another Spring AI wrapper that makes you question whether you're adding intelligence or just more YAML to your classpath.
+  tags:
+    - spring
+    - jev
+    - typesafe
+    - decision-model
+    - java
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
@@ -52,14 +54,14 @@ curation:
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
-  section: Provider & Model Abstractions
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:43.245Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c12cdd04d47d5a5e06aba06278324ac08e6fefb096d01b40461fe07cfec5048f
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: The project is a Spring AI integration for the Jev decision model, making it a developer-facing SDK that invokes typed probabilistic judgments, fitting the decision-models category as a framework integration.
+      decision_evidence:
+        - Source-list context shows inclusion in awesome-jev under SDKs & clients for Jev-based projects
+        - Scraped site context indicates redirect to latest-snapshot/, implying an active documentation or release page for spring-ai-typesafe
+        - Project name and context indicate it is a typesafe wrapper for Jev (TypeSafe System One) within Spring AI
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's core identity is enabling access to the Jev decision model's typed judgments, not providing a general-purpose AI framework SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

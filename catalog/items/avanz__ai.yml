@@ -36,24 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Avanz.ai is an AI agent platform that helps generate financial and data analysis code from natural language prompts.
-  why_it_matters: It lets developers automate quantitative workflows by turning analytical requests into executable Python or SQL code.
-  mental_damage: Another 'just describe your spreadsheet problem' tool that assumes your data is clean and your intentions are unambiguous.
-  tags:
-    - ai-agent
-    - data-analysis
-    - code-generation
-  confidence: medium
+  summary: An autonomous agent mentioned in the awesome-ai-agents directory.
+  why_it_matters: Indeterminable due to the lack of functional context or product description.
+  mental_damage: The complete absence of metadata is perhaps the most effective defense against AI tooling fatigue.
+  tags: []
+  confidence: high
 curation:
-  status: included
-  reason: Avanz.ai fits as an app builder because its core identity is generating deployable data analysis apps from prompts, not editing existing codebases or acting as a coding agent.
+  status: excluded
+  reason: The submission provides insufficient information to verify that the tool is developer-facing or to determine its specific product identity.
   evidence:
-    - Seen in source list 'awesome-ai-agents' under the 'Avanzai' section, indicating it is recognized as an AI agent tool.
-    - The homepage URL avanc.ai positions itself as an AI-powered platform for financial and data analysis workflows.
-    - No evidence suggests it primarily edits existing code; instead, it generates analytical scripts and dashboards from natural language.
+    - Listed in the awesome-ai-agents directory under the section 'Avanzai'
+    - No repo description, README, or scraped site context provided to establish utility
 placement:
-  primary_category: app-builders
-  section: Internal Tools & Dashboards
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -68,30 +64,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:01:28.963Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for avanz__ai: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
-    attempts: 5
+    status: done
+    updated_at: "2026-10-08T04:35:33.279Z"
+    cause: null
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:bec942186662e99dbd2ebb09c1525a3f794597d415c6fd914ca187528eada72c
-      proposed_primary_category: app-builders
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b62cb44d5d438d823c2d2d828e9af324944543a39d92847742afd73447f22c45
+      proposed_primary_category: null
       disagreement: false
-      decision_reason: Avanz.ai fits as an app builder because its core identity is generating deployable data analysis apps from prompts, not editing existing codebases or acting as a coding agent.
+      decision_reason: The submission provides insufficient information to verify that the tool is developer-facing or to determine its specific product identity.
       decision_evidence:
-        - Seen in source list 'awesome-ai-agents' under the 'Avanzai' section, indicating it is recognized as an AI agent tool.
-        - The homepage URL avanc.ai positions itself as an AI-powered platform for financial and data analysis workflows.
-        - No evidence suggests it primarily edits existing code; instead, it generates analytical scripts and dashboards from natural language.
-      category_candidates:
-        - app-builders
-        - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because Avanz.ai’s main value is generating new analytical apps and scripts from prompts, not acting as an autonomous editor within an existing codebase.
+        - Listed in the awesome-ai-agents directory under the section 'Avanzai'
+        - No repo description, README, or scraped site context provided to establish utility
+      category_candidates: []
+      contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null

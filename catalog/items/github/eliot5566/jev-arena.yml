@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eliot5566__jev-arena__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-arena**'
+        anchor_text: "**jev-arena**"
         extracted_url: https://github.com/eliot5566/jev-arena
-        surrounding_text: >-
-          - [**jev-arena**](https://github.com/Eliot5566/jev-arena) — That's the whole bot. No code, no coordinates, no
-          if-statements.
+        surrounding_text: "- [**jev-arena**](https://github.com/Eliot5566/jev-arena) — That's the whole bot. No code, no coordinates, no if-statements."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: Eliot5566/jev-arena
     html_url: https://github.com/Eliot5566/jev-arena
-    created_at: '2026-09-25T05:26:38Z'
-    pushed_at: '2026-09-25T14:22:28Z'
+    created_at: "2026-09-25T05:26:38Z"
+    pushed_at: "2026-09-25T14:22:28Z"
     description: Write a fighter in plain English. Jev pilots it in real time. PR-driven ladder, swappable brains.
     homepage: https://eliot5566.github.io/jev-arena/
     topics:
@@ -45,9 +43,9 @@ metadata:
       - prompt-engineering
       - system-one
       - typesafe
-    last_checked_at: '2026-09-29T13:10:58.105Z'
+    last_checked_at: "2026-09-29T13:10:58.105Z"
     readme:
-      fetched_at: '2026-09-29T13:10:58.105Z'
+      fetched_at: "2026-09-29T13:10:58.105Z"
       bytes: 14656
 insights:
   summary: Write a fighter in plain English. Jev pilots it in real time. PR-driven ladder, swappable brains.
@@ -70,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:58.105Z'
+    updated_at: "2026-09-29T13:10:58.105Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

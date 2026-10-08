@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__lindfors__no__blog__a__first__look__at__typesafes__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: An early-access test of TypeSafe's Jev
         extracted_url: https://lindfors.no/blog/a-first-look-at-typesafes-jev
-        surrounding_text: >-
-          - [An early-access test of TypeSafe's Jev](https://lindfors.no/blog/a-first-look-at-typesafes-jev/) -
-          Independent trial: measures calibrated judgments on early-access Jev and reports the resulting cost per
-          decision.
+        surrounding_text: "- [An early-access test of TypeSafe's Jev](https://lindfors.no/blog/a-first-look-at-typesafes-jev/) - Independent trial: measures calibrated judgments on early-access Jev and reports the resulting cost per decision."
         confidence: high
 metadata:
   github:
@@ -40,33 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    An early-access test of TypeSafe's Jev - Independent trial: measures calibrated judgments on early-access Jev and
-    reports the resulting cost per decision.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post evaluating TypeSafe's Jev decision model on Norwegian salmon tax hearing responses.
+  why_it_matters: Shows how decision models like Jev provide calibrated judgments at low cost and latency for classification tasks where text generation is unnecessary.
+  mental_damage: Another reminder that evaluating AI tools means becoming an accidental domain expert in Norwegian aquaculture policy.
+  tags:
+    - decision-models
+    - evaluation
+    - llm
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  status: excluded
+  reason: The input is a blog post evaluating a decision model, not the model, tooling, or infrastructure itself, making it a resource rather than a developer-facing product.
   evidence:
-    - jev-latest choice confidence 0.90
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - URL points to a blog post on lindfors.no, not a GitHub repo or product page
+    - Content describes an evaluation of Jev on 24 Norwegian documents, not a tool for developers to use
+    - Source-list context shows it appears in awesome-jev under Evaluation & Benchmarking as a linked page, not as a listed tool
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories:
     - evals
-  section: Evals, Benchmarks & Calibration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:04.598Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:60bcdf368fbd58db26b9dd3da0b82e849cab14a726996b4fd3ebce5662e4e5c7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a blog post evaluating a decision model, not the model, tooling, or infrastructure itself, making it a resource rather than a developer-facing product.
+      decision_evidence:
+        - URL points to a blog post on lindfors.no, not a GitHub repo or product page
+        - Content describes an evaluation of Jev on 24 Norwegian documents, not a tool for developers to use
+        - Source-list context shows it appears in awesome-jev under Evaluation & Benchmarking as a linked page, not as a listed tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

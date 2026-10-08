@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cydvilla__peckish__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: CydVilla/peckish
         extracted_url: https://github.com/cydvilla/peckish
-        surrounding_text: >-
-          - [CydVilla/peckish](https://github.com/CydVilla/peckish) [![CydVilla/peckish MCP
-          server](https://glama.ai/mcp/servers/CydVilla/peckish/badges/score.svg)](https://glama.ai/mcp/servers/CydVilla/peckish)
-          📇 🏠 🍎 - Order food and groceries on DoorDash via its CLI (macOS arm64): search stores, compare fee-included
-          totals, build carts; orders need user approval.
+        surrounding_text: "- [CydVilla/peckish](https://github.com/CydVilla/peckish) [![CydVilla/peckish MCP server](https://glama.ai/mcp/servers/CydVilla/peckish/badges/score.svg)](https://glama.ai/mcp/servers/CydVilla/peckish) 📇 🏠 🍎 - Order food and groceries on DoorDash via its CLI (macOS arm64): search stores, compare fee-included totals, build carts; orders need user approval."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: CydVilla/peckish
     html_url: https://github.com/CydVilla/peckish
-    created_at: '2026-07-20T01:07:48Z'
-    pushed_at: '2026-09-25T21:54:10Z'
+    created_at: "2026-07-20T01:07:48Z"
+    pushed_at: "2026-09-25T21:54:10Z"
     description: null
     homepage: https://cydvilla.github.io/peckish/
     topics:
@@ -46,14 +42,12 @@ metadata:
       - food-delivery
       - mcp
       - mcp-server
-    last_checked_at: '2026-09-29T13:10:18.060Z'
+    last_checked_at: "2026-09-29T13:10:18.060Z"
     readme:
-      fetched_at: '2026-09-29T13:10:18.060Z'
+      fetched_at: "2026-09-29T13:10:18.060Z"
       bytes: 28677
 insights:
-  summary: >-
-    CydVilla/peckish - Order food and groceries on DoorDash via its CLI (macOS arm64): search stores, compare
-    fee-included totals, build carts; orders need user approval.
+  summary: "CydVilla/peckish - Order food and groceries on DoorDash via its CLI (macOS arm64): search stores, compare fee-included totals, build carts; orders need user approval."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -74,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:18.060Z'
+    updated_at: "2026-09-29T13:10:18.060Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

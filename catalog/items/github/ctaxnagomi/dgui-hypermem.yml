@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ctaxnagomi__dgui-hypermem__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: dgui-hypermem
         extracted_url: https://github.com/ctaxnagomi/dgui-hypermem
-        surrounding_text: >-
-          - [dgui-hypermem](https://github.com/ctaxnagomi/dgui-hypermem)
-          ([site](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)) - DGUI-HyperMem (DeckerGUI HyperMemory)
-          - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer
-          and a HuggingFace training-brain flywheel.
+        surrounding_text: "- [dgui-hypermem](https://github.com/ctaxnagomi/dgui-hypermem) ([site](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)) - DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel."
         confidence: high
 metadata:
   github:
@@ -33,11 +29,9 @@ metadata:
     archived: false
     full_name: ctaxnagomi/dgui-hypermem
     html_url: https://github.com/ctaxnagomi/dgui-hypermem
-    created_at: '2026-09-19T06:16:17Z'
-    pushed_at: '2026-09-26T06:01:51Z'
-    description: >-
-      DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV
-      (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.
+    created_at: "2026-09-19T06:16:17Z"
+    pushed_at: "2026-09-26T06:01:51Z"
+    description: DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.
     homepage: https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV
     topics:
       - ai-agents
@@ -52,14 +46,12 @@ metadata:
       - system-one
       - typesafe
       - vectorize
-    last_checked_at: '2026-09-29T13:10:15.985Z'
+    last_checked_at: "2026-09-29T13:10:15.985Z"
     readme:
-      fetched_at: '2026-09-29T13:10:15.985Z'
+      fetched_at: "2026-09-29T13:10:15.985Z"
       bytes: 8415
 insights:
-  summary: >-
-    DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV
-    (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.
+  summary: DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -69,9 +61,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
     - jev-latest choice confidence 0.58
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -83,15 +73,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:15.985Z'
+    updated_at: "2026-09-29T13:10:15.985Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

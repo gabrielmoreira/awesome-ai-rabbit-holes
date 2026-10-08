@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__aryaminus__controlkeel__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: ControlKeel
         extracted_url: https://github.com/aryaminus/controlkeel
-        surrounding_text: >-
-          - **[ControlKeel](https://github.com/aryaminus/controlkeel)** – Governance/control plane for AI coding agents.
-          Validates risky actions, records findings, gates approvals, tracks budgets/providers, and creates proof
-          bundles across Claude Code, Codex CLI, OpenCode, Cursor, and other hosts.
+        surrounding_text: "- **[ControlKeel](https://github.com/aryaminus/controlkeel)** – Governance/control plane for AI coding agents. Validates risky actions, records findings, gates approvals, tracks budgets/providers, and creates proof bundles across Claude Code, Codex CLI, OpenCode, Cursor, and other hosts."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: aryaminus/controlkeel
     html_url: https://github.com/aryaminus/controlkeel
-    created_at: '2026-03-18T22:56:30Z'
-    pushed_at: '2026-09-29T08:47:43Z'
-    description: >-
-      Agent control plane for governed AI coding: validate changes, enforce policy gates, track findings, proofs, and
-      evals based on your habits.
+    created_at: "2026-03-18T22:56:30Z"
+    pushed_at: "2026-09-29T08:47:43Z"
+    description: "Agent control plane for governed AI coding: validate changes, enforce policy gates, track findings, proofs, and evals based on your habits."
     homepage: https://controlkeel.com
     topics:
       - agents
@@ -58,14 +53,12 @@ metadata:
       - security
       - skills
       - tooling
-    last_checked_at: '2026-09-29T13:09:14.312Z'
+    last_checked_at: "2026-09-29T13:09:14.312Z"
     readme:
-      fetched_at: '2026-09-29T13:09:14.312Z'
+      fetched_at: "2026-09-29T13:09:14.312Z"
       bytes: 8546
 insights:
-  summary: >-
-    Agent control plane for governed AI coding: validate changes, enforce policy gates, track findings, proofs, and
-    evals based on your habits.
+  summary: "Agent control plane for governed AI coding: validate changes, enforce policy gates, track findings, proofs, and evals based on your habits."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -75,9 +68,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.88
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -89,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:14.312Z'
+    updated_at: "2026-09-29T13:09:14.312Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

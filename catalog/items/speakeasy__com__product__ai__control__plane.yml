@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__speakeasy__com__product__ai__control__plane__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Security
         anchor_text: Speakeasy
         extracted_url: https://speakeasy.com/product/ai-control-plane
-        surrounding_text: >-
-          - **[Speakeasy](https://www.speakeasy.com/product/ai-control-plane)** – Enterprise AI control plane for
-          governing access, policy, and auditability across agents, MCP servers, and Skills.
+        surrounding_text: "- **[Speakeasy](https://www.speakeasy.com/product/ai-control-plane)** – Enterprise AI control plane for governing access, policy, and auditability across agents, MCP servers, and Skills."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Speakeasy – Enterprise AI control plane for governing access, policy, and auditability across agents, MCP servers,
-    and Skills.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Speakeasy AI Control Plane is a managed or self-hosted platform that connects, secures, distributes, and observes AI agents across an organization by governing MCP, skill, and agent sessions through identity, policy, and audit trails.
+  why_it_matters: It solves the enterprise problem of uncontrolled AI tool sprawl by centralizing access, security, and observability for all AI agents — including Claude, Cursor, Copilot, and internal agents — without requiring changes to the agents themselves.
+  mental_damage: Finally, a way to feel in control of AI chaos — until you realize you’ve just added another layer of approval tickets between your engineers and the tools they actually need.
+  tags:
+    - ai-control-plane
+    - mcp
+    - observability
+    - security
+    - enterprise
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Domain & Enterprise Platforms
+  reason: Speakeasy functions as an enterprise control plane that governs access, security, distribution, and observability for multiple AI agents across systems, making it a platform for managing agent teams and workflows rather than a single coding agent or framework.
   evidence:
-    - jev-latest choice confidence 0.72
+    - Described as 'a single control plane to safely scale AI' that connects agents to SaaS, APIs, and databases while governing every prompt, response, and tool call with identity, policy, and observability
+    - Positions itself as 'one platform between your agents and your systems' where policy is written once and inherited by all AI clients including Claude, ChatGPT, Cursor, Copilot, and internal agents
+    - Lists enterprise use cases for security, compliance, and AI enablement teams, emphasizing centralized control over agent access, shadow AI detection, and usage tracking across the organization
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -60,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:38.658Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:082db6eee4c3f2d005accc3af5f04bd5928cbd5f4a8e0e4323e82e1d3d636c28
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Speakeasy functions as an enterprise control plane that governs access, security, distribution, and observability for multiple AI agents across systems, making it a platform for managing agent teams and workflows rather than a single coding agent or framework.
+      decision_evidence:
+        - Described as 'a single control plane to safely scale AI' that connects agents to SaaS, APIs, and databases while governing every prompt, response, and tool call with identity, policy, and observability
+        - Positions itself as 'one platform between your agents and your systems' where policy is written once and inherited by all AI clients including Claude, ChatGPT, Cursor, Copilot, and internal agents
+        - Lists enterprise use cases for security, compliance, and AI enablement teams, emphasizing centralized control over agent access, shadow AI detection, and usage tracking across the organization
+      category_candidates:
+        - agent-orchestration
+        - mcp
+      contrastive_reason: Choose agent-orchestration over mcp because Speakeasy's core identity is as an enterprise control plane for governing multiple AI agents and their interactions with systems, not as an MCP server, client, or registry — MCP is a compatibility feature used to connect agents, not the product's primary purpose.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

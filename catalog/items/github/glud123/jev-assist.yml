@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__glud123__jev-assist__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-assist
         extracted_url: https://github.com/glud123/jev-assist
-        surrounding_text: >-
-          - [jev-assist](https://github.com/glud123/jev-assist) - Don't burn your expensive main model on grep-and-guess
-          grunt work — let jev rank the whole repo, and save the main model for reading the right files and writing the
-          right code.
+        surrounding_text: "- [jev-assist](https://github.com/glud123/jev-assist) - Don't burn your expensive main model on grep-and-guess grunt work — let jev rank the whole repo, and save the main model for reading the right files and writing the right code."
         confidence: high
     - id: discovery__github__glud123__jev-assist__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,15 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-assist**'
+        anchor_text: "**jev-assist**"
         extracted_url: https://github.com/glud123/jev-assist
-        surrounding_text: >-
-          - [**jev-assist**](https://github.com/glud123/jev-assist) — Don't burn your expensive main model on
-          grep-and-guess grunt work — let jev rank the whole repo, and save the main model for reading the right files
-          and writing the right code.
+        surrounding_text: "- [**jev-assist**](https://github.com/glud123/jev-assist) — Don't burn your expensive main model on grep-and-guess grunt work — let jev rank the whole repo, and save the main model for reading the right files and writing the right code."
         confidence: high
     - id: discovery__github__glud123__jev-assist__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,12 +50,7 @@ provenance:
           - Scoring & Ranking
         anchor_text: jev-assist
         extracted_url: https://github.com/glud123/jev-assist
-        surrounding_text: >-
-          - [jev-assist](https://github.com/glud123/jev-assist)
-          ![stars](https://img.shields.io/github/stars/glud123/jev-assist?style=flat-square&label=%E2%98%85) - Coding
-          agents: ranks every tracked file by relevance to a one-line task description — Jev asks each file the same
-          typed question in parallel batches, so an agent in a 600-file repo starts from the handful it actually needs —
-          with a validate command that grades the ranking against past commits.
+        surrounding_text: "- [jev-assist](https://github.com/glud123/jev-assist) ![stars](https://img.shields.io/github/stars/glud123/jev-assist?style=flat-square&label=%E2%98%85) - Coding agents: ranks every tracked file by relevance to a one-line task description — Jev asks each file the same typed question in parallel batches, so an agent in a 600-file repo starts from the handful it actually needs — with a validate command that grades the ranking against past commits."
         confidence: high
 metadata:
   github:
@@ -71,12 +60,10 @@ metadata:
     archived: false
     full_name: glud123/jev-assist
     html_url: https://github.com/glud123/jev-assist
-    created_at: '2026-09-20T07:06:06Z'
-    pushed_at: '2026-09-24T11:10:23Z'
-    description: >-
-      Don't burn your model's context on a search flood — pipe it in and read above the cut line: one calibrated number
-      per candidate, ~30 rows whether the pool is 40 or 4,000. It doesn't search; it decides what each hit is.
-    homepage: ''
+    created_at: "2026-09-20T07:06:06Z"
+    pushed_at: "2026-09-24T11:10:23Z"
+    description: "Don't burn your model's context on a search flood — pipe it in and read above the cut line: one calibrated number per candidate, ~30 rows whether the pool is 40 or 4,000. It doesn't search; it decides what each hit is."
+    homepage: ""
     topics:
       - agent-skill
       - claude-code
@@ -85,14 +72,12 @@ metadata:
       - developer-tools
       - jev
       - typesafe
-    last_checked_at: '2026-09-29T13:11:44.282Z'
+    last_checked_at: "2026-09-29T13:11:44.282Z"
     readme:
-      fetched_at: '2026-09-29T13:11:44.282Z'
+      fetched_at: "2026-09-29T13:11:44.282Z"
       bytes: 5527
 insights:
-  summary: >-
-    Don't burn your model's context on a search flood — pipe it in and read above the cut line: one calibrated number
-    per candidate, ~30 rows whether the pool is 40 or 4,000. It doesn't search; it decides what each hit is.
+  summary: "Don't burn your model's context on a search flood — pipe it in and read above the cut line: one calibrated number per candidate, ~30 rows whether the pool is 40 or 4,000. It doesn't search; it decides what each hit is."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -112,15 +97,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.395Z'
+    updated_at: "2026-09-29T13:07:10.395Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:44.282Z'
+    updated_at: "2026-09-29T13:11:44.282Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

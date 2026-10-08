@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ray__run__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -36,29 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: '> ray.run – from idea to a production-grade MCP server in under a minute!'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ray.run is a hosted platform that builds, runs, and publishes MCP servers behind a single endpoint for coding agents to consume.
+  why_it_matters: It lets developers expose any service as an MCP tool without managing infrastructure, credentials, or per-client configuration.
+  mental_damage: Finally, a way to stop leaking API keys into every MCP client config while pretending you’ve solved the auth problem.
+  tags:
+    - mcp
+    - platform
+    - developer-tool
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
+  reason: ray.run’s core identity is MCP infrastructure—building, hosting, and publishing MCP servers—making it an MCP-first product rather than a coding agent extension or orchestration platform.
   evidence:
-    - jev-latest choice confidence 0.63
-    - jev winnow:e4b 0.35 below gate 0.50; proposed mcp / Middleware & Generic; placement kept at mcp (unverified)
+    - "Product description: 'Build MCP servers with your coding agent, run them beside remote MCP, OpenAPI, npm, and container services behind one endpoint, and publish them to your customers.'"
+    - "Primary value: clients store one URL and no secrets; Rayrun holds credentials and enforces per-call policies."
+    - Appears in awesome-mcp-servers as a tool for building and publishing MCP servers.
 placement:
   primary_category: mcp
   secondary_categories:
     - app-builders
-  section: Clients & Inspector Tools
+  section: Middleware & Generic
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:48.291Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1b2306a13389a605ffb1ba9ccd54049ab74df6c723487b101205f83df2e9e449
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: ray.run’s core identity is MCP infrastructure—building, hosting, and publishing MCP servers—making it an MCP-first product rather than a coding agent extension or orchestration platform.
+      decision_evidence:
+        - "Product description: 'Build MCP servers with your coding agent, run them beside remote MCP, OpenAPI, npm, and container services behind one endpoint, and publish them to your customers.'"
+        - "Primary value: clients store one URL and no secrets; Rayrun holds credentials and enforces per-call policies."
+        - Appears in awesome-mcp-servers as a tool for building and publishing MCP servers.
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because ray.run is not an add-on for a coding agent—it is a standalone platform that provides MCP server lifecycle management as its primary function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cab14bacc__jev-sheets__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: jev-sheets
         extracted_url: https://github.com/cab14bacc/jev-sheets
-        surrounding_text: >-
-          - [jev-sheets](https://github.com/Cab14bacc/jev-sheets) - Google Sheets custom functions (`JEV_IF`,
-          `JEV_PROB`, `JEV_CHOICE`, `JEV_SCORE`) where Jev answers a Noul, Choice, or Score question per cell; the sheet
-          formula applies the threshold or minimum confidence and returns `UNSURE` below it.
+        surrounding_text: "- [jev-sheets](https://github.com/Cab14bacc/jev-sheets) - Google Sheets custom functions (`JEV_IF`, `JEV_PROB`, `JEV_CHOICE`, `JEV_SCORE`) where Jev answers a Noul, Choice, or Score question per cell; the sheet formula applies the threshold or minimum confidence and returns `UNSURE` below it."
         confidence: high
 metadata:
   github:
@@ -32,14 +29,14 @@ metadata:
     archived: false
     full_name: Cab14bacc/jev-sheets
     html_url: https://github.com/Cab14bacc/jev-sheets
-    created_at: '2026-09-21T15:24:51Z'
-    pushed_at: '2026-09-25T09:27:28Z'
+    created_at: "2026-09-21T15:24:51Z"
+    pushed_at: "2026-09-25T09:27:28Z"
     description: Jev for Google Sheets
     homepage: https://jevsheets.link/
     topics: []
-    last_checked_at: '2026-09-29T13:09:40.021Z'
+    last_checked_at: "2026-09-29T13:09:40.021Z"
     readme:
-      fetched_at: '2026-09-29T13:09:40.021Z'
+      fetched_at: "2026-09-29T13:09:40.021Z"
       bytes: 7184
 insights:
   summary: Jev for Google Sheets
@@ -62,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:40.021Z'
+    updated_at: "2026-09-29T13:09:40.021Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__carryforward__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://npmjs.com/package/carryforward
-        surrounding_text: >-
-          - [jev-carryforward](https://github.com/Dharundp6/jev-carryforward)
-          ([site](https://www.npmjs.com/package/carryforward)) - What your last session knew, scored against what this
-          one is doing. MCP server: a per-project ledger written as things happen, recalled per task with TypeSafe's Jev
-          evaluation model via Vercel AI Gateway.
+        surrounding_text: "- [jev-carryforward](https://github.com/Dharundp6/jev-carryforward) ([site](https://www.npmjs.com/package/carryforward)) - What your last session knew, scored against what this one is doing. MCP server: a per-project ledger written as things happen, recalled per task with TypeSafe's Jev evaluation model via Vercel AI Gateway."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An npm package named 'carryforward' with no provided description or README, discovered only via an awesome-jev listing in the Benchmarks & research section for projects built on the Jev decision model.
+  why_it_matters: Without any describable functionality, it is impossible to assess whether this tool solves a developer problem or introduces meaningful workflow changes.
+  mental_damage: The joy of installing a dependency that arrives with zero documentation, leaving you to guess whether it's a breakthrough or a typo in package.json.
+  tags:
+    - unknown
+    - undocumented
+  confidence: low
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The project lacks any describable identity, functionality, or developer-facing value proposition, making it impossible to determine relevance to AI-assisted software development.
   evidence:
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - Repo description is missing
+    - README excerpt is not provided
+    - Listed only in awesome-jev under 'Benchmarks & research' with no further context
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:18.385Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c5e1e827752211230c51dbcc6fbdbd82ea3556c9ba188bb30a7c937b89f25193
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks any describable identity, functionality, or developer-facing value proposition, making it impossible to determine relevance to AI-assisted software development.
+      decision_evidence:
+        - Repo description is missing
+        - README excerpt is not provided
+        - Listed only in awesome-jev under 'Benchmarks & research' with no further context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

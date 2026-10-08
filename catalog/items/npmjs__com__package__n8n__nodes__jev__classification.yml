@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__n8n__nodes__jev__classification__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://npmjs.com/package/n8n-nodes-jev-classification
-        surrounding_text: >-
-          - [n8n-nodes-jev-classification](https://github.com/khmuhtadin/n8n-nodes-jev-classification)
-          ([site](https://www.npmjs.com/package/n8n-nodes-jev-classification)) - N8n community node for Jev by TypeSafe
-          AI: classify, score and check text with calibrated probabilities. Parallel requests and multi-item batching.
+        surrounding_text: "- [n8n-nodes-jev-classification](https://github.com/khmuhtadin/n8n-nodes-jev-classification) ([site](https://www.npmjs.com/package/n8n-nodes-jev-classification)) - N8n community node for Jev by TypeSafe AI: classify, score and check text with calibrated probabilities. Parallel requests and multi-item batching."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    n8n-nodes-jev-classification (site) - N8n community node for Jev by TypeSafe AI: classify, score and check text with
-    calibrated probabilities. Parallel requests and multi-item batching.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An n8n node that integrates Jev classification via TypeSafe AI's System One model.
+  why_it_matters: Lets n8n workflows perform typed probabilistic decisions like routing or triage using Jev without custom code.
+  mental_damage: Another wrapper turning a niche decision model into yet another low-code node, because developers clearly needed more ways to avoid writing if-statements.
+  tags:
+    - n8n
+    - jev
+    - workflow-automation
+    - decision-model
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
+  reason: The product is an n8n integration that exposes Jev's typed decision-model judgments as a node, making the decision layer its core identity rather than general workflow automation.
   evidence:
-    - jev-latest choice confidence 0.72
+    - Seen in source list 'awesome-jev' under 'Integrations' for projects built on Jev.
+    - Package name 'n8n-nodes-jev-classification' indicates it is an n8n node for Jev classification.
+    - No repo description or README provided, but source-list context confirms it is built on Jev, a System One decision model.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:11.068Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8fffb3e533f13153aff340688368640e1bcb73947686659ffcd0173af548d206
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product is an n8n integration that exposes Jev's typed decision-model judgments as a node, making the decision layer its core identity rather than general workflow automation.
+      decision_evidence:
+        - Seen in source list 'awesome-jev' under 'Integrations' for projects built on Jev.
+        - Package name 'n8n-nodes-jev-classification' indicates it is an n8n node for Jev classification.
+        - No repo description or README provided, but source-list context confirms it is built on Jev, a System One decision model.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product's identity is exposing Jev's typed judgments, not merely extending n8n as a general workflow tool.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

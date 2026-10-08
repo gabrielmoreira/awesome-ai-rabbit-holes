@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__himomohi__jev-skill-router__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**jev-skill-router**'
+        anchor_text: "**jev-skill-router**"
         extracted_url: https://github.com/himomohi/jev-skill-router
-        surrounding_text: >-
-          - [**jev-skill-router**](https://github.com/himomohi/jev-skill-router) — Keep skill catalogs outside the main
-          LLM context. Jev selects relevant skills through one read-only MCP tool.
+        surrounding_text: "- [**jev-skill-router**](https://github.com/himomohi/jev-skill-router) — Keep skill catalogs outside the main LLM context. Jev selects relevant skills through one read-only MCP tool."
         confidence: high
 metadata:
   github:
@@ -31,10 +29,10 @@ metadata:
     archived: false
     full_name: himomohi/jev-skill-router
     html_url: https://github.com/himomohi/jev-skill-router
-    created_at: '2026-09-22T04:02:08Z'
-    pushed_at: '2026-09-22T16:28:15Z'
+    created_at: "2026-09-22T04:02:08Z"
+    pushed_at: "2026-09-22T16:28:15Z"
     description: Keep skill catalogs outside the main LLM context. Jev selects relevant skills through one read-only MCP tool.
-    homepage: ''
+    homepage: ""
     topics:
       - agent-skills
       - claude-code
@@ -45,9 +43,9 @@ metadata:
       - mcp
       - python
       - typesafe
-    last_checked_at: '2026-09-29T13:12:08.622Z'
+    last_checked_at: "2026-09-29T13:12:08.622Z"
     readme:
-      fetched_at: '2026-09-29T13:12:08.622Z'
+      fetched_at: "2026-09-29T13:12:08.622Z"
       bytes: 11320
 insights:
   summary: Keep skill catalogs outside the main LLM context. Jev selects relevant skills through one read-only MCP tool.
@@ -60,9 +58,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.89
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -74,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:08.622Z'
+    updated_at: "2026-09-29T13:12:08.622Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cycode is an AI-native application security platform that integrates security scanning, governance, and automated remediation into the software development lifecycle.
-  why_it_matters: It attempts to bridge the gap between rapid AI-driven development and security by providing automated risk detection and remediation directly within developer workflows.
-  mental_damage: Because nothing says 'productive workflow' like having an automated security agent constantly auditing your AI-generated chaos.
+  summary: Cycode.com is an Agentic Development Security Platform that unifies security and development teams with actionable, code-to-runtime context to identify, prioritize, and fix software risk.
+  why_it_matters: It helps developers shift security left by providing preventative guardrails and AI-driven remediation across AI-assisted development workflows.
+  mental_damage: Another platform promising to secure the unsecurable AI-generated code flood, adding yet another layer of tooling to the already chaotic SDLC.
   tags:
-    - appsec
-    - ai-security
-    - saas
+    - security
     - devsecops
-  confidence: high
+    - ai-governance
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project is a broad enterprise SaaS platform for application security (ASPM) rather than a developer-centric coding tool, extension, or framework.
+  status: included
+  reason: Cycode primarily functions as a security and governance platform that integrates with AI coding tools and IDEs to provide preventive guardrails, context intelligence, and autonomous remediation — making it an extension/addon to developer workflows rather than a standalone coding agent or framework.
   evidence:
-    - Product identity is an 'Agentic Development Security Platform'
-    - Core features are enterprise security concerns like SAST, SCA, and compliance
-    - Focuses on organizational risk posture and security team workflows
+    - Scraped site context describes Cycode as providing 'Preventive Guardrails for Agentic Development' and 'AI Visibility & Governance' across AI tools, prompts, and code
+    - Source-list context lists it in 'awesome-mcp-servers' under 'Official Servers' with description emphasizing its role as an MCP server providing CIG intelligence to AI-native dev tools
+    - README excerpt positions Cycode as a platform that 'orchestrates purpose-built agents' for security remediation and integrates with IDE, PR, CLI, and AI coding tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: extensions-and-addons
+  section: Security & DevSecOps
 lifecycle:
   status: curated
   reason: null
@@ -69,28 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:30:37.415Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for cycode__com: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Cycode pri\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:23:05.212Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:d2fc775a7088067b8a1b278880fca74665b929375c3446a39968d003082a1152
-      proposed_primary_category: null
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b579d454f3768668568d7cafb09162c2d73214628322b3a65845341dd384601c
+      proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: The project is a broad enterprise SaaS platform for application security (ASPM) rather than a developer-centric coding tool, extension, or framework.
+      decision_reason: Cycode primarily functions as a security and governance platform that integrates with AI coding tools and IDEs to provide preventive guardrails, context intelligence, and autonomous remediation — making it an extension/addon to developer workflows rather than a standalone coding agent or framework.
       decision_evidence:
-        - Product identity is an 'Agentic Development Security Platform'
-        - Core features are enterprise security concerns like SAST, SCA, and compliance
-        - Focuses on organizational risk posture and security team workflows
-      category_candidates: []
-      contrastive_reason: null
+        - Scraped site context describes Cycode as providing 'Preventive Guardrails for Agentic Development' and 'AI Visibility & Governance' across AI tools, prompts, and code
+        - Source-list context lists it in 'awesome-mcp-servers' under 'Official Servers' with description emphasizing its role as an MCP server providing CIG intelligence to AI-native dev tools
+        - README excerpt positions Cycode as a platform that 'orchestrates purpose-built agents' for security remediation and integrates with IDE, PR, CLI, and AI coding tools
+      category_candidates:
+        - extensions-and-addons
+        - agent-orchestration
+      contrastive_reason: Choose extensions-and-addons over agent-orchestration because Cycode's core identity is providing security integrations and guardrails for existing developer tools and AI agents, not coordinating multiple autonomous agent teams as a workforce platform.
       review_reason: null
       review_resume_lifecycle: null

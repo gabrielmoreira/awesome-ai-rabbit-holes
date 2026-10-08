@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__snifftest__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/snifftest
-        surrounding_text: >-
-          - [snifftest](https://github.com/DanRWilloughby/snifftest) ([site](https://www.npmjs.com/package/snifftest)) -
-          A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.
+        surrounding_text: "- [snifftest](https://github.com/DanRWilloughby/snifftest) ([site](https://www.npmjs.com/package/snifftest)) - A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: snifftest is an npm package serving as a Jev-based agent tool in the TypeSafe AI ecosystem.
+  why_it_matters: It provides developers a minimal example or utility for integrating Jev decision models into agent workflows.
+  mental_damage: Another niche Jev-flavored npm module that makes you wonder if the world needed yet another way to wrap a decision model in agent-shaped YAML.
+  tags:
+    - jev
+    - decision-model
+    - agent-tooling
+  confidence: medium
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: snifftest belongs in decision-models because it is positioned as agent tooling built on the Jev decision model, with its core identity deriving from Jev-based judgments rather than functioning as a standalone coding agent or general utility.
   evidence:
-    - >-
-      jev winnow:e4b 0.23 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; no placement
-      kept (unverified)
+    - Listed in awesome-jev under 'Agent tooling' section, indicating it is a Jev-based agent tool
+    - Described as an npm package in the TypeSafe AI ecosystem, suggesting integration with Jev (TypeSafe System One)
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:17.584Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bde1b81c0132d1c0d0067bb13bb1204f7ed59115bf1c910ef5a0b3114f151e70
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: snifftest belongs in decision-models because it is positioned as agent tooling built on the Jev decision model, with its core identity deriving from Jev-based judgments rather than functioning as a standalone coding agent or general utility.
+      decision_evidence:
+        - Listed in awesome-jev under 'Agent tooling' section, indicating it is a Jev-based agent tool
+        - Described as an npm package in the TypeSafe AI ecosystem, suggesting integration with Jev (TypeSafe System One)
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because snifftest's identity is tied to the Jev decision model as agent tooling, not as a generic extension augmenting a host coding agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

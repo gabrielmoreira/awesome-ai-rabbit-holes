@@ -1,0 +1,133 @@
+id: github__sedum-dev__sedum
+kind: github-repo
+name: sedum-dev/sedum
+canonical_url: https://github.com/sedum-dev/sedum
+identity:
+  github_repo: sedum-dev/sedum
+provenance:
+  discoveries:
+    - id: discovery__github__sedum-dev__sedum__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Sedum
+        extracted_url: https://github.com/sedum-dev/sedum
+        surrounding_text: "- [Sedum](https://github.com/sedum-dev/sedum) - Pre-alpha browser-testing framework: write Playwright tests in TypeScript with plain-English `ai(...)` steps, where TypeSafe Jev (default) resolves which element a sentence means and judges whether a claim holds on the page. [Project guide](community/projects/tools/sedum.md)."
+        confidence: high
+    - id: discovery__github__sedum-dev__sedum__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+        anchor_text: Sedum
+        extracted_url: https://github.com/sedum-dev/sedum
+        surrounding_text: "- **Browser & computer use (1):** [Sedum](https://github.com/sedum-dev/sedum)"
+        confidence: high
+    - id: discovery__github__sedum-dev__sedum__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & OS Action
+        anchor_text: "**sedum**"
+        extracted_url: https://github.com/sedum-dev/sedum
+        surrounding_text: "- [**sedum**](https://github.com/sedum-dev/sedum) — Plain-English browser e2e tests cheap enough to run on every PR. Built on Jev and Playwright, open source, bring your own key."
+        confidence: high
+    - id: discovery__github__sedum-dev__sedum__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: Sedum
+        extracted_url: https://github.com/sedum-dev/sedum
+        surrounding_text: "- [Sedum](https://github.com/sedum-dev/sedum) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/sedum-dev/sedum?style=flat-square&label=%E2%98%85) - Browser end-to-end testing: in goal mode each turn asks one Jev `Choice` for the next operation (click, type, done or blocked) plus a speculative target among the page's offered elements, capped at 24 requests, 18 actions and 120 s, and the test passes only when an independent verify claim clears two `Noul`s (holds ≥ 0.75, contradicted flagged at ≥ 0.5), since the planner's done is never a verdict; authored-step tests reuse the same `Choice` to resolve each plain-English step, and with your own API key a 20-person team's PR suite costs $38–$91 a month vs $4,875 on a per-step AI platform."
+        confidence: high
+    - id: discovery__github__sedum-dev__sedum__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser and computer use
+        anchor_text: Sedum
+        extracted_url: https://github.com/sedum-dev/sedum
+        surrounding_text: "- [Sedum](https://github.com/sedum-dev/sedum) - In goal mode Jev picks each next browser action and its target; in authored plain-English test steps it picks the element each step refers to, and for verify claims whether they hold or are contradicted; Playwright performs the action, and code turns the probabilities into a pass, a low-confidence pass or a fail."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-10-08T04:16:14.230Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.689Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

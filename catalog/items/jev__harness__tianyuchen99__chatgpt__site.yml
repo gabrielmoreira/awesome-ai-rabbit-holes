@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__harness__tianyuchen99__chatgpt__site__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://jev-harness.tianyuchen99.chatgpt.site
-        surrounding_text: >-
-          - [JevHarness](https://github.com/TianyuCodings/JevHarness)
-          ([site](https://jev-harness.tianyuchen99.chatgpt.site)) - LLM-authored task-specific Jev harnesses with
-          optional full-trajectory reward reflection and GEPA evolution.
+        surrounding_text: "- [JevHarness](https://github.com/TianyuCodings/JevHarness) ([site](https://jev-harness.tianyuchen99.chatgpt.site)) - LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution."
         confidence: high
 metadata:
   github:
@@ -39,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JevHarness is a web demo that visualizes and analyzes the evolution of Jev decision-model flows in Pokémon battles using recorded trajectories and rewards.
+  why_it_matters: It helps developers inspect and compare decision-model behavior evolution, useful for debugging or refining Jev-based agent logic.
+  mental_damage: Another niche tool that turns AI decision traces into a Pokémon-themed debug playground, because why not.
+  tags:
+    - decision-models
+    - debugging
+    - visualization
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: The tool's core function is visualizing and analyzing Jev decision-model evolution and judgments, placing it firmly in the decision-models category as agent tooling focused on model behavior inspection.
   evidence:
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - "Source-list context: listed in awesome-jev under 'Agent tooling' for Jev harness evolution through battle trajectories and rewards."
+    - "Scraped site excerpt: shows inspection of exact Jev arguments, decision traces, evolution trees, and latency measurements from archived battles."
+    - "Primary page title and description: 'JevHarness · Pokémon Lab' and 'Watch an LLM-authored Jev harness evolve through battle trajectories and rewards.'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
+  section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:09.701Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:09d0848b80c6e7f51792f2acb3275fbed002d13c1488fff2e228de85292374f0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core function is visualizing and analyzing Jev decision-model evolution and judgments, placing it firmly in the decision-models category as agent tooling focused on model behavior inspection.
+      decision_evidence:
+        - "Source-list context: listed in awesome-jev under 'Agent tooling' for Jev harness evolution through battle trajectories and rewards."
+        - "Scraped site excerpt: shows inspection of exact Jev arguments, decision traces, evolution trees, and latency measurements from archived battles."
+        - "Primary page title and description: 'JevHarness · Pokémon Lab' and 'Watch an LLM-authored Jev harness evolve through battle trajectories and rewards.'"
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the tool focuses on inspecting and visualizing Jev decision-model judgments and evolution, not on generic benchmarking or scoring of model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

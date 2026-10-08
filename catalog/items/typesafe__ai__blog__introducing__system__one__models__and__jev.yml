@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__typesafe__ai__blog__introducing__system__one__models__and__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Official
         anchor_text: Introducing System One Models and Jev
         extracted_url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
-        surrounding_text: >-
-          - [Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) -
-          Launch post: architecture, RLCD training, pricing, Doom and Wikiracing demos, FAQ.
+        surrounding_text: "- [Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) - Launch post: architecture, RLCD training, pricing, Doom and Wikiracing demos, FAQ."
         confidence: high
     - id: discovery__typesafe__ai__blog__introducing__system__one__models__and__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -35,13 +33,10 @@ provenance:
           - README
         anchor_text: Jev
         extracted_url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
-        surrounding_text: >-
-          A curated awesome list of public projects and practices built on
-          [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), TypeSafe AI's System One model for
-          typed decisions.
+        surrounding_text: A curated awesome list of public projects and practices built on [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), TypeSafe AI's System One model for typed decisions.
         confidence: high
     - id: discovery__typesafe__ai__blog__introducing__system__one__models__and__jev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -53,9 +48,7 @@ provenance:
           - Official resources
         anchor_text: Introducing System One Models and Jev
         extracted_url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
-        surrounding_text: >-
-          - [Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) -
-          Launch post covering the model interface, RLCD, published performance claims, demos, and caveats.
+        surrounding_text: "- [Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev) - Launch post covering the model interface, RLCD, published performance claims, demos, and caveats."
         confidence: high
 metadata:
   github:
@@ -73,18 +66,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Introducing System One Models and Jev - Launch post: architecture, RLCD training, pricing, Doom and Wikiracing
-    demos, FAQ.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI introduces Jev, a System One Model that outputs typed probabilistic decisions instead of text for fast, structured AI decisions in software.
+  why_it_matters: It enables developers to embed reliable, low-latency AI decisions into code without hallucinations or parsing overhead.
+  mental_damage: Finally, an AI that won’t confidently lie about whether your pull request should be merged.
+  tags:
+    - decision-model
+    - typed-output
+    - structured-ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  reason: The product's core identity is a decision model (Jev) that outputs calibrated probabilities for structured decisions, not text generation or coding tasks, placing it squarely in decision-models per its technical design and use cases.
   evidence:
-    - jev-latest choice confidence 0.53
+    - Jev achieves System One task intelligence with typed probabilistic outputs and zero hallucination via RLCD training
+    - "It is positioned as a 'frontier-intelligence function call: unstructured state in, typed probabilistic decisions out'"
+    - Listed in awesome-jev under Official resources as the primary System One Model Jev from TypeSafe AI
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -95,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -103,6 +99,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:31.574Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:61e27e1693a9de21f45ef46fff70bc26611a34d2ca956d810bca15c7ea9e37c4
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model (Jev) that outputs calibrated probabilities for structured decisions, not text generation or coding tasks, placing it squarely in decision-models per its technical design and use cases.
+      decision_evidence:
+        - Jev achieves System One task intelligence with typed probabilistic outputs and zero hallucination via RLCD training
+        - "It is positioned as a 'frontier-intelligence function call: unstructured state in, typed probabilistic decisions out'"
+        - Listed in awesome-jev under Official resources as the primary System One Model Jev from TypeSafe AI
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev’s primary identity is outputting structured decisions via a decision model, not performing coding tasks like editing code or managing repos.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

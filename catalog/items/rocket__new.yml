@@ -51,19 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build.
-  why_it_matters: It lets developers turn ideas into production-grade apps while maintaining shared context across research, building, and tracking phases.
-  mental_damage: Finally, a tool that will tell you what to build, build it for you, and then watch your competitors do it better.
+  summary: AI platform that generates web and mobile applications from prompts and provides market research and competitor intelligence.
+  why_it_matters: It attempts to unify the entire product lifecycle—from market research and decision-making to deployment and competitive tracking—into a single prompt-driven workflow.
+  mental_damage: It automates the entire lifecycle from 'what should I build' to 'someone just copied me,' leaving you with nothing to do but watch a dashboard.
   tags:
-    - app-builder
+    - app-builders
     - no-code
-    - prompt-to-app
+    - market-research
+    - saas
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: The product's primary identity is a prompt-to-app platform that generates deployable software from a blank slate.
   evidence:
-    - jev-latest choice confidence 0.87
+    - Claims to build web apps, mobile apps, and SaaS products from natural language prompts
+    - Covers a full lifecycle including market analysis (Solve), building (Build), and monitoring (Intelligence)
+    - User testimonials explicitly identify it as a no-code AI app builder
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -73,31 +76,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:50:35.603Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for rocket__new: Invalid AI response format: SyntaxError: Unexpected token 'R', ...\"_reason\": Rocket.new\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:28:28.224Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:07ad2e14483616f7206e62c3373891206601348600458012350a5a1825ded522
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:470438487d4c4ced600608f458fc8cf22a18a82e49aeb4f0fa1f2e80eff8d59e
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The primary product surface is prompt-to-app generation with additional market research and competitive tracking capabilities, fitting the App Builders category.
+      decision_reason: The product's primary identity is a prompt-to-app platform that generates deployable software from a blank slate.
       decision_evidence:
-        - Described as 'Vibe Solutioning platform' that builds apps from prompts
-        - Explicitly listed in awesome-ai-coding-tools under App Builders
-        - Core workflow includes turning prompts into web/mobile apps, landing pages, SaaS, internal tools, and dashboards
+        - Claims to build web apps, mobile apps, and SaaS products from natural language prompts
+        - Covers a full lifecycle including market analysis (Solve), building (Build), and monitoring (Intelligence)
+        - User testimonials explicitly identify it as a no-code AI app builder
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the main value is prompt-to-app generation rather than multi-agent coordination.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because it focuses on creating new, deployable products from a blank slate rather than assisting a developer in editing an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
   discover:

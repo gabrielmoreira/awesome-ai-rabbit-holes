@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bodila51__jev-chooses-a-llm__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: Jev-chooses-a-LLM
         extracted_url: https://github.com/bodila51/jev-chooses-a-llm
-        surrounding_text: >-
-          - [Jev-chooses-a-LLM](https://github.com/Bodila51/Jev-chooses-a-LLM) - Jev Router for Cursor - TypeSafe Jev
-          picks COST/BALANCED/INTELLIGENCE, Cursor executes.
+        surrounding_text: "- [Jev-chooses-a-LLM](https://github.com/Bodila51/Jev-chooses-a-LLM) - Jev Router for Cursor - TypeSafe Jev picks COST/BALANCED/INTELLIGENCE, Cursor executes."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: Bodila51/Jev-chooses-a-LLM
     html_url: https://github.com/Bodila51/Jev-chooses-a-LLM
-    created_at: '2026-09-20T19:29:25Z'
-    pushed_at: '2026-09-20T21:46:32Z'
+    created_at: "2026-09-20T19:29:25Z"
+    pushed_at: "2026-09-20T21:46:32Z"
     description: Jev Router for Cursor - TypeSafe Jev picks COST/BALANCED/INTELLIGENCE, Cursor executes
     homepage: null
     topics:
@@ -41,9 +39,9 @@ metadata:
       - llm-router
       - mcp
       - typesafe
-    last_checked_at: '2026-09-29T13:09:33.771Z'
+    last_checked_at: "2026-09-29T13:09:33.771Z"
     readme:
-      fetched_at: '2026-09-29T13:09:33.771Z'
+      fetched_at: "2026-09-29T13:09:33.771Z"
       bytes: 7478
 insights:
   summary: Jev Router for Cursor - TypeSafe Jev picks COST/BALANCED/INTELLIGENCE, Cursor executes
@@ -66,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:33.771Z'
+    updated_at: "2026-09-29T13:09:33.771Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

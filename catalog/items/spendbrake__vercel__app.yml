@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__spendbrake__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://spendbrake.vercel.app
-        surrounding_text: >-
-          - [spendbrake](https://github.com/ndolinschi/spendbrake) ([site](https://spendbrake.vercel.app)) - Agent
-          budget brake — continue / downgrade_model / stop via TypeSafe Jev.
+        surrounding_text: "- [spendbrake](https://github.com/ndolinschi/spendbrake) ([site](https://spendbrake.vercel.app)) - Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: spendbrake (site) - Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SpendBrake is a budget gate that uses Jev decision models to continue, downgrade, or stop agent runs based on spend vs. value.
+  why_it_matters: It helps developers avoid runaway AI agent costs by automating budget enforcement via typed decision judgments.
+  mental_damage: Finally, a tool that trusts a probability model more than your own judgment when your AI agent is burning through your credit card.
+  tags:
+    - budget
+    - decision-model
+    - agent
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: SpendBrake's core function is a Jev-driven judgment layer that routes agent behavior based on spend/value, making it a decision-model tool rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.67
+    - Primary page excerpt shows Jev deciding continue / downgrade_model / stop for agent spend
+    - "Scraped site description: 'Jev decides continue / downgrade_model / stop for agent spend'"
+    - Listed in awesome-jev under Demos & playgrounds for Jev-based spend decisions
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -58,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:42.565Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:768f42908775d04f3fe8d5114b9c28e137298a2a0ccb19d7de4d11f55114c448
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: SpendBrake's core function is a Jev-driven judgment layer that routes agent behavior based on spend/value, making it a decision-model tool rather than a coding agent or extension.
+      decision_evidence:
+        - Primary page excerpt shows Jev deciding continue / downgrade_model / stop for agent spend
+        - "Scraped site description: 'Jev decides continue / downgrade_model / stop for agent spend'"
+        - Listed in awesome-jev under Demos & playgrounds for Jev-based spend decisions
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because SpendBrake's identity is the Jev-driven spend judgment itself, not merely extending a host agent with debugging or workflow features.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

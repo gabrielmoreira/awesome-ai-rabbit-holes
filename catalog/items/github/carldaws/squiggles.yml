@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carldaws__squiggles__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: carldaws/squiggles
         extracted_url: https://github.com/carldaws/squiggles
-        surrounding_text: >-
-          - [carldaws/squiggles](https://github.com/carldaws/squiggles) [![carldaws/squiggles MCP
-          server](https://glama.ai/mcp/servers/carldaws/squiggles/badges/score.svg)](https://glama.ai/mcp/servers/carldaws/squiggles)
-          📇 🏠 - Run any number of LSP servers from one YAML config for diagnostics, go-to-definition and rename, plus
-          server-specific features like Rust macro expansion.
+        surrounding_text: "- [carldaws/squiggles](https://github.com/carldaws/squiggles) [![carldaws/squiggles MCP server](https://glama.ai/mcp/servers/carldaws/squiggles/badges/score.svg)](https://glama.ai/mcp/servers/carldaws/squiggles) 📇 🏠 - Run any number of LSP servers from one YAML config for diagnostics, go-to-definition and rename, plus server-specific features like Rust macro expansion."
         confidence: high
 metadata:
   github:
@@ -34,25 +30,21 @@ metadata:
     archived: false
     full_name: carldaws/squiggles
     html_url: https://github.com/carldaws/squiggles
-    created_at: '2026-02-12T23:43:25Z'
-    pushed_at: '2026-09-25T13:42:55Z'
-    description: >-
-      MCP server that lets your coding agent see the squiggles — LSP diagnostics, navigation, refactoring, and each
-      server's custom superpowers
-    homepage: ''
+    created_at: "2026-02-12T23:43:25Z"
+    pushed_at: "2026-09-25T13:42:55Z"
+    description: MCP server that lets your coding agent see the squiggles — LSP diagnostics, navigation, refactoring, and each server's custom superpowers
+    homepage: ""
     topics:
       - lsp
       - mcp
       - mcp-server
       - typescript
-    last_checked_at: '2026-09-29T13:09:42.870Z'
+    last_checked_at: "2026-09-29T13:09:42.870Z"
     readme:
-      fetched_at: '2026-09-29T13:09:42.870Z'
+      fetched_at: "2026-09-29T13:09:42.870Z"
       bytes: 7183
 insights:
-  summary: >-
-    MCP server that lets your coding agent see the squiggles — LSP diagnostics, navigation, refactoring, and each
-    server's custom superpowers
+  summary: MCP server that lets your coding agent see the squiggles — LSP diagnostics, navigation, refactoring, and each server's custom superpowers
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -72,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:42.870Z'
+    updated_at: "2026-09-29T13:09:42.870Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

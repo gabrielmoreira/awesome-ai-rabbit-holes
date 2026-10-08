@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__buluoray__jevonly__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: JevOnly
         extracted_url: https://github.com/buluoray/jevonly
-        surrounding_text: '- [JevOnly](https://github.com/buluoray/JevOnly) - Pure Jev that can "type" and drive towards task completion.'
+        surrounding_text: "- [JevOnly](https://github.com/buluoray/JevOnly) - Pure Jev that can \"type\" and drive towards task completion."
         confidence: high
     - id: discovery__github__buluoray__jevonly__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -35,10 +35,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: JevOnly
         extracted_url: https://github.com/buluoray/jevonly
-        surrounding_text: >-
-          - [JevOnly](https://github.com/buluoray/JevOnly) - Pure-Jev browser agent: code enumerates page/goal options,
-          Jev only picks, with verify/undo and an irreversible-action gate. [Project
-          guide](community/projects/tools/jevonly.md).
+        surrounding_text: "- [JevOnly](https://github.com/buluoray/JevOnly) - Pure-Jev browser agent: code enumerates page/goal options, Jev only picks, with verify/undo and an irreversible-action gate. [Project guide](community/projects/tools/jevonly.md)."
         confidence: high
 metadata:
   github:
@@ -48,8 +45,8 @@ metadata:
     archived: false
     full_name: buluoray/JevOnly
     html_url: https://github.com/buluoray/JevOnly
-    created_at: '2026-09-19T03:24:36Z'
-    pushed_at: '2026-09-21T14:40:55Z'
+    created_at: "2026-09-19T03:24:36Z"
+    pushed_at: "2026-09-21T14:40:55Z"
     description: Pure Jev that can "type" and drive towards task completion.
     homepage: null
     topics:
@@ -57,9 +54,9 @@ metadata:
       - llm-agents
       - playwright
       - typesafe
-    last_checked_at: '2026-09-29T13:09:38.491Z'
+    last_checked_at: "2026-09-29T13:09:38.491Z"
     readme:
-      fetched_at: '2026-09-29T13:09:38.491Z'
+      fetched_at: "2026-09-29T13:09:38.491Z"
       bytes: 4443
 insights:
   summary: Pure Jev that can "type" and drive towards task completion.
@@ -82,15 +79,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:38.491Z'
+    updated_at: "2026-09-29T13:09:38.491Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

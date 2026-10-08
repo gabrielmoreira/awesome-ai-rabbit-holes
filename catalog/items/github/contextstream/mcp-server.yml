@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__contextstream__mcp-server__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🧠 Knowledge & Memory
         anchor_text: contextstream/mcp-server
         extracted_url: https://github.com/contextstream/mcp-server
-        surrounding_text: >-
-          -   **[contextstream/mcp-server](https://github.com/contextstream/mcp-server)** [![GitHub
-          stars](https://img.shields.io/github/stars/contextstream/mcp-server?style=social)](https://github.com/contextstream/mcp-server):
-          Shared project memory / MCP for AI coding agents so Cursor, Claude, Codex, Grok, and others share context
-          across tools.
+        surrounding_text: "-   **[contextstream/mcp-server](https://github.com/contextstream/mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/contextstream/mcp-server?style=social)](https://github.com/contextstream/mcp-server): Shared project memory / MCP for AI coding agents so Cursor, Claude, Codex, Grok, and others share context across tools."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: contextstream/mcp-server
     html_url: https://github.com/contextstream/mcp-server
-    created_at: '2025-12-12T18:12:00Z'
-    pushed_at: '2026-09-29T09:43:46Z'
-    description: >-
-      Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped
-      access. Carry decisions, lessons, and intent across sessions and tools.
+    created_at: "2025-12-12T18:12:00Z"
+    pushed_at: "2026-09-29T09:43:46Z"
+    description: Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped access. Carry decisions, lessons, and intent across sessions and tools.
     homepage: https://contextstream.io
     topics:
       - agent
@@ -51,14 +45,12 @@ metadata:
       - gemini-cli-extension
       - mcp
       - windsurf
-    last_checked_at: '2026-09-29T13:10:09.299Z'
+    last_checked_at: "2026-09-29T13:10:09.299Z"
     readme:
-      fetched_at: '2026-09-29T13:10:09.298Z'
+      fetched_at: "2026-09-29T13:10:09.298Z"
       bytes: 5223
 insights:
-  summary: >-
-    Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped
-    access. Carry decisions, lessons, and intent across sessions and tools.
+  summary: Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped access. Carry decisions, lessons, and intent across sessions and tools.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -78,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:09.299Z'
+    updated_at: "2026-09-29T13:10:09.299Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

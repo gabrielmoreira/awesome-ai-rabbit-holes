@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__anyjev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://pypi.org/project/anyjev
-        surrounding_text: >-
-          - [AnyJev](https://github.com/nokia-applied-research/AnyJev) ([site](https://pypi.org/project/anyjev/)) - Turn
-          any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue
-          updating).
+        surrounding_text: "- [AnyJev](https://github.com/nokia-applied-research/AnyJev) ([site](https://pypi.org/project/anyjev/)) - Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AnyJev (site) - Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training.
-    (continue updating).
-  why_it_matters: null
-  mental_damage: null
+  summary: anyjev is a Python package distributed via PyPI with no discernible description, README, or functional details available.
+  why_it_matters: It does not meaningfully matter to developers due to the absence of any usable functionality or documentation.
+  mental_damage: Another mysterious PyPI package that raises more questions than it answers, adding to the background noise of abandoned or undocumented tools.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  status: excluded
+  reason: Excluded because the package lacks any describable functionality, documentation, or clear purpose, making it impossible to assess as a developer tool.
   evidence:
-    - jev-latest choice confidence 0.66
+    - Repo description is missing.
+    - README excerpt is unavailable.
+    - Scraped site context shows a broken page with no usable content.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:06.536Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5110e403fe3887f63ab9b8fb297d9b4da75d32820a14becb005628d8bab4ee68
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded because the package lacks any describable functionality, documentation, or clear purpose, making it impossible to assess as a developer tool.
+      decision_evidence:
+        - Repo description is missing.
+        - README excerpt is unavailable.
+        - Scraped site context shows a broken page with no usable content.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

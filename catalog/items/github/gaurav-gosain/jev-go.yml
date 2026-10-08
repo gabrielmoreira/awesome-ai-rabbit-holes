@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gaurav-gosain__jev-go__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jev-go (Gaurav-Gosain)
         extracted_url: https://github.com/gaurav-gosain/jev-go
-        surrounding_text: >-
-          - [jev-go (Gaurav-Gosain)](https://github.com/Gaurav-Gosain/jev-go) - Go client for TypeSafe's System One API
-          and its model Jev: typed judgments and calibrated probabilities instead of generated text.
+        surrounding_text: "- [jev-go (Gaurav-Gosain)](https://github.com/Gaurav-Gosain/jev-go) - Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text."
         confidence: high
     - id: discovery__github__gaurav-gosain__jev-go__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: jev-go (Gaurav-Gosain)
         extracted_url: https://github.com/gaurav-gosain/jev-go
-        surrounding_text: >-
-          | [jev-go (Gaurav-Gosain)](https://github.com/Gaurav-Gosain/jev-go) | ★ 3 | Go | 2026-09-19 | Go client for
-          TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated
-          text. |
+        surrounding_text: "| [jev-go (Gaurav-Gosain)](https://github.com/Gaurav-Gosain/jev-go) | ★ 3 | Go | 2026-09-19 | Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text. |"
         confidence: high
     - id: discovery__github__gaurav-gosain__jev-go__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev-go**'
+        anchor_text: "**jev-go**"
         extracted_url: https://github.com/gaurav-gosain/jev-go
-        surrounding_text: >-
-          - [**jev-go**](https://github.com/Gaurav-Gosain/jev-go) — A Go TypeSafe System One client with typed
-          questions, answers and batching helpers.
+        surrounding_text: "- [**jev-go**](https://github.com/Gaurav-Gosain/jev-go) — A Go TypeSafe System One client with typed questions, answers and batching helpers."
         confidence: high
 metadata:
   github:
@@ -67,21 +60,17 @@ metadata:
     archived: false
     full_name: Gaurav-Gosain/jev-go
     html_url: https://github.com/Gaurav-Gosain/jev-go
-    created_at: '2026-09-16T05:55:53Z'
-    pushed_at: '2026-09-16T05:56:08Z'
-    description: >-
-      Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of
-      generated text
+    created_at: "2026-09-16T05:55:53Z"
+    pushed_at: "2026-09-16T05:56:08Z"
+    description: "Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text"
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:32.634Z'
+    last_checked_at: "2026-09-29T13:11:32.634Z"
     readme:
-      fetched_at: '2026-09-29T13:11:32.634Z'
+      fetched_at: "2026-09-29T13:11:32.634Z"
       bytes: 5928
 insights:
-  summary: >-
-    Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of
-    generated text
+  summary: "Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -91,9 +80,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
   evidence:
     - jev-latest choice confidence 0.97
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Client SDKs & CLIs; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -105,15 +92,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.395Z'
+    updated_at: "2026-09-29T13:07:10.395Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:32.634Z'
+    updated_at: "2026-09-29T13:11:32.634Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

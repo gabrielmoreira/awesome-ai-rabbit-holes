@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__s1s__iar__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Applications
         anchor_text: site
         extracted_url: https://s1s.iar.dev
-        surrounding_text: >-
-          - [s1s](https://github.com/cpaczek/s1s) ([site](https://s1s.iar.dev)) - System One Search: navigate and trace
-          code with TypeSafe judgments and repository evidence.
+        surrounding_text: "- [s1s](https://github.com/cpaczek/s1s) ([site](https://s1s.iar.dev)) - System One Search: navigate and trace code with TypeSafe judgments and repository evidence."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: s1s.iar.dev is a Jev-powered application directory for projects built on TypeSafe AI's System One decision model.
+  why_it_matters: It showcases real-world uses of Jev, helping developers see how decision-model judgments drive applications beyond chat or coding.
+  mental_damage: Another curated list reminding us that the AI ecosystem now has taxonomies for its taxonomies.
+  tags:
+    - decision-models
+    - awesome-list
+  confidence: medium
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: The project is a directory of applications built on Jev, making its identity the decision-model judgment layer rather than a coding agent or generic directory, fitting decision-models over awesome-awesomes because the core value is demonstrating Jev use, not just listing tools.
   evidence:
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Search, Retrieval & Data; no placement kept
-      (unverified)
+    - "Seen in awesome-jev with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+    - URL s1s.iar.dev hosts a showcase of Jev-powered applications.
+    - No repo description or stars, but source-list context confirms Jev-centric curation.
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:09.003Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7384f27469959600df4381bc439371f396a99c76492fa472b9541bf700aee968
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is a directory of applications built on Jev, making its identity the decision-model judgment layer rather than a coding agent or generic directory, fitting decision-models over awesome-awesomes because the core value is demonstrating Jev use, not just listing tools.
+      decision_evidence:
+        - "Seen in awesome-jev with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+        - URL s1s.iar.dev hosts a showcase of Jev-powered applications.
+        - No repo description or stars, but source-list context confirms Jev-centric curation.
+      category_candidates:
+        - decision-models
+        - awesome-awesomes
+      contrastive_reason: Choose decision-models over awesome-awesomes because the directory's purpose is to demonstrate Jev-powered applications, making the decision model the core identity rather than general tool curation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

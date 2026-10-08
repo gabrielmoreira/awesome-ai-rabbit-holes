@@ -79,10 +79,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:11:25.855Z"
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__a596480606__monitor_token: Invalid AI response structure: Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1

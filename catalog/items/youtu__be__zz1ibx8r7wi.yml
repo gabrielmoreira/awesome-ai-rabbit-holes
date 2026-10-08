@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__youtu__be__zz1ibx8r7wi__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://youtu.be/Zz1Ibx8R7WI
-        surrounding_text: >-
-          - [voice_control](https://github.com/igorkasyanchuk/voice_control) ([site](https://youtu.be/Zz1Ibx8R7WI)) -
-          Rails engine for voice and typed commands: define actions in a Ruby DSL and Jev picks the matching command or
-          page control, with your own authorization and signed, replay-protected execution.
+        surrounding_text: "- [voice_control](https://github.com/igorkasyanchuk/voice_control) ([site](https://youtu.be/Zz1Ibx8R7WI)) - Rails engine for voice and typed commands: define actions in a Ruby DSL and Jev picks the matching command or page control, with your own authorization and signed, replay-protected execution."
         confidence: high
 metadata:
   github:
@@ -39,28 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
+  summary: A YouTube video with unknown content.
+  why_it_matters: No developer relevance can be inferred from the provided metadata.
+  mental_damage: Wasting time guessing whether a random YouTube link is a dev tool is the modern equivalent of interpreting cloud shapes for stock tips.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The input is a YouTube video with no description, README, or technical details indicating it is a developer-focused AI tool.
   evidence:
-    - jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; no placement kept (unverified)
+    - URL points to a YouTube video (youtu.be/Zz1Ibx8R7WI)
+    - No repo description, README, or scraped site context provided
+    - No source-list context indicates developer tooling relevance
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - ai-frameworks
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +67,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:50.125Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2446c672c6713016b2f121b59458df4cc7898a8978ac36b40786394a4acdced7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a YouTube video with no description, README, or technical details indicating it is a developer-focused AI tool.
+      decision_evidence:
+        - URL points to a YouTube video (youtu.be/Zz1Ibx8R7WI)
+        - No repo description, README, or scraped site context provided
+        - No source-list context indicates developer tooling relevance
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

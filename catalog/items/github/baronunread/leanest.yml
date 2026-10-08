@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__baronunread__leanest__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Code Navigation
-        anchor_text: '**leanest**'
+        anchor_text: "**leanest**"
         extracted_url: https://github.com/baronunread/leanest
-        surrounding_text: >-
-          - [**leanest**](https://github.com/baronunread/leanest) — Adds Jev-based selection before an existing test
-          runner using diffs and test source.
+        surrounding_text: "- [**leanest**](https://github.com/baronunread/leanest) — Adds Jev-based selection before an existing test runner using diffs and test source."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: baronunread/leanest
     html_url: https://github.com/baronunread/leanest
-    created_at: '2026-09-17T14:25:25Z'
-    pushed_at: '2026-09-27T22:49:19Z'
+    created_at: "2026-09-17T14:25:25Z"
+    pushed_at: "2026-09-27T22:49:19Z"
     description: Local-first test selector using Jev judgments to determine which tests are affected by a code change
     homepage: https://leanest.pages.dev/
     topics: []
-    last_checked_at: '2026-09-29T13:09:26.823Z'
+    last_checked_at: "2026-09-29T13:09:26.823Z"
     readme:
-      fetched_at: '2026-09-29T13:09:26.823Z'
+      fetched_at: "2026-09-29T13:09:26.823Z"
       bytes: 9532
 insights:
   summary: Local-first test selector using Jev judgments to determine which tests are affected by a code change
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:26.823Z'
+    updated_at: "2026-09-29T13:09:26.823Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

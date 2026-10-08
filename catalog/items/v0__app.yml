@@ -66,20 +66,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts.
-  why_it_matters: It accelerates the prototyping-to-production pipeline by automating UI generation, task planning, and deployment to Vercel.
-  mental_damage: It turns the architectural planning phase into a single text box, effectively deleting the middleman between your imagination and a live URL.
+  summary: An AI-powered assistant by Vercel for generating, designing, and deploying full-stack web applications from natural language prompts.
+  why_it_matters: It enables developers to move from an idea to a deployed, full-stack prototype or application through a prompt-to-app workflow.
+  mental_damage: It turns the 'blank page' problem into a 'too many design choices' problem, making the concept of a manual boilerplate feel increasingly ancient.
   tags:
     - vercel
     - full-stack
     - prompt-to-app
     - web-dev
+    - deployment
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: The product's core loop is generating deployable, full-stack applications from natural language rather than acting as a coding assistant for an existing repository.
   evidence:
-    - jev-latest choice confidence 0.97
+    - Scraped site title explicitly states 'Build Full-Stack Web Apps with AI'.
+    - The product workflow is defined as 'Prompt. Build. Publish.'
+    - Canonical positives for the app-builders category specifically include 'v0 by Vercel'.
 placement:
   primary_category: app-builders
   secondary_categories: []
@@ -98,30 +101,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:01:17.105Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for v0__app: Invalid AI response format: SyntaxError: Unexpected token 'v', ...\"_reason\": v0's core \"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-08T04:35:27.817Z"
+    cause: null
     next_retry_at: null
-    attempts: 6
+    attempts: 7
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:ca92dc17dc5c62e31b23771f3051962a4af53edd72194a60a9cdeeaa2113b95f
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1bdc14c7cca25a46aac7fc77ffc7f338f97e5eea078089d73d26ad8c0f0d7e68
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The tool's core identity is a prompt-to-app platform that generates and deploys complete web projects.
+      decision_reason: The product's core loop is generating deployable, full-stack applications from natural language rather than acting as a coding assistant for an existing repository.
       decision_evidence:
-        - Generates working applications and live websites from prompts
-        - Integrates with GitHub and Vercel for automated deployment
-        - Uses agentic workflows to plan tasks and connect to databases
+        - Scraped site title explicitly states 'Build Full-Stack Web Apps with AI'.
+        - The product workflow is defined as 'Prompt. Build. Publish.'
+        - Canonical positives for the app-builders category specifically include 'v0 by Vercel'.
       category_candidates:
         - app-builders
         - coding-agents
-      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is the creation of entire applications from prompts rather than the incremental editing of an existing codebase.
+      contrastive_reason: Choose app-builders over coding-agents because its primary identity is turning prompts into new, deployable applications rather than assisting a developer in editing an existing codebase.
       review_reason: null
       review_resume_lifecycle: null
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9

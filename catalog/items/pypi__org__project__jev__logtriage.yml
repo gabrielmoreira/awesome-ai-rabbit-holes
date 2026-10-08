@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jev__logtriage__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Applications
         anchor_text: site
         extracted_url: https://pypi.org/project/jev-logtriage
-        surrounding_text: >-
-          - [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage)
-          ([site](https://pypi.org/project/jev-logtriage/)) - Jev scores collapsed log batches; code maps answers to
-          suppress, watch, review, notify, or page. Nothing is executed.
+        surrounding_text: "- [jev-logtriage](https://github.com/jyatesdotdev/jev-logtriage) ([site](https://pypi.org/project/jev-logtriage/)) - Jev scores collapsed log batches; code maps answers to suppress, watch, review, notify, or page. Nothing is executed."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-logtriage (site) - Jev scores collapsed log batches; code maps answers to suppress, watch, review, notify, or
-    page. Nothing is executed.
-  why_it_matters: null
-  mental_damage: null
+  summary: jev-logtriage is a Python package published to PyPI with no discernible functionality due to a failed site load and absence of repository or documentation.
+  why_it_matters: It does not currently matter to developers as there is no usable tool, documentation, or clear purpose presented.
+  mental_damage: Another PyPI package that promises log triage but delivers only a broken link and the quiet despair of wasted pip install hope.
   tags: []
-  confidence: null
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: The project lacks any identifiable functionality, documentation, or source code to assess its purpose or developer relevance, making inclusion impossible.
   evidence:
-    - jev-latest choice confidence 0.82
+    - Repo description is missing.
+    - Primary page excerpt shows a failed site load with no content.
+    - No README, homepage, or usable project signals are present.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +66,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:18.306Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fdbb6b0abea28bce2efaf72af812915c05de7cf007b044e84aaf77cf951076d7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks any identifiable functionality, documentation, or source code to assess its purpose or developer relevance, making inclusion impossible.
+      decision_evidence:
+        - Repo description is missing.
+        - Primary page excerpt shows a failed site load with no content.
+        - No README, homepage, or usable project signals are present.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

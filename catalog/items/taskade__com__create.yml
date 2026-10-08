@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__taskade__com__create__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - App Builders
         anchor_text: Taskade Genesis
         extracted_url: https://taskade.com/create
-        surrounding_text: >-
-          - **[Taskade Genesis](https://www.taskade.com/create)** – Prompt-to-app builder for live portals, CRMs, and
-          dashboards with agents and automations.
+        surrounding_text: "- **[Taskade Genesis](https://www.taskade.com/create)** – Prompt-to-app builder for live portals, CRMs, and dashboards with agents and automations."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Taskade Genesis – Prompt-to-app builder for live portals, CRMs, and dashboards with agents and automations.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Taskade Genesis is a no-code AI app builder that turns natural-language prompts into deployed apps with projects, agents, and automations.
+  why_it_matters: It lets developers generate full internal tools or dashboards from a single prompt, cutting boilerplate setup time.
+  mental_damage: Finally, a way to feel productive while avoiding actual code by letting AI build the scaffolding you’ll still have to maintain.
+  tags:
+    - app-builder
+    - no-code
+    - ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: Taskade Genesis fits the app-builders category because its core identity is turning prompts into deployable apps, not editing existing codebases or acting as a coding agent.
   evidence:
-    - jev-latest choice confidence 0.96
+    - "Scraped site context: 'Taskade Genesis is a no-code AI app builder that turns natural-language prompts into deployed apps with projects, agents, and automations.'"
+    - "Source-list context: listed in awesome-ai-coding-tools under section: App Builders with the same description."
+    - "README excerpt: 'One Prompt. One App. Powered by your workspace.' confirms the prompt-to-app workflow."
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:59.661Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4297093847a49ee29d5f1a837ec36813b7eea46a4142729418c05bc53c4e9f8b
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: Taskade Genesis fits the app-builders category because its core identity is turning prompts into deployable apps, not editing existing codebases or acting as a coding agent.
+      decision_evidence:
+        - "Scraped site context: 'Taskade Genesis is a no-code AI app builder that turns natural-language prompts into deployed apps with projects, agents, and automations.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under section: App Builders with the same description."
+        - "README excerpt: 'One Prompt. One App. Powered by your workspace.' confirms the prompt-to-app workflow."
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Taskade Genesis generates new deployable apps from prompts without acting on an existing codebase, which is the defining boundary for app-builders per the decision ladder.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

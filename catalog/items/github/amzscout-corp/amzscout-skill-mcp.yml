@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amzscout-corp__amzscout-skill-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🛒 E-Commerce
         anchor_text: amzscout-corp/amzscout-skill-mcp
         extracted_url: https://github.com/amzscout-corp/amzscout-skill-mcp
-        surrounding_text: >-
-          -   **[amzscout-corp/amzscout-skill-mcp](https://github.com/amzscout-corp/amzscout-skill-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/amzscout-corp/amzscout-skill-mcp?style=social)](https://github.com/amzscout-corp/amzscout-skill-mcp):
-          Connects AI agents to real Amazon marketplace data for product research, niche validation, competitor
-          analysis, keyword discovery, and Amazon PPC planning.
+        surrounding_text: "-   **[amzscout-corp/amzscout-skill-mcp](https://github.com/amzscout-corp/amzscout-skill-mcp)** [![GitHub stars](https://img.shields.io/github/stars/amzscout-corp/amzscout-skill-mcp?style=social)](https://github.com/amzscout-corp/amzscout-skill-mcp): Connects AI agents to real Amazon marketplace data for product research, niche validation, competitor analysis, keyword discovery, and Amazon PPC planning."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: amzscout-corp/amzscout-skill-mcp
     html_url: https://github.com/amzscout-corp/amzscout-skill-mcp
-    created_at: '2026-07-30T16:49:24Z'
-    pushed_at: '2026-09-27T18:42:21Z'
-    description: >-
-      AMZScout Skill + MCP - bringing real Amazon research data into Claude, ChatGPT, Cursor, OpenClaw and other MCP
-      clients
+    created_at: "2026-07-30T16:49:24Z"
+    pushed_at: "2026-09-27T18:42:21Z"
+    description: AMZScout Skill + MCP - bringing real Amazon research data into Claude, ChatGPT, Cursor, OpenClaw and other MCP clients
     homepage: https://learn.amzscout.net/amazon-product-api-for-ai-agents
     topics:
       - ai-agent
@@ -61,14 +55,12 @@ metadata:
       - model-context-protocol
       - openclaw
       - product-research
-    last_checked_at: '2026-09-29T13:08:57.037Z'
+    last_checked_at: "2026-09-29T13:08:57.037Z"
     readme:
-      fetched_at: '2026-09-29T13:08:57.037Z'
+      fetched_at: "2026-09-29T13:08:57.037Z"
       bytes: 13281
 insights:
-  summary: >-
-    AMZScout Skill + MCP - bringing real Amazon research data into Claude, ChatGPT, Cursor, OpenClaw and other MCP
-    clients
+  summary: AMZScout Skill + MCP - bringing real Amazon research data into Claude, ChatGPT, Cursor, OpenClaw and other MCP clients
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -90,15 +82,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:57.037Z'
+    updated_at: "2026-09-29T13:08:57.037Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

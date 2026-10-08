@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dfranco-projects__jev-guardbench__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-guardbench
         extracted_url: https://github.com/dfranco-projects/jev-guardbench
-        surrounding_text: >-
-          - [jev-guardbench](https://github.com/dfranco-projects/jev-guardbench) - Bench: can TypeSafe Jev / open-source
-          Kev replace LLM-as-judge in agent guardrail callbacks? (license unspecified). [Project
-          guide](community/projects/tools/dfranco-projects-jev-guardbench.md).
+        surrounding_text: "- [jev-guardbench](https://github.com/dfranco-projects/jev-guardbench) - Bench: can TypeSafe Jev / open-source Kev replace LLM-as-judge in agent guardrail callbacks? (license unspecified). [Project guide](community/projects/tools/dfranco-projects-jev-guardbench.md)."
         confidence: high
 metadata:
   github:
@@ -33,14 +30,14 @@ metadata:
     archived: false
     full_name: dfranco-projects/jev-guardbench
     html_url: https://github.com/dfranco-projects/jev-guardbench
-    created_at: '2026-09-22T21:14:12Z'
-    pushed_at: '2026-09-27T22:24:15Z'
+    created_at: "2026-09-22T21:14:12Z"
+    pushed_at: "2026-09-27T22:24:15Z"
     description: Can a System One model (TypeSafe Jev, open-source Kev) replace an LLM-as-judge in agent guardrail callbacks?
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:39.344Z'
+    last_checked_at: "2026-09-29T13:10:39.344Z"
     readme:
-      fetched_at: '2026-09-29T13:10:39.344Z'
+      fetched_at: "2026-09-29T13:10:39.344Z"
       bytes: 2003
 insights:
   summary: Can a System One model (TypeSafe Jev, open-source Kev) replace an LLM-as-judge in agent guardrail callbacks?
@@ -53,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.87
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -67,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:39.344Z'
+    updated_at: "2026-09-29T13:10:39.344Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

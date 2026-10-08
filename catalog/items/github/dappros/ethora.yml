@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dappros__ethora__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,12 +20,7 @@ provenance:
           - 💬 Communication
         anchor_text: Ethora
         extracted_url: https://github.com/dappros/ethora
-        surrounding_text: >-
-          -   **[dappros/ethora-mcp-server](https://github.com/dappros/ethora-mcp-server)** [![GitHub
-          stars](https://img.shields.io/github/stars/dappros/ethora-mcp-server?style=social)](https://github.com/dappros/ethora-mcp-server):
-          Official MCP server for the [Ethora](https://github.com/dappros/ethora) open-source chat & messaging platform
-          — 80 tools for managing chat apps, deploying AI agents/chatbots with RAG, broadcasting messages, and B2B
-          provisioning. Install via `npx -y @ethora/mcp-server`.
+        surrounding_text: "-   **[dappros/ethora-mcp-server](https://github.com/dappros/ethora-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/dappros/ethora-mcp-server?style=social)](https://github.com/dappros/ethora-mcp-server): Official MCP server for the [Ethora](https://github.com/dappros/ethora) open-source chat & messaging platform — 80 tools for managing chat apps, deploying AI agents/chatbots with RAG, broadcasting messages, and B2B provisioning. Install via `npx -y @ethora/mcp-server`."
         confidence: high
 metadata:
   github:
@@ -35,12 +30,9 @@ metadata:
     archived: false
     full_name: dappros/ethora
     html_url: https://github.com/dappros/ethora
-    created_at: '2021-06-21T12:59:37Z'
-    pushed_at: '2026-09-28T06:08:10Z'
-    description: >-
-      SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually
-      or using ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud
-      [free]. Dedicated server + SLA option for enterprise customers.
+    created_at: "2021-06-21T12:59:37Z"
+    pushed_at: "2026-09-28T06:08:10Z"
+    description: "SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually or using ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud [free]. Dedicated server + SLA option for enterprise customers."
     homepage: https://ethora.com/
     topics:
       - ai-chat
@@ -63,15 +55,12 @@ metadata:
       - reactjs
       - wallet
       - xmpp
-    last_checked_at: '2026-09-29T13:10:23.878Z'
+    last_checked_at: "2026-09-29T13:10:23.878Z"
     readme:
-      fetched_at: '2026-09-29T13:10:23.878Z'
+      fetched_at: "2026-09-29T13:10:23.878Z"
       bytes: 18521
 insights:
-  summary: >-
-    SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually
-    or using ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud [free].
-    Dedicated server + SLA option for enterprise customers.
+  summary: "SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually or using ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud [free]. Dedicated server + SLA option for enterprise customers."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -91,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:23.878Z'
+    updated_at: "2026-09-29T13:10:23.878Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

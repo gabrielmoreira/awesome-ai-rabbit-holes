@@ -3,14 +3,14 @@
 
 Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 
-_166 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_167 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [IDE & Editor Add-ons](#ide--editor-add-ons) — 26
+- [IDE & Editor Add-ons](#ide--editor-add-ons) — 25
 - [Claude Code & Agent Tools](#claude-code--agent-tools) — 77
-- [Testing & Code Quality](#testing--code-quality) — 16
-- [Security & DevSecOps](#security--devsecops) — 24
+- [Testing & Code Quality](#testing--code-quality) — 15
+- [Security & DevSecOps](#security--devsecops) — 27
 - [API & Service Integrations](#api--service-integrations) — 23
 
 ## IDE & Editor Add-ons
@@ -116,8 +116,14 @@ _166 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `file-management` `ai-powered` `macos` `productivity`
   </details>
-- **[LegacyDoc AI](https://romanticode.com/legacydoc-ai)** LegacyDoc AI – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.
-- **[Supercode.sh](https://supercode.sh/en)** Supercode.sh – Cursor extension adding Architect Mode, voice input, and prompt enhancement.
+- **[LegacyDoc AI](https://romanticode.com/legacydoc-ai)** LegacyDoc AI is a VS Code extension that generates JSDoc, Markdown docs, Mermaid diagrams, and AI-ready context packs from selected code to document legacy or AI-generated projects before cleanup or handoff. <details><summary>More about</summary>
+
+  It helps developers make undocumented codebases reviewable and safer to modify by providing structured documentation and context for humans and AI agents before changes are made.
+
+  _Another documentation tool that promises to fix the 'no docs' problem while quietly admitting the output needs human review to avoid hallucinated truths._
+
+  `vscode-extension` `documentation` `context-pack` `ai-coding-agent`
+  </details>
 
 ## Claude Code & Agent Tools
 
@@ -295,10 +301,10 @@ _166 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[uhuntu/clisweave](https://github.com/uhuntu/clisweave)** `⭐ 0` Tiny, dependency-free CLI wrapper unifying Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three tools, plus a cross-tool numbered session list, resume-by-row-number, and an LLM-judged topic search that finds relevant past sessions by content, not just exact keyword match. Single Python package, no daemon. MIT.
 - **[wesleysmits/codex-triage](https://github.com/wesleysmits/codex-triage)** `⭐ 0` codex-triage - Local Codex task triage with human-reviewed archiving and optional TypeSafe Jev analysis. Project guide.
 - **[Bwee](https://bwee.app)** Bwee.app is a native macOS GUI that wraps Claude Code to let users build custom UIs via chat.
-- **[Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html)** Codex First Task Prompt Generator – Free prompt generator that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
-- **[jev-enforce](https://npmjs.com/package/jev-enforce)** jev-enforce (site) - Claude Code plugin that makes Claude follow your CLAUDE.md: every reply and edit checked by TypeSafe Jev ✅.
 - **[OpenClaw](https://docs.openclaw.ai/zh-CN)** OpenClaw is a self-hosted multi-channel AI agent gateway that connects messaging platforms to AI coding agents via channel plugins.
-- **[Supercode.sh](https://supercode.sh)** Supercode.sh is an extension for Claude, Codex, and Cursor that optimizes token usage, provides curated agent skills, and enables spec-driven development.
+- **[pi.dev](https://pi.dev)** Pi Agent Foreman is an extension that enables a terminal-based coding agent (Pi) to resume unfinished work by checking for explicit work commands in user requests.
+- **[Supercode.sh](https://supercode.sh)** Supercode.sh is a paid extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor agents.
+- **[Supercode.sh](https://supercode.sh/en)** Supercode is a browser extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor.
 
 </details>
 
@@ -346,7 +352,6 @@ _166 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `testing` `ai` `qa` `static-analysis` `devops`
   </details>
-- **[PyPI](https://pypi.org/project/commitpreflight)** commitpreflight – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available on PyPI with pre-commit hook support.
 - **[Testim](https://testim.io)** Testim is an automated testing platform for web, mobile, and Salesforce applications that uses AI to accelerate test authoring and improve test stability. <details><summary>More about</summary>
 
   It helps developers reduce test maintenance and authoring time by using AI to self-heal locators and generate tests from natural language.
@@ -439,6 +444,22 @@ _166 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `security` `devsecops` `ai-sast` `vulnerability-management`
   </details>
+- **[Cycode](https://cycode.com)** Cycode.com is an Agentic Development Security Platform that unifies security and development teams with actionable, code-to-runtime context to identify, prioritize, and fix software risk. <details><summary>More about</summary>
+
+  It helps developers shift security left by providing preventative guardrails and AI-driven remediation across AI-assisted development workflows.
+
+  _Another platform promising to secure the unsecurable AI-generated code flood, adding yet another layer of tooling to the already chaotic SDLC._
+
+  `security` `devsecops` `ai-governance`
+  </details>
+- **[DeployRamp](https://deployramp.com)** AI-powered feature flag management that automatically detects risky code changes, wraps them in flags, and manages the cleanup lifecycle. <details><summary>More about</summary>
+
+  It automates the tedious manual work of feature flagging, reducing deployment risk and preventing the accumulation of stale flag debt.
+
+  _It automates the exact type of manual grunt work that makes you want to quit your job at 3 AM during a botched rollout._
+
+  `feature-flags` `devops` `deployment-safety` `automation` `ai-agent`
+  </details>
 - **[Gecko Security](https://gecko.security)** Gecko Security is an AI-powered security scanning tool that finds business logic flaws and multi-step vulnerabilities by building a semantic understanding of codebases. <details><summary>More about</summary>
 
   It helps developers catch critical security issues that traditional SAST tools miss, reducing noise and accelerating remediation within existing workflows.
@@ -486,6 +507,14 @@ _166 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _Another security tool that promises to 'shift left' while adding another tab to your already overflowing IDE sidebar._
 
   `security` `devsecops` `sast` `sca` `ai-remediation`
+  </details>
+- **[VibeDoctor](https://vibedoctor.io)** A security, performance, and code quality scanner designed to audit applications built by AI agents. <details><summary>More about</summary>
+
+  It provides a diagnostic safety net that catches common agent-driven errors—like hallucinated imports and exposed secrets—before they reach production.
+
+  _It's a digital second opinion to ensure your agent's 'vibe' hasn't accidentally compromised your entire production environment._
+
+  `security` `mcp` `code-quality` `agent-tooling`
   </details>
 
 ## API & Service Integrations
@@ -582,11 +611,11 @@ _166 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[LucasGorgal/localfig](https://github.com/lucasgorgal/localfig)** `⭐ 1` LucasGorgal/localfig - Exposes the Figma desktop app's Plugin API on the open file: inline renders, design token reading and one undo step per call, without the cloud API.
 - **[nabsku/pi-follow-through](https://github.com/nabsku/pi-follow-through)** `⭐ 1` pi-follow-through - Pi extension that asks TypeSafe Jev whether useful work remains after a run and nudges only with verifiable unfinished evidence. Project guide.
 - **[biztactix/n8n-nodes-typesafe](https://github.com/biztactix/n8n-nodes-typesafe)** `⭐ 0` `updated ≤30d` Typesafe AI Node for N8N.
-- **[ClevAgent](https://clevagent.io)** ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments. <details><summary>More about</summary>
+- **[ClevAgent](https://clevagent.io)** ClevAgent is a workspace for running and guiding AI agents with built-in safety and optimization layers. <details><summary>More about</summary>
 
-  It reduces wasted effort and security risks when running AI agents by enforcing guardrails and auditing actions.
+  It provides independent oversight of agent actions to prevent costly mistakes like credential leaks or destructive commands.
 
-  _Another layer of AI supervision that makes you wait for approvals while the agent sits idle, echoing the anxiety of the last year’s AI tooling chaos._
+  _Finally, a babysitter for your AI intern who keeps ordering $2000 pizzas on the corporate card._
 
-  `ai-dev-extensions` `mcp`
+  `agent-safety` `workspace` `guardrails`
   </details>

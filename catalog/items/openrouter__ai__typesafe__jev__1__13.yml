@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__openrouter__ai__typesafe__jev__1__13__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,13 +18,10 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://openrouter.ai/typesafe/jev-1.13
-        surrounding_text: >-
-          - [jev-decisions](https://github.com/bojansandhaus/jev-decisions)
-          ([site](https://openrouter.ai/typesafe/jev-1.13)) - Safety checks for Hermes and other AI agents before they
-          act, ask for approval, or verify a change.
+        surrounding_text: "- [jev-decisions](https://github.com/bojansandhaus/jev-decisions) ([site](https://openrouter.ai/typesafe/jev-1.13)) - Safety checks for Hermes and other AI agents before they act, ask for approval, or verify a change."
         confidence: high
     - id: discovery__openrouter__ai__typesafe__jev__1__13__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,9 +33,7 @@ provenance:
           - Provider integrations
         anchor_text: OpenRouter
         extracted_url: https://openrouter.ai/typesafe/jev-1.13
-        surrounding_text: >-
-          - [OpenRouter](https://openrouter.ai/typesafe/jev-1.13) - Provider listing for `typesafe/jev-1.13`, alongside
-          the moving `typesafe/jev-latest` alias.
+        surrounding_text: "- [OpenRouter](https://openrouter.ai/typesafe/jev-1.13) - Provider listing for `typesafe/jev-1.13`, alongside the moving `typesafe/jev-latest` alias."
         confidence: high
 metadata:
   github:
@@ -56,29 +51,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-decisions (site) - Safety checks for Hermes and other AI agents before they act, ask for approval, or verify a
-    change.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev 1.13 is a structured decision model from TypeSafe that returns typed choices instead of free-form text for fast, predictable application decisions.
+  why_it_matters: Developers can use Jev 1.13 for routing, classification, and guardrails where speed and predictability matter more than generated prose.
+  mental_damage: Another model promising to save you from LLM chaos, as if adding yet another API endpoint will finally fix your prompt engineering fatigue.
+  tags:
+    - decision-model
+    - typed-output
+    - low-latency
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: Jev 1.13 is a structured decision model whose core identity is returning typed choices with probabilities, fitting the decision-models category even when used in agent tooling.
   evidence:
-    - jev-latest choice confidence 0.68
+    - Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text.
+    - It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose.
+    - Seen in source lists under 'Provider integrations' and 'Agent tooling' for Jev, a structured decision model from TypeSafe.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,6 +84,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:44.213Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c1c5e12a7db62bdd9b6d2b6d6a00aaef1475233b685893f3af37e4257b7c2b4b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev 1.13 is a structured decision model whose core identity is returning typed choices with probabilities, fitting the decision-models category even when used in agent tooling.
+      decision_evidence:
+        - Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text.
+        - It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose.
+        - Seen in source lists under 'Provider integrations' and 'Agent tooling' for Jev, a structured decision model from TypeSafe.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jev 1.13's identity is the decision model itself, not an integration that augments a host agent with decision capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

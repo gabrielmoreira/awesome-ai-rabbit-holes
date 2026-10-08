@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danieljvdm__effect-agent__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**effect-agent**'
+        anchor_text: "**effect-agent**"
         extracted_url: https://github.com/danieljvdm/effect-agent
-        surrounding_text: >-
-          - [**effect-agent**](https://github.com/danieljvdm/effect-agent) — An Effect Agent TypeSafe decision provider
-          for typed question sets and optional model selection.
+        surrounding_text: "- [**effect-agent**](https://github.com/danieljvdm/effect-agent) — An Effect Agent TypeSafe decision provider for typed question sets and optional model selection."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: danieljvdm/effect-agent
     html_url: https://github.com/danieljvdm/effect-agent
-    created_at: '2026-07-29T22:08:15Z'
-    pushed_at: '2026-09-29T06:06:37Z'
+    created_at: "2026-07-29T22:08:15Z"
+    pushed_at: "2026-09-29T06:06:37Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:21.720Z'
+    last_checked_at: "2026-09-29T13:10:21.720Z"
     readme:
-      fetched_at: '2026-09-29T13:10:21.720Z'
+      fetched_at: "2026-09-29T13:10:21.720Z"
       bytes: 5289
 insights:
   summary: effect-agent — An Effect Agent TypeSafe decision provider for typed question sets and optional model selection.
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:21.720Z'
+    updated_at: "2026-09-29T13:10:21.720Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

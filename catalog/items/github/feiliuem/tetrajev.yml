@@ -69,6 +69,21 @@ provenance:
         extracted_url: https://github.com/feiliuem/tetrajev
         surrounding_text: "- [TetraJev](https://github.com/FeiLiuEM/tetrajev) - Decides complex bounded decisions (a state plus 2–20 options): two frozen open-weight readers contribute four readings (letter + per-candidate yes/no), fused fit-free and routed by agreement between auto-release and human review; eight decision suites and the RAG reranking pass evaluated with coverage–accuracy curves. Open reproduction; does not call the TypeSafe API."
         confidence: high
+    - id: discovery__github__feiliuem__tetrajev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: TetraJev
+        extracted_url: https://github.com/feiliuem/tetrajev
+        surrounding_text: "- [TetraJev](https://github.com/FeiLiuEM/tetrajev) - High-performance, high-precision, locally-fast-deployed Jev-class decision service — four readings, one routed decision, zero training."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -113,7 +128,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.932Z"
+    updated_at: "2026-10-08T04:16:14.229Z"
     cause: null
     next_retry_at: null
   stars:
@@ -122,6 +137,9 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

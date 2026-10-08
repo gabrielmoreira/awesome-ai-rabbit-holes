@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__yesno__coderai__dev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: Yes / No
         extracted_url: https://yesno.coderai.dev
-        surrounding_text: >-
-          - [Yes / No](https://yesno.coderai.dev) - Free, no-signup Noul demo. Ask a question, get yes, no, or maybe,
-          with web search when needed.
+        surrounding_text: "- [Yes / No](https://yesno.coderai.dev) - Free, no-signup Noul demo. Ask a question, get yes, no, or maybe, with web search when needed."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Yes / No - Free, no-signup Noul demo. Ask a question, get yes, no, or maybe, with web search when needed.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Yes/No is a free web demo of the Jev decision model from TypeSafe AI that returns Yes, No, or Maybe answers to typed questions, optionally using live web search.
+  why_it_matters: It gives developers a no-signup way to test a decision model’s judgment for routing, triage, or verification tasks in agent workflows.
+  mental_damage: Yet another toy demo that makes you wonder if your next production guardrail will be built on a coin-flip API.
+  tags:
+    - decision-model
+    - demo
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: YesNo is a hands-on demo of the Jev decision model itself, making the model’s judgment the core product rather than a coding agent, framework, or MCP adapter.
   evidence:
-    - jev-latest choice confidence 0.93
+    - Scraped site describes it as 'a free web tool and a hands-on demo of Jev by TypeSafe AI'
+    - README excerpt states 'Jev estimates how likely the answer is Yes' and returns constrained Yes/No/Maybe outputs
+    - Source-list context places it in awesome-jev under 'Demos & playgrounds' for the Jev System One model
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:47.398Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:75512724dbc8eee751f160fc992ab7a7be9d2bf98ab6b0d4278fb0080e81bd5a
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: YesNo is a hands-on demo of the Jev decision model itself, making the model’s judgment the core product rather than a coding agent, framework, or MCP adapter.
+      decision_evidence:
+        - Scraped site describes it as 'a free web tool and a hands-on demo of Jev by TypeSafe AI'
+        - README excerpt states 'Jev estimates how likely the answer is Yes' and returns constrained Yes/No/Maybe outputs
+        - Source-list context places it in awesome-jev under 'Demos & playgrounds' for the Jev System One model
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product’s identity is the Jev decision model’s judgment, not autonomous code editing or file manipulation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

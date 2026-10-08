@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__kuberns__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Kuberns
         extracted_url: https://kuberns.com
-        surrounding_text: >-
-          - **[Kuberns](https://kuberns.com/)** – Agentic AI deployment platform that auto-detects tech stacks,
-          provisions infrastructure, and deploys applications from GitHub repositories with zero configuration.
+        surrounding_text: "- **[Kuberns](https://kuberns.com/)** – Agentic AI deployment platform that auto-detects tech stacks, provisions infrastructure, and deploys applications from GitHub repositories with zero configuration."
         confidence: high
 metadata:
   github:
@@ -38,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Kuberns – Agentic AI deployment platform that auto-detects tech stacks, provisions infrastructure, and deploys
-    applications from GitHub repositories with zero configuration.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Kuberns is an AI agentic platform that automatically deploys, scales, and manages cloud applications by analyzing code and provisioning infrastructure.
+  why_it_matters: It reduces DevOps overhead by letting developers deploy apps via AI agents instead of manually configuring CI/CD or cloud resources.
+  mental_damage: Finally, a way to feel guilty about skipping infrastructure learning while your AI agent quietly provisions a VPC you don’t understand.
+  tags:
+    - devops
+    - ai-agent
+    - cloud-deployment
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  status: excluded
+  reason: Kuberns is a cloud deployment automation platform with AI agents, but its primary value is infrastructure management—not coding tasks—so it does not fit the developer-tooling scope focused on code-centric AI agents, extensions, or workflows.
   evidence:
-    - jev-latest choice confidence 0.79
+    - "Scraped site context: 'Kuberns is an AI agentic platform that deploys, scales, and manages your apps on the cloud automatically — cutting DevOps effort and cost.'"
+    - "Source-list context: listed in awesome-ai-coding-tools under DevOps and Infrastructure with the same description."
+    - "README excerpt emphasizes deployment workflows: 'Connect your Github → AI Agent analyzes your Code → AI Agent Deploys → Manages' — focused on cloud ops, not code editing or generation."
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Full App Builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:54.007Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:09f65aa2d0c587e146afce95cfdfe0fe4a44900c0cda29f01724ff2fb6d2ea28
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Kuberns is a cloud deployment automation platform with AI agents, but its primary value is infrastructure management—not coding tasks—so it does not fit the developer-tooling scope focused on code-centric AI agents, extensions, or workflows.
+      decision_evidence:
+        - "Scraped site context: 'Kuberns is an AI agentic platform that deploys, scales, and manages your apps on the cloud automatically — cutting DevOps effort and cost.'"
+        - "Source-list context: listed in awesome-ai-coding-tools under DevOps and Infrastructure with the same description."
+        - "README excerpt emphasizes deployment workflows: 'Connect your Github → AI Agent analyzes your Code → AI Agent Deploys → Manages' — focused on cloud ops, not code editing or generation."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

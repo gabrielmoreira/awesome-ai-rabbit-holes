@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__kushalicious__jevcache__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/@kushalicious/jevcache
-        surrounding_text: >-
-          - [jevcache (kushals256)](https://github.com/kushals256/jevcache)
-          ([site](https://www.npmjs.com/package/@kushalicious/jevcache)) - Skip expensive LLM calls when TypeSafe Jev
-          says same intent. OpenAI-compatible local cache proxy — npx @kushalicious/jevcache.
+        surrounding_text: "- [jevcache (kushals256)](https://github.com/kushals256/jevcache) ([site](https://www.npmjs.com/package/@kushalicious/jevcache)) - Skip expensive LLM calls when TypeSafe Jev says same intent. OpenAI-compatible local cache proxy — npx @kushalicious/jevcache."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevcache (kushals256) (site) - Skip expensive LLM calls when TypeSafe Jev says same intent. OpenAI-compatible local
-    cache proxy — npx @kushalicious/jevcache.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jevcache is an npm package associated with Jev (TypeSafe System One) decision models, used within agent tooling directories.
+  why_it_matters: It enables developers to integrate Jev-based decision-model judgments into agent workflows for routing, scoring, or guardrails.
+  mental_damage: Yet another npm package that feels like a dependency graph node pretending to be a tool, just to keep the Jev ecosystem from collapsing under its own modularity.
+  tags:
+    - jev
+    - decision-model
+    - agent-tooling
+    - npm
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  reason: jevcache belongs in decision-models because it is agent tooling whose identity is the Jev model judgment, as indicated by its presence in the awesome-jev list under agent tooling for Jev-based projects.
   evidence:
-    - jev-latest choice confidence 0.44
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed decision-models / Local Serving & Gateways; placement kept at
-      decision-models (unverified)
+    - "Listed in awesome-jev with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model' under section: Agent tooling"
+    - Package name @kushalicious/jevcache on npm implies a Jev-related caching or utility layer
+    - No evidence of being a coding agent, app builder, or framework — identity tied to Jev decision-model ecosystem
 placement:
   primary_category: decision-models
   secondary_categories:
     - local-ai
-  section: Local Serving & Gateways
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:03.599Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6531aae20cff680140a661f69b5a8bfffdb8ed0d39bd900c03cba15550d25267
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jevcache belongs in decision-models because it is agent tooling whose identity is the Jev model judgment, as indicated by its presence in the awesome-jev list under agent tooling for Jev-based projects.
+      decision_evidence:
+        - "Listed in awesome-jev with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model' under section: Agent tooling"
+        - Package name @kushalicious/jevcache on npm implies a Jev-related caching or utility layer
+        - No evidence of being a coding agent, app builder, or framework — identity tied to Jev decision-model ecosystem
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jevcache's identity is tied to Jev judgment-based tooling (per source-list context), not to extending a host agent's workflow capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

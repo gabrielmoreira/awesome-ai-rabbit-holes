@@ -36,25 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Builder.io is a collaborative platform for teams to build software with AI agents, enabling engineers, designers, PMs, and marketers to work from a single codebase.
-  why_it_matters: It allows cross-functional teams to prototype, develop, and ship product experiences without handoffs, using shared context and design systems.
-  mental_damage: Finally, a tool that lets PMs and designers commit code directly—what could possibly go wrong.
+  summary: A collaborative platform for building web applications, marketing sites, and digital experiences using AI agents and a visual editor.
+  why_it_matters: It aims to bridge the gap between designers, marketers, and engineers by allowing non-technical roles to contribute to production code via prompts and visual tools.
+  mental_damage: It promises a world where marketing teams can ship production code, provided you trust their prompts more than your own unit tests.
   tags:
-    - ai-platform
-    - collaborative-coding
     - visual-editor
-    - agentic-cms
-    - multi-role-workflow
+    - ai-agents
+    - cms
+    - design-to-code
+    - low-code
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
+  reason: The product's primary identity is a platform that transforms prompts and designs into deployable web applications and sites, rather than a tool for editing existing code.
   evidence:
-    - jev-latest choice confidence 0.72
+    - Claims to turn prompts, ideas, and designs into working prototypes and apps.
+    - Offers an agentic CMS and visual editor to create production-ready UI.
+    - Targets the creation of new marketing sites, apps, and internal tools.
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null
@@ -69,30 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:57:52.556Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for www__builder__io: Invalid AI response format: SyntaxError: Unexpected token 'B', ...\"_reason\": Builder.io\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:32:04.396Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:0f9fec13b056d27b47ff62d29ead81c898ea081408392ac8fc4730589e250ebf
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f956b87a362c574c2aff88de4996e9fb1614d8ceb7463218e7fc898afa5f9749
       proposed_primary_category: app-builders
       disagreement: false
-      decision_reason: The core product turns prompts and collaborative workflows into production-ready apps, sites, and internal tools, fitting the prompt-to-app builder identity.
+      decision_reason: The product's primary identity is a platform that transforms prompts and designs into deployable web applications and sites, rather than a tool for editing existing code.
       decision_evidence:
-        - Primary page excerpt describes 'Build software with your team and agents' and 'Create real product experiences that stay on brand, in code, and ready to ship'
-        - Platform explicitly supports 'Fusion' for app/UI building and 'Publish' for content/experience management, both driven by AI agents
-        - Use cases include 'App development', 'Prototyping', and 'Marketing sites' with a focus on prompt-driven creation
+        - Claims to turn prompts, ideas, and designs into working prototypes and apps.
+        - Offers an agentic CMS and visual editor to create production-ready UI.
+        - Targets the creation of new marketing sites, apps, and internal tools.
       category_candidates:
         - app-builders
-        - agent-orchestration
-      contrastive_reason: Choose app-builders over agent-orchestration because the primary value is generating and shipping apps/sites from prompts, not coordinating multiple agents as a runtime platform.
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the main surface turns prompts and designs into complete, deployable interfaces instead of just helping a developer edit a repository.
       review_reason: null
       review_resume_lifecycle: null

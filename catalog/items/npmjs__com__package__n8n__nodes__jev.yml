@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__n8n__nodes__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://npmjs.com/package/n8n-nodes-jev
-        surrounding_text: >-
-          - [n8n-nodes-jev](https://github.com/vibe-with-me-tools/n8n-nodes-jev)
-          ([site](https://www.npmjs.com/package/n8n-nodes-jev)) - Helper n8n community node for Jev by TypeSafe.
-          Classify, route, and score text with questions you define, and get a probability for every answer so unsure
-          items can go to review.
+        surrounding_text: "- [n8n-nodes-jev](https://github.com/vibe-with-me-tools/n8n-nodes-jev) ([site](https://www.npmjs.com/package/n8n-nodes-jev)) - Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions you define, and get a probability for every answer so unsure items can go to review."
         confidence: high
 metadata:
   github:
@@ -40,9 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    n8n-nodes-jev (site) - Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions
-    you define, and get a probability for every answer so unsure items can go to review.
+  summary: n8n-nodes-jev (site) - Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions you define, and get a probability for every answer so unsure items can go to review.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -62,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:43:15.049Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for npmjs__com__package__n8n__nodes__jev: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The packag\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

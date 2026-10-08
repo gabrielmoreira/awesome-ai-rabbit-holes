@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A login page for Feishu accounts.
-  why_it_matters: None — this is a generic authentication portal with no developer tooling or AI relevance.
-  mental_damage: Another reminder that not every URL shared in an awesome list is actually a tool, let alone an AI one.
+  summary: A login page for the Feishu (Lark) enterprise collaboration platform.
+  why_it_matters: "N/A: This is a login gateway for a service, not a developer tool."
+  mental_damage: Adding login screens to a curated catalog is the logical endpoint of AI tool exhaustion.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: This is a login landing page for Feishu (Lark) accounts, not a software tool, agent, library, or any form of developer-facing infrastructure.
+  reason: The input is a login URL for the Feishu platform rather than a standalone AI tool, framework, or meaningful developer resource.
   evidence:
-    - URL is https://accounts.feishu.cn/accounts/page/login — a standard authentication page
-    - No repo description, README, or product description indicates any tool functionality
-    - Listed in awesome-LLM-resources under '课程 Course', suggesting it was mistakenly included as a resource link
+    - The URL points specifically to a Feishu login page
+    - The name 'login' provides no tool-specific context
+    - Source context indicates it is likely an entry point for a course rather than a product
 placement:
   primary_category: null
   section: null
@@ -66,24 +66,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:27:25.794Z"
+    updated_at: "2026-10-08T04:20:02.074Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:625759d4ec072bdf9b5a12314bf662253ba07ea06e9b5ce3d9a0e61a4236953b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: This is a login landing page for Feishu (Lark) accounts, not a software tool, agent, library, or any form of developer-facing infrastructure.
+      decision_reason: The input is a login URL for the Feishu platform rather than a standalone AI tool, framework, or meaningful developer resource.
       decision_evidence:
-        - URL is https://accounts.feishu.cn/accounts/page/login — a standard authentication page
-        - No repo description, README, or product description indicates any tool functionality
-        - Listed in awesome-LLM-resources under '课程 Course', suggesting it was mistakenly included as a resource link
+        - The URL points specifically to a Feishu login page
+        - The name 'login' provides no tool-specific context
+        - Source context indicates it is likely an entry point for a course rather than a product
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vibeaudit__sh__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: VibeAudit
         extracted_url: https://vibeaudit.sh
-        surrounding_text: >-
-          - **[VibeAudit](https://vibeaudit.sh/)** – Pre-launch code audit that reads your whole repo and returns a
-          launch-readiness score plus fixes as paste-ready prompts for your AI editor.
+        surrounding_text: "- **[VibeAudit](https://vibeaudit.sh/)** – Pre-launch code audit that reads your whole repo and returns a launch-readiness score plus fixes as paste-ready prompts for your AI editor."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    VibeAudit – Pre-launch code audit that reads your whole repo and returns a launch-readiness score plus fixes as
-    paste-ready prompts for your AI editor.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI-powered scanner that audits GitHub repositories for security and reliability risks and generates fix prompts for AI editors.
+  why_it_matters: It provides a critical safety net for developers using 'vibe-coding' workflows to catch flaws in authentication, payments, and secrets before deployment.
+  mental_damage: It is the sobering reality check for anyone who believed their prompt-engineered app was actually production-ready.
+  tags:
+    - security
+    - auditing
+    - github
+    - code-quality
+    - prompts
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.85
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept
-      at coding-agents (unverified)
+    - jev winnow:e4b 0.43 below gate 0.50; proposed decision-models / Verification, Guardrails & Safety; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
     - decision-models
-  section: Review, Testing & Repair
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:41.304Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c9c88fff4e839a1076a7937e58b45a3a69586ef4e4e27cc5c928d095dc47e4a7
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: It functions as a specialized security and code-quality auditing layer that augments existing AI editors by providing actionable fix prompts.
+      decision_evidence:
+        - Generates findings and fix prompts specifically for AI editors like Cursor, Claude Code, and Bolt
+        - Scans repositories for high-risk issues in Auth, Payments, and Secrets
+        - Designed to complement 'vibe-coded' workflows rather than acting as the primary coding assistant
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because it provides security audits and fix prompts to be used within a host editor rather than acting as the primary autonomous coder.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

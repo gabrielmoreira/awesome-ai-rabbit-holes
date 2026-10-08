@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__uizze__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: UIZZE
         extracted_url: https://uizze.com
-        surrounding_text: >-
-          - **[UIZZE](https://uizze.com/)** – Stop generic UI before it ships. The free MIT `anti-ui-slop` Skill gives
-          coding agents a product-specific design contract, required loading/empty/error states, and a hard finish gate.
-          The optional authenticated MCP provides `find_ui_references` and `find_ui_materials` over 800,000+ real web
-          and iOS screens.
+        surrounding_text: "- **[UIZZE](https://uizze.com/)** – Stop generic UI before it ships. The free MIT `anti-ui-slop` Skill gives coding agents a product-specific design contract, required loading/empty/error states, and a hard finish gate. The optional authenticated MCP provides `find_ui_references` and `find_ui_materials` over 800,000+ real web and iOS screens."
         confidence: high
 metadata:
   github:
@@ -40,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    UIZZE – Stop generic UI before it ships. The free MIT anti-ui-slop Skill gives coding agents a product-specific
-    design contract, required loading/empty/error states, and a hard finish gate. The optional authenticated MCP
-    provides find_ui_references and find_ui_materials over 800,000+ real web and iOS screens.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Uizze is a searchable library of 800,000+ real web and iOS screens designed to provide visual UI references for AI coding agents.
+  why_it_matters: It gives AI coding agents concrete design examples to improve UI generation quality when building or editing interfaces.
+  mental_damage: Hope your agent doesn’t get stuck in an infinite scroll of login screens while trying to invent something original.
+  tags:
+    - ui-reference
+    - ai-agents
+    - design-resources
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.91
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
     - coding-agents
-  section: Skill Packs & Libraries
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:49.962Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d1d6d793d65cd9bd8f3bb9279b1477f12be99601e6fcef690d5cdb4d4e28f83b
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: Uizze is a host-agnostic visual reference library that extends AI coding agents with UI search capabilities, making it an extension rather than a standalone agent or app builder.
+      decision_evidence:
+        - "Source-list context: listed in awesome-ai-coding-tools under 'Code Review and Refactoring' as giving agents '800,000+ real web and iOS screens to search before they design and build UI'"
+        - "Scraped site context: title and description emphasize it works 'for agents' and connects with Claude Code, Codex, Cursor, GitHub Copilot, etc."
+        - "Primary page excerpt: repeatedly states 'Show AI what good looks like' and positions itself as a UI reference tool for agents to consult during design"
+      category_candidates:
+        - extensions-and-addons
+        - memory-and-context
+      contrastive_reason: Choose extensions-and-addons over memory-and-context because Uizze’s core identity is extending agent capabilities with external UI search, not providing persistent memory, retrieval, or context infrastructure for agent sessions.
+      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

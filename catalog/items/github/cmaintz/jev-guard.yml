@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cmaintz__jev-guard__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-guard (CMaintz)
         extracted_url: https://github.com/cmaintz/jev-guard
-        surrounding_text: >-
-          - [jev-guard (CMaintz)](https://github.com/CMaintz/jev-guard) - Portable TypeSafe Jev allow/block/hold guard
-          for agent tool calls with LangChain and Vercel AI SDK adapters (distinct from leepokai/jev-guard). [Project
-          guide](community/projects/tools/cmaintz-jev-guard.md).
+        surrounding_text: "- [jev-guard (CMaintz)](https://github.com/CMaintz/jev-guard) - Portable TypeSafe Jev allow/block/hold guard for agent tool calls with LangChain and Vercel AI SDK adapters (distinct from leepokai/jev-guard). [Project guide](community/projects/tools/cmaintz-jev-guard.md)."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: CMaintz/jev-guard
     html_url: https://github.com/CMaintz/jev-guard
-    created_at: '2026-09-22T11:05:51Z'
-    pushed_at: '2026-09-24T19:53:25Z'
-    description: >-
-      Vets an LLM agent's tool calls through TypeSafe AI's Jev before they run — allow, block, or hold, failing safe on
-      uncertainty.
+    created_at: "2026-09-22T11:05:51Z"
+    pushed_at: "2026-09-24T19:53:25Z"
+    description: Vets an LLM agent's tool calls through TypeSafe AI's Jev before they run — allow, block, or hold, failing safe on uncertainty.
     homepage: null
     topics:
       - agents
@@ -60,14 +55,12 @@ metadata:
       - typesafe-ai
       - typescript
       - vercel-ai-sdk
-    last_checked_at: '2026-09-29T13:09:57.531Z'
+    last_checked_at: "2026-09-29T13:09:57.531Z"
     readme:
-      fetched_at: '2026-09-29T13:09:57.531Z'
+      fetched_at: "2026-09-29T13:09:57.531Z"
       bytes: 5086
 insights:
-  summary: >-
-    Vets an LLM agent's tool calls through TypeSafe AI's Jev before they run — allow, block, or hold, failing safe on
-    uncertainty.
+  summary: Vets an LLM agent's tool calls through TypeSafe AI's Jev before they run — allow, block, or hold, failing safe on uncertainty.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -87,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:57.531Z'
+    updated_at: "2026-09-29T13:09:57.531Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

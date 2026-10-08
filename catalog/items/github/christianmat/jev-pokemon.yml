@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__christianmat__jev-pokemon__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Added today
         anchor_text: Jev Plays Pokémon Red
         extracted_url: https://github.com/christianmat/jev-pokemon
-        surrounding_text: >-
-          - **Games & simulations (3):** [beebots](https://github.com/imikerussell/beebots), [Jev Plays Pokémon
-          Red](https://github.com/christianmat/jev-pokemon), [Jev Driver](https://github.com/reinhard-z/vision-jev)
+        surrounding_text: "- **Games & simulations (3):** [beebots](https://github.com/imikerussell/beebots), [Jev Plays Pokémon Red](https://github.com/christianmat/jev-pokemon), [Jev Driver](https://github.com/reinhard-z/vision-jev)"
         confidence: high
     - id: discovery__github__christianmat__jev-pokemon__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-pokemon**'
+        anchor_text: "**jev-pokemon**"
         extracted_url: https://github.com/christianmat/jev-pokemon
-        surrounding_text: >-
-          - [**jev-pokemon**](https://github.com/christianmat/jev-pokemon) — Jev, an AI decision model, plays Pokémon
-          Red. It beat the game in 37h 40m.
+        surrounding_text: "- [**jev-pokemon**](https://github.com/christianmat/jev-pokemon) — Jev, an AI decision model, plays Pokémon Red. It beat the game in 37h 40m."
         confidence: high
 metadata:
   github:
@@ -48,14 +44,14 @@ metadata:
     archived: false
     full_name: christianmat/jev-pokemon
     html_url: https://github.com/christianmat/jev-pokemon
-    created_at: '2026-09-25T01:02:51Z'
-    pushed_at: '2026-09-28T17:46:13Z'
+    created_at: "2026-09-25T01:02:51Z"
+    pushed_at: "2026-09-28T17:46:13Z"
     description: Jev, an AI decision model, plays Pokémon Red. It beat the game in 37h 40m.
     homepage: https://jev-pokemon.vercel.app
     topics: []
-    last_checked_at: '2026-09-29T13:09:51.412Z'
+    last_checked_at: "2026-09-29T13:09:51.412Z"
     readme:
-      fetched_at: '2026-09-29T13:09:51.412Z'
+      fetched_at: "2026-09-29T13:09:51.412Z"
       bytes: 6729
 insights:
   summary: Jev, an AI decision model, plays Pokémon Red. It beat the game in 37h 40m.
@@ -78,15 +74,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:51.412Z'
+    updated_at: "2026-09-29T13:09:51.412Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

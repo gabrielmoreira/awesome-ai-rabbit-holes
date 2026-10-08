@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bartlomein__oko__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,15 +20,10 @@ provenance:
           - Scoring & Ranking
         anchor_text: Oko
         extracted_url: https://github.com/bartlomein/oko
-        surrounding_text: >-
-          - [Oko](https://github.com/bartlomein/oko)
-          ![stars](https://img.shields.io/github/stars/bartlomein/oko?style=flat-square&label=%E2%98%85) - Developer
-          tooling: local code search for coding agents that shortlists function-level chunks with ripgrep and BM25, asks
-          Jev a `Noul` relevance question per chunk across three parallel requests, and returns the accepted ones as
-          excerpts through MCP; the cutoff and excerpt selection live in code.
+        surrounding_text: "- [Oko](https://github.com/bartlomein/oko) ![stars](https://img.shields.io/github/stars/bartlomein/oko?style=flat-square&label=%E2%98%85) - Developer tooling: local code search for coding agents that shortlists function-level chunks with ripgrep and BM25, asks Jev a `Noul` relevance question per chunk across three parallel requests, and returns the accepted ones as excerpts through MCP; the cutoff and excerpt selection live in code."
         confidence: high
     - id: discovery__github__bartlomein__oko__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -40,10 +35,7 @@ provenance:
           - Agents, coding, and guardrails
         anchor_text: Oko
         extracted_url: https://github.com/bartlomein/oko
-        surrounding_text: >-
-          - [Oko](https://github.com/bartlomein/oko) - Jev judges whether each keyword-shortlisted code chunk implements
-          what a coding agent asked for; code applies the threshold and returns the accepted chunks as excerpts over
-          MCP.
+        surrounding_text: "- [Oko](https://github.com/bartlomein/oko) - Jev judges whether each keyword-shortlisted code chunk implements what a coding agent asked for; code applies the threshold and returns the accepted chunks as excerpts over MCP."
         confidence: high
 metadata:
   github:
@@ -53,20 +45,17 @@ metadata:
     archived: false
     full_name: bartlomein/oko
     html_url: https://github.com/bartlomein/oko
-    created_at: '2026-09-18T10:05:45Z'
-    pushed_at: '2026-09-28T10:02:37Z'
+    created_at: "2026-09-18T10:05:45Z"
+    pushed_at: "2026-09-28T10:02:37Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:26.879Z'
+    last_checked_at: "2026-09-29T13:09:26.879Z"
     readme:
-      fetched_at: '2026-09-29T13:09:26.879Z'
+      fetched_at: "2026-09-29T13:09:26.879Z"
       bytes: 13796
 insights:
-  summary: >-
-    Oko - Developer tooling: local code search for coding agents that shortlists function-level chunks with ripgrep and
-    BM25, asks Jev a Noul relevance question per chunk across three parallel requests, and returns the accepted ones as
-    excerpts through MCP; the cutoff and excerpt selection live in code.
+  summary: "Oko - Developer tooling: local code search for coding agents that shortlists function-level chunks with ripgrep and BM25, asks Jev a Noul relevance question per chunk across three parallel requests, and returns the accepted ones as excerpts through MCP; the cutoff and excerpt selection live in code."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -76,9 +65,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
   evidence:
     - jev-latest choice confidence 0.62
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -90,15 +77,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:26.879Z'
+    updated_at: "2026-09-29T13:09:26.879Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevlist__ai__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - README
         anchor_text: JevList
         extracted_url: https://jevlist.ai
-        surrounding_text: >-
-          **Try the beta web UI at [JevList](https://jevlist.ai/).** Explore the projects in this directory through a
-          searchable web interface. We're continually improving the experience—take a look and let us know what you
-          think!
+        surrounding_text: "**Try the beta web UI at [JevList](https://jevlist.ai/).** Explore the projects in this directory through a searchable web interface. We're continually improving the experience—take a look and let us know what you think!"
         confidence: high
 metadata:
   github:
@@ -39,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Try the beta web UI at JevList. Explore the projects in this directory through a searchable web interface. We're
-    continually improving the experience—take a look and let us know what you think!
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jevlist.ai is a directory of apps, libraries, and examples built with Jev, a typed-decision model by TypeSafe AI.
+  why_it_matters: It helps developers discover and evaluate Jev-powered projects to explore typed decision-making in practical apps and tools.
+  mental_damage: Another curated list promising clarity in the Jev ecosystem, where the real work is still figuring out what Jev actually does.
+  tags:
+    - jev
+    - directory
+    - typed-decisions
+    - awesome-list
+    - developer-tools
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: Jevlist.ai is a curated directory of Jev-powered projects, fitting the scope of developer-facing resource discovery without being a tool itself.
   evidence:
-    - jev-latest choice confidence 0.84
+    - Described as 'Discover Jev-powered apps, libraries, integrations and examples' and 'Browse source-linked project guides from the open Awesome Jev repository'
+    - Appears in the source list 'awesome-jev' with purpose 'Discover Jev-powered apps, developer resources, and runnable decision examples'
+    - The site functions as a navigable directory with categories like Apps, Developer tools, and Search and retrieval, not as a runtime or SDK
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
@@ -61,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:18.731Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f526bc9b6843931f0c20f5c031b511eeb9f077e184e93d72e357c4211f35a922
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: Jevlist.ai is a curated directory of Jev-powered projects, fitting the scope of developer-facing resource discovery without being a tool itself.
+      decision_evidence:
+        - Described as 'Discover Jev-powered apps, libraries, integrations and examples' and 'Browse source-linked project guides from the open Awesome Jev repository'
+        - Appears in the source list 'awesome-jev' with purpose 'Discover Jev-powered apps, developer resources, and runnable decision examples'
+        - The site functions as a navigable directory with categories like Apps, Developer tools, and Search and retrieval, not as a runtime or SDK
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because Jevlist.ai is a directory of projects, not a decision model, SDK, or tool that performs typed judgments.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -74,39 +74,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-05T04:41:37.581Z"
+    updated_at: "2026-10-08T04:23:30.293Z"
     cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for localhost: ```json
-        {
-          "summary": "A desktop workspace designed to host, manage, and sandbox multiple AI coding agent sessions in isolated terminal environments.",
-          "why_it_matters": "It provides a centralized control plane for managing diverse agents, git workflows, and project environments without the friction of switching tools.",
-          "mental_damage": "Now you can scale your agent-induced technical debt across multiple isolated, perfectly sandboxed environments.",
-          "tags": [
-            "agent-orchestration",
-            "desktop-app",
-            "coding-agents",
-            "git-workflow",
-            "sandboxing"
-          ],
-          "should_include": true,
-          "primary_category": "agent-orchestration",
-          "section": "Agent Runtimes & Harnesses",
-          "decision_reason": "Taskeract acts as a control plane and runtime for managing multiple concurrent agent sessions, which is the core definition of agent orchestration.",
-          "decision_evidence": [
-            "Desktop app that hosts and manages agent CLIs like Claude Code and OpenAI Codex",
-            "Provides multi-agent session tiling and isolated development workspaces",
-            "Includes management features like timeline checkpoints and full git workflow integration"
-          ],
-          "category_candidates": [
-            "agent-orchestration",
-            "ai-dev-extensions"
-          ],
-          "contrastive_reason": "Choose agent-orchestration over ai-dev-extensions because it functions as a comprehensive desktop runtime and management platform for multiple agents rather than a simple plugin for a single assistant.",
-          "confidence": "high"
-        }
-    attempts: 4
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for localhost: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": Taskeract \"... is not valid JSON"
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

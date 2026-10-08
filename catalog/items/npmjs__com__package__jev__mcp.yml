@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__mcp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-mcp
-        surrounding_text: >-
-          - [jev-mcp (rashedInt32)](https://github.com/rashedInt32/jev-mcp)
-          ([site](https://www.npmjs.com/package/jev-mcp)) - MCP server exposing TypeSafe Jev as typed, calibrated
-          judgment tools: classify, score, check, batched ask. Ships as a Claude Code plugin.
+        surrounding_text: "- [jev-mcp (rashedInt32)](https://github.com/rashedInt32/jev-mcp) ([site](https://www.npmjs.com/package/jev-mcp)) - MCP server exposing TypeSafe Jev as typed, calibrated judgment tools: classify, score, check, batched ask. Ships as a Claude Code plugin."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-mcp (rashedInt32) (site) - MCP server exposing TypeSafe Jev as typed, calibrated judgment tools: classify,
-    score, check, batched ask. Ships as a Claude Code plugin.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-mcp is an MCP server that exposes Jev (TypeSafe System One decision model) judgments over the Model Context Protocol.
+  why_it_matters: It lets coding agents and other MCP clients query a decision model for typed, probabilistic answers like classification or scoring.
+  mental_damage: Yet another MCP wrapper that turns a niche decision model into yet another protocol endpoint you’ll forget to configure.
+  tags:
+    - mcp
+    - decision-model
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  reason: jev-mcp’s core identity is exposing Jev decision-model judgments via MCP, making it a decision-model tool rather than an MCP-first product.
   evidence:
-    - jev-latest choice confidence 0.63
+    - Seen in source list 'awesome-jev' under section 'Agent tooling' as a project built on Jev
+    - Package name 'jev-mcp' and npm registry presence indicate it is an MCP server for Jev
+    - Decision-model judgments are the core function, with MCP as the transport layer
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Local Serving & Gateways
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:47.298Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:49a31f5ab3db250058b5687f4ce04afd3c8b74785b1ff7e01d8e799295b820b3
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-mcp’s core identity is exposing Jev decision-model judgments via MCP, making it a decision-model tool rather than an MCP-first product.
+      decision_evidence:
+        - Seen in source list 'awesome-jev' under section 'Agent tooling' as a project built on Jev
+        - Package name 'jev-mcp' and npm registry presence indicate it is an MCP server for Jev
+        - Decision-model judgments are the core function, with MCP as the transport layer
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product’s identity is the Jev decision-model judgment it exposes, not the MCP protocol itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

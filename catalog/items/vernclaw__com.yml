@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vernclaw__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - CLI Tools
         anchor_text: Vernclaw Connect CLI
         extracted_url: https://vernclaw.com
-        surrounding_text: >-
-          - **[Vernclaw Connect CLI](https://vernclaw.com/)** – Official connector CLI with JSON-first agent-friendly
-          connector invocation, managed connectors, and bundled skill docs for open-source workflows.
+        surrounding_text: "- **[Vernclaw Connect CLI](https://vernclaw.com/)** – Official connector CLI with JSON-first agent-friendly connector invocation, managed connectors, and bundled skill docs for open-source workflows."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Vernclaw Connect CLI – Official connector CLI with JSON-first agent-friendly connector invocation, managed
-    connectors, and bundled skill docs for open-source workflows.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A collection of managed plugins and connectors that provide OpenClaw agents with SEO data, social media extraction, and content generation capabilities.
+  why_it_matters: It abstracts away the 'plumbing' of third-party integrations—such as authentication, rate limiting, and output parsing—allowing agents to use complex data sources without custom scraping logic.
+  mental_damage: Because managing individual API keys and fragile scraping scripts is apparently too much work for an autonomous agent to handle alone.
+  tags:
+    - connectors
+    - openclaw
+    - agent-tools
+    - seo-data
+    - plugins
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Clients & Inspector Tools
   evidence:
     - jev-latest choice confidence 0.43
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
     - coding-agents
-  section: Clients & Inspector Tools
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:05.541Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aba40baee839974e15298f7f73c5503f167841350de77291ab9a719ecaeac776
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: It functions as a set of specialized tool integrations that extend the capabilities of the OpenClaw agent ecosystem.
+      decision_evidence:
+        - Provides managed connectors for SEO, social media (X, WeChat, Xiaohongshu), and content generation
+        - Handles authentication, rate limiting, and Markdown formatting for agent consumption
+        - Includes a CLI for installing and invoking plugins within agent workflows
+      category_candidates:
+        - extensions-and-addons
+        - skills
+      contrastive_reason: Choose extensions-and-addons over skills because the product provides executable tools and managed API integrations rather than just installable prompt or rule content.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dockndevai__mcp-openshift__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: dockndevai/mcp-openshift
         extracted_url: https://github.com/dockndevai/mcp-openshift
-        surrounding_text: >-
-          - [dockndevai/mcp-openshift](https://github.com/dockndevai/mcp-openshift) [![dockndevai/mcp-openshift MCP
-          server](https://glama.ai/mcp/servers/dockndevai/mcp-openshift/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-openshift)
-          📇 🏠 🍎 🪟 🐧 - OpenShift and Kubernetes operations on pods, deployments, routes and builds, with access
-          modes, namespace allowlists, dry-run and Secret redaction.
+        surrounding_text: "- [dockndevai/mcp-openshift](https://github.com/dockndevai/mcp-openshift) [![dockndevai/mcp-openshift MCP server](https://glama.ai/mcp/servers/dockndevai/mcp-openshift/badges/score.svg)](https://glama.ai/mcp/servers/dockndevai/mcp-openshift) 📇 🏠 🍎 🪟 🐧 - OpenShift and Kubernetes operations on pods, deployments, routes and builds, with access modes, namespace allowlists, dry-run and Secret redaction."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: dockndevai/mcp-openshift
     html_url: https://github.com/dockndevai/mcp-openshift
-    created_at: '2026-09-19T05:25:23Z'
-    pushed_at: '2026-09-27T11:17:33Z'
-    description: >-
-      Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with
-      username/password (local IdP) or token auth.
+    created_at: "2026-09-19T05:25:23Z"
+    pushed_at: "2026-09-27T11:17:33Z"
+    description: Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth.
     homepage: null
     topics:
       - ai
@@ -48,14 +42,12 @@ metadata:
       - mcp
       - model-context-protocol
       - openshift
-    last_checked_at: '2026-09-29T13:10:44.325Z'
+    last_checked_at: "2026-09-29T13:10:44.325Z"
     readme:
-      fetched_at: '2026-09-29T13:10:44.325Z'
+      fetched_at: "2026-09-29T13:10:44.325Z"
       bytes: 5653
 insights:
-  summary: >-
-    Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with
-    username/password (local IdP) or token auth.
+  summary: Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -75,15 +67,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:44.325Z'
+    updated_at: "2026-09-29T13:10:44.325Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

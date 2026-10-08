@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__com__tr__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://jev.com.tr
-        surrounding_text: >-
-          - [what-is-jev](https://github.com/g0runmezadam/what-is-jev) ([site](https://jev.com.tr)) - Independent,
-          source-linked research on TypeSafe AI's Jev (System One), with 947 rubric-scored public repositories,
-          recurring patterns, datasets, and bilingual documentation.
+        surrounding_text: "- [what-is-jev](https://github.com/g0runmezadam/what-is-jev) ([site](https://jev.com.tr)) - Independent, source-linked research on TypeSafe AI's Jev (System One), with 947 rubric-scored public repositories, recurring patterns, datasets, and bilingual documentation."
         confidence: high
 metadata:
   github:
@@ -39,31 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev.com.tr is the public site for TypeSafe AI's Jev decision model, which answers typed questions with probabilistic outputs.
+  why_it_matters: Provides a deterministic, probability-based alternative to LLMs for routing, classification, and guardrails in developer workflows.
+  mental_damage: Another model to add to the growing pile of niche AI systems that promise precision but fragment the tooling landscape further.
+  tags:
+    - decision-model
+    - type-safe
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: jev.com.tr hosts the Jev decision model (TypeSafe System One), which fits the decision-models category by providing typed-question answering with probabilities, not generative text.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - "Repo description: (none)"
+    - "Seen in source lists / directories: awesome-jev | purpose: Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model."
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:57.449Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2a715f09bee7545d808f400ee9f992bf4a58d0f9c24bc72bcb69dd399cbbcb3b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev.com.tr hosts the Jev decision model (TypeSafe System One), which fits the decision-models category by providing typed-question answering with probabilities, not generative text.
+      decision_evidence:
+        - "Repo description: (none)"
+        - "Seen in source lists / directories: awesome-jev | purpose: Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model."
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because jev.com.tr's core identity is a decision model that answers typed questions with probabilities, not an agent that performs coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

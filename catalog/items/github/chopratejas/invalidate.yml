@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chopratejas__invalidate__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Applications
         anchor_text: invalidate
         extracted_url: https://github.com/chopratejas/invalidate
-        surrounding_text: >-
-          - [invalidate](https://github.com/chopratejas/invalidate) - The invalidation layer for AI memory. Every fact
-          gets a lease; new evidence ends it. Built on TypeSafe Jev.
+        surrounding_text: "- [invalidate](https://github.com/chopratejas/invalidate) - The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
         confidence: high
     - id: discovery__github__chopratejas__invalidate__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: invalidate
         extracted_url: https://github.com/chopratejas/invalidate
-        surrounding_text: >-
-          - [invalidate](https://github.com/chopratejas/invalidate) - Semantic TTL for agent memory: TypeSafe Jev checks
-          every stored fact against new evidence; code marks superseded memories without rewriting text. [Project
-          guide](community/projects/tools/invalidate.md).
+        surrounding_text: "- [invalidate](https://github.com/chopratejas/invalidate) - Semantic TTL for agent memory: TypeSafe Jev checks every stored fact against new evidence; code marks superseded memories without rewriting text. [Project guide](community/projects/tools/invalidate.md)."
         confidence: high
     - id: discovery__github__chopratejas__invalidate__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -56,9 +51,7 @@ provenance:
           - Frameworks & integrations (82)
         anchor_text: invalidate
         extracted_url: https://github.com/chopratejas/invalidate
-        surrounding_text: >-
-          | [invalidate](https://github.com/chopratejas/invalidate) | ★ 15 | Python | 2026-09-22 | The invalidation
-          layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev. |
+        surrounding_text: "| [invalidate](https://github.com/chopratejas/invalidate) | ★ 15 | Python | 2026-09-22 | The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev. |"
         confidence: high
 metadata:
   github:
@@ -68,14 +61,14 @@ metadata:
     archived: false
     full_name: chopratejas/invalidate
     html_url: https://github.com/chopratejas/invalidate
-    created_at: '2026-09-19T04:26:59Z'
-    pushed_at: '2026-09-21T16:46:38Z'
+    created_at: "2026-09-19T04:26:59Z"
+    pushed_at: "2026-09-21T16:46:38Z"
     description: The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:50.268Z'
+    last_checked_at: "2026-09-29T13:09:50.268Z"
     readme:
-      fetched_at: '2026-09-29T13:09:50.268Z'
+      fetched_at: "2026-09-29T13:09:50.268Z"
       bytes: 22193
 insights:
   summary: The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev.
@@ -88,9 +81,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
     - jev-latest choice confidence 0.84
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
-      at memory-and-context (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -102,15 +93,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.392Z'
+    updated_at: "2026-09-29T13:07:10.392Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:50.268Z'
+    updated_at: "2026-09-29T13:09:50.268Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

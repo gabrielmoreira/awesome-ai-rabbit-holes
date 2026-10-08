@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__itisshikhar__github__io__gg__friggin__ez__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://itisshikhar.github.io/gg-friggin-ez
-        surrounding_text: >-
-          - [gg-friggin-ez](https://github.com/ItisShikhar/gg-friggin-ez)
-          ([site](https://itisshikhar.github.io/gg-friggin-ez/)) - Fast, drop-in profanity and toxicity screener for
-          Node.js, powered by TypeSafe AI Jev. Catches leetspeak, character spacing, and romanized profanity across
-          languages including Kannada, Telugu, Tamil, Hindi, and Bengali. ~50-500ms latency.
+        surrounding_text: "- [gg-friggin-ez](https://github.com/ItisShikhar/gg-friggin-ez) ([site](https://itisshikhar.github.io/gg-friggin-ez/)) - Fast, drop-in profanity and toxicity screener for Node.js, powered by TypeSafe AI Jev. Catches leetspeak, character spacing, and romanized profanity across languages including Kannada, Telugu, Tamil, Hindi, and Bengali. ~50-500ms latency."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    gg-friggin-ez (site) - Fast, drop-in profanity and toxicity screener for Node.js, powered by TypeSafe AI Jev.
-    Catches leetspeak, character spacing, and romanized profanity across languages including Kannada, Telugu, Tamil,
-    Hindi, and Bengali. ~50-500ms latency.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GG FRIGGIN EZ is a TypeSafe AI Jev-powered demo for real-time Indic language moderation in Twitch stream chat, comparing System 1 decisions against regex and OpenAI.
+  why_it_matters: Shows developers a lightweight, low-latency alternative to LLMs for real-time content moderation using typed decision models.
+  mental_damage: Another demo proving that sometimes you don't need a 13B parameter model to tell if 'frrrantic' is abuse — just a good decision head and a twitchy chat.
+  tags:
+    - decision-models
+    - content-moderation
+    - jev
+    - twitch
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: The product's core identity is the Jev System 1 decision model used for real-time moderation judgments, not a coding agent, app builder, or MCP server, and it appears in an awesome list for Jev-based projects.
   evidence:
-    - jev-latest choice confidence 0.56
+    - The demo uses typesafe/jev-1.13 via OpenRouter for System 1 decisions in Twitch chat moderation
+    - It compares Jev against regex and OpenAI gpt-4o-mini on latency, cost, and accuracy for Indic toxic language screening
+    - Listed in awesome-jev under 'Games & simulations' as a Jev-built project
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Verification, Guardrails & Safety
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:46.360Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fa71981f4f68d336e1ba9237900a13cc58ec7ce42592df8c23870c2b819cea50
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is the Jev System 1 decision model used for real-time moderation judgments, not a coding agent, app builder, or MCP server, and it appears in an awesome list for Jev-based projects.
+      decision_evidence:
+        - The demo uses typesafe/jev-1.13 via OpenRouter for System 1 decisions in Twitch chat moderation
+        - It compares Jev against regex and OpenAI gpt-4o-mini on latency, cost, and accuracy for Indic toxic language screening
+        - Listed in awesome-jev under 'Games & simulations' as a Jev-built project
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the product's raison d'être is demonstrating Jev's typed decision judgments in moderation, not measuring or benchmarking model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

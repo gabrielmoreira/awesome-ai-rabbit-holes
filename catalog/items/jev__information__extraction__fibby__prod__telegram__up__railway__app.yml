@@ -5,9 +5,8 @@ canonical_url: https://jev-information-extraction-fibby-prod-telegram.up.railway
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__jev__information__extraction__fibby__prod__telegram__up__railway__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__jev__information__extraction__fibby__prod__telegram__up__railway__app__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev-information-extraction-fibby-prod-telegram.up.railway.app
-        surrounding_text: >-
-          - [jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction)
-          ([site](https://jev-information-extraction-fibby-prod-telegram.up.railway.app/)) - Parsing the PDF and
-          extracting the relevant information.
+        surrounding_text: "- [jev-information-extraction](https://github.com/abhishekmamdapure/jev-information-extraction) ([site](https://jev-information-extraction-fibby-prod-telegram.up.railway.app/)) - Parsing the PDF and extracting the relevant information."
         confidence: high
 metadata:
   github:
@@ -60,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:39:18.527Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for jev__information__extraction__fibby__prod__telegram__up__railway__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

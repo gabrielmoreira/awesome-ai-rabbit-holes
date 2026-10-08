@@ -579,7 +579,7 @@ _102 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 <details><summary><strong>▸ &nbsp;&nbsp;+2 more in Desktop Chat & UIs &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[LM Studio](https://lmstudio.ai)** A desktop application and inference runtime for running open-source LLMs locally, featuring the Bionic agent for automated coding and desktop tasks.
-- **[Whisper by Remskill](https://whisper.remskill.com)** Whisper by Remskill – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier.
+- **[Private GPT](https://privategpt.io)** A private RAG platform that allows users to query internal data sources like Notion, JIRA, and Slack using secure LLMs.
 
 </details>
 

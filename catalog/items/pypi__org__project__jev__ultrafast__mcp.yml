@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jev__ultrafast__mcp__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://pypi.org/project/jev-ultrafast-mcp
-        surrounding_text: >-
-          - [jev-ultrafast-mcp](https://github.com/jiawei686/jev-ultrafast-mcp)
-          ([site](https://pypi.org/project/jev-ultrafast-mcp/)) - Hand the browser work off: an MCP server where a
-          decision model drives the page for your agent, so a flow costs one tool call instead of a turn per click.
-          Ref-based element tables, code-checked assertions, zero-model macro replay. Speaks CDP to your Chrome.
+        surrounding_text: "- [jev-ultrafast-mcp](https://github.com/jiawei686/jev-ultrafast-mcp) ([site](https://pypi.org/project/jev-ultrafast-mcp/)) - Hand the browser work off: an MCP server where a decision model drives the page for your agent, so a flow costs one tool call instead of a turn per click. Ref-based element tables, code-checked assertions, zero-model macro replay. Speaks CDP to your Chrome."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-ultrafast-mcp (site) - Hand the browser work off: an MCP server where a decision model drives the page for your
-    agent, so a flow costs one tool call instead of a turn per click. Ref-based element tables, code-checked assertions,
-    zero-model macro replay. Speaks CDP to your Chrome.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JeV Ultrafast MCP is a Python package exposing Jev decision-model functionality via the Model Context Protocol.
+  why_it_matters: It lets MCP-enabled agents call Jev for typed judgments (Choice/Score/Noul) instead of relying on generative model outputs.
+  mental_damage: Another MCP wrapper promising deterministic answers while we all still debug why the agent chose 'Noul' at 2 a.m.
+  tags:
+    - mcp
+    - decision-model
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  reason: The product’s core identity is exposing Jev decision-model judgments through an MCP server, making the decision layer the product, not the MCP transport.
   evidence:
-    - jev-latest choice confidence 0.83
+    - "Scraped page title: 'Client Challenge' — indicates a Jev-based MCP client exposing decision-model capabilities"
+    - Listed in awesome-jev under 'Browser & computer use' section as a project built on Jev (TypeSafe AI's System One model)
+    - Package name 'jev-ultrafast-mcp' combines Jev with MCP, signaling MCP is a transport for Jev judgments
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Local Serving & Gateways
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:24.999Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8248dd8c27866e0c76e99d7bf500bff1771e9f1e32c79f3b0b1a4848a126d532
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product’s core identity is exposing Jev decision-model judgments through an MCP server, making the decision layer the product, not the MCP transport.
+      decision_evidence:
+        - "Scraped page title: 'Client Challenge' — indicates a Jev-based MCP client exposing decision-model capabilities"
+        - Listed in awesome-jev under 'Browser & computer use' section as a project built on Jev (TypeSafe AI's System One model)
+        - Package name 'jev-ultrafast-mcp' combines Jev with MCP, signaling MCP is a transport for Jev judgments
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product's identity is serving Jev decision-model judgments, with MCP as merely the transport protocol.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

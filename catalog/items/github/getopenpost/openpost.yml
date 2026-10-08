@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getopenpost__openpost__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,12 +20,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: getopenpost/openpost
         extracted_url: https://github.com/getopenpost/openpost
-        surrounding_text: >-
-          -   **[getopenpost/openpost](https://github.com/getopenpost/openpost)** [![GitHub
-          stars](https://img.shields.io/github/stars/getopenpost/openpost?style=social)](https://github.com/getopenpost/openpost):
-          Open-source, self-hosted social publishing and scheduling with an authenticated MCP server for preparing
-          destination-specific content, reusing media, validating, scheduling, publishing, and inspecting delivery
-          status.
+        surrounding_text: "-   **[getopenpost/openpost](https://github.com/getopenpost/openpost)** [![GitHub stars](https://img.shields.io/github/stars/getopenpost/openpost?style=social)](https://github.com/getopenpost/openpost): Open-source, self-hosted social publishing and scheduling with an authenticated MCP server for preparing destination-specific content, reusing media, validating, scheduling, publishing, and inspecting delivery status."
         confidence: high
 metadata:
   github:
@@ -35,8 +30,8 @@ metadata:
     archived: false
     full_name: getopenpost/openpost
     html_url: https://github.com/getopenpost/openpost
-    created_at: '2026-03-21T11:12:13Z'
-    pushed_at: '2026-09-29T00:26:57Z'
+    created_at: "2026-03-21T11:12:13Z"
+    pushed_at: "2026-09-29T00:26:57Z"
     description: Create, adapt, schedule, and track social posts. Open-source, hosted or self-hosted.
     homepage: https://openpo.st
     topics:
@@ -50,9 +45,9 @@ metadata:
       - social-media-scheduler
       - svelte
       - sveltekit
-    last_checked_at: '2026-09-29T13:11:38.378Z'
+    last_checked_at: "2026-09-29T13:11:38.378Z"
     readme:
-      fetched_at: '2026-09-29T13:11:38.378Z'
+      fetched_at: "2026-09-29T13:11:38.378Z"
       bytes: 12823
 insights:
   summary: null
@@ -73,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:38.378Z'
+    updated_at: "2026-09-29T13:11:38.378Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__mintan__org__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Try app
         extracted_url: https://jev.mintan.org
-        surrounding_text: >-
-          - [Jev Asks Until Sure](https://github.com/mintannn/jev-asks-until-sure) - `Open source` · `Free` · `BYOK`.
-          Twenty-questions web game: TypeSafe Jev keeps asking until calibrated confidence crosses a threshold (hosted
-          demo or BYOK). [Try app](https://jev.mintan.org/) · [Project
-          guide](community/projects/apps/jev-asks-until-sure.md).
+        surrounding_text: "- [Jev Asks Until Sure](https://github.com/mintannn/jev-asks-until-sure) - `Open source` · `Free` · `BYOK`. Twenty-questions web game: TypeSafe Jev keeps asking until calibrated confidence crosses a threshold (hosted demo or BYOK). [Try app](https://jev.mintan.org/) · [Project guide](community/projects/apps/jev-asks-until-sure.md)."
         confidence: high
 metadata:
   github:
@@ -41,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Asks Until Sure - Open source · Free · BYOK. Twenty-questions web game: TypeSafe Jev keeps asking until
-    calibrated confidence crosses a threshold (hosted demo or BYOK). Try app · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev.mintan.org is a Japanese-language web demo of the Jev decision model that answers typed questions with probabilistic judgments about user personality, origin, and age.
+  why_it_matters: It demonstrates how decision models like Jev can be used for lightweight, constrained inference tasks instead of open-ended text generation.
+  mental_damage: Another reminder that even 'safe' AI tools are just guessing your birth year with 87% confidence.
+  tags:
+    - decision-model
+    - demo
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The product's core identity is the Jev decision model serving typed questions with probabilistic outputs, which matches the decision-models category's focus on judgment-based models rather than coding agents or app builders.
   evidence:
-    - jev-latest choice confidence 0.88
+    - "The site states: 'AIが かくしんした じてんで、しつもんは とまります' (In the AI's confident knowledge, questions stop)."
+    - It answers questions about personality, origin, and age using the Jev model, returning constrained judgments rather than generating text.
+    - It is powered by 'TYPE SAFE JEV' and links to its GitHub source, indicating it is a demonstration of the Jev decision model itself.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:23.878Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c9050d2f6c786b47df12ca7ce7cb12a3728ddcf375fff824127dfdc5147002b3
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is the Jev decision model serving typed questions with probabilistic outputs, which matches the decision-models category's focus on judgment-based models rather than coding agents or app builders.
+      decision_evidence:
+        - "The site states: 'AIが かくしんした じてんで、しつもんは とまります' (In the AI's confident knowledge, questions stop)."
+        - It answers questions about personality, origin, and age using the Jev model, returning constrained judgments rather than generating text.
+        - It is powered by 'TYPE SAFE JEV' and links to its GitHub source, indicating it is a demonstration of the Jev decision model itself.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product does not generate deployable apps from prompts but instead returns probabilistic judgments from a decision model as its core function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

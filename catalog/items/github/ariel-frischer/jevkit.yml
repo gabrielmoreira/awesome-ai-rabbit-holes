@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ariel-frischer__jevkit__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jevkit
         extracted_url: https://github.com/ariel-frischer/jevkit
-        surrounding_text: >-
-          - [jevkit](https://github.com/ariel-frischer/jevkit) - Fast Rust CLI for TypeSafe Jev: typed decisions,
-          offline linting before you pay.
+        surrounding_text: "- [jevkit](https://github.com/ariel-frischer/jevkit) - Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay."
         confidence: high
     - id: discovery__github__ariel-frischer__jevkit__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevkit
         extracted_url: https://github.com/ariel-frischer/jevkit
-        surrounding_text: >-
-          - [jevkit](https://github.com/ariel-frischer/jevkit) - Rust CLI for TypeSafe Jev typed decisions plus offline
-          `jev lint` before paid calls (distinct from Hermes's internal Python `jevkit` client). [Project
-          guide](community/projects/tools/jevkit.md).
+        surrounding_text: "- [jevkit](https://github.com/ariel-frischer/jevkit) - Rust CLI for TypeSafe Jev typed decisions plus offline `jev lint` before paid calls (distinct from Hermes's internal Python `jevkit` client). [Project guide](community/projects/tools/jevkit.md)."
         confidence: high
     - id: discovery__github__ariel-frischer__jevkit__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -56,12 +51,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jevkit
         extracted_url: https://github.com/ariel-frischer/jevkit
-        surrounding_text: >-
-          - [jevkit](https://github.com/ariel-frischer/jevkit)
-          ![stars](https://img.shields.io/github/stars/ariel-frischer/jevkit?style=flat-square&label=%E2%98%85) -
-          Developer tooling: Rust CLI that validates `Choice`/`Score`/`Noul` question sets with 13 offline lint rules
-          before any Jev call, then sends the canonical wire payload and prints parsed, confidence-bearing JSON answers
-          to stdout using exit code 2 to reject a billed-but-useless request.
+        surrounding_text: "- [jevkit](https://github.com/ariel-frischer/jevkit) ![stars](https://img.shields.io/github/stars/ariel-frischer/jevkit?style=flat-square&label=%E2%98%85) - Developer tooling: Rust CLI that validates `Choice`/`Score`/`Noul` question sets with 13 offline lint rules before any Jev call, then sends the canonical wire payload and prints parsed, confidence-bearing JSON answers to stdout using exit code 2 to reject a billed-but-useless request."
         confidence: high
 metadata:
   github:
@@ -71,9 +61,9 @@ metadata:
     archived: false
     full_name: ariel-frischer/jevkit
     html_url: https://github.com/ariel-frischer/jevkit
-    created_at: '2026-09-18T21:07:55Z'
-    pushed_at: '2026-09-27T05:24:18Z'
-    description: 'Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay'
+    created_at: "2026-09-18T21:07:55Z"
+    pushed_at: "2026-09-27T05:24:18Z"
+    description: "Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay"
     homepage: https://github.com/ariel-frischer/jevkit#readme
     topics:
       - ai
@@ -94,12 +84,12 @@ metadata:
       - typesafe
       - typesafe-jev
       - yaml
-    last_checked_at: '2026-09-29T13:09:10.390Z'
+    last_checked_at: "2026-09-29T13:09:10.390Z"
     readme:
-      fetched_at: '2026-09-29T13:09:10.390Z'
+      fetched_at: "2026-09-29T13:09:10.390Z"
       bytes: 14472
 insights:
-  summary: 'Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay'
+  summary: "Fast Rust CLI for TypeSafe Jev: typed decisions, offline linting before you pay"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -119,15 +109,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.391Z'
+    updated_at: "2026-09-29T13:07:10.391Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:10.390Z'
+    updated_at: "2026-09-29T13:09:10.390Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

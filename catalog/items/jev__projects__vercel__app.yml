@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__projects__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jev-projects.vercel.app
-        surrounding_text: >-
-          - [jev_projects](https://github.com/X0EF/jev_projects) ([site](https://jev-projects.vercel.app)) - List of
-          projects that use typesafe's jev.
+        surrounding_text: "- [jev_projects](https://github.com/X0EF/jev_projects) ([site](https://jev-projects.vercel.app)) - List of projects that use typesafe's jev."
         confidence: high
 metadata:
   github:
@@ -38,19 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev sites is a Vercel-hosted directory of judgment tools built on the Jev decision model, each returning typed decisions via text input.
+  why_it_matters: It offers developers a gallery of domain-specific decision gates (e.g., support routing, ICP scoring) that demonstrate how Jev can be applied to structured judgment tasks.
+  mental_damage: Another reminder that the future of AI tooling is less about writing code and more about pasting prompts into someone else’s Vercel app to get a yes/no from a black-box scorer.
+  tags:
+    - decision-tools
+    - jev
+    - vercel
+    - demo-gallery
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The site is a demonstration directory of applications built on Jev, not a standalone developer tool; it showcases use cases but does not itself perform coding, decision modeling, or workflow automation for developers.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.31 below gate 0.50; proposed awesome-awesomes / Awesome Lists & Directories; no placement kept
-      (unverified)
+    - The site hosts 'Eleven judgment sites' each as a path on jev-projects.vercel.app, offering tools like Triage Desk, Lead Fit, and Clause Finder.
+    - It is listed in the source list 'awesome-jev' under the section 'Demos & playgrounds', indicating its role as a showcase rather than a tool.
+    - The primary function is to return typed decisions from pasted text via the Jev model, but the site itself does not expose Jev as an API, SDK, or integratable service for developer workflows.
 placement:
   primary_category: null
   secondary_categories:
@@ -62,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:36.318Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:989dffc50398b157669371c2e5f2f2ec6dd4f493fcb4becde34792762d4061da
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site is a demonstration directory of applications built on Jev, not a standalone developer tool; it showcases use cases but does not itself perform coding, decision modeling, or workflow automation for developers.
+      decision_evidence:
+        - The site hosts 'Eleven judgment sites' each as a path on jev-projects.vercel.app, offering tools like Triage Desk, Lead Fit, and Clause Finder.
+        - It is listed in the source list 'awesome-jev' under the section 'Demos & playgrounds', indicating its role as a showcase rather than a tool.
+        - The primary function is to return typed decisions from pasted text via the Jev model, but the site itself does not expose Jev as an API, SDK, or integratable service for developer workflows.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

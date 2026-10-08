@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ansidium__jev-codex-bridge__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-codex-bridge
         extracted_url: https://github.com/ansidium/jev-codex-bridge
-        surrounding_text: >-
-          - [jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge) - Model and reasoning routing for Codex
-          Desktop and CLI, with a Windows service and validated updates.
+        surrounding_text: "- [jev-codex-bridge](https://github.com/ansidium/jev-codex-bridge) - Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: ansidium/jev-codex-bridge
     html_url: https://github.com/ansidium/jev-codex-bridge
-    created_at: '2026-09-19T15:08:08Z'
-    pushed_at: '2026-09-26T08:12:45Z'
+    created_at: "2026-09-19T15:08:08Z"
+    pushed_at: "2026-09-26T08:12:45Z"
     description: Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates
     homepage: null
     topics:
@@ -41,9 +39,9 @@ metadata:
       - model-routing
       - typesafe
       - windows
-    last_checked_at: '2026-09-29T13:09:00.990Z'
+    last_checked_at: "2026-09-29T13:09:00.990Z"
     readme:
-      fetched_at: '2026-09-29T13:09:00.990Z'
+      fetched_at: "2026-09-29T13:09:00.990Z"
       bytes: 2952
 insights:
   summary: Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates
@@ -66,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:00.990Z'
+    updated_at: "2026-09-29T13:09:00.990Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

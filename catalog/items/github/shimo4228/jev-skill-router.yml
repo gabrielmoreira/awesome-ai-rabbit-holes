@@ -67,6 +67,21 @@ provenance:
         extracted_url: https://github.com/shimo4228/jev-skill-router
         surrounding_text: "- [jev-skill-router](https://github.com/shimo4228/jev-skill-router) - Claude Code plugin whose UserPromptSubmit hook asks Jev one `Choice` over the installed skill roster plus `Noul` gates, while code applies the thresholds and names at most one skill; it starts in a shadow mode that only logs the decision."
         confidence: high
+    - id: discovery__github__shimo4228__jev-skill-router__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-skill-router
+        extracted_url: https://github.com/shimo4228/jev-skill-router
+        surrounding_text: "- [jev-skill-router](https://github.com/shimo4228/jev-skill-router) ([site](https://dev.to/shimo4228/is-there-any-point-to-this-removing-the-jev-plugins-i-added-to-claude-code-after-one-week-49eh)) - Reference implementation for Jev builders: a Claude Code hook that asks TypeSafe's Jev which skill fits each prompt and logs the answer. Run for a week, 28 of 539 suggestions used, then removed; the README keeps what transfers."
+        confidence: high
 metadata:
   github:
     stars: 7
@@ -103,7 +118,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.387Z"
+    updated_at: "2026-10-08T04:16:14.230Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,7 +127,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.824Z"
+    updated_at: "2026-10-08T04:16:21.689Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

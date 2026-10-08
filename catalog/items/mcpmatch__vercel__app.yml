@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mcpmatch__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://mcpmatch.vercel.app
-        surrounding_text: >-
-          - [mcpmatch](https://github.com/ndolinschi/mcpmatch) ([site](https://mcpmatch.vercel.app)) - Match user goals
-          to MCP catalog (two-stage) via TypeSafe Jev.
+        surrounding_text: "- [mcpmatch](https://github.com/ndolinschi/mcpmatch) ([site](https://mcpmatch.vercel.app)) - Match user goals to MCP catalog (two-stage) via TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -58,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:41:33.496Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for mcpmatch__vercel__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The core i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

@@ -52,6 +52,21 @@ provenance:
         extracted_url: https://github.com/wxk-ai/jev-opus
         surrounding_text: "- **Claude Code** (13) — [jev-skill-router](https://github.com/shimo4228/jev-skill-router) · [spending-effort-with-jev](https://github.com/Yaxin9Luo/spending-effort-with-jev) · [Sniff Test](https://github.com/DanRWilloughby/snifftest) · [claude-code-templates](https://github.com/davila7/claude-code-templates) · [jev-secret-guard](https://github.com/BasmaAbouzied0/jev-secret-guard) · [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) · [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) · [jev-belay](https://github.com/valentynkit/jev-belay) · [jev-pruner](https://github.com/tamaratran/jev-pruner) · [SkillRanker](https://github.com/Dicklesworthstone/skillranker) · [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) · [jev-opus](https://github.com/WXK-AI/jev-opus) · [jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve)"
         confidence: high
+    - id: discovery__github__wxk-ai__jev-opus__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: jev-opus
+        extracted_url: https://github.com/wxk-ai/jev-opus
+        surrounding_text: "- [jev-opus](https://github.com/WXK-AI/jev-opus) - Runs Claude Code on Opus 5.5 and asks Jev typed Choice, Score, and Noul questions on each prompt and after every tool batch to pick the next API call's reasoning effort (low/medium/high); code enforces floors and ceilings and sends the result as a per-message effort statement so the prompt cache is kept."
+        confidence: high
 metadata:
   github:
     stars: 5
@@ -88,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.406Z"
+    updated_at: "2026-10-08T04:16:14.231Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +112,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.826Z"
+    updated_at: "2026-10-08T04:16:21.691Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

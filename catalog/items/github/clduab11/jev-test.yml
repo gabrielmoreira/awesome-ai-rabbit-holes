@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__clduab11__jev-test__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-test**'
+        anchor_text: "**jev-test**"
         extracted_url: https://github.com/clduab11/jev-test
-        surrounding_text: >-
-          - [**jev-test**](https://github.com/clduab11/jev-test) — Pre-registered benchmark: can a 2B local model (Gemma
-          4 E2B) answer web questions without making things up when a decision model (TypeSafe Jev) makes every call?
-          SearXNG for search, MemPalace for verbatim memory, seven arms including open local judges. Spec and thresholds
-          fixed before any run.
+        surrounding_text: "- [**jev-test**](https://github.com/clduab11/jev-test) — Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms including open local judges. Spec and thresholds fixed before any run."
         confidence: high
 metadata:
   github:
@@ -33,12 +29,9 @@ metadata:
     archived: false
     full_name: clduab11/jev-test
     html_url: https://github.com/clduab11/jev-test
-    created_at: '2026-09-19T17:00:37Z'
-    pushed_at: '2026-09-21T17:54:53Z'
-    description: >-
-      Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a
-      decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms
-      including open local judges. Spec and thresholds fixed before any run.
+    created_at: "2026-09-19T17:00:37Z"
+    pushed_at: "2026-09-21T17:54:53Z"
+    description: "Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms including open local judges. Spec and thresholds fixed before any run."
     homepage: null
     topics:
       - benchmark
@@ -51,15 +44,12 @@ metadata:
       - small-language-models
       - system-one
       - typesafe
-    last_checked_at: '2026-09-29T13:09:55.224Z'
+    last_checked_at: "2026-09-29T13:09:55.224Z"
     readme:
-      fetched_at: '2026-09-29T13:09:55.224Z'
+      fetched_at: "2026-09-29T13:09:55.224Z"
       bytes: 14132
 insights:
-  summary: >-
-    Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a
-    decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms
-    including open local judges. Spec and thresholds fixed before any run.
+  summary: "Pre-registered benchmark: can a 2B local model (Gemma 4 E2B) answer web questions without making things up when a decision model (TypeSafe Jev) makes every call? SearXNG for search, MemPalace for verbatim memory, seven arms including open local judges. Spec and thresholds fixed before any run."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,15 +71,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:55.224Z'
+    updated_at: "2026-09-29T13:09:55.224Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

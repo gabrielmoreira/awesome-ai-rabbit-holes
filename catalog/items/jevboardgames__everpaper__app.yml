@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevboardgames__everpaper__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: Jev board games
         extracted_url: https://jevboardgames.everpaper.app
-        surrounding_text: >-
-          - [Jev board games](https://jevboardgames.everpaper.app/)
-          ([post](https://x.com/MarcoIannello/status/2100622449268191524)) - Playable board games driven by Jev
-          decisions.
+        surrounding_text: "- [Jev board games](https://jevboardgames.everpaper.app/) ([post](https://x.com/MarcoIannello/status/2100622449268191524)) - Playable board games driven by Jev decisions."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Tic-tac-toe and Connect Four games where Jev, a decision model, selects moves while code enforces rules.
+  why_it_matters: Demonstrates how decision models can drive game logic in a developer-friendly, interactive format.
+  mental_damage: Another reminder that even Tic-tac-toe now needs a probability-distribution model to feel cutting-edge.
+  tags:
+    - games
+    - decision-models
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The core novelty is Jev, a decision model, making typed move judgments; it belongs in decision-models as an app built on its judgments.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site: Jev Plays — Tic-tac-toe and Connect Four against Jev. The model picks the move, the code keeps the rules."
+    - "Source-list: listed in awesome-jev under Games & simulations as a project built on Jev, TypeSafe AI's System One model."
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:02.710Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a4e83176a348454986df8b46506e98941f755c1b2f8893a4483e21b1f1a6a353
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The core novelty is Jev, a decision model, making typed move judgments; it belongs in decision-models as an app built on its judgments.
+      decision_evidence:
+        - "Scraped site: Jev Plays — Tic-tac-toe and Connect Four against Jev. The model picks the move, the code keeps the rules."
+        - "Source-list: listed in awesome-jev under Games & simulations as a project built on Jev, TypeSafe AI's System One model."
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product's identity is the decision model driving gameplay, not generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

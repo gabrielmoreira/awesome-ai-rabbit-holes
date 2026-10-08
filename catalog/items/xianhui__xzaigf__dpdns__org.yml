@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__xianhui__xzaigf__dpdns__org__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://xianhui.xzaigf.dpdns.org
-        surrounding_text: >-
-          - [jev-xianhui](https://github.com/jeffyuysw/jev-xianhui) ([site](https://xianhui.xzaigf.dpdns.org)) -
-          先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级.
+        surrounding_text: "- [jev-xianhui](https://github.com/jeffyuysw/jev-xianhui) ([site](https://xianhui.xzaigf.dpdns.org)) - 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级."
         confidence: high
 metadata:
   github:
@@ -58,18 +56,20 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause:
       type: ambiguous_canonicalization
-      message: >-
-        Kept the website URL because multiple GitHub repository links were present and no confident canonical match
-        could be selected.
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:49:17.382Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for xianhui__xzaigf__dpdns__org: Invalid AI response structure: Excluded responses must use an empty category_candidates list"
+    next_retry_at: null
+    attempts: 1

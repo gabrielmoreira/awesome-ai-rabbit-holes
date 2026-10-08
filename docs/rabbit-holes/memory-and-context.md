@@ -3,15 +3,15 @@
 
 Systems that improve what goes into the model: persistent agent memory, retrieval and RAG pipelines, context compression, and prompt management.
 
-_235 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_236 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 142
+- [Persistent Memory & Knowledge](#persistent-memory--knowledge) — 141
 - [Context & Session Management](#context--session-management) — 23
 - [Compression & Token Optimization](#compression--token-optimization) — 35
 - [Retrieval & Fresh Docs](#retrieval--fresh-docs) — 24
-- [Prompt Engineering & Management](#prompt-engineering--management) — 11
+- [Prompt Engineering & Management](#prompt-engineering--management) — 13
 
 ## Persistent Memory & Knowledge
 
@@ -200,7 +200,7 @@ _235 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   `agent-memory` `context-engineering` `mcp-compatible` `langchain-integration` `procedural-learning`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+112 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+111 more in Persistent Memory & Knowledge &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[pi22by7/In-Memoria](https://github.com/pi22by7/in-memoria)** `⭐ 174` `updated ≤1y` An MCP server that indexes codebases to provide persistent memory, pattern recognition, and semantic search across sessions for AI coding assistants.
 - **[Jean Memory](https://github.com/jean-technologies/jean-memory)** `⭐ 172` `updated ≤1y` AI memory infrastructure providing a persistent, intelligent context layer for applications via SDKs and APIs.
@@ -307,13 +307,12 @@ _235 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[cachly.dev](https://cachly.dev)** cachly is a persistent memory layer that gives AI coding assistants a causal brain by learning from git history and providing pre-session briefings, failure prediction, and cross-language recall.
 - **[Context by Fulcra](https://fulcradynamics.com)** Fulcra is a user-owned context backend that aggregates real-world data, files, and agent work into a shared context lake for AI agents.
 - **[Dosu](https://dosu.dev)** Dosu is a knowledge infrastructure service that captures team and agent learnings into a shared, updatable cache to reduce redundant context gathering.
-- **[jevmem](https://npmjs.com/package/jevmem)** jevmem (site) - Jev decides. The LLM writes one line. Your project never forgets. Jev-powered memory layer for AI coding tools.
 - **[Mintlify](https://mintlify.com)** Mintlify is a documentation platform that uses AI to keep documentation up-to-date and optimized for agents and human readers.
 - **[Pieces.app](https://pieces.app)** Pieces is a desktop AI memory layer that captures user activity across apps to create a searchable personal context for AI tools.
 - **[Pinecone](https://pinecone.io)** Pinecone is a managed vector database service for AI applications.
 - **[Powerdrill AI](https://powerdrill.ai/es)** Powerdrill Bloom is an AI-powered data analysis workspace with memory that learns from each analysis to become smarter over time.
-- **[Remio](https://remio.ai)** Remio – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill workflows require the Remio desktop client.
-- **[Vectorize](https://vectorize.io)** Vectorize provides open-source agent memory (Hindsight) that enables AI agents to learn from experience and retain persistent context across sessions.
+- **[prior.cg3.io](https://prior.cg3.io)** A knowledge exchange network that allows AI agents to search for and contribute solutions discovered during previous sessions.
+- **[Vectorize](https://vectorize.io)** An open-source agent memory layer that provides persistent, per-user context and automated knowledge synthesis through a reflection layer.
 
 </details>
 
@@ -666,13 +665,13 @@ _235 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 
   `prompt-engineering` `context-management` `desktop-app`
   </details>
-- **[Izlo](https://getizlo.com)** Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts. <details><summary>More about</summary>
+- **[Izlo](https://getizlo.com)** Izlo is a collaborative prompt management platform for storing, versioning, testing, and deploying AI prompts from code, documents, and spreadsheets. <details><summary>More about</summary>
 
-  It enables developers to manage prompts as structured assets with versioning and APIs, rather than letting them remain hardcoded or scattered across documentation.
+  It helps teams operationalize prompt engineering by turning scattered prompts into a shared, testable, and version-controlled asset.
 
-  _Finally, a way to version control the chaotic string literals that are currently holding your production application together._
+  _Finally, a Jira for your prompt sprawl—because tracking who changed ‘Act as a pirate’ to ‘Act as a disgruntled elf’ was the missing piece in your DevOps pipeline._
 
-  `prompt-management` `prompt-ops` `collaboration` `version-control` `testing`
+  `prompt-engineering` `collaboration` `version-control`
   </details>
 - **[Pezzo](https://pezzo.ai)** Pezzo is a prompt management platform for AI applications that centralizes version control, testing, and deployment of prompts. <details><summary>More about</summary>
 
@@ -705,4 +704,20 @@ _235 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   _Finally, a way to feel productive while avoiding the guilt of changing prompts in production like it's 2023._
 
   `prompt-management` `llm-observability` `evals`
+  </details>
+- **[Verified cascade](https://openrouter.ai/docs/cookbook/evaluate-and-optimize/jev-verified-cascade)** A recipe for a draft-verify-escalate cascade using Jev to reduce LLM costs by routing only uncertain answers to a frontier model. <details><summary>More about</summary>
+
+  Shows developers how to cut inference costs while maintaining answer correctness by combining cheap models with verification via Jev.
+
+  _Another layer of YAML and TypeScript to manage when you already regret adding the first one._
+
+  `llm-cost` `jev` `prompt-engineering` `agent-pattern`
+  </details>
+- **[Vicaura](https://vicaura.com)** Vicaura.com turns products into markdown repositories of features and logic for use in coding agents. <details><summary>More about</summary>
+
+  It lets developers extract and reuse product behavior as structured context for AI-assisted coding workflows.
+
+  _Another way to feel productive while outsourcing your product intuition to a markdown dump._
+
+  `context` `markdown` `product-logic`
   </details>

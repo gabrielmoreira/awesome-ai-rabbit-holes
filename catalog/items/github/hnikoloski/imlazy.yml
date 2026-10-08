@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__hnikoloski__imlazy__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: imlazy
         extracted_url: https://github.com/hnikoloski/imlazy
-        surrounding_text: >-
-          - **[imlazy](https://github.com/hnikoloski/imlazy)** – Tier-aware task router and skill-based workflow system
-          for Claude Code that classifies tasks into Quick/Standard/Heavy/Vault/Learn tiers and routes them through the
-          appropriate execution workflow with adaptive disambiguation.
+        surrounding_text: "- **[imlazy](https://github.com/hnikoloski/imlazy)** – Tier-aware task router and skill-based workflow system for Claude Code that classifies tasks into Quick/Standard/Heavy/Vault/Learn tiers and routes them through the appropriate execution workflow with adaptive disambiguation."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: hnikoloski/imlazy
     html_url: https://github.com/hnikoloski/imlazy
-    created_at: '2026-07-10T14:37:18Z'
-    pushed_at: '2026-07-23T10:45:43Z'
-    description: >-
-      Token-efficient tier-routed agent orchestrator 40+ skills, 19 agents, Obsidian vault. Works with Claude Code,
-      OpenCode, Codex CLI.
+    created_at: "2026-07-10T14:37:18Z"
+    pushed_at: "2026-07-23T10:45:43Z"
+    description: Token-efficient tier-routed agent orchestrator 40+ skills, 19 agents, Obsidian vault. Works with Claude Code, OpenCode, Codex CLI.
     homepage: https://hnikoloski.github.io/imlazy/
     topics:
       - agent-orchestrator
@@ -48,14 +43,12 @@ metadata:
       - obsidian
       - opencode
       - workflow-automation
-    last_checked_at: '2026-09-29T13:12:10.660Z'
+    last_checked_at: "2026-09-29T13:12:10.660Z"
     readme:
-      fetched_at: '2026-09-29T13:12:10.660Z'
+      fetched_at: "2026-09-29T13:12:10.660Z"
       bytes: 8323
 insights:
-  summary: >-
-    Token-efficient tier-routed agent orchestrator 40+ skills, 19 agents, Obsidian vault. Works with Claude Code,
-    OpenCode, Codex CLI.
+  summary: Token-efficient tier-routed agent orchestrator 40+ skills, 19 agents, Obsidian vault. Works with Claude Code, OpenCode, Codex CLI.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -75,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:10.660Z'
+    updated_at: "2026-09-29T13:12:10.660Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

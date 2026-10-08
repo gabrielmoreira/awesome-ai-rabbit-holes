@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__com__blog__jev__agent__evals__langsmith__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Can Jev Be a Better Agent Evaluator?
         extracted_url: https://langchain.com/blog/jev-agent-evals-langsmith
-        surrounding_text: >-
-          - [Can Jev Be a Better Agent Evaluator?](https://www.langchain.com/blog/jev-agent-evals-langsmith) - Agent
-          evaluation: LangChain compares Jev against LLM judges on accuracy, repeatability, latency and cost, concluding
-          Jev is the cheaper and more consistent judge for online evals.
+        surrounding_text: "- [Can Jev Be a Better Agent Evaluator?](https://www.langchain.com/blog/jev-agent-evals-langsmith) - Agent evaluation: LangChain compares Jev against LLM judges on accuracy, repeatability, latency and cost, concluding Jev is the cheaper and more consistent judge for online evals."
         confidence: high
 metadata:
   github:
@@ -40,29 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a System One decision model that returns typed answers with probabilities instead of generating text.
+  why_it_matters: It enables faster, cheaper, and more consistent agent evaluation by providing deterministic, structured judgments for agent behavior scoring.
+  mental_damage: Another AI evaluation breakthrough that promises to fix flaky LLM judges—until teams realize they now need to evaluate their evaluators.
+  tags:
+    - decision-model
+    - agent-eval
+    - jey
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The product is a decision model (Jev) designed to return typed answers with probabilities for evaluation tasks, making its core identity the judgment layer rather than a coding agent, framework, or eval platform.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.38 below gate 0.50; proposed evals / Agent & LLM Benchmarks; no placement kept (unverified)
+    - Jev is a System One model that returns typed answers and probabilities instead of generating text like an LLM judge
+    - It evaluates agent behavior using Choice, Score, and Noul question types with structured output
+    - Seen in source lists under Evaluation & Benchmarking as Jev-as-a-Judge for agent evaluation
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - evals
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:57.456Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f43a846ffa3bf1ecfb986e9df60f2ed3a0f4c90d83e344a4f308de1f2b35ddb0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product is a decision model (Jev) designed to return typed answers with probabilities for evaluation tasks, making its core identity the judgment layer rather than a coding agent, framework, or eval platform.
+      decision_evidence:
+        - Jev is a System One model that returns typed answers and probabilities instead of generating text like an LLM judge
+        - It evaluates agent behavior using Choice, Score, and Noul question types with structured output
+        - Seen in source lists under Evaluation & Benchmarking as Jev-as-a-Judge for agent evaluation
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because Jev is a decision model whose judgments are used for evaluation, not an evaluation framework or platform itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

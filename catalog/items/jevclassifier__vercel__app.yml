@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevclassifier__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Applications
         anchor_text: Jev Classifier
         extracted_url: https://jevclassifier.vercel.app
-        surrounding_text: >-
-          - [Jev Classifier](https://jevclassifier.vercel.app)
-          ([post](https://x.com/DagmawiBabi/status/2100618066459553796)) - Local Telegram channel JSON analyzer for
-          intent, quality, sentiment, and speaker tone.
+        surrounding_text: "- [Jev Classifier](https://jevclassifier.vercel.app) ([post](https://x.com/DagmawiBabi/status/2100618066459553796)) - Local Telegram channel JSON analyzer for intent, quality, sentiment, and speaker tone."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Jev Classifier (post) - Local Telegram channel JSON analyzer for intent, quality, sentiment, and speaker tone.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Classifier is a web tool for classifying text content into predefined categories using the Jev decision model.
+  why_it_matters: It lets developers quickly test and apply the Jev decision model for classification tasks without coding.
+  mental_damage: Another web UI for a niche model that makes you wonder if you're classifying content or just your own motivation.
+  tags:
+    - decision-model
+    - classification
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: The tool's core function is running the Jev decision model to classify text via typed questions and probabilities, making it a decision-model-based app rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.88
+    - Scraped site shows classification UI using Jev with options like tech, quote, job, sentiment, and reaction tone
+    - Source-list context identifies it as an 'Application' in the awesome-jev directory for projects built on Jev
+    - No evidence of code editing, agent behavior, or SDK/framework identity — pure judgment/output focus
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:11.360Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c8cc953818ff5a33d96ddc47616fe9af6a0e03d6a187323d88ea02c36743a5ae
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core function is running the Jev decision model to classify text via typed questions and probabilities, making it a decision-model-based app rather than a coding agent or extension.
+      decision_evidence:
+        - Scraped site shows classification UI using Jev with options like tech, quote, job, sentiment, and reaction tone
+        - Source-list context identifies it as an 'Application' in the awesome-jev directory for projects built on Jev
+        - No evidence of code editing, agent behavior, or SDK/framework identity — pure judgment/output focus
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the tool's identity is the Jev judgment output, not generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

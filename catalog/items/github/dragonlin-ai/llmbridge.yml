@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dragonlin-ai__llmbridge__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: llmbridge
         extracted_url: https://github.com/dragonlin-ai/llmbridge
-        surrounding_text: >-
-          - [llmbridge](https://github.com/dragonlin-ai/llmbridge) - OpenAI-compatible LLM routing gateway with TypeSafe
-          Jev as the L2 decision layer. [Project guide](community/projects/tools/llmbridge.md).
+        surrounding_text: "- [llmbridge](https://github.com/dragonlin-ai/llmbridge) - OpenAI-compatible LLM routing gateway with TypeSafe Jev as the L2 decision layer. [Project guide](community/projects/tools/llmbridge.md)."
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: dragonlin-ai/llmbridge
     html_url: https://github.com/dragonlin-ai/llmbridge
-    created_at: '2026-09-23T06:50:36Z'
-    pushed_at: '2026-09-25T14:18:58Z'
+    created_at: "2026-09-23T06:50:36Z"
+    pushed_at: "2026-09-25T14:18:58Z"
     description: LLM 路由中转网关：OpenAI 兼容入口 + 三层路由（L1 规则 / L2 Jev / L3 兜底）
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:48.460Z'
+    last_checked_at: "2026-09-29T13:10:48.460Z"
     readme:
-      fetched_at: '2026-09-29T13:10:48.460Z'
+      fetched_at: "2026-09-29T13:10:48.460Z"
       bytes: 32710
 insights:
   summary: LLM 路由中转网关：OpenAI 兼容入口 + 三层路由（L1 规则 / L2 Jev / L3 兜底）
@@ -62,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:48.460Z'
+    updated_at: "2026-09-29T13:10:48.460Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

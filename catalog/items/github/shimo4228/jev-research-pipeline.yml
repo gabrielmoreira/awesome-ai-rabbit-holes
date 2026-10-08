@@ -68,6 +68,21 @@ provenance:
         extracted_url: https://github.com/shimo4228/jev-research-pipeline
         surrounding_text: "- [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) - Daily research monitor: for every fetched paper and each of the author's open research questions, Jev answers Noul gates (on topic, method transferable, evidence compatible) and Score dimensions through Pydantic AI's typesafe: model; code routes each pair to keep / review / drop, and Qwen writes one question-centric Obsidian note per research line."
         confidence: high
+    - id: discovery__github__shimo4228__jev-research-pipeline__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Integrations
+        anchor_text: jev-research-pipeline
+        extracted_url: https://github.com/shimo4228/jev-research-pipeline
+        surrounding_text: "- [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) ([site](https://dev.to/shimo4228/moving-my-research-pipelines-judgment-calls-from-an-llm-to-jev-a-judgment-only-model-4ncj)) - A research note each morning for the topics you follow: your questions steer the search, TypeSafe Jev judges, an LLM you choose writes it (en/zh/ja). CLI: jrp (pilot)."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -105,7 +120,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.387Z"
+    updated_at: "2026-10-08T04:16:14.230Z"
     cause: null
     next_retry_at: null
   stars:
@@ -114,7 +129,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.824Z"
+    updated_at: "2026-10-08T04:16:21.689Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

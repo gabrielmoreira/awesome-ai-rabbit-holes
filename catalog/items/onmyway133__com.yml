@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__onmyway133__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Other lists
         anchor_text: site
         extracted_url: https://onmyway133.com
-        surrounding_text: >-
-          - [awesome-jev (onmyway133)](https://github.com/onmyway133/awesome-jev) ([site](https://onmyway133.com)) -
-          Awesome projects built with Jev from Typesafe AI.
+        surrounding_text: "- [awesome-jev (onmyway133)](https://github.com/onmyway133/awesome-jev) ([site](https://onmyway133.com)) - Awesome projects built with Jev from Typesafe AI."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: awesome-jev (onmyway133) (site) - Awesome projects built with Jev from Typesafe AI.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Swift Discovery is a personal tech blog covering Swift, iOS, AI agents, and related development topics through tutorial-style posts.
+  why_it_matters: It provides practical, Swift-focused guidance on integrating AI and modern iOS features, helping developers learn applied techniques.
+  mental_damage: Another blog where you’ll bookmark three tutorials, read none, and still feel behind on SwiftUI reordering patterns.
+  tags:
+    - blog
+    - swift
+    - ios
+    - ai
+    - tutorials
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  status: excluded
+  reason: Swift Discovery is a personal blog offering educational content, not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - jev-latest choice confidence 0.55
+    - The site is a blog with posts like 'How to make AI agent harness in Swift' and 'How to build an MCP server in Swift'
+    - It lacks a product identity; it is authored by an individual sharing knowledge, not providing a tool or service
+    - Source-list context shows it appears only in 'Other lists' within a Jev-focused directory, not as a core tool
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:32.712Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1025fa693d68dfa0c2df683c91a266f6d871bd36f47c40427088000e6974c161
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Swift Discovery is a personal blog offering educational content, not a developer-facing AI tool, agent, framework, or infrastructure product.
+      decision_evidence:
+        - The site is a blog with posts like 'How to make AI agent harness in Swift' and 'How to build an MCP server in Swift'
+        - It lacks a product identity; it is authored by an individual sharing knowledge, not providing a tool or service
+        - Source-list context shows it appears only in 'Other lists' within a Jev-focused directory, not as a core tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

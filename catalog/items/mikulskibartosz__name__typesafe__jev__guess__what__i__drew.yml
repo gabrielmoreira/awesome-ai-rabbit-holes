@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mikulskibartosz__name__typesafe__jev__guess__what__i__drew__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway
         extracted_url: https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew
-        surrounding_text: >-
-          - [TypeSafe's Jev Can't See. I Made It Guess What I Drew
-          Anyway](https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew) - Blog: a drawing-guessing experiment
-          that probes what a model with no image input can still recover from a text description of a sketch.
+        surrounding_text: "- [TypeSafe's Jev Can't See. I Made It Guess What I Drew Anyway](https://mikulskibartosz.name/typesafe-jev-guess-what-i-drew) - Blog: a drawing-guessing experiment that probes what a model with no image input can still recover from a text description of a sketch."
         confidence: high
 metadata:
   github:
@@ -40,31 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An experimental evaluation where a text-only decision model (Jev) is asked to classify hand-drawn sketches converted to SVG or base64 text.
+  why_it_matters: It demonstrates the limits of text-only models for visual tasks, helping developers understand when multimodal input is necessary.
+  mental_damage: Another reminder that feeding pixels as text to a model is like trying to read a map in Morse code — technically possible, practically pointless.
+  tags:
+    - evaluation
+    - decision-models
+    - vision-limits
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project centers on evaluating Jev, a TypeSafe System One decision model, by measuring its accuracy on a classification task using text representations of drawings, making it a decision-model benchmark rather than a coding agent or app builder.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - The experiment tests Jev, a text-only System One model, on classifying sketches converted to SVG or base64 text.
+    - Results are analyzed using statistical tests (Wilson confidence intervals, McNemar’s exact test) to compare Jev against Claude Sonnet 5 and random guessing.
+    - The source-list context describes it as turning '400 hand-drawn sketches into text and asked Jev... to name them', framing it as an evaluation of Jev’s capabilities.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:44.814Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:50aaffd92079ac8b0f526bb7a9ab8ea26861baa1710962e90113260492464043
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project centers on evaluating Jev, a TypeSafe System One decision model, by measuring its accuracy on a classification task using text representations of drawings, making it a decision-model benchmark rather than a coding agent or app builder.
+      decision_evidence:
+        - The experiment tests Jev, a text-only System One model, on classifying sketches converted to SVG or base64 text.
+        - Results are analyzed using statistical tests (Wilson confidence intervals, McNemar’s exact test) to compare Jev against Claude Sonnet 5 and random guessing.
+        - The source-list context describes it as turning '400 hand-drawn sketches into text and asked Jev... to name them', framing it as an evaluation of Jev’s capabilities.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the product’s core identity is the judgment of a specific decision model (Jev), not a general evaluation framework — benchmarks for decision models belong in decision-models per the precedence rule.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__dsh__jev__tools__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/dsh-jev-tools
-        surrounding_text: >-
-          - [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools)
-          ([site](https://www.npmjs.com/package/dsh-jev-tools)) - Jev judgment, not generation: prune long tool output,
-          screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.
+        surrounding_text: "- [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) ([site](https://www.npmjs.com/package/dsh-jev-tools)) - Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    dsh-jev-tools (site) - Jev judgment, not generation: prune long tool output, screen fetched pages for injected
-    instructions, and gate completion claims inside DeepSeek Harness.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: dsh-jev-tools is an npm package providing tooling built on the Jev decision model from TypeSafe AI.
+  why_it_matters: It enables developers to integrate typed decision-model judgments (like routing or scoring) into agents or workflows without relying on text-generation models.
+  mental_damage: Another npm package promising better AI decisions while adding yet another dependency to the ever-growing Jev-flavored stack.
+  tags:
+    - jev
+    - decision-model
+    - tooling
+    - typesafe
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Verification, Guardrails & Safety
+  reason: The tool is built specifically around the Jev decision model and provides utilities for invoking or integrating its judgments, making its core identity the decision layer rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.83
-    - >-
-      jev winnow:e4b 0.44 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - Listed in awesome-jev under 'Agent tooling' as a project built on Jev (TypeSafe AI's System One model)
+    - Package name 'dsh-jev-tools' implies tooling for Jev, a decision model that answers typed questions with probabilities
 placement:
   primary_category: decision-models
   secondary_categories:
     - coding-agents
-  section: Verification, Guardrails & Safety
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:30.518Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ce88597c918464f993f2df47d317e0629211fb2312f95561ba98b034063e4083
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool is built specifically around the Jev decision model and provides utilities for invoking or integrating its judgments, making its core identity the decision layer rather than a coding agent or extension.
+      decision_evidence:
+        - Listed in awesome-jev under 'Agent tooling' as a project built on Jev (TypeSafe AI's System One model)
+        - Package name 'dsh-jev-tools' implies tooling for Jev, a decision model that answers typed questions with probabilities
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the product's identity is the Jev decision-model tooling itself, not an add-on that extends a host agent like Claude Code or Cursor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

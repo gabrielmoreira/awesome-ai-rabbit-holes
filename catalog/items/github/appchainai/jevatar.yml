@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__appchainai__jevatar__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jevatar
         extracted_url: https://github.com/appchainai/jevatar
-        surrounding_text: >-
-          - [Jevatar](https://github.com/AppChainAI/Jevatar) - `Open source` · `Free source build` · `BYOK`. Local
-          face-only companion: TypeSafe Jev chooses one of 16 moods; blobatar morphs the face (no text replies).
-          [Project guide](community/projects/apps/jevatar.md).
+        surrounding_text: "- [Jevatar](https://github.com/AppChainAI/Jevatar) - `Open source` · `Free source build` · `BYOK`. Local face-only companion: TypeSafe Jev chooses one of 16 moods; blobatar morphs the face (no text replies). [Project guide](community/projects/apps/jevatar.md)."
         confidence: high
     - id: discovery__github__appchainai__jevatar__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Decision Tools
-        anchor_text: '**Jevatar**'
+        anchor_text: "**Jevatar**"
         extracted_url: https://github.com/appchainai/jevatar
-        surrounding_text: >-
-          - [**Jevatar**](https://github.com/AppChainAI/Jevatar) — This project integrates Jev to provide structured
-          decisions for its workflow. See the repository for implementation details.
+        surrounding_text: "- [**Jevatar**](https://github.com/AppChainAI/Jevatar) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
 metadata:
   github:
@@ -50,12 +45,10 @@ metadata:
     archived: false
     full_name: AppChainAI/Jevatar
     html_url: https://github.com/AppChainAI/Jevatar
-    created_at: '2026-09-22T07:01:10Z'
-    pushed_at: '2026-09-22T08:18:02Z'
-    description: >-
-      An AI companion that replies only with facial expressions. Jev (TypeSafe System One) judges your message and picks
-      1 of 14 moods; blobatar morphs its face. React + Vite + Bun.
-    homepage: ''
+    created_at: "2026-09-22T07:01:10Z"
+    pushed_at: "2026-09-22T08:18:02Z"
+    description: An AI companion that replies only with facial expressions. Jev (TypeSafe System One) judges your message and picks 1 of 14 moods; blobatar morphs its face. React + Vite + Bun.
+    homepage: ""
     topics:
       - ai-companion
       - avatar
@@ -67,14 +60,12 @@ metadata:
       - typesafe
       - typescript
       - vite
-    last_checked_at: '2026-09-29T13:09:06.934Z'
+    last_checked_at: "2026-09-29T13:09:06.934Z"
     readme:
-      fetched_at: '2026-09-29T13:09:06.934Z'
+      fetched_at: "2026-09-29T13:09:06.934Z"
       bytes: 1766
 insights:
-  summary: >-
-    An AI companion that replies only with facial expressions. Jev (TypeSafe System One) judges your message and picks 1
-    of 14 moods; blobatar morphs its face. React + Vite + Bun.
+  summary: An AI companion that replies only with facial expressions. Jev (TypeSafe System One) judges your message and picks 1 of 14 moods; blobatar morphs its face. React + Vite + Bun.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -94,15 +85,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.409Z'
+    updated_at: "2026-09-29T13:07:10.409Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:06.934Z'
+    updated_at: "2026-09-29T13:09:06.934Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

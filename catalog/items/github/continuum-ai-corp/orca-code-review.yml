@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__continuum-ai-corp__orca-code-review__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: OrcaCode Review
         extracted_url: https://github.com/continuum-ai-corp/orca-code-review
-        surrounding_text: >-
-          - **[OrcaCode Review](https://github.com/Continuum-AI-Corp/orca-code-review)** – GitHub Action for AI pull
-          request review that posts findings inline on the affected lines and blocks merges on critical severity.
+        surrounding_text: "- **[OrcaCode Review](https://github.com/Continuum-AI-Corp/orca-code-review)** – GitHub Action for AI pull request review that posts findings inline on the affected lines and blocks merges on critical severity."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: Continuum-AI-Corp/Orca-Code-Review
     html_url: https://github.com/Continuum-AI-Corp/Orca-Code-Review
-    created_at: '2026-06-25T02:39:47Z'
-    pushed_at: '2026-09-21T02:09:40Z'
-    description: >-
-      OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for
-      inference.
+    created_at: "2026-06-25T02:39:47Z"
+    pushed_at: "2026-09-21T02:09:40Z"
+    description: OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for inference.
     homepage: https://www.orcarouter.ai/code-review
     topics:
       - code-analysis
@@ -47,14 +43,12 @@ metadata:
       - code-review-automation
       - code-review-tool
       - orcarouter
-    last_checked_at: '2026-09-29T13:10:09.573Z'
+    last_checked_at: "2026-09-29T13:10:09.573Z"
     readme:
-      fetched_at: '2026-09-29T13:10:09.573Z'
+      fetched_at: "2026-09-29T13:10:09.573Z"
       bytes: 11135
 insights:
-  summary: >-
-    OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for
-    inference.
+  summary: OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for inference.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -64,9 +58,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
   evidence:
     - jev-latest choice confidence 0.70
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.26 below gate 0.50; proposed coding-agents / Review, Testing & Repair; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -78,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:09.573Z'
+    updated_at: "2026-09-29T13:10:09.573Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

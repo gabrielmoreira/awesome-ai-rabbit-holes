@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__numerous__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://numerous.com
-        surrounding_text: >-
-          - [DGP (Decision Graph Protocol)](https://github.com/numerous-com/dgp) ([site](https://numerous.com)) -
-          Experimental decision protocol whose Jev adapter evaluates framed evidence with typed choices, while
-          application code validates permissions and commits simulated demo actions.
+        surrounding_text: "- [DGP (Decision Graph Protocol)](https://github.com/numerous-com/dgp) ([site](https://numerous.com)) - Experimental decision protocol whose Jev adapter evaluates framed evidence with typed choices, while application code validates permissions and commits simulated demo actions."
         confidence: high
 metadata:
   github:
@@ -39,9 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    DGP (Decision Graph Protocol) (site) - Experimental decision protocol whose Jev adapter evaluates framed evidence
-    with typed choices, while application code validates permissions and commits simulated demo actions.
+  summary: DGP (Decision Graph Protocol) (site) - Experimental decision protocol whose Jev adapter evaluates framed evidence with typed choices, while application code validates permissions and commits simulated demo actions.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:43:23.446Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for numerous__com: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": Numerous i\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

@@ -91,9 +91,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-29T13:08:13.073Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:16:16.349Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 0xarx/jevegis
     next_retry_at: null
   categorize:
     status: done

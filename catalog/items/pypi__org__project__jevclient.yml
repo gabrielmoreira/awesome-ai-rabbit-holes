@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jevclient__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - SDKs & clients
         anchor_text: site
         extracted_url: https://pypi.org/project/jevclient
-        surrounding_text: >-
-          - [jevclient](https://github.com/AboveColin/jevclient) ([site](https://pypi.org/project/jevclient/)) - Async
-          Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
+        surrounding_text: "- [jevclient](https://github.com/AboveColin/jevclient) ([site](https://pypi.org/project/jevclient/)) - Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse."
         confidence: high
     - id: discovery__pypi__org__project__jevclient__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -36,7 +34,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jevclient
         extracted_url: https://pypi.org/project/jevclient
-        surrounding_text: '- [jevclient](https://pypi.org/project/jevclient/) - Python ecosystem: async client for Jev published on PyPI.'
+        surrounding_text: "- [jevclient](https://pypi.org/project/jevclient/) - Python ecosystem: async client for Jev published on PyPI."
         confidence: high
 metadata:
   github:
@@ -54,21 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevclient (site) - Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose
-    to parse.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python client package for interacting with Jev decision models via PyPI.
+  why_it_matters: Provides developers a programmatic way to query decision-model judgments for routing, scoring, or guardrails in agent workflows.
+  mental_damage: Another dependency to pin when your agent’s confidence scores start feeling like horoscopes.
+  tags:
+    - jev
+    - decision-models
+    - sdk
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: jevclient is an SDK whose purpose is calling a decision model with typed questions, fitting the decision-models category’s core identity around judgment-serving tooling.
   evidence:
-    - jev-latest choice confidence 0.95
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - Listed in awesome-jev under 'SDKs & clients' and 'Infra / SDKs / Integrations' sections
+    - Published on PyPI as a client package for Jev, indicating it is an SDK for accessing decision-model judgments
+    - No evidence of autonomous coding, app generation, or orchestration; identity centers on model interaction
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -80,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +86,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:27.974Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:be67d4a3ec73ad262ad68374e09c510c33f948eb3a4df9f030d4585e21f4f2d8
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jevclient is an SDK whose purpose is calling a decision model with typed questions, fitting the decision-models category’s core identity around judgment-serving tooling.
+      decision_evidence:
+        - Listed in awesome-jev under 'SDKs & clients' and 'Infra / SDKs / Integrations' sections
+        - Published on PyPI as a client package for Jev, indicating it is an SDK for accessing decision-model judgments
+        - No evidence of autonomous coding, app generation, or orchestration; identity centers on model interaction
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jevclient’s identity is as a decision-model SDK, not as an extension that augments a host agent’s workflow.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

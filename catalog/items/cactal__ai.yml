@@ -36,20 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "Cactal – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing."
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An agent-native platform for building, hosting, and operating websites through AI agents and MCP.
+  why_it_matters: It provides the managed infrastructure—including hosting, CMS, and SEO—necessary for autonomous agents to actually deploy and maintain live web projects.
+  mental_damage: Because now 'maintaining your website' just means arguing with a terminal about why the hero section is suddenly neon pink.
+  tags:
+    - website-builder
+    - agent-native
+    - mcp
+    - hosting
+    - cms
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Full App Builders
+  reason: It is a platform that turns agent instructions into deployable, hosted websites, fitting the prompt-to-site model.
   evidence:
-    - jev-latest choice confidence 0.89
+    - Claims to be an agent-native website platform
+    - Allows agents to build, publish, and operate sites via MCP or API
+    - Provides managed hosting, CMS, and SEO for agent-generated React code
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Full App Builders
+  section: Site & Landing Page Builders
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:02:52.043Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for cactal__ai: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Cactal's c\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-08T04:36:38.080Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6ea53f4cdbd9d5a3f392a1a73e4cadc0ebe98a38d7ae55d317e93643d56f6025
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: It is a platform that turns agent instructions into deployable, hosted websites, fitting the prompt-to-site model.
+      decision_evidence:
+        - Claims to be an agent-native website platform
+        - Allows agents to build, publish, and operate sites via MCP or API
+        - Provides managed hosting, CMS, and SEO for agent-generated React code
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the primary product is a platform for generating and hosting websites rather than a runtime for coordinating multi-agent task workflows.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

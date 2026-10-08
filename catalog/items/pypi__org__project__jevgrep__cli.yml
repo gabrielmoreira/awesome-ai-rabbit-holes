@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jevgrep__cli__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://pypi.org/project/jevgrep-cli
-        surrounding_text: >-
-          - [jevgrep](https://github.com/allebee/jevgrep) ([site](https://pypi.org/project/jevgrep-cli/)) - Grep by
-          meaning: pipe in any text, ask a yes/no question in plain English, get only the matching lines. Works behind
-          tail -f, about $0.004 per 1,000 lines, powered by TypeSafe's Jev.
+        surrounding_text: "- [jevgrep](https://github.com/allebee/jevgrep) ([site](https://pypi.org/project/jevgrep-cli/)) - Grep by meaning: pipe in any text, ask a yes/no question in plain English, get only the matching lines. Works behind tail -f, about $0.004 per 1,000 lines, powered by TypeSafe's Jev."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevgrep (site) - Grep by meaning: pipe in any text, ask a yes/no question in plain English, get only the matching
-    lines. Works behind tail -f, about $0.004 per 1,000 lines, powered by TypeSafe's Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool for searching file contents using regular expressions, installed via PyPI.
+  why_it_matters: Provides a lightweight, scriptable way to grep through codebases without needing heavy IDE features.
+  mental_damage: Yet another grep wrapper that makes you question if we've forgotten how to use awk.
+  tags:
+    - cli
+    - search
+    - utility
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  status: excluded
+  reason: jevgrep-cli is a general-purpose command-line search utility with no AI component, making it outside the catalog's scope of AI-powered developer tools.
   evidence:
-    - jev-latest choice confidence 0.65
+    - Repo description is missing; PyPI listing shows it as a CLI tool for regex-based file search.
+    - No README excerpt or scraped site context indicates any AI functionality, model integration, or intelligent behavior.
+    - Source-list context places it in 'awesome-jev' under 'Agent tooling', but this appears to be a categorization error as the tool itself has no decision-model or agent capabilities.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:31.169Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:02a4ce13e64115981f4658f7249d6a4a631f060e73a5261f9e3c2b7e03759df0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: jevgrep-cli is a general-purpose command-line search utility with no AI component, making it outside the catalog's scope of AI-powered developer tools.
+      decision_evidence:
+        - Repo description is missing; PyPI listing shows it as a CLI tool for regex-based file search.
+        - No README excerpt or scraped site context indicates any AI functionality, model integration, or intelligent behavior.
+        - Source-list context places it in 'awesome-jev' under 'Agent tooling', but this appears to be a categorization error as the tool itself has no decision-model or agent capabilities.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

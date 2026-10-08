@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__derwells__sieve__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: sieve
         extracted_url: https://github.com/derwells/sieve
-        surrounding_text: >-
-          - [sieve](https://github.com/derwells/sieve) - Local MCP server that enumerates candidates and scores them
-          with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). [Project
-          guide](community/projects/tools/sieve.md).
+        surrounding_text: "- [sieve](https://github.com/derwells/sieve) - Local MCP server that enumerates candidates and scores them with TypeSafe Jev (`jev_grep` / `jev_rank` / `jev_search`). [Project guide](community/projects/tools/sieve.md)."
         confidence: high
 metadata:
   github:
@@ -33,17 +30,17 @@ metadata:
     archived: false
     full_name: derwells/sieve
     html_url: https://github.com/derwells/sieve
-    created_at: '2026-09-22T06:29:08Z'
-    pushed_at: '2026-09-29T10:57:46Z'
-    description: 'Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search'
+    created_at: "2026-09-22T06:29:08Z"
+    pushed_at: "2026-09-29T10:57:46Z"
+    description: "Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search"
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:36.538Z'
+    last_checked_at: "2026-09-29T13:10:36.538Z"
     readme:
-      fetched_at: '2026-09-29T13:10:36.538Z'
+      fetched_at: "2026-09-29T13:10:36.538Z"
       bytes: 33076
 insights:
-  summary: 'Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search'
+  summary: "Local MCP server giving coding agents Jev-backed filters: jev_grep, jev_rank, jev_search"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -53,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
   evidence:
     - jev-latest choice confidence 0.78
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.46 below gate 0.50; proposed mcp / Dev & Code Tools; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -67,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:36.538Z'
+    updated_at: "2026-09-29T13:10:36.538Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eliaalberti__jev-rules__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-rules
         extracted_url: https://github.com/eliaalberti/jev-rules
-        surrounding_text: >-
-          - [jev-rules](https://github.com/EliaAlberti/jev-rules) - Selects Claude Code project rules and map documents
-          with Jev judgments over prompts and file paths, with session caching and fallback context. [Project
-          guide](community/projects/tools/jev-rules.md).
+        surrounding_text: "- [jev-rules](https://github.com/EliaAlberti/jev-rules) - Selects Claude Code project rules and map documents with Jev judgments over prompts and file paths, with session caching and fallback context. [Project guide](community/projects/tools/jev-rules.md)."
         confidence: high
     - id: discovery__github__eliaalberti__jev-rules__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -39,12 +36,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: jev-rules
         extracted_url: https://github.com/eliaalberti/jev-rules
-        surrounding_text: >-
-          | [jev-rules](https://github.com/EliaAlberti/jev-rules) | ★ 45 | JavaScript | 2026-09-21 | Claude Code plugin
-          where Jev decides which project rules apply to each prompt and edited file. |
+        surrounding_text: "| [jev-rules](https://github.com/EliaAlberti/jev-rules) | ★ 45 | JavaScript | 2026-09-21 | Claude Code plugin where Jev decides which project rules apply to each prompt and edited file. |"
         confidence: high
     - id: discovery__github__eliaalberti__jev-rules__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,13 +49,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**jev-rules**'
+        anchor_text: "**jev-rules**"
         extracted_url: https://github.com/eliaalberti/jev-rules
-        surrounding_text: >-
-          - [**jev-rules**](https://github.com/EliaAlberti/jev-rules) — \*\*New in 0.5.0:\*\* \[one line under each
-          prompt\](#in-the-conversation) names the rules Claude was given and Jev's score for each, and the \[rules
-          pane\](#the-rules-pane) switches on with one answer: the first time Jev picks a rule, Claude asks whether you
-          want it.
+        surrounding_text: "- [**jev-rules**](https://github.com/EliaAlberti/jev-rules) — \\*\\*New in 0.5.0:\\*\\* \\[one line under each prompt\\](#in-the-conversation) names the rules Claude was given and Jev's score for each, and the \\[rules pane\\](#the-rules-pane) switches on with one answer: the first time Jev picks a rule, Claude asks whether you want it."
         confidence: high
 metadata:
   github:
@@ -70,14 +61,14 @@ metadata:
     archived: false
     full_name: EliaAlberti/jev-rules
     html_url: https://github.com/EliaAlberti/jev-rules
-    created_at: '2026-09-18T09:18:35Z'
-    pushed_at: '2026-09-27T12:29:30Z'
+    created_at: "2026-09-18T09:18:35Z"
+    pushed_at: "2026-09-27T12:29:30Z"
     description: Jev picks which of your rules apply to each prompt, so Claude only sees the ones that matter.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:57.570Z'
+    last_checked_at: "2026-09-29T13:10:57.570Z"
     readme:
-      fetched_at: '2026-09-29T13:10:57.570Z'
+      fetched_at: "2026-09-29T13:10:57.570Z"
       bytes: 23436
 insights:
   summary: Jev picks which of your rules apply to each prompt, so Claude only sees the ones that matter.
@@ -90,9 +81,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.45
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -104,15 +93,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.394Z'
+    updated_at: "2026-09-29T13:07:10.394Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:57.570Z'
+    updated_at: "2026-09-29T13:10:57.570Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

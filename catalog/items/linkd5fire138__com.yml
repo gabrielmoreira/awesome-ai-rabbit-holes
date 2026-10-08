@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__linkd5fire138__com__awesome-list__e2b-dev__awesome-ai-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: e2b-dev/awesome-ai-agents
@@ -18,7 +18,7 @@ provenance:
           - ChatArena
         anchor_text: ChatArena
         extracted_url: https://chatarena.org
-        surrounding_text: '## [ChatArena](https://www.chatarena.org/)'
+        surrounding_text: "## [ChatArena](https://www.chatarena.org/)"
         confidence: high
 metadata:
   github:
@@ -36,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: FIRE138 is an Indonesian online gaming portal offering casino, sports betting, and slot games with live chat support and multiple payment methods.
+  why_it_matters: It does not relate to software development, AI tooling, or developer workflows in any way.
+  mental_damage: Another reminder that the web is 90% gambling sites pretending to be tech platforms, and 10% actual tools we have to sift through.
+  tags:
+    - gambling
+    - casino
+    - indonesia
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: FIRE138 is an online gambling portal with no connection to AI development, coding agents, or developer tooling; its inclusion in awesome-ai-agents under ChatArena appears to be a mistake or spam.
+  evidence:
+    - Scraped site context identifies FIRE138 as a portal for online gaming, slots, sports betting, and live casino games.
+    - Source-list placement in awesome-ai-agents | ChatArena is incongruent with the site's actual content, which contains no AI, agent, or developer tooling references.
+    - No repository, documentation, or technical claims exist that would suggest any relevance to software developers or AI workflows.
 placement:
   primary_category: null
   section: null
@@ -54,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -62,6 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:07.704Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:49efe24798b0743b167b4589c4a46d06d9bc1ca9237f10030f6af4b5057b3a80
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: FIRE138 is an online gambling portal with no connection to AI development, coding agents, or developer tooling; its inclusion in awesome-ai-agents under ChatArena appears to be a mistake or spam.
+      decision_evidence:
+        - Scraped site context identifies FIRE138 as a portal for online gaming, slots, sports betting, and live casino games.
+        - Source-list placement in awesome-ai-agents | ChatArena is incongruent with the site's actual content, which contains no AI, agent, or developer tooling references.
+        - No repository, documentation, or technical claims exist that would suggest any relevance to software developers or AI workflows.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

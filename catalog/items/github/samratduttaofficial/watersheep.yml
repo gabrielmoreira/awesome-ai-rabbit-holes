@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/samratduttaofficial/watersheep
         surrounding_text: "- [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) - Independent open-weight Jev alternative (Apache-2.0) behind a local server that accepts Jev's `POST /v1/systemone` request format; it answers Noul, Choice, Score, and multi-label questions about text with a probability for every option, and TypeSafe's Python SDK works against it unchanged."
         confidence: high
+    - id: discovery__github__samratduttaofficial__watersheep__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: WaterSheep
+        extracted_url: https://github.com/samratduttaofficial/watersheep
+        surrounding_text: "- [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) ([site](https://samratduttaofficial.github.io/WaterSheep/)) - Open, Apache-2.0 alternative to Jev that runs locally. Its server accepts Jev's /v1/systemone requests, so TypeSafe's Python SDK works against it, and it adds multi-label questions."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -117,7 +132,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.930Z"
+    updated_at: "2026-10-08T04:16:14.228Z"
     cause: null
     next_retry_at: null
   stars:
@@ -126,7 +141,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.824Z"
+    updated_at: "2026-10-08T04:16:21.689Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

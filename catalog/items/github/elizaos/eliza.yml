@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__elizaos__eliza__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,14 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**eliza**'
+        anchor_text: "**eliza**"
         extracted_url: https://github.com/elizaos/eliza
-        surrounding_text: >-
-          - [**eliza**](https://github.com/elizaOS/eliza) — An optional TypeSafe HTTP adapter in Eliza’s source, not
-          registered with the Agent runtime by default.
+        surrounding_text: "- [**eliza**](https://github.com/elizaOS/eliza) — An optional TypeSafe HTTP adapter in Eliza’s source, not registered with the Agent runtime by default."
         confidence: high
     - id: discovery__github__elizaos__eliza__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,11 +35,7 @@ provenance:
           - Agent Decisions
         anchor_text: Eliza
         extracted_url: https://github.com/elizaos/eliza
-        surrounding_text: >-
-          - [Eliza](https://github.com/elizaOS/eliza)
-          ![stars](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&label=%E2%98%85) - Autonomous
-          agents: multi-agent framework integrating TypeSafe System One decision services for sub-100ms intent
-          classification, action dispatching, and confidence-gated tool execution.
+        surrounding_text: "- [Eliza](https://github.com/elizaOS/eliza) ![stars](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&label=%E2%98%85) - Autonomous agents: multi-agent framework integrating TypeSafe System One decision services for sub-100ms intent classification, action dispatching, and confidence-gated tool execution."
         confidence: high
 metadata:
   github:
@@ -51,8 +45,8 @@ metadata:
     archived: false
     full_name: elizaOS/eliza
     html_url: https://github.com/elizaOS/eliza
-    created_at: '2024-07-09T07:55:40Z'
-    pushed_at: '2026-09-29T01:17:22Z'
+    created_at: "2024-07-09T07:55:40Z"
+    pushed_at: "2026-09-29T01:17:22Z"
     description: Open source agentic operating system
     homepage: https://elizaresearch.ai/
     topics:
@@ -71,9 +65,9 @@ metadata:
       - slack
       - swarm
       - telegram
-    last_checked_at: '2026-09-29T13:10:58.531Z'
+    last_checked_at: "2026-09-29T13:10:58.531Z"
     readme:
-      fetched_at: '2026-09-29T13:10:58.531Z'
+      fetched_at: "2026-09-29T13:10:58.531Z"
       bytes: 7334
 insights:
   summary: Open source agentic operating system
@@ -86,9 +80,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
   evidence:
     - jev-latest choice confidence 0.40
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks
-      (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at ai-frameworks (unverified)
 placement:
   primary_category: ai-frameworks
   secondary_categories:
@@ -100,15 +92,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:58.531Z'
+    updated_at: "2026-09-29T13:10:58.531Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

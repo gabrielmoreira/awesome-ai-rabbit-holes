@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agent-labs-dev__fastbrowse__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Browser & computer use (75)
         anchor_text: fastbrowse
         extracted_url: https://github.com/agent-labs-dev/fastbrowse
-        surrounding_text: >-
-          | [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) | ★ 5 | Python | 2026-09-19 | Browser agent where
-          Jev selects actions, an LLM reads and plans, and answers cite page evidence. |
+        surrounding_text: "| [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) | ★ 5 | Python | 2026-09-19 | Browser agent where Jev selects actions, an LLM reads and plans, and answers cite page evidence. |"
         confidence: high
     - id: discovery__github__agent-labs-dev__fastbrowse__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,10 +36,7 @@ provenance:
           - Agent Decisions
         anchor_text: fastbrowse
         extracted_url: https://github.com/agent-labs-dev/fastbrowse
-        surrounding_text: >-
-          - [fastbrowse](https://github.com/agent-labs-dev/fastbrowse)
-          ![stars](https://img.shields.io/github/stars/agent-labs-dev/fastbrowse?style=flat-square&label=%E2%98%85) -
-          Browser agents: Jev picks each action from what is on the page while an LLM reads and plans.
+        surrounding_text: "- [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) ![stars](https://img.shields.io/github/stars/agent-labs-dev/fastbrowse?style=flat-square&label=%E2%98%85) - Browser agents: Jev picks each action from what is on the page while an LLM reads and plans."
         confidence: high
 metadata:
   github:
@@ -51,11 +46,9 @@ metadata:
     archived: false
     full_name: agent-labs-dev/fastbrowse
     html_url: https://github.com/agent-labs-dev/fastbrowse
-    created_at: '2026-09-17T15:11:57Z'
-    pushed_at: '2026-09-29T12:58:24Z'
-    description: >-
-      A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in
-      an answer cites a quote from the page.
+    created_at: "2026-09-17T15:11:57Z"
+    pushed_at: "2026-09-29T12:58:24Z"
+    description: "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page."
     homepage: null
     topics:
       - agents
@@ -63,14 +56,12 @@ metadata:
       - llm
       - python
       - web-automation
-    last_checked_at: '2026-09-29T13:08:32.144Z'
+    last_checked_at: "2026-09-29T13:08:32.144Z"
     readme:
-      fetched_at: '2026-09-29T13:08:32.144Z'
+      fetched_at: "2026-09-29T13:08:32.144Z"
       bytes: 21848
 insights:
-  summary: >-
-    A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an
-    answer cites a quote from the page.
+  summary: "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -90,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.408Z'
+    updated_at: "2026-09-29T13:07:10.408Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:32.145Z'
+    updated_at: "2026-09-29T13:08:32.145Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

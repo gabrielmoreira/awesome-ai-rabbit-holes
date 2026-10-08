@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__harness__autonomous__ai__desktop__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Product
         extracted_url: https://harness.autonomous.ai/desktop
-        surrounding_text: >-
-          - [Jev Sheets](https://github.com/autonomous-ai/openharness) - `Open source` · `Free source build` · `BYOK`.
-          OpenHarness desktop sheet pane: TypeSafe Jev answers typed column questions per row (Question Lab wording
-          trials; BYOK or offline practice). [Product](https://harness.autonomous.ai/desktop) · [Project
-          guide](community/projects/apps/jev-sheets.md).
+        surrounding_text: "- [Jev Sheets](https://github.com/autonomous-ai/openharness) - `Open source` · `Free source build` · `BYOK`. OpenHarness desktop sheet pane: TypeSafe Jev answers typed column questions per row (Question Lab wording trials; BYOK or offline practice). [Product](https://harness.autonomous.ai/desktop) · [Project guide](community/projects/apps/jev-sheets.md)."
         confidence: high
 metadata:
   github:
@@ -41,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Sheets - Open source · Free source build · BYOK. OpenHarness desktop sheet pane: TypeSafe Jev answers typed
-    column questions per row (Question Lab wording trials; BYOK or offline practice). Product · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Harness is a desktop app for macOS and Linux that provides a UI interface for interacting with AI agents.
+  why_it_matters: It offers a user-friendly desktop experience for developers who prefer graphical interfaces over terminal-based AI coding agents.
+  mental_damage: Another desktop wrapper promising to make AI agents feel less like talking to a terminal and more like using actual software—because apparently that’s still novel in 2024.
+  tags:
+    - desktop-app
+    - ai-interface
+    - developer-tool
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: Harness is a desktop client for interacting with AI agents (likely via Jev or similar) but does not itself perform coding tasks, make decisions, or extend agent behavior—it’s a frontend layer without core AI tooling identity.
   evidence:
-    - jev-latest choice confidence 0.57
+    - The scraped site context describes Harness as a downloadable desktop app for macOS and Linux with no mention of coding, decision-making, or agent extension capabilities.
+    - It is listed in 'awesome-jev' under 'Community projects > Apps powered by Jev', indicating it is a Jev-powered app, not a decision model, agent, or developer tool in its own right.
+    - The primary value is installation and UI access, not any developer-facing AI functionality like code editing, prompt engineering, or workflow automation.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:00.846Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:33cbaa3238f833d0498604c290ec85f44cf487759f19a12fa969bbd14ca8840d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Harness is a desktop client for interacting with AI agents (likely via Jev or similar) but does not itself perform coding tasks, make decisions, or extend agent behavior—it’s a frontend layer without core AI tooling identity.
+      decision_evidence:
+        - The scraped site context describes Harness as a downloadable desktop app for macOS and Linux with no mention of coding, decision-making, or agent extension capabilities.
+        - It is listed in 'awesome-jev' under 'Community projects > Apps powered by Jev', indicating it is a Jev-powered app, not a decision model, agent, or developer tool in its own right.
+        - The primary value is installation and UI access, not any developer-facing AI functionality like code editing, prompt engineering, or workflow automation.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

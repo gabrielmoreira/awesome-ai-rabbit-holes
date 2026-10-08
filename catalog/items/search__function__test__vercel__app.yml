@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__search__function__test__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://search-function-test.vercel.app
-        surrounding_text: >-
-          - [Search-Function-Test](https://github.com/Shifros/Search-Function-Test)
-          ([site](https://search-function-test.vercel.app)) - A test project based on Jev AI, the goal is to build a
-          search function for a blog/article website that has 100s of articles to search from, So the user can actually
-          use the search as chat to question anything and find related answers/articles.
+        surrounding_text: "- [Search-Function-Test](https://github.com/Shifros/Search-Function-Test) ([site](https://search-function-test.vercel.app)) - A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to question anything and find related answers/articles."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Search-Function-Test (site) - A test project based on Jev AI, the goal is to build a search function for a
-    blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to
-    question anything and find related answers/articles.
-  why_it_matters: null
-  mental_damage: null
+  summary: search-function-test.vercel.app is a static page on business registration topics, not a developer-facing AI tool.
+  why_it_matters: It does not provide any AI functionality, workflow enhancement, or developer utility relevant to the catalog.
+  mental_damage: Another reminder that AI tool directories are now indexing SEO landing pages because everything must be 'AI-adjacent'.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
+  status: excluded
+  reason: The project is a static informational page about business registration with no AI, agent, coding, or developer tooling functionality; it lacks any product identity relevant to the catalog's scope.
   evidence:
-    - jev-latest choice confidence 0.58
+    - "Scraped site title: 'How To Register — All the business setup topics in one place'"
+    - Source-list context shows it appears only in a Jev-based directory as a demo under 'How To Register'
+    - No repo description, README, or indicators of AI agent, framework, extension, or tooling behavior
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:15.699Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:25cc290d100eed1592be2608e83e5f952ff5f39a5e703776f4644ec44d24c3a6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a static informational page about business registration with no AI, agent, coding, or developer tooling functionality; it lacks any product identity relevant to the catalog's scope.
+      decision_evidence:
+        - "Scraped site title: 'How To Register — All the business setup topics in one place'"
+        - Source-list context shows it appears only in a Jev-based directory as a demo under 'How To Register'
+        - No repo description, README, or indicators of AI agent, framework, extension, or tooling behavior
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

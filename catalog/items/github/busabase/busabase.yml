@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__busabase__busabase__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🗄️ Databases
         anchor_text: busabase/busabase
         extracted_url: https://github.com/busabase/busabase
-        surrounding_text: >-
-          -   **[busabase/busabase](https://github.com/busabase/busabase)** [![GitHub
-          stars](https://img.shields.io/github/stars/busabase/busabase?style=social)](https://github.com/busabase/busabase):
-          Open-source database and workspace for AI agents, with typed tables, docs, files, search, and ChangeRequests
-          for human review before important writes.
+        surrounding_text: "-   **[busabase/busabase](https://github.com/busabase/busabase)** [![GitHub stars](https://img.shields.io/github/stars/busabase/busabase?style=social)](https://github.com/busabase/busabase): Open-source database and workspace for AI agents, with typed tables, docs, files, search, and ChangeRequests for human review before important writes."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: busabase/busabase
     html_url: https://github.com/busabase/busabase
-    created_at: '2026-06-23T03:35:31Z'
-    pushed_at: '2026-09-28T15:17:22Z'
-    description: >-
-      Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable
-      apps, and human review on the writes that matter. Local-first and self-hostable.
+    created_at: "2026-06-23T03:35:31Z"
+    pushed_at: "2026-09-28T15:17:22Z"
+    description: Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and human review on the writes that matter. Local-first and self-hostable.
     homepage: https://busabase.com
     topics:
       - agent-workspace
@@ -61,14 +55,12 @@ metadata:
       - supabase
       - system-of-record
       - typescript
-    last_checked_at: '2026-09-29T13:09:39.162Z'
+    last_checked_at: "2026-09-29T13:09:39.162Z"
     readme:
-      fetched_at: '2026-09-29T13:09:39.162Z'
+      fetched_at: "2026-09-29T13:09:39.162Z"
       bytes: 17690
 insights:
-  summary: >-
-    Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps,
-    and human review on the writes that matter. Local-first and self-hostable.
+  summary: Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and human review on the writes that matter. Local-first and self-hostable.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -78,9 +70,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
   evidence:
     - jev-latest choice confidence 0.94
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept
-      at memory-and-context (unverified)
+    - jev winnow:e4b 0.45 below gate 0.50; proposed memory-and-context / Persistent Memory & Knowledge; placement kept at memory-and-context (unverified)
 placement:
   primary_category: memory-and-context
   secondary_categories:
@@ -92,15 +82,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:39.162Z'
+    updated_at: "2026-09-29T13:09:39.162Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

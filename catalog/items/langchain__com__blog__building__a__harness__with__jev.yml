@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__langchain__com__blog__building__a__harness__with__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: Building a Harness with Jev
         extracted_url: https://langchain.com/blog/building-a-harness-with-jev
-        surrounding_text: >-
-          - [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev) - Framework guide:
-          LangChain's walkthrough of wiring Jev into an agent harness as the decision layer, from a team that then
-          published its own evaluation of Jev as a judge.
+        surrounding_text: "- [Building a Harness with Jev](https://www.langchain.com/blog/building-a-harness-with-jev) - Framework guide: LangChain's walkthrough of wiring Jev into an agent harness as the decision layer, from a team that then published its own evaluation of Jev as a judge."
         confidence: high
 metadata:
   github:
@@ -40,31 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a TypeSafe System One decision model that returns typed probabilities for classification tasks like urgency scoring, used via LangChain integrations for fast agent decisions.
+  why_it_matters: It lets developers replace slow LLM calls for structured decisions with a low-latency, low-cost classifier that plugs into agent workflows.
+  mental_damage: Another model to juggle in your agent stack, promising savings while adding yet another dependency to debug when routing goes wrong.
+  tags:
+    - decision-model
+    - classification
+    - langchain
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev is a decision model that returns typed probabilities (Noul, Score, Choice) instead of generating text, fitting the decision-models category where the model's judgment is the product identity.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.26 below gate 0.50; proposed decision-models / Framework & SDK Integrations; no placement kept
-      (unverified)
+    - Jev is a System One model that evaluates state and returns typed answers with probabilities, not text generation
+    - It is used via LangChain's TypeSafeClassifier to answer questions like urgency with probabilities
+    - The product's core function is classification, routing, and guardrails via typed questions
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:56.612Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e662bdaed26765137d29771c9268a616eaf1256958f7f79a13a5447622a5e55a
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that returns typed probabilities (Noul, Score, Choice) instead of generating text, fitting the decision-models category where the model's judgment is the product identity.
+      decision_evidence:
+        - Jev is a System One model that evaluates state and returns typed answers with probabilities, not text generation
+        - It is used via LangChain's TypeSafeClassifier to answer questions like urgency with probabilities
+        - The product's core function is classification, routing, and guardrails via typed questions
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because Jev's identity is the decision model itself, not an integration layer that augments another agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

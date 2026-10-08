@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dayhaysoos__jevals__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jevals
         extracted_url: https://github.com/dayhaysoos/jevals
-        surrounding_text: >-
-          - [jevals](https://github.com/dayhaysoos/jevals) - Local TypeSafe Jev evaluation workbench: author
-          Noul/Choice/Score cases with expected answers, run them, and compare saved results. [Project
-          guide](community/projects/tools/jevals.md).
+        surrounding_text: "- [jevals](https://github.com/dayhaysoos/jevals) - Local TypeSafe Jev evaluation workbench: author Noul/Choice/Score cases with expected answers, run them, and compare saved results. [Project guide](community/projects/tools/jevals.md)."
         confidence: high
 metadata:
   github:
@@ -33,14 +30,14 @@ metadata:
     archived: false
     full_name: dayhaysoos/jevals
     html_url: https://github.com/dayhaysoos/jevals
-    created_at: '2026-09-18T06:11:53Z'
-    pushed_at: '2026-09-18T14:51:10Z'
+    created_at: "2026-09-18T06:11:53Z"
+    pushed_at: "2026-09-18T14:51:10Z"
     description: Local evaluation workbench for TypeSafe Jev
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:30.607Z'
+    last_checked_at: "2026-09-29T13:10:30.607Z"
     readme:
-      fetched_at: '2026-09-29T13:10:30.607Z'
+      fetched_at: "2026-09-29T13:10:30.607Z"
       bytes: 3539
 insights:
   summary: null
@@ -53,9 +50,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.36 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.36 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -67,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:30.607Z'
+    updated_at: "2026-09-29T13:10:30.607Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

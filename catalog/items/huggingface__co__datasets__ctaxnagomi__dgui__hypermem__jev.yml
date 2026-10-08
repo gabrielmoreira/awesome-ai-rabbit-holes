@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__datasets__ctaxnagomi__dgui__hypermem__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV
-        surrounding_text: >-
-          - [dgui-hypermem](https://github.com/ctaxnagomi/dgui-hypermem)
-          ([site](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)) - DGUI-HyperMem (DeckerGUI HyperMemory)
-          - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer
-          and a HuggingFace training-brain flywheel.
+        surrounding_text: "- [dgui-hypermem](https://github.com/ctaxnagomi/dgui-hypermem) ([site](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)) - DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel."
         confidence: high
 metadata:
   github:
@@ -40,29 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    dgui-hypermem (site) - DGUI-HyperMem (DeckerGUI HyperMemory) - self-hosted hybrid memory MCP server on Cloudflare
-    Workers with a JEV (Choice/Noul/Score) reasoning layer and a HuggingFace training-brain flywheel.
-  why_it_matters: null
-  mental_damage: null
+  summary: DGUI_HYPERMEM-JEV is a Hugging Face dataset, not a developer tool or AI product.
+  why_it_matters: It does not provide functionality for developers to build, deploy, or interact with AI systems.
+  mental_damage: Another dataset masquerading as a tool in the endless AI content sprawl.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Local Serving & Gateways
+  status: excluded
+  reason: The input is a dataset on Hugging Face with no indication of being a developer-facing AI tool, agent, framework, or infrastructure; it lacks any product identity relevant to the catalog's scope.
   evidence:
-    - jev-latest choice confidence 0.60
+    - URL points to a Hugging Face dataset (https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)
+    - Repo description is missing, and no README or site context describes a tool or product
+    - Seen only in an awesome-jev list under 'Agent tooling', but this is insufficient to confer product identity
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Local Serving & Gateways
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:14.289Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5dad3610814ce76a42d659f2367ca4bedfcc548eed9025642554cf9591bb174d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a dataset on Hugging Face with no indication of being a developer-facing AI tool, agent, framework, or infrastructure; it lacks any product identity relevant to the catalog's scope.
+      decision_evidence:
+        - URL points to a Hugging Face dataset (https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)
+        - Repo description is missing, and no README or site context describes a tool or product
+        - Seen only in an awesome-jev list under 'Agent tooling', but this is insufficient to confer product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

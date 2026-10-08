@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npx__kushwho__jev__codes__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://npx@kushwho/jev-codes
-        surrounding_text: >-
-          - [jev-codes](https://github.com/Kushwho/jev-codes) ([site](https://npx@kushwho/jev-codes)) - Audit your git
-          diff against YAML coding-standards packs using TypeSafe's Jev model, from a CLI or your AI agent's
-          command/skill.
+        surrounding_text: "- [jev-codes](https://github.com/Kushwho/jev-codes) ([site](https://npx@kushwho/jev-codes)) - Audit your git diff against YAML coding-standards packs using TypeSafe's Jev model, from a CLI or your AI agent's command/skill."
         confidence: high
 metadata:
   github:
@@ -39,13 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-codes (site) - Audit your git diff against YAML coding-standards packs using TypeSafe's Jev model, from a CLI or
-    your AI agent's command/skill.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-codes is a directory of projects built on Jev, the TypeSafe AI System One decision model.
+  why_it_matters: It helps developers discover real-world examples of decision-model usage, which can inform integration patterns for typed judgment systems.
+  mental_damage: Another curated list that pretends to be a tool, adding to the growing pile of navigation aids we must now evaluate before we can actually build anything.
+  tags:
+    - curated-list
+    - decision-models
+    - jev
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
@@ -54,14 +52,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +67,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:28.504Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f6720cef7d3101664640740660274b76a8259ce16ce26f6362e3443318a0787a
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: jev-codes is a curated directory of Jev-based projects, making it a discovery resource rather than a developer tool itself, which fits the awesome-awesomes category for curated lists and directories.
+      decision_evidence:
+        - "Source-list context shows it appears in 'awesome-jev' with purpose: 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'"
+        - The section listed is 'Benchmarks & research', indicating its role as a reference collection.
+        - No repo description, README, or homepage is provided, confirming it lacks product identity and is purely a listing.
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because jev-codes is a directory of projects, not a decision model, SDK, gateway, or tool that exercises judgment — its value is in curation, not in providing or integrating Jev.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'awesome-awesomes'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

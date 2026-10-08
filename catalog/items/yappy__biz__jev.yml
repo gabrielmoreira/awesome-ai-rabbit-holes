@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__yappy__biz__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Agent Decisions
         anchor_text: Yappy
         extracted_url: https://yappy.biz/jev
-        surrounding_text: >-
-          - [Yappy](https://yappy.biz/jev/) - Computer use: macOS voice agent that asks Jev one `Choice` per step
-          (operation and target control) over the front window's accessibility table, executes only validated
-          high-confidence answers, and escalates to a full LLM agent on low confidence, no-effect actions, or unknown
-          field values; author-reported 275–690 ms per decision.
+        surrounding_text: "- [Yappy](https://yappy.biz/jev/) - Computer use: macOS voice agent that asks Jev one `Choice` per step (operation and target control) over the front window's accessibility table, executes only validated high-confidence answers, and escalates to a full LLM agent on low confidence, no-effect actions, or unknown field values; author-reported 275–690 ms per decision."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Yappy - Computer use: macOS voice agent that asks Jev one Choice per step (operation and target control) over the
-    front window's accessibility table, executes only validated high-confidence answers, and escalates to a full LLM
-    agent on low confidence, no-effect actions, or unknown field values; author-reported 275–690 ms per decision.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A non-generative decision model that returns typed, probabilistic answers instead of text to facilitate high-speed computer use.
+  why_it_matters: It drastically lowers the latency and cost of agentic workflows by replacing expensive reasoning turns with lightweight, structured decision steps.
+  mental_damage: We've successfully optimized the agentic workflow by removing the 'language' from Large Language Models.
+  tags:
+    - decision-model
+    - computer-use
+    - macos
+    - low-latency
+    - structured-output
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
+  reason: Jev is explicitly marketed as a decision model rather than a chat model, focusing on returning structured, probabilistic answers to facilitate rapid computer-use tasks.
   evidence:
-    - jev-latest choice confidence 0.93
+    - Explicitly described as 'a decision model, not a chat model'
+    - Returns typed answers (choice, yes/no, or score) with associated probabilities
+    - Acts as the high-speed decision layer for the Yappy computer-use agent
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Browser & Computer Use
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:10.676Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ac59678707a146db95e38d4978a7bc96b8d6719cc13307ca6cde310b4bea7970
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is explicitly marketed as a decision model rather than a chat model, focusing on returning structured, probabilistic answers to facilitate rapid computer-use tasks.
+      decision_evidence:
+        - Explicitly described as 'a decision model, not a chat model'
+        - Returns typed answers (choice, yes/no, or score) with associated probabilities
+        - Acts as the high-speed decision layer for the Yappy computer-use agent
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev is the specialized judgment engine that powers the agent, rather than the autonomous agent (Yappy) itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

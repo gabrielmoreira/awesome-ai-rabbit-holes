@@ -37,12 +37,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ClevAgent is a supervised terminal layer that adds guidance and safety checks for AI agents running in developer environments.
-  why_it_matters: It reduces wasted effort and security risks when running AI agents by enforcing guardrails and auditing actions.
-  mental_damage: Another layer of AI supervision that makes you wait for approvals while the agent sits idle, echoing the anxiety of the last year’s AI tooling chaos.
+  summary: ClevAgent is a workspace for running and guiding AI agents with built-in safety and optimization layers.
+  why_it_matters: It provides independent oversight of agent actions to prevent costly mistakes like credential leaks or destructive commands.
+  mental_damage: Finally, a babysitter for your AI intern who keeps ordering $2000 pizzas on the corporate card.
   tags:
-    - ai-dev-extensions
-    - mcp
+    - agent-safety
+    - workspace
+    - guardrails
   confidence: medium
 curation:
   status: included
@@ -52,10 +53,10 @@ curation:
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
-  section: Security & DevSecOps
+  section: Testing & Code Quality
 lifecycle:
   status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -67,30 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:29:33.402Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for clevagent__io: Invalid AI response structure: Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:21:56.806Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:0e1bfbabd51109e749c9751325098520a07cfdd594d6281e2b3e302be0839e82
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:efe54cda9105331b4a91abbc6291faa4aa150ddf3aec3d141e41f808880d5542
       proposed_primary_category: coding-agents
       disagreement: true
-      decision_reason: ClevAgent is a primary coding agent that autonomously runs and modifies code in a terminal, making it a core coding agent rather than just an extension.
+      decision_reason: ClevAgent acts as a safety and optimization layer that augments existing AI agents rather than functioning as a standalone coding agent, making it an extension focused on security and workflow improvement.
       decision_evidence:
-        - "Scraped site context states: 'Run AI agents inside a supervised terminal' and describes real-time intervention and workspace orchestration for agent actions."
-        - Source-list context places it in 'Awesome-LLMOps' under 'Security > Observability' as a tool that 'catches wasted work and surfacing safety risks' for AI agents.
-        - The 'System Intercept' and 'Real-time Intervention' features show it acts as a primary agent runtime with safety checks, not a secondary plugin.
+        - Scraped site describes ClevAgent as a 'silent co-pilot' that intervenes in agent sessions for safety and efficiency
+        - Source-list context places it in Awesome-LLMOps under Security > Observability for guiding AI agents in one workspace
+        - README emphasizes real-time intervention, context reuse, and blocking risky actions like accessing SSH credentials
       category_candidates:
-        - coding-agents
         - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because ClevAgent is the primary runtime for AI agents executing coding tasks, not a plugin extending another host.
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because ClevAgent primarily augments another agent's workflow with safety guards and optimizations rather than autonomously writing or editing code itself.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; invalid primary 'ai-dev-extensions' promoted runner-up 'coding-agents'; placement disagreement: retained 'extensions-and-addons', proposed 'coding-agents'"
       review_resume_lifecycle: null

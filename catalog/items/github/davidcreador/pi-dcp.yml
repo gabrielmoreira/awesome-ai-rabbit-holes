@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidcreador__pi-dcp__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: pi-dcp
         extracted_url: https://github.com/davidcreador/pi-dcp
-        surrounding_text: >-
-          | [pi-dcp](https://github.com/Davidcreador/pi-dcp) | ★ 17 | TypeScript | 2026-09-23 | The experimental Jev
-          path scores completed context payloads so users can review and approve what remains available to the agent. |
+        surrounding_text: "| [pi-dcp](https://github.com/Davidcreador/pi-dcp) | ★ 17 | TypeScript | 2026-09-23 | The experimental Jev path scores completed context payloads so users can review and approve what remains available to the agent. |"
         confidence: high
 metadata:
   github:
@@ -32,21 +30,17 @@ metadata:
     archived: false
     full_name: Davidcreador/pi-dcp
     html_url: https://github.com/Davidcreador/pi-dcp
-    created_at: '2026-05-13T02:46:17Z'
-    pushed_at: '2026-09-19T00:49:03Z'
-    description: >-
-      Cut LLM token spend in long Pi sessions, automatically. Dedup redundant tool calls, strip errored payloads, and
-      let the model summarize closed work-streams — all without ever modifying your session history.
-    homepage: ''
+    created_at: "2026-05-13T02:46:17Z"
+    pushed_at: "2026-09-19T00:49:03Z"
+    description: Cut LLM token spend in long Pi sessions, automatically. Dedup redundant tool calls, strip errored payloads, and let the model summarize closed work-streams — all without ever modifying your session history.
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-29T13:10:29.109Z'
+    last_checked_at: "2026-09-29T13:10:29.109Z"
     readme:
-      fetched_at: '2026-09-29T13:10:29.109Z'
+      fetched_at: "2026-09-29T13:10:29.109Z"
       bytes: 21257
 insights:
-  summary: >-
-    Cut LLM token spend in long Pi sessions, automatically. Dedup redundant tool calls, strip errored payloads, and let
-    the model summarize closed work-streams — all without ever modifying your session history.
+  summary: Cut LLM token spend in long Pi sessions, automatically. Dedup redundant tool calls, strip errored payloads, and let the model summarize closed work-streams — all without ever modifying your session history.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:29.109Z'
+    updated_at: "2026-09-29T13:10:29.109Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jjd__lab__github__io__jev__synthetic__survey__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,13 +19,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: jjd-lab.github.io
         extracted_url: https://jjd-lab.github.io/jev-synthetic-survey
-        surrounding_text: >-
-          - [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey)
-          ![stars](https://img.shields.io/github/stars/jjd-lab/jev-synthetic-survey?style=flat-square&label=%E2%98%85) -
-          Survey research: runs Jev and GPT-4.1 as the same 300 synthetic respondents over 24,596 paired Twin-2K-500
-          cells under criteria fixed in advance, finding that asking a yes/no item as `Noul` rather than `Choice` moves
-          the result more than the gap between the two models, at a thirty-fourth of the cost, written up at
-          [jjd-lab.github.io](https://jjd-lab.github.io/jev-synthetic-survey/).
+        surrounding_text: "- [Jev vs GPT-4.1 on a synthetic survey](https://github.com/jjd-lab/jev-synthetic-survey) ![stars](https://img.shields.io/github/stars/jjd-lab/jev-synthetic-survey?style=flat-square&label=%E2%98%85) - Survey research: runs Jev and GPT-4.1 as the same 300 synthetic respondents over 24,596 paired Twin-2K-500 cells under criteria fixed in advance, finding that asking a yes/no item as `Noul` rather than `Choice` moves the result more than the gap between the two models, at a thirty-fourth of the cost, written up at [jjd-lab.github.io](https://jjd-lab.github.io/jev-synthetic-survey/)."
         confidence: high
 metadata:
   github:
@@ -43,31 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A benchmark comparing Jev (TypeSafe System One) and GPT-4.1 on a synthetic survey dataset to evaluate probability calibration and cost efficiency.
+  why_it_matters: Helps developers evaluate decision-model trade-offs for low-latency, low-cost probabilistic judgments in agent systems.
+  mental_damage: Another benchmark proving your model beats GPT-4 on a niche task — now go explain why your startup needs it.
+  tags:
+    - benchmark
+    - decision-models
+    - evaluation
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The project is a benchmark evaluating decision-model behavior (Jev vs GPT-4.1) on probabilistic output, fitting the decision-models category's evals subsection.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - Source-list context shows inclusion in 'awesome-jev' under 'Evaluation & Benchmarking'
+    - Scraped site and README focus on comparing Jev and GPT-4.1 on probability calibration, Brier score, and cost across 300 respondents and 108 questions
+    - The product's core job is measuring and comparing model behavior on a decision-task benchmark
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:40.596Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6d06436ff6cb26a518299535fe2e7a49cb5a9d20cfffbe3bb8ceafad14498721
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is a benchmark evaluating decision-model behavior (Jev vs GPT-4.1) on probabilistic output, fitting the decision-models category's evals subsection.
+      decision_evidence:
+        - Source-list context shows inclusion in 'awesome-jev' under 'Evaluation & Benchmarking'
+        - Scraped site and README focus on comparing Jev and GPT-4.1 on probability calibration, Brier score, and cost across 300 respondents and 108 questions
+        - The product's core job is measuring and comparing model behavior on a decision-task benchmark
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the benchmark specifically evaluates decision-model judgments (probabilistic output) rather than general model behavior, and decision-models reserves evals for arbitrary models while keeping decision-model benchmarks in its own category.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

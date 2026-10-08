@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__github__com__omni__ask__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Agent tooling
         anchor_text: ask-jev
         extracted_url: https://github.com/omni-/ask-jev
-        surrounding_text: >-
-          - [ask-jev](https://github.com/omni-/ask-jev) - Utilizing Jev, the RLCD-type model provided by TypeSafe AI, to
-          independently and cheaply judge agentic coding sessions.
+        surrounding_text: "- [ask-jev](https://github.com/omni-/ask-jev) - Utilizing Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions."
         confidence: high
     - id: discovery__github__com__omni__ask__jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -36,12 +34,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: ask-jev
         extracted_url: https://github.com/omni-/ask-jev
-        surrounding_text: >-
-          | [ask-jev](https://github.com/omni-/ask-jev) | ★ 1 | PowerShell | 2026-09-19 | Utilizing Jev, the RLCD-type
-          model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions. |
+        surrounding_text: "| [ask-jev](https://github.com/omni-/ask-jev) | ★ 1 | PowerShell | 2026-09-19 | Utilizing Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions. |"
         confidence: high
     - id: discovery__github__com__omni__ask__jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -51,11 +47,9 @@ provenance:
         mode: parsed
         section_path:
           - Evaluation & Observability
-        anchor_text: '**ask-jev**'
+        anchor_text: "**ask-jev**"
         extracted_url: https://github.com/omni-/ask-jev
-        surrounding_text: >-
-          - [**ask-jev**](https://github.com/omni-/ask-jev) — A Windows PowerShell tool for auditing recorded Codex
-          execution evidence with :jev.
+        surrounding_text: "- [**ask-jev**](https://github.com/omni-/ask-jev) — A Windows PowerShell tool for auditing recorded Codex execution evidence with :jev."
         confidence: high
 metadata:
   github:
@@ -73,30 +67,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ask-jev is a Windows PowerShell hook for Codex that audits agentic coding sessions by querying the Jev decision model for probabilistic yes/no judgments.
+  why_it_matters: It lets developers get automated, data-informed feedback on agent behavior without adding friction to their Codex workflow.
+  mental_damage: Yet another layer of AI watching your AI watch your code, just in case the vibes were off.
+  tags:
+    - decision-model
+    - codex-hook
+    - jev
+    - audit
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: ask-jev's core identity is invoking the Jev decision model to return probabilistic judgments on agentic sessions, making it a decision-model tool rather than a coding agent or extension.
   evidence:
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept
-      (unverified)
+    - The README states it 'utilizes Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions'
+    - It sends selected conversation and instructions to TypeSafe for Jev inference and returns probabilities, not generated explanations
+    - It installs as a Codex hook via UserPromptSubmit to trigger audits without starting a model turn
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,6 +102,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:29.825Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8d5abcbc4ff34bae6ded1237121b740fb568ccac4033a654c6f2a578cf98407f
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: ask-jev's core identity is invoking the Jev decision model to return probabilistic judgments on agentic sessions, making it a decision-model tool rather than a coding agent or extension.
+      decision_evidence:
+        - The README states it 'utilizes Jev, the RLCD-type model provided by TypeSafe AI, to independently and cheaply judge agentic coding sessions'
+        - It sends selected conversation and instructions to TypeSafe for Jev inference and returns probabilities, not generated explanations
+        - It installs as a Codex hook via UserPromptSubmit to trigger audits without starting a model turn
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because ask-jev does not write, edit, or review code—it invokes a decision model to return probabilistic judgments on agentic sessions.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

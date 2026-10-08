@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__typesafe__ui__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://typesafe-ui.vercel.app
-        surrounding_text: >-
-          - [typesafe-ui](https://github.com/TypeSafeAI/typesafe-ui) ([site](https://typesafe-ui.vercel.app)) -
-          Shadcn-style reusable components and blocks for using TypeSafe AI.
+        surrounding_text: "- [typesafe-ui](https://github.com/TypeSafeAI/typesafe-ui) ([site](https://typesafe-ui.vercel.app)) - Shadcn-style reusable components and blocks for using TypeSafe AI."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: typesafe-ui.vercel.app is a demo or landing page for TypeSafe AI's System One decision model (Jev), showcasing integrations built on the Jev platform.
+  why_it_matters: It demonstrates how developers can build applications using Jev's typed decision judgments as a foundation for agent workflows.
+  mental_damage: Another 'look what our decision model can do' showcase that makes you wonder if anyone actually uses these beyond demo reels.
+  tags:
+    - decision-models
+    - demo
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: typesafe-ui.vercel.app is a promotional landing page for TypeSafe AI's Jev decision model ecosystem, not a standalone developer tool, SDK, agent, or infrastructure product; it serves as a demo directory rather than a functional tool for developers to integrate or use directly.
   evidence:
-    - >-
-      jev winnow:e4b 0.40 below gate 0.50; proposed app-builders / Scaffolding & Boilerplate; no placement kept
-      (unverified)
+    - The URL typesafe-ui.vercel.app is a Vercel-hosted site, not a GitHub repository with code or installation instructions.
+    - Seen in source lists as part of 'awesome-jev' under the section 'Integrations', indicating it is a listing of projects built on Jev rather than a tool itself.
+    - No repo description, stars, creation date, or push activity is available, indicating lack of observable developer-facing product traction or maintenance.
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - app-builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:42.763Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:05f00d165f2b46907963fd66bc6724fe6c99c9ec3ba381c8ca0028f417361881
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: typesafe-ui.vercel.app is a promotional landing page for TypeSafe AI's Jev decision model ecosystem, not a standalone developer tool, SDK, agent, or infrastructure product; it serves as a demo directory rather than a functional tool for developers to integrate or use directly.
+      decision_evidence:
+        - The URL typesafe-ui.vercel.app is a Vercel-hosted site, not a GitHub repository with code or installation instructions.
+        - Seen in source lists as part of 'awesome-jev' under the section 'Integrations', indicating it is a listing of projects built on Jev rather than a tool itself.
+        - No repo description, stars, creation date, or push activity is available, indicating lack of observable developer-facing product traction or maintenance.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

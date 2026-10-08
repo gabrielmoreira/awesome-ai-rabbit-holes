@@ -81,59 +81,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform for adding human-in-the-loop supervision to AI agent workflows via review templates, notifications, and approvals.
-  why_it_matters: It lets developers insert human review checkpoints into automated AI workflows to validate, edit, or approve critical outputs before they propagate.
-  mental_damage: Finally, a way to make your AI agents pause and ask for permission before they embarrass you in front of the entire company.
+  summary: A human-in-the-loop platform for supervising, approving, and editing AI agent workflow steps.
+  why_it_matters: It provides a safety layer for deploying autonomous agents by enabling structured human intervention in high-stakes decision loops.
+  mental_damage: Because true autonomy is much easier to handle when you can manually intervene in every single step it takes.
   tags:
     - human-in-the-loop
-    - ai-workflows
-    - approvals
-    - orchestration
-    - mcp-server
+    - agent-orchestration
+    - workflow-automation
+    - supervision
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding assistant, framework, or extension.
+  reason: It acts as a hosted control plane and supervision workbench for managing human-in-the-loop intervention within agentic workflows.
   evidence:
-    - Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and approvals
-    - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
-    - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
-    - jev winnow:e4b 0.36 below gate 0.50; proposed agent-orchestration / Hosted Agent Platforms; placement kept at agent-orchestration (unverified)
+    - Offers an 'Agent Inbox' and 'Multi-Step Navigation' to manage and audit workflow runs.
+    - Provides SDKs and integrations (n8n, Make, MCP) to inject human review into existing agent pipelines.
+    - Supports orchestration features like retry loops, checkpoints, and artifact versioning.
 placement:
   primary_category: agent-orchestration
   secondary_categories:
     - mcp
-  section: Hosted Agent Platforms
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:48:10.692Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for gotohuman__com: Invalid AI response structure: Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:27:29.709Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:356ae0ab8b189c8a348f6160686ee21d61001491bcf67fad18bf193af2c90922
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a496b22713c5f83ec8ac1262f3a334e3270e694f0cdf69613300961d8ad24d09
       proposed_primary_category: agent-orchestration
       disagreement: false
-      decision_reason: The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding assistant, framework, or extension.
+      decision_reason: It acts as a hosted control plane and supervision workbench for managing human-in-the-loop intervention within agentic workflows.
       decision_evidence:
-        - Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and approvals
-        - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
-        - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
+        - Offers an 'Agent Inbox' and 'Multi-Step Navigation' to manage and audit workflow runs.
+        - Provides SDKs and integrations (n8n, Make, MCP) to inject human review into existing agent pipelines.
+        - Supports orchestration features like retry loops, checkpoints, and artifact versioning.
       category_candidates:
         - agent-orchestration
-        - ai-frameworks
-      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for human-in-the-loop workflows, not a code-first library or SDK.
+        - extensions-and-addons
+      contrastive_reason: Choose agent-orchestration over extensions-and-addons because it functions as a hosted control plane and supervision workbench for entire workflows rather than just a specific capability plugin for a single agent or editor.
       review_reason: null
       review_resume_lifecycle: null
   discover:

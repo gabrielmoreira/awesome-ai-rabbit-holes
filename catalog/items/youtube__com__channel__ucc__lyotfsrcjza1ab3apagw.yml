@@ -51,18 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube channel named UCC-lyoTfSrcJzA1ab3APAgw with no public description or identifiable AI tooling focus.
-  why_it_matters: Unclear relevance to developer workflows or AI tooling; appears to be a generic content channel without stated technical purpose.
-  mental_damage: Subscribing to mystery feeds in hopes they secretly contain the next LangChain-level breakthrough is a special kind of developer optimism.
+  summary: A YouTube channel identified only by its alphanumeric channel ID.
+  why_it_matters: N/A
+  mental_damage: Trying to decipher a raw YouTube ID is the ultimate low-entropy developer experience.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: No evidence of AI developer tooling, product identity, or technical scope; appears to be an unnamed YouTube channel without contextual metadata.
+  reason: The entry provides no human-readable name, description, or substantive metadata, making it impossible to assess its utility or content.
   evidence:
-    - Repo description is missing.
-    - README excerpt and scraped site context are not provided.
-    - Source-list context shows inclusion only in awesome-langchain as a passive listing with no functional description.
+    - Name is a raw YouTube channel ID (UCC-lyoTfSrcJzA1ab3APAgw)
+    - No repo description or README content provided
 placement:
   primary_category: null
   section: null
@@ -72,24 +71,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-10-05T04:58:59.496Z"
+    updated_at: "2026-10-08T04:34:32.411Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:a7a394aa1bdd07574b32918ad2581745043e8999d54d8d69ea0cfdaba7db2424
       proposed_primary_category: null
       disagreement: false
-      decision_reason: No evidence of AI developer tooling, product identity, or technical scope; appears to be an unnamed YouTube channel without contextual metadata.
+      decision_reason: The entry provides no human-readable name, description, or substantive metadata, making it impossible to assess its utility or content.
       decision_evidence:
-        - Repo description is missing.
-        - README excerpt and scraped site context are not provided.
-        - Source-list context shows inclusion only in awesome-langchain as a passive listing with no functional description.
+        - Name is a raw YouTube channel ID (UCC-lyoTfSrcJzA1ab3APAgw)
+        - No repo description or README content provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

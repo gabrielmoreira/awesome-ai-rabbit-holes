@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jevplay__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://jevplay.vercel.app
-        surrounding_text: >-
-          - [jevplay](https://github.com/ndolinschi/jevplay) ([site](https://jevplay.vercel.app)) - TypeSafe Jev
-          playground — custom Choice/Score/Noul builder with live distributions.
+        surrounding_text: "- [jevplay](https://github.com/ndolinschi/jevplay) ([site](https://jevplay.vercel.app)) - TypeSafe Jev playground — custom Choice/Score/Noul builder with live distributions."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jevplay (site) - TypeSafe Jev playground — custom Choice/Score/Noul builder with live distributions.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JevPlay is a web-based playground for building and testing structured Choice, Score, and Noul questions with live TypeSafe Jev model distributions.
+  why_it_matters: It lets developers prototype and validate decision-model logic for routing, scoring, or guardrails without writing code or setting up a backend.
+  mental_damage: Finally, a way to feel productive while clicking buttons that output probabilities instead of actual shipping code.
+  tags:
+    - decision-model
+    - playground
+    - jev
+    - typesafe
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: JevPlay's core identity is interacting with the Jev decision model to build and test structured questions, making it a decision-model tool rather than a coding agent or app builder.
   evidence:
-    - jev-latest choice confidence 0.88
+    - Scraped site context shows JevPlay as a 'TypeSafe Jev playground' for building Choice/Score/Noul questions and seeing Jev distributions
+    - Primary page excerpt emphasizes 'Invent structured questions. Watch Jev return calibrated distributions — not chat.' and includes live runs of Jev on user-built structures
+    - Source-list context places it in 'awesome-jev' under 'Demos & playgrounds' for projects built on Jev, TypeSafe AI's System One model
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:40:22.848Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5580e173382f0e1c90d365df1b544a9dd8e0fd78e54b30ffb695f6317257fe56
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: JevPlay's core identity is interacting with the Jev decision model to build and test structured questions, making it a decision-model tool rather than a coding agent or app builder.
+      decision_evidence:
+        - Scraped site context shows JevPlay as a 'TypeSafe Jev playground' for building Choice/Score/Noul questions and seeing Jev distributions
+        - Primary page excerpt emphasizes 'Invent structured questions. Watch Jev return calibrated distributions — not chat.' and includes live runs of Jev on user-built structures
+        - Source-list context places it in 'awesome-jev' under 'Demos & playgrounds' for projects built on Jev, TypeSafe AI's System One model
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because JevPlay does not generate deployable apps from prompts — it is a sandbox for testing decision-model judgments on structured inputs.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

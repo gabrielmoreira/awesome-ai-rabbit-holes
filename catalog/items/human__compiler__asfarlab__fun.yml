@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__human__compiler__asfarlab__fun__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://human-compiler.asfarlab.fun
-        surrounding_text: >-
-          - [human-compiler](https://github.com/asfarsadewa/human-compiler)
-          ([site](https://human-compiler.asfarlab.fun)) - A compiler for human language. Paste text, get diagnostics.
-          Measured by TypeSafe Jev.
+        surrounding_text: "- [human-compiler](https://github.com/asfarsadewa/human-compiler) ([site](https://human-compiler.asfarlab.fun)) - A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: human-compiler (site) - A compiler for human language. Paste text, get diagnostics. Measured by TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A compiler for human language that analyzes pasted text and returns diagnostics.
+  why_it_matters: It applies compiler-like feedback to natural language, helping developers improve writing clarity and correctness before committing or reviewing.
+  mental_damage: Finally, a tool that treats your README like legacy code—now you can lint your feelings before pushing to main.
+  tags:
+    - nlp
+    - developer-tools
+    - text-analysis
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  status: excluded
+  reason: The tool analyzes natural language for diagnostics but does not perform coding tasks, generate code, or assist in software development workflows; its core function is language quality, not developer tooling.
   evidence:
-    - jev-latest choice confidence 0.68
+    - "Scraped site context: 'A compiler for human language. Paste text, get diagnostics.'"
+    - "Source-list context: Listed in awesome-jev under 'Demos & playgrounds' as 'A compiler for human language. Paste text, get diagnostics.'"
+    - No evidence of code generation, editing, review, or integration with development environments.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Official Jev & System One
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:35.631Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:12494867e928824839dbdb77e31a19efaff589fd3944143c87f12b9d61ec0e22
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool analyzes natural language for diagnostics but does not perform coding tasks, generate code, or assist in software development workflows; its core function is language quality, not developer tooling.
+      decision_evidence:
+        - "Scraped site context: 'A compiler for human language. Paste text, get diagnostics.'"
+        - "Source-list context: Listed in awesome-jev under 'Demos & playgrounds' as 'A compiler for human language. Paste text, get diagnostics.'"
+        - No evidence of code generation, editing, review, or integration with development environments.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

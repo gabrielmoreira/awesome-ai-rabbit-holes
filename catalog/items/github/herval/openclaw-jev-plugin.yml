@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__herval__openclaw-jev-plugin__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,12 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Model Routing
-        anchor_text: '**openclaw-jev-plugin**'
+        anchor_text: "**openclaw-jev-plugin**"
         extracted_url: https://github.com/herval/openclaw-jev-plugin
-        surrounding_text: >-
-          - [**openclaw-jev-plugin**](https://github.com/herval/openclaw-jev-plugin) — A silenced message never reaches
-          the language model, so it costs one Jev call and no model tokens. Direct messages always get an answer unless
-          you choose to gate them too.
+        surrounding_text: "- [**openclaw-jev-plugin**](https://github.com/herval/openclaw-jev-plugin) — A silenced message never reaches the language model, so it costs one Jev call and no model tokens. Direct messages always get an answer unless you choose to gate them too."
         confidence: high
 metadata:
   github:
@@ -32,14 +29,14 @@ metadata:
     archived: false
     full_name: herval/openclaw-jev-plugin
     html_url: https://github.com/herval/openclaw-jev-plugin
-    created_at: '2026-09-18T19:10:12Z'
-    pushed_at: '2026-09-21T14:57:35Z'
+    created_at: "2026-09-18T19:10:12Z"
+    pushed_at: "2026-09-21T14:57:35Z"
     description: Jev as a message gate to determine if agents should respond
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:12:06.160Z'
+    last_checked_at: "2026-09-29T13:12:06.160Z"
     readme:
-      fetched_at: '2026-09-29T13:12:06.160Z'
+      fetched_at: "2026-09-29T13:12:06.160Z"
       bytes: 14928
 insights:
   summary: Jev as a message gate to determine if agents should respond
@@ -62,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:06.160Z'
+    updated_at: "2026-09-29T13:12:06.160Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

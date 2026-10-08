@@ -37,18 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: No project information provided.
-  why_it_matters: Cannot determine relevance without project details.
-  mental_damage: Another void in the AI tooling wilderness where meaning goes to die.
+  summary: The input provides a local loopback URL (localhost:3000) with no associated repository description or project metadata.
+  why_it_matters: It contains no actionable information for developers or the catalog.
+  mental_damage: The existential dread of realizing you've spent your morning trying to document a local development port.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Insufficient data to evaluate project identity or developer-tooling fit.
+  reason: The submission is a generic local development URL and lacks any identifying information, README, or description required to evaluate its fit.
   evidence:
-    - No repo description provided
-    - No README excerpt available
-    - No scraped site context given
+    - URL is a local loopback address (localhost:3000)
+    - Repo description is missing
+    - No stars, topics, or repository metadata provided
 placement:
   primary_category: null
   section: null
@@ -67,24 +67,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:58:38.317Z"
+    updated_at: "2026-10-08T04:33:38.952Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:4bc0bce0f56e3651302e709ee0284e81d65b804d2c35a466fea4075a6e8d906f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient data to evaluate project identity or developer-tooling fit.
+      decision_reason: The submission is a generic local development URL and lacks any identifying information, README, or description required to evaluate its fit.
       decision_evidence:
-        - No repo description provided
-        - No README excerpt available
-        - No scraped site context given
+        - URL is a local loopback address (localhost:3000)
+        - Repo description is missing
+        - No stars, topics, or repository metadata provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

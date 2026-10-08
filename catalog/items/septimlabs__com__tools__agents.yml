@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__septimlabs__com__tools__agents__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,12 +18,7 @@ provenance:
           - Coding Agents
         anchor_text: Septim Agents Pack
         extracted_url: https://septimlabs.com/tools/agents
-        surrounding_text: >-
-          - **[Septim Agents
-          Pack](https://septimlabs.com/tools/agents?utm_source=awesome-ai-coding-tools&utm_medium=awesome-list&utm_campaign=oss-backlink)**
-          – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance, design, legal,
-          customer research, and cross-lane coordination. Drop the `.claude/agents/` folder into any project; pay-once
-          at $49.
+        surrounding_text: "- **[Septim Agents Pack](https://septimlabs.com/tools/agents?utm_source=awesome-ai-coding-tools&utm_medium=awesome-list&utm_campaign=oss-backlink)** – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance, design, legal, customer research, and cross-lane coordination. Drop the `.claude/agents/` folder into any project; pay-once at $49."
         confidence: high
 metadata:
   github:
@@ -41,34 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Septim Agents Pack – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance,
-    design, legal, customer research, and cross-lane coordination. Drop the .claude/agents/ folder into any project;
-    pay-once at $49.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A one-time purchase of twelve Claude Code agents as markdown files for developer workflow automation.
+  why_it_matters: Provides editable, version-controlled agent prompts that integrate directly with Claude Code to automate coding and operational tasks.
+  mental_damage: Finally, an AI tool that admits its real value is forty kilobytes of good prompts and not the wrapper around them.
+  tags:
+    - claude-code
+    - markdown-agents
+    - developer-tools
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.73
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills
-      (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
     - agent-orchestration
-  section: Skill Packs & Libraries
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'coding-agents'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:27.106Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ff0ea880748baabc97ed5eabc6e53633de466e074d22a13a57d947d4cdf7c9c2
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: The product is a set of autonomous coding agents that perform coding tasks like triaging issues, sweeping codebases, and patching diffs, making it a primary coding agent rather than an extension or framework.
+      decision_evidence:
+        - Each agent is a markdown file with system prompt, tool whitelist, and cost limit that runs in Claude Code to perform coding tasks
+        - Agents autonomously plan and execute coding tasks across a repo, terminal, or IDE via Claude Code
+        - Source lists categorize it under Coding Agents in awesome-ai-coding-tools
+      category_candidates:
+        - coding-agents
+        - extensions-and-addons
+      contrastive_reason: Choose coding-agents over extensions-and-addons because the agents are the primary coding assistants performing autonomous coding tasks, not mere extensions augmenting another agent's capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'skills', proposed 'coding-agents'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

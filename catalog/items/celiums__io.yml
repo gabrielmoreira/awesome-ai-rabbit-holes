@@ -37,24 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: celiums.io is a platform or service with an unclear primary function based on the provided inputs.
-  why_it_matters: Cannot be determined due to lack of specific tooling or developer-facing functionality described.
-  mental_damage: Another mysterious AI-linked domain promising productivity while revealing nothing concrete—just what we needed in our curated list of distractions.
+  summary: No description or context is provided for celiums.io in the input.
+  why_it_matters: The utility and relevance of the tool to a software developer cannot be assessed without documentation.
+  mental_damage: Navigating a tool with zero documentation is the ultimate test of developer faith.
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: The project lacks sufficient detail to determine its identity as a developer-facing AI tool; no repo description, README, or scoped functionality is provided to assess fit within the catalog's scope.
+  reason: The provided inputs contain no substantive information—such as a description, README, or site context—to determine the project's identity or its fit within the catalog scope.
   evidence:
     - No repo description provided
-    - No README excerpt or scoped functionality described
-    - Source URL is a homepage with no clear product identity indicated
+    - No README excerpt provided
+    - No scraped site context provided
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -67,25 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T05:01:35.722Z"
+    updated_at: "2026-10-08T04:36:06.319Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:1efc8953523215ff66d765e9822a9da1df44c589a6a5e2ceda491e19459b8fa0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks sufficient detail to determine its identity as a developer-facing AI tool; no repo description, README, or scoped functionality is provided to assess fit within the catalog's scope.
+      decision_reason: The provided inputs contain no substantive information—such as a description, README, or site context—to determine the project's identity or its fit within the catalog scope.
       decision_evidence:
         - No repo description provided
-        - No README excerpt or scoped functionality described
-        - Source URL is a homepage with no clear product identity indicated
+        - No README excerpt provided
+        - No scraped site context provided
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

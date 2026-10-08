@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nisaka520__github__io__jevguide__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Browser & computer use
         anchor_text: site
         extracted_url: https://nisaka520.github.io/JevGuide
-        surrounding_text: >-
-          - [JevGuide](https://github.com/Nisaka520/JevGuide) ([site](https://nisaka520.github.io/JevGuide/)) - 弦外之音 ——
-          微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。
+        surrounding_text: "- [JevGuide](https://github.com/Nisaka520/JevGuide) ([site](https://nisaka520.github.io/JevGuide/)) - 弦外之音 —— 微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。"
         confidence: high
     - id: discovery__nisaka520__github__io__jevguide__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -36,11 +34,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Product page
         extracted_url: https://nisaka520.github.io/JevGuide
-        surrounding_text: >-
-          - [JevGuide](https://github.com/Nisaka520/JevGuide) - `Open source` · `Free source build` · `BYOK`. Android
-          WeChat relationship assistant: TypeSafe Jev judges affinity/intent; chat model drafts three overlay replies
-          (never auto-sends). [Product page](https://nisaka520.github.io/JevGuide/) · [Project
-          guide](community/projects/apps/jevguide-nisaka520.md).
+        surrounding_text: "- [JevGuide](https://github.com/Nisaka520/JevGuide) - `Open source` · `Free source build` · `BYOK`. Android WeChat relationship assistant: TypeSafe Jev judges affinity/intent; chat model drafts three overlay replies (never auto-sends). [Product page](https://nisaka520.github.io/JevGuide/) · [Project guide](community/projects/apps/jevguide-nisaka520.md)."
         confidence: high
 metadata:
   github:
@@ -58,16 +52,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JevGuide (site) - 弦外之音 —— 微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: JevGuide is an Android app that reads WeChat screenshots, uses the Jev decision model to analyze intent and relationship progress, and generates three candidate replies.
+  why_it_matters: It demonstrates applying decision-model judgments to personal messaging workflows, showing how typed probabilities can guide real-time communication decisions.
+  mental_damage: Another AI tool that promises to fix your texting anxiety by turning intimate conversations into a decision-tree optimization problem.
+  tags:
+    - android-app
+    - decision-model
+    - jev
+    - wechat-integration
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The core product identity is the Jev decision model's judgment output—intent scoring, emotional analysis, and reply generation—making it a decision-model-driven app rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.81
+    - The app's main functions are 判读 (intent/emotion/risk analysis via Jev), 攻略度 (relationship progress scoring), and 三条回复 (three generated replies based on model judgment).
+    - It uses Jev for typed questions with probabilities (8 questions per request) and an OpenAI-compatible chat model for text generation, positioning Jev as the decision layer.
+    - Listed in awesome-jev under 'Apps powered by Jev' and 'Browser & computer use', confirming its identity as a Jev-based application.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -78,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,6 +86,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:10.925Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4acef10c7242c398f728130dcfbfe0d55d08206667c9d0ac77078fae48673ded
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The core product identity is the Jev decision model's judgment output—intent scoring, emotional analysis, and reply generation—making it a decision-model-driven app rather than a coding agent or extension.
+      decision_evidence:
+        - The app's main functions are 判读 (intent/emotion/risk analysis via Jev), 攻略度 (relationship progress scoring), and 三条回复 (three generated replies based on model judgment).
+        - It uses Jev for typed questions with probabilities (8 questions per request) and an OpenAI-compatible chat model for text generation, positioning Jev as the decision layer.
+        - Listed in awesome-jev under 'Apps powered by Jev' and 'Browser & computer use', confirming its identity as a Jev-based application.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product's core novelty is the Jev decision model's typed judgments (scoring, intent analysis, routing) rather than generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

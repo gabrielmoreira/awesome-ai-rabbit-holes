@@ -36,25 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that provides type signatures, prose documentation, and code examples for any npm package.
-  why_it_matters: It allows coding assistants like Claude Code to access up-to-date, intent-aware documentation for any npm package instead of relying on outdated training data.
-  mental_damage: Nothing says 'developer productivity' like adding another layer of abstraction between you and the actual documentation you used to read yourself.
+  summary: An MCP server that provides type signatures, documentation, and code examples for npm packages to AI agents.
+  why_it_matters: It prevents AI coding assistants from hallucinating or using outdated information when working with third-party npm dependencies.
+  mental_damage: Because we've officially reached the era where our coding assistants need a dedicated research assistant just to remember how a middleware works.
   tags:
     - mcp
     - npm
-    - documentation
-    - context-retrieval
+    - claude-code
     - typescript
+    - documentation
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
+  reason: The product's primary identity is an MCP server providing developer context, and the protocol identity takes precedence over the capability domain.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Explicitly identifies as an MCP server in its site context and README.
+    - Provides specialized tools for npm package retrieval, type signatures, and prose docs.
+    - The primary interface for use is via the Model Context Protocol (e.g., 'claude mcp add').
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
@@ -69,30 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:28:42.707Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for augments__dev: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:20:32.856Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: 6cc474a86022
-      input_hash: sha256:283abd7fa37f5e69eb4c90e24079b30a8af97d18f1e080aed1462735ab7bd724
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5f2b2576606b1e4bf118480602851e5e4aed93029a9349c3ad85829030976a52
       proposed_primary_category: mcp
       disagreement: false
-      decision_reason: The product's core identity is an MCP server designed to provide external context to an LLM host.
+      decision_reason: The product's primary identity is an MCP server providing developer context, and the protocol identity takes precedence over the capability domain.
       decision_evidence:
-        - Claims to be an MCP server in README and site context
-        - Provides type signatures and prose docs for npm packages
-        - Found in awesome-mcp-servers
+        - Explicitly identifies as an MCP server in its site context and README.
+        - Provides specialized tools for npm package retrieval, type signatures, and prose docs.
+        - The primary interface for use is via the Model Context Protocol (e.g., 'claude mcp add').
       category_candidates:
         - mcp
-        - context-engineering
-      contrastive_reason: Choose mcp over context-engineering because the product is specifically an MCP server designed to be consumed by an MCP host.
+        - memory-and-context
+      contrastive_reason: Choose mcp over memory-and-context because the product's identity is an MCP server, and the protocol identity wins over the capability of providing fresh docs/context.
       review_reason: null
       review_resume_lifecycle: null

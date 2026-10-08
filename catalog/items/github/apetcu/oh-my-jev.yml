@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__apetcu__oh-my-jev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: oh-my-jev (apetcu)
         extracted_url: https://github.com/apetcu/oh-my-jev
-        surrounding_text: >-
-          - [oh-my-jev (apetcu)](https://github.com/apetcu/oh-my-jev) - oh-my-pi plugin: TypeSafe Jev tool-call gate
-          (default), optional model router, and latency telemetry — distinct from MassiveLabsNet/oh-my-jev. [Project
-          guide](community/projects/tools/apetcu-oh-my-jev.md).
+        surrounding_text: "- [oh-my-jev (apetcu)](https://github.com/apetcu/oh-my-jev) - oh-my-pi plugin: TypeSafe Jev tool-call gate (default), optional model router, and latency telemetry — distinct from MassiveLabsNet/oh-my-jev. [Project guide](community/projects/tools/apetcu-oh-my-jev.md)."
         confidence: high
 metadata:
   github:
@@ -33,14 +30,14 @@ metadata:
     archived: false
     full_name: apetcu/oh-my-jev
     html_url: https://github.com/apetcu/oh-my-jev
-    created_at: '2026-09-23T17:30:10Z'
-    pushed_at: '2026-09-27T20:07:09Z'
+    created_at: "2026-09-23T17:30:10Z"
+    pushed_at: "2026-09-27T20:07:09Z"
     description: Jev-powered tool-call gate, model router and latency telemetry for the oh-my-pi coding agent
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:05.648Z'
+    last_checked_at: "2026-09-29T13:09:05.648Z"
     readme:
-      fetched_at: '2026-09-29T13:09:05.648Z'
+      fetched_at: "2026-09-29T13:09:05.648Z"
       bytes: 7932
 insights:
   summary: Jev-powered tool-call gate, model router and latency telemetry for the oh-my-pi coding agent
@@ -63,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:05.648Z'
+    updated_at: "2026-09-29T13:09:05.648Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

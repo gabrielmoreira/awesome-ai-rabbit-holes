@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__modelscope__cn__home__awesome-list__wangrongsheng__awesome-llm-resources
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: WangRongsheng/awesome-LLM-resources
@@ -36,27 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ModelScope 魔搭社区 is an open-source model community offering models, datasets, and online demos.
+  why_it_matters: It gives developers a centralized hub to discover, test, and deploy open-source AI models with minimal setup.
+  mental_damage: Another model zoo where finding the right checkpoint feels like winning a lottery you didn’t enter.
+  tags:
+    - model-hub
+    - open-source
+    - demo
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
+  reason: ModelScope is a curated community and resource directory for LLM assets, fitting as an ecosystem map rather than a standalone tool.
   evidence:
-    - jev winnow:e4b confidence 0.72
+    - Seen in awesome-LLM-resources under 社区 Community as ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。
+    - "Scraped site title: 首页 - ModelScope 魔搭社区; description: 开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。"
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: Ecosystem Maps & Landscapes
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -64,6 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:48.037Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:52e4215dbde844a4307136672a26fc3c36a763bd2d896d0320b4451857c12489
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: ModelScope is a curated community and resource directory for LLM assets, fitting as an ecosystem map rather than a standalone tool.
+      decision_evidence:
+        - Seen in awesome-LLM-resources under 社区 Community as ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。
+        - "Scraped site title: 首页 - ModelScope 魔搭社区; description: 开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。"
+      category_candidates:
+        - awesome-awesomes
+        - local-ai
+      contrastive_reason: Choose awesome-awesomes over local-ai because ModelScope is primarily a curated directory of models and datasets, not a runtime or serving stack for local execution.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__netlify__com__changelog__typesafe__jev__ai__gateway__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Provider integrations
         anchor_text: Netlify AI Gateway
         extracted_url: https://netlify.com/changelog/typesafe-jev-ai-gateway
-        surrounding_text: >-
-          - [Netlify AI Gateway](https://www.netlify.com/changelog/typesafe-jev-ai-gateway/) - Zero-configuration access
-          from Netlify Functions through `@typesafe-ai/sdk`, with credentials and billing handled by Netlify.
+        surrounding_text: "- [Netlify AI Gateway](https://www.netlify.com/changelog/typesafe-jev-ai-gateway/) - Zero-configuration access from Netlify Functions through `@typesafe-ai/sdk`, with credentials and billing handled by Netlify."
         confidence: high
 metadata:
   github:
@@ -38,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Netlify AI Gateway - Zero-configuration access from Netlify Functions through @typesafe-ai/sdk, with credentials and
-    billing handled by Netlify.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe Jev decision model available via Netlify AI Gateway for typed questions with probabilistic answers.
+  why_it_matters: Lets developers get calibrated, type-safe decisions (classification, routing, scoring) directly in Netlify Functions without managing API keys or model infrastructure.
+  mental_damage: Another model wrapper promising zero-config bliss while you silently wonder if 'System One' is just a fancy name for a very opinionated if-statement.
+  tags:
+    - decision-model
+    - netlify
+    - typed-ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: The product exposes a decision model (Jev) via a hosted gateway and SDK, making the judgment layer the core identity rather than a coding agent or generic AI tool.
   evidence:
-    - jev-latest choice confidence 0.49
-    - >-
-      jev winnow:e4b 0.45 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; placement kept at
-      decision-models (unverified)
+    - "Scraped context: TypeSafe Jev model available through Netlify AI Gateway with zero configuration, returning typed answers with probabilities"
+    - "Source-list context: Listed in awesome-jev under 'Provider integrations' for accessing Jev via Netlify AI Gateway"
+    - "README excerpt: Jev returns constrained answers (choice, score, noul) with calibrated probabilities instead of generating prose"
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -64,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:03.462Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:91a7a6b2cbd65e17cec9f4a455e6756e6f973c567aa57109403890ec224cbfcc
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product exposes a decision model (Jev) via a hosted gateway and SDK, making the judgment layer the core identity rather than a coding agent or generic AI tool.
+      decision_evidence:
+        - "Scraped context: TypeSafe Jev model available through Netlify AI Gateway with zero configuration, returning typed answers with probabilities"
+        - "Source-list context: Listed in awesome-jev under 'Provider integrations' for accessing Jev via Netlify AI Gateway"
+        - "README excerpt: Jev returns constrained answers (choice, score, noul) with calibrated probabilities instead of generating prose"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the product's identity is the decision model judgment itself, not code editing or generation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

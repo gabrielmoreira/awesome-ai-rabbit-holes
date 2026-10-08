@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cequence-io__openai-scala-client__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: openai-scala-client
         extracted_url: https://github.com/cequence-io/openai-scala-client
-        surrounding_text: >-
-          | [openai-scala-client](https://github.com/cequence-io/openai-scala-client) | ★ 249 | Scala | 2026-09-23 |
-          Scala client module for TypeSafe System One that submits Jev Noul, Choice, and Score questions and returns
-          typed answers. |
+        surrounding_text: "| [openai-scala-client](https://github.com/cequence-io/openai-scala-client) | ★ 249 | Scala | 2026-09-23 | Scala client module for TypeSafe System One that submits Jev Noul, Choice, and Score questions and returns typed answers. |"
         confidence: high
     - id: discovery__github__cequence-io__openai-scala-client__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**openai-scala-client**'
+        anchor_text: "**openai-scala-client**"
         extracted_url: https://github.com/cequence-io/openai-scala-client
-        surrounding_text: >-
-          - [**openai-scala-client**](https://github.com/cequence-io/openai-scala-client) — A dedicated TypeSafe module
-          in a Scala client that supports multiple AI providers.
+        surrounding_text: "- [**openai-scala-client**](https://github.com/cequence-io/openai-scala-client) — A dedicated TypeSafe module in a Scala client that supports multiple AI providers."
         confidence: high
 metadata:
   github:
@@ -50,8 +45,8 @@ metadata:
     archived: false
     full_name: cequence-io/openai-scala-client
     html_url: https://github.com/cequence-io/openai-scala-client
-    created_at: '2023-01-25T10:09:04Z'
-    pushed_at: '2026-09-29T12:57:57Z'
+    created_at: "2023-01-25T10:09:04Z"
+    pushed_at: "2026-09-29T12:57:57Z"
     description: Scala client for OpenAI API and other major LLM providers
     homepage: https://cequence.io
     topics:
@@ -71,9 +66,9 @@ metadata:
       - scala
       - vertex-ai-gemini-api
       - vlms
-    last_checked_at: '2026-09-29T13:09:45.307Z'
+    last_checked_at: "2026-09-29T13:09:45.307Z"
     readme:
-      fetched_at: '2026-09-29T13:09:45.307Z'
+      fetched_at: "2026-09-29T13:09:45.307Z"
       bytes: 97842
 insights:
   summary: Scala client for OpenAI API and other major LLM providers
@@ -96,15 +91,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:45.307Z'
+    updated_at: "2026-09-29T13:09:45.307Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

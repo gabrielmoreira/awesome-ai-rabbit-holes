@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getexcited__stepwarden__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: stepwarden
         extracted_url: https://github.com/getexcited/stepwarden
-        surrounding_text: >-
-          - [stepwarden](https://github.com/getexcited/stepwarden) - Every tool call your agent makes, checked before it
-          runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session
-          plan, then allows it, asks you, or blocks it. Proof of concept.
+        surrounding_text: "- [stepwarden](https://github.com/getexcited/stepwarden) - Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept."
         confidence: high
     - id: discovery__github__getexcited__stepwarden__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,10 +35,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: stepwarden
         extracted_url: https://github.com/getexcited/stepwarden
-        surrounding_text: >-
-          | [stepwarden](https://github.com/getexcited/stepwarden) | ★ 1 | TypeScript | 2026-09-20 | Claude Code plugin
-          that has Jev compare each pending tool call with the session plan before allowing, escalating, or blocking it.
-          |
+        surrounding_text: "| [stepwarden](https://github.com/getexcited/stepwarden) | ★ 1 | TypeScript | 2026-09-20 | Claude Code plugin that has Jev compare each pending tool call with the session plan before allowing, escalating, or blocking it. |"
         confidence: high
 metadata:
   github:
@@ -51,11 +45,9 @@ metadata:
     archived: false
     full_name: getexcited/stepwarden
     html_url: https://github.com/getexcited/stepwarden
-    created_at: '2026-09-18T10:21:30Z'
-    pushed_at: '2026-09-18T10:22:00Z'
-    description: >-
-      Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to
-      verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
+    created_at: "2026-09-18T10:21:30Z"
+    pushed_at: "2026-09-18T10:22:00Z"
+    description: Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
     homepage: https://github.com/getexcited/claude-plugins
     topics:
       - agent-security
@@ -69,14 +61,12 @@ metadata:
       - jev
       - llm-tools
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:11:37.516Z'
+    last_checked_at: "2026-09-29T13:11:37.516Z"
     readme:
-      fetched_at: '2026-09-29T13:11:37.516Z'
+      fetched_at: "2026-09-29T13:11:37.516Z"
       bytes: 20085
 insights:
-  summary: >-
-    Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify
-    each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
+  summary: Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -96,15 +86,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.414Z'
+    updated_at: "2026-09-29T13:07:10.414Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:37.516Z'
+    updated_at: "2026-09-29T13:11:37.516Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fz2000__android-jev__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: android-jev (FZ2000)
         extracted_url: https://github.com/fz2000/android-jev
-        surrounding_text: >-
-          - [android-jev (FZ2000)](https://github.com/FZ2000/android-jev) - MCP server/skill: drive an Android phone
-          over adb with TypeSafe Jev choosing each next action (distinct from listed jev-android / jevdevice). [Project
-          guide](community/projects/tools/fz2000-android-jev.md).
+        surrounding_text: "- [android-jev (FZ2000)](https://github.com/FZ2000/android-jev) - MCP server/skill: drive an Android phone over adb with TypeSafe Jev choosing each next action (distinct from listed jev-android / jevdevice). [Project guide](community/projects/tools/fz2000-android-jev.md)."
         confidence: high
 metadata:
   github:
@@ -33,8 +30,8 @@ metadata:
     archived: false
     full_name: FZ2000/android-jev
     html_url: https://github.com/FZ2000/android-jev
-    created_at: '2026-09-26T23:00:19Z'
-    pushed_at: '2026-09-27T21:27:25Z'
+    created_at: "2026-09-26T23:00:19Z"
+    pushed_at: "2026-09-27T21:27:25Z"
     description: MCP server and skill that let an agent drive an Android phone naturally over adb
     homepage: null
     topics:
@@ -58,9 +55,9 @@ metadata:
       - skill
       - tool-use
       - typesafe
-    last_checked_at: '2026-09-29T13:11:29.249Z'
+    last_checked_at: "2026-09-29T13:11:29.249Z"
     readme:
-      fetched_at: '2026-09-29T13:11:29.249Z'
+      fetched_at: "2026-09-29T13:11:29.249Z"
       bytes: 28729
 insights:
   summary: MCP server and skill that let an agent drive an Android phone naturally over adb
@@ -83,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:29.249Z'
+    updated_at: "2026-09-29T13:11:29.249Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

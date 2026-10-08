@@ -36,18 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A GitHub user profile with no public repositories or tooling.
-  why_it_matters: Does not provide any developer-facing AI tool, agent, or infrastructure to evaluate.
-  mental_damage: Another reminder that GitHub usernames are not AI products, no matter how hard we wish.
-  tags: []
+  summary: The GitHub profile page for the user 'yourusername'.
+  why_it_matters: Individual user profiles are identities rather than the functional AI tools or resources required by the catalog.
+  mental_damage: The fleeting hope of a new discovery followed by the absolute silence of zero public repositories.
+  tags:
+    - github-profile
   confidence: high
 curation:
   status: excluded
-  reason: The input is a bare GitHub user profile with no repositories, no tooling, and no identifiable product—just a profile page showing zero public repos and no description of AI functionality.
+  reason: The input is a GitHub user profile rather than a software tool, agent, or curated resource.
   evidence:
-    - "Repo description: (none)"
-    - "Popular repositories: Loading / Yourusername doesn't have any public repositories yet."
-    - "Seen in source lists: awesome-agent-orchestration — but only as a GitHub profile link under 'License' section, not as a tool or framework"
+    - Repositories count is 0
+    - No repo description or README provided
+    - Scraped content is a generic GitHub profile overview
 placement:
   primary_category: null
   section: null
@@ -68,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T05:01:12.932Z"
+    updated_at: "2026-10-08T04:35:02.428Z"
     cause: null
-    attempts: 9
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:648708f8653eccca92224e27b5b1b6cbce5b870953304428173477d850a2b432
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a bare GitHub user profile with no repositories, no tooling, and no identifiable product—just a profile page showing zero public repos and no description of AI functionality.
+      decision_reason: The input is a GitHub user profile rather than a software tool, agent, or curated resource.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Popular repositories: Loading / Yourusername doesn't have any public repositories yet."
-        - "Seen in source lists: awesome-agent-orchestration — but only as a GitHub profile link under 'License' section, not as a tool or framework"
+        - Repositories count is 0
+        - No repo description or README provided
+        - Scraped content is a generic GitHub profile overview
       category_candidates: []
       contrastive_reason: null
       review_reason: null

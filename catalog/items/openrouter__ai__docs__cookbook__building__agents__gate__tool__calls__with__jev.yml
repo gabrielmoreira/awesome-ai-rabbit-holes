@@ -5,9 +5,8 @@ canonical_url: https://openrouter.ai/docs/cookbook/building-agents/gate-tool-cal
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__openrouter__ai__docs__cookbook__building__agents__gate__tool__calls__with__jev__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__openrouter__ai__docs__cookbook__building__agents__gate__tool__calls__with__jev__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Guides and cookbooks
         anchor_text: Gating agent tool calls
         extracted_url: https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev
-        surrounding_text: >-
-          - [Gating agent tool calls](https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev) -
-          OpenRouter recipe combining deterministic checks with Jev Noul probabilities and fixed approve, block, or
-          human-review thresholds.
+        surrounding_text: "- [Gating agent tool calls](https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev) - OpenRouter recipe combining deterministic checks with Jev Noul probabilities and fixed approve, block, or human-review thresholds."
         confidence: high
 metadata:
   github:
@@ -40,27 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A recipe for gating tool calls in OpenRouter Agent SDK using Jev decision models to conditionally approve, block, or escalate refund decisions based on ticket context.
+  why_it_matters: Shows developers how to replace static human-in-the-loop rules with probabilistic, context-aware checks that reduce unnecessary escalations while maintaining safety.
+  mental_damage: Another layer of YAML and TypeScript to debug when the AI decides your refund is ‘sort of’ valid and now you’re on hook for auditing its feelings.
+  tags:
+    - agent-tool
+    - jev
+    - human-in-the-loop
+    - openrouter
+    - decision-gating
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The core identity is a tool-call gate driven by Jev decision-model judgments, which belongs in decision-models per precedence rule — even though it’s used in an agent, the judgment layer is the product’s reason to exist.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - The recipe gates tool calls using Jev to return probabilities on whether a refund is justified by ticket evidence, not generated text.
+    - It appears in the 'awesome-jev' list under 'Guides and cookbooks' as a Jev-specific decision-model application.
+    - "The guide explicitly states: 'Jev fits here because it doesn’t generate text. It reads the state you give it and returns a probability per question.'"
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Agent Gates, Routers & Skills
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +71,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:36.703Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:30d151abe79f40a44660c9093b9ddb523a16ae8282d76459a47b62f859b5aceb
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The core identity is a tool-call gate driven by Jev decision-model judgments, which belongs in decision-models per precedence rule — even though it’s used in an agent, the judgment layer is the product’s reason to exist.
+      decision_evidence:
+        - The recipe gates tool calls using Jev to return probabilities on whether a refund is justified by ticket evidence, not generated text.
+        - It appears in the 'awesome-jev' list under 'Guides and cookbooks' as a Jev-specific decision-model application.
+        - "The guide explicitly states: 'Jev fits here because it doesn’t generate text. It reads the state you give it and returns a probability per question.'"
+      category_candidates:
+        - decision-models
+        - ai-dev-extensions
+      contrastive_reason: Choose decision-models over ai-dev-extensions because the tool’s primary function is applying a decision model to gate tool calls — the judgment is the identity, not the integration layer into an agent.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

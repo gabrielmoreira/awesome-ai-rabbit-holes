@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__enforce__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-enforce
-        surrounding_text: >-
-          - [jev-enforce](https://github.com/erkamyaman/jev-enforce) ([site](https://www.npmjs.com/package/jev-enforce))
-          - 📏 Claude Code plugin that makes Claude follow your CLAUDE.md: every reply and edit checked by TypeSafe Jev
-          ✅.
+        surrounding_text: "- [jev-enforce](https://github.com/erkamyaman/jev-enforce) ([site](https://www.npmjs.com/package/jev-enforce)) - 📏 Claude Code plugin that makes Claude follow your CLAUDE.md: every reply and edit checked by TypeSafe Jev ✅."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-enforce (site) - Claude Code plugin that makes Claude follow your CLAUDE.md: every reply and edit checked by
-    TypeSafe Jev ✅.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-enforce is a package that provides Jev decision-model judgments for TypeSafe AI's System One model.
+  why_it_matters: It lets developers integrate typed decision-model outputs (Choice, Score, Noul/Boolean) into workflows via a Jev-compatible interface.
+  mental_damage: Another npm package to install just to get a probability when all you wanted was a yes/no from a model that thinks in spreads, not sentences.
+  tags:
+    - jev
+    - decision-model
+    - typesafe
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.60
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
     - decision-models
-  section: Claude Code & Agent Tools
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +69,29 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:39.141Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:78862cb5b17c030d4d5110e7b1aa93f31b6f10063587a6b49bc181578ea84fc8
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: jev-enforce is a client SDK/CLI for invoking the Jev decision model, making its core identity the judgment layer rather than a coding agent or general utility.
+      decision_evidence:
+        - Listed in the awesome-jev directory under 'Agent tooling' for projects built on Jev (TypeSafe AI's System One model)
+        - Package name 'jev-enforce' and npm registry presence indicate a client-facing interface for Jev model interactions
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jev-enforce's primary identity is invoking a decision model for typed judgments, not extending a coding agent or editor with workflow capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'extensions-and-addons', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

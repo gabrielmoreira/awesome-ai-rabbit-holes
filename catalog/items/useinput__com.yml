@@ -51,18 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 太阳成集团tyc122ccvip is a Chinese university-affiliated enterprise website promoting online gaming, academic activities, and institutional news.
-  why_it_matters: It does not provide any developer-facing AI tooling, workflow, or infrastructure relevant to software developers.
-  mental_damage: Another reminder that not every .com with AI-sounding text is actually for developers, and yet here we are checking.
+  summary: The provided input describes SunCity Group, a website regarding architecture and online games, which is unrelated to AI developer tooling.
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The site is a corporate portal for a Chinese educational enterprise group focused on gaming, academics, and internal operations, with no connection to AI developer tooling, agents, or workflows.
+  reason: The provided content and scraped site context describe a non-developer-related entity (SunCity Group) and online games, representing a total mismatch with the catalog's scope.
   evidence:
-    - Scraped site title and description describe it as '太阳成集团tyc(122ccvip)官网-SunCity Group' promoting online gaming and institutional news
-    - Primary page excerpt shows content about academic workshops, staff directories, and campus events, not AI or software development
-    - Listed in awesome-ai-agents under a nonsensical section link that appears to be spam or auto-generated text
+    - Scraped site content describes SunCity Group and architectural/gaming news
+    - Source-list link appears to be a misdirected or spam entry
 placement:
   primary_category: null
   section: null
@@ -72,24 +71,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-10-05T04:56:44.552Z"
+    updated_at: "2026-10-08T04:29:54.221Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:a9bda6e9fc11c0bbd8cd97034848eaa40a3168588241a3d7809ea2dfc1246dc9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a corporate portal for a Chinese educational enterprise group focused on gaming, academics, and internal operations, with no connection to AI developer tooling, agents, or workflows.
+      decision_reason: The provided content and scraped site context describe a non-developer-related entity (SunCity Group) and online games, representing a total mismatch with the catalog's scope.
       decision_evidence:
-        - Scraped site title and description describe it as '太阳成集团tyc(122ccvip)官网-SunCity Group' promoting online gaming and institutional news
-        - Primary page excerpt shows content about academic workshops, staff directories, and campus events, not AI or software development
-        - Listed in awesome-ai-agents under a nonsensical section link that appears to be spam or auto-generated text
+        - Scraped site content describes SunCity Group and architectural/gaming news
+        - Source-list link appears to be a misdirected or spam entry
       category_candidates: []
       contrastive_reason: null
       review_reason: null

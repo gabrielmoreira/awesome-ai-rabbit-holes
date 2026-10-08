@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__caiovicentino__jev-align__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-align
         extracted_url: https://github.com/caiovicentino/jev-align
-        surrounding_text: >-
-          - [jev-align](https://github.com/caiovicentino/jev-align) - Calibrated alignment verifier for LLM responses
-          and agent plans — powered by Jev.
+        surrounding_text: "- [jev-align](https://github.com/caiovicentino/jev-align) - Calibrated alignment verifier for LLM responses and agent plans — powered by Jev."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: caiovicentino/jev-align
     html_url: https://github.com/caiovicentino/jev-align
-    created_at: '2026-09-18T14:15:36Z'
-    pushed_at: '2026-09-20T18:22:10Z'
+    created_at: "2026-09-18T14:15:36Z"
+    pushed_at: "2026-09-20T18:22:10Z"
     description: Calibrated alignment verifier for LLM responses and agent plans — powered by Jev
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:40.769Z'
+    last_checked_at: "2026-09-29T13:09:40.769Z"
     readme:
-      fetched_at: '2026-09-29T13:09:40.769Z'
+      fetched_at: "2026-09-29T13:09:40.769Z"
       bytes: 11399
 insights:
   summary: Calibrated alignment verifier for LLM responses and agent plans — powered by Jev
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.451Z'
+    updated_at: "2026-09-29T13:07:10.451Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:40.769Z'
+    updated_at: "2026-09-29T13:09:40.769Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

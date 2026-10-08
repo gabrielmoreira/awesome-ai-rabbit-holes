@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__alexshpunt__pi-agent-ide__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -20,10 +20,7 @@ provenance:
           - Agent infrastructure
         anchor_text: Pi Agent IDE
         extracted_url: https://github.com/alexshpunt/pi-agent-ide
-        surrounding_text: >-
-          - **[Pi Agent IDE](https://github.com/alexshpunt/pi-agent-ide)** `⭐ 8` — Agent-native IDE extension for Pi
-          with guarded editing, AST/LSP navigation, persistent terminals, debugging, visual inspection, diagnostics,
-          undo, and progressive capability guides through one unified tool interface. MIT.
+        surrounding_text: "- **[Pi Agent IDE](https://github.com/alexshpunt/pi-agent-ide)** `⭐ 8` — Agent-native IDE extension for Pi with guarded editing, AST/LSP navigation, persistent terminals, debugging, visual inspection, diagnostics, undo, and progressive capability guides through one unified tool interface. MIT."
         confidence: high
 metadata:
   github:
@@ -33,11 +30,9 @@ metadata:
     archived: false
     full_name: alexshpunt/pi-agent-ide
     html_url: https://github.com/alexshpunt/pi-agent-ide
-    created_at: '2026-08-19T15:10:38Z'
-    pushed_at: '2026-09-29T11:16:49Z'
-    description: >-
-      Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and
-      observability.
+    created_at: "2026-08-19T15:10:38Z"
+    pushed_at: "2026-09-29T11:16:49Z"
+    description: Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and observability.
     homepage: https://pi.dev/packages/pi-agent-ide
     topics:
       - agentic-coding
@@ -53,14 +48,12 @@ metadata:
       - pi-extension
       - pi-package
       - typescript
-    last_checked_at: '2026-09-29T13:08:49.222Z'
+    last_checked_at: "2026-09-29T13:08:49.222Z"
     readme:
-      fetched_at: '2026-09-29T13:08:49.222Z'
+      fetched_at: "2026-09-29T13:08:49.222Z"
       bytes: 12850
 insights:
-  summary: >-
-    Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and
-    observability.
+  summary: Agent-native IDE extension for the Pi coding agent — guarded editing, search, LSP, terminals, debugging and observability.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,15 +73,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:49.222Z'
+    updated_at: "2026-09-29T13:08:49.222Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

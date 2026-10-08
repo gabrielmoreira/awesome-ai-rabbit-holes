@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dougsong__jev-android__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jev-android
         extracted_url: https://github.com/dougsong/jev-android
-        surrounding_text: >-
-          - [jev-android](https://github.com/dougsong/jev-android) - A Kotlin Android SDK for UI automation powered by
-          TypeSafe Jev, with an accessibility runtime and sample app.
+        surrounding_text: "- [jev-android](https://github.com/dougsong/jev-android) - A Kotlin Android SDK for UI automation powered by TypeSafe Jev, with an accessibility runtime and sample app."
         confidence: high
     - id: discovery__github__dougsong__jev-android__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-android
         extracted_url: https://github.com/dougsong/jev-android
-        surrounding_text: >-
-          - [jev-android](https://github.com/dougsong/jev-android) - Kotlin Android UI-agent SDK: TypeSafe Jev or
-          DeepSeek selects accessibility actions; local Maven sample (not on Maven Central). [Project
-          guide](community/projects/tools/jev-android.md).
+        surrounding_text: "- [jev-android](https://github.com/dougsong/jev-android) - Kotlin Android UI-agent SDK: TypeSafe Jev or DeepSeek selects accessibility actions; local Maven sample (not on Maven Central). [Project guide](community/projects/tools/jev-android.md)."
         confidence: high
     - id: discovery__github__dougsong__jev-android__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -53,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev-android**'
+        anchor_text: "**jev-android**"
         extracted_url: https://github.com/dougsong/jev-android
-        surrounding_text: >-
-          - [**jev-android**](https://github.com/dougsong/jev-android) — A Kotlin Android SDK for UI automation powered
-          by TypeSafe Jev, with an accessibility runtime and sample app.
+        surrounding_text: "- [**jev-android**](https://github.com/dougsong/jev-android) — A Kotlin Android SDK for UI automation powered by TypeSafe Jev, with an accessibility runtime and sample app."
         confidence: high
 metadata:
   github:
@@ -67,14 +60,14 @@ metadata:
     archived: false
     full_name: dougsong/jev-android
     html_url: https://github.com/dougsong/jev-android
-    created_at: '2026-09-20T14:24:25Z'
-    pushed_at: '2026-09-20T17:42:17Z'
+    created_at: "2026-09-20T14:24:25Z"
+    pushed_at: "2026-09-20T17:42:17Z"
     description: A Kotlin Android SDK for UI automation powered by TypeSafe Jev, with an accessibility runtime and sample app.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:47.710Z'
+    last_checked_at: "2026-09-29T13:10:47.710Z"
     readme:
-      fetched_at: '2026-09-29T13:10:47.710Z'
+      fetched_at: "2026-09-29T13:10:47.710Z"
       bytes: 36030
 insights:
   summary: A Kotlin Android SDK for UI automation powered by TypeSafe Jev, with an accessibility runtime and sample app.
@@ -87,9 +80,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Browser & Computer Use
   evidence:
     - jev-latest choice confidence 0.45
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -101,15 +92,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.394Z'
+    updated_at: "2026-09-29T13:07:10.394Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:47.710Z'
+    updated_at: "2026-09-29T13:10:47.710Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

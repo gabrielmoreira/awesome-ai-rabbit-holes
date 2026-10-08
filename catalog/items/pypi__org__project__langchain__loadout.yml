@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__langchain__loadout__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://pypi.org/project/langchain-loadout
-        surrounding_text: >-
-          - [langchain-loadout](https://github.com/deyna256/langchain-skill-router)
-          ([site](https://pypi.org/project/langchain-loadout/)) - Per-turn skill selection for LangChain and deepagents
-          agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt.
+        surrounding_text: "- [langchain-loadout](https://github.com/deyna256/langchain-skill-router) ([site](https://pypi.org/project/langchain-loadout/)) - Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few skills a turn needs, so a catalog of hundreds stays out of the prompt."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    langchain-loadout (site) - Per-turn skill selection for LangChain and deepagents agents: a fast judge picks the few
-    skills a turn needs, so a catalog of hundreds stays out of the prompt.
-  why_it_matters: null
-  mental_damage: null
+  summary: langchain-loadout is a PyPI package with no discernible description or activity, making its purpose unclear.
+  why_it_matters: It does not provide any clear developer value or workflow improvement based on available evidence.
+  mental_damage: Yet another abandoned PyPI ghost that haunts dependency resolvers with false hope.
   tags: []
-  confidence: null
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  status: excluded
+  reason: The project lacks any discernible identity, functionality, or activity to determine its purpose or fit within the catalog scope.
   evidence:
-    - jev-latest choice confidence 0.92
-    - >-
-      jev winnow:e4b 0.33 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
-      (unverified)
+    - No repo description, README, or homepage is available to define what the tool does.
+    - The PyPI page shows no meaningful description, and scraped site context only displays a generic loading error.
+    - No stars, creation, or push dates are known, and it is not listed in any reputable source lists with clear context.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories:
     - ai-frameworks
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +67,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:34.461Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:bf038b84dc6e50c2bc810501851fc9d2aece29e7868a4857fa828a3bec08da08
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks any discernible identity, functionality, or activity to determine its purpose or fit within the catalog scope.
+      decision_evidence:
+        - No repo description, README, or homepage is available to define what the tool does.
+        - The PyPI page shows no meaningful description, and scraped site context only displays a generic loading error.
+        - No stars, creation, or push dates are known, and it is not listed in any reputable source lists with clear context.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

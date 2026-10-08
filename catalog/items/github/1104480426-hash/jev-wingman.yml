@@ -79,10 +79,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:10:27.484Z"
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__1104480426-hash__jev-wingman: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1

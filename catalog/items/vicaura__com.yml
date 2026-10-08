@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vicaura__com__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Vicaura
         extracted_url: https://vicaura.com
-        surrounding_text: >-
-          - [Vicaura](https://vicaura.com) - `Closed source` · `Pricing unverified`. Hosted product-to-markdown tool:
-          extract features, ICP, messaging, and pricing strategy into md for coding agents (vendor: powered by Jev).
-          [Project guide](community/projects/apps/vicaura.md).
+        surrounding_text: "- [Vicaura](https://vicaura.com) - `Closed source` · `Pricing unverified`. Hosted product-to-markdown tool: extract features, ICP, messaging, and pricing strategy into md for coding agents (vendor: powered by Jev). [Project guide](community/projects/apps/vicaura.md)."
         confidence: high
 metadata:
   github:
@@ -40,30 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Vicaura.com turns products into markdown repositories of features and logic for use in coding agents.
+  why_it_matters: It lets developers extract and reuse product behavior as structured context for AI-assisted coding workflows.
+  mental_damage: Another way to feel productive while outsourcing your product intuition to a markdown dump.
+  tags:
+    - context
+    - markdown
+    - product-logic
+  confidence: medium
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: Vicaura.com fits as a prompt/context engineering tool that structures product knowledge into markdown for agent consumption, not as a coding agent or decision model.
   evidence:
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; no placement kept
-      (unverified)
+    - Turns products into repos of markdown files containing features, product logic, pricing strategy, customer profile, and messaging
+    - Designed to be used 'in your coding agent' by copying structured product context
+    - Listed in awesome-jev under 'Community projects > Apps powered by Jev' as a way to use product logic in coding agents
 placement:
-  primary_category: null
-  section: null
+  primary_category: memory-and-context
   secondary_categories:
     - decision-models
+  section: Prompt Engineering & Management
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:24.653Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:384a1e7cde03ebacc73f384122cacc77e0de141a44edb29b079c245871b48891
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: Vicaura.com fits as a prompt/context engineering tool that structures product knowledge into markdown for agent consumption, not as a coding agent or decision model.
+      decision_evidence:
+        - Turns products into repos of markdown files containing features, product logic, pricing strategy, customer profile, and messaging
+        - Designed to be used 'in your coding agent' by copying structured product context
+        - Listed in awesome-jev under 'Community projects > Apps powered by Jev' as a way to use product logic in coding agents
+      category_candidates:
+        - memory-and-context
+        - coding-agents
+      contrastive_reason: Choose memory-and-context over coding-agents because Vicaura.com does not write, edit, or act on code—it structures product knowledge into markdown prompts for agents to consume.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

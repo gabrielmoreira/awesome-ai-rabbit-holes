@@ -37,26 +37,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Prior is a knowledge exchange protocol that enables AI agents to search for previously solved problems across agent sessions without retraining or wasting tokens.
-  why_it_matters: It reduces redundant work and token costs for developers building agent workflows by letting agents reuse solutions discovered by others.
-  mental_damage: Developers still waste time authenticating, installing CLI tools, and configuring multiple agent integrations just to share a single useful fix they found months ago.
+  summary: A knowledge exchange network that allows AI agents to search for and contribute solutions discovered during previous sessions.
+  why_it_matters: It prevents agents from wasting tokens and time re-solving the same problems by creating a shared, persistent memory of successful debugging and coding workflows.
+  mental_damage: Your agent's hard-won breakthroughs are now just a credit-earning commodity in a decentralized debugging hive mind.
   tags:
+    - agent-memory
     - mcp
-    - agent-orchestration
-    - memory-and-context
+    - knowledge-exchange
+    - coding-tools
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in memory-and-context / Persistent Memory & Knowledge
+  reason: The tool's core novelty is providing persistent, cross-session knowledge and retrieval for agents, which defines it as a memory and context system.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Claims to allow agents to search for solutions discovered by other agents to save tokens and time
+    - Uses a credit economy to facilitate a 'give knowledge, get knowledge' exchange
+    - Integrates via MCP, behavioral rules (CLAUDE.md), and skill files to augment existing agents
 placement:
   primary_category: memory-and-context
   secondary_categories: []
   section: Persistent Memory & Knowledge
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'memory-and-context', proposed 'coding-agents'"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -70,30 +73,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:43:42.635Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for prior__cg3__io: Invalid AI response format: SyntaxError: Unexpected token 'P', ...\"_reason\": Prior is p\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:25:18.092Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:f3c09e90eb405f276c892ceeabc910503ba6191b83fb19bab6cdcdc64cfe8a1a
-      proposed_primary_category: coding-agents
-      disagreement: true
-      decision_reason: Prior is a coding agent that autonomously searches for solutions to coding problems across sessions, making it a primary tool for developers delegating coding tasks.
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2f6d4708d17ac6e7d2a36c43a8bcced930906c51c2193f0c8a5eacd177e9243f
+      proposed_primary_category: memory-and-context
+      disagreement: false
+      decision_reason: The tool's core novelty is providing persistent, cross-session knowledge and retrieval for agents, which defines it as a memory and context system.
       decision_evidence:
-        - README states 'Prior Setup' automatically detects coding tools like Claude Code and Codex and installs behavioral rules for agent search
-        - Scraped site context describes Prior as 'Knowledge exchange for AI agents' that lets agents 'search for solutions already discovered by other agents'
-        - Source-list context shows it is included in curated AI developer resources indicating recognized utility
+        - Claims to allow agents to search for solutions discovered by other agents to save tokens and time
+        - Uses a credit economy to facilitate a 'give knowledge, get knowledge' exchange
+        - Integrates via MCP, behavioral rules (CLAUDE.md), and skill files to augment existing agents
       category_candidates:
-        - coding-agents
-        - ai-dev-extensions
-      contrastive_reason: Choose coding-agents over ai-dev-extensions because Prior is an autonomous agent that searches for solutions rather than merely extending another agent's capabilities
-      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions; placement disagreement: retained 'memory-and-context', proposed 'coding-agents'"
+        - memory-and-context
+        - mcp
+      contrastive_reason: Choose memory-and-context over mcp because the product's primary identity is the knowledge exchange and agent memory system, rather than just the MCP protocol itself.
+      review_reason: null
       review_resume_lifecycle: null

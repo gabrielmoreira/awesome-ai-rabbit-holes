@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__news__ycombinator__com__item__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,12 +18,10 @@ provenance:
           - Articles & threads
         anchor_text: Hacker News launch thread
         extracted_url: https://news.ycombinator.com/item
-        surrounding_text: >-
-          - [Hacker News launch thread](https://news.ycombinator.com/item?id=49717558) - 1,800-point thread debating
-          whether typed decisions replace LLM calls for classification, routing, and scoring.
+        surrounding_text: "- [Hacker News launch thread](https://news.ycombinator.com/item?id=49717558) - 1,800-point thread debating whether typed decisions replace LLM calls for classification, routing, and scoring."
         confidence: high
     - id: discovery__news__ycombinator__com__item__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -36,10 +34,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Introducing System One Models and Jev (Hacker News)
         extracted_url: https://news.ycombinator.com/item
-        surrounding_text: >-
-          - [Introducing System One Models and Jev (Hacker News)](https://news.ycombinator.com/item?id=49717558) -
-          Hacker News: 1,800-point launch thread whose ~480 comments debate whether typed decisions replace LLM calls
-          for classification, routing, and verification.
+        surrounding_text: "- [Introducing System One Models and Jev (Hacker News)](https://news.ycombinator.com/item?id=49717558) - Hacker News: 1,800-point launch thread whose ~480 comments debate whether typed decisions replace LLM calls for classification, routing, and verification."
         confidence: high
 metadata:
   github:
@@ -57,30 +52,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
+  summary: A Hacker News item URL with no associated content.
+  why_it_matters: It does not matter to developers as it provides no information, tool, or resource.
+  mental_damage: Clicking this feels like opening a gift box labeled 'AI Innovation' and finding only a receipt for existential dread.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The URL resolves to a non-existent Hacker News item with no title, description, or content, offering no developer-facing tool, workflow, or insight.
   evidence:
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; no placement kept
-      (unverified)
+    - "Repo description: (none)"
+    - "Primary page excerpt: 'No such item.'"
+    - "Scraped site context: Title and Description are (none)"
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,6 +83,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:04.944Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e5af3d0b2beef7fba92ac6efca3c41f508f1879b894af416eba91a2e052d4f6b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The URL resolves to a non-existent Hacker News item with no title, description, or content, offering no developer-facing tool, workflow, or insight.
+      decision_evidence:
+        - "Repo description: (none)"
+        - "Primary page excerpt: 'No such item.'"
+        - "Scraped site context: Title and Description are (none)"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

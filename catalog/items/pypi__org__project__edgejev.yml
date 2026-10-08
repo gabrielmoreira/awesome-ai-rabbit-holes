@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__edgejev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://pypi.org/project/edgejev
-        surrounding_text: >-
-          - [edgejev](https://github.com/yzfly/edgejev) ([site](https://pypi.org/project/edgejev/)) - 离线可用的本地类型化决策：4 核
-          CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no torch at runtime. 支持 laya /
-          kev / PlayJev.
+        surrounding_text: "- [edgejev](https://github.com/yzfly/edgejev) ([site](https://pypi.org/project/edgejev/)) - 离线可用的本地类型化决策：4 核 CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no torch at runtime. 支持 laya / kev / PlayJev."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    edgejev (site) - 离线可用的本地类型化决策：4 核 CPU 单题 15.6ms。Local & offline Jev / System One inference on CPU — ONNX + INT8, no
-    torch at runtime. 支持 laya / kev / PlayJev.
-  why_it_matters: null
-  mental_damage: null
+  summary: edgejev is a PyPI package with no available description, README, or functional details.
+  why_it_matters: It is unclear what edgejev does or how it benefits developers.
+  mental_damage: Another mysterious PyPI package that leaves you wondering if it's abandoned, broken, or just poorly documented.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: edgejev lacks any discernible functionality, description, or evidence of being a developer-facing AI tool, making it impossible to assess its relevance to the catalog.
   evidence:
-    - jev-latest choice confidence 0.60
+    - No repo description provided
+    - README excerpt unavailable
+    - Scraped site shows only a generic loading error with no meaningful content
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:12.354Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0dd598fabc7ec7387218a2c78a6588329edb900d0cb9bc464e0d3a184bb2be9b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: edgejev lacks any discernible functionality, description, or evidence of being a developer-facing AI tool, making it impossible to assess its relevance to the catalog.
+      decision_evidence:
+        - No repo description provided
+        - README excerpt unavailable
+        - Scraped site shows only a generic loading error with no meaningful content
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

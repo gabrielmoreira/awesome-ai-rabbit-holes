@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__respan__ai__ai__gateway__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: Respan
         extracted_url: https://respan.ai/ai-gateway
-        surrounding_text: >-
-          - **[Respan](https://www.respan.ai/ai-gateway)** – Full-stack AI engineering platform with a tracing SDK,
-          evals, prompt management, and a gateway to 250+ models.
+        surrounding_text: "- **[Respan](https://www.respan.ai/ai-gateway)** – Full-stack AI engineering platform with a tracing SDK, evals, prompt management, and a gateway to 250+ models."
         confidence: high
 metadata:
   github:
@@ -38,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Respan – Full-stack AI engineering platform with a tracing SDK, evals, prompt management, and a gateway to 250+
-    models.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AI Gateway for Production LLM Routing with failover, response caching, and observability for 1,000+ models via a unified endpoint.
+  why_it_matters: Eliminates vendor lock-in and reduces LLM costs by abstracting provider differences and automating failover and caching.
+  mental_damage: Another layer of YAML and SDK config to debug when your 'unified' gateway starts routing requests to a model that charges $200/token.
+  tags:
+    - llm-gateway
+    - model-routing
+    - observability
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in ai-frameworks / Provider & Model Abstractions
+  reason: AI Gateway is a provider abstraction SDK and routing layer that developers import and program against to unify LLM access, fitting the Frameworks & SDKs category.
   evidence:
-    - jev-latest choice confidence 0.51
+    - Source-list context places it in 'AI Frameworks and SDKs' section of awesome-ai-coding-tools
+    - README emphasizes changing a single model slug to switch providers and using existing SDKs pointed at one endpoint
+    - Product provides a unified API layer over 1,000+ models with failover, caching, and logging — core abstractions for LLM calls
 placement:
   primary_category: ai-frameworks
   secondary_categories: []
@@ -60,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:00.457Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:25fbcaf486ecbd9d28518b4d843038dadec78f950b11ca8aa11135f1f3d0eb1d
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: AI Gateway is a provider abstraction SDK and routing layer that developers import and program against to unify LLM access, fitting the Frameworks & SDKs category.
+      decision_evidence:
+        - Source-list context places it in 'AI Frameworks and SDKs' section of awesome-ai-coding-tools
+        - README emphasizes changing a single model slug to switch providers and using existing SDKs pointed at one endpoint
+        - Product provides a unified API layer over 1,000+ models with failover, caching, and logging — core abstractions for LLM calls
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers import and script against the gateway as an SDK to unify model access, rather than operating it as a control plane for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

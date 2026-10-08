@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__warmersun__com__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Articles & threads
         anchor_text: Typed decisions, not chat
         extracted_url: https://warmersun.com/jev
-        surrounding_text: >-
-          - [Typed decisions, not chat](https://warmersun.com/jev/) - Independent walkthrough separating TypeSafe's
-          published claims from public evidence.
+        surrounding_text: "- [Typed decisions, not chat](https://warmersun.com/jev/) - Independent walkthrough separating TypeSafe's published claims from public evidence."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Typed decisions, not chat - Independent walkthrough separating TypeSafe's published claims from public evidence.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a TypeSafe AI System One decision model that returns structured probabilities (Choice, Score, Noul) for typed questions instead of generating text.
+  why_it_matters: It enables developers to embed explainable, low-latency typed judgments directly into code for routing, validation, or guardrails without parsing LLM output.
+  mental_damage: Another model claiming to be 'too cheap to meter' while the real work of interpreting its output still lives in your if-statements.
+  tags:
+    - decision-model
+    - typed-inference
+    - structured-output
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: Jev's core identity is a decision model returning constrained typed answers with probabilities, not a coding agent or general-purpose LLM, placing it squarely in decision-models per its documented primitives and use as a judgment layer in automated paths.
   evidence:
-    - jev-latest choice confidence 0.92
+    - "Jev evaluates typed questions against a state and returns structured results directly: Choice, Score, or Noul (0–1 probability) with no text generation."
+    - TypeSafe documents Jev as a System One model whose purpose is to act as a gate in automated decision paths where code owns control flow and Jev provides only the typed judgment.
+    - The product is listed in the awesome-jev directory as a System One model, and the scraped site positions it as a typed-decision primitive for branching, scoring, and routing in code.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:35.207Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:37ee9afb5aae3bf8b67e0985510f276505b39efc6d947ba8066757fd2ff8331f
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev's core identity is a decision model returning constrained typed answers with probabilities, not a coding agent or general-purpose LLM, placing it squarely in decision-models per its documented primitives and use as a judgment layer in automated paths.
+      decision_evidence:
+        - "Jev evaluates typed questions against a state and returns structured results directly: Choice, Score, or Noul (0–1 probability) with no text generation."
+        - TypeSafe documents Jev as a System One model whose purpose is to act as a gate in automated decision paths where code owns control flow and Jev provides only the typed judgment.
+        - The product is listed in the awesome-jev directory as a System One model, and the scraped site positions it as a typed-decision primitive for branching, scoring, and routing in code.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev does not write, edit, or act on code—it returns typed probabilities for code to branch on, making the judgment layer the product identity, not coding assistance.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

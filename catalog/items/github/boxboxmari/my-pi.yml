@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__boxboxmari__my-pi__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💻 <a name="developer-tools"></a>Developer Tools
         anchor_text: BoxBoxmari/my-pi
         extracted_url: https://github.com/boxboxmari/my-pi
-        surrounding_text: >-
-          - [BoxBoxmari/my-pi](https://github.com/BoxBoxmari/my-pi) [![BoxBoxmari/my-pi MCP
-          server](https://glama.ai/mcp/servers/BoxBoxmari/my-pi/badges/score.svg)](https://glama.ai/mcp/servers/BoxBoxmari/my-pi)
-          📇 🏠 🍎 🪟 🐧 - Local-first runtime for coding agents: bounded workspace access, guarded writes, AST search,
-          LSP navigation and diagnostics, and Git tooling.
+        surrounding_text: "- [BoxBoxmari/my-pi](https://github.com/BoxBoxmari/my-pi) [![BoxBoxmari/my-pi MCP server](https://glama.ai/mcp/servers/BoxBoxmari/my-pi/badges/score.svg)](https://glama.ai/mcp/servers/BoxBoxmari/my-pi) 📇 🏠 🍎 🪟 🐧 - Local-first runtime for coding agents: bounded workspace access, guarded writes, AST search, LSP navigation and diagnostics, and Git tooling."
         confidence: high
 metadata:
   github:
@@ -34,12 +30,10 @@ metadata:
     archived: false
     full_name: BoxBoxmari/my-pi
     html_url: https://github.com/BoxBoxmari/my-pi
-    created_at: '2026-09-01T05:25:10Z'
-    pushed_at: '2026-09-24T09:48:09Z'
-    description: >-
-      Local-first MCP runtime for coding agents with bounded filesystem access, safe writes, AST search, LSP navigation,
-      and Git tooling.
-    homepage: ''
+    created_at: "2026-09-01T05:25:10Z"
+    pushed_at: "2026-09-24T09:48:09Z"
+    description: Local-first MCP runtime for coding agents with bounded filesystem access, safe writes, AST search, LSP navigation, and Git tooling.
+    homepage: ""
     topics:
       - ai-agents
       - change-runtime
@@ -53,14 +47,12 @@ metadata:
       - model-context-protocol
       - multi-agent-systems
       - software-coordination
-    last_checked_at: '2026-09-29T13:09:34.891Z'
+    last_checked_at: "2026-09-29T13:09:34.891Z"
     readme:
-      fetched_at: '2026-09-29T13:09:34.891Z'
+      fetched_at: "2026-09-29T13:09:34.891Z"
       bytes: 16592
 insights:
-  summary: >-
-    Local-first MCP runtime for coding agents with bounded filesystem access, safe writes, AST search, LSP navigation,
-    and Git tooling.
+  summary: Local-first MCP runtime for coding agents with bounded filesystem access, safe writes, AST search, LSP navigation, and Git tooling.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -80,15 +72,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:34.891Z'
+    updated_at: "2026-09-29T13:09:34.891Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

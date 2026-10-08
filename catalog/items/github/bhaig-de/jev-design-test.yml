@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bhaig-de__jev-design-test__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: jev-design-test
         extracted_url: https://github.com/bhaig-de/jev-design-test
-        surrounding_text: >-
-          | [jev-design-test](https://github.com/bhaiG-de/jev-design-test) | ★ 22 | TypeScript | 2026-09-23 | Jev
-          shadcn-block generator. |
+        surrounding_text: "| [jev-design-test](https://github.com/bhaiG-de/jev-design-test) | ★ 22 | TypeScript | 2026-09-23 | Jev shadcn-block generator. |"
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: bhaiG-de/jev-design-test
     html_url: https://github.com/bhaiG-de/jev-design-test
-    created_at: '2026-09-21T01:55:31Z'
-    pushed_at: '2026-09-21T02:30:27Z'
+    created_at: "2026-09-21T01:55:31Z"
+    pushed_at: "2026-09-21T02:30:27Z"
     description: Jev shadcn-block generator
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:31.304Z'
+    last_checked_at: "2026-09-29T13:09:31.304Z"
     readme:
-      fetched_at: '2026-09-29T13:09:31.304Z'
+      fetched_at: "2026-09-29T13:09:31.304Z"
       bytes: 12786
 insights:
   summary: Jev shadcn-block generator
@@ -52,9 +50,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
   evidence:
     - jev-latest choice confidence 0.42
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at
-      app-builders (unverified)
+    - jev winnow:e4b 0.29 below gate 0.50; proposed decision-models / Framework & SDK Integrations; placement kept at app-builders (unverified)
 placement:
   primary_category: app-builders
   secondary_categories:
@@ -66,15 +62,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:31.304Z'
+    updated_at: "2026-09-29T13:09:31.304Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nexibeo__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://nexibeo.com
-        surrounding_text: >-
-          - [jev-organize](https://github.com/nexibeo/jev-organize) ([site](https://nexibeo.com)) - Throw in a pile of
-          company files and get them classified and organized by department, type, sensitivity, date, counterparty and
-          PII, with an index for AI agents. Powered by TypeSafe's Jev on OpenRouter (17¢ per 1,000 files).
-          Zero-dependency Node CLI + Claude skill + Codex agent.
+        surrounding_text: "- [jev-organize](https://github.com/nexibeo/jev-organize) ([site](https://nexibeo.com)) - Throw in a pile of company files and get them classified and organized by department, type, sensitivity, date, counterparty and PII, with an index for AI agents. Powered by TypeSafe's Jev on OpenRouter (17¢ per 1,000 files). Zero-dependency Node CLI + Claude skill + Codex agent."
         confidence: high
 metadata:
   github:
@@ -40,30 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-organize (site) - Throw in a pile of company files and get them classified and organized by department, type,
-    sensitivity, date, counterparty and PII, with an index for AI agents. Powered by TypeSafe's Jev on OpenRouter (17¢
-    per 1,000 files). Zero-dependency Node CLI + Claude skill + Codex agent.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Nexibeo is a managed service that automates one or two business processes per month for a fixed fee using AI agents and custom-built solutions.
+  why_it_matters: It offers developers a way to outsource repetitive workflow automation to a dedicated team that builds and maintains AI solutions end-to-end.
+  mental_damage: Paying $4,900 a month to have someone else run your AI agents feels like admitting you’ve lost control of your own tooling.
+  tags:
+    - ai-services
+    - workflow-automation
+    - managed-ai
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  status: excluded
+  reason: Nexibeo is a managed services consultancy that builds and runs AI solutions for clients, not a developer-facing tool, framework, or infrastructure that developers use directly in their workflows.
   evidence:
-    - jev-latest choice confidence 0.76
+    - The same team automates one or two processes in your business every month, on one fixed fee, fully managed.
+    - We run AI for a living. Let us run yours.
+    - Nexibeo owns and runs nine AI brands. The same team automates one or two processes in your business every month, on one fixed fee, fully managed.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:06.635Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1d1892fdc15ff3c9238b3c40f7e8269621c502304b5873b7a82f5dbd8780e8d6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Nexibeo is a managed services consultancy that builds and runs AI solutions for clients, not a developer-facing tool, framework, or infrastructure that developers use directly in their workflows.
+      decision_evidence:
+        - The same team automates one or two processes in your business every month, on one fixed fee, fully managed.
+        - We run AI for a living. Let us run yours.
+        - Nexibeo owns and runs nine AI brands. The same team automates one or two processes in your business every month, on one fixed fee, fully managed.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

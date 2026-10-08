@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__thursdai__news__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://thursdai.news
-        surrounding_text: >-
-          - [jevify](https://github.com/altryne/jevify) ([site](https://thursdai.news)) - An agent skill to discover
-          TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
+        surrounding_text: "- [jevify](https://github.com/altryne/jevify) ([site](https://thursdai.news)) - An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments."
         confidence: high
 metadata:
   github:
@@ -38,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevify (site) - An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent
-    community experiments.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ThursdAI is a weekly live show, podcast, and newsletter covering AI news with interviews from industry builders.
+  why_it_matters: It provides developers with timely, high-signal AI updates and insights from people actively shipping AI products.
+  mental_damage: Another AI newsletter promising to keep you ahead, as if falling behind by one week means missing the singularity.
+  tags:
+    - newsletter
+    - podcast
+    - ai-news
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  status: excluded
+  reason: ThursdAI is a media publication focused on AI news and commentary, not a developer-facing tool, agent, framework, or infrastructure product.
   evidence:
-    - jev-latest choice confidence 0.41
-    - >-
-      jev winnow:e4b 0.23 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      decision-models (unverified)
+    - Described as 'The podcast that keeps you ahead of the AI curve' hosted by Alex Volkov, presented by Weights & Biases
+    - Features weekly live shows, episodes, guest interviews from AI companies, and a newsletter
+    - Appears in source list as a podcast under 'Benchmarks & research' in an awesome-jev directory
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories:
     - awesome-awesomes
-  section: Official Jev & System One
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:13.860Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6b0f626dc92242ad49295c217f994cdc602a8eaa3ee9f751bf26964ea1c2794e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: ThursdAI is a media publication focused on AI news and commentary, not a developer-facing tool, agent, framework, or infrastructure product.
+      decision_evidence:
+        - Described as 'The podcast that keeps you ahead of the AI curve' hosted by Alex Volkov, presented by Weights & Biases
+        - Features weekly live shows, episodes, guest interviews from AI companies, and a newsletter
+        - Appears in source list as a podcast under 'Benchmarks & research' in an awesome-jev directory
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

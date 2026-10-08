@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__devswha__patina__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - CLI Tools
         anchor_text: patina
         extracted_url: https://github.com/devswha/patina
-        surrounding_text: >-
-          - **[patina](https://github.com/devswha/patina)** – Multilingual CLI and agent skill that audits and rewrites
-          AI-sounding writing patterns while preserving claims, numbers, polarity, and causation.
+        surrounding_text: "- **[patina](https://github.com/devswha/patina)** – Multilingual CLI and agent skill that audits and rewrites AI-sounding writing patterns while preserving claims, numbers, polarity, and causation."
         confidence: high
 metadata:
   github:
@@ -31,8 +29,8 @@ metadata:
     archived: false
     full_name: devswha/patina
     html_url: https://github.com/devswha/patina
-    created_at: '2026-02-24T06:59:15Z'
-    pushed_at: '2026-09-26T10:35:13Z'
+    created_at: "2026-02-24T06:59:15Z"
+    pushed_at: "2026-09-26T10:35:13Z"
     description: AI-writing humanizer for KO/EN/ZH/JA
     homepage: https://patina.vibetip.help/
     topics:
@@ -56,9 +54,9 @@ metadata:
       - text-humanizer
       - text-processing
       - writing-tools
-    last_checked_at: '2026-09-29T13:10:38.984Z'
+    last_checked_at: "2026-09-29T13:10:38.984Z"
     readme:
-      fetched_at: '2026-09-29T13:10:38.984Z'
+      fetched_at: "2026-09-29T13:10:38.984Z"
       bytes: 9073
 insights:
   summary: null
@@ -80,15 +78,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:38.984Z'
+    updated_at: "2026-09-29T13:10:38.984Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

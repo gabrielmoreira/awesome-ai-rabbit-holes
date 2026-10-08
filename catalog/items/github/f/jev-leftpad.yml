@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__f__jev-leftpad__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - Applications
         anchor_text: jev-leftpad
         extracted_url: https://github.com/f/jev-leftpad
-        surrounding_text: '- [jev-leftpad](https://github.com/f/jev-leftpad) - Left-pad strings with TypeSafe AI''s Jev. For reasons.'
+        surrounding_text: "- [jev-leftpad](https://github.com/f/jev-leftpad) - Left-pad strings with TypeSafe AI's Jev. For reasons."
         confidence: high
     - id: discovery__github__f__jev-leftpad__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,9 +35,7 @@ provenance:
           - Demos & playgrounds (65)
         anchor_text: jev-leftpad
         extracted_url: https://github.com/f/jev-leftpad
-        surrounding_text: >-
-          | [jev-leftpad](https://github.com/f/jev-leftpad) | ★ 82 | JavaScript | 2026-09-23 | Left-pad strings with
-          TypeSafe AI's Jev. For reasons. |
+        surrounding_text: "| [jev-leftpad](https://github.com/f/jev-leftpad) | ★ 82 | JavaScript | 2026-09-23 | Left-pad strings with TypeSafe AI's Jev. For reasons. |"
         confidence: high
 metadata:
   github:
@@ -47,14 +45,14 @@ metadata:
     archived: false
     full_name: f/jev-leftpad
     html_url: https://github.com/f/jev-leftpad
-    created_at: '2026-09-21T08:34:36Z'
-    pushed_at: '2026-09-21T08:34:40Z'
+    created_at: "2026-09-21T08:34:36Z"
+    pushed_at: "2026-09-21T08:34:40Z"
     description: Left-pad strings with TypeSafe AI's Jev. For reasons.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:10.372Z'
+    last_checked_at: "2026-09-29T13:11:10.372Z"
     readme:
-      fetched_at: '2026-09-29T13:11:10.372Z'
+      fetched_at: "2026-09-29T13:11:10.372Z"
       bytes: 1402
 insights:
   summary: null
@@ -66,29 +64,30 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.31 below gate 0.50; proposed decision-models / Open & Local Decision Models; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:10.372Z'
+    updated_at: "2026-09-29T13:11:10.372Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

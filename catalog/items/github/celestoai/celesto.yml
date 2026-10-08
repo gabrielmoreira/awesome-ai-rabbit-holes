@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__celestoai__celesto__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Browser & computer use (75)
         anchor_text: celesto
         extracted_url: https://github.com/celestoai/celesto
-        surrounding_text: >-
-          | [celesto](https://github.com/CelestoAI/celesto) | ★ 958 | Python | 2026-09-22 | Agent-computer platform with
-          a runnable pull-request review lab where Jev judges whether findings are introduced, supported, and
-          actionable. |
+        surrounding_text: "| [celesto](https://github.com/CelestoAI/celesto) | ★ 958 | Python | 2026-09-22 | Agent-computer platform with a runnable pull-request review lab where Jev judges whether findings are introduced, supported, and actionable. |"
         confidence: high
     - id: discovery__github__celestoai__celesto__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -36,11 +33,9 @@ provenance:
         mode: parsed
         section_path:
           - Code Navigation
-        anchor_text: '**celesto**'
+        anchor_text: "**celesto**"
         extracted_url: https://github.com/celestoai/celesto
-        surrounding_text: >-
-          - [**celesto**](https://github.com/CelestoAI/celesto) — A Celesto PR-review example prepares sandbox checks
-          and compares a general model with Jev on candidate findings.
+        surrounding_text: "- [**celesto**](https://github.com/CelestoAI/celesto) — A Celesto PR-review example prepares sandbox checks and compares a general model with Jev on candidate findings."
         confidence: high
 metadata:
   github:
@@ -50,8 +45,8 @@ metadata:
     archived: false
     full_name: CelestoAI/celesto
     html_url: https://github.com/CelestoAI/celesto
-    created_at: '2026-02-15T00:31:08Z'
-    pushed_at: '2026-09-29T11:47:44Z'
+    created_at: "2026-02-15T00:31:08Z"
+    pushed_at: "2026-09-29T11:47:44Z"
     description: Secure and persistent computer for AI agents
     homepage: https://celesto.ai/docs
     topics:
@@ -63,9 +58,9 @@ metadata:
       - grokbot
       - muse
       - sandbox
-    last_checked_at: '2026-09-29T13:09:44.941Z'
+    last_checked_at: "2026-09-29T13:09:44.941Z"
     readme:
-      fetched_at: '2026-09-29T13:09:44.941Z'
+      fetched_at: "2026-09-29T13:09:44.941Z"
       bytes: 17305
 insights:
   summary: Secure and persistent computer for AI agents
@@ -78,9 +73,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Browser & Computer-Use Agents
   evidence:
     - jev-latest choice confidence 0.73
-    - >-
-      jev winnow:e4b 0.34 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.34 below gate 0.50; proposed coding-agents / Browser & Computer-Use Agents; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -92,15 +85,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:44.941Z'
+    updated_at: "2026-09-29T13:09:44.941Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

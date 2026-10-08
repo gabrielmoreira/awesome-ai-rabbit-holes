@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__instafill__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - MCP Servers and Directories
         anchor_text: Instafill.ai
         extracted_url: https://instafill.ai
-        surrounding_text: >-
-          - **[Instafill.ai](https://instafill.ai)** – MCP server for AI-powered PDF form filling. Auto-completes any
-          PDF form by extracting fields and filling them from saved profiles, uploaded files, or supplied data.
+        surrounding_text: "- **[Instafill.ai](https://instafill.ai)** – MCP server for AI-powered PDF form filling. Auto-completes any PDF form by extracting fields and filling them from saved profiles, uploaded files, or supplied data."
         confidence: high
 metadata:
   github:
@@ -38,13 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Instafill.ai – MCP server for AI-powered PDF form filling. Auto-completes any PDF form by extracting fields and
-    filling them from saved profiles, uploaded files, or supplied data.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Instafill.ai is an AI-powered online form filler that automatically completes PDF and Word documents by extracting fields and populating them from user-provided data or prior fills.
+  why_it_matters: It saves developers and teams time on repetitive bureaucratic workflows by automating form completion across industries like legal, healthcare, and finance.
+  mental_damage: Finally, an AI that doesn’t write code but still makes you feel guilty for not automating your PDF-related existential dread sooner.
+  tags:
+    - form-filling
+    - ai-tool
+    - document-automation
+    - mcp-integration
+    - workflow
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
@@ -53,14 +54,14 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Middleware & Generic
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:43.459Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:d77dff8206117b09e996f141902c78747771f516d56490c47aad1c51063483d1
+      proposed_primary_category: app-builders
+      disagreement: true
+      decision_reason: Instafill.ai turns prompts and data sources into completed, deployable document artifacts without requiring edits to an existing codebase, fitting the app-builder pattern of prompt-to-output automation for internal business tools.
+      decision_evidence:
+        - "Scraped site: 'Instafill is an online form filler that completes PDF forms automatically. Upload any PDF or Word document and the AI PDF form filler fills every field for you.'"
+        - "Source-list context: Listed in 'awesome-ai-coding-tools' under 'MCP Servers and Directories' as a tool that fills PDFs via Claude and ChatGPT MCP integrations."
+        - "README: Supports 'Fill from Previous Version', 'Autofill from Multiple Sources', and 'Visual PDF Editor' to turn inputs into finished forms without manual coding."
+      category_candidates:
+        - app-builders
+        - mcp
+      contrastive_reason: Choose app-builders over mcp because Instafill’s core identity is automating form completion from prompts and data, not providing MCP infrastructure — MCP is merely a compatibility feature for connecting to AI assistants.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'app-builders'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

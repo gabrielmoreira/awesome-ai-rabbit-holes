@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jaste__app__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jaste
         extracted_url: https://jaste.app
-        surrounding_text: >-
-          - [Jaste](https://jaste.app/) - `Source unverified` · `Pricing unverified` · `BYOK`. Mac clipboard beta with a
-          Direct Jev mode for selecting a saved text value that fits the focused field; BYOK applies to that optional
-          mode. [Project guide](community/projects/apps/jaste.md).
+        surrounding_text: "- [Jaste](https://jaste.app/) - `Source unverified` · `Pricing unverified` · `BYOK`. Mac clipboard beta with a Direct Jev mode for selecting a saved text value that fits the focused field; BYOK applies to that optional mode. [Project guide](community/projects/apps/jaste.md)."
         confidence: high
 metadata:
   github:
@@ -40,16 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jaste is a smart copy/paste tool for macOS that provides clipboard history with local-first processing and no server storage of user data.
+  why_it_matters: It improves developer workflow by enhancing clipboard utility without compromising privacy or requiring cloud dependencies.
+  mental_damage: Another clipboard manager promising AI smarts while developers just want to stop losing that one regex they copied three hours ago.
+  tags:
+    - clipboard
+    - productivity
+    - local-first
+    - macos
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: Jaste is a local clipboard enhancement tool with no AI agent, coding assistance, or developer-tool-specific functionality; its core utility is general productivity, not software development workflows.
   evidence:
-    - jev winnow:e4b 0.49 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Scraped site context describes Jaste as 'smart copy/paste' with clipboard history and local processing
+    - No repo description, README excerpt, or source-list context indicates any connection to coding, agents, or developer tooling
+    - Primary page excerpt emphasizes macOS compatibility and local data handling, not code-related features
 placement:
   primary_category: null
   section: null
@@ -59,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:46.736Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f1bd321d664db968a3ab7760530e9c331e36c304f928e30e329a5571e2430629
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Jaste is a local clipboard enhancement tool with no AI agent, coding assistance, or developer-tool-specific functionality; its core utility is general productivity, not software development workflows.
+      decision_evidence:
+        - Scraped site context describes Jaste as 'smart copy/paste' with clipboard history and local processing
+        - No repo description, README excerpt, or source-list context indicates any connection to coding, agents, or developer tooling
+        - Primary page excerpt emphasizes macOS compatibility and local data handling, not code-related features
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

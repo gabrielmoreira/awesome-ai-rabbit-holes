@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__trader__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Applications
         anchor_text: site
         extracted_url: https://jev-trader.vercel.app
-        surrounding_text: >-
-          - [jev-trader](https://github.com/jarrodwatts/jev-trader) ([site](https://jev-trader.vercel.app/),
-          [post](https://x.com/jarrodwatts/status/2100356151468585346)) - One AI trade decision every Monad block. Jev
-          on Kuru MON-USDC.
+        surrounding_text: "- [jev-trader](https://github.com/jarrodwatts/jev-trader) ([site](https://jev-trader.vercel.app/), [post](https://x.com/jarrodwatts/status/2100356151468585346)) - One AI trade decision every Monad block. Jev on Kuru MON-USDC."
         confidence: high
 metadata:
   github:
@@ -39,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-trader (site, post) - One AI trade decision every Monad block. Jev on Kuru MON-USDC.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Trader is a web-based tool that provides one AI-driven trade decision per Monad blockchain block using the Jev decision model.
+  why_it_matters: It demonstrates how decision models can be applied to automated, high-frequency trading workflows on-chain.
+  mental_damage: Another trading bot that reduces complex market strategy to a binary choice every block — because trusting AI with your Monad/USDC spread is obviously the move.
+  tags:
+    - trading
+    - decision-model
+    - blockchain
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The tool's core identity is the Jev decision model generating typed trade decisions (buy/sell) per block, fitting the decision-models category even though it outputs actions via a trading interface.
   evidence:
-    - jev-latest choice confidence 0.76
+    - Scraped site shows 'One AI trade decision every Monad block' and displays real-time bid/ask decisions based on Jev model output
+    - Source-list context identifies it as an application in the awesome-jev directory, which curates projects built on the Jev decision model
+    - No evidence of autonomous coding, code editing, or repo interaction — the product's purpose is trading decisions, not software development
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:54.912Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aa30519d701fa596d2641c75fe4ec45d70d4eb53e488834c021e4ae0f719f4d2
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is the Jev decision model generating typed trade decisions (buy/sell) per block, fitting the decision-models category even though it outputs actions via a trading interface.
+      decision_evidence:
+        - Scraped site shows 'One AI trade decision every Monad block' and displays real-time bid/ask decisions based on Jev model output
+        - Source-list context identifies it as an application in the awesome-jev directory, which curates projects built on the Jev decision model
+        - No evidence of autonomous coding, code editing, or repo interaction — the product's purpose is trading decisions, not software development
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product's identity is the Jev model's judgment output, not generating deployable apps or sites from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

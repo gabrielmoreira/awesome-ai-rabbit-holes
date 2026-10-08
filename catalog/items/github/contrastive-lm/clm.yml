@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__contrastive-lm__clm__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Jev-like models (72)
         anchor_text: CLM
         extracted_url: https://github.com/contrastive-lm/clm
-        surrounding_text: >-
-          | [CLM](https://github.com/Contrastive-LM/CLM) | ★ 103 | Python | 2026-09-24 | Contrastive language model for
-          one-pass typed decisions and option probabilities. |
+        surrounding_text: "| [CLM](https://github.com/Contrastive-LM/CLM) | ★ 103 | Python | 2026-09-24 | Contrastive language model for one-pass typed decisions and option probabilities. |"
         confidence: high
     - id: discovery__github__contrastive-lm__clm__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,12 +36,7 @@ provenance:
           - Calibration & Research
         anchor_text: CLM
         extracted_url: https://github.com/contrastive-lm/clm
-        surrounding_text: >-
-          - [CLM](https://github.com/Contrastive-LM/CLM)
-          ![stars](https://img.shields.io/github/stars/Contrastive-LM/CLM?style=flat-square&label=%E2%98%85) - Open
-          alternative: an 8B System One model that answers the same `Choice` and `Noul` questions behind a
-          TypeSafe-compatible API, matching Jev across computer-use, gaming and tool-calling with up to 9x lower latency
-          and reporting 87.6% on Terminal-Bench 2.1 as a fine-tuned verifier.
+        surrounding_text: "- [CLM](https://github.com/Contrastive-LM/CLM) ![stars](https://img.shields.io/github/stars/Contrastive-LM/CLM?style=flat-square&label=%E2%98%85) - Open alternative: an 8B System One model that answers the same `Choice` and `Noul` questions behind a TypeSafe-compatible API, matching Jev across computer-use, gaming and tool-calling with up to 9x lower latency and reporting 87.6% on Terminal-Bench 2.1 as a fine-tuned verifier."
         confidence: high
 metadata:
   github:
@@ -53,14 +46,14 @@ metadata:
     archived: false
     full_name: Contrastive-LM/CLM
     html_url: https://github.com/Contrastive-LM/CLM
-    created_at: '2026-09-23T19:29:56Z'
-    pushed_at: '2026-09-24T23:10:28Z'
+    created_at: "2026-09-23T19:29:56Z"
+    pushed_at: "2026-09-24T23:10:28Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:09.941Z'
+    last_checked_at: "2026-09-29T13:10:09.941Z"
     readme:
-      fetched_at: '2026-09-29T13:10:09.941Z'
+      fetched_at: "2026-09-29T13:10:09.941Z"
       bytes: 21687
 insights:
   summary: Contrastive language model for one-pass typed decisions and option probabilities.
@@ -83,15 +76,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.412Z'
+    updated_at: "2026-09-29T13:07:10.412Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:09.941Z'
+    updated_at: "2026-09-29T13:10:09.941Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

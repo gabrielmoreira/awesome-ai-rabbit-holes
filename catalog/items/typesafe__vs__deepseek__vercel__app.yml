@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__typesafe__vs__deepseek__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://typesafe-vs-deepseek.vercel.app
-        surrounding_text: >-
-          - [typesafe-vs-deepseek](https://github.com/markfive-proto/typesafe-vs-deepseek)
-          ([site](https://typesafe-vs-deepseek.vercel.app)) - TypeSafe (Jev) vs DeepSeek-flash: side-by-side
-          speed/token/cost/accuracy comparison across invoice extraction, email classification, and reranking.
+        surrounding_text: "- [typesafe-vs-deepseek](https://github.com/markfive-proto/typesafe-vs-deepseek) ([site](https://typesafe-vs-deepseek.vercel.app)) - TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison across invoice extraction, email classification, and reranking."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    typesafe-vs-deepseek (site) - TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison
-    across invoice extraction, email classification, and reranking.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe vs DeepSeek vs OpenAI is a live comparison tool that runs identical tasks across three AI engines to measure speed, cost, accuracy, and hallucination rate.
+  why_it_matters: It lets developers empirically compare model behaviors on real-world synthetic workloads like invoice processing, email triage, and threat detection.
+  mental_damage: Another benchmark that makes you question whether you're optimizing for speed, cost, or just the illusion of control over hallucination rates.
+  tags:
+    - benchmark
+    - model-comparison
+    - evals
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  reason: The tool's core function is measuring, scoring, and comparing model behavior across multiple dimensions using structured synthetic datasets, which aligns with the evals category's focus on benchmarking AI systems.
   evidence:
-    - jev-latest choice confidence 0.56
+    - Runs side-by-side comparisons of TypeSafe, DeepSeek, and OpenAI on tasks like invoice processing, email classification, and threat detection
+    - Measures speed, tokens, cost, accuracy, and hallucination rate against known ground truth
+    - Results stream live as users select inputs and trigger comparisons across engines
 placement:
   primary_category: evals
   secondary_categories: []
@@ -61,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:46.349Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:239985d419f14d186e733e5e11aedaa8783eb5c8915fe3bcd23f2704d9fa9516
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core function is measuring, scoring, and comparing model behavior across multiple dimensions using structured synthetic datasets, which aligns with the evals category's focus on benchmarking AI systems.
+      decision_evidence:
+        - Runs side-by-side comparisons of TypeSafe, DeepSeek, and OpenAI on tasks like invoice processing, email classification, and threat detection
+        - Measures speed, tokens, cost, accuracy, and hallucination rate against known ground truth
+        - Results stream live as users select inputs and trigger comparisons across engines
+      category_candidates:
+        - evals
+        - decision-models
+      contrastive_reason: Choose evals over decision-models because the product's identity is benchmarking and comparing model outputs, not providing or serving a decision model like Jev itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

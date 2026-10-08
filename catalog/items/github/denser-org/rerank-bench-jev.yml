@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__denser-org__rerank-bench-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: rerank-bench-jev
         extracted_url: https://github.com/denser-org/rerank-bench-jev
-        surrounding_text: >-
-          - [rerank-bench-jev](https://github.com/denser-org/rerank-bench-jev) ([site](https://denser.ai)) - Production
-          reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and
-          p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at
-          denser.ai.
+        surrounding_text: "- [rerank-bench-jev](https://github.com/denser-org/rerank-bench-jev) ([site](https://denser.ai)) - Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at denser.ai."
         confidence: high
 metadata:
   github:
@@ -33,23 +29,17 @@ metadata:
     archived: false
     full_name: denser-org/rerank-bench-jev
     html_url: https://github.com/denser-org/rerank-bench-jev
-    created_at: '2026-09-22T06:24:21Z'
-    pushed_at: '2026-09-22T06:24:26Z'
-    description: >-
-      Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10,
-      cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team
-      at denser.ai
+    created_at: "2026-09-22T06:24:21Z"
+    pushed_at: "2026-09-22T06:24:26Z"
+    description: "Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at denser.ai"
     homepage: https://denser.ai
     topics: []
-    last_checked_at: '2026-09-29T13:10:36.182Z'
+    last_checked_at: "2026-09-29T13:10:36.182Z"
     readme:
-      fetched_at: '2026-09-29T13:10:36.182Z'
+      fetched_at: "2026-09-29T13:10:36.182Z"
       bytes: 10799
 insights:
-  summary: >-
-    Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10,
-    cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at
-    denser.ai
+  summary: "Production reranker benchmark: TypeSafe Jev vs Qwen3-Reranker-0.6B on BEIR SciFact and NFCorpus — nDCG@10, cost/query and p50/p95 latency. Quality is indistinguishable; Jev is ~2x faster, Qwen ~4x cheaper. From the team at denser.ai"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -69,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:36.182Z'
+    updated_at: "2026-09-29T13:10:36.182Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

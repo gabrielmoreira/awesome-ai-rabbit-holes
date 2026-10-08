@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__collapseindex__jev-builder__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Browser & computer use
         anchor_text: jev-builder
         extracted_url: https://github.com/collapseindex/jev-builder
-        surrounding_text: >-
-          - [jev-builder](https://github.com/collapseindex/jev-builder)
-          ([site](https://collapseindex.github.io/jev-builder/)) - A browser form for building requests to TypeSafe's
-          Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally.
+        surrounding_text: "- [jev-builder](https://github.com/collapseindex/jev-builder) ([site](https://collapseindex.github.io/jev-builder/)) - A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally."
         confidence: high
     - id: discovery__github__collapseindex__jev-builder__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev-builder**'
+        anchor_text: "**jev-builder**"
         extracted_url: https://github.com/collapseindex/jev-builder
-        surrounding_text: >-
-          - [**jev-builder**](https://github.com/collapseindex/jev-builder) — A browser form for building requests to
-          TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally.
+        surrounding_text: "- [**jev-builder**](https://github.com/collapseindex/jev-builder) — A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally."
         confidence: high
 metadata:
   github:
@@ -49,11 +44,9 @@ metadata:
     archived: false
     full_name: collapseindex/jev-builder
     html_url: https://github.com/collapseindex/jev-builder
-    created_at: '2026-09-19T23:17:48Z'
-    pushed_at: '2026-09-20T04:33:51Z'
-    description: >-
-      A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No
-      JSON, no install, runs locally.
+    created_at: "2026-09-19T23:17:48Z"
+    pushed_at: "2026-09-20T04:33:51Z"
+    description: "A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally."
     homepage: https://collapseindex.github.io/jev-builder/
     topics:
       - classification
@@ -62,14 +55,12 @@ metadata:
       - no-build
       - static-site
       - typesafe
-    last_checked_at: '2026-09-29T13:10:04.784Z'
+    last_checked_at: "2026-09-29T13:10:04.784Z"
     readme:
-      fetched_at: '2026-09-29T13:10:04.784Z'
+      fetched_at: "2026-09-29T13:10:04.784Z"
       bytes: 8275
 insights:
-  summary: >-
-    A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No
-    JSON, no install, runs locally.
+  summary: "A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -89,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:04.784Z'
+    updated_at: "2026-09-29T13:10:04.784Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

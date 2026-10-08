@@ -5,9 +5,8 @@ canonical_url: https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-va
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__nearhere__events__blog__typesafe__jev__mistral__gemini__event__validation__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__nearhere__events__blog__typesafe__jev__mistral__gemini__event__validation__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,14 +18,10 @@ provenance:
           - Articles & threads
         anchor_text: Jev vs Mistral and Gemini for event validation
         extracted_url: https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation
-        surrounding_text: >-
-          - [Jev vs Mistral and Gemini for event
-          validation](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) - Head-to-head test at
-          validating local event listings, with cost and latency.
+        surrounding_text: "- [Jev vs Mistral and Gemini for event validation](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) - Head-to-head test at validating local event listings, with cost and latency."
         confidence: high
-    - id: >-
-        discovery__nearhere__events__blog__typesafe__jev__mistral__gemini__event__validation__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__nearhere__events__blog__typesafe__jev__mistral__gemini__event__validation__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,10 +34,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Jev vs Mistral and Gemini for event validation
         extracted_url: https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation
-        surrounding_text: >-
-          - [Jev vs Mistral and Gemini for event
-          validation](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) - Event discovery:
-          head-to-head test of Jev against Mistral Small and Gemini Flash-Lite at validating local event listings.
+        surrounding_text: "- [Jev vs Mistral and Gemini for event validation](https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation) - Event discovery: head-to-head test of Jev against Mistral Small and Gemini Flash-Lite at validating local event listings."
         confidence: high
 metadata:
   github:
@@ -60,17 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A blog post comparing TypeSafe Jev, Mistral Small 4, and Gemini 3.5 Flash-Lite for local event validation using typed decisions and measured accuracy, cost, and latency.
+  why_it_matters: It provides a concrete benchmark for developers evaluating lightweight decision models in high-volume, low-cost filtering pipelines.
+  mental_damage: Another model shootout where the winner is the one you can’t actually download or self-host without signing up for a proprietary API.
+  tags:
+    - benchmark
+    - decision-model
+    - event-validation
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The input is a comparative blog post and evaluation report, not a standalone tool, framework, or developer-facing product; it documents results but does not provide usable software or infrastructure for developers to integrate or run.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.32 below gate 0.50; proposed evals / Agent & LLM Benchmarks; no placement kept (unverified)
+    - The URL points to a blog post on nearhere.events, not a GitHub repository or downloadable tool.
+    - The content describes a prompt-tuning and accuracy comparison between models, with no code, SDK, CLI, or server provided for reuse.
+    - Source-list context shows it appears only as a linked article in awesome-jev under 'Articles & threads' and 'Evaluation & Benchmarking', indicating it is curated as reading material, not a tool.
 placement:
   primary_category: null
   secondary_categories:
@@ -82,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,6 +86,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:00.208Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a10bd1bcc1ab17dbf4c1523dbc6ef78260f5f3e02e682a086bf8bd7889ceaddf
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a comparative blog post and evaluation report, not a standalone tool, framework, or developer-facing product; it documents results but does not provide usable software or infrastructure for developers to integrate or run.
+      decision_evidence:
+        - The URL points to a blog post on nearhere.events, not a GitHub repository or downloadable tool.
+        - The content describes a prompt-tuning and accuracy comparison between models, with no code, SDK, CLI, or server provided for reuse.
+        - Source-list context shows it appears only as a linked article in awesome-jev under 'Articles & threads' and 'Evaluation & Benchmarking', indicating it is curated as reading material, not a tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

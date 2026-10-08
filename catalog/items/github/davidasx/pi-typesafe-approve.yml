@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__davidasx__pi-typesafe-approve__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: pi-typesafe-approve
         extracted_url: https://github.com/davidasx/pi-typesafe-approve
-        surrounding_text: >-
-          - [pi-typesafe-approve](https://github.com/Davidasx/pi-typesafe-approve) - Pi extension that auto-approves
-          routine Bash commands via a System One/Jev decision model and escalates the rest to a human. [Project
-          guide](community/projects/tools/pi-typesafe-approve.md).
+        surrounding_text: "- [pi-typesafe-approve](https://github.com/Davidasx/pi-typesafe-approve) - Pi extension that auto-approves routine Bash commands via a System One/Jev decision model and escalates the rest to a human. [Project guide](community/projects/tools/pi-typesafe-approve.md)."
         confidence: high
 metadata:
   github:
@@ -33,26 +30,22 @@ metadata:
     archived: false
     full_name: Davidasx/pi-typesafe-approve
     html_url: https://github.com/Davidasx/pi-typesafe-approve
-    created_at: '2026-09-25T17:38:51Z'
-    pushed_at: '2026-09-26T04:02:10Z'
-    description: >-
-      Pi extension: auto-approve routine Bash commands with a System One (Jev) decision model, escalate the rest to a
-      human
-    homepage: ''
+    created_at: "2026-09-25T17:38:51Z"
+    pushed_at: "2026-09-26T04:02:10Z"
+    description: "Pi extension: auto-approve routine Bash commands with a System One (Jev) decision model, escalate the rest to a human"
+    homepage: ""
     topics:
       - approval
       - jev
       - pi-extension
       - typesafe-ai
       - typesafe-jev
-    last_checked_at: '2026-09-29T13:10:28.783Z'
+    last_checked_at: "2026-09-29T13:10:28.783Z"
     readme:
-      fetched_at: '2026-09-29T13:10:28.783Z'
+      fetched_at: "2026-09-29T13:10:28.783Z"
       bytes: 24245
 insights:
-  summary: >-
-    Pi extension: auto-approve routine Bash commands with a System One (Jev) decision model, escalate the rest to a
-    human
+  summary: "Pi extension: auto-approve routine Bash commands with a System One (Jev) decision model, escalate the rest to a human"
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -72,15 +65,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:28.783Z'
+    updated_at: "2026-09-29T13:10:28.783Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

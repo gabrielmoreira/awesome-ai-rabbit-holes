@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__saascity__io__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,12 +19,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: SaaSCity
         extracted_url: https://saascity.io
-        surrounding_text: >-
-          -   **[nyyhao/saascity-mcp](https://github.com/nyyhao/saascity-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/nyyhao/saascity-mcp?style=social)](https://github.com/nyyhao/saascity-mcp):
-          Product launch toolkit: audits a homepage before launch, recommends startup and SaaS directories by Ahrefs DR,
-          dofollow and price, and submits to [SaaSCity](https://saascity.io). Remote `https://saascity.io/api/mcp`, no
-          API key.
+        surrounding_text: "-   **[nyyhao/saascity-mcp](https://github.com/nyyhao/saascity-mcp)** [![GitHub stars](https://img.shields.io/github/stars/nyyhao/saascity-mcp?style=social)](https://github.com/nyyhao/saascity-mcp): Product launch toolkit: audits a homepage before launch, recommends startup and SaaS directories by Ahrefs DR, dofollow and price, and submits to [SaaSCity](https://saascity.io). Remote `https://saascity.io/api/mcp`, no API key."
         confidence: high
 metadata:
   github:
@@ -42,30 +37,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SaaSCity.io is a directory and launch platform for SaaS and AI tools, presented as an interactive city map where each product appears as a building with a dedicated indexable page and dofollow backlink.
+  why_it_matters: It helps developers and founders discover new AI and SaaS tools while providing SEO value through permanent, dofollow backlinks on a domain with measurable authority.
+  mental_damage: Another directory where your tool’s visibility depends on upvotes and badges, adding yet another launch ritual to the already exhausting chore of shipping something no one asked for.
+  tags:
+    - directory
+    - saas
+    - ai-tools
+    - backlinks
+    - launch-platform
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: SaaSCity.io is a general-purpose directory and marketing platform for SaaS and AI products, lacking a specific focus on developer tooling, AI engineering workflows, or code-centric utilities required for inclusion in this catalog.
   evidence:
-    - >-
-      jev winnow:e4b 0.16 below gate 0.50; proposed decision-models / Cloud Gateways & Providers; no placement kept
-      (unverified)
+    - The platform describes itself as a 'SaaS directory & launch platform' where users 'browse new SaaS and AI tools, vote on the best, and put your product on the live city map'.
+    - Source-list context shows it appears in 'awesome-mcp-list' under a 'Marketing' section, indicating its primary positioning is as a promotional tool, not a developer-facing utility.
+    - The scraped site emphasizes SEO backlinks, domain rating, traffic metrics, and sponsored placements — core to its value proposition — rather than any developer workflow, code integration, or AI-assisted development feature.
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +73,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:12.227Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:109dddfbe3823dfdc3a27808cc76e5581e50e22a2417ef30a2ee84d3e275f43a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: SaaSCity.io is a general-purpose directory and marketing platform for SaaS and AI products, lacking a specific focus on developer tooling, AI engineering workflows, or code-centric utilities required for inclusion in this catalog.
+      decision_evidence:
+        - The platform describes itself as a 'SaaS directory & launch platform' where users 'browse new SaaS and AI tools, vote on the best, and put your product on the live city map'.
+        - Source-list context shows it appears in 'awesome-mcp-list' under a 'Marketing' section, indicating its primary positioning is as a promotional tool, not a developer-facing utility.
+        - The scraped site emphasizes SEO backlinks, domain rating, traffic metrics, and sponsored placements — core to its value proposition — rather than any developer workflow, code integration, or AI-assisted development feature.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

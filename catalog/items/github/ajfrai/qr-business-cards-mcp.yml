@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ajfrai__qr-business-cards-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 🎯 Marketing
         anchor_text: ajfrai/qr-business-cards-mcp
         extracted_url: https://github.com/ajfrai/qr-business-cards-mcp
-        surrounding_text: >-
-          -   **[ajfrai/qr-business-cards-mcp](https://github.com/ajfrai/qr-business-cards-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/ajfrai/qr-business-cards-mcp?style=social)](https://github.com/ajfrai/qr-business-cards-mcp):
-          Creates professional QR business card profiles with digital contact sharing. Remote MCP server with Streamable
-          HTTP transport at `https://qr-business-cards.com/api/mcp`.
+        surrounding_text: "-   **[ajfrai/qr-business-cards-mcp](https://github.com/ajfrai/qr-business-cards-mcp)** [![GitHub stars](https://img.shields.io/github/stars/ajfrai/qr-business-cards-mcp?style=social)](https://github.com/ajfrai/qr-business-cards-mcp): Creates professional QR business card profiles with digital contact sharing. Remote MCP server with Streamable HTTP transport at `https://qr-business-cards.com/api/mcp`."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: ajfrai/qr-business-cards-mcp
     html_url: https://github.com/ajfrai/qr-business-cards-mcp
-    created_at: '2026-04-08T10:03:11Z'
-    pushed_at: '2026-04-13T04:05:45Z'
+    created_at: "2026-04-08T10:03:11Z"
+    pushed_at: "2026-04-13T04:05:45Z"
     description: MCP server for creating QR business cards via AI assistants. No API key required.
     homepage: https://qr-business-cards.com/developers
     topics:
@@ -45,9 +41,9 @@ metadata:
       - mcp-server
       - model-context-protocol
       - qr-code
-    last_checked_at: '2026-09-29T13:08:43.318Z'
+    last_checked_at: "2026-09-29T13:08:43.318Z"
     readme:
-      fetched_at: '2026-09-29T13:08:43.318Z'
+      fetched_at: "2026-09-29T13:08:43.318Z"
       bytes: 3340
 insights:
   summary: MCP server for creating QR business cards via AI assistants. No API key required.
@@ -70,15 +66,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:43.318Z'
+    updated_at: "2026-09-29T13:08:43.318Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

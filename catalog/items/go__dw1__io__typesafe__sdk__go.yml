@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__go__dw1__io__typesafe__sdk__go__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - SDKs & clients
         anchor_text: site
         extracted_url: https://go.dw1.io/typesafe-sdk-go
-        surrounding_text: >-
-          - [typesafe-sdk-go (dwisiswant0)](https://github.com/dwisiswant0/typesafe-sdk-go)
-          ([site](https://go.dw1.io/typesafe-sdk-go?godoc=1)) - Go SDK for TypeSafe AI.
+        surrounding_text: "- [typesafe-sdk-go (dwisiswant0)](https://github.com/dwisiswant0/typesafe-sdk-go) ([site](https://go.dw1.io/typesafe-sdk-go?godoc=1)) - Go SDK for TypeSafe AI."
         confidence: high
 metadata:
   github:
@@ -38,31 +36,35 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Go SDK for the Jev decision model system from TypeSafe AI.
+  why_it_matters: Provides developers with a typed interface to invoke Jev's probabilistic judgments for routing, scoring, and verification in agent workflows.
+  mental_damage: Finally, a way to outsource your guilt about trusting black-box AI to a model that returns confidence scores instead of excuses.
+  tags:
+    - go
+    - sdk
+    - decision-model
+    - jev
+    - typesafe
+  confidence: medium
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The SDK's core purpose is to call the Jev decision model with typed questions, making it a client SDK for a decision model rather than a coding agent or general-purpose framework.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed ai-frameworks / Provider & Model Abstractions; no placement kept
-      (unverified)
+    - Listed in awesome-jev under SDKs & clients for projects built on Jev, TypeSafe AI's System One model
+    - URL redirects to a repository suggesting it is a Go client for the Jev decision model system
+    - Jev is defined as a decision model that returns Choice, Score, or Noul/Boolean answers with probabilities instead of generated text
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - ai-frameworks
-  section: null
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:36.095Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0af4944297b8a78d7bfd51b1fb9113959e5e42ec9aa3bfef1b34e71b18b53973
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The SDK's core purpose is to call the Jev decision model with typed questions, making it a client SDK for a decision model rather than a coding agent or general-purpose framework.
+      decision_evidence:
+        - Listed in awesome-jev under SDKs & clients for projects built on Jev, TypeSafe AI's System One model
+        - URL redirects to a repository suggesting it is a Go client for the Jev decision model system
+        - Jev is defined as a decision model that returns Choice, Score, or Noul/Boolean answers with probabilities instead of generated text
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's identity is calling a decision model with typed questions, not providing a general-purpose library for building AI applications.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

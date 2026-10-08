@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danishashko__edgar-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: danishashko/edgar-mcp
         extracted_url: https://github.com/danishashko/edgar-mcp
-        surrounding_text: >-
-          -   **[danishashko/edgar-mcp](https://github.com/danishashko/edgar-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/danishashko/edgar-mcp?style=social)](https://github.com/danishashko/edgar-mcp):
-          SEC EDGAR filings & XBRL financials: company search, 10-K/10-Q/8-K, financial facts, full-text search. 6
-          tools, no API key. `npx edgar-mcp`.
+        surrounding_text: "-   **[danishashko/edgar-mcp](https://github.com/danishashko/edgar-mcp)** [![GitHub stars](https://img.shields.io/github/stars/danishashko/edgar-mcp?style=social)](https://github.com/danishashko/edgar-mcp): SEC EDGAR filings & XBRL financials: company search, 10-K/10-Q/8-K, financial facts, full-text search. 6 tools, no API key. `npx edgar-mcp`."
         confidence: high
 metadata:
   github:
@@ -34,21 +30,17 @@ metadata:
     archived: false
     full_name: danishashko/edgar-mcp
     html_url: https://github.com/danishashko/edgar-mcp
-    created_at: '2026-06-02T16:02:46Z'
-    pushed_at: '2026-08-06T15:46:13Z'
-    description: >-
-      SEC EDGAR MCP Server - U.S. company filings (10-K, 10-Q, 8-K), XBRL financials & full-text search for Claude and
-      any MCP client. No API key, zero-config npx.
+    created_at: "2026-06-02T16:02:46Z"
+    pushed_at: "2026-08-06T15:46:13Z"
+    description: SEC EDGAR MCP Server - U.S. company filings (10-K, 10-Q, 8-K), XBRL financials & full-text search for Claude and any MCP client. No API key, zero-config npx.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:22.281Z'
+    last_checked_at: "2026-09-29T13:10:22.281Z"
     readme:
-      fetched_at: '2026-09-29T13:10:22.281Z'
+      fetched_at: "2026-09-29T13:10:22.281Z"
       bytes: 7481
 insights:
-  summary: >-
-    SEC EDGAR MCP Server - U.S. company filings (10-K, 10-Q, 8-K), XBRL financials & full-text search for Claude and any
-    MCP client. No API key, zero-config npx.
+  summary: SEC EDGAR MCP Server - U.S. company filings (10-K, 10-Q, 8-K), XBRL financials & full-text search for Claude and any MCP client. No API key, zero-config npx.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:22.281Z'
+    updated_at: "2026-09-29T13:10:22.281Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ginkida__gokin__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Coding Agents
         anchor_text: Gokin
         extracted_url: https://github.com/ginkida/gokin
-        surrounding_text: >-
-          - **[Gokin](https://github.com/ginkida/gokin)** – Open-source terminal AI coding agent that works with local
-          models via Ollama or providers like DeepSeek and Kimi, with no telemetry and secret redaction.
+        surrounding_text: "- **[Gokin](https://github.com/ginkida/gokin)** – Open-source terminal AI coding agent that works with local models via Ollama or providers like DeepSeek and Kimi, with no telemetry and secret redaction."
         confidence: high
 metadata:
   github:
@@ -31,12 +29,9 @@ metadata:
     archived: false
     full_name: ginkida/gokin
     html_url: https://github.com/ginkida/gokin
-    created_at: '2026-01-31T10:54:57Z'
-    pushed_at: '2026-09-08T12:03:44Z'
-    description: >-
-      A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps
-      with file operations, code search, shell commands, git workflows, task management, and more - all through natural
-      language.           
+    created_at: "2026-01-31T10:54:57Z"
+    pushed_at: "2026-09-08T12:03:44Z"
+    description: "A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps with file operations, code search, shell commands, git workflows, task management, and more - all through natural language.           "
     homepage: https://gokin.ginkida.dev
     topics:
       - ai
@@ -53,15 +48,12 @@ metadata:
       - minimax
       - ollama
       - tui
-    last_checked_at: '2026-09-29T13:11:41.458Z'
+    last_checked_at: "2026-09-29T13:11:41.458Z"
     readme:
-      fetched_at: '2026-09-29T13:11:41.458Z'
+      fetched_at: "2026-09-29T13:11:41.458Z"
       bytes: 49114
 insights:
-  summary: >-
-    A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps
-    with file operations, code search, shell commands, git workflows, task management, and more - all through natural
-    language.
+  summary: A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps with file operations, code search, shell commands, git workflows, task management, and more - all through natural language.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,15 +73,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:41.458Z'
+    updated_at: "2026-09-29T13:11:41.458Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

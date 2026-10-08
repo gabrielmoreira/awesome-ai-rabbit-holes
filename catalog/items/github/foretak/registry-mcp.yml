@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__foretak__registry-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: foretak/registry-mcp
         extracted_url: https://github.com/foretak/registry-mcp
-        surrounding_text: >-
-          -   **[foretak/registry-mcp](https://github.com/foretak/registry-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/foretak/registry-mcp?style=social)](https://github.com/foretak/registry-mcp):
-          Looks up a company at Norway's Brønnøysundregistrene, the UK's Companies House, or Sweden's Bolagsverket by
-          its national identifier — identity, filings and accounts data; no UBO or fraud screening.
+        surrounding_text: "-   **[foretak/registry-mcp](https://github.com/foretak/registry-mcp)** [![GitHub stars](https://img.shields.io/github/stars/foretak/registry-mcp?style=social)](https://github.com/foretak/registry-mcp): Looks up a company at Norway's Brønnøysundregistrene, the UK's Companies House, or Sweden's Bolagsverket by its national identifier — identity, filings and accounts data; no UBO or fraud screening."
         confidence: high
 metadata:
   github:
@@ -34,12 +30,9 @@ metadata:
     archived: false
     full_name: foretak/registry-mcp
     html_url: https://github.com/foretak/registry-mcp
-    created_at: '2026-09-04T10:46:48Z'
-    pushed_at: '2026-09-10T13:43:58Z'
-    description: >-
-      Company data for AI agents, any country. MCP server and REST API over national business registries: Norway (brreg
-      / Enhetsregisteret), the United Kingdom (Companies House) and Sweden (Bolagsverket) — orgnr, company number or
-      organisationsnummer lookup, VAT/deadline checks.
+    created_at: "2026-09-04T10:46:48Z"
+    pushed_at: "2026-09-10T13:43:58Z"
+    description: "Company data for AI agents, any country. MCP server and REST API over national business registries: Norway (brreg / Enhetsregisteret), the United Kingdom (Companies House) and Sweden (Bolagsverket) — orgnr, company number or organisationsnummer lookup, VAT/deadline checks."
     homepage: https://api.foretak.dev
     topics:
       - ai-agents
@@ -62,15 +55,12 @@ metadata:
       - sweden
       - united-kingdom
       - vat
-    last_checked_at: '2026-09-29T13:11:22.533Z'
+    last_checked_at: "2026-09-29T13:11:22.533Z"
     readme:
-      fetched_at: '2026-09-29T13:11:22.533Z'
+      fetched_at: "2026-09-29T13:11:22.533Z"
       bytes: 27805
 insights:
-  summary: >-
-    Company data for AI agents, any country. MCP server and REST API over national business registries: Norway (brreg /
-    Enhetsregisteret), the United Kingdom (Companies House) and Sweden (Bolagsverket) — orgnr, company number or
-    organisationsnummer lookup, VAT/deadline checks.
+  summary: "Company data for AI agents, any country. MCP server and REST API over national business registries: Norway (brreg / Enhetsregisteret), the United Kingdom (Companies House) and Sweden (Bolagsverket) — orgnr, company number or organisationsnummer lookup, VAT/deadline checks."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -90,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:22.533Z'
+    updated_at: "2026-09-29T13:11:22.533Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

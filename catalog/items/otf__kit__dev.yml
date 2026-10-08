@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__otf__kit__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - App Builders
         anchor_text: OTF — Open Template Forest
         extracted_url: https://otf-kit.dev
-        surrounding_text: >-
-          - **[OTF — Open Template Forest](https://otf-kit.dev)** – Production-ready full-stack kits (Next.js, Expo)
-          pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK
-          + commercial kits.
+        surrounding_text: "- **[OTF — Open Template Forest](https://otf-kit.dev)** – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    OTF — Open Template Forest – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and
-    Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: OTF Kit provides full-stack app templates for web and mobile with authentication, payments, and data already wired in.
+  why_it_matters: It lets developers ship production apps faster by starting from a complete, owned codebase instead of scaffolding from scratch.
+  mental_damage: Another template shop promising 'just plug in your AI agent' while you still have to wire up the real business logic.
+  tags:
+    - app-builder
+    - full-stack
+    - templates
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Scaffolding & Boilerplate
+  reason: OTF Kit delivers deployable full-stack applications from templates, matching the App Builders category’s core prompt-to-app workflow rather than acting as a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.74
+    - "Scraped site: 'Real, full-stack app templates for web and mobile — login, payments, and data already wired in. Own the code, and build with the AI tools you already use.'"
+    - "Source-list context: Listed in awesome-ai-coding-tools under App Builders section."
+    - "README excerpt: 'Everything between prompt and production... Start from a complete product instead of asking an agent to rediscover your architecture.'"
 placement:
   primary_category: app-builders
   secondary_categories: []
-  section: Scaffolding & Boilerplate
+  section: Full App Builders
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:44.499Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:96ba81daad4c03c352cd01de9bbc684f585135076e635d28e9ff8b44a4be4e17
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: OTF Kit delivers deployable full-stack applications from templates, matching the App Builders category’s core prompt-to-app workflow rather than acting as a coding agent or extension.
+      decision_evidence:
+        - "Scraped site: 'Real, full-stack app templates for web and mobile — login, payments, and data already wired in. Own the code, and build with the AI tools you already use.'"
+        - "Source-list context: Listed in awesome-ai-coding-tools under App Builders section."
+        - "README excerpt: 'Everything between prompt and production... Start from a complete product instead of asking an agent to rediscover your architecture.'"
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because OTF Kit’s main surface turns prompts into deployable apps via templates, not editing an existing codebase as a primary coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

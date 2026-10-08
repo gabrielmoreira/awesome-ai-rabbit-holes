@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__kitchen__vercel__app__recipe__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Kitchen
         extracted_url: https://jev-kitchen.vercel.app
-        surrounding_text: >-
-          - [Jev Kitchen](https://jev-kitchen.vercel.app) - `Closed source` · `Free`. Web demo: TypeSafe Jev judges
-          which sticker ingredients belong to a named dish or cocktail (issue #399). [Try
-          app](https://jev-kitchen.vercel.app/recipe) · [Project guide](community/projects/apps/jev-kitchen.md).
+        surrounding_text: "- [Jev Kitchen](https://jev-kitchen.vercel.app) - `Closed source` · `Free`. Web demo: TypeSafe Jev judges which sticker ingredients belong to a named dish or cocktail (issue #399). [Try app](https://jev-kitchen.vercel.app/recipe) · [Project guide](community/projects/apps/jev-kitchen.md)."
         confidence: high
 metadata:
   github:
@@ -40,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Kitchen - Closed source · Free. Web demo: TypeSafe Jev judges which sticker ingredients belong to a named dish
-    or cocktail (issue #399). Try app · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Recipe is a web demo where users name a dish and see Jev, a TypeSafe decision model, judge it by generating ingredient lists from hundreds of stickers.
+  why_it_matters: It demonstrates how decision models like Jev can power interactive, judgment-based applications beyond chat.
+  mental_damage: Another toy that proves your prompt engineering skills are irrelevant when the model just picks stickers.
+  tags:
+    - demo
+    - decision-model
+    - jev
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: Recipe is a frontend demo showcasing Jev's judgment capability, not a developer tool or product that changes workflows.
   evidence:
-    - jev-latest choice confidence 0.83
+    - "Scraped site title: 'Ask Jev a recipe'"
+    - "Description: 'Name a dish and watch its ingredients rise from a pile of hundreds of stickers. Judged by Jev, a small AI model from TypeSafe.'"
+    - "Source-list context: listed under 'Community projects > Apps powered by Jev' in awesome-jev"
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:22.734Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1be5f7735790eebc4c0c64d082adc00d7af5b7e7cfa784dfa922722e83916ecd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Recipe is a frontend demo showcasing Jev's judgment capability, not a developer tool or product that changes workflows.
+      decision_evidence:
+        - "Scraped site title: 'Ask Jev a recipe'"
+        - "Description: 'Name a dish and watch its ingredients rise from a pile of hundreds of stickers. Judged by Jev, a small AI model from TypeSafe.'"
+        - "Source-list context: listed under 'Community projects > Apps powered by Jev' in awesome-jev"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__brickfrog__moongate__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,10 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Moongate
         extracted_url: https://github.com/brickfrog/moongate
-        surrounding_text: >-
-          - [Moongate](https://github.com/brickfrog/moongate) - GitHub Action that evaluates committed diffs against
-          JSON semantic rules with TypeSafe Jev and reports annotations from your thresholds. [Project
-          guide](community/projects/tools/moongate.md).
+        surrounding_text: "- [Moongate](https://github.com/brickfrog/moongate) - GitHub Action that evaluates committed diffs against JSON semantic rules with TypeSafe Jev and reports annotations from your thresholds. [Project guide](community/projects/tools/moongate.md)."
         confidence: high
 metadata:
   github:
@@ -33,16 +30,16 @@ metadata:
     archived: false
     full_name: brickfrog/moongate
     html_url: https://github.com/brickfrog/moongate
-    created_at: '2026-09-19T22:45:06Z'
-    pushed_at: '2026-09-20T15:40:29Z'
+    created_at: "2026-09-19T22:45:06Z"
+    pushed_at: "2026-09-20T15:40:29Z"
     description: moonbit CI gate with jev
-    homepage: ''
+    homepage: ""
     topics:
       - jev
       - moonbit
-    last_checked_at: '2026-09-29T13:09:36.247Z'
+    last_checked_at: "2026-09-29T13:09:36.247Z"
     readme:
-      fetched_at: '2026-09-29T13:09:36.247Z'
+      fetched_at: "2026-09-29T13:09:36.247Z"
       bytes: 10035
 insights:
   summary: null
@@ -55,9 +52,7 @@ curation:
   reason: Jev reclassifier flagged as out-of-scope — needs human review
   evidence:
     - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed coding-agents / Review, Testing & Repair; no placement kept (unverified)
 placement:
   primary_category: null
   secondary_categories:
@@ -69,15 +64,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:36.247Z'
+    updated_at: "2026-09-29T13:09:36.247Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

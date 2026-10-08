@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ctaxnagomi__instruct-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: instruct-jev
         extracted_url: https://github.com/ctaxnagomi/instruct-jev
-        surrounding_text: >-
-          - [instruct-jev](https://github.com/ctaxnagomi/instruct-jev)
-          ([site](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)) - INSTRUCT_JEV - TypeSafe AI Jev / System
-          One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace.
+        surrounding_text: "- [instruct-jev](https://github.com/ctaxnagomi/instruct-jev) ([site](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)) - INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace."
         confidence: high
 metadata:
   github:
@@ -32,11 +29,9 @@ metadata:
     archived: false
     full_name: ctaxnagomi/instruct-jev
     html_url: https://github.com/ctaxnagomi/instruct-jev
-    created_at: '2026-09-19T06:16:14Z'
-    pushed_at: '2026-09-25T17:44:03Z'
-    description: >-
-      INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119
-      rows. Mirrored on HuggingFace.
+    created_at: "2026-09-19T06:16:14Z"
+    pushed_at: "2026-09-25T17:44:03Z"
+    description: INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace.
     homepage: https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV
     topics:
       - choice
@@ -50,14 +45,12 @@ metadata:
       - score
       - system-one
       - typesafe
-    last_checked_at: '2026-09-29T13:10:16.139Z'
+    last_checked_at: "2026-09-29T13:10:16.139Z"
     readme:
-      fetched_at: '2026-09-29T13:10:16.139Z'
+      fetched_at: "2026-09-29T13:10:16.139Z"
       bytes: 3709
 insights:
-  summary: >-
-    INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows.
-    Mirrored on HuggingFace.
+  summary: INSTRUCT_JEV - TypeSafe AI Jev / System One instruction corpus (choice/noul/score), compiled by DeckerGUI. 119 rows. Mirrored on HuggingFace.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -77,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:16.139Z'
+    updated_at: "2026-09-29T13:10:16.139Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

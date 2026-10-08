@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__ui__generator__instinct__jev__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://ui-generator-instinct-jev.vercel.app
-        surrounding_text: >-
-          - [Instinct](https://github.com/joevidev/ui-generator-instinct-jev)
-          ([site](https://ui-generator-instinct-jev.vercel.app)) - Instinct: describe a case in free text and Jev picks
-          the UI from a fixed catalog without generating a line of code or copy.
+        surrounding_text: "- [Instinct](https://github.com/joevidev/ui-generator-instinct-jev) ([site](https://ui-generator-instinct-jev.vercel.app)) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Instinct (site) - Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without
-    generating a line of code or copy.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Vercel-hosted demo that maps Jev decision-model outputs to shadcn UI components based on structured input descriptions.
+  why_it_matters: Shows how decision models can drive deterministic UI generation without free-text prompts or coding agents.
+  mental_damage: Another demo proving that if you squint hard enough, any model output can look like a frontend ticket.
+  tags:
+    - demo
+    - jev
+    - shadcn
+    - ui-generation
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in app-builders / Site & Landing Page Builders
+  status: excluded
+  reason: The project is a static demonstration page, not a standalone developer tool, and its core identity is the Jev decision model, which belongs in decision-models, not a product category.
   evidence:
-    - jev-latest choice confidence 0.63
+    - "Scraped site context: 'A structured case in, the right shadcn component out. One Jev call, no free text generation.'"
+    - "Source-list context: Listed in awesome-jev under 'Demos & playgrounds' as a Jev-built project."
+    - No repo, stars, or activity signals indicate it is a maintained product rather than a demo.
 placement:
-  primary_category: app-builders
+  primary_category: null
   secondary_categories: []
-  section: Site & Landing Page Builders
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:49.767Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:87402e654f9282da348e97329e120a85adbd7991043bf6ec6fcc8a59413eea0e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a static demonstration page, not a standalone developer tool, and its core identity is the Jev decision model, which belongs in decision-models, not a product category.
+      decision_evidence:
+        - "Scraped site context: 'A structured case in, the right shadcn component out. One Jev call, no free text generation.'"
+        - "Source-list context: Listed in awesome-jev under 'Demos & playgrounds' as a Jev-built project."
+        - No repo, stars, or activity signals indicate it is a maintained product rather than a demo.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

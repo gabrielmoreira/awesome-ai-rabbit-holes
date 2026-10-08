@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dlt-hub__dlthub-ai-harness__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: dltHub AI Workbench
         extracted_url: https://github.com/dlt-hub/dlthub-ai-workbench
-        surrounding_text: >-
-          - **[dltHub AI Workbench](https://github.com/dlt-hub/dlthub-ai-workbench)** – Toolkit that gives Claude Code,
-          Cursor, and Codex structured, step-by-step workflows and an MCP server for building, exploring, and deploying
-          data pipelines with dlt.
+        surrounding_text: "- **[dltHub AI Workbench](https://github.com/dlt-hub/dlthub-ai-workbench)** – Toolkit that gives Claude Code, Cursor, and Codex structured, step-by-step workflows and an MCP server for building, exploring, and deploying data pipelines with dlt."
         confidence: high
 metadata:
   github:
@@ -32,19 +29,17 @@ metadata:
     archived: false
     full_name: dlt-hub/dlthub-ai-harness
     html_url: https://github.com/dlt-hub/dlthub-ai-harness
-    created_at: '2026-02-17T17:38:27Z'
-    pushed_at: '2026-09-29T12:53:43Z'
+    created_at: "2026-02-17T17:38:27Z"
+    pushed_at: "2026-09-29T12:53:43Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:42.725Z'
+    last_checked_at: "2026-09-29T13:10:42.725Z"
     readme:
-      fetched_at: '2026-09-29T13:10:42.725Z'
+      fetched_at: "2026-09-29T13:10:42.725Z"
       bytes: 17722
 insights:
-  summary: >-
-    dltHub AI Workbench – Toolkit that gives Claude Code, Cursor, and Codex structured, step-by-step workflows and an
-    MCP server for building, exploring, and deploying data pipelines with dlt.
+  summary: dltHub AI Workbench – Toolkit that gives Claude Code, Cursor, and Codex structured, step-by-step workflows and an MCP server for building, exploring, and deploying data pipelines with dlt.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -54,9 +49,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
   evidence:
     - jev-latest choice confidence 0.69
-    - >-
-      jev winnow:e4b 0.24 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.24 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -68,15 +61,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:42.725Z'
+    updated_at: "2026-09-29T13:10:42.725Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

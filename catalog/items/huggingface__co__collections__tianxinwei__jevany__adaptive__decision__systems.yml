@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/collections/tianxinwei/jevany-adaptive-dec
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__collections__tianxinwei__jevany__adaptive__decision__systems__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__huggingface__co__collections__tianxinwei__jevany__adaptive__decision__systems__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems-6ab2c941bcecb4d2c61d1326
-        surrounding_text: >-
-          - [JevAny](https://github.com/weitianxin/JevAny)
-          ([site](https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems-6ab2c941bcecb4d2c61d1326))
-          - Calibration-aware reinforcement learning for adaptive decision systems.
+        surrounding_text: "- [JevAny](https://github.com/weitianxin/JevAny) ([site](https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems-6ab2c941bcecb4d2c61d1326)) - Calibration-aware reinforcement learning for adaptive decision systems."
         confidence: high
 metadata:
   github:
@@ -40,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JevAny (site) - Calibration-aware reinforcement learning for adaptive decision systems.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Hugging Face collection titled 'jevany-adaptive-decision-systems' that aggregates resources related to Jev-style decision models and adaptive systems.
+  why_it_matters: It serves as a discovery surface for developers interested in decision-model-based tooling, though it is not a tool itself.
+  mental_damage: Another curated list pretending to be a product, adding to the stack of things developers bookmark but never actually use.
+  tags:
+    - decision-models
+    - curated-list
+    - huggingface
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  status: excluded
+  reason: The input is a Hugging Face collection page, not a standalone tool, agent, or developer-facing product; it is a curated resource list without executable or integrative value.
   evidence:
-    - jev-latest choice confidence 0.70
+    - URL points to a Hugging Face collection (https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems)
+    - No repo description, stars, or pushed_at data indicates this is not an active software project
+    - The name suggests it is a collection of decision-model resources, not a tool that performs actions
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:11.507Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3cac6a6fe89690956c91d425e35083b4966749d886f2773391bea9c0c8e76b59
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a Hugging Face collection page, not a standalone tool, agent, or developer-facing product; it is a curated resource list without executable or integrative value.
+      decision_evidence:
+        - URL points to a Hugging Face collection (https://huggingface.co/collections/tianxinwei/jevany-adaptive-decision-systems)
+        - No repo description, stars, or pushed_at data indicates this is not an active software project
+        - The name suggests it is a collection of decision-model resources, not a tool that performs actions
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

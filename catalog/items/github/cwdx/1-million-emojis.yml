@@ -84,6 +84,21 @@ provenance:
         extracted_url: https://github.com/cwdx/1-million-emojis
         surrounding_text: "- [1 Million Emojis](https://chriswijnia.com/lab/emoji) - Collaborative art: a shared 1000 × 1000 emoji canvas where, after each visitor stroke, one Jev request asks a `Choice` over named (emoji, square) pairs next to it and a `Noul` on whether the stroke is an unfinished shape, finishing the loop or line above 0.7 and otherwise sampling its pick from the returned probabilities ([source](https://github.com/cwdx/1-million-emojis))."
         confidence: high
+    - id: discovery__github__cwdx__1-million-emojis__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Games & simulations
+        anchor_text: 1 Million Emojis
+        extracted_url: https://github.com/cwdx/1-million-emojis
+        surrounding_text: "- [1 Million Emojis](https://github.com/cwdx/1-million-emojis) ([site](https://chriswijnia.com/experiments/emoji)) - A shared 1000 × 1000 emoji canvas, live for everyone, where Jev joins each stroke by choosing a square next to it and its emoji as one Choice."
+        confidence: high
 metadata:
   github:
     stars: 0
@@ -128,7 +143,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.929Z"
+    updated_at: "2026-10-08T04:16:14.228Z"
     cause: null
     next_retry_at: null
   stars:
@@ -137,6 +152,9 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

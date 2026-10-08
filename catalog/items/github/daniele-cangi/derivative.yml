@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__daniele-cangi__derivative__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Coding Agents
         anchor_text: Derivative
         extracted_url: https://github.com/daniele-cangi/derivative
-        surrounding_text: >-
-          - **[Derivative](https://github.com/Daniele-Cangi/Derivative)** – Open-source AI-assisted engine for
-          greenfield requirement-to-software synthesis with typed requirement preservation, isolated execution,
-          independent evidence-based validation, bounded repair, and fail-closed packaging.
+        surrounding_text: "- **[Derivative](https://github.com/Daniele-Cangi/Derivative)** – Open-source AI-assisted engine for greenfield requirement-to-software synthesis with typed requirement preservation, isolated execution, independent evidence-based validation, bounded repair, and fail-closed packaging."
         confidence: high
 metadata:
   github:
@@ -32,12 +29,10 @@ metadata:
     archived: false
     full_name: Daniele-Cangi/Derivative
     html_url: https://github.com/Daniele-Cangi/Derivative
-    created_at: '2026-03-03T23:50:30Z'
-    pushed_at: '2026-09-28T11:41:50Z'
-    description: >-
-      Computational invention engine with Forge: builds software from natural-language requirements, runs it in
-      isolation, and packages only independently validated builds.
-    homepage: ''
+    created_at: "2026-03-03T23:50:30Z"
+    pushed_at: "2026-09-28T11:41:50Z"
+    description: "Computational invention engine with Forge: builds software from natural-language requirements, runs it in isolation, and packages only independently validated builds."
+    homepage: ""
     topics:
       - ai-agents
       - automated-testing
@@ -53,14 +48,12 @@ metadata:
       - reasoning-engine
       - sandboxing
       - software-engineering
-    last_checked_at: '2026-09-29T13:10:21.862Z'
+    last_checked_at: "2026-09-29T13:10:21.862Z"
     readme:
-      fetched_at: '2026-09-29T13:10:21.862Z'
+      fetched_at: "2026-09-29T13:10:21.862Z"
       bytes: 16032
 insights:
-  summary: >-
-    Computational invention engine with Forge: builds software from natural-language requirements, runs it in isolation,
-    and packages only independently validated builds.
+  summary: "Computational invention engine with Forge: builds software from natural-language requirements, runs it in isolation, and packages only independently validated builds."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -70,9 +63,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in coding-agents / Spec-First & Plan-Execute
   evidence:
     - jev-latest choice confidence 0.72
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at
-      coding-agents (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; placement kept at coding-agents (unverified)
 placement:
   primary_category: coding-agents
   secondary_categories:
@@ -84,15 +75,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:21.862Z'
+    updated_at: "2026-09-29T13:10:21.862Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

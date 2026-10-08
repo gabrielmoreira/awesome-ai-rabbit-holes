@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__carldaws__hunch-ts__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,16 +20,10 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: TypeScript port
         extracted_url: https://github.com/carldaws/hunch-ts
-        surrounding_text: >-
-          - [hunch (carldaws)](https://github.com/carldaws/hunch)
-          ![stars](https://img.shields.io/github/stars/carldaws/hunch?style=flat-square&label=%E2%98%85) - Ruby
-          ecosystem: turns judgment calls into control flow — `if Hunch.likely?("fraudulent", given: order)` reads like
-          plain Ruby but branches on a typed Jev answer, with `pick` for Choice, `rate` for Score, and graded predicates
-          from `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the
-          same interface.
+        surrounding_text: "- [hunch (carldaws)](https://github.com/carldaws/hunch) ![stars](https://img.shields.io/github/stars/carldaws/hunch?style=flat-square&label=%E2%98%85) - Ruby ecosystem: turns judgment calls into control flow — `if Hunch.likely?(\"fraudulent\", given: order)` reads like plain Ruby but branches on a typed Jev answer, with `pick` for Choice, `rate` for Score, and graded predicates from `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the same interface."
         confidence: high
     - id: discovery__github__carldaws__hunch-ts__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -41,11 +35,7 @@ provenance:
           - SDKs and developer tools
         anchor_text: TypeScript port
         extracted_url: https://github.com/carldaws/hunch-ts
-        surrounding_text: >-
-          - [hunch (carldaws)](https://github.com/carldaws/hunch) - Probabilistic control flow for Ruby: `if
-          Hunch.likely?("fraudulent", given: order)` branches on a typed Jev answer, with graded predicates from
-          `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the same
-          interface.
+        surrounding_text: "- [hunch (carldaws)](https://github.com/carldaws/hunch) - Probabilistic control flow for Ruby: `if Hunch.likely?(\"fraudulent\", given: order)` branches on a typed Jev answer, with graded predicates from `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the same interface."
         confidence: high
 metadata:
   github:
@@ -55,8 +45,8 @@ metadata:
     archived: false
     full_name: carldaws/hunch-ts
     html_url: https://github.com/carldaws/hunch-ts
-    created_at: '2026-09-25T15:35:32Z'
-    pushed_at: '2026-09-25T15:37:25Z'
+    created_at: "2026-09-25T15:35:32Z"
+    pushed_at: "2026-09-25T15:37:25Z"
     description: Probabilistic control flow for TypeScript - powered by TypeSafe's Jev
     homepage: https://www.npmjs.com/package/@carldaws/hunch
     topics:
@@ -66,9 +56,9 @@ metadata:
       - s1-models
       - typesafe
       - typescript
-    last_checked_at: '2026-09-29T13:09:42.539Z'
+    last_checked_at: "2026-09-29T13:09:42.539Z"
     readme:
-      fetched_at: '2026-09-29T13:09:42.539Z'
+      fetched_at: "2026-09-29T13:09:42.539Z"
       bytes: 10682
 insights:
   summary: Probabilistic control flow for TypeScript - powered by TypeSafe's Jev
@@ -91,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.411Z'
+    updated_at: "2026-09-29T13:07:10.411Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:42.539Z'
+    updated_at: "2026-09-29T13:09:42.539Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

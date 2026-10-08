@@ -36,20 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-cloud-quiz (site) - 三大クラウドの機能名を、TypeSafe AI の System One モデル Jev が確率つきで判定するデモ.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev クラウド判定 is a web tool that uses TypeSafe AI's Jev decision model to predict which of the three major clouds a given feature name belongs to, with probability scores.
+  why_it_matters: Developers can quickly get a probabilistic cloud attribution for feature names, aiding in lightweight architecture guessing or cloud vendor inference without deep manual research.
+  mental_damage: Another probabilistic guess-o-matic that turns cloud tribalism into a snackable UI, perfect for when you need a number to feel certain about something inherently fuzzy.
+  tags:
+    - decision-model
+    - cloud-inference
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The tool's core identity is a decision model (Jev) that answers typed questions with probabilities, fitting the decision-models category even though it is hosted as a web tool; it does not perform coding tasks, extend agents, or build apps, so other categories do not apply.
   evidence:
-    - jev-latest choice confidence 0.56
+    - "Scraped site context: Title 'Jev クラウド判定 by みのるん' and description '機能名を選ぶと、三大クラウドのどれのものかを TypeSafe AI の Jev が確率つきで判定します。'"
+    - Seen in source list awesome-jev under section 'Demos & playgrounds' with purpose 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Cloud Gateways & Providers
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:09:10.030Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for dxtmc35dbmyei__cloudfront__net: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The tool's\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-08T04:37:20.316Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cf181f5ca82e3a61f3e2ee0ae75ad1b93b5791a74ce8746594ba356f0451247b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is a decision model (Jev) that answers typed questions with probabilities, fitting the decision-models category even though it is hosted as a web tool; it does not perform coding tasks, extend agents, or build apps, so other categories do not apply.
+      decision_evidence:
+        - "Scraped site context: Title 'Jev クラウド判定 by みのるん' and description '機能名を選ぶと、三大クラウドのどれのものかを TypeSafe AI の Jev が確率つきで判定します。'"
+        - Seen in source list awesome-jev under section 'Demos & playgrounds' with purpose 'Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.'
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the tool's primary function is returning probabilistic judgments from a decision model, not generating deployable apps or sites from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

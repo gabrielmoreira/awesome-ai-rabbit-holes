@@ -3,11 +3,11 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_159 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_152 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 148
+- [Awesome Lists & Directories](#awesome-lists--directories) — 141
 - [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 3
 - [Publications & Feeds](#publications--feeds) — 8
 
@@ -247,7 +247,7 @@ _159 entries in 3 sections, ranked by stars. Each section opens with its top 30;
   `federated-learning` `research` `awesome-list` `machine-learning`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+118 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+111 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 2k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps.
 - **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.7k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
@@ -335,8 +335,8 @@ _159 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[All skills →](https://awesome-copilot.github.com/skills)** A directory of community-contributed GitHub Copilot skills, instructions, agents, and configurations.
 - **[Awesome GitHub Copilot](https://awesome-copilot.github.com)** Awesome GitHub Copilot is a community-curated directory of reusable agents, instructions, skills, plugins, and extensions for GitHub Copilot.
 - **[awesome-jev](https://beatapi.io/awesome-jev)** awesome-jev is a directory of projects built on Jev, TypeSafe AI's System One decision model.
-- **[awesome-jev](https://omnijev.github.io/awesome-jev)** awesome-jev (OmniJev) (site) - Papers, open reproductions and independent evaluations behind System One models and Jev.
-- **[awesome-jev-projects](https://logicrw.github.io/awesome-jev-projects)** awesome-jev-projects (site) - Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync.
+- **[awesome-jev](https://omnijev.github.io/awesome-jev)** awesome-jev is a directory of projects built on Jev, TypeSafe AI's System One decision model.
+- **[awesome-jev-projects](https://logicrw.github.io/awesome-jev-projects)** A curated directory of projects built on Jev, TypeSafe AI's System One model.
 - **[awesome-jev-zh](https://code.jiangshu.ai/awesome-jev-zh)** awesome-jev-zh is a curated directory of projects built on Jev (TypeSafe System One), a decision model that returns typed answers with probabilities instead of generating text.
 - **[awesome-mcp.tools](https://awesome-mcp.tools)** A curated directory of 4,374+ MCP servers searchable by category with install commands for Claude, Cursor, Codex, and Cline.
 - **[awesome-typesafe-jev](https://abdelstark.github.io/awesome-typesafe-jev)** A curated directory of projects built on Jev, TypeSafe AI's System One model.
@@ -345,26 +345,19 @@ _159 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[Cursor MCP Directory](https://cursor.directory/mcp)** A curated directory of MCP servers for the Model Context Protocol.
 - **[CursorDirectory](https://cursor.directory)** A curated directory of configuration files that enhance the Cursor AI editor experience with custom rules and behaviors.
 - **[DevTools Directory](https://devtools.directory)** devtools.directory is a community-maintained open wiki that curates developer tools, languages, frameworks, libraries, books, courses, paths, newsletters, and resources.
-- **[jev.guide](https://jev.guide)** jevguide (site) - Curated Jev showcases from X, organized by category with media previews and direct source links.
-- **[jevbest.com](https://jevbest.com)** awesome-jev (heyjunpenn) (site) - A verified, community-maintained catalog of 485 open-source projects built with Jev.
-- **[jevbooks: 16 Jev design patterns](https://jevbooks.com/en/patterns)** jevbooks: 16 Jev design patterns - Site: a bilingual gallery of 500+ open-source Jev projects in which Jev itself gates and tags every listing from its README, plus sixteen design patterns read out of ten codebases (Thermostat, Blind review, Flight recorder), each page a problem, a solution, and the recognition question the pipeline sends.
-- **[JevList](https://jevlist.ai)** Try the beta web UI at JevList. Explore the projects in this directory through a searchable web interface. We're continually improving the experience—take a look and let us know what you think!
-- **[laya.tools](https://laya.tools)** laya.tools - Site: an independent directory of about 950 projects built on Laya, the Apache-2.0 open alternative to Jev, imported daily from GitHub, npm, Hugging Face and X and browsable by platform and use case, with a Laya vs Jev comparison page.
+- **[jev.guide](https://jev.guide)** Jev Guide is a community-curated index of open-source projects, demos, and resources built on TypeSafe Jev (System One model), organized by use case and project type.
+- **[jevbest.com](https://jevbest.com)** jevbest.com is a directory of projects built on Jev (TypeSafe AI's System One model).
+- **[JevList](https://jevlist.ai)** Jevlist.ai is a directory of apps, libraries, and examples built with Jev, a typed-decision model by TypeSafe AI.
 - **[Learning Hub](https://awesome-copilot.github.com/learning-hub)** GitHub Copilot Learning Hub is a community-curated collection of guides, tutorials, and reference material for using GitHub Copilot.
 - **[llama-police.html](https://huyenchip.com/llama-police.html)** A blog post listing open-source LLM tools and linking to GoodAIList.com for trending repositories and developer searches.
 - **[llms.txt](https://awesome-copilot.github.com/llms.txt)** A community-driven collection of custom agents, instructions, and skills to enhance GitHub Copilot experiences across various domains and workflows.
 - **[LM-class](https://lm-class.org)** A structured educational curriculum covering contemporary language modeling from basic neural networks to LLM post-training.
-- **[Made with Jev](https://madewithjev.com)** awesome-jev (kraayenjon) (site) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.
 - **[MCP Market](https://mcpmarket.com)** MCP Market is a directory and discovery platform for MCP servers and agent skills that connect AI agents to tools and services.
-- **[ModelScope](https://modelscope.cn/home)** ModelScope 魔搭社区——开源模型社区，提供模型、数据集与在线 Demo 的一站式服务。.
-- **[nothumansearch.ai](https://nothumansearch.ai)** unitedideas/nothumansearch : MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live at nothumansearch.ai.
-- **[onmyway133.com](https://onmyway133.com)** awesome-jev (onmyway133) (site) - Awesome projects built with Jev from Typesafe AI.
-- **[Prismix](https://prismix.dev)** Prismix – AI hub with 500+ MCP server directory, real-time status monitoring for 75+ AI services, and news aggregator from 70+ sources with email/webhook alerts.
+- **[Prismix](https://prismix.dev)** Prismix.dev is a curated hub offering real-time status, AI news, MCP server directory, and troubleshooting guides for AI services and tools.
 - **[pulsemcp.com](https://pulsemcp.com)** PulseMCP.com is a curated directory of MCP servers and tools focused on the Model Context Protocol ecosystem.
 - **[Search and filter](https://logicrw.github.io/awesome-jev-projects/en)** > Search and filter ↗ · 798 curated projects.
 - **[sharemcp.cn](https://sharemcp.cn)** A Chinese-language directory of LLM resources covering topics such as agents, MCP, and AI-assisted programming.
 - **[SkillHub](https://skillhub.cn)** SkillHub.cn is a Chinese-optimized directory curating top AI skills for developers and AI practitioners.
-- **[TypeSafe AI](https://typesafe.ai)** > Directory of projects built on Jev, TypeSafe AI's System One model.
 - **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** mcp.stromhaltig.de is a curated list of Model Context Protocol (MCP) servers.
 - **[动手学大模型应用开发](https://datawhalechina.github.io/llm-universe)** llm-universe is a curated educational resource summarizing LLM applications and related technologies.
 
@@ -374,7 +367,14 @@ _159 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 
 - **[everyinfra/jev-radar](https://github.com/everyinfra/jev-radar)** `⭐ 31` `updated ≤30d` 全网最全 · The world's most comprehensive tracker of the Jev (TypeSafe AI System One) ecosystem — 220+ documented cases · 108 confidence-graded entries · verified & rescanned every 3 hours · API access guide included.
 - **[Nadeus/toolradar-mcp](https://github.com/nadeus/toolradar-mcp)** `⭐ 4` Nadeus/toolradar-mcp : Search, compare, and get pricing for 8,600+ software tools with verified data, editorial scores, G2/Capterra ratings, and real alternatives. Install via npx -y toolradar-mcp.
-- **[Jev vs GPT-6 Astra: when to use each](https://vercel.com/i/jev-vs-gpt-6-astra)** Jev vs GPT-6 Astra: when to use each - Guide: Vercel's own decision guide for choosing between a System One model and a frontier model, published alongside a companion page of seven Jev use cases.
+- **[ModelScope](https://modelscope.cn/home)** ModelScope 魔搭社区 is an open-source model community offering models, datasets, and online demos. <details><summary>More about</summary>
+
+  It gives developers a centralized hub to discover, test, and deploy open-source AI models with minimal setup.
+
+  _Another model zoo where finding the right checkpoint feels like winning a lottery you didn’t enter._
+
+  `model-hub` `open-source` `demo`
+  </details>
 
 ## Publications & Feeds
 

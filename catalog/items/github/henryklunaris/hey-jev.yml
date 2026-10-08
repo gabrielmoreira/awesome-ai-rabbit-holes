@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__henryklunaris__hey-jev__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,13 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - CLI & Pipelines
-        anchor_text: '**hey-jev**'
+        anchor_text: "**hey-jev**"
         extracted_url: https://github.com/henryklunaris/hey-jev
-        surrounding_text: >-
-          - [**hey-jev**](https://github.com/henryklunaris/hey-jev) — Open, quit, hide, minimise or switch to apps, open
-          a new browser tab or a website ("open youtube.com in Brave"), Mac volume up / down / mute / set, Spotify
-          volume, play / pause / next / previous, dark mode, lock or sleep the Mac. Two things in one sentence work too:
-          "pause Spotify and open Slack".
+        surrounding_text: "- [**hey-jev**](https://github.com/henryklunaris/hey-jev) — Open, quit, hide, minimise or switch to apps, open a new browser tab or a website (\"open youtube.com in Brave\"), Mac volume up / down / mute / set, Spotify volume, play / pause / next / previous, dark mode, lock or sleep the Mac. Two things in one sentence work too: \"pause Spotify and open Slack\"."
         confidence: high
 metadata:
   github:
@@ -33,14 +29,14 @@ metadata:
     archived: false
     full_name: henryklunaris/hey-jev
     html_url: https://github.com/henryklunaris/hey-jev
-    created_at: '2026-09-22T04:33:46Z'
-    pushed_at: '2026-09-29T02:33:34Z'
+    created_at: "2026-09-22T04:33:46Z"
+    pushed_at: "2026-09-29T02:33:34Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:12:05.704Z'
+    last_checked_at: "2026-09-29T13:12:05.704Z"
     readme:
-      fetched_at: '2026-09-29T13:12:05.704Z'
+      fetched_at: "2026-09-29T13:12:05.704Z"
       bytes: 10061
 insights:
   summary: null
@@ -62,15 +58,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:05.704Z'
+    updated_at: "2026-09-29T13:12:05.704Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

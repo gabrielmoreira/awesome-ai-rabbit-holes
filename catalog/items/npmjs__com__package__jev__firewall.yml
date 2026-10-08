@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__firewall__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-firewall
-        surrounding_text: >-
-          - [jev-firewall](https://github.com/Koushik890/jev-firewall)
-          ([site](https://www.npmjs.com/package/jev-firewall)) - Real-time firewall for AI coding agents: a PreToolUse
-          hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go
-          to Jev for a calibrated allow/ask/block that fails closed.
+        surrounding_text: "- [jev-firewall](https://github.com/Koushik890/jev-firewall) ([site](https://www.npmjs.com/package/jev-firewall)) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block that fails closed."
         confidence: high
 metadata:
   github:
@@ -40,19 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-firewall (site) - Real-time firewall for AI coding agents: a PreToolUse hook checks every Claude Code / Codex
-    tool call with deterministic shell-aware rules, and unmatched actions go to Jev for a calibrated allow/ask/block
-    that fails closed.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-firewall is an NPM package that provides a firewall or guardrail tool built on TypeSafe AI's Jev decision model for agent tooling.
+  why_it_matters: It lets developers enforce safety or policy checks in agent workflows by leveraging typed decision judgments from Jev.
+  mental_damage: Another layer of 'trust but verify' for agents that still might ignore the firewall when the vibe is right.
+  tags:
+    - jev
+    - firewall
+    - guardrail
+    - decision-models
+    - agent-tooling
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: jev-firewall belongs in decision-models because its core function is acting as a tool-call gate or risk filter driven by Jev judgments, not as a coding agent or general extension.
   evidence:
-    - jev-latest choice confidence 0.58
+    - Listed in awesome-jev under 'Agent tooling' section for projects built on Jev
+    - Named 'jev-firewall' implying a protective gate or filter for Jev-based agent workflows
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -63,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:39.454Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e3afd6b804f84bda9fcf7f554a4e23bd53603d55aa2c7a0d5107992074226e86
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-firewall belongs in decision-models because its core function is acting as a tool-call gate or risk filter driven by Jev judgments, not as a coding agent or general extension.
+      decision_evidence:
+        - Listed in awesome-jev under 'Agent tooling' section for projects built on Jev
+        - Named 'jev-firewall' implying a protective gate or filter for Jev-based agent workflows
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jev-firewall's identity is a Jev-driven tool-call gate or guardrail, making the judgment layer the product rather than a host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

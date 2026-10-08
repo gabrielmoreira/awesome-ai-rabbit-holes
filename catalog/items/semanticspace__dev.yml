@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__semanticspace__dev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Adaptive & Realtime UI
         anchor_text: SemanticSpace
         extracted_url: https://semanticspace.dev
-        surrounding_text: >-
-          - [SemanticSpace](https://semanticspace.dev/) - Semantic mapping: places phrases in 2D by asking Jev how
-          strongly each one relates to two chosen axis concepts and using those scores as coordinates.
+        surrounding_text: "- [SemanticSpace](https://semanticspace.dev/) - Semantic mapping: places phrases in 2D by asking Jev how strongly each one relates to two chosen axis concepts and using those scores as coordinates."
         confidence: high
 metadata:
   github:
@@ -39,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    SemanticSpace - Semantic mapping: places phrases in 2D by asking Jev how strongly each one relates to two chosen
-    axis concepts and using those scores as coordinates.
+  summary: "SemanticSpace - Semantic mapping: places phrases in 2D by asking Jev how strongly each one relates to two chosen axis concepts and using those scores as coordinates."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -61,7 +57,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +65,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:45:21.597Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for semanticspace__dev: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"summary\": SemanticSp\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

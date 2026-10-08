@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__use__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-use
-        surrounding_text: >-
-          - [jev-use](https://github.com/shitianfang/jev-use) ([site](https://www.npmjs.com/package/jev-use)) - Claude
-          Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) —
-          measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM.
+        surrounding_text: "- [jev-use](https://github.com/shitianfang/jev-use) ([site](https://www.npmjs.com/package/jev-use)) - Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) — measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-use (site) - Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's
-    judgment model) — measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-use is an npm package providing a TypeScript hook for integrating the Jev decision model into applications.
+  why_it_matters: It enables developers to programmatically access Jev's typed-decision capabilities (Choice, Score, Noul/Boolean) within their codebases via a React-style hook.
+  mental_damage: Yet another wrapper turning a novel decision model into yet another hook you'll forget to clean up in useEffect.
+  tags:
+    - jev
+    - decision-model
+    - react-hook
+    - typescript
+    - typesafe
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: jev-use is a client SDK whose core purpose is calling the Jev decision model with typed questions, placing it firmly in decision-models rather than as a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.67
+    - The package is an npm module named jev-use, indicating a React-style hook for Jev integration.
+    - It appears in the source list 'awesome-jev' under the 'Agent tooling' section for projects built on Jev.
+    - Jev itself is a canonical positive for the decision-models category as TypeSafe's System One model.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:55.840Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:31e58870174759c3d69bdf1748bdba29c7b15b2a68f26b59cd34701cc7411f55
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-use is a client SDK whose core purpose is calling the Jev decision model with typed questions, placing it firmly in decision-models rather than as a coding agent or extension.
+      decision_evidence:
+        - The package is an npm module named jev-use, indicating a React-style hook for Jev integration.
+        - It appears in the source list 'awesome-jev' under the 'Agent tooling' section for projects built on Jev.
+        - Jev itself is a canonical positive for the decision-models category as TypeSafe's System One model.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jev-use is an SDK for invoking the Jev decision model's judgment, not a tool that extends a coding agent or editor with workflow capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

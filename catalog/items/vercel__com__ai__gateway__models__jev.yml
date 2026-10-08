@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vercel__com__ai__gateway__models__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Integrations
         anchor_text: Jev on Vercel AI Gateway
         extracted_url: https://vercel.com/ai-gateway/models/jev
-        surrounding_text: >-
-          - [Jev on Vercel AI Gateway](https://vercel.com/ai-gateway/models/jev)
-          ([post](https://x.com/typesafeai/status/2100376436272173088)) - Hosted typesafe-ai/jev for AI SDK evaluate
-          calls, no TypeSafe waitlist required.
+        surrounding_text: "- [Jev on Vercel AI Gateway](https://vercel.com/ai-gateway/models/jev) ([post](https://x.com/typesafeai/status/2100376436272173088)) - Hosted typesafe-ai/jev for AI SDK evaluate calls, no TypeSafe waitlist required."
         confidence: high
 metadata:
   github:
@@ -39,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Jev on Vercel AI Gateway (post) - Hosted typesafe-ai/jev for AI SDK evaluate calls, no TypeSafe waitlist required.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is TypeSafe AI's System One decision model that answers typed questions with probabilities for classification, routing, and verification tasks.
+  why_it_matters: It enables developers to integrate deterministic decision logic into AI workflows via typed questions and probability outputs, useful for guardrails, routing, and assessment.
+  mental_damage: Another model to add to the model router config that promises structured decisions but adds yet another layer of YAML to maintain.
+  tags:
+    - decision-model
+    - typed-questions
+    - ai-gateway
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: Jev is a decision model that returns constrained answers with probabilities instead of generating text, fitting the decision-models category where the model's judgment is the product identity.
   evidence:
-    - jev-latest choice confidence 0.78
+    - "Scraped site context states: 'Jev is TypeSafe AI’s System One decision model for fast, structured decisions in software. It evaluates shared state against typed questions and returns choices, scores, and boolean probabilities, supporting classification, routing, rubric-based assessment, and automated verification.'"
+    - Source-list context shows it is listed in 'awesome-jev' under 'Integrations' as a directory of projects built on Jev by TypeSafe AI.
+    - The Vercel AI Gateway page positions Jev as a model available via API with input pricing and docs, indicating it is a hosted decision model service.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -59,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:57.843Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:35abbfe6f5c6646644bbefec93d6ed10d366d5f243c21b4e2b368367a44418f9
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a decision model that returns constrained answers with probabilities instead of generating text, fitting the decision-models category where the model's judgment is the product identity.
+      decision_evidence:
+        - "Scraped site context states: 'Jev is TypeSafe AI’s System One decision model for fast, structured decisions in software. It evaluates shared state against typed questions and returns choices, scores, and boolean probabilities, supporting classification, routing, rubric-based assessment, and automated verification.'"
+        - Source-list context shows it is listed in 'awesome-jev' under 'Integrations' as a directory of projects built on Jev by TypeSafe AI.
+        - The Vercel AI Gateway page positions Jev as a model available via API with input pricing and docs, indicating it is a hosted decision model service.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's core identity is a decision model that answers typed questions with probabilities, not an agent that performs coding tasks like editing files or running commands.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

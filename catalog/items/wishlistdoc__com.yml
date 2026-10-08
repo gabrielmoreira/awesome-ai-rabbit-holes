@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wishlistdoc__com__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,11 +19,7 @@ provenance:
           - 🎮 Gaming
         anchor_text: WishlistDoc
         extracted_url: https://wishlistdoc.com
-        surrounding_text: >-
-          -   **[xiongxingzhe/wishlistdoc-mcp](https://github.com/xiongxingzhe/wishlistdoc-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/xiongxingzhe/wishlistdoc-mcp?style=social)](https://github.com/xiongxingzhe/wishlistdoc-mcp):
-          Steam store page algorithmic health audit, P10/P50/P90 sales cone forecasting, and indie game market
-          benchmarks powered by [WishlistDoc](https://wishlistdoc.com).
+        surrounding_text: "-   **[xiongxingzhe/wishlistdoc-mcp](https://github.com/xiongxingzhe/wishlistdoc-mcp)** [![GitHub stars](https://img.shields.io/github/stars/xiongxingzhe/wishlistdoc-mcp?style=social)](https://github.com/xiongxingzhe/wishlistdoc-mcp): Steam store page algorithmic health audit, P10/P50/P90 sales cone forecasting, and indie game market benchmarks powered by [WishlistDoc](https://wishlistdoc.com)."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: wishlistdoc.com is a browser-based tool that analyzes Steam game store pages to generate algorithm health scores, wishlist quality audits, and sales forecasts for indie developers.
+  why_it_matters: It gives indie game developers data-driven insights to optimize their Steam storefronts before launch, reducing guesswork in a high-stakes release process.
+  mental_damage: Another niche tool that turns indie dev anxiety into a $19 PDF, because guessing whether your game will sell is now a solvable problem with sufficient wishlist decay modeling.
+  tags:
+    - steam
+    - game-dev
+    - analytics
+    - forecasting
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The tool is focused on Steam store analytics and sales prediction for game developers, not on software development workflows, AI-assisted coding, or developer tooling.
   evidence:
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - Scraped site context describes it as a 'Steam 独立游戏发售前体检与销售预测工具' (pre-launch health check and sales forecast tool for Steam indie games)
+    - Core functionality includes diagnosing store page algorithm health, auditing wishlist quality, and predicting P10/P50/P90 sales curves based on AppID input
+    - Source-list placement in awesome-mcp-list is under 'Gaming' section, indicating its domain is game marketing, not developer tooling
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - decision-models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:48:42.555Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cc028b27346593a6531a29afbd8686f6fc2d48c310d903e9c8c4ae80f5fa1e67
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is focused on Steam store analytics and sales prediction for game developers, not on software development workflows, AI-assisted coding, or developer tooling.
+      decision_evidence:
+        - Scraped site context describes it as a 'Steam 独立游戏发售前体检与销售预测工具' (pre-launch health check and sales forecast tool for Steam indie games)
+        - Core functionality includes diagnosing store page algorithm health, auditing wishlist quality, and predicting P10/P50/P90 sales curves based on AppID input
+        - Source-list placement in awesome-mcp-list is under 'Gaming' section, indicating its domain is game marketing, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

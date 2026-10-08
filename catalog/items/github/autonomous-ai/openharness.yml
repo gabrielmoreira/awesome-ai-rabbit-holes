@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__autonomous-ai__openharness__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,11 +20,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Sheets
         extracted_url: https://github.com/autonomous-ai/openharness
-        surrounding_text: >-
-          - [Jev Sheets](https://github.com/autonomous-ai/openharness) - `Open source` · `Free source build` · `BYOK`.
-          OpenHarness desktop sheet pane: TypeSafe Jev answers typed column questions per row (Question Lab wording
-          trials; BYOK or offline practice). [Product](https://harness.autonomous.ai/desktop) · [Project
-          guide](community/projects/apps/jev-sheets.md).
+        surrounding_text: "- [Jev Sheets](https://github.com/autonomous-ai/openharness) - `Open source` · `Free source build` · `BYOK`. OpenHarness desktop sheet pane: TypeSafe Jev answers typed column questions per row (Question Lab wording trials; BYOK or offline practice). [Product](https://harness.autonomous.ai/desktop) · [Project guide](community/projects/apps/jev-sheets.md)."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: autonomous-ai/openharness
     html_url: https://github.com/autonomous-ai/openharness
-    created_at: '2026-08-04T07:53:15Z'
-    pushed_at: '2026-09-29T12:58:30Z'
-    description: >-
-      The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start
-      with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.
+    created_at: "2026-08-04T07:53:15Z"
+    pushed_at: "2026-09-29T12:58:30Z"
+    description: "The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music."
     homepage: https://www.autonomous.ai/harness
     topics:
       - 3d-modeling
@@ -61,14 +55,12 @@ metadata:
       - robotics
       - terminal
       - tmux
-    last_checked_at: '2026-09-29T13:09:20.342Z'
+    last_checked_at: "2026-09-29T13:09:20.342Z"
     readme:
-      fetched_at: '2026-09-29T13:09:20.342Z'
+      fetched_at: "2026-09-29T13:09:20.342Z"
       bytes: 16250
 insights:
-  summary: >-
-    The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start
-    with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.
+  summary: "The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -78,9 +70,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.71
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -92,15 +82,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:20.342Z'
+    updated_at: "2026-09-29T13:09:20.342Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

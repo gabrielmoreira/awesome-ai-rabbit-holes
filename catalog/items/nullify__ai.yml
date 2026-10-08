@@ -51,20 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Nullify.ai is an autonomous AI system that detects, validates, fixes, and routes product-security vulnerabilities to merge-ready pull requests.
-  why_it_matters: It reduces developer toil by automating the entire security remediation loop from detection to merge, freeing engineers from false positive noise.
-  mental_damage: Watching an AI agent argue with your CI pipeline over a JWT handler is the new form of pair programming you didn’t ask for.
+  summary: An autonomous agentic system that finds, validates, and fixes product security vulnerabilities by generating merge-ready pull requests.
+  why_it_matters: It automates the entire security remediation lifecycle, moving from passive scanning to active, autonomous code repair and routing.
+  mental_damage: Finally, an agent that can actually handle the security vulnerabilities you've been ignoring since the last major release.
   tags:
     - security
+    - agents
     - devsecops
-    - ai-agent
-    - automation
-  confidence: medium
+    - remediation
+    - vulnerability-management
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in coding-agents / Review, Testing & Repair
+  reason: It is a specialized coding agent whose primary function is the autonomous detection, validation, and repair of code vulnerabilities.
   evidence:
-    - jev-latest choice confidence 0.71
+    - Claims to be an 'autonomous system of agents' that drives the full 'find-to-fix' value chain
+    - Generates 'merge-ready' remediation PRs that can refactor code to pass CI
+    - Directly performs code-level tasks like 'Refactor' and 'Fix' to resolve vulnerabilities
 placement:
   primary_category: coding-agents
   secondary_categories: []
@@ -74,31 +77,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:49:34.379Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for nullify__ai: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": Nullify.ai\"... is not valid JSON"
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:27:47.744Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:e976061d191e632f9accd3ee67d4010aac8875eb61add8326c84cdc2c5596d16
-      proposed_primary_category: extensions-and-addons
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c8ea5b3519af3ba58091af60e98094548c730aee6f45763621f62d1f8be69a67
+      proposed_primary_category: coding-agents
       disagreement: false
-      decision_reason: Nullify.ai integrates as an autonomous agent that plugs into existing developer workflows (Jira, Compass, Slack, CI) to extend security remediation capabilities, acting as a workflow add-on rather than a standalone coding agent or platform.
+      decision_reason: It is a specialized coding agent whose primary function is the autonomous detection, validation, and repair of code vulnerabilities.
       decision_evidence:
-        - "Source-list context: listed in awesome-ai-coding-tools under Security section as a tool that finds, proves, and fixes vulnerabilities and drives PRs to merge."
-        - "README/scraped context: Nullify routes work via Compass (code ownership), Jira (capacity), and Slack (escalations), integrating with existing dev tools rather than replacing them."
-        - "Core loop: detects, validates, triages, fixes, refines, and closes vulnerabilities in existing codebases — not generating new apps or acting as a general-purpose coding agent."
+        - Claims to be an 'autonomous system of agents' that drives the full 'find-to-fix' value chain
+        - Generates 'merge-ready' remediation PRs that can refactor code to pass CI
+        - Directly performs code-level tasks like 'Refactor' and 'Fix' to resolve vulnerabilities
       category_candidates:
-        - extensions-and-addons
+        - coding-agents
         - agent-orchestration
-      contrastive_reason: Choose extensions-and-addons over agent-orchestration because Nullify.ai functions as a specialized agent that integrates into developer tooling (Jira, Slack, Compass) to extend security workflows, rather than serving as a general platform for coordinating multiple autonomous agent teams.
+      contrastive_reason: Choose coding-agents over agent-orchestration because its primary identity is the autonomous repair of code (fixing vulnerabilities) rather than the general management of agentic workforces.
       review_reason: null
       review_resume_lifecycle: null
   discover:

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eugeniughelbur__jev-engineering__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,15 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-engineering
         extracted_url: https://github.com/eugeniughelbur/jev-engineering
-        surrounding_text: >-
-          - [jev-engineering](https://github.com/eugeniughelbur/jev-engineering)
-          ([site](https://eugeniughelbur.github.io/jev-engineering/)) - Decision layer for coding agents: deterministic
-          rules before any model call, then one Jev request, as a Claude Code PreToolUse hook, an MCP server, a loopback
-          service and a team policy that personal overrides can tighten but not loosen. Ships the 300-call injection kit
-          behind its own numbers.
+        surrounding_text: "- [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) ([site](https://eugeniughelbur.github.io/jev-engineering/)) - Decision layer for coding agents: deterministic rules before any model call, then one Jev request, as a Claude Code PreToolUse hook, an MCP server, a loopback service and a team policy that personal overrides can tighten but not loosen. Ships the 300-call injection kit behind its own numbers."
         confidence: high
     - id: discovery__github__eugeniughelbur__jev-engineering__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -37,16 +32,12 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**jev-engineering**'
+        anchor_text: "**jev-engineering**"
         extracted_url: https://github.com/eugeniughelbur/jev-engineering
-        surrounding_text: >-
-          - [**jev-engineering**](https://github.com/eugeniughelbur/jev-engineering) — A Claude Code tool-call gate.
-          Clearly safe commands run with no permission prompt, clearly dangerous ones are blocked with the reason, and
-          unclear ones get the normal prompt. Also ships review-router, a GitHub Action that routes AI code review to a
-          full or quick read. Disclosure: I built and maintain it.
+        surrounding_text: "- [**jev-engineering**](https://github.com/eugeniughelbur/jev-engineering) — A Claude Code tool-call gate. Clearly safe commands run with no permission prompt, clearly dangerous ones are blocked with the reason, and unclear ones get the normal prompt. Also ships review-router, a GitHub Action that routes AI code review to a full or quick read. Disclosure: I built and maintain it."
         confidence: high
     - id: discovery__github__eugeniughelbur__jev-engineering__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -59,14 +50,10 @@ provenance:
           - Verification & Guardrails
         anchor_text: jev-engineering
         extracted_url: https://github.com/eugeniughelbur/jev-engineering
-        surrounding_text: >-
-          - [jev-engineering](https://github.com/eugeniughelbur/jev-engineering)
-          ![stars](https://img.shields.io/github/stars/eugeniughelbur/jev-engineering?style=flat-square&label=%E2%98%85)
-          - Agent safety: gates coding-agent tool calls with deterministic rules first and one typed Jev call second,
-          then publishes a rerunnable 300-call injection test showing what the gate catches and what walks past it.
+        surrounding_text: "- [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) ![stars](https://img.shields.io/github/stars/eugeniughelbur/jev-engineering?style=flat-square&label=%E2%98%85) - Agent safety: gates coding-agent tool calls with deterministic rules first and one typed Jev call second, then publishes a rerunnable 300-call injection test showing what the gate catches and what walks past it."
         confidence: high
     - id: discovery__github__eugeniughelbur__jev-engineering__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -78,11 +65,7 @@ provenance:
           - Agents, coding, and guardrails
         anchor_text: jev-engineering
         extracted_url: https://github.com/eugeniughelbur/jev-engineering
-        surrounding_text: >-
-          - [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) - Decision layer for coding agents:
-          deterministic hard rules, then a Jev call, exposed as a Claude Code PreToolUse hook, an MCP server, a loopback
-          service and a shared team policy. Ships a 300-call injection kit and its results: blunt injections moved 0 of
-          30 dangerous commands but caused 10% false denials on safe ones, authority framing moved 3 of 30.
+        surrounding_text: "- [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) - Decision layer for coding agents: deterministic hard rules, then a Jev call, exposed as a Claude Code PreToolUse hook, an MCP server, a loopback service and a shared team policy. Ships a 300-call injection kit and its results: blunt injections moved 0 of 30 dangerous commands but caused 10% false denials on safe ones, authority framing moved 3 of 30."
         confidence: high
 metadata:
   github:
@@ -92,12 +75,9 @@ metadata:
     archived: false
     full_name: eugeniughelbur/jev-engineering
     html_url: https://github.com/eugeniughelbur/jev-engineering
-    created_at: '2026-09-20T20:09:26Z'
-    pushed_at: '2026-09-27T23:17:13Z'
-    description: >-
-      Coding-agent tools on TypeSafe's Jev, measured in public. review-router: caught 13 of 13 CVE fixes a filename rule
-      sent to a quick review. jev-gate: a strict second lock, 0 of 12 dangerous test commands ran where Claude Code's
-      auto mode let 8 run.
+    created_at: "2026-09-20T20:09:26Z"
+    pushed_at: "2026-09-27T23:17:13Z"
+    description: "Coding-agent tools on TypeSafe's Jev, measured in public. review-router: caught 13 of 13 CVE fixes a filename rule sent to a quick review. jev-gate: a strict second lock, 0 of 12 dangerous test commands ran where Claude Code's auto mode let 8 run."
     homepage: https://eugeniughelbur.github.io/jev-engineering/
     topics:
       - agent-harness
@@ -120,15 +100,12 @@ metadata:
       - security
       - tool-calling
       - typesafe
-    last_checked_at: '2026-09-29T13:11:07.000Z'
+    last_checked_at: "2026-09-29T13:11:07.000Z"
     readme:
-      fetched_at: '2026-09-29T13:11:07.000Z'
+      fetched_at: "2026-09-29T13:11:07.000Z"
       bytes: 20465
 insights:
-  summary: >-
-    Coding-agent tools on TypeSafe's Jev, measured in public. review-router: caught 13 of 13 CVE fixes a filename rule
-    sent to a quick review. jev-gate: a strict second lock, 0 of 12 dangerous test commands ran where Claude Code's auto
-    mode let 8 run.
+  summary: "Coding-agent tools on TypeSafe's Jev, measured in public. review-router: caught 13 of 13 CVE fixes a filename rule sent to a quick review. jev-gate: a strict second lock, 0 of 12 dangerous test commands ran where Claude Code's auto mode let 8 run."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -148,15 +125,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.381Z'
+    updated_at: "2026-09-29T13:07:10.381Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:07.000Z'
+    updated_at: "2026-09-29T13:11:07.000Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

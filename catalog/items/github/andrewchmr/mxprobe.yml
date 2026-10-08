@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__andrewchmr__mxprobe__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 💬 <a name="communication"></a>Communication
         anchor_text: andrewchmr/mxprobe
         extracted_url: https://github.com/andrewchmr/mxprobe
-        surrounding_text: >-
-          - [andrewchmr/mxprobe](https://github.com/andrewchmr/mxprobe) [![andrewchmr/mxprobe MCP
-          server](https://glama.ai/mcp/servers/andrewchmr/mxprobe/badges/score.svg)](https://glama.ai/mcp/servers/andrewchmr/mxprobe)
-          📇 ☁️ 🏠 🍎 🪟 🐧 - Email verification for AI agents: returns send, hold or kill for an address with a reason,
-          using local DNS checks or a hosted SMTP probe.
+        surrounding_text: "- [andrewchmr/mxprobe](https://github.com/andrewchmr/mxprobe) [![andrewchmr/mxprobe MCP server](https://glama.ai/mcp/servers/andrewchmr/mxprobe/badges/score.svg)](https://glama.ai/mcp/servers/andrewchmr/mxprobe) 📇 ☁️ 🏠 🍎 🪟 🐧 - Email verification for AI agents: returns send, hold or kill for an address with a reason, using local DNS checks or a hosted SMTP probe."
         confidence: high
 metadata:
   github:
@@ -34,9 +30,9 @@ metadata:
     archived: false
     full_name: andrewchmr/mxprobe
     html_url: https://github.com/andrewchmr/mxprobe
-    created_at: '2026-09-09T18:38:01Z'
-    pushed_at: '2026-09-23T10:09:30Z'
-    description: 'Email verification for AI agents: send, hold or kill with the reason. CLI, MCP server and hosted API.'
+    created_at: "2026-09-09T18:38:01Z"
+    pushed_at: "2026-09-23T10:09:30Z"
+    description: "Email verification for AI agents: send, hold or kill with the reason. CLI, MCP server and hosted API."
     homepage: https://mxprobe.dev
     topics:
       - ai-agents
@@ -48,12 +44,12 @@ metadata:
       - mcp-server
       - smtp
       - typescript
-    last_checked_at: '2026-09-29T13:08:58.081Z'
+    last_checked_at: "2026-09-29T13:08:58.081Z"
     readme:
-      fetched_at: '2026-09-29T13:08:58.081Z'
+      fetched_at: "2026-09-29T13:08:58.081Z"
       bytes: 3556
 insights:
-  summary: 'Email verification for AI agents: send, hold or kill with the reason. CLI, MCP server and hosted API.'
+  summary: "Email verification for AI agents: send, hold or kill with the reason. CLI, MCP server and hosted API."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,9 +59,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Communication, Files & Productivity
   evidence:
     - jev-latest choice confidence 0.80
-    - >-
-      jev winnow:e4b 0.49 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.49 below gate 0.50; proposed mcp / Communication, Files & Productivity; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -77,15 +71,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:58.081Z'
+    updated_at: "2026-09-29T13:08:58.081Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

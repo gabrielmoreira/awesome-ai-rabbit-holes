@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__pytest__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://pypi.org/project/pytest-jev
-        surrounding_text: >-
-          - [pytest-jev](https://github.com/allebee/pytest-jev) ([site](https://pypi.org/project/pytest-jev/)) -
-          Semantic assertions for pytest: test what your LLM app's output means, judged by TypeSafe's Jev.
+        surrounding_text: "- [pytest-jev](https://github.com/allebee/pytest-jev) ([site](https://pypi.org/project/pytest-jev/)) - Semantic assertions for pytest: test what your LLM app's output means, judged by TypeSafe's Jev."
         confidence: high
 metadata:
   github:
@@ -38,30 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: pytest-jev is a Python package for Jev-related functionality, as listed on PyPI.
+  why_it_matters: It provides access to Jev decision-model tooling for Python developers needing typed probabilistic outputs.
+  mental_damage: Another niche model adapter adding to the pile of 'Jevinstall' commands you’ll forget six months later.
+  tags:
+    - jev
+    - decision-model
+    - python
+    - pypi
+  confidence: medium
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: pytest-jev is a Python package that serves as an SDK or CLI for calling the Jev decision model, fitting the decision-models category's Framework & SDK Integrations section.
   evidence:
-    - >-
-      jev winnow:e4b 0.37 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - Listed on PyPI as 'pytest-jev', indicating a Python package
+    - Appears in the 'awesome-jev' source list under the Jev ecosystem
+    - The awesome-jev list describes itself as a 'Directory of projects built on Jev', confirming Jev-centric tooling
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:38.130Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0d30d43b8b433a5134d45300fe0a7cc2fb188836db166826300e44974a9c8d42
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: pytest-jev is a Python package that serves as an SDK or CLI for calling the Jev decision model, fitting the decision-models category's Framework & SDK Integrations section.
+      decision_evidence:
+        - Listed on PyPI as 'pytest-jev', indicating a Python package
+        - Appears in the 'awesome-jev' source list under the Jev ecosystem
+        - The awesome-jev list describes itself as a 'Directory of projects built on Jev', confirming Jev-centric tooling
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because pytest-jev is a Python SDK/CLI for invoking Jev judgments, not an extension that augments a host agent like Claude Code or Cursor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

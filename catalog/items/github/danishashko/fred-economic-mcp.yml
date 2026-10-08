@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__danishashko__fred-economic-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: danishashko/fred-economic-mcp
         extracted_url: https://github.com/danishashko/fred-economic-mcp
-        surrounding_text: >-
-          -   **[danishashko/fred-economic-mcp](https://github.com/danishashko/fred-economic-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/danishashko/fred-economic-mcp?style=social)](https://github.com/danishashko/fred-economic-mcp):
-          Federal Reserve economic data (FRED): 800k+ series incl. GDP, inflation, unemployment, rates. 6 tools. `npx
-          fred-economic-mcp`.
+        surrounding_text: "-   **[danishashko/fred-economic-mcp](https://github.com/danishashko/fred-economic-mcp)** [![GitHub stars](https://img.shields.io/github/stars/danishashko/fred-economic-mcp?style=social)](https://github.com/danishashko/fred-economic-mcp): Federal Reserve economic data (FRED): 800k+ series incl. GDP, inflation, unemployment, rates. 6 tools. `npx fred-economic-mcp`."
         confidence: high
 metadata:
   github:
@@ -34,21 +30,17 @@ metadata:
     archived: false
     full_name: danishashko/fred-economic-mcp
     html_url: https://github.com/danishashko/fred-economic-mcp
-    created_at: '2026-06-02T14:34:36Z'
-    pushed_at: '2026-08-06T15:46:10Z'
-    description: >-
-      FRED MCP Server - U.S. & global economic data (GDP, inflation, unemployment, rates, 800k+ series) from the Federal
-      Reserve, for Claude and any MCP client. Zero-config npx install.
+    created_at: "2026-06-02T14:34:36Z"
+    pushed_at: "2026-08-06T15:46:10Z"
+    description: FRED MCP Server - U.S. & global economic data (GDP, inflation, unemployment, rates, 800k+ series) from the Federal Reserve, for Claude and any MCP client. Zero-config npx install.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:23.333Z'
+    last_checked_at: "2026-09-29T13:10:23.333Z"
     readme:
-      fetched_at: '2026-09-29T13:10:23.333Z'
+      fetched_at: "2026-09-29T13:10:23.333Z"
       bytes: 9804
 insights:
-  summary: >-
-    FRED MCP Server - U.S. & global economic data (GDP, inflation, unemployment, rates, 800k+ series) from the Federal
-    Reserve, for Claude and any MCP client. Zero-config npx install.
+  summary: FRED MCP Server - U.S. & global economic data (GDP, inflation, unemployment, rates, 800k+ series) from the Federal Reserve, for Claude and any MCP client. Zero-config npx install.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -68,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:23.333Z'
+    updated_at: "2026-09-29T13:10:23.333Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

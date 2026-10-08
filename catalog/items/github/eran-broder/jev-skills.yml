@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eran-broder__jev-skills__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,13 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-skills
         extracted_url: https://github.com/eran-broder/jev-skills
-        surrounding_text: >-
-          - [jev-skills](https://github.com/eran-broder/jev-skills) - Skills without the context tax. Claude Code and
-          Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0
-          tokens.
+        surrounding_text: "- [jev-skills](https://github.com/eran-broder/jev-skills) - Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0 tokens."
         confidence: high
     - id: discovery__github__eran-broder__jev-skills__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -38,13 +35,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-skills
         extracted_url: https://github.com/eran-broder/jev-skills
-        surrounding_text: >-
-          - [jev-skills](https://github.com/eran-broder/jev-skills) - Claude Code/Codex plugin: TypeSafe Jev selects
-          which installed skills enter context each turn (zero always-on skill-list tokens). [Project
-          guide](community/projects/tools/jev-skills.md).
+        surrounding_text: "- [jev-skills](https://github.com/eran-broder/jev-skills) - Claude Code/Codex plugin: TypeSafe Jev selects which installed skills enter context each turn (zero always-on skill-list tokens). [Project guide](community/projects/tools/jev-skills.md)."
         confidence: high
     - id: discovery__github__eran-broder__jev-skills__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -54,12 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - Context GC
-        anchor_text: '**jev-skills**'
+        anchor_text: "**jev-skills**"
         extracted_url: https://github.com/eran-broder/jev-skills
-        surrounding_text: >-
-          - [**jev-skills**](https://github.com/eran-broder/jev-skills) — Skills without the context tax. Claude Code
-          and Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0
-          tokens.
+        surrounding_text: "- [**jev-skills**](https://github.com/eran-broder/jev-skills) — Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0 tokens."
         confidence: high
 metadata:
   github:
@@ -69,11 +60,9 @@ metadata:
     archived: false
     full_name: eran-broder/jev-skills
     html_url: https://github.com/eran-broder/jev-skills
-    created_at: '2026-09-23T13:18:25Z'
-    pushed_at: '2026-09-23T14:13:42Z'
-    description: >-
-      Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills
-      the model sees. Always-on context cost: 0 tokens.
+    created_at: "2026-09-23T13:18:25Z"
+    pushed_at: "2026-09-23T14:13:42Z"
+    description: "Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0 tokens."
     homepage: null
     topics:
       - ai-agents
@@ -85,14 +74,12 @@ metadata:
       - plugin
       - skills
       - typesafe
-    last_checked_at: '2026-09-29T13:11:02.872Z'
+    last_checked_at: "2026-09-29T13:11:02.872Z"
     readme:
-      fetched_at: '2026-09-29T13:11:02.872Z'
+      fetched_at: "2026-09-29T13:11:02.872Z"
       bytes: 7745
 insights:
-  summary: >-
-    Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills the
-    model sees. Always-on context cost: 0 tokens.
+  summary: "Skills without the context tax. Claude Code and Codex plugin: TypeSafe's Jev decides on every turn which skills the model sees. Always-on context cost: 0 tokens."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -102,9 +89,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
   evidence:
     - jev-latest choice confidence 0.77
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at decision-models
-      (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -116,15 +101,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.394Z'
+    updated_at: "2026-09-29T13:07:10.394Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:02.872Z'
+    updated_at: "2026-09-29T13:11:02.872Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

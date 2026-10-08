@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__speechara__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: Speechara
         extracted_url: https://speechara.ai
-        surrounding_text: >-
-          - **[Speechara](https://speechara.ai/)** – Real-time translation, live captions, transcripts, and AI meeting
-          notes for developer interviews, standups, and multilingual team calls.
+        surrounding_text: "- **[Speechara](https://speechara.ai/)** – Real-time translation, live captions, transcripts, and AI meeting notes for developer interviews, standups, and multilingual team calls."
         confidence: high
 metadata:
   github:
@@ -38,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Speechara.ai is an AI meeting assistant that provides real-time transcription, translation, and AI-generated summaries, notes, and action items without appearing as a meeting participant.
+  why_it_matters: It reduces cognitive load during meetings by delivering real-time language support and post-meeting insights, helping developers stay focused and retain key information.
+  mental_damage: Another layer of AI to manage while trying to pay attention in yet another meeting about AI tooling.
+  tags:
+    - meeting-assistant
+    - transcription
+    - translation
+    - ai-summaries
+    - privacy-first
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: Speechara.ai is a general-purpose AI meeting assistant focused on transcription, translation, and note-taking for live conversations, not a developer-facing tool for coding, agent orchestration, or workflow automation relevant to software development tasks.
   evidence:
-    - jev winnow:e4b 0.40 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - "Scraped site context: 'Speechara is an AI meeting assistant with speech recognition and real-time translation in 88 languages... meeting notes, AI summaries, action items, and searchable history.'"
+    - "Source-list context: Listed in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' but described as a meeting assistant with no coding-specific features."
+    - "README/excerpt: Focuses on live transcription, translation, AI help during conversations, and post-meeting review — no mention of code editing, terminal control, IDE integration, or agent behavior."
 placement:
   primary_category: null
   section: null
@@ -57,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:37.471Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a23ff29efd4e84d90c22a45975dc81d7a7fddbf62b2e1fe493a9bf6ff5947e3a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Speechara.ai is a general-purpose AI meeting assistant focused on transcription, translation, and note-taking for live conversations, not a developer-facing tool for coding, agent orchestration, or workflow automation relevant to software development tasks.
+      decision_evidence:
+        - "Scraped site context: 'Speechara is an AI meeting assistant with speech recognition and real-time translation in 88 languages... meeting notes, AI summaries, action items, and searchable history.'"
+        - "Source-list context: Listed in 'awesome-ai-coding-tools' under 'Developer Productivity Tools' but described as a meeting assistant with no coding-specific features."
+        - "README/excerpt: Focuses on live transcription, translation, AI help during conversations, and post-meeting review — no mention of code editing, terminal control, IDE integration, or agent behavior."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

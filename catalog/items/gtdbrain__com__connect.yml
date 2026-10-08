@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gtdbrain__com__connect__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,13 +19,7 @@ provenance:
           - 🛠️ Utilities
         anchor_text: Setup guides
         extracted_url: https://gtdbrain.com/connect
-        surrounding_text: >-
-          -   **[minosin/gtdbrain-claude-plugin](https://github.com/minosin/gtdbrain-claude-plugin)** [![GitHub
-          stars](https://img.shields.io/github/stars/minosin/gtdbrain-claude-plugin?style=social)](https://github.com/minosin/gtdbrain-claude-plugin):
-          Getting Things Done board for ChatGPT, Claude, Cursor and Gemini: capture, next actions by context, projects,
-          waiting-for and weekly review over a hosted remote MCP endpoint at
-          `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp` (Streamable HTTP, OAuth 2.1). [Setup
-          guides](https://gtdbrain.com/connect?source=awesome-mcp-list-mobinx).
+        surrounding_text: "-   **[minosin/gtdbrain-claude-plugin](https://github.com/minosin/gtdbrain-claude-plugin)** [![GitHub stars](https://img.shields.io/github/stars/minosin/gtdbrain-claude-plugin?style=social)](https://github.com/minosin/gtdbrain-claude-plugin): Getting Things Done board for ChatGPT, Claude, Cursor and Gemini: capture, next actions by context, projects, waiting-for and weekly review over a hosted remote MCP endpoint at `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp` (Streamable HTTP, OAuth 2.1). [Setup guides](https://gtdbrain.com/connect?source=awesome-mcp-list-mobinx)."
         confidence: high
 metadata:
   github:
@@ -43,28 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GTD Brain hosts a GTD Method MCP server that lets AI assistants read, add, edit, move, and archive GTD board cards using plain language.
+  why_it_matters: Developers can use their preferred AI assistant to manage GTD tasks without leaving their workflow, turning chat into a task capture and review system.
+  mental_damage: Another layer of MCP indirection to feel productive while your inbox still explodes.
+  tags:
+    - mcp
+    - gtd
+    - productivity
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: GTD Brain's core product is an MCP server exposing a GTD board as a tool, making MCP its primary identity rather than a mere extension or agent feature.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.11 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - GTD Brain hosts a GTD MCP server so assistants can read, add, edit, move and archive cards on your board in plain language
+    - Scraped site describes GTD Brain as 'GTD with ChatGPT & Claude — the GTD MCP server'
+    - Source-list context places it in awesome-mcp-list under 'Utilities' as an MCP server
 placement:
-  primary_category: null
+  primary_category: mcp
   secondary_categories: []
-  section: null
+  section: AI & Model Services
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:44.395Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:139e8e9ea67672bfddee2019cf6fd96c0f5345f4f7662a1ffe5ded3e0f923666
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: GTD Brain's core product is an MCP server exposing a GTD board as a tool, making MCP its primary identity rather than a mere extension or agent feature.
+      decision_evidence:
+        - GTD Brain hosts a GTD MCP server so assistants can read, add, edit, move and archive cards on your board in plain language
+        - Scraped site describes GTD Brain as 'GTD with ChatGPT & Claude — the GTD MCP server'
+        - Source-list context places it in awesome-mcp-list under 'Utilities' as an MCP server
+      category_candidates:
+        - mcp
+        - extensions-and-addons
+      contrastive_reason: Choose mcp over extensions-and-addons because GTD Brain's identity is hosting an MCP server, not augmenting a specific host like Claude Code or VS Code as its primary function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

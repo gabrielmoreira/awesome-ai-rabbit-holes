@@ -5,9 +5,8 @@ canonical_url: https://theneuron.ai/explainer-articles/typesafe-jev-system-one-m
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__theneuron__ai__explainer__articles__typesafe__jev__system__one__models__explained__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__theneuron__ai__explainer__articles__typesafe__jev__system__one__models__explained__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -17,12 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - Articles & threads
-        anchor_text: 'Jev: System One models explained'
+        anchor_text: "Jev: System One models explained"
         extracted_url: https://theneuron.ai/explainer-articles/typesafe-jev-system-one-models-explained
-        surrounding_text: >-
-          - [Jev: System One models
-          explained](https://www.theneuron.ai/explainer-articles/typesafe-jev-system-one-models-explained/) - The
-          Neuron's explainer on AI decisions without a chatbot.
+        surrounding_text: "- [Jev: System One models explained](https://www.theneuron.ai/explainer-articles/typesafe-jev-system-one-models-explained/) - The Neuron's explainer on AI decisions without a chatbot."
         confidence: high
 metadata:
   github:
@@ -40,19 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An explainer article on the Neuron AI website describing TypeSafe's System One decision model Jev.
+  why_it_matters: Provides conceptual grounding for Jev-based tools, helping developers understand the decision-model layer behind certain AI coding agents.
+  mental_damage: Another deep-dive into a niche AI model that promises clearer reasoning but mostly just adds another layer to the model-stack soup.
+  tags:
+    - decision-models
+    - explainer
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: This is a static explanatory article, not a tool, SDK, agent, or infrastructure that developers can use or integrate into workflows.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Official Jev & System One; no placement kept
-      (unverified)
+    - URL points to a Neuron AI explainer article, not a GitHub repo or tool
+    - Source-list context shows it's listed only as an 'Article & thread' in the awesome-jev directory
+    - No evidence of code, installation, usage, or developer-facing functionality
 placement:
   primary_category: null
   secondary_categories:
@@ -64,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:06.844Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b26e4b7a82d974585f4ebb5bb945cae7f9bbf73e6219564c0aa61f4491b96836
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a static explanatory article, not a tool, SDK, agent, or infrastructure that developers can use or integrate into workflows.
+      decision_evidence:
+        - URL points to a Neuron AI explainer article, not a GitHub repo or tool
+        - Source-list context shows it's listed only as an 'Article & thread' in the awesome-jev directory
+        - No evidence of code, installation, usage, or developer-facing functionality
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

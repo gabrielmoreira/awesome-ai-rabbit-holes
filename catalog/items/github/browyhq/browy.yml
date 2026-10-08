@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__browyhq__browy__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,9 +19,7 @@ provenance:
           - Coding Agents
         anchor_text: Browy
         extracted_url: https://github.com/browyhq/browy
-        surrounding_text: >-
-          - **[Browy](https://github.com/BrowyHQ/browy)** – Open-source AI agent for Chrome that drives real browser
-          tabs through chat, with a built-in DevTools CLI terminal for power users. Powered by the GitHub Copilot SDK.
+        surrounding_text: "- **[Browy](https://github.com/BrowyHQ/browy)** – Open-source AI agent for Chrome that drives real browser tabs through chat, with a built-in DevTools CLI terminal for power users. Powered by the GitHub Copilot SDK."
         confidence: high
 metadata:
   github:
@@ -31,11 +29,9 @@ metadata:
     archived: false
     full_name: BrowyHQ/browy
     html_url: https://github.com/BrowyHQ/browy
-    created_at: '2026-04-27T16:37:59Z'
-    pushed_at: '2026-09-24T11:22:41Z'
-    description: >-
-      The browser agent that runs on the AI subscription you already pay for. Drives real tabs through chat, from a side
-      panel or a DevTools REPL.
+    created_at: "2026-04-27T16:37:59Z"
+    pushed_at: "2026-09-24T11:22:41Z"
+    description: The browser agent that runs on the AI subscription you already pay for. Drives real tabs through chat, from a side panel or a DevTools REPL.
     homepage: https://browyhq.github.io/docs/
     topics:
       - agent
@@ -56,14 +52,12 @@ metadata:
       - open-source
       - skyvern-alternative
       - web-automation
-    last_checked_at: '2026-09-29T13:09:37.581Z'
+    last_checked_at: "2026-09-29T13:09:37.581Z"
     readme:
-      fetched_at: '2026-09-29T13:09:37.581Z'
+      fetched_at: "2026-09-29T13:09:37.581Z"
       bytes: 12669
 insights:
-  summary: >-
-    The browser agent that runs on the AI subscription you already pay for. Drives real tabs through chat, from a side
-    panel or a DevTools REPL.
+  summary: The browser agent that runs on the AI subscription you already pay for. Drives real tabs through chat, from a side panel or a DevTools REPL.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -83,15 +77,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.450Z'
+    updated_at: "2026-09-29T13:07:10.450Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:37.581Z'
+    updated_at: "2026-09-29T13:09:37.581Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

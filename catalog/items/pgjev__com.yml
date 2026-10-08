@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pgjev__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://pgjev.com
-        surrounding_text: >-
-          - [pg-jev](https://github.com/realZachi/pg-jev) ([site](https://pgjev.com)) - Ask your Postgres tables
-          questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev.
+        surrounding_text: "- [pg-jev](https://github.com/realZachi/pg-jev) ([site](https://pgjev.com)) - Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev."
         confidence: high
 metadata:
   github:
@@ -38,29 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    pg-jev (site) - Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's
-    Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: pgjev is a PostgreSQL extension that adds SQL functions for natural-language filtering, classification, scoring, and choice via the Jev decision model.
+  why_it_matters: It lets developers query and manipulate database rows using plain English conditions instead of writing complex SQL or application-layer logic.
+  mental_damage: Finally, a way to replace your CASE statements with vibe-based database queries that cost fractions of a cent per scan.
+  tags:
+    - postgres
+    - sql
+    - decision-models
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  reason: pgjev's core identity is exposing the Jev decision model as SQL functions for probabilistic judgments, making it a decision-model tool rather than a coding agent, framework, or extension.
   evidence:
-    - jev-latest choice confidence 0.62
+    - "Scraped site context: 'jev() returns a boolean, a probability, a rubric score or a class per row. No embeddings, no index.'"
+    - "README excerpt: 'The core job is answering typed questions with probabilities: classification, routing, triage, scoring, ranking, verification, or guardrails.'"
+    - "Source-list context: listed in awesome-jev under Integrations for Jev, a TypeSafe AI System One model."
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Search, Retrieval & Data
+  section: Cloud Gateways & Providers
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:47.706Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:50c7947ff508df883647b9c48134e3ae050df9c2a2f95266b6680d991c7e0ae0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: pgjev's core identity is exposing the Jev decision model as SQL functions for probabilistic judgments, making it a decision-model tool rather than a coding agent, framework, or extension.
+      decision_evidence:
+        - "Scraped site context: 'jev() returns a boolean, a probability, a rubric score or a class per row. No embeddings, no index.'"
+        - "README excerpt: 'The core job is answering typed questions with probabilities: classification, routing, triage, scoring, ranking, verification, or guardrails.'"
+        - "Source-list context: listed in awesome-jev under Integrations for Jev, a TypeSafe AI System One model."
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because pgjev's primary identity is the Jev decision model itself, not an integration layer for another agent or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

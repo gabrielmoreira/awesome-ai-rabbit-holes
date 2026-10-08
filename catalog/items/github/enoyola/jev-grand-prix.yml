@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__enoyola__jev-grand-prix__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: jev-grand-prix
         extracted_url: https://github.com/enoyola/jev-grand-prix
-        surrounding_text: >-
-          - [jev-grand-prix](https://github.com/enoyola/jev-grand-prix) - An F1 racing game where TypeSafe's Jev picks
-          the racing line and the pedals, and learns each corner's limit between laps.
+        surrounding_text: "- [jev-grand-prix](https://github.com/enoyola/jev-grand-prix) - An F1 racing game where TypeSafe's Jev picks the racing line and the pedals, and learns each corner's limit between laps."
         confidence: high
     - id: discovery__github__enoyola__jev-grand-prix__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Jev Grand Prix
         extracted_url: https://github.com/enoyola/jev-grand-prix
-        surrounding_text: >-
-          - [Jev Grand Prix](https://github.com/enoyola/jev-grand-prix) - `Open source` · `Free source build` · `BYOK`.
-          Local F1 race: TypeSafe Jev picks line and pedals; code steers and plans next laps. [Project
-          guide](community/projects/apps/jev-grand-prix.md).
+        surrounding_text: "- [Jev Grand Prix](https://github.com/enoyola/jev-grand-prix) - `Open source` · `Free source build` · `BYOK`. Local F1 race: TypeSafe Jev picks line and pedals; code steers and plans next laps. [Project guide](community/projects/apps/jev-grand-prix.md)."
         confidence: high
 metadata:
   github:
@@ -50,16 +45,14 @@ metadata:
     archived: false
     full_name: enoyola/jev-grand-prix
     html_url: https://github.com/enoyola/jev-grand-prix
-    created_at: '2026-09-20T23:50:10Z'
-    pushed_at: '2026-09-21T05:09:37Z'
-    description: >-
-      An F1 racing game where TypeSafe's Jev picks the racing line and the pedals, and learns each corner's limit
-      between laps
+    created_at: "2026-09-20T23:50:10Z"
+    pushed_at: "2026-09-21T05:09:37Z"
+    description: An F1 racing game where TypeSafe's Jev picks the racing line and the pedals, and learns each corner's limit between laps
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:01.576Z'
+    last_checked_at: "2026-09-29T13:11:01.576Z"
     readme:
-      fetched_at: '2026-09-29T13:11:01.576Z'
+      fetched_at: "2026-09-29T13:11:01.576Z"
       bytes: 6748
 insights:
   summary: null
@@ -82,15 +75,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:01.576Z'
+    updated_at: "2026-09-29T13:11:01.576Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

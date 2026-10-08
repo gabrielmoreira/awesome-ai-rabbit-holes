@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__coinpaprika__coinpaprika-mcp__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -20,11 +20,7 @@ provenance:
           - 💰 Finance & Fintech
         anchor_text: coinpaprika/coinpaprika-mcp
         extracted_url: https://github.com/coinpaprika/coinpaprika-mcp
-        surrounding_text: >-
-          -   **[coinpaprika/coinpaprika-mcp](https://github.com/coinpaprika/coinpaprika-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/coinpaprika/coinpaprika-mcp?style=social)](https://github.com/coinpaprika/coinpaprika-mcp):
-          Crypto market data for 12,000+ coins and 350+ exchanges. Tickers, OHLCV, historical prices. Free tier, no API
-          key required.
+        surrounding_text: "-   **[coinpaprika/coinpaprika-mcp](https://github.com/coinpaprika/coinpaprika-mcp)** [![GitHub stars](https://img.shields.io/github/stars/coinpaprika/coinpaprika-mcp?style=social)](https://github.com/coinpaprika/coinpaprika-mcp): Crypto market data for 12,000+ coins and 350+ exchanges. Tickers, OHLCV, historical prices. Free tier, no API key required."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: coinpaprika/coinpaprika-mcp
     html_url: https://github.com/coinpaprika/coinpaprika-mcp
-    created_at: '2026-03-19T10:19:25Z'
-    pushed_at: '2026-08-19T09:02:19Z'
+    created_at: "2026-03-19T10:19:25Z"
+    pushed_at: "2026-08-19T09:02:19Z"
     description: MCP server for CoinPaprika cryptocurrency market data API - prices, tickers, exchanges, OHLCV, and more
     homepage: https://mcp.coinpaprika.com
     topics:
@@ -49,9 +45,9 @@ metadata:
       - market-data
       - mcp
       - model-context-protocol
-    last_checked_at: '2026-09-29T13:10:04.073Z'
+    last_checked_at: "2026-09-29T13:10:04.073Z"
     readme:
-      fetched_at: '2026-09-29T13:10:04.073Z'
+      fetched_at: "2026-09-29T13:10:04.073Z"
       bytes: 11789
 insights:
   summary: MCP server for CoinPaprika cryptocurrency market data API - prices, tickers, exchanges, OHLCV, and more
@@ -74,15 +70,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:04.073Z'
+    updated_at: "2026-09-29T13:10:04.073Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

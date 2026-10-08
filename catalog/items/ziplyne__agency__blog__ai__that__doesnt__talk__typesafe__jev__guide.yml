@@ -5,9 +5,8 @@ canonical_url: https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guid
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__ziplyne__agency__blog__ai__that__doesnt__talk__typesafe__jev__guide__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__ziplyne__agency__blog__ai__that__doesnt__talk__typesafe__jev__guide__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +18,7 @@ provenance:
           - Articles & threads
         anchor_text: AI that does not talk
         extracted_url: https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guide
-        surrounding_text: >-
-          - [AI that does not talk](https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guide) - Practical
-          guide: playground, Python and JS SDKs, raw HTTP, and the agent skill.
+        surrounding_text: "- [AI that does not talk](https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guide) - Practical guide: playground, Python and JS SDKs, raw HTTP, and the agent skill."
         confidence: high
 metadata:
   github:
@@ -39,31 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe's Jev is a hosted decision model API that returns typed values (Choice, Score, Noul) with confidence scores instead of prose.
+  why_it_matters: It lets developers automate judgment calls with measurable uncertainty, avoiding the need to parse model output or guess when the AI is wrong.
+  mental_damage: Finally, an AI that admits when it’s bullshitting — now your ticket router can passive-aggressively punt to a human.
+  tags:
+    - decision-models
+    - typed-ai
+    - confidence-scoring
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev is a hosted decision model that returns structured, typed answers with calibrated confidence, making it a canonical example of the decision-models category.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - Returns Choice, Score, and Noul types with probabilities and confidence instead of generating text
+    - Designed for judgment calls like routing support tickets, where output must be a fixed schema (e.g., billing/technical/sales)
+    - Listed in awesome-jev under 'Articles & threads' as a project built on TypeSafe's Jev model
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - awesome-awesomes
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:51:02.593Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:88c880f6249706cb4529421e9859edc30ac6d8118e5cd8f09462f59f3c29f61d
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a hosted decision model that returns structured, typed answers with calibrated confidence, making it a canonical example of the decision-models category.
+      decision_evidence:
+        - Returns Choice, Score, and Noul types with probabilities and confidence instead of generating text
+        - Designed for judgment calls like routing support tickets, where output must be a fixed schema (e.g., billing/technical/sales)
+        - Listed in awesome-jev under 'Articles & threads' as a project built on TypeSafe's Jev model
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev does not write or edit code — it returns typed judgments for use in automation workflows, making it a decision layer, not a coding agent.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

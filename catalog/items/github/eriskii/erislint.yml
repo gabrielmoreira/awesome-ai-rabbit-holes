@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__eriskii__erislint__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Agent tooling (228)
         anchor_text: ErisLint
         extracted_url: https://github.com/eriskii/erislint
-        surrounding_text: >-
-          | [ErisLint](https://github.com/Eriskii/ErisLint) | ★ 19 | Rust | 2026-09-23 | Rust linter powered by
-          configurable Jev rules, with a VS Code extension. |
+        surrounding_text: "| [ErisLint](https://github.com/Eriskii/ErisLint) | ★ 19 | Rust | 2026-09-23 | Rust linter powered by configurable Jev rules, with a VS Code extension. |"
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: Eriskii/ErisLint
     html_url: https://github.com/Eriskii/ErisLint
-    created_at: '2026-09-18T07:26:11Z'
-    pushed_at: '2026-09-18T08:04:13Z'
+    created_at: "2026-09-18T07:26:11Z"
+    pushed_at: "2026-09-18T08:04:13Z"
     description: Rust linter powered by configurable Jev rules, with a VS Code extension.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:04.108Z'
+    last_checked_at: "2026-09-29T13:11:04.108Z"
     readme:
-      fetched_at: '2026-09-29T13:11:04.108Z'
+      fetched_at: "2026-09-29T13:11:04.108Z"
       bytes: 16471
 insights:
   summary: Rust linter powered by configurable Jev rules, with a VS Code extension.
@@ -62,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.456Z'
+    updated_at: "2026-09-29T13:07:10.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:04.108Z'
+    updated_at: "2026-09-29T13:11:04.108Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

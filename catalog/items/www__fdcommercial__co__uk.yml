@@ -37,18 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: FD Commercial is a UK-based commercial property agency website offering property listings and agent services.
-  why_it_matters: It does not provide developer-facing AI tools, coding agents, or infrastructure relevant to software development workflows.
-  mental_damage: Another reminder that not every .co.uk site with a contact form is secretly an LLM-powered dev platform.
+  summary: A commercial website domain with no provided description or context.
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The site is a commercial real estate brokerage with no AI tooling, developer features, or code-related functionality.
+  reason: The input provides no information or context to suggest this is an AI tool, developer resource, or any relevant product within the catalog scope.
   evidence:
-    - "Repo description: (none)"
-    - "README excerpt: (not provided, but URL is a property agency site)"
-    - No indicators of AI, coding agents, extensions, or developer tooling in available context
+    - No repo description available
+    - No README or scraped site context provided
 placement:
   primary_category: null
   secondary_categories: []
@@ -68,24 +67,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:26:06.070Z"
+    updated_at: "2026-10-08T04:17:49.248Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:f482f45a2af15ee800626d65b8dbad2517da10d62be92263d471248279d54601
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a commercial real estate brokerage with no AI tooling, developer features, or code-related functionality.
+      decision_reason: The input provides no information or context to suggest this is an AI tool, developer resource, or any relevant product within the catalog scope.
       decision_evidence:
-        - "Repo description: (none)"
-        - "README excerpt: (not provided, but URL is a property agency site)"
-        - No indicators of AI, coding agents, extensions, or developer tooling in available context
+        - No repo description available
+        - No README or scraped site context provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

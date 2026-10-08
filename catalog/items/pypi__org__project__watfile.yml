@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__watfile__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://pypi.org/project/watfile
-        surrounding_text: >-
-          - [watfile](https://github.com/jexp/watfile) ([site](https://pypi.org/project/watfile/)) - Text/PDF - File
-          categorization and sorting with Typesafe AI Jev or local calibrated decision model.
+        surrounding_text: "- [watfile](https://github.com/jexp/watfile) ([site](https://pypi.org/project/watfile/)) - Text/PDF - File categorization and sorting with Typesafe AI Jev or local calibrated decision model."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: watfile (site) - Text/PDF - File categorization and sorting with Typesafe AI Jev or local calibrated decision model.
-  why_it_matters: null
-  mental_damage: null
+  summary: watfile appears to be a broken or placeholder PyPI listing with no functional description or working homepage.
+  why_it_matters: It does not currently provide any discernible utility to developers due to its non-functional state.
+  mental_damage: Another dead link in the PyPI graveyard, reminding us that not every package dreams of being useful.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: The project lacks any usable identity, description, or functional presence, making it impossible to assess as a developer tool.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Repo description is missing.
+    - PyPI page shows a loading error and no substantive content.
+    - No README, source code, or homepage is accessible via the provided URL.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:40.719Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:708dc09a131fca397fb0411994e14f1662380e305ac8db182b923a7c464b7dad
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks any usable identity, description, or functional presence, making it impossible to assess as a developer tool.
+      decision_evidence:
+        - Repo description is missing.
+        - PyPI page shows a loading error and no substantive content.
+        - No README, source code, or homepage is accessible via the provided URL.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

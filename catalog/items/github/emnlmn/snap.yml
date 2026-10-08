@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__emnlmn__snap__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Demos & playgrounds
         anchor_text: snap
         extracted_url: https://github.com/emnlmn/snap
-        surrounding_text: >-
-          - [snap](https://github.com/emnlmn/snap) - Typed decisions from unstructured state: one forward pass, zero
-          generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai.
+        surrounding_text: "- [snap](https://github.com/emnlmn/snap) - Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai."
         confidence: high
     - id: discovery__github__emnlmn__snap__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Jev-like models (72)
         anchor_text: snap
         extracted_url: https://github.com/emnlmn/snap
-        surrounding_text: >-
-          | [snap](https://github.com/emnlmn/snap) | ★ 17 | Rust | 2026-09-24 | Local Jev-compatible typed decisions
-          from unstructured state in one forward pass. |
+        surrounding_text: "| [snap](https://github.com/emnlmn/snap) | ★ 17 | Rust | 2026-09-24 | Local Jev-compatible typed decisions from unstructured state in one forward pass. |"
         confidence: high
 metadata:
   github:
@@ -49,11 +45,9 @@ metadata:
     archived: false
     full_name: emnlmn/snap
     html_url: https://github.com/emnlmn/snap
-    created_at: '2026-09-23T14:17:33Z'
-    pushed_at: '2026-09-28T21:04:08Z'
-    description: >-
-      Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic,
-      Jev-compatible. Not affiliated with typesafe.ai.
+    created_at: "2026-09-23T14:17:33Z"
+    pushed_at: "2026-09-28T21:04:08Z"
+    description: "Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai."
     homepage: https://typesafe.ai
     topics:
       - decision-engine
@@ -64,14 +58,12 @@ metadata:
       - local-llm
       - rust
       - structured-outputs
-    last_checked_at: '2026-09-29T13:11:00.552Z'
+    last_checked_at: "2026-09-29T13:11:00.552Z"
     readme:
-      fetched_at: '2026-09-29T13:11:00.552Z'
+      fetched_at: "2026-09-29T13:11:00.552Z"
       bytes: 33671
 insights:
-  summary: >-
-    Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic,
-    Jev-compatible. Not affiliated with typesafe.ai.
+  summary: "Typed decisions from unstructured state: one forward pass, zero generated text. Local, deterministic, Jev-compatible. Not affiliated with typesafe.ai."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -91,15 +83,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:00.552Z'
+    updated_at: "2026-09-29T13:11:00.552Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

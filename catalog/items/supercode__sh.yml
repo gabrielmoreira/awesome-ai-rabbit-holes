@@ -36,19 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Supercode.sh is an extension for Claude, Codex, and Cursor that optimizes token usage, provides curated agent skills, and enables spec-driven development.
-  why_it_matters: It reduces token waste and improves agent reliability for developers using AI coding assistants by adding structured skills and context management.
-  mental_damage: Another layer between you and the AI, promising to fix the very inefficiencies introduced by relying on AI to write code.
+  summary: Supercode.sh is a paid extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor agents.
+  why_it_matters: It reduces context waste and improves agent output quality, lowering token costs while maintaining or improving coding assistance.
+  mental_damage: Another layer of subscription friction between you and the AI that already feels like it’s charging you by the sigh.
   tags:
-    - ai-extension
+    - extensions
     - token-optimization
-    - agent-skills
+    - skills-catalog
   confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in extensions-and-addons / Claude Code & Agent Tools
+  reason: Supercode.sh is an extension that augments existing coding agents (Claude, Codex, Cursor) with token optimization, skills, and workflows, rather than acting as a standalone agent or framework.
   evidence:
-    - jev-latest choice confidence 0.76
+    - Marketed as 'Supercode Extension for Claude, Codex and Cursor' with install links for each
+    - Core features include token usage reduction (up to 60%), curated agent Skills, and project context built for reliable AI coding
+    - Positioned as bringing 'agentic experience to the next level' by improving existing agents, not replacing them
 placement:
   primary_category: extensions-and-addons
   secondary_categories: []
@@ -67,32 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T04:50:53.802Z"
-    cause:
-      type: invalid_llm_json
-      message: |-
-        Catalog LLM categorization failed for supercode__sh: Invalid AI response format: SyntaxError: Unexpected token ''', ..."ll'",
-            'Core feat"... is not valid JSON
-    attempts: 4
+    status: done
+    updated_at: "2026-10-08T04:29:14.429Z"
+    cause: null
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: c367d6101132
+    category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
-      category_rules_version: c367d6101132
-      input_hash: sha256:913b4dd4186defd88b1651860c171e4c138ab09d4e21b791a2b5c7ddca30f552
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:6427b41ba17d37499ebedac627caef62a05fd3bb09aa9a5fbd8139c6ef8649f4
       proposed_primary_category: extensions-and-addons
       disagreement: false
-      decision_reason: Supercode.sh primarily augments existing AI coding assistants (Claude, Codex, Cursor) with token optimization, skill installation, and spec-driven workflows rather than acting as a standalone coding agent.
+      decision_reason: Supercode.sh is an extension that augments existing coding agents (Claude, Codex, Cursor) with token optimization, skills, and workflows, rather than acting as a standalone agent or framework.
       decision_evidence:
-        - Marketed as 'Supercode Extension for Claude, Codex and Cursor'
-        - Claims to 'Cut token usage by up to 60%' and provides 'Built-in skills catalog'
-        - "Positions itself as enhancing agent output: 'Faster, better agent output. Less context waste.'"
+        - Marketed as 'Supercode Extension for Claude, Codex and Cursor' with install links for each
+        - Core features include token usage reduction (up to 60%), curated agent Skills, and project context built for reliable AI coding
+        - Positioned as bringing 'agentic experience to the next level' by improving existing agents, not replacing them
       category_candidates:
         - extensions-and-addons
         - coding-agents
-      contrastive_reason: Choose extensions-and-addons over coding-agents because Supercode.sh’s primary identity is enhancing host agents via skills and token optimization, not autonomously performing coding tasks itself.
+      contrastive_reason: Choose extensions-and-addons over coding-agents because Supercode.sh primarily augments existing agents (Claude, Codex, Cursor) rather than acting as a primary coding agent itself.
       review_reason: null
       review_resume_lifecycle: null

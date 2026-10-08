@@ -1,13 +1,12 @@
 id: theregister__com__ai__and__ml__2026__09__16__typesafe__ai__debuts__model__for__machines__that__plays__doom__5296711
 kind: website
-name: '5296711'
+name: "5296711"
 canonical_url: https://theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__theregister__com__ai__and__ml__2026__09__16__typesafe__ai__debuts__model__for__machines__that__plays__doom__5296711__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__theregister__com__ai__and__ml__2026__09__16__typesafe__ai__debuts__model__for__machines__that__plays__doom__5296711__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +18,7 @@ provenance:
           - Articles & threads
         anchor_text: TypeSafe AI debuts model for machines that plays Doom
         extracted_url: https://theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711
-        surrounding_text: >-
-          - [TypeSafe AI debuts model for machines that plays
-          Doom](https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711)
-          - The Register on the launch, the Doom demo, and the $40M seed round.
+        surrounding_text: "- [TypeSafe AI debuts model for machines that plays Doom](https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711) - The Register on the launch, the Doom demo, and the $40M seed round."
         confidence: high
 metadata:
   github:
@@ -40,26 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI's Jev is a System One decision model that returns typed probabilistic outputs for software consumption rather than natural language.
+  why_it_matters: It enables faster, structured AI decisions for automation workflows by eliminating text parsing overhead in agent tool calls.
+  mental_damage: Another model claiming to solve hallucination by sidestepping language entirely, as if developers haven't suffered enough from opaque JSON blobs.
+  tags:
+    - decision-model
+    - typed-output
+    - ai-automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: included
+  reason: The product's core identity is a decision model returning typed probabilistic judgments (Choice, Score, Noul) for software consumption, fitting the decision-models category's definition exactly.
   evidence:
-    - jev winnow:e4b 0.44 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - "Jev returns typed probabilistic decisions like {\"billing\": 0.08, \"technical\": 0.85, \"sales\": 0.07} instead of natural language"
+    - Designed for machine-native AI interaction with software, not human chat, enabling use in agent tool calls and automation
+    - Positioned as a System One model using RLCD architecture for faster, structured responses in AI workflows
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:14.685Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:693251a9c46d9826ece7190bec72274edd909485685ed7ce1f492e9a75ad0586
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model returning typed probabilistic judgments (Choice, Score, Noul) for software consumption, fitting the decision-models category's definition exactly.
+      decision_evidence:
+        - "Jev returns typed probabilistic decisions like {\"billing\": 0.08, \"technical\": 0.85, \"sales\": 0.07} instead of natural language"
+        - Designed for machine-native AI interaction with software, not human chat, enabling use in agent tool calls and automation
+        - Positioned as a System One model using RLCD architecture for faster, structured responses in AI workflows
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's primary identity is returning typed judgments for software consumption, not performing coding tasks like writing or editing code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

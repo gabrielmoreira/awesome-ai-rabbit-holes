@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mice__jev__carsonsweet__com__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Game & Simulation
         anchor_text: Jev-mice
         extracted_url: https://mice.jev.carsonsweet.com
-        surrounding_text: >-
-          - [Jev-mice](https://mice.jev.carsonsweet.com/) - Simulation: a mouse colony whose behaviour runs through Jev
-          decisions on top of a deterministic engine.
+        surrounding_text: "- [Jev-mice](https://mice.jev.carsonsweet.com/) - Simulation: a mouse colony whose behaviour runs through Jev decisions on top of a deterministic engine."
         confidence: high
 metadata:
   github:
@@ -39,16 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
+  summary: jev-mice is a personal or experimental project hosted at mice.jev.carsonsweet.com with no clear description or developer-facing tooling identity.
+  why_it_matters: It is unclear what functional value this provides to software developers based on the available inputs.
+  mental_damage: Another enigmatic URL in the AI wilderness that promises nothing and delivers even less, leaving developers to wonder if they missed a memo.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The project lacks any discernible identity as a developer tool, agent, framework, or infrastructure component; it appears to be a personal site with no documented functionality.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - Repo description is missing
+    - README excerpt is not provided
+    - Scraped site context only shows title 'jev-mice' with no description
+    - Source-list placement is in a 'Game & Simulation' section under an awesome list, indicating non-tool content
 placement:
   primary_category: null
   secondary_categories: []
@@ -59,7 +60,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,6 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:40.110Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7cfc3b2ee2ab0b7a5e3ef4ccac2d9c6814783e640bac7a40ac2f3ca8c891932f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks any discernible identity as a developer tool, agent, framework, or infrastructure component; it appears to be a personal site with no documented functionality.
+      decision_evidence:
+        - Repo description is missing
+        - README excerpt is not provided
+        - Scraped site context only shows title 'jev-mice' with no description
+        - Source-list placement is in a 'Game & Simulation' section under an awesome list, indicating non-tool content
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

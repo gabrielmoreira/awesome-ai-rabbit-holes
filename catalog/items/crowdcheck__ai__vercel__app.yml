@@ -67,9 +67,30 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-05T05:03:43.740Z"
+    updated_at: "2026-10-08T04:37:40.684Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for crowdcheck__ai__vercel__app: Invalid AI response structure: Missing required field: why_it_matters"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for crowdcheck__ai__vercel__app: ```json
+        {
+          "summary": "A web application serving as a demonstration for the Jev decision model.",
+          "why_it_matters": "It illustrates how decision-model-based judgments can be implemented in a functional application.",
+          "mental_damage": "Another shiny Vercel deployment to visit while you wait for your own RAG pipeline to actually find a relevant document.",
+          "tags": [
+            "jev",
+            "decision-models",
+            "demo"
+          ],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "The project is identified as a demo or playground application for the Jev decision model, making it a showcase rather than a practical developer tool or infrastructure component.",
+          "decision_evidence": [
+            "Categorized specifically under 'Demos & playgrounds' in its source list",
+            "Lacks any repository description or README to establish it as a developer-facing tool"
+          ],
+          "category_candidates": [],
+          "contrastive_reason": null,
+          "confidence
     next_retry_at: null
-    attempts: 1
+    attempts: 2

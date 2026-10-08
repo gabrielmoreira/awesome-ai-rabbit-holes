@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__fatwang2__awesome-jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Other lists
         anchor_text: awesome-jev (fatwang2)
         extracted_url: https://github.com/fatwang2/awesome-jev
-        surrounding_text: >-
-          - [awesome-jev (fatwang2)](https://github.com/fatwang2/awesome-jev) - A source-backed Jev project directory
-          with a reusable Jev-only GitHub review workflow.
+        surrounding_text: "- [awesome-jev (fatwang2)](https://github.com/fatwang2/awesome-jev) - A source-backed Jev project directory with a reusable Jev-only GitHub review workflow."
         confidence: high
     - id: discovery__github__fatwang2__awesome-jev__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -37,9 +35,7 @@ provenance:
           - Other lists (41)
         anchor_text: awesome-jev (fatwang2)
         extracted_url: https://github.com/fatwang2/awesome-jev
-        surrounding_text: >-
-          | [awesome-jev (fatwang2)](https://github.com/fatwang2/awesome-jev) | ★ 166 | JavaScript | 2026-09-19 | A
-          source-backed Jev project directory with a reusable Jev-only GitHub review workflow. |
+        surrounding_text: "| [awesome-jev (fatwang2)](https://github.com/fatwang2/awesome-jev) | ★ 166 | JavaScript | 2026-09-19 | A source-backed Jev project directory with a reusable Jev-only GitHub review workflow. |"
         confidence: high
 metadata:
   github:
@@ -49,8 +45,8 @@ metadata:
     archived: false
     full_name: fatwang2/awesome-jev
     html_url: https://github.com/fatwang2/awesome-jev
-    created_at: '2026-09-18T02:45:39Z'
-    pushed_at: '2026-09-24T06:47:17Z'
+    created_at: "2026-09-18T02:45:39Z"
+    pushed_at: "2026-09-24T06:47:17Z"
     description: A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.
     homepage: null
     topics:
@@ -60,9 +56,9 @@ metadata:
       - jev
       - open-source
       - typesafe
-    last_checked_at: '2026-09-29T13:11:12.838Z'
+    last_checked_at: "2026-09-29T13:11:12.838Z"
     readme:
-      fetched_at: '2026-09-29T13:11:12.838Z'
+      fetched_at: "2026-09-29T13:11:12.838Z"
       bytes: 36213
 insights:
   summary: A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.
@@ -85,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:12.838Z'
+    updated_at: "2026-09-29T13:11:12.838Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

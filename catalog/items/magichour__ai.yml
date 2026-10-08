@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__magichour__ai__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,11 +19,7 @@ provenance:
           - 💻 Developer Tools
         anchor_text: Magic Hour
         extracted_url: https://magichour.ai
-        surrounding_text: >-
-          -   **[magichourhq/magic-hour-mcp](https://github.com/magichourhq/magic-hour-mcp)** [![GitHub
-          stars](https://img.shields.io/github/stars/magichourhq/magic-hour-mcp?style=social)](https://github.com/magichourhq/magic-hour-mcp):
-          Official hosted MCP server for [Magic Hour](https://magichour.ai), providing AI video, image, and audio
-          generation and editing tools.
+        surrounding_text: "-   **[magichourhq/magic-hour-mcp](https://github.com/magichourhq/magic-hour-mcp)** [![GitHub stars](https://img.shields.io/github/stars/magichourhq/magic-hour-mcp?style=social)](https://github.com/magichourhq/magic-hour-mcp): Official hosted MCP server for [Magic Hour](https://magichour.ai), providing AI video, image, and audio generation and editing tools."
         confidence: high
 metadata:
   github:
@@ -41,13 +37,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    magichourhq/magic-hour-mcp : Official hosted MCP server for Magic Hour, providing AI video, image, and audio
-    generation and editing tools.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Magic Hour AI is a web-based platform offering 100+ AI tools for generating, editing, and animating images, video, and audio from text or media inputs.
+  why_it_matters: It provides developers with APIs and SDKs (Python, Node, Go, Rust) to integrate AI media generation and editing into applications via a unified REST interface.
+  mental_damage: Another 'one studio to rule them all' promise that makes you wonder if the real product is just uploading your face to 50 different tools before lunch.
+  tags:
+    - api
+    - media-generation
+    - sdk
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in mcp / AI & Model Services
@@ -56,14 +53,14 @@ curation:
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: AI & Model Services
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:29.124Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:55607f6366e37f3eadde7244f9f8387f245c65dfd1250b8a7201d3a92fb1921d
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: Magic Hour AI is included because it offers developer-facing SDKs and API abstractions for AI media generation, fitting the Frameworks & SDKs category as a code-first library developers import to build applications, not as a standalone agent or orchestration platform.
+      decision_evidence:
+        - "Scraped site context: 'Build with the Magic Hour API — Generate AI videos and images from text or media through one REST API, with SDKs for Python, Node, Go, and Rust.'"
+        - "Scraped site context: Code examples show importing and using the SDK in Python, Node.js, Go, and Rust to call media generation endpoints."
+        - "Source-list context: Listed in awesome-mcp-list under 'Contributing > 💻 Developer Tools' as a developer-facing tool."
+      category_candidates:
+        - ai-frameworks
+        - app-builders
+      contrastive_reason: Choose ai-frameworks over app-builders because Magic Hour’s primary identity is providing SDKs and API abstractions for developers to integrate media generation into their own code, not generating deployable apps from prompts as the main user experience.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

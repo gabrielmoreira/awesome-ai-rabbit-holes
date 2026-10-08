@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__typesafe__ai__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,10 @@ provenance:
           - README
         anchor_text: Jev
         extracted_url: https://typesafe.ai
-        surrounding_text: '> Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI''s System One model.'
+        surrounding_text: "> Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model."
         confidence: high
     - id: discovery__typesafe__ai__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -33,13 +33,10 @@ provenance:
           - About Awesome Jev
         anchor_text: Jev
         extracted_url: https://typesafe.ai
-        surrounding_text: >-
-          Awesome Jev is an independent, community-maintained catalog of **944 open-source projects** built with
-          [Jev](https://typesafe.ai/), TypeSafe AI's System One model for typed decisions inside software. It is not
-          affiliated with or endorsed by TypeSafe AI.
+        surrounding_text: Awesome Jev is an independent, community-maintained catalog of **944 open-source projects** built with [Jev](https://typesafe.ai/), TypeSafe AI's System One model for typed decisions inside software. It is not affiliated with or endorsed by TypeSafe AI.
         confidence: high
     - id: discovery__typesafe__ai__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -51,7 +48,7 @@ provenance:
           - Official resources
         anchor_text: TypeSafe AI
         extracted_url: https://typesafe.ai
-        surrounding_text: '- [TypeSafe AI](https://typesafe.ai/) - Product overview and early-access entry point.'
+        surrounding_text: "- [TypeSafe AI](https://typesafe.ai/) - Product overview and early-access entry point."
         confidence: high
 metadata:
   github:
@@ -69,11 +66,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: '> Directory of projects built on Jev, TypeSafe AI''s System One model.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe AI provides Jev, a System One Model that outputs typed decisions with calibrated confidence for software automation.
+  why_it_matters: Developers can integrate Jev to get reliable, type-safe model outputs that include uncertainty estimates for automated decision-making in code.
+  mental_damage: Another AI model promising to replace LLMs with 'better' decisions, adding yet another layer to the model selection paralysis.
+  tags:
+    - decision-model
+    - typed-output
+    - automation
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -82,14 +82,14 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'decision-models'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.407Z'
+    updated_at: "2026-09-29T13:07:10.407Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,6 +97,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:38.774Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:00f80f5b297e7fee79f19342d96c1784d6688632544a9f12214481468f04745b
+      proposed_primary_category: decision-models
+      disagreement: true
+      decision_reason: TypeSafe AI's core product is Jev, a decision model that returns typed judgments with probabilities, fitting the decision-models category identity rather than being a coding agent or framework.
+      decision_evidence:
+        - TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software.
+        - Jev returns typed decisions with calibrated probabilities, so your software can account for uncertainty.
+        - Seen in source lists as 'TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation'.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's identity is a decision model returning typed outputs, not an agent performing coding tasks.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'decision-models'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

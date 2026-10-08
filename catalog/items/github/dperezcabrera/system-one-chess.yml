@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dperezcabrera__system-one-chess__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Games & simulations
         anchor_text: system-one-chess
         extracted_url: https://github.com/dperezcabrera/system-one-chess
-        surrounding_text: >-
-          - [system-one-chess](https://github.com/dperezcabrera/system-one-chess) - Chess against Jev, TypeSafe AI's
-          System One model, through OpenRouter. Built with the pico framework.
+        surrounding_text: "- [system-one-chess](https://github.com/dperezcabrera/system-one-chess) - Chess against Jev, TypeSafe AI's System One model, through OpenRouter. Built with the pico framework."
         confidence: high
     - id: discovery__github__dperezcabrera__system-one-chess__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,10 +35,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: system-one-chess
         extracted_url: https://github.com/dperezcabrera/system-one-chess
-        surrounding_text: >-
-          - [system-one-chess](https://github.com/dperezcabrera/system-one-chess) - Browser chess vs TypeSafe Jev
-          (Vercel AI Gateway or OpenRouter) with Stockfish analysis; optional local Laya (GPL-3.0). [Project
-          guide](community/projects/tools/system-one-chess.md).
+        surrounding_text: "- [system-one-chess](https://github.com/dperezcabrera/system-one-chess) - Browser chess vs TypeSafe Jev (Vercel AI Gateway or OpenRouter) with Stockfish analysis; optional local Laya (GPL-3.0). [Project guide](community/projects/tools/system-one-chess.md)."
         confidence: high
 metadata:
   github:
@@ -50,14 +45,14 @@ metadata:
     archived: false
     full_name: dperezcabrera/system-one-chess
     html_url: https://github.com/dperezcabrera/system-one-chess
-    created_at: '2026-09-21T19:03:30Z'
-    pushed_at: '2026-09-23T09:14:13Z'
+    created_at: "2026-09-21T19:03:30Z"
+    pushed_at: "2026-09-23T09:14:13Z"
     description: Chess against Jev, TypeSafe AI's System One model, through OpenRouter. Built with the pico framework.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:47.947Z'
+    last_checked_at: "2026-09-29T13:10:47.947Z"
     readme:
-      fetched_at: '2026-09-29T13:10:47.947Z'
+      fetched_at: "2026-09-29T13:10:47.947Z"
       bytes: 36150
 insights:
   summary: Chess against Jev, TypeSafe AI's System One model, through OpenRouter. Built with the pico framework.
@@ -80,15 +75,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:47.947Z'
+    updated_at: "2026-09-29T13:10:47.947Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

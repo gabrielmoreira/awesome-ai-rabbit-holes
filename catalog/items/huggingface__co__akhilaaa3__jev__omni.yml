@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__akhilaaa3__jev__omni__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: Jev-Omni
         extracted_url: https://huggingface.co/akhilaaa3/Jev-Omni
-        surrounding_text: >-
-          - [Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni) - Open multimodal System One–style decision classifier
-          (text/image/audio/video → option probabilities) fine-tuned from Gemma 4 12B IT; independent of official Jev.
-          [Project guide](community/projects/tools/jev-omni.md).
+        surrounding_text: "- [Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni) - Open multimodal System One–style decision classifier (text/image/audio/video → option probabilities) fine-tuned from Gemma 4 12B IT; independent of official Jev. [Project guide](community/projects/tools/jev-omni.md)."
         confidence: high
 metadata:
   github:
@@ -40,18 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev-Omni - Open multimodal System One–style decision classifier (text/image/audio/video → option probabilities)
-    fine-tuned from Gemma 4 12B IT; independent of official Jev. Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev-Omni is a multimodal decision classifier that outputs probabilities for text, image, audio, and video inputs based on typed questions and options.
+  why_it_matters: It provides calibrated, multimodal decision-making via a Jev-style model for use in agent workflows requiring structured judgments over diverse inputs.
+  mental_damage: Another model claiming to replace thinking with probabilities, as if uncertainty were just a softmax problem.
+  tags:
+    - decision-model
+    - multimodal
+    - je-v
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: Jev-Omni's core identity is a multimodal decision model that answers typed questions with probabilities, fitting the decision-models category despite its Hugging Face model hosting.
   evidence:
-    - jev-latest choice confidence 0.92
+    - Model card describes it as 'A multimodal decision classifier for text, images, audio and video. Supply a question and options; receive a probability for each option—not a generated explanation.'
+    - Built on Gemma 4 12B IT with fine-tuning on 30,000 questions for decision classification tasks like DecisionBench and JevBench.
+    - Listed in awesome-jev under 'Developer projects and integrations' and 'Calibration & Research', indicating community recognition as a Jev-related decision model.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -62,7 +62,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:08.354Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:969083b6ecb306ee114f0df2ed15ad1f26759a237dae94bbf32a4ca0db3c1297
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev-Omni's core identity is a multimodal decision model that answers typed questions with probabilities, fitting the decision-models category despite its Hugging Face model hosting.
+      decision_evidence:
+        - Model card describes it as 'A multimodal decision classifier for text, images, audio and video. Supply a question and options; receive a probability for each option—not a generated explanation.'
+        - Built on Gemma 4 12B IT with fine-tuning on 30,000 questions for decision classification tasks like DecisionBench and JevBench.
+        - Listed in awesome-jev under 'Developer projects and integrations' and 'Calibration & Research', indicating community recognition as a Jev-related decision model.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because Jev-Omni is a model that performs typed decision classification, not a code-first library or SDK developers import to build applications.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

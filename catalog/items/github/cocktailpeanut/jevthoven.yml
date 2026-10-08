@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__cocktailpeanut__jevthoven__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Applications (129)
         anchor_text: jevthoven
         extracted_url: https://github.com/cocktailpeanut/jevthoven
-        surrounding_text: >-
-          | [jevthoven](https://github.com/cocktailpeanut/jevthoven) | ★ 12 | TypeScript | 2026-09-23 | AI Music (MIDI)
-          generator powered by Jev. |
+        surrounding_text: "| [jevthoven](https://github.com/cocktailpeanut/jevthoven) | ★ 12 | TypeScript | 2026-09-23 | AI Music (MIDI) generator powered by Jev. |"
         confidence: high
     - id: discovery__github__cocktailpeanut__jevthoven__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -35,14 +33,12 @@ provenance:
         mode: parsed
         section_path:
           - Creative Tools
-        anchor_text: '**jevthoven**'
+        anchor_text: "**jevthoven**"
         extracted_url: https://github.com/cocktailpeanut/jevthoven
-        surrounding_text: >-
-          - [**jevthoven**](https://github.com/cocktailpeanut/jevthoven) — Turns a music prompt into editable multitrack
-          MIDI by asking Jev to choose instruments, harmony, and bar patterns.
+        surrounding_text: "- [**jevthoven**](https://github.com/cocktailpeanut/jevthoven) — Turns a music prompt into editable multitrack MIDI by asking Jev to choose instruments, harmony, and bar patterns."
         confidence: high
     - id: discovery__github__cocktailpeanut__jevthoven__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -54,9 +50,7 @@ provenance:
           - Media and creative tools
         anchor_text: Jevthoven
         extracted_url: https://github.com/cocktailpeanut/jevthoven
-        surrounding_text: >-
-          - [Jevthoven](https://github.com/cocktailpeanut/jevthoven) - Symbolic-music studio where Jev chooses plans,
-          instruments, and bar patterns, and code renders editable music and MIDI.
+        surrounding_text: "- [Jevthoven](https://github.com/cocktailpeanut/jevthoven) - Symbolic-music studio where Jev chooses plans, instruments, and bar patterns, and code renders editable music and MIDI."
         confidence: high
 metadata:
   github:
@@ -66,14 +60,14 @@ metadata:
     archived: false
     full_name: cocktailpeanut/jevthoven
     html_url: https://github.com/cocktailpeanut/jevthoven
-    created_at: '2026-09-17T21:25:55Z'
-    pushed_at: '2026-09-18T23:41:16Z'
+    created_at: "2026-09-17T21:25:55Z"
+    pushed_at: "2026-09-18T23:41:16Z"
     description: AI Music (MIDI) generator powered by Jev
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:58.487Z'
+    last_checked_at: "2026-09-29T13:09:58.487Z"
     readme:
-      fetched_at: '2026-09-29T13:09:58.487Z'
+      fetched_at: "2026-09-29T13:09:58.487Z"
       bytes: 6562
 insights:
   summary: AI Music (MIDI) generator powered by Jev
@@ -96,15 +90,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.393Z'
+    updated_at: "2026-09-29T13:07:10.393Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:58.487Z'
+    updated_at: "2026-09-29T13:09:58.487Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

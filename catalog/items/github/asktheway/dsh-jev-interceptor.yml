@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__asktheway__dsh-jev-interceptor__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,13 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: dsh-jev-interceptor
         extracted_url: https://github.com/asktheway/dsh-jev-interceptor
-        surrounding_text: >-
-          - [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) - DeepSeek Harness plugin: TypeSafe
-          Jev risk-gates tool calls (shadow→enforce) and optional session-reference scoring. [Project
-          guide](community/projects/tools/dsh-jev-interceptor.md).
+        surrounding_text: "- [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) - DeepSeek Harness plugin: TypeSafe Jev risk-gates tool calls (shadow→enforce) and optional session-reference scoring. [Project guide](community/projects/tools/dsh-jev-interceptor.md)."
         confidence: high
     - id: discovery__github__asktheway__dsh-jev-interceptor__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,10 +35,7 @@ provenance:
           - Find by coding agent
         anchor_text: dsh-jev-interceptor
         extracted_url: https://github.com/asktheway/dsh-jev-interceptor
-        surrounding_text: >-
-          - **DeepSeek Harness** (3) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) ·
-          [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) ·
-          [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)
+        surrounding_text: "- **DeepSeek Harness** (3) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) · [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)"
         confidence: high
 metadata:
   github:
@@ -51,11 +45,9 @@ metadata:
     archived: false
     full_name: AskTheWay/dsh-jev-interceptor
     html_url: https://github.com/AskTheWay/dsh-jev-interceptor
-    created_at: '2026-09-22T20:05:35Z'
-    pushed_at: '2026-09-25T09:32:27Z'
-    description: >-
-      ⚡ Millisecond System-1 judgement for every tool call in DeepSeek Harness — Jev-powered risk classification &
-      evidence-gated auto-approval. Fail-closed by construction. dsh 生态第一个 System-1 决策插件
+    created_at: "2026-09-22T20:05:35Z"
+    pushed_at: "2026-09-25T09:32:27Z"
+    description: ⚡ Millisecond System-1 judgement for every tool call in DeepSeek Harness — Jev-powered risk classification & evidence-gated auto-approval. Fail-closed by construction. dsh 生态第一个 System-1 决策插件
     homepage: null
     topics:
       - agent-harness
@@ -78,14 +70,12 @@ metadata:
       - tool-calling
       - typesafe
       - typesafe-ai
-    last_checked_at: '2026-09-29T13:09:15.551Z'
+    last_checked_at: "2026-09-29T13:09:15.551Z"
     readme:
-      fetched_at: '2026-09-29T13:09:15.551Z'
+      fetched_at: "2026-09-29T13:09:15.551Z"
       bytes: 10074
 insights:
-  summary: >-
-    ⚡ Millisecond System-1 judgement for every tool call in DeepSeek Harness — Jev-powered risk classification &
-    evidence-gated auto-approval. Fail-closed by construction. dsh 生态第一个 System-1 决策插件
+  summary: ⚡ Millisecond System-1 judgement for every tool call in DeepSeek Harness — Jev-powered risk classification & evidence-gated auto-approval. Fail-closed by construction. dsh 生态第一个 System-1 决策插件
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -105,15 +95,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.409Z'
+    updated_at: "2026-09-29T13:07:10.409Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:15.551Z'
+    updated_at: "2026-09-29T13:09:15.551Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__twitterapi__io__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,13 +19,7 @@ provenance:
           - 💬 Communication
         anchor_text: twitterapi.io
         extracted_url: https://twitterapi.io
-        surrounding_text: >-
-          -   **[kaitoInfra/twitterapi-io-mcp-server](https://github.com/kaitoInfra/twitterapi-io-mcp-server)**
-          [![GitHub
-          stars](https://img.shields.io/github/stars/kaitoInfra/twitterapi-io-mcp-server?style=social)](https://github.com/kaitoInfra/twitterapi-io-mcp-server):
-          Hosted MCP server for [twitterapi.io](https://twitterapi.io) — Twitter/X data API for AI agents. 12 read-only
-          tools: tweet search with full operators, profiles, threads, real-time WebSocket streaming. Hosted endpoint at
-          `mcp.twitterapi.io/mcp`, npm `@kaitoinfra/twitterapi-io-mcp-server`.
+        surrounding_text: "-   **[kaitoInfra/twitterapi-io-mcp-server](https://github.com/kaitoInfra/twitterapi-io-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/kaitoInfra/twitterapi-io-mcp-server?style=social)](https://github.com/kaitoInfra/twitterapi-io-mcp-server): Hosted MCP server for [twitterapi.io](https://twitterapi.io) — Twitter/X data API for AI agents. 12 read-only tools: tweet search with full operators, profiles, threads, real-time WebSocket streaming. Hosted endpoint at `mcp.twitterapi.io/mcp`, npm `@kaitoinfra/twitterapi-io-mcp-server`."
         confidence: high
 metadata:
   github:
@@ -43,30 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    kaitoInfra/twitterapi-io-mcp-server : Hosted MCP server for twitterapi.io — Twitter/X data API for AI agents. 12
-    read-only tools: tweet search with full operators, profiles, threads, real-time WebSocket streaming. Hosted endpoint
-    at mcp.twitterapi.io/mcp, npm @kaitoinfra/twitterapi-io-mcp-server.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: twitterapi.io is a third-party REST and WebSocket API providing real-time and historical access to X (Twitter) data for developers and AI agents.
+  why_it_matters: It gives developers a pay-as-you-go, low-latency alternative to the official X API with no approval process, enabling immediate access to social data for apps, bots, and agent workflows.
+  mental_damage: Another API wrapper promising 'real-time data for AI agents' while quietly rebuilding the same firehose access everyone else is scraping, now with better support and a MCP server sticker.
+  tags:
+    - api
+    - social-data
+    - mcp
+    - developer-tools
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in mcp / Cloud & API Integration
+  reason: While twitterapi.io is primarily a social data API, its explicit marketing of a 'Native MCP server' as a core feature—positioned as a plug-and-play way to give live data to Claude, GPT, Cursor, or any MCP client—makes MCP the primary identity for catalog inclusion, as the protocol is not merely an adapter but a highlighted integration layer.
   evidence:
-    - jev-latest choice confidence 0.78
+    - "Native MCP server: Plug into any LLM — Give live data to Claude, GPT, Cursor, or any MCP client — no glue code."
+    - "Listed in awesome-mcp-list under 💬 Communication section with description: 'Build with the public social data API for developers and AI agents.'"
+    - Product emphasizes real-time data, WebSocket support, and low-latency access (median response under 500ms) as core capabilities exposed via MCP.
 placement:
   primary_category: mcp
   secondary_categories: []
-  section: Cloud & API Integration
+  section: Dev & Code Tools
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:33.560Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3048ccc9feaca25d00272d4d0ed1b9ab98a1096034ab555527da9b8edfa88747
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: While twitterapi.io is primarily a social data API, its explicit marketing of a 'Native MCP server' as a core feature—positioned as a plug-and-play way to give live data to Claude, GPT, Cursor, or any MCP client—makes MCP the primary identity for catalog inclusion, as the protocol is not merely an adapter but a highlighted integration layer.
+      decision_evidence:
+        - "Native MCP server: Plug into any LLM — Give live data to Claude, GPT, Cursor, or any MCP client — no glue code."
+        - "Listed in awesome-mcp-list under 💬 Communication section with description: 'Build with the public social data API for developers and AI agents.'"
+        - Product emphasizes real-time data, WebSocket support, and low-latency access (median response under 500ms) as core capabilities exposed via MCP.
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's marketed identity centers on exposing data via the Model Context Protocol as a server, not on providing a code-first SDK or library for developers to import and build against.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

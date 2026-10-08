@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__amrit-nigam__jev-royal__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Games & simulations (73)
         anchor_text: jev-royal
         extracted_url: https://github.com/amrit-nigam/jev-royal
-        surrounding_text: >-
-          | [jev-royal](https://github.com/Amrit-Nigam/jev-royal) | ★ 2 | TypeScript | 2026-09-20 | Jev-powered game and
-          decision experiment. |
+        surrounding_text: "| [jev-royal](https://github.com/Amrit-Nigam/jev-royal) | ★ 2 | TypeScript | 2026-09-20 | Jev-powered game and decision experiment. |"
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: Amrit-Nigam/jev-royal
     html_url: https://github.com/Amrit-Nigam/jev-royal
-    created_at: '2026-09-17T19:06:12Z'
-    pushed_at: '2026-09-18T10:22:20Z'
+    created_at: "2026-09-17T19:06:12Z"
+    pushed_at: "2026-09-18T10:22:20Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:08:56.933Z'
+    last_checked_at: "2026-09-29T13:08:56.933Z"
     readme:
-      fetched_at: '2026-09-29T13:08:56.933Z'
+      fetched_at: "2026-09-29T13:08:56.933Z"
       bytes: 8401
 insights:
   summary: null
@@ -62,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:56.933Z'
+    updated_at: "2026-09-29T13:08:56.933Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -36,6 +36,52 @@ provenance:
         extracted_url: https://github.com/datawhalechina/jev-cookbook
         surrounding_text: "- **Other lists (2):** [Datawhale Jev Cookbook](https://github.com/datawhalechina/jev-cookbook), [Awesome Jev Robustness](https://github.com/Yifan-Lan/awesome-jev-robustness)"
         confidence: high
+    - id: discovery__github__datawhalechina__jev-cookbook__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: jev-docs-zh
+        extracted_url: https://github.com/datawhalechina/jev-cookbook
+        surrounding_text: "- [jev-docs-zh](https://github.com/datawhalechina/jev-cookbook) ([site](https://datawhalechina.github.io/jev-cookbook/)) - Jev 模型（TypeSafe AI）官方使用文档的中文翻译 | Unofficial Chinese translation of the official Jev (TypeSafe AI) docs — https://docs.typesafe.ai."
+        confidence: high
+    - id: discovery__github__datawhalechina__jev-cookbook__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev Cookbook (Datawhale)
+        extracted_url: https://github.com/datawhalechina/jev-cookbook
+        surrounding_text: "- [Jev Cookbook (Datawhale)](https://github.com/datawhalechina/jev-cookbook) - Chinese System One/Jev cookbook: notebooks, 18 recipes, docs translation (CC BY-NC-SA 4.0 — free educational / non-commercial; not OSI open source). [Project guide](community/projects/tools/jev-cookbook.md)."
+        confidence: high
+    - id: discovery__github__datawhalechina__jev-cookbook__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Creative Tools
+        anchor_text: "**jev-cookbook**"
+        extracted_url: https://github.com/datawhalechina/jev-cookbook
+        surrounding_text: "- [**jev-cookbook**](https://github.com/datawhalechina/jev-cookbook) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
+        confidence: high
 metadata:
   github:
     stars: 40
@@ -71,12 +117,15 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.454Z"
+    updated_at: "2026-10-08T04:16:14.231Z"
     cause: null
     next_retry_at: null
   stars:

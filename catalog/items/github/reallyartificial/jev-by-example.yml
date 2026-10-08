@@ -84,6 +84,21 @@ provenance:
         extracted_url: https://github.com/reallyartificial/jev-by-example
         surrounding_text: "- [Jev by Example](https://github.com/ReallyArtificial/jev-by-example) - Ten runnable JavaScript lessons where Jev judges memory relationships, task evidence, and handoff constraints while application code enforces explicit policies; offline fixtures are the default and live calls are opt-in."
         confidence: high
+    - id: discovery__github__reallyartificial__jev-by-example__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: Jev by Example
+        extracted_url: https://github.com/reallyartificial/jev-by-example
+        surrounding_text: "- [Jev by Example](https://github.com/ReallyArtificial/jev-by-example) - Ten runnable Jev examples for agent decisions: memory conflicts, tool-result checks, recovery, context selection, and handoffs. JavaScript, zero dependencies."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -120,7 +135,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.376Z"
+    updated_at: "2026-10-08T04:16:14.228Z"
     cause: null
     next_retry_at: null
   stars:
@@ -129,7 +144,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.824Z"
+    updated_at: "2026-10-08T04:16:21.688Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

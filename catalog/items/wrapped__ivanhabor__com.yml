@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__wrapped__ivanhabor__com__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://wrapped.ivanhabor.com
-        surrounding_text: >-
-          - [jev-wrapped](https://github.com/gaborishka/jev-wrapped) ([site](https://wrapped.ivanhabor.com)) - Telegram
-          channel X-ray: Jev judges a year of posts, you get a card. One Cloudflare Worker.
+        surrounding_text: "- [jev-wrapped](https://github.com/gaborishka/jev-wrapped) ([site](https://wrapped.ivanhabor.com)) - Telegram channel X-ray: Jev judges a year of posts, you get a card. One Cloudflare Worker."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,31 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'jev-wrapped (site) - Telegram channel X-ray: Jev judges a year of posts, you get a card. One Cloudflare Worker.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A web application that uses the Jev decision model to provide an analytical 'wrap' of Telegram channels, classifying content into categories like news, ads, jokes, and clickbait.
+  why_it_matters: It serves as a consumer-facing demonstration of how decision models can perform high-speed, non-generative content classification.
+  mental_damage: Another 'Wrapped' experience to quantify exactly how much clickbait has infiltrated your digital life.
+  tags:
+    - decision-models
+    - telegram
+    - content-analysis
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  status: excluded
+  reason: The tool is a consumer-facing application for Telegram channel analysis rather than a developer-facing tool, SDK, or piece of infrastructure.
   evidence:
-    - jev-latest choice confidence 0.68
+    - The scraped site context describes the tool as a service to evaluate Telegram channel posts (news, ads, jokes, etc.).
+    - The project functions as a 'wrapped' style end-user application rather than providing developer tooling or orchestration capabilities.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:49:30.930Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:197f5ad01abce441cec46db32ca4eee0b8484e931543bcd1d74794f3e6a9ae92
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a consumer-facing application for Telegram channel analysis rather than a developer-facing tool, SDK, or piece of infrastructure.
+      decision_evidence:
+        - The scraped site context describes the tool as a service to evaluate Telegram channel posts (news, ads, jokes, etc.).
+        - The project functions as a 'wrapped' style end-user application rather than providing developer tooling or orchestration capabilities.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

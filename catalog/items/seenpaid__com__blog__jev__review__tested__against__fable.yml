@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__seenpaid__com__blog__jev__review__tested__against__fable__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,12 +19,7 @@ provenance:
           - Evaluation & Benchmarking
         anchor_text: Jev vs Fable on 520 real social posts
         extracted_url: https://seenpaid.com/blog/jev-review-tested-against-fable
-        surrounding_text: >-
-          - [Jev vs Fable on 520 real social posts](https://seenpaid.com/blog/jev-review-tested-against-fable) - Social
-          media: a scheduler's pre-publish check asks Jev four Noul questions per caption (spam, clear opening, stands
-          alone, promotional) as advisory signals, never a gate; on 100 posts labelled blind by Fable the two agreed
-          94/100 on promotion and 85/100 at a 0.65 spam threshold (Jev the stricter one 12 times to 3), and scoring all
-          520 posts cost $0.011 at a 341 ms median.
+        surrounding_text: "- [Jev vs Fable on 520 real social posts](https://seenpaid.com/blog/jev-review-tested-against-fable) - Social media: a scheduler's pre-publish check asks Jev four Noul questions per caption (spam, clear opening, stands alone, promotional) as advisory signals, never a gate; on 100 posts labelled blind by Fable the two agreed 94/100 on promotion and 85/100 at a 0.65 spam threshold (Jev the stricter one 12 times to 3), and scoring all 520 posts cost $0.011 at a 341 ms median."
         confidence: high
 metadata:
   github:
@@ -42,31 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a decision model from TypeSafe that outputs a probability score (0–1) for typed yes/no questions about text, such as spam or promotional content detection.
+  why_it_matters: Developers can use Jev as a low-cost, fast signal in moderation pipelines or agent tools to pre-filter content without invoking full LLMs.
+  mental_damage: Another model promising to replace human judgment with a number, while quietly shifting the burden of threshold-tuning onto the developer.
+  tags:
+    - decision-model
+    - content-moderation
+    - api
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: Jev’s core identity is a decision model that returns constrained probabilistic answers to typed questions, fitting the decision-models category even though it is used via MCP and evaluated in an evals context.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; no placement kept
-      (unverified)
+    - Jev gives a number between 0 and 1 for yes/no questions about text, with no paragraph or chat output.
+    - It is used in the validate_post tool to check captions against platform rules via four typed questions.
+    - The source-list context places it in the Evaluation & Benchmarking section of awesome-jev, but the product itself is a decision model, not an eval framework.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - decision-models
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:21.309Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0ec828e00b14a2624ed777a3b1b5ceac1ca3e7bbae659b8922b3da48b2517ede
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev’s core identity is a decision model that returns constrained probabilistic answers to typed questions, fitting the decision-models category even though it is used via MCP and evaluated in an evals context.
+      decision_evidence:
+        - Jev gives a number between 0 and 1 for yes/no questions about text, with no paragraph or chat output.
+        - It is used in the validate_post tool to check captions against platform rules via four typed questions.
+        - The source-list context places it in the Evaluation & Benchmarking section of awesome-jev, but the product itself is a decision model, not an eval framework.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because Jev is a model that produces judgments, not a framework for measuring or comparing model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

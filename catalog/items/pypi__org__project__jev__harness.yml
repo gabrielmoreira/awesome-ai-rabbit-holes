@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jev__harness__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Games & simulations
         anchor_text: site
         extracted_url: https://pypi.org/project/jev-harness
-        surrounding_text: >-
-          - [jev-harness (ismaelsoilet)](https://github.com/ismaelsoilet/jev-harness)
-          ([site](https://pypi.org/project/jev-harness/)) - Zero-dependency System One decision harness: 5 semantic
-          gates saving frontier AI agent tokens on trivial errors & doom loops. Python + TypeScript + Rust.
-          MCP-compatible.
+        surrounding_text: "- [jev-harness (ismaelsoilet)](https://github.com/ismaelsoilet/jev-harness) ([site](https://pypi.org/project/jev-harness/)) - Zero-dependency System One decision harness: 5 semantic gates saving frontier AI agent tokens on trivial errors & doom loops. Python + TypeScript + Rust. MCP-compatible."
         confidence: high
 metadata:
   github:
@@ -40,13 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-harness (ismaelsoilet) (site) - Zero-dependency System One decision harness: 5 semantic gates saving frontier AI
-    agent tokens on trivial errors & doom loops. Python + TypeScript + Rust. MCP-compatible.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-harness is a Python package for evaluating decision models using Jev-compatible interfaces.
+  why_it_matters: It provides a lightweight harness for testing decision-model judgments, useful for developers building or integrating Jev-like systems.
+  mental_damage: Another eval harness in a sea of eval harnesses, each promising to be the one that finally measures what matters—before you realize none of them agree on what 'matters' means.
+  tags:
+    - evals
+    - decision-models
+    - jev
+    - benchmarking
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
@@ -55,14 +53,14 @@ curation:
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'evals'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +68,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:21.749Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0d252708d9c126a8e50b5e6d537610441645c17a7e0dba8bcc276d92b6ba661f
+      proposed_primary_category: evals
+      disagreement: true
+      decision_reason: jev-harness is an evaluation harness for decision models, which fits the evals category as a tool for measuring model behavior, even though it targets decision models specifically.
+      decision_evidence:
+        - The package is available on PyPI as jev-harness, indicating it is a reusable Python tool for evaluation.
+        - It is listed in the awesome-jev directory under the 'Games & simulations' section, suggesting it is used to test or benchmark Jev-based systems.
+        - The name 'harness' implies a testing or evaluation framework, consistent with evals category purpose.
+      category_candidates:
+        - evals
+        - decision-models
+      contrastive_reason: Choose evals over decision-models because jev-harness is primarily an evaluation tool for measuring decision model behavior, not a decision model, gateway, or SDK for invoking one.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'evals'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

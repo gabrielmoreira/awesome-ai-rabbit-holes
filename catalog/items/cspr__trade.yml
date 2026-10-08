@@ -37,23 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CSPR.trade is a website offering no discernible AI developer tooling or product description.
-  why_it_matters: It does not provide any identifiable functionality relevant to software developers building or using AI tools.
-  mental_damage: Another mystery URL in the AI gold rush, promising nothing while wasting a click.
+  summary: Insufficient information available to identify the functionality of cspr.trade.
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: The site provides no description, functionality, or evidence of being an AI tool for developers, making it impossible to categorize within the catalog's scope.
+  reason: The project provides no descriptive metadata, README, or scraped context to verify its relevance to AI development, agents, or developer tooling.
   evidence:
-    - "Repo description: (none)"
-    - "Scraped site context title: CSPR.trade, description: (none)"
+    - No repo description provided
+    - No README excerpt provided
+    - No scraped site context available
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,24 +67,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:30:25.927Z"
+    updated_at: "2026-10-08T04:21:54.919Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:01d97ab136dc410968746bbb40350f241ac6fb850cf54bbd993f04f0ad8635e7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site provides no description, functionality, or evidence of being an AI tool for developers, making it impossible to categorize within the catalog's scope.
+      decision_reason: The project provides no descriptive metadata, README, or scraped context to verify its relevance to AI development, agents, or developer tooling.
       decision_evidence:
-        - "Repo description: (none)"
-        - "Scraped site context title: CSPR.trade, description: (none)"
+        - No repo description provided
+        - No README excerpt provided
+        - No scraped site context available
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

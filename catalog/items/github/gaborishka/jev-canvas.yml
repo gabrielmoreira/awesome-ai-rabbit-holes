@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__gaborishka__jev-canvas__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Agent tooling
         anchor_text: jev-canvas
         extracted_url: https://github.com/gaborishka/jev-canvas
-        surrounding_text: >-
-          - [jev-canvas](https://github.com/gaborishka/jev-canvas) - Draw on a tldraw canvas with your voice and a
-          pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word.
+        surrounding_text: "- [jev-canvas](https://github.com/gaborishka/jev-canvas) - Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word."
         confidence: high
     - id: discovery__github__gaborishka__jev-canvas__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -37,16 +35,10 @@ provenance:
           - Adaptive & Realtime UI
         anchor_text: jev-canvas
         extracted_url: https://github.com/gaborishka/jev-canvas
-        surrounding_text: >-
-          - [jev-canvas](https://github.com/gaborishka/jev-canvas)
-          ![stars](https://img.shields.io/github/stars/gaborishka/jev-canvas?style=flat-square&label=%E2%98%85) -
-          Multimodal UI: draw on a tldraw canvas by voice while pointing a webcam-tracked finger; on every partial
-          transcript Jev answers eight typed questions (is it a command, is the sentence complete, action, shape,
-          colour, target, place, size) and plain code gates them with thresholds, in English and Ukrainian, 300–550 ms
-          per decision.
+        surrounding_text: "- [jev-canvas](https://github.com/gaborishka/jev-canvas) ![stars](https://img.shields.io/github/stars/gaborishka/jev-canvas?style=flat-square&label=%E2%98%85) - Multimodal UI: draw on a tldraw canvas by voice while pointing a webcam-tracked finger; on every partial transcript Jev answers eight typed questions (is it a command, is the sentence complete, action, shape, colour, target, place, size) and plain code gates them with thresholds, in English and Ukrainian, 300–550 ms per decision."
         confidence: high
     - id: discovery__github__gaborishka__jev-canvas__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -58,10 +50,7 @@ provenance:
           - Games, robotics, and interactive demos
         anchor_text: jev-canvas
         extracted_url: https://github.com/gaborishka/jev-canvas
-        surrounding_text: >-
-          - [jev-canvas](https://github.com/gaborishka/jev-canvas) - Voice and finger-pointing control of a tldraw
-          canvas: Jev picks the action, target shape and place from each partial transcript plus the fingertip position;
-          deterministic code applies thresholds and executes the edit.
+        surrounding_text: "- [jev-canvas](https://github.com/gaborishka/jev-canvas) - Voice and finger-pointing control of a tldraw canvas: Jev picks the action, target shape and place from each partial transcript plus the fingertip position; deterministic code applies thresholds and executes the edit."
         confidence: high
 metadata:
   github:
@@ -71,11 +60,9 @@ metadata:
     archived: false
     full_name: gaborishka/jev-canvas
     html_url: https://github.com/gaborishka/jev-canvas
-    created_at: '2026-09-19T09:21:22Z'
-    pushed_at: '2026-09-19T09:21:28Z'
-    description: >-
-      Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target
-      and place in ~350 ms per spoken word.
+    created_at: "2026-09-19T09:21:22Z"
+    pushed_at: "2026-09-19T09:21:28Z"
+    description: Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word.
     homepage: null
     topics:
       - hand-tracking
@@ -86,14 +73,12 @@ metadata:
       - typesafe
       - voice-control
       - web-speech-api
-    last_checked_at: '2026-09-29T13:11:30.354Z'
+    last_checked_at: "2026-09-29T13:11:30.354Z"
     readme:
-      fetched_at: '2026-09-29T13:11:30.354Z'
+      fetched_at: "2026-09-29T13:11:30.354Z"
       bytes: 12737
 insights:
-  summary: >-
-    Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and
-    place in ~350 ms per spoken word.
+  summary: Draw on a tldraw canvas with your voice and a pointing finger. Jev (TypeSafe System One) decides action, target and place in ~350 ms per spoken word.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -113,15 +98,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.395Z'
+    updated_at: "2026-09-29T13:07:10.395Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:30.354Z'
+    updated_at: "2026-09-29T13:11:30.354Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

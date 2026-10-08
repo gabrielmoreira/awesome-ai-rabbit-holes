@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__nothumansearch__ai__awesome-list__mobinx__awesome-mcp-list
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: MobinX/awesome-mcp-list
@@ -19,11 +19,7 @@ provenance:
           - 🔎 Search
         anchor_text: nothumansearch.ai
         extracted_url: https://nothumansearch.ai
-        surrounding_text: >-
-          -   **[unitedideas/nothumansearch](https://github.com/unitedideas/nothumansearch)** [![GitHub
-          stars](https://img.shields.io/github/stars/unitedideas/nothumansearch?style=social)](https://github.com/unitedideas/nothumansearch):
-          MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live at
-          [nothumansearch.ai](https://nothumansearch.ai).
+        surrounding_text: "-   **[unitedideas/nothumansearch](https://github.com/unitedideas/nothumansearch)** [![GitHub stars](https://img.shields.io/github/stars/unitedideas/nothumansearch?style=social)](https://github.com/unitedideas/nothumansearch): MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live at [nothumansearch.ai](https://nothumansearch.ai)."
         confidence: high
 metadata:
   github:
@@ -41,13 +37,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    unitedideas/nothumansearch : MCP server for AI tool discovery. Search 8,600+ indexed AI tools and MCP servers. Live
-    at nothumansearch.ai.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Not Human Search is a free agent-readiness search and scoring tool that evaluates any website on seven agentic signals like llms.txt and MCP support.
+  why_it_matters: Helps developers assess how visible their site or API is to AI agents, guiding improvements in machine-readable documentation and protocol adoption.
+  mental_damage: Finally, a way to quantify the existential dread of being invisible to the very agents you're trying to impress.
+  tags:
+    - agent-readiness
+    - mcp
+    - llms.txt
+    - api-discovery
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Awesome Lists & Directories
@@ -56,14 +54,14 @@ curation:
 placement:
   primary_category: awesome-awesomes
   secondary_categories: []
-  section: Awesome Lists & Directories
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +69,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:15.174Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:19864d488e914fc0cb60bbd193d7a01ebb2b0465c2aa18a203753864273909de
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: Not Human Search primarily functions as a discovery and scoring service for agent-ready sites, with MCP as a core signal, aligning it with MCP ecosystem tooling rather than general app building or coding assistance.
+      decision_evidence:
+        - Scores sites on 7 agentic signals including llms.txt, OpenAPI, and MCP
+        - Indexed 5,440 agent-ready sites and offers free instant scoring
+        - Listed in awesome-mcp-list under Contributing > 🔎 Search for MCP server discovery
+      category_candidates:
+        - mcp
+        - app-builders
+      contrastive_reason: Choose mcp over app-builders because the tool’s core function is discovering and scoring agent-ready sites via signals like MCP, not generating deployable apps from prompts.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

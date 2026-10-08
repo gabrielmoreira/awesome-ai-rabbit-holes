@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__h3manth__com__fun__jev__chess__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://h3manth.com/fun/jev-chess
-        surrounding_text: >-
-          - [jev-chess](https://github.com/hemanth/jev-chess) ([site](https://h3manth.com/fun/jev-chess/)) - Chess
-          moves, evaluations, persona opponents, and game classification with TypeSafe AI System One.
+        surrounding_text: "- [jev-chess](https://github.com/hemanth/jev-chess) ([site](https://h3manth.com/fun/jev-chess/)) - Chess moves, evaluations, persona opponents, and game classification with TypeSafe AI System One."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev Chess is a chess studio that uses TypeSafe's System One decision model to parse natural language moves, evaluate positions, simulate persona opponents, and replay classic matches.
+  why_it_matters: It demonstrates how decision models can be applied to interactive, turn-based strategy tasks beyond pure text generation.
+  mental_damage: Watching an AI agonize over whether to sacrifice a bishop on f7 while you just wanted to blunder into Scholar's Mate.
+  tags:
+    - decision-model
+    - chess
+    - ai-game
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The product's core identity is the TypeSafe System One decision model judging chess moves via typed questions (Choice, Score, Noul), not coding assistance or general gameplay.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site describes the tool as 'Chess studio powered by TypeSafe System One AI: natural language moves, parallel evaluation, persona opponents, and classic match replay.'"
+    - Source-list context places it in 'awesome-jev' under 'Benchmarks & research' for projects built on Jev, TypeSafe's System One model.
+    - Primary page excerpt shows move parsing, tactical sharpness scoring, strategic motif selection, and persona opponent archetypes—all outputs of a decision model.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:56.574Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e72a983241b553e7ad08507ebdbbad7656fda5980f8703702d875b11a5c2a57c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is the TypeSafe System One decision model judging chess moves via typed questions (Choice, Score, Noul), not coding assistance or general gameplay.
+      decision_evidence:
+        - "Scraped site describes the tool as 'Chess studio powered by TypeSafe System One AI: natural language moves, parallel evaluation, persona opponents, and classic match replay.'"
+        - Source-list context places it in 'awesome-jev' under 'Benchmarks & research' for projects built on Jev, TypeSafe's System One model.
+        - Primary page excerpt shows move parsing, tactical sharpness scoring, strategic motif selection, and persona opponent archetypes—all outputs of a decision model.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because Jev Chess does not generate deployable apps from prompts; it uses a decision model to evaluate and guide chess moves in an interactive studio.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

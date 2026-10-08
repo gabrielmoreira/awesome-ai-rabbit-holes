@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__replynodes__com__jev__web__analyzer__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,13 +18,10 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://replynodes.com/jev-web-analyzer
-        surrounding_text: >-
-          - [jev-web-analyzer](https://github.com/replynodes/jev-web-analyzer)
-          ([site](https://replynodes.com/jev-web-analyzer)) - See what Jev thinks about your SaaS website — powered by
-          ReplyNodes web context and Vercel AI Gateway.
+        surrounding_text: "- [jev-web-analyzer](https://github.com/replynodes/jev-web-analyzer) ([site](https://replynodes.com/jev-web-analyzer)) - See what Jev thinks about your SaaS website — powered by ReplyNodes web context and Vercel AI Gateway."
         confidence: high
     - id: discovery__replynodes__com__jev__web__analyzer__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -36,10 +33,7 @@ provenance:
           - Routing, data, and workflows
         anchor_text: Demo
         extracted_url: https://replynodes.com/jev-web-analyzer
-        surrounding_text: >-
-          - [Jev Web Analyzer](https://github.com/replynodes/jev-web-analyzer) - Fetches a public SaaS page as Markdown,
-          then asks Jev ten bounded questions about likely first-visit comprehension; URL validation, caching,
-          sanitization, and presentation remain deterministic. [Demo](https://replynodes.com/jev-web-analyzer/).
+        surrounding_text: "- [Jev Web Analyzer](https://github.com/replynodes/jev-web-analyzer) - Fetches a public SaaS page as Markdown, then asks Jev ten bounded questions about likely first-visit comprehension; URL validation, caching, sanitization, and presentation remain deterministic. [Demo](https://replynodes.com/jev-web-analyzer/)."
         confidence: high
 metadata:
   github:
@@ -57,29 +51,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-web-analyzer (site) - See what Jev thinks about your SaaS website — powered by ReplyNodes web context and Vercel
-    AI Gateway.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A web page analyzer that uses ReplyNodes to convert URLs to Markdown and Jev to score how clearly a homepage communicates to first-time visitors.
+  why_it_matters: Lets developers quickly audit landing page clarity using a decision model instead of guesswork or A/B tests.
+  mental_damage: Another way to feel inadequate about your homepage while pretending it's rigorous evaluation.
+  tags:
+    - decision-models
+    - web-analysis
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The tool's core identity is applying the Jev decision model to judge webpage communication, making it a decision-model-driven app rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.58
+    - Scraped site describes Jev judging what the page communicates to a first-time visitor using typed questions and scores.
+    - Source-list context shows it's listed in awesome-jev under 'Benchmarks & research' and 'Routing, data, and workflows' as a Jev-based tool.
+    - Product uses ReplyNodes to fetch and convert webpages to Markdown, then feeds them to Jev for scoring via Vercel AI Gateway.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,6 +84,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:45:00.012Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:58e3e2068d5e6a0c7ac30c2e6fe23000c133ff6800aa22e26562797e940e96f9
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core identity is applying the Jev decision model to judge webpage communication, making it a decision-model-driven app rather than a coding agent or extension.
+      decision_evidence:
+        - Scraped site describes Jev judging what the page communicates to a first-time visitor using typed questions and scores.
+        - Source-list context shows it's listed in awesome-jev under 'Benchmarks & research' and 'Routing, data, and workflows' as a Jev-based tool.
+        - Product uses ReplyNodes to fetch and convert webpages to Markdown, then feeds them to Jev for scoring via Vercel AI Gateway.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the tool applies Jev to produce judgments as its main function, rather than measuring or benchmarking model/prompt behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

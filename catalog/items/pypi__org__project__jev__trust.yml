@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__pypi__org__project__jev__trust__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Infra / SDKs / Integrations
         anchor_text: jev-trust
         extracted_url: https://pypi.org/project/jev-trust
-        surrounding_text: >-
-          - [jev-trust](https://pypi.org/project/jev-trust/) - Python ecosystem: trust middleware for the Jev API that
-          logs every typed decision, measures calibration in your own domain from outcomes you record (accuracy, Brier,
-          top-label ECE, C = 1 − ECE), annotates each answer with its measured effective confidence, fires
-          overconfidence alerts, and signs the evidence (ed25519) for independent recomputation.
+        surrounding_text: "- [jev-trust](https://pypi.org/project/jev-trust/) - Python ecosystem: trust middleware for the Jev API that logs every typed decision, measures calibration in your own domain from outcomes you record (accuracy, Brier, top-label ECE, C = 1 − ECE), annotates each answer with its measured effective confidence, fires overconfidence alerts, and signs the evidence (ed25519) for independent recomputation."
         confidence: high
 metadata:
   github:
@@ -41,35 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-trust - Python ecosystem: trust middleware for the Jev API that logs every typed decision, measures calibration
-    in your own domain from outcomes you record (accuracy, Brier, top-label ECE, C = 1 − ECE), annotates each answer
-    with its measured effective confidence, fires overconfidence alerts, and signs the evidence (ed25519) for
-    independent recomputation.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-trust is a Python package on PyPI with no clear description or accessible documentation.
+  why_it_matters: It is unclear what jev-trust does or how it could be useful to developers.
+  mental_damage: Another mysterious PyPI package that makes you wonder if it’s a typo, a test, or a cry for help in dependency hell.
+  tags:
+    - unknown
+    - unclear
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  status: excluded
+  reason: The project lacks any discernible purpose, documentation, or developer-facing functionality, making it impossible to determine its relevance to AI tooling for software developers.
   evidence:
-    - jev-latest choice confidence 0.87
-    - >-
-      jev winnow:e4b 0.43 below gate 0.50; proposed ai-frameworks / LLM & Agent SDKs; placement kept at decision-models
-      (unverified)
+    - Repo description is missing; no summary available from GitHub.
+    - The PyPI page redirects to an error state with a generic browser troubleshooting message, indicating the site or package is inaccessible.
+    - Seen only in an auto-generated awesome list section with no meaningful curation or description.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories:
     - ai-frameworks
-  section: Evals, Benchmarks & Calibration
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:44:23.611Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c379a8fb060ceb853aeb4c5d9cbd1920e59684481363eb23f760202d8f6460b2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks any discernible purpose, documentation, or developer-facing functionality, making it impossible to determine its relevance to AI tooling for software developers.
+      decision_evidence:
+        - Repo description is missing; no summary available from GitHub.
+        - The PyPI page redirects to an error state with a generic browser troubleshooting message, indicating the site or package is inaccessible.
+        - Seen only in an auto-generated awesome list section with no meaningful curation or description.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

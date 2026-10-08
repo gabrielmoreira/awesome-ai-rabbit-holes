@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__demo__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: Jev mood demo
         extracted_url: https://jev-demo.vercel.app
-        surrounding_text: >-
-          - [Jev mood demo](https://jev-demo.vercel.app) - Talk nicely or nastily over time; structured state tracks the
-          mood.
+        surrounding_text: "- [Jev mood demo](https://jev-demo.vercel.app) - Talk nicely or nastily over time; structured state tracks the mood."
         confidence: high
 metadata:
   github:
@@ -38,27 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A 3D robot companion driven by the TypeSafe Jev decision model that answers nine typed questions per turn and decides actions without generating text.
+  why_it_matters: It demonstrates a text-free interaction paradigm where developers can prototype intent-driven agents using constrained decision-model outputs instead of LLMs.
+  mental_damage: Proof that the next frontier of AI companionship is silently judging your life choices in nine binary dimensions while ignoring your small talk.
+  tags:
+    - decision-model
+    - jev
+    - companion
+    - typed-ai
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The product's core identity is the Jev decision model's typed-question judgment system, not coding assistance or app generation, placing it firmly in decision-models as a browser-based demonstration of that judgment layer.
   evidence:
-    - Jev classification confidence below inclusion threshold
+    - "Scraped site context: 'A 3D robot companion driven by TypeSafe's Jev model: typed decisions, confidence gating, no text generation.'"
+    - "Primary page excerpt: 'Every turn, Jev answers nine questions at once. Code decides whether to act, ask, or just react.'"
+    - "Source-list context: listed in awesome-jev under 'Demos & playgrounds' as a demo of the Jev model's typed decisions."
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Browser & Computer Use
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,6 +70,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:00.334Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:66bfdf352ea40c0f8639b98632cb48ae37eb639c64a2b2e69ed7dc44b594b608
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is the Jev decision model's typed-question judgment system, not coding assistance or app generation, placing it firmly in decision-models as a browser-based demonstration of that judgment layer.
+      decision_evidence:
+        - "Scraped site context: 'A 3D robot companion driven by TypeSafe's Jev model: typed decisions, confidence gating, no text generation.'"
+        - "Primary page excerpt: 'Every turn, Jev answers nine questions at once. Code decides whether to act, ask, or just react.'"
+        - "Source-list context: listed in awesome-jev under 'Demos & playgrounds' as a demo of the Jev model's typed decisions."
+      category_candidates:
+        - decision-models
+        - ai-dev-extensions
+      contrastive_reason: Choose decision-models over ai-dev-extensions because the product's identity is the Jev decision model's judgment output, not an extension that augments a host coding agent with workflow capabilities.
+      review_reason: "Categorization review required: unknown category candidate(s): ai-dev-extensions"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

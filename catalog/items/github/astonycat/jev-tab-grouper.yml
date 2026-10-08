@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__astonycat__jev-tab-grouper__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,15 +17,12 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-tab-grouper**'
+        anchor_text: "**jev-tab-grouper**"
         extracted_url: https://github.com/astonycat/jev-tab-grouper
-        surrounding_text: >-
-          - [**jev-tab-grouper**](https://github.com/AstonyCat/jev-tab-grouper) — One-click AI tab grouping for Chrome —
-          Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that invents its own group names.
-          Featured in awesome-jev.
+        surrounding_text: "- [**jev-tab-grouper**](https://github.com/AstonyCat/jev-tab-grouper) — One-click AI tab grouping for Chrome — Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that invents its own group names. Featured in awesome-jev."
         confidence: high
     - id: discovery__github__astonycat__jev-tab-grouper__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,13 +35,7 @@ provenance:
           - Classification & Routing
         anchor_text: Tab Sorter
         extracted_url: https://github.com/astonycat/jev-tab-grouper
-        surrounding_text: >-
-          - [Tab Sorter](https://github.com/AstonyCat/jev-tab-grouper)
-          ![stars](https://img.shields.io/github/stars/AstonyCat/jev-tab-grouper?style=flat-square&label=%E2%98%85) -
-          Browser tooling: Chrome MV3 extension that groups every tab in the window into named, colored Chrome tab
-          groups from one parallel Jev call — one `Choice` question per tab against user-editable group criteria — with
-          unclassified tabs falling to a fixed fallback bucket, manual groups untouched, and the pre-grouping tab order
-          restored on ungroup; an optional LLM engine with self-invented group names is included for comparison runs.
+        surrounding_text: "- [Tab Sorter](https://github.com/AstonyCat/jev-tab-grouper) ![stars](https://img.shields.io/github/stars/AstonyCat/jev-tab-grouper?style=flat-square&label=%E2%98%85) - Browser tooling: Chrome MV3 extension that groups every tab in the window into named, colored Chrome tab groups from one parallel Jev call — one `Choice` question per tab against user-editable group criteria — with unclassified tabs falling to a fixed fallback bucket, manual groups untouched, and the pre-grouping tab order restored on ungroup; an optional LLM engine with self-invented group names is included for comparison runs."
         confidence: high
 metadata:
   github:
@@ -54,11 +45,9 @@ metadata:
     archived: false
     full_name: AstonyCat/jev-tab-grouper
     html_url: https://github.com/AstonyCat/jev-tab-grouper
-    created_at: '2026-09-20T04:29:39Z'
-    pushed_at: '2026-09-27T13:32:20Z'
-    description: >-
-      One-click AI tab grouping for Chrome — Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that
-      invents its own group names. Featured in awesome-jev.
+    created_at: "2026-09-20T04:29:39Z"
+    pushed_at: "2026-09-27T13:32:20Z"
+    description: One-click AI tab grouping for Chrome — Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that invents its own group names. Featured in awesome-jev.
     homepage: null
     topics:
       - chrome-extension
@@ -68,14 +57,12 @@ metadata:
       - productivity
       - tab-groups
       - typesafe
-    last_checked_at: '2026-09-29T13:09:15.993Z'
+    last_checked_at: "2026-09-29T13:09:15.993Z"
     readme:
-      fetched_at: '2026-09-29T13:09:15.993Z'
+      fetched_at: "2026-09-29T13:09:15.993Z"
       bytes: 5257
 insights:
-  summary: >-
-    One-click AI tab grouping for Chrome — Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that
-    invents its own group names. Featured in awesome-jev.
+  summary: One-click AI tab grouping for Chrome — Jev typed decisions (~1s, whole window) or any OpenAI-compatible LLM that invents its own group names. Featured in awesome-jev.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -85,9 +72,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in extensions-and-addons / IDE & Editor Add-ons
   evidence:
     - jev-latest choice confidence 0.46
-    - >-
-      jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Browser & Computer Use; placement kept at
-      extensions-and-addons (unverified)
+    - jev winnow:e4b 0.39 below gate 0.50; proposed decision-models / Browser & Computer Use; placement kept at extensions-and-addons (unverified)
 placement:
   primary_category: extensions-and-addons
   secondary_categories:
@@ -99,15 +84,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:15.993Z'
+    updated_at: "2026-09-29T13:09:15.993Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

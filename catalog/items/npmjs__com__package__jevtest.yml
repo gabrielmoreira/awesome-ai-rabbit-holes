@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jevtest__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://npmjs.com/package/jevtest
-        surrounding_text: >-
-          - [jevtest](https://github.com/realZachi/jevtest) ([site](https://www.npmjs.com/package/jevtest)) - Semantic
-          test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get
-          calibrated probabilities back.
+        surrounding_text: "- [jevtest](https://github.com/realZachi/jevtest) ([site](https://www.npmjs.com/package/jevtest)) - Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in plain English, get calibrated probabilities back."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevtest (site) - Semantic test matchers for Vitest and Jest, powered by TypeSafe's Jev model. Write expectations in
-    plain English, get calibrated probabilities back.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a decision model from TypeSafe AI's System One that answers typed questions with probabilities instead of generating text.
+  why_it_matters: It provides a judgment layer for routing, scoring, or guardrails in developer workflows where deterministic, probability-based decisions are needed over open-ended generation.
+  mental_damage: Another probability model promising to fix AI unreliability by adding more uncertainty to the decision stack.
+  tags:
+    - decision-model
+    - jev
+    - typesafe
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
+  reason: Jev is a typed decision model returning probabilities, not text, making it a canonical fit for the decision-models category where the judgment itself is the product identity.
   evidence:
-    - jev-latest choice confidence 0.77
+    - Repo description identifies it as a decision model from TypeSafe AI's System One
+    - Listed in awesome-jev under Benchmarks & research as part of the Jev ecosystem
+    - "Defined in decision-models category as a canonical positive: Jev (TypeSafe System One)"
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Framework & SDK Integrations
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:59.815Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f40079443d01ce76df927911d5a45c2f10fe122f711674596626198ba6f251a0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: Jev is a typed decision model returning probabilities, not text, making it a canonical fit for the decision-models category where the judgment itself is the product identity.
+      decision_evidence:
+        - Repo description identifies it as a decision model from TypeSafe AI's System One
+        - Listed in awesome-jev under Benchmarks & research as part of the Jev ecosystem
+        - "Defined in decision-models category as a canonical positive: Jev (TypeSafe System One)"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's core identity is a judgment model answering typed questions with probabilities, not an agent performing coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

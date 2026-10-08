@@ -68,6 +68,21 @@ provenance:
         extracted_url: https://github.com/aifabrice/jev-rag
         surrounding_text: "- [Jev RAG](https://github.com/aifabrice/jev-rag) - Local knowledge search where SQLite BM25 or agent-planned lexical retrieval shortlists passages, Jev answers batched `Noul` questions about relevance and answer support, and Python owns thresholds, ordering, caching, and whether evidence reaches the answering model."
         confidence: high
+    - id: discovery__github__aifabrice__jev-rag__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-rag
+        extracted_url: https://github.com/aifabrice/jev-rag
+        surrounding_text: "- [jev-rag](https://github.com/aifabrice/jev-rag) ([site](https://aifabrice.github.io/jev-rag/)) - Jev RAG (Jev-RAG / JevRAG): open-source local knowledge search with BM25 + Jev reranking, agentic and hybrid retrieval, cited answers, and reproducible benchmarks."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -126,7 +141,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.931Z"
+    updated_at: "2026-10-08T04:16:14.229Z"
     cause: null
     next_retry_at: null
   stars:
@@ -135,6 +150,9 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

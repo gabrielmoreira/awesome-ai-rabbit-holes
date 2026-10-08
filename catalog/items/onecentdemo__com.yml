@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__onecentdemo__com__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Try demos
         extracted_url: https://onecentdemo.com
-        surrounding_text: >-
-          - [jev-demofast](https://github.com/q3learners/jev-demofast) - `Open source` · `Free source build` · `BYOK`.
-          One sentence in, a narrated product demo out: TypeSafe Jev drives your real product in a browser (optional
-          source-built screen map). [Try demos](https://onecentdemo.com) · [Project
-          guide](community/projects/apps/jev-demofast.md).
+        surrounding_text: "- [jev-demofast](https://github.com/q3learners/jev-demofast) - `Open source` · `Free source build` · `BYOK`. One sentence in, a narrated product demo out: TypeSafe Jev drives your real product in a browser (optional source-built screen map). [Try demos](https://onecentdemo.com) · [Project guide](community/projects/apps/jev-demofast.md)."
         confidence: high
 metadata:
   github:
@@ -41,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-demofast - Open source · Free source build · BYOK. One sentence in, a narrated product demo out: TypeSafe Jev
-    drives your real product in a browser (optional source-built screen map). Try demos · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: onecentdemo.com is a tool that generates narrated demo videos from natural language prompts by driving a real browser with the Jev decision model.
+  why_it_matters: It lets developers quickly create product demos without manual screen recording, turning simple sentences into guided browser walkthroughs with voiceover.
+  mental_damage: Finally, a way to automate the soul-crushing task of making demo videos that no one watches but everyone insists you need.
+  tags:
+    - demo-generation
+    - browser-automation
+    - ai-narration
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The tool is primarily a browser automation utility driven by a decision model (Jev), not a developer-facing AI tool that writes, edits, or assists with code; its output is a video demo, not code or development workflow artifacts.
   evidence:
-    - jev-latest choice confidence 0.66
+    - The product generates narrated demo videos by driving a browser with Jev, a decision model, to perform clicks and form fills based on natural language prompts.
+    - It maps app routes, records outlined frames, and outputs MP4/GIF files with optional voiceover and music — no code editing, file writing, or repo interaction is described.
+    - It appears in the awesome-jev list under 'Apps powered by Jev' as a demo generation tool, not as a coding assistant, agent, or developer workflow enhancer.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:30.668Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cc0ed2c15d6a735095d01f07bb575478f64f9b9c3d2afe1ad615af86cc427453
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is primarily a browser automation utility driven by a decision model (Jev), not a developer-facing AI tool that writes, edits, or assists with code; its output is a video demo, not code or development workflow artifacts.
+      decision_evidence:
+        - The product generates narrated demo videos by driving a browser with Jev, a decision model, to perform clicks and form fills based on natural language prompts.
+        - It maps app routes, records outlined frames, and outputs MP4/GIF files with optional voiceover and music — no code editing, file writing, or repo interaction is described.
+        - It appears in the awesome-jev list under 'Apps powered by Jev' as a demo generation tool, not as a coding assistant, agent, or developer workflow enhancer.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

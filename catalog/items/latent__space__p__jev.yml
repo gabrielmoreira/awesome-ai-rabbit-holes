@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__latent__space__p__jev__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Jev and the System One Model (Latent Space)
         extracted_url: https://latent.space/p/jev
-        surrounding_text: >-
-          - [Jev and the System One Model (Latent Space)](https://www.latent.space/p/jev) - Podcast: Diogo Almeida on
-          RLCD, intelligence per dollar, reliability, and why chat-first interfaces may not be where this ends up.
+        surrounding_text: "- [Jev and the System One Model (Latent Space)](https://www.latent.space/p/jev) - Podcast: Diogo Almeida on RLCD, intelligence per dollar, reliability, and why chat-first interfaces may not be where this ends up."
         confidence: high
 metadata:
   github:
@@ -39,28 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Jev is a System One decision model from TypeSafe AI that outputs calibrated probabilities for typed questions instead of generating text.
+  why_it_matters: It provides a decision-layer foundation for software that wants AI judgments with epistemic honesty rather than chat-style outputs.
+  mental_damage: Another model promising to disappear into the background while spawning its own benchmark discourse and latent-space citations.
+  tags:
+    - decision-model
+    - jevon
+    - typesafe
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: included
+  reason: The product's core identity is a decision model that answers typed questions with probabilities, matching the decision-models category's definition and canonical positive Jev (TypeSafe System One).
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.45 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The scraped site and transcript describe Jev as a System One model that outputs calibrated probabilities for typed questions rather than generating text.
+    - Diogo Almeida states Jev is optimized for 'intelligence per dollar' and designed for software consumption via its API and programming primitives.
+    - The source-list context links to 'The definitive Jev podcast with its lead creator' under a Jev-specific awesome list.
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:01.573Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:73cadc57c82acf0a14c7f9d749c87da756b61a1201478beb87ace61a3f91f6f7
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model that answers typed questions with probabilities, matching the decision-models category's definition and canonical positive Jev (TypeSafe System One).
+      decision_evidence:
+        - The scraped site and transcript describe Jev as a System One model that outputs calibrated probabilities for typed questions rather than generating text.
+        - Diogo Almeida states Jev is optimized for 'intelligence per dollar' and designed for software consumption via its API and programming primitives.
+        - The source-list context links to 'The definitive Jev podcast with its lead creator' under a Jev-specific awesome list.
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's primary identity is a decision model that returns constrained answers with probabilities, not an agent that performs coding tasks.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

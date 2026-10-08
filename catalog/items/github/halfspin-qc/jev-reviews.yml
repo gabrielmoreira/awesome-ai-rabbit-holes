@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__halfspin-qc__jev-reviews__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-reviews
         extracted_url: https://github.com/halfspin-qc/jev-reviews
-        surrounding_text: >-
-          - [jev-reviews](https://github.com/halfspin-qc/jev-reviews) - TypeSafe AI - Jev - first look and experiment
-          with its API + Google reviews experiments.
+        surrounding_text: "- [jev-reviews](https://github.com/halfspin-qc/jev-reviews) - TypeSafe AI - Jev - first look and experiment with its API + Google reviews experiments."
         confidence: high
     - id: discovery__github__halfspin-qc__jev-reviews__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,14 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Data & Search
-        anchor_text: '**jev-reviews**'
+        anchor_text: "**jev-reviews**"
         extracted_url: https://github.com/halfspin-qc/jev-reviews
-        surrounding_text: >-
-          - [**jev-reviews**](https://github.com/halfspin-qc/jev-reviews) — The flagship experiment in this workspace is
-          \*\*\`jev-reviews\`\*\*: an automated pipeline that ingests Google Maps restaurant reviews from \*\*Apify
-          Storage\*\*, stores and deduplicates them in \*\*Supabase PostgreSQL\*\*, and classifies them using \*\*Jev
-          (TypeSafe System One)\*\* or traditional generative LLMs across 5 operational pillars, extracting dishes,
-          customer highlights, and owner recommendations.
+        surrounding_text: "- [**jev-reviews**](https://github.com/halfspin-qc/jev-reviews) — The flagship experiment in this workspace is \\*\\*\\`jev-reviews\\`\\*\\*: an automated pipeline that ingests Google Maps restaurant reviews from \\*\\*Apify Storage\\*\\*, stores and deduplicates them in \\*\\*Supabase PostgreSQL\\*\\*, and classifies them using \\*\\*Jev (TypeSafe System One)\\*\\* or traditional generative LLMs across 5 operational pillars, extracting dishes, customer highlights, and owner recommendations."
         confidence: high
 metadata:
   github:
@@ -51,14 +44,14 @@ metadata:
     archived: false
     full_name: halfspin-qc/jev-reviews
     html_url: https://github.com/halfspin-qc/jev-reviews
-    created_at: '2026-09-22T05:11:33Z'
-    pushed_at: '2026-09-22T08:09:35Z'
+    created_at: "2026-09-22T05:11:33Z"
+    pushed_at: "2026-09-22T08:09:35Z"
     description: TypeSafe AI - Jev - first look and experiment with its API + Google reviews experiments
-    homepage: ''
+    homepage: ""
     topics: []
-    last_checked_at: '2026-09-29T13:11:55.834Z'
+    last_checked_at: "2026-09-29T13:11:55.834Z"
     readme:
-      fetched_at: '2026-09-29T13:11:55.834Z'
+      fetched_at: "2026-09-29T13:11:55.834Z"
       bytes: 7318
 insights:
   summary: TypeSafe AI - Jev - first look and experiment with its API + Google reviews experiments
@@ -71,9 +64,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
   evidence:
     - jev-latest choice confidence 0.45
-    - >-
-      jev winnow:e4b 0.33 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.33 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -85,15 +76,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.414Z'
+    updated_at: "2026-09-29T13:07:10.414Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:55.834Z'
+    updated_at: "2026-09-29T13:11:55.834Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__heymegabyte__claude-skills__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,10 +19,7 @@ provenance:
           - Coding Agents
         anchor_text: Emdash Skills
         extracted_url: https://github.com/megabytespace/claude-skills
-        surrounding_text: >-
-          - **[Emdash Skills](https://github.com/megabytespace/claude-skills)** – 14-category autonomous
-          product-building OS with 18 specialized agents that turn one-line prompts into deployed products on Cloudflare
-          Workers.
+        surrounding_text: "- **[Emdash Skills](https://github.com/megabytespace/claude-skills)** – 14-category autonomous product-building OS with 18 specialized agents that turn one-line prompts into deployed products on Cloudflare Workers."
         confidence: high
 metadata:
   github:
@@ -32,8 +29,8 @@ metadata:
     archived: false
     full_name: heymegabyte/claude-skills
     html_url: https://github.com/heymegabyte/claude-skills
-    created_at: '2026-04-20T18:30:10Z'
-    pushed_at: '2026-09-27T01:11:37Z'
+    created_at: "2026-04-20T18:30:10Z"
+    pushed_at: "2026-09-27T01:11:37Z"
     description: 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products.
     homepage: https://claude.megabyte.space
     topics:
@@ -57,9 +54,9 @@ metadata:
       - product-building
       - saas
       - vibe-coding
-    last_checked_at: '2026-09-29T13:12:07.081Z'
+    last_checked_at: "2026-09-29T13:12:07.081Z"
     readme:
-      fetched_at: '2026-09-29T13:12:07.081Z'
+      fetched_at: "2026-09-29T13:12:07.081Z"
       bytes: 29365
 insights:
   summary: 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products.
@@ -72,9 +69,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.88
-    - >-
-      jev winnow:e4b 0.48 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills
-      (unverified)
+    - jev winnow:e4b 0.48 below gate 0.50; proposed skills / Skill Packs & Libraries; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -86,15 +81,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.459Z'
+    updated_at: "2026-09-29T13:07:10.459Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:12:07.081Z'
+    updated_at: "2026-09-29T13:12:07.081Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.685Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

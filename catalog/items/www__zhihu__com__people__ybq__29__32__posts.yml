@@ -36,18 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Zhihu user profile page listing posts and answers on the Chinese Q&A platform Zhihu.
-  why_it_matters: It does not provide any developer-facing tool, workflow, or infrastructure relevant to software developers.
-  mental_damage: Another reminder that scraping social profiles for AI tool lists is how we got here.
-  tags: []
+  summary: A personal user profile page on the Zhihu Q&A platform.
+  why_it_matters: This is a social media feed for an individual user, not a software development tool or a dedicated AI resource.
+  mental_damage: The specific brand of fatigue that comes from following a deep-dive link only to land on a stranger's social media profile.
+  tags:
+    - zhihu
+    - social-media
   confidence: high
 curation:
   status: excluded
-  reason: The input is a user profile page on Zhihu, a general Chinese knowledge-sharing platform, with no identifiable AI tool, agent, or developer-facing product.
+  reason: The input is a personal user profile on a general-purpose Q&A site, not a developer tool or a curated AI resource.
   evidence:
-    - "URL points to a Zhihu user profile: https://www.zhihu.com/people/ybq-29-32/posts"
-    - Scraped site title and description describe Zhihu as a general Q&A and content platform, not a developer tool
-    - No repo description, README, or technical details indicating AI tooling or developer workflow relevance
+    - The URL points to a specific user's post list on Zhihu.
+    - No product identity, codebase, or developer-focused AI tooling is identified.
 placement:
   primary_category: null
   section: null
@@ -66,24 +67,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:58:05.984Z"
+    updated_at: "2026-10-08T04:32:44.705Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:1d3d9efbe71eb888d30c143d02a0607ce29eac27228ee32e2486b2203a4725a4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a user profile page on Zhihu, a general Chinese knowledge-sharing platform, with no identifiable AI tool, agent, or developer-facing product.
+      decision_reason: The input is a personal user profile on a general-purpose Q&A site, not a developer tool or a curated AI resource.
       decision_evidence:
-        - "URL points to a Zhihu user profile: https://www.zhihu.com/people/ybq-29-32/posts"
-        - Scraped site title and description describe Zhihu as a general Q&A and content platform, not a developer tool
-        - No repo description, README, or technical details indicating AI tooling or developer workflow relevance
+        - The URL points to a specific user's post list on Zhihu.
+        - No product identity, codebase, or developer-focused AI tooling is identified.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -37,26 +37,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: var.gg appears to be a personal or experimental project with no clear description or available repository.
-  why_it_matters: It is unclear what var.gg offers to developers, making its value proposition unknown.
-  mental_damage: Another mystery link in the AI toolchain graveyard, promising nothing and delivering even less.
+  summary: No information available to determine the function of var.gg.
+  why_it_matters: N/A
+  mental_damage: Attempting to evaluate a project with zero metadata is the most accurate simulation of the current AI hype cycle.
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: The project lacks a discernible identity, description, or evidence of being a developer-facing AI tool, making it impossible to assess fit.
+  reason: The provided input contains no descriptive text, README, or metadata to verify that this project fits the catalog's developer-tooling scope.
   evidence:
     - No repo description provided
-    - No README excerpt or scraped site context available
-    - No stars, creation date, or recent activity data to indicate traction or relevance
+    - No README excerpt or site context available
+    - No stars or activity signals provided
 placement:
   primary_category: null
   secondary_categories:
     - coding-agents
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -69,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:56:57.876Z"
+    updated_at: "2026-10-08T04:30:36.953Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:ded84464280c824a3299d67d4b535cc36611c34ab41e208b05270a8e3ee70cbe
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks a discernible identity, description, or evidence of being a developer-facing AI tool, making it impossible to assess fit.
+      decision_reason: The provided input contains no descriptive text, README, or metadata to verify that this project fits the catalog's developer-tooling scope.
       decision_evidence:
         - No repo description provided
-        - No README excerpt or scraped site context available
-        - No stars, creation date, or recent activity data to indicate traction or relevance
+        - No README excerpt or site context available
+        - No stars or activity signals provided
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

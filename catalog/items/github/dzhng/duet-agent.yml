@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dzhng__duet-agent__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Agent tooling (228)
         anchor_text: duet-agent
         extracted_url: https://github.com/dzhng/duet-agent
-        surrounding_text: >-
-          | [duet-agent](https://github.com/dzhng/duet-agent) | ★ 43 | TypeScript | 2026-09-19 | Full-stack agent
-          harness with memories, long-running tasks, multi-agent relay, and a Jev-backed model-routing table. |
+        surrounding_text: "| [duet-agent](https://github.com/dzhng/duet-agent) | ★ 43 | TypeScript | 2026-09-19 | Full-stack agent harness with memories, long-running tasks, multi-agent relay, and a Jev-backed model-routing table. |"
         confidence: high
     - id: discovery__github__dzhng__duet-agent__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -38,10 +36,7 @@ provenance:
           - Classification & Routing
         anchor_text: duet-agent
         extracted_url: https://github.com/dzhng/duet-agent
-        surrounding_text: >-
-          - [duet-agent](https://github.com/dzhng/duet-agent)
-          ![stars](https://img.shields.io/github/stars/dzhng/duet-agent?style=flat-square&label=%E2%98%85) - Agent
-          harness: keeps a Jev-backed routing table for deciding which model should serve a request.
+        surrounding_text: "- [duet-agent](https://github.com/dzhng/duet-agent) ![stars](https://img.shields.io/github/stars/dzhng/duet-agent?style=flat-square&label=%E2%98%85) - Agent harness: keeps a Jev-backed routing table for deciding which model should serve a request."
         confidence: high
 metadata:
   github:
@@ -51,10 +46,10 @@ metadata:
     archived: false
     full_name: dzhng/duet-agent
     html_url: https://github.com/dzhng/duet-agent
-    created_at: '2026-04-10T03:06:09Z'
-    pushed_at: '2026-09-29T07:45:36Z'
+    created_at: "2026-04-10T03:06:09Z"
+    pushed_at: "2026-09-29T07:45:36Z"
     description: An opinionated full-stack agent harness with native memories, long running tasks, and multi-agent relay
-    homepage: ''
+    homepage: ""
     topics:
       - agent
       - claude-code
@@ -63,9 +58,9 @@ metadata:
       - harness-engineering
       - hermes
       - openclaw
-    last_checked_at: '2026-09-29T13:10:51.941Z'
+    last_checked_at: "2026-09-29T13:10:51.941Z"
     readme:
-      fetched_at: '2026-09-29T13:10:51.941Z'
+      fetched_at: "2026-09-29T13:10:51.941Z"
       bytes: 51235
 insights:
   summary: An opinionated full-stack agent harness with native memories, long running tasks, and multi-agent relay
@@ -88,15 +83,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:51.941Z'
+    updated_at: "2026-09-29T13:10:51.941Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__compiler__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Integrations
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-compiler
-        surrounding_text: >-
-          - [jevc](https://github.com/doronp/jevc) ([site](https://www.npmjs.com/package/jev-compiler)) - Compile agent
-          policy prose into deterministic verdict programs: narrow evidence questions for the model, the verdict
-          computed in code. Install: npm i -g jev-compiler.
+        surrounding_text: "- [jevc](https://github.com/doronp/jevc) ([site](https://www.npmjs.com/package/jev-compiler)) - Compile agent policy prose into deterministic verdict programs: narrow evidence questions for the model, the verdict computed in code. Install: npm i -g jev-compiler."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jevc (site) - Compile agent policy prose into deterministic verdict programs: narrow evidence questions for the
-    model, the verdict computed in code. Install: npm i -g jev-compiler.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: jev-compiler is a JavaScript package that compiles Jev decision models for use in development workflows.
+  why_it_matters: It enables developers to integrate TypeSafe AI's System One decision models into applications via a familiar npm interface.
+  mental_damage: Another npm package promising to bridge the gap between experimental AI models and real-world code, adding yet another build step to the pipeline.
+  tags:
+    - decision-model
+    - jev
+    - compiler
+    - npm
+    - typesafe-ai
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Client SDKs & CLIs
+  reason: jev-compiler is a developer-facing SDK for compiling and using Jev decision models, making it a direct integration layer for the decision model itself rather than a coding agent or general-purpose tool.
   evidence:
-    - jev-latest choice confidence 0.70
+    - URL points to npm package jev-compiler, indicating it is a JavaScript/TypeScript SDK.
+    - Listed in source list 'awesome-jev' under section 'Integrations' for projects built on Jev (TypeSafe AI's System One model).
+    - No evidence of autonomous coding, app generation, or agent orchestration; focused on model compilation and usage.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Client SDKs & CLIs
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:36.358Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:3ad8b4f55814d992a0761ad24cdcc2fddb2a5e895a96a438b1fd4c213cac255c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: jev-compiler is a developer-facing SDK for compiling and using Jev decision models, making it a direct integration layer for the decision model itself rather than a coding agent or general-purpose tool.
+      decision_evidence:
+        - URL points to npm package jev-compiler, indicating it is a JavaScript/TypeScript SDK.
+        - Listed in source list 'awesome-jev' under section 'Integrations' for projects built on Jev (TypeSafe AI's System One model).
+        - No evidence of autonomous coding, app generation, or agent orchestration; focused on model compilation and usage.
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because jev-compiler's primary purpose is to enable usage of the Jev decision model via an SDK, not to extend a host coding agent or editor with additional capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

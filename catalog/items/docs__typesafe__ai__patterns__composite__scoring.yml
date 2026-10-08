@@ -37,16 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A pattern for breaking complex judgments into atomic scores and combining them with adjustable weights in code.
+  why_it_matters: Provides a transparent, tunable approach to multi-criteria scoring for decisions like resume screening or ranking tasks.
+  mental_damage: Another framework for turning gut feelings into spreadsheets you can argue about in meetings.
+  tags:
+    - scoring
+    - decision-making
+    - weights
+    - pattern
+    - typesafe
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: This is a documentation page describing a decision-making pattern, not a standalone tool, framework, or developer-facing product with runtime or integrations.
   evidence:
-    - jev winnow:e4b 0.45 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - Source is a documentation page at docs.typesafe.ai/patterns/composite-scoring
+    - Describes a pattern for scoring and weighting dimensions, not a tool or library
+    - Appears in awesome-jev as a pattern/cookbook example under 'Extraction and structured data'
 placement:
   primary_category: null
   section: null
@@ -64,10 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-05T05:05:15.842Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for docs__typesafe__ai__patterns__composite__scoring: Invalid AI response structure: Missing required field: why_it_matters"
+    status: done
+    updated_at: "2026-10-08T04:37:08.597Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e38765225e9eb543b31eeda0c6724cd53efa04205c4920a4fb5133201421ea10
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page describing a decision-making pattern, not a standalone tool, framework, or developer-facing product with runtime or integrations.
+      decision_evidence:
+        - Source is a documentation page at docs.typesafe.ai/patterns/composite-scoring
+        - Describes a pattern for scoring and weighting dimensions, not a tool or library
+        - Appears in awesome-jev as a pattern/cookbook example under 'Extraction and structured data'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

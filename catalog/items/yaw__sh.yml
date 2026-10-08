@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__yaw__sh__awesome-list__bradagi__awesome-cli-coding-agents
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: bradAGI/awesome-cli-coding-agents
@@ -19,9 +19,7 @@ provenance:
           - Closed Source
         anchor_text: Yaw
         extracted_url: https://yaw.sh
-        surrounding_text: >-
-          - **[Yaw](https://yaw.sh)** — Cross-platform terminal that auto-detects CLI coding agents (Claude Code, Codex,
-          Gemini CLI, Vibe CLI) and opens a split-pane workflow.
+        surrounding_text: "- **[Yaw](https://yaw.sh)** — Cross-platform terminal that auto-detects CLI coding agents (Claude Code, Codex, Gemini CLI, Vibe CLI) and opens a split-pane workflow."
         confidence: high
 metadata:
   github:
@@ -39,13 +37,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Yaw — Cross-platform terminal that auto-detects CLI coding agents (Claude Code, Codex, Gemini CLI, Vibe CLI) and
-    opens a split-pane workflow.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI-enhanced terminal environment featuring an integrated SSH client, database manager, file editor, and specialized harnesses for coding agents.
+  why_it_matters: It provides a purpose-built workspace that augments existing CLI agents like Claude Code with better context, split-pane workflows, and integrated developer tools.
+  mental_damage: Because apparently, a standard terminal is no longer enough to contain the context-hungry ambitions of your AI coding agents.
+  tags:
+    - terminal
+    - mcp
+    - claude-code
+    - ai-assistant
+    - dev-workflow
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in coding-agents / Terminal & CLI Agents
@@ -54,14 +55,14 @@ curation:
 placement:
   primary_category: coding-agents
   secondary_categories: []
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.496Z'
+    updated_at: "2026-09-29T13:07:10.496Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +70,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:50:45.219Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:dbcb85f70ce980b778b49ad516f60a451b4d69860aecc2a5fb9c68c8849d6bb8
+      proposed_primary_category: extensions-and-addons
+      disagreement: true
+      decision_reason: It serves as a host environment and augmentation layer for existing agents rather than acting as a standalone autonomous coding agent itself.
+      decision_evidence:
+        - Features 'Claude Code Yaw Mode,' a specific harness to layer rules and skills onto Claude Code sessions.
+        - Functions as a terminal environment that manages and displays AI CLI tools like Codex and Vibe in split-pane workflows.
+        - Provides integrated infrastructure (SSH, DB, Editor) designed to support the operational needs of an AI assistant.
+      category_candidates:
+        - extensions-and-addons
+        - coding-agents
+      contrastive_reason: Choose extensions-and-addons over coding-agents because its primary identity is a terminal environment and harness that augments existing assistants rather than a standalone autonomous coder.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'extensions-and-addons'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

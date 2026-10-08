@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__az9713__jev-model-router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,9 +19,7 @@ provenance:
           - Agent tooling
         anchor_text: jev-model-router
         extracted_url: https://github.com/az9713/jev-model-router
-        surrounding_text: >-
-          - [jev-model-router](https://github.com/az9713/jev-model-router)
-          ([site](https://az9713.github.io/jev-model-router/)) - Jev (TypeSafe) model router on the Vercel AI Gateway.
+        surrounding_text: "- [jev-model-router](https://github.com/az9713/jev-model-router) ([site](https://az9713.github.io/jev-model-router/)) - Jev (TypeSafe) model router on the Vercel AI Gateway."
         confidence: high
 metadata:
   github:
@@ -31,14 +29,14 @@ metadata:
     archived: false
     full_name: az9713/jev-model-router
     html_url: https://github.com/az9713/jev-model-router
-    created_at: '2026-09-19T05:49:31Z'
-    pushed_at: '2026-09-20T05:45:55Z'
+    created_at: "2026-09-19T05:49:31Z"
+    pushed_at: "2026-09-20T05:45:55Z"
     description: Jev (TypeSafe) model router on the Vercel AI Gateway
     homepage: https://az9713.github.io/jev-model-router/
     topics: []
-    last_checked_at: '2026-09-29T13:09:24.205Z'
+    last_checked_at: "2026-09-29T13:09:24.205Z"
     readme:
-      fetched_at: '2026-09-29T13:09:24.205Z'
+      fetched_at: "2026-09-29T13:09:24.205Z"
       bytes: 3282
 insights:
   summary: Jev (TypeSafe) model router on the Vercel AI Gateway
@@ -61,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.449Z'
+    updated_at: "2026-09-29T13:07:10.449Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:24.205Z'
+    updated_at: "2026-09-29T13:09:24.205Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

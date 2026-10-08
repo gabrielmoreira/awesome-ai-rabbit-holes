@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__spaces__ikermoel__open__alternative__jev__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://huggingface.co/spaces/IkerMoel/open-alternative-jev
-        surrounding_text: >-
-          - [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
-          ([site](https://huggingface.co/spaces/IkerMoel/open-alternative-jev)) - Open alternative to Jev: typed,
-          calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with benchmarks.
+        surrounding_text: "- [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev) ([site](https://huggingface.co/spaces/IkerMoel/open-alternative-jev)) - Open alternative to Jev: typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with benchmarks."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    open-alternative-jev (site) - Open alternative to Jev: typed, calibrated decisions from any open-weights LLM in one
-    forward pass (HF + vLLM), with benchmarks.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Hugging Face Space providing an open alternative to the Jev decision model for making typed decisions from an open LLM in one forward pass.
+  why_it_matters: It offers developers a reproducible, open-source way to perform fast, constrained decision-making tasks like classification or routing without autoregressive generation.
+  mental_damage: Another day, another open clone of a niche model — great for when you want to feel like you're advancing the frontier while actually just mirroring someone else's research.
+  tags:
+    - decision-models
+    - open-source
+    - llm
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The project is explicitly positioned as an open alternative to Jev, a decision model, and its core function is enabling typed decisions from an LLM in one forward pass, which aligns with the decision-models category's focus on models that return constrained answers with probabilities.
   evidence:
-    - jev-latest choice confidence 0.65
+    - "Scraped site description: 'Typed decisions from an open LLM in one forward pass'"
+    - "Source-list context: listed in awesome-jev under 'Benchmarks & research' as part of a directory of projects built on Jev"
+    - "Title: 'Open Alternative to Jev - a Hugging Face Space by IkerMoel'"
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Open & Local Decision Models
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:34.363Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:aecdf5f076dd8e5f46adc1f9e4dee0031624f018453284e6abad22244d49cfe4
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project is explicitly positioned as an open alternative to Jev, a decision model, and its core function is enabling typed decisions from an LLM in one forward pass, which aligns with the decision-models category's focus on models that return constrained answers with probabilities.
+      decision_evidence:
+        - "Scraped site description: 'Typed decisions from an open LLM in one forward pass'"
+        - "Source-list context: listed in awesome-jev under 'Benchmarks & research' as part of a directory of projects built on Jev"
+        - "Title: 'Open Alternative to Jev - a Hugging Face Space by IkerMoel'"
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the tool's identity is providing a decision model for typed questions with probabilities, not performing coding tasks like editing code or running commands in a terminal or IDE.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

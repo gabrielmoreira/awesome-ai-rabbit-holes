@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__manualmode__dev__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: ManualMode
         extracted_url: https://manualmode.dev
-        surrounding_text: >-
-          - **[ManualMode](https://manualmode.dev)** – Skill and MCP workflow for hands-on coding practice alongside AI
-          agents: suggest small repository tasks, reserve one for the developer, and track practice progress. Includes a
-          free tier.
+        surrounding_text: "- **[ManualMode](https://manualmode.dev)** – Skill and MCP workflow for hands-on coding practice alongside AI agents: suggest small repository tasks, reserve one for the developer, and track practice progress. Includes a free tier."
         confidence: high
 metadata:
   github:
@@ -48,21 +45,19 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.25 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.25 below gate 0.50; proposed coding-agents / Autonomous & Multi-Agent Coding; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +65,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:41:29.926Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for manualmode__dev: Invalid AI response format: SyntaxError: Unexpected token 'M', ...\"_reason\": ManualMode\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

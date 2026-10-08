@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__drop-to-run__drop2run-cli__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
         anchor_text: Drop-to-run/drop2run-cli
         extracted_url: https://github.com/drop-to-run/drop2run-cli
-        surrounding_text: >-
-          - [Drop-to-run/drop2run-cli](https://github.com/Drop-to-run/drop2run-cli) [![Drop-to-run/drop2run-cli MCP
-          server](https://glama.ai/mcp/servers/Drop-to-run/drop2run-cli/badges/score.svg)](https://glama.ai/mcp/servers/Drop-to-run/drop2run-cli)
-          📇 ☁️ - Publish pages written in chat or a local folder to a live HTTPS URL, with static hosting on
-          Cloudflare's edge.
+        surrounding_text: "- [Drop-to-run/drop2run-cli](https://github.com/Drop-to-run/drop2run-cli) [![Drop-to-run/drop2run-cli MCP server](https://glama.ai/mcp/servers/Drop-to-run/drop2run-cli/badges/score.svg)](https://glama.ai/mcp/servers/Drop-to-run/drop2run-cli) 📇 ☁️ - Publish pages written in chat or a local folder to a live HTTPS URL, with static hosting on Cloudflare's edge."
         confidence: high
 metadata:
   github:
@@ -34,11 +30,9 @@ metadata:
     archived: false
     full_name: Drop-to-run/drop2run-cli
     html_url: https://github.com/Drop-to-run/drop2run-cli
-    created_at: '2026-09-10T04:45:46Z'
-    pushed_at: '2026-09-26T10:06:09Z'
-    description: >-
-      Source for the drop2run CLI and MCP server — publish a static site or an agent's output to an HTTPS link, no git
-      and no build config.
+    created_at: "2026-09-10T04:45:46Z"
+    pushed_at: "2026-09-26T10:06:09Z"
+    description: Source for the drop2run CLI and MCP server — publish a static site or an agent's output to an HTTPS link, no git and no build config.
     homepage: https://dropto.run
     topics:
       - ai-agents
@@ -50,14 +44,12 @@ metadata:
       - mcp-server
       - static-site
       - static-site-hosting
-    last_checked_at: '2026-09-29T13:10:49.399Z'
+    last_checked_at: "2026-09-29T13:10:49.399Z"
     readme:
-      fetched_at: '2026-09-29T13:10:49.399Z'
+      fetched_at: "2026-09-29T13:10:49.399Z"
       bytes: 4876
 insights:
-  summary: >-
-    Source for the drop2run CLI and MCP server — publish a static site or an agent's output to an HTTPS link, no git and
-    no build config.
+  summary: Source for the drop2run CLI and MCP server — publish a static site or an agent's output to an HTTPS link, no git and no build config.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -67,9 +59,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in mcp / Middleware & Generic
   evidence:
     - jev-latest choice confidence 0.43
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed app-builders / Site & Landing Page Builders; placement kept at mcp
-      (unverified)
+    - jev winnow:e4b 0.42 below gate 0.50; proposed app-builders / Site & Landing Page Builders; placement kept at mcp (unverified)
 placement:
   primary_category: mcp
   secondary_categories:
@@ -81,15 +71,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.455Z'
+    updated_at: "2026-09-29T13:07:10.455Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:49.399Z'
+    updated_at: "2026-09-29T13:10:49.399Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

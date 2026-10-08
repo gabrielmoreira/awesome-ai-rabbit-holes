@@ -5,9 +5,8 @@ canonical_url: https://huggingface.co/spaces/drinkmoonshine/parallel-constrained
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__huggingface__co__spaces__drinkmoonshine__parallel__constrained__decoding__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__huggingface__co__spaces__drinkmoonshine__parallel__constrained__decoding__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,14 +18,10 @@ provenance:
           - Benchmarks & research
         anchor_text: Parallel Constrained Decoding (Qwen2.5-1B-RLCD)
         extracted_url: https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding
-        surrounding_text: >-
-          - [Parallel Constrained Decoding
-          (Qwen2.5-1B-RLCD)](https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding) - Hugging Face
-          Space exploring open-source parallel constrained decoding as an alternative to Jev.
+        surrounding_text: "- [Parallel Constrained Decoding (Qwen2.5-1B-RLCD)](https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding) - Hugging Face Space exploring open-source parallel constrained decoding as an alternative to Jev."
         confidence: high
-    - id: >-
-        discovery__huggingface__co__spaces__drinkmoonshine__parallel__constrained__decoding__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__huggingface__co__spaces__drinkmoonshine__parallel__constrained__decoding__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -39,11 +34,7 @@ provenance:
           - Calibration & Research
         anchor_text: Parallel Constrained Decoding (Qwen2.5-1B-RLCD)
         extracted_url: https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding
-        surrounding_text: >-
-          - [Parallel Constrained Decoding
-          (Qwen2.5-1B-RLCD)](https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding) - Open
-          research: RLCD-trained Qwen2.5-1B demo exploring open-source parallel constrained decoding as an alternative
-          to Jev.
+        surrounding_text: "- [Parallel Constrained Decoding (Qwen2.5-1B-RLCD)](https://huggingface.co/spaces/drinkmoonshine/parallel-constrained-decoding) - Open research: RLCD-trained Qwen2.5-1B demo exploring open-source parallel constrained decoding as an alternative to Jev."
         confidence: high
 metadata:
   github:
@@ -61,33 +52,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Parallel Constrained Decoding (Qwen2.5-1B-RLCD) - Hugging Face Space exploring open-source parallel constrained
-    decoding as an alternative to Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Hugging Face Space that extracts structured data from text using parallel constrained decoding guided by a JSON schema.
+  why_it_matters: It demonstrates a constrained decoding technique that improves reliability for structured output generation in developer workflows.
+  mental_damage: Another niche Hugging Face Space that solves a very specific LLM output problem most developers will never need to implement themselves.
+  tags:
+    - constrained-decoding
+    - structured-output
+    - huggingface-spaces
+  confidence: medium
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
   evidence:
     - jev-latest choice confidence 0.41
-    - >-
-      jev winnow:e4b 0.20 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.20 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
     - extensions-and-addons
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,6 +85,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:31.040Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:950770d4bacb4c594003ac7eac0f8636756a6d487acdff4e5d7f73976d5353fa
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: The tool provides a reusable decoding technique for structured generation that developers can integrate into their LLM pipelines, fitting as infrastructure rather than an end-user app or agent.
+      decision_evidence:
+        - Enter a text document and a JSON schema that describes the information you want to extract
+        - The app runs a fast parallel constrained decoding method and a standard generation method
+        - Listed in awesome-jev under Benchmarks & research and Calibration & Research sections
+      category_candidates:
+        - ai-frameworks
+        - decision-models
+      contrastive_reason: Choose ai-frameworks over decision-models because the tool is a reusable decoding infrastructure component, not a decision model or judgment system itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'ai-frameworks'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

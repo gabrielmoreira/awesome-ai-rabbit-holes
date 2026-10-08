@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__genspark-ai__genoffice__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: genoffice
         extracted_url: https://github.com/genspark-ai/genoffice
-        surrounding_text: >-
-          | [genoffice](https://github.com/genspark-ai/genoffice) | ★ 7,541 | TypeScript | 2026-09-23 | Jev assigns a
-          calibrated relevance score to each of the top 20 locally recalled files and reranks the search results. |
+        surrounding_text: "| [genoffice](https://github.com/genspark-ai/genoffice) | ★ 7,541 | TypeScript | 2026-09-23 | Jev assigns a calibrated relevance score to each of the top 20 locally recalled files and reranks the search results. |"
         confidence: high
 metadata:
   github:
@@ -32,12 +30,9 @@ metadata:
     archived: false
     full_name: genspark-ai/genoffice
     html_url: https://github.com/genspark-ai/genoffice
-    created_at: '2026-07-31T09:40:58Z'
-    pushed_at: '2026-09-29T07:16:10Z'
-    description: >-
-      Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent,
-      plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx
-      files locally. Bring your own key. macOS, Windows & Linux.
+    created_at: "2026-07-31T09:40:58Z"
+    pushed_at: "2026-09-29T07:16:10Z"
+    description: "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux."
     homepage: https://genoffice.ai/
     topics:
       - ai
@@ -60,9 +55,9 @@ metadata:
       - skills
       - spreadsheet
       - xlsx
-    last_checked_at: '2026-09-29T13:11:35.699Z'
+    last_checked_at: "2026-09-29T13:11:35.699Z"
     readme:
-      fetched_at: '2026-09-29T13:11:35.699Z'
+      fetched_at: "2026-09-29T13:11:35.699Z"
       bytes: 45729
 insights:
   summary: null
@@ -74,29 +69,30 @@ curation:
   status: pending
   reason: null
   evidence:
-    - >-
-      jev winnow:e4b 0.30 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; no placement kept
-      (unverified)
+    - jev winnow:e4b 0.30 below gate 0.50; proposed coding-agents / Terminal & CLI Agents; no placement kept (unverified)
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - coding-agents
+  section: null
 lifecycle:
   status: curated
   reason: Stars (8136) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:35.699Z'
+    updated_at: "2026-09-29T13:11:35.699Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

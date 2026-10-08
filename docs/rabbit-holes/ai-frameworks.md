@@ -3,15 +3,15 @@
 
 Code-first libraries, SDKs, and engines that developers import and program against to build AI-powered applications and agent systems.
 
-_484 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_481 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [LLM & Agent SDKs](#llm--agent-sdks) — 213
+- [LLM & Agent SDKs](#llm--agent-sdks) — 212
 - [Multi-Agent Systems](#multi-agent-systems) — 61
-- [Provider & Model Abstractions](#provider--model-abstractions) — 102
+- [Provider & Model Abstractions](#provider--model-abstractions) — 101
 - [Workflow & Graph Engines](#workflow--graph-engines) — 25
-- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 32
+- [Memory & Retrieval Infrastructure](#memory--retrieval-infrastructure) — 31
 - [Training & Model Infrastructure](#training--model-infrastructure) — 51
 
 ## LLM & Agent SDKs
@@ -229,7 +229,7 @@ _484 entries in 6 sections, ranked by stars. Each section opens with its top 30;
   `rag` `local-ai` `framework` `enterprise` `small-models`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+183 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+182 more in LLM & Agent SDKs &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[E2B](https://github.com/e2b-dev/e2b)** `⭐ 14.1k` `updated ≤30d` Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs.
 - **[Eino](https://github.com/cloudwego/eino)** `⭐ 13.2k` `updated ≤30d` Eino is a Go-based LLM application development framework with components, agent toolkits, and workflow orchestration.
@@ -410,7 +410,6 @@ _484 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[AntV](https://github.com/antvis)** AntV is a data visualization team and open-source project that provides charting libraries and AI-powered visualization tools for developers.
 - **[CSV-AI](https://docs.langchain.com/oss/python/langchain/overview)** LangChain is a code-first framework SDK for building LLM-powered agents and applications.
 - **[LangChain](https://langchain.com)** LangChain is a code-first framework for building AI-powered applications and agent systems using abstractions for LLMs, tools, memory, and orchestration.
-- **[Markstream Vue](https://markstream-vue.simonhe.me)** Markstream Vue – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.
 - **[typesafe_sdk](https://docs.rs/typesafe-sdk-rust/latest/typesafe_sdk)** A Rust SDK providing type-safe access to generative AI APIs with structured output support.
 - **[Vanna.AI](https://vanna.ai)** Vanna AI is an open-source framework for building SQL agents that allow users to query databases using natural language.
 - **[Vercel AI SDK](https://ai-sdk.dev)** AI SDK is a unified TypeScript SDK for building AI apps with streaming, fallbacks, and multi-model support, powered by Vercel.
@@ -848,7 +847,7 @@ _484 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[sanmai/typesafe-ai-php](https://github.com/sanmai/typesafe-ai-php)** `⭐ 14` SDKs & clients (2): typesafe-ai-php, SystemOneSharp.
 - **[twister915/typesafe-ai](https://github.com/twister915/typesafe-ai)** `⭐ 13` typesafe-ai - Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+72 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+71 more in Provider & Model Abstractions &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[atharvamhaske/typesafe-sdk-go](https://github.com/atharvamhaske/typesafe-sdk-go)** `⭐ 12` `updated ≤30d` unofficial go sdk for typesafe ai. not affiliated with or endorsed by typesafe ai. a side project built to fill the missing go sdk gap, for the community to use.
 - **[saibimajdi/typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk)** `⭐ 12` typesafe-dotnet-sdk (site) - Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.
@@ -920,8 +919,7 @@ _484 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[FuturMix](https://futurmix.ai)** FuturMix.ai is an API relay that provides unified OpenAI-compatible access to 25+ AI models with competitive rates and auto-failover.
 - **[New Relic](https://newrelic.com)** New Relic is an AI-powered observability platform that correlates telemetry across the stack to isolate root causes and reduce MTTR.
 - **[OpenRouter](https://openrouter.ai)** OpenRouter is a unified API interface providing access to hundreds of AI models across multiple providers with pricing and routing features.
-- **[Respan](https://respan.ai/ai-gateway)** Respan – Full-stack AI engineering platform with a tracing SDK, evals, prompt management, and a gateway to 250+ models.
-- **[spring-ai-typesafe](https://spring-ai-community.github.io/spring-ai-typesafe)** spring-ai-typesafe (site) - A Java SDK for the TypeSafe AI JEV API, & Spring AI TypeSafe integrations.
+- **[Respan](https://respan.ai/ai-gateway)** AI Gateway for Production LLM Routing with failover, response caching, and observability for 1,000+ models via a unified endpoint.
 
 </details>
 
@@ -1315,10 +1313,9 @@ _484 entries in 6 sections, ranked by stars. Each section opens with its top 30;
   `semantic-cache` `llmops` `self-hosted` `vector-search` `scaling`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+2 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+1 more in Memory & Retrieval Infrastructure &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[LlamaIndex](https://llamaindex.ai)** LlamaIndex is a framework SDK for building AI-powered applications with retrieval-augmented generation and document processing capabilities.
-- **[Rivestack](https://rivestack.io)** Managed PostgreSQL with optimized pgvector on dedicated NVMe storage for AI workloads, offering low-latency vector search and built-in semantic search tools.
 
 </details>
 

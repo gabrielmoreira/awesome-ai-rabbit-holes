@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__column__race__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,13 +18,10 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://jev-column-race.vercel.app
-        surrounding_text: >-
-          - [jev-column-race](https://github.com/goodrahstar/jev-column-race)
-          ([site](https://jev-column-race.vercel.app)) - Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1×
-          faster and 7× cheaper.
+        surrounding_text: "- [jev-column-race](https://github.com/goodrahstar/jev-column-race) ([site](https://jev-column-race.vercel.app)) - Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1× faster and 7× cheaper."
         confidence: high
     - id: discovery__jev__column__race__vercel__app__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -37,11 +34,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Try app
         extracted_url: https://jev-column-race.vercel.app
-        surrounding_text: >-
-          - [Jev Column Race](https://github.com/goodrahstar/jev-column-race) - `Open source` · `Free source build` ·
-          `BYOK`. Labels 1,000 app reviews in parallel: TypeSafe Jev typed questions vs Gemini JSON, with free replay
-          (hosted or local). [Try app](https://jev-column-race.vercel.app) · [Project
-          guide](community/projects/apps/jev-column-race.md).
+        surrounding_text: "- [Jev Column Race](https://github.com/goodrahstar/jev-column-race) - `Open source` · `Free source build` · `BYOK`. Labels 1,000 app reviews in parallel: TypeSafe Jev typed questions vs Gemini JSON, with free replay (hosted or local). [Try app](https://jev-column-race.vercel.app) · [Project guide](community/projects/apps/jev-column-race.md)."
         confidence: high
 metadata:
   github:
@@ -59,19 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: 'jev-column-race (site) - Jev vs Gemini 3.8 Flash: labelling 1,000 app reviews, 4.1× faster and 7× cheaper.'
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Column Race is a demo tool that compares AI model outputs on app reviews by running side-by-side sentiment, topic, bug report, and churn risk analyses using TypeSafe Jev and Gemini APIs.
+  why_it_matters: It lets developers visualize and benchmark how different AI models weigh and prioritize signals in the same dataset, useful for tuning decision models or prompt weighting in classification workflows.
+  mental_damage: Another benchmark that turns your API keys into a spectator sport while you wonder if your prompts are actually doing anything.
+  tags:
+    - decision-models
+    - benchmark
+    - ai-comparison
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The tool's core function is exposing and comparing judgments from decision models (Jev and Gemini) via typed questions on structured data, making it a decision-model-driven benchmark rather than a coding agent or general eval platform.
   evidence:
-    - jev-latest choice confidence 0.82
-    - >-
-      jev winnow:e4b 0.42 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - The demo runs side-by-side AI columns for Sentiment, Topic, Bug report, and Churn risk on the same batch of app reviews using TypeSafe and Google Gemini APIs.
+    - It uses Jev (TypeSafe System One) to return probabilities that are treated as data for re-ranking, indicating a decision-model identity.
+    - Listed in awesome-jev under both 'Community projects > Apps powered by Jev' and 'Benchmarks & research' sections, confirming its role as a Jev-powered decision benchmark.
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -83,7 +78,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.431Z'
+    updated_at: "2026-09-29T13:07:10.431Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,6 +86,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:56.354Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0e1962b1a2d447cdc69f5d4b7e2ffc327c495fd4edbecd7dad50e705a4bb8c9e
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core function is exposing and comparing judgments from decision models (Jev and Gemini) via typed questions on structured data, making it a decision-model-driven benchmark rather than a coding agent or general eval platform.
+      decision_evidence:
+        - The demo runs side-by-side AI columns for Sentiment, Topic, Bug report, and Churn risk on the same batch of app reviews using TypeSafe and Google Gemini APIs.
+        - It uses Jev (TypeSafe System One) to return probabilities that are treated as data for re-ranking, indicating a decision-model identity.
+        - Listed in awesome-jev under both 'Community projects > Apps powered by Jev' and 'Benchmarks & research' sections, confirming its role as a Jev-powered decision benchmark.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the product's identity is the judgment output of decision models (Jev) rather than general model behavior measurement — it is a benchmark built on decision-model outputs, not a framework for evaluating arbitrary models.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

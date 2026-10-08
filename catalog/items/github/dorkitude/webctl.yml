@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__dorkitude__webctl__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,12 +20,10 @@ provenance:
           - Developer projects and integrations
         anchor_text: webctl
         extracted_url: https://github.com/dorkitude/webctl
-        surrounding_text: >-
-          - [webctl](https://github.com/dorkitude/webctl) - Agent web-search CLI that scores and judges multi-provider
-          results (optional scrape chunks) with TypeSafe Jev. [Project guide](community/projects/tools/webctl.md).
+        surrounding_text: "- [webctl](https://github.com/dorkitude/webctl) - Agent web-search CLI that scores and judges multi-provider results (optional scrape chunks) with TypeSafe Jev. [Project guide](community/projects/tools/webctl.md)."
         confidence: high
     - id: discovery__github__dorkitude__webctl__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -38,9 +36,7 @@ provenance:
           - Browser & computer use (75)
         anchor_text: webctl
         extracted_url: https://github.com/dorkitude/webctl
-        surrounding_text: >-
-          | [webctl](https://github.com/dorkitude/webctl) | ★ 125 | Go | 2026-09-23 | Smart web search CLI for agents,
-          backed by Jev. Saves a lot of tokens. |
+        surrounding_text: "| [webctl](https://github.com/dorkitude/webctl) | ★ 125 | Go | 2026-09-23 | Smart web search CLI for agents, backed by Jev. Saves a lot of tokens. |"
         confidence: high
 metadata:
   github:
@@ -50,14 +46,14 @@ metadata:
     archived: false
     full_name: dorkitude/webctl
     html_url: https://github.com/dorkitude/webctl
-    created_at: '2026-09-20T07:27:00Z'
-    pushed_at: '2026-09-23T19:05:22Z'
+    created_at: "2026-09-20T07:27:00Z"
+    pushed_at: "2026-09-23T19:05:22Z"
     description: Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:46.919Z'
+    last_checked_at: "2026-09-29T13:10:46.919Z"
     readme:
-      fetched_at: '2026-09-29T13:10:46.919Z'
+      fetched_at: "2026-09-29T13:10:46.919Z"
       bytes: 15794
 insights:
   summary: Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.
@@ -80,15 +76,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.413Z'
+    updated_at: "2026-09-29T13:07:10.413Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:46.919Z'
+    updated_at: "2026-09-29T13:10:46.919Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

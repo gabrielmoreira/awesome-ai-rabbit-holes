@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-29T13:08:14.343Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:16:17.376Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 0xshin0221/openpoke-meets-jev
     next_retry_at: null
   categorize:
     status: done

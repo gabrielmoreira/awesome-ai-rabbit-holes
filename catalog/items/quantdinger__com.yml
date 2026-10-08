@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__quantdinger__com__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Apps powered by Jev
         anchor_text: Product
         extracted_url: https://quantdinger.com
-        surrounding_text: >-
-          - [QuantDinger](https://github.com/OpenByteInc/QuantDinger) - `Open source` · `Free source build` · `BYOK`.
-          Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available.
-          [Product](https://www.quantdinger.com) · [Try app](https://ai.quantdinger.com) · [Project
-          guide](community/projects/apps/quantdinger.md).
+        surrounding_text: "- [QuantDinger](https://github.com/OpenByteInc/QuantDinger) - `Open source` · `Free source build` · `BYOK`. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. [Product](https://www.quantdinger.com) · [Try app](https://ai.quantdinger.com) · [Project guide](community/projects/apps/quantdinger.md)."
         confidence: high
 metadata:
   github:
@@ -41,9 +37,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    QuantDinger - Open source · Free source build · BYOK. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade
-    entry gates; hosted app also available. Product · Try app · Project guide.
+  summary: QuantDinger - Open source · Free source build · BYOK. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. Product · Try app · Project guide.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -53,9 +47,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
   evidence:
     - jev-latest choice confidence 0.61
-    - >-
-      jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at
-      decision-models (unverified)
+    - jev winnow:e4b 0.41 below gate 0.50; proposed decision-models / Apps, Games & Simulation; placement kept at decision-models (unverified)
 placement:
   primary_category: decision-models
   secondary_categories:
@@ -67,7 +59,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,6 +67,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:44:46.421Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for quantdinger__com: Invalid AI response format: SyntaxError: Unexpected token 'Q', ...\"_reason\": QuantDinge\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

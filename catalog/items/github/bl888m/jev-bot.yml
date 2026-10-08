@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__bl888m__jev-bot__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,12 +19,10 @@ provenance:
           - Benchmarks & research
         anchor_text: jev-bot (bl888m)
         extracted_url: https://github.com/bl888m/jev-bot
-        surrounding_text: >-
-          - [jev-bot (bl888m)](https://github.com/bl888m/jev-bot) ([site](https://x.com/bl888m_eth)) - JEV-powered
-          market decision bot for stocks, crypto and memes. State in, BUY/SELL/HOLD/AVOID out, paper by default.
+        surrounding_text: "- [jev-bot (bl888m)](https://github.com/bl888m/jev-bot) ([site](https://x.com/bl888m_eth)) - JEV-powered market decision bot for stocks, crypto and memes. State in, BUY/SELL/HOLD/AVOID out, paper by default."
         confidence: high
     - id: discovery__github__bl888m__jev-bot__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -34,11 +32,9 @@ provenance:
         mode: parsed
         section_path:
           - Domain Tools
-        anchor_text: '**jev-bot**'
+        anchor_text: "**jev-bot**"
         extracted_url: https://github.com/bl888m/jev-bot
-        surrounding_text: >-
-          - [**jev-bot**](https://github.com/bl888m/jev-bot) — JEV-powered market decision bot for stocks, crypto and
-          memes. State in, BUY/SELL/HOLD/AVOID out, paper by default
+        surrounding_text: "- [**jev-bot**](https://github.com/bl888m/jev-bot) — JEV-powered market decision bot for stocks, crypto and memes. State in, BUY/SELL/HOLD/AVOID out, paper by default"
         confidence: high
 metadata:
   github:
@@ -48,8 +44,8 @@ metadata:
     archived: false
     full_name: bl888m/jev-bot
     html_url: https://github.com/bl888m/jev-bot
-    created_at: '2026-09-22T14:26:08Z'
-    pushed_at: '2026-09-23T03:44:49Z'
+    created_at: "2026-09-22T14:26:08Z"
+    pushed_at: "2026-09-23T03:44:49Z"
     description: JEV-powered market decision bot for stocks, crypto and memes. State in, BUY/SELL/HOLD/AVOID out, paper by default
     homepage: https://x.com/bl888m_eth
     topics:
@@ -59,9 +55,9 @@ metadata:
       - robinhood
       - trading
       - typesafe
-    last_checked_at: '2026-09-29T13:09:32.236Z'
+    last_checked_at: "2026-09-29T13:09:32.236Z"
     readme:
-      fetched_at: '2026-09-29T13:09:32.236Z'
+      fetched_at: "2026-09-29T13:09:32.236Z"
       bytes: 8563
 insights:
   summary: JEV-powered market decision bot for stocks, crypto and memes. State in, BUY/SELL/HOLD/AVOID out, paper by default
@@ -84,15 +80,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.410Z'
+    updated_at: "2026-09-29T13:07:10.410Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:32.236Z'
+    updated_at: "2026-09-29T13:09:32.236Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

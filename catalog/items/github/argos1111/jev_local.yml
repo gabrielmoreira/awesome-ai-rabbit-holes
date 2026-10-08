@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__argos1111__jev_local__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,7 +19,7 @@ provenance:
           - Benchmarks & research
         anchor_text: jev_local
         extracted_url: https://github.com/argos1111/jev_local
-        surrounding_text: '- [jev_local](https://github.com/Argos1111/jev_local) - Replicating Jev with a local LLM.'
+        surrounding_text: "- [jev_local](https://github.com/Argos1111/jev_local) - Replicating Jev with a local LLM."
         confidence: high
 metadata:
   github:
@@ -29,14 +29,14 @@ metadata:
     archived: false
     full_name: Argos1111/jev_local
     html_url: https://github.com/Argos1111/jev_local
-    created_at: '2026-09-18T19:09:02Z'
-    pushed_at: '2026-09-23T01:09:08Z'
+    created_at: "2026-09-18T19:09:02Z"
+    pushed_at: "2026-09-23T01:09:08Z"
     description: Replicating Jev with a local LLM
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:09:10.837Z'
+    last_checked_at: "2026-09-29T13:09:10.837Z"
     readme:
-      fetched_at: '2026-09-29T13:09:10.837Z'
+      fetched_at: "2026-09-29T13:09:10.837Z"
       bytes: 16412
 insights:
   summary: Replicating Jev with a local LLM
@@ -59,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.448Z'
+    updated_at: "2026-09-29T13:07:10.448Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:10.837Z'
+    updated_at: "2026-09-29T13:09:10.837Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.682Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

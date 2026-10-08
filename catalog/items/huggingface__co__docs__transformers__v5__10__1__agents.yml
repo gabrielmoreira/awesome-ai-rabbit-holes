@@ -36,17 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Hugging Face Transformers agents documentation page does not exist in version 5.10.1 and redirects to the main documentation version.
-  why_it_matters: It does not matter to developers as it is a missing documentation page, not a tool, library, or developer-facing product.
-  mental_damage: Another broken link in the AI documentation wilderness, reminding us that even the docs are now subject to version drift and 404s.
-  tags: []
+  summary: Documentation for agentic capabilities within the Hugging Face Transformers library.
+  why_it_matters: It describes how to leverage agent-based reasoning and tool-use within the Transformers ecosystem.
+  mental_damage: The vertigo of clicking a documentation link only to find it doesn't exist for your specific version is a core developer experience in the modern AI era.
+  tags:
+    - huggingface
+    - transformers
+    - documentation
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the input is a missing documentation page, not a standalone AI tool, agent, framework, or developer-facing product with functional utility.
+  reason: The input is an auxiliary documentation page for a library feature rather than a standalone tool or product.
   evidence:
-    - The documentation page AGENTS doesn't exist in v5.10.1, but exists on the main version. Click here to redirect to the main version of the documentation.
-    - No repo description, README, or site context describes a functional tool or product.
+    - The URL is a documentation redirect page.
+    - The content explicitly states the AGENTS documentation does not exist for version 5.10.1.
 placement:
   primary_category: null
   section: null
@@ -65,23 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:25:55.227Z"
+    updated_at: "2026-10-08T04:17:36.411Z"
     cause: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:015abaffe47dd6ecee94fd828e0c32e74b0eaf14c00f541b7d69101eea6cba54
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded because the input is a missing documentation page, not a standalone AI tool, agent, framework, or developer-facing product with functional utility.
+      decision_reason: The input is an auxiliary documentation page for a library feature rather than a standalone tool or product.
       decision_evidence:
-        - The documentation page AGENTS doesn't exist in v5.10.1, but exists on the main version. Click here to redirect to the main version of the documentation.
-        - No repo description, README, or site context describes a functional tool or product.
+        - The URL is a documentation redirect page.
+        - The content explicitly states the AGENTS documentation does not exist for version 5.10.1.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

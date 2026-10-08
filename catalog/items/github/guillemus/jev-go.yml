@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__guillemus__jev-go__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -19,10 +19,10 @@ provenance:
           - SDKs & clients
         anchor_text: jev-go (guillemus)
         extracted_url: https://github.com/guillemus/jev-go
-        surrounding_text: '- [jev-go (guillemus)](https://github.com/guillemus/jev-go) - Unofficial Go SDK for TypeSafe AI''s Jev API.'
+        surrounding_text: "- [jev-go (guillemus)](https://github.com/guillemus/jev-go) - Unofficial Go SDK for TypeSafe AI's Jev API."
         confidence: high
     - id: discovery__github__guillemus__jev-go__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -35,12 +35,10 @@ provenance:
           - SDKs & clients (57)
         anchor_text: jev-go (guillemus)
         extracted_url: https://github.com/guillemus/jev-go
-        surrounding_text: >-
-          | [jev-go (guillemus)](https://github.com/guillemus/jev-go) | ★ 1 | Go | 2026-09-19 | Unofficial Go SDK for
-          TypeSafe AI's Jev API. |
+        surrounding_text: "| [jev-go (guillemus)](https://github.com/guillemus/jev-go) | ★ 1 | Go | 2026-09-19 | Unofficial Go SDK for TypeSafe AI's Jev API. |"
         confidence: high
     - id: discovery__github__guillemus__jev-go__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -50,11 +48,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev-go**'
+        anchor_text: "**jev-go**"
         extracted_url: https://github.com/guillemus/jev-go
-        surrounding_text: >-
-          - [**jev-go**](https://github.com/guillemus/jev-go) — A small unofficial Go SDK for Jev calls and model
-          listing.
+        surrounding_text: "- [**jev-go**](https://github.com/guillemus/jev-go) — A small unofficial Go SDK for Jev calls and model listing."
         confidence: high
 metadata:
   github:
@@ -64,14 +60,14 @@ metadata:
     archived: false
     full_name: guillemus/jev-go
     html_url: https://github.com/guillemus/jev-go
-    created_at: '2026-09-17T10:05:24Z'
-    pushed_at: '2026-09-17T10:05:39Z'
+    created_at: "2026-09-17T10:05:24Z"
+    pushed_at: "2026-09-17T10:05:39Z"
     description: Unofficial Go SDK for TypeSafe AI's Jev API
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:11:53.103Z'
+    last_checked_at: "2026-09-29T13:11:53.103Z"
     readme:
-      fetched_at: '2026-09-29T13:11:53.103Z'
+      fetched_at: "2026-09-29T13:11:53.103Z"
       bytes: 1302
 insights:
   summary: Unofficial Go SDK for TypeSafe AI's Jev API
@@ -94,15 +90,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.396Z'
+    updated_at: "2026-09-29T13:07:10.396Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:53.103Z'
+    updated_at: "2026-09-29T13:11:53.103Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

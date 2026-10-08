@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__minilv__github__io__2026__09__18__codex__auto__router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://minilv.github.io/2026/08/03/codex-auto-router
-        surrounding_text: >-
-          - [Jev Auto Router](https://github.com/miniLV/Jev-Auto-Router)
-          ([site](https://minilv.github.io/2026/08/03/codex-auto-router/)) - Per-call GPT model routing for Codex: Jev
-          chooses model and effort, a local Responses proxy keeps the tool loop intact, then independent verification
-          and Router Compass check whether the task still passed.
+        surrounding_text: "- [Jev Auto Router](https://github.com/miniLV/Jev-Auto-Router) ([site](https://minilv.github.io/2026/08/03/codex-auto-router/)) - Per-call GPT model routing for Codex: Jev chooses model and effort, a local Responses proxy keeps the tool loop intact, then independent verification and Router Compass check whether the task still passed."
         confidence: high
 metadata:
   github:
@@ -40,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Auto Router (site) - Per-call GPT model routing for Codex: Jev chooses model and effort, a local Responses proxy
-    keeps the tool loop intact, then independent verification and Router Compass check whether the task still passed.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Jev-based auto-router for TypeSafe AI's System One decision model, redirecting to an external page with minimal context.
+  why_it_matters: Provides a routing mechanism for typed decisions using Jev, potentially useful in agent workflows requiring probabilistic judgments.
+  mental_damage: Another redirect page masquerading as a tool, contributing to the inflation of AI projects with zero usable surface area.
+  tags:
+    - decision-model
+    - jev
+    - router
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  status: excluded
+  reason: The project lacks a substantive product — it is a redirect page with no code, functionality, or clear tooling identity, making it unsuitable as a developer-facing AI tool.
   evidence:
-    - jev-latest choice confidence 0.67
+    - The scraped site context shows only a redirect page with title 'Redirecting…' and no description or meaningful content.
+    - It appears in the awesome-jev list under 'Agent tooling', but this is a directory placement, not evidence of a standalone tool.
+    - No repository, code, installation method, or functional description is provided in any input.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:44.217Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:a0d4ca7ec7b416bc5b78a2e0dde88a19fa8467395b670c5dd2e2af6e30cba52e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks a substantive product — it is a redirect page with no code, functionality, or clear tooling identity, making it unsuitable as a developer-facing AI tool.
+      decision_evidence:
+        - The scraped site context shows only a redirect page with title 'Redirecting…' and no description or meaningful content.
+        - It appears in the awesome-jev list under 'Agent tooling', but this is a directory placement, not evidence of a standalone tool.
+        - No repository, code, installation method, or functional description is provided in any input.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

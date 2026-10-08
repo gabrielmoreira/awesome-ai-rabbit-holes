@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__huggingface__co__cua__ai__cua__s1__forms__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Calibration & Research
         anchor_text: CUA-S1-FORMS
         extracted_url: https://huggingface.co/cua-ai/cua-s1-forms
-        surrounding_text: >-
-          - [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) - Specialist decision model: a 706,048-parameter,
-          2.8 MB jev-like option scorer that rates FILL / CHECK / CLICK / SKIP for each form field in one parallel pass,
-          reporting 99.7% on its own form-filling eval against Jev's 83.6% - a specialist on home turf rather than a
-          general win.
+        surrounding_text: "- [CUA-S1-FORMS](https://huggingface.co/cua-ai/cua-s1-forms) - Specialist decision model: a 706,048-parameter, 2.8 MB jev-like option scorer that rates FILL / CHECK / CLICK / SKIP for each form field in one parallel pass, reporting 99.7% on its own form-filling eval against Jev's 83.6% - a specialist on home turf rather than a general win."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    CUA-S1-FORMS - Specialist decision model: a 706,048-parameter, 2.8 MB jev-like option scorer that rates FILL / CHECK
-    / CLICK / SKIP for each form field in one parallel pass, reporting 99.7% on its own form-filling eval against Jev's
-    83.6% - a specialist on home turf rather than a general win.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: cua-s1-forms is a small Hugging Face model checkpoint (706k parameters) that scores GUI form-filling actions by returning probabilities over typed options like fill, check, click, or skip.
+  why_it_matters: It provides a lightweight, research-grade decision model for automated form interactions in computer-use agents, reducing reliance on larger or hosted alternatives like Jev.
+  mental_damage: Another tiny model claiming near-perfect scores on synthetic data, inviting developers to optimize for benchmarks that don’t reflect real-world messiness.
+  tags:
+    - decision-model
+    - computer-use
+    - form-filling
+    - huggingface
+    - research
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  status: excluded
+  reason: The product is a raw model checkpoint focused on a narrow decision task (scoring form-filling options) without any developer-facing interface, tooling, SDK, or integration layer — it is a component, not a tool.
   evidence:
-    - jev-latest choice confidence 0.94
+    - Model returns probabilities over options like fill, check, click, skip; does not generate text or act on code
+    - No CLI, SDK, API server, or host integration is provided — usage requires manual loading via cua-s1 package and Hugging Face Hub
+    - Described as research on narrowly specified computer-use tasks, not a deployable developer tool
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:38:12.973Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:61696a52d5037ffc050482d08c494f49ef6a65215ec59528e455874a12033010
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a raw model checkpoint focused on a narrow decision task (scoring form-filling options) without any developer-facing interface, tooling, SDK, or integration layer — it is a component, not a tool.
+      decision_evidence:
+        - Model returns probabilities over options like fill, check, click, skip; does not generate text or act on code
+        - No CLI, SDK, API server, or host integration is provided — usage requires manual loading via cua-s1 package and Hugging Face Hub
+        - Described as research on narrowly specified computer-use tasks, not a deployable developer tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

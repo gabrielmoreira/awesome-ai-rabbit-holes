@@ -36,18 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Hugging Face Transformers v5.8.0 documentation page for 'agents' does not exist and redirects to the main version.
-  why_it_matters: It does not matter to developers as it is a broken documentation link with no functional tool or product behind it.
-  mental_damage: Another dead-end in the AI documentation maze, where clicking 'agents' just sends you back to the homepage like a confused Roomba.
-  tags: []
+  summary: A Hugging Face documentation redirect for a missing 'agents' page in transformers v5.8.0.
+  why_it_matters: It indicates a documentation gap but provides no tool, agent, or developer-facing functionality.
+  mental_damage: Another broken link in the AI tooling wilderness, reminding us that even the docs are hallucinating.
+  tags:
+    - documentation
+    - redirect
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the URL points to a non-existent documentation page that redirects, indicating no standalone product, tool, or agent is being offered — only a missing doc page.
+  reason: This is a documentation redirect with no standalone product, agent, or tooling functionality—it does not perform coding tasks, extend agents, or provide developer utility beyond pointing to missing docs.
   evidence:
-    - "The scraped site excerpt states: 'The documentation page AGENTS doesn't exist in v5.8.0, but exists on the main version. Click here to redirect to the main version of the documentation.'"
-    - No repo description, README, or homepage is provided to substantiate a product.
-    - No stars, topics, license, or activity dates are available to signal traction or maintenance.
+    - The page 'AGENTS' does not exist in transformers v5.8.0 and redirects to the main version.
+    - No repo description, README, or tool functionality is provided—only a documentation notice.
+    - No stars, activity, or identity signals indicate this is a tool, agent, or developer-facing product.
 placement:
   primary_category: null
   section: null
@@ -66,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T04:33:56.954Z"
+    updated_at: "2026-10-08T04:23:14.471Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +81,11 @@ processing:
       input_hash: sha256:4b4c4e6bb685890d3f03f532c838b3e03f33cf519c06b87f9c7dc243e42a308a
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded because the URL points to a non-existent documentation page that redirects, indicating no standalone product, tool, or agent is being offered — only a missing doc page.
+      decision_reason: This is a documentation redirect with no standalone product, agent, or tooling functionality—it does not perform coding tasks, extend agents, or provide developer utility beyond pointing to missing docs.
       decision_evidence:
-        - "The scraped site excerpt states: 'The documentation page AGENTS doesn't exist in v5.8.0, but exists on the main version. Click here to redirect to the main version of the documentation.'"
-        - No repo description, README, or homepage is provided to substantiate a product.
-        - No stars, topics, license, or activity dates are available to signal traction or maintenance.
+        - The page 'AGENTS' does not exist in transformers v5.8.0 and redirects to the main version.
+        - No repo description, README, or tool functionality is provided—only a documentation notice.
+        - No stars, activity, or identity signals indicate this is a tool, agent, or developer-facing product.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__jev__tutorial__org__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Jev Tutorial
         extracted_url: https://jev-tutorial.org
-        surrounding_text: >-
-          - [Jev Tutorial](https://www.jev-tutorial.org/) - Site: an independent multilingual implementation guide to
-          Choice, Score, Noul, Python SDK requests, confidence thresholds, deterministic fallbacks, and human
-          escalation.
+        surrounding_text: "- [Jev Tutorial](https://www.jev-tutorial.org/) - Site: an independent multilingual implementation guide to Choice, Score, Noul, Python SDK requests, confidence thresholds, deterministic fallbacks, and human escalation."
         confidence: high
 metadata:
   github:
@@ -40,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev Tutorial - Site: an independent multilingual implementation guide to Choice, Score, Noul, Python SDK requests,
-    confidence thresholds, deterministic fallbacks, and human escalation.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TypeSafe Jev is a decision model that returns typed Choice, Score, or Noul answers with probabilities for software judgment tasks instead of generating free-form text.
+  why_it_matters: It gives developers a structured way to get deterministic, probability-weighted decisions from AI for routing, validation, and risk-gated automation in code.
+  mental_damage: Now you have to maintain a confidence-threshold policy just to decide whether to let an AI say 'yes' to your PR.
+  tags:
+    - decision-model
+    - typed-output
+    - system-one
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Open & Local Decision Models
+  reason: The product's core identity is a decision model returning typed judgments (Choice/Score/Noul) with probabilities, not a coding agent or general-purpose AI tool, placing it firmly in decision-models.
   evidence:
-    - jev-latest choice confidence 0.77
+    - "README: 'TypeSafe Jev is a System One model for software judgment tasks. Instead of generating free-form text, it returns typed Choice, Score, or Noul answers to questions you declare, together with probabilities or confidence signals.'"
+    - "Scraped site: 'Jev is TypeSafe AI's first public System One Model: it returns typed Choice, Score, and Noul answers with probabilities — not free-form prose.'"
+    - "Source-list context: listed in awesome-jev under 'Related Practices / Discussions' as a practical TypeSafe Jev tutorial covering the System One model."
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Open & Local Decision Models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:39:58.165Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c740eb9ce9650c6264e2697919d155533f5abcdd5e201c5a53a6f962a6536462
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model returning typed judgments (Choice/Score/Noul) with probabilities, not a coding agent or general-purpose AI tool, placing it firmly in decision-models.
+      decision_evidence:
+        - "README: 'TypeSafe Jev is a System One model for software judgment tasks. Instead of generating free-form text, it returns typed Choice, Score, or Noul answers to questions you declare, together with probabilities or confidence signals.'"
+        - "Scraped site: 'Jev is TypeSafe AI's first public System One Model: it returns typed Choice, Score, and Noul answers with probabilities — not free-form prose.'"
+        - "Source-list context: listed in awesome-jev under 'Related Practices / Discussions' as a practical TypeSafe Jev tutorial covering the System One model."
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev's identity is the decision model itself returning typed judgments, not an agent that writes, edits, or reviews code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__latent__space__p__ainews__jev__a__system__one__model__that__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -16,12 +16,9 @@ provenance:
         mode: parsed
         section_path:
           - Articles & threads
-        anchor_text: 'AINews: Jev, a System One Model that only decides'
+        anchor_text: "AINews: Jev, a System One Model that only decides"
         extracted_url: https://latent.space/p/ainews-jev-a-system-one-model-that
-        surrounding_text: >-
-          - [AINews: Jev, a System One Model that only
-          decides](https://www.latent.space/p/ainews-jev-a-system-one-model-that) - Latent Space's launch-day roundup:
-          over 100x faster and 200x cheaper than small frontier LLMs.
+        surrounding_text: "- [AINews: Jev, a System One Model that only decides](https://www.latent.space/p/ainews-jev-a-system-one-model-that) - Latent Space's launch-day roundup: over 100x faster and 200x cheaper than small frontier LLMs."
         confidence: high
 metadata:
   github:
@@ -39,18 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    AINews: Jev, a System One Model that only decides - Latent Space's launch-day roundup: over 100x faster and 200x
-    cheaper than small frontier LLMs.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A non-autoregressive decision model optimized for classification, routing, and scoring tasks, claiming 20–200x faster and 40–400x cheaper inference than small LLMs.
+  why_it_matters: Offers a calibrated, low-latency alternative to LLMs for structured decision points in agent workflows where text generation is unnecessary overhead.
+  mental_damage: Another model promising to replace LLMs in niches that don’t exist yet, while we wait for someone to actually route their Kubernetes alerts through it.
+  tags:
+    - decision-model
+    - inference
+    - routing
+    - rlcd
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  reason: The project's core identity is a decision model (Jev) designed for typed questions with probabilistic outputs, not text generation, and it is positioned as a System One model for routing and classification.
   evidence:
-    - jev-latest choice confidence 0.87
+    - The model is described as a 'System One Model' that only decides/classifies/routes/scores.
+    - It is trained via RLCD (calibrated decisions) and optimized for decisions, not text generation.
+    - It is presented as a drop-in replacement for LLMs in structured classifier, judge, or routing policy roles.
+    - Source-list context identifies it as a project built on Jev (TypeSafe AI's System One model).
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -61,7 +63,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +71,29 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:00.949Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0531e6cf6081714994dc720042ea622d47d498b69bbf7ea1dd2dff52aef92d61
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project's core identity is a decision model (Jev) designed for typed questions with probabilistic outputs, not text generation, and it is positioned as a System One model for routing and classification.
+      decision_evidence:
+        - The model is described as a 'System One Model' that only decides/classifies/routes/scores.
+        - It is trained via RLCD (calibrated decisions) and optimized for decisions, not text generation.
+        - It is presented as a drop-in replacement for LLMs in structured classifier, judge, or routing policy roles.
+        - Source-list context identifies it as a project built on Jev (TypeSafe AI's System One model).
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because Jev is a decision model optimized for classification and routing, not an agent that writes, edits, or reviews code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

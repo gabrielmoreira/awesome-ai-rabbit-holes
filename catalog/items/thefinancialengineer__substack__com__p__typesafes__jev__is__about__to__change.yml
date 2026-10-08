@@ -5,9 +5,8 @@ canonical_url: https://thefinancialengineer.substack.com/p/typesafes-jev-is-abou
 identity: {}
 provenance:
   discoveries:
-    - id: >-
-        discovery__thefinancialengineer__substack__com__p__typesafes__jev__is__about__to__change__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+    - id: discovery__thefinancialengineer__substack__com__p__typesafes__jev__is__about__to__change__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -20,10 +19,7 @@ provenance:
           - Related Practices / Discussions
         anchor_text: Jev is about to change the AI economy
         extracted_url: https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change
-        surrounding_text: >-
-          - [Jev is about to change the AI
-          economy](https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change) - Substack: argues that
-          cheap calibrated decisions move where inference spend goes.
+        surrounding_text: "- [Jev is about to change the AI economy](https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change) - Substack: argues that cheap calibrated decisions move where inference spend goes."
         confidence: high
 metadata:
   github:
@@ -41,30 +37,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Substack post analyzing Jev (TypeSafe System One) as an upcoming shift in decision-model tooling for developers.
+  why_it_matters: Highlights how decision models like Jev could change developer workflows by providing typed, probabilistic judgments instead of text generation.
+  mental_damage: Another thinkpiece promising a paradigm shift while your CI pipeline still runs on flaky YAML.
+  tags:
+    - decision-models
+    - jev
+    - analysis
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: The source is a Substack article, not a tool, product, or developer-facing resource; it is commentary, not a usable AI tool for software developers.
   evidence:
-    - >-
-      jev winnow:e4b 0.29 below gate 0.50; proposed awesome-awesomes / Publications & Feeds; no placement kept
-      (unverified)
+    - "URL points to a Substack post: https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change"
+    - No repo description, stars, or activity signals indicate a software project
+    - Source-list context shows inclusion in a 'Related Practices / Discussions' section, not a tools list
 placement:
   primary_category: null
-  section: null
   secondary_categories:
     - awesome-awesomes
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.493Z'
+    updated_at: "2026-09-29T13:07:10.493Z"
     cause: null
     next_retry_at: null
   stars:
@@ -72,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:03.918Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:f8b21c0b336701a1b798620939132763943b8c1521d5b0935b9033c767b3add3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The source is a Substack article, not a tool, product, or developer-facing resource; it is commentary, not a usable AI tool for software developers.
+      decision_evidence:
+        - "URL points to a Substack post: https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change"
+        - No repo description, stars, or activity signals indicate a software project
+        - Source-list context shows inclusion in a 'Related Practices / Discussions' section, not a tools list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -21,6 +21,53 @@ provenance:
         extracted_url: https://github.com/trycua/cua
         surrounding_text: "- **[Cua](https://github.com/trycua/cua/tree/main/libs/mcp-server)** - MCP server for the Computer-Use Agent (CUA), allowing you to run CUA through Claude Desktop or other MCP clients."
         confidence: high
+    - id: discovery__github__trycua__cua__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Cua jev-use
+        extracted_url: https://github.com/trycua/cua
+        surrounding_text: "- [Cua jev-use](https://github.com/trycua/cua/tree/main/libs/cua-driver/examples/jev-use) - Composes a bounded Jev chooser with Cua Driver and an independently verified browser fixture. [Project guide](community/projects/tools/cua-jev-use.md)."
+        confidence: high
+    - id: discovery__github__trycua__cua__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Browser & computer use (77)
+        anchor_text: cua
+        extracted_url: https://github.com/trycua/cua
+        surrounding_text: "| [cua](https://github.com/trycua/cua) | ★ 25,790 | HTML | 2026-09-22 | Computer-use platform with a Jev recipe where the model selects one bounded action candidate and the client validates it before execution. |"
+        confidence: high
+    - id: discovery__github__trycua__cua__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-08T04:16:14.227Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & OS Action
+        anchor_text: "**cua**"
+        extracted_url: https://github.com/trycua/cua
+        surrounding_text: "- [**cua**](https://github.com/trycua/cua) — Cua’s preview jev-use example pairs Driver observation and execution with bounded Jev browser-action choices."
+        confidence: high
 metadata:
   github:
     stars: 27808
@@ -86,7 +133,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.653Z"
+    updated_at: "2026-10-08T04:16:14.231Z"
     cause: null
     next_retry_at: null
   stars:
@@ -96,7 +143,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-05T04:19:18.825Z"
+    updated_at: "2026-10-08T04:16:21.690Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

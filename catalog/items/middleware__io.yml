@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__middleware__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,7 +18,7 @@ provenance:
           - DevOps and Infrastructure
         anchor_text: Middleware
         extracted_url: https://middleware.io
-        surrounding_text: '- **[Middleware](https://middleware.io/)** – Full stack observability platform with AI SRE Agent.'
+        surrounding_text: "- **[Middleware](https://middleware.io/)** – Full stack observability platform with AI SRE Agent."
         confidence: high
 metadata:
   github:
@@ -36,16 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Middleware is a full-stack observability platform with an AI SRE Agent for monitoring, debugging, and auto-fixing infrastructure and application issues.
+  why_it_matters: It helps developers reduce debugging time by using AI to detect, diagnose, and resolve production issues across apps, logs, and user experience data.
+  mental_damage: Another observability tool promising AI will finally make sense of your dashboards — as if the problem wasn't too many tools, but too little context.
+  tags:
+    - observability
+    - ai-sre
+    - devops
+    - monitoring
+  confidence: high
 curation:
-  status: pending
-  reason: null
+  status: excluded
+  reason: Middleware is an observability platform with AI features, not a developer-facing AI tool for coding, agents, or workflows; its core value is infrastructure monitoring, not AI-assisted software development.
   evidence:
-    - jev winnow:e4b 0.46 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - "Scraped site context: 'Full-stack Observability With AI SRE Agent' and 'detects issues from infra, APM, RUM and resolves them using the AI SRE Agent'"
+    - "Source-list context: listed in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure' for observability, not coding assistance"
+    - "README/product focus: Infrastructure monitoring, APM, log monitoring, real user monitoring, and LLM observability — all observability use cases, not code generation, editing, or agent workflows"
 placement:
   primary_category: null
   section: null
@@ -55,7 +61,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -63,6 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:41.245Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ac4ccc8d7f7e07b5b9f9900a411b433b7dc4920d307f983f60423311dab7f06b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Middleware is an observability platform with AI features, not a developer-facing AI tool for coding, agents, or workflows; its core value is infrastructure monitoring, not AI-assisted software development.
+      decision_evidence:
+        - "Scraped site context: 'Full-stack Observability With AI SRE Agent' and 'detects issues from infra, APM, RUM and resolves them using the AI SRE Agent'"
+        - "Source-list context: listed in 'awesome-ai-coding-tools' under 'DevOps and Infrastructure' for observability, not coding assistance"
+        - "README/product focus: Infrastructure monitoring, APM, log monitoring, real user monitoring, and LLM observability — all observability use cases, not code generation, editing, or agent workflows"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

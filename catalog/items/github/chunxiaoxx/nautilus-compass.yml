@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__chunxiaoxx__nautilus-compass__awesome-list__cobanov__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: cobanov/awesome-jev
@@ -19,11 +19,7 @@ provenance:
           - Evaluation and calibration
         anchor_text: Jev Calibration Study (Nautilus Assay)
         extracted_url: https://github.com/chunxiaoxx/nautilus-compass
-        surrounding_text: >-
-          - [Jev Calibration Study (Nautilus
-          Assay)](https://github.com/chunxiaoxx/nautilus-compass/blob/main/docs/wall/GENESIS_HOSTED_JEV_CALIBRATION.md)
-          - Independent, reproducible calibration evaluation of hosted Jev (240 seeded questions, all raw artifacts
-          published): accuracy 92.2%, Brier 0.048, ECE 0.041 overall.
+        surrounding_text: "- [Jev Calibration Study (Nautilus Assay)](https://github.com/chunxiaoxx/nautilus-compass/blob/main/docs/wall/GENESIS_HOSTED_JEV_CALIBRATION.md) - Independent, reproducible calibration evaluation of hosted Jev (240 seeded questions, all raw artifacts published): accuracy 92.2%, Brier 0.048, ECE 0.041 overall."
         confidence: high
 metadata:
   github:
@@ -33,11 +29,9 @@ metadata:
     archived: false
     full_name: chunxiaoxx/nautilus-compass
     html_url: https://github.com/chunxiaoxx/nautilus-compass
-    created_at: '2026-04-27T18:20:31Z'
-    pushed_at: '2026-09-28T11:43:28Z'
-    description: >-
-      Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog
-      contracts + drift detection + black-box memory (no LLM extraction).
+    created_at: "2026-04-27T18:20:31Z"
+    pushed_at: "2026-09-28T11:43:28Z"
+    description: Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts + drift detection + black-box memory (no LLM extraction).
     homepage: https://compass.nautilus.social
     topics:
       - a2a
@@ -52,14 +46,12 @@ metadata:
       - memory-layer
       - nautilus
       - rag
-    last_checked_at: '2026-09-29T13:09:52.171Z'
+    last_checked_at: "2026-09-29T13:09:52.171Z"
     readme:
-      fetched_at: '2026-09-29T13:09:52.170Z'
+      fetched_at: "2026-09-29T13:09:52.170Z"
       bytes: 28556
 insights:
-  summary: >-
-    Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts
-    + drift detection + black-box memory (no LLM extraction).
+  summary: Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts + drift detection + black-box memory (no LLM extraction).
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -69,9 +61,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
   evidence:
     - jev-latest choice confidence 0.69
-    - >-
-      jev winnow:e4b 0.27 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at
-      agent-orchestration (unverified)
+    - jev winnow:e4b 0.27 below gate 0.50; proposed agent-orchestration / Agent Runtimes & Harnesses; placement kept at agent-orchestration (unverified)
 placement:
   primary_category: agent-orchestration
   secondary_categories:
@@ -83,15 +73,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.452Z'
+    updated_at: "2026-09-29T13:07:10.452Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:09:52.171Z'
+    updated_at: "2026-09-29T13:09:52.171Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

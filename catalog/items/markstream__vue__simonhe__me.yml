@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__markstream__vue__simonhe__me__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,9 +18,7 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: Markstream Vue
         extracted_url: https://markstream-vue.simonhe.me
-        surrounding_text: >-
-          - **[Markstream Vue](https://markstream-vue.simonhe.me/)** – MIT-licensed streaming Markdown renderer for AI
-          chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.
+        surrounding_text: "- **[Markstream Vue](https://markstream-vue.simonhe.me/)** – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations."
         confidence: high
 metadata:
   github:
@@ -38,29 +36,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Markstream Vue – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue,
-    React, Svelte, and Angular integrations.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Vue-based playground for streaming Markdown, Mermaid, and large-document rendering with live demos.
+  why_it_matters: It lets developers preview and test how Markdown-based content renders in real time with streaming support for diagrams and math.
+  mental_damage: Another live-demo site that makes you wonder if you're building a tool or just a fancy CodePen for docs.
+  tags:
+    - markdown
+    - rendering
+    - demo
+    - vue
+    - streaming
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in ai-frameworks / LLM & Agent SDKs
+  status: excluded
+  reason: This is a documentation rendering demo site, not a developer-facing AI tool, agent, framework, or infrastructure; it lacks any AI integration or coding workflow relevance.
   evidence:
-    - jev-latest choice confidence 0.78
+    - Repo description is missing; the site is a Vue playground for streaming Markdown, Mermaid, and KaTeX rendering.
+    - Source-list context shows it was listed under 'AI Frameworks and SDKs' in awesome-ai-coding-tools, but the content is purely a rendering demo with no AI component.
+    - No evidence of AI, LLMs, agents, prompts, or developer tooling — it's a static/demo site for document visualization.
 placement:
-  primary_category: ai-frameworks
+  primary_category: null
   secondary_categories: []
-  section: LLM & Agent SDKs
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.490Z'
+    updated_at: "2026-09-29T13:07:10.490Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:32.764Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:5acf2b612128353624f293fb994c8d532755c6cd36c8fa35525af97b204a3d9b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation rendering demo site, not a developer-facing AI tool, agent, framework, or infrastructure; it lacks any AI integration or coding workflow relevance.
+      decision_evidence:
+        - Repo description is missing; the site is a Vue playground for streaming Markdown, Mermaid, and KaTeX rendering.
+        - Source-list context shows it was listed under 'AI Frameworks and SDKs' in awesome-ai-coding-tools, but the content is purely a rendering demo with no AI component.
+        - No evidence of AI, LLMs, agents, prompts, or developer tooling — it's a static/demo site for document visualization.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

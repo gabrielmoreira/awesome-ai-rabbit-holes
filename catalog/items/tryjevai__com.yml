@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tryjevai__com__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -19,10 +19,7 @@ provenance:
           - Verification & Guardrails
         anchor_text: TryJevAI
         extracted_url: https://tryjevai.com
-        surrounding_text: >-
-          - [TryJevAI](https://tryjevai.com/) - Scheduling: public Jev playground uses a typed `Choice` with an explicit
-          `Unresolved` option to distinguish a mentioned arrival time from an agreed meeting time, showing the returned
-          probabilities and prompting for missing agreement before treating a time as settled.
+        surrounding_text: "- [TryJevAI](https://tryjevai.com/) - Scheduling: public Jev playground uses a typed `Choice` with an explicit `Unresolved` option to distinguish a mentioned arrival time from an agreed meeting time, showing the returned probabilities and prompting for missing agreement before treating a time as settled."
         confidence: high
 metadata:
   github:
@@ -40,30 +37,34 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    TryJevAI - Scheduling: public Jev playground uses a typed Choice with an explicit Unresolved option to distinguish a
-    mentioned arrival time from an agreed meeting time, showing the returned probabilities and prompting for missing
-    agreement before treating a time as settled.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TryJevAI.com is an independent educational playground that lets developers try Jev, TypeSafe AI's System One Model for structured decisions with probabilities.
+  why_it_matters: It gives developers a hands-on way to evaluate whether Jev's decision model fits their routing, scoring, or verification use cases before integration.
+  mental_damage: Another demo site where you click buttons to pretend you're production-ready while the real API key stays safely in someone else's vault.
+  tags:
+    - decision-model
+    - playground
+    - jev
+    - typesafe-ai
+    - verification
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Official Jev & System One
+  status: excluded
+  reason: TryJevAI.com is an independent demo and learning resource with no development, hosting, or SDK distribution—it exists solely to showcase Jev via a playground, not to provide tooling for developers to build with.
   evidence:
-    - jev-latest choice confidence 0.53
+    - TryJevAI.com is an independent educational and demonstration website. It is not affiliated with, endorsed by, or operated by TypeSafe AI.
+    - The site labels its mode as 'Live Jev calls the real API' or 'Interactive Demo is illustrative' but does not distribute Jev, an SDK, or any developer-facing integration.
+    - Source-list placement is in 'Verification & Guardrails' under an awesome list, but the product itself is a static educational page, not a tool, framework, or decision-model gateway.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Official Jev & System One
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:22.698Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:69df585ac9d846cf7b221664391959c05c2b8ccc728087c2ac6bfc5148fea86e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: TryJevAI.com is an independent demo and learning resource with no development, hosting, or SDK distribution—it exists solely to showcase Jev via a playground, not to provide tooling for developers to build with.
+      decision_evidence:
+        - TryJevAI.com is an independent educational and demonstration website. It is not affiliated with, endorsed by, or operated by TypeSafe AI.
+        - The site labels its mode as 'Live Jev calls the real API' or 'Interactive Demo is illustrative' but does not distribute Jev, an SDK, or any developer-facing integration.
+        - Source-list placement is in 'Verification & Guardrails' under an awesome list, but the product itself is a static educational page, not a tool, framework, or decision-model gateway.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

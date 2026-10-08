@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__jev__spec__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Agent tooling
         anchor_text: site
         extracted_url: https://npmjs.com/package/jev-spec
-        surrounding_text: >-
-          - [jev-spec](https://github.com/nozomi-koborinai/jev-spec) ([site](https://www.npmjs.com/package/jev-spec)) -
-          ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model.
+        surrounding_text: "- [jev-spec](https://github.com/nozomi-koborinai/jev-spec) ([site](https://www.npmjs.com/package/jev-spec)) - ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model."
         confidence: high
 metadata:
   github:
@@ -38,9 +36,7 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    jev-spec (site) - ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's
-    Jev model.
+  summary: "jev-spec (site) - ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -60,7 +56,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +64,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-10-08T04:42:50.338Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for npmjs__com__package__jev__spec: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

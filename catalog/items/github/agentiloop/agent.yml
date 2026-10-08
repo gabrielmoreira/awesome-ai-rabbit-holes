@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__agentiloop__agent__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - Security & Guardrails
-        anchor_text: '**Agent**'
+        anchor_text: "**Agent**"
         extracted_url: https://github.com/agentiloop/agent
-        surrounding_text: >-
-          - [**Agent**](https://github.com/AgentiLoop/Agent) — An optional Jev command-risk advisor inside a native
-          macOS Agent, with a TypeSafeKit client.
+        surrounding_text: "- [**Agent**](https://github.com/AgentiLoop/Agent) — An optional Jev command-risk advisor inside a native macOS Agent, with a TypeSafeKit client."
         confidence: high
 metadata:
   github:
@@ -31,12 +29,9 @@ metadata:
     archived: false
     full_name: AgentiLoop/Agent
     html_url: https://github.com/AgentiLoop/Agent
-    created_at: '2026-03-11T20:15:09Z'
-    pushed_at: '2026-09-29T02:23:13Z'
-    description: >-
-      Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for
-      Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService
-      shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence and Jev guard. MCP support.
+    created_at: "2026-03-11T20:15:09Z"
+    pushed_at: "2026-09-29T02:23:13Z"
+    description: "Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence and Jev guard. MCP support."
     homepage: https://agentiloop.ai
     topics:
       - 21-llm-providers
@@ -57,15 +52,12 @@ metadata:
       - mcp
       - safari-web-ui-automation
       - top-mac-agentic-coding-tool
-    last_checked_at: '2026-09-29T13:08:34.363Z'
+    last_checked_at: "2026-09-29T13:08:34.363Z"
     readme:
-      fetched_at: '2026-09-29T13:08:34.363Z'
+      fetched_at: "2026-09-29T13:08:34.363Z"
       bytes: 34818
 insights:
-  summary: >-
-    Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for
-    Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService
-    shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence and Jev guard. MCP support.
+  summary: "Agent! now supports macOS 14.6 or later, Apple Silicon and Intel (see latest pre-release). The Best AI agent for Mac: drives any app via Accessibility, codes/builds in Xcode, automates AppleScript, JXA, Swift and SMAppService shell (user/root). 23 LLM providers, local/cloud, plus on-device Apple Intelligence and Jev guard. MCP support."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -85,15 +77,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:34.363Z'
+    updated_at: "2026-09-29T13:08:34.363Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

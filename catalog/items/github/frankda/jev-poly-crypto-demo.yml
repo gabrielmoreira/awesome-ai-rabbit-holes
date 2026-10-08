@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__frankda__jev-poly-crypto-demo__awesome-list__heyjunpenn__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: heyjunpenn/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Applications (129)
         anchor_text: jev-poly-crypto-demo
         extracted_url: https://github.com/frankda/jev-poly-crypto-demo
-        surrounding_text: >-
-          | [jev-poly-crypto-demo](https://github.com/frankda/jev-poly-crypto-demo) | ★ 37 | TypeScript | 2026-09-24 |
-          Crypto decision dashboard that uses Jev to classify market state and risk. |
+        surrounding_text: "| [jev-poly-crypto-demo](https://github.com/frankda/jev-poly-crypto-demo) | ★ 37 | TypeScript | 2026-09-24 | Crypto decision dashboard that uses Jev to classify market state and risk. |"
         confidence: high
 metadata:
   github:
@@ -32,14 +30,14 @@ metadata:
     archived: false
     full_name: frankda/jev-poly-crypto-demo
     html_url: https://github.com/frankda/jev-poly-crypto-demo
-    created_at: '2026-09-21T23:52:21Z'
-    pushed_at: '2026-09-23T04:27:41Z'
+    created_at: "2026-09-21T23:52:21Z"
+    pushed_at: "2026-09-23T04:27:41Z"
     description: null
     homepage: https://jev-poly-crypto-demo-black.vercel.app
     topics: []
-    last_checked_at: '2026-09-29T13:11:24.587Z'
+    last_checked_at: "2026-09-29T13:11:24.587Z"
     readme:
-      fetched_at: '2026-09-29T13:11:24.587Z'
+      fetched_at: "2026-09-29T13:11:24.587Z"
       bytes: 19432
 insights:
   summary: Crypto decision dashboard that uses Jev to classify market state and risk.
@@ -62,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.457Z'
+    updated_at: "2026-09-29T13:07:10.457Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:24.587Z'
+    updated_at: "2026-09-29T13:11:24.587Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

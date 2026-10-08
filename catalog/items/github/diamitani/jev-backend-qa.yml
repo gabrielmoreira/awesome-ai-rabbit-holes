@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__diamitani__jev-backend-qa__awesome-list__appitstudio__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: AppitStudio/awesome-jev
@@ -20,9 +20,7 @@ provenance:
           - Developer projects and integrations
         anchor_text: jev-backend-qa
         extracted_url: https://github.com/diamitani/jev-backend-qa
-        surrounding_text: >-
-          - [jev-backend-qa](https://github.com/diamitani/jev-backend-qa) - Backend QA agent with PAL/Jev adjudication
-          to BLOCK/WARN/PASS (CLI + GitHub Action). [Project guide](community/projects/tools/jev-backend-qa.md).
+        surrounding_text: "- [jev-backend-qa](https://github.com/diamitani/jev-backend-qa) - Backend QA agent with PAL/Jev adjudication to BLOCK/WARN/PASS (CLI + GitHub Action). [Project guide](community/projects/tools/jev-backend-qa.md)."
         confidence: high
 metadata:
   github:
@@ -32,21 +30,17 @@ metadata:
     archived: false
     full_name: diamitani/jev-backend-qa
     html_url: https://github.com/diamitani/jev-backend-qa
-    created_at: '2026-09-23T21:45:08Z'
-    pushed_at: '2026-09-23T21:45:48Z'
-    description: >-
-      Backend QA agent for Jev-powered builds — PAL/Jev-adjudicated BLOCK/WARN/PASS verdicts, one-command jev-qa CLI,
-      Rostr-native, GitHub Action gate.
+    created_at: "2026-09-23T21:45:08Z"
+    pushed_at: "2026-09-23T21:45:48Z"
+    description: Backend QA agent for Jev-powered builds — PAL/Jev-adjudicated BLOCK/WARN/PASS verdicts, one-command jev-qa CLI, Rostr-native, GitHub Action gate.
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:40.311Z'
+    last_checked_at: "2026-09-29T13:10:40.311Z"
     readme:
-      fetched_at: '2026-09-29T13:10:40.311Z'
+      fetched_at: "2026-09-29T13:10:40.311Z"
       bytes: 6672
 insights:
-  summary: >-
-    Backend QA agent for Jev-powered builds — PAL/Jev-adjudicated BLOCK/WARN/PASS verdicts, one-command jev-qa CLI,
-    Rostr-native, GitHub Action gate.
+  summary: Backend QA agent for Jev-powered builds — PAL/Jev-adjudicated BLOCK/WARN/PASS verdicts, one-command jev-qa CLI, Rostr-native, GitHub Action gate.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -66,15 +60,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.454Z'
+    updated_at: "2026-09-29T13:07:10.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:40.311Z'
+    updated_at: "2026-09-29T13:10:40.311Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

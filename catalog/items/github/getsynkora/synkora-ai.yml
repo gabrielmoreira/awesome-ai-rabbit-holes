@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getsynkora__synkora-ai__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - MCP & Integrations
-        anchor_text: '**synkora-ai**'
+        anchor_text: "**synkora-ai**"
         extracted_url: https://github.com/getsynkora/synkora-ai
-        surrounding_text: >-
-          - [**synkora-ai**](https://github.com/getsynkora/synkora-ai) — Synkora includes optional TypeSafe client tools
-          for classification, scoring and yes/no judgments.
+        surrounding_text: "- [**synkora-ai**](https://github.com/getsynkora/synkora-ai) — Synkora includes optional TypeSafe client tools for classification, scoring and yes/no judgments."
         confidence: high
 metadata:
   github:
@@ -31,12 +29,9 @@ metadata:
     archived: false
     full_name: getsynkora/synkora-ai
     html_url: https://github.com/getsynkora/synkora-ai
-    created_at: '2026-03-22T01:24:44Z'
-    pushed_at: '2026-09-29T02:20:47Z'
-    description: >-
-      Open-source AI agent platform for building, deploying, and managing AI teammates. Role-based agents (PM, Engineer,
-      Support, Marketing) with custom tools, knowledge bases, and 50+ integrations. Self-hosted, multi-provider LLM
-      support, no vendor lock-in.
+    created_at: "2026-03-22T01:24:44Z"
+    pushed_at: "2026-09-29T02:20:47Z"
+    description: Open-source AI agent platform for building, deploying, and managing AI teammates. Role-based agents (PM, Engineer, Support, Marketing) with custom tools, knowledge bases, and 50+ integrations. Self-hosted, multi-provider LLM support, no vendor lock-in.
     homepage: https://synkora.ai
     topics:
       - agent-framework
@@ -53,15 +48,12 @@ metadata:
       - nextjs
       - openai
       - rag
-    last_checked_at: '2026-09-29T13:11:39.870Z'
+    last_checked_at: "2026-09-29T13:11:39.870Z"
     readme:
-      fetched_at: '2026-09-29T13:11:39.870Z'
+      fetched_at: "2026-09-29T13:11:39.870Z"
       bytes: 43043
 insights:
-  summary: >-
-    Open-source AI agent platform for building, deploying, and managing AI teammates. Role-based agents (PM, Engineer,
-    Support, Marketing) with custom tools, knowledge bases, and 50+ integrations. Self-hosted, multi-provider LLM
-    support, no vendor lock-in.
+  summary: Open-source AI agent platform for building, deploying, and managing AI teammates. Role-based agents (PM, Engineer, Support, Marketing) with custom tools, knowledge bases, and 50+ integrations. Self-hosted, multi-provider LLM support, no vendor lock-in.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -81,15 +73,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:39.870Z'
+    updated_at: "2026-09-29T13:11:39.870Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

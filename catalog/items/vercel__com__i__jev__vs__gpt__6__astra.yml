@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__vercel__com__i__jev__vs__gpt__6__astra__awesome-list__yibie__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: yibie/awesome-jev
@@ -17,12 +17,9 @@ provenance:
         section_path:
           - Full list
           - Related Practices / Discussions
-        anchor_text: 'Jev vs GPT-6 Astra: when to use each'
+        anchor_text: "Jev vs GPT-6 Astra: when to use each"
         extracted_url: https://vercel.com/i/jev-vs-gpt-6-astra
-        surrounding_text: >-
-          - [Jev vs GPT-6 Astra: when to use each](https://vercel.com/i/jev-vs-gpt-6-astra) - Guide: Vercel's own
-          decision guide for choosing between a System One model and a frontier model, published alongside a companion
-          page of seven Jev use cases.
+        surrounding_text: "- [Jev vs GPT-6 Astra: when to use each](https://vercel.com/i/jev-vs-gpt-6-astra) - Guide: Vercel's own decision guide for choosing between a System One model and a frontier model, published alongside a companion page of seven Jev use cases."
         confidence: high
 metadata:
   github:
@@ -40,29 +37,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Jev vs GPT-6 Astra: when to use each - Guide: Vercel's own decision guide for choosing between a System One model
-    and a frontier model, published alongside a companion page of seven Jev use cases.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A technical comparison article by Vercel exploring the trade-offs between the Jev decision model and GPT-6 Astra for classification and structured output workflows.
+  why_it_matters: It helps developers understand when to use a specialized decision model for native probabilities versus a generative model for complex reasoning and tool use.
+  mental_damage: Because now you have to decide if your agent needs a calibrated probability distribution or just a highly confident hallucination.
+  tags:
+    - vercel
+    - decision-models
+    - ai-sdk
+    - classification
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in awesome-awesomes / Ecosystem Maps & Landscapes
+  status: excluded
+  reason: The input is a technical comparison article rather than a standalone product, tool, or library.
   evidence:
-    - jev-latest choice confidence 0.53
+    - The URL leads to a Vercel article/blog post
+    - The content is instructional/comparative in nature, not an executable software product
 placement:
-  primary_category: awesome-awesomes
+  primary_category: null
   secondary_categories: []
-  section: Ecosystem Maps & Landscapes
+  section: null
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:47:10.182Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:afcd704b613a78a0de6784d4a8adf23ef25ec16e0a4d15d9358305dc7f58b1dd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a technical comparison article rather than a standalone product, tool, or library.
+      decision_evidence:
+        - The URL leads to a Vercel article/blog post
+        - The content is instructional/comparative in nature, not an executable software product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

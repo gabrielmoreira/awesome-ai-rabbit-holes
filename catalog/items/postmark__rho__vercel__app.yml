@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__postmark__rho__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,9 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://postmark-rho.vercel.app
-        surrounding_text: >-
-          - [Postmark](https://github.com/silky-x0/Postmark) ([site](https://postmark-rho.vercel.app/)) - A working Demo
-          that acts as classifier to classify linkedin post which inside uses jev by Typesafe.ai.
+        surrounding_text: "- [Postmark](https://github.com/silky-x0/Postmark) ([site](https://postmark-rho.vercel.app/)) - A working Demo that acts as classifier to classify linkedin post which inside uses jev by Typesafe.ai."
         confidence: high
 metadata:
   github:
@@ -38,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Postmark (site) - A working Demo that acts as classifier to classify linkedin post which inside uses jev by
-    Typesafe.ai.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Postmark is a web app that evaluates draft text using TypeSafe Jev to score vibe, viral potential, and cringe risk.
+  why_it_matters: It gives developers a quick, model-backed gut check on tone and engagement before publishing.
+  mental_damage: Now even your tweets need a Jev-powered sanity check before you hit post.
+  tags:
+    - decision-model
+    - text-evaluation
+    - vibe-check
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The tool's core function is returning constrained scores from a decision model (TypeSafe Jev) for predefined judgments — vibe, viral potential, cringe — making it a decision-model tool, not a coding agent or app builder.
   evidence:
-    - jev-latest choice confidence 0.57
+    - "Powered by TypeSafe Jev to run three checks: tone, viral potential, and cringe risk"
+    - Returns clean scores back, no cap, easy to read and plug straight into code
+    - Listed in awesome-jev under Demos & playgrounds as a Jev-powered draft evaluator
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -68,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:54.936Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7b4dc7b1628ad946661ae5d1a904ee2206a81aee71fed9ec62d9d72bc60a17ac
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's core function is returning constrained scores from a decision model (TypeSafe Jev) for predefined judgments — vibe, viral potential, cringe — making it a decision-model tool, not a coding agent or app builder.
+      decision_evidence:
+        - "Powered by TypeSafe Jev to run three checks: tone, viral potential, and cringe risk"
+        - Returns clean scores back, no cap, easy to read and plug straight into code
+        - Listed in awesome-jev under Demos & playgrounds as a Jev-powered draft evaluator
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because Postmark evaluates existing text via Jev judgments rather than generating deployable apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

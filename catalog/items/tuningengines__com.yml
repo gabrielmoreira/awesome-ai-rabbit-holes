@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__tuningengines__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,10 +18,7 @@ provenance:
           - AI Frameworks and SDKs
         anchor_text: Tuning Engines
         extracted_url: https://tuningengines.com
-        surrounding_text: >-
-          - **[Tuning Engines](https://www.tuningengines.com/)** – Governed AI runtime and MCP server for coding agents:
-          route models through one OpenAI-compatible API, apply RBAC and traffic policies, request approvals, and
-          inspect traces and usage.
+        surrounding_text: "- **[Tuning Engines](https://www.tuningengines.com/)** – Governed AI runtime and MCP server for coding agents: route models through one OpenAI-compatible API, apply RBAC and traffic policies, request approvals, and inspect traces and usage."
         confidence: high
 metadata:
   github:
@@ -39,33 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    Tuning Engines – Governed AI runtime and MCP server for coding agents: route models through one OpenAI-compatible
-    API, apply RBAC and traffic policies, request approvals, and inspect traces and usage.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Tuning Engines is an AI workforce management system that monitors, governs, and optimizes software agents and embodied robots through a unified control plane.
+  why_it_matters: It gives development and ops teams visibility and runtime policy enforcement over AI agents to prevent compliance incidents and reduce uncontrolled inference spend.
+  mental_damage: Finally, a way to feel guilty about AI spending in real time instead of waiting for the monthly bill to reveal your agent fleet went rogue.
+  tags:
+    - ai-governance
+    - agent-observability
+    - cost-control
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  reason: The product's core identity is managing a workforce of multiple AI agents and robots through policy enforcement, observability, and lifecycle coordination—not building or coding with agents—making it an agent orchestration platform rather than a coding agent or extension.
   evidence:
-    - jev-latest choice confidence 0.74
-    - >-
-      jev winnow:e4b 0.47 below gate 0.50; proposed mcp / AI & Model Services; placement kept at agent-orchestration
-      (unverified)
+    - Scraped site describes managing 'software agents and robots, managed like a workforce — hired, credentialed, governed, observed, and continuously improved' with 'one control plane' for compliance, security, observability, and intelligence
+    - Source-list context places it in 'AI Frameworks and SDKs' section of awesome-ai-coding-tools, but its primary function is workforce orchestration, not framework usage
+    - Features include inline policy enforcement, budget caps per request, model routing, audit trails, and outcome-based ROI measurement across agent and robot workflows
 placement:
   primary_category: agent-orchestration
   secondary_categories:
     - mcp
-  section: Agent Runtimes & Harnesses
+  section: Domain & Enterprise Platforms
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.494Z'
+    updated_at: "2026-09-29T13:07:10.494Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:46:27.110Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c4dafe6da6239dfeca40d9a966392ccf50f055ab1e263145cafeafa20e8c7d05
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product's core identity is managing a workforce of multiple AI agents and robots through policy enforcement, observability, and lifecycle coordination—not building or coding with agents—making it an agent orchestration platform rather than a coding agent or extension.
+      decision_evidence:
+        - Scraped site describes managing 'software agents and robots, managed like a workforce — hired, credentialed, governed, observed, and continuously improved' with 'one control plane' for compliance, security, observability, and intelligence
+        - Source-list context places it in 'AI Frameworks and SDKs' section of awesome-ai-coding-tools, but its primary function is workforce orchestration, not framework usage
+        - Features include inline policy enforcement, budget caps per request, model routing, audit trails, and outcome-based ROI measurement across agent and robot workflows
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because Tuning Engines is an operated control plane for managing agent teams, not a code-first library developers import to build agent systems
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

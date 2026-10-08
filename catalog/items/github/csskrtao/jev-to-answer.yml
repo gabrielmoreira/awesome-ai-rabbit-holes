@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__csskrtao__jev-to-answer__awesome-list__logicrw__awesome-jev-projects
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: logicrw/awesome-jev-projects
@@ -17,11 +17,9 @@ provenance:
         mode: parsed
         section_path:
           - SDK & Decision Frameworks
-        anchor_text: '**jev-to-answer**'
+        anchor_text: "**jev-to-answer**"
         extracted_url: https://github.com/csskrtao/jev-to-answer
-        surrounding_text: >-
-          - [**jev-to-answer**](https://github.com/csskrtao/jev-to-answer) — This project integrates Jev to provide
-          structured decisions for its workflow. See the repository for implementation details.
+        surrounding_text: "- [**jev-to-answer**](https://github.com/csskrtao/jev-to-answer) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
 metadata:
   github:
@@ -31,19 +29,17 @@ metadata:
     archived: false
     full_name: csskrtao/jev-to-answer
     html_url: https://github.com/csskrtao/jev-to-answer
-    created_at: '2026-09-21T14:03:36Z'
-    pushed_at: '2026-09-23T12:39:57Z'
+    created_at: "2026-09-21T14:03:36Z"
+    pushed_at: "2026-09-23T12:39:57Z"
     description: 答案之书jev
     homepage: null
     topics: []
-    last_checked_at: '2026-09-29T13:10:15.890Z'
+    last_checked_at: "2026-09-29T13:10:15.890Z"
     readme:
-      fetched_at: '2026-09-29T13:10:15.890Z'
+      fetched_at: "2026-09-29T13:10:15.890Z"
       bytes: 11761
 insights:
-  summary: >-
-    jev-to-answer — This project integrates Jev to provide structured decisions for its workflow. See the repository for
-    implementation details.
+  summary: jev-to-answer — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details.
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -63,15 +59,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.453Z'
+    updated_at: "2026-09-29T13:07:10.453Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:10:15.890Z'
+    updated_at: "2026-09-29T13:10:15.890Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.683Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__sidegrade__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -18,11 +18,7 @@ provenance:
           - Developer Productivity Tools
         anchor_text: npm
         extracted_url: https://npmjs.com/package/sidegrade
-        surrounding_text: >-
-          - **[sidegrade](https://github.com/iotexproject/sidegrade)** – Reads your local coding-agent usage (Claude
-          Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every
-          model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account,
-          MIT-licensed. Run with `npx sidegrade`; on [npm](https://www.npmjs.com/package/sidegrade).
+        surrounding_text: "- **[sidegrade](https://github.com/iotexproject/sidegrade)** – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with `npx sidegrade`; on [npm](https://www.npmjs.com/package/sidegrade)."
         confidence: high
 metadata:
   github:
@@ -40,32 +36,30 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives
-    you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and
-    re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
-  why_it_matters: null
-  mental_damage: null
+  summary: sidegrade is an npm package with no available description, README, or repository details.
+  why_it_matters: Cannot be determined due to lack of substantive information about its purpose or functionality.
+  mental_damage: Another mysterious npm package that leaves developers wondering if it’s useful or just a typo away from regret.
   tags: []
-  confidence: null
+  confidence: low
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in evals / Agent & LLM Benchmarks
+  status: excluded
+  reason: Insufficient information to assess fit; no description, README, repo details, or clear identity to evaluate against catalog scope.
   evidence:
-    - jev-latest choice confidence 0.68
-    - jev winnow:e4b 0.40 below gate 0.50; proposed evals / Agent & LLM Benchmarks; placement kept at evals (unverified)
+    - No repo description provided
+    - No README excerpt or scraped site context available
+    - Stars, creation, and push timestamps unknown
 placement:
-  primary_category: evals
+  primary_category: null
   secondary_categories:
     - decision-models
-  section: Agent & LLM Benchmarks
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.492Z'
+    updated_at: "2026-09-29T13:07:10.492Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,6 +67,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:43:13.788Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2238c62f651c74bfca986cd7d72dd3967fec424442c1d735f84618000b386a54
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information to assess fit; no description, README, repo details, or clear identity to evaluate against catalog scope.
+      decision_evidence:
+        - No repo description provided
+        - No README excerpt or scraped site context available
+        - Stars, creation, and push timestamps unknown
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

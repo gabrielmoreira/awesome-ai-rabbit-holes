@@ -82,9 +82,9 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-05T05:04:59.968Z"
+    updated_at: "2026-10-08T04:37:04.234Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for docs__typesafe__ai__cookbooks__skill__suggestion: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The core n\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for docs__typesafe__ai__cookbooks__skill__suggestion: AI marked docs__typesafe__ai__cookbooks__skill__suggestion as included but did not provide a valid category"
     next_retry_at: null
-    attempts: 1
+    attempts: 2

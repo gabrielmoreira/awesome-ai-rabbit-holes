@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__ahm3dwasim__twoperson__awesome-list__ai-for-developers__awesome-ai-coding-tools
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: ai-for-developers/awesome-ai-coding-tools
@@ -19,11 +19,7 @@ provenance:
           - Code Review and Refactoring
         anchor_text: twoperson
         extracted_url: https://github.com/ahm3dwasim/twoperson
-        surrounding_text: >-
-          - **[twoperson](https://github.com/ahm3dwasim/twoperson)** – Two-person rule for AI coding agents: a builder
-          agent and a reviewer agent share a file-based review inbox whose schema won't let work be marked shipped
-          without a verdict bound to that exact commit, so the review can't be skipped or applied to the wrong revision.
-          Stop-hook installer, credential scan, worktree-aware; MIT.
+        surrounding_text: "- **[twoperson](https://github.com/ahm3dwasim/twoperson)** – Two-person rule for AI coding agents: a builder agent and a reviewer agent share a file-based review inbox whose schema won't let work be marked shipped without a verdict bound to that exact commit, so the review can't be skipped or applied to the wrong revision. Stop-hook installer, credential scan, worktree-aware; MIT."
         confidence: high
 metadata:
   github:
@@ -33,11 +29,9 @@ metadata:
     archived: false
     full_name: ahm3dwasim/twoperson
     html_url: https://github.com/ahm3dwasim/twoperson
-    created_at: '2026-09-03T11:00:46Z'
-    pushed_at: '2026-09-19T10:56:14Z'
-    description: >-
-      A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that
-      exact commit.
+    created_at: "2026-09-03T11:00:46Z"
+    pushed_at: "2026-09-19T10:56:14Z"
+    description: "A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that exact commit."
     homepage: null
     topics:
       - ai-agents
@@ -48,14 +42,12 @@ metadata:
       - guardrails
       - llm
       - python
-    last_checked_at: '2026-09-29T13:08:37.826Z'
+    last_checked_at: "2026-09-29T13:08:37.826Z"
     readme:
-      fetched_at: '2026-09-29T13:08:37.826Z'
+      fetched_at: "2026-09-29T13:08:37.826Z"
       bytes: 21875
 insights:
-  summary: >-
-    A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that exact
-    commit.
+  summary: "A two-person rule for AI coding agents: a ship report can't be recorded without an approving verdict for that exact commit."
   why_it_matters: null
   mental_damage: null
   tags: []
@@ -65,9 +57,7 @@ curation:
   reason: Jev decision-model reclassifier placed this item in skills / Skill Packs & Libraries
   evidence:
     - jev-latest choice confidence 0.60
-    - >-
-      jev winnow:e4b 0.17 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at
-      skills (unverified)
+    - jev winnow:e4b 0.17 below gate 0.50; proposed decision-models / Agent Gates, Routers & Skills; placement kept at skills (unverified)
 placement:
   primary_category: skills
   secondary_categories:
@@ -79,15 +69,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.447Z'
+    updated_at: "2026-09-29T13:07:10.447Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:08:37.826Z'
+    updated_at: "2026-09-29T13:08:37.826Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.681Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

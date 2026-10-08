@@ -51,18 +51,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: FIRE138 is an Indonesian online gaming portal offering access to slots, sports betting, and live casino games.
-  why_it_matters: It does not provide any developer-facing AI tooling, workflow enhancement, or code-related functionality.
-  mental_damage: Another reminder that not everything with a login button and dark mode is an AI coding assistant, no matter how much we wish it were.
-  tags: []
+  summary: An online gaming and gambling portal.
+  why_it_matters: It provides no utility or relevance to software developers or AI workflows.
+  mental_damage: The dread of finding a promising tool name only to realize the domain has been hijacked by a gambling site.
+  tags:
+    - gambling
+    - unrelated
   confidence: high
 curation:
   status: excluded
-  reason: The site is a gambling and entertainment portal with no connection to AI developer tooling, coding agents, or software development workflows.
+  reason: The scraped content identifies the site as an online gambling portal (FIRE138) and is entirely unrelated to the AI development ecosystem.
   evidence:
-    - Scraped site title and content describe FIRE138 as a portal for online gaming, slots, sports, and live casino
-    - No mention of AI, code, development, agents, prompts, or any developer-facing functionality in the provided inputs
-    - No GitHub repo, stars, or technical documentation present to suggest it is a software tool
+    - "Scraped site title is 'FIRE138: Portal Game Online Resmi Tanpa Hambatan'"
+    - Content includes gambling-related terms such as 'Slot Gacor', 'Login', and 'Daftar'
 placement:
   primary_category: null
   secondary_categories: []
@@ -73,24 +74,23 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-10-05T04:46:47.806Z"
+    updated_at: "2026-10-08T04:26:27.094Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:0eecef2b74024c158a4a6b81319e689a133f825cee8d9d789bb3f9e99a41e8f0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site is a gambling and entertainment portal with no connection to AI developer tooling, coding agents, or software development workflows.
+      decision_reason: The scraped content identifies the site as an online gambling portal (FIRE138) and is entirely unrelated to the AI development ecosystem.
       decision_evidence:
-        - Scraped site title and content describe FIRE138 as a portal for online gaming, slots, sports, and live casino
-        - No mention of AI, code, development, agents, prompts, or any developer-facing functionality in the provided inputs
-        - No GitHub repo, stars, or technical documentation present to suggest it is a software tool
+        - "Scraped site title is 'FIRE138: Portal Game Online Resmi Tanpa Hambatan'"
+        - Content includes gambling-related terms such as 'Slot Gacor', 'Login', and 'Daftar'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

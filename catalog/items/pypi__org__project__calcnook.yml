@@ -37,18 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: calcnook is a PyPI package with no available description or functional details.
-  why_it_matters: It does not matter to developers as there is no discernible functionality, documentation, or use case provided.
-  mental_damage: Another mysterious PyPI entry that promises nothing and delivers even less, adding to the clutter of abandoned or unclear packages.
+  summary: A Python package with no descriptive information provided.
+  why_it_matters: Insufficient data is available to determine if this tool serves a developer workflow.
+  mental_damage: The ultimate AI rabbit hole is a broken PyPI page that refuses to load its own existence.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Excluded due to absence of meaningful description, functionality, or developer-facing utility; the PyPI page offers no insight into what the tool does or who it is for.
+  reason: The provided inputs (description, README, and scraped context) contain no information regarding the project's functionality or purpose.
   evidence:
-    - Repo description is none
-    - Scraped site context shows a loading error with no recoverable content
-    - No README, homepage, or source-list context is available
+    - Repo description is empty
+    - Scraped site context is a generic browser error message
 placement:
   primary_category: null
   section: null
@@ -67,24 +66,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-05T05:01:41.785Z"
+    updated_at: "2026-10-08T04:35:54.658Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:aa6564e4436fe496ac4adf8bad3ffdfb084d36ff3aaae1ea23c65a70910e4709
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Excluded due to absence of meaningful description, functionality, or developer-facing utility; the PyPI page offers no insight into what the tool does or who it is for.
+      decision_reason: The provided inputs (description, README, and scraped context) contain no information regarding the project's functionality or purpose.
       decision_evidence:
-        - Repo description is none
-        - Scraped site context shows a loading error with no recoverable content
-        - No README, homepage, or source-list context is available
+        - Repo description is empty
+        - Scraped site context is a generic browser error message
       category_candidates: []
       contrastive_reason: null
       review_reason: null

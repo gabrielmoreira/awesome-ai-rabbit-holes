@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__gptvsjev__vercel__app__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Demos & playgrounds
         anchor_text: site
         extracted_url: https://gptvsjev.vercel.app
-        surrounding_text: >-
-          - [gpt-vs-jev](https://github.com/TanayPadar/gpt-vs-jev) ([site](https://gptvsjev.vercel.app),
-          [post](https://x.com/nerdytanay/status/2100465397267144815)) - Compare GPT generated language with JEV
-          structured Noul decisions on the same input.
+        surrounding_text: "- [gpt-vs-jev](https://github.com/TanayPadar/gpt-vs-jev) ([site](https://gptvsjev.vercel.app), [post](https://x.com/nerdytanay/status/2100465397267144815)) - Compare GPT generated language with JEV structured Noul decisions on the same input."
         confidence: high
 metadata:
   github:
@@ -39,31 +36,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: gpt-vs-jev (site, post) - Compare GPT generated language with JEV structured Noul decisions on the same input.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GPT vs JEV — AI Arena is a web app that compares GPT's generated language with JEV's structured Noul probabilities on the same input.
+  why_it_matters: It lets developers directly observe the difference between generative language models and decision-model outputs side-by-side for the same prompt.
+  mental_damage: Useful for realizing your AI intuition is just as broken as the model's when you can't tell which output feels more 'correct'.
+  tags:
+    - decision-models
+    - comparison
+    - ai-arena
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The product's core identity is showcasing a decision model (JEV) alongside a language model for direct comparison, making the judgment output the central artifact, which fits decision-models as the primary category.
   evidence:
-    - jev-latest choice confidence 0.41
-    - >-
-      jev winnow:e4b 0.46 below gate 0.50; proposed decision-models / Evals, Benchmarks & Calibration; placement kept at
-      decision-models (unverified)
+    - "Scraped site context: Title 'GPT vs JEV — AI Arena', Description: 'Compare GPT's generated language with JEV's structured Noul probabilities on the same input.'"
+    - "Primary page excerpt: 'JEV returns structured yes/no probabilities called Noul — not prose, and not a confidence score.' and 'To know more about JEV, head to typesafe.ai'"
+    - "Source-list context: Listed in awesome-jev under 'Demos & playgrounds' for comparing GPT's generated language with JEV's structured Noul probabilities on the same input."
 placement:
   primary_category: decision-models
   secondary_categories:
     - app-builders
-  section: Evals, Benchmarks & Calibration
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.489Z'
+    updated_at: "2026-09-29T13:07:10.489Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,6 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:37:41.045Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4cc2e5a6cf341c21f897546780c016b3693f69e42ffddb446bc124862b613a4f
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is showcasing a decision model (JEV) alongside a language model for direct comparison, making the judgment output the central artifact, which fits decision-models as the primary category.
+      decision_evidence:
+        - "Scraped site context: Title 'GPT vs JEV — AI Arena', Description: 'Compare GPT's generated language with JEV's structured Noul probabilities on the same input.'"
+        - "Primary page excerpt: 'JEV returns structured yes/no probabilities called Noul — not prose, and not a confidence score.' and 'To know more about JEV, head to typesafe.ai'"
+        - "Source-list context: Listed in awesome-jev under 'Demos & playgrounds' for comparing GPT's generated language with JEV's structured Noul probabilities on the same input."
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the product does not generate deployable apps from prompts but instead focuses on exposing and comparing the judgment output (Noul probabilities) of a decision model as its core experience.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

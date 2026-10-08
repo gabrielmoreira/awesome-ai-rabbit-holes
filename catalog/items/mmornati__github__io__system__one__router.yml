@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__mmornati__github__io__system__one__router__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,10 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://mmornati.github.io/system-one-router
-        surrounding_text: >-
-          - [system-one-router](https://github.com/mmornati/system-one-router)
-          ([site](https://mmornati.github.io/system-one-router/)) - A fast System One decision model (Jev or local Laya)
-          picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark.
+        surrounding_text: "- [system-one-router](https://github.com/mmornati/system-one-router) ([site](https://mmornati.github.io/system-one-router/)) - A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt: OpenAI-compatible Go gateway + decision benchmark."
         confidence: high
 metadata:
   github:
@@ -39,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    system-one-router (site) - A fast System One decision model (Jev or local Laya) picks which LLM answers each prompt:
-    OpenAI-compatible Go gateway + decision benchmark.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: System One Router is a benchmark comparing routing decisions of multiple decision models on 80 labelled prompts.
+  why_it_matters: It lets developers evaluate which decision model minimizes cost or maximizes accuracy for routing tasks in agent workflows.
+  mental_damage: Another benchmark to stare at while your agent keeps sending simple queries to the most expensive model anyway.
+  tags:
+    - benchmark
+    - decision-models
+    - routing
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The product is a benchmark that measures decision-model judgments, which belongs in decision-models per the precedence rule that eval harnesses for decision models go there, not in evals.
   evidence:
-    - jev-latest choice confidence 0.54
+    - "Title: Routing Decision Benchmark"
+    - Primary page excerpt shows 80 labelled prompts and 7 decision providers with accuracy, cost, and latency metrics
+    - Seen in source list awesome-jev under Benchmarks & research section for Jev-based projects
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Evals, Benchmarks & Calibration
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:41:48.237Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ae0176dfe0a77428f27f0efc7e22688898921399083eed47a99f5b6fea9f1925
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product is a benchmark that measures decision-model judgments, which belongs in decision-models per the precedence rule that eval harnesses for decision models go there, not in evals.
+      decision_evidence:
+        - "Title: Routing Decision Benchmark"
+        - Primary page excerpt shows 80 labelled prompts and 7 decision providers with accuracy, cost, and latency metrics
+        - Seen in source list awesome-jev under Benchmarks & research section for Jev-based projects
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the benchmark measures decision-model judgments specifically, and decision-model evals belong in decision-models, not evals.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

@@ -6,7 +6,7 @@ identity: {}
 provenance:
   discoveries:
     - id: discovery__npmjs__com__package__dsh__jev__verify__awesome-list__hellogumbo__awesome-jev
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: hellogumbo/awesome-jev
@@ -18,11 +18,7 @@ provenance:
           - Benchmarks & research
         anchor_text: site
         extracted_url: https://npmjs.com/package/dsh-jev-verify
-        surrounding_text: >-
-          - [dsh-jev-verify](https://github.com/xienda/dsh-jev-verify)
-          ([site](https://www.npmjs.com/package/dsh-jev-verify)) - Jev (TypeSafe System One) decision tools + live
-          verification benchmark for DeepSeek Harness: jev_decision (choice/score/noul) and jev_verify, honest by
-          design.
+        surrounding_text: "- [dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) ([site](https://www.npmjs.com/package/dsh-jev-verify)) - Jev (TypeSafe System One) decision tools + live verification benchmark for DeepSeek Harness: jev_decision (choice/score/noul) and jev_verify, honest by design."
         confidence: high
 metadata:
   github:
@@ -40,29 +36,32 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: >-
-    dsh-jev-verify (site) - Jev (TypeSafe System One) decision tools + live verification benchmark for DeepSeek Harness:
-    jev_decision (choice/score/noul) and jev_verify, honest by design.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: dsh-jev-verify is an npm package that appears to be related to verifying or validating Jev decision model outputs, based on its naming and presence in a Jev-focused awesome list.
+  why_it_matters: It could help developers ensure correctness when using Jev decision models in agent workflows, though its exact function is unclear from available inputs.
+  mental_damage: Another npm package with a cryptic name that makes you wonder if you're missing an entire sub-ecosystem of Jev tooling you didn't know existed.
+  tags:
+    - jev
+    - verification
+    - decision-models
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: The package name and presence in the awesome-jev list under 'Benchmarks & research' suggest it is a tool for verifying Jev decision model judgments, which fits the decision-models category's focus on tooling built around decision-model judgments.
   evidence:
-    - jev-latest choice confidence 0.52
+    - Name 'dsh-jev-verify' implies verification of Jev outputs
+    - Listed in awesome-jev under 'Benchmarks & research' section
+    - No README or repo description available, but source-list context indicates Jev-related purpose
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Verification, Guardrails & Safety
 lifecycle:
   status: curated
   reason: null
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.491Z'
+    updated_at: "2026-09-29T13:07:10.491Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,6 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-10-08T04:42:32.070Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:b638cd157695ec11d81c8fefc632617649b13dcf7169b72193344da67e73a2ea
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The package name and presence in the awesome-jev list under 'Benchmarks & research' suggest it is a tool for verifying Jev decision model judgments, which fits the decision-models category's focus on tooling built around decision-model judgments.
+      decision_evidence:
+        - Name 'dsh-jev-verify' implies verification of Jev outputs
+        - Listed in awesome-jev under 'Benchmarks & research' section
+        - No README or repo description available, but source-list context indicates Jev-related purpose
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the tool appears to be specifically for verifying Jev decision model judgments, which belongs in decision-models per the rule that benchmarks or judgment harnesses for decision models belong there, not in evals.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

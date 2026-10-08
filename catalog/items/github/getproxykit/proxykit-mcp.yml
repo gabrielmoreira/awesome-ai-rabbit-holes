@@ -7,7 +7,7 @@ identity:
 provenance:
   discoveries:
     - id: discovery__github__getproxykit__proxykit-mcp__awesome-list__punkpeye__awesome-mcp-servers
-      discovered_at: '2026-09-29T13:07:10.365Z'
+      discovered_at: "2026-09-29T13:07:10.365Z"
       source:
         type: awesome-list
         name: punkpeye/awesome-mcp-servers
@@ -20,11 +20,7 @@ provenance:
           - 🔒 <a name="delivery"></a>Delivery
         anchor_text: getproxykit/proxykit-mcp
         extracted_url: https://github.com/getproxykit/proxykit-mcp
-        surrounding_text: >-
-          - [getproxykit/proxykit-mcp](https://github.com/getproxykit/proxykit-mcp) [![getproxykit/proxykit-mcp MCP
-          server](https://glama.ai/mcp/servers/getproxykit/proxykit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/getproxykit/proxykit-mcp)
-          🏎️ 🏠 🍎 🪟 🐧 - Drive the local ProxyKit MITM debugging proxy: inspect HTTP(S), gRPC and WebSocket traffic,
-          create mocks and rewrites, replay requests and run chaos scenarios.
+        surrounding_text: "- [getproxykit/proxykit-mcp](https://github.com/getproxykit/proxykit-mcp) [![getproxykit/proxykit-mcp MCP server](https://glama.ai/mcp/servers/getproxykit/proxykit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/getproxykit/proxykit-mcp) 🏎️ 🏠 🍎 🪟 🐧 - Drive the local ProxyKit MITM debugging proxy: inspect HTTP(S), gRPC and WebSocket traffic, create mocks and rewrites, replay requests and run chaos scenarios."
         confidence: high
 metadata:
   github:
@@ -34,8 +30,8 @@ metadata:
     archived: false
     full_name: getproxykit/proxykit-mcp
     html_url: https://github.com/getproxykit/proxykit-mcp
-    created_at: '2026-08-07T21:00:20Z'
-    pushed_at: '2026-09-11T15:21:32Z'
+    created_at: "2026-08-07T21:00:20Z"
+    pushed_at: "2026-09-11T15:21:32Z"
     description: MCP server for ProxyKit — drive a local HTTP(S) debugging proxy from Claude, Cursor, and any MCP host.
     homepage: https://proxykit.net/mcp
     topics:
@@ -47,9 +43,9 @@ metadata:
       - mitm
       - model-context-protocol
       - proxy
-    last_checked_at: '2026-09-29T13:11:39.140Z'
+    last_checked_at: "2026-09-29T13:11:39.140Z"
     readme:
-      fetched_at: '2026-09-29T13:11:39.140Z'
+      fetched_at: "2026-09-29T13:11:39.140Z"
       bytes: 6323
 insights:
   summary: MCP server for ProxyKit — drive a local HTTP(S) debugging proxy from Claude, Cursor, and any MCP host.
@@ -72,15 +68,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: '2026-09-29T13:07:10.458Z'
+    updated_at: "2026-09-29T13:07:10.458Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: '2026-09-29T13:11:39.140Z'
+    updated_at: "2026-09-29T13:11:39.140Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-10-08T04:16:21.684Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

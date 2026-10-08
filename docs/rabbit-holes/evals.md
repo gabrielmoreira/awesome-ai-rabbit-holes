@@ -3,13 +3,13 @@
 
 Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
 
-_163 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_162 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 87
+- [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 85
 - [Observability & Tracing](#observability--tracing) — 51
-- [Prompt Regression & Testing](#prompt-regression--testing) — 15
+- [Prompt Regression & Testing](#prompt-regression--testing) — 16
 - [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 10
 
 ## Agent & LLM Benchmarks
@@ -227,7 +227,7 @@ _163 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `evals` `cli` `docker` `agent-skills` `openrouter`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+57 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+55 more in Agent & LLM Benchmarks &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[tool-definition-quality-score](https://github.com/glama-ai/tool-definition-quality-score)** `⭐ 38` `updated ≤30d` An open framework and rubric for scoring the quality of Model Context Protocol (MCP) tool definitions to ensure they are clearly communicable to AI agents.
 - **[typesafeai/typesafe-playground](https://github.com/typesafeai/typesafe-playground)** `⭐ 21` `updated ≤30d` Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
@@ -277,13 +277,11 @@ _163 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[BenchGen](https://benchgen.com)** BenchGen is a benchmarking infrastructure that evaluates AI agents in simulated operational environments, capturing decision trajectories and converting results into training data.
 - **[Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmarena-ai/arena-leaderboard)** Arena Leaderboard is a Hugging Face Space that displays the live LMArena leaderboard ranking language models by human preference.
 - **[gev beats jev and takes images as input too](https://anyeval.com/eval/jevbench/versus)** A head-to-head model comparison tool for JevBench problems showing paired accuracy and answer speed.
-- **[Jev in Search: Three Practical Evaluations](https://zc277584121.github.io/rag/2026/09/22/jev-search-deep-evaluation.html)** Jev in Search: Three Practical Evaluations - Independent experiments on search stopping, memory reranking, and multi-hop relation selection, with implementation links and limitations including private data, unequal sample counts, and a simulated speed illustration.
 - **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** Open LLM Leaderboard is a Hugging Face Space that tracks, ranks, and evaluates open LLMs and chatbots.
 - **[Root Signals](https://scorable.ai)** Scorable is an LLM evaluation platform for building and calibrating custom LLM-as-a-judge evaluators to monitor AI apps in production.
-- **[sidegrade](https://npmjs.com/package/sidegrade)** sidegrade – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with npx sidegrade; on npm.
 - **[swebench.com](https://swebench.com)** An evaluation benchmark used to measure the ability of AI agents to resolve real-world software engineering issues.
 - **[Testsigma](https://testsigma.com)** Testsigma is a unified agentic test automation platform that generates, runs, heals, and diagnoses tests from requirements, commits, and AI coding agents to score release confidence.
-- **[typesafe-vs-deepseek.vercel.app](https://typesafe-vs-deepseek.vercel.app)** typesafe-vs-deepseek (site) - TypeSafe (Jev) vs DeepSeek-flash: side-by-side speed/token/cost/accuracy comparison across invoice extraction, email classification, and reranking.
+- **[typesafe-vs-deepseek.vercel.app](https://typesafe-vs-deepseek.vercel.app)** TypeSafe vs DeepSeek vs OpenAI is a live comparison tool that runs identical tasks across three AI engines to measure speed, cost, accuracy, and hallucination rate.
 - **[Vals AI](https://vals.ai)** Vals AI provides independent, domain-specific benchmarks for AI models in finance, law, software, and healthcare.
 - **[Workflow evals](https://evals.typesafe.ai)** Workflow evals is a benchmark suite that measures model accuracy, cost, and speed on structured automation tasks using decision-model primitives.
 
@@ -571,7 +569,14 @@ _163 entries in 4 sections, ranked by stars. Each section opens with its top 30;
 - **[SDKProof](https://github.com/kalpitrathore/sdkproof)** `⭐ 5` SDKProof – Type-checks how well AI writes your SDK's current API by compiling model output against the real installed package (no LLM judge).
 - **[CodeVetter](https://github.com/codevetter/codevetter)** `⭐ 1` `updated ≤30d` Verify AI-generated code with execution evidence — deterministic, local-first verification for coding-agent changes via a macOS app, CLI, and MCP server.
 - **[sean-sunagaku/promptlint-mcp](https://github.com/sean-sunagaku/promptlint-mcp)** `⭐ 1` sean-sunagaku/promptlint-mcp : Static linter for AI prompts. Catches contradictions, redundancy, ambiguity, long examples, and politeness fluff in system prompts and agent instructions. CLI + MCP server. Zero network, MIT.
-- **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** Prompt Evaluator – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and workflow quality.
+- **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** Prompt Evaluator is a Vercel-hosted tool for testing and scoring prompts using model responses and eval criteria. <details><summary>More about</summary>
+
+  It helps developers systematically assess prompt quality and model behavior, reducing guesswork in prompt engineering.
+
+  _Another prompt playground that pretends scoring a few outputs replaces actual user testing._
+
+  `prompt-engineering` `evals` `testing`
+  </details>
 - **[PromptFoundry](https://promptfoundry.ai)** PromptFoundry is a web application for testing, comparing, and refining AI prompts across multiple models. <details><summary>More about</summary>
 
   It helps developers iterate on prompt engineering by providing a side-by-side evaluation environment for LLM outputs.
@@ -587,6 +592,14 @@ _163 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   _Finally, a testing tool that promises to make you feel less guilty for ignoring flaky CSS selectors._
 
   `testing` `qa` `ai` `no-code` `automation`
+  </details>
+- **[slop-grader](https://npmjs.com/package/@lukstei/slop-grader)** slop-grader is an npm package that evaluates text outputs from language models to detect and score low-quality or nonsensical content ('slop'). <details><summary>More about</summary>
+
+  It helps developers automate quality checks on AI-generated text, reducing the need for manual review of model outputs in pipelines or testing.
+
+  _Finally, a tool to quantify the existential dread of reading AI-generated nonsense so you can automate your despair._
+
+  `evals` `text-quality` `llm-testing`
   </details>
 - **[Weave](https://weave-docs.wandb.ai/guides/core-types/evaluations)** Weave's evaluation framework for measuring LLM application performance using test datasets and scoring functions. <details><summary>More about</summary>
 
