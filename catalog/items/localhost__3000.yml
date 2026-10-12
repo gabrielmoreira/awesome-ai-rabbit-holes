@@ -37,18 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The input provides a local loopback URL (localhost:3000) with no associated repository description or project metadata.
-  why_it_matters: It contains no actionable information for developers or the catalog.
-  mental_damage: The existential dread of realizing you've spent your morning trying to document a local development port.
+  summary: ""
+  why_it_matters: ""
+  mental_damage: ""
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The submission is a generic local development URL and lacks any identifying information, README, or description required to evaluate its fit.
+  reason: The input is a local development server address (localhost:3000) rather than a software project or AI tool.
   evidence:
-    - URL is a local loopback address (localhost:3000)
-    - Repo description is missing
-    - No stars, topics, or repository metadata provided
+    - The name and URL refer to a standard local loopback address
+    - No repo description, README, or metadata provided
 placement:
   primary_category: null
   section: null
@@ -67,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:33:38.952Z"
+    updated_at: "2026-10-12T04:28:54.032Z"
     cause: null
-    attempts: 7
+    attempts: 8
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -80,11 +79,10 @@ processing:
       input_hash: sha256:4bc0bce0f56e3651302e709ee0284e81d65b804d2c35a466fea4075a6e8d906f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The submission is a generic local development URL and lacks any identifying information, README, or description required to evaluate its fit.
+      decision_reason: The input is a local development server address (localhost:3000) rather than a software project or AI tool.
       decision_evidence:
-        - URL is a local loopback address (localhost:3000)
-        - Repo description is missing
-        - No stars, topics, or repository metadata provided
+        - The name and URL refer to a standard local loopback address
+        - No repo description, README, or metadata provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

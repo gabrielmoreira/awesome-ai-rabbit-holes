@@ -68,9 +68,24 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-10-08T04:41:40.110Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-10-12T04:38:05.387Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for mice__jev__carsonsweet__com: ```json
+        {
+          "summary": "Interactive simulation powered by Jev (TypeSafe System One) decision-model logic.",
+          "why_it_matters": "Provides a visual sandbox to observe how typed-decision models operate in agentic environments.",
+          "mental_damage": "It's much easier to debug the logic of simulated mice than the logic of our own production agents.",
+          "tags": ["jev", "decision-models", "simulation"],
+          "should_include": true,
+          "primary_category": "decision-models",
+          "section": "Apps, Games & Simulation",
+          "decision_reason": "It is a simulation that leverages Jev decision-model judgments as its core identity, fitting the specific 'Apps, Games & Simulation' section of the decision-models category.",
+          "decision_evidence": [
+            "Source list categorizes it under 'Game & Simulation'",
+            "URL and title link it directly to the Jev decision-model ecosystem"
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +103,7 @@ processing:
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

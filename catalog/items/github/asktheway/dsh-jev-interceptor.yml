@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/asktheway/dsh-jev-interceptor
         surrounding_text: "- **DeepSeek Harness** (3) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) · [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)"
         confidence: high
+    - id: discovery__github__asktheway__dsh-jev-interceptor__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: dsh-jev-interceptor
+        extracted_url: https://github.com/asktheway/dsh-jev-interceptor
+        surrounding_text: "- [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) - ⚡ Millisecond System-1 judgement for every tool call in DeepSeek Harness — Jev-powered risk classification & evidence-gated auto-approval. Fail-closed by construction. dsh 生态第一个 System-1 决策插件."
+        confidence: high
 metadata:
   github:
     stars: 23
@@ -95,7 +110,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.409Z"
+    updated_at: "2026-10-12T04:24:05.394Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,7 +120,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.682Z"
+    updated_at: "2026-10-12T04:24:11.916Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

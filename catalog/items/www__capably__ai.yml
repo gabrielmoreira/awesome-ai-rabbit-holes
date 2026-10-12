@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: No descriptive information or context was provided for capably.ai.
-  why_it_matters: N/A
-  mental_damage: The absolute silence of the provided metadata is more profound than most LLM outputs.
+  summary: No technical description or functional context provided for capably.ai.
+  why_it_matters: Utility cannot be assessed without knowing the tool's purpose or developer workflow impact.
+  mental_damage: The paralyzing anxiety of an empty README.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided input lacks the necessary README, description, or scraped site context required to evaluate whether this tool fits the developer-centric scope of the catalog.
+  reason: There is insufficient information provided in the inputs to determine if this project belongs in the catalog.
   evidence:
-    - Repo description is missing
-    - README excerpt is missing
-    - Scraped site context is missing
+    - No repo description provided
+    - No README excerpt provided
+    - No scraped site context provided
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:32:08.254Z"
+    updated_at: "2026-10-12T04:27:35.933Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -80,11 +80,11 @@ processing:
       input_hash: sha256:c66a8b34df9c80f36943d327741acf091cfc898534ec76d77d561b0346a0096b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided input lacks the necessary README, description, or scraped site context required to evaluate whether this tool fits the developer-centric scope of the catalog.
+      decision_reason: There is insufficient information provided in the inputs to determine if this project belongs in the catalog.
       decision_evidence:
-        - Repo description is missing
-        - README excerpt is missing
-        - Scraped site context is missing
+        - No repo description provided
+        - No README excerpt provided
+        - No scraped site context provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

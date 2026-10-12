@@ -52,6 +52,21 @@ provenance:
         extracted_url: https://github.com/avinash-jetwani/jevmem
         surrounding_text: "- **Agent tooling (5):** [jevgrep](https://github.com/dzhng/jevgrep), [Building with TypeSafe Jev](https://github.com/aaddrick/building-with-typesafe-jev), [jevmem](https://github.com/Avinash-jetwani/jevmem), [Quicksilver](https://github.com/UditAkhourii/quicksilver), [XavierJev](https://github.com/liu-x27/XavierJev)"
         confidence: high
+    - id: discovery__github__avinash-jetwani__jevmem__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Context GC
+        anchor_text: "**jevmem**"
+        extracted_url: https://github.com/avinash-jetwani/jevmem
+        surrounding_text: "- [**jevmem**](https://github.com/Avinash-jetwani/jevmem) — A Claude Code memory manager that uses Jev to filter decisions and rules from chat history into durable, per-repo memory."
+        confidence: high
 metadata:
   github:
     stars: 105
@@ -105,7 +120,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.391Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:
@@ -115,7 +130,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.682Z"
+    updated_at: "2026-10-12T04:24:11.916Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

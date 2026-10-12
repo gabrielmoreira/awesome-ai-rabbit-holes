@@ -36,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DTMaaS is a model-as-a-service page listing AI models without developer tooling claims.
-  why_it_matters: It offers no clear developer tooling or workflow integration relevant to software developers.
-  mental_damage: Another model menu that pretends to be a resource while offering zero actionable tooling for builders.
-  tags: []
+  summary: A Model-as-a-Service (MaaS) platform providing access to various large language models via API.
+  why_it_matters: It provides a unified gateway for developers to consume multiple models without managing individual provider integrations.
+  mental_damage: Just one more abstraction layer to manage in an ecosystem that already requires a dedicated vault for API keys.
+  tags:
+    - maas
+    - model-provider
+    - api
   confidence: high
 curation:
   status: excluded
-  reason: The project is a model listing service with no agent, framework, extension, or infrastructure identity relevant to developer tooling.
+  reason: The product is a model provider and inference service, which is explicitly excluded from the primary categories of frameworks and decision models.
   evidence:
-    - Repo description is missing; the site title is DTMaaS with no description provided.
-    - Listed in awesome-LLM-resources under '体验 Usage' as a general resource, not a developer tool.
-    - No evidence of coding agents, app building, frameworks, or other developer-facing product behavior.
+    - The URL and title identify the service as DTMaaS (Model-as-a-Service).
+    - The ai-frameworks category instructions explicitly exclude model providers and inference APIs.
+    - The decision-models category instructions explicitly exclude providers of chat or reasoning models.
 placement:
   primary_category: null
   section: null
@@ -66,25 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:41:25.335Z"
+    updated_at: "2026-10-12T04:36:35.601Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:f4e8b33fd9266669402c2be57e8f3279e91d8a65a0bdfa4da7131032e9943787
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a model listing service with no agent, framework, extension, or infrastructure identity relevant to developer tooling.
+      decision_reason: The product is a model provider and inference service, which is explicitly excluded from the primary categories of frameworks and decision models.
       decision_evidence:
-        - Repo description is missing; the site title is DTMaaS with no description provided.
-        - Listed in awesome-LLM-resources under '体验 Usage' as a general resource, not a developer tool.
-        - No evidence of coding agents, app building, frameworks, or other developer-facing product behavior.
+        - The URL and title identify the service as DTMaaS (Model-as-a-Service).
+        - The ai-frameworks category instructions explicitly exclude model providers and inference APIs.
+        - The decision-models category instructions explicitly exclude providers of chat or reasoning models.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

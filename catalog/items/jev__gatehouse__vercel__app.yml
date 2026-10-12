@@ -36,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "jev-agent-authorization (site) - Jev agent authorization for MCP tool calls: Kinde identity and permissions plus Jev's typed, calibrated decisions, checked server-side before every call runs."
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An authorization gateway that uses the Jev decision model to judge and permit MCP tool calls based on identity and permission context.
+  why_it_matters: It provides a probabilistic guardrail for agents, ensuring that tool calls are vetted against user identity and organizational policy before execution.
+  mental_damage: Because we've reached the stage of AI development where agents need a probabilistic gatekeeper to check their credentials every 200ms.
+  tags:
+    - mcp
+    - agent-security
+    - decision-model
+    - authorization
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The product's identity is a tool-call gate whose core value is the probabilistic judgment of the Jev model, making it a primary decision-model tool.
   evidence:
-    - jev-latest choice confidence 0.71
+    - Explicitly describes itself as 'Jev agent authorization for MCP tool calls'
+    - Uses Jev to return typed probabilities to decide if a call should run or stop
+    - Integrates Kinde for identity and Jev for the judgment layer
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -64,10 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:39:04.815Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for jev__gatehouse__vercel__app: Invalid AI response structure: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-10-12T04:33:51.391Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:ac459d9f3e1c4282a4caa35591495f6c5ad3bd14bc9c1186a5dda8edad58fe28
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's identity is a tool-call gate whose core value is the probabilistic judgment of the Jev model, making it a primary decision-model tool.
+      decision_evidence:
+        - Explicitly describes itself as 'Jev agent authorization for MCP tool calls'
+        - Uses Jev to return typed probabilities to decide if a call should run or stop
+        - Integrates Kinde for identity and Jev for the judgment layer
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product's identity is the probabilistic judgment layer (the gatehouse) rather than the MCP protocol itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

@@ -83,6 +83,22 @@ provenance:
         extracted_url: https://github.com/valentynkit/jev-commit
         surrounding_text: "- [jev-commit](https://github.com/valentynkit/jev-commit) - Pre-commit hook where one Jev call judges whether the commit message matches the staged diff, flags debug leftovers and unmentioned work, and blocks only when it detects a credential."
         confidence: high
+    - id: discovery__github__valentynkit__jev-commit__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-commit
+        extracted_url: https://github.com/valentynkit/jev-commit
+        surrounding_text: "- [jev-commit](https://github.com/valentynkit/jev-commit) - pre-commit hook that uses one Jev call to check the commit message against the staged diff and flag leftovers. [Project guide](community/projects/tools/jev-commit.md)."
+        confidence: high
 metadata:
   github:
     stars: 12
@@ -119,7 +135,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.378Z"
+    updated_at: "2026-10-12T04:24:05.392Z"
     cause: null
     next_retry_at: null
   stars:
@@ -128,7 +144,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.690Z"
+    updated_at: "2026-10-12T04:24:11.923Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

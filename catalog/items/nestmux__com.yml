@@ -36,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: NestMux – Desktop workspace for Windows, macOS and Linux that runs Claude Code, Codex, Gemini, Copilot and OpenCode side by side in a resizable pane grid, each pane with its own account and isolated HOME. Includes git worktrees, an integrated diff viewer, MCP server management and shared team workspaces. Free tier available.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A multi-agent terminal workspace that provides a tiled grid for running multiple AI coding agents simultaneously within isolated git worktrees.
+  why_it_matters: It reduces the cognitive load and context-switching friction caused by juggling multiple AI chat interfaces and terminal sessions across different branches.
+  mental_damage: Because the only logical solution to AI hallucination fatigue is to watch four different models argue in four different panes at once.
+  tags:
+    - multi-agent
+    - terminal
+    - worktrees
+    - mcp
+    - team-collaboration
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in agent-orchestration / Agent Runtimes & Harnesses
+  reason: NestMux acts as a control plane and workspace designed to manage multiple concurrent agent sessions and their respective environments rather than being a single agent itself.
   evidence:
-    - jev-latest choice confidence 0.75
+    - Claims to run up to 16 AI agents side by side in a terminal grid.
+    - Provides native git worktree support to isolate development environments per branch.
+    - Includes team-sync features for sharing MCP configs, snippets, and terminal sessions.
 placement:
   primary_category: agent-orchestration
   secondary_categories: []
@@ -64,10 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:42:02.342Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for nestmux__com: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": NestMux is\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:37:57.205Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:c20f33780a9f2d298bb7e29b80c9805cff47f7bdbe59577aff4d7f773b578eee
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: NestMux acts as a control plane and workspace designed to manage multiple concurrent agent sessions and their respective environments rather than being a single agent itself.
+      decision_evidence:
+        - Claims to run up to 16 AI agents side by side in a terminal grid.
+        - Provides native git worktree support to isolate development environments per branch.
+        - Includes team-sync features for sharing MCP configs, snippets, and terminal sessions.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product's primary identity is a terminal workspace for managing and coordinating multiple existing agents rather than being a single autonomous coder.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

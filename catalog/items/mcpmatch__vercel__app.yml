@@ -36,20 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: mcpmatch (site) - Match user goals to MCP catalog (two-stage) via TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A capability matcher that uses the Jev decision model to map natural language goals to specific MCP server capabilities.
+  why_it_matters: It provides an intelligent routing layer to help developers discover and select the correct tools within the expanding MCP ecosystem.
+  mental_damage: Because selecting the right tool is too much cognitive load, we now need a decision model to tell us which tool we were supposed to use.
+  tags:
+    - mcp
+    - decision-models
+    - routing
+    - discovery
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Cloud Gateways & Providers
+  reason: The product's core identity is the decision-making process of matching goals to tools using a decision model, rather than being the MCP protocol or a registry itself.
   evidence:
-    - jev-latest choice confidence 0.70
+    - Scraped text defines it as an 'MCP capability matcher'
+    - Explicitly states it uses a two-stage router driven by Jev
+    - Core function is matching user goals to specific MCP tool capabilities
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Cloud Gateways & Providers
+  section: Agent Gates, Routers & Skills
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:41:33.496Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for mcpmatch__vercel__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The core i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:37:29.880Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:1885b21bb6b9a1ea355f75c9b48a8380cec437879b6b102a829cb9a2241082a2
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is the decision-making process of matching goals to tools using a decision model, rather than being the MCP protocol or a registry itself.
+      decision_evidence:
+        - Scraped text defines it as an 'MCP capability matcher'
+        - Explicitly states it uses a two-stage router driven by Jev
+        - Core function is matching user goals to specific MCP tool capabilities
+      category_candidates:
+        - decision-models
+        - mcp
+      contrastive_reason: Choose decision-models over mcp because the product's primary value is the routing judgment performed by a decision model rather than providing MCP infrastructure or a simple tool registry.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

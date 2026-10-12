@@ -36,22 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Python package named pydecide whose purpose is unclear due to a missing description and inaccessible homepage.
-  why_it_matters: It is unclear what this package does or how it assists developers, making its relevance uncertain.
-  mental_damage: Another PyPI entry that reads like a placeholder, reminding us that not every package earns its spot in the index.
-  tags: []
-  confidence: high
+  summary: A Python SDK for interacting with decision models.
+  why_it_matters: It enables developers to integrate typed, probabilistic decision-making into Python code, reducing the unpredictability of text-based model outputs.
+  mental_damage: At least now you can get a probability score for your agent's inevitable failures.
+  tags:
+    - python
+    - decision-models
+    - sdk
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks a usable description, homepage, or README, making it impossible to determine its function or developer relevance.
+  status: included
+  reason: As a PyPI package designed to interface with decision models, it fits the specific category definition for decision-model SDKs and integrations.
   evidence:
-    - Repo description is missing.
-    - Homepage is unavailable.
-    - Scraped page shows a loading error with no meaningful content.
+    - PyPI package entry for pydecide
+    - Context from awesome-jev identifying it as a project built on the Jev decision model
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
@@ -67,25 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:44:38.388Z"
+    updated_at: "2026-10-12T04:41:12.773Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:64733fbd477a103d3887c9d8ffdc69642639b525c95439402211b7d41274a690
-      proposed_primary_category: null
+      proposed_primary_category: decision-models
       disagreement: false
-      decision_reason: The project lacks a usable description, homepage, or README, making it impossible to determine its function or developer relevance.
+      decision_reason: As a PyPI package designed to interface with decision models, it fits the specific category definition for decision-model SDKs and integrations.
       decision_evidence:
-        - Repo description is missing.
-        - Homepage is unavailable.
-        - Scraped page shows a loading error with no meaningful content.
-      category_candidates: []
-      contrastive_reason: null
+        - PyPI package entry for pydecide
+        - Context from awesome-jev identifying it as a project built on the Jev decision model
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's core identity is the interface to decision-model judgments rather than a general-purpose application framework.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

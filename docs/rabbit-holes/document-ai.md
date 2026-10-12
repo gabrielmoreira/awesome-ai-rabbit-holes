@@ -3,12 +3,12 @@
 
 Tools that read documents — turning scans, PDFs, screenshots, and office files into text, structure, or extracted fields.
 
-_21 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_20 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [OCR Engines](#ocr-engines) — 3
-- [Document Parsing & Layout](#document-parsing--layout) — 14
+- [Document Parsing & Layout](#document-parsing--layout) — 13
 - [File Conversion & Markdown](#file-conversion--markdown) — 3
 - [Extraction & Structured Output](#extraction--structured-output) — 1
 
@@ -116,7 +116,6 @@ _21 entries in 4 sections, ranked by stars. Each section opens with its top 30; 
   `python` `rust` `mcp` `pdf` `rag`
   </details>
 - **[velyan/pdf-card-mcp](https://github.com/velyan/pdf-card-mcp)** `⭐ 2` `updated ≤180d` Local-first MCP tool that converts PDFs into polished standalone card-based HTML readers.
-- **[jev-information-extraction-fibby-prod-telegram.up.railway.app](https://jev-information-extraction-fibby-prod-telegram.up.railway.app)** jev-information-extraction (site) - Parsing the PDF and extracting the relevant information.
 - **[Unstructured Platform](https://unstructured.io)** Unstructured.io is a platform that extracts and structures text from documents such as PDFs, images, and office files for use in AI pipelines. <details><summary>More about</summary>
 
   It helps developers turn unstructured documents into clean, usable data for LLMs, RAG, and document-aware applications.

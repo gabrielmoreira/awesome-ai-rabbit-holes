@@ -66,9 +66,15 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-08T04:45:21.597Z"
+    updated_at: "2026-10-12T04:42:44.360Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for semanticspace__dev: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"summary\": SemanticSp\"... is not valid JSON"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for semanticspace__dev: ```json
+        {
+          "summary": "An interactive visualization tool that maps semantic embeddings onto human-readable axes using the Jev decision model.",
+          "why_it_matters": "It provides a way to make high-dimensional, anonymous vector spaces interpretable by replacing mathematical dimensions with user-defined conceptual axes.",
+          "mental_damage": "Because understanding a 1,536-dimensional vector space was too much work, we've opted to have a model assign a specific score to exactly how 'dangerous' a shark is.",
+          "tags": [
     next_retry_at: null
-    attempts: 1
+    attempts: 2

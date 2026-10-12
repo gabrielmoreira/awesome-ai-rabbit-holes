@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/0xjba/jev-swap
         surrounding_text: "- [**jev-swap**](https://github.com/0xjba/jev-swap) — Find the LLM calls in your codebase that are really decisions, see what they'd save on TypeSafe Jev, and prove it on live traffic before you swap. TypeScript, JavaScript, Python."
         confidence: high
+    - id: discovery__github__0xjba__jev-swap__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: jev-swap
+        extracted_url: https://github.com/0xjba/jev-swap
+        surrounding_text: "- [jev-swap](https://github.com/0xjba/jev-swap) ([site](https://jev-swap.vercel.app)) - Find the LLM calls in your codebase that are really decisions, see what they'd save on TypeSafe Jev, and prove it on live traffic before you swap. TypeScript, JavaScript, Python."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -85,12 +100,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.407Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-10-08T04:16:16.790Z"
+    updated_at: "2026-10-12T04:24:07.815Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 0xjba/jev-swap

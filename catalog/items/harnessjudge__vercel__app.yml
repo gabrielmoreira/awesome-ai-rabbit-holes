@@ -65,9 +65,29 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-08T04:38:01.260Z"
+    updated_at: "2026-10-12T04:32:59.258Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for harnessjudge__vercel__app: Invalid AI response structure: Excluded responses must use an empty category_candidates list"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for harnessjudge__vercel__app: ```json
+        {
+          "summary": "A web-based tool for judging individual agent steps to determine whether they should proceed, retry, escalate, or stop.",
+          "why_it_matters": "It provides a mechanism to apply structured decision logic to agent traces, preventing autonomous loops from behaving unpredictably.",
+          "mental_damage": "Because nothing says 'autonomous' like needing a human to judge every single step before the loop goes feral.",
+          "tags": ["decision-models", "agent-safety", "jev", "agent-judging"],
+          "should_include": true,
+          "primary_category": "decision-models",
+          "section": "Verification, Guardrails & Safety",
+          "decision_reason": "It belongs in decision-models because its core identity is the specific judgment (ok, retry, escalate, or stop) made on agent behavior.",
+          "decision_evidence": [
+            "Scraped text defines it as an 'Agent step judge'",
+            "Core function is rendering a verdict on agent step traces",
+            "Explicitly associated with the Jev decision-making model in source context"
+          ],
+          "category_candidates": [
+            "decision-models",
+            "evals"
+          ],
+          "contrastive_reason": "
     next_retry_at: null
-    attempts: 1
+    attempts: 2

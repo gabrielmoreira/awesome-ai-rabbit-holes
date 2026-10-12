@@ -3,7 +3,7 @@
 
 Agents that directly act on code: planning, writing, editing, reviewing, testing, and repairing across a terminal, IDE, browser, or operating system.
 
-_284 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_285 entries in 6 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
@@ -12,7 +12,7 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - [Browser & Computer-Use Agents](#browser--computer-use-agents) — 26
 - [Review, Testing & Repair](#review-testing--repair) — 38
 - [Spec-First & Plan-Execute](#spec-first--plan-execute) — 20
-- [Autonomous & Multi-Agent Coding](#autonomous--multi-agent-coding) — 37
+- [Autonomous & Multi-Agent Coding](#autonomous--multi-agent-coding) — 38
 
 ## Terminal & CLI Agents
 
@@ -1047,7 +1047,7 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[JevCode](https://github.com/coasty-ai/jevcode)** `⭐ 2` `updated ≤30d` JevCode - Jev can code. We want to dogfood JevCode.
 - **[lawrencehui/Citio](https://github.com/lawrencehui/citio)** `⭐ 2` `updated ≤90d` Self-hosted AI coding agents that live in Slack — run Claude Code or Codex in your own infra, ship PRs, and keep every credential behind a controlled MCP tool layer.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+7 more in Autonomous & Multi-Agent Coding &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+8 more in Autonomous & Multi-Agent Coding &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[Nexus-Agent](https://github.com/parkain707/nexus-agent)** `⭐ 1` Nexus-Agent – Open-source autonomous AI software engineering agent featuring dual-engine UX (Rich TUI + Cyberpunk Web Visualizer) and self-healing AST code engine.
 - **[BoundedCode](https://github.com/akynte/boundedcode)** `⭐ 0` `updated ≤30d` A coding agent for 8 GB GPUs: generation runs on your machine, decisions are typed through a required Jev decision plane, and nothing is accepted without verification. Go supervisor with a code graph, scoped writes, sandboxed verification, and a human approval gate.
@@ -1056,5 +1056,6 @@ _284 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 - **[Devin](https://devin.ai)** Devin is an AI coding agent and software engineer that helps developers build better software faster through parallel cloud agents for engineering teams.
 - **[Factory](https://factory.com)** Factory.com provides autonomous AI agents that plan, build, test, and deploy code across desktop, terminal, web, and CLI for enterprise software development.
 - **[Magic](https://magic.dev)** An AI research company building frontier code models designed to automate software engineering and research through ultra-long context and reinforcement learning.
+- **[Sweeppea](https://www.sweeppea.com)** An AI software engineer that autonomously resolves GitHub issues by writing, testing, and submitting code.
 
 </details>

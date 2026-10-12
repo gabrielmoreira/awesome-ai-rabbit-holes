@@ -3,13 +3,13 @@
 
 Awesome lists, curated directories, ecosystem maps, newsletters, and publications for discovering tools and staying current with AI development.
 
-_152 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_154 entries in 3 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Awesome Lists & Directories](#awesome-lists--directories) — 141
+- [Awesome Lists & Directories](#awesome-lists--directories) — 142
 - [Ecosystem Maps & Landscapes](#ecosystem-maps--landscapes) — 3
-- [Publications & Feeds](#publications--feeds) — 8
+- [Publications & Feeds](#publications--feeds) — 9
 
 ## Awesome Lists & Directories
 
@@ -247,7 +247,7 @@ _152 entries in 3 sections, ranked by stars. Each section opens with its top 30;
   `federated-learning` `research` `awesome-list` `machine-learning`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+111 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+112 more in Awesome Lists & Directories &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 2k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps.
 - **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.7k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
@@ -351,11 +351,12 @@ _152 entries in 3 sections, ranked by stars. Each section opens with its top 30;
 - **[Learning Hub](https://awesome-copilot.github.com/learning-hub)** GitHub Copilot Learning Hub is a community-curated collection of guides, tutorials, and reference material for using GitHub Copilot.
 - **[llama-police.html](https://huyenchip.com/llama-police.html)** A blog post listing open-source LLM tools and linking to GoodAIList.com for trending repositories and developer searches.
 - **[llms.txt](https://awesome-copilot.github.com/llms.txt)** A community-driven collection of custom agents, instructions, and skills to enhance GitHub Copilot experiences across various domains and workflows.
+- **[llms.txt](https://logicrw.github.io/awesome-jev-projects/llms.txt)** A community-curated catalog of implementations, benchmarks, and tools for TypeSafe Jev and System-1 Agent architectures.
 - **[LM-class](https://lm-class.org)** A structured educational curriculum covering contemporary language modeling from basic neural networks to LLM post-training.
 - **[MCP Market](https://mcpmarket.com)** MCP Market is a directory and discovery platform for MCP servers and agent skills that connect AI agents to tools and services.
 - **[Prismix](https://prismix.dev)** Prismix.dev is a curated hub offering real-time status, AI news, MCP server directory, and troubleshooting guides for AI services and tools.
 - **[pulsemcp.com](https://pulsemcp.com)** PulseMCP.com is a curated directory of MCP servers and tools focused on the Model Context Protocol ecosystem.
-- **[Search and filter](https://logicrw.github.io/awesome-jev-projects/en)** > Search and filter ↗ · 798 curated projects.
+- **[Search and filter](https://logicrw.github.io/awesome-jev-projects/en)** A curated directory of projects and resources related to Jev and System-1 decision architecture.
 - **[sharemcp.cn](https://sharemcp.cn)** A Chinese-language directory of LLM resources covering topics such as agents, MCP, and AI-assisted programming.
 - **[SkillHub](https://skillhub.cn)** SkillHub.cn is a Chinese-optimized directory curating top AI skills for developers and AI practitioners.
 - **[Willi MaKo Knowledge Service](https://mcp.stromhaltig.de)** mcp.stromhaltig.de is a curated list of Model Context Protocol (MCP) servers.
@@ -427,4 +428,12 @@ _152 entries in 3 sections, ranked by stars. Each section opens with its top 30;
   _Yet another curated list of AI links to feel guilty about not reading while pretending you're staying ahead of the curve._
 
   `llm` `resources` `blog` `curated-list` `ai-news`
+  </details>
+- **[UCC-lyoTfSrcJzA1ab3APAgw](https://youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw)** A YouTube channel providing tutorials and technical content related to the LangChain framework. <details><summary>More about</summary>
+
+  Provides visual, step-by-step walkthroughs and updates for developers navigating the LangChain ecosystem.
+
+  _Offers a high-quality way to procrastinate on your actual implementation via infinite tutorial loops._
+
+  `youtube` `langchain` `tutorials` `ai-dev`
   </details>

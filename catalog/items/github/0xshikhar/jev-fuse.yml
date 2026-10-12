@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/0xshikhar/jev-fuse
         surrounding_text: "- [**jev-fuse**](https://github.com/0xshikhar/jev-fuse) — A governed execution layer between typed-decision models (TypeSafe Jev) and agent/AI tooling like Claude Code, MCP, and AI SDKs, turning probabilistic decisions into deterministic, policy-controlled, and auditable actions."
         confidence: high
+    - id: discovery__github__0xshikhar__jev-fuse__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-fuse
+        extracted_url: https://github.com/0xshikhar/jev-fuse
+        surrounding_text: "- [jev-fuse](https://github.com/0xshikhar/jev-fuse) - A governed execution layer between typed-decision models (TypeSafe Jev) and agent/AI tooling like Claude Code, MCP, and AI SDKs, turning probabilistic decisions into deterministic, policy-controlled, and auditable actions."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -80,12 +95,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.407Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-10-08T04:16:17.364Z"
+    updated_at: "2026-10-12T04:24:08.560Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 0xshikhar/jev-fuse

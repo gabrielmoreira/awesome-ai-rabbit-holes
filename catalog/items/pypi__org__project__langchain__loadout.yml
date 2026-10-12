@@ -67,9 +67,11 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-10-08T04:44:34.461Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-10-12T04:40:30.257Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for pypi__org__project__langchain__loadout: Invalid AI response structure: Missing required field: summary"
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
@@ -88,7 +90,7 @@ processing:
       review_resume_lifecycle:
         status: curated
         reason: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

@@ -36,20 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-xianhui (site) - 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A messaging assistant for WeChat that uses the Jev decision model to triage incoming messages by urgency and importance.
+  why_it_matters: It serves as a practical demonstration of how specialized, low-cost decision models can handle high-volume triage tasks more efficiently than generative LLMs.
+  mental_damage: Your ability to avoid social obligations is now powered by a dedicated inference engine.
+  tags:
+    - decision-models
+    - productivity
+    - wechat
+    - triage
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The project is a consumer-facing social messaging utility for WeChat and does not provide a tool or workflow relevant to software development.
   evidence:
-    - jev-latest choice confidence 0.72
+    - The tool's primary function is triaging WeChat messages for Android and Windows users.
+    - The product solves a personal productivity/social problem rather than a developer-centric one.
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -66,10 +71,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:49:17.382Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for xianhui__xzaigf__dpdns__org: Invalid AI response structure: Excluded responses must use an empty category_candidates list"
+    status: done
+    updated_at: "2026-10-12T04:43:22.484Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cdbb3d7329aac2878257518073885a3f5eaae520a460b32b6ec9fddeafd2393a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a consumer-facing social messaging utility for WeChat and does not provide a tool or workflow relevant to software development.
+      decision_evidence:
+        - The tool's primary function is triaging WeChat messages for Android and Windows users.
+        - The product solves a personal productivity/social problem rather than a developer-centric one.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

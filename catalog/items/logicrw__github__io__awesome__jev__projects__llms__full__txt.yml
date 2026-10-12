@@ -36,17 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A machine-readable text file containing the full catalog of the Awesome Jev project for LLM context ingestion.
+  why_it_matters: It allows developers to programmatically feed a curated list of decision-model-related tools directly into their agentic workflows.
+  mental_damage: We have officially entered the recursive era where we feed LLMs text files designed to help LLMs find tools to help LLMs.
+  tags:
+    - llms-txt
+    - decision-models
+    - resource
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The item is a machine-readable auxiliary resource file rather than a standalone tool, framework, or agent.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.26 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The URL points to a .txt file intended for LLM context rather than an executable tool or library.
+    - The content is a data dump of the larger 'Awesome Jev' curated catalog.
 placement:
   primary_category: null
   secondary_categories: []
@@ -65,10 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:41:18.305Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for logicrw__github__io__awesome__jev__projects__llms__full__txt: Invalid AI response structure: Missing required field: why_it_matters"
+    status: done
+    updated_at: "2026-10-12T04:36:08.578Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:fcc60c57b505077a2bb8d0308b8d1775ce9ff245d7e194901feeebdedcdbe196
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The item is a machine-readable auxiliary resource file rather than a standalone tool, framework, or agent.
+      decision_evidence:
+        - The URL points to a .txt file intended for LLM context rather than an executable tool or library.
+        - The content is a data dump of the larger 'Awesome Jev' curated catalog.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

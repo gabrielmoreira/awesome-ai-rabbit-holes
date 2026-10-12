@@ -36,18 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: haplab.com is a personal website for a Seattle-based developer tools studio with no clear product or tooling described.
-  why_it_matters: It does not describe any developer tool, workflow, or AI-enhanced software that would be useful for software developers.
-  mental_damage: Another portfolio site masquerading as a tool, adding to the endless scroll of 'look what I made' with zero utility.
-  tags: []
+  summary: A landing page for a developer tools studio based in Seattle.
+  why_it_matters: The site currently functions as a brand presence rather than a functional AI tool or resource.
+  mental_damage: A minimalist landing page is the ultimate 'coming soon' trap for developers looking for actual utility.
+  tags:
+    - studio
+    - developer-tools
   confidence: high
 curation:
   status: excluded
-  reason: The site provides no description of a product, tool, agent, or workflow; it is only a branding placeholder with no functional developer-facing utility.
+  reason: The input describes a brand or studio rather than a specific, identifiable AI tool, agent, or resource.
   evidence:
-    - Repo description is absent
-    - Scraped site content shows only a title, copyright, and contact link with no tool description
-    - Source-list context notes it is a directory entry for 'Software to make you happy. Developer tools handmade in Seattle' but links to no actual tool
+    - Scraped site context identifies the entity as 'Software to make you happy. Developer tools handmade in Seattle.'
+    - No specific product, repository, or functional capability is identified in the description or README.
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,25 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:37:56.766Z"
+    updated_at: "2026-10-12T04:32:22.766Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:1561023f1effa965e800d10908f51e6c684bc496c8df4b658ca340a8418da8a4
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The site provides no description of a product, tool, agent, or workflow; it is only a branding placeholder with no functional developer-facing utility.
+      decision_reason: The input describes a brand or studio rather than a specific, identifiable AI tool, agent, or resource.
       decision_evidence:
-        - Repo description is absent
-        - Scraped site content shows only a title, copyright, and contact link with no tool description
-        - Source-list context notes it is a directory entry for 'Software to make you happy. Developer tools handmade in Seattle' but links to no actual tool
+        - Scraped site context identifies the entity as 'Software to make you happy. Developer tools handmade in Seattle.'
+        - No specific product, repository, or functional capability is identified in the description or README.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

@@ -82,9 +82,14 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-10-08T04:37:04.234Z"
+    updated_at: "2026-10-12T04:31:41.094Z"
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for docs__typesafe__ai__cookbooks__skill__suggestion: AI marked docs__typesafe__ai__cookbooks__skill__suggestion as included but did not provide a valid category"
+      message: |-
+        Catalog LLM categorization failed for docs__typesafe__ai__cookbooks__skill__suggestion: ```json
+        {
+          "summary": "A technical cookbook demonstrating a two-step pattern for using decision models to rank and verify agent skills.",
+          "why_it_matters": "It provides a concrete architectural solution for managing large skill rosters without causing context rot or excessive token costs.",
+          "mental_damage": "Because apparently, managing context windows now requires a multi-stage probabilistic verification
     next_retry_at: null
-    attempts: 2
+    attempts: 3

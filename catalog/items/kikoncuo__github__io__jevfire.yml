@@ -36,20 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jevfire (site) - JEV-inspired parallel decisions for CUDA LLMs. One context, many decisions. vLLM API, game-agent examples, and reproducible benchmarks.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A playable simulation demonstrating decision-model-driven NPC behavior via local WebGPU inference.
+  why_it_matters: It provides a practical look at how constrained, typed decision models can drive agentic behavior more reliably than unpredictable text generation.
+  mental_damage: One poorly tuned prompt and your entire village goes extinct in the name of local inference.
+  tags:
+    - decision-models
+    - webgpu
+    - local-inference
+    - simulation
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Evals, Benchmarks & Calibration
+  reason: It is a simulation-based experiment specifically built to showcase decision-model agency through constrained scoring.
   evidence:
-    - jev-latest choice confidence 0.61
+    - Uses Qwen 3.5 0.8B via WebGPU for local inference
+    - Focuses on scored/constrained decisions rather than raw text generation
+    - Identified as a JEV-based experiment in the awesome-jev directory
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Evals, Benchmarks & Calibration
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:40:43.791Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for kikoncuo__github__io__jevfire: Invalid AI response format: SyntaxError: Unexpected token 'J', ...\"_reason\": JEVfire's \"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:35:01.817Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:60e36415054679ec7d1c3b9f0a61d0ac3bf1a970383844ef8fa358371b24b57c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a simulation-based experiment specifically built to showcase decision-model agency through constrained scoring.
+      decision_evidence:
+        - Uses Qwen 3.5 0.8B via WebGPU for local inference
+        - Focuses on scored/constrained decisions rather than raw text generation
+        - Identified as a JEV-based experiment in the awesome-jev directory
+      category_candidates:
+        - decision-models
+        - local-ai
+      contrastive_reason: Choose decision-models over local-ai because the product's core identity is the decision-making paradigm it demonstrates, rather than the local runtime itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

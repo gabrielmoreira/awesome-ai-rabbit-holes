@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/sheltercosmo/jev4pg
         surrounding_text: "- [jev4pg](https://github.com/Sheltercosmo/jev4pg) - PostgreSQL: evaluates row-level predicates with Jev Noul questions, retains the returned probabilities for explicit decision thresholds, and leaves joins and aggregation to SQL."
         confidence: high
+    - id: discovery__github__sheltercosmo__jev4pg__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Data & Search
+        anchor_text: "**jev4pg**"
+        extracted_url: https://github.com/sheltercosmo/jev4pg
+        surrounding_text: "- [**jev4pg**](https://github.com/Sheltercosmo/jev4pg) — Semantic querying and gate decisions in PostgreSQL powered by Jev Noul predicates."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -117,7 +132,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-08T04:16:14.230Z"
+    updated_at: "2026-10-12T04:24:05.392Z"
     cause: null
     next_retry_at: null
   stars:
@@ -126,7 +141,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.689Z"
+    updated_at: "2026-10-12T04:24:11.922Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

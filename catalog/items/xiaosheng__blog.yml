@@ -36,17 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated collection of LLM and AI development resources and tutorials.
-  why_it_matters: It intended to provide a centralized starting point for discovering tools and tutorials across the AI ecosystem.
-  mental_damage: The most efficient way to avoid AI fatigue is a resource that is permanently unavailable.
-  tags: []
+  summary: A blog intended for curating LLM resources and tutorials.
+  why_it_matters: It was intended to serve as a navigation aid for the LLM ecosystem, but the site is currently inaccessible.
+  mental_damage: Chasing the ghost of a lost LLM tutorial through a 404 error is the purest form of modern developer grief.
+  tags:
+    - blog
+    - curation
+    - llm-resources
   confidence: high
 curation:
   status: excluded
-  reason: The resource is currently inaccessible as the URL returns a 404 Not Found error.
+  reason: The URL returns a 404 Not Found error, making the resource unusable.
   evidence:
-    - "Scraped site context: 404 Not Found"
-    - No active repository or content found to verify substance
+    - Scraped site context returns '404 Not Found'
+    - No functional repository or description provided
 placement:
   primary_category: null
   section: null
@@ -65,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:33:27.967Z"
+    updated_at: "2026-10-12T04:28:52.981Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +81,10 @@ processing:
       input_hash: sha256:e59070e0c62018baa9704624f5fc6d1f8723d0af0996c05cd0220f0225706c1f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The resource is currently inaccessible as the URL returns a 404 Not Found error.
+      decision_reason: The URL returns a 404 Not Found error, making the resource unusable.
       decision_evidence:
-        - "Scraped site context: 404 Not Found"
-        - No active repository or content found to verify substance
+        - Scraped site context returns '404 Not Found'
+        - No functional repository or description provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -36,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: toolgate (site) - Agent tool/MCP call gate — allow / ask_human / deny via TypeSafe Jev.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A tool-call gate that uses the Jev decision model to allow, deny, or request human intervention for agent and MCP method calls.
+  why_it_matters: It provides a safety and governance layer for autonomous agents by applying risk-calibrated judgment to sensitive tool executions.
+  mental_damage: Now you can sleep better knowing a decision model is standing between your agent and your production database.
+  tags:
+    - decision-models
+    - agent-safety
+    - mcp
+    - guardrails
+    - jev
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The product's primary identity is the judgment it makes (allow/deny/ask) via a decision model, rather than being an agent or a protocol.
   evidence:
-    - jev-latest choice confidence 0.71
+    - The site explicitly describes itself as a 'Jev-powered allow / ask_human / deny' gate
+    - Its core function is performing risk-calibrated decisions on tool and MCP calls
+    - The decision-models category explicitly includes tool-call gates whose identity is the judgment
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -64,10 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:46:19.061Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for toolgate__vercel__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": ToolGate's\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:42:34.483Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:08cdd2752005f119b7eb5b3f067a9dd8ef1eb11c8fc8fb3843f8667e8c076302
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's primary identity is the judgment it makes (allow/deny/ask) via a decision model, rather than being an agent or a protocol.
+      decision_evidence:
+        - The site explicitly describes itself as a 'Jev-powered allow / ask_human / deny' gate
+        - Its core function is performing risk-calibrated decisions on tool and MCP calls
+        - The decision-models category explicitly includes tool-call gates whose identity is the judgment
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the core novelty is the risk-calibrated judgment itself rather than the integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

@@ -36,17 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Information unavailable due to missing repository metadata and an empty site context.
-  why_it_matters: N/A
-  mental_damage: N/A
+  summary: A project listed in AI agent directories that currently resolves to an empty web directory index.
+  why_it_matters: Insufficient information is available to determine its utility or workflow.
+  mental_damage: The existential dread of an AI agent whose entire digital footprint is a directory listing.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The tool's identity and functionality cannot be determined as the provided URL returns a directory index and no repository metadata was provided.
+  reason: The project lacks a repo description, README, or any substantive website content to verify its identity or functionality.
   evidence:
-    - Scraped site context shows only an 'Index of /' directory listing
-    - No repo description, README, or stars provided in the input
+    - Scraped site context shows only a file directory index ('Index of /')
+    - No repo description or README provided
 placement:
   primary_category: null
   section: null
@@ -65,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:26:09.774Z"
+    updated_at: "2026-10-12T04:26:33.364Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +78,10 @@ processing:
       input_hash: sha256:1eb60ae16238a9ee03dd6c7dc243cd06cbf839ac7f7604e1b7a79c1c08a4df4b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The tool's identity and functionality cannot be determined as the provided URL returns a directory index and no repository metadata was provided.
+      decision_reason: The project lacks a repo description, README, or any substantive website content to verify its identity or functionality.
       decision_evidence:
-        - Scraped site context shows only an 'Index of /' directory listing
-        - No repo description, README, or stars provided in the input
+        - Scraped site context shows only a file directory index ('Index of /')
+        - No repo description or README provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

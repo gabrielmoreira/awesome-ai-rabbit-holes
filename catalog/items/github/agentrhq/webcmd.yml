@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/agentrhq/webcmd
         surrounding_text: "- **[Webcmd](https://github.com/agentrhq/webcmd)** – Self-learning browser infrastructure CLI for coding agents; learns a site once, then reuses it as deterministic per-site commands."
         confidence: high
+    - id: discovery__github__agentrhq__webcmd__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: webcmd
+        extracted_url: https://github.com/agentrhq/webcmd
+        surrounding_text: "| [webcmd](https://github.com/agentrhq/webcmd) | Self-learning browser infrastructure for AI coding agents that compiles site navigation into deterministic per-site CLI commands. | ![GitHub Badge](https://img.shields.io/github/stars/agentrhq/webcmd.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 2634
@@ -82,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-24T04:12:55.276Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,7 +107,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.681Z"
+    updated_at: "2026-10-12T04:24:11.916Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

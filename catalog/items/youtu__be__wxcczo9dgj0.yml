@@ -36,18 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link lacking any descriptive metadata or context.
-  why_it_matters: The link provides no information to determine its utility or relevance to a developer workflow.
-  mental_damage: The specific brand of exhaustion that comes from chasing a 'game-changing AI tool' link only to land on a generic YouTube home page.
+  summary: A YouTube video with no accompanying metadata or description.
+  why_it_matters: ""
+  mental_damage: ""
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input contains no information describing a developer tool, agent, or resource, only a generic YouTube URL.
+  reason: The input provides only a YouTube URL with generic site context and no descriptive text, making it impossible to evaluate against the catalog scope.
   evidence:
-    - URL leads to YouTube
-    - No repo description or README provided
-    - Scraped context is generic YouTube boilerplate
+    - Scraped site context is generic YouTube boilerplate
+    - Repo description and README are missing
 placement:
   primary_category: null
   section: null
@@ -66,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:33:10.412Z"
+    updated_at: "2026-10-12T04:28:30.352Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +78,10 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input contains no information describing a developer tool, agent, or resource, only a generic YouTube URL.
+      decision_reason: The input provides only a YouTube URL with generic site context and no descriptive text, making it impossible to evaluate against the catalog scope.
       decision_evidence:
-        - URL leads to YouTube
-        - No repo description or README provided
-        - Scraped context is generic YouTube boilerplate
+        - Scraped site context is generic YouTube boilerplate
+        - Repo description and README are missing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

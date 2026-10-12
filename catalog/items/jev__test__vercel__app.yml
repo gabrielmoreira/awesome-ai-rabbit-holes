@@ -36,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "Job Risk Analyzer (site) - Job Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to AI-driven layoffs and its resilience."
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An application that uses the TypeSafe Jev decision model to forecast occupation resilience and AI labor displacement risk.
+  why_it_matters: It provides a concrete implementation of how non-generative decision models can perform structured, high-stakes reasoning.
+  mental_damage: It provides a highly structured, probabilistic way to confirm whether your career is about to bend, break, or lead.
+  tags:
+    - jev
+    - decision-models
+    - labor-intelligence
+    - typefast-ai
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The tool's identity is an application whose primary purpose is delivering typed judgments via the Jev decision model.
   evidence:
-    - jev-latest choice confidence 0.83
+    - Uses TypeSafe Jev to evaluate three typed judgments to compute a resilience score.
+    - Provides occupation-based forecasts for displacement pressure and human accountability.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -64,10 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:39:49.290Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for jev__test__vercel__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The core i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:34:49.014Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2c246353b4ca9815887580333ae17f4eecb2b7f6a720a3804542ed78c82c8e44
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The tool's identity is an application whose primary purpose is delivering typed judgments via the Jev decision model.
+      decision_evidence:
+        - Uses TypeSafe Jev to evaluate three typed judgments to compute a resilience score.
+        - Provides occupation-based forecasts for displacement pressure and human accountability.
+      category_candidates:
+        - decision-models
+        - app-builders
+      contrastive_reason: Choose decision-models over app-builders because the tool delivers specific analytical judgments rather than generating new deployable applications from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

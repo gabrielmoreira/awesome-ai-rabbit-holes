@@ -101,6 +101,22 @@ provenance:
         extracted_url: https://youtube.com/watch
         surrounding_text: "- [谷歌AI的14年、Gemini翻身之战，与视觉理解模型：专访DeepMind前核心科学家Andrew Dai｜Neolabs特辑](https://www.youtube.com/watch?v=cqW_VWYbIcU)"
         confidence: high
+    - id: discovery__youtube__com__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Related Practices / Discussions
+        anchor_text: Why I couldn't build Jev at OpenAI
+        extracted_url: https://youtube.com/watch
+        surrounding_text: "- [Why I couldn't build Jev at OpenAI](https://www.youtube.com/watch?v=cFx9Z3ZXca0) - Video: Diogo Almeida's talk on why this had to be a separate company, the closest thing to a design rationale for System One models."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -165,7 +181,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-20T15:10:47.685Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:

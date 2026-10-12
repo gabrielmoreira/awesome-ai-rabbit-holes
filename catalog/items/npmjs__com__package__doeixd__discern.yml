@@ -36,16 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "discern (site) - Uncertainty-aware control flow for Effect: Jev's Choice, Noul and Score answers become typed patterns with an explicit Uncertain branch, plus routable procedures, recording, replay, caching and call budgets."
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An NPM package designed for integration with the Jev decision model ecosystem.
+  why_it_matters: It allows developers to integrate typed, probabilistic decision-making into their applications rather than relying on unstructured text generation.
+  mental_damage: Because choosing between a 'Yes' and a 'No' is much harder when the model insists on writing a three-paragraph essay about its feelings.
+  tags:
+    - npm
+    - sdk
+    - decision-models
+    - jev
+  confidence: medium
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Framework & SDK Integrations
+  reason: It is a code-first SDK/integration specifically built to facilitate the use of the Jev decision model.
   evidence:
-    - jev-latest choice confidence 0.73
+    - Listed in the awesome-jev directory as an integration for the Jev model
+    - Published as an NPM package, indicating an SDK/library identity
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -64,10 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:42:22.882Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for npmjs__com__package__doeixd__discern: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The packag\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:38:18.074Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:12a616e370d8b46286aef0272606cd46f9ec104d0fc92eaad455cfdc10b9b942
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a code-first SDK/integration specifically built to facilitate the use of the Jev decision model.
+      decision_evidence:
+        - Listed in the awesome-jev directory as an integration for the Jev model
+        - Published as an NPM package, indicating an SDK/library identity
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because its identity is tied to the specific purpose of calling decision-model judgments rather than serving as a general-purpose AI application framework.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

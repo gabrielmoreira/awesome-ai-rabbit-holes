@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/agent-labs-dev/fastbrowse
         surrounding_text: "- [fastbrowse](https://github.com/agent-labs-dev/fastbrowse) ![stars](https://img.shields.io/github/stars/agent-labs-dev/fastbrowse?style=flat-square&label=%E2%98%85) - Browser agents: Jev picks each action from what is on the page while an LLM reads and plans."
         confidence: high
+    - id: discovery__github__agent-labs-dev__fastbrowse__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & OS Action
+        anchor_text: "**fastbrowse**"
+        extracted_url: https://github.com/agent-labs-dev/fastbrowse
+        surrounding_text: "- [**fastbrowse**](https://github.com/agent-labs-dev/fastbrowse) — A fast browser agent: Jev picks each action from DOM elements on the page, an LLM plans, and claims cite verifiable page quotes."
+        confidence: high
 metadata:
   github:
     stars: 113
@@ -81,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.408Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,7 +106,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.681Z"
+    updated_at: "2026-10-12T04:24:11.915Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

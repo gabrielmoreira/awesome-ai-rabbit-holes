@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/chaitin/decis
         surrounding_text: "- **Frameworks & integrations (5):** [LangWatch](https://github.com/langwatch/langwatch), [vLLM Jev](https://github.com/mode-io/vllm-jev), [Decis](https://github.com/chaitin/Decis), [Tiltmeter](https://github.com/abe75ch/tiltmeter), [Yueli DEX](https://github.com/haxitag/Yueli-Dex)"
         confidence: high
+    - id: discovery__github__chaitin__decis__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: Decis
+        extracted_url: https://github.com/chaitin/decis
+        surrounding_text: "- [Decis](https://github.com/chaitin/Decis) - Self-hosted, Jev-compatible decision-model API — one /v1/systemone endpoint, open weights (Laya, kev), one Docker image per engine."
+        confidence: high
 metadata:
   github:
     stars: 9
@@ -88,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.411Z"
+    updated_at: "2026-10-12T04:24:05.394Z"
     cause: null
     next_retry_at: null
   stars:
@@ -98,7 +113,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.683Z"
+    updated_at: "2026-10-12T04:24:11.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

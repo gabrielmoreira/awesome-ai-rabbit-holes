@@ -36,18 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video with unknown content.
-  why_it_matters: No developer relevance can be inferred from the provided metadata.
-  mental_damage: Wasting time guessing whether a random YouTube link is a dev tool is the modern equivalent of interpreting cloud shapes for stock tips.
-  tags: []
+  summary: A YouTube video related to the Jev decision model ecosystem.
+  why_it_matters: Provides visual context for the Jev ecosystem, though it is not a functional tool.
+  mental_damage: The productive illusion of learning via video without ever actually opening a terminal.
+  tags:
+    - jev
+    - video
   confidence: high
 curation:
   status: excluded
-  reason: The input is a YouTube video with no description, README, or technical details indicating it is a developer-focused AI tool.
+  reason: The input is a YouTube video rather than a standalone software tool, repository, or developer product.
   evidence:
-    - URL points to a YouTube video (youtu.be/Zz1Ibx8R7WI)
-    - No repo description, README, or scraped site context provided
-    - No source-list context indicates developer tooling relevance
+    - URL is a YouTube link
+    - No repository description, README, or code provided
 placement:
   primary_category: null
   secondary_categories:
@@ -68,25 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:50:50.125Z"
+    updated_at: "2026-10-12T04:43:37.644Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:2446c672c6713016b2f121b59458df4cc7898a8978ac36b40786394a4acdced7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a YouTube video with no description, README, or technical details indicating it is a developer-focused AI tool.
+      decision_reason: The input is a YouTube video rather than a standalone software tool, repository, or developer product.
       decision_evidence:
-        - URL points to a YouTube video (youtu.be/Zz1Ibx8R7WI)
-        - No repo description, README, or scraped site context provided
-        - No source-list context indicates developer tooling relevance
+        - URL is a YouTube link
+        - No repository description, README, or code provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

@@ -36,22 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: anyjev is a Python package distributed via PyPI with no discernible description, README, or functional details available.
-  why_it_matters: It does not meaningfully matter to developers due to the absence of any usable functionality or documentation.
-  mental_damage: Another mysterious PyPI package that raises more questions than it answers, adding to the background noise of abandoned or undocumented tools.
-  tags: []
-  confidence: high
+  summary: anyjev is a PyPI package associated with Jev, TypeSafe AI's System One decision model, serving as a client or integration for typed probabilistic judgment.
+  why_it_matters: It allows developers to integrate decision-model judgments—such as Choice, Score, or Noul—into their workflows for routing, triage, or guardrails based on typed questions.
+  mental_damage: Another layer of AI abstraction promising clarity while adding yet another dependency to track in a stack already held together by vibes.
+  tags:
+    - decision-model
+    - jev
+    - typesafe
+    - typed-judgment
+    - pypi
+  confidence: medium
 curation:
-  status: excluded
-  reason: Excluded because the package lacks any describable functionality, documentation, or clear purpose, making it impossible to assess as a developer tool.
+  status: included
+  reason: anyjev is a client for the Jev decision model, whose primary function is returning probabilistic answers to typed questions, making it a decision-model integration rather than a coding agent or general-purpose tool.
   evidence:
-    - Repo description is missing.
-    - README excerpt is unavailable.
-    - Scraped site context shows a broken page with no usable content.
+    - Listed in awesome-jev under 'Directory of projects built on Jev, TypeSafe AI's System One model'
+    - The scraped site context shows a 'Client Challenge' page, indicating anyjev is a client interface for Jev
+    - Jev (TypeSafe System One) is a canonical positive in the decision-models category for models that answer typed questions with probabilities
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
@@ -67,25 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:44:06.536Z"
+    updated_at: "2026-10-12T04:39:46.970Z"
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:5110e403fe3887f63ab9b8fb297d9b4da75d32820a14becb005628d8bab4ee68
-      proposed_primary_category: null
+      proposed_primary_category: decision-models
       disagreement: false
-      decision_reason: Excluded because the package lacks any describable functionality, documentation, or clear purpose, making it impossible to assess as a developer tool.
+      decision_reason: anyjev is a client for the Jev decision model, whose primary function is returning probabilistic answers to typed questions, making it a decision-model integration rather than a coding agent or general-purpose tool.
       decision_evidence:
-        - Repo description is missing.
-        - README excerpt is unavailable.
-        - Scraped site context shows a broken page with no usable content.
-      category_candidates: []
-      contrastive_reason: null
+        - Listed in awesome-jev under 'Directory of projects built on Jev, TypeSafe AI's System One model'
+        - The scraped site context shows a 'Client Challenge' page, indicating anyjev is a client interface for Jev
+        - Jev (TypeSafe System One) is a canonical positive in the decision-models category for models that answer typed questions with probabilities
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because anyjev is a client SDK for invoking a decision model with typed questions, not a general-purpose library developers build applications upon.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

@@ -3,14 +3,14 @@
 
 Frameworks, platforms, and tooling for measuring, tracing, comparing, and improving model, prompt, and agent behavior.
 
-_162 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_161 entries in 4 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [Agent & LLM Benchmarks](#agent--llm-benchmarks) — 85
 - [Observability & Tracing](#observability--tracing) — 51
 - [Prompt Regression & Testing](#prompt-regression--testing) — 16
-- [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 10
+- [Safety, Fairness & Red-teaming](#safety-fairness--red-teaming) — 9
 
 ## Agent & LLM Benchmarks
 
@@ -670,4 +670,3 @@ _162 entries in 4 sections, ranked by stars. Each section opens with its top 30;
   `mcp` `hallucination-guardrails` `grounding` `nli` `agent-tools`
   </details>
 - **[Responsible AI Harness](https://github.com/syabdulr/responsible-ai-harness)** `⭐ 1` Responsible AI Harness - Model-agnostic safety assessment harness: hard rules plus optional TypeSafe Jev judge for injection, leakage, unsafe tools, and policy bypass; checksummed evidence + report UI. Project guide.
-- **[Crowdcheck](https://crowdcheck-ai.vercel.app)** Crowdcheck - Test a post against 10,000 synthetic personas before you publish it.

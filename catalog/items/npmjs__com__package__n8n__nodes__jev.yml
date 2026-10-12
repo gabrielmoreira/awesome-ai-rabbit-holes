@@ -36,20 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: n8n-nodes-jev (site) - Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions you define, and get a probability for every answer so unsure items can go to review.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An n8n node integration for interacting with the Jev decision model.
+  why_it_matters: It enables developers to embed probabilistic reasoning and structured, typed-decision capabilities directly into automated n8n workflows.
+  mental_damage: Because apparently, simple if-else logic is no longer sufficient for your low-code automations.
+  tags:
+    - n8n
+    - jev
+    - decision-model
+    - integration
+    - workflow
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Agent Gates, Routers & Skills
+  reason: The package is a framework integration designed specifically to call a decision model within an automation environment.
   evidence:
-    - jev-latest choice confidence 0.77
+    - NPM package name indicates it is an n8n node
+    - Source-list context identifies it as an integration for the Jev decision model
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Agent Gates, Routers & Skills
+  section: Framework & SDK Integrations
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:43:15.049Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for npmjs__com__package__n8n__nodes__jev: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The packag\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:38:59.224Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:8f7b82fb6e1d8e469944fada8f5c97d42c87af81560143c239ba62e95e6520c3
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The package is a framework integration designed specifically to call a decision model within an automation environment.
+      decision_evidence:
+        - NPM package name indicates it is an n8n node
+        - Source-list context identifies it as an integration for the Jev decision model
+      category_candidates:
+        - decision-models
+        - extensions-and-addons
+      contrastive_reason: Choose decision-models over extensions-and-addons because the package's core identity is providing access to a decision model, which is explicitly covered under the decision-models category for framework integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

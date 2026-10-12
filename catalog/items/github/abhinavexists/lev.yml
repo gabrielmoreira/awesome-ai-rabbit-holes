@@ -22,6 +22,37 @@ provenance:
         extracted_url: https://github.com/abhinavexists/lev
         surrounding_text: "- [lev (Abhinavexists)](https://github.com/Abhinavexists/lev) - Open Qwen3.5-4B LoRA System One decisions (Choice/Noul/Score) over `/v1/systemone`; independent of hosted Jev. [Project guide](community/projects/tools/lev.md)."
         confidence: high
+    - id: discovery__github__abhinavexists__lev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: lev
+        extracted_url: https://github.com/abhinavexists/lev
+        surrounding_text: "- [lev](https://github.com/Abhinavexists/lev) ([site](https://huggingface.co/interfaze-ai/lev)) - An open System One decision model."
+        confidence: high
+    - id: discovery__github__abhinavexists__lev__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: Lev
+        extracted_url: https://huggingface.co/interfaze-ai/lev
+        surrounding_text: "- [Lev](https://huggingface.co/interfaze-ai/lev) - Open alternative: a 4B LoRA on a Qwen backbone published as a System One decision model and tagged for calibrated decisions, classification, routing and moderation."
+        confidence: high
 metadata:
   github:
     stars: 43
@@ -68,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.446Z"
+    updated_at: "2026-10-12T04:24:05.393Z"
     cause: null
     next_retry_at: null
   stars:

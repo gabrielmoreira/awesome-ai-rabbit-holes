@@ -68,6 +68,22 @@ provenance:
         extracted_url: https://github.com/ollaya-dev/ollaya
         surrounding_text: "- [Ollaya](https://github.com/ollaya-dev/ollaya) - Rust daemon and CLI that pulls open decision models (Laya, decider, NLI, GLiClass) by name and serves them locally behind TypeSafe-compatible `/v1/systemone`, `/v1/decisions`, and `/v1/models` endpoints, so existing Jev clients switch with `TYPESAFE_BASE_URL`; the `laya` router picks an English or multilingual checkpoint per request, and answers come from these open models, not from Jev."
         confidence: high
+    - id: discovery__github__ollaya-dev__ollaya__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Ollaya
+        extracted_url: https://github.com/ollaya-dev/ollaya
+        surrounding_text: "- [Ollaya](https://github.com/ollaya-dev/ollaya) - 'Ollama for decision models': one Rust binary that pulls open decision models by name (Laya, winnow, decider, NLI, GLiClass), serves them from a local daemon and speaks TypeSafe's `/v1/systemone`, `/v1/decisions` and `/v1/models` wire format, so existing Jev clients and the official SDK work by pointing `TYPESAFE_BASE_URL` at localhost. [Project guide](community/projects/tools/ollaya.md)."
+        confidence: high
 metadata:
   github:
     stars: 1123
@@ -104,7 +120,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.386Z"
+    updated_at: "2026-10-12T04:24:05.392Z"
     cause: null
     next_retry_at: null
   stars:
@@ -113,7 +129,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.688Z"
+    updated_at: "2026-10-12T04:24:11.921Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

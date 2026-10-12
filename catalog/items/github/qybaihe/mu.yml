@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/qybaihe/mu
         surrounding_text: "- [mu](https://github.com/qybaihe/mu) - Pi-based coding agent and desktop app where Jev answers `Noul`, `Choice` and `Score` questions at 38 decision points, such as which chunks of a tool output enter the context, whether a rule-flagged command was asked for, whether fetched pages or MCP output carry injected instructions, and whether \"done\" was verified; code acts on each answer, rules catch dangerous commands first, and each point can run active, shadow or off with every verdict in a local ledger."
         confidence: high
+    - id: discovery__github__qybaihe__mu__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Model Routing
+        anchor_text: "**mu**"
+        extracted_url: https://github.com/qybaihe/mu
+        surrounding_text: "- [**mu**](https://github.com/qybaihe/mu) — A coding agent built on pi and AionUi whose routine calls at 38 decision points are made by Jev."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -117,7 +132,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-08T04:16:14.230Z"
+    updated_at: "2026-10-12T04:24:05.392Z"
     cause: null
     next_retry_at: null
   stars:
@@ -126,7 +141,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.688Z"
+    updated_at: "2026-10-12T04:24:11.922Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

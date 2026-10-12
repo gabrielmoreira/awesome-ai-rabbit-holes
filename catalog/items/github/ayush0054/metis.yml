@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/ayush0054/metis
         surrounding_text: "| [metis](https://github.com/Ayush0054/metis) | ★ 1 | Python | 2026-09-22 | Metis: automatic GitHub issue triage powered by TypeSafe AI Jev. A reusable GitHub Action. |"
         confidence: high
+    - id: discovery__github__ayush0054__metis__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: metis
+        extracted_url: https://github.com/ayush0054/metis
+        surrounding_text: "- [metis](https://github.com/Ayush0054/metis) - Metis: automatic GitHub issue triage powered by TypeSafe AI Jev. A reusable GitHub Action."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -76,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.410Z"
+    updated_at: "2026-10-12T04:24:05.394Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +101,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.682Z"
+    updated_at: "2026-10-12T04:24:11.916Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

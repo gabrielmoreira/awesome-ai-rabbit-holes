@@ -34960,23 +34960,6 @@
       "activity_bucket": null
     },
     {
-      "id": "github__abhinavexists__lev",
-      "kind": "github-repo",
-      "name": "abhinavexists/lev",
-      "canonical_url": "https://github.com/abhinavexists/lev",
-      "summary": "An open System One decision model called Lev that answers typed questions with probabilities.",
-      "tags": [
-        "decision-model",
-        "jev",
-        "typed-questions"
-      ],
-      "primary_category": "decision-models",
-      "lifecycle_status": "curated",
-      "stars": 43,
-      "pushed_at": "2026-09-25T17:24:11Z",
-      "activity_bucket": "updated_30d"
-    },
-    {
       "id": "github__acunningham-ship-it__veilbrowser",
       "kind": "github-repo",
       "name": "acunningham-ship-it/veilbrowser",
@@ -35119,6 +35102,23 @@
       "stars": 43,
       "pushed_at": "2023-12-14T15:30:22Z",
       "activity_bucket": "inactive"
+    },
+    {
+      "id": "github__abhinavexists__lev",
+      "kind": "github-repo",
+      "name": "Lev",
+      "canonical_url": "https://github.com/abhinavexists/lev",
+      "summary": "An open System One decision model called Lev that answers typed questions with probabilities.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typed-questions"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": 43,
+      "pushed_at": "2026-09-25T17:24:11Z",
+      "activity_bucket": "updated_30d"
     },
     {
       "id": "github__okinaaudio__live-jev",
@@ -93836,6 +93836,25 @@
       "activity_bucket": null
     },
     {
+      "id": "pypi__org__project__anyjev",
+      "kind": "website",
+      "name": "anyjev",
+      "canonical_url": "https://pypi.org/project/anyjev",
+      "summary": "anyjev is a PyPI package associated with Jev, TypeSafe AI's System One decision model, serving as a client or integration for typed probabilistic judgment.",
+      "tags": [
+        "decision-model",
+        "jev",
+        "typesafe",
+        "typed-judgment",
+        "pypi"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "aomni__com",
       "kind": "website",
       "name": "Aomni",
@@ -95604,19 +95623,6 @@
       "activity_bucket": null
     },
     {
-      "id": "crowdcheck__ai__vercel__app",
-      "kind": "website",
-      "name": "Crowdcheck",
-      "canonical_url": "https://crowdcheck-ai.vercel.app",
-      "summary": "Crowdcheck - Test a post against 10,000 synthetic personas before you publish it.",
-      "tags": [],
-      "primary_category": "evals",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "docs__langchain__com__oss__python__langchain__overview",
       "kind": "website",
       "name": "CSV-AI",
@@ -96074,8 +96080,13 @@
       "kind": "website",
       "name": "discern",
       "canonical_url": "https://npmjs.com/package/@doeixd/discern",
-      "summary": "discern (site) - Uncertainty-aware control flow for Effect: Jev's Choice, Noul and Score answers become typed patterns with an explicit Uncertain branch, plus routable procedures, recording, replay, caching and call budgets.",
-      "tags": [],
+      "summary": "An NPM package designed for integration with the Jev decision model ecosystem.",
+      "tags": [
+        "npm",
+        "sdk",
+        "decision-models",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98073,8 +98084,14 @@
       "kind": "website",
       "name": "jev-gatehouse.vercel.app",
       "canonical_url": "https://jev-gatehouse.vercel.app",
-      "summary": "jev-agent-authorization (site) - Jev agent authorization for MCP tool calls: Kinde identity and permissions plus Jev's typed, calibrated decisions, checked server-side before every call runs.",
-      "tags": [],
+      "summary": "An authorization gateway that uses the Jev decision model to judge and permit MCP tool calls based on identity and permission context.",
+      "tags": [
+        "mcp",
+        "agent-security",
+        "decision-model",
+        "authorization",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98166,19 +98183,6 @@
       ],
       "primary_category": "decision-models",
       "lifecycle_status": "needs_review",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "jev__information__extraction__fibby__prod__telegram__up__railway__app",
-      "kind": "website",
-      "name": "jev-information-extraction-fibby-prod-telegram.up.railway.app",
-      "canonical_url": "https://jev-information-extraction-fibby-prod-telegram.up.railway.app",
-      "summary": "jev-information-extraction (site) - Parsing the PDF and extracting the relevant information.",
-      "tags": [],
-      "primary_category": "document-ai",
-      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -98326,8 +98330,14 @@
       "kind": "website",
       "name": "jev-reflex-autonomy-lab.vercel.app",
       "canonical_url": "https://jev-reflex-autonomy-lab.vercel.app",
-      "summary": "jev-reflex-autonomy-lab (site) - Multi-drone autonomy lab demonstrating TypeSafe Jev reflex decisions with optional System 2 strategy guidance.",
-      "tags": [],
+      "summary": "A simulation environment that visualizes autonomous drone navigation driven by a dual-layer (System 1 reflex and System 2 reasoning) decision architecture.",
+      "tags": [
+        "decision-models",
+        "simulation",
+        "autonomous-agents",
+        "jev",
+        "reflex"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98339,8 +98349,14 @@
       "kind": "website",
       "name": "jev-scout",
       "canonical_url": "https://akashpriyadarshii.github.io/jev-scout",
-      "summary": "jev-scout (site) - Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring.",
-      "tags": [],
+      "summary": "A CLI and MCP server for discovering verified GitHub repositories and Rust crates using typed decision-model scoring to prevent LLM hallucinations.",
+      "tags": [
+        "rust",
+        "mcp",
+        "discovery",
+        "github",
+        "crates-io"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98352,8 +98368,13 @@
       "kind": "website",
       "name": "jev-spec",
       "canonical_url": "https://npmjs.com/package/jev-spec",
-      "summary": "jev-spec (site) - ⚡ Catch spec drift on every commit: check your code against your Markdown specs with TypeSafe AI's Jev model.",
-      "tags": [],
+      "summary": "A specification package for interacting with the Jev decision model.",
+      "tags": [
+        "jev",
+        "decision-models",
+        "npm",
+        "typing"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98365,8 +98386,13 @@
       "kind": "website",
       "name": "jev-test.vercel.app",
       "canonical_url": "https://jev-test.vercel.app",
-      "summary": "Job Risk Analyzer (site) - Job Risk Analyzer: CLI and REST API that uses Jev to score an occupation's exposure to AI-driven layoffs and its resilience.",
-      "tags": [],
+      "summary": "An application that uses the TypeSafe Jev decision model to forecast occupation resilience and AI labor displacement risk.",
+      "tags": [
+        "jev",
+        "decision-models",
+        "labor-intelligence",
+        "typefast-ai"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98609,8 +98635,13 @@
       "kind": "website",
       "name": "jevfire",
       "canonical_url": "https://kikoncuo.github.io/jevfire",
-      "summary": "jevfire (site) - JEV-inspired parallel decisions for CUDA LLMs. One context, many decisions. vLLM API, game-agent examples, and reproducible benchmarks.",
-      "tags": [],
+      "summary": "A playable simulation demonstrating decision-model-driven NPC behavior via local WebGPU inference.",
+      "tags": [
+        "decision-models",
+        "webgpu",
+        "local-inference",
+        "simulation"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -98820,6 +98851,24 @@
         "benchmark",
         "decision-models",
         "evaluation"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "npmjs__com__package__mateonunez__jod",
+      "kind": "website",
+      "name": "jod",
+      "canonical_url": "https://npmjs.com/package/@mateonunez/jod",
+      "summary": "An NPM package serving as a client SDK for interacting with the Jev decision model.",
+      "tags": [
+        "js",
+        "sdk",
+        "decision-model",
+        "jev"
       ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
@@ -99397,6 +99446,25 @@
       "activity_bucket": null
     },
     {
+      "id": "logicrw__github__io__awesome__jev__projects__llms__txt",
+      "kind": "website",
+      "name": "llms.txt",
+      "canonical_url": "https://logicrw.github.io/awesome-jev-projects/llms.txt",
+      "summary": "A community-curated catalog of implementations, benchmarks, and tools for TypeSafe Jev and System-1 Agent architectures.",
+      "tags": [
+        "awesome-list",
+        "agent-architectures",
+        "jev",
+        "system-1",
+        "curated-directory"
+      ],
+      "primary_category": "awesome-awesomes",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "lmstudio__ai",
       "kind": "website",
       "name": "LM Studio",
@@ -99455,13 +99523,13 @@
       "kind": "website",
       "name": "localhost",
       "canonical_url": "https://localhost",
-      "summary": "A desktop AI coding workspace where agents run in real terminals, enabling code generation, PR reviews, and git workflows with multi-agent support.",
+      "summary": "Taskeract is a desktop application that runs AI coding agents like Claude Code, OpenAI Codex, and OpenCode in isolated terminal sessions with built-in git workflows, PR review, and issue tracking.",
       "tags": [
-        "ai-coding",
+        "ai-coding-agent",
         "desktop-app",
-        "multi-agent",
-        "git-integration",
-        "pr-review"
+        "git-workflow",
+        "terminal-isolation",
+        "multi-agent"
       ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "needs_review",
@@ -99628,6 +99696,25 @@
       "activity_bucket": null
     },
     {
+      "id": "manualmode__dev",
+      "kind": "website",
+      "name": "ManualMode",
+      "canonical_url": "https://manualmode.dev",
+      "summary": "A training platform for AI-assisted developers to practice code reading, debugging, and testing through browser exercises and real repository tasks.",
+      "tags": [
+        "training",
+        "skill-building",
+        "developer-experience",
+        "workflow",
+        "practice"
+      ],
+      "primary_category": "extensions-and-addons",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "getmaxim__ai",
       "kind": "website",
       "name": "Maxim AI",
@@ -99735,8 +99822,14 @@
       "kind": "website",
       "name": "mcpmatch.vercel.app",
       "canonical_url": "https://mcpmatch.vercel.app",
-      "summary": "mcpmatch (site) - Match user goals to MCP catalog (two-stage) via TypeSafe Jev.",
-      "tags": [],
+      "summary": "A capability matcher that uses the Jev decision model to map natural language goals to specific MCP server capabilities.",
+      "tags": [
+        "mcp",
+        "decision-models",
+        "routing",
+        "discovery",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100077,25 +100170,6 @@
       "activity_bucket": null
     },
     {
-      "id": "theagi__framer__website",
-      "kind": "website",
-      "name": "MultiOn",
-      "canonical_url": "https://theagi.framer.website",
-      "summary": "An AI platform and intelligence layer for building on-device action agents that navigate mobile and desktop applications via screen reasoning.",
-      "tags": [
-        "action-ai",
-        "agent-framework",
-        "on-device-ai",
-        "computer-use",
-        "agent-platform"
-      ],
-      "primary_category": "ai-frameworks",
-      "lifecycle_status": "needs_review",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "mutable__ai",
       "kind": "website",
       "name": "Mutable AI",
@@ -100134,8 +100208,14 @@
       "kind": "website",
       "name": "n8n-nodes-jev",
       "canonical_url": "https://npmjs.com/package/n8n-nodes-jev",
-      "summary": "n8n-nodes-jev (site) - Helper n8n community node for Jev by TypeSafe. Classify, route, and score text with questions you define, and get a probability for every answer so unsure items can go to review.",
-      "tags": [],
+      "summary": "An n8n node integration for interacting with the Jev decision model.",
+      "tags": [
+        "n8n",
+        "jev",
+        "decision-model",
+        "integration",
+        "workflow"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100165,8 +100245,14 @@
       "kind": "website",
       "name": "NestMux",
       "canonical_url": "https://nestmux.com",
-      "summary": "NestMux – Desktop workspace for Windows, macOS and Linux that runs Claude Code, Codex, Gemini, Copilot and OpenCode side by side in a resizable pane grid, each pane with its own account and isolated HOME. Includes git worktrees, an integrated diff viewer, MCP server management and shared team workspaces. Free tier available.",
-      "tags": [],
+      "summary": "A multi-agent terminal workspace that provides a tiled grid for running multiple AI coding agents simultaneously within isolated git worktrees.",
+      "tags": [
+        "multi-agent",
+        "terminal",
+        "worktrees",
+        "mcp",
+        "team-collaboration"
+      ],
       "primary_category": "agent-orchestration",
       "lifecycle_status": "curated",
       "stars": null,
@@ -100292,19 +100378,6 @@
         "vulnerability-management"
       ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "numerous__com",
-      "kind": "website",
-      "name": "numerous.com",
-      "canonical_url": "https://numerous.com",
-      "summary": "DGP (Decision Graph Protocol) (site) - Experimental decision protocol whose Jev adapter evaluates framed evidence with typed choices, while application code validates permissions and commits simulated demo actions.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -101136,10 +101209,16 @@
       "kind": "website",
       "name": "Product",
       "canonical_url": "https://quantdinger.com",
-      "summary": "QuantDinger - Open source · Free source build · BYOK. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. Product · Try app · Project guide.",
-      "tags": [],
+      "summary": "An open-source AI quant trading platform for researching, backtesting, and executing Python-based trading strategies.",
+      "tags": [
+        "quant-trading",
+        "agent-orchestration",
+        "python",
+        "mcp",
+        "self-hosted"
+      ],
       "primary_category": "decision-models",
-      "lifecycle_status": "curated",
+      "lifecycle_status": "needs_review",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -101295,6 +101374,23 @@
       ],
       "primary_category": "mcp",
       "lifecycle_status": "needs_review",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "pypi__org__project__pydecide",
+      "kind": "website",
+      "name": "pydecide",
+      "canonical_url": "https://pypi.org/project/pydecide",
+      "summary": "A Python SDK for interacting with decision models.",
+      "tags": [
+        "python",
+        "decision-models",
+        "sdk"
+      ],
+      "primary_category": "decision-models",
+      "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
       "activity_bucket": null
@@ -102033,8 +102129,12 @@
       "kind": "website",
       "name": "Search and filter",
       "canonical_url": "https://logicrw.github.io/awesome-jev-projects/en",
-      "summary": "> Search and filter ↗ · 798 curated projects",
-      "tags": [],
+      "summary": "A curated directory of projects and resources related to Jev and System-1 decision architecture.",
+      "tags": [
+        "jev",
+        "decision-models",
+        "curated-list"
+      ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
@@ -102562,6 +102662,24 @@
       "activity_bucket": null
     },
     {
+      "id": "www__sweeppea__com",
+      "kind": "website",
+      "name": "Sweeppea",
+      "canonical_url": "https://www.sweeppea.com",
+      "summary": "An AI software engineer that autonomously resolves GitHub issues by writing, testing, and submitting code.",
+      "tags": [
+        "coding-agent",
+        "github-integration",
+        "automation",
+        "software-engineering"
+      ],
+      "primary_category": "coding-agents",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "mmornati__github__io__system__one__router",
       "kind": "website",
       "name": "system-one-router",
@@ -102937,8 +103055,14 @@
       "kind": "website",
       "name": "toolgate.vercel.app",
       "canonical_url": "https://toolgate.vercel.app",
-      "summary": "toolgate (site) - Agent tool/MCP call gate — allow / ask_human / deny via TypeSafe Jev.",
-      "tags": [],
+      "summary": "A tool-call gate that uses the Jev decision model to allow, deny, or request human intervention for agent and MCP method calls.",
+      "tags": [
+        "decision-models",
+        "agent-safety",
+        "mcp",
+        "guardrails",
+        "jev"
+      ],
       "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
@@ -103480,6 +103604,24 @@
         "calibrated-probability"
       ],
       "primary_category": "decision-models",
+      "lifecycle_status": "curated",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "youtube__com__channel__ucc__lyotfsrcjza1ab3apagw",
+      "kind": "website",
+      "name": "UCC-lyoTfSrcJzA1ab3APAgw",
+      "canonical_url": "https://youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw",
+      "summary": "A YouTube channel providing tutorials and technical content related to the LangChain framework.",
+      "tags": [
+        "youtube",
+        "langchain",
+        "tutorials",
+        "ai-dev"
+      ],
+      "primary_category": "awesome-awesomes",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,
@@ -104264,19 +104406,6 @@
         "fraud-prevention"
       ],
       "primary_category": "mcp",
-      "lifecycle_status": "curated",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "xianhui__xzaigf__dpdns__org",
-      "kind": "website",
-      "name": "xianhui.xzaigf.dpdns.org",
-      "canonical_url": "https://xianhui.xzaigf.dpdns.org",
-      "summary": "jev-xianhui (site) - 先回｜消息优先级助手 Windows + Android双端工具 JEV规则引擎 + AI自动判定消息优先级.",
-      "tags": [],
-      "primary_category": "decision-models",
       "lifecycle_status": "curated",
       "stars": null,
       "pushed_at": null,

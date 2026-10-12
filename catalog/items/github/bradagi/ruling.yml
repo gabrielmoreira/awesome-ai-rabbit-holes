@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/bradagi/ruling
         surrounding_text: "- [ruling](https://github.com/bradAGI/ruling) - Reproduction that serves Jev's `/v1/systemone` schema from a frozen MLX model or OpenAI-compatible endpoint by reading option probabilities from the logits, with option-order averaging, temperature calibration, and a harness that replays Jev's published answers on public judgments."
         confidence: high
+    - id: discovery__github__bradagi__ruling__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: ruling
+        extracted_url: https://github.com/bradagi/ruling
+        surrounding_text: "- [ruling](https://github.com/bradAGI/ruling) - Turns an open local chat model into a Jev-style decision engine served on `/v1/systemone`, with training, eval, and calibration commands; independent of TypeSafe. [Project guide](community/projects/tools/ruling.md)."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -75,7 +91,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.410Z"
+    updated_at: "2026-10-12T04:24:05.394Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +101,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.682Z"
+    updated_at: "2026-10-12T04:24:11.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

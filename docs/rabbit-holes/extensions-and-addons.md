@@ -3,12 +3,12 @@
 
 Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 
-_167 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_168 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
 - [IDE & Editor Add-ons](#ide--editor-add-ons) — 25
-- [Claude Code & Agent Tools](#claude-code--agent-tools) — 77
+- [Claude Code & Agent Tools](#claude-code--agent-tools) — 78
 - [Testing & Code Quality](#testing--code-quality) — 15
 - [Security & DevSecOps](#security--devsecops) — 27
 - [API & Service Integrations](#api--service-integrations) — 23
@@ -256,7 +256,7 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
   </details>
 - **[commandcodeai/cmd-mod-jev-nudge](https://github.com/commandcodeai/cmd-mod-jev-nudge)** `⭐ 16` `updated ≤30d` Command Code mod: nudges the agent to keep going when it stops with work left, judged by Jev.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+47 more in Claude Code & Agent Tools &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+48 more in Claude Code & Agent Tools &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness)** `⭐ 16` Tame your AI coding agents with natural language. Generate enforced guardrails (CLAUDE.md, hooks, settings) from a single command.
 - **[Claude Pet](https://github.com/nikhilagrima/claude-pet)** `⭐ 14` Claude Pet – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT.
@@ -301,6 +301,7 @@ _167 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[uhuntu/clisweave](https://github.com/uhuntu/clisweave)** `⭐ 0` Tiny, dependency-free CLI wrapper unifying Claude Code, Codex CLI, and Kimi CLI: normalizes flags across the three tools, plus a cross-tool numbered session list, resume-by-row-number, and an LLM-judged topic search that finds relevant past sessions by content, not just exact keyword match. Single Python package, no daemon. MIT.
 - **[wesleysmits/codex-triage](https://github.com/wesleysmits/codex-triage)** `⭐ 0` codex-triage - Local Codex task triage with human-reviewed archiving and optional TypeSafe Jev analysis. Project guide.
 - **[Bwee](https://bwee.app)** Bwee.app is a native macOS GUI that wraps Claude Code to let users build custom UIs via chat.
+- **[ManualMode](https://manualmode.dev)** A training platform for AI-assisted developers to practice code reading, debugging, and testing through browser exercises and real repository tasks.
 - **[OpenClaw](https://docs.openclaw.ai/zh-CN)** OpenClaw is a self-hosted multi-channel AI agent gateway that connects messaging platforms to AI coding agents via channel plugins.
 - **[pi.dev](https://pi.dev)** Pi Agent Foreman is an extension that enables a terminal-based coding agent (Pi) to resume unfinished work by checking for explicit work commands in user requests.
 - **[Supercode.sh](https://supercode.sh)** Supercode.sh is a paid extension that optimizes token usage and provides curated skills for Claude, Codex, and Cursor agents.

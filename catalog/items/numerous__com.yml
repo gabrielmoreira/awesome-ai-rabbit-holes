@@ -36,20 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DGP (Decision Graph Protocol) (site) - Experimental decision protocol whose Jev adapter evaluates framed evidence with typed choices, while application code validates permissions and commits simulated demo actions.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A deployment platform for Python-based web applications and Dockerized technical workflows.
+  why_it_matters: It streamlines the hosting, scaling, and sharing of Python-based tools like Streamlit or Plotly Dash without requiring manual infrastructure management.
+  mental_damage: Because the ultimate evolution of a developer is paying a specialized platform to handle the deployment they once thought they could do themselves.
+  tags:
+    - python
+    - deployment
+    - hosting
+    - streamlit
+    - workflow-automation
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  status: excluded
+  reason: The product is a hosting and deployment platform for existing Python apps, which does not meet the specific criteria for 'App Builders' (which must be prompt-to-app) or 'Agent Orchestration'.
   evidence:
-    - jev-latest choice confidence 0.88
+    - The core workflow involves deploying existing Python or Dockerized apps via a CLI
+    - The product does not generate applications from natural language prompts
 placement:
-  primary_category: decision-models
+  primary_category: null
   secondary_categories: []
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +70,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:43:23.446Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for numerous__com: Invalid AI response format: SyntaxError: Unexpected token 'N', ...\"_reason\": Numerous i\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:39:57.946Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0d0fe1b150012f492740c7466df89ad54e126fdc2477c547259f9d67bcae1b42
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a hosting and deployment platform for existing Python apps, which does not meet the specific criteria for 'App Builders' (which must be prompt-to-app) or 'Agent Orchestration'.
+      decision_evidence:
+        - The core workflow involves deploying existing Python or Dockerized apps via a CLI
+        - The product does not generate applications from natural language prompts
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

@@ -51,29 +51,33 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube channel identified only by its alphanumeric channel ID.
-  why_it_matters: N/A
-  mental_damage: Trying to decipher a raw YouTube ID is the ultimate low-entropy developer experience.
-  tags: []
-  confidence: high
+  summary: A YouTube channel providing tutorials and technical content related to the LangChain framework.
+  why_it_matters: Provides visual, step-by-step walkthroughs and updates for developers navigating the LangChain ecosystem.
+  mental_damage: Offers a high-quality way to procrastinate on your actual implementation via infinite tutorial loops.
+  tags:
+    - youtube
+    - langchain
+    - tutorials
+    - ai-dev
+  confidence: medium
 curation:
-  status: excluded
-  reason: The entry provides no human-readable name, description, or substantive metadata, making it impossible to assess its utility or content.
+  status: included
+  reason: The channel functions as a recurring media feed for a specific developer ecosystem, which is explicitly within the scope of curated resources and feeds.
   evidence:
-    - Name is a raw YouTube channel ID (UCC-lyoTfSrcJzA1ab3APAgw)
-    - No repo description or README content provided
+    - Listed in the awesome-langchain directory
+    - The source URL is a YouTube channel
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Publications & Feeds
 lifecycle:
   status: curated
   reason: null
 processing:
   categorize:
     status: done
-    updated_at: "2026-10-08T04:34:32.411Z"
+    updated_at: "2026-10-12T04:30:08.266Z"
     cause: null
-    attempts: 7
+    attempts: 8
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -82,14 +86,16 @@ processing:
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:a7a394aa1bdd07574b32918ad2581745043e8999d54d8d69ea0cfdaba7db2424
-      proposed_primary_category: null
+      proposed_primary_category: awesome-awesomes
       disagreement: false
-      decision_reason: The entry provides no human-readable name, description, or substantive metadata, making it impossible to assess its utility or content.
+      decision_reason: The channel functions as a recurring media feed for a specific developer ecosystem, which is explicitly within the scope of curated resources and feeds.
       decision_evidence:
-        - Name is a raw YouTube channel ID (UCC-lyoTfSrcJzA1ab3APAgw)
-        - No repo description or README content provided
-      category_candidates: []
-      contrastive_reason: null
+        - Listed in the awesome-langchain directory
+        - The source URL is a YouTube channel
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the product is a media feed about a framework rather than the code-first library itself.
       review_reason: null
       review_resume_lifecycle: null
   discover:

@@ -36,18 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: search-function-test.vercel.app is a static page on business registration topics, not a developer-facing AI tool.
-  why_it_matters: It does not provide any AI functionality, workflow enhancement, or developer utility relevant to the catalog.
-  mental_damage: Another reminder that AI tool directories are now indexing SEO landing pages because everything must be 'AI-adjacent'.
-  tags: []
+  summary: A demo page used to test search functionality, likely within the Jev decision-model ecosystem.
+  why_it_matters: It serves as a minimal implementation example for developers exploring the Jev model, though it is not a complete tool.
+  mental_damage: Navigating a 'search function test' page is a perfect, low-stakes simulation of trying to debug a production outage at 3 AM.
+  tags:
+    - demo
+    - search
+    - jev
   confidence: high
 curation:
   status: excluded
-  reason: The project is a static informational page about business registration with no AI, agent, coding, or developer tooling functionality; it lacks any product identity relevant to the catalog's scope.
+  reason: The project is a single demo or playground site rather than a standalone developer tool, framework, or agent.
   evidence:
-    - "Scraped site title: 'How To Register — All the business setup topics in one place'"
-    - Source-list context shows it appears only in a Jev-based directory as a demo under 'How To Register'
-    - No repo description, README, or indicators of AI agent, framework, extension, or tooling behavior
+    - Source list categorizes the project specifically under 'Demos & playgrounds'
+    - The URL and site content indicate a testing/placeholder instance rather than a functional product
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,25 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:45:15.699Z"
+    updated_at: "2026-10-12T04:41:44.204Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:25cc290d100eed1592be2608e83e5f952ff5f39a5e703776f4644ec44d24c3a6
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is a static informational page about business registration with no AI, agent, coding, or developer tooling functionality; it lacks any product identity relevant to the catalog's scope.
+      decision_reason: The project is a single demo or playground site rather than a standalone developer tool, framework, or agent.
       decision_evidence:
-        - "Scraped site title: 'How To Register — All the business setup topics in one place'"
-        - Source-list context shows it appears only in a Jev-based directory as a demo under 'How To Register'
-        - No repo description, README, or indicators of AI agent, framework, extension, or tooling behavior
+        - Source list categorizes the project specifically under 'Demos & playgrounds'
+        - The URL and site content indicate a testing/placeholder instance rather than a functional product
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

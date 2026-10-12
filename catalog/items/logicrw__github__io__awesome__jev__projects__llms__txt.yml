@@ -36,18 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A community-curated catalog of implementations, benchmarks, and tools for TypeSafe Jev and System-1 Agent architectures.
+  why_it_matters: It provides a centralized discovery layer for developers navigating the specialized ecosystem of decision-model-driven agent architectures.
+  mental_damage: Because we have officially reached the point in the hype cycle where we need a curated list of tools specifically designed to make decisions about other tools.
+  tags:
+    - awesome-list
+    - agent-architectures
+    - jev
+    - system-1
+    - curated-directory
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project functions as a specialized community directory and resource map for a specific niche of AI agent architectures.
+  evidence:
+    - README explicitly defines the project as a 'community catalog' for Jev and System-1 architectures
+    - Contains 859 catalog entries spanning various categories like SDKs, decision models, and evaluation tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Awesome Lists & Directories
 lifecycle:
   status: curated
   reason: null
@@ -62,10 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:41:17.940Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for logicrw__github__io__awesome__jev__projects__llms__txt: Invalid AI response structure: Missing required field: why_it_matters"
+    status: done
+    updated_at: "2026-10-12T04:36:01.333Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:43f4c66439747e4e3e45e176987c033bd7a2f7763e5b886cc04bef9d55368d75
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project functions as a specialized community directory and resource map for a specific niche of AI agent architectures.
+      decision_evidence:
+        - README explicitly defines the project as a 'community catalog' for Jev and System-1 architectures
+        - Contains 859 catalog entries spanning various categories like SDKs, decision models, and evaluation tools
+      category_candidates:
+        - awesome-awesomes
+        - decision-models
+      contrastive_reason: Choose awesome-awesomes over decision-models because the project is a curated directory of resources rather than a decision model itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

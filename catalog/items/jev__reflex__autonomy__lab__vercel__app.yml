@@ -36,16 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-reflex-autonomy-lab (site) - Multi-drone autonomy lab demonstrating TypeSafe Jev reflex decisions with optional System 2 strategy guidance.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A simulation environment that visualizes autonomous drone navigation driven by a dual-layer (System 1 reflex and System 2 reasoning) decision architecture.
+  why_it_matters: It provides a sandbox to observe how low-latency decision models like Jev can be integrated into autonomous agent loops alongside high-level reasoning layers.
+  mental_damage: Watching a simulated agent struggle with confidence thresholds is a perfect, low-stakes metaphor for the current state of LLM reliability.
+  tags:
+    - decision-models
+    - simulation
+    - autonomous-agents
+    - jev
+    - reflex
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
+  reason: The project functions as a simulation/lab specifically designed to demonstrate the application and behavior of decision-model-driven agent architectures.
   evidence:
-    - jev-latest choice confidence 0.62
+    - The site describes it as a 'single-drone simulation with fast typed decisions and confidence-driven strategy planning.'
+    - It explicitly uses Jev (a decision model) for its real-time reflex layer.
+    - It is listed in the awesome-jev directory under 'Games & simulations'.
 placement:
   primary_category: decision-models
   secondary_categories: []
@@ -64,10 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:39:40.126Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for jev__reflex__autonomy__lab__vercel__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:34:15.499Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:09da404381eaee5c7ced8e685b7d2310a717ffca8907de97dda292cdd5e4d13c
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The project functions as a simulation/lab specifically designed to demonstrate the application and behavior of decision-model-driven agent architectures.
+      decision_evidence:
+        - The site describes it as a 'single-drone simulation with fast typed decisions and confidence-driven strategy planning.'
+        - It explicitly uses Jev (a decision model) for its real-time reflex layer.
+        - It is listed in the awesome-jev directory under 'Games & simulations'.
+      category_candidates:
+        - decision-models
+        - agent-orchestration
+      contrastive_reason: Choose decision-models over agent-orchestration because the product's core novelty is the interplay between a decision model and a reasoning layer rather than the coordination of a multi-agent workforce.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Insufficient information available to describe the functionality of 'Forge'.
-  why_it_matters: The tool's utility for developers cannot be determined from the provided metadata.
-  mental_damage: Trying to derive a product identity from a single-word title is the ultimate developer burnout test.
+  summary: A Weights & Biases page titled 'Forge' with no provided functional description.
+  why_it_matters: The lack of context makes it impossible to determine if this is a relevant developer tool or generic ML infrastructure.
+  mental_damage: The void where a README should be is where developer productivity goes to die.
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: The provided inputs lack any functional description or substance, making it impossible to determine if this tool fits the catalog's developer-tooling scope.
+  reason: The provided inputs lack any functional description, README, or site context to determine if the product fits the specific developer-tooling scope.
   evidence:
     - No repo description provided
     - No README excerpt provided
-    - Scraped site context is limited to the title 'Forge'
+    - Scraped site context contains no description text
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-08T04:31:17.789Z"
+    updated_at: "2026-10-12T04:27:48.770Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,14 +79,12 @@ processing:
       input_hash: sha256:358ea071321a5f1ccd09166a78f14eb8935588f07662532d4839ddd3a6c463dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided inputs lack any functional description or substance, making it impossible to determine if this tool fits the catalog's developer-tooling scope.
+      decision_reason: The provided inputs lack any functional description, README, or site context to determine if the product fits the specific developer-tooling scope.
       decision_evidence:
         - No repo description provided
         - No README excerpt provided
-        - Scraped site context is limited to the title 'Forge'
+        - Scraped site context contains no description text
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
+      review_reason: null
+      review_resume_lifecycle: null

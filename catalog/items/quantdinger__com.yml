@@ -37,11 +37,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: QuantDinger - Open source · Free source build · BYOK. Self-hosted AI trading OS with optional TypeSafe Jev pre-trade entry gates; hosted app also available. Product · Try app · Project guide.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source AI quant trading platform for researching, backtesting, and executing Python-based trading strategies.
+  why_it_matters: It provides a self-hosted, production-ready stack that moves AI-generated trading ideas from research to live market execution via a single control plane.
+  mental_damage: Because why settle for manual financial ruin when you can orchestrate it through a distributed, containerized, multi-agent architecture?
+  tags:
+    - quant-trading
+    - agent-orchestration
+    - python
+    - mcp
+    - self-hosted
+  confidence: high
 curation:
   status: included
   reason: Jev decision-model reclassifier placed this item in decision-models / Apps, Games & Simulation
@@ -52,10 +57,10 @@ placement:
   primary_category: decision-models
   secondary_categories:
     - local-ai
-  section: Apps, Games & Simulation
+  section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -67,10 +72,30 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:44:46.421Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for quantdinger__com: Invalid AI response format: SyntaxError: Unexpected token 'Q', ...\"_reason\": QuantDinge\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:41:55.885Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:7ee9d9216f1073fe4a5adbfa170e738fe43d8e8e8a99d48f0f1b30de489bf234
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: It acts as a specialized control plane and runtime for managing the lifecycle of autonomous trading agents and strategies.
+      decision_evidence:
+        - Explicitly identifies as a 'Control Plane' and 'Production System' for managing research, backtesting, and live runtime.
+        - Provides a self-hosted Docker Compose stack for managing distributed roles like the Agent Gateway and Trading Worker.
+        - Offers a specialized MCP-based Agent Gateway to connect coding agents like Cursor directly to the trading stack.
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because it operates as a full-stack platform and control plane for executing agents rather than just a library to be imported.
+      review_reason: "Categorization review required: placement disagreement: retained 'decision-models', proposed 'agent-orchestration'"
+      review_resume_lifecycle:
+        status: curated
+        reason: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

@@ -22,6 +22,37 @@ provenance:
         extracted_url: https://github.com/can1357/oh-my-pi
         surrounding_text: "- **[OH-MY-PI](https://github.com/can1357/oh-my-pi)** `⭐ 3.9k` — Terminal coding agent (\"Pi\") with a TypeScript/Rust monorepo and local-first ergonomics."
         confidence: high
+    - id: discovery__github__can1357__oh-my-pi__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Frameworks & integrations (88)
+        anchor_text: oh-my-pi
+        extracted_url: https://github.com/can1357/oh-my-pi
+        surrounding_text: "| [oh-my-pi](https://github.com/can1357/oh-my-pi) | ★ 32,394 | TypeScript | 2026-09-22 | Coding agent with a TypeSafe judgment provider that uses Jev for typed checks, routing, and workflow decisions. |"
+        confidence: high
+    - id: discovery__github__can1357__oh-my-pi__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Model Routing
+        anchor_text: "**oh-my-pi**"
+        extracted_url: https://github.com/can1357/oh-my-pi
+        surrounding_text: "- [**oh-my-pi**](https://github.com/can1357/oh-my-pi) — Oh My Pi includes an optional TypeSafe judgment provider for bounded decisions in coding-agent workflows."
+        confidence: high
 metadata:
   github:
     stars: 34068
@@ -80,7 +111,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.607Z"
+    updated_at: "2026-10-12T04:24:05.394Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +121,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.682Z"
+    updated_at: "2026-10-12T04:24:11.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

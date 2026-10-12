@@ -36,20 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-information-extraction (site) - Parsing the PDF and extracting the relevant information.
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Telegram-based demo for information extraction powered by the Jev decision model.
+  why_it_matters: It serves as a practical playground to see how the Jev decision model can be applied to structured data extraction tasks.
+  mental_damage: Another specific, ephemeral demo URL to add to the growing pile of 'how-to' examples that might vanish before you finish reading them.
+  tags:
+    - jev
+    - information-extraction
+    - telegram-bot
+  confidence: high
 curation:
-  status: included
-  reason: Jev decision-model reclassifier placed this item in document-ai / Document Parsing & Layout
+  status: excluded
+  reason: This is a specific, deployed demo instance (a Telegram bot) rather than a reusable developer tool, library, or infrastructure component.
   evidence:
-    - jev-latest choice confidence 0.55
+    - The source list 'awesome-jev' explicitly categorizes this under 'Demos & playgrounds'
+    - The URL points to a specific hosted implementation rather than a codebase or product interface
 placement:
-  primary_category: document-ai
+  primary_category: null
   secondary_categories: []
-  section: Document Parsing & Layout
+  section: null
 lifecycle:
   status: curated
   reason: null
@@ -64,10 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-08T04:39:18.527Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for jev__information__extraction__fibby__prod__telegram__up__railway__app: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    status: done
+    updated_at: "2026-10-12T04:33:30.827Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e0a82532d2b7f3b76e530fdce4b9a0662c2acea34578b999c56b4a4f704ef317
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a specific, deployed demo instance (a Telegram bot) rather than a reusable developer tool, library, or infrastructure component.
+      decision_evidence:
+        - The source list 'awesome-jev' explicitly categorizes this under 'Demos & playgrounds'
+        - The URL points to a specific hosted implementation rather than a codebase or product interface
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

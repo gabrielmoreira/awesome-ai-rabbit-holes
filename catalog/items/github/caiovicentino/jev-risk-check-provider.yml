@@ -53,6 +53,21 @@ provenance:
         extracted_url: https://github.com/caiovicentino/jev-risk-check-provider
         surrounding_text: "- [jev-risk-check-provider](https://github.com/caiovicentino/jev-risk-check-provider) ![stars](https://img.shields.io/github/stars/caiovicentino/jev-risk-check-provider?style=flat-square&label=%E2%98%85) - Agent payments: an x402 `risk-check` provider where Jev scores agent counterparties as typed Noul/Choice/Score questions into a code-controlled 0-100 score, issuing an ES256-signed attestation per verdict; 540-call scale run (99.76% at threshold 65-75, 0 false positives) and a 5-iteration 1,500-case adversarial red-team loop (100% adversarial accuracy) with ~$0.00005/decision at p50 ~400ms."
         confidence: high
+    - id: discovery__github__caiovicentino__jev-risk-check-provider__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-12T04:24:05.391Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Games & simulations
+        anchor_text: jev-risk-check-provider
+        extracted_url: https://github.com/caiovicentino/jev-risk-check-provider
+        surrounding_text: "- [jev-risk-check-provider](https://github.com/caiovicentino/jev-risk-check-provider) ([site](https://x402check.xyz)) - X402 risk-check provider: signed pre-payment verdicts — OFAC, phishing feeds, transaction simulation, drainer-kit code, and our own EIP-7702 kit watch (poisoners, sweepers). $0.001 per check with prepaid credits; per call via x402 from $0.0035."
+        confidence: high
 metadata:
   github:
     stars: 9
@@ -102,7 +117,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.392Z"
+    updated_at: "2026-10-12T04:24:05.394Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,7 +127,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-08T04:16:21.682Z"
+    updated_at: "2026-10-12T04:24:11.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
