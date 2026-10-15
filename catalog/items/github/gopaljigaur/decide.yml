@@ -21,6 +21,68 @@ provenance:
         extracted_url: https://github.com/gopaljigaur/decide
         surrounding_text: "- [decide](https://github.com/gopaljigaur/decide) ([site](https://pypi.org/project/pydecide/)) - One client for every decision model: Choice, Score and Noul over Jev, OpenRouter, laya, MLX, CrossEncoders and LLM fallback."
         confidence: high
+    - id: discovery__github__gopaljigaur__decide__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: pydecide
+        extracted_url: https://github.com/gopaljigaur/decide
+        surrounding_text: "- [pydecide](https://github.com/gopaljigaur/decide) - One Python client for typed decisions (Choice, Score, Noul) over Jev, OpenRouter, OpenAI Decisions, Laya, MLX and cross-encoders, with a confidence-gated fallback chain. [Project guide](community/projects/tools/pydecide.md)."
+        confidence: high
+    - id: discovery__github__gopaljigaur__decide__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - SDK & Decision Frameworks
+        anchor_text: "**decide**"
+        extracted_url: https://github.com/gopaljigaur/decide
+        surrounding_text: "- [**decide**](https://github.com/gopaljigaur/decide) — pydecide is a Python client that calls Jev's /v1/systemone endpoint via TypeSafeBackend for typed decisions."
+        confidence: high
+    - id: discovery__github__gopaljigaur__decide__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: pydecide
+        extracted_url: https://github.com/gopaljigaur/decide
+        surrounding_text: "- [pydecide](https://github.com/gopaljigaur/decide) ![stars](https://img.shields.io/github/stars/gopaljigaur/decide?style=flat-square&label=%E2%98%85) - Python ecosystem: one client that sends the same typed Choice, Score and Noul questions to hosted Jev, OpenRouter, OpenAI's Decisions API, laya and laya-mlx, or any sentence-transformers reranker, walking an ordered fallback chain when a backend errors or answers a Choice or Noul question below a configured confidence threshold (Score answers are not gated, since there is no single confidence number for them), and recording on each response which backend answered and why; it also ships a client class matching `typesafe_sdk.TypeSafeClient`'s constructor and `system_one` call for existing code, without `response_model` or the per-call overrides, and a `/v1/systemone` server their SDK parses unchanged."
+        confidence: high
+    - id: discovery__github__gopaljigaur__decide__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs and developer tools
+        anchor_text: pydecide
+        extracted_url: https://github.com/gopaljigaur/decide
+        surrounding_text: "- [pydecide](https://github.com/gopaljigaur/decide) - Python client that sends one typed Choice, Score or Noul request down an ordered chain of backends (hosted Jev, OpenRouter, OpenAI's Decisions API, laya/laya-mlx, a CrossEncoder); code owns the order and the confidence thresholds at which a Choice or Noul answer escalates, and each response records which backend answered. Also ships a TypeSafeClient-compatible class and a /v1/systemone server."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -69,7 +131,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.458Z"
+    updated_at: "2026-10-15T04:14:39.158Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,7 +141,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.918Z"
+    updated_at: "2026-10-15T04:14:46.846Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

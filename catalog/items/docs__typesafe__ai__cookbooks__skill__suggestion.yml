@@ -52,17 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A technical cookbook demonstrating how to use decision models to rank and verify agent skills to optimize context window usage.
+  why_it_matters: It provides a pattern for managing large agent skill rosters without incurring the high token costs or 'context rot' of loading every description into the prompt.
+  mental_damage: It offers a highly optimized, multi-step way to ensure your agent makes the most mathematically sound decision about which mistake to make next.
+  tags:
+    - decision-models
+    - agent-workflows
+    - context-management
+    - cookbooks
+  confidence: high
 curation:
-  status: pending
-  reason: Jev reclassifier flagged as out-of-scope — needs human review
+  status: excluded
+  reason: The entry is a single instructional cookbook/documentation page rather than a standalone product, tool, or sustained curated resource.
   evidence:
-    - Jev classification confidence below inclusion threshold
-    - jev winnow:e4b 0.44 below gate 0.50; proposed out of scope; no placement kept (unverified)
+    - The URL is a specific documentation link to a cookbook (`/cookbooks/skill_suggestion`) rather than a tool repository or product site.
+    - The content describes a technical pattern and implementation strategy for using TypeSafe, not a discrete piece of software.
 placement:
   primary_category: null
   secondary_categories: []
@@ -81,15 +85,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-12T04:31:41.094Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for docs__typesafe__ai__cookbooks__skill__suggestion: ```json
-        {
-          "summary": "A technical cookbook demonstrating a two-step pattern for using decision models to rank and verify agent skills.",
-          "why_it_matters": "It provides a concrete architectural solution for managing large skill rosters without causing context rot or excessive token costs.",
-          "mental_damage": "Because apparently, managing context windows now requires a multi-stage probabilistic verification
+    status: done
+    updated_at: "2026-10-15T04:20:43.477Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:2a49a5ef12390b7c4f5fa6c89f1fc9cefce4ece5d57b80e63c2f7b85e0c622d0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The entry is a single instructional cookbook/documentation page rather than a standalone product, tool, or sustained curated resource.
+      decision_evidence:
+        - The URL is a specific documentation link to a cookbook (`/cookbooks/skill_suggestion`) rather than a tool repository or product site.
+        - The content describes a technical pattern and implementation strategy for using TypeSafe, not a discrete piece of software.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

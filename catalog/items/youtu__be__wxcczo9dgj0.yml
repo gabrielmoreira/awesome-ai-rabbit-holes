@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video with no accompanying metadata or description.
-  why_it_matters: ""
-  mental_damage: ""
+  summary: A YouTube video link with no provided descriptive metadata.
+  why_it_matters: Information is insufficient to determine relevance to the AI developer ecosystem.
+  mental_damage: Staring into the void of an unlabelled YouTube URL is the purest form of developer existential dread.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input provides only a YouTube URL with generic site context and no descriptive text, making it impossible to evaluate against the catalog scope.
+  reason: The input provides no substance or context regarding the video's content, making it impossible to evaluate against the catalog scope.
   evidence:
-    - Scraped site context is generic YouTube boilerplate
-    - Repo description and README are missing
+    - URL points to a YouTube video with no associated repo description
+    - Scraped site context contains only generic YouTube landing page text
+    - No README or project pitch provided
 placement:
   primary_category: null
   section: null
@@ -65,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:28:30.352Z"
+    updated_at: "2026-10-15T04:18:29.698Z"
     cause: null
-    attempts: 7
+    attempts: 8
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input provides only a YouTube URL with generic site context and no descriptive text, making it impossible to evaluate against the catalog scope.
+      decision_reason: The input provides no substance or context regarding the video's content, making it impossible to evaluate against the catalog scope.
       decision_evidence:
-        - Scraped site context is generic YouTube boilerplate
-        - Repo description and README are missing
+        - URL points to a YouTube video with no associated repo description
+        - Scraped site context contains only generic YouTube landing page text
+        - No README or project pitch provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -37,18 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
+  summary: No description available for this package.
+  why_it_matters: Unable to determine utility due to lack of documentation.
+  mental_damage: Attempting to evaluate a tool based on its name alone is the purest form of developer hallucination.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input lacks a description, README, or any scraped context, making it impossible to determine the product's function or relevance.
+  reason: The package lacks any descriptive metadata, README, or site context to verify its identity or usefulness within the catalog's scope.
   evidence:
-    - No repo description provided
+    - Repo description is empty
     - No README excerpt provided
-    - No scraped site context provided
+    - No scraped site context available
 placement:
   primary_category: null
   secondary_categories: []
@@ -68,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:28:22.182Z"
+    updated_at: "2026-10-15T04:19:02.359Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -81,11 +81,11 @@ processing:
       input_hash: sha256:db58b1ce4d9e37bd9c92d99ce3a8c62d7659afab5772c81247fa8fbb11f74f73
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input lacks a description, README, or any scraped context, making it impossible to determine the product's function or relevance.
+      decision_reason: The package lacks any descriptive metadata, README, or site context to verify its identity or usefulness within the catalog's scope.
       decision_evidence:
-        - No repo description provided
+        - Repo description is empty
         - No README excerpt provided
-        - No scraped site context provided
+        - No scraped site context available
       category_candidates: []
       contrastive_reason: null
       review_reason: null

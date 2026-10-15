@@ -67,6 +67,21 @@ provenance:
         extracted_url: https://github.com/luobosibing2/dsh-jev-plugin
         surrounding_text: "- **DeepSeek Harness** (4) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) · [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) · [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)"
         confidence: high
+    - id: discovery__github__luobosibing2__dsh-jev-plugin__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agents, coding, and guardrails
+        anchor_text: dsh-jev-plugin
+        extracted_url: https://github.com/luobosibing2/dsh-jev-plugin
+        surrounding_text: "- [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - DeepSeek Harness plugin where Jev Noul probabilities rank skill summaries and glob path results before DSH shows them, with opt-in supervision, completion-check, tool-output filtering and single-operation approval judgments; every feature is off by default and the main DSH model still plans and calls tools."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -101,7 +116,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-12T04:24:05.393Z"
+    updated_at: "2026-10-15T04:14:39.158Z"
     cause: null
     next_retry_at: null
   stars:
@@ -110,7 +125,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.920Z"
+    updated_at: "2026-10-15T04:14:46.848Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

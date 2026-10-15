@@ -36,6 +36,22 @@ provenance:
         extracted_url: https://github.com/charlyhno-eng/jev-codex-pilot
         surrounding_text: "- [**jev-codex-pilot**](https://github.com/Charlyhno-eng/jev-codex-pilot) — A Codex overlay incorporating JEV to make the best decisions regarding model selection and depth of reasoning. All while automating the process via an automated Kanban system."
         confidence: high
+    - id: discovery__github__charlyhno-eng__jev-codex-pilot__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: JEV Codex Pilot
+        extracted_url: https://github.com/charlyhno-eng/jev-codex-pilot
+        surrounding_text: "- [JEV Codex Pilot](https://github.com/Charlyhno-eng/jev-codex-pilot) - Local Codex Kanban workspace with Jev-model routing, contextual compaction, and ticket lifecycle control. [Project guide](community/projects/tools/jev-codex-pilot.md)."
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -80,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.411Z"
+    updated_at: "2026-10-15T04:14:39.159Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +106,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.917Z"
+    updated_at: "2026-10-15T04:14:46.844Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

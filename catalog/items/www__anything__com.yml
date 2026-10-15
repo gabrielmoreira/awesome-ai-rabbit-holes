@@ -36,17 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A domain name with no provided description, context, or functionality.
-  why_it_matters: N/A
-  mental_damage: N/A
+  summary: An unknown project with no provided description or metadata.
+  why_it_matters: It is impossible to determine if this tool provides any utility to a developer workflow.
+  mental_damage: Searching for substance in a metadata-less void is the ultimate test of developer patience.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Insufficient information was provided to determine if this project falls within the catalog's scope.
+  reason: Insufficient data provided to identify the tool's function or determine its relevance to the catalog.
   evidence:
-    - No repository description provided
-    - No README excerpt or scraped site context available
+    - No repo description provided
+    - No README or site context available
 placement:
   primary_category: null
   section: null
@@ -65,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:29:13.654Z"
+    updated_at: "2026-10-15T04:19:17.565Z"
     cause: null
-    attempts: 8
+    attempts: 9
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +78,10 @@ processing:
       input_hash: sha256:88c41076954bdaef0a239bc9b81747f9220f9aea6d39bea022af6630f94e9b97
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient information was provided to determine if this project falls within the catalog's scope.
+      decision_reason: Insufficient data provided to identify the tool's function or determine its relevance to the catalog.
       decision_evidence:
-        - No repository description provided
-        - No README excerpt or scraped site context available
+        - No repo description provided
+        - No README or site context available
       category_candidates: []
       contrastive_reason: null
       review_reason: null

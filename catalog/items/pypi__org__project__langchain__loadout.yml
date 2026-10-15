@@ -36,26 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: langchain-loadout is a PyPI package with no discernible description or activity, making its purpose unclear.
-  why_it_matters: It does not provide any clear developer value or workflow improvement based on available evidence.
-  mental_damage: Yet another abandoned PyPI ghost that haunts dependency resolvers with false hope.
-  tags: []
-  confidence: low
+  summary: A Python integration package for bringing the Jev decision model into LangChain workflows.
+  why_it_matters: It enables developers to incorporate probabilistic, typed decision-making into LangChain-based agentic pipelines.
+  mental_damage: Because clearly, your generative agentic workflows weren't probabilistic or typed enough already.
+  tags:
+    - langchain
+    - jev
+    - decision-models
+    - integration
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks any discernible identity, functionality, or activity to determine its purpose or fit within the catalog scope.
+  status: included
+  reason: As a LangChain integration for the Jev decision model, the tool's identity is tied to facilitating decision-model judgments within an existing framework.
   evidence:
-    - No repo description, README, or homepage is available to define what the tool does.
-    - The PyPI page shows no meaningful description, and scraped site context only displays a generic loading error.
-    - No stars, creation, or push dates are known, and it is not listed in any reputable source lists with clear context.
+    - PyPI package name indicates a LangChain integration
+    - Included in the awesome-jev directory specifically under the Integrations section
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories:
     - ai-frameworks
-  section: null
+  section: Framework & SDK Integrations
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -67,30 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-12T04:40:30.257Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for pypi__org__project__langchain__loadout: Invalid AI response structure: Missing required field: summary"
+    status: done
+    updated_at: "2026-10-15T04:22:47.279Z"
+    cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:bf038b84dc6e50c2bc810501851fc9d2aece29e7868a4857fa828a3bec08da08
-      proposed_primary_category: null
+      proposed_primary_category: decision-models
       disagreement: false
-      decision_reason: The project lacks any discernible identity, functionality, or activity to determine its purpose or fit within the catalog scope.
+      decision_reason: As a LangChain integration for the Jev decision model, the tool's identity is tied to facilitating decision-model judgments within an existing framework.
       decision_evidence:
-        - No repo description, README, or homepage is available to define what the tool does.
-        - The PyPI page shows no meaningful description, and scraped site context only displays a generic loading error.
-        - No stars, creation, or push dates are known, and it is not listed in any reputable source lists with clear context.
-      category_candidates: []
-      contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
-    attempts: 2
+        - PyPI package name indicates a LangChain integration
+        - Included in the awesome-jev directory specifically under the Integrations section
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's purpose is specifically to enable decision-model capabilities, making the decision layer its primary identity.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

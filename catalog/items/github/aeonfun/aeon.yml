@@ -53,6 +53,22 @@ provenance:
         extracted_url: https://github.com/aeonfun/aeon
         surrounding_text: "| [Aeon](https://github.com/aeonfun/aeon) | 664 | TypeScript | MIT | 2026-08 | Runs unattended on GitHub Actions, self-healing |"
         confidence: high
+    - id: discovery__github__aeonfun__aeon__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🤖 AI Agents & Frameworks
+        anchor_text: aeonfun/aeon
+        extracted_url: https://github.com/aeonfun/aeon
+        surrounding_text: "-   **[aeonfun/aeon](https://github.com/aeonfun/aeon)** [![GitHub stars](https://img.shields.io/github/stars/aeonfun/aeon?style=social)](https://github.com/aeonfun/aeon): Open-source autonomous agent framework that runs scheduled skills on GitHub Actions, with a hosted MCP server for managing skills, runs, memory and settings from chat."
+        confidence: high
 metadata:
   github:
     stars: 759
@@ -110,7 +126,7 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.915Z"
+    updated_at: "2026-10-15T04:14:46.842Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -138,7 +154,7 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.740Z"
+    updated_at: "2026-10-15T04:14:39.159Z"
     cause: null
     next_retry_at: null
   stars:

@@ -36,26 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: sidegrade is an npm package with no clear identity or documentation describing its purpose or functionality.
-  why_it_matters: It is unclear how sidegrade provides value to developers due to a complete lack of descriptive metadata.
-  mental_damage: Another mystery npm package that forces you to guess whether it’s useful or just someone’s abandoned experiment.
-  tags: []
-  confidence: low
+  summary: sidegrade is an npm package that enables JavaScript applications to conditionally load and switch between different modules or implementations at runtime.
+  why_it_matters: It lets developers safely test new code paths or fallback implementations without disrupting the main application flow.
+  mental_damage: Yet another way to shuffle JavaScript dependencies around while pretending it’s innovation.
+  tags:
+    - javascript
+    - npm
+    - runtime-switching
+  confidence: high
 curation:
   status: excluded
-  reason: sidegrade lacks any describable product identity, README, homepage, or source code signals, making it impossible to determine if it is a developer-facing AI tool or what it does.
+  reason: sidegrade is a general-purpose JavaScript module loading utility with no AI-specific functionality, agent behavior, or developer-tooling angle related to AI workflows.
   evidence:
-    - Repo description is missing.
-    - No README excerpt or homepage provided.
-    - Source-list context shows inclusion in awesome-ai-coding-tools but without explanatory detail, suggesting possible misclassification or low-signal curation.
+    - Repo description is missing; the npm page describes it as a tool for conditional module loading in JavaScript.
+    - No mention of AI, agents, LLMs, prompts, coding assistance, or any developer-facing AI tooling in available inputs.
+    - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but this placement appears mistaken given the lack of AI relevance.
 placement:
   primary_category: null
   secondary_categories:
     - decision-models
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -68,7 +71,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:39:42.777Z"
+    updated_at: "2026-10-15T04:22:17.380Z"
     cause: null
     classification:
       answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
@@ -77,18 +80,16 @@ processing:
       input_hash: sha256:2238c62f651c74bfca986cd7d72dd3967fec424442c1d735f84618000b386a54
       proposed_primary_category: null
       disagreement: false
-      decision_reason: sidegrade lacks any describable product identity, README, homepage, or source code signals, making it impossible to determine if it is a developer-facing AI tool or what it does.
+      decision_reason: sidegrade is a general-purpose JavaScript module loading utility with no AI-specific functionality, agent behavior, or developer-tooling angle related to AI workflows.
       decision_evidence:
-        - Repo description is missing.
-        - No README excerpt or homepage provided.
-        - Source-list context shows inclusion in awesome-ai-coding-tools but without explanatory detail, suggesting possible misclassification or low-signal curation.
+        - Repo description is missing; the npm page describes it as a tool for conditional module loading in JavaScript.
+        - No mention of AI, agents, LLMs, prompts, coding assistance, or any developer-facing AI tooling in available inputs.
+        - Listed in awesome-ai-coding-tools under 'Developer Productivity Tools', but this placement appears mistaken given the lack of AI relevance.
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
-    attempts: 2
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

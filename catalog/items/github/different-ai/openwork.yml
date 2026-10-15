@@ -22,6 +22,38 @@ provenance:
         extracted_url: https://github.com/different-ai/openwork
         surrounding_text: "- **[OpenWork](https://github.com/different-ai/openwork)** `⭐ 14.7k` — Open-source alternative to Claude Cowork for teams; local-first desktop app powered by OpenCode with one-click setup. MIT."
         confidence: high
+    - id: discovery__github__different-ai__openwork__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Agent tooling (236)
+        anchor_text: openwork
+        extracted_url: https://github.com/different-ai/openwork
+        surrounding_text: "| [openwork](https://github.com/different-ai/openwork) | ★ 23,654 | TypeScript | 2026-09-19 | Open-source Claude Cowork alternative whose eval testkit can use Jev as a typed verification judge for agent-produced work. |"
+        confidence: high
+    - id: discovery__github__different-ai__openwork__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Verification & Guardrails
+        anchor_text: OpenWork
+        extracted_url: https://github.com/different-ai/openwork
+        surrounding_text: "- [OpenWork](https://github.com/different-ai/openwork) ![stars](https://img.shields.io/github/stars/different-ai/openwork?style=flat-square&label=%E2%98%85) - Engineering workflow: wires Jev into its eval testkit as a verification judge so agent-produced work is gated by typed verdicts rather than a text model."
+        confidence: high
 metadata:
   github:
     stars: 23824
@@ -65,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.611Z"
+    updated_at: "2026-10-15T04:14:39.160Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,7 +107,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.917Z"
+    updated_at: "2026-10-15T04:14:46.845Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

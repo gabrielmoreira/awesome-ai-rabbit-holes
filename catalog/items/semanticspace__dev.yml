@@ -37,20 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: "SemanticSpace - Semantic mapping: places phrases in 2D by asking Jev how strongly each one relates to two chosen axis concepts and using those scores as coordinates."
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: SemanticSpace is a web tool that maps words or phrases onto a 2D semantic map using typed judgments from the Jev decision model based on two user-defined concept axes.
+  why_it_matters: It lets developers explore and visualize how language models associate concepts, useful for prompt design or understanding model biases.
+  mental_damage: Another fun toy that reveals how little we actually know about what these models are thinking.
+  tags:
+    - decision-model
+    - embedding
+    - visualization
+  confidence: high
 curation:
   status: included
-  reason: Jev decision-model reclassifier placed this item in decision-models / Search, Retrieval & Data
+  reason: The product's core identity is the Jev decision model providing typed judgments; it is not a coding agent, app builder, or general infrastructure.
   evidence:
-    - jev-latest choice confidence 0.74
+    - Scraped site describes Jev as an AI model from TypeSafe AI that judges where phrases fall on user-defined concept axes from 0 to 100.
+    - The tool reads phrases and returns scores on two axes, reflecting the model's opinion, not generating text or performing coding tasks.
+    - Source-list context links to semanticspace.dev under 'Adaptive & Realtime UI' in awesome-jev, indicating association with Jev-based tools.
 placement:
   primary_category: decision-models
   secondary_categories: []
-  section: Search, Retrieval & Data
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
@@ -65,16 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-12T04:42:44.360Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for semanticspace__dev: ```json
-        {
-          "summary": "An interactive visualization tool that maps semantic embeddings onto human-readable axes using the Jev decision model.",
-          "why_it_matters": "It provides a way to make high-dimensional, anonymous vector spaces interpretable by replacing mathematical dimensions with user-defined conceptual axes.",
-          "mental_damage": "Because understanding a 1,536-dimensional vector space was too much work, we've opted to have a model assign a specific score to exactly how 'dangerous' a shark is.",
-          "tags": [
+    status: done
+    updated_at: "2026-10-15T04:22:38.861Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:0e1c486bb78f94086c92a9a20e9fb65085abd52de71122a067406ff02108a630
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is the Jev decision model providing typed judgments; it is not a coding agent, app builder, or general infrastructure.
+      decision_evidence:
+        - Scraped site describes Jev as an AI model from TypeSafe AI that judges where phrases fall on user-defined concept axes from 0 to 100.
+        - The tool reads phrases and returns scores on two axes, reflecting the model's opinion, not generating text or performing coding tasks.
+        - Source-list context links to semanticspace.dev under 'Adaptive & Realtime UI' in awesome-jev, indicating association with Jev-based tools.
+      category_candidates:
+        - decision-models
+        - memory-and-context
+      contrastive_reason: Choose decision-models over memory-and-context because the product's identity is the decision model returning typed scores, not persistent memory, retrieval, or context-shaping infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

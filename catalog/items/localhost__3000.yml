@@ -37,17 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
-  tags: []
+  summary: The provided input is a local development loopback address rather than a software project or AI tool.
+  why_it_matters: N/A
+  mental_damage: "The ultimate developer rabbit hole: an infinite void where the only thing running is your own uncommitted code."
+  tags:
+    - localhost
   confidence: high
 curation:
   status: excluded
-  reason: The input is a local development server address (localhost:3000) rather than a software project or AI tool.
+  reason: The input refers to a local network address (localhost:3000) and contains no repository description, README, or metadata identifying it as a tool within the catalog's scope.
   evidence:
-    - The name and URL refer to a standard local loopback address
-    - No repo description, README, or metadata provided
+    - Name is a local loopback address
+    - No repo description or README provided
+    - No stars or activity signals
 placement:
   primary_category: null
   section: null
@@ -66,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:28:54.032Z"
+    updated_at: "2026-10-15T04:18:53.084Z"
     cause: null
-    attempts: 8
+    attempts: 9
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,10 +81,11 @@ processing:
       input_hash: sha256:4bc0bce0f56e3651302e709ee0284e81d65b804d2c35a466fea4075a6e8d906f
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a local development server address (localhost:3000) rather than a software project or AI tool.
+      decision_reason: The input refers to a local network address (localhost:3000) and contains no repository description, README, or metadata identifying it as a tool within the catalog's scope.
       decision_evidence:
-        - The name and URL refer to a standard local loopback address
-        - No repo description, README, or metadata provided
+        - Name is a local loopback address
+        - No repo description or README provided
+        - No stars or activity signals
       category_candidates: []
       contrastive_reason: null
       review_reason: null

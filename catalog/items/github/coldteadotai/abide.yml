@@ -38,6 +38,22 @@ provenance:
         extracted_url: https://github.com/coldteadotai/abide
         surrounding_text: "- [Abide](https://github.com/coldteadotai/abide) ![stars](https://img.shields.io/github/stars/coldteadotai/abide?style=flat-square&label=%E2%98%85) - Agent supervision: reads every edit a coding agent makes and has Jev flag rule violations, with the project reporting that an independent reviewer confirmed 10 of the 39 flagged edits and 11 of the 15 flagged turns."
         confidence: high
+    - id: discovery__github__coldteadotai__abide__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Abide
+        extracted_url: https://github.com/coldteadotai/abide
+        surrounding_text: "- [Abide](https://github.com/coldteadotai/abide) - Enforce AGENTS.md/CLAUDE.md rules on every coding-agent edit/turn with TypeSafe Jev (or Vercel AI Gateway) per-rule probabilities on diffs. [Project guide](community/projects/tools/abide.md)."
+        confidence: high
 metadata:
   github:
     stars: 511
@@ -89,7 +105,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.411Z"
+    updated_at: "2026-10-15T04:14:39.160Z"
     cause: null
     next_retry_at: null
   stars:
@@ -99,7 +115,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.917Z"
+    updated_at: "2026-10-15T04:14:46.844Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

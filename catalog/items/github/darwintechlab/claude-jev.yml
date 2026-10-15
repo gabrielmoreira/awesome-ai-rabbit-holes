@@ -22,6 +22,36 @@ provenance:
         extracted_url: https://github.com/darwintechlab/claude-jev
         surrounding_text: "- [claude-jev (darwintechlab)](https://github.com/darwintechlab/claude-jev) - Claude Code plugin/MCP for live TypeSafe Jev Choice/Noul/Score tools with confidence auto/escalate labels. [Project guide](community/projects/tools/darwintechlab-claude-jev.md)."
         confidence: high
+    - id: discovery__github__darwintechlab__claude-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: claude-jev (darwintechlab)
+        extracted_url: https://github.com/darwintechlab/claude-jev
+        surrounding_text: "- [claude-jev (darwintechlab)](https://github.com/darwintechlab/claude-jev) - Jev System One for Claude Code — typed Choice/Noul/Score via live TypeSafe API (mirror of opencode-openjev, live-only MCP)."
+        confidence: high
+    - id: discovery__github__darwintechlab__claude-jev__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: "**claude-jev**"
+        extracted_url: https://github.com/darwintechlab/claude-jev
+        surrounding_text: "- [**claude-jev**](https://github.com/darwintechlab/claude-jev) — Jev System One for Claude Code — typed Choice/Noul/Score via live TypeSafe API (mirror of opencode-openjev, live-only MCP)"
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -60,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.454Z"
+    updated_at: "2026-10-15T04:14:39.160Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +100,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.917Z"
+    updated_at: "2026-10-15T04:14:46.845Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

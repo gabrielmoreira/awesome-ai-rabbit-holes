@@ -37,23 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: jev-mice is a personal or experimental project hosted at mice.jev.carsonsweet.com with no clear description or developer-facing tooling identity.
-  why_it_matters: It is unclear what functional value this provides to software developers based on the available inputs.
-  mental_damage: Another enigmatic URL in the AI wilderness that promises nothing and delivers even less, leaving developers to wonder if they missed a memo.
-  tags: []
-  confidence: high
+  summary: A simulation or game built using the Jev decision model to demonstrate typed-decision behavior.
+  why_it_matters: It provides a visual, interactive way to observe how non-autoregressive models make constrained, probabilistic judgments in a simulated environment.
+  mental_damage: Watching a simulation of mice behave predictably is a stark contrast to the existential dread of watching a non-deterministic coding agent delete your entire /src folder.
+  tags:
+    - jev
+    - decision-models
+    - simulation
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks any discernible identity as a developer tool, agent, framework, or infrastructure component; it appears to be a personal site with no documented functionality.
+  status: included
+  reason: It is an application/simulation that serves to demonstrate the capabilities and behaviors of the Jev decision model ecosystem.
   evidence:
-    - Repo description is missing
-    - README excerpt is not provided
-    - Scraped site context only shows title 'jev-mice' with no description
-    - Source-list placement is in a 'Game & Simulation' section under an awesome list, indicating non-tool content
+    - Source list context links the project to the 'jev' ecosystem
+    - Categorized under 'Game & Simulation' in the source list
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Apps, Games & Simulation
 lifecycle:
   status: curated
   reason: null
@@ -68,42 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-12T04:38:05.387Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for mice__jev__carsonsweet__com: ```json
-        {
-          "summary": "Interactive simulation powered by Jev (TypeSafe System One) decision-model logic.",
-          "why_it_matters": "Provides a visual sandbox to observe how typed-decision models operate in agentic environments.",
-          "mental_damage": "It's much easier to debug the logic of simulated mice than the logic of our own production agents.",
-          "tags": ["jev", "decision-models", "simulation"],
-          "should_include": true,
-          "primary_category": "decision-models",
-          "section": "Apps, Games & Simulation",
-          "decision_reason": "It is a simulation that leverages Jev decision-model judgments as its core identity, fitting the specific 'Apps, Games & Simulation' section of the decision-models category.",
-          "decision_evidence": [
-            "Source list categorizes it under 'Game & Simulation'",
-            "URL and title link it directly to the Jev decision-model ecosystem"
+    status: done
+    updated_at: "2026-10-15T04:21:36.883Z"
+    cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:7cfc3b2ee2ab0b7a5e3ef4ccac2d9c6814783e640bac7a40ac2f3ca8c891932f
-      proposed_primary_category: null
+      proposed_primary_category: decision-models
       disagreement: false
-      decision_reason: The project lacks any discernible identity as a developer tool, agent, framework, or infrastructure component; it appears to be a personal site with no documented functionality.
+      decision_reason: It is an application/simulation that serves to demonstrate the capabilities and behaviors of the Jev decision model ecosystem.
       decision_evidence:
-        - Repo description is missing
-        - README excerpt is not provided
-        - Scraped site context only shows title 'jev-mice' with no description
-        - Source-list placement is in a 'Game & Simulation' section under an awesome list, indicating non-tool content
-      category_candidates: []
-      contrastive_reason: null
+        - Source list context links the project to the 'jev' ecosystem
+        - Categorized under 'Game & Simulation' in the source list
+      category_candidates:
+        - decision-models
+        - coding-agents
+      contrastive_reason: Choose decision-models over coding-agents because the project's identity is a simulation of model-driven judgment rather than an autonomous agent for software development.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

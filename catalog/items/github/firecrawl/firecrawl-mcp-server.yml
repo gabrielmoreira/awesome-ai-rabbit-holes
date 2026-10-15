@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/firecrawl/firecrawl-mcp-server
         surrounding_text: "- [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) [![firecrawl/firecrawl-mcp-server MCP server](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/firecrawl/firecrawl-mcp-server) 🎖️ 📇 ☁️ 🏠 - Official Firecrawl server with live browser interaction (`firecrawl_interact`) — navigate, click, type, and scroll on a page before extraction, for JS-heavy or auth-gated sites. Also scrape, crawl, map, search, and extract."
         confidence: high
+    - id: discovery__github__firecrawl__firecrawl-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🔎 Search
+        anchor_text: firecrawl/firecrawl-mcp-server
+        extracted_url: https://github.com/firecrawl/firecrawl-mcp-server
+        surrounding_text: "-   **[firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/firecrawl/firecrawl-mcp-server?style=social)](https://github.com/firecrawl/firecrawl-mcp-server): Firecrawl MCP server for web search, scraping, crawling and site mapping, returning clean markdown or structured data."
+        confidence: high
 metadata:
   github:
     stars: 7537
@@ -94,7 +110,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.713Z"
+    updated_at: "2026-10-15T04:14:39.161Z"
     cause: null
     next_retry_at: null
   stars:
@@ -104,7 +120,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.918Z"
+    updated_at: "2026-10-15T04:14:46.845Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

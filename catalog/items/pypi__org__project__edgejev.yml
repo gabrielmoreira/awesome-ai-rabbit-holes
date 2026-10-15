@@ -36,22 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: edgejev is a Python package on PyPI with no discernible developer-facing functionality or description.
-  why_it_matters: It does not appear to solve any developer workflow problem or provide tooling for software development.
-  mental_damage: Another PyPI placeholder that wastes bandwidth searching for meaning in a void of documentation.
-  tags: []
-  confidence: high
+  summary: A Python package for interacting with the Jev decision model.
+  why_it_matters: Enables developers to integrate Jev's System One model capabilities—such as classification, routing, and scoring—into their Python applications.
+  mental_damage: Another layer of abstraction to help you turn probabilistic uncertainty into a strictly typed Python exception.
+  tags:
+    - python
+    - jev
+    - decision-models
+    - sdk
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks any identifiable purpose, functionality, or developer-facing value; it appears to be an empty or broken package with no README, description, or usable interface.
+  status: included
+  reason: As a PyPI package associated with the Jev ecosystem, it serves as a client SDK for calling decision-model judgments.
   evidence:
-    - Repo description is missing
-    - Scraped site shows only a browser error message about failed loading
-    - No homepage, README, or source code context is provided to determine functionality
+    - Listed in 'awesome-jev' as a project built on TypeSafe AI's System One model
+    - Distributed via PyPI as a Python package
 placement:
-  primary_category: null
+  primary_category: decision-models
   secondary_categories: []
-  section: null
+  section: Client SDKs & CLIs
 lifecycle:
   status: curated
   reason: null
@@ -67,25 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:39:49.679Z"
+    updated_at: "2026-10-15T04:22:01.412Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:0dd598fabc7ec7387218a2c78a6588329edb900d0cb9bc464e0d3a184bb2be9b
-      proposed_primary_category: null
+      proposed_primary_category: decision-models
       disagreement: false
-      decision_reason: The project lacks any identifiable purpose, functionality, or developer-facing value; it appears to be an empty or broken package with no README, description, or usable interface.
+      decision_reason: As a PyPI package associated with the Jev ecosystem, it serves as a client SDK for calling decision-model judgments.
       decision_evidence:
-        - Repo description is missing
-        - Scraped site shows only a browser error message about failed loading
-        - No homepage, README, or source code context is provided to determine functionality
-      category_candidates: []
-      contrastive_reason: null
+        - Listed in 'awesome-jev' as a project built on TypeSafe AI's System One model
+        - Distributed via PyPI as a Python package
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the product's identity is specifically centered on the Jev decision-model ecosystem and its typed-question interface.
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

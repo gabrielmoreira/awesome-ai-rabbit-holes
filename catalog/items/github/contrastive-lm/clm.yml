@@ -38,6 +38,22 @@ provenance:
         extracted_url: https://github.com/contrastive-lm/clm
         surrounding_text: "- [CLM](https://github.com/Contrastive-LM/CLM) ![stars](https://img.shields.io/github/stars/Contrastive-LM/CLM?style=flat-square&label=%E2%98%85) - Open alternative: an 8B System One model that answers the same `Choice` and `Noul` questions behind a TypeSafe-compatible API, matching Jev across computer-use, gaming and tool-calling with up to 9x lower latency and reporting 87.6% on Terminal-Bench 2.1 as a fine-tuned verifier."
         confidence: high
+    - id: discovery__github__contrastive-lm__clm__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: CLM (Contrastive Language Models)
+        extracted_url: https://github.com/contrastive-lm/clm
+        surrounding_text: "- [CLM (Contrastive Language Models)](https://github.com/Contrastive-LM/CLM) - Independent open System One model (CLM-8B: Qwen3-8B embeddings plus a small contrastive state/action head) served behind a TypeSafe-compatible `POST /v1/systemone`, so Jev-style requests replay unchanged; not affiliated with TypeSafe. [Project guide](community/projects/tools/contrastive-lm.md)."
+        confidence: high
 metadata:
   github:
     stars: 2732
@@ -76,7 +92,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.412Z"
+    updated_at: "2026-10-15T04:14:39.160Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +102,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.917Z"
+    updated_at: "2026-10-15T04:14:46.844Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

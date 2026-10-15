@@ -36,6 +36,22 @@ provenance:
         extracted_url: https://github.com/cobusgreyling/jev
         surrounding_text: "- [**Jev**](https://github.com/cobusgreyling/Jev) — Unofficial TypeSafe Jev showcase — System One decisions, not chat."
         confidence: high
+    - id: discovery__github__cobusgreyling__jev__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-15T04:14:39.157Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: Jev Showcase
+        extracted_url: https://github.com/cobusgreyling/jev
+        surrounding_text: "- [Jev Showcase](https://github.com/cobusgreyling/Jev) ![stars](https://img.shields.io/github/stars/cobusgreyling/Jev?style=flat-square&label=%E2%98%85) - Pattern gallery: a runnable app with four agent skills that put `Choice`, `Score` and `Noul` next to parallel fan-out, a router and a guardrail in one codebase."
+        confidence: high
 metadata:
   github:
     stars: 130
@@ -79,7 +95,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.411Z"
+    updated_at: "2026-10-15T04:14:39.159Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,7 +105,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-12T04:24:11.917Z"
+    updated_at: "2026-10-15T04:14:46.844Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -66,10 +66,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-10-12T04:30:29.972Z"
-    cause: null
-    attempts: 7
+    status: deferred
+    updated_at: "2026-10-15T04:19:43.029Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for pypi__org__project__calcnook: Invalid AI response structure: Missing required field: summary"
+    attempts: 8
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

@@ -37,17 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A commercial website providing business or financial services.
-  why_it_matters: N/A
-  mental_damage: N/A
+  summary: A commercial website for FD Commercial.
+  why_it_matters: This site does not appear to be a developer tool or related to AI.
+  mental_damage: Attempting to find a hidden AI agent in every commercial URL is a one-way ticket to a hallucination.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided information identifies this as a commercial service website rather than a developer-facing AI tool, framework, or resource.
+  reason: The project lacks any evidence of being a developer-facing AI tool and appears to be a standard commercial website.
   evidence:
-    - No repository description or README content provided
-    - No evidence of AI, software infrastructure, or developer-tooling utility
+    - No repo description or README provided
+    - No metadata suggests developer tooling or AI relevance
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-12T04:24:59.690Z"
+    updated_at: "2026-10-15T04:15:38.495Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -80,10 +80,10 @@ processing:
       input_hash: sha256:f482f45a2af15ee800626d65b8dbad2517da10d62be92263d471248279d54601
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided information identifies this as a commercial service website rather than a developer-facing AI tool, framework, or resource.
+      decision_reason: The project lacks any evidence of being a developer-facing AI tool and appears to be a standard commercial website.
       decision_evidence:
-        - No repository description or README content provided
-        - No evidence of AI, software infrastructure, or developer-tooling utility
+        - No repo description or README provided
+        - No metadata suggests developer tooling or AI relevance
       category_candidates: []
       contrastive_reason: null
       review_reason: null
