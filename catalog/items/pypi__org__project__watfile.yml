@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Watfile is a PyPI-published Python library whose purpose is not described in any available inputs.
-  why_it_matters: Without a clear description, it is impossible to determine what specific developer workflow or problem watfile addresses.
-  mental_damage: Another nameless package on PyPI that forces you to guess whether it's useful or just another dependency graveyard entry.
+  summary: N/A
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: Watfile lacks any describable functionality, purpose, or developer-facing value in the provided inputs, making it impossible to assess fit within the catalog's scope.
+  reason: The project lacks sufficient information, including a description, README, or functional website, to determine its utility or relevance to the catalog's scope.
   evidence:
-    - Repo description is missing.
-    - README excerpt is not provided.
-    - Scraped site context shows only a generic error page with no project-specific content.
+    - No repository description or README provided in the inputs
+    - Scraped site context returned a browser loading error instead of project content
+    - PyPI metadata is missing a description
 placement:
   primary_category: null
   secondary_categories: []
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -67,27 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-15T04:22:29.587Z"
+    updated_at: "2026-10-19T04:39:05.378Z"
     cause: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:708dc09a131fca397fb0411994e14f1662380e305ac8db182b923a7c464b7dad
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Watfile lacks any describable functionality, purpose, or developer-facing value in the provided inputs, making it impossible to assess fit within the catalog's scope.
+      decision_reason: The project lacks sufficient information, including a description, README, or functional website, to determine its utility or relevance to the catalog's scope.
       decision_evidence:
-        - Repo description is missing.
-        - README excerpt is not provided.
-        - Scraped site context shows only a generic error page with no project-specific content.
+        - No repository description or README provided in the inputs
+        - Scraped site context returned a browser loading error instead of project content
+        - PyPI metadata is missing a description
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
-    attempts: 3
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

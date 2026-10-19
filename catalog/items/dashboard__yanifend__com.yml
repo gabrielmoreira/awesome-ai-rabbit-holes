@@ -37,18 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A dashboard website for an entity called Yanifend with no technical description provided.
-  why_it_matters: There is no information available to determine if this tool has any utility for a software developer's workflow.
-  mental_damage: The tagline 'we're listening you' suggests the only thing being captured here is your mounting sense of confusion.
+  summary: A dashboard for Yanifend.
+  why_it_matters: Unknown due to lack of documentation.
+  mental_damage: The existential dread of reviewing a project that exists entirely in the metadata void.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project provides no description, README, or context that links it to AI, coding, or developer-facing infrastructure.
+  reason: The project provides no technical description, README, or context to determine if it is a developer tool or falls within the catalog's scope.
   evidence:
-    - No repository description or README provided
-    - Scraped site title 'Yanifend - we're listening you' lacks any developer-tooling context
-    - No functional information or product identity is established
+    - No repository description or README content provided
+    - Scraped site title 'Yanifend - we're listening you' provides no technical or functional context
 placement:
   primary_category: null
   secondary_categories: []
@@ -68,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-15T04:15:46.564Z"
+    updated_at: "2026-10-19T04:33:43.582Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -81,11 +80,10 @@ processing:
       input_hash: sha256:a0a10194dbe3f459114ea63f6fea641f85d5576587063b4660eb3768852b6424
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project provides no description, README, or context that links it to AI, coding, or developer-facing infrastructure.
+      decision_reason: The project provides no technical description, README, or context to determine if it is a developer tool or falls within the catalog's scope.
       decision_evidence:
-        - No repository description or README provided
-        - Scraped site title 'Yanifend - we're listening you' lacks any developer-tooling context
-        - No functional information or product identity is established
+        - No repository description or README content provided
+        - Scraped site title 'Yanifend - we're listening you' provides no technical or functional context
       category_candidates: []
       contrastive_reason: null
       review_reason: null

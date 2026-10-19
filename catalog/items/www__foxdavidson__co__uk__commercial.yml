@@ -37,17 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A commercial landing page for Fox Davidson.
-  why_it_matters: This link does not provide a developer tool, AI framework, or relevant resource for the catalog.
-  mental_damage: Another dead end in the search for actual utility.
+  summary: A commercial services page for Fox Davidson.
+  why_it_matters: This link provides no developer-facing AI tools, frameworks, or curated resources.
+  mental_damage: The existential dread of an automated reviewer that cannot distinguish between a software product and a consultant's landing page.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input contains no evidence of being an AI developer tool, agent, or framework, appearing instead to be a standard commercial services page.
+  reason: The input is a personal commercial services page rather than an AI developer tool, framework, or curated resource.
   evidence:
-    - No repo description or README provided to establish technical substance
-    - URL points to a commercial page on a personal or agency website
+    - The URL points to a personal professional services page
+    - There is no repository description, README, or technical content provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-15T04:15:55.122Z"
+    updated_at: "2026-10-19T04:33:59.840Z"
     cause: null
-    attempts: 7
+    attempts: 8
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,10 +79,10 @@ processing:
       input_hash: sha256:252fad083dbf7d25bba0f0e688f7f99eb8b52dc6be5e6c1766f69a74a73683ab
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input contains no evidence of being an AI developer tool, agent, or framework, appearing instead to be a standard commercial services page.
+      decision_reason: The input is a personal commercial services page rather than an AI developer tool, framework, or curated resource.
       decision_evidence:
-        - No repo description or README provided to establish technical substance
-        - URL points to a commercial page on a personal or agency website
+        - The URL points to a personal professional services page
+        - There is no repository description, README, or technical content provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -65,10 +65,15 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-10-15T04:19:53.676Z"
-    cause: null
-    attempts: 8
+    status: deferred
+    updated_at: "2026-10-19T04:38:21.850Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for avanz__ai: ```json
+        {
+          "summary": "An autonomous
+    attempts: 9
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

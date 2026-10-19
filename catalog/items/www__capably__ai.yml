@@ -36,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: N/A
-  why_it_matters: N/A
-  mental_damage: N/A
-  tags: []
+  summary: Capably.ai is a no-code AI agent builder for business workflows and automation.
+  why_it_matters: It lets developers and non-technical users create AI-powered workflows without writing code.
+  mental_damage: Another drag-and-drop AI workflow tool promising enterprise automation while quietly rekindling the dream of replacing developers with prompts.
+  tags:
+    - no-code
+    - ai-agents
+    - workflow-automation
   confidence: high
 curation:
   status: excluded
-  reason: The submission lacks any descriptive content, README, or scraped context, making it impossible to determine if the tool is relevant to the software developer scope.
+  reason: Capably.ai is a no-code platform for building AI agents to automate business tasks, not a developer-facing AI tool for coding, editing, or software development workflows.
   evidence:
-    - Repo description is empty
-    - No README excerpt provided
-    - No scraped site context provided
+    - The homepage describes Capably as a 'no-code AI agent builder' for automating business workflows.
+    - It enables users to create AI agents via a visual interface to perform tasks like data processing, customer support, and internal tooling without writing code.
+    - There is no indication it assists with code editing, repo manipulation, IDE integration, or any developer-tooling activity.
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,24 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-15T04:18:02.512Z"
+    updated_at: "2026-10-19T04:36:12.657Z"
     cause: null
-    attempts: 7
+    attempts: 8
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:c66a8b34df9c80f36943d327741acf091cfc898534ec76d77d561b0346a0096b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The submission lacks any descriptive content, README, or scraped context, making it impossible to determine if the tool is relevant to the software developer scope.
+      decision_reason: Capably.ai is a no-code platform for building AI agents to automate business tasks, not a developer-facing AI tool for coding, editing, or software development workflows.
       decision_evidence:
-        - Repo description is empty
-        - No README excerpt provided
-        - No scraped site context provided
+        - The homepage describes Capably as a 'no-code AI agent builder' for automating business workflows.
+        - It enables users to create AI agents via a visual interface to perform tasks like data processing, customer support, and internal tooling without writing code.
+        - There is no indication it assists with code editing, repo manipulation, IDE integration, or any developer-tooling activity.
       category_candidates: []
       contrastive_reason: null
       review_reason: null
