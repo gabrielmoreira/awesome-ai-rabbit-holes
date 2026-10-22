@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/gabazureus/jevextract
         surrounding_text: "- [jevextract](https://github.com/gabazureus/jevextract) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/gabazureus/jevextract?style=flat-square&label=%E2%98%85) - Information extraction: LangExtract alternative where code proposes candidate spans with exact offsets and Jev answers one `Choice` per span (a schema class or none) plus a `Noul` per sentence-level class, keeping answers above a per-class threshold and flagging close calls for review, with a published benchmark measuring 10–26× lower cost than LangExtract on Gemini 3.5 Flash but lower F1 (84.2 vs 88.5 on its bilingual jx-bench)."
         confidence: high
+    - id: discovery__github__gabazureus__jevextract__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs & clients
+        anchor_text: jevextract
+        extracted_url: https://github.com/gabazureus/jevextract
+        surrounding_text: "- [jevextract](https://github.com/gabazureus/jevextract) - Open-source alternative to LangExtract: code proposes candidate spans with exact offsets and Jev only decides each one's schema class with a Choice, plus a Noul per sentence-level class, so every extraction is grounded in the source; ships a bilingual benchmark and paper comparing it with LangExtract, an LLM-JSON baseline and GLiNER on quality, latency and cost."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -87,7 +102,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.414Z"
+    updated_at: "2026-10-22T04:14:59.792Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +112,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.562Z"
+    updated_at: "2026-10-22T04:15:07.460Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

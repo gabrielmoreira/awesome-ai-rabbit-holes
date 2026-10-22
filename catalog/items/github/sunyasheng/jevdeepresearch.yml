@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/sunyasheng/jevdeepresearch
         surrounding_text: "- [Jev Deep Research](https://github.com/sunyasheng/JevDeepResearch) - Uses Jev Choice and Noul to locate evidence across document regions concurrently, returning original passages to a GPT research agent through Pi-Serini."
         confidence: high
+    - id: discovery__github__sunyasheng__jevdeepresearch__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: JevDeepResearch
+        extracted_url: https://github.com/sunyasheng/jevdeepresearch
+        surrounding_text: "- [JevDeepResearch](https://github.com/sunyasheng/JevDeepResearch) - Continues as JevGPT: github.com/sunyasheng/JevGPT (arXiv 2610.18272)."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -119,7 +134,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.931Z"
+    updated_at: "2026-10-22T04:14:59.792Z"
     cause: null
     next_retry_at: null
   stars:
@@ -128,7 +143,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.566Z"
+    updated_at: "2026-10-22T04:15:07.465Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

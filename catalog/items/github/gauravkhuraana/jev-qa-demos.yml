@@ -21,6 +21,37 @@ provenance:
         extracted_url: https://github.com/gauravkhuraana/jev-qa-demos
         surrounding_text: "- [**jev-qa-demos**](https://github.com/gauravkhuraana/jev-qa-demos) — Demos for the video \"Jev explained for testers\": TypeSafe AI's System One model, called through \\*\\*Vercel AI Gateway\\*\\* with the AI SDK's \\`experimental\\_evaluate\\`."
         confidence: high
+    - id: discovery__github__gauravkhuraana__jev-qa-demos__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: jev-qa-demos
+        extracted_url: https://github.com/gauravkhuraana/jev-qa-demos
+        surrounding_text: "- [jev-qa-demos](https://github.com/gauravkhuraana/jev-qa-demos) - Jev (TypeSafe AI) demos for QA / SDET engineers via Vercel AI Gateway - simple, commented TypeScript for a video walkthrough."
+        confidence: high
+    - id: discovery__github__gauravkhuraana__jev-qa-demos__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-qa-demos
+        extracted_url: https://github.com/gauravkhuraana/jev-qa-demos
+        surrounding_text: "- [jev-qa-demos](https://github.com/gauravkhuraana/jev-qa-demos) - TypeScript demos teaching QA/SDET engineers TypeSafe Jev via Vercel AI Gateway (triage, guardrail, local Ollama). [Project guide](community/projects/tools/jev-qa-demos.md)."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -61,7 +92,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.457Z"
+    updated_at: "2026-10-22T04:14:59.793Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +102,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.562Z"
+    updated_at: "2026-10-22T04:15:07.460Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

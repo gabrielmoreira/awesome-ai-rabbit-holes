@@ -66,9 +66,11 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-10-19T04:39:05.378Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-10-22T04:20:01.289Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for pypi__org__project__watfile: Invalid AI response structure: Missing required field: summary"
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
@@ -85,7 +87,7 @@ processing:
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/aifabrice/jev-rag
         surrounding_text: "- [jev-rag](https://github.com/aifabrice/jev-rag) ([site](https://aifabrice.github.io/jev-rag/)) - Jev RAG (Jev-RAG / JevRAG): open-source local knowledge search with BM25 + Jev reranking, agentic and hybrid retrieval, cited answers, and reproducible benchmarks."
         confidence: high
+    - id: discovery__github__aifabrice__jev-rag__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+        anchor_text: Jev RAG
+        extracted_url: https://github.com/aifabrice/jev-rag
+        surrounding_text: "- **Applications (3):** [Jev RAG](https://github.com/aifabrice/jev-rag), [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline), [DeciFlow](https://github.com/call518/DeciFlow)"
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -141,7 +156,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-08T04:16:14.229Z"
+    updated_at: "2026-10-22T04:14:59.791Z"
     cause: null
     next_retry_at: null
   stars:
@@ -151,7 +166,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.560Z"
+    updated_at: "2026-10-22T04:15:07.457Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

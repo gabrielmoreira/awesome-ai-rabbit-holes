@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/heymrun/heym
         surrounding_text: "-   **[heymrun/heym](https://github.com/heymrun/heym)** [![GitHub stars](https://img.shields.io/github/stars/heymrun/heym?style=social)](https://github.com/heymrun/heym): Builds visual AI workflows that can be exposed as MCP tools and connects Agent nodes to external MCP servers."
         confidence: high
+    - id: discovery__github__heymrun__heym__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Large Scale Deployment
+          - Workflow
+        anchor_text: Heym
+        extracted_url: https://github.com/heymrun/heym
+        surrounding_text: "| [Heym](https://github.com/heymrun/heym)                      | Source-available, self-hosted AI workflow automation platform with a visual canvas for agent, RAG, and tool-using workflows. Includes MCP support, evals, traces, and cost tracking. | ![GitHub Badge](https://img.shields.io/github/stars/heymrun/heym.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 1343
@@ -73,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-17T04:13:23.415Z"
+    updated_at: "2026-10-22T04:14:59.793Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.460Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

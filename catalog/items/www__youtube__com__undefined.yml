@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Undefined product entry.
+  summary: This entry consists of malformed data with undefined identifiers and a generic YouTube placeholder description.
   why_it_matters: N/A
-  mental_damage: The existential dread of an undefined variable is the only thing this entry provides.
+  mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input lacks a valid name, URL, or description, making it impossible to identify a tool or evaluate its fit.
+  reason: The input is an invalid entry containing only placeholder strings and no actual tool identity or functional description.
   evidence:
     - Name and URL are 'undefined'
-    - No repository description or README provided
+    - Linked page text is generic YouTube boilerplate
+    - No repository or tool context is provided
 placement:
   primary_category: null
   section: null
@@ -65,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-19T04:32:48.311Z"
+    updated_at: "2026-10-22T04:15:41.407Z"
     cause: null
-    attempts: 8
+    attempts: 9
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input lacks a valid name, URL, or description, making it impossible to identify a tool or evaluate its fit.
+      decision_reason: The input is an invalid entry containing only placeholder strings and no actual tool identity or functional description.
       decision_evidence:
         - Name and URL are 'undefined'
-        - No repository description or README provided
+        - Linked page text is generic YouTube boilerplate
+        - No repository or tool context is provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/gopaljigaur/decide
         surrounding_text: "- [pydecide](https://github.com/gopaljigaur/decide) - Python client that sends one typed Choice, Score or Noul request down an ordered chain of backends (hosted Jev, OpenRouter, OpenAI's Decisions API, laya/laya-mlx, a CrossEncoder); code owns the order and the confidence thresholds at which a Choice or Noul answer escalates, and each response records which backend answered. Also ships a TypeSafeClient-compatible class and a /v1/systemone server."
         confidence: high
+    - id: discovery__github__gopaljigaur__decide__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+        anchor_text: pydecide
+        extracted_url: https://github.com/gopaljigaur/decide
+        surrounding_text: "- **SDKs & clients (1):** [pydecide](https://github.com/gopaljigaur/decide)"
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -131,7 +146,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-15T04:14:39.158Z"
+    updated_at: "2026-10-22T04:14:59.791Z"
     cause: null
     next_retry_at: null
   stars:
@@ -141,7 +156,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.562Z"
+    updated_at: "2026-10-22T04:15:07.460Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

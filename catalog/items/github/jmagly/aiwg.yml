@@ -21,6 +21,37 @@ provenance:
         extracted_url: https://github.com/jmagly/aiwg
         surrounding_text: "- **[AIWG](https://github.com/jmagly/aiwg)** – Deploys reusable agents, skills, and governed workflows across multiple AI coding platforms."
         confidence: high
+    - id: discovery__github__jmagly__aiwg__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: AIWG
+        extracted_url: https://github.com/jmagly/aiwg
+        surrounding_text: "| [AIWG](https://github.com/jmagly/aiwg) | Deploys project-owned agents, skills, rules, and governed workflows across AI coding platforms. | ![GitHub Badge](https://img.shields.io/github/stars/jmagly/aiwg.svg?style=flat-square) |"
+        confidence: high
+    - id: discovery__github__jmagly__aiwg__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: AIWG
+        extracted_url: https://github.com/jmagly/aiwg
+        surrounding_text: "- [AIWG](https://github.com/jmagly/aiwg) - Multi-agent workflow framework for existing AI tools whose opt-in decision runtime can bind the same validated decision definitions to Jev or to an LLM subagent, with pins, projection, bounded retries, fallback and receipts. [Project guide](community/projects/tools/aiwg.md)."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -58,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.462Z"
+    updated_at: "2026-10-22T04:14:59.794Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.461Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

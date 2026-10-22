@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/jkudish/jev-agent-tools
         surrounding_text: "- [**jev-agent-tools**](https://github.com/jkudish/jev-agent-tools) — Jev transport/provider layer: multi-provider transport layer that supports fail-closed validation. Used by jkudish/jev-browser and jkudish/jev-mcp."
         confidence: high
+    - id: discovery__github__jkudish__jev-agent-tools__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: jev-agent-tools
+        extracted_url: https://github.com/jkudish/jev-agent-tools
+        surrounding_text: "- [jev-agent-tools](https://github.com/jkudish/jev-agent-tools) - Jev transport/provider layer: multi-provider transport layer that supports fail-closed validation. Used by jkudish/jev-browser and jkudish/jev-mcp."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -72,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.416Z"
+    updated_at: "2026-10-22T04:14:59.794Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +96,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.461Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -67,6 +67,21 @@ provenance:
         extracted_url: https://github.com/lawrence3699/jev-style
         surrounding_text: "- [jev-style](https://github.com/lawrence3699/jev-style) - Open 0.8B Qwen3.5 decision model installed with `pip install \"jev-style[torch]\"` (or `[mlx]` on Apple silicon) that answers Choice, Score and Noul questions locally behind a `/v1/systemone`-compatible server, while code owns the thresholds (its Claude Code guard maps four Noul checks and a risk Score to allow, ask or deny, and falls back to ask when the model call fails); its README reports hosted Jev as more accurate on every published comparison set."
         confidence: high
+    - id: discovery__github__lawrence3699__jev-style__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-style
+        extracted_url: https://github.com/lawrence3699/jev-style
+        surrounding_text: "- [jev-style](https://github.com/lawrence3699/jev-style) ([site](https://jevstyle.com)) - Small, calibrated decision models on your own machine: systemone-compatible local server, 6 agent skills, Claude Code guard, MCP tools. Weights on Hugging Face."
+        confidence: high
 metadata:
   github:
     stars: 12
@@ -103,7 +118,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.932Z"
+    updated_at: "2026-10-22T04:14:59.792Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,7 +127,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.564Z"
+    updated_at: "2026-10-22T04:15:07.462Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

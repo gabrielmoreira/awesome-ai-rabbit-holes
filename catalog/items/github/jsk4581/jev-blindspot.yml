@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/jsk4581/jev-blindspot
         surrounding_text: "- [**jev-blindspot**](https://github.com/jsk4581/jev-blindspot) — A side panel for Claude Code and Codex CLI that shows the blind spots of each prompt you submit: what the request would have needed to consider and shows no sign of. Jev decides, in one call per prompt, whether the prompt is worth a second look; only then does the agent's own headless mode read the project and return the items. Nothing blocks the prompt, nothing is added to the session."
         confidence: high
+    - id: discovery__github__jsk4581__jev-blindspot__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-blindspot
+        extracted_url: https://github.com/jsk4581/jev-blindspot
+        surrounding_text: "- [jev-blindspot](https://github.com/jsk4581/jev-blindspot) - A prompt reviewer for Claude Code and Codex CLI. Finds the blind spots in each prompt you send and shows them in a local web UI, or in the CLI with the Claude Code mod."
+        confidence: high
 metadata:
   github:
     stars: 20
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.417Z"
+    updated_at: "2026-10-22T04:14:59.794Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.461Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

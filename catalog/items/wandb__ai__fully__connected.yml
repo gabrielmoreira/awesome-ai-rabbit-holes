@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
+  summary: A landing page titled 'Forge' on the Weights & Biases platform.
+  why_it_matters: The provided metadata is insufficient to determine if this is a practical tool for software developers or general ML research infrastructure.
+  mental_damage: The lack of a description is a perfect, haunting metaphor for the current state of AI product marketing.
   tags: []
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: The provided input lacks sufficient functional information to determine the tool's identity or whether it fits the catalog's scope.
+  reason: The project lacks the necessary README or description substance to verify it fits the catalog's developer-tooling scope.
   evidence:
-    - No repository description or README excerpt provided
-    - Scraped site context contains only a title ('Forge') with no description of functionality
+    - No repository description provided
+    - Scraped site context is limited to the title 'Forge' with no description
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -65,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-19T04:36:12.493Z"
+    updated_at: "2026-10-22T04:17:58.284Z"
     cause: null
-    attempts: 8
+    attempts: 9
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,11 +78,13 @@ processing:
       input_hash: sha256:358ea071321a5f1ccd09166a78f14eb8935588f07662532d4839ddd3a6c463dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided input lacks sufficient functional information to determine the tool's identity or whether it fits the catalog's scope.
+      decision_reason: The project lacks the necessary README or description substance to verify it fits the catalog's developer-tooling scope.
       decision_evidence:
-        - No repository description or README excerpt provided
-        - Scraped site context contains only a title ('Forge') with no description of functionality
+        - No repository description provided
+        - Scraped site context is limited to the title 'Forge' with no description
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

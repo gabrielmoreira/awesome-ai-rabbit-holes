@@ -37,17 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Python package hosted on PyPI.
-  why_it_matters: The tool's purpose and AI relevance cannot be determined from the provided metadata.
-  mental_damage: The documentation is so minimal it has transcended the need for actual words.
+  summary: ""
+  why_it_matters: ""
+  mental_damage: ""
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided metadata contains no evidence that this package is an AI tool or falls within the catalog's scope.
+  reason: The project provides no discernible information about its functionality or relevance to the AI developer ecosystem due to missing metadata and a broken scraped site context.
   evidence:
-    - PyPI URL is the only identifier provided
-    - No repo description, README, or site context provided to establish AI functionality
+    - No repo description provided
+    - Scraped site context contains only a browser loading error
+    - No README excerpt or content available
 placement:
   primary_category: null
   section: null
@@ -66,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-19T04:37:36.470Z"
+    updated_at: "2026-10-22T04:19:19.645Z"
     cause: null
-    attempts: 9
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,10 +80,11 @@ processing:
       input_hash: sha256:aa6564e4436fe496ac4adf8bad3ffdfb084d36ff3aaae1ea23c65a70910e4709
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided metadata contains no evidence that this package is an AI tool or falls within the catalog's scope.
+      decision_reason: The project provides no discernible information about its functionality or relevance to the AI developer ecosystem due to missing metadata and a broken scraped site context.
       decision_evidence:
-        - PyPI URL is the only identifier provided
-        - No repo description, README, or site context provided to establish AI functionality
+        - No repo description provided
+        - Scraped site context contains only a browser loading error
+        - No README excerpt or content available
       category_candidates: []
       contrastive_reason: null
       review_reason: null

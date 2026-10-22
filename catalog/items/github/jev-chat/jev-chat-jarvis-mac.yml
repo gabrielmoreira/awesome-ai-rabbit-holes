@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/jev-chat/jev-chat-jarvis-mac
         surrounding_text: "| [jev-chat-jarvis-mac](https://github.com/jev-chat/jev-chat-jarvis-mac) | ★ 248 | Python | 2026-09-23 | Jev classifies incoming WeChat or QQ messages by intent and risk before the app presents reply guidance. |"
         confidence: high
+    - id: discovery__github__jev-chat__jev-chat-jarvis-mac__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI & Pipelines
+        anchor_text: "**jev-chat-jarvis-mac**"
+        extracted_url: https://github.com/jev-chat/jev-chat-jarvis-mac
+        surrounding_text: "- [**jev-chat-jarvis-mac**](https://github.com/jev-chat/jev-chat-jarvis-mac) — macOS chat overlay copilot that reads the current conversation and calls Jev to judge intent, risk, and reply suggestions."
+        confidence: high
 metadata:
   github:
     stars: 452
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.416Z"
+    updated_at: "2026-10-22T04:14:59.794Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.461Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

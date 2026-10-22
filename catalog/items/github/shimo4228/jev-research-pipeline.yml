@@ -83,6 +83,21 @@ provenance:
         extracted_url: https://github.com/shimo4228/jev-research-pipeline
         surrounding_text: "- [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) ([site](https://dev.to/shimo4228/moving-my-research-pipelines-judgment-calls-from-an-llm-to-jev-a-judgment-only-model-4ncj)) - A research note each morning for the topics you follow: your questions steer the search, TypeSafe Jev judges, an LLM you choose writes it (en/zh/ja). CLI: jrp (pilot)."
         confidence: high
+    - id: discovery__github__shimo4228__jev-research-pipeline__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+        anchor_text: jev-research-pipeline
+        extracted_url: https://github.com/shimo4228/jev-research-pipeline
+        surrounding_text: "- **Applications (3):** [Jev RAG](https://github.com/aifabrice/jev-rag), [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline), [DeciFlow](https://github.com/call518/DeciFlow)"
+        confidence: high
 metadata:
   github:
     stars: null
@@ -120,7 +135,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-08T04:16:14.230Z"
+    updated_at: "2026-10-22T04:14:59.791Z"
     cause: null
     next_retry_at: null
   stars:
@@ -129,7 +144,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.566Z"
+    updated_at: "2026-10-22T04:15:07.464Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

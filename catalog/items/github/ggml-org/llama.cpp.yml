@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/ggerganov/llama.cpp
         surrounding_text: "| [llama.cpp](https://github.com/ggerganov/llama.cpp)                                   | Port of Facebook's LLaMA model in C/C++                                                                         | ![GitHub Badge](https://img.shields.io/github/stars/ggerganov/llama.cpp.svg?style=flat-square)                   |"
         confidence: high
+    - id: discovery__github__ggml-org__llama.cpp__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: llama.cpp support for decision models
+        extracted_url: https://github.com/ggml-org/llama.cpp
+        surrounding_text: "- [llama.cpp support for decision models](https://github.com/ggml-org/llama.cpp/pull/30383) ![stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=flat-square&label=%E2%98%85) - Runtime support: merged support for d3 decision models in llama.cpp, which puts the model class beside ordinary inference in one of the most widely deployed runtimes."
+        confidence: high
 metadata:
   github:
     stars: 130138
@@ -81,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.586Z"
+    updated_at: "2026-10-22T04:14:59.793Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,7 +107,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.562Z"
+    updated_at: "2026-10-22T04:15:07.460Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

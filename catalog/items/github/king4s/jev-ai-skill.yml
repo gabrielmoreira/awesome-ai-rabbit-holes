@@ -21,6 +21,37 @@ provenance:
         extracted_url: https://github.com/king4s/jev-ai-skill
         surrounding_text: "- [**Jev-AI-Skill**](https://github.com/King4s/Jev-AI-Skill) — One AI skill + MCP server for Claude Code, Codex and Hermes: Jev (TypeSafe) gates large-model turns (event triage, review verdicts, owner questions, tool choice), runs build-and-repair loops with independent review, routes models and skills, and guards Git steps. Script-only watch mode and a shared HTTP server."
         confidence: high
+    - id: discovery__github__king4s__jev-ai-skill__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: Jev-AI-Skill
+        extracted_url: https://github.com/king4s/jev-ai-skill
+        surrounding_text: "- [Jev-AI-Skill](https://github.com/King4s/Jev-AI-Skill) - One AI skill + MCP server for Claude Code, Codex and Hermes: Jev (TypeSafe) gates large-model turns (event triage, review verdicts, owner questions, tool choice), runs build-and-repair loops with independent review, routes models and skills, and guards Git steps. Script-only watch mode and a shared HTTP server."
+        confidence: high
+    - id: discovery__github__king4s__jev-ai-skill__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev-AI-Skill
+        extracted_url: https://github.com/king4s/jev-ai-skill
+        surrounding_text: "- [Jev-AI-Skill](https://github.com/King4s/Jev-AI-Skill) - Claude Code/Codex/Hermes skill + MCP: TypeSafe Jev gates for agent decisions. [Project guide](community/projects/tools/jev-ai-skill.md)."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -57,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.464Z"
+    updated_at: "2026-10-22T04:14:59.794Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.461Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

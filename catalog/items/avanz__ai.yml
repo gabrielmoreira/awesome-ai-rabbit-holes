@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An autonomous AI agent identified only via a general directory listing.
-  why_it_matters: Unknown due to a complete lack of technical documentation or context.
-  mental_damage: Another mysterious entry in the infinite, unvetted sea of AI agent directories.
-  tags: []
-  confidence: high
+  summary: avanz.ai is an AI agent listed in the awesome-ai-agents directory under the Avanzai section.
+  why_it_matters: Unclear from available information; no explicit developer‑facing functionality is described.
+  mental_damage: Another mysterious agent in a curated list, making developers wonder if it writes code or just adds to the noise.
+  tags:
+    - unknown
+  confidence: low
 curation:
   status: excluded
-  reason: The project lacks the required developer-tooling substance and specific workflow relevance to justify inclusion in the curated catalog.
+  reason: Insufficient evidence to determine if avanc.ai is a developer‑focused AI tool; only known from a generic autonomous‑agents listing without a clear product description.
   evidence:
-    - No repository description, README, or scraped site context was provided.
-    - The only signal is a mention in 'awesome-ai-agents', which is a general-purpose list rather than a developer-specific one.
-    - Cannot verify if the tool serves the coding, infrastructure, or workflow needs of a software developer.
+    - No repo description, README, or scraped site context provided.
+    - Only appears in awesome-ai-agents under the section Avanzai.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -65,31 +65,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-10-19T04:38:21.850Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for avanz__ai: ```json
-        {
-          "summary": "An autonomous
-    attempts: 9
+    status: done
+    updated_at: "2026-10-22T04:19:36.648Z"
+    cause: null
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:b62cb44d5d438d823c2d2d828e9af324944543a39d92847742afd73447f22c45
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks the required developer-tooling substance and specific workflow relevance to justify inclusion in the curated catalog.
+      decision_reason: Insufficient evidence to determine if avanc.ai is a developer‑focused AI tool; only known from a generic autonomous‑agents listing without a clear product description.
       decision_evidence:
-        - No repository description, README, or scraped site context was provided.
-        - The only signal is a mention in 'awesome-ai-agents', which is a general-purpose list rather than a developer-specific one.
-        - Cannot verify if the tool serves the coding, infrastructure, or workflow needs of a software developer.
+        - No repo description, README, or scraped site context provided.
+        - Only appears in awesome-ai-agents under the section Avanzai.
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
+      review_reason: "Categorization review required: low confidence"
       review_resume_lifecycle: null

@@ -37,17 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Functionality of var.gg cannot be determined due to missing description and README.
-  why_it_matters: N/A
-  mental_damage: "The ultimate black box: a project with zero metadata."
+  summary: The product identity for var.gg could not be determined from the provided inputs.
+  why_it_matters: A tool's utility cannot be assessed without descriptive substance.
+  mental_damage: There is nothing more existential than reviewing a PR for a tool that has no description.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided inputs lack the necessary descriptive substance to determine if this tool fits the catalog's developer-focused scope.
+  reason: The input provides only a name and URL, lacking the required description, README, or site context to evaluate its fit within the catalog's scope.
   evidence:
     - Repo description is empty
-    - No README excerpt or scraped site context provided
+    - README excerpt is missing
+    - Scraped site context is missing
 placement:
   primary_category: null
   secondary_categories:
@@ -68,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-19T04:35:27.868Z"
+    updated_at: "2026-10-22T04:17:21.151Z"
     cause: null
-    attempts: 8
+    attempts: 9
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -81,10 +82,11 @@ processing:
       input_hash: sha256:ded84464280c824a3299d67d4b535cc36611c34ab41e208b05270a8e3ee70cbe
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided inputs lack the necessary descriptive substance to determine if this tool fits the catalog's developer-focused scope.
+      decision_reason: The input provides only a name and URL, lacking the required description, README, or site context to evaluate its fit within the catalog's scope.
       decision_evidence:
         - Repo description is empty
-        - No README excerpt or scraped site context provided
+        - README excerpt is missing
+        - Scraped site context is missing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

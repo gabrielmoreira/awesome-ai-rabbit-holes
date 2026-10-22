@@ -21,6 +21,37 @@ provenance:
         extracted_url: https://github.com/integrate-your-mind/jev-codex-plugin
         surrounding_text: "- [**jev-codex-plugin**](https://github.com/integrate-your-mind/jev-codex-plugin) — Open-source Codex plugin for TypeSafe Jev decision consultation, failure diagnosis, and evidence-based completion review"
         confidence: high
+    - id: discovery__github__integrate-your-mind__jev-codex-plugin__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-codex-plugin
+        extracted_url: https://github.com/integrate-your-mind/jev-codex-plugin
+        surrounding_text: "- [jev-codex-plugin](https://github.com/integrate-your-mind/jev-codex-plugin) - Open-source Codex plugin for TypeSafe Jev decision consultation, failure diagnosis, and evidence-based completion review."
+        confidence: high
+    - id: discovery__github__integrate-your-mind__jev-codex-plugin__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-22T04:14:59.789Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev Workflows for Codex and Claude Code
+        extracted_url: https://github.com/integrate-your-mind/jev-codex-plugin
+        surrounding_text: "- [Jev Workflows for Codex and Claude Code](https://github.com/integrate-your-mind/jev-codex-plugin) - Open-source Codex and Claude Code plugin that consults Jev about tools, models, tasks, skills, context and custom decisions, diagnoses failed commands and checks completion claims against evidence; eight MCP tools, lifecycle hooks and three standalone skills. [Project guide](community/projects/tools/jev-workflows-codex-claude.md)."
+        confidence: high
 metadata:
   github:
     stars: 10
@@ -57,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.461Z"
+    updated_at: "2026-10-22T04:14:59.793Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-19T04:32:30.563Z"
+    updated_at: "2026-10-22T04:15:07.461Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

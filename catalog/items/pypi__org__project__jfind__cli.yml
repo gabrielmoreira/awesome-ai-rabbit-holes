@@ -36,18 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
+  summary: A command-line utility associated with the Jev decision model ecosystem.
   why_it_matters: ""
   mental_damage: ""
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks sufficient descriptive metadata to establish a product identity, and source context suggests it is a demo project rather than a standalone developer tool.
+  reason: The project is categorized as a demo/playground in its source list rather than a standalone developer tool, and there is insufficient documentation to determine its utility.
   evidence:
-    - No repo description or README provided
-    - Scraped site content is an error message
-    - Source context categorizes it as a 'Demo & playground' project for Jev
+    - Source-list context explicitly places it in the 'Demos & playgrounds' section of awesome-jev
+    - The project lacks a repo description or README to define its functional role for developers
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,7 +66,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-19T04:39:14.530Z"
+    updated_at: "2026-10-22T04:20:46.947Z"
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -76,16 +75,15 @@ processing:
       input_hash: sha256:56bd43c3e619082a9e266d912f1df0eb30ca8f9ab667bb7df6d079b143dd1a53
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks sufficient descriptive metadata to establish a product identity, and source context suggests it is a demo project rather than a standalone developer tool.
+      decision_reason: The project is categorized as a demo/playground in its source list rather than a standalone developer tool, and there is insufficient documentation to determine its utility.
       decision_evidence:
-        - No repo description or README provided
-        - Scraped site content is an error message
-        - Source context categorizes it as a 'Demo & playground' project for Jev
+        - Source-list context explicitly places it in the 'Demos & playgrounds' section of awesome-jev
+        - The project lacks a repo description or README to define its functional role for developers
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

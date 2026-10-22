@@ -51,18 +51,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The provided URL and scraped content refer to a website with no connection to AI development, appearing to be a Chinese corporate or gambling-related site.
-  why_it_matters: It offers no utility or information relevant to the software developer ecosystem.
-  mental_damage: The only thing this breaks is your trust in the integrity of automated scrapers and curated lists.
+  summary: An entry for 'Input' that provides no identifiable developer-facing AI functionality or software tooling context.
+  why_it_matters: It provides no utility for the intended developer audience.
+  mental_damage: The slow, inevitable realization that even the most curated lists are susceptible to SEO-poisoned gambling domains.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project is not an AI tool and the scraped content is clearly unrelated spam or non-developer content.
+  reason: The scraped site context and source-list links consist entirely of irrelevant, non-developer content related to SunCity Group and architectural news, suggesting the entry is mislabeled or the URL is hijacked.
   evidence:
-    - Scraped site context contains Chinese text regarding SunCity Group and online games
-    - Source list context for 'awesome-ai-agents' is populated with non-functional spam text
-    - No developer-facing tools, AI functionality, or software descriptions are present
+    - Scraped site content is focused on architecture and SunCity Group rather than AI/dev tools
+    - Source-list context points to a spam/gambling-related landing page
+    - No repo description or functional README provided
 placement:
   primary_category: null
   section: null
@@ -71,12 +71,10 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-10-19T04:35:05.009Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for useinput__com: Invalid AI response structure: Missing required field: summary"
-    attempts: 9
+    status: done
+    updated_at: "2026-10-22T04:17:02.905Z"
+    cause: null
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -87,11 +85,11 @@ processing:
       input_hash: sha256:a9bda6e9fc11c0bbd8cd97034848eaa40a3168588241a3d7809ea2dfc1246dc9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project is not an AI tool and the scraped content is clearly unrelated spam or non-developer content.
+      decision_reason: The scraped site context and source-list links consist entirely of irrelevant, non-developer content related to SunCity Group and architectural news, suggesting the entry is mislabeled or the URL is hijacked.
       decision_evidence:
-        - Scraped site context contains Chinese text regarding SunCity Group and online games
-        - Source list context for 'awesome-ai-agents' is populated with non-functional spam text
-        - No developer-facing tools, AI functionality, or software descriptions are present
+        - Scraped site content is focused on architecture and SunCity Group rather than AI/dev tools
+        - Source-list context points to a spam/gambling-related landing page
+        - No repo description or functional README provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null
