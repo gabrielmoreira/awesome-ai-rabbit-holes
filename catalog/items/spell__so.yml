@@ -36,17 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: spell.so is an unidentifiable project due to a lack of functional website content or descriptive metadata.
-  why_it_matters: N/A
-  mental_damage: There is a special kind of developer fatigue reserved for clicking on promising links only to find an empty directory listing.
+  summary: ""
+  why_it_matters: ""
+  mental_damage: ""
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project lacks any descriptive metadata, README, or functional website content to determine its utility or category.
+  reason: The product's identity and functionality cannot be determined because the provided URL is an empty directory listing and no repository metadata exists.
   evidence:
-    - The scraped site context is an empty 'Index of /' directory listing.
-    - No repo description, README, or stars were provided.
+    - Scraped site context is a bare 'Index of /' directory listing
+    - No repo description, README, or topics provided
 placement:
   primary_category: null
   section: null
@@ -65,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-22T04:16:44.341Z"
+    updated_at: "2026-10-26T04:18:38.076Z"
     cause: null
-    attempts: 9
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +78,10 @@ processing:
       input_hash: sha256:1eb60ae16238a9ee03dd6c7dc243cd06cbf839ac7f7604e1b7a79c1c08a4df4b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks any descriptive metadata, README, or functional website content to determine its utility or category.
+      decision_reason: The product's identity and functionality cannot be determined because the provided URL is an empty directory listing and no repository metadata exists.
       decision_evidence:
-        - The scraped site context is an empty 'Index of /' directory listing.
-        - No repo description, README, or stars were provided.
+        - Scraped site context is a bare 'Index of /' directory listing
+        - No repo description, README, or topics provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

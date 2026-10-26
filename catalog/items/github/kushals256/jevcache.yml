@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/kushals256/jevcache
         surrounding_text: "- [jevcache](https://github.com/kushals256/jevcache) - OpenAI-compatible local cache proxy: TypeSafe Jev (OpenRouter Decisions) admits same-intent paraphrases so expensive chat completions can be skipped (fail-open on Jev errors). [Project guide](community/projects/tools/jevcache.md)."
         confidence: high
+    - id: discovery__github__kushals256__jevcache__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI & Pipelines
+        anchor_text: "**jevcache**"
+        extracted_url: https://github.com/kushals256/jevcache
+        surrounding_text: "- [**jevcache**](https://github.com/kushals256/jevcache) — MorrowCache — skip the chat call when the question is the same. OpenAI-compatible proxy. npm: @kushalicious/jevcache"
+        confidence: high
 metadata:
   github:
     stars: 12
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.418Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.461Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

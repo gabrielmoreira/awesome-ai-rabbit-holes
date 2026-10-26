@@ -21,6 +21,36 @@ provenance:
         extracted_url: https://github.com/hwchase17/langchainjs
         surrounding_text: "- [LangChain.js](https://github.com/hwchase17/langchainjs): the js brother ✨ ![GitHub Repo stars](https://img.shields.io/github/stars/hwchase17/langchainjs?style=social)"
         confidence: high
+    - id: discovery__github__langchain-ai__langchainjs__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - SDK & Decision Frameworks
+        anchor_text: "**langchainjs**"
+        extracted_url: https://github.com/langchain-ai/langchainjs
+        surrounding_text: "- [**langchainjs**](https://github.com/langchain-ai/langchainjs) — An optional LangChain.js TypeSafeClassifier integration for sending state and predefined questions to Jev."
+        confidence: high
+    - id: discovery__github__langchain-ai__langchainjs__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Framework integrations
+        anchor_text: LangChain.js
+        extracted_url: https://github.com/langchain-ai/langchainjs
+        surrounding_text: "- [LangChain.js](https://github.com/langchain-ai/langchainjs) - JavaScript/TypeScript classifier Runnable and middleware for bounded routing and tool-call checks."
+        confidence: high
 metadata:
   github:
     stars: 18245
@@ -63,7 +93,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.626Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -73,7 +103,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

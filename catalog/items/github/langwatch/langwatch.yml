@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/langwatch/langwatch
         surrounding_text: "- [LangWatch](https://github.com/langwatch/langwatch): An Open Source tool for observing, evaluating and optimising your llm apps and prompts, which supports LangChain out of the box! ![GitHub Repo stars](https://img.shields.io/github/stars/langwatch/langwatch?style=social)"
         confidence: high
+    - id: discovery__github__langwatch__langwatch__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Frameworks & integrations (89)
+        anchor_text: LangWatch
+        extracted_url: https://github.com/langwatch/langwatch
+        surrounding_text: "| [LangWatch](https://github.com/langwatch/langwatch) | ★ 4,883 | TypeScript | 2026-09-28 | LLM evaluation platform whose Instant Evals sends production traces to Jev for batched Noul, Score, and Choice judgments. |"
+        confidence: high
 metadata:
   github:
     stars: 4905
@@ -91,7 +107,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.590Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -101,7 +117,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

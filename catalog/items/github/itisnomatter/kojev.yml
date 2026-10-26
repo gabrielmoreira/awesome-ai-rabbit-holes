@@ -67,6 +67,22 @@ provenance:
         extracted_url: https://github.com/itisnomatter/kojev
         surrounding_text: "- [kojev](https://github.com/ItisNoMatter/kojev) - Kotlin Multiplatform client that answers Choice and Score questions as the caller's own enums; thresholds and routing stay in the caller's code."
         confidence: high
+    - id: discovery__github__itisnomatter__kojev__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: kojev (Kotlin Multiplatform client that returns your own enums)
+        extracted_url: https://github.com/itisnomatter/kojev
+        surrounding_text: "- [kojev (Kotlin Multiplatform client that returns your own enums)](https://github.com/ItisNoMatter/kojev) - Unofficial Kotlin Multiplatform client for Jev: you describe choices as your own enums or sealed types and get typed answers and probabilities back, with no string keys or casts. Targets JVM, Android and iOS. [Project guide](community/projects/tools/kojev.md)."
+        confidence: high
 metadata:
   github:
     stars: 9
@@ -103,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.383Z"
+    updated_at: "2026-10-26T04:17:03.172Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,7 +128,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.461Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

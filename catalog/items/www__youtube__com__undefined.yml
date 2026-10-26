@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This entry consists of malformed data with undefined identifiers and a generic YouTube placeholder description.
-  why_it_matters: N/A
-  mental_damage: N/A
+  summary: The provided input contains no identifiable tool or project data.
+  why_it_matters: A tool with no name, description, or functionality provides no utility to a developer.
+  mental_damage: "It is the ultimate expression of the AI hype cycle: a tool that exists only as an undefined variable."
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is an invalid entry containing only placeholder strings and no actual tool identity or functional description.
+  reason: The input is a corrupted or placeholder entry containing no actual product information.
   evidence:
-    - Name and URL are 'undefined'
-    - Linked page text is generic YouTube boilerplate
-    - No repository or tool context is provided
+    - Name is 'undefined'
+    - URL is a broken YouTube link
+    - No repo description or README provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-22T04:15:41.407Z"
+    updated_at: "2026-10-26T04:17:37.116Z"
     cause: null
-    attempts: 9
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is an invalid entry containing only placeholder strings and no actual tool identity or functional description.
+      decision_reason: The input is a corrupted or placeholder entry containing no actual product information.
       decision_evidence:
-        - Name and URL are 'undefined'
-        - Linked page text is generic YouTube boilerplate
-        - No repository or tool context is provided
+        - Name is 'undefined'
+        - URL is a broken YouTube link
+        - No repo description or README provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -52,6 +52,22 @@ provenance:
         extracted_url: https://github.com/openlayer-ai/jevals
         surrounding_text: "- [**jevals**](https://github.com/openlayer-ai/jevals) — Agent evals and guardrails as Jev decisions: one request per trace, a fraction of a cent, fast enough for the agent loop. Runs locally with Kev or Laya."
         confidence: high
+    - id: discovery__github__openlayer-ai__jevals__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jevals (Openlayer)
+        extracted_url: https://github.com/openlayer-ai/jevals
+        surrounding_text: "- [jevals (Openlayer)](https://github.com/openlayer-ai/jevals) - Evals and guardrails for agent traces (tool choice, grounding, relevancy, completeness, indirect injection, PHI) sent to Jev-style decision models as one request instead of an LLM judge. [Project guide](community/projects/tools/openlayer-jevals.md)."
+        confidence: high
 metadata:
   github:
     stars: 103
@@ -90,7 +106,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.402Z"
+    updated_at: "2026-10-26T04:17:03.174Z"
     cause: null
     next_retry_at: null
   stars:
@@ -99,7 +115,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.463Z"
+    updated_at: "2026-10-26T04:17:08.919Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

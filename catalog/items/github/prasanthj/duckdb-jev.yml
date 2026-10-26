@@ -69,6 +69,21 @@ provenance:
         extracted_url: https://github.com/prasanthj/duckdb-jev
         surrounding_text: "- [duckdb-jev](https://github.com/prasanthj/duckdb-jev) ![stars](https://img.shields.io/github/stars/prasanthj/duckdb-jev?style=flat-square&label=%E2%98%85) - DuckDB ecosystem: native extension that applies Jev Noul, Choice, Score, and multi-question decisions directly to structured SQL rows, measuring 1,943 rows/s for 1,000 Choice classifications with confidence and bounded concurrency."
         confidence: high
+    - id: discovery__github__prasanthj__duckdb-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: duckdb-jev
+        extracted_url: https://github.com/prasanthj/duckdb-jev
+        surrounding_text: "- [duckdb-jev](https://github.com/prasanthj/duckdb-jev) ([site](https://docs.typesafe.ai/)) - High-throughput, robust native DuckDB extension for batched and streaming TypeSafe/Jev classification, scoring, and semantic predicates from SQL."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -105,7 +120,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.386Z"
+    updated_at: "2026-10-26T04:17:03.172Z"
     cause: null
     next_retry_at: null
   stars:
@@ -114,7 +129,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.463Z"
+    updated_at: "2026-10-26T04:17:08.919Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

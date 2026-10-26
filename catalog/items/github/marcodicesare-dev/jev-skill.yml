@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/marcodicesare-dev/jev-skill
         surrounding_text: "- [**jev-skill**](https://github.com/marcodicesare-dev/jev-skill) — Jev skill for Claude Code and Codex: TypeSafe System One guide, Python CLI, 5 tested recipes, and findings from 19,367 Jev calls."
         confidence: high
+    - id: discovery__github__marcodicesare-dev__jev-skill__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-skill (marcodicesare-dev)
+        extracted_url: https://github.com/marcodicesare-dev/jev-skill
+        surrounding_text: "- [jev-skill (marcodicesare-dev)](https://github.com/marcodicesare-dev/jev-skill) ([site](https://marcodicesare-dev.github.io/jev-skill/)) - Jev skill for Claude Code and Codex: TypeSafe System One guide, Python CLI, 5 tested recipes, and findings from 19,367 Jev calls."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -75,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.419Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,7 +99,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

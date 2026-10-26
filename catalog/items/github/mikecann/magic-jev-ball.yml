@@ -68,6 +68,22 @@ provenance:
         extracted_url: https://github.com/mikecann/magic-jev-ball
         surrounding_text: "- [Magic Jev Ball](https://github.com/mikecann/magic-jev-ball) - three.js Magic 8 Ball where a Convex action asks Jev one Choice question over the 20 classic answers; the page shows Jev's probability for every answer and displays the highest-probability one."
         confidence: high
+    - id: discovery__github__mikecann__magic-jev-ball__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: Magic Jev Ball
+        extracted_url: https://github.com/mikecann/magic-jev-ball
+        surrounding_text: "- [Magic Jev Ball](https://github.com/mikecann/magic-jev-ball) - `Open source` · `Free`. Magic 8 Ball in the browser that doesn't pick at random: hold it, shake it, let go, and Jev picks which of the 20 classic answers fits your question, with a probability for every answer shown under the ball. [Project guide](community/projects/apps/magic-jev-ball.md)."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -104,7 +120,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.385Z"
+    updated_at: "2026-10-26T04:17:03.172Z"
     cause: null
     next_retry_at: null
   stars:
@@ -113,7 +129,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

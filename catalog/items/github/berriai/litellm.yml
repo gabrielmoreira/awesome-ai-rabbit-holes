@@ -112,6 +112,22 @@ provenance:
         extracted_url: https://github.com/berriai/litellm
         surrounding_text: "- [LiteLLM](https://github.com/BerriAI/litellm) - Jev-backed complexity routing and an optional relevance guardrail for compacting tool results before they return to an agent."
         confidence: high
+    - id: discovery__github__berriai__litellm__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: LiteLLM Jev classifier (route gateway requests by complexity with Jev)
+        extracted_url: https://github.com/berriai/litellm
+        surrounding_text: "- [LiteLLM Jev classifier (route gateway requests by complexity with Jev)](https://github.com/BerriAI/litellm) - LiteLLM, the open-source gateway that calls 100+ LLM APIs in OpenAI format, can use Jev as the classifier in its complexity router: one typed choice call grades each incoming request into a tier, and the proxy sends it to the models you mapped to that tier. [Project guide](community/projects/tools/litellm-jev-classifier.md)."
+        confidence: high
 metadata:
   github:
     stars: 60059
@@ -169,7 +185,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-05T04:19:11.928Z"
+    updated_at: "2026-10-26T04:17:03.172Z"
     cause: null
     next_retry_at: null
   stars:
@@ -179,7 +195,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.458Z"
+    updated_at: "2026-10-26T04:17:08.914Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

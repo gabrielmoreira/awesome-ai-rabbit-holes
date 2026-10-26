@@ -36,6 +36,22 @@ provenance:
         extracted_url: https://github.com/larguesa/jev-search
         surrounding_text: "- [**jev-search**](https://github.com/larguesa/jev-search) — Experimental semantic line search with TypeSafe Jev via OpenRouter. Python CLI with no runtime dependencies."
         confidence: high
+    - id: discovery__github__larguesa__jev-search__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jev-search (larguesa)
+        extracted_url: https://github.com/larguesa/jev-search
+        surrounding_text: "- [jev-search (larguesa)](https://github.com/larguesa/jev-search) - Complementary semantic search CLI and agent skill: Jev scores whether each candidate line expresses the intent you are looking for, so agents find by meaning what keyword search misses across repo docs, LLM wikis and Obsidian notes; in six simulated tasks lexical + Jev recovered 29 of 34 labeled passages vs 22 for lexical alone (author-reported). Not the listed jev-search app. [Project guide](community/projects/tools/larguesa-jev-search.md)."
+        confidence: high
 metadata:
   github:
     stars: 6
@@ -72,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.418Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

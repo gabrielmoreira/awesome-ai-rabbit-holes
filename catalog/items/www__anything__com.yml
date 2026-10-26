@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: www.anything.com is a domain with no publicly available description or documentation.
-  why_it_matters: Without a clear purpose, it offers no discernible value to developers seeking AI-powered tooling.
-  mental_damage: Another placeholder URL that fuels the fear of missing out on yet another AI tool you can’t actually use.
+  summary: Insufficient data provided to identify the project's purpose.
+  why_it_matters: It is impossible to determine if this project offers any utility to a developer workflow.
+  mental_damage: A tool so elusive it hasn't even provided a description for its own existence.
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: Insufficient information to determine any developer-facing AI functionality; the project provides no description, README, or contextual evidence.
+  reason: The entry lacks all required grounding inputs (description, README, or site context) necessary to evaluate its fit within the catalog's scope.
   evidence:
     - No repo description provided
-    - No README excerpt provided
-    - No scraped site context or source-list evidence
+    - No README excerpt available
+    - No stars, activity, or topic data
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -66,27 +66,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-22T04:19:16.455Z"
+    updated_at: "2026-10-26T04:20:15.973Z"
     cause: null
-    attempts: 11
+    attempts: 12
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:88c41076954bdaef0a239bc9b81747f9220f9aea6d39bea022af6630f94e9b97
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient information to determine any developer-facing AI functionality; the project provides no description, README, or contextual evidence.
+      decision_reason: The entry lacks all required grounding inputs (description, README, or site context) necessary to evaluate its fit within the catalog's scope.
       decision_evidence:
         - No repo description provided
-        - No README excerpt provided
-        - No scraped site context or source-list evidence
+        - No README excerpt available
+        - No stars, activity, or topic data
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
+      review_reason: null
+      review_resume_lifecycle: null

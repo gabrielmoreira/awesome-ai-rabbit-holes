@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/looptroop-ai/looptroop
         surrounding_text: "- **[LoopTroop](https://github.com/looptroop-ai/LoopTroop)** – Local GUI orchestrator for long-running, high-correctness AI software delivery — LLM councils plan it, Ralph loops perfect it, OpenCode worktrees ship it."
         confidence: high
+    - id: discovery__github__looptroop-ai__looptroop__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Workflow Management
+        anchor_text: LoopTroop
+        extracted_url: https://github.com/looptroop-ai/looptroop
+        surrounding_text: "- [LoopTroop](https://github.com/looptroop-ai/LoopTroop) ![](https://img.shields.io/github/stars/looptroop-ai/LoopTroop.svg?cacheSeconds=86400) - Local, MIT-licensed GUI that turns a ticket into an AI interview, a PRD and small dependency-ordered beads with acceptance criteria, has a council of models draft and vote on the plan, then runs each bead in an isolated OpenCode git worktree with fresh-context retries and human approval gates before the PR."
+        confidence: high
 metadata:
   github:
     stars: 155
@@ -93,7 +108,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-24T04:12:55.278Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -103,7 +118,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

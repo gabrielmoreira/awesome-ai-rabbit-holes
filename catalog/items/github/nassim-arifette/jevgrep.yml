@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/nassim-arifette/jevgrep
         surrounding_text: "- [**jevgrep**](https://github.com/nassim-arifette/jevgrep) — Jev-powered semantic code search for coding agents — find behavior across repositories via CLI or MCP, with exact source excerpts and line numbers."
         confidence: high
+    - id: discovery__github__nassim-arifette__jevgrep__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jevgrep (nassim-arifette)
+        extracted_url: https://github.com/nassim-arifette/jevgrep
+        surrounding_text: "- [jevgrep (nassim-arifette)](https://github.com/nassim-arifette/jevgrep) - Jev-powered semantic code search for coding agents — find behavior across repositories via CLI or MCP, with exact source excerpts and line numbers."
+        confidence: high
 metadata:
   github:
     stars: 95
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.420Z"
+    updated_at: "2026-10-26T04:17:03.174Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.463Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

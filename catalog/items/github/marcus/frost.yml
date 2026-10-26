@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/marcus/frost
         surrounding_text: "| [frost](https://github.com/marcus/frost) | ★ 0 | Go | 2026-09-19 | A flexible and configurable CLI model router using TypeSafe Jev. |"
         confidence: high
+    - id: discovery__github__marcus__frost__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Frost (model router built on Jev)
+        extracted_url: https://github.com/marcus/frost
+        surrounding_text: "- [Frost (model router built on Jev)](https://github.com/marcus/frost) - Go CLI from Haplab that takes a prompt or markdown task, has Jev assess it, then picks a model, harness and effort level locally from your own catalog, with explanations, alternatives and JSON output; decisions can be recorded and replayed offline. [Project guide](community/projects/tools/frost.md)."
+        confidence: high
 metadata:
   github:
     stars: 0
@@ -73,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.419Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

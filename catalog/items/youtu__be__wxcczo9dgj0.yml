@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no associated metadata or description.
-  why_it_matters: N/A
-  mental_damage: N/A
+  summary: A YouTube video link with no identifying metadata.
+  why_it_matters: No information provided to determine relevance.
+  mental_damage: Staring at an unidentifiable link is the ultimate developer experience.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a YouTube video link with no descriptive context, and a video is an auxiliary resource rather than a standalone developer-facing tool or product.
+  reason: The input is a YouTube URL with no accompanying description, README, or metadata, making it impossible to determine if it is a relevant AI tool or resource.
   evidence:
     - The URL points to a YouTube video
-    - No README, repo description, or project context was provided to identify a specific tool
+    - No repository description or README was provided
+    - Scraped site context contains only generic YouTube boilerplate
 placement:
   primary_category: null
   section: null
@@ -65,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-22T04:17:59.705Z"
+    updated_at: "2026-10-26T04:19:45.603Z"
     cause: null
-    attempts: 10
+    attempts: 11
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a YouTube video link with no descriptive context, and a video is an auxiliary resource rather than a standalone developer-facing tool or product.
+      decision_reason: The input is a YouTube URL with no accompanying description, README, or metadata, making it impossible to determine if it is a relevant AI tool or resource.
       decision_evidence:
         - The URL points to a YouTube video
-        - No README, repo description, or project context was provided to identify a specific tool
+        - No repository description or README was provided
+        - Scraped site context contains only generic YouTube boilerplate
       category_candidates: []
       contrastive_reason: null
       review_reason: null

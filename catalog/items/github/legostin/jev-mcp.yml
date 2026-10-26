@@ -22,6 +22,36 @@ provenance:
         extracted_url: https://github.com/legostin/jev-mcp
         surrounding_text: "- [jev-mcp (legostin)](https://github.com/legostin/jev-mcp) - MCP server: Claude/Codex agents drive real Chrome with TypeSafe Jev (~100 ms typed decisions, confidence gates, traces); distinct from jkudish/jev-mcp. [Project guide](community/projects/tools/legostin-jev-mcp.md)."
         confidence: high
+    - id: discovery__github__legostin__jev-mcp__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: jev-mcp (legostin)
+        extracted_url: https://github.com/legostin/jev-mcp
+        surrounding_text: "- [jev-mcp (legostin)](https://github.com/legostin/jev-mcp) ([site](https://legostin.github.io/jev-mcp/)) - MCP server that lets Claude Code, Codex & AI agents drive a real Chrome browser with JEV (TypeSafe System One): ~100 ms typed decisions, calibrated confidence, human-in-the-loop questions, safety gates and a debug trace."
+        confidence: high
+    - id: discovery__github__legostin__jev-mcp__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP & Integrations
+        anchor_text: "**jev-mcp**"
+        extracted_url: https://github.com/legostin/jev-mcp
+        surrounding_text: "- [**jev-mcp**](https://github.com/legostin/jev-mcp) — MCP server that lets Claude Code, Codex & AI agents drive a real Chrome browser with JEV (TypeSafe System One): ~100 ms typed decisions, calibrated confidence, human-in-the-loop questions, safety gates and a debug trace."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -58,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.465Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.917Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

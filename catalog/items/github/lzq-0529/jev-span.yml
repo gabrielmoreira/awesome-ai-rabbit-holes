@@ -22,6 +22,37 @@ provenance:
         extracted_url: https://github.com/lzq-0529/jev-span
         surrounding_text: "- [JevSpan](https://github.com/lzq-0529/jev-span) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lzq-0529/jev-span?style=flat-square&label=%E2%98%85) - Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one `Choice` over every candidate window per entity type, verifies each nominee with a second `Choice` (the type, none, mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER benchmarks against 72.1 for direct extraction with Qwen3.8-27B."
         confidence: high
+    - id: discovery__github__lzq-0529__jev-span__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+          - Applications (137)
+        anchor_text: JevSpan
+        extracted_url: https://github.com/lzq-0529/jev-span
+        surrounding_text: "| [JevSpan](https://github.com/lzq-0529/jev-span) | ★ 5 | Python | 2026-10-04 | Zero-shot named entity recognition using Jev Choice to nominate, verify, and refine candidate text spans, retaining offsets, probabilities, and decision traces. |"
+        confidence: high
+    - id: discovery__github__lzq-0529__jev-span__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: "**jev-span**"
+        extracted_url: https://github.com/lzq-0529/jev-span
+        surrounding_text: "- [**jev-span**](https://github.com/lzq-0529/jev-span) — Jev answers typed multiple-choice questions with calibrated probabilities, but it never returns entity spans on its own. \\*\\*JevSpan turns it into an entity recognizer.\\*\\* It cuts text at punctuation, offers every candidate window to Jev as an option, verifies what Jev nominates, and then lets Jev settle the exact boundaries and type. Every entity comes back with a probability and a trace of the questions that produced it."
+        confidence: high
 metadata:
   github:
     stars: 5
@@ -58,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.466Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

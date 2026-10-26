@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/mandu5/jevcompat
         surrounding_text: "- [jevcompat](https://github.com/mandu5/jevcompat) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/mandu5/jevcompat?style=flat-square&label=%E2%98%85) - Interoperability: a 48-requirement spec of the `POST /v1/systemone` wire contract, each rule citing TypeSafe's docs, OpenAPI file or SDKs, and a suite that checks any Jev-compatible server against it (`Choice` probabilities keyed by option and summing to 1, `Score` equal to Σ i·p, 2–255 options, error shapes, answers that stay put when question ids or order change), finding 2 of the 8 most-starred open ports conformant, with a reference mock that breaks each rule on purpose and a proxy that fixes what can be fixed."
         confidence: high
+    - id: discovery__github__mandu5__jevcompat__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: jevcompat
+        extracted_url: https://github.com/mandu5/jevcompat
+        surrounding_text: "- [jevcompat](https://github.com/mandu5/jevcompat) - A testable spec and conformance suite for Jev-compatible (TypeSafe System One) API servers, with a normalising proxy, a reference mock and a GitHub Action."
+        confidence: high
 metadata:
   github:
     stars: 0
@@ -74,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.419Z"
+    updated_at: "2026-10-26T04:17:03.173Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.462Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

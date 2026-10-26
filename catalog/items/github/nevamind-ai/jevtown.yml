@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/nevamind-ai/jevtown
         surrounding_text: "| [JevTown](https://github.com/NevaMind-AI/JevTown) | ★ 12 | TypeScript | 2026-09-24 | AI-town simulation where Jev selects character actions and responses. |"
         confidence: high
+    - id: discovery__github__nevamind-ai__jevtown__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-26T04:17:03.171Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Games & simulations
+        anchor_text: JevTown
+        extracted_url: https://github.com/nevamind-ai/jevtown
+        surrounding_text: "- [JevTown](https://github.com/NevaMind-AI/JevTown) - Jev based AI town simulation."
+        confidence: high
 metadata:
   github:
     stars: 41
@@ -74,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.421Z"
+    updated_at: "2026-10-26T04:17:03.174Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-22T04:15:07.463Z"
+    updated_at: "2026-10-26T04:17:08.918Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
