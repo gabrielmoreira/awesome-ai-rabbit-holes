@@ -53,6 +53,21 @@ provenance:
         extracted_url: https://github.com/vostride/agent-qa
         surrounding_text: "- **[agent-qa](https://github.com/vostride/agent-qa)** – Self-improving QA agent for web and mobile apps with natural-language tests, run memory, UI-change adaptation, and regression detection."
         confidence: high
+    - id: discovery__github__vostride__agent-qa__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers
+        anchor_text: agent-qa
+        extracted_url: https://github.com/vostride/agent-qa
+        surrounding_text: "- [agent-qa](https://github.com/vostride/agent-qa) ![](https://img.shields.io/github/stars/vostride/agent-qa.svg?cacheSeconds=86400) - Author and run natural-language acceptance tests for web and mobile, with advanced memidex memory and self-improvement."
+        confidence: high
 metadata:
   github:
     stars: 162
@@ -112,7 +127,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-21T04:13:39.854Z"
+    updated_at: "2026-10-29T04:12:22.635Z"
     cause: null
     next_retry_at: null
   stars:
@@ -122,7 +137,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.920Z"
+    updated_at: "2026-10-29T04:12:29.965Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -51,17 +51,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese website detailing architectural research, academic news, and gaming content.
-  why_it_matters: It does not; the content is entirely unrelated to AI development or software engineering.
-  mental_damage: The existential dread of realizing your curated list has been hit by SEO-poisoned spam.
+  summary: No verifiable developer tooling information provided in the input.
+  why_it_matters: N/A
+  mental_damage: The metadata is so broken it's a perfect representation of a hallucinating model.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project content is entirely unrelated to the catalog's scope and appears to be a spam-injected or mismatched entry.
+  reason: The provided inputs contain no information related to AI software development; the scraped content describes an unrelated academic/business entity, and the source-list context is spam.
   evidence:
-    - Scraped site context is an architectural/gaming portal in Chinese
-    - Source-list context contains irrelevant SEO-spam text
+    - Scraped site content describes 'SunCity Group' and architectural/academic topics, not AI tools
+    - Source-list entry for 'awesome-ai-agents' is clearly spam/garbage text
+    - No repository description, README, or topical metadata exists for 'Input'
 placement:
   primary_category: null
   section: null
@@ -71,9 +72,9 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-10-26T04:18:55.713Z"
+    updated_at: "2026-10-29T04:14:33.492Z"
     cause: null
-    attempts: 11
+    attempts: 12
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -84,10 +85,11 @@ processing:
       input_hash: sha256:a9bda6e9fc11c0bbd8cd97034848eaa40a3168588241a3d7809ea2dfc1246dc9
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project content is entirely unrelated to the catalog's scope and appears to be a spam-injected or mismatched entry.
+      decision_reason: The provided inputs contain no information related to AI software development; the scraped content describes an unrelated academic/business entity, and the source-list context is spam.
       decision_evidence:
-        - Scraped site context is an architectural/gaming portal in Chinese
-        - Source-list context contains irrelevant SEO-spam text
+        - Scraped site content describes 'SunCity Group' and architectural/academic topics, not AI tools
+        - Source-list entry for 'awesome-ai-agents' is clearly spam/garbage text
+        - No repository description, README, or topical metadata exists for 'Input'
       category_candidates: []
       contrastive_reason: null
       review_reason: null

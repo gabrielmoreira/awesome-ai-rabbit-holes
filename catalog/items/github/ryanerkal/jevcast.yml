@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/ryanerkal/jevcast
         surrounding_text: "- [Jevcast](https://github.com/RyanErkal/jevcast) ![stars](https://img.shields.io/github/stars/RyanErkal/jevcast?style=flat-square&label=%E2%98%85) - Desktop productivity: native macOS launcher and window manager that uses Jev to match natural-language window and action commands to known application workflows with local response caching."
         confidence: high
+    - id: discovery__github__ryanerkal__jevcast__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: jevcast
+        extracted_url: https://github.com/ryanerkal/jevcast
+        surrounding_text: "- [jevcast](https://github.com/RyanErkal/jevcast) ([site](https://jevcast.vercel.app)) - Native macOS launcher and window manager. Optional natural-language matching with Jev by TypeSafe AI."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -74,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.423Z"
+    updated_at: "2026-10-29T04:12:22.636Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.919Z"
+    updated_at: "2026-10-29T04:12:29.964Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

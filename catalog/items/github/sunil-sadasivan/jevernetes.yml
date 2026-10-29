@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/sunil-sadasivan/jevernetes
         surrounding_text: "- [**jevernetes**](https://github.com/sunil-sadasivan/jevernetes) — Live Kubernetes log analysis, contextual investigation, and agent handoff powered by Jev."
         confidence: high
+    - id: discovery__github__sunil-sadasivan__jevernetes__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jevernetes
+        extracted_url: https://github.com/sunil-sadasivan/jevernetes
+        surrounding_text: "- [jevernetes](https://github.com/sunil-sadasivan/jevernetes) - Live Kubernetes log analysis, contextual investigation, and agent handoff powered by Jev."
+        confidence: high
 metadata:
   github:
     stars: 14
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.425Z"
+    updated_at: "2026-10-29T04:12:22.637Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.920Z"
+    updated_at: "2026-10-29T04:12:29.964Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

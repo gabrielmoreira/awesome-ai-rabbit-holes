@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/snjrusmn/jev-humanizer
         surrounding_text: "- [**jev-humanizer**](https://github.com/snjrusmn/jev-humanizer) — This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details."
         confidence: high
+    - id: discovery__github__snjrusmn__jev-humanizer__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-humanizer
+        extracted_url: https://github.com/snjrusmn/jev-humanizer
+        surrounding_text: "- [jev-humanizer](https://github.com/snjrusmn/jev-humanizer) - Антислоп скилл для AI-агентов: Jev от TypeSafe находит признаки нейросети в каждом абзаце, модель правит только найденное. На основе smixs/humanizer-ru и blader/humanizer."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -75,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.425Z"
+    updated_at: "2026-10-29T04:12:22.637Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,7 +99,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.920Z"
+    updated_at: "2026-10-29T04:12:29.964Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

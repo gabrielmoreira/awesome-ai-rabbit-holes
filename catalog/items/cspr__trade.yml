@@ -37,17 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website titled CSPR.trade.
-  why_it_matters: N/A
-  mental_damage: N/A
-  tags: []
+  summary: A website with a '.trade' domain and no available developer-facing documentation or repository context.
+  why_it_matters: It provides no apparent utility for software development or AI-assisted engineering workflows.
+  mental_damage: The absolute lack of information is a perfect metaphor for the current state of the AI hype cycle.
+  tags:
+    - trading
   confidence: high
 curation:
   status: excluded
-  reason: The project appears to be a financial or crypto trading platform, which falls outside the scope of AI developer tools, agents, or infrastructure.
+  reason: The project lacks a developer-tooling identity and shows no evidence of being a tool, framework, or agent relevant to software engineers.
   evidence:
-    - No repository description or README provided to indicate developer utility
-    - The URL and scraped title 'CSPR.trade' suggest a trading-centric application
+    - No repository description or README available
+    - Domain suggests a consumer-facing trading platform
+    - Zero scraped site context provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +68,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-26T04:18:43.280Z"
+    updated_at: "2026-10-29T04:14:04.379Z"
     cause: null
-    attempts: 10
+    attempts: 11
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,10 +81,11 @@ processing:
       input_hash: sha256:01d97ab136dc410968746bbb40350f241ac6fb850cf54bbd993f04f0ad8635e7
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project appears to be a financial or crypto trading platform, which falls outside the scope of AI developer tools, agents, or infrastructure.
+      decision_reason: The project lacks a developer-tooling identity and shows no evidence of being a tool, framework, or agent relevant to software engineers.
       decision_evidence:
-        - No repository description or README provided to indicate developer utility
-        - The URL and scraped title 'CSPR.trade' suggest a trading-centric application
+        - No repository description or README available
+        - Domain suggests a consumer-facing trading platform
+        - Zero scraped site context provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

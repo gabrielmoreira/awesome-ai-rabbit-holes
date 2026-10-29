@@ -37,17 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A commercial business website.
-  why_it_matters: This is not a developer tool and offers no utility to the target audience.
-  mental_damage: The specific vertigo experienced when an automated scraper accidentally indexes a real estate agency into an AI catalog.
+  summary: A commercial website for FD Commercial.
+  why_it_matters: This is not a developer tool and is irrelevant to the AI ecosystem.
+  mental_damage: Finding a non-AI commercial site in a developer tool list is a brief, jarring reminder of the actual internet.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The provided URL refers to a commercial business site with no relevance to AI, software development, or developer-facing tooling.
+  reason: The project is a general commercial website with no indication of being an AI tool, framework, or developer-facing product.
   evidence:
-    - The URL domain suggests a commercial business rather than a software project.
-    - No repository description, README, or technical context was provided to indicate AI involvement.
+    - No repository description or README provided.
+    - The URL points to a commercial business domain rather than a developer tool or open-source project.
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-26T04:17:45.245Z"
+    updated_at: "2026-10-29T04:13:06.914Z"
     cause: null
-    attempts: 9
+    attempts: 10
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -80,10 +80,10 @@ processing:
       input_hash: sha256:f482f45a2af15ee800626d65b8dbad2517da10d62be92263d471248279d54601
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided URL refers to a commercial business site with no relevance to AI, software development, or developer-facing tooling.
+      decision_reason: The project is a general commercial website with no indication of being an AI tool, framework, or developer-facing product.
       decision_evidence:
-        - The URL domain suggests a commercial business rather than a software project.
-        - No repository description, README, or technical context was provided to indicate AI involvement.
+        - No repository description or README provided.
+        - The URL points to a commercial business domain rather than a developer tool or open-source project.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

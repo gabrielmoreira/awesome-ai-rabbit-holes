@@ -22,6 +22,36 @@ provenance:
         extracted_url: https://github.com/fz2000/android-jev
         surrounding_text: "- [android-jev (FZ2000)](https://github.com/FZ2000/android-jev) - MCP server/skill: drive an Android phone over adb with TypeSafe Jev choosing each next action (distinct from listed jev-android / jevdevice). [Project guide](community/projects/tools/fz2000-android-jev.md)."
         confidence: high
+    - id: discovery__github__fz2000__android-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: android-jev
+        extracted_url: https://github.com/fz2000/android-jev
+        surrounding_text: "- [android-jev](https://github.com/FZ2000/android-jev) - MCP server and skill that let an agent drive an Android phone naturally over adb."
+        confidence: high
+    - id: discovery__github__fz2000__android-jev__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP & Integrations
+        anchor_text: "**android-jev**"
+        extracted_url: https://github.com/fz2000/android-jev
+        surrounding_text: "- [**android-jev**](https://github.com/FZ2000/android-jev) — Whichever way it reaches the server, the key never appears in a state, a log, a run folder or a transcript."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -80,7 +110,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.457Z"
+    updated_at: "2026-10-29T04:12:22.635Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +120,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.916Z"
+    updated_at: "2026-10-29T04:12:29.959Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

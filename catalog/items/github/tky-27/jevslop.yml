@@ -54,6 +54,21 @@ provenance:
         extracted_url: https://github.com/tky-27/jevslop
         surrounding_text: "- [JevSlop](https://github.com/TKY-27/JevSlop) ![stars](https://img.shields.io/github/stars/TKY-27/JevSlop?style=flat-square&label=%E2%98%85) - Writing quality: scores public note.com articles on eight Jev `Score` axes inside a single `systemOne` request and turns them into a 0-100 Slop Score in ordinary TypeScript."
         confidence: high
+    - id: discovery__github__tky-27__jevslop__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: JevSlop
+        extracted_url: https://github.com/tky-27/jevslop
+        surrounding_text: "- [JevSlop](https://github.com/TKY-27/JevSlop) ([site](https://jevslop.pages.dev/)) - Jevによるnote記事のAI Slop判定サイト."
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -90,7 +105,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.405Z"
+    updated_at: "2026-10-29T04:12:22.634Z"
     cause: null
     next_retry_at: null
   stars:
@@ -99,7 +114,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.920Z"
+    updated_at: "2026-10-29T04:12:29.965Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

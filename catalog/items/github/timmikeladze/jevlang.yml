@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/timmikeladze/jevlang
         surrounding_text: "- [**JevLang**](https://github.com/TimMikeladze/JevLang) — A policy engine for LLM decisions: declare routes, gates and actions once in TypeScript or Python, and every decision comes validated, explainable, replayable and audited."
         confidence: high
+    - id: discovery__github__timmikeladze__jevlang__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-10-29T04:12:22.633Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - SDKs & clients
+        anchor_text: jevlang
+        extracted_url: https://github.com/timmikeladze/jevlang
+        surrounding_text: "- [jevlang](https://github.com/TimMikeladze/JevLang) ([site](https://jevlang.sh)) - Policy engine for LLM decisions: declare routes, gates and actions in TypeScript or Python, and each decision is answered by Jev, validated, explainable, replayable and audited."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.426Z"
+    updated_at: "2026-10-29T04:12:22.637Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-26T04:17:08.920Z"
+    updated_at: "2026-10-29T04:12:29.965Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

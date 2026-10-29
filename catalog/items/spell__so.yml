@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
+  summary: "No information available: the provided URL leads to an empty directory index."
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The product's identity and functionality cannot be determined because the provided URL is an empty directory listing and no repository metadata exists.
+  reason: The product cannot be evaluated because the provided URL returns an empty directory listing and no repository description or README was provided to identify its purpose.
   evidence:
-    - Scraped site context is a bare 'Index of /' directory listing
-    - No repo description, README, or topics provided
+    - Scraped site context is 'Index of /'
+    - Repo description is missing
+    - README excerpt is missing
 placement:
   primary_category: null
   section: null
@@ -65,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-26T04:18:38.076Z"
+    updated_at: "2026-10-29T04:13:43.105Z"
     cause: null
-    attempts: 10
+    attempts: 11
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +79,11 @@ processing:
       input_hash: sha256:1eb60ae16238a9ee03dd6c7dc243cd06cbf839ac7f7604e1b7a79c1c08a4df4b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product's identity and functionality cannot be determined because the provided URL is an empty directory listing and no repository metadata exists.
+      decision_reason: The product cannot be evaluated because the provided URL returns an empty directory listing and no repository description or README was provided to identify its purpose.
       decision_evidence:
-        - Scraped site context is a bare 'Index of /' directory listing
-        - No repo description, README, or topics provided
+        - Scraped site context is 'Index of /'
+        - Repo description is missing
+        - README excerpt is missing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

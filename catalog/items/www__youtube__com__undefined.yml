@@ -36,17 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The provided input contains no identifiable tool or project data.
-  why_it_matters: A tool with no name, description, or functionality provides no utility to a developer.
-  mental_damage: "It is the ultimate expression of the AI hype cycle: a tool that exists only as an undefined variable."
+  summary: A broken or placeholder entry from an MCP server collection that points to a generic YouTube landing page.
+  why_it_matters: It doesn't; this appears to be a metadata error or a dead link in a source list.
+  mental_damage: Nothing captures the current state of AI curation quite like a 'curated' link that leads to a generic YouTube description.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a corrupted or placeholder entry containing no actual product information.
+  reason: The input provides no identifiable product, only a broken entry with 'undefined' values and a generic YouTube link.
   evidence:
-    - Name is 'undefined'
-    - URL is a broken YouTube link
+    - Name and URL are both 'undefined'
+    - Linked page content is a generic YouTube description rather than a tool page
     - No repo description or README provided
 placement:
   primary_category: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-26T04:17:37.116Z"
+    updated_at: "2026-10-29T04:12:52.946Z"
     cause: null
-    attempts: 10
+    attempts: 11
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,10 +79,10 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a corrupted or placeholder entry containing no actual product information.
+      decision_reason: The input provides no identifiable product, only a broken entry with 'undefined' values and a generic YouTube link.
       decision_evidence:
-        - Name is 'undefined'
-        - URL is a broken YouTube link
+        - Name and URL are both 'undefined'
+        - Linked page content is a generic YouTube description rather than a tool page
         - No repo description or README provided
       category_candidates: []
       contrastive_reason: null

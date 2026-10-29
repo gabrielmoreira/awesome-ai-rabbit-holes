@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no identifying metadata.
-  why_it_matters: No information provided to determine relevance.
-  mental_damage: Staring at an unidentifiable link is the ultimate developer experience.
+  summary: A YouTube video link with no descriptive metadata or context provided.
+  why_it_matters: It contains no information relevant to AI development or software engineering workflows.
+  mental_damage: The existential void of clicking a link only to find generic YouTube boilerplate.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a YouTube URL with no accompanying description, README, or metadata, making it impossible to determine if it is a relevant AI tool or resource.
+  reason: The input is a YouTube URL with only generic site metadata and no indication of its content or relevance to the catalog's scope.
   evidence:
-    - The URL points to a YouTube video
-    - No repository description or README was provided
-    - Scraped site context contains only generic YouTube boilerplate
+    - Scraped title is generic YouTube boilerplate
+    - No repository description or README provided
+    - Input lacks any signal of developer-facing AI tooling
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-26T04:19:45.603Z"
+    updated_at: "2026-10-29T04:14:57.922Z"
     cause: null
-    attempts: 11
+    attempts: 12
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a YouTube URL with no accompanying description, README, or metadata, making it impossible to determine if it is a relevant AI tool or resource.
+      decision_reason: The input is a YouTube URL with only generic site metadata and no indication of its content or relevance to the catalog's scope.
       decision_evidence:
-        - The URL points to a YouTube video
-        - No repository description or README was provided
-        - Scraped site context contains only generic YouTube boilerplate
+        - Scraped title is generic YouTube boilerplate
+        - No repository description or README provided
+        - Input lacks any signal of developer-facing AI tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null
