@@ -36,6 +36,38 @@ provenance:
         extracted_url: https://github.com/modelscope/agentscope
         surrounding_text: "13. [AgentScope](https://github.com/modelscope/agentscope): Start building LLM-empowered multi-agent applications in an easier way."
         confidence: high
+    - id: discovery__github__agentscope-ai__agentscope__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: AgentScope (multi-agent framework with a built-in Jev classifier model)
+        extracted_url: https://github.com/agentscope-ai/agentscope
+        surrounding_text: "- [AgentScope (multi-agent framework with a built-in Jev classifier model)](https://github.com/agentscope-ai/agentscope) - Popular Apache-2.0 Python framework for building multi-agent applications. Since 2026-09 it ships a classifier interface with `JevClassifierModel`, which turns AgentScope questions into TypeSafe typed questions through the TypeSafe SDK, so agents can hand narrow judgments to Jev instead of a chat model. [Project guide](community/projects/tools/agentscope.md)."
+        confidence: high
+    - id: discovery__github__agentscope-ai__agentscope__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Classification & Routing
+        anchor_text: AgentScope
+        extracted_url: https://github.com/agentscope-ai/agentscope
+        surrounding_text: "- [AgentScope](https://github.com/agentscope-ai/agentscope) ![stars](https://img.shields.io/github/stars/agentscope-ai/agentscope?style=flat-square&label=%E2%98%85) - Multi-agent platforms: multi-agent platform by Alibaba implementing native TypeSafe Jev classification models for binary, choice, and score routing across agent pipelines."
+        confidence: high
 metadata:
   github:
     stars: 32675
@@ -91,7 +123,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: "2026-11-02T04:12:08.969Z"
     cause: null
     next_retry_at: null
   stars:
@@ -101,7 +133,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.957Z"
+    updated_at: "2026-11-02T04:12:16.048Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

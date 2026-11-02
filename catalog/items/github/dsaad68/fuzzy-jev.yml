@@ -21,6 +21,37 @@ provenance:
         extracted_url: https://github.com/dsaad68/fuzzy-jev
         surrounding_text: "- [**fuzzy-jev**](https://github.com/dsaad68/fuzzy-jev) — Ask Jev typed questions about text and get calibrated probabilities back, then turn them into decisions with fuzzy rules (AND, OR, NOT, hedges, Mamdani outputs) and draw the rule base as SVG. A CLI and a Rust library (native and wasm32)."
         confidence: high
+    - id: discovery__github__dsaad68__fuzzy-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: fuzzy-jev
+        extracted_url: https://github.com/dsaad68/fuzzy-jev
+        surrounding_text: "- [fuzzy-jev](https://github.com/dsaad68/fuzzy-jev) - A client for OpenRouter's decision models, TypeSafe's Jev by default: typed Choice, Score and Noul answers about text and images, fuzzy rules over them, and drawings of those rules."
+        confidence: high
+    - id: discovery__github__dsaad68__fuzzy-jev__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: fuzzy-jev (Rust/Python client for Jev's typed answers with fuzzy rules over the probabilities)
+        extracted_url: https://github.com/dsaad68/fuzzy-jev
+        surrounding_text: "- [fuzzy-jev (Rust/Python client for Jev's typed answers with fuzzy rules over the probabilities)](https://github.com/dsaad68/fuzzy-jev) - Rust crate, CLI and Python package that ask Jev typed Choice, Score and Noul questions about text and images through OpenRouter's decisions endpoint, then apply a rules file that reads each probability as a fuzzy truth value (AND = min, OR = max) and can draw the rule graph. Includes an Agent Skill that teaches coding agents when to ask Jev. [Project guide](community/projects/tools/fuzzy-jev.md)."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -74,7 +105,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.455Z"
+    updated_at: "2026-11-02T04:12:08.969Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,7 +115,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.959Z"
+    updated_at: "2026-11-02T04:12:16.051Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

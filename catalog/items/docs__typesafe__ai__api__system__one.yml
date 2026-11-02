@@ -1,0 +1,126 @@
+id: docs__typesafe__ai__api__system__one
+kind: website
+name: system-one
+canonical_url: https://docs.typesafe.ai/api/system-one
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__typesafe__ai__api__system__one__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Official
+        anchor_text: HTTP API reference
+        extracted_url: https://docs.typesafe.ai/api
+        surrounding_text: "- [HTTP API reference](https://docs.typesafe.ai/api) - Request and response contract for POST /v1/systemone."
+        confidence: high
+    - id: discovery__docs__typesafe__ai__api__system__one__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Start here
+        anchor_text: HTTP API reference
+        extracted_url: https://docs.typesafe.ai/api
+        surrounding_text: "- [HTTP API reference](https://docs.typesafe.ai/api) - Check the wire format, authentication, answer fields, and error responses."
+        confidence: high
+    - id: discovery__docs__typesafe__ai__api__system__one__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Official resources
+        anchor_text: API reference
+        extracted_url: https://docs.typesafe.ai/api
+        surrounding_text: "| [API reference](https://docs.typesafe.ai/api) | Current request and response contract. |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An API that returns probabilistic, structured answers to typed questions based on a provided state.
+  why_it_matters: It allows developers to implement reliable routing, classification, and guardrails using model judgments without the unpredictability of generative text.
+  mental_damage: Because nothing says 'production-ready' like replacing LLM creativity with a probability score.
+  tags:
+    - decision-models
+    - api
+    - structured-output
+    - typesafe-ai
+  confidence: high
+curation:
+  status: included
+  reason: The product's core identity is a decision model that returns constrained, typed answers (Choice, Score, Noul) with associated probabilities rather than text.
+  evidence:
+    - API documentation specifies input of 'questions' with types like 'noul' and returns 'answers' with probability scores.
+    - Explicitly identified in documentation and source lists as the 'System One' model from TypeSafe.
+    - Provides structured response formats (Choice, Score, Noul) designed for programmatic decision-making.
+placement:
+  primary_category: decision-models
+  section: Official Jev & System One
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-02T04:12:08.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-11-02T04:15:40.902Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:16a09eb455de22478da4a03797161a35af01ac916c394e3718ce4b67f2d85f9b
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's core identity is a decision model that returns constrained, typed answers (Choice, Score, Noul) with associated probabilities rather than text.
+      decision_evidence:
+        - API documentation specifies input of 'questions' with types like 'noul' and returns 'answers' with probability scores.
+        - Explicitly identified in documentation and source lists as the 'System One' model from TypeSafe.
+        - Provides structured response formats (Choice, Score, Noul) designed for programmatic decision-making.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the core novelty is the non-autoregressive decision model itself, rather than the SDK patterns used to implement it.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

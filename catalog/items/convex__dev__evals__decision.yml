@@ -1,0 +1,125 @@
+id: convex__dev__evals__decision
+kind: website
+name: decision
+canonical_url: https://convex.dev/evals/decision
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__convex__dev__evals__decision__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: site
+        extracted_url: https://convex.dev/evals/decision
+        surrounding_text: "- [Convex Decision Evals](https://github.com/convex/convex-evals) ([site](https://www.convex.dev/evals/decision)) - Leaderboard that puts Jev and 14 LLMs through 108 four-option multiple-choice questions about the Convex backend platform, comparing accuracy, latency, and cost, with a per-answer explorer showing Jev probabilities."
+        confidence: high
+    - id: discovery__convex__dev__evals__decision__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: Convex Decision Evals
+        extracted_url: https://convex.dev/evals/decision
+        surrounding_text: "- [Convex Decision Evals](https://www.convex.dev/evals/decision) - Model evaluation: asks Jev a `Choice` on 108 verified four-option questions about the Convex backend platform (no docs or tools in the prompt, each asked 3 times with shuffled options, random guessing 25%) alongside 14 LLMs, where jev-1.13 scores 84.6% at a 199 ms median and $0.0088 per full run against 98.0% at 2.12 s and $1.59 for the top model, with every answer, probability and raw request/response in a public [explorer](https://convex-evals.netlify.app) and the runner in [get-convex/convex-evals](https://github.com/get-convex/convex-evals)."
+        confidence: high
+    - id: discovery__convex__dev__evals__decision__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Evaluation and calibration
+        anchor_text: Leaderboard
+        extracted_url: https://convex.dev/evals/decision
+        surrounding_text: "- [Convex Decision Evals](https://github.com/get-convex/convex-evals/tree/main/runner/decisions) - Leaderboard that asks Jev (native Choice questions through OpenRouter's decisions endpoint) and 14 other models (structured output limited to A-D, no tools, low reasoning effort) 108 verified four-option questions about the Convex backend platform, each asked 3 times per run with shuffled options (random guessing is 25%); in the 23 Sept 2026 benchmark jev-1.13 scored 84.6% ±0.7 (13th of 15) at a 199 ms median per question and $0.0088 per full run, against 98.0% at 2.12 s and $1.59 per run for the top model, GPT-6 Astra. [Leaderboard](https://www.convex.dev/evals/decision), [per-answer explorer](https://convex-evals.netlify.app)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A benchmark suite for comparing LLM performance on multiple-choice questions regarding the Convex backend.
+  why_it_matters: It allows developers to assess how accurately models can reason about Convex-specific logic and documentation before integration.
+  mental_damage: We have officially entered the era where we need multiple-choice entrance exams to decide which AI to trust with our backend.
+  tags:
+    - evals
+    - convex
+    - benchmarks
+    - decision-models
+  confidence: high
+curation:
+  status: included
+  reason: It is a benchmark suite specifically designed to measure decision-style model performance (constrained, multiple-choice answers) within the Convex ecosystem.
+  evidence:
+    - The scraped site describes the tool as comparing models answering multiple-choice questions about Convex.
+    - Source-list context explicitly categorizes it under 'Evaluation and calibration' and 'Benchmarks & research'.
+placement:
+  primary_category: decision-models
+  section: Evals, Benchmarks & Calibration
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-02T04:12:08.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-11-02T04:15:39.695Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:cd43b4c21cd0c701029ee6dddb6b1b9cdbb4502d9b19cd42fd93ccc7da6016b0
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: It is a benchmark suite specifically designed to measure decision-style model performance (constrained, multiple-choice answers) within the Convex ecosystem.
+      decision_evidence:
+        - The scraped site describes the tool as comparing models answering multiple-choice questions about Convex.
+        - Source-list context explicitly categorizes it under 'Evaluation and calibration' and 'Benchmarks & research'.
+      category_candidates:
+        - decision-models
+        - evals
+      contrastive_reason: Choose decision-models over evals because the benchmark specifically evaluates decision-style (constrained, typed-answer) outputs rather than general-purpose text generation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

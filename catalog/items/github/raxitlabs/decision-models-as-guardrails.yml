@@ -52,6 +52,21 @@ provenance:
         extracted_url: https://github.com/raxitlabs/decision-models-as-guardrails
         surrounding_text: "- [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) - Guardrail benchmark where Jev 1.13.0 and 1.14.0 answer each of 9,975 labelled checks (content, direct and indirect prompt attacks, denied topics, profanity, PII, grounding) as a typed yes/no question, and code blocks at a probability of 0.5 or more; 16 other decision models and Amazon Bedrock Guardrails get the same fixed rule. Scored on balanced accuracy with 95% bootstrap intervals and USD per 1,000 checks at list price; version 1.0.0 reports 88.7 for Jev 1.14.0, 90.4 for the Perplexity Decisions API, and 79.0 for Bedrock Guardrails, with per-row results public, a 2,269-row contamination-check slice held back, and no per-model threshold tuning. [Leaderboard](https://dm-as-guardrails.raxitlabs.com), [dataset](https://huggingface.co/datasets/raxITLabs/decision-models-as-guardrails)."
         confidence: high
+    - id: discovery__github__raxitlabs__decision-models-as-guardrails__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Evaluation & Observability
+        anchor_text: "**decision-models-as-guardrails**"
+        extracted_url: https://github.com/raxitlabs/decision-models-as-guardrails
+        surrounding_text: "- [**decision-models-as-guardrails**](https://github.com/raxITlabs/decision-models-as-guardrails) — Open benchmark evaluating 19 systems including Jev on 9,975 guardrail checks for balanced accuracy and cost."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -86,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-29T04:12:22.636Z"
+    updated_at: "2026-11-02T04:12:08.968Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,7 +110,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.963Z"
+    updated_at: "2026-11-02T04:12:16.056Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

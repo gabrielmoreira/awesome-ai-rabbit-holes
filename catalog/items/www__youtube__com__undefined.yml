@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A broken or placeholder entry from an MCP server collection that points to a generic YouTube landing page.
-  why_it_matters: It doesn't; this appears to be a metadata error or a dead link in a source list.
-  mental_damage: Nothing captures the current state of AI curation quite like a 'curated' link that leads to a generic YouTube description.
+  summary: A malformed entry with undefined metadata pointing to a generic YouTube URL.
+  why_it_matters: N/A
+  mental_damage: Staring into the 'undefined' is the final stage of developer burnout in the age of automated curation.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input provides no identifiable product, only a broken entry with 'undefined' values and a generic YouTube link.
+  reason: The entry is a malformed data point with no identifiable product identity, repository, or developer-tooling utility.
   evidence:
     - Name and URL are both 'undefined'
-    - Linked page content is a generic YouTube description rather than a tool page
-    - No repo description or README provided
+    - No repository description, README, or star count provided
+    - Scraped site context contains generic YouTube boilerplate rather than tool-specific content
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-29T04:12:52.946Z"
+    updated_at: "2026-11-02T04:12:53.250Z"
     cause: null
-    attempts: 11
+    attempts: 12
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input provides no identifiable product, only a broken entry with 'undefined' values and a generic YouTube link.
+      decision_reason: The entry is a malformed data point with no identifiable product identity, repository, or developer-tooling utility.
       decision_evidence:
         - Name and URL are both 'undefined'
-        - Linked page content is a generic YouTube description rather than a tool page
-        - No repo description or README provided
+        - No repository description, README, or star count provided
+        - Scraped site context contains generic YouTube boilerplate rather than tool-specific content
       category_candidates: []
       contrastive_reason: null
       review_reason: null

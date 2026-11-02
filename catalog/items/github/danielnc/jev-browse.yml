@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/danielnc/jev-browse
         surrounding_text: "- [**jev-browse**](https://github.com/danielnc/jev-browse) — Fast, cheap browser sub-tasks for Claude and other agents: TypeSafe Jev decisions on top of browser-harness"
         confidence: high
+    - id: discovery__github__danielnc__jev-browse__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: jev-browse (danielnc)
+        extracted_url: https://github.com/danielnc/jev-browse
+        surrounding_text: "- [jev-browse (danielnc)](https://github.com/danielnc/jev-browse) - Fast, cheap browser sub-tasks for Claude and other agents: TypeSafe Jev decisions on top of browser-harness."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -75,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.412Z"
+    updated_at: "2026-11-02T04:12:08.969Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +100,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.959Z"
+    updated_at: "2026-11-02T04:12:16.050Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

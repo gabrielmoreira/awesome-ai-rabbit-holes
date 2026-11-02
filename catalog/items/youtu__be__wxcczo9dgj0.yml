@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no descriptive metadata or context provided.
-  why_it_matters: It contains no information relevant to AI development or software engineering workflows.
-  mental_damage: The existential void of clicking a link only to find generic YouTube boilerplate.
+  summary: A YouTube video link with no provided description or context.
+  why_it_matters: The input does not contain information relevant to software development tools or workflows.
+  mental_damage: Navigating a link with zero context is the purest form of debugging.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a YouTube URL with only generic site metadata and no indication of its content or relevance to the catalog's scope.
+  reason: The input is a YouTube video link with generic metadata that does not identify it as a tool, framework, or curated resource within the catalog's scope.
   evidence:
-    - Scraped title is generic YouTube boilerplate
-    - No repository description or README provided
-    - Input lacks any signal of developer-facing AI tooling
+    - URL is a YouTube video link
+    - Scraped site context contains only generic YouTube boilerplate
+    - No repo description or README excerpt provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-10-29T04:14:57.922Z"
+    updated_at: "2026-11-02T04:14:10.163Z"
     cause: null
-    attempts: 12
+    attempts: 13
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a YouTube URL with only generic site metadata and no indication of its content or relevance to the catalog's scope.
+      decision_reason: The input is a YouTube video link with generic metadata that does not identify it as a tool, framework, or curated resource within the catalog's scope.
       decision_evidence:
-        - Scraped title is generic YouTube boilerplate
-        - No repository description or README provided
-        - Input lacks any signal of developer-facing AI tooling
+        - URL is a YouTube video link
+        - Scraped site context contains only generic YouTube boilerplate
+        - No repo description or README excerpt provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

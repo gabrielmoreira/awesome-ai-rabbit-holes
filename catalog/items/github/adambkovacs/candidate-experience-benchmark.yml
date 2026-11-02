@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/adambkovacs/candidate-experience-benchmark
         surrounding_text: "- [Candidate Experience Feedback Benchmark](https://github.com/adambkovacs/candidate-experience-benchmark) - Compare TypeSafe Jev vs LLMs on 60 synthetic candidate-experience reviews (four typed classifications). [Project guide](community/projects/tools/candidate-experience-benchmark.md)."
         confidence: high
+    - id: discovery__github__adambkovacs__candidate-experience-benchmark__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: candidate-experience-benchmark
+        extracted_url: https://github.com/adambkovacs/candidate-experience-benchmark
+        surrounding_text: "- [candidate-experience-benchmark](https://github.com/adambkovacs/candidate-experience-benchmark) ([site](https://adambkovacs.github.io/candidate-experience-benchmark/)) - Compare TypeSafe Jev and LLMs on 60 synthetic candidate-experience reviews: four classification tasks, prompt variants, costs, tokens, and reproducible evidence."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -68,7 +83,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.446Z"
+    updated_at: "2026-11-02T04:12:08.971Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,7 +93,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.957Z"
+    updated_at: "2026-11-02T04:12:16.048Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

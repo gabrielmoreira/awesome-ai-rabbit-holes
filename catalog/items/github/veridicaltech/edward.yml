@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/veridicaltech/edward
         surrounding_text: "- [Edward](https://github.com/VeridicalTech/Edward) - External control plane for coding agents: one batched Jev call judges the whole cross-turn trajectory (continue, pause, or escalate, confidence-gated), while deterministic code owns dangerous-command blocking, budget caps, intervention execution, and an Ed25519-signed receipt chain."
         confidence: high
+    - id: discovery__github__veridicaltech__edward__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Edward
+        extracted_url: https://github.com/veridicaltech/edward
+        surrounding_text: "- [Edward](https://github.com/VeridicalTech/Edward) - Supervisor for unattended coding agents (CI, overnight runs) that wraps any subprocess with deterministic rules and an optional advisory scorer; `EDWARD_SCORER_BACKEND=jev` batches all probes into one TypeSafe Jev call per check. [Project guide](community/projects/tools/edward.md)."
+        confidence: high
 metadata:
   github:
     stars: 5
@@ -73,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.428Z"
+    updated_at: "2026-11-02T04:12:08.969Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.965Z"
+    updated_at: "2026-11-02T04:12:16.057Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

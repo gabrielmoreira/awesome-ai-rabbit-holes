@@ -53,6 +53,22 @@ provenance:
         extracted_url: https://github.com/agent-labs-dev/fastbrowse
         surrounding_text: "- [**fastbrowse**](https://github.com/agent-labs-dev/fastbrowse) — A fast browser agent: Jev picks each action from DOM elements on the page, an LLM plans, and claims cite verifiable page quotes."
         confidence: high
+    - id: discovery__github__agent-labs-dev__fastbrowse__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: fastbrowse (open-source browser agent where Jev picks each control from the ones the page actually has)
+        extracted_url: https://github.com/agent-labs-dev/fastbrowse
+        surrounding_text: "- [fastbrowse (open-source browser agent where Jev picks each control from the ones the page actually has)](https://github.com/agent-labs-dev/fastbrowse) - Python browser agent with a Rust core: each page is indexed into the controls it really has and Jev, as a choice model, picks the next one, so the agent cannot click something that is not there. Answers cite verbatim page quotes, and submit, pay, delete and send actions wait for code-level approval with step, time and dollar limits. [Project guide](community/projects/tools/fastbrowse.md)."
+        confidence: high
 metadata:
   github:
     stars: 113
@@ -96,7 +112,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-12T04:24:05.393Z"
+    updated_at: "2026-11-02T04:12:08.968Z"
     cause: null
     next_retry_at: null
   stars:
@@ -106,7 +122,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.957Z"
+    updated_at: "2026-11-02T04:12:16.048Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

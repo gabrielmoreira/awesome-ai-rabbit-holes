@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/yangyu666/dsh-jev-prune
         surrounding_text: "- [dsh-jev-prune](https://github.com/yangyu666/dsh-jev-prune) - DeepSeek Harness plugin: TypeSafe Jev keep/drop pruning plus deterministic receipt compaction (distinct from dsh-jev / dsh-jev-verify). [Project guide](community/projects/tools/dsh-jev-prune.md)."
         confidence: high
+    - id: discovery__github__yangyu666__dsh-jev-prune__awesome-list__logicrw__awesome-jev-projects
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: logicrw/awesome-jev-projects
+        url: https://github.com/logicrw/awesome-jev-projects
+        repository: logicrw/awesome-jev-projects
+      extraction:
+        mode: parsed
+        section_path:
+          - Domain Tools
+        anchor_text: "**dsh-jev-prune**"
+        extracted_url: https://github.com/yangyu666/dsh-jev-prune
+        surrounding_text: "- [**dsh-jev-prune**](https://github.com/yangyu666/dsh-jev-prune) — Jev-judged context compaction for DeepSeek Harness: semantic tool-result pruning + deterministic receipt compaction"
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -73,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.429Z"
+    updated_at: "2026-11-02T04:12:08.970Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.965Z"
+    updated_at: "2026-11-02T04:12:16.058Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

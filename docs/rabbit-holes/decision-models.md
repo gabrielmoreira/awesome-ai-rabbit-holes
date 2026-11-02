@@ -3,11 +3,11 @@
 
 Models that answer typed questions with probabilities instead of generating text — Jev (TypeSafe System One), open Jev-like decision models, the servers and gateways that expose them, and the tooling built on their judgments.
 
-_1720 entries in 13 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_1722 entries in 13 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Official Jev & System One](#official-jev--system-one) — 68
+- [Official Jev & System One](#official-jev--system-one) — 69
 - [Open & Local Decision Models](#open--local-decision-models) — 236
 - [Local Serving & Gateways](#local-serving--gateways) — 90
 - [Cloud Gateways & Providers](#cloud-gateways--providers) — 24
@@ -18,7 +18,7 @@ _1720 entries in 13 sections, ranked by stars. Each section opens with its top 3
 - [Browser & Computer Use](#browser--computer-use) — 81
 - [Search, Retrieval & Data](#search-retrieval--data) — 55
 - [Verification, Guardrails & Safety](#verification-guardrails--safety) — 92
-- [Evals, Benchmarks & Calibration](#evals-benchmarks--calibration) — 130
+- [Evals, Benchmarks & Calibration](#evals-benchmarks--calibration) — 131
 - [Apps, Games & Simulation](#apps-games--simulation) — 287
 
 ## Official Jev & System One
@@ -124,10 +124,11 @@ _1720 entries in 13 sections, ranked by stars. Each section opens with its top 3
   `decision-models` `playground` `jev`
   </details>
 
-<details><summary><strong>▸ &nbsp;&nbsp;+38 more in Official Jev & System One &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+39 more in Official Jev & System One &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[gg-friggin-ez](https://itisshikhar.github.io/gg-friggin-ez)** GG FRIGGIN EZ is a TypeSafe AI Jev-powered demo for real-time Indic language moderation in Twitch stream chat, comparing System 1 decisions against regex and OpenAI.
 - **[He says he co-invented ChatGPT. His new AI will not write a word](https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-new-ai-jev-wont-write-a-word-e3c)** Jev is a decision model that returns typed judgments with calibrated probabilities instead of generating text.
+- **[HTTP API reference](https://docs.typesafe.ai/api/system-one)** An API that returns probabilistic, structured answers to typed questions based on a provided state.
 - **[INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)** INSTRUCT_JEV is a Hugging Face dataset of instruction-tuning examples for the Jev decision model.
 - **[Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev)** TypeSafe AI introduces Jev, a System One Model that outputs typed probabilistic decisions instead of text for fast, structured AI decisions in software.
 - **[jev](https://118.196.50.229/jev)** Jev is a decision model from TypeSafe AI's System One that answers typed questions with probabilities.
@@ -1673,7 +1674,7 @@ _1720 entries in 13 sections, ranked by stars. Each section opens with its top 3
 - **[sosopop/jev_stock](https://github.com/sosopop/jev_stock)** `⭐ 14` jev_stock - An experimental JEV-powered framework for forecasting short-term stock price direction from structured market data.
 - **[Decision Index](https://github.com/apolinario/decision-index)** `⭐ 11` `updated ≤30d` Decision Index: reproduce the Jev decision-model benchmark suite locally or as one HF Job.
 
-<details><summary><strong>▸ &nbsp;&nbsp;+100 more in Evals, Benchmarks & Calibration &nbsp;—&nbsp; click to expand</strong></summary>
+<details><summary><strong>▸ &nbsp;&nbsp;+101 more in Evals, Benchmarks & Calibration &nbsp;—&nbsp; click to expand</strong></summary>
 
 - **[JevPokerBench](https://github.com/prophetlab/jevpokerbench)** `⭐ 11` JevPokerBench - Texas Hold'em benchmark/playground with official TypeSafe Jev, cash/SNG boards, and BYOK agents. Project guide.
 - **[opencx-labs/zevals](https://github.com/opencx-labs/zevals)** `⭐ 11` Jev judges yes-or-no assertions about an agent transcript, and the test passes when its probability reaches the configured threshold.
@@ -1766,6 +1767,7 @@ _1720 entries in 13 sections, ranked by stars. Each section opens with its top 3
 - **[willkelly/jev-evaluation](https://github.com/willkelly/jev-evaluation)** `⭐ 0` Adversarial Jev evaluation suite with preregistered predictions, request logs, and reproducible experiment artifacts.
 - **[xiongxingzhe/wishlistdoc-mcp](https://github.com/xiongxingzhe/wishlistdoc-mcp)** `⭐ 0` xiongxingzhe/wishlistdoc-mcp : Steam store page algorithmic health audit, P10/P50/P90 sales cone forecasting, and indie game market benchmarks powered by WishlistDoc.
 - **[yodablocks/jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)** `⭐ 0` Does ORDER BY over a Jev probability put rows in a defensible order? Independent ranking, calibration and invariant measurements of TypeSafe AI's Jev: passes six pre-registered gates on 360 labeled rows, fails four of six on graded product relevance.
+- **[Convex Decision Evals](https://convex.dev/evals/decision)** A benchmark suite for comparing LLM performance on multiple-choice questions regarding the Convex backend.
 - **[Jev Can't Be Calibrated](https://alexmolas.com/2026/09/23/jev-cant-be-calibrated.html)** A blog post arguing that Jev's probabilities cannot be calibrated on new data distributions and should be treated as scores requiring recalibration.
 - **[jev-harness.tianyuchen99.chatgpt.site](https://jev-harness.tianyuchen99.chatgpt.site)** JevHarness is a web demo that visualizes and analyzes the evolution of Jev decision-model flows in Pokémon battles using recorded trajectories and rewards.
 - **[JevBench](https://benchmarkheaven.com/jev-models)** Jev-models is a benchmark hub for Jev decision models that serves typed questions with probabilities instead of generating text.

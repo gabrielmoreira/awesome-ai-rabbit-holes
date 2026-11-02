@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/1jehuang/jcode
         surrounding_text: "- **[jcode](https://github.com/1jehuang/jcode)** `⭐ 14.9k` — Rust TUI agent optimized for RAM and startup latency (~28 MB PSS per session with local embeddings off), built for scaling many parallel sessions. Agent memory, swarm mode, browser automation, MCP, and 40+ providers with built-in OAuth login flows. MIT."
         confidence: high
+    - id: discovery__github__1jehuang__jcode__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-02T04:12:08.966Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Agent Decisions
+        anchor_text: jcode
+        extracted_url: https://github.com/1jehuang/jcode
+        surrounding_text: "- [jcode](https://github.com/1jehuang/jcode) ![stars](https://img.shields.io/github/stars/1jehuang/jcode?style=flat-square&label=%E2%98%85) - Agent runtimes: RAM-efficient autonomous agent harness implemented in Rust with native TypeSafe Jev typed decision transport for memory pruning, browser navigation, and voice interaction routing."
+        confidence: high
 metadata:
   github:
     stars: 20272
@@ -77,7 +93,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-03T05:16:24.579Z"
+    updated_at: "2026-11-02T04:12:08.970Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,7 +105,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-10-29T04:12:29.956Z"
+    updated_at: "2026-11-02T04:12:16.048Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
