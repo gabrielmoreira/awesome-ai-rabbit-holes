@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/api7/aisix
         surrounding_text: "- [api7/aisix](https://github.com/api7/aisix) [![api7/aisix MCP server](https://glama.ai/mcp/servers/api7/aisix/badges/score.svg)](https://glama.ai/mcp/servers/api7/aisix) 🦀 🏠 - MCP gateway that registers upstream MCP servers and fronts them behind one governed Streamable HTTP endpoint (`/mcp`): per-tool access control by caller API key, guardrails over tool arguments and results, rate limits, and usage logs. The same self-hosted gateway also proxies LLM and A2A agent traffic."
         confidence: high
+    - id: discovery__github__api7__aisix__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: AISIX
+        extracted_url: https://github.com/api7/aisix
+        surrounding_text: "| [AISIX](https://github.com/api7/aisix) | Open-source AI gateway written in Rust: one OpenAI-compatible API (plus a native Anthropic Messages API) in front of LLM providers, and a gateway for MCP servers and A2A agents, with shared API keys, rate limits, guardrails, caching, and Prometheus/OTLP observability. | ![GitHub Badge](https://img.shields.io/github/stars/api7/aisix.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 175
@@ -87,7 +102,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-10T04:12:32.936Z"
+    updated_at: "2026-11-05T04:13:55.609Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +112,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-02T04:12:16.049Z"
+    updated_at: "2026-11-05T04:14:02.676Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

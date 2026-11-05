@@ -1,0 +1,87 @@
+id: github__agentty-org__agentty
+kind: github-repo
+name: agentty-org/agentty
+canonical_url: https://github.com/agentty-org/agentty
+identity:
+  github_repo: agentty-org/agentty
+provenance:
+  discoveries:
+    - id: discovery__github__agentty-org__agentty__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: agentty
+        extracted_url: https://github.com/1ay1/agentty
+        surrounding_text: "- **[agentty](https://github.com/1ay1/agentty)** `⭐ 620` — Native C++26 terminal coding agent and drop-in claude-code alternative; single ~13.6 MB static binary with sub-millisecond cold start and zero runtime deps (no Node/Python/Electron). Sandboxed by default (Bubblewrap/`sandbox-exec`), model-agnostic (Claude, OpenAI, Groq, OpenRouter, Together, Cerebras, local Ollama), runs inside Zed over ACP, and drives air-gapped hosts over SSH. Linux/macOS/Windows/Termux. MIT."
+        confidence: high
+    - id: discovery__github__agentty-org__agentty__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Coding Agents
+        anchor_text: agentty
+        extracted_url: https://github.com/1ay1/agentty
+        surrounding_text: "- **[agentty](https://github.com/1ay1/agentty)** – Native C++26 terminal coding agent and drop-in claude-code alternative. Single static binary, sub-millisecond cold start, sandboxed by default, and model-agnostic (Claude, OpenAI, Groq, OpenRouter, Ollama). Runs inside Zed over ACP and drives air-gapped hosts over SSH. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-05T04:13:55.608Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-05T04:14:02.676Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

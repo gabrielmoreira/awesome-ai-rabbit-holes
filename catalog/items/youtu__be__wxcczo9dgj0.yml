@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no provided description or context.
-  why_it_matters: The input does not contain information relevant to software development tools or workflows.
-  mental_damage: Navigating a link with zero context is the purest form of debugging.
+  summary: A YouTube video link lacking descriptive metadata or context.
+  why_it_matters: N/A
+  mental_damage: There is nothing to review but the existential dread of an empty metadata field.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a YouTube video link with generic metadata that does not identify it as a tool, framework, or curated resource within the catalog's scope.
+  reason: The input provides only a YouTube URL with generic platform scraping, making it impossible to assess if the content is a relevant AI developer tool or product.
   evidence:
-    - URL is a YouTube video link
-    - Scraped site context contains only generic YouTube boilerplate
-    - No repo description or README excerpt provided
+    - Input is a YouTube URL
+    - Scraped content is generic YouTube boilerplate
+    - No specific description or README provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-02T04:14:10.163Z"
+    updated_at: "2026-11-05T04:15:33.919Z"
     cause: null
-    attempts: 13
+    attempts: 14
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a YouTube video link with generic metadata that does not identify it as a tool, framework, or curated resource within the catalog's scope.
+      decision_reason: The input provides only a YouTube URL with generic platform scraping, making it impossible to assess if the content is a relevant AI developer tool or product.
       decision_evidence:
-        - URL is a YouTube video link
-        - Scraped site context contains only generic YouTube boilerplate
-        - No repo description or README excerpt provided
+        - Input is a YouTube URL
+        - Scraped content is generic YouTube boilerplate
+        - No specific description or README provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

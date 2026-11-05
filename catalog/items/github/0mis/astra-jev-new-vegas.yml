@@ -1,0 +1,89 @@
+id: github__0mis__astra-jev-new-vegas
+kind: github-repo
+name: 0mis/astra-jev-new-vegas
+canonical_url: https://github.com/0mis/astra-jev-new-vegas
+identity:
+  github_repo: 0mis/astra-jev-new-vegas
+provenance:
+  discoveries:
+    - id: discovery__github__0mis__astra-jev-new-vegas__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: astra-jev-new-vegas
+        extracted_url: https://github.com/0mis/astra-jev-new-vegas
+        surrounding_text: "- [astra-jev-new-vegas](https://github.com/0mis/astra-jev-new-vegas) - Supervised Python agent-controller experiment: typed API decisions, conservative budget reservations, recording gates, watchdogs, and regression tests."
+        confidence: high
+    - id: discovery__github__0mis__astra-jev-new-vegas__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: "Astra + Jev: Fallout: New Vegas (source of a supervised main-story run where Jev made the gameplay choices)"
+        extracted_url: https://github.com/0mis/astra-jev-new-vegas
+        surrounding_text: "- [Astra + Jev: Fallout: New Vegas (source of a supervised main-story run where Jev made the gameplay choices)](https://github.com/0mis/astra-jev-new-vegas) - Python agent controller behind a recorded, supervised Fallout: New Vegas main-story run: Jev made frequent bounded gameplay choices through normal keyboard and mouse controls while the controller handled recording gates, watchdogs and recovery. Includes a budget-reserving decision client and 147 regression tests. [Project guide](community/projects/tools/astra-jev-new-vegas.md)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-05T04:13:55.607Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-11-05T04:13:57.256Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for 0mis/astra-jev-new-vegas
+  categorize:
+    status: skipped
+    updated_at: "2026-11-05T04:14:02.676Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

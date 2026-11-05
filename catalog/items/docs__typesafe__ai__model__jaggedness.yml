@@ -1,0 +1,123 @@
+id: docs__typesafe__ai__model__jaggedness
+kind: website
+name: model-jaggedness
+canonical_url: https://docs.typesafe.ai/model-jaggedness
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__docs__typesafe__ai__model__jaggedness__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Official
+        anchor_text: Jev 1.13 jaggedness
+        extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
+        surrounding_text: "- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Known failure modes of the current public model, documented by TypeSafe."
+        confidence: high
+    - id: discovery__docs__typesafe__ai__model__jaggedness__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Related Practices / Discussions
+        anchor_text: Jev 1.13 jaggedness
+        extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
+        surrounding_text: "- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - Documentation: TypeSafe's own page on model jaggedness for the 1.13 release."
+        confidence: high
+    - id: discovery__docs__typesafe__ai__model__jaggedness__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Official resources
+        anchor_text: Jev 1.13 jaggedness
+        extracted_url: https://docs.typesafe.ai/model-jaggedness/jev-1.13
+        surrounding_text: "- [Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13) - First-party limitations covering arithmetic, dates, distractors, adversarial state, and structural inconsistencies."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Documentation detailing the specific failure modes and behavioral limitations of the Jev decision model.
+  why_it_matters: It helps developers avoid common pitfalls by providing concrete patterns for handling the model's weaknesses in math, logic, and literal interpretation.
+  mental_damage: Providing a formal roadmap for exactly how much manual code you'll need to write to compensate for a model's inability to count to ten.
+  tags:
+    - documentation
+    - decision-models
+    - jev
+    - prompt-engineering
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a documentation page/resource rather than a standalone product, tool, or framework.
+  evidence:
+    - The URL points to a specific documentation index page (docs.typesafe.ai)
+    - The content outlines 'failure modes' and 'instead' advice for model users rather than providing executable software
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-05T04:13:55.607Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: done
+    updated_at: "2026-11-05T04:17:04.910Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:4466a0187340bbc8e0a8cf8d16a0a28c33f2f13c4724456d35e4c21444d321b2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page/resource rather than a standalone product, tool, or framework.
+      decision_evidence:
+        - The URL points to a specific documentation index page (docs.typesafe.ai)
+        - The content outlines 'failure modes' and 'instead' advice for model users rather than providing executable software
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9
+    next_retry_at: null

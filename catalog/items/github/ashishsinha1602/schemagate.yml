@@ -1,0 +1,88 @@
+id: github__ashishsinha1602__schemagate
+kind: github-repo
+name: ashishsinha1602/schemagate
+canonical_url: https://github.com/ashishsinha1602/schemagate
+identity:
+  github_repo: ashishsinha1602/schemagate
+provenance:
+  discoveries:
+    - id: discovery__github__ashishsinha1602__schemagate__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: ashishsinha1602/schemagate
+        extracted_url: https://github.com/ashishsinha1602/schemagate
+        surrounding_text: "- [ashishsinha1602/schemagate](https://github.com/ashishsinha1602/schemagate) [![schemagate MCP server](https://glama.ai/mcp/servers/ashishsinha1602/schemagate/badges/score.svg)](https://glama.ai/mcp/servers/ashishsinha1602/schemagate) 🐍 🏠 🍎 🪟 🐧 - Selects the schema objects a SQL agent sees and returns only the tables the calling principal may read, on Postgres, Oracle, MySQL and SQL Server."
+        confidence: high
+    - id: discovery__github__ashishsinha1602__schemagate__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🗄️ Databases
+        anchor_text: ashishsinha1602/schemagate
+        extracted_url: https://github.com/ashishsinha1602/schemagate
+        surrounding_text: "-   **[ashishsinha1602/schemagate](https://github.com/ashishsinha1602/schemagate)** [![GitHub stars](https://img.shields.io/github/stars/ashishsinha1602/schemagate?style=social)](https://github.com/ashishsinha1602/schemagate): Hides the tables and columns a caller may not read before the model sees the schema, and refuses them in `run_query` (Postgres, Oracle, MySQL, SQL Server, SQLite)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-05T04:13:55.609Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-05T04:14:02.677Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

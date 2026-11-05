@@ -1810,8 +1810,8 @@ _1722 entries in 13 sections, ranked by stars. Each section opens with its top 3
 - **[virajbhartiya/laya-vs-jev](https://github.com/virajbhartiya/laya-vs-jev)** `⭐ 110` Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording.
 - **[w3cj/jev-chat](https://github.com/w3cj/jev-chat)** `⭐ 108` A tool calling chat bot built with Jev and no LLM.
 - **[Jevmeter](https://github.com/chetaslua/jevmeter)** `⭐ 105` `updated ≤30d` Put a live Jev (TypeSafe) meter on any video: every sentence scored, rendered as a 16:9 edit.
-- **[arimanyus/warrenduffer](https://github.com/arimanyus/warrenduffer)** `⭐ 93` `updated ≤30d` AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal dashboard.
 - **[JevMail](https://github.com/fazlerocks/jevmail)** `⭐ 93` `updated ≤30d` Open-source AI email triage for Gmail. Sorts your inbox into Needs reply, Updates, Promos, Sales and Spam with Jev, TypeSafe AI's decision model, via Vercel AI Gateway. Read-only, runs locally, 1,000 emails in about a minute for 3 cents.
+- **[Warren Duffer](https://github.com/arimanyus/warrenduffer)** `⭐ 93` `updated ≤30d` AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal dashboard.
 
 <details><summary><strong>▸ &nbsp;&nbsp;+257 more in Apps, Games & Simulation &nbsp;—&nbsp; click to expand</strong></summary>
 

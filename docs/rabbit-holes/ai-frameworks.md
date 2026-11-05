@@ -768,7 +768,7 @@ _481 entries in 6 sections, ranked by stars. Each section opens with its top 30;
 
   `mux` `video` `sdk` `node` `mcp`
   </details>
-- **[api7/aisix](https://github.com/api7/aisix)** `⭐ 175` `updated ≤30d` An open-source, Rust-native AI gateway that unifies multiple LLM providers under a single OpenAI-compatible API. <details><summary>More about</summary>
+- **[AISIX](https://github.com/api7/aisix)** `⭐ 175` `updated ≤30d` An open-source, Rust-native AI gateway that unifies multiple LLM providers under a single OpenAI-compatible API. <details><summary>More about</summary>
 
   It provides a single control point for managing routing, guardrails, caching, and observability across various model providers.
 

@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A malformed entry with undefined metadata pointing to a generic YouTube URL.
-  why_it_matters: N/A
-  mental_damage: Staring into the 'undefined' is the final stage of developer burnout in the age of automated curation.
+  summary: A broken or malformed entry with no substantive tool information.
+  why_it_matters: A non-existent tool provides no utility to a developer's workflow.
+  mental_damage: Staring into the void of an 'undefined' URL is the ultimate developer experience.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The entry is a malformed data point with no identifiable product identity, repository, or developer-tooling utility.
+  reason: The entry is a placeholder or broken link with no actual product identity, codebase, or functional description.
   evidence:
     - Name and URL are both 'undefined'
-    - No repository description, README, or star count provided
-    - Scraped site context contains generic YouTube boilerplate rather than tool-specific content
+    - No repository description, stars, or README provided
+    - The source context describes a generic YouTube landing page rather than a tool
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-02T04:12:53.250Z"
+    updated_at: "2026-11-05T04:14:36.205Z"
     cause: null
-    attempts: 12
+    attempts: 13
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry is a malformed data point with no identifiable product identity, repository, or developer-tooling utility.
+      decision_reason: The entry is a placeholder or broken link with no actual product identity, codebase, or functional description.
       decision_evidence:
         - Name and URL are both 'undefined'
-        - No repository description, README, or star count provided
-        - Scraped site context contains generic YouTube boilerplate rather than tool-specific content
+        - No repository description, stars, or README provided
+        - The source context describes a generic YouTube landing page rather than a tool
       category_candidates: []
       contrastive_reason: null
       review_reason: null

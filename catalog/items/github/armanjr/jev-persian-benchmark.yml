@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/armanjr/jev-persian-benchmark
         surrounding_text: "- [**Jev-Persian-Benchmark**](https://github.com/ArmanJR/Jev-Persian-Benchmark) — Benchmarks for \\*\\*Jev\\*\\* on \\*\\*480 authored general Persian questions\\*\\* and a \\*\\*24-excerpt classical Persian poetry pilot\\*\\* (48 main questions plus 48 controls). Related general questions are batched; poetry questions run individually. Raw responses are saved and answers are scored locally, without a runtime model judge. The general benchmark's historical Laya comparison is retained below."
         confidence: high
+    - id: discovery__github__armanjr__jev-persian-benchmark__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: Jev-Persian-Benchmark
+        extracted_url: https://github.com/armanjr/jev-persian-benchmark
+        surrounding_text: "- [Jev-Persian-Benchmark](https://github.com/ArmanJR/Jev-Persian-Benchmark) - A Quick Typesafe's Jev Evaluation on Persian."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -61,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.449Z"
+    updated_at: "2026-11-05T04:13:55.609Z"
     cause: null
     next_retry_at: null
   stars:
@@ -71,7 +86,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-02T04:12:16.049Z"
+    updated_at: "2026-11-05T04:14:02.677Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/alexei-led/claude-router
         surrounding_text: "- [claude-router (alexei-led)](https://github.com/alexei-led/claude-router) - Experimental Claude Code local gateway: TypeSafe Jev picks tier/effort for `jev-router` model rewrites. [Project guide](community/projects/tools/alexei-led-claude-router.md)."
         confidence: high
+    - id: discovery__github__alexei-led__claude-router__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: claude-router
+        extracted_url: https://github.com/alexei-led/claude-router
+        surrounding_text: "- [claude-router](https://github.com/alexei-led/claude-router) - Claude Code plugin that auto-picks the right model for each turn — micro, low, medium, or high tier — using Jev/Clef routing."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -68,7 +83,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.447Z"
+    updated_at: "2026-11-05T04:13:55.608Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,7 +93,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-02T04:12:16.049Z"
+    updated_at: "2026-11-05T04:14:02.676Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

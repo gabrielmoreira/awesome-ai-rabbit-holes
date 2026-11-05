@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
+  summary: Insufficient information provided to identify the product's functionality.
   why_it_matters: ""
   mental_damage: ""
   tags: []
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: The provided inputs lack sufficient functional detail to determine the product's identity or its relevance to the catalog's developer-tooling scope.
+  reason: The submission provides no functional description or README content, making it impossible to determine the tool's primary identity or whether it fits the catalog's specific developer-tooling scope.
   evidence:
-    - No repository description or README provided
-    - Scraped site context contains only a title ('Forge') without a description of functionality
+    - No repository description provided
+    - Scraped site context contains only a title ('Forge') without any functional description
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -65,9 +65,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-02T04:14:17.858Z"
+    updated_at: "2026-11-05T04:16:08.060Z"
     cause: null
-    attempts: 12
+    attempts: 13
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,11 +78,13 @@ processing:
       input_hash: sha256:358ea071321a5f1ccd09166a78f14eb8935588f07662532d4839ddd3a6c463dd
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided inputs lack sufficient functional detail to determine the product's identity or its relevance to the catalog's developer-tooling scope.
+      decision_reason: The submission provides no functional description or README content, making it impossible to determine the tool's primary identity or whether it fits the catalog's specific developer-tooling scope.
       decision_evidence:
-        - No repository description or README provided
-        - Scraped site context contains only a title ('Forge') without a description of functionality
+        - No repository description provided
+        - Scraped site context contains only a title ('Forge') without any functional description
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

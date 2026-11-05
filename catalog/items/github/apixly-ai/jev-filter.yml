@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/apixly-ai/jev-filter
         surrounding_text: "- [jev-filter](https://github.com/apixly-ai/jev-filter) ([site](https://apixly-ai.github.io/jev-filter/)) - Semantic filtering for AI tool results. Native npm CLI, caller-controlled context, batching, and reproducible benchmarks."
         confidence: high
+    - id: discovery__github__apixly-ai__jev-filter__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev Filter (Apixly)
+        extracted_url: https://github.com/apixly-ai/jev-filter
+        surrounding_text: "- [Jev Filter (Apixly)](https://github.com/apixly-ai/jev-filter) - Semantic filtering for AI agent tools: npm package `@apixly/jev-filter` (CLI, Python library, MCP server) turns large tool outputs, retrieved records, code and logs into compact typed TypeSafe Jev decisions with source IDs, local originals and receipts before they enter an agent's context; batched requests and maintainer-run A/B benchmarks. [Project guide](community/projects/tools/apixly-jev-filter.md)."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -71,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.448Z"
+    updated_at: "2026-11-05T04:13:55.609Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +97,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-02T04:12:16.049Z"
+    updated_at: "2026-11-05T04:14:02.676Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/atliq/jev-ai-use-cases
         surrounding_text: "- [jev-ai-use-cases (atliq)](https://github.com/atliq/jev-ai-use-cases) - LangChain notebook: TypeSafe Jev for triage, routing, reply guards, tool selection, finance-inbox checks. [Project guide](community/projects/tools/atliq-jev-ai-use-cases.md)."
         confidence: high
+    - id: discovery__github__atliq__jev-ai-use-cases__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Integrations
+        anchor_text: jev-ai-use-cases
+        extracted_url: https://github.com/atliq/jev-ai-use-cases
+        surrounding_text: "- [jev-ai-use-cases](https://github.com/atliq/jev-ai-use-cases) - Hands-on LangChain examples of Jev, TypeSafe AI's decision model: support ticket triage, model routing, reply guardrails, tool selection and finance-inbox fraud checks. An LLM writes; Jev decides."
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -60,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.449Z"
+    updated_at: "2026-11-05T04:13:55.609Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-02T04:12:16.049Z"
+    updated_at: "2026-11-05T04:14:02.677Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

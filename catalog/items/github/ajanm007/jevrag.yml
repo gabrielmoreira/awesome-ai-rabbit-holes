@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/ajanm007/jevrag
         surrounding_text: "- [**jevrag**](https://github.com/ajanm007/jevrag) — Replaces hardcoded RAG thresholds with explicit calibrated decision points. Five primitives (retrieval stopping, chunk splitting, context selection, answer abstention, cache trust) behind one swappable state → Decision → confidence → action interface, each evaluated on real datasets with a calibration harness that reports honestly."
         confidence: high
+    - id: discovery__github__ajanm007__jevrag__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-05T04:13:55.606Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jevrag
+        extracted_url: https://github.com/ajanm007/jevrag
+        surrounding_text: "- [jevrag](https://github.com/ajanm007/jevrag) - A pluggable decision substrate for RAG pipelines; explicit, calibrated state → Decision → confidence → action gates, with Jev as the first swappable backend."
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -67,7 +82,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.447Z"
+    updated_at: "2026-11-05T04:13:55.608Z"
     cause: null
     next_retry_at: null
   stars:
@@ -77,7 +92,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-02T04:12:16.049Z"
+    updated_at: "2026-11-05T04:14:02.676Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
