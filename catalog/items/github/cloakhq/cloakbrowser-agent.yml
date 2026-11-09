@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/cloakhq/cloakbrowser-agent
         surrounding_text: "- [CloakBrowser-Agent](https://github.com/CloakHQ/CloakBrowser-Agent) - Stealth browser agent where TypeSafe Jev decides each step and CloakBrowser executes (MCP/CLI/Python). [Project guide](community/projects/tools/cloakbrowser-agent.md)."
         confidence: high
+    - id: discovery__github__cloakhq__cloakbrowser-agent__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Browser & computer use
+        anchor_text: CloakBrowser-Agent
+        extracted_url: https://github.com/cloakhq/cloakbrowser-agent
+        surrounding_text: "- [CloakBrowser-Agent](https://github.com/CloakHQ/CloakBrowser-Agent) - Jev-powered stealth browser agent. TypeSafe Jev decides each step in ~0.3 s, CloakBrowser carries it out like a human. MCP server, CLI and Python API."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -80,7 +95,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.452Z"
+    updated_at: "2026-11-09T04:10:52.355Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +105,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.930Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

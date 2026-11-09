@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/charlesdove977/claude-x-jev
         surrounding_text: "- [Claude x Jev](https://github.com/charlesdove977/claude-x-jev) - Claude Code skill/commands that use TypeSafe Jev on OpenRouter for classify/route/gate so Claude only deep-reads unsure items. [Project guide](community/projects/tools/claude-x-jev.md)."
         confidence: high
+    - id: discovery__github__charlesdove977__claude-x-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: claude-x-jev
+        extracted_url: https://github.com/charlesdove977/claude-x-jev
+        surrounding_text: "- [claude-x-jev](https://github.com/charlesdove977/claude-x-jev) - Fast, cheap, typed decisions for Claude Code. Jev (TypeSafe's decision model on OpenRouter) sorts, checks, scores, gates and verifies at 0.3s and a fraction of a cent per item. Claude keeps the reading, writing and judgment."
+        confidence: high
 metadata:
   github:
     stars: 31
@@ -60,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.452Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.930Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

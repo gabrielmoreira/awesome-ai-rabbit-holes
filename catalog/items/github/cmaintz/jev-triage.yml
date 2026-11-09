@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/cmaintz/jev-triage
         surrounding_text: "- [**jev-triage**](https://github.com/CMaintz/jev-triage) — Near-free GitHub issue triage powered by TypeSafe AI's Jev - typed, confidence-gated labels that escalate only the uncertain cases."
         confidence: high
+    - id: discovery__github__cmaintz__jev-triage__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-triage (CMaintz)
+        extracted_url: https://github.com/cmaintz/jev-triage
+        surrounding_text: "- [jev-triage (CMaintz)](https://github.com/CMaintz/jev-triage) - Near-free GitHub issue triage powered by TypeSafe AI's Jev - typed, confidence-gated labels that escalate only the uncertain cases."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -95,7 +110,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.411Z"
+    updated_at: "2026-11-09T04:10:52.355Z"
     cause: null
     next_retry_at: null
   stars:
@@ -105,7 +120,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.930Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

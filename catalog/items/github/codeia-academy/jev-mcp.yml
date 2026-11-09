@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/codeia-academy/jev-mcp
         surrounding_text: "- [**jev-mcp**](https://github.com/CodeIA-Academy/jev-mcp) — MCP local que expone Jev (TypeSafe) como herramienta para Claude Code, Codex, Hermes y cualquier agente: ask\\_jev y list\\_jev\\_models, sin dependencias"
         confidence: high
+    - id: discovery__github__codeia-academy__jev-mcp__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-mcp (CodeIA-Academy)
+        extracted_url: https://github.com/codeia-academy/jev-mcp
+        surrounding_text: "- [jev-mcp (CodeIA-Academy)](https://github.com/CodeIA-Academy/jev-mcp) - MCP local que expone Jev (TypeSafe) como herramienta para Claude Code, Codex, Hermes y cualquier agente: ask_jev y list_jev_models, sin dependencias."
+        confidence: high
 metadata:
   github:
     stars: 1
@@ -70,7 +85,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.452Z"
+    updated_at: "2026-11-09T04:10:52.355Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +95,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.930Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

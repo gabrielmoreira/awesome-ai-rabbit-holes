@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/backant-io/jevelry
         surrounding_text: "- [jevelry](https://github.com/backant-io/jevelry) - Use Jev everywhere to make & track decisions."
         confidence: high
+    - id: discovery__github__backant-io__jevelry__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: jevelry
+        extracted_url: https://github.com/backant-io/jevelry
+        surrounding_text: "- [jevelry](https://github.com/backant-io/jevelry) - `Open source` · `Free source build` · `BYOK`. Terminal app to make and track decisions with TypeSafe Jev (jevels). [Project guide](community/projects/apps/jevelry.md)."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -73,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.449Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:
@@ -83,7 +99,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.929Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

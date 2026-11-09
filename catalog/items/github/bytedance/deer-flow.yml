@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/bytedance/deer-flow
         surrounding_text: "- **[DeerFlow](https://github.com/bytedance/deer-flow)** `⭐ 80.1k` `[ByteDance]` — Long-horizon super-agent harness orchestrating sub-agents, skills, memory, and sandboxes; ships a `deerflow` terminal workbench (Textual TUI plus headless `--print`) alongside its web UI and IM channels. Agent work is confined to a per-thread sandbox workspace unless you declare host mounts in config. MIT."
         confidence: high
+    - id: discovery__github__bytedance__deer-flow__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: DeerFlow
+        extracted_url: https://github.com/bytedance/deer-flow
+        surrounding_text: "- [DeerFlow](https://github.com/bytedance/deer-flow): LangGraph-based agent system with sandbox execution, persistent memory, and extensible tools. (https://img.shields.io/github/stars/bytedance/deer-flow?style=social)"
+        confidence: high
 metadata:
   github:
     stars: 83333
@@ -83,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:
@@ -93,7 +109,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.929Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

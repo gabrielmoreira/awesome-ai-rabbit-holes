@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/completetech-llc-ai-research/jev-311-heatmap
         surrounding_text: "- [**jev-311-heatmap**](https://github.com/CompleteTech-LLC-AI-Research/jev-311-heatmap) — The live run excluded 205 reports with missing or invalid coordinates, completed \\*\\*634 API calls without retries\\*\\*, and reported \\*\\*539,979 input tokens\\*\\*. Repeated descriptions share one evaluation."
         confidence: high
+    - id: discovery__github__completetech-llc-ai-research__jev-311-heatmap__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: jev-311-heatmap
+        extracted_url: https://github.com/completetech-llc-ai-research/jev-311-heatmap
+        surrounding_text: "- [jev-311-heatmap](https://github.com/CompleteTech-LLC-AI-Research/jev-311-heatmap) - NYC 311 complaint heatmaps built with Jev: reproducible pipeline and interactive geographic visualizations."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -59,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.453Z"
+    updated_at: "2026-11-09T04:10:52.355Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.678Z"
+    updated_at: "2026-11-09T04:10:58.930Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -36,6 +36,37 @@ provenance:
         extracted_url: https://github.com/bojansandhaus/jev-decisions
         surrounding_text: "- [**jev-decisions**](https://github.com/bojansandhaus/jev-decisions) — Jev Decisions Plugin for Hermes (and other AI Agents): tool risk reviews, human approval recommendations, evidence checks, and a local decision journal."
         confidence: high
+    - id: discovery__github__bojansandhaus__jev-decisions-hermes__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-decisions
+        extracted_url: https://github.com/bojansandhaus/jev-decisions-hermes
+        surrounding_text: "- [jev-decisions](https://github.com/bojansandhaus/jev-decisions-hermes) ([site](https://openrouter.ai/typesafe/jev-1.13)) - Safety checks for Hermes and other AI agents before they act, ask for approval, or verify a change."
+        confidence: high
+    - id: discovery__github__bojansandhaus__jev-decisions-hermes__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Jev Decisions Plugin for Hermes
+        extracted_url: https://github.com/bojansandhaus/jev-decisions-hermes
+        surrounding_text: "- [Jev Decisions Plugin for Hermes](https://github.com/bojansandhaus/jev-decisions-hermes) - Hermes (and other agent) plugin adding Jev-backed tool-risk reviews, approval recommendations, source checks, and task-completion checks. [Project guide](community/projects/tools/jev-decisions-hermes.md)."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -89,14 +120,14 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.929Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
     next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.410Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:

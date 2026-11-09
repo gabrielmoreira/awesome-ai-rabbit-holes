@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link lacking descriptive metadata or context.
-  why_it_matters: N/A
-  mental_damage: There is nothing to review but the existential dread of an empty metadata field.
+  summary: A YouTube video link with no associated metadata or product description.
+  why_it_matters: This entry provides no actionable information or tools for developers.
+  mental_damage: Trying to extract a product identity from a raw YouTube ID is a special kind of documentation-induced vertigo.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input provides only a YouTube URL with generic platform scraping, making it impossible to assess if the content is a relevant AI developer tool or product.
+  reason: The input is a YouTube link with no descriptive context, making it impossible to identify a relevant AI tool or resource.
   evidence:
     - Input is a YouTube URL
-    - Scraped content is generic YouTube boilerplate
-    - No specific description or README provided
+    - No repository or tool description available
+    - Scraped context is generic YouTube boilerplate
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-05T04:15:33.919Z"
+    updated_at: "2026-11-09T04:13:21.744Z"
     cause: null
-    attempts: 14
+    attempts: 15
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input provides only a YouTube URL with generic platform scraping, making it impossible to assess if the content is a relevant AI developer tool or product.
+      decision_reason: The input is a YouTube link with no descriptive context, making it impossible to identify a relevant AI tool or resource.
       decision_evidence:
         - Input is a YouTube URL
-        - Scraped content is generic YouTube boilerplate
-        - No specific description or README provided
+        - No repository or tool description available
+        - Scraped context is generic YouTube boilerplate
       category_candidates: []
       contrastive_reason: null
       review_reason: null

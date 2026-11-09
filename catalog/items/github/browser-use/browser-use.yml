@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://browser-use.com
         surrounding_text: "- [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) ([site](https://browser-use.com), [post](https://x.com/gregpr07/status/2100411066966749359)) - Browser Use's ultrafast agent: Jev picks the operation and DOM element in one request; a small LLM only writes text when typing is needed."
         confidence: high
+    - id: discovery__github__browser-use__browser-use__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🌐 Browser Control
+        anchor_text: browser-use/browser-use
+        extracted_url: https://github.com/browser-use/browser-use
+        surrounding_text: "-   **[browser-use/browser-use](https://github.com/browser-use/browser-use)** [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social)](https://github.com/browser-use/browser-use): Official Browser Use MCP server for running browser agent tasks locally or on Browser Use Cloud browsers."
+        confidence: high
 metadata:
   github:
     stars: 117005
@@ -66,7 +82,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.450Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,7 +92,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.929Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/av-labs-co/cos-codex-bridge
         surrounding_text: "-   **[AV-Labs-Co/cos-codex-bridge](https://github.com/AV-Labs-Co/cos-codex-bridge)** [![GitHub stars](https://img.shields.io/github/stars/AV-Labs-Co/cos-codex-bridge?style=social)](https://github.com/AV-Labs-Co/cos-codex-bridge): Local-first MCP that lets Chief of Staff agents create, monitor, continue, assign, pin, and cancel scoped Codex project tasks with durable receipts."
         confidence: high
+    - id: discovery__github__av-labs-co__cos-codex-bridge__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: AV-Labs-Co/cos-codex-bridge
+        extracted_url: https://github.com/av-labs-co/cos-codex-bridge
+        surrounding_text: "- [AV-Labs-Co/cos-codex-bridge](https://github.com/AV-Labs-Co/cos-codex-bridge) [![AV-Labs-Co/cos-codex-bridge MCP server](https://glama.ai/mcp/servers/AV-Labs-Co/cos-codex-bridge/badges/score.svg)](https://glama.ai/mcp/servers/AV-Labs-Co/cos-codex-bridge) 📇 🏠 🍎 - Local MCP that lets a Chief of Staff client find, create and register Codex projects; submit exact prompts; track durable receipts; continue existing tasks; and organize scoped work inside allowlisted directories."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -76,7 +92,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.449Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:
@@ -86,7 +102,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.929Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

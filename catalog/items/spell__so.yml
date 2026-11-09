@@ -36,17 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web domain that currently presents only a directory index.
-  why_it_matters: Undeterminable due to the absence of descriptive content or documentation.
-  mental_damage: The crushing disappointment of an 'awesome' link that leads only to a bare directory listing.
-  tags: []
+  summary: An autonomous AI agent mentioned in the awesome-ai-agents directory.
+  why_it_matters: Information is currently insufficient to determine its utility for developer workflows.
+  mental_damage: The existential dread of finding a tool in a curated list that leaves no digital footprint beyond an empty directory listing.
+  tags:
+    - agent
   confidence: high
 curation:
   status: excluded
-  reason: The project's identity and utility cannot be verified because the website is a bare directory index and no repository description or README was provided to define its purpose.
+  reason: The project cannot be evaluated because the repository description, README, and scraped site context are all empty or provide only a generic directory index.
   evidence:
-    - Scraped site context is an empty 'Index of /' directory listing
-    - No repository description or README provided to identify product identity
+    - Repo description is missing
+    - README excerpt is empty
+    - Scraped site context is only an 'Index of /' directory listing
 placement:
   primary_category: null
   section: null
@@ -65,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-05T04:15:26.099Z"
+    updated_at: "2026-11-09T04:12:58.204Z"
     cause: null
-    attempts: 13
+    attempts: 14
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +80,11 @@ processing:
       input_hash: sha256:1eb60ae16238a9ee03dd6c7dc243cd06cbf839ac7f7604e1b7a79c1c08a4df4b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project's identity and utility cannot be verified because the website is a bare directory index and no repository description or README was provided to define its purpose.
+      decision_reason: The project cannot be evaluated because the repository description, README, and scraped site context are all empty or provide only a generic directory index.
       decision_evidence:
-        - Scraped site context is an empty 'Index of /' directory listing
-        - No repository description or README provided to identify product identity
+        - Repo description is missing
+        - README excerpt is empty
+        - Scraped site context is only an 'Index of /' directory listing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/calcom/cal.com
         surrounding_text: "- [GitHub](https://github.com/calcom/cal.com/tree/main/apps/ai)"
         confidence: high
+    - id: discovery__github__calcom__cal.diy__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Community Servers
+        anchor_text: Calcom
+        extracted_url: https://cal.com
+        surrounding_text: "- **[Danielpeter-99/calcom-mcp](https://github.com/Danielpeter-99/calcom-mcp)** - MCP server for [Calcom](https://cal.com/) (Also known as [Cal.com](https://cal.com/)). Manage event types, create bookings, and access Cal.com scheduling data through LLMs."
+        confidence: high
 metadata:
   github:
     stars: 48631
@@ -77,7 +92,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.606Z"
+    updated_at: "2026-11-09T04:10:52.354Z"
     cause: null
     next_retry_at: null
   stars:
@@ -87,7 +102,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-05T04:14:02.677Z"
+    updated_at: "2026-11-09T04:10:58.930Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

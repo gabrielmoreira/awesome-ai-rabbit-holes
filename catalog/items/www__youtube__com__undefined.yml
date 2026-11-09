@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A broken or malformed entry with no substantive tool information.
-  why_it_matters: A non-existent tool provides no utility to a developer's workflow.
-  mental_damage: Staring into the void of an 'undefined' URL is the ultimate developer experience.
+  summary: This entry contains no identifiable product information.
+  why_it_matters: No tool or resource can be evaluated due to missing metadata.
+  mental_damage: Staring into this entry's metadata provides the same existential dread as a NullPointerException in a critical production path.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The entry is a placeholder or broken link with no actual product identity, codebase, or functional description.
+  reason: The input data is fundamentally broken, consisting entirely of 'undefined' placeholders and non-functional links.
   evidence:
-    - Name and URL are both 'undefined'
-    - No repository description, stars, or README provided
-    - The source context describes a generic YouTube landing page rather than a tool
+    - Name is 'undefined'
+    - URL is 'https://www.youtube.com/undefined'
+    - Repo description is missing
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-05T04:14:36.205Z"
+    updated_at: "2026-11-09T04:11:40.746Z"
     cause: null
-    attempts: 13
+    attempts: 14
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry is a placeholder or broken link with no actual product identity, codebase, or functional description.
+      decision_reason: The input data is fundamentally broken, consisting entirely of 'undefined' placeholders and non-functional links.
       decision_evidence:
-        - Name and URL are both 'undefined'
-        - No repository description, stars, or README provided
-        - The source context describes a generic YouTube landing page rather than a tool
+        - Name is 'undefined'
+        - URL is 'https://www.youtube.com/undefined'
+        - Repo description is missing
       category_candidates: []
       contrastive_reason: null
       review_reason: null

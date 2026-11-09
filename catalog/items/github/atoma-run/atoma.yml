@@ -1,0 +1,87 @@
+id: github__atoma-run__atoma
+kind: github-repo
+name: atoma-run/atoma
+canonical_url: https://github.com/atoma-run/atoma
+identity:
+  github_repo: atoma-run/atoma
+provenance:
+  discoveries:
+    - id: discovery__github__atoma-run__atoma__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: Atoma
+        extracted_url: https://github.com/atoma-run/atoma
+        surrounding_text: "- [Atoma](https://github.com/atoma-run/atoma) ([site](https://atoma.run)) - Open-source framework that orchestrates three tiers of LLM agents to plan, build, and verify software from a goal, with Jev picking the agent or recipe, approving plans and results, and setting execution effort."
+        confidence: high
+    - id: discovery__github__atoma-run__atoma__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-09T04:10:52.352Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: atoma
+        extracted_url: https://github.com/atoma-run/atoma
+        surrounding_text: "- [atoma](https://github.com/atoma-run/atoma) - Agent coordination platform (hosted atoma.run or self-hosted, AGPL-3.0) that turns a request into checked work; TypeSafe Jev takes bounded decisions such as which agent or recipe takes a task and whether a plan is approved. [Project guide](community/projects/tools/atoma.md)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-09T04:10:52.353Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-09T04:10:58.929Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
