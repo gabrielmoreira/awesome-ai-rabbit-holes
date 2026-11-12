@@ -51,17 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: No verifiable developer tool information found.
-  why_it_matters: N/A
-  mental_damage: Searching for coding agents only to end up in a Chinese architectural news feed is the ultimate productivity killer.
+  summary: A product with no provided description or documentation.
+  why_it_matters: Utility cannot be assessed without functional context.
+  mental_damage: The absolute void of a product that identifies only as 'Input'.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The scraped site context is entirely unrelated to AI software development, appearing to be a corporate or architectural website in Chinese.
+  reason: Insufficient information to determine product identity or scope fit.
   evidence:
-    - Scraped site context describes SunCity Group and architectural workshops
-    - No repository description or README provided to substantiate developer utility
+    - No repo description or README excerpt provided
+    - No scraped site context available
 placement:
   primary_category: null
   section: null
@@ -71,9 +71,9 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-11-09T04:12:38.306Z"
+    updated_at: "2026-11-12T04:15:14.550Z"
     cause: null
-    attempts: 15
+    attempts: 16
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -81,13 +81,13 @@ processing:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
-      input_hash: sha256:a9bda6e9fc11c0bbd8cd97034848eaa40a3168588241a3d7809ea2dfc1246dc9
+      input_hash: sha256:a6ad39c95444ee1c4fd881d32dafb18cd0dedd844757a0294ad5316565301a2b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The scraped site context is entirely unrelated to AI software development, appearing to be a corporate or architectural website in Chinese.
+      decision_reason: Insufficient information to determine product identity or scope fit.
       decision_evidence:
-        - Scraped site context describes SunCity Group and architectural workshops
-        - No repository description or README provided to substantiate developer utility
+        - No repo description or README excerpt provided
+        - No scraped site context available
       category_candidates: []
       contrastive_reason: null
       review_reason: null

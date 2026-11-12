@@ -36,18 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ""
-  why_it_matters: ""
-  mental_damage: ""
+  summary: A CLI tool categorized as a demonstration project for the Jev decision model.
+  why_it_matters: N/A
+  mental_damage: N/A
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Insufficient information provided in the description, README, or site context to determine the tool's actual function or its fit within the catalog's scope.
+  reason: The project is explicitly categorized as a 'Demo & playground' in the awesome-jev list, indicating it is a showcase of model capabilities rather than a practical, standalone tool for a developer's workflow.
   evidence:
-    - Repo description is missing
-    - No README excerpt provided
-    - Scraped site context contains no functional information due to a failed page load
+    - Source-list context places it specifically in 'Demos & playgrounds'
+    - No repo description or README is available to verify independent utility
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,7 +66,7 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-09T04:14:22.086Z"
+    updated_at: "2026-11-12T04:17:38.180Z"
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -76,16 +75,15 @@ processing:
       input_hash: sha256:56bd43c3e619082a9e266d912f1df0eb30ca8f9ab667bb7df6d079b143dd1a53
       proposed_primary_category: null
       disagreement: false
-      decision_reason: Insufficient information provided in the description, README, or site context to determine the tool's actual function or its fit within the catalog's scope.
+      decision_reason: The project is explicitly categorized as a 'Demo & playground' in the awesome-jev list, indicating it is a showcase of model capabilities rather than a practical, standalone tool for a developer's workflow.
       decision_evidence:
-        - Repo description is missing
-        - No README excerpt provided
-        - Scraped site context contains no functional information due to a failed page load
+        - Source-list context places it specifically in 'Demos & playgrounds'
+        - No repo description or README is available to verify independent utility
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 10
+    attempts: 11
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

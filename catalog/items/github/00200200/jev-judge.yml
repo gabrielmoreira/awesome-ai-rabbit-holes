@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/00200200/jev-judge
         surrounding_text: "- [jev-judge](https://github.com/00200200/jev-judge) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/00200200/jev-judge?style=flat-square&label=%E2%98%85) - CI/CD & LLM evaluation: runs declarative YAML/JSON/JSONL test suites natively on Jev Noul, Choice, and Score decisions for RAG faithfulness, hallucination detection, and agent safety with watch mode, parallel batching, and GitHub Actions PR reporting in sub-100ms at $0.00004 per decision."
         confidence: high
+    - id: discovery__github__00200200__jev-judge__awesome-list__heyjunpenn__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: heyjunpenn/awesome-jev
+        url: https://github.com/heyjunpenn/awesome-jev
+        repository: heyjunpenn/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Added today
+        anchor_text: jev-judge
+        extracted_url: https://github.com/00200200/jev-judge
+        surrounding_text: "- **Agent tooling (1):** [jev-judge](https://github.com/00200200/jev-judge)"
+        confidence: high
 metadata:
   github:
     stars: null
@@ -72,18 +87,18 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-11-02T04:12:08.970Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
     status: deferred
-    updated_at: "2026-11-09T04:10:54.042Z"
+    updated_at: "2026-11-12T04:13:43.999Z"
     cause:
       type: github_unavailable
       message: Could not fetch GitHub metadata for 00200200/jev-judge
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.928Z"
+    updated_at: "2026-11-12T04:13:49.346Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

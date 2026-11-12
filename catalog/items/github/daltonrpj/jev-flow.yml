@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/daltonrpj/jev-flow
         surrounding_text: "- [Jev Flow](https://github.com/daltonrpj/jev-flow) - Standalone Node.js studio for typed Jev workflows (Studio, Compendium, Battle Arena; distinct from jev-flow-harness). [Project guide](community/projects/tools/jev-flow.md)."
         confidence: high
+    - id: discovery__github__daltonrpj__jev-flow__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: Jev Flow
+        extracted_url: https://github.com/daltonrpj/jev-flow
+        surrounding_text: "- [Jev Flow](https://github.com/daltonrpj/jev-flow) ([site](https://jevflow.cloud/)) - Standalone open-source studio for typed Jev workflows."
+        confidence: high
 metadata:
   github:
     stars: 7
@@ -60,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.453Z"
+    updated_at: "2026-11-12T04:13:42.455Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.930Z"
+    updated_at: "2026-11-12T04:13:49.348Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -52,6 +52,21 @@ provenance:
         extracted_url: https://github.com/kushals256/jevcache
         surrounding_text: "- [**jevcache**](https://github.com/kushals256/jevcache) — MorrowCache — skip the chat call when the question is the same. OpenAI-compatible proxy. npm: @kushalicious/jevcache"
         confidence: high
+    - id: discovery__github__kushals256__jevcache__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: MorrowCache
+        extracted_url: https://github.com/kushals256/jevcache
+        surrounding_text: "| [MorrowCache](https://github.com/kushals256/jevcache) | Open-source (MIT) LLM response cache that runs as a local OpenAI-compatible proxy: change the client base URL and repeated or reworded questions are answered from cache. Similarity only proposes candidates; an LLM judge (cloud or local) must admit a hit, and the proxy fails open to the model. Agent retries hit only on the same prior turns, and responses with tool calls are never stored. | ![GitHub Badge](https://img.shields.io/github/stars/kushals256/jevcache.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 12
@@ -88,7 +103,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-26T04:17:03.173Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,7 +112,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.933Z"
+    updated_at: "2026-11-12T04:13:49.350Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

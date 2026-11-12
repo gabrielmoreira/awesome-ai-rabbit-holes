@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/buildkite/buildkite-mcp-server
         surrounding_text: "- **[Buildkite](https://github.com/buildkite/buildkite-mcp-server)** - Manage [Buildkite](https://buildkite.com) pipelines and builds."
         confidence: high
+    - id: discovery__github__buildkite__buildkite-mcp-server__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Buildkite MCP server evals (Yilong grader that uses Jev)
+        extracted_url: https://github.com/buildkite/buildkite-mcp-server
+        surrounding_text: "- [Buildkite MCP server evals (Yilong grader that uses Jev)](https://github.com/buildkite/buildkite-mcp-server) - Eval suite in Buildkite's official MCP server repository whose Yilong grader sends complete eval evidence to Jev and reads its grading probabilities, with a long-context fallback. [Project guide](community/projects/tools/buildkite-mcp-yilong-jev-evals.md)."
+        confidence: high
 metadata:
   github:
     stars: 54
@@ -80,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.583Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +106,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.929Z"
+    updated_at: "2026-11-12T04:13:49.347Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

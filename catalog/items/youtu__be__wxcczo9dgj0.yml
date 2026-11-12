@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no associated metadata or product description.
-  why_it_matters: This entry provides no actionable information or tools for developers.
-  mental_damage: Trying to extract a product identity from a raw YouTube ID is a special kind of documentation-induced vertigo.
+  summary: A YouTube video link with no descriptive metadata.
+  why_it_matters: It offers no identifiable value to a developer workflow without context.
+  mental_damage: The existential dread of clicking a link only to be met by a generic YouTube landing page.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a YouTube link with no descriptive context, making it impossible to identify a relevant AI tool or resource.
+  reason: The input is a bare YouTube URL with no provided description or README, making it impossible to determine if it contains relevant AI developer tooling.
   evidence:
     - Input is a YouTube URL
-    - No repository or tool description available
-    - Scraped context is generic YouTube boilerplate
+    - No repository description or README provided
+    - Scraped site context contains only generic YouTube boilerplate
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-09T04:13:21.744Z"
+    updated_at: "2026-11-12T04:15:39.415Z"
     cause: null
-    attempts: 15
+    attempts: 16
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a YouTube link with no descriptive context, making it impossible to identify a relevant AI tool or resource.
+      decision_reason: The input is a bare YouTube URL with no provided description or README, making it impossible to determine if it contains relevant AI developer tooling.
       decision_evidence:
         - Input is a YouTube URL
-        - No repository or tool description available
-        - Scraped context is generic YouTube boilerplate
+        - No repository description or README provided
+        - Scraped site context contains only generic YouTube boilerplate
       category_candidates: []
       contrastive_reason: null
       review_reason: null

@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/aianytime/jev-router
         surrounding_text: "- [Jev Router by AIAnytime (OpenAI-compatible router where Jev picks the model, agent or tool for each request)](https://github.com/AIAnytime/Jev-Router) - Self-hosted, OpenAI-compatible endpoint: send `model=\"auto\"` and Jev's typed choice, score and yes/no answers decide which configured model, agent or tool handles the request, with the routing reason returned alongside the response and a dashboard for traces. [Project guide](community/projects/tools/jev-router-aianytime.md)."
         confidence: high
+    - id: discovery__github__aianytime__jev-router__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Classification & Routing
+        anchor_text: Jev Router
+        extracted_url: https://github.com/aianytime/jev-router
+        surrounding_text: "- [Jev Router](https://github.com/AIAnytime/Jev-Router) ![stars](https://img.shields.io/github/stars/AIAnytime/Jev-Router?style=flat-square&label=%E2%98%85) - Model router: one OpenAI-compatible endpoint that sends each request to the right model, choosing with typed decisions that carry real probabilities."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -71,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-11-05T04:13:55.608Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +96,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.928Z"
+    updated_at: "2026-11-12T04:13:49.346Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

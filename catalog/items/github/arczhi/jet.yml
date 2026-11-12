@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/arczhi/jet
         surrounding_text: "- [jet](https://github.com/arczhi/jet) - A TypeSafe-native (Jev) coding agent built on Recursive LLM Context Decomposition (RLCD), with a native macOS client."
         confidence: high
+    - id: discovery__github__arczhi__jet__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: jet (fast coding agent built on TypeSafe Jev judgments and recursive context decomposition)
+        extracted_url: https://github.com/arczhi/jet
+        surrounding_text: "- [jet (fast coding agent built on TypeSafe Jev judgments and recursive context decomposition)](https://github.com/arczhi/jet) - Coding agent where a small TypeSafe Jev judgment model decides in milliseconds and the large model only sees key context built by Recursive LLM Context Decomposition (RLCD); CLI plus local web UI. [Project guide](community/projects/tools/jet.md)."
+        confidence: high
 metadata:
   github:
     stars: 5
@@ -69,7 +85,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.448Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,7 +95,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.929Z"
+    updated_at: "2026-11-12T04:13:49.347Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

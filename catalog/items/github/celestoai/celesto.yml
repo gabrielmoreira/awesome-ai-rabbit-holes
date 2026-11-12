@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/celestoai/celesto
         surrounding_text: "- [**celesto**](https://github.com/CelestoAI/celesto) — A Celesto PR-review example prepares sandbox checks and compares a general model with Jev on candidate findings."
         confidence: high
+    - id: discovery__github__celestoai__celesto__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Celesto PR review with Jev (secure agent computer example comparing an LLM and TypeSafe Jev as PR-finding evaluators)
+        extracted_url: https://github.com/celestoai/celesto
+        surrounding_text: "- [Celesto PR review with Jev (secure agent computer example comparing an LLM and TypeSafe Jev as PR-finding evaluators)](https://github.com/CelestoAI/celesto) - Example in CelestoAI's secure, persistent computer-for-agents repo: a PR reviewer whose candidate findings are evaluated by both an LLM and TypeSafe Jev (via Vercel AI Gateway or direct TypeSafe). [Project guide](community/projects/tools/celesto-pr-review-jev.md)."
+        confidence: high
 metadata:
   github:
     stars: 1002
@@ -85,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.411Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,7 +111,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.930Z"
+    updated_at: "2026-11-12T04:13:49.347Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

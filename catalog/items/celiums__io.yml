@@ -37,24 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Information unavailable for this project.
+  summary: The product identity and functionality of celiums.io could not be determined from the provided inputs.
   why_it_matters: N/A
-  mental_damage: N/A
+  mental_damage: The most impenetrable AI rabbit hole is the one with no documentation to lead you down it.
   tags: []
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: The provided input lacks the necessary substance (description, README, or scraped context) to determine the tool's identity or its relevance to the developer-tooling scope.
+  reason: The input contains no descriptive substance (no repo description, README, or scraped site context) to evaluate against the catalog's specific developer-tooling scope.
   evidence:
-    - No repository description provided
-    - No README excerpt provided
-    - No scraped site context provided
+    - No repo description provided
+    - No README or scraped site context provided
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: curated
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -67,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-09T04:14:35.085Z"
+    updated_at: "2026-11-12T04:17:39.599Z"
     cause: null
-    attempts: 15
+    attempts: 16
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -80,12 +79,13 @@ processing:
       input_hash: sha256:1efc8953523215ff66d765e9822a9da1df44c589a6a5e2ceda491e19459b8fa0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The provided input lacks the necessary substance (description, README, or scraped context) to determine the tool's identity or its relevance to the developer-tooling scope.
+      decision_reason: The input contains no descriptive substance (no repo description, README, or scraped site context) to evaluate against the catalog's specific developer-tooling scope.
       decision_evidence:
-        - No repository description provided
-        - No README excerpt provided
-        - No scraped site context provided
+        - No repo description provided
+        - No README or scraped site context provided
       category_candidates: []
       contrastive_reason: null
-      review_reason: null
-      review_resume_lifecycle: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle:
+        status: curated
+        reason: null

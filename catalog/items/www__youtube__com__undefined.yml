@@ -36,18 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This entry contains no identifiable product information.
-  why_it_matters: No tool or resource can be evaluated due to missing metadata.
-  mental_damage: Staring into this entry's metadata provides the same existential dread as a NullPointerException in a critical production path.
+  summary: No identifiable AI tool or repository was provided in the input.
+  why_it_matters: N/A
+  mental_damage: "The ultimate existential dread: a tool so advanced it doesn't even exist in the metadata."
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input data is fundamentally broken, consisting entirely of 'undefined' placeholders and non-functional links.
+  reason: The input contains no valid product name, repository description, or functional context to evaluate.
   evidence:
     - Name is 'undefined'
-    - URL is 'https://www.youtube.com/undefined'
     - Repo description is missing
+    - Linked page content is generic YouTube boilerplate
 placement:
   primary_category: null
   section: null
@@ -66,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-09T04:11:40.746Z"
+    updated_at: "2026-11-12T04:14:25.260Z"
     cause: null
-    attempts: 14
+    attempts: 15
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +79,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input data is fundamentally broken, consisting entirely of 'undefined' placeholders and non-functional links.
+      decision_reason: The input contains no valid product name, repository description, or functional context to evaluate.
       decision_evidence:
         - Name is 'undefined'
-        - URL is 'https://www.youtube.com/undefined'
         - Repo description is missing
+        - Linked page content is generic YouTube boilerplate
       category_candidates: []
       contrastive_reason: null
       review_reason: null

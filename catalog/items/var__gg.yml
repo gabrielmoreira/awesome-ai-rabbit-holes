@@ -37,17 +37,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: No descriptive information is available for var.gg.
-  why_it_matters: Cannot be determined without functional context.
-  mental_damage: Attempting to review a project with zero context is the ultimate developer productivity sink.
+  summary: var.gg is a domain with no available description or documentation to determine its purpose or functionality.
+  why_it_matters: It is unclear what value var.gg provides to developers due to a complete lack of information about its features or use case.
+  mental_damage: Another enigmatic AI-themed URL that fuels developer skepticism about whether it's a genuine tool or just a parked domain.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input provides no functional description, README, or site context to verify if the tool falls within the catalog's developer-tooling scope.
+  reason: Insufficient information to determine if var.gg is a developer-facing AI tool, so it is excluded per the safe abstain rule.
   evidence:
-    - No repo description provided
-    - No README excerpt or scraped site context available
+    - No repo description provided.
+    - No README excerpt or scraped site context available.
+    - Not listed in any source list or awesome list.
 placement:
   primary_category: null
   secondary_categories:
@@ -68,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-09T04:13:04.516Z"
+    updated_at: "2026-11-12T04:16:53.159Z"
     cause: null
-    attempts: 14
+    attempts: 15
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:ded84464280c824a3299d67d4b535cc36611c34ab41e208b05270a8e3ee70cbe
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input provides no functional description, README, or site context to verify if the tool falls within the catalog's developer-tooling scope.
+      decision_reason: Insufficient information to determine if var.gg is a developer-facing AI tool, so it is excluded per the safe abstain rule.
       decision_evidence:
-        - No repo description provided
-        - No README excerpt or scraped site context available
+        - No repo description provided.
+        - No README excerpt or scraped site context available.
+        - Not listed in any source list or awesome list.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

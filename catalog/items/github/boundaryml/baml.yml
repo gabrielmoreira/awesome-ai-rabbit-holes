@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/boundaryml/baml
         surrounding_text: "- [BAML](https://github.com/BoundaryML/baml) - The v1 nightly integration maps typed function return values to Jev questions; it is not part of the stable release line yet."
         confidence: high
+    - id: discovery__github__boundaryml__baml__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: BAML (agent programming language with a built-in TypeSafe Jev client in its standard library)
+        extracted_url: https://github.com/boundaryml/baml
+        surrounding_text: "- [BAML (agent programming language with a built-in TypeSafe Jev client in its standard library)](https://github.com/BoundaryML/baml) - BoundaryML's programming language for agents ships a `typesafeai` standard-library client that maps BAML types to TypeSafe Jev System One questions, defaulting to `jev-latest`. [Project guide](community/projects/tools/baml-typesafeai.md)."
+        confidence: high
 metadata:
   github:
     stars: 9374
@@ -66,7 +82,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.450Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,7 +92,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.929Z"
+    updated_at: "2026-11-12T04:13:49.347Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

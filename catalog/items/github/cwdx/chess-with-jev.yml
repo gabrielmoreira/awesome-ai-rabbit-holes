@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/cwdx/chess-with-jev
         surrounding_text: "- [Chess with Jev](https://chriswijnia.com/experiments/chess) - Jev chooses one move per turn from the legal moves, each described with facts worked out in code (exchanges, mates, threats); the page plays it and draws Jev's candidates as arrows ([source](https://github.com/cwdx/chess-with-jev))."
         confidence: high
+    - id: discovery__github__cwdx__chess-with-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-12T04:13:42.452Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Games & simulations
+        anchor_text: Chess with Jev
+        extracted_url: https://github.com/cwdx/chess-with-jev
+        surrounding_text: "- [Chess with Jev](https://github.com/cwdx/chess-with-jev) ([site](https://chriswijnia.com/experiments/chess)) - Chess and Chess960 in the browser where code works out each legal move's facts and Jev picks one per turn as a single Choice, with its candidates drawn as arrows."
+        confidence: high
 metadata:
   github:
     stars: 0
@@ -64,7 +79,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.453Z"
+    updated_at: "2026-11-12T04:13:42.454Z"
     cause: null
     next_retry_at: null
   stars:
@@ -74,7 +89,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-09T04:10:58.930Z"
+    updated_at: "2026-11-12T04:13:49.348Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
