@@ -1,0 +1,87 @@
+id: github__exemocaro__system-one-control-bench
+kind: github-repo
+name: exemocaro/system-one-control-bench
+canonical_url: https://github.com/exemocaro/system-one-control-bench
+identity:
+  github_repo: exemocaro/system-one-control-bench
+provenance:
+  discoveries:
+    - id: discovery__github__exemocaro__system-one-control-bench__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: System-One-Control-Bench
+        extracted_url: https://github.com/exemocaro/system-one-control-bench
+        surrounding_text: "- [System-One-Control-Bench](https://github.com/Exemocaro/System-One-Control-Bench) ([site](https://socb.dev)) - System-One Control Bench: can a non-generative decision model steer an agent across a small grid? 100 puzzles, exact scoring, a leaderboard and a report."
+        confidence: high
+    - id: discovery__github__exemocaro__system-one-control-bench__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: System-One Control Bench
+        extracted_url: https://github.com/exemocaro/system-one-control-bench
+        surrounding_text: "- [System-One Control Bench](https://github.com/Exemocaro/System-One-Control-Bench) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Exemocaro/System-One-Control-Bench?style=flat-square&label=%E2%98%85) - Model evaluation: steers an agent through 100 key-and-door grid puzzles with one Jev `Choice` per move, scoring every pick against an exact BFS solver, and finds that Jev picks an optimal move in 90% of 495 fixed positions yet finishes only 57 of 100 games (Gemma 4 26B 61, DeepSeek V4.1 Flash 60, with reasoning 80; the open decision models GLiClass 13 and Laya 12), so strong single decisions do not add up to a finished task; report and recorded games at [socb.dev](https://socb.dev)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-16T04:12:02.005Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-16T04:12:07.245Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

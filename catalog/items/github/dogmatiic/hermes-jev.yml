@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/dogmatiic/hermes-jev
         surrounding_text: "- [**hermes-jev**](https://github.com/DoGMaTiiC/hermes-jev) — Hermes Agent plugin: route each turn to the one skill that fits, via TypeSafe Jev on the Vercel AI Gateway. Fail-open, opt-in, stdlib only."
         confidence: high
+    - id: discovery__github__dogmatiic__hermes-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: hermes-jev (DoGMaTiiC)
+        extracted_url: https://github.com/dogmatiic/hermes-jev
+        surrounding_text: "- [hermes-jev (DoGMaTiiC)](https://github.com/DoGMaTiiC/hermes-jev) - Hermes Agent plugin: route each turn to the one skill that fits, via TypeSafe Jev on the Vercel AI Gateway. Fail-open, opt-in, stdlib only."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -59,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.455Z"
+    updated_at: "2026-11-16T04:12:02.004Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-12T04:13:49.348Z"
+    updated_at: "2026-11-16T04:12:07.244Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

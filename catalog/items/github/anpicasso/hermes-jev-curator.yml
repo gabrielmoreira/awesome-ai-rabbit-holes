@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/anpicasso/hermes-jev-curator
         surrounding_text: "- [hermes-jev-curator](https://github.com/anpicasso/hermes-jev-curator) - Hermes plugin: TypeSafe Jev typed skill-relationship judgments and safe curator archive/guard plans (experimental 0.1.0). [Project guide](community/projects/tools/hermes-jev-curator.md)."
         confidence: high
+    - id: discovery__github__anpicasso__hermes-jev-curator__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: hermes-jev-curator
+        extracted_url: https://github.com/anpicasso/hermes-jev-curator
+        surrounding_text: "- [hermes-jev-curator](https://github.com/anpicasso/hermes-jev-curator) - Typed Jev relation governance and safe archive plans for Hermes Curator."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -60,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.448Z"
+    updated_at: "2026-11-16T04:12:02.004Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +85,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-12T04:13:49.346Z"
+    updated_at: "2026-11-16T04:12:07.243Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/dirien/jev-router
         surrounding_text: "- [**jev-router**](https://github.com/dirien/jev-router) — Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model"
         confidence: high
+    - id: discovery__github__dirien__jev-router__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: jev-router (dirien)
+        extracted_url: https://github.com/dirien/jev-router
+        surrounding_text: "- [jev-router (dirien)](https://github.com/dirien/jev-router) - Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -66,7 +81,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.454Z"
+    updated_at: "2026-11-16T04:12:02.004Z"
     cause: null
     next_retry_at: null
   stars:
@@ -76,7 +91,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-12T04:13:49.348Z"
+    updated_at: "2026-11-16T04:12:07.244Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

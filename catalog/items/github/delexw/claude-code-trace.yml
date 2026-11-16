@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/delexw/claude-code-trace
         surrounding_text: "| [claude-code-trace](https://github.com/delexw/claude-code-trace) | ★ 370 | Rust | 2026-09-23 | Jev scores agent progress, tool use, focus, exploration, recovery, and token efficiency from Claude Code session logs. |"
         confidence: high
+    - id: discovery__github__delexw__claude-code-trace__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis)
+        extracted_url: https://github.com/delexw/claude-code-trace
+        surrounding_text: "- [Claude Code Trace (desktop, web and terminal viewer for Claude Code session logs with an optional Jev efficiency analysis)](https://github.com/delexw/claude-code-trace) - `Open source` · `Free` · `BYOK`. Viewer for the session logs Claude Code keeps in `~/.claude/projects`: readable conversations with expandable tool calls and diffs, live tailing, session picker, and desktop (Tauri), web and terminal front ends. The optional efficiency analysis sends a redacted session summary to Jev after you confirm the exact payload and shows trace-linked findings such as repeated work, thrashing and recovery. [Project guide](community/projects/apps/claude-code-trace.md)."
+        confidence: high
 metadata:
   github:
     stars: 373
@@ -74,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.454Z"
+    updated_at: "2026-11-16T04:12:02.004Z"
     cause: null
     next_retry_at: null
   stars:
@@ -84,7 +100,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-12T04:13:49.348Z"
+    updated_at: "2026-11-16T04:12:07.244Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -65,10 +65,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-11-12T04:16:52.116Z"
-    cause: null
-    attempts: 15
+    status: deferred
+    updated_at: "2026-11-16T04:14:51.591Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for wandb__ai__fully__connected: Invalid AI response structure: Missing required field: why_it_matters"
+    attempts: 16
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

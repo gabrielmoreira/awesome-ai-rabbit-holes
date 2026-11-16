@@ -1,0 +1,87 @@
+id: github__dbt-labs__dbt-decisions
+kind: github-repo
+name: dbt-labs/dbt-decisions
+canonical_url: https://github.com/dbt-labs/dbt-decisions
+identity:
+  github_repo: dbt-labs/dbt-decisions
+provenance:
+  discoveries:
+    - id: discovery__github__dbt-labs__dbt-decisions__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: dbt-decisions
+        extracted_url: https://github.com/dbt-labs/dbt-decisions
+        surrounding_text: "- [dbt-decisions](https://github.com/dbt-labs/dbt-decisions) - Dbt package for System One / jev-class decisions inside SQL."
+        confidence: high
+    - id: discovery__github__dbt-labs__dbt-decisions__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: dbt-decisions (dbt package for System One / Jev-class decisions inside SQL)
+        extracted_url: https://github.com/dbt-labs/dbt-decisions
+        surrounding_text: "- [dbt-decisions (dbt package for System One / Jev-class decisions inside SQL)](https://github.com/dbt-labs/dbt-decisions) - dbt Labs package that brings System One / Jev-class decisions into SQL models: DuckDB can load the community `jev` extension, macros such as `load_jev` point live runs at TypeSafe via `TYPESAFE_API_KEY`, and examples show call-fit analytics scored with Jev. [Project guide](community/projects/tools/dbt-decisions.md)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-16T04:12:02.004Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-16T04:12:07.244Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

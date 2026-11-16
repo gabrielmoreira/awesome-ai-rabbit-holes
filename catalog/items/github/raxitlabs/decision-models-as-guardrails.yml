@@ -67,6 +67,22 @@ provenance:
         extracted_url: https://github.com/raxitlabs/decision-models-as-guardrails
         surrounding_text: "- [**decision-models-as-guardrails**](https://github.com/raxITlabs/decision-models-as-guardrails) — Open benchmark evaluating 19 systems including Jev on 9,975 guardrail checks for balanced accuracy and cost."
         confidence: high
+    - id: discovery__github__raxitlabs__decision-models-as-guardrails__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: decision-models-as-guardrails (open benchmark asking whether Jev and other decision models can replace a managed guardrail)
+        extracted_url: https://github.com/raxitlabs/decision-models-as-guardrails
+        surrounding_text: "- [decision-models-as-guardrails (open benchmark asking whether Jev and other decision models can replace a managed guardrail)](https://github.com/raxITlabs/decision-models-as-guardrails) - Open benchmark by raxIT Labs that sends the same labelled rows to decision models (Jev 1.13 and 1.14, Kev, Open-Jev, Laya, Clef, Strands Decider), the Perplexity and OpenAI Decisions APIs and Bedrock Guardrails across six guardrail suites, and compares balanced accuracy and cost. [Project guide](community/projects/tools/decision-models-as-guardrails.md)."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -101,7 +117,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-11-02T04:12:08.968Z"
+    updated_at: "2026-11-16T04:12:02.003Z"
     cause: null
     next_retry_at: null
   stars:
@@ -110,7 +126,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-12T04:13:49.352Z"
+    updated_at: "2026-11-16T04:12:07.248Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

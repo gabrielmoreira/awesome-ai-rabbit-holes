@@ -1,0 +1,103 @@
+id: buddy__works__docs__integrations__typesafe
+kind: website
+name: typesafe
+canonical_url: https://buddy.works/docs/integrations/typesafe
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__buddy__works__docs__integrations__typesafe__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Buddy Jev action
+        extracted_url: https://buddy.works/docs/integrations/typesafe
+        surrounding_text: "- [Buddy Jev action](https://buddy.works/docs/integrations/typesafe) - Buddy pipeline action that asks Jev one `SCORE`, `CHOICE` or `BOOLEAN` question about a commit message, changelog or any file from the run and stores the answer and its confidence in `BUDDY_ACTION_JEV_*` variables for trigger conditions on later actions, such as manual approval when risk is `high`. Closed source, commercial; Jev calls use your TypeSafe key. [Project guide](community/projects/tools/buddy-jev-action.md)."
+        confidence: high
+    - id: discovery__buddy__works__docs__integrations__typesafe__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: Buddy Jev action
+        extracted_url: https://buddy.works/docs/integrations/typesafe
+        surrounding_text: "- [Buddy Jev action](https://buddy.works/docs/integrations/typesafe) - Deployment pipelines: a Buddy action that asks Jev one `SCORE`, `CHOICE` or `BOOLEAN` question about a commit message, changelog or any file from the run and stores the answer and its confidence in `BUDDY_ACTION_JEV_*` variables, so a later step can, for example, require manual approval when deploy risk comes back `high` or confidence drops below 0.7."
+        confidence: high
+    - id: discovery__buddy__works__docs__integrations__typesafe__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Routing, data, and workflows
+        anchor_text: Buddy Jev action
+        extracted_url: https://buddy.works/docs/integrations/typesafe
+        surrounding_text: "- [Buddy Jev action](https://buddy.works/docs/integrations/typesafe) - Pipeline action where Jev answers one `SCORE`, `CHOICE`, or `BOOLEAN` question about a commit message, changelog, or file from the run; the answer and its confidence go into `BUDDY_ACTION_JEV_*` variables, and trigger conditions on later actions use them to decide whether to deploy, notify, or ask for manual approval."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-16T04:12:02.004Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: deferred
+    updated_at: "2026-11-16T04:17:42.731Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for buddy__works__docs__integrations__typesafe: provider stop reason: length"
+    next_retry_at: null
+    attempts: 1

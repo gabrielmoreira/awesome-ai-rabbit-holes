@@ -37,23 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The product identity and functionality of celiums.io could not be determined from the provided inputs.
-  why_it_matters: N/A
-  mental_damage: The most impenetrable AI rabbit hole is the one with no documentation to lead you down it.
+  summary: No description provided; unable to determine what celiums.io is.
+  why_it_matters: Cannot assess relevance to developers without knowing the tool's purpose or functionality.
+  mental_damage: The frustration of encountering another AI-related domain with zero context about its actual utility for developers.
   tags: []
-  confidence: low
+  confidence: high
 curation:
   status: excluded
-  reason: The input contains no descriptive substance (no repo description, README, or scraped site context) to evaluate against the catalog's specific developer-tooling scope.
+  reason: Excluded due to insufficient information to verify if it is an AI tool for software developers.
   evidence:
     - No repo description provided
-    - No README or scraped site context provided
+    - No README excerpt provided
+    - No scraped site context provided
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: curated
+  reason: null
 processing:
   discover:
     status: done
@@ -66,26 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-12T04:17:39.599Z"
+    updated_at: "2026-11-16T04:16:40.044Z"
     cause: null
-    attempts: 16
+    attempts: 17
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: cloudflare/@cf/nvidia/nemotron-3-120b-a12b
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 93d0d81bdef9
       input_hash: sha256:1efc8953523215ff66d765e9822a9da1df44c589a6a5e2ceda491e19459b8fa0
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input contains no descriptive substance (no repo description, README, or scraped site context) to evaluate against the catalog's specific developer-tooling scope.
+      decision_reason: Excluded due to insufficient information to verify if it is an AI tool for software developers.
       decision_evidence:
         - No repo description provided
-        - No README or scraped site context provided
+        - No README excerpt provided
+        - No scraped site context provided
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
-      review_resume_lifecycle:
-        status: curated
-        reason: null
+      review_reason: null
+      review_resume_lifecycle: null

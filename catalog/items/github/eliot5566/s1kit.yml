@@ -1,0 +1,102 @@
+id: github__eliot5566__s1kit
+kind: github-repo
+name: eliot5566/s1kit
+canonical_url: https://github.com/eliot5566/s1kit
+identity:
+  github_repo: eliot5566/s1kit
+provenance:
+  discoveries:
+    - id: discovery__github__eliot5566__s1kit__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: s1kit
+        extracted_url: https://github.com/eliot5566/s1kit
+        surrounding_text: "- [s1kit](https://github.com/Eliot5566/s1kit) ([site](https://pypi.org/project/s1kit/)) - Test, calibrate and route System One decision models (Jev, Laya, kev, llama.cpp, Ollama) on your own data."
+        confidence: high
+    - id: discovery__github__eliot5566__s1kit__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Evaluation & Benchmarking
+        anchor_text: s1kit
+        extracted_url: https://github.com/eliot5566/s1kit
+        surrounding_text: "- [s1kit](https://github.com/Eliot5566/s1kit) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Eliot5566/s1kit?style=flat-square&label=%E2%98%85) - Model evaluation: runs one YAML suite of labelled `Choice`, `Score` and `Noul` cases against Jev and other `/v1/systemone` servers side by side, fits the lowest confidence cutoff per question that reaches a target precision, routes answers below it to the next model, and fails CI through a GitHub Action when accuracy drops."
+        confidence: high
+    - id: discovery__github__eliot5566__s1kit__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Evaluation and calibration
+        anchor_text: s1kit
+        extracted_url: https://github.com/eliot5566/s1kit
+        surrounding_text: "- [s1kit](https://github.com/Eliot5566/s1kit) - Runs your own labelled Choice, Score and Noul cases against Jev and other `/v1/systemone` servers side by side, picks the lowest confidence cutoff per question that reaches a target precision, and sends answers below it to the next model; a GitHub Action fails CI when accuracy drops."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-16T04:12:02.004Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-16T04:12:07.245Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

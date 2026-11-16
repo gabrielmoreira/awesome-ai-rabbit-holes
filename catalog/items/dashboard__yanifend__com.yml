@@ -37,17 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A dashboard site for Yanifend with no provided developer context or technical description.
-  why_it_matters: N/A
-  mental_damage: N/A
+  summary: Insufficient information provided to identify this as a developer-centric AI tool.
+  why_it_matters: The project lacks any identifiable utility or context for the curated catalog.
+  mental_damage: The most taxing part of this review was staring at a landing page that refuses to explain itself.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project provides no signal that it is a tool, framework, or resource relevant to software developers or the AI ecosystem.
+  reason: The project provides no technical context, description, or README content to suggest it is a developer-facing AI tool.
   evidence:
-    - No repo description or README content available
-    - Scraped site title 'Yanifend - we're listening you' offers no technical or developer-centric context
+    - Scraped title 'Yanifend - we're listening you' is non-descriptive and non-technical
+    - No repository description or README content was provided to establish scope
 placement:
   primary_category: null
   secondary_categories: []
@@ -66,12 +66,10 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-11-12T04:14:53.975Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for dashboard__yanifend__com: Invalid AI response structure: Missing required field: summary"
-    attempts: 14
+    status: done
+    updated_at: "2026-11-16T04:13:14.858Z"
+    cause: null
+    attempts: 15
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -82,10 +80,10 @@ processing:
       input_hash: sha256:a0a10194dbe3f459114ea63f6fea641f85d5576587063b4660eb3768852b6424
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project provides no signal that it is a tool, framework, or resource relevant to software developers or the AI ecosystem.
+      decision_reason: The project provides no technical context, description, or README content to suggest it is a developer-facing AI tool.
       decision_evidence:
-        - No repo description or README content available
-        - Scraped site title 'Yanifend - we're listening you' offers no technical or developer-centric context
+        - Scraped title 'Yanifend - we're listening you' is non-descriptive and non-technical
+        - No repository description or README content was provided to establish scope
       category_candidates: []
       contrastive_reason: null
       review_reason: null

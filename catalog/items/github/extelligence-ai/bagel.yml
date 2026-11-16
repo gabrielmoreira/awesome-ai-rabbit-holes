@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/extelligence-ai/bagel
         surrounding_text: "-   **[Extelligence-ai/bagel](https://github.com/Extelligence-ai/bagel)** [![GitHub stars](https://img.shields.io/github/stars/Extelligence-ai/bagel?style=social)](https://github.com/Extelligence-ai/bagel): Troubleshoot robots and drones using natural language to process physical telemetry and sensor data."
         confidence: high
+    - id: discovery__github__extelligence-ai__bagel__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-16T04:12:02.002Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Bagel (MCP server for robotics, drone and IoT logs whose beta anomaly gate uses a Jev backend to name what is not normal)
+        extracted_url: https://github.com/extelligence-ai/bagel
+        surrounding_text: "- [Bagel (MCP server for robotics, drone and IoT logs whose beta anomaly gate uses a Jev backend to name what is not normal)](https://github.com/Extelligence-ai/bagel) - MCP server that lets an agent ask plain-English questions about ROS, flight-log, CAN and MQTT data with auditable DuckDB SQL. Its beta edge data-reduction pipeline includes an anomaly gate that learns normal behaviour, asks Jev (hosted System One, or an on-robot decision model) to name what is not, and keeps only those slices. [Project guide](community/projects/tools/bagel-mcp.md)."
+        confidence: high
 metadata:
   github:
     stars: 397
@@ -79,7 +95,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-03T05:16:34.320Z"
+    updated_at: "2026-11-16T04:12:02.005Z"
     cause: null
     next_retry_at: null
   stars:
@@ -89,7 +105,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-12T04:13:49.348Z"
+    updated_at: "2026-11-16T04:12:07.245Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
