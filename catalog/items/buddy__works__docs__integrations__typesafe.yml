@@ -68,18 +68,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A decision-model service that returns constrained, typed answers—such as scores, choices, or booleans—with confidence values instead of free-form text.
+  why_it_matters: It allows developers to use AI to programmatically gate or route CI/CD pipelines and workflows without the fragility of parsing unstructured LLM prose.
+  mental_damage: Because nothing says 'stable infrastructure' like outsourcing your deployment gates to a probabilistic confidence score.
+  tags:
+    - decision-models
+    - typed-outputs
+    - automation
+    - workflow-gates
+    - jev
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is a decision model (Jev) that provides structured, probabilistic outputs for programmatic automation.
+  evidence:
+    - Jev returns typed results (SCORE, CHOICE, or BOOLEAN) rather than generated text.
+    - The service is designed to be used in trigger conditions for automation without parsing free-form text.
 placement:
-  primary_category: null
-  section: null
+  primary_category: decision-models
+  section: Official Jev & System One
 lifecycle:
   status: curated
   reason: null
@@ -94,10 +101,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-11-16T04:17:42.731Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for buddy__works__docs__integrations__typesafe: provider stop reason: length"
+    status: done
+    updated_at: "2026-11-19T04:17:01.705Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 93d0d81bdef9
+      input_hash: sha256:e878550f3faf160bca9e64ffef9967cd381117069d798c8fd527d254599def11
+      proposed_primary_category: decision-models
+      disagreement: false
+      decision_reason: The product's primary identity is a decision model (Jev) that provides structured, probabilistic outputs for programmatic automation.
+      decision_evidence:
+        - Jev returns typed results (SCORE, CHOICE, or BOOLEAN) rather than generated text.
+        - The service is designed to be used in trigger conditions for automation without parsing free-form text.
+      category_candidates:
+        - decision-models
+        - ai-frameworks
+      contrastive_reason: Choose decision-models over ai-frameworks because the core product identity is the probabilistic decision engine itself rather than a general-purpose programming library.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 93d0d81bdef9

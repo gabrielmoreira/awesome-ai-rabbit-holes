@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/google/adk-python
         surrounding_text: "- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for"
         confidence: high
+    - id: discovery__github__google__adk-python__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Google ADK TypesafeClassifier (route ADK agent workflows with Jev)
+        extracted_url: https://github.com/google/adk-python
+        surrounding_text: "- [Google ADK TypesafeClassifier (route ADK agent workflows with Jev)](https://github.com/google/adk-python) - Built-in integration in Google's Agent Development Kit for Python (v2.13.0+): `TypesafeClassifier` answers Choice, Binary and Score questions with TypeSafe's Jev, and the experimental `ClassifierNode` routes a workflow on the answer, with route labels checked against the graph when the workflow is built. [Project guide](community/projects/tools/google-adk-typesafe-classifier.md)."
+        confidence: high
 metadata:
   github:
     stars: 21693
@@ -80,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.616Z"
+    updated_at: "2026-11-19T04:13:45.872Z"
     cause: null
     next_retry_at: null
   stars:
@@ -90,7 +106,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.425Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

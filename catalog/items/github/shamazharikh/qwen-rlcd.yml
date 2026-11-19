@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/shamazharikh/qwen-rlcd
         surrounding_text: "| [qwen-rlcd](https://github.com/shamazharikh/qwen-rlcd) | ★ 1 | Python | 2026-09-19 | Jev-style calibrated decision model (Choice/Score/Noul) on Qwen3.5-0.8B. |"
         confidence: high
+    - id: discovery__github__shamazharikh__qwen-rlcd__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: qwen-rlcd
+        extracted_url: https://github.com/shamazharikh/qwen-rlcd
+        surrounding_text: "- [qwen-rlcd](https://github.com/shamazharikh/qwen-rlcd) ![stars](https://img.shields.io/github/stars/shamazharikh/qwen-rlcd?style=flat-square&label=%E2%98%85) - Prototype: a System One decision model targeting Qwen3.5-0.8B-Base, with a document that separates what comes from TypeSafe's own documentation from what the author measured, and a milestone table marking what is not built yet."
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -73,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.424Z"
+    updated_at: "2026-11-19T04:13:45.871Z"
     cause: null
     next_retry_at: null
   stars:
@@ -82,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.248Z"
+    updated_at: "2026-11-19T04:13:52.428Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/first-fluke/oh-my-agent
         surrounding_text: "- **[oh-my-agent](https://github.com/first-fluke/oh-my-agent)** `⭐ 1.3k` — Multi-runtime harness with stop-hook gates, artifact verification, and independent judges; portable `.agents/` across Claude Code, Codex, Cursor, and other CLIs. MIT."
         confidence: high
+    - id: discovery__github__first-fluke__oh-my-agent__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+          - Harness
+        anchor_text: oh-my-agent
+        extracted_url: https://github.com/first-fluke/oh-my-agent
+        surrounding_text: "6. [oh-my-agent](https://github.com/first-fluke/oh-my-agent): Vendor-agnostic harness that adds planner, engineer, reviewer and debugger roles to the coding agent you already use (Claude Code, Codex CLI, Cursor and others), from one portable `.agents/` folder."
+        confidence: high
 metadata:
   github:
     stars: 1334
@@ -70,7 +86,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.457Z"
+    updated_at: "2026-11-19T04:13:45.871Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +96,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.424Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

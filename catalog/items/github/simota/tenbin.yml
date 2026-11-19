@@ -36,6 +36,22 @@ provenance:
         extracted_url: https://github.com/simota/tenbin
         surrounding_text: "- [**tenbin**](https://github.com/simota/tenbin) — Documentation, an MCP server and a Skill for designing Jev judgments with question linting, batch evaluation and calibration."
         confidence: high
+    - id: discovery__github__simota__tenbin__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: Tenbin
+        extracted_url: https://github.com/simota/tenbin
+        surrounding_text: "- [Tenbin](https://github.com/simota/tenbin) ![stars](https://img.shields.io/github/stars/simota/tenbin?style=flat-square&label=%E2%98%85) - Coding-agent kit: a stdio MCP server with question lint, single and batch evaluation for threshold calibration, plus a skill that decomposes a judgement into templates and lints them offline."
+        confidence: high
 metadata:
   github:
     stars: 4
@@ -72,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.425Z"
+    updated_at: "2026-11-19T04:13:45.871Z"
     cause: null
     next_retry_at: null
   stars:
@@ -81,7 +97,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.248Z"
+    updated_at: "2026-11-19T04:13:52.428Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

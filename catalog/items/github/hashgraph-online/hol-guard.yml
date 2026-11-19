@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/hashgraph-online/hol-guard
         surrounding_text: "- **[HOL Guard](https://github.com/hashgraph-online/hol-guard)** `⭐ 421` — Local-first security harness that intercepts tool calls in AI coding agents before files change or network is contacted. Pre-tool hooks, approval center, and supply-chain advisory scanning. Supports Claude Code, Codex, Cursor, Gemini, Copilot CLI, Hermes, and OpenCode."
         confidence: high
+    - id: discovery__github__hashgraph-online__hol-guard__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🛠️ Utilities
+        anchor_text: hashgraph-online/hol-guard
+        extracted_url: https://github.com/hashgraph-online/hol-guard
+        surrounding_text: "-   **[hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard)** [![GitHub stars](https://img.shields.io/github/stars/hashgraph-online/hol-guard?style=social)](https://github.com/hashgraph-online/hol-guard): Local stdio MCP server for the HOL Guard AI agent security tool that searches local guard receipts and inventory and reports guard status."
+        confidence: high
 metadata:
   github:
     stars: 711
@@ -80,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-30T05:05:26.995Z"
+    updated_at: "2026-11-19T04:13:45.872Z"
     cause: null
     next_retry_at: null
   stars:
@@ -92,7 +108,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.425Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

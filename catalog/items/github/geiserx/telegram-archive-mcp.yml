@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/geiserx/telegram-archive-mcp
         surrounding_text: "- [GeiserX/telegram-archive-mcp](https://github.com/GeiserX/telegram-archive-mcp) [![GeiserX/telegram-archive-mcp MCP server](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeiserX/telegram-archive-mcp) 🏎️ ☁️ 🍎 🪟 🐧 - Go-based MCP server for Telegram Archive. Search and browse Telegram chat history, list chats, and retrieve messages with full-text search. Docker image available."
         confidence: high
+    - id: discovery__github__geiserx__telegram-archive-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💬 Communication
+        anchor_text: GeiserX/telegram-archive-mcp
+        extracted_url: https://github.com/geiserx/telegram-archive-mcp
+        surrounding_text: "-   **[GeiserX/telegram-archive-mcp](https://github.com/GeiserX/telegram-archive-mcp)** [![GitHub stars](https://img.shields.io/github/stars/GeiserX/telegram-archive-mcp?style=social)](https://github.com/GeiserX/telegram-archive-mcp): Searches messages, browses chats and reads archived Telegram history from a Telegram-Archive instance."
+        confidence: high
 metadata:
   github:
     stars: 5
@@ -85,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: "2026-11-19T04:13:45.871Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,7 +111,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.424Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

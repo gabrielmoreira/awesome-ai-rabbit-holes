@@ -3,11 +3,11 @@
 
 Models that answer typed questions with probabilities instead of generating text — Jev (TypeSafe System One), open Jev-like decision models, the servers and gateways that expose them, and the tooling built on their judgments.
 
-_1722 entries in 13 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_1723 entries in 13 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
-- [Official Jev & System One](#official-jev--system-one) — 69
+- [Official Jev & System One](#official-jev--system-one) — 70
 - [Open & Local Decision Models](#open--local-decision-models) — 236
 - [Local Serving & Gateways](#local-serving--gateways) — 90
 - [Cloud Gateways & Providers](#cloud-gateways--providers) — 24
@@ -67,6 +67,14 @@ _1722 entries in 13 sections, ranked by stars. Each section opens with its top 3
 
   `decision-model` `inference` `routing` `rlcd`
   </details>
+- **[Buddy Jev action](https://buddy.works/docs/integrations/typesafe)** A decision-model service that returns constrained, typed answers—such as scores, choices, or booleans—with confidence values instead of free-form text. <details><summary>More about</summary>
+
+  It allows developers to use AI to programmatically gate or route CI/CD pipelines and workflows without the fragility of parsing unstructured LLM prose.
+
+  _Because nothing says 'stable infrastructure' like outsourcing your deployment gates to a probabilistic confidence score._
+
+  `decision-models` `typed-outputs` `automation` `workflow-gates` `jev`
+  </details>
 - **[Building a Harness with Jev](https://langchain.com/blog/building-a-harness-with-jev)** Jev is a TypeSafe System One decision model that returns typed probabilities for classification tasks like urgency scoring, used via LangChain integrations for fast agent decisions. <details><summary>More about</summary>
 
   It lets developers replace slow LLM calls for structured decisions with a low-latency, low-cost classifier that plugs into agent workflows.
@@ -115,17 +123,10 @@ _1722 entries in 13 sections, ranked by stars. Each section opens with its top 3
 
   `decision-model` `api` `sdk`
   </details>
-- **[Formatho Jev Playground](https://formatho.com/tools/jev-playground)** jev-playground is a TypeSafe AI playground for experimenting with Jev (System One) decision models in the browser. <details><summary>More about</summary>
 
-  It lets developers prototype decision-model judgments—like routing, scoring, or verification—without setting up local infrastructure.
+<details><summary><strong>▸ &nbsp;&nbsp;+40 more in Official Jev & System One &nbsp;—&nbsp; click to expand</strong></summary>
 
-  _Another sandbox that makes you feel productive while avoiding the hard work of actually integrating judgment into your agents._
-
-  `decision-models` `playground` `jev`
-  </details>
-
-<details><summary><strong>▸ &nbsp;&nbsp;+39 more in Official Jev & System One &nbsp;—&nbsp; click to expand</strong></summary>
-
+- **[Formatho Jev Playground](https://formatho.com/tools/jev-playground)** jev-playground is a TypeSafe AI playground for experimenting with Jev (System One) decision models in the browser.
 - **[gg-friggin-ez](https://itisshikhar.github.io/gg-friggin-ez)** GG FRIGGIN EZ is a TypeSafe AI Jev-powered demo for real-time Indic language moderation in Twitch stream chat, comparing System 1 decisions against regex and OpenAI.
 - **[He says he co-invented ChatGPT. His new AI will not write a word](https://dev.to/gabrielanhaia/he-says-he-co-invented-chatgpt-his-new-ai-jev-wont-write-a-word-e3c)** Jev is a decision model that returns typed judgments with calibrated probabilities instead of generating text.
 - **[HTTP API reference](https://docs.typesafe.ai/api/system-one)** An API that returns probabilistic, structured answers to typed questions based on a provided state.
@@ -1139,7 +1140,7 @@ _1722 entries in 13 sections, ranked by stars. Each section opens with its top 3
 - **[matthew004-web/heyreach-jev-bot](https://github.com/matthew004-web/heyreach-jev-bot)** `⭐ 4` heyreach-jev-bot - Signal-based LinkedIn outbound scoring for HeyReach, running on Jev (TypeSafe System One).
 - **[rmosleydb/jev-smart-router](https://github.com/rmosleydb/jev-smart-router)** `⭐ 4` jev-smart-router - JEV Smart Router — a Databricks App that uses TypeSafe JEV to pick which model answers each message, then runs inference on the chosen Databricks Foundation Model API endpoint.
 - **[satviksinha/jev-model-router](https://github.com/satviksinha/jev-model-router)** `⭐ 4` jev-model-router (satviksinha) - Model router for Claude Code using Jev.
-- **[simota/tenbin](https://github.com/simota/tenbin)** `⭐ 4` tenbin - MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code.
+- **[Tenbin](https://github.com/simota/tenbin)** `⭐ 4` tenbin - MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code.
 - **[trietphan/jev-claw](https://github.com/trietphan/jev-claw)** `⭐ 4` jev-claw - Typed model routing for OpenClaw agents, powered by TypeSafe Jev.
 - **[wangzhezbz/jev-pilot](https://github.com/wangzhezbz/jev-pilot)** `⭐ 4` jev-pilot (wangzhezbz) - All-in-one Codex plugin: TypeSafe Jev for reasoning-effort routing, context filtering, and workflow assistance on macOS/Windows/Linux (distinct from Akramovic1/jev-pilot). Project guide.
 - **[abhishekswe/agent-fastpath](https://github.com/abhishekswe/agent-fastpath)** `⭐ 3` `updated ≤30d` A Jev-powered MCP server that provides decision-model gates, risk checks, file triage, and a safe headless browser for coding agents like Claude Code, Codex, and Cursor.

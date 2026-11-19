@@ -36,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: No identifiable tool or resource could be determined from the provided input.
-  why_it_matters: The input appears to be a placeholder or a broken link with no substantive content.
-  mental_damage: The void of an 'undefined' URL is the ultimate developer experience.
-  tags: []
+  summary: A placeholder or broken entry pointing to a generic YouTube page.
+  why_it_matters: It provides no functional value or actionable information for a developer workflow.
+  mental_damage: It's a haunting reminder that even in the age of LLMs, reality can still resolve to `undefined`.
+  tags:
+    - broken
+    - placeholder
+    - "null"
   confidence: high
 curation:
   status: excluded
-  reason: The input provides no actionable information about a specific AI tool, agent, or resource; it is effectively a null entry.
+  reason: The entry lacks a name, description, and substance, appearing to be a broken scrape or a placeholder that points to a generic YouTube landing page.
   evidence:
     - Name and URL are 'undefined'
-    - Repo description is missing
-    - Scraped site context is generic YouTube landing page text
+    - Linked page description is generic YouTube boilerplate
+    - No repo description or README provided
 placement:
   primary_category: null
   section: null
@@ -66,9 +69,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-16T04:12:40.937Z"
+    updated_at: "2026-11-19T04:14:04.335Z"
     cause: null
-    attempts: 16
+    attempts: 17
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -79,11 +82,11 @@ processing:
       input_hash: sha256:81af825d3db3fa11cb294abe3ed28eefc64c8fc303f0e2510fadbfe66e042cd3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input provides no actionable information about a specific AI tool, agent, or resource; it is effectively a null entry.
+      decision_reason: The entry lacks a name, description, and substance, appearing to be a broken scrape or a placeholder that points to a generic YouTube landing page.
       decision_evidence:
         - Name and URL are 'undefined'
-        - Repo description is missing
-        - Scraped site context is generic YouTube landing page text
+        - Linked page description is generic YouTube boilerplate
+        - No repo description or README provided
       category_candidates: []
       contrastive_reason: null
       review_reason: null

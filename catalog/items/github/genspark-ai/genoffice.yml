@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/genspark-ai/genoffice
         surrounding_text: "| [genoffice](https://github.com/genspark-ai/genoffice) | ★ 7,541 | TypeScript | 2026-09-23 | Jev assigns a calibrated relevance score to each of the top 20 locally recalled files and reranks the search results. |"
         confidence: high
+    - id: discovery__github__genspark-ai__genoffice__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: GenOffice (open-source AI office suite whose file search can be reranked by Jev)
+        extracted_url: https://github.com/genspark-ai/genoffice
+        surrounding_text: "- [GenOffice (open-source AI office suite whose file search can be reranked by Jev)](https://github.com/genspark-ai/genoffice) - `Open source` · `Free` · `BYOK`. Free, open-source desktop office suite for Word, Excel, PowerPoint, PDF, Markdown and HTML files with a built-in AI panel, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can edit real .docx/.xlsx/.pptx files locally. Its home-screen file search can switch on Jev reranking, which reads excerpts of the top 20 local hits and moves the document that actually answers the query to the top. [Project guide](community/projects/apps/genoffice.md)."
+        confidence: high
 metadata:
   github:
     stars: 8136
@@ -81,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.457Z"
+    updated_at: "2026-11-19T04:13:45.872Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,7 +107,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.424Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

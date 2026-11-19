@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/griffinwork40/agent-afk
         surrounding_text: "- **[Agent AFK](https://github.com/griffinwork40/agent-afk)** `⭐ 38` — Coding-agent harness built for unattended, away-from-keyboard runs across four surfaces sharing one session manager: one-shot CLI, REPL, cron-friendly headless daemon, and a Telegram bot. Editable agent loop (prompts, permission gates, model routing, explicit terminal states), MCP (stdio/HTTP/SSE + OAuth), lifecycle hooks, background subagents, plan mode, cross-session memory, and an append-only trace receipt (`afk trace show`). Works with Anthropic and any OpenAI-compatible endpoint (GPT, Codex, local MLX/llama.cpp/Ollama). npm `agent-afk`, Node ≥22. Apache-2.0."
         confidence: high
+    - id: discovery__github__griffinwork40__agent-afk__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: Agent AFK (local coding agent you can walk away from, with optional Jev as the what-if verification judge)
+        extracted_url: https://github.com/griffinwork40/agent-afk
+        surrounding_text: "- [Agent AFK (local coding agent you can walk away from, with optional Jev as the what-if verification judge)](https://github.com/griffinwork40/agent-afk) - `Open source` · `Free source build` · `BYOK`. Local coding-agent harness (`afk`) that builds a feature, verifies its own work and texts you when done. Optional Jev integration: configure Jev as an MCP judge so `afk whatif --judge auto` grades verification episodes with calibrated probabilities instead of the same-family model. [Project guide](community/projects/apps/agent-afk.md)."
+        confidence: high
 metadata:
   github:
     stars: 55
@@ -89,7 +105,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: "2026-11-19T04:13:45.872Z"
     cause: null
     next_retry_at: null
   stars:
@@ -99,7 +115,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.425Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

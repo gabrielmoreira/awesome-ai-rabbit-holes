@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube video link with no provided context.
-  why_it_matters: Without metadata, it is impossible to determine if the content is a useful developer tool or resource.
-  mental_damage: The loop of watching AI tutorials to avoid the actual task of building with them is a known software engineering phenomenon.
+  summary: A YouTube video link with no descriptive metadata.
+  why_it_matters: Without any context or description, it is impossible to determine if this content is a relevant developer resource.
+  mental_damage: The existential dread of clicking a link only to realize it's just another uninformative corner of the internet.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The input is a single YouTube video link without descriptive metadata, and a one-off video does not qualify as a standalone product or a sustained curation effort.
+  reason: The input consists solely of a YouTube URL and lacks any descriptive text, README, or metadata to identify it as a tool, framework, or curated resource.
   evidence:
-    - URL is a YouTube link with no accompanying repo description
-    - Scraped context contains only generic YouTube landing page text
+    - Input is a YouTube URL
+    - No repo description or README provided
+    - Scraped site context contains only generic YouTube boilerplate
 placement:
   primary_category: null
   section: null
@@ -65,9 +66,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-16T04:13:39.829Z"
+    updated_at: "2026-11-19T04:14:56.463Z"
     cause: null
-    attempts: 17
+    attempts: 18
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -78,10 +79,11 @@ processing:
       input_hash: sha256:f6a68ea75559ccb8fde3478b1f33e90e7eac8100578b6169410e167592bb0f43
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The input is a single YouTube video link without descriptive metadata, and a one-off video does not qualify as a standalone product or a sustained curation effort.
+      decision_reason: The input consists solely of a YouTube URL and lacks any descriptive text, README, or metadata to identify it as a tool, framework, or curated resource.
       decision_evidence:
-        - URL is a YouTube link with no accompanying repo description
-        - Scraped context contains only generic YouTube landing page text
+        - Input is a YouTube URL
+        - No repo description or README provided
+        - Scraped site context contains only generic YouTube boilerplate
       category_candidates: []
       contrastive_reason: null
       review_reason: null

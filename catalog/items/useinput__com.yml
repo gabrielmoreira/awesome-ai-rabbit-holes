@@ -51,18 +51,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The project lacks a description or README, making its identity impossible to verify.
-  why_it_matters: N/A
-  mental_damage: The most complete piece of documentation provided is a URL and a prayer.
+  summary: Insufficient data to identify the product's core functionality.
+  why_it_matters: No provided information explains how this tool affects developer workflows.
+  mental_damage: The existential dread of a tool named 'Input' that provides zero input on its own purpose.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The entry provides no substantive information regarding its functionality, target audience, or developer use case.
+  reason: The input contains no description, README, or technical context to determine if the tool is a coding agent, framework, or other relevant utility.
   evidence:
-    - No repository description provided
-    - No README or website context available
-    - Source-list context is insufficient to establish a product identity
+    - No repo description or README content provided
+    - Missing stars, activity, and topicality data
 placement:
   primary_category: null
   section: null
@@ -72,9 +71,9 @@ lifecycle:
 processing:
   categorize:
     status: done
-    updated_at: "2026-11-16T04:14:13.244Z"
+    updated_at: "2026-11-19T04:15:39.154Z"
     cause: null
-    attempts: 17
+    attempts: 18
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -85,11 +84,10 @@ processing:
       input_hash: sha256:a6ad39c95444ee1c4fd881d32dafb18cd0dedd844757a0294ad5316565301a2b
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The entry provides no substantive information regarding its functionality, target audience, or developer use case.
+      decision_reason: The input contains no description, README, or technical context to determine if the tool is a coding agent, framework, or other relevant utility.
       decision_evidence:
-        - No repository description provided
-        - No README or website context available
-        - Source-list context is insufficient to establish a product identity
+        - No repo description or README content provided
+        - Missing stars, activity, and topicality data
       category_candidates: []
       contrastive_reason: null
       review_reason: null

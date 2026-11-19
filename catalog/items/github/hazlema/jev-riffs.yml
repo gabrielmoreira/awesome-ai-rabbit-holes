@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/hazlema/jev-riffs
         surrounding_text: "- [**jev-riffs**](https://github.com/hazlema/jev-riffs) — Music pattern ripper: MIDI → interval tokens → code mines candidate motifs → Jev (TypeSafe System One) grades their significance. Web UI with piano roll, click-to-play, WAV export."
         confidence: high
+    - id: discovery__github__hazlema__jev-riffs__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-19T04:13:45.870Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: jev-riffs
+        extracted_url: https://github.com/hazlema/jev-riffs
+        surrounding_text: "- [jev-riffs](https://github.com/hazlema/jev-riffs) - Music pattern ripper: MIDI → interval tokens → code mines candidate motifs → Jev (TypeSafe System One) grades their significance. Web UI with piano roll, click-to-play, WAV export."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -59,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.459Z"
+    updated_at: "2026-11-19T04:13:45.872Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-16T04:12:07.245Z"
+    updated_at: "2026-11-19T04:13:52.425Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

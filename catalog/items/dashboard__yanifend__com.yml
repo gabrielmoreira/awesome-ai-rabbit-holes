@@ -37,17 +37,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Insufficient information provided to identify this as a developer-centric AI tool.
-  why_it_matters: The project lacks any identifiable utility or context for the curated catalog.
-  mental_damage: The most taxing part of this review was staring at a landing page that refuses to explain itself.
+  summary: A dashboard site titled 'Yanifend' with no provided description or functional context.
+  why_it_matters: It is impossible to determine any developer utility from the available metadata.
+  mental_damage: A tool that says 'we're listening you' without a README is less of a product and more of a psychological thriller.
   tags: []
   confidence: high
 curation:
   status: excluded
-  reason: The project provides no technical context, description, or README content to suggest it is a developer-facing AI tool.
+  reason: The project lacks the necessary descriptive signals to be identified as a developer-facing AI tool within the catalog scope.
   evidence:
-    - Scraped title 'Yanifend - we're listening you' is non-descriptive and non-technical
-    - No repository description or README content was provided to establish scope
+    - No repo description or README content provided
+    - Scraped title 'we're listening you' provides no signal for developer-tooling or AI relevance
 placement:
   primary_category: null
   secondary_categories: []
@@ -67,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-11-16T04:13:14.858Z"
+    updated_at: "2026-11-19T04:14:38.721Z"
     cause: null
-    attempts: 15
+    attempts: 16
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null
@@ -80,10 +80,10 @@ processing:
       input_hash: sha256:a0a10194dbe3f459114ea63f6fea641f85d5576587063b4660eb3768852b6424
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project provides no technical context, description, or README content to suggest it is a developer-facing AI tool.
+      decision_reason: The project lacks the necessary descriptive signals to be identified as a developer-facing AI tool within the catalog scope.
       decision_evidence:
-        - Scraped title 'Yanifend - we're listening you' is non-descriptive and non-technical
-        - No repository description or README content was provided to establish scope
+        - No repo description or README content provided
+        - Scraped title 'we're listening you' provides no signal for developer-tooling or AI relevance
       category_candidates: []
       contrastive_reason: null
       review_reason: null
