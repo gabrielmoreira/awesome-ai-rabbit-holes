@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/hndrr/comfyui-jev
         surrounding_text: "- [**ComfyUI-Jev**](https://github.com/hndrr/ComfyUI-Jev) — Custom nodes for using Jev's text interpretation and judgments in ComfyUI. Use natural-language instructions to select candidates, evaluate conditions, score text, or extract numbers, then pass the results to other nodes. Jev judgments use the TypeSafe API by default."
         confidence: high
+    - id: discovery__github__hndrr__comfyui-jev__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: ComfyUI-Jev
+        extracted_url: https://github.com/hndrr/comfyui-jev
+        surrounding_text: "- [ComfyUI-Jev](https://github.com/hndrr/ComfyUI-Jev) ([site](https://registry.comfy.org/ja/nodes/comfyui-jev)) - Jev text interpretation and judgments for ComfyUI."
+        confidence: high
 metadata:
   github:
     stars: 6
@@ -59,7 +74,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.459Z"
+    updated_at: "2026-11-23T04:13:09.765Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +84,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.425Z"
+    updated_at: "2026-11-23T04:13:17.571Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/jackie-cqz/dsh-jev-plugin
         surrounding_text: "- [dsh-jev-plugin (jackie-cqz)](https://github.com/jackie-cqz/dsh-jev-plugin) - DeepSeek Harness plugin for TypeSafe Jev noul/choice/score with configurable guardrails and Web UI result cards (distinct from other dsh-jev* plugins). [Project guide](community/projects/tools/jackie-cqz-dsh-jev-plugin.md)."
         confidence: high
+    - id: discovery__github__jackie-cqz__dsh-jev-plugin__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: dsh-jev-plugin (jackie-cqz)
+        extracted_url: https://github.com/jackie-cqz/dsh-jev-plugin
+        surrounding_text: "- [dsh-jev-plugin (jackie-cqz)](https://github.com/jackie-cqz/dsh-jev-plugin) - DeepSeek Harness plugin for TypeSafe Jev: typed decisions, configurable guardrails, and Web UI result cards."
+        confidence: high
 metadata:
   github:
     stars: 8
@@ -58,7 +73,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.461Z"
+    updated_at: "2026-11-23T04:13:09.766Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +82,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.425Z"
+    updated_at: "2026-11-23T04:13:17.572Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

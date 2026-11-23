@@ -67,6 +67,22 @@ provenance:
         extracted_url: https://github.com/razorback16/openjev
         surrounding_text: "- [OpenJev (DiffusionGemma)](https://github.com/razorback16/openjev) - Independent Jev-compatible server over DiffusionGemma/vLLM; the documented setup requires custom vLLM patches."
         confidence: high
+    - id: discovery__github__razorback16__openjev__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: OpenJev
+        extracted_url: https://github.com/razorback16/openjev
+        surrounding_text: "- [OpenJev](https://github.com/razorback16/openjev) ![stars](https://img.shields.io/github/stars/razorback16/openjev?style=flat-square&label=%E2%98%85) - Decision server: reads answers straight from the model's probabilities instead of parsing text, so an answer cannot fall outside the schema, and returns a probability plus a confidence in tens of milliseconds."
+        confidence: high
 metadata:
   github:
     stars: 591
@@ -103,7 +119,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.386Z"
+    updated_at: "2026-11-23T04:13:09.764Z"
     cause: null
     next_retry_at: null
   stars:
@@ -112,7 +128,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.428Z"
+    updated_at: "2026-11-23T04:13:17.575Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

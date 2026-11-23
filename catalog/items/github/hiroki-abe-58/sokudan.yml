@@ -22,6 +22,36 @@ provenance:
         extracted_url: https://github.com/hiroki-abe-58/sokudan
         surrounding_text: "- [sokudan](https://github.com/hiroki-abe-58/sokudan) - Japanese System One decision model (Jev-style): typed answers and probabilities in one forward pass, no text generation; bench_ja/bench_en and Laya bias repro. [Project guide](community/projects/tools/hiroki-abe-58-sokudan.md)."
         confidence: high
+    - id: discovery__github__hiroki-abe-58__sokudan__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Benchmarks & research
+        anchor_text: sokudan
+        extracted_url: https://github.com/hiroki-abe-58/sokudan
+        surrounding_text: "- [sokudan](https://github.com/hiroki-abe-58/sokudan) - Japanese System One decision model (Jev-style): typed answers and probabilities in one forward pass, no text generation. Includes bench_ja/bench_en and a Laya position-bias repro."
+        confidence: high
+    - id: discovery__github__hiroki-abe-58__sokudan__awesome-list__cobanov__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: cobanov/awesome-jev
+        url: https://github.com/cobanov/awesome-jev
+        repository: cobanov/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Open reproductions and research
+        anchor_text: sokudan
+        extracted_url: https://github.com/hiroki-abe-58/sokudan
+        surrounding_text: "- [sokudan](https://github.com/hiroki-abe-58/sokudan) - Apache-2.0 Japanese decision model on a ModernBERT-ja backbone (314.6M parameters) that returns typed choice, score and bool distributions in one forward pass with no generated text; v0.2 is a weight average (model soup) of eight seeds trained as v0.1, and on its own synthetic 300-item `bench_ja` (CC BY 4.0) it reports 0.880 choice accuracy, 0.075 score RPS and 0.844 bool AUROC from one run with no spread, states that bool under-predicts true, and does not call or measure Jev."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -65,7 +95,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.459Z"
+    updated_at: "2026-11-23T04:13:09.765Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,7 +105,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.425Z"
+    updated_at: "2026-11-23T04:13:17.571Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

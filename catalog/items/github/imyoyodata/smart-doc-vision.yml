@@ -1,0 +1,87 @@
+id: github__imyoyodata__smart-doc-vision
+kind: github-repo
+name: imyoyodata/smart-doc-vision
+canonical_url: https://github.com/imyoyodata/smart-doc-vision
+identity:
+  github_repo: imyoyodata/smart-doc-vision
+provenance:
+  discoveries:
+    - id: discovery__github__imyoyodata__smart-doc-vision__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Applications
+        anchor_text: smart-doc-vision
+        extracted_url: https://github.com/imyoyodata/smart-doc-vision
+        surrounding_text: "- [smart-doc-vision](https://github.com/ImYoyoData/smart-doc-vision) - 智审图档 SmartDoc Vision 是一个面向档案、图纸、扫描件与文本内容的审核中台。后端使用 Go + Gin，数据层使用 MySQL + Redis，管理后台使用 Vue 3 + TypeScript + Naive UI + ECharts。平台支持通用大模型（OpenAI 兼容协议或 Anthropic Claude Messages API，两者属于同一业务分类，仅协议不同），并原生支持 JEV / TypeSafe System One 结构化决策模型。"
+        confidence: high
+    - id: discovery__github__imyoyodata__smart-doc-vision__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: SmartDoc Vision (self-hosted archive and drawing review platform with Jev classifiers)
+        extracted_url: https://github.com/imyoyodata/smart-doc-vision
+        surrounding_text: "- [SmartDoc Vision (self-hosted archive and drawing review platform with Jev classifiers)](https://github.com/ImYoyoData/smart-doc-vision) - `Open source` · `Free source build` · `BYOK`. Chinese-language self-hosted review platform for archives, drawings, scans and text: a Go and Gin backend with MySQL and Redis and a Vue 3 admin console run configurable, traceable review pipelines on general LLMs and on Jev Choice and Noul classifiers, with model failover, circuit breaking and token accounting. [Project guide](community/projects/apps/smartdoc-vision.md)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: curated
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-11-23T04:13:09.765Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-11-23T04:13:17.572Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

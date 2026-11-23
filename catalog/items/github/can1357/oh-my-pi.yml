@@ -53,6 +53,22 @@ provenance:
         extracted_url: https://github.com/can1357/oh-my-pi
         surrounding_text: "- [**oh-my-pi**](https://github.com/can1357/oh-my-pi) — Oh My Pi includes an optional TypeSafe judgment provider for bounded decisions in coding-agent workflows."
         confidence: high
+    - id: discovery__github__can1357__oh-my-pi__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+          - Harness
+        anchor_text: oh-my-pi
+        extracted_url: https://github.com/can1357/oh-my-pi
+        surrounding_text: "7. [oh-my-pi](https://github.com/can1357/oh-my-pi): Coding agent with the IDE wired in. Built by Stencil Labs."
+        confidence: high
 metadata:
   github:
     stars: 34068
@@ -111,7 +127,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-10-12T04:24:05.394Z"
+    updated_at: "2026-11-23T04:13:09.764Z"
     cause: null
     next_retry_at: null
   stars:
@@ -121,7 +137,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.423Z"
+    updated_at: "2026-11-23T04:13:17.569Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -22,6 +22,37 @@ provenance:
         extracted_url: https://github.com/vshulcz/deja-vu
         surrounding_text: "-   **[vshulcz/deja-vu](https://github.com/vshulcz/deja-vu)** [![GitHub stars](https://img.shields.io/github/stars/vshulcz/deja-vu?style=social)](https://github.com/vshulcz/deja-vu): Shared session memory for coding agents, read from the transcripts 25 agents already write on this machine — including sessions from before it was installed. Nothing is written to a memory store; retrieval is lexical, with no LLM and no embeddings. One Go binary, MCP server plus hooks. `npx @vshulcz/deja-vu`"
         confidence: high
+    - id: discovery__github__vshulcz__deja-vu__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: deja-vu
+        extracted_url: https://github.com/vshulcz/deja-vu
+        surrounding_text: "- **[deja-vu](https://github.com/vshulcz/deja-vu)** `⭐ 1.6k` — Local memory and session search over the transcripts 47 coding agents (Claude Code, Codex, Cursor, OpenCode, Gemini CLI, OpenClaw, Hermes, Pi, Aider and more) already write to disk, including sessions from before it was installed. Serves cross-agent recall, line-level file blame, and deleted-session recovery over a terminal UI, CLI, MCP server, and hooks with zero LLM calls and automatic credential redaction. Single Go binary; MIT."
+        confidence: high
+    - id: discovery__github__vshulcz__deja-vu__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Code AI
+        anchor_text: deja-vu
+        extracted_url: https://github.com/vshulcz/deja-vu
+        surrounding_text: "| [deja-vu](https://github.com/vshulcz/deja-vu) | Local searchable memory over the session transcripts 44 coding agents (Claude Code, Codex CLI, Cursor, Gemini CLI, OpenCode, Aider) already write to disk, with MCP tools, hooks, and secret redaction. | ![GitHub Badge](https://img.shields.io/github/stars/vshulcz/deja-vu.svg?style=flat-square) |"
+        confidence: high
 metadata:
   github:
     stars: 1120
@@ -58,7 +89,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.483Z"
+    updated_at: "2026-11-23T04:13:09.764Z"
     cause: null
     next_retry_at: null
   stars:
@@ -67,7 +98,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.430Z"
+    updated_at: "2026-11-23T04:13:17.577Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

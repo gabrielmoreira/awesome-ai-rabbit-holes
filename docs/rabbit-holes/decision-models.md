@@ -424,7 +424,7 @@ _1723 entries in 13 sections, ranked by stars. Each section opens with its top 3
   `llm-inference` `proxy-server` `optimization` `api-gateway` `mixture-of-experts`
   </details>
 - **[Ollaya](https://github.com/ollaya-dev/ollaya)** `⭐ 1.1k` ollaya (site) - Run open decision models locally — pull, run and serve Laya and other open Jev alternatives behind a TypeSafe-compatible API.
-- **[razorback16/openjev](https://github.com/razorback16/openjev)** `⭐ 591` openjev (site) - Open, Jev-compatible System One decision server on DiffusionGemma.
+- **[OpenJev](https://github.com/razorback16/openjev)** `⭐ 591` openjev (site) - Open, Jev-compatible System One decision server on DiffusionGemma.
 - **[Simple Jev](https://github.com/featherless-ai/simple-jev)** 🔥 `⭐ 580` `updated ≤30d` Turn any open model into a classifier/jev endpoint.
 - **[System One Connector](https://github.com/itsmostafa/system-one-connector)** `⭐ 340` System One Connector - Go MCP evaluate connector giving agents typed Jev (or local System One / Laya) judgments with probabilities for Claude Code, Codex, Hermes, and pi. Project guide.
 - **[TypeSafe MCP](https://github.com/itsmostafa/typesafe-mcp)** `⭐ 340` typesafe-mcp (post) - Go CLI and single-binary MCP server exposing TypeSafe judgments to Claude Desktop, Claude Code, and Codex.

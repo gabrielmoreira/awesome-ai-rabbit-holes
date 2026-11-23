@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/hugo-alves/jev-router-playground
         surrounding_text: "- [**jev-router-playground**](https://github.com/hugo-alves/jev-router-playground) — A model-routing playground where Jev picks a candidate and users compare the resulting answers."
         confidence: high
+    - id: discovery__github__hugo-alves__jev-router-playground__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Demos & playgrounds
+        anchor_text: jev-router-playground
+        extracted_url: https://github.com/hugo-alves/jev-router-playground
+        surrounding_text: "- [jev-router-playground](https://github.com/hugo-alves/jev-router-playground) ([site](https://kvhx37ziab90c.space.minimax.io)) - Interactive playground for testing Jev model-routing decisions against OpenRouter models."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -57,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.460Z"
+    updated_at: "2026-11-23T04:13:09.765Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.425Z"
+    updated_at: "2026-11-23T04:13:17.572Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

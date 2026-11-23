@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/imikerussell/beebots
         surrounding_text: "- **Games & simulations (3):** [beebots](https://github.com/imikerussell/beebots), [Jev Plays Pokémon Red](https://github.com/christianmat/jev-pokemon), [Jev Driver](https://github.com/reinhard-z/vision-jev)"
         confidence: high
+    - id: discovery__github__imikerussell__beebots__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Apps powered by Jev
+        anchor_text: beebots
+        extracted_url: https://github.com/imikerussell/beebots
+        surrounding_text: "- [beebots](https://github.com/imikerussell/beebots) - `Open source` · `Free source build` · `BYOK`. Three OKX paper-trading bees; every trade decision via TypeSafe Jev (OpenAI only for bee design/portraits). Not financial advice. [Project guide](community/projects/apps/beebots.md)."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -55,7 +71,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.461Z"
+    updated_at: "2026-11-23T04:13:09.765Z"
     cause: null
     next_retry_at: null
   stars:
@@ -64,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.425Z"
+    updated_at: "2026-11-23T04:13:17.572Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

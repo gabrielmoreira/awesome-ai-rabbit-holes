@@ -82,6 +82,22 @@ provenance:
         extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
         surrounding_text: "**September 18: Python SDK 0.7.0.** [Release notes](https://github.com/typesafe-ai/typesafe-sdk-python/releases/tag/v0.7.0) document a breaking serialization change from `msgspec` to Pydantic, a new `response_model` argument, and corrected serialization of `str` subclasses."
         confidence: high
+    - id: discovery__github__typesafe-ai__typesafe-sdk-python__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: TypeSafe Python SDK
+        extracted_url: https://github.com/typesafe-ai/typesafe-sdk-python
+        surrounding_text: "- [TypeSafe Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) ![stars](https://img.shields.io/github/stars/typesafe-ai/typesafe-sdk-python?style=flat-square&label=%E2%98%85) - Official SDK: the first-party Python client for the API, installable from PyPI and the base many Python entries here would otherwise vendor for themselves."
+        confidence: high
 metadata:
   github:
     stars: 262
@@ -118,7 +134,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.378Z"
+    updated_at: "2026-11-23T04:13:09.764Z"
     cause: null
     next_retry_at: null
   stars:
@@ -127,7 +143,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.429Z"
+    updated_at: "2026-11-23T04:13:17.577Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

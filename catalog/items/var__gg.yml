@@ -68,10 +68,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-11-19T04:15:43.959Z"
-    cause: null
-    attempts: 17
+    status: deferred
+    updated_at: "2026-11-23T04:13:20.303Z"
+    cause:
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for var__gg: 410 status code (no body)"
+    attempts: 18
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 93d0d81bdef9
     next_retry_at: null

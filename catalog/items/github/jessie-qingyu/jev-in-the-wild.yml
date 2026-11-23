@@ -21,6 +21,21 @@ provenance:
         extracted_url: https://github.com/jessie-qingyu/jev-in-the-wild
         surrounding_text: "- [jev-in-the-wild](https://github.com/Jessie-QingYu/jev-in-the-wild) - Index covering Reddit, Hacker News and YouTube alongside GitHub, with a dedicated section for limits and failed results. Data is JSON with a schema; the README is generated from it."
         confidence: high
+    - id: discovery__github__jessie-qingyu__jev-in-the-wild__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-23T04:13:09.762Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Other lists
+        anchor_text: jev-in-the-wild
+        extracted_url: https://github.com/jessie-qingyu/jev-in-the-wild
+        surrounding_text: "- [jev-in-the-wild](https://github.com/Jessie-QingYu/jev-in-the-wild) ([site](https://jessie.romeos.cc/full/apps/jev-tracker)) - Real-world Jev use cases, open-source projects, benchmarks and criticism — what people actually build with TypeSafe AI's Jev, and where it fails. Machine-readable, updated daily."
+        confidence: high
 metadata:
   github:
     stars: 7
@@ -57,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.462Z"
+    updated_at: "2026-11-23T04:13:09.766Z"
     cause: null
     next_retry_at: null
   stars:
@@ -66,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-11-19T04:13:52.425Z"
+    updated_at: "2026-11-23T04:13:17.572Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
