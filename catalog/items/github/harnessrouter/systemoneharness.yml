@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/harnessrouter/systemoneharness
         surrounding_text: "- [SystemOneHarness](https://github.com/HarnessRouter/SystemOneHarness) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/HarnessRouter/SystemOneHarness?style=flat-square&label=%E2%98%85) - Model evaluation: execution harness and dual-loop test framework that compiles goals, browser environments, and MCP servers into bounded System One reflexes, evaluating Jev against deterministic baselines."
         confidence: high
+    - id: discovery__github__harnessrouter__systemoneharness__awesome-list__hellogumbo__awesome-jev
+      discovered_at: "2026-11-26T04:11:49.215Z"
+      source:
+        type: awesome-list
+        name: hellogumbo/awesome-jev
+        url: https://github.com/hellogumbo/awesome-jev
+        repository: hellogumbo/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent tooling
+        anchor_text: SystemOneHarness
+        extracted_url: https://github.com/harnessrouter/systemoneharness
+        surrounding_text: "- [SystemOneHarness](https://github.com/HarnessRouter/SystemOneHarness) - The System One harness for System One models. Run Jev and other System One models locally or directly on HarnessRouter.ai."
+        confidence: high
 metadata:
   github:
     stars: 183
@@ -81,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.414Z"
+    updated_at: "2026-11-26T04:11:49.217Z"
     cause: null
     next_retry_at: null
   stars:
@@ -91,7 +106,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-23T04:13:17.571Z"
+    updated_at: "2026-11-26T04:11:56.584Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

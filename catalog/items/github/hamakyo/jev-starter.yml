@@ -36,6 +36,22 @@ provenance:
         extracted_url: https://github.com/hamakyo/jev-starter
         surrounding_text: "- [**jev-starter**](https://github.com/hamakyo/jev-starter) — TypeScript patterns for thresholds, fallbacks, human review and evaluation on top of the TypeSafe SDK."
         confidence: high
+    - id: discovery__github__hamakyo__jev-starter__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-26T04:11:49.215Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: jev-starter
+        extracted_url: https://github.com/hamakyo/jev-starter
+        surrounding_text: "- [jev-starter](https://github.com/hamakyo/jev-starter) ![stars](https://img.shields.io/github/stars/hamakyo/jev-starter?style=flat-square&label=%E2%98%85) - Scaffold: starts from the position that the official SDK already covers the typed client, and builds what a production application still needs around a decision, published to npm with provenance."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -89,7 +105,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.414Z"
+    updated_at: "2026-11-26T04:11:49.217Z"
     cause: null
     next_retry_at: null
   stars:
@@ -99,7 +115,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-23T04:13:17.571Z"
+    updated_at: "2026-11-26T04:11:56.584Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

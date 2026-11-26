@@ -67,6 +67,22 @@ provenance:
         extracted_url: https://github.com/abovecolin/jevclient
         surrounding_text: "- [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for typed Jev questions and probabilities."
         confidence: high
+    - id: discovery__github__abovecolin__jevclient__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-26T04:11:49.215Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: scraped
+        section_path:
+          - Full list
+          - Infra / SDKs / Integrations
+        anchor_text: jevclient
+        extracted_url: https://pypi.org/project/jevclient
+        surrounding_text: "- [jevclient](https://pypi.org/project/jevclient/) - Python ecosystem: async client for Jev published on PyPI."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -117,7 +133,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.379Z"
+    updated_at: "2026-11-26T04:11:49.216Z"
     cause: null
     next_retry_at: null
   stars:

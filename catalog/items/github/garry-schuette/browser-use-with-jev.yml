@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/garry-schuette/browser-use-with-jev
         surrounding_text: "- [**browser-use-with-jev**](https://github.com/garry-schuette/browser-use-with-jev) — \\*\\*Keep Browser Use's execution engine. Move bounded decisions to Jev.\\*\\*"
         confidence: high
+    - id: discovery__github__garry-schuette__browser-use-with-jev__awesome-list__appitstudio__awesome-jev
+      discovered_at: "2026-11-26T04:11:49.215Z"
+      source:
+        type: awesome-list
+        name: AppitStudio/awesome-jev
+        url: https://github.com/appitstudio/awesome-jev
+        repository: AppitStudio/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Community projects
+          - Developer projects and integrations
+        anchor_text: Browser Use with Jev by garry-schuette (Jev picks browser actions in the Codex sidebar or with Browser Use)
+        extracted_url: https://github.com/garry-schuette/browser-use-with-jev
+        surrounding_text: "- [Browser Use with Jev by garry-schuette (Jev picks browser actions in the Codex sidebar or with Browser Use)](https://github.com/garry-schuette/browser-use-with-jev) - Lets Jev choose the next concrete browser action from validated candidates while a host model handles generation, recovery and final verification. In Codex desktop it drives the visible in-app browser through a bundled skill; the Python SDK and standalone mode keep the installed Browser Use engine unpatched. Early alpha with a public verification ledger, including failed holdout runs. [Project guide](community/projects/tools/browser-use-with-jev.md)."
+        confidence: high
 metadata:
   github:
     stars: 3
@@ -59,7 +75,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.457Z"
+    updated_at: "2026-11-26T04:11:49.217Z"
     cause: null
     next_retry_at: null
   stars:
@@ -69,7 +85,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-23T04:13:17.571Z"
+    updated_at: "2026-11-26T04:11:56.584Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

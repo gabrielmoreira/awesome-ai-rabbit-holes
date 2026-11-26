@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/deepopen-com/deepopen
         surrounding_text: "| [deepopen](https://github.com/deepopen-com/deepopen) | ★ 383 | Python | 2026-09-23 | 非自回归System 1决策引擎，专为结构化类型决策场景设计 DeepOpen Multilingual, non-autoregressive System 1 decision engine. |"
         confidence: high
+    - id: discovery__github__deepopen-com__deepopen__awesome-list__yibie__awesome-jev
+      discovered_at: "2026-11-26T04:11:49.215Z"
+      source:
+        type: awesome-list
+        name: yibie/awesome-jev
+        url: https://github.com/yibie/awesome-jev
+        repository: yibie/awesome-jev
+      extraction:
+        mode: parsed
+        section_path:
+          - Full list
+          - Calibration & Research
+        anchor_text: DeepOpen
+        extracted_url: https://github.com/deepopen-com/deepopen
+        surrounding_text: "- [DeepOpen](https://github.com/deepopen-com/deepopen) ![stars](https://img.shields.io/github/stars/deepopen-com/deepopen?style=flat-square&label=%E2%98%85) - Non-autoregressive SDK: evaluates predefined questions over text or JSON and returns labels, scores and probabilities without generating text, with benchmark tables in the README rather than claims."
+        confidence: high
 metadata:
   github:
     stars: 1950
@@ -60,7 +76,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-29T13:07:10.454Z"
+    updated_at: "2026-11-26T04:11:49.217Z"
     cause: null
     next_retry_at: null
   stars:
@@ -70,7 +86,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-11-23T04:13:17.570Z"
+    updated_at: "2026-11-26T04:11:56.583Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
