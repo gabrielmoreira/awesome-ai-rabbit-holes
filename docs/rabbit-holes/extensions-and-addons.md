@@ -3,7 +3,7 @@
 
 Plugins, integrations, and tools that extend a coding agent, editor, or development workflow rather than standing alone as a primary product.
 
-_168 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
+_167 entries in 5 sections, ranked by stars. Each section opens with its top 30; the rest of that section waits behind the **▸ more** panel at its end._
 
 ## Contents
 
@@ -11,7 +11,7 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - [Claude Code & Agent Tools](#claude-code--agent-tools) — 78
 - [Testing & Code Quality](#testing--code-quality) — 15
 - [Security & DevSecOps](#security--devsecops) — 27
-- [API & Service Integrations](#api--service-integrations) — 23
+- [API & Service Integrations](#api--service-integrations) — 22
 
 ## IDE & Editor Add-ons
 
@@ -612,11 +612,3 @@ _168 entries in 5 sections, ranked by stars. Each section opens with its top 30;
 - **[LucasGorgal/localfig](https://github.com/lucasgorgal/localfig)** `⭐ 1` LucasGorgal/localfig - Exposes the Figma desktop app's Plugin API on the open file: inline renders, design token reading and one undo step per call, without the cloud API.
 - **[nabsku/pi-follow-through](https://github.com/nabsku/pi-follow-through)** `⭐ 1` pi-follow-through - Pi extension that asks TypeSafe Jev whether useful work remains after a run and nudges only with verifiable unfinished evidence. Project guide.
 - **[biztactix/n8n-nodes-typesafe](https://github.com/biztactix/n8n-nodes-typesafe)** `⭐ 0` `updated ≤30d` Typesafe AI Node for N8N.
-- **[ClevAgent](https://clevagent.io)** ClevAgent is a workspace for running and guiding AI agents with built-in safety and optimization layers. <details><summary>More about</summary>
-
-  It provides independent oversight of agent actions to prevent costly mistakes like credential leaks or destructive commands.
-
-  _Finally, a babysitter for your AI intern who keeps ordering $2000 pizzas on the corporate card._
-
-  `agent-safety` `workspace` `guardrails`
-  </details>
